@@ -1,1 +1,1 @@
-"# words" 
+Open words

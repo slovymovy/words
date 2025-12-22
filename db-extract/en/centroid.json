@@ -1,0 +1,509 @@
+{
+    "word": "centroid",
+    "lang_code": "en",
+    "source_file_to_entries": {
+        "raw-wiktextract-data.jsonl": [
+            {
+                "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                "word": "centroid",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "f9828622-2961-4369-b11b-18fb3a90d456",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "centroids"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "bdbcf24d-a473-3165-bd0c-06518fba4105",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "glosses": [
+                            "The point at which gravitational force (or other universally and uniformly acting force) may be supposed to act on a given rigid, uniformly dense body; the centre of gravity or centre of mass."
+                        ],
+                        "tags": [
+                            "of an object or a geometrical figure"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "5b7ee2f5-a4df-49e3-81ff-1ea1e8a5b784",
+                                "sense_id": "bdbcf24d-a473-3165-bd0c-06518fba4105",
+                                "text": "The center of gravity of any body or geometrical magnitude is by definition the same as the centroid of a certain system of parallel forces. It will be convenient, therefore, to use the word centroid in most cases instead of center of gravity.[…]The centroid of any area may be found by the following method: Divide the area into parts such that the area and centroid of each part are known. Take the centroids of the partial areas as the points of application of forces proportional respectively to those areas. The centroid of this system of forces is the centroid of the total area, and may be found by the method of Art. 172."
+                            },
+                            {
+                                "example_id": "c7568da9-9b15-4e4f-b6a7-99a96c111e5a",
+                                "sense_id": "bdbcf24d-a473-3165-bd0c-06518fba4105",
+                                "text": "For example, if a postal code area (PCA) has 1000 distinct residences, we might suppose all 1000 residences are at the centroid of the PCA. Centroids are commonly used, for example, with geographic information systems and CD-ROM phone books (Francis, Lowe, Rushton and Rayco 1999)."
+                            },
+                            {
+                                "example_id": "08195f81-dde2-457e-bb42-f590d94935a6",
+                                "sense_id": "bdbcf24d-a473-3165-bd0c-06518fba4105",
+                                "text": "operatorname Centroid(𝒳)=(∫xg(x)dx)/(∫g(x)dx)      (6)\nwhere the integrals are taken over the whole space ℝⁿ, and g is the characteristic function of the subset, which is 1 inside 𝒳 and 0 outside it [27]."
+                            }
+                        ]
+                    },
+                    {
+                        "sense_id": "1d4ea643-caa4-3c3c-9010-e14fe313f13e",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "glosses": [
+                            "The point of intersection of the three medians of a given triangle; the point whose (Cartesian) coordinates are the arithmetic mean of the coordinates of the three vertices."
+                        ],
+                        "tags": [
+                            "specifically"
+                        ],
+                        "examples": []
+                    },
+                    {
+                        "sense_id": "fa058e82-9ec1-3f68-b26b-2328a31db7e8",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "glosses": [
+                            "the point whose (Cartesian) coordinates are the arithmetic mean of the coordinates of a given finite set of points."
+                        ],
+                        "tags": [
+                            "of a finite set of points"
+                        ],
+                        "examples": []
+                    },
+                    {
+                        "sense_id": "04675b24-7af3-3765-a151-39fa4b8b124e",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "glosses": [
+                            "An analogue of the centre of gravity of a nonuniform body in which local density is replaced by a specified function (which can take negative values) and the place of the body's shape is taken by the function's domain."
+                        ],
+                        "tags": [
+                            "of a function"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "57397bfd-a5ee-469f-a7d0-c75bea1096c0",
+                                "sense_id": "04675b24-7af3-3765-a151-39fa4b8b124e",
+                                "text": "The centroid of an arbitrary function f is given by #92;frac#123;#92;intxf(x)dx#125;#123;#92;intf(x)dx#125;, where the integrals are calculated over the domain of f."
+                            }
+                        ]
+                    },
+                    {
+                        "sense_id": "3fa986bc-5d63-3786-be3d-1a087a1923f1",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "glosses": [
+                            "the arithmetic mean (alternatively, median) position of a cluster of points in a coordinate system based on some application-dependent measure of distance."
+                        ],
+                        "tags": [
+                            "of a cluster of points"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "94b929ed-9b18-4ec3-bfa2-dfc45ea65721",
+                                "sense_id": "3fa986bc-5d63-3786-be3d-1a087a1923f1",
+                                "text": "The k-means procedure classifies a given data set by using a user defined number of clusters, k, a priori. The centroids can be placed randomly, or algorithmically, but it should be noted that the initial placement will affect the result. The next step is to analyze each point within the data set and group it with the nearest centroid according to some distance metric. When all points have been assigned to a group, a new centroid is calculated for each group as a barycenter of the cluster, resulting from the previous step. Once the k new centroids are calculated, the algorithm reiterates through the data set, and each sample is again assigned to a cluster based on its distance to the new centroids. This process is continued until the position^([sic]) of the centroids no longer change."
+                            },
+                            {
+                                "example_id": "159eae56-6b5f-4922-b455-a33848f9ef77",
+                                "sense_id": "3fa986bc-5d63-3786-be3d-1a087a1923f1",
+                                "text": "The k-means clustering algorithm (MacQueen, 1967) is a widely used clustering method that applies relocation of points to find a locally optimal partitioning of a dataset. In k-means, the total distance between each data point and a representative point (centroid) of the cluster to which it is assigned is minimized. Each iteration of k-means has two steps. In the cluster assignment step, k-means assigns each point to a cluster such that, of all the current cluster centroids, the point is closest to the centroid of that cluster. In the cluster re-estimation step, k-means re-estimates the new cluster centroids based on the reassignments of points to clusters in the previous step. The cluster re-assignment and centroid re-estimation steps proceed in iterations until a specified convergence criterion is reached, such as when the total distance between clusters and centroids does not change substantially from one iteration to another."
+                            }
+                        ]
+                    },
+                    {
+                        "sense_id": "f2607ab3-9128-3ec7-8ec5-483c46202c9f",
+                        "entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "glosses": [
+                            "Given a tree of n nodes, either (1) a unique node whose removal would split the tree into subtrees of fewer than n/2 nodes, or (2) either of a pair of adjacent nodes such that removal of the edge connecting them would split the tree into two subtrees of exactly n/2 nodes."
+                        ],
+                        "tags": [
+                            "of a tree"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "5135c071-587c-4dd2-ad64-15d45f0eec6a",
+                                "sense_id": "f2607ab3-9128-3ec7-8ec5-483c46202c9f",
+                                "text": "1974 [Prentice-Hall], Narsingh Deo, Graph Theory with Applications to Engineering and Computer Science, 2017, Dover, page 248,\nJust as in the case of centers of a tree (Section 3-4), it can be shown that every tree has either one centroid or two centroids. It can also be shown that if a tree has two centroids, the centroids are adjacent."
+                            },
+                            {
+                                "example_id": "2ac1edf7-725f-475d-92e3-e44808a02a47",
+                                "sense_id": "f2607ab3-9128-3ec7-8ec5-483c46202c9f",
+                                "text": "2009, Hao Yuan, Patrick Eugster, An Efficient Algorithm for Solving the Dyck-CFL Reachability Problem on Trees, Giuseppe Castagna (editor), Programming Languages and Systems: 18th European Symposium, Proceedings, Springer, LNCS 5502, page 186,\nA node x in a tree T is called a centroid of T if the removal of x will make the size of each remaining connected component no greater than |T|/2. A tree may have at most two centroids, and if there are two then one must be a neighbor of the other [6, 5]. Throughout this paper, we specify the centroid to be the one whose numbering is lexicographically smaller (i.e., we number the nodes from 1 to n). There exists a linear time algorithm to compute the centroid of a tree due to the work of Goldman [21]. We use operatorname CT(T) to denote the centroid of T computed by the linear time algorithm."
+                            }
+                        ]
+                    }
+                ],
+                "translations": [
+                    {
+                        "translation_id": "219b7982-371c-48e9-821a-db8d0ce350f4",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "centroïde",
+                        "target_lang_code": "fr",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "centroïde",
+                                "target_lang_code": "fr",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "8879a91b-3ef4-3b19-ae2b-da7195020a78",
+                                        "entry_id": "83635465-d2a4-3c0e-a3de-fe2195a7fef9",
+                                        "glosses": [
+                                            "Centre d’un polygone."
+                                        ],
+                                        "tags": [],
+                                        "examples": [
+                                            {
+                                                "example_id": "56bc489c-a7f8-420e-8c8f-bc401445761e",
+                                                "sense_id": "8879a91b-3ef4-3b19-ae2b-da7195020a78",
+                                                "text": "Dans Cartes & Données, le centroïde correspond à l’intersection des diagonales du polygone entourant l’entité de la carte."
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "sense_id": "7f0f669b-dd03-3eba-8816-a4886a91d506",
+                                        "entry_id": "83635465-d2a4-3c0e-a3de-fe2195a7fef9",
+                                        "glosses": [
+                                            "Centre de gravité des charges électriques."
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    },
+                                    {
+                                        "sense_id": "732f3c51-8f47-3177-894e-2d5148598e7f",
+                                        "entry_id": "83635465-d2a4-3c0e-a3de-fe2195a7fef9",
+                                        "glosses": [
+                                            "Point d’une zone géographique d’étendue relativement faible, choisi au voisinage de son centre de gravité et dont les coordonnées servent de localisant pour cette zone."
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "translation_id": "34553f21-d857-43c4-8138-6a5ba29bdc53",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "centroide",
+                        "target_lang_code": "it",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "1dd1d640-8e8a-4c7e-9d23-ce9f4365f128",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "centroid",
+                        "target_lang_code": "pl",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "930663e6-9cc4-42af-8c22-3bff900ec649",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "центро́ид",
+                        "target_lang_code": "ru",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "центро́ид",
+                                "target_lang_code": "ru",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "41203979-8f2b-36cd-8c4d-d97421b8d0cc",
+                                        "entry_id": "ea0ad164-f290-3acf-b4c9-013e3f96052f",
+                                        "glosses": [
+                                            "геометр. (в треугольнике) точка пересечения трёх медиан данного треугольника; точка, чьи (декартовы) координаты являются средним арифметическим значений координат трёх вершин данного треугольника"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "translation_id": "07de4d0d-231e-46e6-90fe-b597987f90e9",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "барице́нтр",
+                        "target_lang_code": "ru",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "барице́нтр",
+                                "target_lang_code": "ru",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "87999faf-fa64-3e7a-aa33-7f8997678c7e",
+                                        "entry_id": "7500cfde-f78c-3c41-81dc-30a3d1165860",
+                                        "glosses": [
+                                            "астрон., матем. то же, что центр масс, центр тяжести, центр инерции"
+                                        ],
+                                        "tags": [],
+                                        "examples": [
+                                            {
+                                                "example_id": "ad703106-6ef5-4c50-b05f-1e768821c1b1",
+                                                "sense_id": "87999faf-fa64-3e7a-aa33-7f8997678c7e",
+                                                "text": "Фазы Луны ― это одновременно и фазы Земли, которые указывают, на каком участке орбиты вокруг барицентра (центра масс системы Земля ― Луна) располагаются обе планеты и какие возмущения от Солнца свойственны этим участкам орбиты"
+                                            },
+                                            {
+                                                "example_id": "1745a20a-4957-46e4-b1e5-7da70125bf48",
+                                                "sense_id": "87999faf-fa64-3e7a-aa33-7f8997678c7e",
+                                                "text": "По данным, приведенным в таблице 3, можно сделать вывод, что перемещение барицентров экономических показателей (численность занятых, объемы производства в промышленности и сельском хозяйстве, инвестиции в основной капитал) относительно столицы области имеет «центростремительное» направление, преимущественно с юго-востока на северо-запад"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "translation_id": "4e7760a1-de74-46fc-afba-ad6b9425fdb0",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "центр тя́жести",
+                        "target_lang_code": "ru",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "центр тя́жести",
+                                "target_lang_code": "ru",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "d507705c-aaec-390d-ad68-31a3c24c525c",
+                                        "entry_id": "c67ea211-c2e5-3947-a787-75a426e223df",
+                                        "glosses": [
+                                            "физ. механ. точка, относительно которой суммарный момент сил тяжести, действующих на систему, равен нулю"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "translation_id": "005c56fa-fac7-475c-9acb-c73952b4dad4",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "mean position of points in a geometrical figure — see also center of gravity, barycenter",
+                        "target_lang_word": "centroide",
+                        "target_lang_code": "es",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "4bc3a92b-6f63-489b-ab5d-e2adf66270a0",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "cluster analysis: arithmetic mean or median of points in a cluster",
+                        "target_lang_word": "centroid",
+                        "target_lang_code": "pl",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "c78e5aa7-c2b2-452a-8968-f74e367c774e",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_description": "graph theory: type of node in a tree",
+                        "target_lang_word": "centroid",
+                        "target_lang_code": "pl",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    }
+                ],
+                "word_linkages": [
+                    {
+                        "linkage_id": "6b4f72da-a296-4b30-ab9f-e440505d2773",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "barycentre"
+                    },
+                    {
+                        "linkage_id": "82b6864c-9949-4911-85a5-4463dc63cbf2",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "centre of area"
+                    },
+                    {
+                        "linkage_id": "78f9b7b7-020c-409a-98f4-a7fc0f276d77",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "centre of gravity"
+                    },
+                    {
+                        "linkage_id": "35927eea-3d1b-4dd7-a9e1-c4811920dd6c",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "centre of mass"
+                    },
+                    {
+                        "linkage_id": "8af77e35-6cc6-4aec-8cce-dfc6895749ab",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "centre of volume"
+                    },
+                    {
+                        "linkage_id": "0f11eaef-840d-4f82-b4ce-8181d95ba67f",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "geometric centre"
+                    },
+                    {
+                        "linkage_id": "f3ee8a84-f414-4ab8-ab1a-91279beeb724",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a uniform, rigid object",
+                        "linkage_type": "synonyms",
+                        "word": "geometric centroid"
+                    },
+                    {
+                        "linkage_id": "8701a29c-aeb5-440c-a7a4-dbbf02cfc7c4",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a set of points of equal mass",
+                        "linkage_type": "synonyms",
+                        "word": "barycentre"
+                    },
+                    {
+                        "linkage_id": "1c7f5c6e-7f0e-422f-9c50-74c50ed1995f",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a set of points of equal mass",
+                        "linkage_type": "synonyms",
+                        "word": "centre of gravity"
+                    },
+                    {
+                        "linkage_id": "4394dda2-e537-45fe-a2a0-1aca45fffb51",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centre of gravity of a set of points of equal mass",
+                        "linkage_type": "synonyms",
+                        "word": "centre of mass"
+                    },
+                    {
+                        "linkage_id": "1b583762-1cfd-4e2d-b2da-8225bc84966f",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "centroid of a function",
+                        "linkage_type": "synonyms",
+                        "word": "function centroid"
+                    },
+                    {
+                        "linkage_id": "7c0b32a6-376e-47ba-82ac-7cd1b2d7d21b",
+                        "source_entry_id": "d591a3df-e462-3e7f-9c8b-fa272672e003",
+                        "source_sense_ids": [],
+                        "source_sense_description": "graph theory: type of node in a tree",
+                        "linkage_type": "synonyms",
+                        "word": "tree centroid"
+                    }
+                ]
+            }
+        ],
+        "ru-extract.jsonl": [],
+        "nl-extract.jsonl": [],
+        "pl-extract.jsonl": [
+            {
+                "entry_id": "7fbfff62-f4d9-3e71-a0cc-468e0df0a754",
+                "word": "centroid",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [],
+                "senses": [
+                    {
+                        "sense_id": "568c47cc-177a-390d-bb5d-b421712f3e41",
+                        "entry_id": "7fbfff62-f4d9-3e71-a0cc-468e0df0a754",
+                        "glosses": [
+                            "centroid"
+                        ],
+                        "tags": [],
+                        "examples": [],
+                        "sense_index_json": "\"1.1\""
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ],
+        "fr-extract.jsonl": [
+            {
+                "entry_id": "f8debd12-e3b3-31f6-b973-7cee5353af9d",
+                "word": "centroid",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "1fb31b66-9c71-4bf4-a559-27631ec01509",
+                        "entry_id": "f8debd12-e3b3-31f6-b973-7cee5353af9d",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "centroids"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "43202170-d618-3e8b-af75-5b0c75e8f05f",
+                        "entry_id": "f8debd12-e3b3-31f6-b973-7cee5353af9d",
+                        "glosses": [
+                            "Centroïde."
+                        ],
+                        "tags": [
+                            "physical"
+                        ],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ],
+        "it-extract.jsonl": [],
+        "de-extract.jsonl": [],
+        "cs-extract.jsonl": [],
+        "es-extract.jsonl": [],
+        "tr-extract.jsonl": [
+            {
+                "entry_id": "0358c9d8-866e-3271-8f3b-c4a6cff12179",
+                "word": "centroid",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "a23c3b53-7512-434b-858d-2e6fb8b3799f",
+                        "entry_id": "0358c9d8-866e-3271-8f3b-c4a6cff12179",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "centroids"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "ee66c7a0-06ea-30bd-a910-273190865684",
+                        "entry_id": "0358c9d8-866e-3271-8f3b-c4a6cff12179",
+                        "glosses": [
+                            "ağırlık merkezi"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ]
+    }
+}

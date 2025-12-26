@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Tijdens onze vakantie in het noorden bezochten we een prachtige oude <w>state</w>."
+                            "text": "Tijdens onze vakantie in het noorden bezochten we een prachtige oude <w>state</w>.",
+                            "target_lang_translations": {
+                                "en": "During our holiday in the north, we visited a beautiful old <w>manor</w>.",
+                                "ru": "Во время нашего отпуска на севере мы посетили прекрасную старинную <w>усадьбу</w>."
+                            }
                         },
                         {
-                            "text": "De familie woonde eeuwenlang op deze <w>state</w>, die omringd was door grachten."
+                            "text": "De familie woonde eeuwenlang op deze <w>state</w>, die omringd was door grachten.",
+                            "target_lang_translations": {
+                                "en": "The family lived for centuries on this <w>estate</w>, which was surrounded by moats.",
+                                "ru": "Семья веками жила в этом <w>поместье</w>, окруженном рвами."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,33 @@
                             "trait_type": "regional",
                             "comment": "Friesland"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A former noble manor house or stronghold, specifically in the province of Friesland.",
+                        "ru": "Бывшая дворянская усадьба или укрепленный дом, характерный для провинции Фрисландия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "manor",
+                                "target_lang_sense_clarification": "noble house"
+                            },
+                            {
+                                "target_lang_word": "estate",
+                                "target_lang_sense_clarification": "large property with a house"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "усадьба",
+                                "target_lang_sense_clarification": "дворянский дом (во Фрисландии)"
+                            },
+                            {
+                                "target_lang_word": "поместье",
+                                "target_lang_sense_clarification": "земельное владение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

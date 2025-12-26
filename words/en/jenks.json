@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Jenks</w> has been working at the factory for over twenty years."
+                            "text": "Mr. <w>Jenks</w> has been working at the factory for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Дженкс</w> работает на фабрике уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We invited the <w>Jenks</w> family to the neighborhood barbecue last weekend."
+                            "text": "We invited the <w>Jenks</w> family to the neighborhood barbecue last weekend.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Дженкс</w> на соседское барбекю в прошлые выходные."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, происходящая от отчества."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дженкс",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

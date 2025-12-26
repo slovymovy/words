@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De postbode overhandigde het aangetekende pakket direct aan de <w>bestemmeling</w>."
+                            "text": "De postbode overhandigde het aangetekende pakket direct aan de <w>bestemmeling</w>.",
+                            "target_lang_translations": {
+                                "en": "The mail carrier handed the registered package directly to the <w>addressee</w>."
+                            }
                         },
                         {
-                            "text": "Als de <w>bestemmeling</w> onbekend is, wordt de brief teruggestuurd naar de afzender."
+                            "text": "Als de <w>bestemmeling</w> onbekend is, wordt de brief teruggestuurd naar de afzender.",
+                            "target_lang_translations": {
+                                "en": "If the <w>addressee</w> is unknown, the letter is returned to the sender."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +38,22 @@
                         "bestemmeling onbekend",
                         "de beoogde bestemmeling",
                         "aan de bestemmeling"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The person or organization for whom a letter, package, or message is intended."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "addressee",
+                                "target_lang_sense_clarification": "person to whom mail is addressed"
+                            },
+                            {
+                                "target_lang_word": "recipient",
+                                "target_lang_sense_clarification": "person who receives something"
+                            }
+                        ]
+                    }
                 }
             ]
         }

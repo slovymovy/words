@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Mercedes'</w> fiets geleend."
+                            "text": "Ik heb gisteren <w>Mercedes'</w> fiets geleend.",
+                            "target_lang_translations": {
+                                "en": "I borrowed <w>Mercedes'</w> bike yesterday."
+                            }
                         },
                         {
-                            "text": "Dit zijn <w>Mercedes'</w> aantekeningen voor de vergadering."
+                            "text": "Dit zijn <w>Mercedes'</w> aantekeningen voor de vergadering.",
+                            "target_lang_translations": {
+                                "en": "These are <w>Mercedes'</w> notes for the meeting."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,22 @@
                             "trait_type": "form",
                             "comment": "genitief"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of <w>Mercedes</w>"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Mercedes'",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Mercedes's",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

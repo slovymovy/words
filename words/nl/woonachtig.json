@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij is <w>woonachtig</w> te Rotterdam."
+                            "text": "Hij is <w>woonachtig</w> te Rotterdam.",
+                            "target_lang_translations": {
+                                "en": "He is <w>resident</w> in Rotterdam.",
+                                "ru": "Он <w>проживает</w> в Роттердаме."
+                            }
                         },
                         {
-                            "text": "De nieuwe directeur is <w>woonachtig</w> in de omgeving van Amsterdam."
+                            "text": "De nieuwe directeur is <w>woonachtig</w> in de omgeving van Amsterdam.",
+                            "target_lang_translations": {
+                                "en": "The new director is <w>residing</w> in the Amsterdam area.",
+                                "ru": "Новый директор <w>проживает</w> в окрестностях Амстердама."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,37 @@
                         "woonachtig zijn",
                         "woonachtig te",
                         "woonachtig in"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Living in a specific place; residing at a fixed address.",
+                        "ru": "Проживающий в определенном месте; имеющий постоянный адрес."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "resident",
+                                "target_lang_sense_clarification": "Dwelling or having a home in a place for a continued length of time"
+                            },
+                            {
+                                "target_lang_word": "residing",
+                                "target_lang_sense_clarification": "Living in a particular place"
+                            },
+                            {
+                                "target_lang_word": "living",
+                                "target_lang_sense_clarification": "Having one's home in a specific location"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "проживающий",
+                                "target_lang_sense_clarification": "официально или постоянно живущий где-либо"
+                            },
+                            {
+                                "target_lang_word": "живущий",
+                                "target_lang_sense_clarification": "находящийся на жительстве"
+                            }
+                        ]
+                    }
                 }
             ]
         }

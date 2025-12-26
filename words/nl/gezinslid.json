@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het gezin had vier <w>gezinsleden</w>: vader, moeder en twee kinderen."
+                            "text": "Het gezin had vier <w>gezinsleden</w>: vader, moeder en twee kinderen.",
+                            "target_lang_translations": {
+                                "en": "The family had four <w>family members</w>: father, mother, and two children.",
+                                "ru": "В семье было четыре <w>члена семьи</w>: отец, мать и двое детей."
+                            }
                         },
                         {
-                            "text": "Elk <w>gezinslid</w> heeft zijn eigen taken in het huishouden."
+                            "text": "Elk <w>gezinslid</w> heeft zijn eigen taken in het huishouden.",
+                            "target_lang_translations": {
+                                "en": "Each <w>family member</w> has their own tasks in the household.",
+                                "ru": "У каждого <w>члена семьи</w> есть свои обязанности по дому."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,25 @@
                         "ieder gezinslid",
                         "jongste gezinslid",
                         "aantal gezinsleden"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A person who is part of a family.",
+                        "ru": "Человек, который является частью семьи."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "family member",
+                                "target_lang_sense_clarification": "a person belonging to a family unit"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "член семьи",
+                                "target_lang_sense_clarification": "человек, входящий в состав семьи"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het project is bijna afgerond, maar de laatste <w>finetuning</w> kost nog wat tijd."
+                            "text": "Het project is bijna afgerond, maar de laatste <w>finetuning</w> kost nog wat tijd.",
+                            "target_lang_translations": {
+                                "en": "The project is almost finished, but the final <w>fine-tuning</w> will still take some time.",
+                                "ru": "Проект почти завершен, но последняя <w>доводка</w> займет еще немного времени."
+                            }
                         },
                         {
-                            "text": "Met een beetje <w>finetuning</w> zal het nieuwe systeem veel efficiënter werken."
+                            "text": "Met een beetje <w>finetuning</w> zal het nieuwe systeem veel efficiënter werken.",
+                            "target_lang_translations": {
+                                "en": "With a bit of <w>fine-tuning</w>, the new system will work much more efficiently.",
+                                "ru": "После небольшой <w>тонкой настройки</w> новая система будет работать намного эффективнее."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,33 @@
                         "de laatste finetuning",
                         "een stukje finetuning",
                         "finetuning van het proces"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The process of making small, precise adjustments to optimize the operation or performance of something.",
+                        "ru": "Процесс внесения небольших точных корректировок для оптимизации функционирования или производительности чего-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fine-tuning",
+                                "target_lang_sense_clarification": "making small adjustments to improve performance"
+                            },
+                            {
+                                "target_lang_word": "tweaking",
+                                "target_lang_sense_clarification": "making slight changes to improve something"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "тонкая настройка",
+                                "target_lang_sense_clarification": "точная регулировка параметров"
+                            },
+                            {
+                                "target_lang_word": "доводка",
+                                "target_lang_sense_clarification": "завершающее усовершенствование"
+                            }
+                        ]
+                    }
                 }
             ]
         }

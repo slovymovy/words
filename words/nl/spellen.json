@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wij hebben thuis veel leuke <w>spellen</w>."
+                            "text": "Wij hebben thuis veel leuke <w>spellen</w>.",
+                            "target_lang_translations": {
+                                "ru": "У нас дома много интересных <w>игр</w>."
+                            }
                         },
                         {
-                            "text": "De kinderen doen graag <w>spellen</w> op de computer."
+                            "text": "De kinderen doen graag <w>spellen</w> op de computer.",
+                            "target_lang_translations": {
+                                "ru": "Дети любят играть в <w>игры</w> на компьютере."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,18 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Множественное число слова <w>spel</w> (игра)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "игры",
+                                "target_lang_sense_clarification": "развлечения"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -46,17 +63,38 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij <w>spelde</w> zijn naam hardop."
+                            "text": "Hij <w>spelde</w> zijn naam hardop.",
+                            "target_lang_translations": {
+                                "ru": "Он <w>произнес по буквам</w> свое имя вслух."
+                            }
                         },
                         {
-                            "text": "Kun je dat moeilijke woord voor mij <w>spellen</w>?"
+                            "text": "Kun je dat moeilijke woord voor mij <w>spellen</w>?",
+                            "target_lang_translations": {
+                                "ru": "Можешь <w>произнести по буквам</w> это сложное слово для меня?"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "naam-spellen",
                         "woord-spellen",
                         "verkeerd-spellen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Называть или писать буквы слова в правильном порядке."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "писать по буквам",
+                                "target_lang_sense_clarification": "орфография"
+                            },
+                            {
+                                "target_lang_word": "произносить по буквам",
+                                "target_lang_sense_clarification": "вслух"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Foran</w> has been managing the local grocery store for over twenty years."
+                            "text": "Mr. <w>Foran</w> has been managing the local grocery store for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Форан</w> управляет местным продуктовым магазином уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The historical records show that the <w>Foran</w> family lived in this county for generations."
+                            "text": "The historical records show that the <w>Foran</w> family lived in this county for generations.",
+                            "target_lang_translations": {
+                                "ru": "Исторические записи показывают, что семья <w>Форан</w> жила в этом округе на протяжении многих поколений."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Irish origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия ирландского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Форан",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

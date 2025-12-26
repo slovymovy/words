@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Инспектор, <w>паспортизовавший</w> этот объект, внимательно проверил все документы."
+                            "text": "Инспектор, <w>паспортизовавший</w> этот объект, внимательно проверил все документы.",
+                            "target_lang_translations": {
+                                "en": "The inspector <w>who certified</w> this facility carefully checked all the documents."
+                            }
                         },
                         {
-                            "text": "Специалист, <w>паспортизовавший</w> систему отопления, составил подробный технический отчёт."
+                            "text": "Специалист, <w>паспортизовавший</w> систему отопления, составил подробный технический отчёт.",
+                            "target_lang_translations": {
+                                "en": "The specialist <w>who certified</w> the heating system compiled a detailed technical report."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +35,26 @@
                             "trait_type": "form",
                             "comment": "active past participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Active past participle of the verb 'to certify' or 'to issue a passport'; refers to a subject that has performed the action of registering, inventorying, or certifying an object or person."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who certified",
+                                "target_lang_sense_clarification": "technical verification"
+                            },
+                            {
+                                "target_lang_word": "who registered",
+                                "target_lang_sense_clarification": "recording in a registry"
+                            },
+                            {
+                                "target_lang_word": "who issued a passport to",
+                                "target_lang_sense_clarification": "literal meaning"
+                            }
+                        ]
+                    }
                 }
             ]
         }

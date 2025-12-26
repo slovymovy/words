@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Brummer</w> has been working at the local library for over twenty years."
+                            "text": "Mr. <w>Brummer</w> has been working at the local library for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Бруммер</w> работает в местной библиотеке уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We decided to invite the <w>Brummer</w> family to our annual holiday dinner."
+                            "text": "We decided to invite the <w>Brummer</w> family to our annual holiday dinner.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили пригласить семью <w>Бруммер</w> на наш ежегодный праздничный ужин."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бруммер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

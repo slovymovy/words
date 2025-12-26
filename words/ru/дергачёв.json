@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "На собрании выступил директор <w>Дергачёв</w>."
+                            "text": "На собрании выступил директор <w>Дергачёв</w>.",
+                            "target_lang_translations": {
+                                "en": "Director <w>Dergachyov</w> spoke at the meeting."
+                            }
                         },
                         {
-                            "text": "Я никогда раньше не слышал о писателе <w>Дергачёве</w>."
+                            "text": "Я никогда раньше не слышал о писателе <w>Дергачёве</w>.",
+                            "target_lang_translations": {
+                                "en": "I have never heard of the writer <w>Dergachyov</w> before."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,22 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Dergachyov",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Dergachev",
+                                "target_lang_sense_clarification": "alternative spelling"
+                            }
+                        ]
+                    }
                 }
             ]
         }

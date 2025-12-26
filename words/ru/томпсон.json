@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мистер <w>Томпсон</w> работает в нашем офисе уже пять лет."
+                            "text": "Мистер <w>Томпсон</w> работает в нашем офисе уже пять лет.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Thompson</w> has been working in our office for five years."
+                            }
                         },
                         {
-                            "text": "Мы смотрели фильм с участием Эммы <w>Томпсон</w>."
+                            "text": "Мы смотрели фильм с участием Эммы <w>Томпсон</w>.",
+                            "target_lang_translations": {
+                                "en": "We watched a movie starring Emma <w>Thompson</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "English surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Thompson",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

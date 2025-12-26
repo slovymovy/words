@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Voisin</w> submitted his application for the position yesterday."
+                            "text": "Mr. <w>Voisin</w> submitted his application for the position yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера господин <w>Вуазен</w> подал заявление на эту должность."
+                            }
                         },
                         {
-                            "text": "The gallery featured a new collection of paintings by the artist <w>Voisin</w>."
+                            "text": "The gallery featured a new collection of paintings by the artist <w>Voisin</w>.",
+                            "target_lang_translations": {
+                                "ru": "В галерее была представлена новая коллекция картин художника <w>Вуазена</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Вуазен",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

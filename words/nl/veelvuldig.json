@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het langdurig of <w>veelvuldig</w> gebruik van dit medicijn wordt ontraden."
+                            "text": "Het langdurig of <w>veelvuldig</w> gebruik van dit medicijn wordt ontraden.",
+                            "target_lang_translations": {
+                                "en": "The long-term or <w>frequent</w> use of this medication is advised against.",
+                                "ru": "Длительное или <w>частое</w> использование этого лекарства не рекомендуется."
+                            }
                         },
                         {
-                            "text": "Deze vraag werd mij <w>veelvuldig</w> gesteld tijdens het interview."
+                            "text": "Deze vraag werd mij <w>veelvuldig</w> gesteld tijdens het interview.",
+                            "target_lang_translations": {
+                                "en": "This question was <w>frequently</w> asked of me during the interview.",
+                                "ru": "Этот вопрос мне <w>неоднократно</w> задавали во время интервью."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +37,37 @@
                         "veelvuldig gebruik",
                         "veelvuldig voorkomen",
                         "veelvuldig contact"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Occurring often or happening repeatedly.",
+                        "ru": "Часто встречающийся или происходящий неоднократно."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "frequent",
+                                "target_lang_sense_clarification": "occurring often"
+                            },
+                            {
+                                "target_lang_word": "frequently",
+                                "target_lang_sense_clarification": "happening often"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "частый",
+                                "target_lang_sense_clarification": "происходящий через короткие промежутки времени"
+                            },
+                            {
+                                "target_lang_word": "многократный",
+                                "target_lang_sense_clarification": "повторяющийся много раз"
+                            },
+                            {
+                                "target_lang_word": "неоднократный",
+                                "target_lang_sense_clarification": "происходящий не один раз"
+                            }
+                        ]
+                    }
                 }
             ]
         }

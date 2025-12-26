@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De winkel is elke week open op <w>di</w> en do."
+                            "text": "De winkel is elke week open op <w>di</w> en do.",
+                            "target_lang_translations": {
+                                "en": "The shop is open every week on <w>Tue</w> and Thu.",
+                                "ru": "Магазин открыт каждую неделю во <w>вт.</w> и чт."
+                            }
                         },
                         {
-                            "text": "Op het rooster staat dat we aanstaande <w>di</w> vrij zijn."
+                            "text": "Op het rooster staat dat we aanstaande <w>di</w> vrij zijn.",
+                            "target_lang_translations": {
+                                "en": "The schedule says we are off this coming <w>Tue</w>.",
+                                "ru": "В расписании сказано, что в следующий <w>вт.</w> у нас выходной."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,7 +45,33 @@
                             "trait_type": "form",
                             "comment": "afkorting"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation of Tuesday.",
+                        "ru": "Сокращение от слова 'вторник'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Tue",
+                                "target_lang_sense_clarification": "abbreviation"
+                            },
+                            {
+                                "target_lang_word": "Tuesday",
+                                "target_lang_sense_clarification": "day of the week"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вт.",
+                                "target_lang_sense_clarification": "сокращение"
+                            },
+                            {
+                                "target_lang_word": "вторник",
+                                "target_lang_sense_clarification": "день недели"
+                            }
+                        ]
+                    }
                 }
             ]
         }

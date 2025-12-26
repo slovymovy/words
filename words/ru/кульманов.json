@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке приглашённых гостей числится Олег <w>Кульманов</w>."
+                            "text": "В списке приглашённых гостей числится Олег <w>Кульманов</w>.",
+                            "target_lang_translations": {
+                                "en": "Oleg <w>Kulmanov</w> is listed among the invited guests."
+                            }
                         },
                         {
-                            "text": "Эту статью для журнала написал известный журналист <w>Кульманов</w>."
+                            "text": "Эту статью для журнала написал известный журналист <w>Кульманов</w>.",
+                            "target_lang_translations": {
+                                "en": "The famous journalist <w>Kulmanov</w> wrote this article for the magazine."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "русская фамилия"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Kulmanov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

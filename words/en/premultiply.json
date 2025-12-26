@@ -1,40 +1,64 @@
 {
-  "word_family": [
-    "premultiplication",
-    "postmultiply",
-    "multiply",
-    "multiplication"
-  ],
-  "entries": [
-    {
-      "pos": "verb",
-      "senses": [
+    "word_family": [
+        "premultiplication",
+        "postmultiply",
+        "multiply",
+        "multiplication"
+    ],
+    "entries": [
         {
-          "sense_id": "728f98b9-2e1f-3859-ba30-e8d2d29967e4",
-          "sense_definition": "To multiply a mathematical object, such as a matrix or quaternion, by placing another factor immediately before it.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "You must <w>premultiply</w> the transformation matrix to apply the rotation in the correct order."
-            },
-            {
-              "text": "In computer graphics, it is common to <w>premultiply</w> the alpha channel to simplify blending calculations."
-            }
-          ],
-          "antonyms": [
-            "postmultiply"
-          ],
-          "common_phrases": [
-            "premultiply the matrix",
-            "premultiply by a factor",
-            "premultiply alpha"
-          ],
-          "traits": []
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "728f98b9-2e1f-3859-ba30-e8d2d29967e4",
+                    "sense_definition": "To multiply a mathematical object, such as a matrix or quaternion, by placing another factor immediately before it.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "You must <w>premultiply</w> the transformation matrix to apply the rotation in the correct order.",
+                            "target_lang_translations": {
+                                "ru": "Вы должны <w>умножить слева</w> матрицу преобразования, чтобы применить вращение в правильном порядке."
+                            }
+                        },
+                        {
+                            "text": "In computer graphics, it is common to <w>premultiply</w> the alpha channel to simplify blending calculations.",
+                            "target_lang_translations": {
+                                "ru": "В компьютерной графике принято <w>предварительно умножать</w> альфа-канал, чтобы упростить вычисления смешивания."
+                            }
+                        }
+                    ],
+                    "antonyms": [
+                        "postmultiply"
+                    ],
+                    "common_phrases": [
+                        "premultiply the matrix",
+                        "premultiply by a factor",
+                        "premultiply alpha"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Умножать математический объект (например, матрицу или кватернион) на другой множитель, помещая его перед исходным объектом (умножение слева)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "умножать слева",
+                                "target_lang_sense_clarification": "математический термин для матриц"
+                            },
+                            {
+                                "target_lang_word": "предварительно умножать",
+                                "target_lang_sense_clarification": "в компьютерной графике"
+                            },
+                            {
+                                "target_lang_word": "домножать слева",
+                                "target_lang_sense_clarification": "разговорный математический термин"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

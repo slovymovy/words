@@ -1,44 +1,64 @@
 {
-  "word_family": [
-    "marshal",
-    "marshaller"
-  ],
-  "entries": [
-    {
-      "pos": "verb",
-      "senses": [
+    "word_family": [
+        "marshal",
+        "marshaller"
+    ],
+    "entries": [
         {
-          "sense_id": "f1a4d2e7-5a44-37fc-8e6b-c39a85105912",
-          "sense_definition": "To convert data from a serialized or encoded format back into a usable object or structure in computer programming.",
-          "learner_level": "C2",
-          "frequency": "Low",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "The application needs to <w>unmarshal</w> the received data packet before it can process the user request."
-            },
-            {
-              "text": "It took a fraction of a second to <w>unmarshal</w> the JSON string into a readable object."
-            }
-          ],
-          "synonyms": [
-            "deserialize",
-            "unserialize"
-          ],
-          "antonyms": [
-            "marshal",
-            "serialize"
-          ],
-          "common_phrases": [
-            "unmarshal data",
-            "unmarshal the object",
-            "unmarshal XML",
-            "unmarshal JSON"
-          ],
-          "traits": []
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "f1a4d2e7-5a44-37fc-8e6b-c39a85105912",
+                    "sense_definition": "To convert data from a serialized or encoded format back into a usable object or structure in computer programming.",
+                    "learner_level": "C2",
+                    "frequency": "Low",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "The application needs to <w>unmarshal</w> the received data packet before it can process the user request.",
+                            "target_lang_translations": {
+                                "ru": "Приложению необходимо <w>демаршалировать</w> полученный пакет данных, прежде чем оно сможет обработать запрос пользователя."
+                            }
+                        },
+                        {
+                            "text": "It took a fraction of a second to <w>unmarshal</w> the JSON string into a readable object.",
+                            "target_lang_translations": {
+                                "ru": "Потребовалась доля секунды, чтобы <w>демаршалировать</w> строку JSON в читаемый объект."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "deserialize",
+                        "unserialize"
+                    ],
+                    "antonyms": [
+                        "marshal",
+                        "serialize"
+                    ],
+                    "common_phrases": [
+                        "unmarshal data",
+                        "unmarshal the object",
+                        "unmarshal XML",
+                        "unmarshal JSON"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Преобразовывать данные из сериализованного или закодированного формата обратно в пригодный для использования объект или структуру (в программировании)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "демаршалировать",
+                                "target_lang_sense_clarification": "технический термин, процесс восстановления объекта из данных"
+                            },
+                            {
+                                "target_lang_word": "десериализовать",
+                                "target_lang_sense_clarification": "общий синоним в контексте восстановления данных"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

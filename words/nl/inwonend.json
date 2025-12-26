@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij zorgt al jaren voor haar <w>inwonende</w> moeder."
+                            "text": "Zij zorgt al jaren voor haar <w>inwonende</w> moeder.",
+                            "target_lang_translations": {
+                                "en": "She has been caring for her <w>live-in</w> mother for years.",
+                                "ru": "Она уже много лет ухаживает за своей <w>живущей с ней</w> матерью."
+                            }
                         },
                         {
-                            "text": "Heb jij nog <w>inwonende</w> kinderen of zijn ze al het huis uit?"
+                            "text": "Heb jij nog <w>inwonende</w> kinderen of zijn ze al het huis uit?",
+                            "target_lang_translations": {
+                                "en": "Do you still have children <w>living at home</w> or have they moved out?",
+                                "ru": "У тебя еще есть <w>живущие дома</w> дети или они уже съехали?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +44,41 @@
                         "inwonende kinderen",
                         "inwonend personeel",
                         "inwonende ouder"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Living in the same house, often with parents or as a tenant with a main occupant",
+                        "ru": "Проживающий в том же доме, часто с родителями или снимающий комнату у хозяев"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "live-in",
+                                "target_lang_sense_clarification": "used for employees, caregivers, or relatives sharing a home"
+                            },
+                            {
+                                "target_lang_word": "living at home",
+                                "target_lang_sense_clarification": "specifically for children living with their parents"
+                            },
+                            {
+                                "target_lang_word": "resident",
+                                "target_lang_sense_clarification": "formal, describing someone residing in a specific place"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "проживающий совместно",
+                                "target_lang_sense_clarification": "общий термин для совместного проживания"
+                            },
+                            {
+                                "target_lang_word": "живущий в доме",
+                                "target_lang_sense_clarification": "о члене семьи или жильце"
+                            },
+                            {
+                                "target_lang_word": "с проживанием",
+                                "target_lang_sense_clarification": "обычно о наемном персонале (няня, сиделка)"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -52,10 +94,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Tijdelijk bij vrienden <w>inwonend</w>, zocht hij rustig naar een eigen appartement."
+                            "text": "Tijdelijk bij vrienden <w>inwonend</w>, zocht hij rustig naar een eigen appartement.",
+                            "target_lang_translations": {
+                                "en": "<w>Living</w> temporarily with friends, he quietly looked for his own apartment.",
+                                "ru": "Временно <w>проживая</w> у друзей, он спокойно искал собственную квартиру."
+                            }
                         },
                         {
-                            "text": "De bij ons <w>inwonende</w> student maakt nooit lawaai."
+                            "text": "De bij ons <w>inwonende</w> student maakt nooit lawaai.",
+                            "target_lang_translations": {
+                                "en": "The student <w>lodging</w> with us never makes noise.",
+                                "ru": "<w>Проживающий</w> у нас студент никогда не шумит."
+                            }
                         }
                     ],
                     "traits": [
@@ -63,7 +113,33 @@
                             "trait_type": "form",
                             "comment": "present participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Present participle of 'inwonen' (to live in with someone)",
+                        "ru": "Причастие настоящего времени от глагола inwonen"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "living in",
+                                "target_lang_sense_clarification": "residing in a place, often with others"
+                            },
+                            {
+                                "target_lang_word": "lodging",
+                                "target_lang_sense_clarification": "renting a room in someone else's house"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "проживающий",
+                                "target_lang_sense_clarification": "причастие"
+                            },
+                            {
+                                "target_lang_word": "живущий",
+                                "target_lang_sense_clarification": "причастие"
+                            }
+                        ]
+                    }
                 }
             ]
         }

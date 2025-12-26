@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The letter was addressed to a Mr. <w>Wallander</w> living in Stockholm."
+                            "text": "The letter was addressed to a Mr. <w>Wallander</w> living in Stockholm.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано господину <w>Валландеру</w>, живущему в Стокгольме."
+                            }
                         },
                         {
-                            "text": "She discovered that her grandmother's maiden name was <w>Wallander</w>."
+                            "text": "She discovered that her grandmother's maiden name was <w>Wallander</w>.",
+                            "target_lang_translations": {
+                                "ru": "Она узнала, что девичья фамилия её бабушки была <w>Валландер</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Swedish origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия шведского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Валландер",
+                                "target_lang_sense_clarification": "шведская фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников значился инженер <w>Кулагин</w>."
+                            "text": "В списке сотрудников значился инженер <w>Кулагин</w>.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Kulagin</w> was listed on the staff roster."
+                            }
                         },
                         {
-                            "text": "Мы вчера познакомились с семьёй <w>Кулагиных</w>."
+                            "text": "Мы вчера познакомились с семьёй <w>Кулагиных</w>.",
+                            "target_lang_translations": {
+                                "en": "Yesterday we met the <w>Kulagin</w> family."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Kulagin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

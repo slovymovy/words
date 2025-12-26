@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Vermeulen</w> has been appointed as the new director of the department."
+                            "text": "Mr. <w>Vermeulen</w> has been appointed as the new director of the department.",
+                            "target_lang_translations": {
+                                "ru": "Г-н <w>Вермёлен</w> был назначен новым директором отдела."
+                            }
                         },
                         {
-                            "text": "We are looking for the contact details of a certain Ms. <w>Vermeulen</w>."
+                            "text": "We are looking for the contact details of a certain Ms. <w>Vermeulen</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мы ищем контактные данные некой г-жи <w>Вермёлен</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Dutch origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия голландского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Вермёлен",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

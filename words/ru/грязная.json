@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В раковине лежит <w>грязная</w> посуда, которую нужно помыть."
+                            "text": "В раковине лежит <w>грязная</w> посуда, которую нужно помыть.",
+                            "target_lang_translations": {
+                                "en": "There are <w>dirty</w> dishes in the sink that need to be washed."
+                            }
                         },
                         {
-                            "text": "У тебя очень <w>грязная</w> куртка, её пора постирать."
+                            "text": "У тебя очень <w>грязная</w> куртка, её пора постирать.",
+                            "target_lang_translations": {
+                                "en": "You have a very <w>dirty</w> jacket, it's time to wash it."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -44,7 +50,26 @@
                             "trait_type": "form",
                             "comment": "feminine nominative singular"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Covered with an unclean substance; not clean (feminine form)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "dirty",
+                                "target_lang_sense_clarification": "general meaning"
+                            },
+                            {
+                                "target_lang_word": "filthy",
+                                "target_lang_sense_clarification": "very dirty"
+                            },
+                            {
+                                "target_lang_word": "unclean",
+                                "target_lang_sense_clarification": "formal or hygiene-related"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -60,12 +85,29 @@
                     "name_type": "geographical_feature",
                     "examples": [
                         {
-                            "text": "Река <w>Грязная</w> протекает через живописный лесной массив."
+                            "text": "Река <w>Грязная</w> протекает через живописный лесной массив.",
+                            "target_lang_translations": {
+                                "en": "The <w>Gryaznaya</w> River flows through a picturesque forest area."
+                            }
                         },
                         {
-                            "text": "На старой карте была отмечена небольшая река <w>Грязная</w>."
+                            "text": "На старой карте была отмечена небольшая река <w>Грязная</w>.",
+                            "target_lang_translations": {
+                                "en": "A small river called <w>Gryaznaya</w> was marked on the old map."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A river in Russia"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Gryaznaya",
+                                "target_lang_sense_clarification": "proper noun"
+                            }
+                        ]
+                    }
                 }
             ]
         }

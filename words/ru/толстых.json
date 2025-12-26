@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Фамилия моего друга — <w>Толстых</w>."
+                            "text": "Фамилия моего друга — <w>Толстых</w>.",
+                            "target_lang_translations": {
+                                "en": "My friend's surname is <w>Tolstykh</w>."
+                            }
                         },
                         {
-                            "text": "Мы познакомились с Анной <w>Толстых</w> на конференции."
+                            "text": "Мы познакомились с Анной <w>Толстых</w> на конференции.",
+                            "target_lang_translations": {
+                                "en": "We met Anna <w>Tolstykh</w> at the conference."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,18 @@
                             "trait_type": "surname",
                             "comment": "русская, несклоняемая"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Tolstykh",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

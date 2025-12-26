@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Nicolas'</w> nieuwe fiets die in de tuin staat."
+                            "text": "Dit is <w>Nicolas'</w> nieuwe fiets die in de tuin staat.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Nicolas's</w> new bike standing in the garden.",
+                                "ru": "Это новый велосипед <w>Николаса</w>, который стоит в саду."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Nicolas'</w> verjaardagsfeestje."
+                            "text": "We gaan vanavond naar <w>Nicolas'</w> verjaardagsfeestje.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Nicolas's</w> birthday party tonight.",
+                                "ru": "Мы идем сегодня вечером на день рождения <w>Николаса</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +34,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Nicolas",
+                        "ru": "форма родительного падежа имени Николас, указывающая на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Nicolas's",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Nicolas'",
+                                "target_lang_sense_clarification": "possessive form (alternative)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Николаса",
+                                "target_lang_sense_clarification": "родительный падеж имени"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера на собрании выступал господин <w>Бурдюков</w>."
+                            "text": "Вчера на собрании выступал господин <w>Бурдюков</w>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Burdyukov</w> spoke at the meeting yesterday."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей <w>Бурдюков</w> не значился."
+                            "text": "В списке приглашённых гостей <w>Бурдюков</w> не значился.",
+                            "target_lang_translations": {
+                                "en": "<w>Burdyukov</w> was not listed among the invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Burdyukov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

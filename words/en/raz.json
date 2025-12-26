@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have a scheduled appointment with Doctor <w>Raz</w> later this afternoon."
+                            "text": "We have a scheduled appointment with Doctor <w>Raz</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначен прием у доктора <w>Раза</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "Sarah <w>Raz</w> recently published a comprehensive study on local history."
+                            "text": "Sarah <w>Raz</w> recently published a comprehensive study on local history.",
+                            "target_lang_translations": {
+                                "ru": "Сара <w>Раз</w> недавно опубликовала всестороннее исследование по местной истории."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Раз",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

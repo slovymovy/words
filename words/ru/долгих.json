@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Фамилия моего друга — <w>Долгих</w>."
+                            "text": "Фамилия моего друга — <w>Долгих</w>.",
+                            "target_lang_translations": {
+                                "en": "My friend's surname is <w>Dolgikh</w>."
+                            }
                         },
                         {
-                            "text": "На собрании выступил профессор <w>Долгих</w>."
+                            "text": "На собрании выступил профессор <w>Долгих</w>.",
+                            "target_lang_translations": {
+                                "en": "Professor <w>Dolgikh</w> spoke at the meeting."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": "несклоняемая"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Dolgikh",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Господин <w>Самолетов</w> был назначен директором нового филиала компании."
+                            "text": "Господин <w>Самолетов</w> был назначен директором нового филиала компании.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Samoletov</w> was appointed director of the new company branch."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значился Иван <w>Самолетов</w>."
+                            "text": "В списке приглашённых гостей значился Иван <w>Самолетов</w>.",
+                            "target_lang_translations": {
+                                "en": "Ivan <w>Samoletov</w> was on the list of invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -31,7 +37,18 @@
                             "trait_type": "surname",
                             "comment": "русская фамилия"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Samoletov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

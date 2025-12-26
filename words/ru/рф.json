@@ -13,10 +13,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Москва — столица <w>РФ</w> и крупнейший город страны."
+                            "text": "Москва — столица <w>РФ</w> и крупнейший город страны.",
+                            "target_lang_translations": {
+                                "en": "Moscow is the capital of the <w>Russian Federation</w> and the country's largest city."
+                            }
                         },
                         {
-                            "text": "Каждый гражданин <w>РФ</w> должен соблюдать законы своего государства."
+                            "text": "Каждый гражданин <w>РФ</w> должен соблюдать законы своего государства.",
+                            "target_lang_translations": {
+                                "en": "Every citizen of the <w>Russian Federation</w> must observe the laws of their state."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +41,26 @@
                             "trait_type": "form",
                             "comment": "аббревиатура"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Official abbreviated name of the state <w>Russian Federation</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Russian Federation",
+                                "target_lang_sense_clarification": "full official name"
+                            },
+                            {
+                                "target_lang_word": "RF",
+                                "target_lang_sense_clarification": "abbreviation"
+                            },
+                            {
+                                "target_lang_word": "Russia",
+                                "target_lang_sense_clarification": "common name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

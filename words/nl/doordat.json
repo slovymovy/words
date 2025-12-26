@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De voetbalwedstrijd werd afgelast <w>doordat</w> het de hele dag hevig regende."
+                            "text": "De voetbalwedstrijd werd afgelast <w>doordat</w> het de hele dag hevig regende.",
+                            "target_lang_translations": {
+                                "en": "The football match was cancelled <w>because</w> it rained heavily all day.",
+                                "ru": "Футбольный матч был отменен <w>из-за того, что</w> весь день шел сильный дождь."
+                            }
                         },
                         {
-                            "text": "Het project liep vertraging op, mede <w>doordat</w> er onverwachte technische problemen waren."
+                            "text": "Het project liep vertraging op, mede <w>doordat</w> er onverwachte technische problemen waren.",
+                            "target_lang_translations": {
+                                "en": "The project was delayed, partly <w>because</w> there were unexpected technical problems.",
+                                "ru": "Проект задержался, отчасти <w>из-за того, что</w> возникли неожиданные технические проблемы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,37 @@
                         "mede doordat",
                         "vooral doordat",
                         "deels doordat"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Indicates an objective cause; due to the fact that.",
+                        "ru": "Указывает на объективную причину; из-за того, что."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "because",
+                                "target_lang_sense_clarification": "most common conjunction for indicating cause or reason"
+                            },
+                            {
+                                "target_lang_word": "due to the fact that",
+                                "target_lang_sense_clarification": "formal phrase emphasizing an objective cause"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "из-за того, что",
+                                "target_lang_sense_clarification": "указывает на причину"
+                            },
+                            {
+                                "target_lang_word": "так как",
+                                "target_lang_sense_clarification": "объясняет причину"
+                            },
+                            {
+                                "target_lang_word": "вследствие того, что",
+                                "target_lang_sense_clarification": "формальный вариант"
+                            }
+                        ]
+                    }
                 }
             ]
         }

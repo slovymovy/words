@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Waardoor</w> is de ruit van de auto gebroken?"
+                            "text": "<w>Waardoor</w> is de ruit van de auto gebroken?",
+                            "target_lang_translations": {
+                                "en": "<w>What caused</w> the car window to break?"
+                            }
                         },
                         {
-                            "text": "Kun je me vertellen <w>waardoor</w> deze fout is ontstaan?"
+                            "text": "Kun je me vertellen <w>waardoor</w> deze fout is ontstaan?",
+                            "target_lang_translations": {
+                                "en": "Can you tell me <w>what caused</w> this error?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +42,26 @@
                     "common_phrases": [
                         "waardoor komt dat",
                         "waardoor precies"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Asks for the cause, the reason, or the means of something."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "what caused",
+                                "target_lang_sense_clarification": "asking for the cause of an event"
+                            },
+                            {
+                                "target_lang_word": "through what",
+                                "target_lang_sense_clarification": "asking for the means or medium"
+                            },
+                            {
+                                "target_lang_word": "how",
+                                "target_lang_sense_clarification": "asking for the manner or cause"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "ee6dae3b-86cb-369d-9d07-d6dba319ad36",
@@ -47,16 +72,41 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het regende de hele dag, <w>waardoor</w> we niet naar buiten konden."
+                            "text": "Het regende de hele dag, <w>waardoor</w> we niet naar buiten konden.",
+                            "target_lang_translations": {
+                                "en": "It rained all day, <w>as a result of which</w> we couldn't go outside."
+                            }
                         },
                         {
-                            "text": "Dit is de smalle tunnel <w>waardoor</w> de trein moet rijden."
+                            "text": "Dit is de smalle tunnel <w>waardoor</w> de trein moet rijden.",
+                            "target_lang_translations": {
+                                "en": "This is the narrow tunnel <w>through which</w> the train has to drive."
+                            }
                         }
                     ],
                     "synonyms": [
                         "zodat",
                         "met als gevolg dat"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Refers back to something mentioned earlier and indicates that something else happens or is possible because of it."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "as a result of which",
+                                "target_lang_sense_clarification": "indicating a consequence"
+                            },
+                            {
+                                "target_lang_word": "through which",
+                                "target_lang_sense_clarification": "referring to movement through a physical space"
+                            },
+                            {
+                                "target_lang_word": "so that",
+                                "target_lang_sense_clarification": "indicating a result"
+                            }
+                        ]
+                    }
                 }
             ]
         }

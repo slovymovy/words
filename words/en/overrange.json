@@ -1,195 +1,331 @@
 {
-  "word_family": [
-    "range",
-    "underrange",
-    "midrange",
-    "arrange",
-    "derange",
-    "rearrange",
-    "ranger"
-  ],
-  "entries": [
-    {
-      "pos": "adjective",
-      "senses": [
+    "word_family": [
+        "range",
+        "underrange",
+        "midrange",
+        "arrange",
+        "derange",
+        "rearrange",
+        "ranger"
+    ],
+    "entries": [
         {
-          "sense_id": "a6debd8b-111d-396e-b3cf-00ca6944f646",
-          "sense_definition": "Describing a value, signal, or input that exceeds the expected or allowed limit of a measuring instrument.",
-          "learner_level": "C2",
-          "frequency": "Low",
-          "semantic_group_id": "tech_limit",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "When the input signal is <w>overrange</w>, the display usually flashes to warn the operator."
-            },
-            {
-              "text": "The device includes <w>overrange</w> protection to prevent damage from sudden voltage spikes."
-            }
-          ],
-          "synonyms": [
-            "out-of-range",
-            "off-scale",
-            "excessive"
-          ],
-          "antonyms": [
-            "in-range",
-            "within-range"
-          ],
-          "common_phrases": [
-            "overrange protection",
-            "overrange condition",
-            "overrange value"
-          ],
-          "traits": []
+            "pos": "adjective",
+            "senses": [
+                {
+                    "sense_id": "a6debd8b-111d-396e-b3cf-00ca6944f646",
+                    "sense_definition": "Describing a value, signal, or input that exceeds the expected or allowed limit of a measuring instrument.",
+                    "learner_level": "C2",
+                    "frequency": "Low",
+                    "semantic_group_id": "tech_limit",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "When the input signal is <w>overrange</w>, the display usually flashes to warn the operator.",
+                            "target_lang_translations": {
+                                "ru": "Когда входной сигнал <w>выходит за пределы диапазона</w>, дисплей обычно мигает, предупреждая оператора."
+                            }
+                        },
+                        {
+                            "text": "The device includes <w>overrange</w> protection to prevent damage from sudden voltage spikes.",
+                            "target_lang_translations": {
+                                "ru": "Устройство включает защиту от <w>выхода за пределы диапазона</w> для предотвращения повреждений от внезапных скачков напряжения."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "out-of-range",
+                        "off-scale",
+                        "excessive"
+                    ],
+                    "antonyms": [
+                        "in-range",
+                        "within-range"
+                    ],
+                    "common_phrases": [
+                        "overrange protection",
+                        "overrange condition",
+                        "overrange value"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Описывает значение, сигнал или входные данные, превышающие ожидаемый или допустимый предел измерительного прибора."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "выходящий за пределы диапазона",
+                                "target_lang_sense_clarification": "общий технический термин"
+                            },
+                            {
+                                "target_lang_word": "зашкаливающий",
+                                "target_lang_sense_clarification": "разговорный технический термин"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "pos": "noun",
+            "senses": [
+                {
+                    "sense_id": "3aff9183-c364-3bc2-bba4-b6a9e63d5746",
+                    "sense_definition": "An input value to an instrument that exceeds the maximum limit it is designed to measure.",
+                    "learner_level": "C2",
+                    "frequency": "Low",
+                    "semantic_group_id": "tech_limit",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "This sensitive instrument can be damaged by a significant <w>overrange</w>.",
+                            "target_lang_translations": {
+                                "ru": "Этот чувствительный прибор может быть поврежден значительной <w>перегрузкой</w>."
+                            }
+                        },
+                        {
+                            "text": "The meter is built to withstand an <w>overrange</w> without losing calibration.",
+                            "target_lang_translations": {
+                                "ru": "Измеритель создан так, чтобы выдерживать <w>выход за пределы диапазона</w> без потери калибровки."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "overload",
+                        "excess"
+                    ],
+                    "antonyms": [
+                        "underrange"
+                    ],
+                    "common_phrases": [
+                        "withstand overrange",
+                        "overrange limit"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Входное значение прибора, превышающее максимальный предел, на измерение которого он рассчитан."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "выход за пределы диапазона",
+                                "target_lang_sense_clarification": "состояние превышения лимита"
+                            },
+                            {
+                                "target_lang_word": "перегрузка",
+                                "target_lang_sense_clarification": "превышение допустимой нагрузки"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "a02adaf7-a80e-385f-94a9-beec763ff188",
+                    "sense_definition": "The additional capacity or margin by which an instrument can handle input outside its standard designated range.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "tech_capacity",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Digital panel meters often offer a 100 percent <w>overrange</w> capability.",
+                            "target_lang_translations": {
+                                "ru": "Цифровые панельные измерители часто обладают способностью к 100-процентной <w>перегрузке</w>."
+                            }
+                        },
+                        {
+                            "text": "On the highest setting, the device allows for almost no <w>overrange</w> at all.",
+                            "target_lang_translations": {
+                                "ru": "На самой высокой настройке устройство практически не допускает никакого <w>запаса по диапазону</w>."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "headroom",
+                        "margin"
+                    ],
+                    "common_phrases": [
+                        "percent overrange"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Дополнительная емкость или запас, позволяющий прибору обрабатывать входные данные за пределами его стандартного диапазона."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перегрузочная способность",
+                                "target_lang_sense_clarification": "характеристика прибора"
+                            },
+                            {
+                                "target_lang_word": "запас по диапазону",
+                                "target_lang_sense_clarification": "резерв шкалы измерения"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "a785691e-9433-3a2b-bbd8-688ea08768ff",
+                    "sense_definition": "To register or respond to an input value that is higher than the designated measurement limit.",
+                    "learner_level": "C2",
+                    "frequency": "Low",
+                    "semantic_group_id": "tech_action",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Most modern meters have the ability to <w>overrange</w> slightly without error.",
+                            "target_lang_translations": {
+                                "ru": "Большинство современных измерителей способны немного <w>выходить за пределы диапазона</w> без ошибок."
+                            }
+                        },
+                        {
+                            "text": "The unit can <w>overrange</w> to 150% of its full scale.",
+                            "target_lang_translations": {
+                                "ru": "Прибор может <w>превышать диапазон</w> до 150% от полной шкалы."
+                            }
+                        }
+                    ],
+                    "common_phrases": [
+                        "overrange to"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Регистрировать или реагировать на входное значение, превышающее установленный предел измерения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "зашкаливать",
+                                "target_lang_sense_clarification": "показывать значение выше максимума"
+                            },
+                            {
+                                "target_lang_word": "выходить за пределы диапазона",
+                                "target_lang_sense_clarification": "превышать измерительный лимит"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "8e6c4910-109a-3397-a85c-fffecbe39547",
+                    "sense_definition": "To subject an instrument to an input value beyond the range it is designed to measure.",
+                    "learner_level": "C2",
+                    "frequency": "Low",
+                    "semantic_group_id": "tech_action",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Sudden pressure surges can <w>overrange</w> the instrumentation and cause damage.",
+                            "target_lang_translations": {
+                                "ru": "Внезапные скачки давления могут <w>перегрузить</w> аппаратуру и вызвать повреждения."
+                            }
+                        },
+                        {
+                            "text": "Care must be taken not to <w>overrange</w> the sensitive sensors during the test.",
+                            "target_lang_translations": {
+                                "ru": "Необходимо соблюдать осторожность, чтобы не <w>перегрузить</w> чувствительные датчики во время испытания."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "overload"
+                    ],
+                    "common_phrases": [
+                        "overrange the instrument"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Подвергать прибор воздействию входного значения, выходящего за пределы диапазона, на который он рассчитан."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перегружать",
+                                "target_lang_sense_clarification": "подавать чрезмерный сигнал на прибор"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "bc05aeb5-922b-3759-978f-b6c33d9cb009",
+                    "sense_definition": "To extend, move, or go beyond a specific physical or abstract limit.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "general_movement",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Severe pain prevented the patient from <w>overranging</w> his neck during the examination.",
+                            "target_lang_translations": {
+                                "ru": "Сильная боль не позволяла пациенту <w>чрезмерно разгибать</w> шею во время осмотра."
+                            }
+                        },
+                        {
+                            "text": "Without proper fences, the cattle might <w>overrange</w> the valley.",
+                            "target_lang_translations": {
+                                "ru": "Без надлежащих ограждений скот может <w>выйти за пределы</w> долины."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "overextend"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Расширять, перемещать или выходить за определенный физический или абстрактный предел."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "чрезмерно разгибать",
+                                "target_lang_sense_clarification": "в медицинском контексте (о суставах)"
+                            },
+                            {
+                                "target_lang_word": "выходить за пределы",
+                                "target_lang_sense_clarification": "пересекать границы территории"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "0dc7aa7c-65c9-3e34-89b6-7474b5365b18",
+                    "sense_definition": "To roam or travel across a large area.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "general_movement",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "The hawk was seen <w>overranging</w> the mountains in search of prey.",
+                            "target_lang_translations": {
+                                "ru": "Видели ястреба, <w>облетающего</w> горы в поисках добычи."
+                            }
+                        },
+                        {
+                            "text": "He spent his youth <w>overranging</w> the wild hills of the highlands.",
+                            "target_lang_translations": {
+                                "ru": "Он провел свою юность, <w>бродя по</w> диким холмам нагорья."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "roam",
+                        "traverse"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Бродить или путешествовать по большой территории."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "облетать",
+                                "target_lang_sense_clarification": "о птицах или летательных аппаратах"
+                            },
+                            {
+                                "target_lang_word": "бродить по",
+                                "target_lang_sense_clarification": "странствовать по местности"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pos": "noun",
-      "senses": [
-        {
-          "sense_id": "3aff9183-c364-3bc2-bba4-b6a9e63d5746",
-          "sense_definition": "An input value to an instrument that exceeds the maximum limit it is designed to measure.",
-          "learner_level": "C2",
-          "frequency": "Low",
-          "semantic_group_id": "tech_limit",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "This sensitive instrument can be damaged by a significant <w>overrange</w>."
-            },
-            {
-              "text": "The meter is built to withstand an <w>overrange</w> without losing calibration."
-            }
-          ],
-          "synonyms": [
-            "overload",
-            "excess"
-          ],
-          "antonyms": [
-            "underrange"
-          ],
-          "common_phrases": [
-            "withstand overrange",
-            "overrange limit"
-          ],
-          "traits": []
-        },
-        {
-          "sense_id": "a02adaf7-a80e-385f-94a9-beec763ff188",
-          "sense_definition": "The additional capacity or margin by which an instrument can handle input outside its standard designated range.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "tech_capacity",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "Digital panel meters often offer a 100 percent <w>overrange</w> capability."
-            },
-            {
-              "text": "On the highest setting, the device allows for almost no <w>overrange</w> at all."
-            }
-          ],
-          "synonyms": [
-            "headroom",
-            "margin"
-          ],
-          "common_phrases": [
-            "percent overrange"
-          ],
-          "traits": []
-        }
-      ]
-    },
-    {
-      "pos": "verb",
-      "senses": [
-        {
-          "sense_id": "a785691e-9433-3a2b-bbd8-688ea08768ff",
-          "sense_definition": "To register or respond to an input value that is higher than the designated measurement limit.",
-          "learner_level": "C2",
-          "frequency": "Low",
-          "semantic_group_id": "tech_action",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "Most modern meters have the ability to <w>overrange</w> slightly without error."
-            },
-            {
-              "text": "The unit can <w>overrange</w> to 150% of its full scale."
-            }
-          ],
-          "common_phrases": [
-            "overrange to"
-          ],
-          "traits": []
-        },
-        {
-          "sense_id": "8e6c4910-109a-3397-a85c-fffecbe39547",
-          "sense_definition": "To subject an instrument to an input value beyond the range it is designed to measure.",
-          "learner_level": "C2",
-          "frequency": "Low",
-          "semantic_group_id": "tech_action",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "Sudden pressure surges can <w>overrange</w> the instrumentation and cause damage."
-            },
-            {
-              "text": "Care must be taken not to <w>overrange</w> the sensitive sensors during the test."
-            }
-          ],
-          "synonyms": [
-            "overload"
-          ],
-          "common_phrases": [
-            "overrange the instrument"
-          ],
-          "traits": []
-        },
-        {
-          "sense_id": "bc05aeb5-922b-3759-978f-b6c33d9cb009",
-          "sense_definition": "To extend, move, or go beyond a specific physical or abstract limit.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "general_movement",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "Severe pain prevented the patient from <w>overranging</w> his neck during the examination."
-            },
-            {
-              "text": "Without proper fences, the cattle might <w>overrange</w> the valley."
-            }
-          ],
-          "synonyms": [
-            "overextend"
-          ],
-          "traits": []
-        },
-        {
-          "sense_id": "0dc7aa7c-65c9-3e34-89b6-7474b5365b18",
-          "sense_definition": "To roam or travel across a large area.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "general_movement",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "The hawk was seen <w>overranging</w> the mountains in search of prey."
-            },
-            {
-              "text": "He spent his youth <w>overranging</w> the wild hills of the highlands."
-            }
-          ],
-          "synonyms": [
-            "roam",
-            "traverse"
-          ],
-          "traits": []
-        }
-      ]
-    }
-  ]
+    ]
 }

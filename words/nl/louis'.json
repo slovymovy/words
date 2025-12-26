@@ -17,10 +17,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Louis'</w> nieuwe fiets, die hij gisteren heeft gekocht."
+                            "text": "Dit is <w>Louis'</w> nieuwe fiets, die hij gisteren heeft gekocht.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Louis's</w> new bike, which he bought yesterday.",
+                                "ru": "Это новый велосипед <w>Луи</w>, который он купил вчера."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Louis'</w> huis voor een feestje."
+                            "text": "We gaan vanavond naar <w>Louis'</w> huis voor een feestje.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Louis's</w> house tonight for a party.",
+                                "ru": "Мы идем сегодня вечером в дом <w>Луи</w> на вечеринку."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,7 +41,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Louis",
+                        "ru": "родительный падеж имени <w>Louis</w> (Луи), указывающий на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Louis's",
+                                "target_lang_sense_clarification": "possessive form of the name Louis"
+                            },
+                            {
+                                "target_lang_word": "Louis'",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Луи",
+                                "target_lang_sense_clarification": "обозначает принадлежность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

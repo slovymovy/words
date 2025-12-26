@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>saldo</w> is altijd nog flink positief."
+                            "text": "Het <w>saldo</w> is altijd nog flink positief.",
+                            "target_lang_translations": {
+                                "en": "The <w>balance</w> is still quite positive.",
+                                "ru": "<w>Баланс</w> все еще остается значительно положительным."
+                            }
                         },
                         {
-                            "text": "Ik controleer even mijn <w>saldo</w> voordat ik ga pinnen."
+                            "text": "Ik controleer even mijn <w>saldo</w> voordat ik ga pinnen.",
+                            "target_lang_translations": {
+                                "en": "I'll just check my <w>balance</w> before I use my debit card.",
+                                "ru": "Я проверю <w>баланс</w>, прежде чем снимать деньги."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,33 @@
                         "saldo checken",
                         "toereikend saldo",
                         "saldo opwaarderen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The amount of money in an account after income and expenses have been calculated.",
+                        "ru": "Сумма, остающаяся на счете после учета доходов и расходов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "balance",
+                                "target_lang_sense_clarification": "difference between credit and debit on an account"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "баланс",
+                                "target_lang_sense_clarification": "на банковском счете"
+                            },
+                            {
+                                "target_lang_word": "остаток",
+                                "target_lang_sense_clarification": "средств"
+                            },
+                            {
+                                "target_lang_word": "сальдо",
+                                "target_lang_sense_clarification": "бухгалтерский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

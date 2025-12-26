@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Господин <w>Максимов</w> работает в нашем офисе уже пять лет."
+                            "text": "Господин <w>Максимов</w> работает в нашем офисе уже пять лет.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Maximov</w> has been working in our office for five years."
+                            }
                         },
                         {
-                            "text": "Я вчера познакомился с Андреем <w>Максимовым</w>."
+                            "text": "Я вчера познакомился с Андреем <w>Максимовым</w>.",
+                            "target_lang_translations": {
+                                "en": "I met Andrey <w>Maximov</w> yesterday."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +36,22 @@
                             "trait_type": "surname",
                             "comment": "мужская и женская формы"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Russian surname derived from the name Maxim."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Maximov",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Maksimov",
+                                "target_lang_sense_clarification": "alternative transliteration"
+                            }
+                        ]
+                    }
                 }
             ]
         }

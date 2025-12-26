@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Als je je ziek voelt, kun je het beste eerst de <w>huisarts</w> bellen voor advies."
+                            "text": "Als je je ziek voelt, kun je het beste eerst de <w>huisarts</w> bellen voor advies.",
+                            "target_lang_translations": {
+                                "en": "If you feel sick, it is best to call the <w>GP</w> first for advice.",
+                                "ru": "Если вы чувствуете себя плохо, лучше всего сначала позвонить <w>семейному врачу</w> за советом."
+                            }
                         },
                         {
-                            "text": "Ik heb morgenochtend een afspraak bij de <w>huisarts</w> omdat ik last heb van mijn rug."
+                            "text": "Ik heb morgenochtend een afspraak bij de <w>huisarts</w> omdat ik last heb van mijn rug.",
+                            "target_lang_translations": {
+                                "en": "I have an appointment with the <w>family doctor</w> tomorrow morning because my back is bothering me.",
+                                "ru": "У меня завтра утром прием у <w>семейного врача</w>, так как у меня болит спина."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,37 @@
                         "naar de huisarts gaan",
                         "afspraak bij de huisarts",
                         "de huisarts bellen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A doctor who provides primary medical care to patients in the local area and refers them to specialists if necessary.",
+                        "ru": "Врач, который оказывает первичную медицинскую помощь пациентам и при необходимости направляет их к узким специалистам."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "GP",
+                                "target_lang_sense_clarification": "abbreviation for General Practitioner, very common"
+                            },
+                            {
+                                "target_lang_word": "family doctor",
+                                "target_lang_sense_clarification": "common term for a primary care physician"
+                            },
+                            {
+                                "target_lang_word": "general practitioner",
+                                "target_lang_sense_clarification": "formal term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "семейный врач",
+                                "target_lang_sense_clarification": "врач общей практики"
+                            },
+                            {
+                                "target_lang_word": "терапевт",
+                                "target_lang_sense_clarification": "врач первичного приема"
+                            }
+                        ]
+                    }
                 }
             ]
         }

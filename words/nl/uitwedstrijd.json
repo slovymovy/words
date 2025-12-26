@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het voetbalteam moet morgen een moeilijke <w>uitwedstrijd</w> spelen tegen de kampioen."
+                            "text": "Het voetbalteam moet morgen een moeilijke <w>uitwedstrijd</w> spelen tegen de kampioen.",
+                            "target_lang_translations": {
+                                "en": "The football team has to play a difficult <w>away match</w> against the champion tomorrow.",
+                                "ru": "Футбольной команде завтра предстоит сыграть сложный <w>выездной матч</w> против чемпиона."
+                            }
                         },
                         {
-                            "text": "Ze hebben dit seizoen nog geen enkele <w>uitwedstrijd</w> gewonnen in de competitie."
+                            "text": "Ze hebben dit seizoen nog geen enkele <w>uitwedstrijd</w> gewonnen in de competitie.",
+                            "target_lang_translations": {
+                                "en": "They haven't won a single <w>away game</w> in the league this season.",
+                                "ru": "В этом сезоне они ещё не выиграли ни одного <w>выездного матча</w> в чемпионате."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,37 @@
                         "lastige uitwedstrijd",
                         "uitwedstrijd spelen",
                         "belangrijke uitwedstrijd"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A match played on the opponent's grounds.",
+                        "ru": "Матч, который проводится на поле соперника."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "away match",
+                                "target_lang_sense_clarification": "sports"
+                            },
+                            {
+                                "target_lang_word": "away game",
+                                "target_lang_sense_clarification": "sports"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "выездной матч",
+                                "target_lang_sense_clarification": "игра в гостях"
+                            },
+                            {
+                                "target_lang_word": "игра на выезде",
+                                "target_lang_sense_clarification": "матч на чужом поле"
+                            },
+                            {
+                                "target_lang_word": "гостевой матч",
+                                "target_lang_sense_clarification": "спорт"
+                            }
+                        ]
+                    }
                 }
             ]
         }

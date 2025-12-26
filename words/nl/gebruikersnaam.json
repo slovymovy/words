@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Vul je <w>gebruikersnaam</w> en wachtwoord in om toegang te krijgen tot de website."
+                            "text": "Vul je <w>gebruikersnaam</w> en wachtwoord in om toegang te krijgen tot de website.",
+                            "target_lang_translations": {
+                                "en": "Enter your <w>username</w> and password to access the website.",
+                                "ru": "Введите <w>имя пользователя</w> и пароль, чтобы получить доступ к веб-сайту."
+                            }
                         },
                         {
-                            "text": "Ik ben mijn <w>gebruikersnaam</w> vergeten, dus ik kan niet meer inloggen op mijn account."
+                            "text": "Ik ben mijn <w>gebruikersnaam</w> vergeten, dus ik kan niet meer inloggen op mijn account.",
+                            "target_lang_translations": {
+                                "en": "I forgot my <w>username</w>, so I can no longer log in to my account.",
+                                "ru": "Я забыл свое <w>имя пользователя</w>, поэтому больше не могу войти в свой аккаунт."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,33 @@
                         "gebruikersnaam en wachtwoord",
                         "kies een gebruikersnaam",
                         "gebruikersnaam vergeten"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A unique name or code used to log in to a computer, website, or information system.",
+                        "ru": "Уникальное имя или код, с помощью которого можно войти в компьютер, на веб-сайт или в информационную систему."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "username",
+                                "target_lang_sense_clarification": "identification for login"
+                            },
+                            {
+                                "target_lang_word": "user name",
+                                "target_lang_sense_clarification": "alternative spelling"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "имя пользователя",
+                                "target_lang_sense_clarification": "идентификатор для входа"
+                            },
+                            {
+                                "target_lang_word": "логин",
+                                "target_lang_sense_clarification": "учетное имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

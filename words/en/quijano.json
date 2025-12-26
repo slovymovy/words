@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Quijano</w> has been teaching history at the university for over twenty years."
+                            "text": "Mr. <w>Quijano</w> has been teaching history at the university for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Кихано</w> преподает историю в университете уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The package was addressed to a Maria <w>Quijano</w>, but nobody by that name lives here."
+                            "text": "The package was addressed to a Maria <w>Quijano</w>, but nobody by that name lives here.",
+                            "target_lang_translations": {
+                                "ru": "Посылка была адресована Марии <w>Кихано</w>, но здесь никто с таким именем не живет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from Spanish"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия испанского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кихано",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

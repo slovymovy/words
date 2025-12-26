@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hoeveel <w>inkomgeld</w> moeten we betalen voor het feest?"
+                            "text": "Hoeveel <w>inkomgeld</w> moeten we betalen voor het feest?",
+                            "target_lang_translations": {
+                                "en": "How much <w>entrance fee</w> do we have to pay for the party?",
+                                "ru": "Сколько <w>за вход</w> нам нужно заплатить за вечеринку?"
+                            }
                         },
                         {
-                            "text": "Kinderen onder de twaalf jaar hoeven geen <w>inkomgeld</w> te betalen."
+                            "text": "Kinderen onder de twaalf jaar hoeven geen <w>inkomgeld</w> te betalen.",
+                            "target_lang_translations": {
+                                "en": "Children under twelve do not have to pay <w>admission</w>.",
+                                "ru": "Детям до двенадцати лет не нужно платить <w>за вход</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +44,37 @@
                             "trait_type": "regional",
                             "comment": "vooral in België gebruikt"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Money that must be paid to gain entry to a place or event.",
+                        "ru": "Деньги, которые необходимо заплатить, чтобы получить право войти куда-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "entrance fee",
+                                "target_lang_sense_clarification": "payment required to enter a place"
+                            },
+                            {
+                                "target_lang_word": "admission",
+                                "target_lang_sense_clarification": "fee paid for the right to enter"
+                            },
+                            {
+                                "target_lang_word": "entry fee",
+                                "target_lang_sense_clarification": "charge for access or participation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "входная плата",
+                                "target_lang_sense_clarification": "стоимость билета или пропуска"
+                            },
+                            {
+                                "target_lang_word": "плата за вход",
+                                "target_lang_sense_clarification": "деньги за посещение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

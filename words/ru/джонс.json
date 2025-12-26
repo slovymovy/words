@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мистер <w>Джонс</w> живёт в соседнем доме."
+                            "text": "Мистер <w>Джонс</w> живёт в соседнем доме.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Jones</w> lives next door."
+                            }
                         },
                         {
-                            "text": "Фильмы про Индиану <w>Джонса</w> очень популярны во всём мире."
+                            "text": "Фильмы про Индиану <w>Джонса</w> очень популярны во всём мире.",
+                            "target_lang_translations": {
+                                "en": "Movies about Indiana <w>Jones</w> are very popular worldwide."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a common English surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jones",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Meneer <w>Meijer</w> woont al jaren in deze straat."
+                            "text": "Meneer <w>Meijer</w> woont al jaren in deze straat.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Meijer</w> has lived in this street for years."
+                            }
                         },
                         {
-                            "text": "De brief is gericht aan de familie <w>Meijer</w>."
+                            "text": "De brief is gericht aan de familie <w>Meijer</w>.",
+                            "target_lang_translations": {
+                                "en": "The letter is addressed to the <w>Meijer</w> family."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Dutch surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Meijer",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

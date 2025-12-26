@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Deze <w>pachthof</w> is niet rendabel meer."
+                            "text": "Deze <w>pachthof</w> is niet rendabel meer.",
+                            "target_lang_translations": {
+                                "en": "This <w>tenant farm</w> is no longer profitable.",
+                                "ru": "Эта <w>арендованная ферма</w> больше не рентабельна."
+                            }
                         },
                         {
-                            "text": "De boer werkt hard om de huur van de <w>pachthof</w> te kunnen betalen."
+                            "text": "De boer werkt hard om de huur van de <w>pachthof</w> te kunnen betalen.",
+                            "target_lang_translations": {
+                                "en": "The farmer works hard to be able to pay the rent for the <w>leased farm</w>.",
+                                "ru": "Фермер усердно работает, чтобы оплатить аренду <w>фермы</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,33 @@
                     "common_phrases": [
                         "een oude pachthof",
                         "de historische pachthof"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A farm or homestead situated on land for which rent is owed",
+                        "ru": "Ферма или усадьба, расположенная на арендованной земле, за которую взимается арендная плата"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tenant farm",
+                                "target_lang_sense_clarification": "a farm operated by a person who pays rent to the owner"
+                            },
+                            {
+                                "target_lang_word": "leased farm",
+                                "target_lang_sense_clarification": "a farm held under a lease agreement"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "арендованная ферма",
+                                "target_lang_sense_clarification": "фермерское хозяйство на правах аренды"
+                            },
+                            {
+                                "target_lang_word": "арендованный хутор",
+                                "target_lang_sense_clarification": "обособленная усадьба на арендованной земле"
+                            }
+                        ]
+                    }
                 }
             ]
         }

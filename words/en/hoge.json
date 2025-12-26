@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Hoge</w> has been working in the accounting department for over ten years."
+                            "text": "Mr. <w>Hoge</w> has been working in the accounting department for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Хог</w> работает в бухгалтерии уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "We need to contact the <w>Hoge</w> family regarding the property boundaries."
+                            "text": "We need to contact the <w>Hoge</w> family regarding the property boundaries.",
+                            "target_lang_translations": {
+                                "ru": "Нам нужно связаться с семьей <w>Хог</w> по поводу границ участка."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хог",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

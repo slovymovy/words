@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wat is de <w>datum</w> van vandaag?"
+                            "text": "Wat is de <w>datum</w> van vandaag?",
+                            "target_lang_translations": {
+                                "en": "What is today's <w>date</w>?",
+                                "ru": "Какая сегодня <w>дата</w>?"
+                            }
                         },
                         {
-                            "text": "De <w>datum</w> van de vergadering is gewijzigd naar volgende week."
+                            "text": "De <w>datum</w> van de vergadering is gewijzigd naar volgende week.",
+                            "target_lang_translations": {
+                                "en": "The <w>date</w> of the meeting has been changed to next week.",
+                                "ru": "<w>Дата</w> собрания была перенесена на следующую неделю."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +37,29 @@
                         "welke datum",
                         "op datum",
                         "datum van vandaag"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A specific time indication consisting of a day, a month, and a year.",
+                        "ru": "Обозначение времени, состоящее из дня, месяца и года."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "date",
+                                "target_lang_sense_clarification": "calendar day"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дата",
+                                "target_lang_sense_clarification": "календарная"
+                            },
+                            {
+                                "target_lang_word": "число",
+                                "target_lang_sense_clarification": "день месяца"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "eb53e947-1473-3059-8d9c-821aeb21ed84",
@@ -40,15 +70,45 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dit statistische <w>datum</w> is cruciaal voor het lopende onderzoek."
+                            "text": "Dit statistische <w>datum</w> is cruciaal voor het lopende onderzoek.",
+                            "target_lang_translations": {
+                                "en": "This statistical <w>datum</w> is crucial for the ongoing research.",
+                                "ru": "Это статистическое <w>данное</w> имеет решающее значение для текущего исследования."
+                            }
                         },
                         {
-                            "text": "Er ontbreekt nog een belangrijk <w>datum</w> in het elektronische dossier."
+                            "text": "Er ontbreekt nog een belangrijk <w>datum</w> in het elektronische dossier.",
+                            "target_lang_translations": {
+                                "en": "An important <w>datum</w> is still missing from the electronic file.",
+                                "ru": "В электронном досье не хватает еще одного важного <w>данного</w>."
+                            }
                         }
                     ],
                     "synonyms": [
                         "gegeven"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A single fact or piece of information.",
+                        "ru": "Единичный факт или фрагмент информации."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "datum",
+                                "target_lang_sense_clarification": "single piece of information"
+                            },
+                            {
+                                "target_lang_word": "data point",
+                                "target_lang_sense_clarification": "statistics"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "данное",
+                                "target_lang_sense_clarification": "единица информации"
+                            }
+                        ]
+                    }
                 }
             ]
         }

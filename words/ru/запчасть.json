@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мне нужно срочно купить новую <w>запчасть</w> для двигателя."
+                            "text": "Мне нужно срочно купить новую <w>запчасть</w> для двигателя.",
+                            "target_lang_translations": {
+                                "en": "I urgently need to buy a new <w>spare part</w> for the engine."
+                            }
                         },
                         {
-                            "text": "В этом магазине продаются только оригинальные <w>запчасти</w>."
+                            "text": "В этом магазине продаются только оригинальные <w>запчасти</w>.",
+                            "target_lang_translations": {
+                                "en": "This store sells only original <w>spare parts</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +42,26 @@
                             "trait_type": "colloquial",
                             "comment": "разговорное сокращение"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A spare component of a mechanism or device, intended to replace a broken or worn-out one; short for <w>spare part</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "spare part",
+                                "target_lang_sense_clarification": "standard term"
+                            },
+                            {
+                                "target_lang_word": "spare",
+                                "target_lang_sense_clarification": "short form"
+                            },
+                            {
+                                "target_lang_word": "replacement part",
+                                "target_lang_sense_clarification": "explanatory"
+                            }
+                        ]
+                    }
                 }
             ]
         }

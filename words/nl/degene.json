@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij is <w>degene</w> die mij gered heeft."
+                            "text": "Hij is <w>degene</w> die mij gered heeft.",
+                            "target_lang_translations": {
+                                "en": "He is <w>the one</w> who saved me.",
+                                "ru": "Он — <w>тот</w>, кто меня спас."
+                            }
                         },
                         {
-                            "text": "Is dat <w>degene</w> die gisteren sprak?"
+                            "text": "Is dat <w>degene</w> die gisteren sprak?",
+                            "target_lang_translations": {
+                                "en": "Is that <w>the one</w> who spoke yesterday?",
+                                "ru": "Это <w>тот</w>, кто говорил вчера?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,7 +35,33 @@
                     ],
                     "common_phrases": [
                         "degene die"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The person who; refers to someone specified in the following clause.",
+                        "ru": "Тот (человек), который; указывает на лицо, описываемое в придаточном предложении."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "the one",
+                                "target_lang_sense_clarification": "specific person"
+                            },
+                            {
+                                "target_lang_word": "the person",
+                                "target_lang_sense_clarification": "individual"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "тот",
+                                "target_lang_sense_clarification": "местоимение, обычно в конструкции 'тот, кто'"
+                            },
+                            {
+                                "target_lang_word": "тот человек",
+                                "target_lang_sense_clarification": "указание на конкретную личность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

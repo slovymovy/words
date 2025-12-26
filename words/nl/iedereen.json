@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dit feest is leuk voor <w>iedereen</w>."
+                            "text": "Dit feest is leuk voor <w>iedereen</w>.",
+                            "target_lang_translations": {
+                                "en": "This party is fun for <w>everyone</w>.",
+                                "ru": "Этот праздник хорош для <w>всех</w>."
+                            }
                         },
                         {
-                            "text": "<w>Iedereen</w> gaat nu naar huis."
+                            "text": "<w>Iedereen</w> gaat nu naar huis.",
+                            "target_lang_translations": {
+                                "en": "<w>Everyone</w> is going home now.",
+                                "ru": "<w>Все</w> сейчас идут домой."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,33 @@
                         "hallo iedereen",
                         "voor iedereen",
                         "met iedereen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Every person; all people.",
+                        "ru": "Каждый человек; все люди."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "everyone",
+                                "target_lang_sense_clarification": "every person"
+                            },
+                            {
+                                "target_lang_word": "everybody",
+                                "target_lang_sense_clarification": "all people"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "все",
+                                "target_lang_sense_clarification": "все люди, коллективно"
+                            },
+                            {
+                                "target_lang_word": "каждый",
+                                "target_lang_sense_clarification": "любой человек, индивидуально"
+                            }
+                        ]
+                    }
                 }
             ]
         }

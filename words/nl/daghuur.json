@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>daghuur</w> van de grote hal kost meer dan duizend euro."
+                            "text": "De <w>daghuur</w> van de grote hal kost meer dan duizend euro.",
+                            "target_lang_translations": {
+                                "en": "The <w>daily rent</w> for the large hall costs more than a thousand euros.",
+                                "ru": "<w>Суточная аренда</w> большого зала стоит более тысячи евро."
+                            }
                         },
                         {
-                            "text": "Je moet de <w>daghuur</w> contant betalen bij het ophalen van de fiets."
+                            "text": "Je moet de <w>daghuur</w> contant betalen bij het ophalen van de fiets.",
+                            "target_lang_translations": {
+                                "en": "You must pay the <w>daily rental</w> in cash when picking up the bicycle.",
+                                "ru": "Вы должны оплатить <w>аренду за день</w> наличными при получении велосипеда."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,33 @@
                         "daghuur betalen",
                         "hoge daghuur",
                         "daghuur berekenen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The amount that must be paid to rent something for the duration of one day.",
+                        "ru": "Сумма, которую необходимо заплатить за аренду чего-либо сроком на один день."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "daily rent",
+                                "target_lang_sense_clarification": "cost for renting per day"
+                            },
+                            {
+                                "target_lang_word": "day rate",
+                                "target_lang_sense_clarification": "price charged for a single day"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "суточная аренда",
+                                "target_lang_sense_clarification": "стоимость аренды за сутки"
+                            },
+                            {
+                                "target_lang_word": "арендная плата за день",
+                                "target_lang_sense_clarification": "сумма оплаты за один день проката"
+                            }
+                        ]
+                    }
                 }
             ]
         }

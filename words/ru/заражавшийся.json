@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Каждый пациент, <w>заражавшийся</w> этой инфекцией, немедленно изолировался от остальных."
+                            "text": "Каждый пациент, <w>заражавшийся</w> этой инфекцией, немедленно изолировался от остальных.",
+                            "target_lang_translations": {
+                                "en": "Every patient <w>contracting</w> this infection was immediately isolated from the others."
+                            }
                         },
                         {
-                            "text": "Компьютер, постоянно <w>заражавшийся</w> вирусами из интернета, требовал установки новой защиты."
+                            "text": "Компьютер, постоянно <w>заражавшийся</w> вирусами из интернета, требовал установки новой защиты.",
+                            "target_lang_translations": {
+                                "en": "The computer, constantly <w>getting infected</w> with viruses from the Internet, required the installation of new protection."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -36,7 +42,30 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Describes a subject that was in the process of becoming infected, contracting a disease, or becoming contaminated."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "getting infected",
+                                "target_lang_sense_clarification": "general process of acquiring an infection"
+                            },
+                            {
+                                "target_lang_word": "contracting",
+                                "target_lang_sense_clarification": "acquiring a disease (medical context)"
+                            },
+                            {
+                                "target_lang_word": "becoming contaminated",
+                                "target_lang_sense_clarification": "technical or general context (e.g., computers, environments)"
+                            },
+                            {
+                                "target_lang_word": "catching",
+                                "target_lang_sense_clarification": "informal context for diseases"
+                            }
+                        ]
+                    }
                 }
             ]
         }

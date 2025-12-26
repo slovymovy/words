@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The <w>Dini</w> family has lived in this neighborhood for over fifty years."
+                            "text": "The <w>Dini</w> family has lived in this neighborhood for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Дини</w> живет в этом районе уже более пятидесяти лет."
+                            }
                         },
                         {
-                            "text": "Please give this package to Mr. <w>Dini</w> when he arrives at the office."
+                            "text": "Please give this package to Mr. <w>Dini</w> when he arrives at the office.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте этот пакет мистеру <w>Дини</w>, когда он придет в офис."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Italian origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия итальянского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дини",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

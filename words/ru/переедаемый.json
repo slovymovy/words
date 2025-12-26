@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот продукт, часто <w>переедаемый</w> из-за своего приятного вкуса, может привести к набору веса."
+                            "text": "Этот продукт, часто <w>переедаемый</w> из-за своего приятного вкуса, может привести к набору веса.",
+                            "target_lang_translations": {
+                                "en": "This product, often <w>overeaten</w> due to its pleasant taste, can lead to weight gain."
+                            }
                         },
                         {
-                            "text": "Объём калорий, регулярно <w>переедаемый</w> за ужином, негативно сказывается на здоровье."
+                            "text": "Объём калорий, регулярно <w>переедаемый</w> за ужином, негативно сказывается на здоровье.",
+                            "target_lang_translations": {
+                                "en": "The amount of calories regularly <w>consumed in excess</w> at dinner negatively affects health."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,22 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Passive present participle of the verb 'to overeat'; describes food or substances that are consumed in excessive amounts."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "overeaten",
+                                "target_lang_sense_clarification": "consumed in too large quantities"
+                            },
+                            {
+                                "target_lang_word": "consumed in excess",
+                                "target_lang_sense_clarification": "formal; eaten beyond a limit"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Lucas'</w> nieuwe fiets in de stad gezien."
+                            "text": "Ik heb gisteren <w>Lucas'</w> nieuwe fiets in de stad gezien.",
+                            "target_lang_translations": {
+                                "en": "I saw <w>Lucas's</w> new bike in town yesterday."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond gezellig naar <w>Lucas'</w> huis voor een feestje."
+                            "text": "We gaan vanavond gezellig naar <w>Lucas'</w> huis voor een feestje.",
+                            "target_lang_translations": {
+                                "en": "We're going to <w>Lucas's</w> house for a party tonight."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,22 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of <w>Lucas</w>"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Lucas's",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Lucas'",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

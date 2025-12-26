@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Julius'</w> auto geleend."
+                            "text": "Ik heb gisteren <w>Julius'</w> auto geleend.",
+                            "target_lang_translations": {
+                                "en": "I borrowed <w>Julius's</w> car yesterday."
+                            }
                         },
                         {
-                            "text": "Het is <w>Julius'</w> verantwoordelijkheid om dit op te lossen."
+                            "text": "Het is <w>Julius'</w> verantwoordelijkheid om dit op te lossen.",
+                            "target_lang_translations": {
+                                "en": "It is <w>Julius's</w> responsibility to solve this."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,22 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Julius"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Julius's",
+                                "target_lang_sense_clarification": "possessive form of the name Julius"
+                            },
+                            {
+                                "target_lang_word": "Julius'",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

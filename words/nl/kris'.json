@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Kris'</w> nieuwe fiets die hij gisteren heeft gekocht."
+                            "text": "Dit is <w>Kris'</w> nieuwe fiets die hij gisteren heeft gekocht.",
+                            "target_lang_translations": {
+                                "ru": "Это новый велосипед <w>Криса</w>, который он купил вчера."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond gezellig naar <w>Kris'</w> verjaardagsfeestje in de stad."
+                            "text": "We gaan vanavond gezellig naar <w>Kris'</w> verjaardagsfeestje in de stad.",
+                            "target_lang_translations": {
+                                "ru": "Сегодня вечером мы идем на день рождения <w>Криса</w> в городе."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "родительный падеж имени <w>Крис</w>"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Криса",
+                                "target_lang_sense_clarification": "форма родительного падежа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

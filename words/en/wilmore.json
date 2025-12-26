@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Wilmore</w> has lived in this neighborhood for over twenty years."
+                            "text": "Mr. <w>Wilmore</w> has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Уилмор</w> живет в этом районе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We invited the <w>Wilmore</w> family to join us for dinner next week."
+                            "text": "We invited the <w>Wilmore</w> family to join us for dinner next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Уилмор</w> к нам на ужин на следующей неделе."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Уилмор",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

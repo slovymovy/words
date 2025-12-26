@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik zocht op de <w>vertrekstaat</w> mijn trein naar Haarlem."
+                            "text": "Ik zocht op de <w>vertrekstaat</w> mijn trein naar Haarlem.",
+                            "target_lang_translations": {
+                                "en": "I looked for my train to Haarlem on the <w>departure schedule</w>.",
+                                "ru": "Я искал свой поезд в Харлем в <w>расписании отправления</w>."
+                            }
                         },
                         {
-                            "text": "Op de <w>vertrekstaat</w> kun je zien of de bus vertraging heeft."
+                            "text": "Op de <w>vertrekstaat</w> kun je zien of de bus vertraging heeft.",
+                            "target_lang_translations": {
+                                "en": "On the <w>departure board</w> you can see if the bus is delayed.",
+                                "ru": "В <w>расписании отправления</w> можно увидеть, задерживается ли автобус."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,37 @@
                     "common_phrases": [
                         "op de vertrekstaat kijken",
                         "de gele vertrekstaat"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A table or board indicating at what time and from which platform a train or bus departs.",
+                        "ru": "Таблица или табло, на котором указано, во сколько и с какой платформы отправляется поезд или автобус."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "departure schedule",
+                                "target_lang_sense_clarification": "list of departure times"
+                            },
+                            {
+                                "target_lang_word": "departure board",
+                                "target_lang_sense_clarification": "display of departures"
+                            },
+                            {
+                                "target_lang_word": "timetable",
+                                "target_lang_sense_clarification": "schedule of services"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "расписание отправления",
+                                "target_lang_sense_clarification": "график отбытия транспорта"
+                            },
+                            {
+                                "target_lang_word": "табло отправления",
+                                "target_lang_sense_clarification": "информационная доска"
+                            }
+                        ]
+                    }
                 }
             ]
         }

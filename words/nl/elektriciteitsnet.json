@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Door de zware storm is het <w>elektriciteitsnet</w> in de hele provincie uitgevallen."
+                            "text": "Door de zware storm is het <w>elektriciteitsnet</w> in de hele provincie uitgevallen.",
+                            "target_lang_translations": {
+                                "en": "Due to the severe storm, the <w>power grid</w> in the entire province went down.",
+                                "ru": "Из-за сильного шторма <w>электросеть</w> во всей провинции вышла из строя."
+                            }
                         },
                         {
-                            "text": "Veel huishoudens leveren tegenwoordig energie terug aan het <w>elektriciteitsnet</w> via zonnepanelen."
+                            "text": "Veel huishoudens leveren tegenwoordig energie terug aan het <w>elektriciteitsnet</w> via zonnepanelen.",
+                            "target_lang_translations": {
+                                "en": "Many households nowadays feed energy back into the <w>electricity grid</w> via solar panels.",
+                                "ru": "Многие домохозяйства сегодня поставляют энергию обратно в <w>электросеть</w> с помощью солнечных панелей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,37 @@
                         "op het elektriciteitsnet",
                         "landelijk elektriciteitsnet",
                         "overbelast elektriciteitsnet"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A network of cables and lines through which electricity is transported and distributed to users.",
+                        "ru": "Сеть кабелей и линий, по которой электричество передается и распределяется пользователям."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "power grid",
+                                "target_lang_sense_clarification": "infrastructure for electricity distribution"
+                            },
+                            {
+                                "target_lang_word": "electricity grid",
+                                "target_lang_sense_clarification": "formal term for the network"
+                            },
+                            {
+                                "target_lang_word": "grid",
+                                "target_lang_sense_clarification": "common short form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "электросеть",
+                                "target_lang_sense_clarification": "система электроснабжения"
+                            },
+                            {
+                                "target_lang_word": "электрическая сеть",
+                                "target_lang_sense_clarification": "инфраструктура"
+                            }
+                        ]
+                    }
                 }
             ]
         }

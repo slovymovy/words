@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мы решили перекусить и купили по одному <w>бургеру</w>."
+                            "text": "Мы решили перекусить и купили по одному <w>бургеру</w>.",
+                            "target_lang_translations": {
+                                "en": "We decided to have a snack and bought a <w>burger</w> each."
+                            }
                         },
                         {
-                            "text": "В этом кафе готовят самый вкусный <w>бургер</w> в городе."
+                            "text": "В этом кафе готовят самый вкусный <w>бургер</w> в городе.",
+                            "target_lang_translations": {
+                                "en": "This cafe makes the most delicious <w>burger</w> in town."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +42,22 @@
                             "trait_type": "colloquial",
                             "comment": "разг."
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A sandwich consisting of a sliced bun with a patty (usually meat) inside, often with vegetables and sauces."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "burger",
+                                "target_lang_sense_clarification": "food"
+                            },
+                            {
+                                "target_lang_word": "hamburger",
+                                "target_lang_sense_clarification": "synonym"
+                            }
+                        ]
+                    }
                 }
             ]
         }

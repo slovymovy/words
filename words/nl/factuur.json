@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren de <w>factuur</w> voor de reparaties ontvangen."
+                            "text": "Ik heb gisteren de <w>factuur</w> voor de reparaties ontvangen.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я получил <w>счёт</w> за ремонт."
+                            }
                         },
                         {
-                            "text": "Je moet de openstaande <w>factuur</w> binnen veertien dagen betalen."
+                            "text": "Je moet de openstaande <w>factuur</w> binnen veertien dagen betalen.",
+                            "target_lang_translations": {
+                                "ru": "Вы должны оплатить неоплаченный <w>счёт</w> в течение четырнадцати дней."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +36,22 @@
                         "de factuur betalen",
                         "een factuur sturen",
                         "openstaande factuur"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Официальный документ, в котором указана сумма к оплате за поставленные товары или услуги."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "счёт",
+                                "target_lang_sense_clarification": "документ на оплату"
+                            },
+                            {
+                                "target_lang_word": "счёт-фактура",
+                                "target_lang_sense_clarification": "бухгалтерский документ"
+                            }
+                        ]
+                    }
                 }
             ]
         }

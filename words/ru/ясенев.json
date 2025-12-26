@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера господин <w>Ясенев</w> выступил с интересным докладом на научной конференции."
+                            "text": "Вчера господин <w>Ясенев</w> выступил с интересным докладом на научной конференции.",
+                            "target_lang_translations": {
+                                "en": "Yesterday Mr. <w>Yasenev</w> gave an interesting presentation at the scientific conference."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значился некий <w>Ясенев</w>, которого никто не знал."
+                            "text": "В списке приглашённых гостей значился некий <w>Ясенев</w>, которого никто не знал.",
+                            "target_lang_translations": {
+                                "en": "A certain <w>Yasenev</w>, whom no one knew, was listed among the invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Yasenev",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

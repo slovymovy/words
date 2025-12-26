@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Tomas'</w> nieuwe fiets die hij gisteren heeft gekocht."
+                            "text": "Dit is <w>Tomas'</w> nieuwe fiets die hij gisteren heeft gekocht.",
+                            "target_lang_translations": {
+                                "ru": "Это новый велосипед <w>Томаса</w>, который он купил вчера."
+                            }
                         },
                         {
-                            "text": "We hebben <w>Tomas'</w> hulp echt nodig om dit probleem op te lossen."
+                            "text": "We hebben <w>Tomas'</w> hulp echt nodig om dit probleem op te lossen.",
+                            "target_lang_translations": {
+                                "ru": "Нам действительно нужна помощь <w>Томаса</w>, чтобы решить эту проблему."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +36,18 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Родительный падеж имени Томас, указывающий на принадлежность."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Томаса",
+                                "target_lang_sense_clarification": "форма родительного падежа, обозначающая принадлежность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

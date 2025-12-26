@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мистер <w>Браун</w> всегда приходит на работу вовремя."
+                            "text": "Мистер <w>Браун</w> всегда приходит на работу вовремя.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Brown</w> always comes to work on time."
+                            }
                         },
                         {
-                            "text": "В книге рассказывается история семьи <w>Браун</w>."
+                            "text": "В книге рассказывается история семьи <w>Браун</w>.",
+                            "target_lang_translations": {
+                                "en": "The book tells the story of the <w>Brown</w> family."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": "фамилия"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common English or German surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Brown",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

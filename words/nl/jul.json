@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De winkel is gesloten vanaf 5 <w>jul</w> wegens vakantie."
+                            "text": "De winkel is gesloten vanaf 5 <w>jul</w> wegens vakantie.",
+                            "target_lang_translations": {
+                                "en": "The shop is closed from <w>Jul.</w> 5 due to vacation.",
+                                "ru": "Магазин закрыт с 5 <w>июля</w> в связи с отпуском."
+                            }
                         },
                         {
-                            "text": "Op de kalender staat een afspraak genoteerd voor 19 <w>jul</w>."
+                            "text": "Op de kalender staat een afspraak genoteerd voor 19 <w>jul</w>.",
+                            "target_lang_translations": {
+                                "en": "An appointment is noted on the calendar for <w>Jul.</w> 19.",
+                                "ru": "В календаре записана встреча на 19 <w>июля</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,33 @@
                             "trait_type": "form",
                             "comment": "afkorting"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for the seventh calendar month, July.",
+                        "ru": "Сокращение для седьмого календарного месяца, <w>июля</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jul.",
+                                "target_lang_sense_clarification": "month abbreviation"
+                            },
+                            {
+                                "target_lang_word": "July",
+                                "target_lang_sense_clarification": "month"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "июль",
+                                "target_lang_sense_clarification": "месяц"
+                            },
+                            {
+                                "target_lang_word": "июл.",
+                                "target_lang_sense_clarification": "сокращение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

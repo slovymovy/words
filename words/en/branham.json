@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Branham</w> has worked at the company for over twenty years."
+                            "text": "Mr. <w>Branham</w> has worked at the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Брэнхем</w> проработал в компании более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The <w>Branham</w> family moved to the neighborhood last summer."
+                            "text": "The <w>Branham</w> family moved to the neighborhood last summer.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Брэнхемов</w> переехала по соседству прошлым летом."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Брэнхем",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

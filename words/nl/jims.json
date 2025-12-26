@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Jims</w> nieuwe auto gezien."
+                            "text": "Ik heb gisteren <w>Jims</w> nieuwe auto gezien.",
+                            "target_lang_translations": {
+                                "en": "I saw <w>Jim's</w> new car yesterday.",
+                                "ru": "Я видел вчера новую машину <w>Джима</w>."
+                            }
                         },
                         {
-                            "text": "Dit is <w>Jims</w> verantwoordelijkheid, niet de mijne."
+                            "text": "Dit is <w>Jims</w> verantwoordelijkheid, niet de mijne.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Jim's</w> responsibility, not mine.",
+                                "ru": "Это ответственность <w>Джима</w>, а не моя."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive form of <w>Jim</w>.",
+                        "ru": "Родительный падеж имени Джим."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jim's",
+                                "target_lang_sense_clarification": "possessive form of the name Jim"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Джима",
+                                "target_lang_sense_clarification": "принадлежность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Господин <w>Майер</w> попросил передать вам эти документы."
+                            "text": "Господин <w>Майер</w> попросил передать вам эти документы.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Mayer</w> asked me to give you these documents."
+                            }
                         },
                         {
-                            "text": "Мы ничего не знали о прошлом семьи <w>Майер</w>."
+                            "text": "Мы ничего не знали о прошлом семьи <w>Майер</w>.",
+                            "target_lang_translations": {
+                                "en": "We knew nothing about the <w>Mayer</w> family's past."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +35,22 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "German surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Mayer",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Meyer",
+                                "target_lang_sense_clarification": "surname variant"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Unilever is een groot <w>concern</w> met vestigingen in veel verschillende landen."
+                            "text": "Unilever is een groot <w>concern</w> met vestigingen in veel verschillende landen.",
+                            "target_lang_translations": {
+                                "en": "Unilever is a large <w>corporation</w> with branches in many different countries.",
+                                "ru": "Unilever — это крупный <w>концерн</w> с филиалами во многих разных странах."
+                            }
                         },
                         {
-                            "text": "De directeur van het <w>concern</w> kondigde gisteren een nieuwe strategie aan."
+                            "text": "De directeur van het <w>concern</w> kondigde gisteren een nieuwe strategie aan.",
+                            "target_lang_translations": {
+                                "en": "The director of the <w>group</w> announced a new strategy yesterday.",
+                                "ru": "Директор <w>концерна</w> вчера объявил о новой стратегии."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,37 @@
                         "een internationaal concern",
                         "een beursgenoteerd concern",
                         "aan het hoofd van het concern"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A large business organization consisting of several cooperating or interconnected companies.",
+                        "ru": "Крупная компания, состоящая из ряда сотрудничающих или взаимосвязанных предприятий."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "group",
+                                "target_lang_sense_clarification": "collection of companies"
+                            },
+                            {
+                                "target_lang_word": "corporation",
+                                "target_lang_sense_clarification": "large business entity"
+                            },
+                            {
+                                "target_lang_word": "conglomerate",
+                                "target_lang_sense_clarification": "multi-industry company"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "концерн",
+                                "target_lang_sense_clarification": "объединение предприятий"
+                            },
+                            {
+                                "target_lang_word": "корпорация",
+                                "target_lang_sense_clarification": "крупное акционерное общество"
+                            }
+                        ]
+                    }
                 }
             ]
         }

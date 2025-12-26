@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Знаменитый футболист Луис <w>Суарес</w> дал интервью после матча."
+                            "text": "Знаменитый футболист Луис <w>Суарес</w> дал интервью после матча.",
+                            "target_lang_translations": {
+                                "en": "The famous football player Luis <w>Suarez</w> gave an interview after the match."
+                            }
                         },
                         {
-                            "text": "Мы отправили официальное приглашение господину <w>Суаресу</w>."
+                            "text": "Мы отправили официальное приглашение господину <w>Суаресу</w>.",
+                            "target_lang_translations": {
+                                "en": "We sent an official invitation to Mr. <w>Suarez</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "испанская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Spanish surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Suarez",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

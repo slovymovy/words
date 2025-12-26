@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The baby took his first steps across the living room."
+                            "text": "The baby took his first steps across the living room.",
+                            "target_lang_translations": {
+                                "ru": "Ребенок сделал свои первые <w>шаги</w> по гостиной."
+                            }
                         },
                         {
-                            "text": "Please follow these steps to complete the installation."
+                            "text": "Please follow these steps to complete the installation.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, выполните эти <w>шаги</w>, чтобы завершить установку."
+                            }
                         }
                     ],
                     "traits": [
@@ -34,7 +40,22 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Множественное число от слова step (шаг, мера)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "шаги",
+                                "target_lang_sense_clarification": "движения ног при ходьбе или этапы процесса"
+                            },
+                            {
+                                "target_lang_word": "меры",
+                                "target_lang_sense_clarification": "действия, предпринимаемые для достижения цели"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "245c6fe4-8c37-30c5-96bc-51d8f6ff32ba",
@@ -45,10 +66,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He ran up the front steps to unlock the door."
+                            "text": "He ran up the front steps to unlock the door.",
+                            "target_lang_translations": {
+                                "ru": "Он взбежал по передним <w>ступенькам</w>, чтобы открыть дверь."
+                            }
                         },
                         {
-                            "text": "Be careful because the stone steps are slippery when wet."
+                            "text": "Be careful because the stone steps are slippery when wet.",
+                            "target_lang_translations": {
+                                "ru": "Будьте осторожны, потому что каменные <w>ступеньки</w> скользкие, когда мокрые."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -59,7 +86,26 @@
                         "front steps",
                         "stone steps",
                         "flight of steps"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Лестничный пролет, особенно снаружи здания; ступеньки."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ступеньки",
+                                "target_lang_sense_clarification": "элементы лестницы"
+                            },
+                            {
+                                "target_lang_word": "лестница",
+                                "target_lang_sense_clarification": "сооружение для подъема"
+                            },
+                            {
+                                "target_lang_word": "крыльцо",
+                                "target_lang_sense_clarification": "площадка перед входом в дом со ступеньками"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "878da21f-c1cf-39f9-8bf7-1223e68ae4c5",
@@ -70,10 +116,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "She decided to follow in her mother's steps and become a writer."
+                            "text": "She decided to follow in her mother's steps and become a writer.",
+                            "target_lang_translations": {
+                                "ru": "Она решила пойти по <w>стопам</w> матери и стать писательницей."
+                            }
                         },
                         {
-                            "text": "We had to retrace our steps to find the path again."
+                            "text": "We had to retrace our steps to find the path again.",
+                            "target_lang_translations": {
+                                "ru": "Нам пришлось вернуться по своим <w>следам</w>, чтобы снова найти тропу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -84,7 +136,22 @@
                         "follow in someone's steps",
                         "retrace one's steps",
                         "dog someone's steps"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Путь, по которому идет человек, или метафора жизненного выбора (по стопам)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "стопы",
+                                "target_lang_sense_clarification": "в идиоме 'пойти по стопам'"
+                            },
+                            {
+                                "target_lang_word": "следы",
+                                "target_lang_sense_clarification": "отпечатки ног или пройденный путь"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "cd33d3c7-18ec-3c0c-bb68-3a74c2ec1e78",
@@ -95,16 +162,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "I need the steps to reach the top shelf in the kitchen."
+                            "text": "I need the steps to reach the top shelf in the kitchen.",
+                            "target_lang_translations": {
+                                "ru": "Мне нужна <w>стремянка</w>, чтобы достать до верхней полки на кухне."
+                            }
                         },
                         {
-                            "text": "The painter folded the steps and put them back in the van."
+                            "text": "The painter folded the steps and put them back in the van.",
+                            "target_lang_translations": {
+                                "ru": "Маляр сложил <w>стремянку</w> и положил её обратно в фургон."
+                            }
                         }
                     ],
                     "synonyms": [
                         "stepladder",
                         "ladder"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Стремянка (раскладная лестница)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "стремянка",
+                                "target_lang_sense_clarification": "переносная лестница"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -120,10 +204,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "She steps carefully over the puddle on the sidewalk."
+                            "text": "She steps carefully over the puddle on the sidewalk.",
+                            "target_lang_translations": {
+                                "ru": "Она осторожно <w>переступает</w> через лужу на тротуаре."
+                            }
                         },
                         {
-                            "text": "He steps forward to accept the award from the principal."
+                            "text": "He steps forward to accept the award from the principal.",
+                            "target_lang_translations": {
+                                "ru": "Он <w>шагает</w> вперед, чтобы принять награду от директора."
+                            }
                         }
                     ],
                     "traits": [
@@ -131,7 +221,22 @@
                             "trait_type": "form",
                             "comment": "third-person singular"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Форма глагола step (шагать, ступать) в 3-м лице единственного числа."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "шагает",
+                                "target_lang_sense_clarification": "делает шаги"
+                            },
+                            {
+                                "target_lang_word": "ступает",
+                                "target_lang_sense_clarification": "становится ногой"
+                            }
+                        ]
+                    }
                 }
             ]
         }

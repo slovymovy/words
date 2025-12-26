@@ -18,12 +18,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriend heet <w>Max</w>."
+                            "text": "Mijn beste vriend heet <w>Max</w>.",
+                            "target_lang_translations": {
+                                "ru": "Моего лучшего друга зовут <w>Макс</w>."
+                            }
                         },
                         {
-                            "text": "<w>Max</w> komt vanavond bij ons eten."
+                            "text": "<w>Max</w> komt vanavond bij ons eten.",
+                            "target_lang_translations": {
+                                "ru": "<w>Макс</w> придет к нам сегодня на ужин."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Мужское имя."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Макс",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -39,10 +56,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dat nieuwe computerspel is echt de <w>max</w>."
+                            "text": "Dat nieuwe computerspel is echt de <w>max</w>.",
+                            "target_lang_translations": {
+                                "ru": "Эта новая компьютерная игра — просто <w>супер</w>."
+                            }
                         },
                         {
-                            "text": "Het is de <w>max</w> om iedereen weer te zien."
+                            "text": "Het is de <w>max</w> om iedereen weer te zien.",
+                            "target_lang_translations": {
+                                "ru": "Это просто <w>класс</w> — снова всех увидеть."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -61,7 +84,26 @@
                             "trait_type": "colloquial",
                             "comment": "used in informal contexts"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Что-то потрясающее, отличное или высший класс (разговорное выражение)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "супер",
+                                "target_lang_sense_clarification": "разговорное: что-то отличное"
+                            },
+                            {
+                                "target_lang_word": "класс",
+                                "target_lang_sense_clarification": "разговорное: здорово"
+                            },
+                            {
+                                "target_lang_word": "отпад",
+                                "target_lang_sense_clarification": "сленг: потрясающе"
+                            }
+                        ]
+                    }
                 }
             ]
         }

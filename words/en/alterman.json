@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Alterman</w> has been working at the company for over twenty years."
+                            "text": "Mr. <w>Alterman</w> has been working at the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Альтерман</w> работает в компании уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "I asked Sarah <w>Alterman</w> to send me the files by tomorrow morning."
+                            "text": "I asked Sarah <w>Alterman</w> to send me the files by tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "Я попросил Сару <w>Альтерман</w> прислать мне файлы к завтрашнему утру."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Альтерман",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

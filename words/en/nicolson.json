@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The biography was written by <w>Nicolson</w>, who knew the subject personally."
+                            "text": "The biography was written by <w>Nicolson</w>, who knew the subject personally.",
+                            "target_lang_translations": {
+                                "ru": "Биография была написана <w>Николсоном</w>, который знал героя лично."
+                            }
                         },
                         {
-                            "text": "Please ask <w>Mr. Nicolson</w> to come into the office now."
+                            "text": "Please ask <w>Mr. Nicolson</w> to come into the office now.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, попросите <w>мистера Николсона</w> зайти в кабинет сейчас."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +42,18 @@
                             "trait_type": "surname",
                             "comment": "patronymic"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, происходящая от имени Никол."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Николсон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

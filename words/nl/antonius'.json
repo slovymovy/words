@@ -19,10 +19,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Antonius'</w> nieuwe huis bezocht."
+                            "text": "Ik heb gisteren <w>Antonius'</w> nieuwe huis bezocht.",
+                            "target_lang_translations": {
+                                "en": "I visited <w>Antonius's</w> new house yesterday.",
+                                "ru": "Вчера я посетил новый дом <w>Антониуса</w>."
+                            }
                         },
                         {
-                            "text": "Dit is <w>Antonius'</w> mening over het onderwerp."
+                            "text": "Dit is <w>Antonius'</w> mening over het onderwerp.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Antonius's</w> opinion on the subject.",
+                                "ru": "Это мнение <w>Антониуса</w> по этому вопросу."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +38,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive of <w>Antonius</w>.",
+                        "ru": "Родительный падеж имени <w>Antonius</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Antonius's",
+                                "target_lang_sense_clarification": "possessive form of the name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Антониуса",
+                                "target_lang_sense_clarification": "родительный падеж имени Антониус"
+                            },
+                            {
+                                "target_lang_word": "Антония",
+                                "target_lang_sense_clarification": "родительный падеж имени Антоний"
+                            }
+                        ]
+                    }
                 }
             ]
         }

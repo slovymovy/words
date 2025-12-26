@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik stuur je morgen een <w>e-mailbericht</w> met alle informatie."
+                            "text": "Ik stuur je morgen een <w>e-mailbericht</w> met alle informatie.",
+                            "target_lang_translations": {
+                                "en": "I will send you an <w>email message</w> tomorrow with all the information.",
+                                "ru": "Я отправлю тебе завтра <w>электронное письмо</w> со всей информацией."
+                            }
                         },
                         {
-                            "text": "Heb je mijn laatste <w>e-mailbericht</w> al ontvangen?"
+                            "text": "Heb je mijn laatste <w>e-mailbericht</w> al ontvangen?",
+                            "target_lang_translations": {
+                                "en": "Have you received my last <w>email</w> yet?",
+                                "ru": "Ты уже получил моё последнее <w>электронное письмо</w>?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,33 @@
                         "een e-mailbericht sturen",
                         "een e-mailbericht ontvangen",
                         "een e-mailbericht lezen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A message sent digitally via the internet.",
+                        "ru": "Сообщение, отправленное в цифровом виде через интернет."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "email message",
+                                "target_lang_sense_clarification": "specific piece of correspondence"
+                            },
+                            {
+                                "target_lang_word": "email",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "электронное письмо",
+                                "target_lang_sense_clarification": "письмо, отправленное по электронной почте"
+                            },
+                            {
+                                "target_lang_word": "имейл",
+                                "target_lang_sense_clarification": "разговорный вариант"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Наш новый сотрудник, господин <w>Васильев</w>, приступит к работе завтра."
+                            "text": "Наш новый сотрудник, господин <w>Васильев</w>, приступит к работе завтра.",
+                            "target_lang_translations": {
+                                "en": "Our new employee, Mr. <w>Vasilyev</w>, will start work tomorrow."
+                            }
                         },
                         {
-                            "text": "Вечером мы всей семьёй пошли в гости к <w>Васильевым</w>."
+                            "text": "Вечером мы всей семьёй пошли в гости к <w>Васильевым</w>.",
+                            "target_lang_translations": {
+                                "en": "In the evening, our whole family went to visit the <w>Vasilyevs</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -35,7 +41,22 @@
                             "trait_type": "surname",
                             "comment": "мужской род"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Russian surname derived from the male name <w>Vasily</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Vasilyev",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Vasiliev",
+                                "target_lang_sense_clarification": "surname variant"
+                            }
+                        ]
+                    }
                 }
             ]
         }

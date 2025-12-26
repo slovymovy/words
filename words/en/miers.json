@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Miers</w> submitted his resignation letter to the board yesterday."
+                            "text": "Mr. <w>Miers</w> submitted his resignation letter to the board yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера мистер <w>Майерс</w> подал совету директоров заявление об отставке."
+                            }
                         },
                         {
-                            "text": "The <w>Miers</w> family has lived in this neighborhood for three generations."
+                            "text": "The <w>Miers</w> family has lived in this neighborhood for three generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Майерс</w> живет в этом районе уже три поколения."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Майерс",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

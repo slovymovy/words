@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Nevilles</w> nieuwe fiets die hij voor zijn verjaardag kreeg."
+                            "text": "Dit is <w>Nevilles</w> nieuwe fiets die hij voor zijn verjaardag kreeg.",
+                            "target_lang_translations": {
+                                "ru": "Это новый велосипед <w>Невилла</w>, который он получил на день рождения."
+                            }
                         },
                         {
-                            "text": "We hebben gisteren <w>Nevilles</w> mening over het project gevraagd."
+                            "text": "We hebben gisteren <w>Nevilles</w> mening over het project gevraagd.",
+                            "target_lang_translations": {
+                                "ru": "Вчера мы спросили мнение <w>Невилла</w> о проекте."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Родительный падеж имени Невилл, указывающий на принадлежность"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Невилла",
+                                "target_lang_sense_clarification": "родительный падеж имени"
+                            }
+                        ]
+                    }
                 }
             ]
         }

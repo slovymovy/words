@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Gabors</w> nieuwe fiets in de stad gezien."
+                            "text": "Ik heb gisteren <w>Gabors</w> nieuwe fiets in de stad gezien.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я видел в городе новый велосипед <w>Габора</w>."
+                            }
                         },
                         {
-                            "text": "Dit is <w>Gabors</w> mening over het onderwerp, niet de mijne."
+                            "text": "Dit is <w>Gabors</w> mening over het onderwerp, niet de mijne.",
+                            "target_lang_translations": {
+                                "ru": "Это мнение <w>Габора</w> по этому вопросу, а не мое."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Родительный падеж имени Габор."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Габора",
+                                "target_lang_sense_clarification": "родительный падеж имени"
+                            }
+                        ]
+                    }
                 }
             ]
         }

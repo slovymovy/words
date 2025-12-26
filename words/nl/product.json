@@ -19,13 +19,25 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De supermarkt verkoopt veel biologische <w>producten</w> uit de eigen streek."
+                            "text": "De supermarkt verkoopt veel biologische <w>producten</w> uit de eigen streek.",
+                            "target_lang_translations": {
+                                "en": "The supermarket sells many organic <w>products</w> from the local region.",
+                                "ru": "Супермаркет продает много органических <w>продуктов</w> местного производства."
+                            }
                         },
                         {
-                            "text": "Wij hebben een nieuw <w>product</w> ontwikkeld dat volgende maand in de winkels ligt."
+                            "text": "Wij hebben een nieuw <w>product</w> ontwikkeld dat volgende maand in de winkels ligt.",
+                            "target_lang_translations": {
+                                "en": "We have developed a new <w>product</w> that will be in stores next month.",
+                                "ru": "Мы разработали новый <w>продукт</w>, который появится в магазинах в следующем месяце."
+                            }
                         },
                         {
-                            "text": "De kwaliteit van dit <w>product</w> is de laatste jaren sterk verbeterd."
+                            "text": "De kwaliteit van dit <w>product</w> is de laatste jaren sterk verbeterd.",
+                            "target_lang_translations": {
+                                "en": "The quality of this <w>product</w> has improved significantly in recent years.",
+                                "ru": "Качество этого <w>продукта</w> значительно улучшилось за последние годы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,7 +54,41 @@
                         "biologisch product",
                         "lokaal product",
                         "chemisch product"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Something made by humans or machines, or produced by nature, often intended for sale or use.",
+                        "ru": "Что-то, созданное людьми или машинами, или произведенное природой, часто предназначенное для продажи или использования."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "product",
+                                "target_lang_sense_clarification": "general"
+                            },
+                            {
+                                "target_lang_word": "item",
+                                "target_lang_sense_clarification": "individual object"
+                            },
+                            {
+                                "target_lang_word": "commodity",
+                                "target_lang_sense_clarification": "tradeable good"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "продукт",
+                                "target_lang_sense_clarification": "результат труда или природный объект"
+                            },
+                            {
+                                "target_lang_word": "товар",
+                                "target_lang_sense_clarification": "предмет торговли"
+                            },
+                            {
+                                "target_lang_word": "изделие",
+                                "target_lang_sense_clarification": "предмет промышленного производства"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "031a87e6-317f-3e80-873b-851f2818ffbc",
@@ -53,10 +99,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>product</w> van vijf en vier is twintig."
+                            "text": "Het <w>product</w> van vijf en vier is twintig.",
+                            "target_lang_translations": {
+                                "en": "The <w>product</w> of five and four is twenty.",
+                                "ru": "<w>Произведение</w> пяти и четырех равно двадцати."
+                            }
                         },
                         {
-                            "text": "In de wiskundeles leerden we hoe je het <w>product</w> van twee grote getallen berekent."
+                            "text": "In de wiskundeles leerden we hoe je het <w>product</w> van twee grote getallen berekent.",
+                            "target_lang_translations": {
+                                "en": "In math class, we learned how to calculate the <w>product</w> of two large numbers.",
+                                "ru": "На уроке математики мы учились вычислять <w>произведение</w> двух больших чисел."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -67,7 +121,25 @@
                     ],
                     "common_phrases": [
                         "het product van"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The number that is the result of a multiplication.",
+                        "ru": "Число, являющееся результатом умножения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "product",
+                                "target_lang_sense_clarification": "mathematics"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "произведение",
+                                "target_lang_sense_clarification": "математический результат"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5ca2b64c-efce-3990-9057-28d74ccaefc2",
@@ -78,16 +150,42 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het bruto binnenlands <w>product</w> is dit jaar met twee procent gestegen."
+                            "text": "Het bruto binnenlands <w>product</w> is dit jaar met twee procent gestegen.",
+                            "target_lang_translations": {
+                                "en": "The gross domestic <w>product</w> has risen by two percent this year.",
+                                "ru": "Валовой внутренний <w>продукт</w> в этом году вырос на два процента."
+                            }
                         },
                         {
-                            "text": "Economen gebruiken het nationaal <w>product</w> om de welvaart van een land te meten."
+                            "text": "Economen gebruiken het nationaal <w>product</w> om de welvaart van een land te meten.",
+                            "target_lang_translations": {
+                                "en": "Economists use the national <w>product</w> to measure a country's prosperity.",
+                                "ru": "Экономисты используют национальный <w>продукт</w> для измерения благосостояния страны."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "bruto binnenlands product",
                         "nationaal product"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The total value of all goods and services produced in a specific period and region.",
+                        "ru": "Общая стоимость всех товаров и услуг, произведенных за определенный период в определенном регионе."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "product",
+                                "target_lang_sense_clarification": "economics"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "продукт",
+                                "target_lang_sense_clarification": "экономический показатель"
+                            }
+                        ]
+                    }
                 }
             ]
         }

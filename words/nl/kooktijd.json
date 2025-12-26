@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Op de verpakking van de pasta staat precies wat de <w>kooktijd</w> is."
+                            "text": "Op de verpakking van de pasta staat precies wat de <w>kooktijd</w> is.",
+                            "target_lang_translations": {
+                                "en": "The pasta packaging states exactly what the <w>cooking time</w> is.",
+                                "ru": "На упаковке макарон точно указано <w>время варки</w>."
+                            }
                         },
                         {
-                            "text": "Je kunt de <w>kooktijd</w> verkorten door de groenten in kleinere stukken te snijden."
+                            "text": "Je kunt de <w>kooktijd</w> verkorten door de groenten in kleinere stukken te snijden.",
+                            "target_lang_translations": {
+                                "en": "You can shorten the <w>cooking time</w> by cutting the vegetables into smaller pieces.",
+                                "ru": "Вы можете сократить <w>время варки</w>, нарезав овощи на более мелкие кусочки."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,29 @@
                         "lange kooktijd",
                         "kooktijd verkorten",
                         "totale kooktijd"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The time required to cook food until it is done.",
+                        "ru": "Время, необходимое для доведения продукта до готовности (обычно при варке)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cooking time",
+                                "target_lang_sense_clarification": "duration needed to cook food"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "время варки",
+                                "target_lang_sense_clarification": "для продуктов, которые варят в жидкости"
+                            },
+                            {
+                                "target_lang_word": "время приготовления",
+                                "target_lang_sense_clarification": "общий термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

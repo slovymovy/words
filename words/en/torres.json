@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Torres</w> has been working at the company for over ten years."
+                            "text": "Mr. <w>Torres</w> has been working at the company for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Торрес</w> работает в компании уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "We invited the <w>Torres</w> family to join us for dinner next week."
+                            "text": "We invited the <w>Torres</w> family to join us for dinner next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Торрес</w> на ужин на следующей неделе."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия испанского и португальского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Торрес",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

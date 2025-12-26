@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn collega is het <w>oneens</w> met het nieuwe beleid van het bedrijf."
+                            "text": "Mijn collega is het <w>oneens</w> met het nieuwe beleid van het bedrijf.",
+                            "target_lang_translations": {
+                                "en": "My colleague <w>disagrees</w> with the company's new policy."
+                            }
                         },
                         {
-                            "text": "We zijn het vaak <w>oneens</w> over de beste aanpak voor dit probleem."
+                            "text": "We zijn het vaak <w>oneens</w> over de beste aanpak voor dit probleem.",
+                            "target_lang_translations": {
+                                "en": "We often <w>disagree</w> on the best approach for this problem."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -34,7 +40,22 @@
                             "trait_type": "form",
                             "comment": "alleen predicatief"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To have a different opinion than someone else; to not be in agreement."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "disagree",
+                                "target_lang_sense_clarification": "verb, used to translate the construction 'het oneens zijn'"
+                            },
+                            {
+                                "target_lang_word": "in disagreement",
+                                "target_lang_sense_clarification": "state of having different opinions"
+                            }
+                        ]
+                    }
                 }
             ]
         }

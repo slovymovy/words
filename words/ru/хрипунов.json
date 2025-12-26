@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера наш сосед, господин <w>Хрипунов</w>, вернулся из длительной командировки."
+                            "text": "Вчера наш сосед, господин <w>Хрипунов</w>, вернулся из длительной командировки.",
+                            "target_lang_translations": {
+                                "en": "Yesterday our neighbor, Mr. <w>Khripunov</w>, returned from a long business trip."
+                            }
                         },
                         {
-                            "text": "В списке сотрудников отдела продаж числится Алексей <w>Хрипунов</w>."
+                            "text": "В списке сотрудников отдела продаж числится Алексей <w>Хрипунов</w>.",
+                            "target_lang_translations": {
+                                "en": "Alexey <w>Khripunov</w> is listed among the sales department employees."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Khripunov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

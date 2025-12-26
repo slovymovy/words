@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>McMinn</w> has been teaching history at the local high school for over twenty years."
+                            "text": "Mr. <w>McMinn</w> has been teaching history at the local high school for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Макминн</w> преподает историю в местной средней школе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The <w>McMinn</w> family reunion is scheduled to take place in the park next Saturday."
+                            "text": "The <w>McMinn</w> family reunion is scheduled to take place in the park next Saturday.",
+                            "target_lang_translations": {
+                                "ru": "Встреча семьи <w>Макминн</w> запланирована в парке на следующую субботу."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Макминн",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

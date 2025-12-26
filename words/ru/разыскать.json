@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мне нужно срочно <разыскать> этот документ в архиве."
+                            "text": "Мне нужно срочно <разыскать> этот документ в архиве.",
+                            "target_lang_translations": {
+                                "en": "I urgently need to <w>locate</w> this document in the archive."
+                            }
                         },
                         {
-                            "text": "Полиция пытается <разыскать> свидетелей происшествия."
+                            "text": "Полиция пытается <разыскать> свидетелей происшествия.",
+                            "target_lang_translations": {
+                                "en": "The police are trying to <w>track down</w> witnesses to the incident."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,7 +45,26 @@
                         "с трудом разыскать",
                         "помочь разыскать",
                         "разыскать информацию"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To find someone or something as a result of searching and effort."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "find",
+                                "target_lang_sense_clarification": "to discover something being searched for"
+                            },
+                            {
+                                "target_lang_word": "locate",
+                                "target_lang_sense_clarification": "to discover the exact place or position of something"
+                            },
+                            {
+                                "target_lang_word": "track down",
+                                "target_lang_sense_clarification": "to find after a difficult or lengthy search"
+                            }
+                        ]
+                    }
                 }
             ]
         }

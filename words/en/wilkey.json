@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The <w>Wilkey</w> family has lived in this small town for over fifty years."
+                            "text": "The <w>Wilkey</w> family has lived in this small town for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Уилки</w> живет в этом маленьком городке уже более пятидесяти лет."
+                            }
                         },
                         {
-                            "text": "Please make sure to deliver this package directly to Mr. <w>Wilkey</w>."
+                            "text": "Please make sure to deliver this package directly to Mr. <w>Wilkey</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, убедитесь, что доставите эту посылку лично мистеру <w>Уилки</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Уилки",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

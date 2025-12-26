@@ -22,10 +22,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Небольшое село <w>Верное</w> расположено в живописной долине."
+                            "text": "Небольшое село <w>Верное</w> расположено в живописной долине.",
+                            "target_lang_translations": {
+                                "en": "The small village of <w>Vernoye</w> is located in a picturesque valley."
+                            }
                         },
                         {
-                            "text": "Моя бабушка родилась и выросла в селе <w>Верное</w>."
+                            "text": "Моя бабушка родилась и выросла в селе <w>Верное</w>.",
+                            "target_lang_translations": {
+                                "en": "My grandmother was born and raised in the village of <w>Vernoye</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -33,7 +39,18 @@
                             "trait_type": "regional",
                             "comment": "Russia"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A village in Russia."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Vernoye",
+                                "target_lang_sense_clarification": "place name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

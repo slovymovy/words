@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment scheduled with Mr. <w>Abdulla</w> tomorrow morning."
+                            "text": "We have an appointment scheduled with Mr. <w>Abdulla</w> tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначена встреча с господином <w>Абдуллой</w> завтра утром."
+                            }
                         },
                         {
-                            "text": "The <w>Abdulla</w> family has lived in this neighborhood for over twenty years."
+                            "text": "The <w>Abdulla</w> family has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Абдулла</w> живет в этом районе уже более двадцати лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Абдулла",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

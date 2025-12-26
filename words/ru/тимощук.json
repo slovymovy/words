@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Анатолий <w>Тимощук</w> был капитаном футбольной команды."
+                            "text": "Анатолий <w>Тимощук</w> был капитаном футбольной команды.",
+                            "target_lang_translations": {
+                                "en": "Anatoliy <w>Tymoshchuk</w> was the captain of the football team."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей я не нашёл фамилию <w>Тимощук</w>."
+                            "text": "В списке приглашённых гостей я не нашёл фамилию <w>Тимощук</w>.",
+                            "target_lang_translations": {
+                                "en": "I didn't find the surname <w>Tymoshchuk</w> on the guest list."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "украинского происхождения"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Ukrainian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Tymoshchuk",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

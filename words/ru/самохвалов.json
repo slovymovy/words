@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера к нам в офис пришёл господин <w>Самохвалов</w>."
+                            "text": "Вчера к нам в офис пришёл господин <w>Самохвалов</w>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Samokhvalov</w> came to our office yesterday."
+                            }
                         },
                         {
-                            "text": "Эту картину написал известный художник Александр <w>Самохвалов</w>."
+                            "text": "Эту картину написал известный художник Александр <w>Самохвалов</w>.",
+                            "target_lang_translations": {
+                                "en": "This painting was painted by the famous artist Alexander <w>Samokhvalov</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "мужская форма"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Samokhvalov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

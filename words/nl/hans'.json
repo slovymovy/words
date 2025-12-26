@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik ga vanavond naar <w>Hans'</w> verjaardagsfeestje."
+                            "text": "Ik ga vanavond naar <w>Hans'</w> verjaardagsfeestje.",
+                            "target_lang_translations": {
+                                "en": "I am going to <w>Hans's</w> birthday party tonight."
+                            }
                         },
                         {
-                            "text": "Heb jij <w>Hans'</w> telefoonnummer voor mij?"
+                            "text": "Heb jij <w>Hans'</w> telefoonnummer voor mij?",
+                            "target_lang_translations": {
+                                "en": "Do you have <w>Hans's</w> phone number for me?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,7 +38,22 @@
                             "trait_type": "form",
                             "comment": "genitief"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive form of Hans."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Hans's",
+                                "target_lang_sense_clarification": "possessive form of the name Hans"
+                            },
+                            {
+                                "target_lang_word": "Hans'",
+                                "target_lang_sense_clarification": "alternative possessive spelling"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В нашем классе учится Сергей <w>Денисов</w>."
+                            "text": "В нашем классе учится Сергей <w>Денисов</w>.",
+                            "target_lang_translations": {
+                                "en": "Sergey <w>Denisov</w> studies in our class."
+                            }
                         },
                         {
-                            "text": "Врач <w>Денисов</w> принимает пациентов до обеда."
+                            "text": "Врач <w>Денисов</w> принимает пациентов до обеда.",
+                            "target_lang_translations": {
+                                "en": "Doctor <w>Denisov</w> sees patients until lunch."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Denisov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,10 +61,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Это <w>Денисов</w> рюкзак, он забыл его вчера."
+                            "text": "Это <w>Денисов</w> рюкзак, он забыл его вчера.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Denis's</w> backpack, he forgot it yesterday."
+                            }
                         },
                         {
-                            "text": "Мы читали <w>Денисов</w> рассказ с большим интересом."
+                            "text": "Мы читали <w>Денисов</w> рассказ с большим интересом.",
+                            "target_lang_translations": {
+                                "en": "We read <w>Denis's</w> story with great interest."
+                            }
                         }
                     ],
                     "traits": [
@@ -55,7 +78,18 @@
                             "trait_type": "form",
                             "comment": "притяжательное прилагательное"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Belonging to Denis; possessive adjective derived from the name Denis."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Denis's",
+                                "target_lang_sense_clarification": "belonging to Denis"
+                            }
+                        ]
+                    }
                 }
             ]
         }

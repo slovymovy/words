@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Rudnick</w> has been working at the company for over twenty years."
+                            "text": "Mr. <w>Rudnick</w> has been working at the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Рудник</w> работает в этой компании уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The letter was addressed to a Sarah <w>Rudnick</w> living in Chicago."
+                            "text": "The letter was addressed to a Sarah <w>Rudnick</w> living in Chicago.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано Саре <w>Рудник</w>, живущей в Чикаго."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Рудник",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

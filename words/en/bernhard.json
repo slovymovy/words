@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Please deliver this package to Mr. <w>Bernhard</w> at the front desk."
+                            "text": "Please deliver this package to Mr. <w>Bernhard</w> at the front desk.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте эту посылку мистеру <w>Бернхарду</w> на стойке регистрации."
+                            }
                         },
                         {
-                            "text": "The <w>Bernhard</w> family has owned this bakery for over fifty years."
+                            "text": "The <w>Bernhard</w> family has owned this bakery for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Бернхард</w> владеет этой пекарней уже более пятидесяти лет."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бернхард",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

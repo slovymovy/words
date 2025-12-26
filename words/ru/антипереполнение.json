@@ -1,45 +1,65 @@
 {
-  "word_family": [
-    "переполнение",
-    "наполнение",
-    "пополнение",
-    "выполнение",
-    "дополнение",
-    "исполнение"
-  ],
-  "entries": [
-    {
-      "pos": "noun",
-      "senses": [
+    "word_family": [
+        "переполнение",
+        "наполнение",
+        "пополнение",
+        "выполнение",
+        "дополнение",
+        "исполнение"
+    ],
+    "entries": [
         {
-          "sense_id": "78111040-599e-3ae4-80b9-881edd0533aa",
-          "sense_definition": "Ситуация в информатике, когда результат операции с плавающей запятой становится настолько близким к нулю, что порядок числа выходит за пределы разрядной сетки.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "При работе с очень малыми величинами может возникнуть <w>антипереполнение</w>, что приведёт к потере точности вычислений."
-            },
-            {
-              "text": "Программист должен предусмотреть обработку исключений, если в процессе расчётов произойдёт <w>антипереполнение</w>."
-            }
-          ],
-          "synonyms": [
-            "исчезновение порядка"
-          ],
-          "antonyms": [
-            "переполнение"
-          ],
-          "common_phrases": [
-            "ошибка антипереполнения",
-            "вызвать антипереполнение",
-            "арифметическое антипереполнение"
-          ],
-          "traits": []
+            "pos": "noun",
+            "senses": [
+                {
+                    "sense_id": "78111040-599e-3ae4-80b9-881edd0533aa",
+                    "sense_definition": "Ситуация в информатике, когда результат операции с плавающей запятой становится настолько близким к нулю, что порядок числа выходит за пределы разрядной сетки.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "При работе с очень малыми величинами может возникнуть <w>антипереполнение</w>, что приведёт к потере точности вычислений.",
+                            "target_lang_translations": {
+                                "en": "When working with very small values, <w>underflow</w> may occur, leading to a loss of calculation precision."
+                            }
+                        },
+                        {
+                            "text": "Программист должен предусмотреть обработку исключений, если в процессе расчётов произойдёт <w>антипереполнение</w>.",
+                            "target_lang_translations": {
+                                "en": "The programmer must provide for exception handling if <w>underflow</w> occurs during the calculation process."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "исчезновение порядка"
+                    ],
+                    "antonyms": [
+                        "переполнение"
+                    ],
+                    "common_phrases": [
+                        "ошибка антипереполнения",
+                        "вызвать антипереполнение",
+                        "арифметическое антипереполнение"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A condition in computer science where the result of a floating-point operation is smaller in absolute value than the smallest representable positive number."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "underflow",
+                                "target_lang_sense_clarification": "computing"
+                            },
+                            {
+                                "target_lang_word": "arithmetic underflow",
+                                "target_lang_sense_clarification": "technical term"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

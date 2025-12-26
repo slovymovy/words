@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "На утреннем совещании директор завода Сергей <w>Аваков</w> представил новый план развития."
+                            "text": "На утреннем совещании директор завода Сергей <w>Аваков</w> представил новый план развития.",
+                            "target_lang_translations": {
+                                "en": "At the morning meeting, the factory director Sergey <w>Avakov</w> presented the new development plan."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значилась фамилия <w>Аваков</w>, но никто не знал, кто это."
+                            "text": "В списке приглашённых гостей значилась фамилия <w>Аваков</w>, но никто не знал, кто это.",
+                            "target_lang_translations": {
+                                "en": "The surname <w>Avakov</w> was on the guest list, but no one knew who it was."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "армянского происхождения"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russified Armenian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Avakov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij heeft gisteren drie nieuwe <tassen> gekocht in de stad."
+                            "text": "Zij heeft gisteren drie nieuwe <tassen> gekocht in de stad.",
+                            "target_lang_translations": {
+                                "en": "She bought three new <w>bags</w> in the city yesterday.",
+                                "ru": "Вчера она купила в городе три новые <сумки>."
+                            }
                         },
                         {
-                            "text": "Kun jij me even helpen met deze zware <tassen>?"
+                            "text": "Kun jij me even helpen met deze zware <tassen>?",
+                            "target_lang_translations": {
+                                "en": "Can you help me with these heavy <w>bags</w>?",
+                                "ru": "Ты не мог бы помочь мне с этими тяжелыми <сумками>?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -35,7 +43,29 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of <w>tas</w>.",
+                        "ru": "Множественное число слова \"tas\" (сумка)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bags",
+                                "target_lang_sense_clarification": "plural of bag"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сумки",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "пакеты",
+                                "target_lang_sense_clarification": "для покупок"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -51,10 +81,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De boeren <tassen> het gedroogde hooi hoog op in de schuur."
+                            "text": "De boeren <tassen> het gedroogde hooi hoog op in de schuur.",
+                            "target_lang_translations": {
+                                "en": "The farmers <w>stack</w> the dried hay high in the barn.",
+                                "ru": "Фермеры высоко <складывают> сушеное сено в сарае."
+                            }
                         },
                         {
-                            "text": "Je moet de stenen voorzichtig <tassen> zodat ze niet omvallen."
+                            "text": "Je moet de stenen voorzichtig <tassen> zodat ze niet omvallen.",
+                            "target_lang_translations": {
+                                "en": "You must <w>stack</w> the stones carefully so they do not fall over.",
+                                "ru": "Нужно осторожно <укладывать> камни, чтобы они не упали."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -64,7 +102,41 @@
                     ],
                     "common_phrases": [
                         "hooi tassen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To stack things orderly on top of each other or put in a heap.",
+                        "ru": "Аккуратно складывать вещи друг на друга или в кучу."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "stack",
+                                "target_lang_sense_clarification": "to arrange in a pile"
+                            },
+                            {
+                                "target_lang_word": "pile up",
+                                "target_lang_sense_clarification": "to form a heap"
+                            },
+                            {
+                                "target_lang_word": "heap",
+                                "target_lang_sense_clarification": "to put in a pile"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "складывать",
+                                "target_lang_sense_clarification": "в стопку"
+                            },
+                            {
+                                "target_lang_word": "укладывать",
+                                "target_lang_sense_clarification": "слоями"
+                            },
+                            {
+                                "target_lang_word": "скирдовать",
+                                "target_lang_sense_clarification": "сено или солому"
+                            }
+                        ]
+                    }
                 }
             ]
         }

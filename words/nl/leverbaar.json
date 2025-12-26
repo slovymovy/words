@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dit nieuwe model is vanaf volgende week weer <w>leverbaar</w>."
+                            "text": "Dit nieuwe model is vanaf volgende week weer <w>leverbaar</w>.",
+                            "target_lang_translations": {
+                                "en": "This new model will be <w>available</w> again starting next week.",
+                                "ru": "Эта новая модель снова будет <w>доступна</w> со следующей недели."
+                            }
                         },
                         {
-                            "text": "De meeste producten in deze winkel zijn direct uit voorraad <w>leverbaar</w>."
+                            "text": "De meeste producten in deze winkel zijn direct uit voorraad <w>leverbaar</w>.",
+                            "target_lang_translations": {
+                                "en": "Most products in this store are immediately <w>available</w> from stock.",
+                                "ru": "Большинство товаров в этом магазине <w>доступны</w> прямо со склада."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,37 @@
                         "direct leverbaar",
                         "uit voorraad leverbaar",
                         "niet leverbaar"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "available to be delivered or sold",
+                        "ru": "доступный для доставки или продажи"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "available",
+                                "target_lang_sense_clarification": "general availability for purchase or delivery"
+                            },
+                            {
+                                "target_lang_word": "in stock",
+                                "target_lang_sense_clarification": "ready to be shipped from inventory"
+                            },
+                            {
+                                "target_lang_word": "deliverable",
+                                "target_lang_sense_clarification": "capable of being delivered"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "доступный",
+                                "target_lang_sense_clarification": "общий смысл"
+                            },
+                            {
+                                "target_lang_word": "имеющийся в наличии",
+                                "target_lang_sense_clarification": "о товаре на складе"
+                            }
+                        ]
+                    }
                 }
             ]
         }

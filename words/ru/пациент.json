@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач внимательно выслушал жалобы <w>пациента</w> и назначил лечение."
+                            "text": "Врач внимательно выслушал жалобы <w>пациента</w> и назначил лечение.",
+                            "target_lang_translations": {
+                                "en": "The doctor listened carefully to the <w>patient</w>'s complaints and prescribed treatment."
+                            }
                         },
                         {
-                            "text": "Каждый <w>пациент</w> должен записаться на приём в регистратуре."
+                            "text": "Каждый <w>пациент</w> должен записаться на приём в регистратуре.",
+                            "target_lang_translations": {
+                                "en": "Every <w>patient</w> must make an appointment at the reception desk."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +39,18 @@
                         "принимать пациентов",
                         "постоянный пациент",
                         "тяжёлый пациент"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who seeks medical help, is under observation, or is being treated by a doctor."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "patient",
+                                "target_lang_sense_clarification": "person receiving medical care"
+                            }
+                        ]
+                    }
                 }
             ]
         }

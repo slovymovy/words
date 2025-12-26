@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "That joke was so funny, <w>hahaha</w>!"
+                            "text": "That joke was so funny, <w>hahaha</w>!",
+                            "target_lang_translations": {
+                                "ru": "Эта шутка была такой смешной, <w>ха-ха-ха</w>!"
+                            }
                         },
                         {
-                            "text": "<w>Hahaha</w>, I cannot believe you actually said that to him."
+                            "text": "<w>Hahaha</w>, I cannot believe you actually said that to him.",
+                            "target_lang_translations": {
+                                "ru": "<w>Ха-ха-ха</w>, поверить не могу, что ты действительно сказал ему это."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +39,22 @@
                             "trait_type": "colloquial",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Используется для передачи звука смеха на письме."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ха-ха-ха",
+                                "target_lang_sense_clarification": "звукоподражание смеху"
+                            },
+                            {
+                                "target_lang_word": "ахаха",
+                                "target_lang_sense_clarification": "смех (разговорное)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>dagcijfer</w> van de verkoop was veel hoger dan we hadden verwacht."
+                            "text": "Het <w>dagcijfer</w> van de verkoop was veel hoger dan we hadden verwacht.",
+                            "target_lang_translations": {
+                                "en": "The <w>daily figure</w> for sales was much higher than we had expected."
+                            }
                         },
                         {
-                            "text": "Door een storing in het systeem is het <w>dagcijfer</w> van gisteren nog niet bekend."
+                            "text": "Door een storing in het systeem is het <w>dagcijfer</w> van gisteren nog niet bekend.",
+                            "target_lang_translations": {
+                                "en": "Due to a system error, yesterday's <w>daily figure</w> is not yet known."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +38,22 @@
                         "hoogste dagcijfer",
                         "laagste dagcijfer",
                         "gemiddeld dagcijfer"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A number representing the value, count, or result of one specific day."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "daily figure",
+                                "target_lang_sense_clarification": "statistic for a single day"
+                            },
+                            {
+                                "target_lang_word": "daily total",
+                                "target_lang_sense_clarification": "sum or aggregate for a day"
+                            }
+                        ]
+                    }
                 }
             ]
         }

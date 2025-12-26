@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik vind <w>autorijden</w> erg leuk om te doen."
+                            "text": "Ik vind <w>autorijden</w> erg leuk om te doen.",
+                            "target_lang_translations": {
+                                "en": "I find <w>driving</w> very fun to do.",
+                                "ru": "Мне очень нравится <w>водить машину</w>."
+                            }
                         },
                         {
-                            "text": "Mijn broer wil graag leren <w>autorijden</w>."
+                            "text": "Mijn broer wil graag leren <w>autorijden</w>.",
+                            "target_lang_translations": {
+                                "en": "My brother would like to learn to <w>drive</w>.",
+                                "ru": "Мой брат очень хочет научиться <w>водить машину</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,7 +48,33 @@
                             "trait_type": "form",
                             "comment": "scheidbaar"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To operate a car in order to travel.",
+                        "ru": "Управлять автомобилем для передвижения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "drive",
+                                "target_lang_sense_clarification": "operate a vehicle"
+                            },
+                            {
+                                "target_lang_word": "drive a car",
+                                "target_lang_sense_clarification": "specific action"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "водить машину",
+                                "target_lang_sense_clarification": "управлять автомобилем (общий навык или процесс)"
+                            },
+                            {
+                                "target_lang_word": "управлять автомобилем",
+                                "target_lang_sense_clarification": "формальное выражение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

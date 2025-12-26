@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De winkel is op <w>za</w> en zo gesloten."
+                            "text": "De winkel is op <w>za</w> en zo gesloten.",
+                            "target_lang_translations": {
+                                "en": "The shop is closed on <w>Sat</w> and Sun.",
+                                "ru": "Магазин закрыт в <w>сб</w> и вс."
+                            }
                         },
                         {
-                            "text": "Op het rooster staat dat we <w>za</w> moeten werken."
+                            "text": "Op het rooster staat dat we <w>za</w> moeten werken.",
+                            "target_lang_translations": {
+                                "en": "The schedule says we have to work on <w>Sat</w>.",
+                                "ru": "В расписании сказано, что мы должны работать в <w>сб</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,33 @@
                             "trait_type": "form",
                             "comment": "afkorting"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation of Saturday.",
+                        "ru": "Сокращение от слова суббота."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sat",
+                                "target_lang_sense_clarification": "abbreviation"
+                            },
+                            {
+                                "target_lang_word": "Saturday",
+                                "target_lang_sense_clarification": "day of the week"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сб",
+                                "target_lang_sense_clarification": "сокращение"
+                            },
+                            {
+                                "target_lang_word": "суббота",
+                                "target_lang_sense_clarification": "день недели"
+                            }
+                        ]
+                    }
                 }
             ]
         }

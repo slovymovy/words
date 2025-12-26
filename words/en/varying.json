@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The weather is <w>varying</w> significantly from day to day."
+                            "text": "The weather is <w>varying</w> significantly from day to day.",
+                            "target_lang_translations": {
+                                "ru": "Погода значительно <w>меняется</w> изо дня в день."
+                            }
                         },
                         {
-                            "text": "She is <w>varying</w> her study routine to keep things interesting."
+                            "text": "She is <w>varying</w> her study routine to keep things interesting.",
+                            "target_lang_translations": {
+                                "ru": "Она <w>разнообразит</w> свой учебный процесс, чтобы поддерживать интерес."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,7 +49,26 @@
                             "trait_type": "form",
                             "comment": "present participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Причастие настоящего времени и герундий от глагола vary (меняться, варьироваться, разнообразить)"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "меняющийся",
+                                "target_lang_sense_clarification": "подверженный изменениям"
+                            },
+                            {
+                                "target_lang_word": "варьирующийся",
+                                "target_lang_sense_clarification": "колеблющийся в определенных пределах"
+                            },
+                            {
+                                "target_lang_word": "различный",
+                                "target_lang_sense_clarification": "используется в контексте 'разной степени', 'разных размеров'"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -59,12 +84,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The developer defined a <w>varying</w> to pass color data between the shaders."
+                            "text": "The developer defined a <w>varying</w> to pass color data between the shaders.",
+                            "target_lang_translations": {
+                                "ru": "Разработчик определил <w>интерполируемую переменную</w> для передачи данных о цвете между шейдерами."
+                            }
                         },
                         {
-                            "text": "Adding too many <w>varyings</w> can slow down the graphics rendering process."
+                            "text": "Adding too many <w>varyings</w> can slow down the graphics rendering process.",
+                            "target_lang_translations": {
+                                "ru": "Добавление слишком большого количества <w>varying-переменных</w> может замедлить процесс рендеринга графики."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Тип переменной во фрагментном шейдере, используемый для интерполяции значений по примитиву"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "интерполируемая переменная",
+                                "target_lang_sense_clarification": "термин в компьютерной графике"
+                            },
+                            {
+                                "target_lang_word": "переменная varying",
+                                "target_lang_sense_clarification": "технический термин (транслитерация)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

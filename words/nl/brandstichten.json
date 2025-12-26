@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Inbrekers <w>stichten</w> vaak <w>brand</w> om sporen uit te wissen."
+                            "text": "Inbrekers <w>stichten</w> vaak <w>brand</w> om sporen uit te wissen.",
+                            "target_lang_translations": {
+                                "en": "Burglars often <w>start a fire</w> to cover their tracks.",
+                                "ru": "Взломщики часто <w>устраивают поджог</w>, чтобы замести следы."
+                            }
                         },
                         {
-                            "text": "De politie heeft de man gearresteerd die in de loods heeft <w>brandgesticht</w>."
+                            "text": "De politie heeft de man gearresteerd die in de loods heeft <w>brandgesticht</w>.",
+                            "target_lang_translations": {
+                                "en": "The police have arrested the man who <w>committed arson</w> in the warehouse.",
+                                "ru": "Полиция арестовала мужчину, который <w>совершил поджог</w> на складе."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +44,37 @@
                             "trait_type": "form",
                             "comment": "scheidbaar werkwoord"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To intentionally cause a fire, usually with the intention of causing damage.",
+                        "ru": "Умышленно вызывать пожар, обычно с целью нанесения ущерба."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "commit arson",
+                                "target_lang_sense_clarification": "legal/formal term for maliciously setting fire"
+                            },
+                            {
+                                "target_lang_word": "set fire",
+                                "target_lang_sense_clarification": "action of igniting something"
+                            },
+                            {
+                                "target_lang_word": "start a fire",
+                                "target_lang_sense_clarification": "general term for causing a fire"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "совершать поджог",
+                                "target_lang_sense_clarification": "официальный или юридический термин"
+                            },
+                            {
+                                "target_lang_word": "поджигать",
+                                "target_lang_sense_clarification": "намеренно вызывать возгорание"
+                            }
+                        ]
+                    }
                 }
             ]
         }

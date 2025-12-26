@@ -13,10 +13,18 @@
                     "name_type": "organization_name",
                     "examples": [
                         {
-                            "text": "De wegenwacht is een bekende dienst van de <w>ANWB</w>."
+                            "text": "De wegenwacht is een bekende dienst van de <w>ANWB</w>.",
+                            "target_lang_translations": {
+                                "en": "Roadside assistance is a well-known service of the <w>ANWB</w>.",
+                                "ru": "Служба помощи на дорогах — известная услуга <w>ANWB</w>."
+                            }
                         },
                         {
-                            "text": "Wij hebben de <w>ANWB</w> gebeld toen de auto niet meer startte."
+                            "text": "Wij hebben de <w>ANWB</w> gebeld toen de auto niet meer startte.",
+                            "target_lang_translations": {
+                                "en": "We called the <w>ANWB</w> when the car wouldn't start.",
+                                "ru": "Мы позвонили в <w>ANWB</w>, когда машина перестала заводиться."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +37,33 @@
                             "trait_type": "regional",
                             "comment": "Nederland"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The Royal Dutch Touring Club; a Dutch organization providing assistance and information to road users and tourists.",
+                        "ru": "Королевский голландский туристический клуб; нидерландская организация, оказывающая помощь и предоставляющая информацию участникам дорожного движения и туристам."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ANWB",
+                                "target_lang_sense_clarification": "Dutch roadside assistance organization"
+                            },
+                            {
+                                "target_lang_word": "Royal Dutch Touring Club",
+                                "target_lang_sense_clarification": "official English name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "ANWB",
+                                "target_lang_sense_clarification": "название организации"
+                            },
+                            {
+                                "target_lang_word": "Королевский голландский туристический клуб",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

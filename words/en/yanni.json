@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I have an appointment with Dr. <w>Yanni</w> at three o'clock."
+                            "text": "I have an appointment with Dr. <w>Yanni</w> at three o'clock.",
+                            "target_lang_translations": {
+                                "ru": "У меня прием у доктора <w>Янни</w> в три часа."
+                            }
                         },
                         {
-                            "text": "The <w>Yanni</w> family has lived in this neighborhood for over fifty years."
+                            "text": "The <w>Yanni</w> family has lived in this neighborhood for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Янни</w> живет в этом районе уже более пятидесяти лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Янни",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

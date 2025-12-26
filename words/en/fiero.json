@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Fiero</w> has been working at the local library for over twenty years."
+                            "text": "Mr. <w>Fiero</w> has been working at the local library for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Фиеро</w> работает в местной библиотеке уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We invited the entire <w>Fiero</w> family to the wedding reception last weekend."
+                            "text": "We invited the entire <w>Fiero</w> family to the wedding reception last weekend.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили всю семью <w>Фиеро</w> на свадебный прием в прошлые выходные."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Фиеро",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

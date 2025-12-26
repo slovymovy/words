@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn oom heet <w>Jos</w> en hij woont in Amsterdam."
+                            "text": "Mijn oom heet <w>Jos</w> en hij woont in Amsterdam.",
+                            "target_lang_translations": {
+                                "en": "My uncle is called <w>Jos</w> and he lives in Amsterdam."
+                            }
                         },
                         {
-                            "text": "<w>Jos</w> gaat elke zaterdag naar de voetbalclub."
+                            "text": "<w>Jos</w> gaat elke zaterdag naar de voetbalclub.",
+                            "target_lang_translations": {
+                                "en": "<w>Jos</w> goes to the football club every Saturday."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "form",
                             "comment": "verkorting van Jozef"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A boy's name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jos",
+                                "target_lang_sense_clarification": "male given name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

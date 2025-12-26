@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Dinus</w> has lived in this neighborhood for over twenty years."
+                            "text": "Mr. <w>Dinus</w> has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Динус</w> живет в этом районе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The historical records mention a merchant named <w>Dinus</w> from the 14th century."
+                            "text": "The historical records mention a merchant named <w>Dinus</w> from the 14th century.",
+                            "target_lang_translations": {
+                                "ru": "В исторических документах упоминается купец по имени <w>Динус</w>, живший в XIV веке."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Динус",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "De heer <w>Wilders</w> gaf gisteren een interview op televisie."
+                            "text": "De heer <w>Wilders</w> gaf gisteren een interview op televisie.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Wilders</w> gave an interview on television yesterday.",
+                                "ru": "Господин <w>Вилдерс</w> вчера дал интервью по телевидению."
+                            }
                         },
                         {
-                            "text": "Ik ken toevallig iemand die ook <w>Wilders</w> heet."
+                            "text": "Ik ken toevallig iemand die ook <w>Wilders</w> heet.",
+                            "target_lang_translations": {
+                                "en": "I happen to know someone who is also named <w>Wilders</w>.",
+                                "ru": "Я случайно знаю человека, которого тоже зовут <w>Вилдерс</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +38,25 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A surname.",
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Wilders",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Вилдерс",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -46,10 +72,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We zochten iets <w>wilders</w> dan een gewone wandeling in het park."
+                            "text": "We zochten iets <w>wilders</w> dan een gewone wandeling in het park.",
+                            "target_lang_translations": {
+                                "en": "We were looking for something <w>wilder</w> than a normal walk in the park.",
+                                "ru": "Мы искали что-то <w>более дикое</w>, чем обычная прогулка в парке."
+                            }
                         },
                         {
-                            "text": "Heb je niets <w>wilders</w> meegemaakt tijdens je reis?"
+                            "text": "Heb je niets <w>wilders</w> meegemaakt tijdens je reis?",
+                            "target_lang_translations": {
+                                "en": "Did you experience nothing <w>wilder</w> during your trip?",
+                                "ru": "С тобой не случалось ничего <w>более дикого</w> во время поездки?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -62,7 +96,29 @@
                             "trait_type": "form",
                             "comment": "partitive comparative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Form of the comparative degree of 'wild', used after indefinite pronouns like 'something' or 'nothing'.",
+                        "ru": "Форма сравнительной степени прилагательного \"wild\" (дикий), употребляемая после неопределенных местоимений, таких как \"iets\" (что-то) или \"niets\" (ничего)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wilder",
+                                "target_lang_sense_clarification": "comparative adjective"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "более дикий",
+                                "target_lang_sense_clarification": "сравнительная степень"
+                            },
+                            {
+                                "target_lang_word": "подиче",
+                                "target_lang_sense_clarification": "разговорная форма"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Farrant</w> has been appointed as the new director of the department."
+                            "text": "Mr. <w>Farrant</w> has been appointed as the new director of the department.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Фаррант</w> был назначен новым директором департамента."
+                            }
                         },
                         {
-                            "text": "We visited the <w>Farrant</w> estate during our trip to the countryside."
+                            "text": "We visited the <w>Farrant</w> estate during our trip to the countryside.",
+                            "target_lang_translations": {
+                                "ru": "Мы посетили поместье <w>Фаррантов</w> во время нашей поездки за город."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Фаррант",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

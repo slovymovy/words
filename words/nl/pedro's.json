@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Heb jij misschien <w>Pedro's</w> telefoonnummer voor mij?"
+                            "text": "Heb jij misschien <w>Pedro's</w> telefoonnummer voor mij?",
+                            "target_lang_translations": {
+                                "en": "Do you happen to have <w>Pedro's</w> phone number for me?",
+                                "ru": "У тебя случайно нет номера телефона <w>Педро</w>?"
+                            }
                         },
                         {
-                            "text": "We gaan vanavond met zijn allen naar <w>Pedro's</w> feestje."
+                            "text": "We gaan vanavond met zijn allen naar <w>Pedro's</w> feestje.",
+                            "target_lang_translations": {
+                                "en": "We are all going to <w>Pedro's</w> party tonight.",
+                                "ru": "Мы все идем сегодня вечером на вечеринку <w>Педро</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Pedro",
+                        "ru": "Родительный падеж имени Педро, указывающий на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Pedro's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Педро",
+                                "target_lang_sense_clarification": "имя собственное (несклоняемое)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

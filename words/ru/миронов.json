@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Знаменитый актёр Андрей <w>Миронов</w> сыграл множество ярких ролей."
+                            "text": "Знаменитый актёр Андрей <w>Миронов</w> сыграл множество ярких ролей.",
+                            "target_lang_translations": {
+                                "en": "The famous actor Andrei <w>Mironov</w> played many vivid roles."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значится господин <w>Миронов</w>."
+                            "text": "В списке приглашённых гостей значится господин <w>Миронов</w>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Mironov</w> is listed among the invited guests."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,7 +38,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Mironov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Моя сестра сейчас учится в <w>США</w>."
+                            "text": "Моя сестра сейчас учится в <w>США</w>.",
+                            "target_lang_translations": {
+                                "en": "My sister is currently studying in the <w>USA</w>."
+                            }
                         },
                         {
-                            "text": "Президент <w>США</w> живёт в Белом доме."
+                            "text": "Президент <w>США</w> живёт в Белом доме.",
+                            "target_lang_translations": {
+                                "en": "The President of the <w>USA</w> lives in the White House."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +36,26 @@
                         "поездка в США",
                         "виза в США",
                         "флаг США"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A country in North America; abbreviation of <w>United States of America</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "USA",
+                                "target_lang_sense_clarification": "country"
+                            },
+                            {
+                                "target_lang_word": "the US",
+                                "target_lang_sense_clarification": "country"
+                            },
+                            {
+                                "target_lang_word": "United States",
+                                "target_lang_sense_clarification": "country"
+                            }
+                        ]
+                    }
                 }
             ]
         }

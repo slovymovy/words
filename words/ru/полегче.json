@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот чемодан <w>полегче</w>, поэтому я возьму его с собой в салон самолёта."
+                            "text": "Этот чемодан <w>полегче</w>, поэтому я возьму его с собой в салон самолёта.",
+                            "target_lang_translations": {
+                                "en": "This suitcase is <w>a bit lighter</w>, so I will take it with me into the cabin."
+                            }
                         },
                         {
-                            "text": "После приёма лекарства пациенту стало <w>полегче</w>, и он смог уснуть."
+                            "text": "После приёма лекарства пациенту стало <w>полегче</w>, и он смог уснуть.",
+                            "target_lang_translations": {
+                                "en": "After taking the medicine, the patient felt <w>a little better</w>, and he was able to fall asleep."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -45,7 +51,26 @@
                             "trait_type": "colloquial",
                             "comment": "prefix 'по-' adds a nuance of 'a little bit' to the comparative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A colloquial comparative form indicating that something is slightly lighter, easier, or that one feels slightly better."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "a bit lighter",
+                                "target_lang_sense_clarification": "regarding weight"
+                            },
+                            {
+                                "target_lang_word": "a little easier",
+                                "target_lang_sense_clarification": "regarding difficulty"
+                            },
+                            {
+                                "target_lang_word": "a bit better",
+                                "target_lang_sense_clarification": "regarding health or feeling"
+                            }
+                        ]
+                    }
                 }
             ]
         }

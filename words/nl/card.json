@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Je moet je <w>card</w> in de lezer steken om de betaling te voltooien."
+                            "text": "Je moet je <w>card</w> in de lezer steken om de betaling te voltooien.",
+                            "target_lang_translations": {
+                                "en": "You must insert your <w>card</w> into the reader to complete the payment."
+                            }
                         },
                         {
-                            "text": "Zonder een geldige <w>card</w> krijg je geen toegang tot het gebouw."
+                            "text": "Zonder een geldige <w>card</w> krijg je geen toegang tot het gebouw.",
+                            "target_lang_translations": {
+                                "en": "Without a valid <w>card</w>, you will not get access to the building."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +39,22 @@
                         "geldige card",
                         "nieuwe card",
                         "persoonlijke card"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A card that can be processed electronically, usually equipped with a chip or magnetic strip, used as a means of payment, identification, or access."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "card",
+                                "target_lang_sense_clarification": "electronic or plastic card"
+                            },
+                            {
+                                "target_lang_word": "smart card",
+                                "target_lang_sense_clarification": "card with a chip"
+                            }
+                        ]
+                    }
                 }
             ]
         }

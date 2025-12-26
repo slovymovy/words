@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Escalante</w> is known for his dedication to teaching mathematics at the local high school."
+                            "text": "Mr. <w>Escalante</w> is known for his dedication to teaching mathematics at the local high school.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Эскаланте</w> известен своей преданностью преподаванию математики в местной средней школе."
+                            }
                         },
                         {
-                            "text": "Please verify if the name on the official document is spelled <w>Escalante</w>."
+                            "text": "Please verify if the name on the official document is spelled <w>Escalante</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, проверьте, написано ли имя в официальном документе как <w>Эскаланте</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from Spanish"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия испанского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Эскаланте",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

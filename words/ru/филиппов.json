@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера к нам в офис заходил господин <w>Филиппов</w>."
+                            "text": "Вчера к нам в офис заходил господин <w>Филиппов</w>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Filippov</w> came to our office yesterday."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значится Алексей <w>Филиппов</w>."
+                            "text": "В списке приглашённых гостей значится Алексей <w>Филиппов</w>.",
+                            "target_lang_translations": {
+                                "en": "Alexey <w>Filippov</w> is on the list of invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Russian surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Filippov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

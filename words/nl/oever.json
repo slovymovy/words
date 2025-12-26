@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We wandelden kilometers lang langs de groene <w>oever</w> van de Rijn."
+                            "text": "We wandelden kilometers lang langs de groene <w>oever</w> van de Rijn.",
+                            "target_lang_translations": {
+                                "en": "We walked for kilometers along the green <w>bank</w> of the Rhine."
+                            }
                         },
                         {
-                            "text": "Door de hevige regenval trad de rivier gisteren buiten haar <w>oevers</w>."
+                            "text": "Door de hevige regenval trad de rivier gisteren buiten haar <w>oevers</w>.",
+                            "target_lang_translations": {
+                                "en": "Due to the heavy rainfall, the river burst its <w>banks</w> yesterday."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +39,22 @@
                         "buiten zijn oevers treden",
                         "aan de oever",
                         "van oever tot oever"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The strip of land directly bordering a river, canal, or lake."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bank",
+                                "target_lang_sense_clarification": "of a river or canal"
+                            },
+                            {
+                                "target_lang_word": "shore",
+                                "target_lang_sense_clarification": "of a lake or sea"
+                            }
+                        ]
+                    }
                 }
             ]
         }

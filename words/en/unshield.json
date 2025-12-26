@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The technician had to <w>unshield</w> the reactor core to perform the necessary maintenance."
+                            "text": "The technician had to <w>unshield</w> the reactor core to perform the necessary maintenance.",
+                            "target_lang_translations": {
+                                "ru": "Технику пришлось <w>снять защиту</w> с активной зоны реактора, чтобы выполнить необходимое техническое обслуживание."
+                            }
                         },
                         {
-                            "text": "Do not <w>unshield</w> the sensitive electronics until you are in a static-free environment."
+                            "text": "Do not <w>unshield</w> the sensitive electronics until you are in a static-free environment.",
+                            "target_lang_translations": {
+                                "ru": "Не <w>снимайте экранирование</w> с чувствительной электроники, пока не окажетесь в среде без статического электричества."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +38,26 @@
                         "shield",
                         "protect",
                         "cover"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Снять щит или защитное покрытие с чего-либо, оставляя объект незащищенным."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "снять защиту",
+                                "target_lang_sense_clarification": "удалить защитное покрытие"
+                            },
+                            {
+                                "target_lang_word": "снять экранирование",
+                                "target_lang_sense_clarification": "технический термин"
+                            },
+                            {
+                                "target_lang_word": "деэкранировать",
+                                "target_lang_sense_clarification": "специальный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

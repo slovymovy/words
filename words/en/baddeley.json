@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Baddeley</w> was known for his significant contributions to the local community."
+                            "text": "Mr. <w>Baddeley</w> was known for his significant contributions to the local community.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Бэддели</w> был известен своим значительным вкладом в местное сообщество."
+                            }
                         },
                         {
-                            "text": "Please forward this important letter to Mrs. <w>Baddeley</w> as soon as possible."
+                            "text": "Please forward this important letter to Mrs. <w>Baddeley</w> as soon as possible.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, перешлите это важное письмо миссис <w>Бэддели</w> как можно скорее."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бэддели",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

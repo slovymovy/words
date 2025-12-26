@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren voor de hele familie <w>gekookt</w>."
+                            "text": "Ik heb gisteren voor de hele familie <w>gekookt</w>.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я <w>готовил</w> для всей семьи."
+                            }
                         },
                         {
-                            "text": "Heb jij de pasta al <w>gekookt</w> of moet dat nog gebeuren?"
+                            "text": "Heb jij de pasta al <w>gekookt</w> of moet dat nog gebeuren?",
+                            "target_lang_translations": {
+                                "ru": "Ты уже <w>сварил</w> макароны, или это еще нужно сделать?"
+                            }
                         }
                     ],
                     "traits": [
@@ -32,7 +38,22 @@
                             "trait_type": "form",
                             "comment": "past participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "причастие прошедшего времени от глагола koken"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "готовил",
+                                "target_lang_sense_clarification": "действие (готовить еду)"
+                            },
+                            {
+                                "target_lang_word": "сварил",
+                                "target_lang_sense_clarification": "действие (варить в воде)"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -48,10 +69,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wij eten vanavond <w>gekookte</w> aardappelen met groenten en vlees."
+                            "text": "Wij eten vanavond <w>gekookte</w> aardappelen met groenten en vlees.",
+                            "target_lang_translations": {
+                                "ru": "Сегодня вечером мы едим <w>вареный</w> картофель с овощами и мясом."
+                            }
                         },
                         {
-                            "text": "Bij het ontbijt neem ik graag een zacht <w>gekookt</w> eitje."
+                            "text": "Bij het ontbijt neem ik graag een zacht <w>gekookt</w> eitje.",
+                            "target_lang_translations": {
+                                "ru": "На завтрак я люблю яйцо, <w>сваренное</w> всмятку."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -63,7 +90,22 @@
                         "gekookte aardappelen",
                         "gekookte ham",
                         "gekookte groenten"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "приготовленный в кипящей воде"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вареный",
+                                "target_lang_sense_clarification": "прилагательное"
+                            },
+                            {
+                                "target_lang_word": "отварной",
+                                "target_lang_sense_clarification": "кулинарный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

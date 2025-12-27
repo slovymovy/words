@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера я встретил Олега <w>Ковальчука</w> в городском парке."
+                            "text": "Вчера я встретил Олега <w>Ковальчука</w> в городском парке.",
+                            "target_lang_translations": {
+                                "en": "Yesterday I met Oleg <w>Kovalchuk</w> in the city park."
+                            }
                         },
                         {
-                            "text": "Эта интересная статья написана Марией <w>Ковальчук</w>."
+                            "text": "Эта интересная статья написана Марией <w>Ковальчук</w>.",
+                            "target_lang_translations": {
+                                "en": "This interesting article was written by Maria <w>Kovalchuk</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": "украинского или белорусского происхождения"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Ukrainian and Belarusian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Kovalchuk",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

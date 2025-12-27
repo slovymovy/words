@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het totale <w>bedrag</w> van de rekening was hoger dan ik had verwacht."
+                            "text": "Het totale <w>bedrag</w> van de rekening was hoger dan ik had verwacht.",
+                            "target_lang_translations": {
+                                "en": "The total <w>amount</w> of the bill was higher than I had expected.",
+                                "ru": "Общая <w>сумма</w> счёта была выше, чем я ожидал."
+                            }
                         },
                         {
-                            "text": "Zij heeft een groot <w>bedrag</w> gespaard voor haar nieuwe auto."
+                            "text": "Zij heeft een groot <w>bedrag</w> gespaard voor haar nieuwe auto.",
+                            "target_lang_translations": {
+                                "en": "She has saved a large <w>sum</w> for her new car.",
+                                "ru": "Она накопила крупную <w>сумму</w> на свою новую машину."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,29 @@
                         "het totale bedrag",
                         "een vast bedrag",
                         "te betalen bedrag"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A certain amount of money.",
+                        "ru": "Определённое количество денег."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "amount",
+                                "target_lang_sense_clarification": "quantity of money"
+                            },
+                            {
+                                "target_lang_word": "sum",
+                                "target_lang_sense_clarification": "total quantity of money"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сумма",
+                                "target_lang_sense_clarification": "денег"
+                            }
+                        ]
+                    }
                 }
             ]
         }

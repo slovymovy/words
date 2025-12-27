@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Francis'</w> nieuwe fiets die in de tuin staat."
+                            "text": "Dit is <w>Francis'</w> nieuwe fiets die in de tuin staat.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Francis'</w> new bike standing in the garden.",
+                                "ru": "Это новый велосипед <w>Фрэнсиса</w>, который стоит в саду."
+                            }
                         },
                         {
-                            "text": "We hebben gisteren naar <w>Francis'</w> presentatie geluisterd."
+                            "text": "We hebben gisteren naar <w>Francis'</w> presentatie geluisterd.",
+                            "target_lang_translations": {
+                                "en": "We listened to <w>Francis'</w> presentation yesterday.",
+                                "ru": "Вчера мы слушали презентацию <w>Фрэнсиса</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,33 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Francis",
+                        "ru": "форма родительного падежа имени Фрэнсис, указывающая на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Francis'",
+                                "target_lang_sense_clarification": "possessive form of the name"
+                            },
+                            {
+                                "target_lang_word": "Francis's",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Фрэнсиса",
+                                "target_lang_sense_clarification": "мужское имя"
+                            },
+                            {
+                                "target_lang_word": "Фрэнсис",
+                                "target_lang_sense_clarification": "женское имя (несклоняемое)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

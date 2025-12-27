@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Наш новый сотрудник, инженер <w>Осипов</w>, быстро влился в рабочий коллектив."
+                            "text": "Наш новый сотрудник, инженер <w>Осипов</w>, быстро влился в рабочий коллектив.",
+                            "target_lang_translations": {
+                                "en": "Our new employee, engineer <w>Osipov</w>, quickly integrated into the team."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значился известный художник <w>Осипов</w>."
+                            "text": "В списке приглашённых гостей значился известный художник <w>Осипов</w>.",
+                            "target_lang_translations": {
+                                "en": "The famous artist <w>Osipov</w> was listed among the invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname derived from the male given name Osip."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Osipov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

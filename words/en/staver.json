@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Mr. <w>Staver</w> to speak at the conference next week."
+                            "text": "We invited Mr. <w>Staver</w> to speak at the conference next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили мистера <w>Ставера</w> выступить на конференции на следующей неделе."
+                            }
                         },
                         {
-                            "text": "The local history museum contains records of the <w>Staver</w> family lineage."
+                            "text": "The local history museum contains records of the <w>Staver</w> family lineage.",
+                            "target_lang_translations": {
+                                "ru": "В местном историческом музее хранятся записи о родословной семьи <w>Ставер</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "originating as an occupation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, происходящая от названия профессии."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ставер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

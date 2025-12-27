@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have a scheduled meeting with Mr. <w>Rosenblatt</w> later this afternoon."
+                            "text": "We have a scheduled meeting with Mr. <w>Rosenblatt</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас запланирована встреча с господином <w>Розенблаттом</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "The new study was published by Dr. <w>Rosenblatt</w> and his colleagues."
+                            "text": "The new study was published by Dr. <w>Rosenblatt</w> and his colleagues.",
+                            "target_lang_translations": {
+                                "ru": "Новое исследование было опубликовано доктором <w>Розенблаттом</w> и его коллегами."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from German"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Розенблатт",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

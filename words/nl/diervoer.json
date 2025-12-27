@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De boer heeft een grote voorraad <w>diervoer</w> ingeslagen voor de winter."
+                            "text": "De boer heeft een grote voorraad <w>diervoer</w> ingeslagen voor de winter.",
+                            "target_lang_translations": {
+                                "en": "The farmer has stocked up on a large supply of <w>animal feed</w> for the winter.",
+                                "ru": "Фермер заготовил большой запас <w>корма</w> на зиму."
+                            }
                         },
                         {
-                            "text": "Je moet goed kijken of dit <w>diervoer</w> geschikt is voor jouw huisdier."
+                            "text": "Je moet goed kijken of dit <w>diervoer</w> geschikt is voor jouw huisdier.",
+                            "target_lang_translations": {
+                                "en": "You need to check carefully whether this <w>pet food</w> is suitable for your pet.",
+                                "ru": "Нужно внимательно проверить, подходит ли этот <w>корм</w> для твоего питомца."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,33 @@
                         "zak diervoer",
                         "biologisch diervoer",
                         "diervoer produceren"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Food specially intended to be eaten by animals.",
+                        "ru": "Пища, специально предназначенная для кормления животных."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "animal feed",
+                                "target_lang_sense_clarification": "general term, often for livestock"
+                            },
+                            {
+                                "target_lang_word": "pet food",
+                                "target_lang_sense_clarification": "food for domestic animals"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "корм для животных",
+                                "target_lang_sense_clarification": "общее понятие"
+                            },
+                            {
+                                "target_lang_word": "корм",
+                                "target_lang_sense_clarification": "пища для скота или домашних питомцев"
+                            }
+                        ]
+                    }
                 }
             ]
         }

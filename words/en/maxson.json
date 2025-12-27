@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited the <w>Maxson</w> family to the dinner party next week."
+                            "text": "We invited the <w>Maxson</w> family to the dinner party next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Максон</w> на званый ужин на следующей неделе."
+                            }
                         },
                         {
-                            "text": "Please tell Mr. <w>Maxson</w> that his appointment is confirmed."
+                            "text": "Please tell Mr. <w>Maxson</w> that his appointment is confirmed.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте мистеру <w>Максону</w>, что его встреча подтверждена."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Максон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

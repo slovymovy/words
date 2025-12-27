@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В нашем классе учится Дима <w>Сергеев</w>."
+                            "text": "В нашем классе учится Дима <w>Сергеев</w>.",
+                            "target_lang_translations": {
+                                "en": "Dima <w>Sergeyev</w> studies in our class."
+                            }
                         },
                         {
-                            "text": "Мы поздравили господина <w>Сергеева</w> с юбилеем."
+                            "text": "Мы поздравили господина <w>Сергеева</w> с юбилеем.",
+                            "target_lang_translations": {
+                                "en": "We congratulated Mr. <w>Sergeyev</w> on his anniversary."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "derived from Sergey"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname derived from the male name Sergey."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sergeyev",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,10 +61,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Это <w>Сергеев</w> портфель, он забыл его вчера."
+                            "text": "Это <w>Сергеев</w> портфель, он забыл его вчера.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Sergey's</w> briefcase; he forgot it yesterday."
+                            }
                         },
                         {
-                            "text": "На столе лежал <w>Сергеев</w> телефон."
+                            "text": "На столе лежал <w>Сергеев</w> телефон.",
+                            "target_lang_translations": {
+                                "en": "<w>Sergey's</w> phone was lying on the table."
+                            }
                         }
                     ],
                     "traits": [
@@ -55,7 +78,18 @@
                             "trait_type": "form",
                             "comment": "possessive adjective"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Belonging to Sergey."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sergey's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

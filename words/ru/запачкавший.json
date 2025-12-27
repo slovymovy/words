@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мальчик, <w>запачкавший</w> новую рубашку, боялся идти домой."
+                            "text": "Мальчик, <w>запачкавший</w> новую рубашку, боялся идти домой.",
+                            "target_lang_translations": {
+                                "en": "The boy <w>who had dirtied</w> his new shirt was afraid to go home."
+                            }
                         },
                         {
-                            "text": "Мы искали рабочего, случайно <w>запачкавшего</w> пол краской."
+                            "text": "Мы искали рабочего, случайно <w>запачкавшего</w> пол краской.",
+                            "target_lang_translations": {
+                                "en": "We were looking for the worker <w>who had</w> accidentally <w>stained</w> the floor with paint."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,7 +49,26 @@
                             "trait_type": "form",
                             "comment": "причастие"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Describes a subject that has made something dirty, stained, or soiled; past active participle of 'to dirty'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who dirtied",
+                                "target_lang_sense_clarification": "general action of making something dirty"
+                            },
+                            {
+                                "target_lang_word": "who stained",
+                                "target_lang_sense_clarification": "leaving a mark or discoloration"
+                            },
+                            {
+                                "target_lang_word": "having dirtied",
+                                "target_lang_sense_clarification": "participle construction indicating completed action"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Er zijn in de vorige eeuw twee grote <w>oorlogen</w> geweest."
+                            "text": "Er zijn in de vorige eeuw twee grote <w>oorlogen</w> geweest.",
+                            "target_lang_translations": {
+                                "en": "There have been two major <w>wars</w> in the last century.",
+                                "ru": "В прошлом веке было две большие <w>войны</w>."
+                            }
                         },
                         {
-                            "text": "Helaas hebben deze conflicten tot verschrikkelijke <w>oorlogen</w> geleid."
+                            "text": "Helaas hebben deze conflicten tot verschrikkelijke <w>oorlogen</w> geleid.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, these conflicts have led to terrible <w>wars</w>.",
+                                "ru": "К сожалению, эти конфликты привели к ужасным <w>войнам</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +37,25 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of war.",
+                        "ru": "Множественное число от <w>oorlog</w> (война)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wars",
+                                "target_lang_sense_clarification": "armed conflicts between nations or groups"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "войны",
+                                "target_lang_sense_clarification": "множественное число"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,16 +71,50 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De twee buurlanden <w>oorlogen</w> al jaren om het grensgebied."
+                            "text": "De twee buurlanden <w>oorlogen</w> al jaren om het grensgebied.",
+                            "target_lang_translations": {
+                                "en": "The two neighboring countries have been <w>waging war</w> for years over the border region.",
+                                "ru": "Две соседние страны уже много лет <w>воюют</w> за приграничную территорию."
+                            }
                         },
                         {
-                            "text": "Zij <w>oorloogden</w> dapper voor het behoud van hun vrijheid."
+                            "text": "Zij <w>oorloogden</w> dapper voor het behoud van hun vrijheid.",
+                            "target_lang_translations": {
+                                "en": "They <w>warred</w> bravely for the preservation of their freedom.",
+                                "ru": "Они храбро <w>воевали</w> за сохранение своей свободы."
+                            }
                         }
                     ],
                     "synonyms": [
                         "strijden",
                         "vechten"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To wage war; to fight against an enemy.",
+                        "ru": "Вести войну; сражаться с врагом."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wage war",
+                                "target_lang_sense_clarification": "to carry on a war"
+                            },
+                            {
+                                "target_lang_word": "war",
+                                "target_lang_sense_clarification": "to engage in conflict"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "воевать",
+                                "target_lang_sense_clarification": "вести боевые действия"
+                            },
+                            {
+                                "target_lang_word": "вести войну",
+                                "target_lang_sense_clarification": "участвовать в войне"
+                            }
+                        ]
+                    }
                 }
             ]
         }

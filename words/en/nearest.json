@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Where is the <w>nearest</w> bus stop?"
+                            "text": "Where is the <w>nearest</w> bus stop?",
+                            "target_lang_translations": {
+                                "ru": "Где находится <w>ближайшая</w> автобусная остановка?"
+                            }
                         },
                         {
-                            "text": "Please proceed calmly to the <w>nearest</w> exit in case of emergency."
+                            "text": "Please proceed calmly to the <w>nearest</w> exit in case of emergency.",
+                            "target_lang_translations": {
+                                "ru": "В случае чрезвычайной ситуации спокойно пройдите к <w>ближайшему</w> выходу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,7 +46,22 @@
                             "trait_type": "form",
                             "comment": "superlative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Превосходная степень от <w>near</w>: самый близкий."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ближайший",
+                                "target_lang_sense_clarification": "находящийся на наименьшем расстоянии"
+                            },
+                            {
+                                "target_lang_word": "самый близкий",
+                                "target_lang_sense_clarification": "находящийся ближе всех"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -56,16 +77,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mercury is the planet <w>nearest</w> the Sun."
+                            "text": "Mercury is the planet <w>nearest</w> the Sun.",
+                            "target_lang_translations": {
+                                "ru": "Меркурий — это планета, <w>ближайшая</w> к Солнцу."
+                            }
                         },
                         {
-                            "text": "He sat in the chair <w>nearest</w> the door to leave quickly."
+                            "text": "He sat in the chair <w>nearest</w> the door to leave quickly.",
+                            "target_lang_translations": {
+                                "ru": "Он сел на стул, <w>ближайший</w> к двери, чтобы быстро уйти."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "nearest the door",
                         "nearest the sun"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Находящийся ближе всего к чему-либо."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ближайший (к)",
+                                "target_lang_sense_clarification": "расположенный в непосредственной близости от объекта"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De politie heeft de <w>schuldige</w> van de diefstal gisteren gearresteerd."
+                            "text": "De politie heeft de <w>schuldige</w> van de diefstal gisteren gearresteerd.",
+                            "target_lang_translations": {
+                                "en": "The police arrested the <w>culprit</w> of the theft yesterday.",
+                                "ru": "Полиция вчера арестовала <w>виновного</w> в краже."
+                            }
                         },
                         {
-                            "text": "Zonder bewijs kunnen we geen <w>schuldige</w> aanwijzen voor dit probleem."
+                            "text": "Zonder bewijs kunnen we geen <w>schuldige</w> aanwijzen voor dit probleem.",
+                            "target_lang_translations": {
+                                "en": "Without evidence, we cannot identify a <w>culprit</w> for this problem.",
+                                "ru": "Без доказательств мы не можем указать на <w>виновника</w> этой проблемы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +44,37 @@
                         "de vermoedelijke schuldige",
                         "de echte schuldige",
                         "schuldige aanwijzen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who is responsible for a mistake or crime.",
+                        "ru": "Тот, кто несет ответственность за ошибку или преступление."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "culprit",
+                                "target_lang_sense_clarification": "person responsible for a misdeed"
+                            },
+                            {
+                                "target_lang_word": "guilty party",
+                                "target_lang_sense_clarification": "person or group responsible"
+                            },
+                            {
+                                "target_lang_word": "perpetrator",
+                                "target_lang_sense_clarification": "person who committed a crime"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "виновный",
+                                "target_lang_sense_clarification": "человек, совершивший проступок"
+                            },
+                            {
+                                "target_lang_word": "виновник",
+                                "target_lang_sense_clarification": "причина события или проблемы"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -52,10 +90,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij keek me aan met een <w>schuldige</w> blik in zijn ogen."
+                            "text": "Hij keek me aan met een <w>schuldige</w> blik in zijn ogen.",
+                            "target_lang_translations": {
+                                "en": "He looked at me with a <w>guilty</w> look in his eyes.",
+                                "ru": "Он посмотрел на меня с <w>виноватым</w> выражением глаз."
+                            }
                         },
                         {
-                            "text": "De <w>schuldige</w> bestuurder moest zijn rijbewijs direct inleveren."
+                            "text": "De <w>schuldige</w> bestuurder moest zijn rijbewijs direct inleveren.",
+                            "target_lang_translations": {
+                                "en": "The <w>guilty</w> driver had to hand in his license immediately.",
+                                "ru": "<w>Виновный</w> водитель был обязан немедленно сдать водительские права."
+                            }
                         }
                     ],
                     "traits": [
@@ -63,7 +109,29 @@
                             "trait_type": "form",
                             "comment": "inflected form"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Inflected form of 'guilty'.",
+                        "ru": "Склоняемая форма прилагательного \"schuldig\" (виновный, виноватый)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "guilty",
+                                "target_lang_sense_clarification": "responsible or feeling guilt"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "виновный",
+                                "target_lang_sense_clarification": "совершивший проступок"
+                            },
+                            {
+                                "target_lang_word": "виноватый",
+                                "target_lang_sense_clarification": "выражающий чувство вины"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников числится инженер <w>Пономарёв</w>."
+                            "text": "В списке сотрудников числится инженер <w>Пономарёв</w>.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Ponomarev</w> is on the list of employees."
+                            }
                         },
                         {
-                            "text": "Мы договорились о встрече с господином <w>Пономарёвым</w>."
+                            "text": "Мы договорились о встрече с господином <w>Пономарёвым</w>.",
+                            "target_lang_translations": {
+                                "en": "We arranged a meeting with Mr. <w>Ponomarev</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Ponomarev",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

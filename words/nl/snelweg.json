@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We rijden via de <w>snelweg</w> naar het zuiden van het land."
+                            "text": "We rijden via de <w>snelweg</w> naar het zuiden van het land.",
+                            "target_lang_translations": {
+                                "en": "We are driving via the <w>highway</w> to the south of the country.",
+                                "ru": "Мы едем по <w>автомагистрали</w> на юг страны."
+                            }
                         },
                         {
-                            "text": "Als er op de <w>snelweg</w> geen file staat, zijn we er binnen een uur."
+                            "text": "Als er op de <w>snelweg</w> geen file staat, zijn we er binnen een uur.",
+                            "target_lang_translations": {
+                                "en": "If there is no traffic jam on the <w>highway</w>, we will be there within an hour.",
+                                "ru": "Если на <w>автомагистрали</w> нет пробок, мы будем там через час."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,37 @@
                         "de snelweg afgaan",
                         "langs de snelweg",
                         "file op de snelweg"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A large, wide road especially for motor vehicles where you are allowed to drive fast.",
+                        "ru": "Большая широкая дорога, предназначенная специально для автотранспорта, где разрешено движение с высокой скоростью."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "highway",
+                                "target_lang_sense_clarification": "general term, especially US"
+                            },
+                            {
+                                "target_lang_word": "motorway",
+                                "target_lang_sense_clarification": "especially UK"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "автомагистраль",
+                                "target_lang_sense_clarification": "дорога для скоростного движения"
+                            },
+                            {
+                                "target_lang_word": "шоссе",
+                                "target_lang_sense_clarification": "широкая дорога с твердым покрытием"
+                            },
+                            {
+                                "target_lang_word": "автострада",
+                                "target_lang_sense_clarification": "скоростная дорога"
+                            }
+                        ]
+                    }
                 }
             ]
         }

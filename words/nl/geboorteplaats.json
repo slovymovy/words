@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>geboorteplaats</w> van de schilder is Heerlen."
+                            "text": "De <w>geboorteplaats</w> van de schilder is Heerlen.",
+                            "target_lang_translations": {
+                                "en": "The painter's <w>birthplace</w> is Heerlen.",
+                                "ru": "<w>Место рождения</w> художника — Херлен."
+                            }
                         },
                         {
-                            "text": "Op het officiële document moet je jouw <w>geboorteplaats</w> invullen."
+                            "text": "Op het officiële document moet je jouw <w>geboorteplaats</w> invullen.",
+                            "target_lang_translations": {
+                                "en": "You must fill in your <w>place of birth</w> on the official document.",
+                                "ru": "В официальном документе вы должны указать своё <w>место рождения</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +43,29 @@
                     "common_phrases": [
                         "geboorteplaats en -datum",
                         "terugkeren naar geboorteplaats"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The place where someone was born.",
+                        "ru": "Место, где человек родился."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "birthplace",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "place of birth",
+                                "target_lang_sense_clarification": "formal context"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "место рождения",
+                                "target_lang_sense_clarification": "населенный пункт, где человек появился на свет"
+                            }
+                        ]
+                    }
                 }
             ]
         }

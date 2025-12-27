@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач выписал пациенту направление на <УЗИ> почек."
+                            "text": "Врач выписал пациенту направление на <УЗИ> почек.",
+                            "target_lang_translations": {
+                                "en": "The doctor gave the patient a referral for a kidney <w>ultrasound</w>."
+                            }
                         },
                         {
-                            "text": "Результаты <УЗИ> показали, что лечение проходит успешно."
+                            "text": "Результаты <УЗИ> показали, что лечение проходит успешно.",
+                            "target_lang_translations": {
+                                "en": "The <w>ultrasound</w> results showed that the treatment is going successfully."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +35,22 @@
                         "кабинет УЗИ",
                         "пройти УЗИ",
                         "результаты УЗИ"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for ultrasound examination; a method of medical diagnosis of internal organs using ultrasonic waves."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ultrasound",
+                                "target_lang_sense_clarification": "medical examination"
+                            },
+                            {
+                                "target_lang_word": "ultrasound scan",
+                                "target_lang_sense_clarification": "procedure"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,12 +66,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего старого друга зовут <Узи>."
+                            "text": "Моего старого друга зовут <Узи>.",
+                            "target_lang_translations": {
+                                "en": "My old friend is named <w>Uzi</w>."
+                            }
                         },
                         {
-                            "text": "Вчера <Узи> позвонил мне и предложил встретиться."
+                            "text": "Вчера <Узи> позвонил мне и предложил встретиться.",
+                            "target_lang_translations": {
+                                "en": "Yesterday <w>Uzi</w> called me and suggested we meet."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Male personal name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Uzi",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

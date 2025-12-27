@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Philpot</w> has been working as the head gardener for over twenty years."
+                            "text": "Mr. <w>Philpot</w> has been working as the head gardener for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Филпот</w> работает главным садовником уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "Sarah <w>Philpot</w> wrote an interesting article about local history in the newspaper."
+                            "text": "Sarah <w>Philpot</w> wrote an interesting article about local history in the newspaper.",
+                            "target_lang_translations": {
+                                "ru": "Сара <w>Филпот</w> написала интересную статью о местной истории в газету."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, образованная от имени Филипп."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Филпот",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

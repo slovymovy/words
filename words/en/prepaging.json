@@ -1,42 +1,62 @@
 {
-  "word_family": [
-    "page",
-    "prepage",
-    "paging"
-  ],
-  "entries": [
-    {
-      "pos": "noun",
-      "senses": [
+    "word_family": [
+        "page",
+        "prepage",
+        "paging"
+    ],
+    "entries": [
         {
-          "sense_id": "f5c1a9f6-a2d2-324e-8dd1-02bcb55b94f1",
-          "sense_definition": "The loading of memory pages before they are needed, so as to avoid page faults.",
-          "learner_level": "C2",
-          "frequency": "Low",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "The operating system uses a <w>prepaging</w> strategy to ensure that necessary data is available in memory before the process requests it."
-            },
-            {
-              "text": "While <w>prepaging</w> can significantly reduce initial latency, it risks consuming resources for data that might never be used."
-            }
-          ],
-          "synonyms": [
-            "prefetching"
-          ],
-          "antonyms": [
-            "demand paging"
-          ],
-          "common_phrases": [
-            "prepaging strategy",
-            "prepaging algorithm",
-            "pure prepaging"
-          ],
-          "traits": []
+            "pos": "noun",
+            "senses": [
+                {
+                    "sense_id": "f5c1a9f6-a2d2-324e-8dd1-02bcb55b94f1",
+                    "sense_definition": "The loading of memory pages before they are needed, so as to avoid page faults.",
+                    "learner_level": "C2",
+                    "frequency": "Low",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "The operating system uses a <w>prepaging</w> strategy to ensure that necessary data is available in memory before the process requests it.",
+                            "target_lang_translations": {
+                                "ru": "Операционная система использует стратегию <w>предварительной подкачки</w>, чтобы гарантировать наличие необходимых данных в памяти до того, как процесс их запросит."
+                            }
+                        },
+                        {
+                            "text": "While <w>prepaging</w> can significantly reduce initial latency, it risks consuming resources for data that might never be used.",
+                            "target_lang_translations": {
+                                "ru": "Хотя <w>опережающая подкачка</w> может значительно снизить начальную задержку, она рискует потратить ресурсы на данные, которые могут никогда не понадобиться."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "prefetching"
+                    ],
+                    "antonyms": [
+                        "demand paging"
+                    ],
+                    "common_phrases": [
+                        "prepaging strategy",
+                        "prepaging algorithm",
+                        "pure prepaging"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Загрузка страниц памяти до того, как они понадобятся, с целью предотвращения ошибок отсутствия страницы."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "предварительная подкачка",
+                                "target_lang_sense_clarification": "страниц памяти"
+                            },
+                            {
+                                "target_lang_word": "опережающая подкачка",
+                                "target_lang_sense_clarification": "страниц памяти"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

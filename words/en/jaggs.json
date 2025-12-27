@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Mr. <w>Jaggs</w> to speak at the conference."
+                            "text": "We invited Mr. <w>Jaggs</w> to speak at the conference.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили мистера <w>Джаггса</w> выступить на конференции."
+                            }
                         },
                         {
-                            "text": "The <w>Jaggs</w> family has lived in this village for over a century."
+                            "text": "The <w>Jaggs</w> family has lived in this village for over a century.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Джаггс</w> живет в этой деревне уже более ста лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "originating as a patronymic"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, первоначально образованная как отчество."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Джаггс",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,10 +61,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The rusty blade was full of dangerous <w>jaggs</w> along its edge."
+                            "text": "The rusty blade was full of dangerous <w>jaggs</w> along its edge.",
+                            "target_lang_translations": {
+                                "ru": "Ржавое лезвие было полно опасных <w>зазубрин</w> по краю."
+                            }
                         },
                         {
-                            "text": "He carefully filed away the sharp <w>jaggs</w> to make the metal smooth."
+                            "text": "He carefully filed away the sharp <w>jaggs</w> to make the metal smooth.",
+                            "target_lang_translations": {
+                                "ru": "Он осторожно спилил острые <w>зубцы</w>, чтобы сделать металл гладким."
+                            }
                         }
                     ],
                     "traits": [
@@ -59,7 +82,26 @@
                             "trait_type": "archaic",
                             "comment": "spelling of jag"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Множественное число от jagg (устаревшее написание слова jag — острый выступ, зубец)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "зазубрины",
+                                "target_lang_sense_clarification": "неровные острые выступы"
+                            },
+                            {
+                                "target_lang_word": "зубцы",
+                                "target_lang_sense_clarification": "острые выступы"
+                            },
+                            {
+                                "target_lang_word": "острые выступы",
+                                "target_lang_sense_clarification": "общий термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

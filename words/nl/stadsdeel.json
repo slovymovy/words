@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij woont in een rustig <w>stadsdeel</w> aan de rand van de stad."
+                            "text": "Hij woont in een rustig <w>stadsdeel</w> aan de rand van de stad.",
+                            "target_lang_translations": {
+                                "en": "He lives in a quiet <w>district</w> on the outskirts of the city.",
+                                "ru": "Он живет в тихом <w>районе</w> на окраине города."
+                            }
                         },
                         {
-                            "text": "De gemeente heeft besloten om meer geld te investeren in dit <w>stadsdeel</w>."
+                            "text": "De gemeente heeft besloten om meer geld te investeren in dit <w>stadsdeel</w>.",
+                            "target_lang_translations": {
+                                "en": "The municipality has decided to invest more money in this <w>borough</w>.",
+                                "ru": "Муниципалитет решил инвестировать больше денег в этот <w>район</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +37,37 @@
                     "common_phrases": [
                         "in het stadsdeel",
                         "een veilig stadsdeel"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A specific, bounded part of a city, often with its own administrative function or character.",
+                        "ru": "Конкретная, ограниченная часть города, часто имеющая собственную административную функцию или характер."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "district",
+                                "target_lang_sense_clarification": "administrative division of a city"
+                            },
+                            {
+                                "target_lang_word": "borough",
+                                "target_lang_sense_clarification": "administrative division in large cities"
+                            },
+                            {
+                                "target_lang_word": "part of the city",
+                                "target_lang_sense_clarification": "general geographic area"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "район города",
+                                "target_lang_sense_clarification": "административная или географическая часть"
+                            },
+                            {
+                                "target_lang_word": "городской округ",
+                                "target_lang_sense_clarification": "административная единица"
+                            }
+                        ]
+                    }
                 }
             ]
         }

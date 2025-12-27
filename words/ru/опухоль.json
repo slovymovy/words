@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врачи обнаружили у пациента злокачественную <w>опухоль</w>."
+                            "text": "Врачи обнаружили у пациента злокачественную <w>опухоль</w>.",
+                            "target_lang_translations": {
+                                "en": "The doctors discovered a malignant <w>tumor</w> in the patient."
+                            }
                         },
                         {
-                            "text": "К счастью, эта <w>опухоль</w> оказалась доброкачественной и не угрожала жизни."
+                            "text": "К счастью, эта <w>опухоль</w> оказалась доброкачественной и не угрожала жизни.",
+                            "target_lang_translations": {
+                                "en": "Fortunately, this <w>tumor</w> turned out to be benign and did not threaten life."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +38,26 @@
                         "доброкачественная опухоль",
                         "опухоль мозга",
                         "удаление опухоли"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A pathological formation in the body caused by excessive tissue growth due to abnormal cell division."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tumor",
+                                "target_lang_sense_clarification": "abnormal tissue growth"
+                            },
+                            {
+                                "target_lang_word": "tumour",
+                                "target_lang_sense_clarification": "British spelling"
+                            },
+                            {
+                                "target_lang_word": "growth",
+                                "target_lang_sense_clarification": "common term for a tumor"
+                            }
+                        ]
+                    }
                 }
             ]
         }

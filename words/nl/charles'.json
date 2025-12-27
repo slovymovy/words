@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Charles'</w> nieuwe auto."
+                            "text": "Dit is <w>Charles'</w> nieuwe auto.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Charles's</w> new car."
+                            }
                         },
                         {
-                            "text": "Ik vind <w>Charles'</w> idee eigenlijk heel goed."
+                            "text": "Ik vind <w>Charles'</w> idee eigenlijk heel goed.",
+                            "target_lang_translations": {
+                                "en": "I actually think <w>Charles's</w> idea is very good."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,22 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive form of <w>Charles</w>"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Charles's",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Charles'",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

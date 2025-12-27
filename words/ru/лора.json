@@ -15,12 +15,33 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мою подругу зовут <w>Лора</w>."
+                            "text": "Мою подругу зовут <w>Лора</w>.",
+                            "target_lang_translations": {
+                                "en": "My friend's name is <w>Laura</w>."
+                            }
                         },
                         {
-                            "text": "<w>Лора</w> живёт в большом городе."
+                            "text": "<w>Лора</w> живёт в большом городе.",
+                            "target_lang_translations": {
+                                "en": "<w>Laura</w> lives in a big city."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A female name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Laura",
+                                "target_lang_sense_clarification": "female name"
+                            },
+                            {
+                                "target_lang_word": "Lora",
+                                "target_lang_sense_clarification": "transliterated name"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -36,10 +57,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Кабинет <w>лора</w> находится на втором этаже поликлиники."
+                            "text": "Кабинет <w>лора</w> находится на втором этаже поликлиники.",
+                            "target_lang_translations": {
+                                "en": "The <w>ENT's</w> office is located on the second floor of the clinic."
+                            }
                         },
                         {
-                            "text": "Пациент внимательно слушал рекомендации <w>лора</w>."
+                            "text": "Пациент внимательно слушал рекомендации <w>лора</w>.",
+                            "target_lang_translations": {
+                                "en": "The patient listened carefully to the <w>ENT's</w> recommendations."
+                            }
                         }
                     ],
                     "traits": [
@@ -47,7 +74,22 @@
                             "trait_type": "form",
                             "comment": "form of лор"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive or accusative singular form of the noun 'лор' (ENT specialist)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ENT",
+                                "target_lang_sense_clarification": "doctor specializing in ear, nose, and throat"
+                            },
+                            {
+                                "target_lang_word": "otolaryngologist",
+                                "target_lang_sense_clarification": "formal medical term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

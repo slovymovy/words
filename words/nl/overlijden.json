@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De bekende schrijver <w>overleed</w> gisteren op tachtigjarige leeftijd in zijn woonplaats."
+                            "text": "De bekende schrijver <w>overleed</w> gisteren op tachtigjarige leeftijd in zijn woonplaats.",
+                            "target_lang_translations": {
+                                "en": "The famous writer <w>passed away</w> yesterday at the age of eighty in his hometown.",
+                                "ru": "Известный писатель <w>скончался</w> вчера в возрасте восьмидесяти лет в своем городе."
+                            }
                         },
                         {
-                            "text": "Helaas is de patiënt kort na aankomst in het ziekenhuis aan zijn verwondingen <w>overleden</w>."
+                            "text": "Helaas is de patiënt kort na aankomst in het ziekenhuis aan zijn verwondingen <w>overleden</w>.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, the patient <w>died</w> of his injuries shortly after arriving at the hospital.",
+                                "ru": "К сожалению, пациент <w>скончался</w> от полученных травм вскоре после прибытия в больницу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,7 +50,37 @@
                             "trait_type": "form",
                             "comment": "formeel"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To stop living; to die (usually used for people and often more formal or respectful than 'doodgaan').",
+                        "ru": "Перестать жить; умереть (обычно используется по отношению к людям и звучит более официально или уважительно, чем просто 'умереть')."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pass away",
+                                "target_lang_sense_clarification": "formal, respectful"
+                            },
+                            {
+                                "target_lang_word": "die",
+                                "target_lang_sense_clarification": "general, neutral"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "скончаться",
+                                "target_lang_sense_clarification": "официально или уважительно"
+                            },
+                            {
+                                "target_lang_word": "умереть",
+                                "target_lang_sense_clarification": "общее значение"
+                            },
+                            {
+                                "target_lang_word": "уйти из жизни",
+                                "target_lang_sense_clarification": "возвышенно, эвфемизм"
+                            }
+                        ]
+                    }
                 }
             ]
         }

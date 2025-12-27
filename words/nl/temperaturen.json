@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>temperaturen</w> zullen morgen flink stijgen."
+                            "text": "De <w>temperaturen</w> zullen morgen flink stijgen.",
+                            "target_lang_translations": {
+                                "en": "The <w>temperatures</w> will rise significantly tomorrow.",
+                                "ru": "Завтра <w>температуры</w> сильно поднимутся."
+                            }
                         },
                         {
-                            "text": "In de winter dalen de <w>temperaturen</w> hier vaak tot onder het vriespunt."
+                            "text": "In de winter dalen de <w>temperaturen</w> hier vaak tot onder het vriespunt.",
+                            "target_lang_translations": {
+                                "en": "In winter, the <w>temperatures</w> here often drop below freezing.",
+                                "ru": "Зимой <w>температуры</w> здесь часто опускаются ниже нуля."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -35,7 +43,25 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of temperature.",
+                        "ru": "Множественное число от слова <w>температура</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "temperatures",
+                                "target_lang_sense_clarification": "plural form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "температуры",
+                                "target_lang_sense_clarification": "показатели тепла"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -51,10 +77,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De verpleegkundige komt zo langs om de patiënt te <w>temperaturen</w>."
+                            "text": "De verpleegkundige komt zo langs om de patiënt te <w>temperaturen</w>.",
+                            "target_lang_translations": {
+                                "en": "The nurse will come by soon to <w>take</w> the patient's <w>temperature</w>.",
+                                "ru": "Медсестра скоро зайдет, чтобы <w>измерить температуру</w> пациенту."
+                            }
                         },
                         {
-                            "text": "Als je denkt dat de hond koorts heeft, moet je hem even <w>temperaturen</w>."
+                            "text": "Als je denkt dat de hond koorts heeft, moet je hem even <w>temperaturen</w>.",
+                            "target_lang_translations": {
+                                "en": "If you think the dog has a fever, you should <w>take</w> its <w>temperature</w>.",
+                                "ru": "Если ты думаешь, что у собаки жар, нужно <w>измерить</w> ей <w>температуру</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -64,7 +98,33 @@
                     "common_phrases": [
                         "een patiënt temperaturen",
                         "rectaal temperaturen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To measure the body temperature of a person or animal.",
+                        "ru": "Измерять температуру тела человека или животного, обычно с помощью термометра."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "take someone's temperature",
+                                "target_lang_sense_clarification": "medical action"
+                            },
+                            {
+                                "target_lang_word": "measure the temperature",
+                                "target_lang_sense_clarification": "general measurement"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "измерять температуру",
+                                "target_lang_sense_clarification": "медицинская процедура"
+                            },
+                            {
+                                "target_lang_word": "мерить температуру",
+                                "target_lang_sense_clarification": "разговорное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

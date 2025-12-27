@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De winkel is vandaag de hele dag gesloten <w>wegens</w> ziekte."
+                            "text": "De winkel is vandaag de hele dag gesloten <w>wegens</w> ziekte.",
+                            "target_lang_translations": {
+                                "en": "The shop is closed all day today <w>due to</w> illness.",
+                                "ru": "Магазин сегодня весь день закрыт <w>по причине</w> болезни."
+                            }
                         },
                         {
-                            "text": "Wij konden gisteren helaas niet vertrekken <w>wegens</w> het slechte weer."
+                            "text": "Wij konden gisteren helaas niet vertrekken <w>wegens</w> het slechte weer.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, we could not leave yesterday <w>because of</w> the bad weather.",
+                                "ru": "К сожалению, вчера мы не смогли уехать <w>из-за</w> плохой погоды."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,41 @@
                         "wegens ziekte",
                         "wegens omstandigheden",
                         "wegens gebrek aan"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Used to indicate the reason or cause of something.",
+                        "ru": "Используется для указания причины или основания чего-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "due to",
+                                "target_lang_sense_clarification": "indicating cause or result"
+                            },
+                            {
+                                "target_lang_word": "because of",
+                                "target_lang_sense_clarification": "general reason"
+                            },
+                            {
+                                "target_lang_word": "on account of",
+                                "target_lang_sense_clarification": "formal reason"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "из-за",
+                                "target_lang_sense_clarification": "общий, наиболее частотный вариант"
+                            },
+                            {
+                                "target_lang_word": "по причине",
+                                "target_lang_sense_clarification": "более формальный вариант"
+                            },
+                            {
+                                "target_lang_word": "в связи с",
+                                "target_lang_sense_clarification": "официально-деловой стиль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

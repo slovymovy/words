@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik <zweer> dat ik de waarheid spreek."
+                            "text": "Ik <zweer> dat ik de waarheid spreek.",
+                            "target_lang_translations": {
+                                "en": "I <swear> that I am speaking the truth.",
+                                "ru": "Я <клянусь>, что говорю правду."
+                            }
                         },
                         {
-                            "text": "<Zweer> je dat je het aan niemand zult vertellen?"
+                            "text": "<Zweer> je dat je het aan niemand zult vertellen?",
+                            "target_lang_translations": {
+                                "en": "Do you <swear> that you won't tell anyone?",
+                                "ru": "Ты <клянешься>, что никому об этом не расскажешь?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,7 +41,29 @@
                             "trait_type": "form",
                             "comment": "verb form"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "First person singular, imperative, and inverted second person singular present tense of <w>zweren</w>.",
+                        "ru": "Форма глагола \"zweren\" (клясться): 1-е лицо ед.ч., повелительное наклонение или инверсия 2-го лица ед.ч."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "swear",
+                                "target_lang_sense_clarification": "to make a solemn statement or promise"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "клясться",
+                                "target_lang_sense_clarification": "давать торжественное обещание"
+                            },
+                            {
+                                "target_lang_word": "присягать",
+                                "target_lang_sense_clarification": "давать официальную клятву"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -49,17 +79,59 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De dokter behandelde de pijnlijke <zweer> op zijn been."
+                            "text": "De dokter behandelde de pijnlijke <zweer> op zijn been.",
+                            "target_lang_translations": {
+                                "en": "The doctor treated the painful <ulcer> on his leg.",
+                                "ru": "Врач обработал болезненную <язву> на его ноге."
+                            }
                         },
                         {
-                            "text": "Door de infectie ontstond er een vieze <zweer>."
+                            "text": "Door de infectie ontstond er een vieze <zweer>.",
+                            "target_lang_translations": {
+                                "en": "Due to the infection, a nasty <ulcer> developed.",
+                                "ru": "Из-за инфекции образовался грязный <нарыв>."
+                            }
                         }
                     ],
                     "synonyms": [
                         "abces",
                         "ontsteking",
                         "puist"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An inflamed spot on the skin or in the body containing pus.",
+                        "ru": "Воспаленное место на коже или в теле, содержащее гной."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ulcer",
+                                "target_lang_sense_clarification": "an open sore on the skin or mucous membrane"
+                            },
+                            {
+                                "target_lang_word": "sore",
+                                "target_lang_sense_clarification": "a raw or painful place on the body"
+                            },
+                            {
+                                "target_lang_word": "abscess",
+                                "target_lang_sense_clarification": "a swollen area containing pus"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "язва",
+                                "target_lang_sense_clarification": "глубокий дефект кожи или слизистой"
+                            },
+                            {
+                                "target_lang_word": "нарыв",
+                                "target_lang_sense_clarification": "гнойное воспаление, абсцесс"
+                            },
+                            {
+                                "target_lang_word": "гнойник",
+                                "target_lang_sense_clarification": "очаг гнойного воспаления"
+                            }
+                        ]
+                    }
                 }
             ]
         }

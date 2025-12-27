@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В нашем классе учится мальчик по фамилии <w>Гончаренко</w>."
+                            "text": "В нашем классе учится мальчик по фамилии <w>Гончаренко</w>.",
+                            "target_lang_translations": {
+                                "en": "A boy with the surname <w>Goncharenko</w> studies in our class."
+                            }
                         },
                         {
-                            "text": "Мы вчера познакомились с Иваном <w>Гончаренко</w>."
+                            "text": "Мы вчера познакомились с Иваном <w>Гончаренко</w>.",
+                            "target_lang_translations": {
+                                "en": "Yesterday we met Ivan <w>Goncharenko</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "украинского происхождения"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Ukrainian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Goncharenko",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren die belangrijke brief <w>verstuurd</w>."
+                            "text": "Ik heb gisteren die belangrijke brief <w>verstuurd</w>.",
+                            "target_lang_translations": {
+                                "en": "I <w>sent</w> that important letter yesterday.",
+                                "ru": "Вчера я <w>отправил</w> это важное письмо."
+                            }
                         },
                         {
-                            "text": "Je kunt de foto's gemakkelijk via e-mail <w>versturen</w>."
+                            "text": "Je kunt de foto's gemakkelijk via e-mail <w>versturen</w>.",
+                            "target_lang_translations": {
+                                "en": "You can easily <w>send</w> the photos via email.",
+                                "ru": "Ты можешь легко <w>отправить</w> фотографии по электронной почте."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,7 +48,37 @@
                         "per post versturen",
                         "een pakketje versturen",
                         "een bericht versturen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To send something to another place or person, such as a letter, package, or message.",
+                        "ru": "Отправлять что-либо в другое место или другому человеку, например письмо, посылку или сообщение."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "send",
+                                "target_lang_sense_clarification": "the most general and common term"
+                            },
+                            {
+                                "target_lang_word": "dispatch",
+                                "target_lang_sense_clarification": "formal, often used for goods or official messages"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "отправлять",
+                                "target_lang_sense_clarification": "наиболее общее значение"
+                            },
+                            {
+                                "target_lang_word": "посылать",
+                                "target_lang_sense_clarification": "часто используется для почты и посылок"
+                            },
+                            {
+                                "target_lang_word": "высылать",
+                                "target_lang_sense_clarification": "отправлять что-то конкретное, например документы"
+                            }
+                        ]
+                    }
                 }
             ]
         }

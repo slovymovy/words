@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het nieuwe schip is gisteren feestelijk <w>gedoopt</w>."
+                            "text": "Het nieuwe schip is gisteren feestelijk <w>gedoopt</w>.",
+                            "target_lang_translations": {
+                                "en": "The new ship was ceremoniously <w>christened</w> yesterday.",
+                                "ru": "Новый корабль был вчера торжественно <w>окрещён</w>."
+                            }
                         },
                         {
-                            "text": "Zij hebben hun zoon naar zijn grootvader <w>gedoopt</w>."
+                            "text": "Zij hebben hun zoon naar zijn grootvader <w>gedoopt</w>.",
+                            "target_lang_translations": {
+                                "en": "They <w>christened</w> their son after his grandfather.",
+                                "ru": "Они <w>окрестили</w> сына в честь дедушки."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +38,37 @@
                             "trait_type": "form",
                             "comment": "past participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "past participle of <w>dopen</w>",
+                        "ru": "причастие прошедшего времени от <w>dopen</w>"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "baptized",
+                                "target_lang_sense_clarification": "religious sacrament"
+                            },
+                            {
+                                "target_lang_word": "christened",
+                                "target_lang_sense_clarification": "naming ceremony or ships"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "окрещённый",
+                                "target_lang_sense_clarification": "о корабле или предмете"
+                            },
+                            {
+                                "target_lang_word": "крещённый",
+                                "target_lang_sense_clarification": "о человеке (действие)"
+                            },
+                            {
+                                "target_lang_word": "названный",
+                                "target_lang_sense_clarification": "получивший имя при крещении"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -46,10 +84,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Alleen <w>gedoopte</w> leden mogen deelnemen aan de communie."
+                            "text": "Alleen <w>gedoopte</w> leden mogen deelnemen aan de communie.",
+                            "target_lang_translations": {
+                                "en": "Only <w>baptized</w> members may participate in communion.",
+                                "ru": "Только <w>крещёные</w> члены общины могут участвовать в причастии."
+                            }
                         },
                         {
-                            "text": "Hij is katholiek <w>gedoopt</w> en opgevoed."
+                            "text": "Hij is katholiek <w>gedoopt</w> en opgevoed.",
+                            "target_lang_translations": {
+                                "en": "He was <w>baptized</w> and raised Catholic.",
+                                "ru": "Он был <w>крещён</w> и воспитан как католик."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -57,7 +103,25 @@
                     ],
                     "common_phrases": [
                         "gedoopt zijn"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "having received baptism",
+                        "ru": "принявший таинство крещения"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "baptized",
+                                "target_lang_sense_clarification": "adjective describing a person"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "крещёный",
+                                "target_lang_sense_clarification": "прилагательное (статус)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

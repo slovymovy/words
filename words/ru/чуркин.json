@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "На вчерашнем заседании совета директоров господин <w>Чуркин</w> представил свой отчёт."
+                            "text": "На вчерашнем заседании совета директоров господин <w>Чуркин</w> представил свой отчёт.",
+                            "target_lang_translations": {
+                                "en": "At yesterday's board of directors meeting, Mr. <w>Churkin</w> presented his report."
+                            }
                         },
                         {
-                            "text": "В списке жильцов нашего дома до сих пор числится гражданин <w>Чуркин</w>."
+                            "text": "В списке жильцов нашего дома до сих пор числится гражданин <w>Чуркин</w>.",
+                            "target_lang_translations": {
+                                "en": "Citizen <w>Churkin</w> is still listed in the tenant list of our building."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Churkin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

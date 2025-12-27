@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment with Ms. <w>Lacoste</w> later this afternoon."
+                            "text": "We have an appointment with Ms. <w>Lacoste</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначена встреча с г-жой <w>Лакост</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "The <w>Lacoste</w> family has lived in this village for over a century."
+                            "text": "The <w>Lacoste</w> family has lived in this village for over a century.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Лакост</w> живет в этой деревне уже более века."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Лакост",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

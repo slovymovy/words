@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Zambrano</w> has been appointed as the new director of the company."
+                            "text": "Mr. <w>Zambrano</w> has been appointed as the new director of the company.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Самбрано</w> был назначен новым директором компании."
+                            }
                         },
                         {
-                            "text": "The <w>Zambrano</w> family has lived in this neighborhood for over twenty years."
+                            "text": "The <w>Zambrano</w> family has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Самбрано</w> живет в этом районе уже более двадцати лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,22 @@
                             "trait_type": "surname",
                             "comment": "Spanish origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия испанского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Самбрано",
+                                "target_lang_sense_clarification": "фамилия"
+                            },
+                            {
+                                "target_lang_word": "Замбрано",
+                                "target_lang_sense_clarification": "фамилия (англизированный вариант)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

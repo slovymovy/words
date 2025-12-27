@@ -13,12 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn tante heet <w>Marina</w> en ze woont in Gent."
+                            "text": "Mijn tante heet <w>Marina</w> en ze woont in Gent.",
+                            "target_lang_translations": {
+                                "en": "My aunt is called <w>Marina</w> and she lives in Ghent.",
+                                "ru": "Мою тетю зовут <w>Марина</w>, и она живет в Генте."
+                            }
                         },
                         {
-                            "text": "Gisteren ben ik met <w>Marina</w> naar de markt geweest."
+                            "text": "Gisteren ben ik met <w>Marina</w> naar de markt geweest.",
+                            "target_lang_translations": {
+                                "en": "Yesterday I went to the market with <w>Marina</w>.",
+                                "ru": "Вчера я ходил с <w>Мариной</w> на рынок."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A female first name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Marina",
+                                "target_lang_sense_clarification": "female given name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Марина",
+                                "target_lang_sense_clarification": "женское имя"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -34,10 +60,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Door haar kledingstijl en taalgebruik werd ze vaak een <w>marina</w> genoemd."
+                            "text": "Door haar kledingstijl en taalgebruik werd ze vaak een <w>marina</w> genoemd.",
+                            "target_lang_translations": {
+                                "en": "Because of her clothing style and language, she was often called a <w>chav</w>.",
+                                "ru": "Из-за стиля одежды и манеры речи её часто называли <w>гопницей</w>."
+                            }
                         },
                         {
-                            "text": "Hij vindt dat ze zich gedraagt als een echte <w>marina</w>."
+                            "text": "Hij vindt dat ze zich gedraagt als een echte <w>marina</w>.",
+                            "target_lang_translations": {
+                                "en": "He thinks she behaves like a real <w>chav</w>.",
+                                "ru": "Он считает, что она ведет себя как настоящая <w>деревенщина</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -51,7 +85,41 @@
                             "trait_type": "slang",
                             "comment": "pejorative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A pejorative term for a girl or young woman considered vulgar, common, or lacking class (similar to 'chav' in the UK).",
+                        "ru": "Пренебрежительное название для девушки или молодой женщины, которую считают вульгарной, простоватой или невоспитанной."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "chav",
+                                "target_lang_sense_clarification": "UK slang; pejorative for a lower-class, brash young person"
+                            },
+                            {
+                                "target_lang_word": "tacky girl",
+                                "target_lang_sense_clarification": "descriptive; referring to poor taste or style"
+                            },
+                            {
+                                "target_lang_word": "common girl",
+                                "target_lang_sense_clarification": "referring to low social class or refinement"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "гопница",
+                                "target_lang_sense_clarification": "сленг, вульгарная девушка"
+                            },
+                            {
+                                "target_lang_word": "вульгарная девица",
+                                "target_lang_sense_clarification": "описательный перевод"
+                            },
+                            {
+                                "target_lang_word": "деревенщина",
+                                "target_lang_sense_clarification": "разг., отсутствие вкуса"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Please deliver this package to Mr. <w>Knutson</w> at the front desk."
+                            "text": "Please deliver this package to Mr. <w>Knutson</w> at the front desk.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, доставьте эту посылку мистеру <w>Кнутсону</w> на стойку регистрации."
+                            }
                         },
                         {
-                            "text": "Sarah <w>Knutson</w> was elected as the new chairperson of the committee."
+                            "text": "Sarah <w>Knutson</w> was elected as the new chairperson of the committee.",
+                            "target_lang_translations": {
+                                "ru": "Сара <w>Кнутсон</w> была избрана новым председателем комитета."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кнутсон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Наш новый сотрудник <Куликов> отлично справляется с работой."
+                            "text": "Наш новый сотрудник <Куликов> отлично справляется с работой.",
+                            "target_lang_translations": {
+                                "en": "Our new employee <w>Kulikov</w> is doing an excellent job."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значится господин <Куликов>."
+                            "text": "В списке приглашённых гостей значится господин <Куликов>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Kulikov</w> is listed among the invited guests."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -34,7 +40,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Kulikov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -50,10 +67,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На берегу озера мы заметили стаю перелётных <куликов>."
+                            "text": "На берегу озера мы заметили стаю перелётных <куликов>.",
+                            "target_lang_translations": {
+                                "en": "We noticed a flock of migratory <w>sandpipers</w> on the lake shore."
+                            }
                         },
                         {
-                            "text": "В этой местности обитает несколько редких видов <куликов>."
+                            "text": "В этой местности обитает несколько редких видов <куликов>.",
+                            "target_lang_translations": {
+                                "en": "Several rare species of <w>sandpipers</w> inhabit this area."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -66,7 +89,22 @@
                             "trait_type": "form",
                             "comment": "родительный падеж множественного числа"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive plural form of the noun 'kulik' (sandpiper, wader)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sandpipers",
+                                "target_lang_sense_clarification": "bird"
+                            },
+                            {
+                                "target_lang_word": "waders",
+                                "target_lang_sense_clarification": "bird category"
+                            }
+                        ]
+                    }
                 }
             ]
         }

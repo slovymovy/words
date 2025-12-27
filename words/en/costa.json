@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have a meeting with Mr. <w>Costa</w> this afternoon."
+                            "text": "We have a meeting with Mr. <w>Costa</w> this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас встреча с господином <w>Коста</w> сегодня днем."
+                            }
                         },
                         {
-                            "text": "The <w>Costa</w> family has lived in this neighborhood for over fifty years."
+                            "text": "The <w>Costa</w> family has lived in this neighborhood for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Коста</w> живет в этом районе уже более пятидесяти лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": "Romance origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия романского происхождения, распространенная в итальянском, португальском, испанском и французском контекстах."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Коста",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,15 +62,32 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The fracture was identified on the third <w>costa</w>."
+                            "text": "The fracture was identified on the third <w>costa</w>.",
+                            "target_lang_translations": {
+                                "ru": "Перелом был обнаружен на третьем <w>ребре</w>."
+                            }
                         },
                         {
-                            "text": "In this diagram, each <w>costa</w> connects to the spine."
+                            "text": "In this diagram, each <w>costa</w> connects to the spine.",
+                            "target_lang_translations": {
+                                "ru": "На этой диаграмме каждое <w>ребро</w> соединяется с позвоночником."
+                            }
                         }
                     ],
                     "synonyms": [
                         "rib"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Ребро; термин, используемый преимущественно в анатомических или зоологических контекстах."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ребро",
+                                "target_lang_sense_clarification": "анатомия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "64096d00-8562-3bf8-87ba-247a04541715",
@@ -64,12 +98,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The botanist examined the <w>costa</w> running down the center of the leaf."
+                            "text": "The botanist examined the <w>costa</w> running down the center of the leaf.",
+                            "target_lang_translations": {
+                                "ru": "Ботаник исследовал <w>среднюю жилку</w>, проходящую по центру листа."
+                            }
                         },
                         {
-                            "text": "You can identify the insect species by the structure of the <w>costa</w> on its wing."
+                            "text": "You can identify the insect species by the structure of the <w>costa</w> on its wing.",
+                            "target_lang_translations": {
+                                "ru": "Вы можете определить вид насекомого по строению <w>костальной жилки</w> на его крыле."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Ребровидная структура у растений или животных, например, средняя жилка листа или утолщенная жилка крыла насекомого."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "средняя жилка",
+                                "target_lang_sense_clarification": "ботаника"
+                            },
+                            {
+                                "target_lang_word": "костальная жилка",
+                                "target_lang_sense_clarification": "энтомология"
+                            }
+                        ]
+                    }
                 }
             ]
         }

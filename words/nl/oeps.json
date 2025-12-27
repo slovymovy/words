@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Oeps</w>, dat was niet de bedoeling!"
+                            "text": "<w>Oeps</w>, dat was niet de bedoeling!",
+                            "target_lang_translations": {
+                                "en": "<w>Oops</w>, that wasn't supposed to happen!",
+                                "ru": "<w>Упс</w>, я не хотел этого делать!"
+                            }
                         },
                         {
-                            "text": "<w>Oeps</w>, ik heb per ongeluk het verkeerde bestand verwijderd."
+                            "text": "<w>Oeps</w>, ik heb per ongeluk het verkeerde bestand verwijderd.",
+                            "target_lang_translations": {
+                                "en": "<w>Oops</w>, I accidentally deleted the wrong file.",
+                                "ru": "<w>Упс</w>, я случайно удалил не тот файл."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,33 @@
                             "trait_type": "colloquial",
                             "comment": "wordt vooral in informele situaties gebruikt"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An exclamation used when making a minor mistake or error.",
+                        "ru": "Возглас, который используется, когда кто-то совершает небольшую ошибку или оплошность."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "oops",
+                                "target_lang_sense_clarification": "exclamation for a mistake"
+                            },
+                            {
+                                "target_lang_word": "whoops",
+                                "target_lang_sense_clarification": "variant of oops"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "упс",
+                                "target_lang_sense_clarification": "разговорное выражение при мелкой ошибке"
+                            },
+                            {
+                                "target_lang_word": "ой",
+                                "target_lang_sense_clarification": "универсальное восклицание при ошибке или неожиданности"
+                            }
+                        ]
+                    }
                 }
             ]
         }

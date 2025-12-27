@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Sorrell</w> has been managing the company for over twenty years."
+                            "text": "Mr. <w>Sorrell</w> has been managing the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Соррелл</w> руководит компанией уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We are going to visit the <w>Sorrell</w> family this weekend."
+                            "text": "We are going to visit the <w>Sorrell</w> family this weekend.",
+                            "target_lang_translations": {
+                                "ru": "В эти выходные мы собираемся навестить семью <w>Соррелл</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Соррелл",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

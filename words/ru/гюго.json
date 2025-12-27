@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Виктор <w>Гюго</w> написал знаменитый роман «Отверженные»."
+                            "text": "Виктор <w>Гюго</w> написал знаменитый роман «Отверженные».",
+                            "target_lang_translations": {
+                                "en": "Victor <w>Hugo</w> wrote the famous novel 'Les Misérables'."
+                            }
                         },
                         {
-                            "text": "В библиотеке я взял почитать произведения <w>Гюго</w>."
+                            "text": "В библиотеке я взял почитать произведения <w>Гюго</w>.",
+                            "target_lang_translations": {
+                                "en": "I borrowed some works by <w>Hugo</w> from the library."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +38,18 @@
                             "trait_type": "surname",
                             "comment": "французская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A French surname; the established Russian form of the surname Hugo."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Hugo",
+                                "target_lang_sense_clarification": "French surname (e.g., Victor Hugo)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

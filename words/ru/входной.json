@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Входная</w> дверь была закрыта на большой замок."
+                            "text": "<w>Входная</w> дверь была закрыта на большой замок.",
+                            "target_lang_translations": {
+                                "en": "The <w>front</w> door was locked with a large lock."
+                            }
                         },
                         {
-                            "text": "Вам нужно предъявить <w>входной</w> билет контролёру."
+                            "text": "Вам нужно предъявить <w>входной</w> билет контролёру.",
+                            "target_lang_translations": {
+                                "en": "You need to show the <w>entrance</w> ticket to the ticket inspector."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -30,7 +36,26 @@
                         "входной билет",
                         "входная плата",
                         "входное отверстие"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Relating to an entrance or serving as a means of entry."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "entrance",
+                                "target_lang_sense_clarification": "general attribute"
+                            },
+                            {
+                                "target_lang_word": "front",
+                                "target_lang_sense_clarification": "specifically regarding a main door"
+                            },
+                            {
+                                "target_lang_word": "entry",
+                                "target_lang_sense_clarification": "relating to permission or means to enter"
+                            }
+                        ]
+                    }
                 }
             ]
         }

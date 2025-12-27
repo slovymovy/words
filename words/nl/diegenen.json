@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik wil graag <w>diegenen</w> bedanken die mij gesteund hebben."
+                            "text": "Ik wil graag <w>diegenen</w> bedanken die mij gesteund hebben.",
+                            "target_lang_translations": {
+                                "en": "I would like to thank <w>those</w> who have supported me.",
+                                "ru": "Я хочу поблагодарить <w>тех</w>, кто меня поддержал."
+                            }
                         },
                         {
-                            "text": "<w>Diegenen</w> die te laat komen, missen het begin van de voorstelling."
+                            "text": "<w>Diegenen</w> die te laat komen, missen het begin van de voorstelling.",
+                            "target_lang_translations": {
+                                "en": "<w>Those</w> who arrive late will miss the beginning of the performance.",
+                                "ru": "<w>Те</w>, кто опоздают, пропустят начало представления."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,29 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of <w>diegene</w>; refers to persons who are further specified in a following subordinate clause.",
+                        "ru": "Те; форма множественного числа, указывающая на людей, которые определяются в последующем придаточном предложении."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "those",
+                                "target_lang_sense_clarification": "referring to people defined by a following clause"
+                            },
+                            {
+                                "target_lang_word": "the ones",
+                                "target_lang_sense_clarification": "specific group of people"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "те",
+                                "target_lang_sense_clarification": "указательное местоимение (мн. ч.)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

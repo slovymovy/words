@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De prijs van het boek is tien euro, exclusief <w>porto</w>."
+                            "text": "De prijs van het boek is tien euro, exclusief <w>porto</w>.",
+                            "target_lang_translations": {
+                                "en": "The price of the book is ten euros, excluding <w>postage</w>."
+                            }
                         },
                         {
-                            "text": "Je moet zorgen voor voldoende <w>porto</w> als je een zware brief naar het buitenland stuurt."
+                            "text": "Je moet zorgen voor voldoende <w>porto</w> als je een zware brief naar het buitenland stuurt.",
+                            "target_lang_translations": {
+                                "en": "You must ensure sufficient <w>postage</w> if you send a heavy letter abroad."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +35,18 @@
                         "exclusief porto",
                         "inclusief porto",
                         "voldoende porto"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The amount paid for sending a letter or package."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "postage",
+                                "target_lang_sense_clarification": "fee for sending mail"
+                            }
+                        ]
+                    }
                 }
             ]
         }

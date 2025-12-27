@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На выезде из города стоит пост <w>ДПС</w>."
+                            "text": "На выезде из города стоит пост <w>ДПС</w>.",
+                            "target_lang_translations": {
+                                "en": "There is a <w>traffic police</w> checkpoint at the city exit."
+                            }
                         },
                         {
-                            "text": "Инспектор <w>ДПС</w> остановил машину за нарушение правил."
+                            "text": "Инспектор <w>ДПС</w> остановил машину за нарушение правил.",
+                            "target_lang_translations": {
+                                "en": "A <w>traffic police</w> inspector stopped the car for a violation."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +36,22 @@
                         "инспектор ДПС",
                         "сотрудник ДПС",
                         "машина ДПС"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for <w>road patrol service</w>; a police unit responsible for road traffic safety."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "traffic police",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "highway patrol",
+                                "target_lang_sense_clarification": "US equivalent"
+                            }
+                        ]
+                    }
                 }
             ]
         }

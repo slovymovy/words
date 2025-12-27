@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Dolph</w> has lived in this neighborhood for over twenty years."
+                            "text": "Mr. <w>Dolph</w> has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Дольф</w> живет в этом районе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The letter was addressed to a Sarah <w>Dolph</w>."
+                            "text": "The letter was addressed to a Sarah <w>Dolph</w>.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано Саре <w>Дольф</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дольф",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

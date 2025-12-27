@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "На собрании выступил инженер <w>Баканов</w> с новым предложением."
+                            "text": "На собрании выступил инженер <w>Баканов</w> с новым предложением.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Bakanov</w> spoke at the meeting with a new proposal."
+                            }
                         },
                         {
-                            "text": "Мы давно знакомы с семьёй <w>Бакановых</w> и часто ходим к ним в гости."
+                            "text": "Мы давно знакомы с семьёй <w>Бакановых</w> и часто ходим к ним в гости.",
+                            "target_lang_translations": {
+                                "en": "We have known the <w>Bakanov</w> family for a long time and often visit them."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "russian"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Bakanov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

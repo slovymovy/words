@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De wedstrijd werd afgelast <w>vanwege</w> het slechte weer."
+                            "text": "De wedstrijd werd afgelast <w>vanwege</w> het slechte weer.",
+                            "target_lang_translations": {
+                                "en": "The match was cancelled <w>because of</w> the bad weather.",
+                                "ru": "Матч отменили <w>из-за</w> плохой погоды."
+                            }
                         },
                         {
-                            "text": "Dat moest <w>vanwege</w> mijn werk."
+                            "text": "Dat moest <w>vanwege</w> mijn werk.",
+                            "target_lang_translations": {
+                                "en": "That was necessary <w>because of</w> my work.",
+                                "ru": "Это пришлось сделать <w>из-за</w> работы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,7 +34,41 @@
                         "vanwege de regen",
                         "vanwege omstandigheden",
                         "vanwege het feit"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "For the reason of; caused by.",
+                        "ru": "По причине чего-либо; вследствие чего-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "because of",
+                                "target_lang_sense_clarification": "indicating the reason or cause"
+                            },
+                            {
+                                "target_lang_word": "due to",
+                                "target_lang_sense_clarification": "attributable to; caused by"
+                            },
+                            {
+                                "target_lang_word": "on account of",
+                                "target_lang_sense_clarification": "formal"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "из-за",
+                                "target_lang_sense_clarification": "указывает на причину"
+                            },
+                            {
+                                "target_lang_word": "по причине",
+                                "target_lang_sense_clarification": "более формальный вариант"
+                            },
+                            {
+                                "target_lang_word": "вследствие",
+                                "target_lang_sense_clarification": "официальный или книжный стиль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

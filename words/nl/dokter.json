@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik moet morgen naar de <w>dokter</w> omdat ik ziek ben."
+                            "text": "Ik moet morgen naar de <w>dokter</w> omdat ik ziek ben.",
+                            "target_lang_translations": {
+                                "en": "I have to go to the <w>doctor</w> tomorrow because I am sick.",
+                                "ru": "Завтра мне нужно к <w>врачу</w>, потому что я заболел."
+                            }
                         },
                         {
-                            "text": "De <w>dokter</w> heeft mij medicijnen gegeven voor de pijn."
+                            "text": "De <w>dokter</w> heeft mij medicijnen gegeven voor de pijn.",
+                            "target_lang_translations": {
+                                "en": "The <w>doctor</w> gave me medicine for the pain.",
+                                "ru": "<w>Доктор</w> дал мне лекарство от боли."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,33 @@
                     "common_phrases": [
                         "naar de dokter",
                         "bij de dokter"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who is medically trained to help and cure the sick.",
+                        "ru": "Человек с медицинским образованием, который лечит больных."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "doctor",
+                                "target_lang_sense_clarification": "medical professional"
+                            },
+                            {
+                                "target_lang_word": "physician",
+                                "target_lang_sense_clarification": "formal term for a doctor"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "врач",
+                                "target_lang_sense_clarification": "специалист с высшим медицинским образованием"
+                            },
+                            {
+                                "target_lang_word": "доктор",
+                                "target_lang_sense_clarification": "разговорное или уважительное обращение к врачу"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -49,10 +83,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik <w>dokter</w> liever zelf wat aan dan dat ik naar een arts ga."
+                            "text": "Ik <w>dokter</w> liever zelf wat aan dan dat ik naar een arts ga.",
+                            "target_lang_translations": {
+                                "en": "I prefer to <w>doctor</w> myself rather than go to a physician.",
+                                "ru": "Я предпочитаю <w>лечиться</w> самостоятельно, чем идти к врачу."
+                            }
                         },
                         {
-                            "text": "Soms <w>dokter</w> ik aan oude apparaten om ze weer te laten werken."
+                            "text": "Soms <w>dokter</w> ik aan oude apparaten om ze weer te laten werken.",
+                            "target_lang_translations": {
+                                "en": "Sometimes I <w>tinker</w> with old appliances to make them work again.",
+                                "ru": "Иногда я <w>вожусь</w> со старыми приборами, чтобы заставить их снова работать."
+                            }
                         }
                     ],
                     "traits": [
@@ -60,7 +102,33 @@
                             "trait_type": "form",
                             "comment": "verb form"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "First person singular present tense of <w>dokteren</w>.",
+                        "ru": "Форма первого лица единственного числа настоящего времени глагола 'dokteren'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "doctor",
+                                "target_lang_sense_clarification": "to treat medically or self-medicate"
+                            },
+                            {
+                                "target_lang_word": "tinker",
+                                "target_lang_sense_clarification": "to attempt to repair or improve something"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "занимаюсь самолечением",
+                                "target_lang_sense_clarification": "пытаться вылечиться самостоятельно"
+                            },
+                            {
+                                "target_lang_word": "вожусь",
+                                "target_lang_sense_clarification": "пытаться починить или наладить что-то (переносное значение)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

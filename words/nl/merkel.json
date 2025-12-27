@@ -13,10 +13,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Bondskanselier <w>Merkel</w> was jarenlang een van de machtigste leiders in Europa."
+                            "text": "Bondskanselier <w>Merkel</w> was jarenlang een van de machtigste leiders in Europa.",
+                            "target_lang_translations": {
+                                "en": "Chancellor <w>Merkel</w> was one of the most powerful leaders in Europe for years.",
+                                "ru": "Канцлер <w>Меркель</w> долгие годы была одним из самых влиятельных лидеров в Европе."
+                            }
                         },
                         {
-                            "text": "Mijn buren heten <w>Merkel</w> en komen oorspronkelijk uit Duitsland."
+                            "text": "Mijn buren heten <w>Merkel</w> en komen oorspronkelijk uit Duitsland.",
+                            "target_lang_translations": {
+                                "en": "My neighbors are named <w>Merkel</w> and are originally from Germany.",
+                                "ru": "Моих соседей зовут <w>Меркель</w>, и они родом из Германии."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +32,25 @@
                             "trait_type": "surname",
                             "comment": "familienaam"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A surname.",
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Merkel",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Меркель",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -40,12 +66,46 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De matroos legde de zware <w>merkel</w> op zijn plaats voordat het luik dichtging."
+                            "text": "De matroos legde de zware <w>merkel</w> op zijn plaats voordat het luik dichtging.",
+                            "target_lang_translations": {
+                                "en": "The sailor put the heavy <w>strongback</w> in place before the hatch closed.",
+                                "ru": "Матрос уложил тяжелый <w>люковый бимс</w> на место перед тем, как закрыть люк."
+                            }
                         },
                         {
-                            "text": "Een <w>merkel</w> is een dwarsscheepse balk waar een luik op rust."
+                            "text": "Een <w>merkel</w> is een dwarsscheepse balk waar een luik op rust.",
+                            "target_lang_translations": {
+                                "en": "A <w>strongback</w> is a transverse beam on which a hatch rests.",
+                                "ru": "<w>Люковый бимс</w> — это поперечная балка, на которую опирается люк."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A beam or bar laid transversely across a hatch opening of a ship to support the hatch.",
+                        "ru": "Балка или стержень, укладываемый поперек люкового отверстия судна для поддержки крышки люка."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "strongback",
+                                "target_lang_sense_clarification": "nautical hatch beam"
+                            },
+                            {
+                                "target_lang_word": "hatch beam",
+                                "target_lang_sense_clarification": "nautical"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "люковый бимс",
+                                "target_lang_sense_clarification": "морской термин"
+                            },
+                            {
+                                "target_lang_word": "съемный бимс",
+                                "target_lang_sense_clarification": "морской термин"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a700c692-6774-37ba-ac52-3e17ac35cf4f",
@@ -56,12 +116,38 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We hingen de natte zeilen over de <w>merkel</w> zodat de wind er goed bij kon."
+                            "text": "We hingen de natte zeilen over de <w>merkel</w> zodat de wind er goed bij kon.",
+                            "target_lang_translations": {
+                                "en": "We hung the wet sails over the <w>hoop</w> so the wind could reach them well.",
+                                "ru": "Мы повесили мокрые паруса на <w>обруч для сушки</w>, чтобы их хорошо продувал ветер."
+                            }
                         },
                         {
-                            "text": "Zonder een stevige <w>merkel</w> is het lastig om de zware doeken te drogen."
+                            "text": "Zonder een stevige <w>merkel</w> is het lastig om de zware doeken te drogen.",
+                            "target_lang_translations": {
+                                "en": "Without a sturdy <w>hoop</w>, it is difficult to dry the heavy cloths.",
+                                "ru": "Без прочного <w>обруча для сушки</w> трудно высушить тяжелые полотна."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A hoop used to dry sails.",
+                        "ru": "Обруч, используемый для сушки парусов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hoop",
+                                "target_lang_sense_clarification": "for drying sails"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "обруч для сушки парусов",
+                                "target_lang_sense_clarification": "морской термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

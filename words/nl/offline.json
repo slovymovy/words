@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn telefoon is <w>offline</w>, dus ik kan geen berichten ontvangen."
+                            "text": "Mijn telefoon is <w>offline</w>, dus ik kan geen berichten ontvangen.",
+                            "target_lang_translations": {
+                                "en": "My phone is <w>offline</w>, so I cannot receive messages.",
+                                "ru": "Мой телефон <w>не в сети</w>, поэтому я не могу получать сообщения."
+                            }
                         },
                         {
-                            "text": "Je kunt deze muziek ook luisteren als je <w>offline</w> bent."
+                            "text": "Je kunt deze muziek ook luisteren als je <w>offline</w> bent.",
+                            "target_lang_translations": {
+                                "en": "You can also listen to this music when you are <w>offline</w>.",
+                                "ru": "Вы также можете слушать эту музыку, находясь <w>офлайн</w>."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -26,7 +34,33 @@
                         "offline zijn",
                         "offline gaan",
                         "offline werken"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Not connected to the internet or a computer network.",
+                        "ru": "Не подключенный к интернету или компьютерной сети."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "offline",
+                                "target_lang_sense_clarification": "not connected to the internet"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "офлайн",
+                                "target_lang_sense_clarification": "без подключения к интернету"
+                            },
+                            {
+                                "target_lang_word": "не в сети",
+                                "target_lang_sense_clarification": "статус отсутствия соединения"
+                            },
+                            {
+                                "target_lang_word": "автономный",
+                                "target_lang_sense_clarification": "режим работы устройства"
+                            }
+                        ]
+                    }
                 }
             ]
         }

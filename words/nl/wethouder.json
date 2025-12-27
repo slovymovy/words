@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>wethouder</w> is verantwoordelijk voor het onderwijs in de stad."
+                            "text": "De <w>wethouder</w> is verantwoordelijk voor het onderwijs in de stad.",
+                            "target_lang_translations": {
+                                "en": "The <w>alderman</w> is responsible for education in the city.",
+                                "ru": "<w>Заместитель мэра</w> отвечает за образование в городе."
+                            }
                         },
                         {
-                            "text": "Na de verkiezingen werd hij benoemd tot <w>wethouder</w> van financiën."
+                            "text": "Na de verkiezingen werd hij benoemd tot <w>wethouder</w> van financiën.",
+                            "target_lang_translations": {
+                                "en": "After the elections, he was appointed <w>alderman</w> for finance.",
+                                "ru": "После выборов он был назначен <w>заместителем мэра</w> по финансам."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,7 +40,29 @@
                             "trait_type": "regional",
                             "comment": "Nederland"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Member of the executive board of a municipality",
+                        "ru": "Член исполнительного совета муниципалитета, отвечающий за определенную сферу управления (например, образование или финансы)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "alderman",
+                                "target_lang_sense_clarification": "member of the municipal executive"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "заместитель мэра",
+                                "target_lang_sense_clarification": "функциональный аналог"
+                            },
+                            {
+                                "target_lang_word": "член городской управы",
+                                "target_lang_sense_clarification": "административная должность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

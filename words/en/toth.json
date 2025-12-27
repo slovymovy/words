@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Toth</w> has been working in the accounting department for over ten years."
+                            "text": "Mr. <w>Toth</w> has been working in the accounting department for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Тот</w> работает в бухгалтерии уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "The package was delivered to the <w>Toth</w> residence yesterday afternoon."
+                            "text": "The package was delivered to the <w>Toth</w> residence yesterday afternoon.",
+                            "target_lang_translations": {
+                                "ru": "Посылка была доставлена в дом семьи <w>Тот</w> вчера днём."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from Hungarian"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия венгерского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Тот",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

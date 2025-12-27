@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We asked Mr. <w>Mein</w> to sign the official documents."
+                            "text": "We asked Mr. <w>Mein</w> to sign the official documents.",
+                            "target_lang_translations": {
+                                "ru": "Мы попросили мистера <w>Майна</w> подписать официальные документы."
+                            }
                         },
                         {
-                            "text": "The <w>Meins</w> have lived in this neighborhood for over twenty years."
+                            "text": "The <w>Meins</w> have lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "<w>Майны</w> живут в этом районе уже более двадцати лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Майн",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

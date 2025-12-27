@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik ga naar bed <w>omdat</w> ik erg moe ben."
+                            "text": "Ik ga naar bed <w>omdat</w> ik erg moe ben.",
+                            "target_lang_translations": {
+                                "en": "I am going to bed <w>because</w> I am very tired.",
+                                "ru": "Я иду спать, <w>потому что</w> я очень устал."
+                            }
                         },
                         {
-                            "text": "<w>Omdat</w> het buiten regent, blijven we vandaag lekker binnen."
+                            "text": "<w>Omdat</w> het buiten regent, blijven we vandaag lekker binnen.",
+                            "target_lang_translations": {
+                                "en": "<w>Because</w> it is raining outside, we are staying comfortably inside today.",
+                                "ru": "<w>Так как</w> на улице идет дождь, мы сегодня с удовольствием останемся дома."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,7 +36,33 @@
                         "gewoon omdat",
                         "niet omdat",
                         "alleen omdat"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Indicates a reason or cause.",
+                        "ru": "Указывает на причину или основание действия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "because",
+                                "target_lang_sense_clarification": "conjunction used to introduce a reason or explanation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "потому что",
+                                "target_lang_sense_clarification": "наиболее распространенный союз для указания причины"
+                            },
+                            {
+                                "target_lang_word": "так как",
+                                "target_lang_sense_clarification": "часто используется, когда придаточное предложение стоит перед главным"
+                            },
+                            {
+                                "target_lang_word": "поскольку",
+                                "target_lang_sense_clarification": "указывает на причину как на известный факт"
+                            }
+                        ]
+                    }
                 }
             ]
         }

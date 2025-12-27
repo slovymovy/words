@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Юрий <w>Луценко</w> был известным политическим деятелем."
+                            "text": "Юрий <w>Луценко</w> был известным политическим деятелем.",
+                            "target_lang_translations": {
+                                "en": "Yuriy <w>Lutsenko</w> was a well-known political figure."
+                            }
                         },
                         {
-                            "text": "В нашем классе учится девочка по фамилии <w>Луценко</w>."
+                            "text": "В нашем классе учится девочка по фамилии <w>Луценко</w>.",
+                            "target_lang_translations": {
+                                "en": "A girl with the surname <w>Lutsenko</w> is in our class."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "несклоняемая"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Ukrainian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Lutsenko",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

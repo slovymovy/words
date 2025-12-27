@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We are waiting for Mr. <w>Litvinenko</w> to arrive at the meeting."
+                            "text": "We are waiting for Mr. <w>Litvinenko</w> to arrive at the meeting.",
+                            "target_lang_translations": {
+                                "ru": "Мы ждем прибытия господина <w>Литвиненко</w> на встречу."
+                            }
                         },
                         {
-                            "text": "Is <w>Litvinenko</w> a common name in your country?"
+                            "text": "Is <w>Litvinenko</w> a common name in your country?",
+                            "target_lang_translations": {
+                                "ru": "<w>Литвиненко</w> — распространенная фамилия в вашей стране?"
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия русского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Литвиненко",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

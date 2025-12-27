@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Please make sure to spell Mr. <w>Browne</w>'s name correctly on the invitation."
+                            "text": "Please make sure to spell Mr. <w>Browne</w>'s name correctly on the invitation.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, убедитесь, что фамилия мистера <w>Брауна</w> написана в приглашении правильно."
+                            }
                         },
                         {
-                            "text": "The historical records mention a wealthy merchant named Thomas <w>Browne</w>."
+                            "text": "The historical records mention a wealthy merchant named Thomas <w>Browne</w>.",
+                            "target_lang_translations": {
+                                "ru": "В исторических записях упоминается богатый купец по имени Томас <w>Браун</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "spelling variant of Brown"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, являющаяся вариантом написания фамилии <w>Brown</w>."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Браун",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

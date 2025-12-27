@@ -1,38 +1,58 @@
 {
-  "word_family": [
-    "curry",
-    "currying",
-    "uncurrying"
-  ],
-  "entries": [
-    {
-      "pos": "verb",
-      "senses": [
+    "word_family": [
+        "curry",
+        "currying",
+        "uncurrying"
+    ],
+    "entries": [
         {
-          "sense_id": "08bd8c36-d956-3d44-86e1-ed96e3018049",
-          "sense_definition": "To reverse the operation of currying in functional programming, converting a sequence of functions taking single arguments into a single function taking multiple arguments.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "The developer decided to <w>uncurry</w> the function to simplify the interface for the new library."
-            },
-            {
-              "text": "You can <w>uncurry</w> the arguments to pass them as a single tuple instead of a chain of calls."
-            }
-          ],
-          "antonyms": [
-            "curry"
-          ],
-          "common_phrases": [
-            "uncurry a function",
-            "uncurry the arguments"
-          ],
-          "traits": []
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "08bd8c36-d956-3d44-86e1-ed96e3018049",
+                    "sense_definition": "To reverse the operation of currying in functional programming, converting a sequence of functions taking single arguments into a single function taking multiple arguments.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "The developer decided to <w>uncurry</w> the function to simplify the interface for the new library.",
+                            "target_lang_translations": {
+                                "ru": "Разработчик решил <w>декаррировать</w> функцию, чтобы упростить интерфейс для новой библиотеки."
+                            }
+                        },
+                        {
+                            "text": "You can <w>uncurry</w> the arguments to pass them as a single tuple instead of a chain of calls.",
+                            "target_lang_translations": {
+                                "ru": "Вы можете <w>декаррировать</w> аргументы, чтобы передать их как один кортеж вместо цепочки вызовов."
+                            }
+                        }
+                    ],
+                    "antonyms": [
+                        "curry"
+                    ],
+                    "common_phrases": [
+                        "uncurry a function",
+                        "uncurry the arguments"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Обратить операцию каррирования в функциональном программировании, преобразуя последовательность функций, принимающих по одному аргументу, в одну функцию, принимающую несколько аргументов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "декаррировать",
+                                "target_lang_sense_clarification": "термин функционального программирования"
+                            },
+                            {
+                                "target_lang_word": "обратить каррирование",
+                                "target_lang_sense_clarification": "описание процесса"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

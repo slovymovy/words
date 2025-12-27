@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Svetlana's</w> verjaardag gevierd met al haar vrienden."
+                            "text": "Ik heb gisteren <w>Svetlana's</w> verjaardag gevierd met al haar vrienden.",
+                            "target_lang_translations": {
+                                "en": "I celebrated <w>Svetlana's</w> birthday yesterday with all her friends.",
+                                "ru": "Вчера я отмечал день рождения <w>Светланы</w> со всеми её друзьями."
+                            }
                         },
                         {
-                            "text": "Vind je <w>Svetlana's</w> idee voor het project ook zo goed?"
+                            "text": "Vind je <w>Svetlana's</w> idee voor het project ook zo goed?",
+                            "target_lang_translations": {
+                                "en": "Do you also think <w>Svetlana's</w> idea for the project is so good?",
+                                "ru": "Тебе тоже так нравится идея <w>Светланы</w> для этого проекта?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +38,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of <w>Svetlana</w>",
+                        "ru": "форма родительного падежа имени <w>Светлана</w>, обозначающая принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Svetlana's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Светланы",
+                                "target_lang_sense_clarification": "родительный падеж"
+                            }
+                        ]
+                    }
                 }
             ]
         }

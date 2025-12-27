@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kunt u mij de nieuwe <w>prijslijst</w> laten zien?"
+                            "text": "Kunt u mij de nieuwe <w>prijslijst</w> laten zien?",
+                            "target_lang_translations": {
+                                "en": "Can you show me the new <w>price list</w>?",
+                                "ru": "Вы можете показать мне новый <w>прайс-лист</w>?"
+                            }
                         },
                         {
-                            "text": "De koffie staat niet op de <w>prijslijst</w>."
+                            "text": "De koffie staat niet op de <w>prijslijst</w>.",
+                            "target_lang_translations": {
+                                "en": "The coffee is not on the <w>price list</w>.",
+                                "ru": "Кофе нет в <w>прайс-листе</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,29 @@
                         "op de prijslijst",
                         "een prijslijst vragen",
                         "de actuele prijslijst"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A list showing the costs of products or services.",
+                        "ru": "Список, в котором указана стоимость товаров или услуг."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "price list",
+                                "target_lang_sense_clarification": "document listing prices"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "прайс-лист",
+                                "target_lang_sense_clarification": "список цен"
+                            },
+                            {
+                                "target_lang_word": "прейскурант",
+                                "target_lang_sense_clarification": "официальный перечень цен"
+                            }
+                        ]
+                    }
                 }
             ]
         }

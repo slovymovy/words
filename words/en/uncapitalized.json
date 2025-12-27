@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The password must contain at least one <w>uncapitalized</w> letter for security reasons."
+                            "text": "The password must contain at least one <w>uncapitalized</w> letter for security reasons.",
+                            "target_lang_translations": {
+                                "ru": "В целях безопасности пароль должен содержать хотя бы одну <w>строчную</w> букву."
+                            }
                         },
                         {
-                            "text": "He noticed an <w>uncapitalized</w> proper noun in the middle of the sentence."
+                            "text": "He noticed an <w>uncapitalized</w> proper noun in the middle of the sentence.",
+                            "target_lang_translations": {
+                                "ru": "Он заметил имя собственное, <w>написанное со строчной буквы</w>, в середине предложения."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +41,22 @@
                         "uncapitalized letter",
                         "uncapitalized word",
                         "uncapitalized text"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Написанный строчными (маленькими) буквами; не начинающийся с заглавной буквы."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "строчный",
+                                "target_lang_sense_clarification": "о букве или шрифте"
+                            },
+                            {
+                                "target_lang_word": "написанный со строчной буквы",
+                                "target_lang_sense_clarification": "не с заглавной"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -51,15 +72,36 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The editor <w>uncapitalized</w> the title to match the publication's style guide."
+                            "text": "The editor <w>uncapitalized</w> the title to match the publication's style guide.",
+                            "target_lang_translations": {
+                                "ru": "Редактор <w>заменил заглавные буквы на строчные</w> в заголовке, чтобы соответствовать стилю издания."
+                            }
                         },
                         {
-                            "text": "She <w>uncapitalized</w> the variable names in the code to follow standard conventions."
+                            "text": "She <w>uncapitalized</w> the variable names in the code to follow standard conventions.",
+                            "target_lang_translations": {
+                                "ru": "Она <w>перевела в нижний регистр</w> имена переменных в коде, чтобы следовать стандартным соглашениям."
+                            }
                         }
                     ],
                     "antonyms": [
                         "capitalized"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Прошедшее время и причастие прошедшего времени от глагола uncapitalize (заменять заглавные буквы строчными)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "заменять заглавные буквы строчными",
+                                "target_lang_sense_clarification": "действие"
+                            },
+                            {
+                                "target_lang_word": "переводить в нижний регистр",
+                                "target_lang_sense_clarification": "компьютерный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

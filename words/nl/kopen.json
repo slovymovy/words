@@ -22,13 +22,25 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik ga morgen een nieuwe telefoon <w>kopen</w>."
+                            "text": "Ik ga morgen een nieuwe telefoon <w>kopen</w>.",
+                            "target_lang_translations": {
+                                "en": "I am going to <w>buy</w> a new phone tomorrow.",
+                                "ru": "Завтра я собираюсь <w>купить</w> новый телефон."
+                            }
                         },
                         {
-                            "text": "We hebben gisteren een nieuwe auto <w>gekocht</w>."
+                            "text": "We hebben gisteren een nieuwe auto <w>gekocht</w>.",
+                            "target_lang_translations": {
+                                "en": "We <w>bought</w> a new car yesterday.",
+                                "ru": "Вчера мы <w>купили</w> новую машину."
+                            }
                         },
                         {
-                            "text": "Je kunt hier kaartjes <w>kopen</w> voor het concert."
+                            "text": "Je kunt hier kaartjes <w>kopen</w> voor het concert.",
+                            "target_lang_translations": {
+                                "en": "You can <w>buy</w> tickets for the concert here.",
+                                "ru": "Здесь можно <w>купить</w> билеты на концерт."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,7 +55,37 @@
                         "online kopen",
                         "iets nieuws kopen",
                         "op afbetaling kopen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To get something into one's possession in exchange for money.",
+                        "ru": "Получать что-либо во владение в обмен на деньги."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "buy",
+                                "target_lang_sense_clarification": "to obtain in exchange for payment"
+                            },
+                            {
+                                "target_lang_word": "purchase",
+                                "target_lang_sense_clarification": "formal: to buy"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "покупать",
+                                "target_lang_sense_clarification": "несовершенный вид"
+                            },
+                            {
+                                "target_lang_word": "купить",
+                                "target_lang_sense_clarification": "совершенный вид"
+                            },
+                            {
+                                "target_lang_word": "приобретать",
+                                "target_lang_sense_clarification": "более формально"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -59,10 +101,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De verschillende <w>kopen</w> werden zorgvuldig in het register bijgeschreven."
+                            "text": "De verschillende <w>kopen</w> werden zorgvuldig in het register bijgeschreven.",
+                            "target_lang_translations": {
+                                "en": "The various <w>purchases</w> were carefully recorded in the register.",
+                                "ru": "Различные <w>покупки</w> были тщательно занесены в реестр."
+                            }
                         },
                         {
-                            "text": "Bij grote <w>kopen</w> is het verstandig om de voorwaarden goed te lezen."
+                            "text": "Bij grote <w>kopen</w> is het verstandig om de voorwaarden goed te lezen.",
+                            "target_lang_translations": {
+                                "en": "For large <w>purchases</w>, it is wise to read the terms and conditions carefully.",
+                                "ru": "При крупных <w>покупках</w> разумно внимательно читать условия."
+                            }
                         }
                     ],
                     "traits": [
@@ -70,7 +120,33 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of the noun <w>koop</w>.",
+                        "ru": "Множественное число существительного 'покупка'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "purchases",
+                                "target_lang_sense_clarification": "items bought; acts of buying"
+                            },
+                            {
+                                "target_lang_word": "buys",
+                                "target_lang_sense_clarification": "bargains; things bought"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "покупки",
+                                "target_lang_sense_clarification": "приобретения"
+                            },
+                            {
+                                "target_lang_word": "сделки",
+                                "target_lang_sense_clarification": "акты купли-продажи"
+                            }
+                        ]
+                    }
                 }
             ]
         }

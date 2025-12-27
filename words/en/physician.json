@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "You should make an appointment with your <w>physician</w> for an annual checkup."
+                            "text": "You should make an appointment with your <w>physician</w> for an annual checkup.",
+                            "target_lang_translations": {
+                                "ru": "Вам следует записаться на прием к своему <w>врачу</w> для ежегодного осмотра."
+                            }
                         },
                         {
-                            "text": "The <w>physician</w> prescribed some medication to help with the infection."
+                            "text": "The <w>physician</w> prescribed some medication to help with the infection.",
+                            "target_lang_translations": {
+                                "ru": "<w>Врач</w> выписал лекарство, чтобы помочь справиться с инфекцией."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +39,22 @@
                         "primary care physician",
                         "attending physician",
                         "consulting physician"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Дипломированный специалист, занимающийся лечением людей; доктор."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "врач",
+                                "target_lang_sense_clarification": "специалист с высшим медицинским образованием"
+                            },
+                            {
+                                "target_lang_word": "доктор",
+                                "target_lang_sense_clarification": "общеупотребительное название врача"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6b3d9f7f-ffda-3f2b-b9fa-a3c0715a01f4",
@@ -44,15 +65,36 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The hospital staff includes both surgeons and <w>physicians</w> to cover all medical needs."
+                            "text": "The hospital staff includes both surgeons and <w>physicians</w> to cover all medical needs.",
+                            "target_lang_translations": {
+                                "ru": "Персонал больницы включает как хирургов, так и <w>терапевтов</w>, чтобы обеспечить все медицинские нужды."
+                            }
                         },
                         {
-                            "text": "As a <w>physician</w>, she focuses on diagnosing complex diseases rather than performing surgery."
+                            "text": "As a <w>physician</w>, she focuses on diagnosing complex diseases rather than performing surgery.",
+                            "target_lang_translations": {
+                                "ru": "Как <w>терапевт</w>, она сосредотачивается на диагностике сложных заболеваний, а не на проведении операций."
+                            }
                         }
                     ],
                     "synonyms": [
                         "doctor"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Специалист по внутренним болезням, занимающийся диагностикой и медикаментозным лечением (в отличие от хирурга)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "терапевт",
+                                "target_lang_sense_clarification": "врач, специализирующийся на внутренних болезнях"
+                            },
+                            {
+                                "target_lang_word": "врач-терапевт",
+                                "target_lang_sense_clarification": "полное название специальности"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik ben gisteren naar <w>Jules'</w> huis geweest."
+                            "text": "Ik ben gisteren naar <w>Jules'</w> huis geweest.",
+                            "target_lang_translations": {
+                                "en": "I went to <w>Jules's</w> house yesterday.",
+                                "ru": "Вчера я был в доме <w>Жюля</w>."
+                            }
                         },
                         {
-                            "text": "Dit is <w>Jules'</w> mening over het onderwerp."
+                            "text": "Dit is <w>Jules'</w> mening over het onderwerp.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Jules's</w> opinion on the subject.",
+                                "ru": "Это мнение <w>Жюля</w> по этому вопросу."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +38,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive form of Jules.",
+                        "ru": "Родительный падеж имени <w>Jules</w> (Жюль), указывающий на принадлежность."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jules's",
+                                "target_lang_sense_clarification": "possessive form of the name Jules"
+                            },
+                            {
+                                "target_lang_word": "Jules'",
+                                "target_lang_sense_clarification": "possessive form of the name Jules (alternative spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Жюля",
+                                "target_lang_sense_clarification": "форма родительного падежа имени Жюль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

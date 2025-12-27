@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I have an appointment with Dr. <w>Cappella</w> later this afternoon."
+                            "text": "I have an appointment with Dr. <w>Cappella</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У меня назначен приём у доктора <w>Каппеллы</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "The <w>Cappella</w> family has lived in this neighborhood for over fifty years."
+                            "text": "The <w>Cappella</w> family has lived in this neighborhood for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Каппелла</w> живёт в этом районе уже более пятидесяти лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Italian origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия итальянского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Каппелла",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

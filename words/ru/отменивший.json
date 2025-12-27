@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Пользователь, <отменивший> подписку, потерял доступ к сервису."
+                            "text": "Пользователь, <отменивший> подписку, потерял доступ к сервису.",
+                            "target_lang_translations": {
+                                "en": "The user <w>who cancelled</w> the subscription lost access to the service."
+                            }
                         },
                         {
-                            "text": "Судья, <отменивший> приговор, назначил новое рассмотрение дела."
+                            "text": "Судья, <отменивший> приговор, назначил новое рассмотрение дела.",
+                            "target_lang_translations": {
+                                "en": "The judge <w>who overturned</w> the verdict ordered a new trial."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,7 +49,26 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb 'to cancel'; describes a person or entity that has annulled, revoked, or called off something."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who cancelled",
+                                "target_lang_sense_clarification": "general use"
+                            },
+                            {
+                                "target_lang_word": "who revoked",
+                                "target_lang_sense_clarification": "formal decisions or orders"
+                            },
+                            {
+                                "target_lang_word": "who abolished",
+                                "target_lang_sense_clarification": "laws or institutions"
+                            }
+                        ]
+                    }
                 }
             ]
         }

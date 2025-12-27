@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Schweppe</w> introduced himself to the new neighbors yesterday."
+                            "text": "Mr. <w>Schweppe</w> introduced himself to the new neighbors yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера мистер <w>Швеппе</w> представился новым соседям."
+                            }
                         },
                         {
-                            "text": "We are looking for the historical records of the <w>Schweppe</w> family in the archives."
+                            "text": "We are looking for the historical records of the <w>Schweppe</w> family in the archives.",
+                            "target_lang_translations": {
+                                "ru": "Мы ищем исторические записи семьи <w>Швеппе</w> в архивах."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from German"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Швеппе",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

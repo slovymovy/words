@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке приглашённых гостей значился Олег <w>Кудряшов</w>."
+                            "text": "В списке приглашённых гостей значился Олег <w>Кудряшов</w>.",
+                            "target_lang_translations": {
+                                "en": "Oleg <w>Kudryashov</w> was on the list of invited guests."
+                            }
                         },
                         {
-                            "text": "Мы вчера познакомились с господином <w>Кудряшовым</w>."
+                            "text": "Мы вчера познакомились с господином <w>Кудряшовым</w>.",
+                            "target_lang_translations": {
+                                "en": "Yesterday we met Mr. <w>Kudryashov</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Kudryashov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

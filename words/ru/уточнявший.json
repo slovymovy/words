@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Сотрудник, <w>уточнявший</w> данные клиента, попросил подождать одну минуту."
+                            "text": "Сотрудник, <w>уточнявший</w> данные клиента, попросил подождать одну минуту.",
+                            "target_lang_translations": {
+                                "en": "The employee <w>who was verifying</w> the client's data asked to wait for a minute."
+                            }
                         },
                         {
-                            "text": "Журналист, <w>уточнявший</w> детали происшествия, внимательно слушал свидетелей."
+                            "text": "Журналист, <w>уточнявший</w> детали происшествия, внимательно слушал свидетелей.",
+                            "target_lang_translations": {
+                                "en": "The journalist <w>who was clarifying</w> the details of the incident listened carefully to the witnesses."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,7 +49,26 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Active past participle of the verb 'to clarify' or 'to specify'; describes someone who was making something more precise, checking details, or asking for further explanation in the past."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who was clarifying",
+                                "target_lang_sense_clarification": "relative clause indicating a continuous action in the past"
+                            },
+                            {
+                                "target_lang_word": "clarifying",
+                                "target_lang_sense_clarification": "participle used as a modifier"
+                            },
+                            {
+                                "target_lang_word": "who was verifying",
+                                "target_lang_sense_clarification": "specifically for checking data or facts"
+                            }
+                        ]
+                    }
                 }
             ]
         }

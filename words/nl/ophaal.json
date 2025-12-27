@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het is fijn dat ik je vanavond met de auto <ophaal>."
+                            "text": "Het is fijn dat ik je vanavond met de auto <ophaal>.",
+                            "target_lang_translations": {
+                                "en": "It is nice that I <pick> you <up> by car tonight.",
+                                "ru": "Хорошо, что я сегодня вечером <заберу> тебя на машине."
+                            }
                         },
                         {
-                            "text": "Ik stuur je een berichtje zodra ik de spullen <ophaal>."
+                            "text": "Ik stuur je een berichtje zodra ik de spullen <ophaal>.",
+                            "target_lang_translations": {
+                                "en": "I'll send you a message as soon as I <pick up> the stuff.",
+                                "ru": "Я пришлю тебе сообщение, как только <заберу> вещи."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,7 +41,37 @@
                             "trait_type": "form",
                             "comment": "in bijzin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "First person singular present tense of <w>ophalen</w> in a subordinate clause.",
+                        "ru": "Форма первого лица единственного числа настоящего времени глагола <w>ophalen</w> (забирать, встречать) в придаточном предложении."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pick up",
+                                "target_lang_sense_clarification": "to go and get someone or something"
+                            },
+                            {
+                                "target_lang_word": "collect",
+                                "target_lang_sense_clarification": "to gather or retrieve items"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "забирать",
+                                "target_lang_sense_clarification": "брать, увозить кого-либо или что-либо"
+                            },
+                            {
+                                "target_lang_word": "встречать",
+                                "target_lang_sense_clarification": "кого-либо по прибытии"
+                            },
+                            {
+                                "target_lang_word": "поднимать",
+                                "target_lang_sense_clarification": "перемещать вверх"
+                            }
+                        ]
+                    }
                 }
             ]
         }

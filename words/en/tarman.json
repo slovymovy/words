@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I spoke with Mr. <w>Tarman</w> about the new project schedule."
+                            "text": "I spoke with Mr. <w>Tarman</w> about the new project schedule.",
+                            "target_lang_translations": {
+                                "ru": "Я поговорил с мистером <w>Тарманом</w> о графике нового проекта."
+                            }
                         },
                         {
-                            "text": "The <w>Tarman</w> family has lived in this village for generations."
+                            "text": "The <w>Tarman</w> family has lived in this village for generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Тарман</w> живет в этой деревне уже много поколений."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Тарман",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

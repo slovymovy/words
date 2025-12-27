@@ -16,10 +16,18 @@
                     "name_type": "organization_name",
                     "examples": [
                         {
-                            "text": "Veel landen in Europa zijn lid van de <w>EU</w>."
+                            "text": "Veel landen in Europa zijn lid van de <w>EU</w>.",
+                            "target_lang_translations": {
+                                "en": "Many countries in Europe are members of the <w>EU</w>.",
+                                "ru": "Многие страны Европы являются членами <w>ЕС</w>."
+                            }
                         },
                         {
-                            "text": "De <w>EU</w> maakt wetten die voor alle lidstaten gelden."
+                            "text": "De <w>EU</w> maakt wetten die voor alle lidstaten gelden.",
+                            "target_lang_translations": {
+                                "en": "The <w>EU</w> makes laws that apply to all member states.",
+                                "ru": "<w>ЕС</w> принимает законы, которые действуют для всех государств-членов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +43,33 @@
                             "trait_type": "form",
                             "comment": "abbreviation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation of <w>European Union</w>; a political and economic partnership between various European countries.",
+                        "ru": "Аббревиатура от <w>Европейский союз</w>; политическое и экономическое объединение различных европейских стран."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "EU",
+                                "target_lang_sense_clarification": "abbreviation"
+                            },
+                            {
+                                "target_lang_word": "European Union",
+                                "target_lang_sense_clarification": "full name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "ЕС",
+                                "target_lang_sense_clarification": "Европейский союз"
+                            },
+                            {
+                                "target_lang_word": "Евросоюз",
+                                "target_lang_sense_clarification": "общепринятое сокращенное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

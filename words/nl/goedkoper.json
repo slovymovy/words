@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Deze nieuwe fiets is veel <w>goedkoper</w> dan mijn oude."
+                            "text": "Deze nieuwe fiets is veel <w>goedkoper</w> dan mijn oude.",
+                            "target_lang_translations": {
+                                "en": "This new bike is much <w>cheaper</w> than my old one.",
+                                "ru": "Этот новый велосипед намного <w>дешевле</w>, чем мой старый."
+                            }
                         },
                         {
-                            "text": "Het is vaak <w>goedkoper</w> om zelf te koken dan uit eten te gaan."
+                            "text": "Het is vaak <w>goedkoper</w> om zelf te koken dan uit eten te gaan.",
+                            "target_lang_translations": {
+                                "en": "It is often <w>cheaper</w> to cook yourself than to go out to eat.",
+                                "ru": "Часто <w>дешевле</w> готовить самому, чем есть вне дома."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,7 +48,33 @@
                             "trait_type": "form",
                             "comment": "comparative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "costing less money; the comparative form of cheap",
+                        "ru": "Сравнительная степень прилагательного \"дешевый\"; стоящий меньше денег"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cheaper",
+                                "target_lang_sense_clarification": "comparative adjective"
+                            },
+                            {
+                                "target_lang_word": "less expensive",
+                                "target_lang_sense_clarification": "formal or emphatic"
+                            },
+                            {
+                                "target_lang_word": "more affordable",
+                                "target_lang_sense_clarification": "regarding budget"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дешевле",
+                                "target_lang_sense_clarification": "сравнительная степень"
+                            }
+                        ]
+                    }
                 }
             ]
         }

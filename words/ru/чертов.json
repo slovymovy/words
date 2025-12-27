@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Господин <w>Чертов</w> вчера не явился на работу."
+                            "text": "Господин <w>Чертов</w> вчера не явился на работу.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Chertov</w> did not come to work yesterday."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значится семья <w>Чертовых</w>."
+                            "text": "В списке приглашённых гостей значится семья <w>Чертовых</w>.",
+                            "target_lang_translations": {
+                                "en": "The <w>Chertov</w> family is on the list of invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Chertov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

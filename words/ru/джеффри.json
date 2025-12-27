@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего нового коллегу зовут <w>Джеффри</w>, и он приехал из Лондона."
+                            "text": "Моего нового коллегу зовут <w>Джеффри</w>, и он приехал из Лондона.",
+                            "target_lang_translations": {
+                                "en": "My new colleague's name is <w>Jeffrey</w>, and he came from London."
+                            }
                         },
                         {
-                            "text": "Мы решили подарить <w>Джеффри</w> книгу на день рождения."
+                            "text": "Мы решили подарить <w>Джеффри</w> книгу на день рождения.",
+                            "target_lang_translations": {
+                                "en": "We decided to give <w>Jeffrey</w> a book for his birthday."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,22 @@
                             "trait_type": "form",
                             "comment": "несклоняемое"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a male given name"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jeffrey",
+                                "target_lang_sense_clarification": "name"
+                            },
+                            {
+                                "target_lang_word": "Geoffrey",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

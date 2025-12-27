@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников числится инженер <w>Степанов</w>."
+                            "text": "В списке сотрудников числится инженер <w>Степанов</w>.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Stepanov</w> is listed among the employees."
+                            }
                         },
                         {
-                            "text": "Мы вчера поздравили <w>Степанова</w> с днём рождения."
+                            "text": "Мы вчера поздравили <w>Степанова</w> с днём рождения.",
+                            "target_lang_translations": {
+                                "en": "Yesterday we congratulated <w>Stepanov</w> on his birthday."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "мужская фамилия"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname derived from the male name Stepan."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Stepanov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,12 +61,29 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Насте хотелось рассмотреть <w>Степанову</w> жену, и она незаметно подошла ближе."
+                            "text": "Насте хотелось рассмотреть <w>Степанову</w> жену, и она незаметно подошла ближе.",
+                            "target_lang_translations": {
+                                "en": "Nastya wanted to get a look at <w>Stepan's</w> wife, so she quietly moved closer."
+                            }
                         },
                         {
-                            "text": "Это <w>Степанов</w> портфель, он забыл его на столе."
+                            "text": "Это <w>Степанов</w> портфель, он забыл его на столе.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Stepan's</w> briefcase; he forgot it on the table."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Belonging to Stepan."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Stepan's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

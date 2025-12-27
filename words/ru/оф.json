@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Танк выстрелил снарядом <оф> по укреплениям противника."
+                            "text": "Танк выстрелил снарядом <оф> по укреплениям противника.",
+                            "target_lang_translations": {
+                                "en": "The tank fired an <w>HE-Frag</w> shell at the enemy fortifications."
+                            }
                         },
                         {
-                            "text": "В боекомплект входят бронебойные и <оф> снаряды."
+                            "text": "В боекомплект входят бронебойные и <оф> снаряды.",
+                            "target_lang_translations": {
+                                "en": "The ammunition load includes armor-piercing and <w>HE-Frag</w> shells."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +37,22 @@
                             "trait_type": "form",
                             "comment": "сокращение"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for high-explosive fragmentation; artillery ammunition combining fragmentation and high-explosive effects."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "HE-Frag",
+                                "target_lang_sense_clarification": "military abbreviation"
+                            },
+                            {
+                                "target_lang_word": "HE",
+                                "target_lang_sense_clarification": "high explosive"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -47,12 +68,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Мы посетили город <Оф> во время путешествия по Турции."
+                            "text": "Мы посетили город <Оф> во время путешествия по Турции.",
+                            "target_lang_translations": {
+                                "en": "We visited the town of <w>Of</w> during our trip to Turkey."
+                            }
                         },
                         {
-                            "text": "На карте <Оф> расположен в провинции Трабзон."
+                            "text": "На карте <Оф> расположен в провинции Трабзон.",
+                            "target_lang_translations": {
+                                "en": "On the map, <w>Of</w> is located in the Trabzon province."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A town in Turkey."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Of",
+                                "target_lang_sense_clarification": "place name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

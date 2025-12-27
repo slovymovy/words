@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач рекомендовал пациенту срочно сделать <w>КТ</w> лёгких."
+                            "text": "Врач рекомендовал пациенту срочно сделать <w>КТ</w> лёгких.",
+                            "target_lang_translations": {
+                                "en": "The doctor recommended the patient urgently get a lung <w>CT scan</w>."
+                            }
                         },
                         {
-                            "text": "Мы ждём результаты <w>КТ</w>, чтобы поставить точный диагноз."
+                            "text": "Мы ждём результаты <w>КТ</w>, чтобы поставить точный диагноз.",
+                            "target_lang_translations": {
+                                "en": "We are waiting for the <w>CT scan</w> results to make an accurate diagnosis."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,7 +43,26 @@
                             "trait_type": "form",
                             "comment": "abbreviation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for computed tomography; a method of medical examination of internal organs."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "CT scan",
+                                "target_lang_sense_clarification": "medical imaging procedure"
+                            },
+                            {
+                                "target_lang_word": "CAT scan",
+                                "target_lang_sense_clarification": "medical imaging procedure"
+                            },
+                            {
+                                "target_lang_word": "computed tomography",
+                                "target_lang_sense_clarification": "full medical term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

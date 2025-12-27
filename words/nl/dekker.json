@@ -21,10 +21,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Meneer <w>Dekker</w> woont al jaren in deze straat."
+                            "text": "Meneer <w>Dekker</w> woont al jaren in deze straat.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Dekker</w> has lived in this street for years.",
+                                "ru": "Господин <w>Деккер</w> живет на этой улице уже много лет."
+                            }
                         },
                         {
-                            "text": "Ik heb gisteren een afspraak gemaakt met mevrouw <w>Dekker</w>."
+                            "text": "Ik heb gisteren een afspraak gemaakt met mevrouw <w>Dekker</w>.",
+                            "target_lang_translations": {
+                                "en": "I made an appointment with Mrs. <w>Dekker</w> yesterday.",
+                                "ru": "Вчера я договорился о встрече с госпожой <w>Деккер</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -37,7 +45,25 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Dutch surname.",
+                        "ru": "Распространенная нидерландская фамилия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Dekker",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Деккер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -53,16 +79,46 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>dekker</w> heeft het rieten dak vakkundig gerepareerd."
+                            "text": "De <w>dekker</w> heeft het rieten dak vakkundig gerepareerd.",
+                            "target_lang_translations": {
+                                "en": "The <w>thatcher</w> skillfully repaired the thatched roof.",
+                                "ru": "<w>Кровельщик</w> профессионально отремонтировал соломенную крышу."
+                            }
                         },
                         {
-                            "text": "Als <w>dekker</w> moet je geen last hebben van hoogtevrees."
+                            "text": "Als <w>dekker</w> moet je geen last hebben van hoogtevrees.",
+                            "target_lang_translations": {
+                                "en": "As a <w>roofer</w>, you shouldn't have a fear of heights.",
+                                "ru": "Как <w>кровельщик</w>, вы не должны бояться высоты."
+                            }
                         }
                     ],
                     "synonyms": [
                         "dakdekker",
                         "rietdekker"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who covers roofs by profession; often used as a shorthand for roofer or thatcher.",
+                        "ru": "Человек, который профессионально кроет крыши; часто используется как сокращение для кровельщика."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "roofer",
+                                "target_lang_sense_clarification": "general profession"
+                            },
+                            {
+                                "target_lang_word": "thatcher",
+                                "target_lang_sense_clarification": "specifically for thatched roofs"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кровельщик",
+                                "target_lang_sense_clarification": "профессия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

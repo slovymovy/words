@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера к нам в офис пришёл новый сотрудник по фамилии <w>Мячин</w>."
+                            "text": "Вчера к нам в офис пришёл новый сотрудник по фамилии <w>Мячин</w>.",
+                            "target_lang_translations": {
+                                "en": "Yesterday a new employee with the surname <w>Myachin</w> came to our office."
+                            }
                         },
                         {
-                            "text": "Господин <w>Мячин</w> отказался комментировать ситуацию журналистам."
+                            "text": "Господин <w>Мячин</w> отказался комментировать ситуацию журналистам.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Myachin</w> refused to comment on the situation to journalists."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Myachin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

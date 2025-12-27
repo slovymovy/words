@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij heeft mij gisteren de vakantiefoto's <w>gemaild</w>."
+                            "text": "Hij heeft mij gisteren de vakantiefoto's <w>gemaild</w>.",
+                            "target_lang_translations": {
+                                "en": "He <w>emailed</w> me the holiday photos yesterday.",
+                                "ru": "Вчера он <w>отправил</w> мне фотографии с отпуска <w>по электронной почте</w>."
+                            }
                         },
                         {
-                            "text": "Ik zal je het adres van het kantoor even <w>mailen</w>."
+                            "text": "Ik zal je het adres van het kantoor even <w>mailen</w>.",
+                            "target_lang_translations": {
+                                "en": "I'll <w>email</w> you the office address.",
+                                "ru": "Я быстро <w>отправлю</w> тебе адрес офиса <w>по электронной почте</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,33 @@
                         "iemand mailen",
                         "even mailen",
                         "een bestand mailen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To send a message or file via electronic mail (email).",
+                        "ru": "Отправлять сообщение или файл по электронной почте."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "email",
+                                "target_lang_sense_clarification": "to send via electronic mail"
+                            },
+                            {
+                                "target_lang_word": "e-mail",
+                                "target_lang_sense_clarification": "alternative spelling"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "отправить по электронной почте",
+                                "target_lang_sense_clarification": "общее значение"
+                            },
+                            {
+                                "target_lang_word": "послать имейл",
+                                "target_lang_sense_clarification": "разговорный вариант"
+                            }
+                        ]
+                    }
                 }
             ]
         }

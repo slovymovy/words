@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мой старший брат сейчас <w>студент</w> московского университета."
+                            "text": "Мой старший брат сейчас <w>студент</w> московского университета.",
+                            "target_lang_translations": {
+                                "en": "My older brother is now a <w>student</w> at Moscow University."
+                            }
                         },
                         {
-                            "text": "Каждый <w>студент</w> должен вовремя сдать все экзамены."
+                            "text": "Каждый <w>студент</w> должен вовремя сдать все экзамены.",
+                            "target_lang_translations": {
+                                "en": "Every <w>student</w> must pass all exams on time."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +40,22 @@
                         "вечный студент",
                         "студент университета",
                         "стать студентом"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A person enrolled in a higher or secondary specialized educational institution."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "student",
+                                "target_lang_sense_clarification": "university or college"
+                            },
+                            {
+                                "target_lang_word": "undergraduate",
+                                "target_lang_sense_clarification": "studying for a first degree"
+                            }
+                        ]
+                    }
                 }
             ]
         }

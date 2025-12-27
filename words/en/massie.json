@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited the <w>Massie</w> family to the neighborhood barbecue last weekend."
+                            "text": "We invited the <w>Massie</w> family to the neighborhood barbecue last weekend.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Мэсси</w> на соседское барбекю в прошлые выходные."
+                            }
                         },
                         {
-                            "text": "Please deliver this package to Mr. <w>Massie</w> at the front desk."
+                            "text": "Please deliver this package to Mr. <w>Massie</w> at the front desk.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте эту посылку мистеру <w>Мэсси</w> на стойку регистрации."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Мэсси",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

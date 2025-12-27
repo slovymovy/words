@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The historical documents mentioned a merchant named <w>Erich</w>."
+                            "text": "The historical documents mentioned a merchant named <w>Erich</w>.",
+                            "target_lang_translations": {
+                                "ru": "В исторических документах упоминался торговец по фамилии <w>Эрих</w>."
+                            }
                         },
                         {
-                            "text": "We are trying to locate Mr. <w>Erich</w> to discuss the contract details."
+                            "text": "We are trying to locate Mr. <w>Erich</w> to discuss the contract details.",
+                            "target_lang_translations": {
+                                "ru": "Мы пытаемся найти господина <w>Эриха</w>, чтобы обсудить детали контракта."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "German origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Эрих",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

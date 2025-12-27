@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn verjaardag is op vijf <w>sept</w>."
+                            "text": "Mijn verjaardag is op vijf <w>sept</w>.",
+                            "target_lang_translations": {
+                                "en": "My birthday is on the fifth of <w>Sept.</w>",
+                                "ru": "Мой день рождения пятого <w>сент.</w>"
+                            }
                         },
                         {
-                            "text": "De school begint weer in <w>sept</w>."
+                            "text": "De school begint weer in <w>sept</w>.",
+                            "target_lang_translations": {
+                                "en": "School starts again in <w>Sept.</w>",
+                                "ru": "Школа снова начинается в <w>сент.</w>"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +43,33 @@
                             "trait_type": "form",
                             "comment": "abbreviation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation of September, the ninth month of the calendar year.",
+                        "ru": "Сокращение от <w>сентября</w>, девятого месяца календарного года."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sept.",
+                                "target_lang_sense_clarification": "abbreviation for the month"
+                            },
+                            {
+                                "target_lang_word": "Sep.",
+                                "target_lang_sense_clarification": "alternative abbreviation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сент.",
+                                "target_lang_sense_clarification": "сокращение"
+                            },
+                            {
+                                "target_lang_word": "сентябрь",
+                                "target_lang_sense_clarification": "месяц"
+                            }
+                        ]
+                    }
                 }
             ]
         }

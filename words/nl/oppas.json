@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We hebben een <w>oppas</w> nodig voor zaterdagavond."
+                            "text": "We hebben een <w>oppas</w> nodig voor zaterdagavond.",
+                            "target_lang_translations": {
+                                "en": "We need a <w>babysitter</w> for Saturday evening.",
+                                "ru": "Нам нужна <w>няня</w> на вечер субботы."
+                            }
                         },
                         {
-                            "text": "De <w>oppas</w> leest de kinderen een verhaaltje voor."
+                            "text": "De <w>oppas</w> leest de kinderen een verhaaltje voor.",
+                            "target_lang_translations": {
+                                "en": "The <w>babysitter</w> reads a story to the children.",
+                                "ru": "<w>Няня</w> читает детям сказку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +37,33 @@
                         "oppas regelen",
                         "vaste oppas",
                         "oppas zoeken"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who cares for children or a house for a short time when the parents or residents are not there.",
+                        "ru": "Человек, который временно присматривает за детьми или домом в отсутствие родителей или жильцов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "babysitter",
+                                "target_lang_sense_clarification": "person caring for children"
+                            },
+                            {
+                                "target_lang_word": "sitter",
+                                "target_lang_sense_clarification": "short form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "няня",
+                                "target_lang_sense_clarification": "человек, присматривающий за детьми"
+                            },
+                            {
+                                "target_lang_word": "бебиситтер",
+                                "target_lang_sense_clarification": "приходящая няня"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,10 +79,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het is belangrijk dat ik goed <w>oppas</w>."
+                            "text": "Het is belangrijk dat ik goed <w>oppas</w>.",
+                            "target_lang_translations": {
+                                "en": "It is important that I <w>watch out</w>.",
+                                "ru": "Важно, чтобы я был <w>осторожен</w>."
+                            }
                         },
                         {
-                            "text": "Als ik vanavond <w>oppas</w>, kunnen jullie naar de film."
+                            "text": "Als ik vanavond <w>oppas</w>, kunnen jullie naar de film.",
+                            "target_lang_translations": {
+                                "en": "If I <w>babysit</w> tonight, you can go to the movies.",
+                                "ru": "Если я сегодня вечером <w>посижу с детьми</w>, вы сможете пойти в кино."
+                            }
                         }
                     ],
                     "traits": [
@@ -56,7 +98,33 @@
                             "trait_type": "form",
                             "comment": "in subordinate clause"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "First person singular present tense of <w>oppassen</w>.",
+                        "ru": "Форма первого лица единственного числа настоящего времени глагола oppassen (присматривать или быть осторожным)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "watch out",
+                                "target_lang_sense_clarification": "to be careful"
+                            },
+                            {
+                                "target_lang_word": "babysit",
+                                "target_lang_sense_clarification": "to look after children"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "присматриваю",
+                                "target_lang_sense_clarification": "слежу, забочусь"
+                            },
+                            {
+                                "target_lang_word": "соблюдаю осторожность",
+                                "target_lang_sense_clarification": "быть внимательным"
+                            }
+                        ]
+                    }
                 }
             ]
         }

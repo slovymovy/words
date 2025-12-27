@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn computer is traag omdat de <w>processor</w> verouderd is."
+                            "text": "Mijn computer is traag omdat de <w>processor</w> verouderd is.",
+                            "target_lang_translations": {
+                                "en": "My computer is slow because the <w>processor</w> is outdated.",
+                                "ru": "Мой компьютер работает медленно, потому что <w>процессор</w> устарел."
+                            }
                         },
                         {
-                            "text": "Voor het bewerken van video's heb je een krachtige <w>processor</w> nodig."
+                            "text": "Voor het bewerken van video's heb je een krachtige <w>processor</w> nodig.",
+                            "target_lang_translations": {
+                                "en": "You need a powerful <w>processor</w> for editing videos.",
+                                "ru": "Для редактирования видео нужен мощный <w>процессор</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,33 @@
                         "snelle processor",
                         "krachtige processor",
                         "nieuwe processor"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The component of a computer that executes calculations and instructions; the central processing unit.",
+                        "ru": "Часть компьютера, выполняющая вычисления и инструкции; центральный процессор."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "processor",
+                                "target_lang_sense_clarification": "computer hardware"
+                            },
+                            {
+                                "target_lang_word": "CPU",
+                                "target_lang_sense_clarification": "central processing unit"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "процессор",
+                                "target_lang_sense_clarification": "компонент компьютера"
+                            },
+                            {
+                                "target_lang_word": "ЦП",
+                                "target_lang_sense_clarification": "аббревиатура"
+                            }
+                        ]
+                    }
                 }
             ]
         }

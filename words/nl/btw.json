@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De prijs van dit product is twintig euro exclusief <w>btw</w>."
+                            "text": "De prijs van dit product is twintig euro exclusief <w>btw</w>.",
+                            "target_lang_translations": {
+                                "en": "The price of this product is twenty euros excluding <w>VAT</w>.",
+                                "ru": "Цена этого товара составляет двадцать евро без <w>НДС</w>."
+                            }
                         },
                         {
-                            "text": "Als ondernemer moet je elk kwartaal <w>btw</w> afdragen aan de belastingdienst."
+                            "text": "Als ondernemer moet je elk kwartaal <w>btw</w> afdragen aan de belastingdienst.",
+                            "target_lang_translations": {
+                                "en": "As an entrepreneur, you must pay <w>VAT</w> to the tax authorities every quarter.",
+                                "ru": "Как предприниматель, вы должны ежеквартально платить <w>НДС</w> в налоговую службу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,7 +35,33 @@
                         "exclusief btw",
                         "btw betalen",
                         "btw-aangifte"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for 'value added tax'; a tax levied on the sale of products and services.",
+                        "ru": "Налог на добавленную стоимость; налог, взимаемый при продаже товаров и услуг."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "VAT",
+                                "target_lang_sense_clarification": "tax on goods and services"
+                            },
+                            {
+                                "target_lang_word": "sales tax",
+                                "target_lang_sense_clarification": "general consumption tax"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "НДС",
+                                "target_lang_sense_clarification": "налог"
+                            },
+                            {
+                                "target_lang_word": "налог на добавленную стоимость",
+                                "target_lang_sense_clarification": "полная форма"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,10 +77,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik kom wat later thuis vanavond, <w>btw</w>."
+                            "text": "Ik kom wat later thuis vanavond, <w>btw</w>.",
+                            "target_lang_translations": {
+                                "en": "I'll be home a bit later tonight, <w>btw</w>.",
+                                "ru": "Я приду домой сегодня вечером немного позже, <w>кстати</w>."
+                            }
                         },
                         {
-                            "text": "Heb je <w>btw</w> nog gehoord of het feest doorgaat?"
+                            "text": "Heb je <w>btw</w> nog gehoord of het feest doorgaat?",
+                            "target_lang_translations": {
+                                "en": "Did you hear <w>by the way</w> if the party is still happening?",
+                                "ru": "Ты, <w>кстати</w>, слышал, состоится ли вечеринка?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -57,7 +99,33 @@
                             "trait_type": "colloquial",
                             "comment": "internet slang"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for 'by the way'; mainly used in informal written messages.",
+                        "ru": "Сокращение от английского 'by the way' (кстати); используется в основном в неформальной переписке."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "btw",
+                                "target_lang_sense_clarification": "internet slang / abbreviation"
+                            },
+                            {
+                                "target_lang_word": "by the way",
+                                "target_lang_sense_clarification": "full phrase"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кстати",
+                                "target_lang_sense_clarification": "вводное слово"
+                            },
+                            {
+                                "target_lang_word": "между прочим",
+                                "target_lang_sense_clarification": "фраза"
+                            }
+                        ]
+                    }
                 }
             ]
         }

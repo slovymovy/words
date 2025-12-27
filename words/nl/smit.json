@@ -17,10 +17,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Meneer <w>Smit</w> woont al jaren in deze straat."
+                            "text": "Meneer <w>Smit</w> woont al jaren in deze straat.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Smit</w> has lived in this street for years.",
+                                "ru": "Господин <w>Смит</w> живет на этой улице уже много лет."
+                            }
                         },
                         {
-                            "text": "Ik heb gisteren met mevrouw <w>Smit</w> gesproken over de plannen."
+                            "text": "Ik heb gisteren met mevrouw <w>Smit</w> gesproken over de plannen.",
+                            "target_lang_translations": {
+                                "en": "I spoke with Mrs. <w>Smit</w> yesterday about the plans.",
+                                "ru": "Вчера я говорил с госпожой <w>Смит</w> о планах."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,7 +41,25 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Dutch surname, originally referring to the profession of a smith.",
+                        "ru": "Распространенная нидерландская фамилия, происходящая от названия профессии кузнеца."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Smit",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Смит",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

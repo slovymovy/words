@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De buren hebben een hond als <w>huisdier</w>."
+                            "text": "De buren hebben een hond als <w>huisdier</w>.",
+                            "target_lang_translations": {
+                                "en": "The neighbors have a dog as a <w>pet</w>.",
+                                "ru": "У соседей есть собака в качестве <w>домашнего животного</w>."
+                            }
                         },
                         {
-                            "text": "In dit hotel zijn <w>huisdieren</w> niet toegestaan."
+                            "text": "In dit hotel zijn <w>huisdieren</w> niet toegestaan.",
+                            "target_lang_translations": {
+                                "en": "<w>Pets</w> are not allowed in this hotel.",
+                                "ru": "В этом отеле <w>домашние животные</w> запрещены."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,33 @@
                         "huisdieren toegestaan",
                         "geen huisdieren",
                         "een huisdier nemen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An animal kept by people in or around the house, usually for companionship.",
+                        "ru": "Животное, которое люди держат в доме или рядом с ним, обычно для компании."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pet",
+                                "target_lang_sense_clarification": "animal kept for companionship"
+                            },
+                            {
+                                "target_lang_word": "domestic animal",
+                                "target_lang_sense_clarification": "tame animal living with humans"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "домашнее животное",
+                                "target_lang_sense_clarification": "общее название"
+                            },
+                            {
+                                "target_lang_word": "питомец",
+                                "target_lang_sense_clarification": "любимец, компаньон"
+                            }
+                        ]
+                    }
                 }
             ]
         }

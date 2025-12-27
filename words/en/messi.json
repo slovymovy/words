@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We found several people listed as <w>Messi</w> in the local directory."
+                            "text": "We found several people listed as <w>Messi</w> in the local directory.",
+                            "target_lang_translations": {
+                                "ru": "Мы нашли несколько человек, записанных как <w>Месси</w>, в местном справочнике."
+                            }
                         },
                         {
-                            "text": "Mr. <w>Messi</w> arrived late to the meeting due to heavy traffic."
+                            "text": "Mr. <w>Messi</w> arrived late to the meeting due to heavy traffic.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Месси</w> опоздал на встречу из-за сильных пробок."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Месси",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

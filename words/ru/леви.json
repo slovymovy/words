@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера к нам в офис заходил господин <w>Леви</w>."
+                            "text": "Вчера к нам в офис заходил господин <w>Леви</w>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Levi</w> stopped by our office yesterday."
+                            }
                         },
                         {
-                            "text": "На обложке книги стояла фамилия <w>Леви</w>."
+                            "text": "На обложке книги стояла фамилия <w>Леви</w>.",
+                            "target_lang_translations": {
+                                "en": "The surname <w>Levi</w> was on the cover of the book."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,7 +34,22 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Levi",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Levy",
+                                "target_lang_sense_clarification": "surname variant"
+                            }
+                        ]
+                    }
                 }
             ]
         }

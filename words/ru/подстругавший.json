@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ученик, <w>подстругавший</w> все свои карандаши, приготовился к уроку рисования."
+                            "text": "Ученик, <w>подстругавший</w> все свои карандаши, приготовился к уроку рисования.",
+                            "target_lang_translations": {
+                                "en": "The student, <w>having sharpened</w> all his pencils, got ready for the drawing lesson."
+                            }
                         },
                         {
-                            "text": "Плотник, <w>подстругавший</w> край доски, проверил её гладкость рукой."
+                            "text": "Плотник, <w>подстругавший</w> край доски, проверил её гладкость рукой.",
+                            "target_lang_translations": {
+                                "en": "The carpenter, <w>having planed</w> the edge of the board, checked its smoothness with his hand."
+                            }
                         }
                     ],
                     "traits": [
@@ -29,7 +35,26 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb <w>подстругать</w> (to sharpen, to plane)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "having sharpened",
+                                "target_lang_sense_clarification": "pencils"
+                            },
+                            {
+                                "target_lang_word": "having planed",
+                                "target_lang_sense_clarification": "wood, boards"
+                            },
+                            {
+                                "target_lang_word": "who sharpened",
+                                "target_lang_sense_clarification": "relative clause equivalent"
+                            }
+                        ]
+                    }
                 }
             ]
         }

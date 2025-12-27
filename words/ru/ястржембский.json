@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Сергей <w>Ястржембский</w> — известный российский дипломат и политик."
+                            "text": "Сергей <w>Ястржембский</w> — известный российский дипломат и политик.",
+                            "target_lang_translations": {
+                                "en": "Sergey <w>Yastrzhembsky</w> is a well-known Russian diplomat and politician."
+                            }
                         },
                         {
-                            "text": "В документах была указана фамилия <w>Ястржембский</w>."
+                            "text": "В документах была указана фамилия <w>Ястржембский</w>.",
+                            "target_lang_translations": {
+                                "en": "The surname <w>Yastrzhembsky</w> was listed in the documents."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "польского происхождения"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Polish surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Yastrzhembsky",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,17 +18,43 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij kreeg een prachtige <kristallen> vaas voor haar verjaardag."
+                            "text": "Zij kreeg een prachtige <kristallen> vaas voor haar verjaardag.",
+                            "target_lang_translations": {
+                                "en": "She received a beautiful <w>crystal</w> vase for her birthday.",
+                                "ru": "На день рождения она получила прекрасную <хрустальную> вазу."
+                            }
                         },
                         {
-                            "text": "De <kristallen> glazen stonden al klaar op de gedekte tafel."
+                            "text": "De <kristallen> glazen stonden al klaar op de gedekte tafel.",
+                            "target_lang_translations": {
+                                "en": "The <w>crystal</w> glasses were already set on the table.",
+                                "ru": "<Хрустальные> бокалы уже стояли на накрытом столе."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "kristallen glazen",
                         "kristallen vaas",
                         "kristallen kroonluchter"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Made of crystal.",
+                        "ru": "Сделанный из хрусталя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "crystal",
+                                "target_lang_sense_clarification": "material"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "хрустальный",
+                                "target_lang_sense_clarification": "сделанный из особого вида стекла"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,10 +70,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Onder de microscoop kun je de structuur van de <kristallen> goed zien."
+                            "text": "Onder de microscoop kun je de structuur van de <kristallen> goed zien.",
+                            "target_lang_translations": {
+                                "en": "Under the microscope, you can clearly see the structure of the <w>crystals</w>.",
+                                "ru": "Под микроскопом можно хорошо разглядеть структуру <кристаллов>."
+                            }
                         },
                         {
-                            "text": "Sneeuwvlokken bestaan uit kleine, unieke ijs<kristallen>."
+                            "text": "Sneeuwvlokken bestaan uit kleine, unieke ijs<kristallen>.",
+                            "target_lang_translations": {
+                                "en": "Snowflakes consist of small, unique ice <w>crystals</w>.",
+                                "ru": "Снежинки состоят из маленьких уникальных ледяных <кристаллов>."
+                            }
                         }
                     ],
                     "traits": [
@@ -55,7 +89,25 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural form of crystal.",
+                        "ru": "Множественное число слова кристалл."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "crystals",
+                                "target_lang_sense_clarification": "plural noun"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кристаллы",
+                                "target_lang_sense_clarification": "твёрдые тела с упорядоченной структурой"
+                            }
+                        ]
+                    }
                 }
             ]
         }

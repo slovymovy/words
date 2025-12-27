@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We gaan vanavond naar <w>Marcus'</w> verjaardagsfeestje."
+                            "text": "We gaan vanavond naar <w>Marcus'</w> verjaardagsfeestje.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Marcus'</w> birthday party tonight.",
+                                "ru": "Мы идем сегодня вечером на день рождения <w>Маркуса</w>."
+                            }
                         },
                         {
-                            "text": "Heb jij <w>Marcus'</w> telefoonnummer voor mij?"
+                            "text": "Heb jij <w>Marcus'</w> telefoonnummer voor mij?",
+                            "target_lang_translations": {
+                                "en": "Do you have <w>Marcus'</w> phone number for me?",
+                                "ru": "У тебя есть номер телефона <w>Маркуса</w>?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Marcus",
+                        "ru": "Родительный падеж имени Маркус (обозначает принадлежность)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Marcus'",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Marcus's",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Маркуса",
+                                "target_lang_sense_clarification": "родительный падеж, обозначающий принадлежность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

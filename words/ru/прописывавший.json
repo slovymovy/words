@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач, <w>прописывавший</w> это лекарство, предупредил о возможных побочных эффектах."
+                            "text": "Врач, <w>прописывавший</w> это лекарство, предупредил о возможных побочных эффектах.",
+                            "target_lang_translations": {
+                                "en": "The doctor <w>who prescribed</w> this medicine warned about possible side effects."
+                            }
                         },
                         {
-                            "text": "Сотрудник, <w>прописывавший</w> новых жильцов, внимательно проверял все документы."
+                            "text": "Сотрудник, <w>прописывавший</w> новых жильцов, внимательно проверял все документы.",
+                            "target_lang_translations": {
+                                "en": "The employee <w>registering</w> new tenants carefully checked all documents."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,22 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb 'прописывать' (to prescribe, to register)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "prescribe",
+                                "target_lang_sense_clarification": "medicine or treatment"
+                            },
+                            {
+                                "target_lang_word": "register",
+                                "target_lang_sense_clarification": "residence or official recording"
+                            }
+                        ]
+                    }
                 }
             ]
         }

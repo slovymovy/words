@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De wetenschappelijke <w>benaming</w> voor dit dier is erg ingewikkeld."
+                            "text": "De wetenschappelijke <w>benaming</w> voor dit dier is erg ingewikkeld.",
+                            "target_lang_translations": {
+                                "en": "The scientific <w>name</w> for this animal is very complicated.",
+                                "ru": "Научное <w>название</w> этого животного очень сложное."
+                            }
                         },
                         {
-                            "text": "Ik weet niet wat de juiste <w>benaming</w> is voor dit gereedschap."
+                            "text": "Ik weet niet wat de juiste <w>benaming</w> is voor dit gereedschap.",
+                            "target_lang_translations": {
+                                "en": "I don't know what the correct <w>name</w> is for this tool.",
+                                "ru": "Я не знаю, какое правильное <w>название</w> у этого инструмента."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,37 @@
                         "officiële benaming",
                         "juiste benaming",
                         "wetenschappelijke benaming"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The name or term used to designate something or someone.",
+                        "ru": "Название или термин, используемые для обозначения чего-либо или кого-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "name",
+                                "target_lang_sense_clarification": "general"
+                            },
+                            {
+                                "target_lang_word": "designation",
+                                "target_lang_sense_clarification": "formal"
+                            },
+                            {
+                                "target_lang_word": "term",
+                                "target_lang_sense_clarification": "specific word or expression"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "название",
+                                "target_lang_sense_clarification": "общее слово для обозначения предмета"
+                            },
+                            {
+                                "target_lang_word": "наименование",
+                                "target_lang_sense_clarification": "официальное или формальное обозначение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

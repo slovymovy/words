@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников числился Андрей <w>Григорьев</w>."
+                            "text": "В списке сотрудников числился Андрей <w>Григорьев</w>.",
+                            "target_lang_translations": {
+                                "en": "Andrey <w>Grigoryev</w> was listed among the employees."
+                            }
                         },
                         {
-                            "text": "Мы поздравили господина <w>Григорьева</w> с юбилеем."
+                            "text": "Мы поздравили господина <w>Григорьева</w> с юбилеем.",
+                            "target_lang_translations": {
+                                "en": "We congratulated Mr. <w>Grigoryev</w> on his jubilee."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Grigoryev",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,15 +61,32 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На вешалке висел старый <w>Григорьев</w> плащ."
+                            "text": "На вешалке висел старый <w>Григорьев</w> плащ.",
+                            "target_lang_translations": {
+                                "en": "<w>Grigory's</w> old raincoat hung on the rack."
+                            }
                         },
                         {
-                            "text": "Это был <w>Григорьев</w> дом, который стоял на краю деревни."
+                            "text": "Это был <w>Григорьев</w> дом, который стоял на краю деревни.",
+                            "target_lang_translations": {
+                                "en": "It was <w>Grigory's</w> house that stood at the edge of the village."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "Григорьев день"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Belonging to Grigory."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Grigory's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

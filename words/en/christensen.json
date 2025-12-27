@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment with Dr. <w>Christensen</w> tomorrow morning."
+                            "text": "We have an appointment with Dr. <w>Christensen</w> tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "У нас прием у доктора <w>Кристенсена</w> завтра утром."
+                            }
                         },
                         {
-                            "text": "The <w>Christensen</w> family moved into the house across the street."
+                            "text": "The <w>Christensen</w> family moved into the house across the street.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Кристенсенов</w> переехала в дом через дорогу."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,18 @@
                             "trait_type": "surname",
                             "comment": "typically Danish or Norwegian"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия скандинавского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кристенсен",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>opdrachtgever</w> heeft het contract gisteren ondertekend."
+                            "text": "De <w>opdrachtgever</w> heeft het contract gisteren ondertekend.",
+                            "target_lang_translations": {
+                                "en": "The <w>client</w> signed the contract yesterday.",
+                                "ru": "<w>Заказчик</w> подписал контракт вчера."
+                            }
                         },
                         {
-                            "text": "Als architect bespreek ik de plannen uitgebreid met de <w>opdrachtgever</w>."
+                            "text": "Als architect bespreek ik de plannen uitgebreid met de <w>opdrachtgever</w>.",
+                            "target_lang_translations": {
+                                "en": "As an architect, I discuss the plans extensively with the <w>client</w>.",
+                                "ru": "Как архитектор, я подробно обсуждаю планы с <w>заказчиком</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,37 @@
                         "publieke opdrachtgever",
                         "tevreden opdrachtgever",
                         "potentiële opdrachtgever"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who has a task or work carried out by another, often for payment; a customer who orders a service.",
+                        "ru": "Тот, кто поручает выполнение задачи или работы другому лицу, часто за плату; клиент, заказывающий услугу."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "client",
+                                "target_lang_sense_clarification": "general term for someone purchasing professional services"
+                            },
+                            {
+                                "target_lang_word": "principal",
+                                "target_lang_sense_clarification": "legal or formal term for the party giving the assignment"
+                            },
+                            {
+                                "target_lang_word": "commissioner",
+                                "target_lang_sense_clarification": "one who orders a specific work or project"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "заказчик",
+                                "target_lang_sense_clarification": "лицо, дающее поручение"
+                            },
+                            {
+                                "target_lang_word": "клиент",
+                                "target_lang_sense_clarification": "покупатель услуг"
+                            }
+                        ]
+                    }
                 }
             ]
         }

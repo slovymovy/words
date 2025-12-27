@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Господин <w>Мюллер</w> работает в крупном банке."
+                            "text": "Господин <w>Мюллер</w> работает в крупном банке.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Müller</w> works at a large bank."
+                            }
                         },
                         {
-                            "text": "Мы передали важные документы фрау <w>Мюллер</w>."
+                            "text": "Мы передали важные документы фрау <w>Мюллер</w>.",
+                            "target_lang_translations": {
+                                "en": "We handed the important documents to Mrs. <w>Müller</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,7 +34,22 @@
                             "trait_type": "surname",
                             "comment": "немецкая"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common surname of German origin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Müller",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Mueller",
+                                "target_lang_sense_clarification": "alternative spelling"
+                            }
+                        ]
+                    }
                 }
             ]
         }

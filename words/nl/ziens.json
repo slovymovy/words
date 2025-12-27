@@ -23,10 +23,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik moet nu echt naar huis, tot <w>ziens</w>!"
+                            "text": "Ik moet nu echt naar huis, tot <w>ziens</w>!",
+                            "target_lang_translations": {
+                                "en": "I really have to go home now, <w>goodbye</w>!",
+                                "ru": "Мне правда пора домой, до <w>свидания</w>!"
+                            }
                         },
                         {
-                            "text": "De winkelier zei vriendelijk: 'Tot <w>ziens</w> en een fijne dag!'"
+                            "text": "De winkelier zei vriendelijk: 'Tot <w>ziens</w> en een fijne dag!'",
+                            "target_lang_translations": {
+                                "en": "The shopkeeper said kindly: '<w>Goodbye</w> and have a nice day!'",
+                                "ru": "Продавец дружелюбно сказал: «До <w>свидания</w> и хорошего дня!»"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -37,7 +45,37 @@
                             "trait_type": "form",
                             "comment": "verouderde genitief, alleen in vaste uitdrukking"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive singular of <w>zien</w> (to see), used almost exclusively in the phrase 'tot ziens'.",
+                        "ru": "Родительный падеж единственного числа от <w>zien</w> (видеть), используемый в устойчивых выражениях."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "goodbye",
+                                "target_lang_sense_clarification": "common greeting used in the phrase 'tot ziens'"
+                            },
+                            {
+                                "target_lang_word": "seeing",
+                                "target_lang_sense_clarification": "literal meaning, as in 'until seeing (each other again)'"
+                            },
+                            {
+                                "target_lang_word": "see you",
+                                "target_lang_sense_clarification": "informal equivalent of the phrase"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "свидания",
+                                "target_lang_sense_clarification": "в выражении 'tot ziens' (до свидания)"
+                            },
+                            {
+                                "target_lang_word": "встречи",
+                                "target_lang_sense_clarification": "в выражении 'tot ziens' (до встречи)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

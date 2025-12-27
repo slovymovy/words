@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Студент, <w>пошедший</w> на экзамен первым, получил отличную оценку."
+                            "text": "Студент, <w>пошедший</w> на экзамен первым, получил отличную оценку.",
+                            "target_lang_translations": {
+                                "en": "The student <w>who went</w> to the exam first received an excellent grade."
+                            }
                         },
                         {
-                            "text": "Внезапно <w>пошедший</w> снег заставил водителей снизить скорость."
+                            "text": "Внезапно <w>пошедший</w> снег заставил водителей снизить скорость.",
+                            "target_lang_translations": {
+                                "en": "The snow that suddenly <w>started</w> forced drivers to slow down."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -45,7 +51,26 @@
                             "trait_type": "form",
                             "comment": "past active participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb <w>to go</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who went",
+                                "target_lang_sense_clarification": "used for people or subjects moving"
+                            },
+                            {
+                                "target_lang_word": "that started",
+                                "target_lang_sense_clarification": "used for precipitation (rain, snow)"
+                            },
+                            {
+                                "target_lang_word": "gone",
+                                "target_lang_sense_clarification": "literal participle form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

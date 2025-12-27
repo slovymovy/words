@@ -17,12 +17,46 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Waarbij</w> kan ik u vandaag helpen?"
+                            "text": "<w>Waarbij</w> kan ik u vandaag helpen?",
+                            "target_lang_translations": {
+                                "en": "What can I help you <w>with</w> today?",
+                                "ru": "<w>С чем</w> я могу вам сегодня помочь?"
+                            }
                         },
                         {
-                            "text": "<w>Waarbij</w> hoort dit kleine onderdeel van de machine?"
+                            "text": "<w>Waarbij</w> hoort dit kleine onderdeel van de machine?",
+                            "target_lang_translations": {
+                                "en": "What does this small part of the machine belong <w>to</w>?",
+                                "ru": "<w>К чему</w> относится эта маленькая деталь машины?"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Question word asking about the thing or matter something belongs to or is involved with.",
+                        "ru": "Вопросительное слово, используемое для вопроса о предмете или деле, к которому что-то относится или с которым что-то связано."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "with what",
+                                "target_lang_sense_clarification": "interrogative"
+                            },
+                            {
+                                "target_lang_word": "what ... with",
+                                "target_lang_sense_clarification": "split interrogative"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "с чем",
+                                "target_lang_sense_clarification": "вопрос о помощи или содействии"
+                            },
+                            {
+                                "target_lang_word": "к чему",
+                                "target_lang_sense_clarification": "вопрос о принадлежности или отношении"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "b96fd8ac-7e9a-32d2-86bc-c09ea3408f3b",
@@ -33,16 +67,62 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Er ontstond een gevaarlijke situatie <w>waarbij</w> iedereen snel moest vluchten."
+                            "text": "Er ontstond een gevaarlijke situatie <w>waarbij</w> iedereen snel moest vluchten.",
+                            "target_lang_translations": {
+                                "en": "A dangerous situation arose <w>during which</w> everyone had to flee quickly.",
+                                "ru": "Возникла опасная ситуация, <w>при которой</w> всем пришлось быстро бежать."
+                            }
                         },
                         {
-                            "text": "Dit is het document <w>waarbij</w> de nieuwe regels officieel zijn vastgelegd."
+                            "text": "Dit is het document <w>waarbij</w> de nieuwe regels officieel zijn vastgelegd.",
+                            "target_lang_translations": {
+                                "en": "This is the document <w>whereby</w> the new rules are officially established.",
+                                "ru": "Это документ, <w>в котором</w> официально зафиксированы новые правила."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "het proces waarbij",
                         "een situatie waarbij"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Reference word referring back to a previously mentioned situation, event, or object, meaning 'at which', 'during which', or 'whereby'.",
+                        "ru": "Относительное местоимение, отсылающее к ранее упомянутой ситуации, событию или объекту; соответствует значениям «при котором», «в ходе которого» или «где»."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "in which",
+                                "target_lang_sense_clarification": "referring to a situation"
+                            },
+                            {
+                                "target_lang_word": "whereby",
+                                "target_lang_sense_clarification": "by means of which"
+                            },
+                            {
+                                "target_lang_word": "during which",
+                                "target_lang_sense_clarification": "referring to a time or event"
+                            },
+                            {
+                                "target_lang_word": "at which",
+                                "target_lang_sense_clarification": "referring to a specific point"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "при котором",
+                                "target_lang_sense_clarification": "указание на обстоятельство или условие"
+                            },
+                            {
+                                "target_lang_word": "в ходе которого",
+                                "target_lang_sense_clarification": "указание на процесс"
+                            },
+                            {
+                                "target_lang_word": "в котором",
+                                "target_lang_sense_clarification": "указание на содержание или место"
+                            }
+                        ]
+                    }
                 }
             ]
         }

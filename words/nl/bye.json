@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik moet nu echt naar huis, <w>bye</w>!"
+                            "text": "Ik moet nu echt naar huis, <w>bye</w>!",
+                            "target_lang_translations": {
+                                "en": "I really have to go home now, <w>bye</w>!",
+                                "ru": "Мне правда пора домой, <w>пока</w>!"
+                            }
                         },
                         {
-                            "text": "Ze zwaaide naar haar vrienden en riep <w>bye</w>."
+                            "text": "Ze zwaaide naar haar vrienden en riep <w>bye</w>.",
+                            "target_lang_translations": {
+                                "en": "She waved to her friends and shouted <w>bye</w>.",
+                                "ru": "Она помахала своим друзьям и крикнула: «<w>Пока</w>»."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +41,33 @@
                             "trait_type": "colloquial",
                             "comment": "used in informal contexts"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An informal greeting used when saying goodbye.",
+                        "ru": "Неформальное приветствие, используемое при прощании."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bye",
+                                "target_lang_sense_clarification": "informal farewell"
+                            },
+                            {
+                                "target_lang_word": "goodbye",
+                                "target_lang_sense_clarification": "general farewell"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пока",
+                                "target_lang_sense_clarification": "неформальное прощание"
+                            },
+                            {
+                                "target_lang_word": "счастливо",
+                                "target_lang_sense_clarification": "пожелание при прощании"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -49,15 +83,45 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Omdat er een oneven aantal spelers was, kreeg hij een <w>bye</w> in de eerste ronde."
+                            "text": "Omdat er een oneven aantal spelers was, kreeg hij een <w>bye</w> in de eerste ronde.",
+                            "target_lang_translations": {
+                                "en": "Because there was an odd number of players, he received a <w>bye</w> in the first round.",
+                                "ru": "Так как было нечетное количество игроков, он получил <w>свободный проход</w> в первом раунде."
+                            }
                         },
                         {
-                            "text": "Door de <w>bye</w> hoefde de tennisser pas in de tweede ronde in actie te komen."
+                            "text": "Door de <w>bye</w> hoefde de tennisser pas in de tweede ronde in actie te komen.",
+                            "target_lang_translations": {
+                                "en": "Due to the <w>bye</w>, the tennis player only had to start playing in the second round.",
+                                "ru": "Благодаря <w>выходу без игры</w> теннисисту нужно было вступать в борьбу только во втором раунде."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "een bye krijgen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The status of a player or team in a tournament who advances to the next round without playing.",
+                        "ru": "Преимущество в спортивном турнире, когда игрок или команда автоматически проходит в следующий раунд без игры."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bye",
+                                "target_lang_sense_clarification": "sports tournament advantage"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "свободный проход",
+                                "target_lang_sense_clarification": "в следующий круг соревнований"
+                            },
+                            {
+                                "target_lang_word": "выход без игры",
+                                "target_lang_sense_clarification": "автоматическое попадание в следующий раунд"
+                            }
+                        ]
+                    }
                 }
             ]
         }

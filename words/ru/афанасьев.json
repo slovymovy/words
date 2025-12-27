@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера я встретил своего старого коллегу, Игоря <w>Афанасьева</w>, в центре города."
+                            "text": "Вчера я встретил своего старого коллегу, Игоря <w>Афанасьева</w>, в центре города.",
+                            "target_lang_translations": {
+                                "en": "Yesterday I met my old colleague, Igor <w>Afanasyev</w>, in the city center."
+                            }
                         },
                         {
-                            "text": "Доктор <w>Афанасьев</w> принимает пациентов только по предварительной записи."
+                            "text": "Доктор <w>Афанасьев</w> принимает пациентов только по предварительной записи.",
+                            "target_lang_translations": {
+                                "en": "Doctor <w>Afanasyev</w> sees patients by appointment only."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "русская"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname derived from the male name Afanasy."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Afanasyev",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

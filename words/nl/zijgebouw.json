@@ -22,10 +22,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het museum heeft een nieuw <w>zijgebouw</w> geopend voor moderne kunst."
+                            "text": "Het museum heeft een nieuw <w>zijgebouw</w> geopend voor moderne kunst.",
+                            "target_lang_translations": {
+                                "en": "The museum has opened a new <w>annex</w> for modern art.",
+                                "ru": "Музей открыл новый <w>флигель</w> для современного искусства."
+                            }
                         },
                         {
-                            "text": "De administratie is tijdelijk verhuisd naar het <w>zijgebouw</w>."
+                            "text": "De administratie is tijdelijk verhuisd naar het <w>zijgebouw</w>.",
+                            "target_lang_translations": {
+                                "en": "The administration has temporarily moved to the <w>side building</w>.",
+                                "ru": "Администрация временно переехала в <w>боковой корпус</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,7 +46,41 @@
                         "in het zijgebouw",
                         "het nieuwe zijgebouw",
                         "naar het zijgebouw"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A building placed at the side of a main building or connected to it.",
+                        "ru": "Здание, расположенное сбоку от главного здания или соединенное с ним."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "annex",
+                                "target_lang_sense_clarification": "an addition to a building"
+                            },
+                            {
+                                "target_lang_word": "side building",
+                                "target_lang_sense_clarification": "literal translation"
+                            },
+                            {
+                                "target_lang_word": "wing",
+                                "target_lang_sense_clarification": "part of a building projecting from the main structure"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "флигель",
+                                "target_lang_sense_clarification": "боковая пристройка"
+                            },
+                            {
+                                "target_lang_word": "боковой корпус",
+                                "target_lang_sense_clarification": "часть комплекса зданий"
+                            },
+                            {
+                                "target_lang_word": "пристройка",
+                                "target_lang_sense_clarification": "дополнительное строение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

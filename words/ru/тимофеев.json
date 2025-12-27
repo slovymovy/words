@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "На конференции выступил профессор <w>Тимофеев</w>."
+                            "text": "На конференции выступил профессор <w>Тимофеев</w>.",
+                            "target_lang_translations": {
+                                "en": "Professor <w>Timofeev</w> spoke at the conference."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей значится Николай <w>Тимофеев</w>."
+                            "text": "В списке приглашённых гостей значится Николай <w>Тимофеев</w>.",
+                            "target_lang_translations": {
+                                "en": "Nikolai <w>Timofeev</w> is listed among the invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": "masculine"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname derived from the male name Timofey."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Timofeev",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Meneer <w>Mulder</w> woont al jaren in deze straat."
+                            "text": "Meneer <w>Mulder</w> woont al jaren in deze straat.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Mulder</w> has lived in this street for years.",
+                                "ru": "Господин <w>Мюлдер</w> живет на этой улице уже много лет."
+                            }
                         },
                         {
-                            "text": "Ik moet even bellen naar mevrouw <w>Mulder</w> voor een afspraak."
+                            "text": "Ik moet even bellen naar mevrouw <w>Mulder</w> voor een afspraak.",
+                            "target_lang_translations": {
+                                "en": "I need to call Mrs. <w>Mulder</w> for an appointment.",
+                                "ru": "Мне нужно позвонить госпоже <w>Мюлдер</w>, чтобы договориться о встрече."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +35,25 @@
                             "trait_type": "surname",
                             "comment": "originating as an occupation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A common Dutch surname, originally referring to the occupation of miller.",
+                        "ru": "Распространенная голландская фамилия, происходящая от названия профессии мельника."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Mulder",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Мюлдер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,10 +69,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De oude <w>mulder</w> controleerde de wieken van de molen voor de storm."
+                            "text": "De oude <w>mulder</w> controleerde de wieken van de molen voor de storm.",
+                            "target_lang_translations": {
+                                "en": "The old <w>miller</w> checked the mill's sails before the storm.",
+                                "ru": "Старый <w>мельник</w> проверял крылья мельницы перед бурей."
+                            }
                         },
                         {
-                            "text": "Vroeger brachten de boeren hun graan met paard en wagen naar de <w>mulder</w>."
+                            "text": "Vroeger brachten de boeren hun graan met paard en wagen naar de <w>mulder</w>.",
+                            "target_lang_translations": {
+                                "en": "In the past, farmers brought their grain to the <w>miller</w> by horse and cart.",
+                                "ru": "Раньше фермеры привозили свое зерно на лошадях и повозках к <w>мельнику</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -54,7 +88,25 @@
                     ],
                     "common_phrases": [
                         "de <w>mulder</w> en zijn knecht"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who operates a mill to grind grain by profession.",
+                        "ru": "Человек, чья профессия — управлять мельницей для помола зерна."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "miller",
+                                "target_lang_sense_clarification": "occupation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "мельник",
+                                "target_lang_sense_clarification": "профессия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6df36d66-1026-340c-abea-6f3ff96769c2",
@@ -65,15 +117,45 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In de tuin zag ik een grote <w>mulder</w> op het blad van de eik zitten."
+                            "text": "In de tuin zag ik een grote <w>mulder</w> op het blad van de eik zitten.",
+                            "target_lang_translations": {
+                                "en": "In the garden, I saw a large <w>May bug</w> sitting on the oak leaf.",
+                                "ru": "В саду я увидел большого <w>майского жука</w>, сидящего на листе дуба."
+                            }
                         },
                         {
-                            "text": "De larven van de <w>mulder</w> kunnen veel schade aanrichten aan de wortels van planten."
+                            "text": "De larven van de <w>mulder</w> kunnen veel schade aanrichten aan de wortels van planten.",
+                            "target_lang_translations": {
+                                "en": "The larvae of the <w>cockchafer</w> can cause a lot of damage to plant roots.",
+                                "ru": "Личинки <w>майского жука</w> могут нанести большой вред корням растений."
+                            }
                         }
                     ],
                     "synonyms": [
                         "meikever"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A beetle of the species Melolontha melolontha, also known as a May bug.",
+                        "ru": "Жук вида Melolontha melolontha, также известный как майский жук."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cockchafer",
+                                "target_lang_sense_clarification": "insect"
+                            },
+                            {
+                                "target_lang_word": "May bug",
+                                "target_lang_sense_clarification": "insect"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "майский жук",
+                                "target_lang_sense_clarification": "насекомое"
+                            }
+                        ]
+                    }
                 }
             ]
         }

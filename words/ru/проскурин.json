@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Известный актёр Виктор <w>Проскурин</w> сыграл множество ярких ролей в кино."
+                            "text": "Известный актёр Виктор <w>Проскурин</w> сыграл множество ярких ролей в кино.",
+                            "target_lang_translations": {
+                                "en": "The famous actor Viktor <w>Proskurin</w> played many memorable roles in movies."
+                            }
                         },
                         {
-                            "text": "В списке сотрудников значится инженер <w>Проскурин</w>."
+                            "text": "В списке сотрудников значится инженер <w>Проскурин</w>.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Proskurin</w> is listed among the employees."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Proskurin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

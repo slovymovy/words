@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Niels'</w> nieuwe auto gezien."
+                            "text": "Ik heb gisteren <w>Niels'</w> nieuwe auto gezien.",
+                            "target_lang_translations": {
+                                "en": "I saw <w>Niels's</w> new car yesterday.",
+                                "ru": "Вчера я видел новую машину <w>Нильса</w>."
+                            }
                         },
                         {
-                            "text": "Het was <w>Niels'</w> idee om naar het strand te gaan."
+                            "text": "Het was <w>Niels'</w> idee om naar het strand te gaan.",
+                            "target_lang_translations": {
+                                "en": "It was <w>Niels's</w> idea to go to the beach.",
+                                "ru": "Это была идея <w>Нильса</w> пойти на пляж."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Niels",
+                        "ru": "форма имени Нильс, указывающая на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Niels's",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Niels'",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Нильса",
+                                "target_lang_sense_clarification": "принадлежащий Нильсу"
+                            }
+                        ]
+                    }
                 }
             ]
         }

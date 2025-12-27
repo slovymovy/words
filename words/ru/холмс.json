@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Шерлок <w>Холмс</w> жил в Лондоне на Бейкер-стрит."
+                            "text": "Шерлок <w>Холмс</w> жил в Лондоне на Бейкер-стрит.",
+                            "target_lang_translations": {
+                                "en": "Sherlock <w>Holmes</w> lived in London on Baker Street."
+                            }
                         },
                         {
-                            "text": "Доктор Ватсон был лучшим другом и помощником <w>Холмса</w>."
+                            "text": "Доктор Ватсон был лучшим другом и помощником <w>Холмса</w>.",
+                            "target_lang_translations": {
+                                "en": "Doctor Watson was <w>Holmes</w>'s best friend and assistant."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "English surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Holmes",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Ethans</w> nieuwe fiets die hij voor zijn verjaardag heeft gekregen."
+                            "text": "Dit is <w>Ethans</w> nieuwe fiets die hij voor zijn verjaardag heeft gekregen.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Ethan's</w> new bike that he got for his birthday.",
+                                "ru": "Это новый велосипед <w>Итана</w>, который он получил на день рождения."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Ethans</w> huis om samen te studeren."
+                            "text": "We gaan vanavond naar <w>Ethans</w> huis om samen te studeren.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Ethan's</w> house tonight to study together.",
+                                "ru": "Сегодня вечером мы идем в дом <w>Итана</w>, чтобы вместе позаниматься."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Ethan",
+                        "ru": "Родительный падеж имени Итан, указывающий на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Ethan's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Итана",
+                                "target_lang_sense_clarification": "принадлежащий Итану"
+                            }
+                        ]
+                    }
                 }
             ]
         }

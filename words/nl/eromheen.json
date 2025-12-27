@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wij hebben een mooi huis met een grote tuin <w>eromheen</w>."
+                            "text": "Wij hebben een mooi huis met een grote tuin <w>eromheen</w>.",
+                            "target_lang_translations": {
+                                "en": "We have a beautiful house with a large garden <w>around it</w>.",
+                                "ru": "У нас красивый дом с большим садом <w>вокруг</w>."
+                            }
                         },
                         {
-                            "text": "Je moet niet <w>eromheen</w> draaien, maar gewoon zeggen wat je bedoelt."
+                            "text": "Je moet niet <w>eromheen</w> draaien, maar gewoon zeggen wat je bedoelt.",
+                            "target_lang_translations": {
+                                "en": "You shouldn't beat <w>around the bush</w>, but just say what you mean.",
+                                "ru": "Не нужно ходить <w>вокруг да около</w>, а просто скажи, что ты имеешь в виду."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,7 +44,37 @@
                         "eromheen draaien",
                         "eromheen lopen",
                         "eromheen wikkelen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "around something that has been mentioned earlier",
+                        "ru": "вокруг чего-то, что было упомянуто ранее"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "around it",
+                                "target_lang_sense_clarification": "referring to a previously mentioned object"
+                            },
+                            {
+                                "target_lang_word": "surrounding it",
+                                "target_lang_sense_clarification": "encircling something"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вокруг",
+                                "target_lang_sense_clarification": "общее значение"
+                            },
+                            {
+                                "target_lang_word": "вокруг этого",
+                                "target_lang_sense_clarification": "с указанием на предмет"
+                            },
+                            {
+                                "target_lang_word": "вокруг да около",
+                                "target_lang_sense_clarification": "в переносном смысле (увиливать)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

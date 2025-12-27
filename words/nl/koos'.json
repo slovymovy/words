@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Koos'</w> nieuwe fiets die hij gisteren heeft gekocht."
+                            "text": "Dit is <w>Koos'</w> nieuwe fiets die hij gisteren heeft gekocht.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Koos's</w> new bike that he bought yesterday.",
+                                "ru": "Это новый велосипед <w>Коса</w>, который он купил вчера."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond met zijn allen naar <w>Koos'</w> verjaardagsfeestje."
+                            "text": "We gaan vanavond met zijn allen naar <w>Koos'</w> verjaardagsfeestje.",
+                            "target_lang_translations": {
+                                "en": "We are all going to <w>Koos's</w> birthday party tonight.",
+                                "ru": "Мы все идем сегодня вечером на день рождения <w>Коса</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +38,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive form of <w>Koos</w>",
+                        "ru": "родительный падеж имени <w>Koos</w> (обозначает принадлежность)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Koos's",
+                                "target_lang_sense_clarification": "possessive form of the name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Коса",
+                                "target_lang_sense_clarification": "форма родительного падежа имени Кос"
+                            }
+                        ]
+                    }
                 }
             ]
         }

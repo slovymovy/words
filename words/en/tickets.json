@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Did you get <w>tickets</w> to the game tonight?"
+                            "text": "Did you get <w>tickets</w> to the game tonight?",
+                            "target_lang_translations": {
+                                "ru": "Ты взял <w>билеты</w> на игру сегодня вечером?"
+                            }
                         },
                         {
-                            "text": "We booked our flight <w>tickets</w> two months in advance to save money."
+                            "text": "We booked our flight <w>tickets</w> two months in advance to save money.",
+                            "target_lang_translations": {
+                                "ru": "Мы забронировали <w>билеты</w> на самолет за два месяца, чтобы сэкономить."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,7 +43,18 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Множественное число существительного ticket (билет)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "билет",
+                                "target_lang_sense_clarification": "документ на право проезда или входа"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -53,10 +70,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The traffic warden <w>tickets</w> any car that is parked illegally on this street."
+                            "text": "The traffic warden <w>tickets</w> any car that is parked illegally on this street.",
+                            "target_lang_translations": {
+                                "ru": "Инспектор <w>штрафует</w> любую машину, припаркованную незаконно на этой улице."
+                            }
                         },
                         {
-                            "text": "The airline <w>tickets</w> passengers automatically once the payment is processed."
+                            "text": "The airline <w>tickets</w> passengers automatically once the payment is processed.",
+                            "target_lang_translations": {
+                                "ru": "Авиакомпания <w>оформляет билеты</w> пассажирам автоматически после обработки платежа."
+                            }
                         }
                     ],
                     "traits": [
@@ -64,7 +87,22 @@
                             "trait_type": "form",
                             "comment": "third-person singular"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Глагол ticket в форме 3-го лица единственного числа (выписывает штраф, оформляет билет)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "штрафовать",
+                                "target_lang_sense_clarification": "выписывать штраф за нарушение"
+                            },
+                            {
+                                "target_lang_word": "оформлять билет",
+                                "target_lang_sense_clarification": "выдавать проездной документ"
+                            }
+                        ]
+                    }
                 }
             ]
         }

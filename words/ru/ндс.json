@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом магазине все цены на продукты указаны с учётом <w>НДС</w>."
+                            "text": "В этом магазине все цены на продукты указаны с учётом <w>НДС</w>.",
+                            "target_lang_translations": {
+                                "en": "In this store, all product prices are listed including <w>VAT</w>."
+                            }
                         },
                         {
-                            "text": "Компания должна рассчитать и уплатить <w>НДС</w> до конца текущего месяца."
+                            "text": "Компания должна рассчитать и уплатить <w>НДС</w> до конца текущего месяца.",
+                            "target_lang_translations": {
+                                "en": "The company must calculate and pay <w>VAT</w> before the end of the current month."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,18 @@
                             "trait_type": "form",
                             "comment": "abbreviation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for value added tax; an indirect tax included in the final price of goods and services."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "VAT",
+                                "target_lang_sense_clarification": "value added tax"
+                            }
+                        ]
+                    }
                 }
             ]
         }

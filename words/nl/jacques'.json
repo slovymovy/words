@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Heb je <w>Jacques'</w> nieuwe fiets al gezien?"
+                            "text": "Heb je <w>Jacques'</w> nieuwe fiets al gezien?",
+                            "target_lang_translations": {
+                                "en": "Have you seen <w>Jacques's</w> new bike yet?",
+                                "ru": "Ты уже видел новый велосипед <w>Жака</w>?"
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Jacques'</w> verjaardagsfeest."
+                            "text": "We gaan vanavond naar <w>Jacques'</w> verjaardagsfeest.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Jacques's</w> birthday party tonight.",
+                                "ru": "Мы идем сегодня вечером на день рождения <w>Жака</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +39,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Jacques",
+                        "ru": "родительный падеж имени Жак, указывающий на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jacques's",
+                                "target_lang_sense_clarification": "possessive form of the name Jacques"
+                            },
+                            {
+                                "target_lang_word": "Jacques'",
+                                "target_lang_sense_clarification": "possessive form of the name Jacques (alternative spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Жака",
+                                "target_lang_sense_clarification": "форма родительного падежа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

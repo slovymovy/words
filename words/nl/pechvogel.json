@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wat is Donald Duck toch een <w>pechvogel</w>!"
+                            "text": "Wat is Donald Duck toch een <w>pechvogel</w>!",
+                            "target_lang_translations": {
+                                "en": "Donald Duck is such an <w>unlucky person</w>!",
+                                "ru": "Какой же Дональд Дак всё-таки <w>неудачник</w>!"
+                            }
                         },
                         {
-                            "text": "De arme <w>pechvogel</w> miste zijn trein en verloor daarna zijn portemonnee."
+                            "text": "De arme <w>pechvogel</w> miste zijn trein en verloor daarna zijn portemonnee.",
+                            "target_lang_translations": {
+                                "en": "The poor <w>unlucky devil</w> missed his train and then lost his wallet.",
+                                "ru": "Бедный <w>бедолага</w> опоздал на поезд, а потом потерял кошелёк."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +42,33 @@
                     "common_phrases": [
                         "arme pechvogel",
                         "echte pechvogel"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who very often has bad luck or setbacks.",
+                        "ru": "Человек, которому очень часто не везет или который постоянно сталкивается с неудачами."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "unlucky person",
+                                "target_lang_sense_clarification": "general term for someone prone to bad luck"
+                            },
+                            {
+                                "target_lang_word": "unlucky devil",
+                                "target_lang_sense_clarification": "informal, often used to express pity"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "неудачник",
+                                "target_lang_sense_clarification": "человек, которого преследуют неудачи"
+                            },
+                            {
+                                "target_lang_word": "бедолага",
+                                "target_lang_sense_clarification": "несчастный человек, вызывающий сочувствие"
+                            }
+                        ]
+                    }
                 }
             ]
         }

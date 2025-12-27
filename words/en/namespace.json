@@ -1,57 +1,93 @@
 {
-  "word_family": [
-    "namespacing"
-  ],
-  "entries": [
-    {
-      "pos": "noun",
-      "senses": [
+    "word_family": [
+        "namespacing"
+    ],
+    "entries": [
         {
-          "sense_id": "8775d471-4ae9-36de-a3d1-f9e3466dbc2a",
-          "sense_definition": "A conceptual container in computing that groups classes, identifiers, or variables to prevent naming conflicts with other items.",
-          "learner_level": "C1",
-          "frequency": "Low",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "Using a unique <w>namespace</w> ensures that your function names do not clash with existing libraries."
-            },
-            {
-              "text": "Variables declared in the global <w>namespace</w> can be accessed from anywhere in the program."
-            }
-          ],
-          "common_phrases": [
-            "global namespace",
-            "namespace collision",
-            "default namespace",
-            "namespace pollution"
-          ],
-          "traits": []
-        }
-      ]
-    },
-    {
-      "pos": "verb",
-      "senses": [
+            "pos": "noun",
+            "senses": [
+                {
+                    "sense_id": "8775d471-4ae9-36de-a3d1-f9e3466dbc2a",
+                    "sense_definition": "A conceptual container in computing that groups classes, identifiers, or variables to prevent naming conflicts with other items.",
+                    "learner_level": "C1",
+                    "frequency": "Low",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Using a unique <w>namespace</w> ensures that your function names do not clash with existing libraries.",
+                            "target_lang_translations": {
+                                "ru": "Использование уникального <w>пространства имён</w> гарантирует, что имена ваших функций не будут конфликтовать с существующими библиотеками."
+                            }
+                        },
+                        {
+                            "text": "Variables declared in the global <w>namespace</w> can be accessed from anywhere in the program.",
+                            "target_lang_translations": {
+                                "ru": "К переменным, объявленным в глобальном <w>пространстве имён</w>, можно получить доступ из любой части программы."
+                            }
+                        }
+                    ],
+                    "common_phrases": [
+                        "global namespace",
+                        "namespace collision",
+                        "default namespace",
+                        "namespace pollution"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Концептуальная область в информатике, группирующая классы, идентификаторы или переменные для предотвращения конфликтов имен с другими элементами."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пространство имён",
+                                "target_lang_sense_clarification": "в программировании"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
         {
-          "sense_id": "f7a8f669-816b-3cce-9d65-57c32959baad",
-          "sense_definition": "To categorize or organize identifiers by placing them into a specific namespace.",
-          "learner_level": "C2",
-          "frequency": "VeryLow",
-          "semantic_group_id": "",
-          "name_type": "no",
-          "examples": [
-            {
-              "text": "Developers should <w>namespace</w> their code to maintain compatibility with other plugins."
-            },
-            {
-              "text": "The library is fully <w>namespaced</w> to prevent errors when integrated into larger systems."
-            }
-          ],
-          "traits": []
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "f7a8f669-816b-3cce-9d65-57c32959baad",
+                    "sense_definition": "To categorize or organize identifiers by placing them into a specific namespace.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Developers should <w>namespace</w> their code to maintain compatibility with other plugins.",
+                            "target_lang_translations": {
+                                "ru": "Разработчикам следует <w>помещать в пространства имён</w> свой код для поддержания совместимости с другими плагинами."
+                            }
+                        },
+                        {
+                            "text": "The library is fully <w>namespaced</w> to prevent errors when integrated into larger systems.",
+                            "target_lang_translations": {
+                                "ru": "Библиотека полностью <w>организована по пространствам имён</w> для предотвращения ошибок при интеграции в крупные системы."
+                            }
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Категоризировать или организовывать идентификаторы путем их размещения в определенном пространстве имен."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "помещать в пространство имён",
+                                "target_lang_sense_clarification": "действие с кодом"
+                            },
+                            {
+                                "target_lang_word": "организовывать по пространствам имён",
+                                "target_lang_sense_clarification": "структурирование"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

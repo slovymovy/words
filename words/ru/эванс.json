@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мистер <w>Эванс</w> работает в нашем отделе уже пять лет."
+                            "text": "Мистер <w>Эванс</w> работает в нашем отделе уже пять лет.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Evans</w> has been working in our department for five years."
+                            }
                         },
                         {
-                            "text": "Мы пригласили доктора <w>Эванса</w> выступить на научной конференции."
+                            "text": "Мы пригласили доктора <w>Эванса</w> выступить на научной конференции.",
+                            "target_lang_translations": {
+                                "en": "We invited Dr. <w>Evans</w> to speak at the scientific conference."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +35,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "an English surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Evans",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

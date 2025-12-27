@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Доктор <w>Левин</w> принимает пациентов только по предварительной записи."
+                            "text": "Доктор <w>Левин</w> принимает пациентов только по предварительной записи.",
+                            "target_lang_translations": {
+                                "en": "Doctor <w>Levin</w> sees patients only by appointment."
+                            }
                         },
                         {
-                            "text": "В этом доме раньше жил известный музыкант по фамилии <w>Левин</w>."
+                            "text": "В этом доме раньше жил известный музыкант по фамилии <w>Левин</w>.",
+                            "target_lang_translations": {
+                                "en": "A famous musician named <w>Levin</w> used to live in this house."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Jewish surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Levin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

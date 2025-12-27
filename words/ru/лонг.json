@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В этом фильме главную роль сыграл известный актёр Джастин <w>Лонг</w>."
+                            "text": "В этом фильме главную роль сыграл известный актёр Джастин <w>Лонг</w>.",
+                            "target_lang_translations": {
+                                "en": "The famous actor Justin <w>Long</w> played the lead role in this movie."
+                            }
                         },
                         {
-                            "text": "Мистер <w>Лонг</w> попросил передать вам эти важные документы."
+                            "text": "Мистер <w>Лонг</w> попросил передать вам эти важные документы.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Long</w> asked to pass these important documents to you."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An English surname"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Long",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

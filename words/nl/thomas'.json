@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Thomas'</w> auto geleend om naar de stad te gaan."
+                            "text": "Ik heb gisteren <w>Thomas'</w> auto geleend om naar de stad te gaan.",
+                            "target_lang_translations": {
+                                "en": "I borrowed <w>Thomas's</w> car yesterday to go to the city."
+                            }
                         },
                         {
-                            "text": "Ben jij al eens in <w>Thomas'</w> nieuwe appartement geweest?"
+                            "text": "Ben jij al eens in <w>Thomas'</w> nieuwe appartement geweest?",
+                            "target_lang_translations": {
+                                "en": "Have you been to <w>Thomas's</w> new apartment yet?"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,22 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of <w>Thomas</w>"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Thomas's",
+                                "target_lang_sense_clarification": "possessive form"
+                            },
+                            {
+                                "target_lang_word": "Thomas'",
+                                "target_lang_sense_clarification": "possessive form (alternative spelling)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

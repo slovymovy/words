@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Henke</w> has been managing the local bakery for over twenty years."
+                            "text": "Mr. <w>Henke</w> has been managing the local bakery for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Хенке</w> управляет местной пекарней уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The letter was addressed to a Sarah <w>Henke</w>, but nobody by that name lives here."
+                            "text": "The letter was addressed to a Sarah <w>Henke</w>, but nobody by that name lives here.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано Саре <w>Хенке</w>, но никто с таким именем здесь не живет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хенке",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -1,29 +1,35 @@
 {
     "word_family": [
         "dziedziczyć",
+        "odziedziczyć",
+        "wydziedziczyć",
         "dziedzictwo",
-        "dziedziczka",
         "dziedziczny",
-        "dziedziczenie",
-        "współdziedzic"
+        "dziedziczka"
     ],
     "entries": [
         {
             "pos": "noun",
             "senses": [
                 {
-                    "sense_id": "e89693e6-2028-3925-b8bb-b930a0242ffe",
-                    "sense_definition": "Osoba, która otrzymuje spadek, majątek, prawa lub tytuły po kimś zmarłym.",
+                    "sense_id": "1c4cf836-1603-3fe9-8bba-e591863c18cc",
+                    "sense_definition": "Osoba, która otrzymuje spadek, majątek, prawa lub tytuły po zmarłym przodku lub poprzedniku.",
                     "learner_level": "B2",
                     "frequency": "Middle",
-                    "semantic_group_id": "inheritance",
+                    "semantic_group_id": "heir_group",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lucjan został <w>dziedzicem</w> dóbr po swojej matce."
+                            "text": "Lucjan został prawnym <w>dziedzicem</w> ogromnego majątku po swojej zmarłej matce.",
+                            "target_lang_translations": {
+                                "ru": "Луциан стал законным <w>наследником</w> огромного состояния после своей покойной матери."
+                            }
                         },
                         {
-                            "text": "Jako jedyny <w>dziedzic</w> fortuny, musiał nauczyć się zarządzać wielkim kapitałem."
+                            "text": "Jako jedyny syn króla, był naturalnym <w>dziedzicem</w> tronu i korony.",
+                            "target_lang_translations": {
+                                "ru": "Как единственный сын короля, он был естественным <w>наследником</w> престола и короны."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,25 +42,46 @@
                         "testator"
                     ],
                     "common_phrases": [
-                        "jedyny dziedzic",
                         "prawowity dziedzic",
+                        "jedyny dziedzic",
                         "dziedzic tronu",
                         "dziedzic fortuny"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Человек, получающий наследство, имущество, права или титулы после умершего предка или предшественника."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "наследник",
+                                "target_lang_sense_clarification": "общий термин для получателя наследства"
+                            },
+                            {
+                                "target_lang_word": "преемник",
+                                "target_lang_sense_clarification": "в контексте прав или должностей"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "4656422f-6f45-3a2f-ac1e-b06f8384d5a5",
-                    "sense_definition": "Właściciel dużego majątku ziemskiego; tytuł używany dawniej w odniesieniu do szlachty posiadającej ziemię.",
+                    "sense_id": "3dd3d057-2349-3f99-b5cd-3c5cec3874d6",
+                    "sense_definition": "Właściciel dużego majątku ziemskiego, zwykle szlachcic (termin historyczny).",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "landowner",
+                    "semantic_group_id": "landowner_group",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kolasa <w>dziedzica</w> zajechała przed ganek starego dworu."
+                            "text": "Stara kolasa <w>dziedzica</w> zajechała z hukiem przed ganek dworu.",
+                            "target_lang_translations": {
+                                "ru": "Старая коляска <w>помещика</w> с грохотом подъехала к крыльцу усадьбы."
+                            }
                         },
                         {
-                            "text": "Miejscowi chłopi darzyli starego <w>dziedzica</w> dużym szacunkiem."
+                            "text": "Miejscowi chłopi pracowali w polu należącym do bogatego <w>dziedzica</w>.",
+                            "target_lang_translations": {
+                                "ru": "Местные крестьяне работали на поле, принадлежащем богатому <w>помещику</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -63,48 +90,73 @@
                     ],
                     "common_phrases": [
                         "bogaty dziedzic",
-                        "syn dziedzica",
-                        "dwór dziedzica"
+                        "dwór dziedzica",
+                        "syn dziedzica"
                     ],
                     "traits": [
                         {
                             "trait_type": "dated",
-                            "comment": "odnosi się do dawnych stosunków społecznych"
-                        },
-                        {
-                            "trait_type": "regional",
-                            "comment": "termin historycznie związany z kulturą wiejską"
+                            "comment": "kontekst historyczny"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Владелец крупного земельного имения, обычно дворянин (исторический термин)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "помещик",
+                                "target_lang_sense_clarification": "исторический термин, владелец поместья"
+                            },
+                            {
+                                "target_lang_word": "землевладелец",
+                                "target_lang_sense_clarification": "владелец земли"
+                            },
+                            {
+                                "target_lang_word": "барин",
+                                "target_lang_sense_clarification": "разговорное, с точки зрения крестьян"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "729196de-849b-3492-81c2-110168be045a",
-                    "sense_definition": "Drzewo pozostawione na zrębie w celu naturalnego obsiania terenu nasionami.",
+                    "sense_definition": "Drzewo pozostawione na zrębie leśnym w celu obsiania terenu nasionami.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "forestry",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Leśniczy wyznaczył potężnego dęba na <w>dziedzica</w>, aby odnowić las."
+                            "text": "Leśniczy oznaczył starego dęba jako <w>dziedzica</w>, aby dał początek nowemu lasowi.",
+                            "target_lang_translations": {
+                                "ru": "Лесничий отметил старый дуб как <w>семенник</w>, чтобы он дал начало новому лесу."
+                            }
                         },
                         {
-                            "text": "Na polanie stał samotny <w>dziedzic</w>, zrzucający nasiona na ściółkę."
+                            "text": "Na środku polany stał samotny <w>dziedzic</w>, rozsiewający nasiona wokół siebie.",
+                            "target_lang_translations": {
+                                "ru": "Посреди поляны стоял одинокий <w>семенник</w>, рассеивающий семена вокруг себя."
+                            }
                         }
                     ],
                     "synonyms": [
                         "nasiennik"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "leśnictwo"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "terminologia zawodowa"
-                        }
-                    ]
+                    "common_phrases": [
+                        "pozostawić dziedzica"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Дерево, оставленное на вырубке для обсеменения территории семенами."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "семенник",
+                                "target_lang_sense_clarification": "лесоводческий термин"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -113,17 +165,23 @@
             "senses": [
                 {
                     "sense_id": "e29df439-52ca-3c68-8ff4-8258feafaab7",
-                    "sense_definition": "Polskie nazwisko, występujące zarówno w formie męskiej, jak i żeńskiej.",
+                    "sense_definition": "Popularne nazwisko używane w Polsce.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "surname",
+                    "semantic_group_id": "",
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Pan <w>Dziedzic</w> jest naszym nowym sąsiadem z naprzeciwka."
+                            "text": "Pan <w>Dziedzic</w> jest naszym nowym sąsiadem z naprzeciwka.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Дзедзиц</w> — наш новый сосед напротив."
+                            }
                         },
                         {
-                            "text": "Wczoraj rozmawiałem z panią <w>Dziedzic</w> o sprawach spółdzielni."
+                            "text": "Na liście obecności widnieje nazwisko Anny <w>Dziedzic</w>.",
+                            "target_lang_translations": {
+                                "ru": "В списке присутствующих значится фамилия Анны <w>Дзедзиц</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -131,7 +189,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Популярная фамилия в Польше."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дзедзиц",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мой дедушка до сих пор хранит свой старый <w>партбилет</w> в ящике стола как память о прошлом."
+                            "text": "Мой дедушка до сих пор хранит свой старый <w>партбилет</w> в ящике стола как память о прошлом.",
+                            "target_lang_translations": {
+                                "en": "My grandfather still keeps his old <w>party card</w> in a desk drawer as a memento of the past."
+                            }
                         },
                         {
-                            "text": "В советское время потерять <w>партбилет</w> было серьёзным проступком, грозившим исключением из партии."
+                            "text": "В советское время потерять <w>партбилет</w> было серьёзным проступком, грозившим исключением из партии.",
+                            "target_lang_translations": {
+                                "en": "In Soviet times, losing a <w>party card</w> was a serious offense that threatened expulsion from the party."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,14 +46,25 @@
                             "comment": "abbreviation of партийный билет"
                         },
                         {
-                            "trait_type": "administrative",
-                            "comment": "political party membership"
-                        },
-                        {
                             "trait_type": "dated",
                             "comment": "often refers to Soviet history"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A document certifying membership in a political party (historically often referring to the Communist Party of the Soviet Union)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "party card",
+                                "target_lang_sense_clarification": "membership document"
+                            },
+                            {
+                                "target_lang_word": "party membership card",
+                                "target_lang_sense_clarification": "formal"
+                            }
+                        ]
+                    }
                 }
             ]
         }

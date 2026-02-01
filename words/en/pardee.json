@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Pardee</w> has been working at the company for over twenty years."
+                            "text": "Mr. <w>Pardee</w> has been working at the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Парди</w> работает в компании уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We invited the <w>Pardee</w> family to dinner next Saturday."
+                            "text": "We invited the <w>Pardee</w> family to dinner next Saturday.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Парди</w> на ужин в следующую субботу."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Парди",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

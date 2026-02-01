@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De polder is ingericht als <w>retentiegebied</w> om de stad tegen overstromingen te beschermen."
+                            "text": "De polder is ingericht als <w>retentiegebied</w> om de stad tegen overstromingen te beschermen.",
+                            "target_lang_translations": {
+                                "en": "The polder has been designed as a <w>retention area</w> to protect the city from flooding.",
+                                "ru": "Этот польдер был оборудован как <w>зона временного затопления</w> для защиты города от наводнений."
+                            }
                         },
                         {
-                            "text": "De overheid heeft dit stuk land aangewezen als <w>retentiegebied</w> voor de rivier."
+                            "text": "De overheid heeft dit stuk land aangewezen als <w>retentiegebied</w> voor de rivier.",
+                            "target_lang_translations": {
+                                "en": "The government has designated this piece of land as a <w>retention area</w> for the river.",
+                                "ru": "Власти выделили этот участок земли как <w>зону задержания паводковых вод</w> для реки."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "inrichten als retentiegebied",
                         "aanleg van retentiegebieden"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "waterbeheer"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An area that temporarily floods during high water levels to prevent flooding elsewhere.",
+                        "ru": "Территория, которая временно затапливается при высоком уровне воды для предотвращения наводнений в других местах."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "retention area",
+                                "target_lang_sense_clarification": "area for temporary water storage"
+                            },
+                            {
+                                "target_lang_word": "flood storage area",
+                                "target_lang_sense_clarification": "area designated to hold floodwater"
+                            },
+                            {
+                                "target_lang_word": "water retention area",
+                                "target_lang_sense_clarification": "zone for holding excess water"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "зона временного затопления",
+                                "target_lang_sense_clarification": "территория для отвода паводковых вод"
+                            },
+                            {
+                                "target_lang_word": "зона задержания паводковых вод",
+                                "target_lang_sense_clarification": "гидротехнический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

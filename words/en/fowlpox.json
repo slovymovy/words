@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The veterinarian recommended a vaccination schedule to prevent the spread of <w>fowlpox</w> within the flock."
+                            "text": "The veterinarian recommended a vaccination schedule to prevent the spread of <w>fowlpox</w> within the flock.",
+                            "target_lang_translations": {
+                                "ru": "Ветеринар порекомендовал график вакцинации для предотвращения распространения <w>оспы птиц</w> в стае."
+                            }
                         },
                         {
-                            "text": "Although <w>fowlpox</w> spreads slowly, it can cause significant distress and reduced egg production in affected birds."
+                            "text": "Although <w>fowlpox</w> spreads slowly, it can cause significant distress and reduced egg production in affected birds.",
+                            "target_lang_translations": {
+                                "ru": "Хотя <w>оспа птиц</w> распространяется медленно, она может вызвать значительный стресс и снижение яйценоскости у пораженных птиц."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,16 +33,17 @@
                         "fowlpox vaccine",
                         "cutaneous fowlpox"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "veterinary"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "agriculture"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Вирусное заболевание домашней птицы, вызываемое авипоксвирусом, часто приводящее к поражениям кожи или слизистых оболочек."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "оспа птиц",
+                                "target_lang_sense_clarification": "ветеринария"
+                            }
+                        ]
+                    }
                 }
             ]
         }

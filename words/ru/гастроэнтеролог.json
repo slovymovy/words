@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мой лечащий <w>гастроэнтеролог</w> посоветовал мне изменить режим питания."
+                            "text": "Мой лечащий <w>гастроэнтеролог</w> посоветовал мне изменить режим питания.",
+                            "target_lang_translations": {
+                                "en": "My <w>gastroenterologist</w> advised me to change my diet."
+                            }
                         },
                         {
-                            "text": "Чтобы проверить желудок, вам нужно записаться к <w>гастроэнтерологу</w>."
+                            "text": "Чтобы проверить желудок, вам нужно записаться к <w>гастроэнтерологу</w>.",
+                            "target_lang_translations": {
+                                "en": "To check your stomach, you need to make an appointment with a <w>gastroenterologist</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "детский гастроэнтеролог",
                         "врач-гастроэнтеролог"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A doctor specializing in the diagnosis, treatment, and prevention of diseases of the gastrointestinal tract."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "gastroenterologist",
+                                "target_lang_sense_clarification": "medical specialist"
+                            }
+                        ]
+                    }
                 }
             ]
         }

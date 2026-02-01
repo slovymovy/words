@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Desmarais</w> has been managing the company for over twenty years."
+                            "text": "Mr. <w>Desmarais</w> has been managing the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Демаре</w> управляет компанией уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The <w>Desmarais</w> family is well known in the local community."
+                            "text": "The <w>Desmarais</w> family is well known in the local community.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Демаре</w> хорошо известна в местном сообществе."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from French"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия французского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Демаре",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

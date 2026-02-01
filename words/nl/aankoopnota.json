@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Bewaar de <w>aankoopnota</w> goed, want die heb je nodig voor de garantie."
+                            "text": "Bewaar de <w>aankoopnota</w> goed, want die heb je nodig voor de garantie.",
+                            "target_lang_translations": {
+                                "en": "Keep the <w>purchase receipt</w> safe, because you need it for the warranty.",
+                                "ru": "Хорошо сохраните <w>товарный чек</w>, так как он понадобится для гарантии."
+                            }
                         },
                         {
-                            "text": "De klantenservice vroeg mij om de originele <w>aankoopnota</w> te overleggen."
+                            "text": "De klantenservice vroeg mij om de originele <w>aankoopnota</w> te overleggen.",
+                            "target_lang_translations": {
+                                "en": "Customer service asked me to submit the original <w>purchase invoice</w>.",
+                                "ru": "Служба поддержки попросила меня предоставить оригинальный <w>чек на покупку</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "aankoopnota overleggen",
                         "originele aankoopnota"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "wordt vaak gebruikt in zakelijke of formele contexten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A bill or statement detailing which goods have been purchased and at what price.",
+                        "ru": "Счет или документ, в котором указано, какие товары были приобретены и по какой цене."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "purchase receipt",
+                                "target_lang_sense_clarification": "proof of payment for goods"
+                            },
+                            {
+                                "target_lang_word": "purchase invoice",
+                                "target_lang_sense_clarification": "formal bill of sale"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "товарный чек",
+                                "target_lang_sense_clarification": "документ, подтверждающий покупку товара"
+                            },
+                            {
+                                "target_lang_word": "чек на покупку",
+                                "target_lang_sense_clarification": "квитанция об оплате"
+                            },
+                            {
+                                "target_lang_word": "счёт",
+                                "target_lang_sense_clarification": "документ на оплату"
+                            }
+                        ]
+                    }
                 }
             ]
         }

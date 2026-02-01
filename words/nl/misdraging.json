@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De werknemer werd op staande voet ontslagen vanwege een ernstige <w>misdraging</w>."
+                            "text": "De werknemer werd op staande voet ontslagen vanwege een ernstige <w>misdraging</w>.",
+                            "target_lang_translations": {
+                                "en": "The employee was summarily dismissed due to serious <w>misconduct</w>.",
+                                "ru": "Сотрудник был немедленно уволен из-за серьезного <w>проступка</w>."
+                            }
                         },
                         {
-                            "text": "Er is een officieel onderzoek ingesteld naar de vermeende <w>misdragingen</w> van het bestuur."
+                            "text": "Er is een officieel onderzoek ingesteld naar de vermeende <w>misdragingen</w> van het bestuur.",
+                            "target_lang_translations": {
+                                "en": "An official investigation has been launched into the alleged <w>misconduct</w> of the board.",
+                                "ru": "Было начато официальное расследование предполагаемых <w>правонарушений</w> со стороны правления."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,36 @@
                         "vermeende misdraging",
                         "seksuele misdraging"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in disciplinary, legal, or administrative contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An act of bad, inappropriate, or punishable behavior that violates rules or norms.",
+                        "ru": "Поступок, нарушающий установленные правила, нормы или закон; акт ненадлежащего поведения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "misconduct",
+                                "target_lang_sense_clarification": "improper or unlawful behavior, especially in a professional context"
+                            },
+                            {
+                                "target_lang_word": "misbehavior",
+                                "target_lang_sense_clarification": "bad or improper behavior"
+                            },
+                            {
+                                "target_lang_word": "offense",
+                                "target_lang_sense_clarification": "a breach of a law or rule"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "проступок",
+                                "target_lang_sense_clarification": "действие, нарушающее нормы поведения или дисциплину"
+                            },
+                            {
+                                "target_lang_word": "правонарушение",
+                                "target_lang_sense_clarification": "нарушение закона или официальных правил"
+                            }
+                        ]
+                    }
                 }
             ]
         }

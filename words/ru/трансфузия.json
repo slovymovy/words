@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач принял решение о немедленной <w>трансфузии</w> из-за критического состояния пациента."
+                            "text": "Врач принял решение о немедленной <w>трансфузии</w> из-за критического состояния пациента.",
+                            "target_lang_translations": {
+                                "en": "The doctor decided on an immediate <w>transfusion</w> due to the patient's critical condition."
+                            }
                         },
                         {
-                            "text": "В современной медицине <w>трансфузия</w> крови является стандартной процедурой при тяжёлых травмах."
+                            "text": "В современной медицине <w>трансфузия</w> крови является стандартной процедурой при тяжёлых травмах.",
+                            "target_lang_translations": {
+                                "en": "In modern medicine, blood <w>transfusion</w> is a standard procedure for severe injuries."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,17 @@
                         "прямая трансфузия",
                         "обменная трансфузия"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical procedure involving the transfer of blood or other biological fluids from a donor to a recipient."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "transfusion",
+                                "target_lang_sense_clarification": "medical procedure"
+                            }
+                        ]
+                    }
                 }
             ]
         }

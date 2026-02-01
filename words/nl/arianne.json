@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriendin heet <w>Arianne</w>."
+                            "text": "Mijn beste vriendin heet <w>Arianne</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend is called <w>Arianne</w>.",
+                                "ru": "Мою лучшую подругу зовут <w>Арианна</w>."
+                            }
                         },
                         {
-                            "text": "Ik ga morgen met <w>Arianne</w> naar de bioscoop."
+                            "text": "Ik ga morgen met <w>Arianne</w> naar de bioscoop.",
+                            "target_lang_translations": {
+                                "en": "I am going to the cinema with <w>Arianne</w> tomorrow.",
+                                "ru": "Завтра я иду с <w>Арианной</w> в кино."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female given name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Arianne",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Арианна",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

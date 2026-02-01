@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The locomotive engineer added more coal to the <w>firebed</w> to increase the steam pressure."
+                            "text": "The locomotive engineer added more coal to the <w>firebed</w> to increase the steam pressure.",
+                            "target_lang_translations": {
+                                "ru": "Машинист локомотива добавил больше угля в <w>горящий слой</w>, чтобы увеличить давление пара."
+                            }
                         },
                         {
-                            "text": "High <w>firebed</w> resistance can reduce the efficiency of the furnace by restricting airflow."
+                            "text": "High <w>firebed</w> resistance can reduce the efficiency of the furnace by restricting airflow.",
+                            "target_lang_translations": {
+                                "ru": "Высокое сопротивление <w>слоя топлива</w> может снизить эффективность печи, ограничивая поток воздуха."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +33,21 @@
                         "thick firebed",
                         "coal firebed"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering and combustion"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Слой твердого топлива (например, угля или дров), горящего в печи или камере сгорания."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "слой топлива",
+                                "target_lang_sense_clarification": "технический термин для обозначения массы горящего топлива в топке"
+                            },
+                            {
+                                "target_lang_word": "горящий слой",
+                                "target_lang_sense_clarification": "активная зона горения твердого топлива"
+                            }
+                        ]
+                    }
                 }
             ]
         }

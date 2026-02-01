@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>zendmachtiging</w> van deze omroep is in gevaar door de bezuinigingen."
+                            "text": "De <w>zendmachtiging</w> van deze omroep is in gevaar door de bezuinigingen.",
+                            "target_lang_translations": {
+                                "ru": "Из-за сокращения бюджета <w>лицензия на вещание</w> этой телерадиокомпании находится под угрозой.",
+                                "en": "This broadcaster's <w>broadcasting license</w> is in danger due to the budget cuts."
+                            }
                         },
                         {
-                            "text": "De minister besloot de <w>zendmachtiging</w> voor de commerciële zender niet te verlengen."
+                            "text": "De minister besloot de <w>zendmachtiging</w> voor de commerciële zender niet te verlengen.",
+                            "target_lang_translations": {
+                                "ru": "Министр решил не продлевать <w>лицензию на вещание</w> для коммерческого канала.",
+                                "en": "The minister decided not to renew the <w>broadcasting license</w> for the commercial channel."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +41,32 @@
                         "zendmachtiging verlenen",
                         "zendmachtiging intrekken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Официальное разрешение, дающее право на трансляцию радио- или телепрограмм.",
+                        "en": "An official permit granting permission to broadcast radio or television programs."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лицензия на вещание",
+                                "target_lang_sense_clarification": "право транслировать программы"
+                            },
+                            {
+                                "target_lang_word": "разрешение на вещание",
+                                "target_lang_sense_clarification": "документ, разрешающий эфир"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "broadcasting license",
+                                "target_lang_sense_clarification": "legal permission to transmit radio or TV signals"
+                            },
+                            {
+                                "target_lang_word": "broadcast license",
+                                "target_lang_sense_clarification": "authorization to operate a broadcast station"
+                            }
+                        ]
+                    }
                 }
             ]
         }

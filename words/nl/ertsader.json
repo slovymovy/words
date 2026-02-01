@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De mijnwerkers waren opgetogen toen ze eindelijk een rijke <w>ertsader</w> ontdekten."
+                            "text": "De mijnwerkers waren opgetogen toen ze eindelijk een rijke <w>ertsader</w> ontdekten.",
+                            "target_lang_translations": {
+                                "ru": "Шахтеры были в восторге, когда наконец обнаружили богатую <w>рудную жилу</w>.",
+                                "en": "The miners were delighted when they finally discovered a rich <w>ore vein</w>."
+                            }
                         },
                         {
-                            "text": "Het bedrijf wil in dit gebied een nieuwe <w>ertsader</w> aanboren voor de winning van koper."
+                            "text": "Het bedrijf wil in dit gebied een nieuwe <w>ertsader</w> aanboren voor de winning van koper.",
+                            "target_lang_translations": {
+                                "ru": "Компания хочет начать разработку новой <w>рудной жилы</w> в этом районе для добычи меди.",
+                                "en": "The company wants to tap into a new <w>ore vein</w> in this area for copper extraction."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,28 @@
                         "een rijke ertsader",
                         "een ertsader aanboren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "geologie en mijnbouw"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Узкий слой горной породы, содержащий металлы или минералы, пригодные для добычи.",
+                        "en": "A narrow layer of rock in the ground containing metal or minerals that can be extracted."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "рудная жила",
+                                "target_lang_sense_clarification": "геология"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "ore vein",
+                                "target_lang_sense_clarification": "geology/mining"
+                            },
+                            {
+                                "target_lang_word": "lode",
+                                "target_lang_sense_clarification": "deposit of ore"
+                            }
+                        ]
+                    }
                 }
             ]
         }

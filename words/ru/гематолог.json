@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Терапевт направил пациента к <w>гематологу</w> для уточнения диагноза."
+                            "text": "Терапевт направил пациента к <w>гематологу</w> для уточнения диагноза.",
+                            "target_lang_translations": {
+                                "en": "The general practitioner referred the patient to a <w>hematologist</w> to clarify the diagnosis."
+                            }
                         },
                         {
-                            "text": "Опытный врач-гематолог назначил дополнительные анализы, чтобы исключить анемию."
+                            "text": "Опытный врач-гематолог назначил дополнительные анализы, чтобы исключить анемию.",
+                            "target_lang_translations": {
+                                "en": "The experienced <w>hematologist</w> ordered additional tests to rule out anemia."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,21 @@
                         "детский гематолог",
                         "приём у гематолога"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "profession"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A doctor specializing in the diagnosis and treatment of diseases of the blood and blood-forming organs."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hematologist",
+                                "target_lang_sense_clarification": "American spelling"
+                            },
+                            {
+                                "target_lang_word": "haematologist",
+                                "target_lang_sense_clarification": "British spelling"
+                            }
+                        ]
+                    }
                 }
             ]
         }

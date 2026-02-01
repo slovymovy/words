@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач объяснил, что этот препарат работает как <w>антигормон</w>, снижая влияние эстрогена."
+                            "text": "Врач объяснил, что этот препарат работает как <w>антигормон</w>, снижая влияние эстрогена.",
+                            "target_lang_translations": {
+                                "en": "The doctor explained that this drug works as an <w>antihormone</w>, reducing the influence of estrogen."
+                            }
                         },
                         {
-                            "text": "Синтетический <w>антигормон</w> используется для лечения некоторых эндокринных заболеваний."
+                            "text": "Синтетический <w>антигормон</w> используется для лечения некоторых эндокринных заболеваний.",
+                            "target_lang_translations": {
+                                "en": "A synthetic <w>antihormone</w> is used to treat certain endocrine diseases."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,21 @@
                         "действие антигормонов",
                         "применение антигормонов"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A substance that suppresses or blocks the biological activity of hormones in the body."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "antihormone",
+                                "target_lang_sense_clarification": "substance inhibiting hormone function"
+                            },
+                            {
+                                "target_lang_word": "hormone antagonist",
+                                "target_lang_sense_clarification": "medical/biochemical term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

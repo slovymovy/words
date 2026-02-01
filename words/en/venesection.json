@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor ordered a <w>venesection</w> to help reduce the excess iron in the patient's blood."
+                            "text": "The doctor ordered a <w>venesection</w> to help reduce the excess iron in the patient's blood.",
+                            "target_lang_translations": {
+                                "ru": "Врач назначил <w>кровопускание</w>, чтобы помочь снизить избыток железа в крови пациента."
+                            }
                         },
                         {
-                            "text": "Although it sounds outdated, therapeutic <w>venesection</w> is still used for specific blood disorders."
+                            "text": "Although it sounds outdated, therapeutic <w>venesection</w> is still used for specific blood disorders.",
+                            "target_lang_translations": {
+                                "ru": "Хотя это и звучит старомодно, лечебное <w>кровопускание</w> всё ещё используется при определённых заболеваниях крови."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +34,21 @@
                         "perform a venesection",
                         "therapeutic venesection"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "procedure"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Хирургическое вскрытие или прокол вены, как правило, для забора крови или проведения медицинских процедур."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "кровопускание",
+                                "target_lang_sense_clarification": "забор крови в лечебных целях"
+                            },
+                            {
+                                "target_lang_word": "венесекция",
+                                "target_lang_sense_clarification": "хирургическое вскрытие вены"
+                            }
+                        ]
+                    }
                 }
             ]
         }

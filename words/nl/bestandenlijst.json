@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het programma maakt automatisch een <w>bestandenlijst</w> aan van alle documenten in de map."
+                            "text": "Het programma maakt automatisch een <w>bestandenlijst</w> aan van alle documenten in de map.",
+                            "target_lang_translations": {
+                                "en": "The program automatically creates a <w>file list</w> of all documents in the folder.",
+                                "ru": "Программа автоматически создает <w>список файлов</w> из всех документов в папке."
+                            }
                         },
                         {
-                            "text": "Kun je de <w>bestandenlijst</w> controleren om te zien of we niets vergeten zijn te kopiëren?"
+                            "text": "Kun je de <w>bestandenlijst</w> controleren om te zien of we niets vergeten zijn te kopiëren?",
+                            "target_lang_translations": {
+                                "en": "Can you check the <w>file list</w> to see if we haven't forgotten to copy anything?",
+                                "ru": "Можешь проверить <w>список файлов</w>, чтобы убедиться, что мы ничего не забыли скопировать?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "een bestandenlijst genereren",
                         "de bestandenlijst exporteren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A list or overview of computer files located in a specific folder or on a storage medium.",
+                        "ru": "Список или перечень компьютерных файлов, находящихся в определенной папке или на носителе информации."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "file list",
+                                "target_lang_sense_clarification": "computing"
+                            },
+                            {
+                                "target_lang_word": "list of files",
+                                "target_lang_sense_clarification": "general description"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "список файлов",
+                                "target_lang_sense_clarification": "перечень файлов в папке или системе"
+                            },
+                            {
+                                "target_lang_word": "перечень файлов",
+                                "target_lang_sense_clarification": "формальный список документов или данных"
+                            }
+                        ]
+                    }
                 }
             ]
         }

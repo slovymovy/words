@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The patient was administered a specific <w>millicurie</w> dose of radioactive iodine for the therapy."
+                            "text": "The patient was administered a specific <w>millicurie</w> dose of radioactive iodine for the therapy.",
+                            "target_lang_translations": {
+                                "ru": "Пациенту была введена определенная доза радиоактивного йода в <w>милликюри</w> для проведения терапии."
+                            }
                         },
                         {
-                            "text": "Researchers carefully measured the sample to ensure it did not exceed one <w>millicurie</w> of activity."
+                            "text": "Researchers carefully measured the sample to ensure it did not exceed one <w>millicurie</w> of activity.",
+                            "target_lang_translations": {
+                                "ru": "Исследователи тщательно измерили образец, чтобы убедиться, что его активность не превышает одного <w>милликюри</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,16 +36,17 @@
                         "millicuries of activity",
                         "per millicurie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "physics and chemistry"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "nuclear medicine"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Единица измерения радиоактивности, равная одной тысячной кюри."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "милликюри",
+                                "target_lang_sense_clarification": "единица измерения"
+                            }
+                        ]
+                    }
                 }
             ]
         }

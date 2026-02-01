@@ -1,79 +1,36 @@
 {
     "word_family": [
-        "przód",
-        "przedni",
-        "uprzedzać",
-        "uprzedni",
-        "przedtem",
-        "uprzedzenie",
-        "przodek"
+        "przedpokój",
+        "przedszkole",
+        "przedmowa",
+        "przedświt",
+        "przedsmak",
+        "przedbieg",
+        "przedsionek"
     ],
     "entries": [
         {
             "pos": "preposition",
             "senses": [
                 {
-                    "sense_id": "4cc3117e-9bae-3214-a2a9-57cf91c3d125",
-                    "sense_definition": "Wskazuje na miejsce znajdujące się po frontowej stronie kogoś lub czegoś; naprzeciwko.",
-                    "learner_level": "A1",
-                    "frequency": "High",
-                    "semantic_group_id": "location_static",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Mój samochód stoi zaparkowany <w>przed</w> domem sąsiada."
-                        },
-                        {
-                            "text": "Dzieci bawiły się wesoło <w>przed</w> szkołą podczas dużej przerwy."
-                        }
-                    ],
-                    "antonyms": [
-                        "za"
-                    ],
-                    "common_phrases": [
-                        "przed domem",
-                        "przed szkołą",
-                        "tuż przed",
-                        "stać przed"
-                    ]
-                },
-                {
-                    "sense_id": "ebc233b9-0906-39e0-a67c-c3f0e3feb54b",
-                    "sense_definition": "Wskazuje kierunek ruchu w stronę miejsca znajdującego się po frontowej stronie obiektu.",
-                    "learner_level": "A1",
-                    "frequency": "High",
-                    "semantic_group_id": "location_dynamic",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Pies wybiegł radośnie <w>przed</w> bramę, by powitać gości."
-                        },
-                        {
-                            "text": "Taksówka podjechała <w>przed</w> wejście główne do hotelu."
-                        }
-                    ],
-                    "antonyms": [
-                        "za"
-                    ],
-                    "common_phrases": [
-                        "wyjść przed",
-                        "zajechać przed",
-                        "wybiec przed"
-                    ]
-                },
-                {
                     "sense_id": "ffe1e1fb-d9bc-3182-9beb-a682ed4f57e5",
-                    "sense_definition": "Wskazuje na czas wcześniejszy od momentu lub wydarzenia określonego przez rzeczownik.",
+                    "sense_definition": "Wskazuje na czas wcześniejszy w stosunku do innego wydarzenia, momentu lub terminu.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "time_relative",
+                    "semantic_group_id": "time_relation",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Musimy skończyć ten trudny projekt <w>przed</w> końcem tygodnia."
+                            "text": "Musimy skończyć ten ważny projekt <w>przed</w> końcem tygodnia.",
+                            "target_lang_translations": {
+                                "ru": "Мы должны закончить этот важный проект <w>до</w> конца недели."
+                            }
                         },
                         {
-                            "text": "Zawsze dokładnie myję ręce <w>przed</w> jedzeniem posiłku."
+                            "text": "Zawsze dokładnie myję ręce <w>przed</w> każdym posiłkiem.",
+                            "target_lang_translations": {
+                                "ru": "Я всегда тщательно мою руки <w>перед</w> каждым приёмом пищи."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -83,44 +40,212 @@
                         "przed chwilą",
                         "przed czasem",
                         "przed południem",
-                        "przed wojną"
-                    ]
+                        "dzień przed"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Указывает на время, предшествующее другому событию, моменту или сроку."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перед",
+                                "target_lang_sense_clarification": "непосредственно перед событием"
+                            },
+                            {
+                                "target_lang_word": "до",
+                                "target_lang_sense_clarification": "раньше определенного срока"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "4cc3117e-9bae-3214-a2a9-57cf91c3d125",
+                    "sense_definition": "Wskazuje, że ktoś lub coś znajduje się po frontowej stronie innego obiektu.",
+                    "learner_level": "A1",
+                    "frequency": "High",
+                    "semantic_group_id": "spatial_static",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Mój samochód stoi zaparkowany <w>przed</w> dużym, białym domem.",
+                            "target_lang_translations": {
+                                "ru": "Моя машина припаркована <w>перед</w> большим белым домом."
+                            }
+                        },
+                        {
+                            "text": "Dzieci bawiły się wesoło <w>przed</w> szkołą po zakończonych lekcjach.",
+                            "target_lang_translations": {
+                                "ru": "Дети весело играли <w>перед</w> школой после уроков."
+                            }
+                        }
+                    ],
+                    "antonyms": [
+                        "za"
+                    ],
+                    "common_phrases": [
+                        "przed domem",
+                        "przed oczami",
+                        "tuż przed"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Указывает, что кто-то или что-то находится с лицевой стороны другого объекта."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перед",
+                                "target_lang_sense_clarification": "напротив, спереди от чего-либо"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "ebc233b9-0906-39e0-a67c-c3f0e3feb54b",
+                    "sense_definition": "Określa ruch skierowany w stronę miejsca znajdującego się po frontowej stronie obiektu.",
+                    "learner_level": "A2",
+                    "frequency": "High",
+                    "semantic_group_id": "spatial_dynamic",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Pies wybiegł radośnie <w>przed</w> bramę, aby powitać gości.",
+                            "target_lang_translations": {
+                                "ru": "Собака радостно выбежала <w>за</w> ворота, чтобы поприветствовать гостей."
+                            }
+                        },
+                        {
+                            "text": "Wyszedł <w>przed</w> budynek, żeby zaczerpnąć trochę świeżego powietrza.",
+                            "target_lang_translations": {
+                                "ru": "Он вышел <w>перед</w> зданием, чтобы подышать свежим воздухом."
+                            }
+                        }
+                    ],
+                    "antonyms": [
+                        "za"
+                    ],
+                    "common_phrases": [
+                        "wyjść przed szereg",
+                        "zajechać przed bramę"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Обозначает движение в сторону места, находящегося с лицевой стороны объекта."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перед",
+                                "target_lang_sense_clarification": "направление движения к месту спереди"
+                            },
+                            {
+                                "target_lang_word": "к",
+                                "target_lang_sense_clarification": "направление к объекту"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4a8291e7-7754-3508-a6ea-33895ca08fd4",
-                    "sense_definition": "Wskazuje na przyczynę, zagrożenie lub obiekt, którego się unika lub przed którym się chroni.",
+                    "sense_definition": "Wskazuje na czynnik, który jest przyczyną lęku, ucieczki lub przed którym należy się chronić.",
                     "learner_level": "B1",
                     "frequency": "Middle",
                     "semantic_group_id": "cause_protection",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dobry krem z filtrem chroni skórę <w>przed</w> słońcem."
+                            "text": "Rodzice starają się chronić swoje dzieci <w>przed</w> niebezpieczeństwem.",
+                            "target_lang_translations": {
+                                "ru": "Родители стараются защитить своих детей <w>от</w> опасности."
+                            }
                         },
                         {
-                            "text": "Złodziej próbował szybko uciekać <w>przed</w> goniącymi go policjantami."
+                            "text": "Złodziej szybko uciekał <w>przed</w> goniącymi go policjantami.",
+                            "target_lang_translations": {
+                                "ru": "Вор быстро убегал <w>от</w> преследующих его полицейских."
+                            }
                         }
                     ],
                     "common_phrases": [
-                        "chronić przed",
-                        "uciekać przed",
                         "strach przed",
+                        "ucieczka przed",
+                        "chronić przed",
                         "ostrzegać przed"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Указывает на фактор, вызывающий страх, или от которого нужно защищаться."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "от",
+                                "target_lang_sense_clarification": "защита, бегство"
+                            },
+                            {
+                                "target_lang_word": "перед",
+                                "target_lang_sense_clarification": "страх, трепет"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "f763e547-33b3-3273-8980-c28b922c6ddd",
+                    "sense_definition": "Wskazuje na obecność osób, często pełniących funkcje oficjalne, w obliczu których coś się dzieje.",
+                    "learner_level": "B2",
+                    "frequency": "Low",
+                    "semantic_group_id": "authority_context",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Oskarżony musiał tłumaczyć się ze swoich czynów <w>przed</w> sądem.",
+                            "target_lang_translations": {
+                                "ru": "Обвиняемый должен был объяснять свои поступки <w>перед</w> судом."
+                            }
+                        },
+                        {
+                            "text": "Młoda para składała przysięgę małżeńską <w>przed</w> ołtarzem.",
+                            "target_lang_translations": {
+                                "ru": "Молодая пара давала брачную клятву <w>перед</w> алтарём."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "przed obliczem"
+                    ],
+                    "common_phrases": [
+                        "odpowiadać przed sądem",
+                        "stanąć przed komisją",
+                        "przed Bogiem"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Указывает на присутствие лиц, часто официальных, перед которыми что-либо происходит."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перед",
+                                "target_lang_sense_clarification": "в присутствии кого-либо"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5f40eaea-2dc3-315a-9058-e1f7159dcbb0",
-                    "sense_definition": "Wskazuje na odcinek czasu, który upłynął od danego wydarzenia do chwili obecnej (dawniej).",
-                    "learner_level": "B1",
-                    "frequency": "Middle",
+                    "sense_definition": "Wskazuje, jak dawno temu coś się wydarzyło; używane w konstrukcjach określających przeszłość.",
+                    "learner_level": "C1",
+                    "frequency": "Low",
                     "semantic_group_id": "time_ago",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Przeprowadziliśmy się do tego pięknego miasta <w>przed</w> dwoma laty."
+                            "text": "To ważne wydarzenie historyczne miało miejsce <w>przed</w> wielu laty.",
+                            "target_lang_translations": {
+                                "ru": "Это важное историческое событие произошло много лет <w>назад</w>."
+                            }
                         },
                         {
-                            "text": "To ważne wydarzenie historyczne miało miejsce <w>przed</w> wiekami."
+                            "text": "Poznaliśmy się <w>przed</w> dwoma laty na konferencji w Warszawie.",
+                            "target_lang_translations": {
+                                "ru": "Мы познакомились два года <w>назад</w> на конференции в Варшаве."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -128,45 +253,25 @@
                     ],
                     "common_phrases": [
                         "przed laty",
-                        "przed wiekami",
-                        "przed rokiem"
+                        "przed wiekami"
                     ],
                     "traits": [
                         {
-                            "trait_type": "literary",
-                            "comment": "often used in slightly more formal or literary contexts compared to 'temu'"
-                        }
-                    ]
-                },
-                {
-                    "sense_id": "f763e547-33b3-3273-8980-c28b922c6ddd",
-                    "sense_definition": "Wskazuje na obecność kogoś ważnego, kto jest świadkiem, sędzią lub autorytetem w danej sytuacji.",
-                    "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "authority",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Oskarżony musiał stanąć <w>przed</w> sądem i złożyć wyjaśnienia."
-                        },
-                        {
-                            "text": "Młoda para przysięgała sobie wierność i miłość <w>przed</w> ołtarzem."
+                            "trait_type": "form",
+                            "comment": "literary or formal compared to 'temu'"
                         }
                     ],
-                    "synonyms": [
-                        "przed obliczem"
-                    ],
-                    "common_phrases": [
-                        "przed sądem",
-                        "przed obliczem",
-                        "odpowiadać przed"
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "used in legal, religious, or ceremonial contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Указывает, как давно что-то произошло; используется в конструкциях, обозначающих прошлое."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "назад",
+                                "target_lang_sense_clarification": "указание на отрезок времени в прошлом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

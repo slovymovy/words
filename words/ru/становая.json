@@ -17,18 +17,29 @@
                     "name_type": "geographical_feature",
                     "examples": [
                         {
-                            "text": "Небольшая река <w>Становая</w> протекает через густой лес и впадает в озеро."
+                            "text": "Небольшая река <w>Становая</w> протекает через густой лес и впадает в озеро.",
+                            "target_lang_translations": {
+                                "en": "The small <w>Stanovaya</w> river flows through a dense forest and empties into a lake."
+                            }
                         },
                         {
-                            "text": "На подробной карте области была отмечена река <w>Становая</w>."
+                            "text": "На подробной карте области была отмечена река <w>Становая</w>.",
+                            "target_lang_translations": {
+                                "en": "The <w>Stanovaya</w> river was marked on the detailed map of the region."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "river"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A river in Russia."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Stanovaya",
+                                "target_lang_sense_clarification": "river name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

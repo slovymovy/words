@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В порт зашёл огромный <w>крупнотоннажный</w> танкер с нефтью."
+                            "text": "В порт зашёл огромный <w>крупнотоннажный</w> танкер с нефтью.",
+                            "target_lang_translations": {
+                                "en": "A huge <w>large-tonnage</w> oil tanker entered the port."
+                            }
                         },
                         {
-                            "text": "Современный <w>крупнотоннажный</w> флот играет ключевую роль в мировой торговле."
+                            "text": "Современный <w>крупнотоннажный</w> флот играет ключевую роль в мировой торговле.",
+                            "target_lang_translations": {
+                                "en": "The modern <w>large-tonnage</w> fleet plays a key role in global trade."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,21 @@
                         "крупнотоннажный флот",
                         "крупнотоннажный танкер"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "logistics and transport"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Having a large cargo capacity (usually referring to ships)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "large-tonnage",
+                                "target_lang_sense_clarification": "referring to ships or vehicles with high cargo weight"
+                            },
+                            {
+                                "target_lang_word": "large-capacity",
+                                "target_lang_sense_clarification": "general term for holding a large amount"
+                            }
+                        ]
+                    }
                 }
             ]
         }

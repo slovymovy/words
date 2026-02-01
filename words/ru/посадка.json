@@ -5,54 +5,33 @@
         "пересадка",
         "высадка",
         "посадочный",
-        "саженец",
         "рассада",
-        "сад",
-        "садовник"
+        "саженец",
+        "насаждение"
     ],
     "entries": [
         {
             "pos": "noun",
             "senses": [
                 {
-                    "sense_id": "81e0f26a-b45e-31a1-a0f4-48e166626c84",
-                    "sense_definition": "Вход пассажиров в транспортное средство (самолёт, поезд, автобус, судно) перед отправлением.",
-                    "learner_level": "A2",
-                    "frequency": "High",
-                    "semantic_group_id": "transport_process",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "<Посадка> на наш рейс начинается через двадцать минут."
-                        },
-                        {
-                            "text": "Пассажиры ожидали <посадку> в специальном зале аэропорта."
-                        }
-                    ],
-                    "antonyms": [
-                        "высадка"
-                    ],
-                    "common_phrases": [
-                        "посадка на рейс",
-                        "посадка в поезд",
-                        "талон на посадку",
-                        "объявить посадку",
-                        "идёт посадка"
-                    ]
-                },
-                {
                     "sense_id": "132fca53-64db-3cc2-906c-fb7ac0c5dbda",
-                    "sense_definition": "Приземление летательного аппарата (самолёта, вертолёта) на землю, воду или другую поверхность.",
+                    "sense_definition": "Спуск и приземление летательного аппарата (самолёта, вертолёта) на землю или воду.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "transport_process",
+                    "semantic_group_id": "aviation",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Пилот мастерски совершил <посадку> в сложных погодных условиях."
+                            "text": "Самолёт совершил мягкую <w>посадку</w> в аэропорту.",
+                            "target_lang_translations": {
+                                "en": "The plane made a soft <w>landing</w> at the airport."
+                            }
                         },
                         {
-                            "text": "Самолёт запросил разрешение на аварийную <посадку>."
+                            "text": "Из-за сильного тумана <w>посадка</w> была отложена.",
+                            "target_lang_translations": {
+                                "en": "Due to heavy fog, the <w>landing</w> was delayed."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -65,53 +44,135 @@
                         "вынужденная посадка",
                         "мягкая посадка",
                         "идти на посадку",
-                        "совершить посадку",
                         "аварийная посадка"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The descent and landing of an aircraft (plane, helicopter) on ground or water."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "landing",
+                                "target_lang_sense_clarification": "aviation"
+                            },
+                            {
+                                "target_lang_word": "touchdown",
+                                "target_lang_sense_clarification": "moment of landing"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "81e0f26a-b45e-31a1-a0f4-48e166626c84",
+                    "sense_definition": "Процесс входа пассажиров в транспортное средство (самолёт, поезд, автобус) перед отправлением.",
+                    "learner_level": "B1",
+                    "frequency": "High",
+                    "semantic_group_id": "transport",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Объявлена <w>посадка</w> на рейс до Москвы.",
+                            "target_lang_translations": {
+                                "en": "<w>Boarding</w> for the flight to Moscow has been announced."
+                            }
+                        },
+                        {
+                            "text": "Пассажиры должны предъявить билет при <w>посадке</w> в вагон.",
+                            "target_lang_translations": {
+                                "en": "Passengers must show their ticket upon <w>boarding</w> the carriage."
+                            }
+                        }
+                    ],
+                    "antonyms": [
+                        "высадка"
+                    ],
+                    "common_phrases": [
+                        "посадка на рейс",
+                        "посадка в поезд",
+                        "талон на посадку",
+                        "посадка закончена"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The process of passengers entering a vehicle (plane, train, bus) before departure."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "boarding",
+                                "target_lang_sense_clarification": "entering a vehicle"
+                            },
+                            {
+                                "target_lang_word": "embarkation",
+                                "target_lang_sense_clarification": "formal"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "549e1297-e579-318f-a283-9b5c77263656",
-                    "sense_definition": "Процесс помещения растений, семян или саженцев в землю для их выращивания.",
+                    "sense_definition": "Помещение семян, саженцев или растений в землю для их выращивания.",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "agriculture",
+                    "semantic_group_id": "agriculture_action",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Весной на даче начинается массовая <посадка> овощей."
+                            "text": "Весной начинается <w>посадка</w> овощей в огороде.",
+                            "target_lang_translations": {
+                                "en": "In spring, the <w>planting</w> of vegetables in the garden begins."
+                            }
                         },
                         {
-                            "text": "<Посадка> деревьев в городском парке прошла успешно и быстро."
+                            "text": "Для <w>посадки</w> деревьев нужно выбрать правильное место.",
+                            "target_lang_translations": {
+                                "en": "You need to choose the right place for the <w>planting</w> of trees."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "высаживание",
-                        "сев"
+                        "высаживание"
                     ],
                     "antonyms": [
-                        "сбор",
-                        "выкапывание"
+                        "выкапывание",
+                        "сбор"
                     ],
                     "common_phrases": [
-                        "время посадки",
                         "посадка картофеля",
-                        "посадка цветов",
-                        "готовить к посадке"
-                    ]
+                        "время посадки",
+                        "посадка деревьев",
+                        "плотность посадки"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Placing seeds, seedlings, or plants into the ground for cultivation."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "planting",
+                                "target_lang_sense_clarification": "agriculture action"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "efcbf448-b0c4-3dc2-8069-b3382d96a546",
-                    "sense_definition": "Участок земли, засаженный растениями, или сами эти растения (обычно деревья или кустарники).",
+                    "sense_definition": "Посаженные растения, деревья, кустарники или лесные полосы.",
                     "learner_level": "B2",
-                    "frequency": "Low",
-                    "semantic_group_id": "agriculture",
+                    "frequency": "Middle",
+                    "semantic_group_id": "agriculture_result",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Вдоль дороги тянулись густые лесные <посадки>, защищающие поля от ветра."
+                            "text": "Вдоль дороги тянулись густые лесные <w>посадки</w>.",
+                            "target_lang_translations": {
+                                "en": "Thick forest <w>plantings</w> stretched along the road."
+                            }
                         },
                         {
-                            "text": "Фермер внимательно осмотрел свои <посадки> после сильного дождя."
+                            "text": "Молодые <w>посадки</w> требуют регулярного полива.",
+                            "target_lang_translations": {
+                                "en": "Young <w>plantings</w> require regular watering."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -119,103 +180,162 @@
                     ],
                     "common_phrases": [
                         "лесные посадки",
-                        "молодые посадки",
                         "зелёные посадки",
-                        "защитные посадки"
-                    ]
+                        "молодые посадки"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Planted plants, trees, shrubs, or forest strips."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "plantings",
+                                "target_lang_sense_clarification": "cultivated plants or trees"
+                            },
+                            {
+                                "target_lang_word": "plantation",
+                                "target_lang_sense_clarification": "large scale farming or trees"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "36170346-3f16-32cb-8fc6-e78a23a0442f",
-                    "sense_definition": "Манера держать голову или корпус тела; положение человека в седле при верховой езде.",
+                    "sense_definition": "Манера держать тело, поза (обычно при верховой езде или о положении головы).",
                     "learner_level": "C1",
                     "frequency": "Low",
                     "semantic_group_id": "posture",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "У этой девушки была очень красивая и гордая <посадка> головы."
+                            "text": "У неё была гордая <w>посадка</w> головы.",
+                            "target_lang_translations": {
+                                "en": "She had a proud <w>carriage</w> of the head."
+                            }
                         },
                         {
-                            "text": "Тренер долго корректировал мою <посадку> в седле, чтобы я не уставал."
+                            "text": "Тренер похвалил мою уверенную <w>посадку</w> в седле.",
+                            "target_lang_translations": {
+                                "en": "The coach praised my confident <w>seat</w> in the saddle."
+                            }
                         }
                     ],
                     "synonyms": [
                         "осанка"
                     ],
                     "common_phrases": [
-                        "гордая посадка головы",
-                        "правильная посадка",
+                        "посадка головы",
                         "кавалерийская посадка",
-                        "низкая посадка"
-                    ]
-                },
-                {
-                    "sense_id": "9000ef9b-7322-3d4c-8d34-ffcf288ea33b",
-                    "sense_definition": "Тюремное заключение, арест или лишение свободы.",
-                    "learner_level": "C2",
-                    "frequency": "Low",
-                    "semantic_group_id": "legal_slang",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "В газетах писали про громкие <посадки> коррумпированных чиновников."
-                        },
-                        {
-                            "text": "После суда его ждала долгая <посадка> в колонии строгого режима."
-                        }
+                        "правильная посадка"
                     ],
-                    "synonyms": [
-                        "заключение",
-                        "арест"
-                    ],
-                    "antonyms": [
-                        "освобождение"
-                    ],
-                    "common_phrases": [
-                        "массовые посадки",
-                        "громкие посадки"
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "slang",
-                            "comment": "used in context of crime or political repression"
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The manner of holding one's body or pose (usually in horseback riding or head position)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "seat",
+                                "target_lang_sense_clarification": "horsemanship"
+                            },
+                            {
+                                "target_lang_word": "carriage",
+                                "target_lang_sense_clarification": "posture of head or body"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "dbde5c9e-00d4-3c7f-824c-cab9f075b6db",
-                    "sense_definition": "Способ соединения деталей машин, определяющий степень их подвижности или неподвижности относительно друг друга.",
+                    "sense_definition": "Характер соединения деталей, определяемый величиной зазора между ними.",
                     "learner_level": "C2",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "engineering",
+                    "frequency": "Low",
+                    "semantic_group_id": "technical",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Для этого механизма требуется очень точная <посадка> деталей."
+                            "text": "Инженер проверил точность <w>посадки</w> детали.",
+                            "target_lang_translations": {
+                                "en": "The engineer checked the precision of the part's <w>fit</w>."
+                            }
                         },
                         {
-                            "text": "Инженер рассчитал <посадку> с натягом для надёжного соединения вала."
+                            "text": "Для этого механизма требуется плотная <w>посадка</w>.",
+                            "target_lang_translations": {
+                                "en": "This mechanism requires a tight <w>fit</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "посадка с натягом",
-                        "скользящая посадка",
-                        "прессовая посадка"
+                        "посадка с зазором"
                     ],
                     "traits": [
                         {
-                            "trait_type": "technical",
-                            "comment": "engineering context"
+                            "trait_type": "regional",
+                            "comment": "technical"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The nature of the connection between parts, determined by the gap size."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fit",
+                                "target_lang_sense_clarification": "engineering/technical"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "9000ef9b-7322-3d4c-8d34-ffcf288ea33b",
+                    "sense_definition": "Лишение свободы, помещение в тюрьму.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "crime",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "После <w>посадки</w> его жизнь сильно изменилась.",
+                            "target_lang_translations": {
+                                "en": "After his <w>imprisonment</w>, his life changed significantly."
+                            }
                         },
                         {
-                            "trait_type": "specialized",
+                            "text": "Громкая <w>посадка</w> чиновника обсуждалась во всех новостях.",
+                            "target_lang_translations": {
+                                "en": "The high-profile <w>jailing</w> of the official was discussed in all the news."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "арест",
+                        "заключение"
+                    ],
+                    "antonyms": [
+                        "освобождение"
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "slang",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Deprivation of liberty, imprisonment."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "imprisonment",
+                                "target_lang_sense_clarification": "legal status"
+                            },
+                            {
+                                "target_lang_word": "jailing",
+                                "target_lang_sense_clarification": "act of putting in jail"
+                            }
+                        ]
+                    }
                 }
             ]
         }

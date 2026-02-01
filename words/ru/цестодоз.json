@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ветеринар диагностировал у собаки <w>цестодоз</w> после осмотра."
+                            "text": "Ветеринар диагностировал у собаки <w>цестодоз</w> после осмотра.",
+                            "target_lang_translations": {
+                                "en": "The veterinarian diagnosed the dog with <w>cestodosis</w> after the examination."
+                            }
                         },
                         {
-                            "text": "Своевременная профилактика помогает предотвратить <w>цестодоз</w> у сельскохозяйственных животных."
+                            "text": "Своевременная профилактика помогает предотвратить <w>цестодоз</w> у сельскохозяйственных животных.",
+                            "target_lang_translations": {
+                                "en": "Timely prevention helps avoid <w>cestodosis</w> in farm animals."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,16 +32,21 @@
                         "профилактика цестодозов",
                         "диагностика цестодоза"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A disease in humans or animals caused by tapeworms (cestodes)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cestodosis",
+                                "target_lang_sense_clarification": "medical term"
+                            },
+                            {
+                                "target_lang_word": "tapeworm infection",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

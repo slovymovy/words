@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот <w>фоторезистор</w> используется в системе автоматического включения уличного освещения."
+                            "text": "Этот <w>фоторезистор</w> используется в системе автоматического включения уличного освещения.",
+                            "target_lang_translations": {
+                                "en": "This <w>photoresistor</w> is used in the automatic street lighting system."
+                            }
                         },
                         {
-                            "text": "При попадании яркого света на <w>фоторезистор</w> его сопротивление значительно уменьшается."
+                            "text": "При попадании яркого света на <w>фоторезистор</w> его сопротивление значительно уменьшается.",
+                            "target_lang_translations": {
+                                "en": "When bright light hits the <w>photoresistor</w>, its resistance decreases significantly."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "сопротивление фоторезистора",
                         "подключить фоторезистор"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "электроника"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A semiconductor device that changes its electrical resistance when exposed to light."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "photoresistor",
+                                "target_lang_sense_clarification": "electronic component"
+                            },
+                            {
+                                "target_lang_word": "light-dependent resistor",
+                                "target_lang_sense_clarification": "technical term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

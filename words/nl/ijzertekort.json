@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De dokter stelde vast dat haar extreme vermoeidheid werd veroorzaakt door een <w>ijzertekort</w>."
+                            "text": "De dokter stelde vast dat haar extreme vermoeidheid werd veroorzaakt door een <w>ijzertekort</w>.",
+                            "target_lang_translations": {
+                                "en": "The doctor determined that her extreme fatigue was caused by an <w>iron deficiency</w>.",
+                                "ru": "Врач установил, что её сильная усталость была вызвана <w>дефицитом железа</w>."
+                            }
                         },
                         {
-                            "text": "Mensen die geen vlees eten, moeten goed opletten dat ze geen <w>ijzertekort</w> ontwikkelen."
+                            "text": "Mensen die geen vlees eten, moeten goed opletten dat ze geen <w>ijzertekort</w> ontwikkelen.",
+                            "target_lang_translations": {
+                                "en": "People who do not eat meat must be careful not to develop an <w>iron deficiency</w>.",
+                                "ru": "Люди, которые не едят мясо, должны внимательно следить за тем, чтобы у них не развился <w>дефицит железа</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +39,36 @@
                         "ernstig ijzertekort",
                         "symptomen van ijzertekort"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context of health and medicine"
-                        },
-                        {
-                            "trait_type": "culinary",
-                            "comment": "related to nutrition"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical condition where there is too little iron present in the body, which can lead to anemia and fatigue.",
+                        "ru": "Медицинское состояние, характеризующееся недостаточным содержанием железа в организме, что может привести к анемии и повышенной утомляемости."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "iron deficiency",
+                                "target_lang_sense_clarification": "medical condition"
+                            },
+                            {
+                                "target_lang_word": "lack of iron",
+                                "target_lang_sense_clarification": "general description"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дефицит железа",
+                                "target_lang_sense_clarification": "медицинское состояние"
+                            },
+                            {
+                                "target_lang_word": "недостаток железа",
+                                "target_lang_sense_clarification": "общее описание"
+                            },
+                            {
+                                "target_lang_word": "железодефицит",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "f3e6424b-091a-3815-a3e6-c077cacedccf",
@@ -51,10 +79,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Door het wereldwijde <w>ijzertekort</w> zijn de prijzen van staal enorm gestegen."
+                            "text": "Door het wereldwijde <w>ijzertekort</w> zijn de prijzen van staal enorm gestegen.",
+                            "target_lang_translations": {
+                                "en": "Due to the global <w>iron shortage</w>, steel prices have risen enormously.",
+                                "ru": "Из-за глобальной <w>нехватки железа</w> цены на сталь сильно выросли."
+                            }
                         },
                         {
-                            "text": "De fabriek moest de productie tijdelijk stilleggen vanwege een acuut <w>ijzertekort</w>."
+                            "text": "De fabriek moest de productie tijdelijk stilleggen vanwege een acuut <w>ijzertekort</w>.",
+                            "target_lang_translations": {
+                                "en": "The factory had to temporarily halt production due to an acute <w>iron shortage</w>.",
+                                "ru": "Заводу пришлось временно остановить производство из-за острой <w>нехватки железа</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -67,12 +103,32 @@
                         "wereldwijd ijzertekort",
                         "dreigend ijzertekort"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "industrial and economic context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A situation where there is insufficient iron available as a raw material for industrial production.",
+                        "ru": "Ситуация, при которой имеется недостаточное количество железа, доступного в качестве сырья для промышленного производства."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "iron shortage",
+                                "target_lang_sense_clarification": "supply chain issue"
+                            },
+                            {
+                                "target_lang_word": "scarcity of iron",
+                                "target_lang_sense_clarification": "limited availability"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "нехватка железа",
+                                "target_lang_sense_clarification": "проблема с поставками"
+                            },
+                            {
+                                "target_lang_word": "дефицит железа",
+                                "target_lang_sense_clarification": "рыночная ситуация"
+                            }
+                        ]
+                    }
                 }
             ]
         }

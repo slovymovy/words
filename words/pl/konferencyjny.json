@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nasza firma wynajęła dużą salę <w>konferencyjną</w> w centrum miasta."
+                            "text": "Nasza firma wynajęła dużą salę <w>konferencyjną</w> w centrum miasta.",
+                            "target_lang_translations": {
+                                "ru": "Наша фирма арендовала большой <w>конференц-</w>зал в центре города."
+                            }
                         },
                         {
-                            "text": "Uczestnicy usiedli przy długim stole <w>konferencyjnym</w>, aby rozpocząć obrady."
+                            "text": "Uczestnicy usiedli przy długim stole <w>konferencyjnym</w>, aby rozpocząć obrady.",
+                            "target_lang_translations": {
+                                "ru": "Участники сели за длинный <w>конференц-</w>стол, чтобы начать обсуждение."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,21 @@
                         "centrum konferencyjne",
                         "ośrodek konferencyjny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "słownictwo często używane w kontekście zawodowym i naukowym"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Связанный с конференцией, относящийся к ней или предназначенный для её проведения"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "конференционный",
+                                "target_lang_sense_clarification": "прилагательное"
+                            },
+                            {
+                                "target_lang_word": "конференц-...",
+                                "target_lang_sense_clarification": "первая часть сложных слов (напр. конференц-зал)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

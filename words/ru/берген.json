@@ -16,10 +16,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Мы решили посетить <w>Берген</w> во время нашего летнего путешествия по Скандинавии."
+                            "text": "Мы решили посетить <w>Берген</w> во время нашего летнего путешествия по Скандинавии.",
+                            "target_lang_translations": {
+                                "en": "We decided to visit <w>Bergen</w> during our summer trip through Scandinavia."
+                            }
                         },
                         {
-                            "text": "Красивый город <w>Берген</w> славится своей исторической набережной и частыми дождями."
+                            "text": "Красивый город <w>Берген</w> славится своей исторической набережной и частыми дождями.",
+                            "target_lang_translations": {
+                                "en": "The beautiful city of <w>Bergen</w> is famous for its historic waterfront and frequent rain."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "порт Бергена",
                         "поездка в Берген"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "город"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The name of a city in Norway, as well as several settlements in Germany, the Netherlands, and Belgium."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Bergen",
+                                "target_lang_sense_clarification": "city in Norway"
+                            }
+                        ]
+                    }
                 }
             ]
         }

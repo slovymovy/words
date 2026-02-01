@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The general practitioner decided to refer the patient to an <w>otorhinolaryngologist</w> for a more detailed examination of his hearing loss."
+                            "text": "The general practitioner decided to refer the patient to an <w>otorhinolaryngologist</w> for a more detailed examination of his hearing loss.",
+                            "target_lang_translations": {
+                                "ru": "Терапевт решил направить пациента к <w>оториноларингологу</w> для более детального обследования потери слуха."
+                            }
                         },
                         {
-                            "text": "You should consult an <w>otorhinolaryngologist</w> if you experience persistent pain in your ears or throat that does not resolve with standard treatment."
+                            "text": "You should consult an <w>otorhinolaryngologist</w> if you experience persistent pain in your ears or throat that does not resolve with standard treatment.",
+                            "target_lang_translations": {
+                                "ru": "Вам следует проконсультироваться с <w>оториноларингологом</w>, если вы испытываете постоянную боль в ушах или горле, которая не проходит при стандартном лечении."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,25 @@
                         "refer to an otorhinolaryngologist",
                         "visit an otorhinolaryngologist"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "specialized field"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "full technical term"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Врач, специализирующийся на изучении и лечении заболеваний уха, горла и носа."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "оториноларинголог",
+                                "target_lang_sense_clarification": "полный медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "отоларинголог",
+                                "target_lang_sense_clarification": "распространенный медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "ЛОР",
+                                "target_lang_sense_clarification": "аббревиатура, часто используемая в разговорной речи"
+                            }
+                        ]
+                    }
                 }
             ]
         }

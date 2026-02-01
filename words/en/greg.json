@@ -16,18 +16,44 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "My best friend is named <w>Greg</w>."
+                            "text": "My friend <w>Greg</w> plays the guitar in a local band.",
+                            "target_lang_translations": {
+                                "ru": "Мой друг <w>Грег</w> играет на гитаре в местной группе."
+                            }
                         },
                         {
-                            "text": "Please ask <w>Greg</w> if he wants to join us for lunch."
+                            "text": "If you need help with the project, you should ask <w>Greg</w>.",
+                            "target_lang_translations": {
+                                "ru": "Если тебе нужна помощь с проектом, тебе стоит попросить <w>Грега</w>."
+                            }
                         }
+                    ],
+                    "synonyms": [
+                        "Gregory",
+                        "Gregor"
+                    ],
+                    "common_phrases": [
+                        "ask Greg",
+                        "call Greg",
+                        "Uncle Greg"
                     ],
                     "traits": [
                         {
-                            "trait_type": "given_name",
-                            "comment": "male"
+                            "trait_type": "form",
+                            "comment": "diminutive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Уменьшительная форма мужских имен Грегори или Грегор."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Грег",
+                                "target_lang_sense_clarification": "мужское имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

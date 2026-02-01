@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn grootvader moet dagelijks <w>bloedverdunners</w> slikken om problemen met zijn hart te voorkomen."
+                            "text": "Mijn grootvader moet dagelijks <w>bloedverdunners</w> slikken om problemen met zijn hart te voorkomen.",
+                            "target_lang_translations": {
+                                "en": "My grandfather has to take <w>blood thinners</w> daily to prevent heart problems.",
+                                "ru": "Мой дедушка должен каждый день принимать <w>препараты для разжижения крови</w>, чтобы предотвратить проблемы с сердцем."
+                            }
                         },
                         {
-                            "text": "De arts heeft een sterke <w>bloedverdunner</w> voorgeschreven na de operatie."
+                            "text": "De arts heeft een sterke <w>bloedverdunner</w> voorgeschreven na de operatie.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed a strong <w>blood thinner</w> after the surgery.",
+                                "ru": "После операции врач прописал сильное <w>средство для разжижения крови</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "bloedverdunners slikken",
                         "voorgeschreven bloedverdunner"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medication that prevents blood from clotting too quickly, often used to prevent thrombosis or strokes.",
+                        "ru": "Лекарство, которое замедляет свертывание крови, часто используется для предотвращения тромбоза или инсультов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "blood thinner",
+                                "target_lang_sense_clarification": "common term"
+                            },
+                            {
+                                "target_lang_word": "anticoagulant",
+                                "target_lang_sense_clarification": "medical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "препарат для разжижения крови",
+                                "target_lang_sense_clarification": "общеупотребительное"
+                            },
+                            {
+                                "target_lang_word": "антикоагулянт",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

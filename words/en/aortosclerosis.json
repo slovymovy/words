@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The radiologist identified signs of <w>aortosclerosis</w> during the routine chest scan."
+                            "text": "The radiologist identified signs of <w>aortosclerosis</w> during the routine chest scan.",
+                            "target_lang_translations": {
+                                "ru": "Рентгенолог выявил признаки <w>аортосклероза</w> во время планового сканирования грудной клетки."
+                            }
                         },
                         {
-                            "text": "Patients with severe <w>aortosclerosis</w> are often monitored closely for cardiovascular risks."
+                            "text": "Patients with severe <w>aortosclerosis</w> are often monitored closely for cardiovascular risks.",
+                            "target_lang_translations": {
+                                "ru": "Пациенты с тяжелым <w>аортосклерозом</w> часто находятся под тщательным наблюдением из-за сердечно-сосудистых рисков."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,17 @@
                         "mild aortosclerosis",
                         "abdominal aortosclerosis"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "pathology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Атеросклероз, поражающий аорту."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "аортосклероз",
+                                "target_lang_sense_clarification": "склероз аорты"
+                            }
+                        ]
+                    }
                 }
             ]
         }

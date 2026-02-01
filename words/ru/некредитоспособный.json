@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Банк отказал в выдаче крупной ссуды, так как клиент оказался <w>некредитоспособным</w> заёмщиком."
+                            "text": "Банк отказал в выдаче крупной ссуды, так как клиент оказался <w>некредитоспособным</w> заёмщиком.",
+                            "target_lang_translations": {
+                                "en": "The bank refused to issue a large loan because the client turned out to be an <w>uncreditworthy</w> borrower."
+                            }
                         },
                         {
-                            "text": "Из-за экономического кризиса многие мелкие фирмы стали <w>некредитоспособными</w>."
+                            "text": "Из-за экономического кризиса многие мелкие фирмы стали <w>некредитоспособными</w>.",
+                            "target_lang_translations": {
+                                "en": "Due to the economic crisis, many small firms became <w>insolvent</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,21 @@
                         "признать некредитоспособным",
                         "абсолютно некредитоспособный"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "financial term"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Lacking the financial ability to repay a loan or debt on time."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "uncreditworthy",
+                                "target_lang_sense_clarification": "not qualifying for credit due to financial instability"
+                            },
+                            {
+                                "target_lang_word": "insolvent",
+                                "target_lang_sense_clarification": "unable to pay debts owed"
+                            }
+                        ]
+                    }
                 }
             ]
         }

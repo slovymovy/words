@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Пожалуйста, отправьте мне <w>сканированный</w> документ по электронной почте."
+                            "text": "Пожалуйста, отправьте мне <w>сканированный</w> документ по электронной почте.",
+                            "target_lang_translations": {
+                                "en": "Please send me the <w>scanned</w> document via email."
+                            }
                         },
                         {
-                            "text": "Этот <w>сканированный</w> файл занимает слишком много места на диске."
+                            "text": "Этот <w>сканированный</w> файл занимает слишком много места на диске.",
+                            "target_lang_translations": {
+                                "en": "This <w>scanned</w> file takes up too much space on the disk."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,23 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Passive past participle of the verb 'to scan'; denotes an object that has been converted into digital form using a scanner."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "scanned",
+                                "target_lang_sense_clarification": "converted to digital format"
+                            },
+                            {
+                                "target_lang_word": "digitized",
+                                "target_lang_sense_clarification": "converted into a digital form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

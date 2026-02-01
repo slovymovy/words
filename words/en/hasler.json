@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Hasler</w> will be joining the meeting shortly."
+                            "text": "Mr. <w>Hasler</w> will be joining the meeting shortly.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Хаслер</w> скоро присоединится к встрече."
+                            }
                         },
                         {
-                            "text": "The <w>Hasler</w> family has lived in this town for many years."
+                            "text": "The <w>Hasler</w> family has lived in this town for many years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Хаслеров</w> живет в этом городе уже много лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хаслер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

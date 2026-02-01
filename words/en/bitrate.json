@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Streaming high-definition video requires a stable connection with a high <w>bitrate</w>."
+                            "text": "Streaming high-definition video requires a stable connection with a high <w>bitrate</w>.",
+                            "target_lang_translations": {
+                                "ru": "Для потоковой передачи видео высокой четкости требуется стабильное соединение с высоким <w>битрейтом</w>."
+                            }
                         },
                         {
-                            "text": "The audio quality was poor because the file was saved at a very low <w>bitrate</w>."
+                            "text": "The audio quality was poor because the file was saved at a very low <w>bitrate</w>.",
+                            "target_lang_translations": {
+                                "ru": "Качество звука было плохим, так как файл был сохранен с очень низким <w>битрейтом</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "constant bitrate",
                         "video bitrate"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Скорость, с которой цифровые данные передаются или обрабатываются в сети или системе, обычно измеряемая в битах в секунду."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "битрейт",
+                                "target_lang_sense_clarification": "скорость прохождения битов информации"
+                            },
+                            {
+                                "target_lang_word": "скорость передачи данных",
+                                "target_lang_sense_clarification": "общий термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

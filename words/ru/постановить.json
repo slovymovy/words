@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Суд <w>постановил</w> выплатить пострадавшей стороне полную компенсацию ущерба."
+                            "text": "Суд <w>постановил</w> выплатить пострадавшей стороне полную компенсацию ущерба.",
+                            "target_lang_translations": {
+                                "en": "The court <w>ruled</w> to pay full compensation for damages to the injured party."
+                            }
                         },
                         {
-                            "text": "На общем собрании жильцы <w>постановили</w> провести ремонт в подъезде."
+                            "text": "На общем собрании жильцы <w>постановили</w> провести ремонт в подъезде.",
+                            "target_lang_translations": {
+                                "en": "At the general meeting, the tenants <w>resolved</w> to carry out repairs in the entrance hall."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,20 +42,25 @@
                         "единогласно постановить",
                         "постановить решение"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "характерно для официальной речи и документов"
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": "часто используется в судебной практике"
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": "используется в контексте управления и собраний"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To officially make a decision, issue a resolution, or pass a sentence regarding a specific issue."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "rule",
+                                "target_lang_sense_clarification": "legal or court decision"
+                            },
+                            {
+                                "target_lang_word": "decree",
+                                "target_lang_sense_clarification": "official order by authority"
+                            },
+                            {
+                                "target_lang_word": "resolve",
+                                "target_lang_sense_clarification": "formal decision by a group"
+                            }
+                        ]
+                    }
                 }
             ]
         }

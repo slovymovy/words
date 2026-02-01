@@ -13,18 +13,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего друга зовут <w>Гум</w>."
+                            "text": "Моего друга зовут <w>Гум</w>.",
+                            "target_lang_translations": {
+                                "en": "My friend's name is <w>Gum</w>."
+                            }
                         },
                         {
-                            "text": "Вчера <w>Гум</w> не пришёл на встречу, так как заболел."
+                            "text": "Вчера <w>Гум</w> не пришёл на встречу, так как заболел.",
+                            "target_lang_translations": {
+                                "en": "Yesterday <w>Gum</w> didn't come to the meeting because he got sick."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "мужское имя"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Gum",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

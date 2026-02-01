@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts stelde voor om een <w>weefselonderzoek</w> te laten uitvoeren om zekerheid te krijgen over de diagnose."
+                            "text": "De arts stelde voor om een <w>weefselonderzoek</w> te laten uitvoeren om zekerheid te krijgen over de diagnose.",
+                            "target_lang_translations": {
+                                "en": "The doctor suggested performing a <w>tissue examination</w> to get certainty about the diagnosis.",
+                                "ru": "Врач предложил провести <w>гистологическое исследование</w>, чтобы получить уверенность в диагнозе."
+                            }
                         },
                         {
-                            "text": "We moesten een week wachten op de uitslag van het <w>weefselonderzoek</w>."
+                            "text": "We moesten een week wachten op de uitslag van het <w>weefselonderzoek</w>.",
+                            "target_lang_translations": {
+                                "en": "We had to wait a week for the results of the <w>tissue examination</w>.",
+                                "ru": "Нам пришлось неделю ждать результатов <w>гистологического исследования</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,36 @@
                         "uitslag van het weefselonderzoek",
                         "pathologisch weefselonderzoek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Medical examination of the structure and properties of a group of body cells to diagnose diseases or abnormalities.",
+                        "ru": "Медицинское исследование структуры и свойств тканей организма для диагностики заболеваний или патологий."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tissue examination",
+                                "target_lang_sense_clarification": "analysis of biological tissue"
+                            },
+                            {
+                                "target_lang_word": "biopsy",
+                                "target_lang_sense_clarification": "common medical term"
+                            },
+                            {
+                                "target_lang_word": "histological examination",
+                                "target_lang_sense_clarification": "technical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "гистологическое исследование",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "анализ тканей",
+                                "target_lang_sense_clarification": "общее описание"
+                            }
+                        ]
+                    }
                 }
             ]
         }

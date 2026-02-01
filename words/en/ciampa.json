@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment with Mr. <w>Ciampa</w> later this afternoon."
+                            "text": "We have an appointment with Mr. <w>Ciampa</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначена встреча с мистером <w>Чампой</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "The <w>Ciampa</w> family is well known in the local community for their bakery."
+                            "text": "The <w>Ciampa</w> family is well known in the local community for their bakery.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Чампа</w> хорошо известна в местном сообществе своей пекарней."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Italian origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия итальянского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Чампа",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

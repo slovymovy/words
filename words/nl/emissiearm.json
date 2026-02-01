@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De overheid stimuleert het gebruik van <w>emissiearme</w> voertuigen in de binnenstad."
+                            "text": "De overheid stimuleert het gebruik van <w>emissiearme</w> voertuigen in de binnenstad.",
+                            "target_lang_translations": {
+                                "en": "The government encourages the use of <w>low-emission</w> vehicles in the city center.",
+                                "ru": "Правительство поощряет использование транспортных средств <w>с низким уровнем выбросов</w> в центре города."
+                            }
                         },
                         {
-                            "text": "Boeren moeten investeren in <w>emissiearme</w> stallen om aan de strenge milieuregels te voldoen."
+                            "text": "Boeren moeten investeren in <w>emissiearme</w> stallen om aan de strenge milieuregels te voldoen.",
+                            "target_lang_translations": {
+                                "en": "Farmers must invest in <w>low-emission</w> barns to comply with strict environmental regulations.",
+                                "ru": "Фермеры должны инвестировать в <w>малоэмиссионные</w> стойла, чтобы соответствовать строгим экологическим нормам."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +43,32 @@
                         "emissiearme auto",
                         "emissiearme zone"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "milieu en landbouw"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Producing very few harmful emissions or pollutants.",
+                        "ru": "С низким уровнем выбросов вредных веществ"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "low-emission",
+                                "target_lang_sense_clarification": "general term for vehicles, zones, or technology"
+                            },
+                            {
+                                "target_lang_word": "low-polluting",
+                                "target_lang_sense_clarification": "emphasizing the reduced environmental impact"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "с низким уровнем выбросов",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "малоэмиссионный",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

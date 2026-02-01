@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De soldaten keerden voor zonsondergang terug naar hun <w>kantonnement</w>."
+                            "text": "De soldaten keerden voor zonsondergang terug naar hun <w>kantonnement</w>.",
+                            "target_lang_translations": {
+                                "ru": "Солдаты вернулись в <w>расположение</w> до заката.",
+                                "en": "The soldiers returned to their <w>quarters</w> before sunset."
+                            }
                         },
                         {
-                            "text": "Het leger moest zorgen voor de opbouw van een nieuw <w>kantonnement</w>."
+                            "text": "Het leger moest zorgen voor de opbouw van een nieuw <w>kantonnement</w>.",
+                            "target_lang_translations": {
+                                "ru": "Армия должна была обеспечить строительство нового <w>военного лагеря</w>.",
+                                "en": "The army had to ensure the construction of a new <w>cantonment</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,40 @@
                     "common_phrases": [
                         "in kantonnement liggen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "место, где (временно) размещены войска",
+                        "en": "a place where troops are (temporarily) stationed"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "расположение",
+                                "target_lang_sense_clarification": "территория, занимаемая воинской частью"
+                            },
+                            {
+                                "target_lang_word": "военный лагерь",
+                                "target_lang_sense_clarification": "временное поселение для войск"
+                            },
+                            {
+                                "target_lang_word": "место расквартирования",
+                                "target_lang_sense_clarification": "место жительства войск"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "cantonment",
+                                "target_lang_sense_clarification": "temporary military quarters"
+                            },
+                            {
+                                "target_lang_word": "quarters",
+                                "target_lang_sense_clarification": "lodgings for troops"
+                            },
+                            {
+                                "target_lang_word": "encampment",
+                                "target_lang_sense_clarification": "a place where a camp is set up"
+                            }
+                        ]
+                    }
                 }
             ]
         }

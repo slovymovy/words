@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Одарённый студент сдал все экзамены за последний курс <w>экстерном</w>."
+                            "text": "Одарённый студент сдал все экзамены за последний курс <w>экстерном</w>.",
+                            "target_lang_translations": {
+                                "en": "The gifted student passed all the exams for the final year <w>externally</w>."
+                            }
                         },
                         {
-                            "text": "Она решила закончить школу <w>экстерном</w>, чтобы посвятить больше времени музыке."
+                            "text": "Она решила закончить школу <w>экстерном</w>, чтобы посвятить больше времени музыке.",
+                            "target_lang_translations": {
+                                "en": "She decided to finish school <w>as an external student</w> to devote more time to music."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,21 @@
                         "учиться экстерном",
                         "пройти курс экстерном"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "education"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Without attending classes or lectures, studying subjects independently (regarding passing exams or graduating)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "externally",
+                                "target_lang_sense_clarification": "without attending classes"
+                            },
+                            {
+                                "target_lang_word": "as an external student",
+                                "target_lang_sense_clarification": "educational status"
+                            }
+                        ]
+                    }
                 }
             ]
         }

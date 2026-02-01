@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De patiënt volgt drie dagen per week een <w>deeltijdbehandeling</w> in de kliniek."
+                            "text": "De patiënt volgt drie dagen per week een <w>deeltijdbehandeling</w> in de kliniek.",
+                            "target_lang_translations": {
+                                "en": "The patient follows a <w>part-time treatment</w> program at the clinic three days a week.",
+                                "ru": "Пациент три дня в неделю посещает <w>дневной стационар</w> в клинике."
+                            }
                         },
                         {
-                            "text": "Omdat een volledige opname niet nodig was, koos de arts voor een <w>deeltijdbehandeling</w>."
+                            "text": "Omdat een volledige opname niet nodig was, koos de arts voor een <w>deeltijdbehandeling</w>.",
+                            "target_lang_translations": {
+                                "en": "Because full admission was not necessary, the doctor opted for <w>day treatment</w>.",
+                                "ru": "Поскольку полная госпитализация была не нужна, врач выбрал <w>дневной стационар</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,36 @@
                         "in deeltijdbehandeling zijn",
                         "een deeltijdbehandeling volgen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "vooral in de psychiatrie en revalidatie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A form of medical or therapeutic care where the patient stays in an institution for part of the day for treatment but sleeps at home.",
+                        "ru": "Форма медицинской или терапевтической помощи, при которой пациент находится в лечебном учреждении часть дня для прохождения процедур, но ночует дома."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "part-time treatment",
+                                "target_lang_sense_clarification": "general description"
+                            },
+                            {
+                                "target_lang_word": "day treatment",
+                                "target_lang_sense_clarification": "medical/psychiatric context"
+                            },
+                            {
+                                "target_lang_word": "partial hospitalization",
+                                "target_lang_sense_clarification": "clinical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дневной стационар",
+                                "target_lang_sense_clarification": "режим лечения"
+                            },
+                            {
+                                "target_lang_word": "частичная госпитализация",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

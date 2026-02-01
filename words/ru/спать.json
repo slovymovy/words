@@ -5,11 +5,10 @@
         "сонный",
         "засыпать",
         "просыпаться",
-        "высыпаться",
+        "выспаться",
         "недосыпать",
-        "переспать",
         "спячка",
-        "поспать"
+        "сновидение"
     ],
     "entries": [
         {
@@ -17,49 +16,75 @@
             "senses": [
                 {
                     "sense_id": "4f7f3fa8-7bd1-34dd-ac4c-8a7aee695776",
-                    "sense_definition": "Находиться в состоянии сна, отдыхать с отключенным сознанием.",
+                    "sense_definition": "Находиться в состоянии сна, отдыхать с закрытыми глазами.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "literal_sleep",
+                    "semantic_group_id": "sleep_literal",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Я очень устал и хочу поскорее лечь <w>спать</w>."
+                            "text": "Я очень устал и хочу поскорее лечь <w>спать</w>.",
+                            "target_lang_translations": {
+                                "en": "I am very tired and want to go to <w>sleep</w> as soon as possible."
+                            }
                         },
                         {
-                            "text": "Маленькие дети должны много <w>спать</w> для здоровья."
+                            "text": "Маленький ребёнок крепко <w>спал</w> в своей кроватке.",
+                            "target_lang_translations": {
+                                "en": "The small child was <w>sleeping</w> soundly in his crib."
+                            }
                         },
                         {
-                            "text": "Мой брат крепко <w>спал</w> и не слышал будильника."
+                            "text": "Обычно я ложусь <w>спать</w> не раньше полуночи.",
+                            "target_lang_translations": {
+                                "en": "Usually I go to <w>sleep</w> no earlier than midnight."
+                            }
                         }
-                    ],
-                    "synonyms": [
-                        "покоиться",
-                        "покоиться"
                     ],
                     "antonyms": [
                         "бодрствовать"
                     ],
                     "common_phrases": [
                         "ложиться спать",
-                        "хотеть спать",
                         "крепко спать",
-                        "пора спать"
-                    ]
+                        "хотеть спать",
+                        "долго спать"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To be in a state of sleep, to rest with closed eyes."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sleep",
+                                "target_lang_sense_clarification": "general state of rest"
+                            },
+                            {
+                                "target_lang_word": "be asleep",
+                                "target_lang_sense_clarification": "state of sleeping"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "846c6b6f-b488-369a-9424-31e5bae833e9",
-                    "sense_definition": "Иметь интимную близость, заниматься сексом с кем-либо.",
+                    "sense_definition": "Иметь половую связь, состоять в интимных отношениях с кем-либо.",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "sex",
+                    "semantic_group_id": "intimacy",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Они встречаются уже месяц, но ещё не <w>спят</w> вместе."
+                            "text": "Они начали <w>спать</w> вместе через месяц после знакомства.",
+                            "target_lang_translations": {
+                                "en": "They started <w>sleeping</w> together a month after meeting."
+                            }
                         },
                         {
-                            "text": "Он никогда не <w>спал</w> с этой женщиной."
+                            "text": "Он никогда не <w>спал</w> с замужними женщинами.",
+                            "target_lang_translations": {
+                                "en": "He never <w>slept</w> with married women."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -68,62 +93,49 @@
                     ],
                     "common_phrases": [
                         "спать с кем-то",
-                        "спать вместе"
+                        "перестать спать"
                     ],
                     "traits": [
                         {
-                            "trait_type": "figurative",
+                            "trait_type": "colloquial",
                             "comment": "euphemism"
                         }
-                    ]
-                },
-                {
-                    "sense_id": "a8d50ab8-4a00-3255-9e98-951525d48191",
-                    "sense_definition": "Находиться в состоянии покоя, тишины и неподвижности (о природе, местности, предметах).",
-                    "learner_level": "B2",
-                    "frequency": "Low",
-                    "semantic_group_id": "figurative_nature",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Весь город уже <w>спит</w> в ночной тишине."
-                        },
-                        {
-                            "text": "Зимой лес <w>спит</w> под толстым слоем снега."
-                        }
                     ],
-                    "synonyms": [
-                        "покоиться"
-                    ],
-                    "common_phrases": [
-                        "город спит",
-                        "лес спит",
-                        "природа спит"
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "poetic",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "figurative",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To have a sexual connection, to be in an intimate relationship with someone."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sleep with",
+                                "target_lang_sense_clarification": "euphemism for sexual intercourse"
+                            },
+                            {
+                                "target_lang_word": "sleep together",
+                                "target_lang_sense_clarification": "to have sex"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "52a73c2a-0621-36ef-9ad5-7af8906b80ff",
-                    "sense_definition": "Проявлять бездействие, нерасторопность или отсутствие бдительности; упускать важный момент.",
-                    "learner_level": "C1",
-                    "frequency": "Low",
+                    "sense_definition": "Проявлять бездействие, нерасторопность или отсутствие бдительности; быть вялым и пассивным.",
+                    "learner_level": "B2",
+                    "frequency": "Middle",
                     "semantic_group_id": "inaction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Вратарь, не <w>спи</w> на воротах, следи за мячом!"
+                            "text": "Вратарь <w>спал</w> на воротах и пропустил лёгкий мяч.",
+                            "target_lang_translations": {
+                                "en": "The goalkeeper was <w>asleep</w> in the goal and let in an easy ball."
+                            }
                         },
                         {
-                            "text": "Охрана <w>спала</w>, и воры смогли проникнуть в здание."
+                            "text": "Не <w>спи</w>, а то упустишь свой единственный шанс!",
+                            "target_lang_translations": {
+                                "en": "Don't <w>sleep</w>, or you'll miss your only chance!"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -136,32 +148,96 @@
                         "суетиться"
                     ],
                     "common_phrases": [
-                        "не спи"
+                        "хватит спать",
+                        "не спать"
                     ],
                     "traits": [
                         {
-                            "trait_type": "figurative",
-                            "comment": ""
+                            "trait_type": "colloquial",
+                            "comment": "disapproving"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To show inaction, slowness, or lack of vigilance; to be sluggish and passive."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be asleep",
+                                "target_lang_sense_clarification": "metaphorical: to be inattentive or careless"
+                            },
+                            {
+                                "target_lang_word": "sleep",
+                                "target_lang_sense_clarification": "to miss an opportunity due to inaction"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "a8d50ab8-4a00-3255-9e98-951525d48191",
+                    "sense_definition": "Находиться в тишине и неподвижности, в нерабочем состоянии (о природе, местности, технике).",
+                    "learner_level": "B2",
+                    "frequency": "Low",
+                    "semantic_group_id": "stillness",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Зимой вся природа <w>спит</w> под толстым слоем снега.",
+                            "target_lang_translations": {
+                                "en": "In winter, all nature <w>sleeps</w> under a thick layer of snow."
+                            }
                         },
                         {
-                            "trait_type": "informal",
-                            "comment": "often disapproving"
+                            "text": "Древний вулкан давно <w>спит</w> и не представляет опасности.",
+                            "target_lang_translations": {
+                                "en": "The ancient volcano has been <w>sleeping</w> for a long time and poses no danger."
+                            }
                         }
-                    ]
+                    ],
+                    "synonyms": [
+                        "покоиться",
+                        "бездействовать"
+                    ],
+                    "common_phrases": [
+                        "город спит",
+                        "лес спит",
+                        "природа спит"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To be silent and motionless, in a non-working state (about nature, terrain, machinery)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sleep",
+                                "target_lang_sense_clarification": "poetic: of nature or machinery"
+                            },
+                            {
+                                "target_lang_word": "lie dormant",
+                                "target_lang_sense_clarification": "of volcanoes or plants"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6f2d1e18-c4f0-31e3-bbb7-1bc9ce66be71",
-                    "sense_definition": "Быть мёртвым, покоиться в могиле.",
-                    "learner_level": "C2",
-                    "frequency": "VeryLow",
+                    "sense_definition": "Быть мёртвым, покоиться в земле.",
+                    "learner_level": "C1",
+                    "frequency": "Low",
                     "semantic_group_id": "death",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Герои войны вечно <w>спят</w> в братской могиле."
+                            "text": "Герои войны вечно <w>спят</w> в братской могиле.",
+                            "target_lang_translations": {
+                                "en": "The war heroes <w>sleep</w> eternally in the mass grave."
+                            }
                         },
                         {
-                            "text": "Пусть он спокойно <w>спит</w> в сырой земле."
+                            "text": "Пусть он спокойно <w>спит</w> в сырой земле.",
+                            "target_lang_translations": {
+                                "en": "May he <w>sleep</w> peacefully in the damp earth."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -174,14 +250,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "literary",
-                            "comment": "high style"
-                        },
-                        {
-                            "trait_type": "figurative",
-                            "comment": ""
+                            "trait_type": "dated",
+                            "comment": "poetic/high style"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To be dead, to rest in the earth."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sleep",
+                                "target_lang_sense_clarification": "poetic/euphemism for death"
+                            },
+                            {
+                                "target_lang_word": "rest",
+                                "target_lang_sense_clarification": "euphemism: rest in peace"
+                            }
+                        ]
+                    }
                 }
             ]
         }

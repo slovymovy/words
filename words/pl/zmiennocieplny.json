@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Węże są zwierzętami <w>zmiennocieplnymi</w>, dlatego lubią wygrzewać się na słońcu."
+                            "text": "Węże są zwierzętami <w>zmiennocieplnymi</w>, dlatego lubią wygrzewać się na słońcu.",
+                            "target_lang_translations": {
+                                "ru": "Змеи являются <w>холоднокровными</w> животными, поэтому они любят греться на солнце."
+                            }
                         },
                         {
-                            "text": "Zwierzęta <w>zmiennocieplne</w> są znacznie mniej aktywne w chłodne dni."
+                            "text": "Zwierzęta <w>zmiennocieplne</w> są znacznie mniej aktywne w chłodne dni.",
+                            "target_lang_translations": {
+                                "ru": "<w>Холоднокровные</w> животные значительно менее активны в прохладные дни."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "zwierzęta zmiennocieplne",
                         "organizmy zmiennocieplne"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "biologia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "О животных: имеющий непостоянную температуру тела, которая меняется в зависимости от температуры окружающей среды."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "холоднокровный",
+                                "target_lang_sense_clarification": "о животных"
+                            },
+                            {
+                                "target_lang_word": "пойкилотермный",
+                                "target_lang_sense_clarification": "научный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

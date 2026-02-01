@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jako pierwszy do produkcji trafił karabin <w>samopowtarzalny</w> SKS."
+                            "text": "Jako pierwszy do produkcji trafił karabin <w>samopowtarzalny</w> SKS.",
+                            "target_lang_translations": {
+                                "ru": "Первым в производство поступил <w>самозарядный</w> карабин СКС."
+                            }
                         },
                         {
-                            "text": "Każdy pistolet <w>samopowtarzalny</w> wymaga regularnego czyszczenia po wizycie na strzelnicy."
+                            "text": "Każdy pistolet <w>samopowtarzalny</w> wymaga regularnego czyszczenia po wizycie na strzelnicy.",
+                            "target_lang_translations": {
+                                "ru": "Каждый <w>самозарядный</w> пистолет требует регулярной чистки после посещения тира."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,16 +42,21 @@
                         "pistolet samopowtarzalny",
                         "broń samopowtarzalna"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "dotyczy uzbrojenia"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "terminologia techniczna broni"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Об огнестрельном оружии: такое, которое после выстрела автоматически выбрасывает гильзу и досылает новый патрон в ствол, но требует повторного нажатия на спусковой крючок для следующего выстрела."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "самозарядный",
+                                "target_lang_sense_clarification": "о механизме перезарядки"
+                            },
+                            {
+                                "target_lang_word": "полуавтоматический",
+                                "target_lang_sense_clarification": "о режиме стрельбы"
+                            }
+                        ]
+                    }
                 }
             ]
         }

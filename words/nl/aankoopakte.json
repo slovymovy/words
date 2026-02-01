@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We moeten volgende week naar de notaris om de <w>aankoopakte</w> van ons nieuwe huis te ondertekenen."
+                            "text": "We moeten volgende week naar de notaris om de <w>aankoopakte</w> van ons nieuwe huis te ondertekenen.",
+                            "target_lang_translations": {
+                                "en": "We have to go to the notary next week to sign the <w>deed of purchase</w> for our new house.",
+                                "ru": "На следующей неделе нам нужно к нотариусу, чтобы подписать <w>договор купли-продажи</w> нашего нового дома."
+                            }
                         },
                         {
-                            "text": "In de <w>aankoopakte</w> staan alle belangrijke afspraken en de definitieve verkoopprijs vermeld."
+                            "text": "In de <w>aankoopakte</w> staan alle belangrijke afspraken en de definitieve verkoopprijs vermeld.",
+                            "target_lang_translations": {
+                                "en": "The <w>purchase deed</w> lists all important agreements and the final selling price.",
+                                "ru": "В <w>договоре купли-продажи</w> указаны все важные договоренности и окончательная цена продажи."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +39,32 @@
                         "de aankoopakte tekenen",
                         "de notariële aankoopakte"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official document serving as proof that someone has bought and paid for something, especially used in the transfer of real estate.",
+                        "ru": "Официальный документ, подтверждающий факт покупки и оплаты, который обычно используется при сделках с недвижимостью."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "deed of purchase",
+                                "target_lang_sense_clarification": "legal document for property acquisition"
+                            },
+                            {
+                                "target_lang_word": "purchase deed",
+                                "target_lang_sense_clarification": "formal record of a purchase"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "договор купли-продажи",
+                                "target_lang_sense_clarification": "официальный контракт"
+                            },
+                            {
+                                "target_lang_word": "купчая",
+                                "target_lang_sense_clarification": "акт о приобретении имущества"
+                            }
+                        ]
+                    }
                 }
             ]
         }

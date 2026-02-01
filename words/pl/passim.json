@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ten specyficzny termin występuje <w>passim</w> w całej monografii, co utrudnia wskazanie jednej konkretnej definicji."
+                            "text": "Ten specyficzny termin występuje <w>passim</w> w całej monografii, co utrudnia wskazanie jednej konkretnej definicji.",
+                            "target_lang_translations": {
+                                "ru": "Этот специфический термин встречается <w>повсюду</w> в монографии, что затрудняет выделение одного конкретного определения."
+                            }
                         },
                         {
-                            "text": "Autor wspomina o swoich podróżach <w>passim</w>, przeplatając te wątki z główną narracją historyczną."
+                            "text": "Autor wspomina o swoich podróżach <w>passim</w>, przeplatając te wątki z główną narracją historyczną.",
+                            "target_lang_translations": {
+                                "ru": "Автор упоминает о своих путешествиях <w>в разных местах</w>, переплетая эти темы с основным историческим повествованием."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -24,12 +30,25 @@
                         "gdzieniegdzie",
                         "w różnych miejscach"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "literary",
-                            "comment": "słowo pochodzenia łacińskiego, używane głównie w stylu naukowym i bibliograficznym"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "во многих местах (обычно используется в сносках или научных текстах, указывая, что данная информация встречается многократно в цитируемом произведении)"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "повсюду",
+                                "target_lang_sense_clarification": "во многих местах текста"
+                            },
+                            {
+                                "target_lang_word": "в разных местах",
+                                "target_lang_sense_clarification": "разбросано по тексту"
+                            },
+                            {
+                                "target_lang_word": "пассим",
+                                "target_lang_sense_clarification": "библиографический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

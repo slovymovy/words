@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wśród lekarzy szpitalnych najwięcej jest <w>internistów</w>."
+                            "text": "Wśród lekarzy szpitalnych najwięcej jest <w>internistów</w>.",
+                            "target_lang_translations": {
+                                "ru": "Среди больничных врачей больше всего <w>терапевтов</w>."
+                            }
                         },
                         {
-                            "text": "Muszę zapisać się na wizytę do <w>internisty</w>, ponieważ od kilku dni źle się czuję."
+                            "text": "Muszę zapisać się na wizytę do <w>internisty</w>, ponieważ od kilku dni źle się czuję.",
+                            "target_lang_translations": {
+                                "ru": "Мне нужно записаться на прием к <w>терапевту</w>, так как я уже несколько дней плохо себя чувствую."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "skierowanie do internisty",
                         "dobry internista"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "dotyczy specjalizacji lekarskiej"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Врач-специалист, занимающийся диагностикой, профилактикой и лечением внутренних болезней."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "терапевт",
+                                "target_lang_sense_clarification": "врач по внутренним болезням"
+                            },
+                            {
+                                "target_lang_word": "интернист",
+                                "target_lang_sense_clarification": "специалист по внутренним болезням"
+                            }
+                        ]
+                    }
                 }
             ]
         }

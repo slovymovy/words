@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников нашего отдела числится инженер <w>Шабанов</w>."
+                            "text": "В списке сотрудников нашего отдела числится инженер <w>Шабанов</w>.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Shabanov</w> is listed among the employees of our department."
+                            }
                         },
                         {
-                            "text": "Мы вчера случайно познакомились с братьями <w>Шабановыми</w> в парке."
+                            "text": "Мы вчера случайно познакомились с братьями <w>Шабановыми</w> в парке.",
+                            "target_lang_translations": {
+                                "en": "Yesterday we accidentally met the <w>Shabanov</w> brothers in the park."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname of Turkic origin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Shabanov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

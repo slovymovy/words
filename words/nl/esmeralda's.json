@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Esmeralda's</w> favoriete restaurant in de stad."
+                            "text": "Dit is <w>Esmeralda's</w> favoriete restaurant in de stad.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Esmeralda's</w> favorite restaurant in the city.",
+                                "ru": "Это любимый ресторан <w>Эсмеральды</w> в городе."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Esmeralda's</w> feestje."
+                            "text": "We gaan vanavond naar <w>Esmeralda's</w> feestje.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Esmeralda's</w> party tonight.",
+                                "ru": "Мы идем сегодня вечером на вечеринку <w>Эсмеральды</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +37,26 @@
                         {
                             "trait_type": "form",
                             "comment": "genitief"
-                        },
-                        {
-                            "trait_type": "given_name",
-                            "comment": "vrouwelijke voornaam"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Esmeralda",
+                        "ru": "родительный падеж имени Эсмеральда (обозначает принадлежность)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Esmeralda's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Эсмеральды",
+                                "target_lang_sense_clarification": "форма родительного падежа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

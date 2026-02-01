@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij werkt al jaren als onderzoeker bij het Europees <w>Octrooibureau</w> in Rijswijk."
+                            "text": "Hij werkt al jaren als onderzoeker bij het Europees <w>Octrooibureau</w> in Rijswijk.",
+                            "target_lang_translations": {
+                                "ru": "Он уже много лет работает исследователем в Европейском <w>патентном ведомстве</w> в Рейсвейке.",
+                                "en": "He has been working as a researcher at the European <w>Patent Office</w> in Rijswijk for years."
+                            }
                         },
                         {
-                            "text": "Je moet je nieuwe uitvinding zo snel mogelijk bij het <w>octrooibureau</w> laten registreren."
+                            "text": "Je moet je nieuwe uitvinding zo snel mogelijk bij het <w>octrooibureau</w> laten registreren.",
+                            "target_lang_translations": {
+                                "ru": "Тебе нужно как можно скорее зарегистрировать свое новое изобретение в <w>патентном бюро</w>.",
+                                "en": "You need to have your new invention registered at the <w>patent office</w> as soon as possible."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "Europees Octrooibureau",
                         "nationaal octrooibureau"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Организация, которая регистрирует права на использование изобретений.",
+                        "en": "The organization that registers the rights to the exploitation of inventions."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "патентное ведомство",
+                                "target_lang_sense_clarification": "официальный орган"
+                            },
+                            {
+                                "target_lang_word": "патентное бюро",
+                                "target_lang_sense_clarification": "учреждение"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "patent office",
+                                "target_lang_sense_clarification": "government agency"
+                            }
+                        ]
+                    }
                 }
             ]
         }

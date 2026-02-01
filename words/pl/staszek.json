@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mój kuzyn <w>Staszek</w> przyjedzie do nas na wakacje w lipcu."
+                            "text": "Mój kuzyn <w>Staszek</w> przyjedzie do nas na wakacje w lipcu.",
+                            "target_lang_translations": {
+                                "ru": "Мой двоюродный брат <w>Сташек</w> приедет к нам на каникулы в июле."
+                            }
                         },
                         {
-                            "text": "Wczoraj spotkałem kolegę, który ma na imię <w>Staszek</w>."
+                            "text": "Wczoraj spotkałem kolegę, który ma na imię <w>Staszek</w>.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я встретил знакомого, которого зовут <w>Сташек</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,16 +41,17 @@
                         "mój Staszek",
                         "kolega Staszek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "diminutive"
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": "diminutive form"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "уменьшительная форма мужского имени <w>Станислав</w>"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сташек",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

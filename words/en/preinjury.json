@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The athlete worked hard to return to his <w>preinjury</w> level of performance."
+                            "text": "The athlete worked hard to return to his <w>preinjury</w> level of performance.",
+                            "target_lang_translations": {
+                                "ru": "Спортсмен усердно работал, чтобы вернуться на уровень результатов <w>до травмы</w>."
+                            }
                         },
                         {
-                            "text": "Doctors compared the patient's current mobility with her <w>preinjury</w> status."
+                            "text": "Doctors compared the patient's current mobility with her <w>preinjury</w> status.",
+                            "target_lang_translations": {
+                                "ru": "Врачи сравнили текущую подвижность пациентки с её состоянием <w>до травмы</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,21 @@
                         "preinjury status",
                         "return to preinjury"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "often used in clinical or sports medicine contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Существующий или происходивший до получения травмы."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "до травмы",
+                                "target_lang_sense_clarification": "относящийся к периоду до повреждения"
+                            },
+                            {
+                                "target_lang_word": "предшествующий травме",
+                                "target_lang_sense_clarification": "существовавший до травмы"
+                            }
+                        ]
+                    }
                 }
             ]
         }

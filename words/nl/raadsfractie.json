@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>raadsfractie</w> heeft besloten om tegen het nieuwe bouwplan te stemmen."
+                            "text": "De <w>raadsfractie</w> heeft besloten om tegen het nieuwe bouwplan te stemmen.",
+                            "target_lang_translations": {
+                                "en": "The <w>council faction</w> has decided to vote against the new building plan.",
+                                "ru": "<w>Фракция совета</w> решила проголосовать против нового плана застройки."
+                            }
                         },
                         {
-                            "text": "Tijdens de vergadering overlegde de <w>raadsfractie</w> over de begroting van de gemeente."
+                            "text": "Tijdens de vergadering overlegde de <w>raadsfractie</w> over de begroting van de gemeente.",
+                            "target_lang_translations": {
+                                "en": "During the meeting, the <w>council group</w> discussed the municipality's budget.",
+                                "ru": "Во время заседания <w>фракция совета</w> обсуждала бюджет муниципалитета."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "grootste raadsfractie",
                         "vergadering van de raadsfractie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "political context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The group of members from the same political party sitting in the municipal council.",
+                        "ru": "Группа членов одной политической партии, входящих в состав муниципального совета."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "council faction",
+                                "target_lang_sense_clarification": "political group in a city council"
+                            },
+                            {
+                                "target_lang_word": "council group",
+                                "target_lang_sense_clarification": "party members in the council"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "фракция совета",
+                                "target_lang_sense_clarification": "группа депутатов одной партии в муниципальном совете"
+                            },
+                            {
+                                "target_lang_word": "фракция в муниципальном совете",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

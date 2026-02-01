@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pacjent trafił do szpitala, ponieważ wystąpił u niego silny wstrząs <w>penicylinowy</w>."
+                            "text": "Pacjent trafił do szpitala, ponieważ wystąpił u niego silny wstrząs <w>penicylinowy</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пациент попал в больницу, так как у него случился сильный <w>пенициллиновый</w> шок."
+                            }
                         },
                         {
-                            "text": "Lekarz przepisał choremu skuteczną kurację <w>penicylinową</w> na zapalenie gardła."
+                            "text": "Lekarz przepisał choremu skuteczną kurację <w>penicylinową</w> na zapalenie gardła.",
+                            "target_lang_translations": {
+                                "ru": "Врач прописал больному эффективное <w>пенициллиновое</w> лечение от воспаления горла."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,12 +32,17 @@
                         "kuracja penicylinowa",
                         "maść penicylinowa"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin używany w medycynie i farmacji"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "связанный с пенициллином, относящийся к пенициллину; содержащий пенициллин"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пенициллиновый",
+                                "target_lang_sense_clarification": "относящийся к антибиотику"
+                            }
+                        ]
+                    }
                 }
             ]
         }

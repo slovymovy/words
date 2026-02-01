@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот болевой синдром, легко <w>купируемый</w> обычными анальгетиками, не представляет серьёзной опасности."
+                            "text": "Этот болевой синдром, легко <w>купируемый</w> обычными анальгетиками, не представляет серьёзной опасности.",
+                            "target_lang_translations": {
+                                "en": "This pain syndrome, easily <w>relieved</w> by ordinary analgesics, poses no serious danger."
+                            }
                         },
                         {
-                            "text": "Врачи диагностировали приступ, <w>купируемый</w> только в условиях стационара."
+                            "text": "Врачи диагностировали приступ, <w>купируемый</w> только в условиях стационара.",
+                            "target_lang_translations": {
+                                "en": "The doctors diagnosed an attack <w>arrested</w> only in a hospital setting."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,25 @@
                         "трудно купируемый",
                         "медикаментозно купируемый"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "используется преимущественно в контексте лечения болезней и снятия симптомов"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Describes a painful condition or symptom that can be interrupted, stopped, or eliminated."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "relieved",
+                                "target_lang_sense_clarification": "regarding pain or symptoms"
+                            },
+                            {
+                                "target_lang_word": "arrested",
+                                "target_lang_sense_clarification": "regarding a medical attack or seizure"
+                            },
+                            {
+                                "target_lang_word": "stopped",
+                                "target_lang_sense_clarification": "general medical context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

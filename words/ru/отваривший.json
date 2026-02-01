@@ -25,10 +25,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Повар, <w>отваривший</w> овощи для салата, поставил их остывать на подоконник."
+                            "text": "Повар, <w>отваривший</w> овощи для салата, поставил их остывать на подоконник.",
+                            "target_lang_translations": {
+                                "en": "The cook, <w>who had boiled</w> the vegetables for the salad, put them on the windowsill to cool."
+                            }
                         },
                         {
-                            "text": "Студент, <w>отваривший</w> пельмени на ужин, пригласил соседей к столу."
+                            "text": "Студент, <w>отваривший</w> пельмени на ужин, пригласил соседей к столу.",
+                            "target_lang_translations": {
+                                "en": "The student <w>who boiled</w> the dumplings for dinner invited the neighbors to the table."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -44,7 +50,26 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Active past participle of the verb 'to boil'; describes a subject that has performed the action of boiling something (usually food) until done."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who boiled",
+                                "target_lang_sense_clarification": "relative clause translation"
+                            },
+                            {
+                                "target_lang_word": "having boiled",
+                                "target_lang_sense_clarification": "participle phrase translation"
+                            },
+                            {
+                                "target_lang_word": "who has boiled",
+                                "target_lang_sense_clarification": "perfect aspect translation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

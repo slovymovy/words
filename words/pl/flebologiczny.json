@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz skierował pacjenta na szczegółowe badanie <w>flebologiczne</w> kończyn dolnych."
+                            "text": "Lekarz skierował pacjenta na szczegółowe badanie <w>flebologiczne</w> kończyn dolnych.",
+                            "target_lang_translations": {
+                                "ru": "Врач направил пациента на детальное <w>флебологическое</w> обследование нижних конечностей."
+                            }
                         },
                         {
-                            "text": "Nowoczesna poradnia <w>flebologiczna</w> oferuje bezbolesne usuwanie żylaków laserem."
+                            "text": "Nowoczesna poradnia <w>flebologiczna</w> oferuje bezbolesne usuwanie żylaków laserem.",
+                            "target_lang_translations": {
+                                "ru": "Современная <w>флебологическая</w> клиника предлагает безболезненное удаление варикоза лазером."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,16 +34,17 @@
                         "zabieg flebologiczny",
                         "badanie flebologiczne"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "słownictwo specjalistyczne"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к флебологии — разделу медицины, занимающемуся диагностикой и лечением заболеваний вен."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "флебологический",
+                                "target_lang_sense_clarification": "относящийся к флебологии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

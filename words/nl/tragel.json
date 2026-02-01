@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De wandelaars liepen over de smalle <w>tragel</w> langs het water."
+                            "text": "De wandelaars liepen over de smalle <w>tragel</w> langs het water.",
+                            "target_lang_translations": {
+                                "en": "The hikers walked along the narrow <w>towpath</w> by the water.",
+                                "ru": "Туристы шли по узкому <w>бечевнику</w> вдоль воды."
+                            }
                         },
                         {
-                            "text": "Vroeger werden de schepen vanaf de <w>tragel</w> voortgetrokken door paarden."
+                            "text": "Vroeger werden de schepen vanaf de <w>tragel</w> voortgetrokken door paarden.",
+                            "target_lang_translations": {
+                                "en": "In the past, ships were pulled by horses from the <w>towpath</w>.",
+                                "ru": "Раньше корабли тянули лошади, идущие по <w>бечевнику</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,33 @@
                             "trait_type": "regional",
                             "comment": "voornamelijk Zeeland en Vlaanderen"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A low quay or strip of riverbank, often used as a loading area or towpath.",
+                        "ru": "Низкая набережная или полоса берега вдоль реки, часто используемая как место погрузки или бечевник."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "towpath",
+                                "target_lang_sense_clarification": "path along a river used for towing boats"
+                            },
+                            {
+                                "target_lang_word": "quay",
+                                "target_lang_sense_clarification": "structure on a riverbank for loading and unloading"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "бечевник",
+                                "target_lang_sense_clarification": "дорога вдоль берега для буксировки судов"
+                            },
+                            {
+                                "target_lang_word": "низкая набережная",
+                                "target_lang_sense_clarification": "укрепленная полоса берега"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -47,18 +81,38 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Mijn grootouders wonen in een boerderij in <w>Tragel</w>."
+                            "text": "Mijn grootouders wonen in een boerderij in <w>Tragel</w>.",
+                            "target_lang_translations": {
+                                "en": "My grandparents live in a farmhouse in <w>Tragel</w>.",
+                                "ru": "Мои бабушка и дедушка живут на ферме в <w>Трагеле</w>."
+                            }
                         },
                         {
-                            "text": "Op de kaart is <w>Tragel</w> moeilijk te vinden omdat het zo klein is."
+                            "text": "Op de kaart is <w>Tragel</w> moeilijk te vinden omdat het zo klein is.",
+                            "target_lang_translations": {
+                                "en": "<w>Tragel</w> is difficult to find on the map because it is so small.",
+                                "ru": "<w>Трагель</w> трудно найти на карте, потому что он очень маленький."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A hamlet in the municipality of Sluis in the Dutch province of Zeeland.",
+                        "ru": "Хутор в общине Слёйс в нидерландской провинции Зеландия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Tragel",
+                                "target_lang_sense_clarification": "place name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Трагель",
+                                "target_lang_sense_clarification": "топоним"
+                            }
+                        ]
+                    }
                 }
             ]
         }

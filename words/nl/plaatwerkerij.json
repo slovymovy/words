@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Na de aanrijding moest de auto direct naar de <w>plaatwerkerij</w> voor reparatie."
+                            "text": "Na de aanrijding moest de auto direct naar de <w>plaatwerkerij</w> voor reparatie.",
+                            "target_lang_translations": {
+                                "en": "After the collision, the car had to go straight to the <w>body shop</w> for repairs.",
+                                "ru": "После аварии машину пришлось сразу отправить в <w>кузовной цех</w> для ремонта."
+                            }
                         },
                         {
-                            "text": "Hij heeft jarenlang ervaring opgedaan door te werken in de <w>plaatwerkerij</w>."
+                            "text": "Hij heeft jarenlang ervaring opgedaan door te werken in de <w>plaatwerkerij</w>.",
+                            "target_lang_translations": {
+                                "en": "He gained years of experience by working in the <w>sheet metal shop</w>.",
+                                "ru": "Он приобрел многолетний опыт, работая в <w>жестяной мастерской</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "in de plaatwerkerij",
                         "naar de plaatwerkerij"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "automotive"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A workshop or company where metal sheets, especially of car bodies, are processed or repaired.",
+                        "ru": "Мастерская или предприятие, где обрабатывают или ремонтируют листовой металл, особенно автомобильные кузова."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "body shop",
+                                "target_lang_sense_clarification": "automotive repair"
+                            },
+                            {
+                                "target_lang_word": "sheet metal shop",
+                                "target_lang_sense_clarification": "general metalworking"
+                            },
+                            {
+                                "target_lang_word": "panel beating shop",
+                                "target_lang_sense_clarification": "automotive body repair"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кузовной цех",
+                                "target_lang_sense_clarification": "мастерская по ремонту кузовов"
+                            },
+                            {
+                                "target_lang_word": "жестяная мастерская",
+                                "target_lang_sense_clarification": "цех обработки листового металла"
+                            }
+                        ]
+                    }
                 }
             ]
         }

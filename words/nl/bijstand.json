@@ -1,9 +1,10 @@
 {
     "word_family": [
-        "bijstaan",
         "rechtsbijstand",
         "bijstandsuitkering",
+        "bijstandsmoeder",
         "bijstandsniveau",
+        "bijstandsfraude",
         "gezinsbijstand"
     ],
     "entries": [
@@ -12,42 +13,84 @@
             "senses": [
                 {
                     "sense_id": "13aa7acb-4083-39d6-8718-db8f10b0d0cd",
-                    "sense_definition": "Een uitkering van de overheid voor mensen die geen of te weinig inkomen hebben om van te leven.",
+                    "sense_definition": "Een financiële uitkering van de overheid voor mensen die geen of onvoldoende inkomen hebben om van te leven.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "social_security",
+                    "semantic_group_id": "social_welfare",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij zit al een paar maanden in de <w>bijstand</w> omdat ze geen werk kan vinden."
+                            "text": "Hij moet elke maand van de <w>bijstand</w> zien rond te komen.",
+                            "target_lang_translations": {
+                                "en": "He has to make ends meet on <w>welfare</w> every month.",
+                                "ru": "Ему приходится каждый месяц выживать на <w>социальное пособие</w>."
+                            }
                         },
                         {
-                            "text": "Je kunt bij de gemeente <w>bijstand</w> aanvragen als je geldproblemen hebt."
+                            "text": "Als je je baan verliest en geen recht meer hebt op WW, kom je in de <w>bijstand</w>.",
+                            "target_lang_translations": {
+                                "en": "If you lose your job and are no longer entitled to unemployment benefits, you end up on <w>social assistance</w>.",
+                                "ru": "Если вы потеряете работу и больше не будете иметь права на выплаты по безработице, вы перейдете на <w>социальное обеспечение</w>."
+                            }
                         }
                     ],
                     "synonyms": [
                         "uitkering",
-                        "sociale dienst"
+                        "steun"
                     ],
                     "common_phrases": [
                         "in de bijstand",
                         "bijstand aanvragen",
-                        "leven van de bijstand"
-                    ]
+                        "bijstand ontvangen"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A financial benefit from the government for people who have no or insufficient income to live on.",
+                        "ru": "Финансовое пособие от государства для людей, не имеющих дохода или имеющих недостаточный доход для жизни."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "welfare",
+                                "target_lang_sense_clarification": "government financial support"
+                            },
+                            {
+                                "target_lang_word": "social assistance",
+                                "target_lang_sense_clarification": "formal term for government benefits"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "социальное пособие",
+                                "target_lang_sense_clarification": "финансовая выплата"
+                            },
+                            {
+                                "target_lang_word": "социальная помощь",
+                                "target_lang_sense_clarification": "государственная поддержка"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "eabc2bce-8dfc-3cca-ab8c-f99ae44c433d",
-                    "sense_definition": "Hulp of ondersteuning die aan iemand wordt gegeven, vaak in een officiële of ernstige situatie.",
+                    "sense_definition": "Hulp of ondersteuning die aan iemand wordt geboden, vaak in een officiële, juridische of medische context.",
                     "learner_level": "B2",
                     "frequency": "Middle",
                     "semantic_group_id": "general_help",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De politie vroeg om <w>bijstand</w> toen de situatie uit de hand liep."
+                            "text": "Met <w>bijstand</w> van het buurland wist men de vijand het hoofd te bieden.",
+                            "target_lang_translations": {
+                                "en": "With the <w>aid</w> of the neighboring country, they managed to withstand the enemy.",
+                                "ru": "При <w>поддержке</w> соседней страны удалось дать отпор врагу."
+                            }
                         },
                         {
-                            "text": "Hij kreeg juridische <w>bijstand</w> van een ervaren advocaat."
+                            "text": "De verdachte heeft tijdens het verhoor recht op juridische <w>bijstand</w>.",
+                            "target_lang_translations": {
+                                "en": "The suspect has the right to legal <w>assistance</w> during the interrogation.",
+                                "ru": "Подозреваемый имеет право на юридическую <w>помощь</w> во время допроса."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -61,14 +104,42 @@
                     "common_phrases": [
                         "juridische bijstand",
                         "medische bijstand",
-                        "om bijstand vragen"
+                        "onderlinge bijstand"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in legal, police, or medical contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Help or support offered to someone, often in an official, legal, or medical context.",
+                        "ru": "Помощь или поддержка, предоставляемая кому-либо, часто в официальном, юридическом или медицинском контексте."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "assistance",
+                                "target_lang_sense_clarification": "formal help or support"
+                            },
+                            {
+                                "target_lang_word": "aid",
+                                "target_lang_sense_clarification": "material or official help"
+                            },
+                            {
+                                "target_lang_word": "support",
+                                "target_lang_sense_clarification": "general backing or help"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "помощь",
+                                "target_lang_sense_clarification": "общее значение, напр. юридическая"
+                            },
+                            {
+                                "target_lang_word": "поддержка",
+                                "target_lang_sense_clarification": "опора, подкрепление"
+                            },
+                            {
+                                "target_lang_word": "содействие",
+                                "target_lang_sense_clarification": "формальное участие"
+                            }
+                        ]
+                    }
                 }
             ]
         }

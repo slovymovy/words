@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De straatverlichting bestond vroeger uit een rij met elke avond aangestoken <w>booglampen</w>."
+                            "text": "De straatverlichting bestond vroeger uit een rij met elke avond aangestoken <w>booglampen</w>.",
+                            "target_lang_translations": {
+                                "en": "The street lighting used to consist of a row of <w>arc lamps</w> that were lit every evening.",
+                                "ru": "Уличное освещение раньше состояло из ряда <w>дуговых ламп</w>, которые зажигали каждый вечер."
+                            }
                         },
                         {
-                            "text": "Voor de filmprojector werd een krachtige <w>booglamp</w> gebruikt om het beeld helder op het doek te krijgen."
+                            "text": "Voor de filmprojector werd een krachtige <w>booglamp</w> gebruikt om het beeld helder op het doek te krijgen.",
+                            "target_lang_translations": {
+                                "en": "A powerful <w>arc lamp</w> was used for the film projector to get a bright image on the screen.",
+                                "ru": "Для кинопроектора использовалась мощная <w>дуговая лампа</w>, чтобы получить яркое изображение на экране."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,28 @@
                         "heldere booglamp",
                         "licht van de booglamp"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "verlichtingstechniek"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An electric lamp that produces light via an electric arc between two electrodes, usually made of carbon.",
+                        "ru": "Электрическая лампа, излучающая свет благодаря электрической дуге между двумя электродами, обычно угольными."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "arc lamp",
+                                "target_lang_sense_clarification": "electric lamp"
+                            },
+                            {
+                                "target_lang_word": "arc light",
+                                "target_lang_sense_clarification": "light source"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дуговая лампа",
+                                "target_lang_sense_clarification": "электрический источник света"
+                            }
+                        ]
+                    }
                 }
             ]
         }

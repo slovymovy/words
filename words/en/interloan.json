@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The researcher submitted an <w>interloan</w> request to obtain the rare manuscript."
+                            "text": "The researcher submitted an <w>interloan</w> request to obtain the rare manuscript.",
+                            "target_lang_translations": {
+                                "ru": "Исследователь подал запрос по <w>межбиблиотечному абонементу</w>, чтобы получить редкую рукопись."
+                            }
                         },
                         {
-                            "text": "Our university library offers an efficient <w>interloan</w> service for students."
+                            "text": "Our university library offers an efficient <w>interloan</w> service for students.",
+                            "target_lang_translations": {
+                                "ru": "Библиотека нашего университета предлагает студентам эффективную услугу <w>межбиблиотечного абонемента</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "interloan service",
                         "interloan department"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "library science"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Выдача изданий из фондов одной библиотеки читателям другой библиотеки; система взаимного использования библиотечных ресурсов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "межбиблиотечный абонемент",
+                                "target_lang_sense_clarification": "система обмена книгами между библиотеками"
+                            },
+                            {
+                                "target_lang_word": "МБА",
+                                "target_lang_sense_clarification": "аббревиатура"
+                            }
+                        ]
+                    }
                 }
             ]
         }

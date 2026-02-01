@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Weterynarz przepisał leki, ponieważ u mojego psa zdiagnozowano <w>robaczycę</w>."
+                            "text": "Weterynarz przepisał leki, ponieważ u mojego psa zdiagnozowano <w>robaczycę</w>.",
+                            "target_lang_translations": {
+                                "ru": "Ветеринар прописал лекарства, так как у моей собаки диагностировали <w>гельминтоз</w>."
+                            }
                         },
                         {
-                            "text": "Nieleczona <w>robaczyca</w> może prowadzić do poważnego osłabienia organizmu i utraty wagi."
+                            "text": "Nieleczona <w>robaczyca</w> może prowadzić do poważnego osłabienia organizmu i utraty wagi.",
+                            "target_lang_translations": {
+                                "ru": "Нелеченый <w>гельминтоз</w> может привести к серьезному ослаблению организма и потере веса."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,21 @@
                         "objawy robaczycy",
                         "ostra robaczyca"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "medycyna"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "weterynaria"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Паразитарное заболевание, вызываемое гельминтами (глистами), поражающее людей или животных"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "гельминтоз",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "глистная инвазия",
+                                "target_lang_sense_clarification": "описание состояния"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5f3ebc14-af3e-3c2d-bd30-10fab8c51e90",
@@ -54,10 +65,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Podczas badań dna rzeki biolodzy wyłowili rzadką <w>robaczycę</w>."
+                            "text": "Podczas badań dna rzeki biolodzy wyłowili rzadką <w>robaczycę</w>.",
+                            "target_lang_translations": {
+                                "ru": "Во время исследования дна реки биологи выловили редкую <w>пескоройку</w>."
+                            }
                         },
                         {
-                            "text": "<w>Robaczyca</w> nie posiada oczu i żyje zagrzebana w osadach dennych."
+                            "text": "<w>Robaczyca</w> nie posiada oczu i żyje zagrzebana w osadach dennych.",
+                            "target_lang_translations": {
+                                "ru": "<w>Пескоройка</w> не имеет глаз и живет, зарывшись в донные отложения."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -67,12 +84,17 @@
                     "common_phrases": [
                         "stadium robaczycy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "zoologia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Личинка миноги, обитающая в речном иле и отличающаяся внешним видом от взрослой особи"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пескоройка",
+                                "target_lang_sense_clarification": "зоологический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

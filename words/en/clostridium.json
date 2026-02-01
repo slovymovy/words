@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor prescribed antibiotics to treat the severe <w>clostridium</w> infection in the patient's gut."
+                            "text": "The doctor prescribed antibiotics to treat the severe <w>clostridium</w> infection in the patient's gut.",
+                            "target_lang_translations": {
+                                "ru": "Врач назначил антибиотики для лечения тяжелой инфекции, вызванной <w>клостридиями</w>, в кишечнике пациента."
+                            }
                         },
                         {
-                            "text": "Spores of <w>clostridium</w> can remain dormant in the soil for long periods before becoming active."
+                            "text": "Spores of <w>clostridium</w> can remain dormant in the soil for long periods before becoming active.",
+                            "target_lang_translations": {
+                                "ru": "Споры <w>клостридий</w> могут долгое время оставаться в почве в состоянии покоя, прежде чем активизироваться."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,16 +32,17 @@
                         "clostridium infection",
                         "Clostridium botulinum"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": "microbiology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Любая анаэробная бактерия рода Clostridium, часто встречающаяся в почве и кишечнике, способная образовывать споры."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "клостридия",
+                                "target_lang_sense_clarification": "бактерия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

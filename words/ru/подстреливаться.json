@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом лесу браконьерами часто <w>подстреливаются</w> редкие виды птиц."
+                            "text": "В этом лесу браконьерами часто <w>подстреливаются</w> редкие виды птиц.",
+                            "target_lang_translations": {
+                                "en": "Rare bird species are often <w>shot</w> by poachers in this forest."
+                            }
                         },
                         {
-                            "text": "Из-за густого тумана утки сегодня <w>подстреливаются</w> с большим трудом."
+                            "text": "Из-за густого тумана утки сегодня <w>подстреливаются</w> с большим трудом.",
+                            "target_lang_translations": {
+                                "en": "Due to the thick fog, ducks are being <w>shot</w> with great difficulty today."
+                            }
                         }
                     ],
                     "traits": [
@@ -34,7 +40,22 @@
                             "trait_type": "form",
                             "comment": "passive voice"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Passive form of the verb 'подстреливать'; to be wounded or killed by a shot (usually referring to game)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be shot",
+                                "target_lang_sense_clarification": "passive voice, general context"
+                            },
+                            {
+                                "target_lang_word": "be wounded",
+                                "target_lang_sense_clarification": "passive voice, referring to injury"
+                            }
+                        ]
+                    }
                 }
             ]
         }

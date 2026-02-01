@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>diabeet</w> controleert elke dag zijn bloedsuikerspiegel."
+                            "text": "De <w>diabeet</w> controleert elke dag zijn bloedsuikerspiegel.",
+                            "target_lang_translations": {
+                                "ru": "<w>Диабетик</w> каждый день проверяет уровень сахара в крови.",
+                                "en": "The <w>diabetic</w> checks his blood sugar level every day."
+                            }
                         },
                         {
-                            "text": "Als <w>diabeet</w> moet je goed op je voeding letten."
+                            "text": "Als <w>diabeet</w> moet je goed op je voeding letten.",
+                            "target_lang_translations": {
+                                "ru": "Как <w>диабетик</w>, вы должны внимательно следить за своим питанием.",
+                                "en": "As a <w>diabetic</w>, you have to pay close attention to your diet."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,24 @@
                         "type 1 diabeet",
                         "type 2 diabeet"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, страдающий сахарным диабетом.",
+                        "en": "A person suffering from diabetes."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "диабетик",
+                                "target_lang_sense_clarification": "больной диабетом"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "diabetic",
+                                "target_lang_sense_clarification": "person with diabetes"
+                            }
+                        ]
+                    }
                 }
             ]
         }

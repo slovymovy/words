@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>wout</w> gaf de automobilist een boete voor te hard rijden."
+                            "text": "De <w>wout</w> gaf de automobilist een boete voor te hard rijden.",
+                            "target_lang_translations": {
+                                "en": "The <w>cop</w> gave the driver a fine for speeding.",
+                                "ru": "<w>Мент</w> выписал водителю штраф за превышение скорости."
+                            }
                         },
                         {
-                            "text": "Pas op, er staat een stille <w>wout</w> bij de ingang."
+                            "text": "Pas op, er staat een stille <w>wout</w> bij de ingang.",
+                            "target_lang_translations": {
+                                "en": "Watch out, there is a plainclothes <w>cop</w> at the entrance.",
+                                "ru": "Осторожно, у входа стоит <w>мент</w> в штатском."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,14 +39,40 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "informal",
-                            "comment": "commonly used in spoken language"
-                        },
-                        {
                             "trait_type": "slang",
                             "comment": "Bargoens origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An informal term for a police officer.",
+                        "ru": "Неформальное название полицейского."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cop",
+                                "target_lang_sense_clarification": "informal"
+                            },
+                            {
+                                "target_lang_word": "copper",
+                                "target_lang_sense_clarification": "slang"
+                            },
+                            {
+                                "target_lang_word": "fuzz",
+                                "target_lang_sense_clarification": "slang"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "мент",
+                                "target_lang_sense_clarification": "сленг"
+                            },
+                            {
+                                "target_lang_word": "легавый",
+                                "target_lang_sense_clarification": "жаргон"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -54,18 +88,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn buurman heet <w>Wout</w> en hij is erg aardig."
+                            "text": "Mijn buurman heet <w>Wout</w> en hij is erg aardig.",
+                            "target_lang_translations": {
+                                "en": "My neighbor is called <w>Wout</w> and he is very nice.",
+                                "ru": "Моего соседа зовут <w>Ваут</w>, и он очень приятный человек."
+                            }
                         },
                         {
-                            "text": "<w>Wout</w> gaat elke zaterdag naar de voetbaltraining."
+                            "text": "<w>Wout</w> gaat elke zaterdag naar de voetbaltraining.",
+                            "target_lang_translations": {
+                                "en": "<w>Wout</w> goes to soccer practice every Saturday.",
+                                "ru": "<w>Ваут</w> каждую субботу ходит на футбольную тренировку."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A boy's name.",
+                        "ru": "Мужское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Wout",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Ваут",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

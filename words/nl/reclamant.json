@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>reclamant</w> heeft binnen de gestelde termijn officieel beroep aangetekend tegen het besluit."
+                            "text": "De <w>reclamant</w> heeft binnen de gestelde termijn officieel beroep aangetekend tegen het besluit.",
+                            "target_lang_translations": {
+                                "en": "The <w>appellant</w> officially lodged an appeal against the decision within the set time limit.",
+                                "ru": "<w>Заявитель</w> официально подал апелляцию на решение в установленный срок."
+                            }
                         },
                         {
-                            "text": "In deze administratieve procedure werd de <w>reclamant</w> uiteindelijk door de gemeente in het gelijk gesteld."
+                            "text": "In deze administratieve procedure werd de <w>reclamant</w> uiteindelijk door de gemeente in het gelijk gesteld.",
+                            "target_lang_translations": {
+                                "en": "In this administrative procedure, the <w>objector</w> was ultimately ruled in the right by the municipality.",
+                                "ru": "В ходе этой административной процедуры муниципалитет в конечном итоге признал правоту <w>заявителя</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,16 +37,36 @@
                         "namens de reclamant",
                         "de rechten van de reclamant"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "someone who files an objection or reclaims something",
+                        "ru": "Лицо, подающее жалобу, возражение или требование о возврате чего-либо"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "objector",
+                                "target_lang_sense_clarification": "person filing a formal objection"
+                            },
+                            {
+                                "target_lang_word": "appellant",
+                                "target_lang_sense_clarification": "person lodging an appeal"
+                            },
+                            {
+                                "target_lang_word": "claimant",
+                                "target_lang_sense_clarification": "person reclaiming rights or property"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "заявитель",
+                                "target_lang_sense_clarification": "лицо, подающее официальное заявление или жалобу"
+                            },
+                            {
+                                "target_lang_word": "податель жалобы",
+                                "target_lang_sense_clarification": "лицо, направляющее официальную претензию"
+                            }
+                        ]
+                    }
                 }
             ]
         }

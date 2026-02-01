@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Shephard</w> has been working at the company for over ten years."
+                            "text": "Mr. <w>Shephard</w> has been working at the company for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Шепард</w> работает в компании уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "I asked Jack <w>Shephard</w> to help me with the project."
+                            "text": "I asked Jack <w>Shephard</w> to help me with the project.",
+                            "target_lang_translations": {
+                                "ru": "Я попросил Джека <w>Шепарда</w> помочь мне с проектом."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "common spelling variant of Shepherd"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Шепард",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -42,18 +59,29 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The student lost points for writing <w>shephard</w> on the test."
+                            "text": "The student lost points for writing <w>shephard</w> on the test.",
+                            "target_lang_translations": {
+                                "ru": "Студент потерял баллы за написание <w>shephard</w> в тесте."
+                            }
                         },
                         {
-                            "text": "You should check the dictionary if you write <w>shephard</w> by mistake."
+                            "text": "You should check the dictionary if you write <w>shephard</w> by mistake.",
+                            "target_lang_translations": {
+                                "ru": "Вам следует свериться со словарем, если вы по ошибке написали <w>shephard</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "misspelling"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Распространенная ошибка в написании слова <w>shepherd</w>."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пастух",
+                                "target_lang_sense_clarification": "значение правильного слова shepherd"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -69,18 +97,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He attempted to <w>shephard</w> the tourists but used the wrong spelling."
+                            "text": "He attempted to <w>shephard</w> the tourists but used the wrong spelling.",
+                            "target_lang_translations": {
+                                "ru": "Он пытался <w>направлять</w> туристов, но использовал неправильное написание."
+                            }
                         },
                         {
-                            "text": "Do not write that you will <w>shephard</w> the team in your formal report."
+                            "text": "Do not write that you will <w>shephard</w> the team in your formal report.",
+                            "target_lang_translations": {
+                                "ru": "Не пишите, что вы будете <w>shephard</w> команду, в своем официальном отчете."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "misspelling"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Распространенная ошибка в написании слова <w>shepherd</w>."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вести",
+                                "target_lang_sense_clarification": "значение правильного слова shepherd"
+                            },
+                            {
+                                "target_lang_word": "направлять",
+                                "target_lang_sense_clarification": "значение правильного слова shepherd"
+                            }
+                        ]
+                    }
                 }
             ]
         }

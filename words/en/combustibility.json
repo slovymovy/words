@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The laboratory report analyzed the <w>combustibility</w> of the new insulation material."
+                            "text": "The laboratory report analyzed the <w>combustibility</w> of the new insulation material.",
+                            "target_lang_translations": {
+                                "ru": "В лабораторном отчете анализировалась <w>горючесть</w> нового изоляционного материала."
+                            }
                         },
                         {
-                            "text": "Due to its high <w>combustibility</w>, the chemical must be stored in a fireproof container."
+                            "text": "Due to its high <w>combustibility</w>, the chemical must be stored in a fireproof container.",
+                            "target_lang_translations": {
+                                "ru": "Из-за высокой <w>горючести</w> этот химикат необходимо хранить в огнеупорном контейнере."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,21 @@
                         "low combustibility",
                         "combustibility test"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "often used in scientific or safety contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Свойство или состояние быть горючим; способность легко загораться и гореть."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "горючесть",
+                                "target_lang_sense_clarification": "способность вещества поддерживать горение"
+                            },
+                            {
+                                "target_lang_word": "воспламеняемость",
+                                "target_lang_sense_clarification": "способность легко загораться"
+                            }
+                        ]
+                    }
                 }
             ]
         }

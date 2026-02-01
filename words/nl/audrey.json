@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriendin heet <w>Audrey</w> en ze woont in Amsterdam."
+                            "text": "Mijn beste vriendin heet <w>Audrey</w> en ze woont in Amsterdam.",
+                            "target_lang_translations": {
+                                "en": "My best friend is named <w>Audrey</w> and she lives in Amsterdam.",
+                                "ru": "Мою лучшую подругу зовут <w>Одри</w>, и она живет в Амстердаме."
+                            }
                         },
                         {
-                            "text": "Heb jij <w>Audrey</w> al uitgenodigd voor het feestje van volgende week?"
+                            "text": "Heb jij <w>Audrey</w> al uitgenodigd voor het feestje van volgende week?",
+                            "target_lang_translations": {
+                                "en": "Have you invited <w>Audrey</w> to next week's party yet?",
+                                "ru": "Ты уже пригласил <w>Одри</w> на вечеринку на следующей неделе?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A girl's name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Audrey",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Одри",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

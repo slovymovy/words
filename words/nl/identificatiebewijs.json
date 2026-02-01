@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Je bent verplicht om een geldig <w>identificatiebewijs</w> te tonen als de politie daarom vraagt."
+                            "text": "Je bent verplicht om een geldig <w>identificatiebewijs</w> te tonen als de politie daarom vraagt.",
+                            "target_lang_translations": {
+                                "en": "You are required to show valid <w>identification</w> if the police ask for it.",
+                                "ru": "Вы обязаны предъявить действительное <w>удостоверение личности</w>, если этого потребует полиция."
+                            }
                         },
                         {
-                            "text": "Zonder <w>identificatiebewijs</w> kun je bij deze bank geen nieuwe rekening openen."
+                            "text": "Zonder <w>identificatiebewijs</w> kun je bij deze bank geen nieuwe rekening openen.",
+                            "target_lang_translations": {
+                                "en": "Without <w>proof of identity</w>, you cannot open a new account at this bank.",
+                                "ru": "Без <w>удостоверения личности</w> вы не сможете открыть новый счет в этом банке."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,36 @@
                         "identificatiebewijs tonen",
                         "identificatiebewijs overleggen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in official or administrative contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official document used to prove who you are.",
+                        "ru": "Официальный документ, подтверждающий личность человека."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "proof of identity",
+                                "target_lang_sense_clarification": "formal"
+                            },
+                            {
+                                "target_lang_word": "identification",
+                                "target_lang_sense_clarification": "general"
+                            },
+                            {
+                                "target_lang_word": "ID",
+                                "target_lang_sense_clarification": "abbreviation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "удостоверение личности",
+                                "target_lang_sense_clarification": "документ"
+                            },
+                            {
+                                "target_lang_word": "документ, удостоверяющий личность",
+                                "target_lang_sense_clarification": "официальная формулировка"
+                            }
+                        ]
+                    }
                 }
             ]
         }

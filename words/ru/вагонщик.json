@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В шахте <w>вагонщик</w> отвечает за своевременное перемещение грузов."
+                            "text": "В шахте <w>вагонщик</w> отвечает за своевременное перемещение грузов.",
+                            "target_lang_translations": {
+                                "en": "In the mine, the <w>trammer</w> is responsible for the timely movement of loads."
+                            }
                         },
                         {
-                            "text": "Обычно уголь загружался самим <w>вагонщиком</w> при помощи лопаты."
+                            "text": "Обычно уголь загружался самим <w>вагонщиком</w> при помощи лопаты.",
+                            "target_lang_translations": {
+                                "en": "Usually, the coal was loaded by the <w>trammer</w> himself using a shovel."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,25 @@
                         "бригада вагонщиков",
                         "опытный вагонщик"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "mining and industrial occupation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A worker responsible for handling wagons or trolleys, most often in underground mining or production."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "trammer",
+                                "target_lang_sense_clarification": "mining worker who pushes wagons"
+                            },
+                            {
+                                "target_lang_word": "wagoner",
+                                "target_lang_sense_clarification": "worker handling wagons"
+                            },
+                            {
+                                "target_lang_word": "tubman",
+                                "target_lang_sense_clarification": "worker moving tubs in a mine"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn nieuwe klasgenoot heet <w>Othman</w>."
+                            "text": "Mijn nieuwe klasgenoot heet <w>Othman</w>.",
+                            "target_lang_translations": {
+                                "en": "My new classmate is named <w>Othman</w>.",
+                                "ru": "Моего нового одноклассника зовут <w>Отман</w>."
+                            }
                         },
                         {
-                            "text": "Heb jij <w>Othman</w> vandaag al gezien?"
+                            "text": "Heb jij <w>Othman</w> vandaag al gezien?",
+                            "target_lang_translations": {
+                                "en": "Have you seen <w>Othman</w> today?",
+                                "ru": "Ты уже видел сегодня <w>Отмана</w>?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "mannelijk"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A boy's name.",
+                        "ru": "Мужское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Othman",
+                                "target_lang_sense_clarification": "male given name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Отман",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

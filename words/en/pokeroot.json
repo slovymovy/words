@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The herbalist carefully prepared a tincture using dried <w>pokeroot</w>."
+                            "text": "The herbalist carefully prepared a tincture using dried <w>pokeroot</w>.",
+                            "target_lang_translations": {
+                                "ru": "Травник тщательно приготовил настойку, используя сушеный <w>корень лаконоса</w>."
+                            }
                         },
                         {
-                            "text": "You should avoid touching <w>pokeroot</w> with bare hands because it can be toxic."
+                            "text": "You should avoid touching <w>pokeroot</w> with bare hands because it can be toxic.",
+                            "target_lang_translations": {
+                                "ru": "Вам следует избегать прикосновения к <w>корню лаконоса</w> голыми руками, так как он может быть токсичен."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,25 @@
                         "dried pokeroot",
                         "pokeroot extract"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "botany"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Синоним растения лаконос (фитолакка), или его корень, используемый в лечебных целях."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лаконос",
+                                "target_lang_sense_clarification": "растение"
+                            },
+                            {
+                                "target_lang_word": "корень лаконоса",
+                                "target_lang_sense_clarification": "часть растения"
+                            },
+                            {
+                                "target_lang_word": "фитолакка",
+                                "target_lang_sense_clarification": "научное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

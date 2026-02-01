@@ -15,18 +15,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мою новую знакомую зовут <w>Хабиба</w>."
+                            "text": "Мою новую знакомую зовут <w>Хабиба</w>.",
+                            "target_lang_translations": {
+                                "en": "My new acquaintance is named <w>Khabiba</w>."
+                            }
                         },
                         {
-                            "text": "<w>Хабиба</w> приготовила вкусный ужин для гостей."
+                            "text": "<w>Хабиба</w> приготовила вкусный ужин для гостей.",
+                            "target_lang_translations": {
+                                "en": "<w>Khabiba</w> cooked a delicious dinner for the guests."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female personal name of Arabic origin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Khabiba",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

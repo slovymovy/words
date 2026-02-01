@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Геологи обнаружили новое крупное <w>газоконденсатное</w> месторождение на севере страны."
+                            "text": "Геологи обнаружили новое крупное <w>газоконденсатное</w> месторождение на севере страны.",
+                            "target_lang_translations": {
+                                "en": "Geologists discovered a new large <w>gas-condensate</w> field in the north of the country."
+                            }
                         },
                         {
-                            "text": "Этот завод перерабатывает <w>газоконденсатное</w> сырьё для получения качественного топлива."
+                            "text": "Этот завод перерабатывает <w>газоконденсатное</w> сырьё для получения качественного топлива.",
+                            "target_lang_translations": {
+                                "en": "This plant processes <w>gas-condensate</w> feedstock to produce high-quality fuel."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,21 @@
                         "газоконденсатная залежь",
                         "газоконденсатная смесь"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "нефтегазовая промышленность"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the extraction, processing, or properties of gas condensate (a liquid mixture of hydrocarbons)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "gas-condensate",
+                                "target_lang_sense_clarification": "adjective describing fields, deposits, or mixtures"
+                            },
+                            {
+                                "target_lang_word": "gas condensate",
+                                "target_lang_sense_clarification": "attributive use"
+                            }
+                        ]
+                    }
                 }
             ]
         }

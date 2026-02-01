@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The lawyer argued that the specific clause was <w>nonirrevocable</w> and could be amended by the board."
+                            "text": "The lawyer argued that the specific clause was <w>nonirrevocable</w> and could be amended by the board.",
+                            "target_lang_translations": {
+                                "ru": "Юрист утверждал, что данный пункт является <w>отзывным</w> и может быть изменен советом директоров."
+                            }
                         },
                         {
-                            "text": "Because the trust was established as <w>nonirrevocable</w>, the grantor retained the right to modify its terms."
+                            "text": "Because the trust was established as <w>nonirrevocable</w>, the grantor retained the right to modify its terms.",
+                            "target_lang_translations": {
+                                "ru": "Поскольку траст был учрежден как <w>отзывный</w>, учредитель сохранил за собой право изменять его условия."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,21 @@
                     "antonyms": [
                         "irrevocable"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "double negative construction; 'revocable' is the standard term"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "typically found in legal or technical documents"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Не являющийся безотзывным; который может быть отозван, изменен или аннулирован."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "отзывный",
+                                "target_lang_sense_clarification": "юридический термин; подлежащий отмене или изменению (например, о трасте)"
+                            },
+                            {
+                                "target_lang_word": "отменяемый",
+                                "target_lang_sense_clarification": "общий термин; способный быть отмененным"
+                            }
+                        ]
+                    }
                 }
             ]
         }

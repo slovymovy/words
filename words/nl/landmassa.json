@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Antarctica is een enorme <w>landmassa</w> die grotendeels met ijs is bedekt."
+                            "text": "Antarctica is een enorme <w>landmassa</w> die grotendeels met ijs is bedekt.",
+                            "target_lang_translations": {
+                                "en": "Antarctica is a huge <w>landmass</w> that is largely covered with ice.",
+                                "ru": "Антарктида — это огромный <w>массив суши</w>, который по большей части покрыт льдом."
+                            }
                         },
                         {
-                            "text": "De brug verbindt het kleine eiland met de grote <w>landmassa</w>."
+                            "text": "De brug verbindt het kleine eiland met de grote <w>landmassa</w>.",
+                            "target_lang_translations": {
+                                "en": "The bridge connects the small island to the large <w>landmass</w>.",
+                                "ru": "Мост соединяет маленький остров с большим <w>массивом суши</w>."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -29,12 +37,24 @@
                         "grote landmassa",
                         "enorme landmassa"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "geografie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A large, continuous piece of land surrounded by oceans or seas.",
+                        "ru": "Большой непрерывный участок суши, окруженный океанами или морями."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "landmass",
+                                "target_lang_sense_clarification": "large continuous extent of land"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "массив суши",
+                                "target_lang_sense_clarification": "обширная территория земли"
+                            }
+                        ]
+                    }
                 }
             ]
         }

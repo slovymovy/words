@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De soldaten liepen patrouille met een <w>machinepistool</w> in de aanslag."
+                            "text": "De soldaten liepen patrouille met een <w>machinepistool</w> in de aanslag.",
+                            "target_lang_translations": {
+                                "en": "The soldiers were on patrol with a <w>submachine gun</w> at the ready.",
+                                "ru": "Солдаты патрулировали с <w>пистолетами-пулемётами</w> наготове."
+                            }
                         },
                         {
-                            "text": "Bij de huiszoeking vond de politie een illegaal <w>machinepistool</w> en munitie."
+                            "text": "Bij de huiszoeking vond de politie een illegaal <w>machinepistool</w> en munitie.",
+                            "target_lang_translations": {
+                                "en": "During the house search, the police found an illegal <w>submachine gun</w> and ammunition.",
+                                "ru": "При обыске полиция обнаружила нелегальный <w>пистолет-пулемёт</w> и боеприпасы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,28 @@
                         "een geladen machinepistool",
                         "schieten met een machinepistool"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "verwijst naar wapens en uitrusting"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A light, automatic firearm that fires pistol ammunition and produces little recoil.",
+                        "ru": "Легкое автоматическое огнестрельное оружие, стреляющее пистолетными патронами и имеющее слабую отдачу."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "submachine gun",
+                                "target_lang_sense_clarification": "standard term for an automatic weapon firing pistol rounds"
+                            },
+                            {
+                                "target_lang_word": "machine pistol",
+                                "target_lang_sense_clarification": "literal translation, often referring to smaller automatic handguns"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пистолет-пулемёт",
+                                "target_lang_sense_clarification": "автоматическое оружие под пистолетный патрон"
+                            }
+                        ]
+                    }
                 }
             ]
         }

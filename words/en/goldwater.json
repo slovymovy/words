@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Senator <w>Goldwater</w> was a prominent figure in American politics during the 1960s."
+                            "text": "Senator <w>Goldwater</w> was a prominent figure in American politics during the 1960s.",
+                            "target_lang_translations": {
+                                "ru": "Сенатор <w>Голдуотер</w> был видной фигурой в американской политике в 1960-х годах."
+                            }
                         },
                         {
-                            "text": "She was surprised to find another family named <w>Goldwater</w> living in the small village."
+                            "text": "She was surprised to find another family named <w>Goldwater</w> living in the small village.",
+                            "target_lang_translations": {
+                                "ru": "Она была удивлена, обнаружив в маленькой деревне еще одну семью по фамилии <w>Голдуотер</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Голдуотер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

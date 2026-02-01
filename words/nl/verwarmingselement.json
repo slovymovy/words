@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>verwarmingselement</w> van de waterkoker is doorgebrand en moet worden vervangen."
+                            "text": "Het <w>verwarmingselement</w> van de waterkoker is doorgebrand en moet worden vervangen.",
+                            "target_lang_translations": {
+                                "en": "The <w>heating element</w> of the kettle has burned out and needs to be replaced.",
+                                "ru": "<w>Нагревательный элемент</w> чайника перегорел, и его нужно заменить."
+                            }
                         },
                         {
-                            "text": "Door kalkaanslag kan het <w>verwarmingselement</w> in de wasmachine minder goed werken."
+                            "text": "Door kalkaanslag kan het <w>verwarmingselement</w> in de wasmachine minder goed werken.",
+                            "target_lang_translations": {
+                                "en": "Due to limescale, the <w>heating element</w> in the washing machine may work less effectively.",
+                                "ru": "Из-за накипи <w>нагревательный элемент</w> в стиральной машине может работать хуже."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +43,28 @@
                         "verwarmingselement vervangen",
                         "keramisch verwarmingselement"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "onderdeel van apparaten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A component of a device that converts electricity into heat to heat something up.",
+                        "ru": "Часть устройства, которая преобразует электричество в тепло для нагрева."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "heating element",
+                                "target_lang_sense_clarification": "component that generates heat"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "нагревательный элемент",
+                                "target_lang_sense_clarification": "техническая деталь"
+                            },
+                            {
+                                "target_lang_word": "ТЭН",
+                                "target_lang_sense_clarification": "трубчатый электронагреватель"
+                            }
+                        ]
+                    }
                 }
             ]
         }

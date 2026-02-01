@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zdiagnozował u pacjenta poważny zator <w>płucny</w>."
+                            "text": "Lekarz zdiagnozował u pacjenta poważny zator <w>płucny</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врач диагностировал у пациента тяжелую <w>лёгочную</w> эмболию."
+                            }
                         },
                         {
-                            "text": "Ten oddział szpitalny leczy głównie przewlekłe choroby <w>płucne</w>."
+                            "text": "Ten oddział szpitalny leczy głównie przewlekłe choroby <w>płucne</w>.",
+                            "target_lang_translations": {
+                                "ru": "Это больничное отделение лечит в основном хронические <w>лёгочные</w> заболевания."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "nadciśnienie płucne",
                         "płat płucny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "anatomia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "относящийся к лёгким, связанный с ними, находящийся в лёгких или являющийся их частью"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лёгочный",
+                                "target_lang_sense_clarification": "относящийся к лёгким"
+                            }
+                        ]
+                    }
                 }
             ]
         }

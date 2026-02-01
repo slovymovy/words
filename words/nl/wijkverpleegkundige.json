@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn oma krijgt elke ochtend hulp van de <w>wijkverpleegkundige</w> bij het wassen en aankleden."
+                            "text": "Mijn oma krijgt elke ochtend hulp van de <w>wijkverpleegkundige</w> bij het wassen en aankleden.",
+                            "target_lang_translations": {
+                                "en": "My grandmother receives help from the <w>district nurse</w> every morning with washing and dressing.",
+                                "ru": "Каждое утро моей бабушке помогает мыться и одеваться <w>патронажная медсестра</w>."
+                            }
                         },
                         {
-                            "text": "De huisarts heeft een <w>wijkverpleegkundige</w> ingeschakeld om de wondverzorging thuis te doen."
+                            "text": "De huisarts heeft een <w>wijkverpleegkundige</w> ingeschakeld om de wondverzorging thuis te doen.",
+                            "target_lang_translations": {
+                                "en": "The GP called in a <w>visiting nurse</w> to handle the wound care at home.",
+                                "ru": "Семейный врач направил <w>участковую медсестру</w> для обработки раны на дому."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,36 @@
                         "de wijkverpleegkundige inschakelen",
                         "bezoek van de wijkverpleegkundige"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A nurse who provides professional medical care and support to patients in their own homes.",
+                        "ru": "Медсестра, оказывающая профессиональную медицинскую помощь и поддержку пациентам на дому в их районе."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "district nurse",
+                                "target_lang_sense_clarification": "UK term, most direct equivalent"
+                            },
+                            {
+                                "target_lang_word": "visiting nurse",
+                                "target_lang_sense_clarification": "US term"
+                            },
+                            {
+                                "target_lang_word": "community nurse",
+                                "target_lang_sense_clarification": "broader term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "участковая медсестра",
+                                "target_lang_sense_clarification": "медсестра, закрепленная за определенным территориальным участком"
+                            },
+                            {
+                                "target_lang_word": "патронажная медсестра",
+                                "target_lang_sense_clarification": "медсестра, осуществляющая уход за больными на дому"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The failure of the steel component was attributed to severe <w>intergranular</w> corrosion."
+                            "text": "The failure of the steel component was attributed to severe <w>intergranular</w> corrosion.",
+                            "target_lang_translations": {
+                                "ru": "Разрушение стального компонента было обусловлено сильной <w>межкристаллитной</w> коррозией."
+                            }
                         },
                         {
-                            "text": "Microscopic analysis revealed that the cracks were <w>intergranular</w> rather than cutting through the grains themselves."
+                            "text": "Microscopic analysis revealed that the cracks were <w>intergranular</w> rather than cutting through the grains themselves.",
+                            "target_lang_translations": {
+                                "ru": "Микроскопический анализ показал, что трещины были <w>межзеренными</w>, а не проходили сквозь сами зерна."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,21 @@
                         "intergranular fracture",
                         "intergranular cracking"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "materials science"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Происходящий или расположенный вдоль границ между кристаллами или зернами металла или подобного материала."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "межкристаллитный",
+                                "target_lang_sense_clarification": "проходящий по границам кристаллов (часто о коррозии)"
+                            },
+                            {
+                                "target_lang_word": "межзеренный",
+                                "target_lang_sense_clarification": "расположенный между зернами структуры материала"
+                            }
+                        ]
+                    }
                 }
             ]
         }

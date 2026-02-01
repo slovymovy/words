@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The biopsy results confirmed that the patient was suffering from <w>osteocarcinoma</w>."
+                            "text": "The biopsy results confirmed that the patient was suffering from <w>osteocarcinoma</w>.",
+                            "target_lang_translations": {
+                                "ru": "Результаты биопсии подтвердили, что пациент страдает от <w>остеокарциномы</w>."
+                            }
                         },
                         {
-                            "text": "Doctors discussed the best surgical options to treat the aggressive <w>osteocarcinoma</w>."
+                            "text": "Doctors discussed the best surgical options to treat the aggressive <w>osteocarcinoma</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врачи обсуждали лучшие варианты хирургического лечения агрессивной <w>остеокарциномы</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +34,21 @@
                         "diagnosed with osteocarcinoma",
                         "metastatic osteocarcinoma"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "oncology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Злокачественная опухоль костной ткани; рак кости."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "остеокарцинома",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "рак кости",
+                                "target_lang_sense_clarification": "общее название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

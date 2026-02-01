@@ -15,22 +15,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "My friend <w>Deano</w> is coming to the party later."
+                            "text": "My friend <w>Deano</w> is coming to the party later.",
+                            "target_lang_translations": {
+                                "ru": "Мой друг <w>Дино</w> придет на вечеринку позже."
+                            }
                         },
                         {
-                            "text": "Everyone calls him <w>Deano</w> even though his passport says Dean."
+                            "text": "Everyone calls him <w>Deano</w> even though his passport says Dean.",
+                            "target_lang_translations": {
+                                "ru": "Все зовут его <w>Дино</w>, хотя в паспорте написано Дин."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "diminutive nickname"
-                        },
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Уменьшительная форма мужского имени Дин."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дино",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -46,10 +53,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The article satirized the lifestyle of the typical <w>Deano</w> living in the commuter belt."
+                            "text": "The article satirized the lifestyle of the typical <w>Deano</w> living in the commuter belt.",
+                            "target_lang_translations": {
+                                "ru": "Статья высмеивала образ жизни типичного <w>Дино</w>, живущего в пригородной зоне."
+                            }
                         },
                         {
-                            "text": "He fits the <w>Deano</w> stereotype perfectly with his financed car and grey living room furniture."
+                            "text": "He fits the <w>Deano</w> stereotype perfectly with his financed car and grey living room furniture.",
+                            "target_lang_translations": {
+                                "ru": "Он идеально вписывается в стереотип <w>Дино</w> со своей машиной в кредит и серой мебелью в гостиной."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -64,7 +77,18 @@
                             "trait_type": "regional",
                             "comment": "UK"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Стереотипный образ молодого британца из нижнего среднего класса, живущего в новостройке, культурно неискушенного, склонного к чрезмерному потреблению в кредит."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дино",
+                                "target_lang_sense_clarification": "британский сленг, стереотип"
+                            }
+                        ]
+                    }
                 }
             ]
         }

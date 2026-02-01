@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij was ook maar een arme <w>zondaar</w>."
+                            "text": "Hij was ook maar een arme <w>zondaar</w>.",
+                            "target_lang_translations": {
+                                "en": "He was just a poor <w>sinner</w>.",
+                                "ru": "Он был всего лишь бедным <w>грешником</w>."
+                            }
                         },
                         {
-                            "text": "De <w>zondaar</w> vroeg in de kerk om vergeving voor zijn daden."
+                            "text": "De <w>zondaar</w> vroeg in de kerk om vergeving voor zijn daden.",
+                            "target_lang_translations": {
+                                "en": "The <w>sinner</w> asked for forgiveness for his deeds in the church.",
+                                "ru": "<w>Грешник</w> просил в церкви прощения за свои поступки."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -30,12 +38,24 @@
                         "arme zondaar",
                         "berouwvolle zondaar"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Someone who sins or violates religious rules.",
+                        "ru": "Тот, кто совершает грех или нарушает религиозные предписания."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sinner",
+                                "target_lang_sense_clarification": "person who commits a sin"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "грешник",
+                                "target_lang_sense_clarification": "человек, совершивший грех"
+                            }
+                        ]
+                    }
                 }
             ]
         }

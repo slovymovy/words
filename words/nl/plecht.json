@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De kapitein stond op de <w>plecht</w> en tuurde naar de horizon."
+                            "text": "De kapitein stond op de <w>plecht</w> en tuurde naar de horizon.",
+                            "target_lang_translations": {
+                                "en": "The captain stood on the <w>foredeck</w> and peered at the horizon.",
+                                "ru": "Капитан стоял на <w>баке</w> и вглядывался в горизонт."
+                            }
                         },
                         {
-                            "text": "Tijdens de storm sloegen de golven met kracht over de <w>plecht</w>."
+                            "text": "Tijdens de storm sloegen de golven met kracht over de <w>plecht</w>.",
+                            "target_lang_translations": {
+                                "en": "During the storm, the waves crashed forcefully over the <w>forecastle</w>.",
+                                "ru": "Во время шторма волны с силой перекатывались через <w>бак</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                     "common_phrases": [
                         "op de plecht"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "scheepvaart"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The raised deck at the front of a ship.",
+                        "ru": "Приподнятая палуба в носовой части корабля."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "foredeck",
+                                "target_lang_sense_clarification": "the forward part of a ship's main deck"
+                            },
+                            {
+                                "target_lang_word": "forecastle",
+                                "target_lang_sense_clarification": "raised deck at the bow of a ship"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "бак",
+                                "target_lang_sense_clarification": "носовая часть верхней палубы судна"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "17549787-d56d-338b-b295-cc32f20c887c",
@@ -48,10 +72,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij vervulde zijn <w>plecht</w> zonder enige aarzeling."
+                            "text": "Hij vervulde zijn <w>plecht</w> zonder enige aarzeling.",
+                            "target_lang_translations": {
+                                "en": "He fulfilled his <w>duty</w> without any hesitation.",
+                                "ru": "Он исполнил свой <w>долг</w> без малейших колебаний."
+                            }
                         },
                         {
-                            "text": "Het was zijn dure <w>plecht</w> om voor zijn familie te zorgen."
+                            "text": "Het was zijn dure <w>plecht</w> om voor zijn familie te zorgen.",
+                            "target_lang_translations": {
+                                "en": "It was his solemn <w>duty</w> to care for his family.",
+                                "ru": "Заботиться о семье было его священным <w>долгом</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -62,7 +94,33 @@
                             "trait_type": "archaic",
                             "comment": "verouderd"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A moral obligation or task that one must fulfill.",
+                        "ru": "Моральное обязательство или задача, которую необходимо выполнить (устаревшее)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "duty",
+                                "target_lang_sense_clarification": "moral or legal obligation (archaic usage)"
+                            },
+                            {
+                                "target_lang_word": "solemn duty",
+                                "target_lang_sense_clarification": "serious and formal obligation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "долг",
+                                "target_lang_sense_clarification": "моральное обязательство"
+                            },
+                            {
+                                "target_lang_word": "обязанность",
+                                "target_lang_sense_clarification": "возложенная задача"
+                            }
+                        ]
+                    }
                 }
             ]
         }

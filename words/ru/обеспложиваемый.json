@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот участок земли, регулярно <w>обеспложиваемый</w> чрезмерным использованием химикатов, перестал давать хороший урожай."
+                            "text": "Этот участок земли, регулярно <w>обеспложиваемый</w> чрезмерным использованием химикатов, перестал давать хороший урожай.",
+                            "target_lang_translations": {
+                                "en": "This plot of land, regularly <w>depleted</w> by excessive use of chemicals, stopped yielding a good harvest."
+                            }
                         },
                         {
-                            "text": "Медицинский инструмент, <w>обеспложиваемый</w> в специальном растворе, должен находиться там не менее часа."
+                            "text": "Медицинский инструмент, <w>обеспложиваемый</w> в специальном растворе, должен находиться там не менее часа.",
+                            "target_lang_translations": {
+                                "en": "The medical instrument <w>being sterilized</w> in a special solution must remain there for at least an hour."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,12 +47,27 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "agriculture, medicine"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Present passive participle of the verb 'to make barren' or 'to sterilize'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "being sterilized",
+                                "target_lang_sense_clarification": "medical or biological context"
+                            },
+                            {
+                                "target_lang_word": "being depleted",
+                                "target_lang_sense_clarification": "regarding soil fertility"
+                            },
+                            {
+                                "target_lang_word": "being made barren",
+                                "target_lang_sense_clarification": "general context of losing fertility"
+                            }
+                        ]
+                    }
                 }
             ]
         }

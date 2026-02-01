@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Blom</w> has been working as our accountant for over a decade."
+                            "text": "Mr. <w>Blom</w> has been working as our accountant for over a decade.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Блом</w> работает нашим бухгалтером уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "We received a holiday card from the <w>Blom</w> family yesterday."
+                            "text": "We received a holiday card from the <w>Blom</w> family yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера мы получили праздничную открытку от семьи <w>Блом</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Блом",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

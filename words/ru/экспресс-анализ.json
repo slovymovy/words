@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач назначил <w>экспресс-анализ</w> крови, чтобы как можно скорее поставить точный диагноз."
+                            "text": "Врач назначил <w>экспресс-анализ</w> крови, чтобы как можно скорее поставить точный диагноз.",
+                            "target_lang_translations": {
+                                "en": "The doctor ordered a <w>rapid analysis</w> of the blood to make an accurate diagnosis as soon as possible."
+                            }
                         },
                         {
-                            "text": "Для принятия решения инвесторам потребовался <w>экспресс-анализ</w> финансового состояния компании."
+                            "text": "Для принятия решения инвесторам потребовался <w>экспресс-анализ</w> финансового состояния компании.",
+                            "target_lang_translations": {
+                                "en": "To make a decision, the investors needed an <w>express analysis</w> of the company's financial condition."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,12 +46,21 @@
                         "метод экспресс-анализа",
                         "результаты экспресс-анализа"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "часто используется в медицине, химии и бизнесе"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Urgent examination of materials or data conducted immediately upon receipt."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "rapid analysis",
+                                "target_lang_sense_clarification": "general / scientific"
+                            },
+                            {
+                                "target_lang_word": "express analysis",
+                                "target_lang_sense_clarification": "business / technical"
+                            }
+                        ]
+                    }
                 }
             ]
         }

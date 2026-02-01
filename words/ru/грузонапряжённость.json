@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Высокая <w>грузонапряжённость</w> этого участка требует более частого технического обслуживания путей."
+                            "text": "Высокая <w>грузонапряжённость</w> этого участка требует более частого технического обслуживания путей.",
+                            "target_lang_translations": {
+                                "en": "The high <w>freight density</w> of this section requires more frequent track maintenance."
+                            }
                         },
                         {
-                            "text": "При проектировании новой магистрали инженеры тщательно рассчитывали ожидаемую <w>грузонапряжённость</w>."
+                            "text": "При проектировании новой магистрали инженеры тщательно рассчитывали ожидаемую <w>грузонапряжённость</w>.",
+                            "target_lang_translations": {
+                                "en": "When designing the new main line, engineers carefully calculated the expected <w>freight density</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,16 +41,21 @@
                         "расчёт грузонапряжённости",
                         "средняя грузонапряжённость"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "железнодорожный транспорт"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "логистика"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The volume of cargo transported along a transport route (usually a railway) through a specific point or section within a given period of time."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "freight density",
+                                "target_lang_sense_clarification": "technical term for cargo volume per route section"
+                            },
+                            {
+                                "target_lang_word": "freight traffic density",
+                                "target_lang_sense_clarification": "intensity of cargo flow"
+                            }
+                        ]
+                    }
                 }
             ]
         }

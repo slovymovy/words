@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "За последний год <w>судооборот</w> главного морского порта страны значительно вырос."
+                            "text": "За последний год <w>судооборот</w> главного морского порта страны значительно вырос.",
+                            "target_lang_translations": {
+                                "en": "Over the last year, the <w>ship turnover</w> of the country's main seaport has increased significantly."
+                            }
                         },
                         {
-                            "text": "Для точного расчёта нагрузки на терминал необходимо учитывать суточный <w>судооборот</w>."
+                            "text": "Для точного расчёта нагрузки на терминал необходимо учитывать суточный <w>судооборот</w>.",
+                            "target_lang_translations": {
+                                "en": "To accurately calculate the load on the terminal, it is necessary to consider the daily <w>vessel turnover</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,25 @@
                         "рост судооборота",
                         "общий судооборот"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "морское дело, логистика"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An indicator of shipping intensity, equal to the number of vessels visiting a port or passing through a section of a waterway over a certain period."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ship turnover",
+                                "target_lang_sense_clarification": "technical term referring to the number of ships processed"
+                            },
+                            {
+                                "target_lang_word": "vessel turnover",
+                                "target_lang_sense_clarification": "synonym for ship turnover"
+                            },
+                            {
+                                "target_lang_word": "vessel traffic",
+                                "target_lang_sense_clarification": "general volume of ships moving through an area"
+                            }
+                        ]
+                    }
                 }
             ]
         }

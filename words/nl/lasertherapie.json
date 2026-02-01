@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De atleet kreeg <w>lasertherapie</w> om de genezing van zijn blessure te versnellen."
+                            "text": "De atleet kreeg <w>lasertherapie</w> om de genezing van zijn blessure te versnellen.",
+                            "target_lang_translations": {
+                                "en": "The athlete received <w>laser therapy</w> to speed up the healing of his injury.",
+                                "ru": "Спортсмен прошел <w>лазеротерапию</w>, чтобы ускорить заживление травмы."
+                            }
                         },
                         {
-                            "text": "Voor sommige huidaandoeningen is <w>lasertherapie</w> een zeer effectieve en pijnloze oplossing."
+                            "text": "Voor sommige huidaandoeningen is <w>lasertherapie</w> een zeer effectieve en pijnloze oplossing.",
+                            "target_lang_translations": {
+                                "en": "For some skin conditions, <w>laser therapy</w> is a very effective and painless solution.",
+                                "ru": "При некоторых кожных заболеваниях <w>лазерная терапия</w> является очень эффективным и безболезненным решением."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "lasertherapie ondergaan",
                         "toepassing van lasertherapie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "treatment using laser light",
+                        "ru": "лечение с помощью лазерного излучения"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "laser therapy",
+                                "target_lang_sense_clarification": "medical treatment"
+                            },
+                            {
+                                "target_lang_word": "laser treatment",
+                                "target_lang_sense_clarification": "procedure"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "лазеротерапия",
+                                "target_lang_sense_clarification": "медицинская процедура"
+                            },
+                            {
+                                "target_lang_word": "лазерная терапия",
+                                "target_lang_sense_clarification": "метод лечения"
+                            }
+                        ]
+                    }
                 }
             ]
         }

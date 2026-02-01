@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het bedrijf heeft gisteren het nieuwe <w>jaarverslag</w> gepubliceerd."
+                            "text": "Het bedrijf heeft gisteren het nieuwe <w>jaarverslag</w> gepubliceerd.",
+                            "target_lang_translations": {
+                                "ru": "Вчера компания опубликовала новый <w>годовой отчёт</w>.",
+                                "en": "The company published the new <w>annual report</w> yesterday."
+                            }
                         },
                         {
-                            "text": "In het <w>jaarverslag</w> kun je lezen hoeveel winst de organisatie heeft gemaakt."
+                            "text": "In het <w>jaarverslag</w> kun je lezen hoeveel winst de organisatie heeft gemaakt.",
+                            "target_lang_translations": {
+                                "ru": "В <w>годовом отчёте</w> можно прочитать, какую прибыль получила организация.",
+                                "en": "In the <w>annual report</w> you can read how much profit the organization made."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,24 @@
                         "jaarverslag publiceren",
                         "jaarverslag goedkeuren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "standard term in corporate and organizational contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Официальный отчет, который организация публикует ежегодно, содержащий информацию о деятельности, событиях и финансовых результатах за прошедший год.",
+                        "en": "An official report that an organization publishes annually regarding the activities, events, and financial results of the past year."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "годовой отчёт",
+                                "target_lang_sense_clarification": "документ о результатах деятельности за год"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "annual report",
+                                "target_lang_sense_clarification": "document detailing yearly activities and finances"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Faxon</w> arrived at the office earlier than usual."
+                            "text": "Mr. <w>Faxon</w> arrived at the office earlier than usual.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Факсон</w> пришел в офис раньше обычного."
+                            }
                         },
                         {
-                            "text": "The <w>Faxon</w> family has lived in this neighborhood for generations."
+                            "text": "The <w>Faxon</w> family has lived in this neighborhood for generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Факсонов</w> живет в этом районе уже несколько поколений."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Факсон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "8b84b576-c028-3000-bad8-c5005474a11c",
@@ -35,22 +52,35 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "They decided to visit <w>Faxon</w> during their road trip across the state."
+                            "text": "They decided to visit <w>Faxon</w> during their road trip across the state.",
+                            "target_lang_translations": {
+                                "ru": "Они решили посетить <w>Факсон</w> во время своего автопутешествия по штату."
+                            }
                         },
                         {
-                            "text": "The small town of <w>Faxon</w> is known for its quiet atmosphere."
+                            "text": "The small town of <w>Faxon</w> is known for its quiet atmosphere.",
+                            "target_lang_translations": {
+                                "ru": "Небольшой городок <w>Факсон</w> известен своей спокойной атмосферой."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "place_name",
-                            "comment": "geographical locations"
-                        },
-                        {
                             "trait_type": "regional",
                             "comment": "United States"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Название населенного пункта, используемое для нескольких городов и общин в США."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Факсон",
+                                "target_lang_sense_clarification": "город"
+                            }
+                        ]
+                    }
                 }
             ]
         }

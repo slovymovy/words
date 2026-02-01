@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На химическом предприятии произошла утечка <w>ОХВ</w>, и персонал был немедленно эвакуирован."
+                            "text": "На химическом предприятии произошла утечка <w>ОХВ</w>, и персонал был немедленно эвакуирован.",
+                            "target_lang_translations": {
+                                "en": "A leak of a <w>hazardous chemical</w> occurred at the chemical plant, and the staff was immediately evacuated."
+                            }
                         },
                         {
-                            "text": "Спасатели использовали специальные костюмы для защиты от воздействия <w>ОХВ</w> в зоне аварии."
+                            "text": "Спасатели использовали специальные костюмы для защиты от воздействия <w>ОХВ</w> в зоне аварии.",
+                            "target_lang_translations": {
+                                "en": "Rescuers used special suits for protection against exposure to <w>hazardous chemicals</w> in the accident zone."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +34,21 @@
                         "воздействие ОХВ",
                         "защита от ОХВ"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "safety and chemistry"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for <w>hazardous chemical substance</w>; a toxic compound that can cause harm to human health, animals, or the environment in the event of an accident or leak."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hazardous chemical substance",
+                                "target_lang_sense_clarification": "literal translation"
+                            },
+                            {
+                                "target_lang_word": "hazardous chemical",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

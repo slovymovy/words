@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het bedrijf moest flink investeren in een nieuw <w>kapitaalgoed</w> om de productiecapaciteit te vergroten."
+                            "text": "Het bedrijf moest flink investeren in een nieuw <w>kapitaalgoed</w> om de productiecapaciteit te vergroten.",
+                            "target_lang_translations": {
+                                "en": "The company had to invest heavily in a new <w>capital good</w> to increase production capacity.",
+                                "ru": "Компании пришлось значительно инвестировать в новое <w>средство производства</w>, чтобы увеличить производственные мощности."
+                            }
                         },
                         {
-                            "text": "Voor de belastingdienst gelden er specifieke regels voor de afschrijving van duurzame <w>kapitaalgoederen</w>."
+                            "text": "Voor de belastingdienst gelden er specifieke regels voor de afschrijving van duurzame <w>kapitaalgoederen</w>.",
+                            "target_lang_translations": {
+                                "en": "Specific rules apply for the tax authorities regarding the depreciation of durable <w>capital goods</w>.",
+                                "ru": "Для налоговой службы действуют особые правила амортизации долгосрочных <w>капитальных товаров</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,36 @@
                         "investeren in kapitaalgoederen",
                         "duurzame kapitaalgoederen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "economie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A good, such as a machine, building, or tool, that is used to produce other products or services.",
+                        "ru": "Товар (например, станок, здание или инструмент), который используется для производства других товаров или услуг."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "capital good",
+                                "target_lang_sense_clarification": "economics/production"
+                            },
+                            {
+                                "target_lang_word": "capital asset",
+                                "target_lang_sense_clarification": "finance/accounting"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "средство производства",
+                                "target_lang_sense_clarification": "оборудование, инструменты или объекты, используемые в процессе создания продукции"
+                            },
+                            {
+                                "target_lang_word": "капитальный товар",
+                                "target_lang_sense_clarification": "экономический термин для товаров, используемых в производстве, а не для потребления"
+                            },
+                            {
+                                "target_lang_word": "инвестиционный товар",
+                                "target_lang_sense_clarification": "товар, приобретаемый как вложение для будущего производства"
+                            }
+                        ]
+                    }
                 }
             ]
         }

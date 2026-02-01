@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Trickett</w> has been managing the local library for over a decade."
+                            "text": "Mr. <w>Trickett</w> has been managing the local library for over a decade.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Трикетт</w> руководит местной библиотекой уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "Please forward this mail to the <w>Trickett</w> family at their new address."
+                            "text": "Please forward this mail to the <w>Trickett</w> family at their new address.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, перешлите это письмо семье <w>Трикетт</w> по их новому адресу."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Трикетт",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

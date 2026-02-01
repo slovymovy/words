@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts besloot een <w>radioscopisch</w> onderzoek uit te voeren om de slikfunctie van de patiënt te beoordelen."
+                            "text": "De arts besloot een <w>radioscopisch</w> onderzoek uit te voeren om de slikfunctie van de patiënt te beoordelen.",
+                            "target_lang_translations": {
+                                "ru": "Врач решил провести <w>рентгеноскопическое</w> исследование, чтобы оценить глотательную функцию пациента.",
+                                "en": "The doctor decided to perform a <w>fluoroscopic</w> examination to assess the patient's swallowing function."
+                            }
                         },
                         {
-                            "text": "Tijdens de ingreep werd er voortdurend gekeken naar het <w>radioscopische</w> beeld op de monitor."
+                            "text": "Tijdens de ingreep werd er voortdurend gekeken naar het <w>radioscopische</w> beeld op de monitor.",
+                            "target_lang_translations": {
+                                "ru": "Во время процедуры постоянно следили за <w>рентгеноскопическим</w> изображением на мониторе.",
+                                "en": "During the procedure, the <w>fluoroscopic</w> image on the monitor was constantly watched."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,16 +35,32 @@
                         "radioscopische controle",
                         "radioscopisch beeld"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Связанный с радиоскопией (рентгеноскопией) или использующий этот метод для непосредственного наблюдения за внутренними структурами тела с помощью рентгеновских лучей.",
+                        "en": "Related to or using radioscopy (fluoroscopy), a technique for directly viewing internal body structures using X-rays."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "рентгеноскопический",
+                                "target_lang_sense_clarification": "относящийся к методу визуального исследования внутренних органов с помощью рентгеновских лучей"
+                            },
+                            {
+                                "target_lang_word": "радиоскопический",
+                                "target_lang_sense_clarification": "прямой перевод, реже используется в современной медицинской терминологии"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "fluoroscopic",
+                                "target_lang_sense_clarification": "relating to real-time X-ray imaging (most common medical term)"
+                            },
+                            {
+                                "target_lang_word": "radioscopic",
+                                "target_lang_sense_clarification": "relating to radioscopy (less common synonym)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

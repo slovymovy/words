@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The estate was inherited by the <w>Lynde</w> family in the eighteenth century."
+                            "text": "The estate was inherited by the <w>Lynde</w> family in the eighteenth century.",
+                            "target_lang_translations": {
+                                "ru": "В восемнадцатом веке поместье унаследовала семья <w>Линд</w>."
+                            }
                         },
                         {
-                            "text": "She introduced herself as Sarah <w>Lynde</w> before starting the presentation."
+                            "text": "She introduced herself as Sarah <w>Lynde</w> before starting the presentation.",
+                            "target_lang_translations": {
+                                "ru": "Она представилась Сарой <w>Линд</w> перед началом презентации."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Линд",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

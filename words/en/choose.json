@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Please <w>choose</w> a color for your new room."
+                            "text": "I <w>chose</w> the red shirt because it matches my shoes.",
+                            "target_lang_translations": {
+                                "ru": "Я <w>выбрал</w> красную рубашку, потому что она подходит к моим туфлям."
+                            }
                         },
                         {
-                            "text": "I <w>chose</w> the red apple because it looked the freshest."
+                            "text": "Please <w>choose</w> a partner for the next activity.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, <w>выберите</w> партнера для следующего задания."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,24 +39,46 @@
                         "refuse"
                     ],
                     "common_phrases": [
-                        "choose carefully",
                         "choose between",
-                        "choose from"
-                    ]
+                        "choose from",
+                        "choose carefully",
+                        "hard to choose"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Выбрать или отобрать из ряда альтернатив."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "выбирать",
+                                "target_lang_sense_clarification": "общий выбор"
+                            },
+                            {
+                                "target_lang_word": "выбрать",
+                                "target_lang_sense_clarification": "совершенный вид"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "b6d6c610-aab0-37c6-a8fe-3cd117f81fce",
-                    "sense_definition": "To decide to act in a specific way.",
+                    "sense_definition": "To decide to do something or act in a certain way.",
                     "learner_level": "A2",
                     "frequency": "High",
                     "semantic_group_id": "decision",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "She <w>chose</w> to stay home instead of going to the party."
+                            "text": "She <w>chose</w> to stay home instead of going to the party.",
+                            "target_lang_translations": {
+                                "ru": "Она <w>решила</w> остаться дома вместо того, чтобы идти на вечеринку."
+                            }
                         },
                         {
-                            "text": "We <w>choose</w> to ignore the negative comments."
+                            "text": "We <w>choose</w> to believe that everything will work out.",
+                            "target_lang_translations": {
+                                "ru": "Мы <w>выбираем</w> верить, что всё образуется."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -58,68 +86,125 @@
                         "determine",
                         "settle"
                     ],
+                    "antonyms": [
+                        "compel",
+                        "constrain"
+                    ],
                     "common_phrases": [
-                        "choose to believe",
                         "choose to ignore",
-                        "choose to live"
-                    ]
+                        "choose to believe",
+                        "choose not to"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Решить сделать что-то или действовать определенным образом."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "решить",
+                                "target_lang_sense_clarification": "принять решение"
+                            },
+                            {
+                                "target_lang_word": "предпочесть",
+                                "target_lang_sense_clarification": "сделать выбор в пользу действия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "67c6db85-c134-3a1d-98ff-80990fd07b57",
-                    "sense_definition": "To select someone for an official position by voting.",
+                    "sense_definition": "To select someone for a position or office, often by voting.",
                     "learner_level": "B1",
                     "frequency": "Middle",
                     "semantic_group_id": "selection",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The committee will <w>choose</w> a new chairman next week."
+                            "text": "The committee <w>chose</w> a new chairman yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера комитет <w>выбрал</w> нового председателя."
+                            }
                         },
                         {
-                            "text": "They <w>chose</w> him to represent the class at the meeting."
+                            "text": "They will <w>choose</w> their representative in the upcoming election.",
+                            "target_lang_translations": {
+                                "ru": "Они <w>изберут</w> своего представителя на предстоящих выборах."
+                            }
                         }
                     ],
                     "synonyms": [
                         "elect",
-                        "vote",
                         "appoint",
+                        "vote",
                         "designate"
                     ],
                     "common_phrases": [
-                        "choose a leader",
-                        "choose a representative"
-                    ]
+                        "chosen for office",
+                        "choose a leader"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Выбрать кого-либо на должность или пост, часто путем голосования."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "избирать",
+                                "target_lang_sense_clarification": "голосованием"
+                            },
+                            {
+                                "target_lang_word": "выбирать",
+                                "target_lang_sense_clarification": "назначать"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "981eac3b-41f8-3769-aef0-6cc16778b5d0",
-                    "sense_definition": "To prefer or desire something.",
+                    "sense_definition": "To want, prefer, or desire something.",
                     "learner_level": "C1",
                     "frequency": "Low",
                     "semantic_group_id": "preference",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "You may leave whenever you <w>choose</w>."
+                            "text": "You may do as you <w>choose</w> in this matter.",
+                            "target_lang_translations": {
+                                "ru": "В этом вопросе вы можете поступать так, как <w>считаете нужным</w>."
+                            }
                         },
                         {
-                            "text": "I do not <w>choose</w> to discuss this matter any further."
+                            "text": "I do not <w>choose</w> to discuss my private life with strangers.",
+                            "target_lang_translations": {
+                                "ru": "Я не <w>желаю</w> обсуждать свою личную жизнь с незнакомцами."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "prefer",
                         "desire",
-                        "favor"
+                        "prefer",
+                        "favor",
+                        "crave",
+                        "embrace"
                     ],
                     "common_phrases": [
                         "as you choose",
-                        "if you choose"
+                        "do as you choose"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in somewhat formal contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Хотеть, предпочитать или желать чего-либо."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "хотеть",
+                                "target_lang_sense_clarification": "иметь желание"
+                            },
+                            {
+                                "target_lang_word": "желать",
+                                "target_lang_sense_clarification": "формальное"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -128,28 +213,39 @@
             "senses": [
                 {
                     "sense_id": "ff132410-1e25-3b02-9ca3-98feba17a5f4",
-                    "sense_definition": "Used in mathematics to express the binomial coefficient, indicating the number of ways to pick a subset of items.",
+                    "sense_definition": "Used in mathematics to indicate the binomial coefficient, representing the number of ways to pick a subset of items.",
                     "learner_level": "C2",
                     "frequency": "Low",
                     "semantic_group_id": "math_term",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The formula for the calculation is n <w>choose</w> k."
+                            "text": "The formula for the calculation is read as n <w>choose</w> k.",
+                            "target_lang_translations": {
+                                "ru": "Формула для вычисления читается как n <w>по</w> k."
+                            }
                         },
                         {
-                            "text": "Five <w>choose</w> two equals ten."
+                            "text": "Five <w>choose</w> two equals ten distinct combinations.",
+                            "target_lang_translations": {
+                                "ru": "Пять <w>по</w> два равно десяти различным комбинациям."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "n choose k"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "mathematics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Используется в математике для обозначения биномиального коэффициента (число сочетаний)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "по",
+                                "target_lang_sense_clarification": "в формуле 'C из n по k'"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -158,25 +254,42 @@
             "senses": [
                 {
                     "sense_id": "a7e86a6a-6762-3b94-9cee-0969854f97a9",
-                    "sense_definition": "The act of selecting or making a choice.",
+                    "sense_definition": "The act of choosing or the power to make a selection.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "noun_usage",
+                    "semantic_group_id": "noun_form",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He had no <w>choose</w> in the matter."
+                            "text": "He had no <w>choose</w> but to accept the offer.",
+                            "target_lang_translations": {
+                                "ru": "У него не было иного <w>выбора</w>, кроме как принять предложение."
+                            }
                         },
                         {
-                            "text": "It was a difficult <w>choose</w> to make."
+                            "text": "It was a difficult <w>choose</w> to make at the time.",
+                            "target_lang_translations": {
+                                "ru": "В то время это был трудный <w>выбор</w>."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "rare",
-                            "comment": "standard English usually uses 'choice' instead"
+                            "trait_type": "dialectal",
+                            "comment": "Standard English uses 'choice' as the noun; 'choose' as a noun is non-standard or dialectal."
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Акт выбора или возможность сделать выбор (диалектное или нестандартное употребление)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "выбор",
+                                "target_lang_sense_clarification": "существительное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

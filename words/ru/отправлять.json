@@ -1,15 +1,8 @@
 {
     "word_family": [
         "отправление",
-        "отправитель",
         "отправка",
-        "отправной",
-        "переправлять",
-        "направлять",
-        "исправлять",
-        "управлять",
-        "поправлять",
-        "заправлять"
+        "отправитель"
     ],
     "entries": [
         {
@@ -17,17 +10,23 @@
             "senses": [
                 {
                     "sense_id": "fef35849-723e-3e1f-8aa6-20aad986cc64",
-                    "sense_definition": "Посылать письмо, груз или сообщение куда-либо для доставки адресату.",
+                    "sense_definition": "Посылать что-либо (письмо, сообщение, груз) для доставки адресату.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "1",
+                    "semantic_group_id": "sending_objects",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Каждую неделю она <w>отправляет</w> письма своей бабушке в деревню."
+                            "text": "Я хочу <w>отправить</w> это письмо своей бабушке по почте.",
+                            "target_lang_translations": {
+                                "en": "I want to <w>send</w> this letter to my grandmother by mail."
+                            }
                         },
                         {
-                            "text": "Мы будем <w>отправлять</w> посылку по почте завтра утром."
+                            "text": "Ты уже <w>отправлял</w> сообщение своему другу о нашей встрече?",
+                            "target_lang_translations": {
+                                "en": "Have you already <w>sent</w> a message to your friend about our meeting?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,141 +34,228 @@
                         "слать",
                         "отсылать"
                     ],
-                    "antonyms": [
-                        "получать",
-                        "принимать"
-                    ],
                     "common_phrases": [
                         "отправлять письмо",
                         "отправлять сообщение",
                         "отправлять посылку",
-                        "отправлять по почте",
                         "отправлять документы"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To cause something (like a letter, message, or package) to go or be conveyed to a destination."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "send",
+                                "target_lang_sense_clarification": "general term for causing something to go somewhere"
+                            },
+                            {
+                                "target_lang_word": "mail",
+                                "target_lang_sense_clarification": "specifically via the postal service"
+                            },
+                            {
+                                "target_lang_word": "dispatch",
+                                "target_lang_sense_clarification": "formal, often regarding goods or official messages"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "e956cead-bc19-3980-a3da-548848cac4dd",
-                    "sense_definition": "Велеть или помогать кому-либо уйти или уехать куда-либо (часто с поручением или заданием).",
+                    "sense_id": "2f854d7d-ae98-3be4-a61a-5d80447e8f2a",
+                    "sense_definition": "Говорить кому-либо пойти или поехать куда-либо, часто с определённой целью или поручением.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "1",
+                    "semantic_group_id": "sending_people",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мама каждое утро <w>отправляет</w> детей в школу и готовит завтрак."
+                            "text": "Мама каждое утро <w>отправляет</w> детей в школу и готовит им завтрак.",
+                            "target_lang_translations": {
+                                "en": "Every morning, Mom <w>sends</w> the children to school and makes them breakfast."
+                            }
                         },
                         {
-                            "text": "Директор часто <w>отправляет</w> сотрудников в командировки в другие города."
+                            "text": "Начальник решил <w>отправить</w> меня в командировку в другой город.",
+                            "target_lang_translations": {
+                                "en": "The boss decided to <w>send</w> me on a business trip to another city."
+                            }
                         }
                     ],
                     "synonyms": [
                         "посылать",
-                        "отсылать",
-                        "выполнять"
-                    ],
-                    "antonyms": [
-                        "встречать"
+                        "засылать"
                     ],
                     "common_phrases": [
                         "отправлять домой",
-                        "отправлять спать",
                         "отправлять в школу",
-                        "отправлять в командировку"
-                    ]
+                        "отправлять в командировку",
+                        "отправлять спать"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To tell or order someone to go to a specific place, often for a purpose."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "send",
+                                "target_lang_sense_clarification": "to direct someone to go somewhere"
+                            },
+                            {
+                                "target_lang_word": "dispatch",
+                                "target_lang_sense_clarification": "to send someone on a specific mission or task"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d50fa9e3-f4d7-332c-b769-1ef10caa268c",
-                    "sense_definition": "Давать сигнал или распоряжение к началу движения транспортного средства.",
+                    "sense_definition": "Давать сигнал или распоряжение к началу движения транспорта (поезда, автобуса и т. п.).",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "1",
+                    "semantic_group_id": "transport_departure",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Дежурный по станции <w>отправляет</w> поезда строго по расписанию."
+                            "text": "Дежурный по станции готовится <w>отправлять</w> поезд точно по расписанию.",
+                            "target_lang_translations": {
+                                "en": "The station master is preparing to <w>dispatch</w> the train exactly on schedule."
+                            }
                         },
                         {
-                            "text": "Диспетчеры <w>отправляют</w> самолеты даже в плохую погоду."
+                            "text": "Диспетчеры <w>отправляют</w> самолёты в рейс, следя за безопасностью полётов.",
+                            "target_lang_translations": {
+                                "en": "Dispatchers <w>send</w> planes on flights, monitoring flight safety."
+                            }
                         }
-                    ],
-                    "synonyms": [
-                        "выполнять"
-                    ],
-                    "antonyms": [
-                        "принимать"
                     ],
                     "common_phrases": [
                         "отправлять поезд",
                         "отправлять автобус",
                         "отправлять рейс"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To authorize or cause a vehicle (train, bus, etc.) to depart."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "dispatch",
+                                "target_lang_sense_clarification": "technical term for sending off vehicles"
+                            },
+                            {
+                                "target_lang_word": "send off",
+                                "target_lang_sense_clarification": "to cause to depart"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d413b301-d164-3407-988b-316611739149",
-                    "sense_definition": "Класть что-либо внутрь чего-либо (обычно в рот или карман).",
+                    "sense_definition": "Класть что-либо внутрь чего-либо (часто в рот или в карман) быстрым или привычным движением.",
                     "learner_level": "B2",
                     "frequency": "Low",
-                    "semantic_group_id": "2",
+                    "semantic_group_id": "putting_inside",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Голодный путник с жадностью <w>отправлял</w> в рот куски хлеба."
+                            "text": "Он с большим аппетитом <w>отправлял</w> в рот один кусок пирога за другим.",
+                            "target_lang_translations": {
+                                "en": "He <w>popped</w> one piece of pie after another into his mouth with great appetite."
+                            }
                         },
                         {
-                            "text": "Найденные на пляже ракушки мальчик тут же <w>отправлял</w> в карман."
+                            "text": "Найденную на дороге монету мальчик тут же <w>отправил</w> в карман своих брюк.",
+                            "target_lang_translations": {
+                                "en": "The boy immediately <w>put</w> the coin found on the road into his trouser pocket."
+                            }
                         }
                     ],
                     "synonyms": [
                         "класть",
-                        "посылать"
+                        "бросать"
                     ],
                     "common_phrases": [
                         "отправлять в рот",
                         "отправлять в карман"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "colloquial",
-                            "comment": "used to describe putting things into mouth or pockets specifically"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To put something into a place (like one's mouth or pocket), often quickly or habitually."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pop",
+                                "target_lang_sense_clarification": "informal, to put something somewhere quickly"
+                            },
+                            {
+                                "target_lang_word": "put",
+                                "target_lang_sense_clarification": "general action of placing something inside"
+                            },
+                            {
+                                "target_lang_word": "shove",
+                                "target_lang_sense_clarification": "to put something in roughly or carelessly"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "7bdc5873-e6d4-38d6-835a-98bbe4f0d84d",
-                    "sense_definition": "Исполнять или совершать что-либо (обычно обряд, службу или должность).",
+                    "sense_id": "c1c4b17c-3d7f-35e5-8399-afa0fd9f6572",
+                    "sense_definition": "Исполнять или совершать какое-либо действие, обряд или служебную обязанность.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "3",
+                    "semantic_group_id": "performing_duties",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В старинном храме священник торжественно <w>отправлял</w> воскресную службу."
+                            "text": "В старой деревенской церкви священник торжественно <w>отправлял</w> воскресную службу.",
+                            "target_lang_translations": {
+                                "en": "In the old village church, the priest solemnly <w>performed</w> the Sunday service."
+                            }
                         },
                         {
-                            "text": "Судья строго и беспристрастно <w>отправлял</w> правосудие в своем округе."
+                            "text": "В прежние времена каждый гражданин обязан был <w>отправлять</w> определённые повинности.",
+                            "target_lang_translations": {
+                                "en": "In former times, every citizen was obliged to <w>perform</w> certain duties."
+                            }
                         }
                     ],
                     "synonyms": [
                         "исполнять",
                         "совершать",
-                        "осуществлять"
+                        "осуществлять",
+                        "выполнять"
                     ],
                     "common_phrases": [
                         "отправлять службу",
                         "отправлять обряд",
-                        "отправлять правосудие",
-                        "отправлять должность"
+                        "отправлять должность",
+                        "отправлять правосудие"
                     ],
                     "traits": [
                         {
                             "trait_type": "archaic",
-                            "comment": "mostly used in historical or religious contexts"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "used in phrases like 'administer justice'"
+                            "comment": "Used primarily in historical or religious contexts."
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To carry out a formal duty, religious rite, or function (archaic or formal)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "perform",
+                                "target_lang_sense_clarification": "to carry out a duty or ritual"
+                            },
+                            {
+                                "target_lang_word": "celebrate",
+                                "target_lang_sense_clarification": "specifically for religious masses or services"
+                            },
+                            {
+                                "target_lang_word": "administer",
+                                "target_lang_sense_clarification": "specifically for justice or sacraments"
+                            }
+                        ]
+                    }
                 }
             ]
         }

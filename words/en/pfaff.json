@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Mr. <w>Pfaff</w> to speak at the history symposium."
+                            "text": "We invited Mr. <w>Pfaff</w> to speak at the history symposium.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили господина <w>Пфаффа</w> выступить на историческом симпозиуме."
+                            }
                         },
                         {
-                            "text": "The document was signed by a notary named <w>Pfaff</w>."
+                            "text": "The document was signed by a notary named <w>Pfaff</w>.",
+                            "target_lang_translations": {
+                                "ru": "Документ был подписан нотариусом по фамилии <w>Пфафф</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": "German"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Пфафф",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,10 +60,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Stop <w>pfaffing</w> about and help me pack the car."
+                            "text": "Stop <w>pfaffing</w> about and help me pack the car.",
+                            "target_lang_translations": {
+                                "ru": "Перестань <w>заниматься ерундой</w> и помоги мне загрузить машину."
+                            }
                         },
                         {
-                            "text": "He spent the whole morning <w>pfaffing</w> around with the settings on his phone."
+                            "text": "He spent the whole morning <w>pfaffing</w> around with the settings on his phone.",
+                            "target_lang_translations": {
+                                "ru": "Он всё утро <w>возился</w> с настройками своего телефона."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -62,12 +85,25 @@
                         "pfaff-about",
                         "pfaff-around"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Тратить время на ненужные действия или делать что-то неэффективно; альтернативное написание слова faff."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "возиться",
+                                "target_lang_sense_clarification": "тратить время попусту"
+                            },
+                            {
+                                "target_lang_word": "заниматься ерундой",
+                                "target_lang_sense_clarification": "делать ненужные вещи"
+                            },
+                            {
+                                "target_lang_word": "канителиться",
+                                "target_lang_sense_clarification": "медлить, суетиться без толку"
+                            }
+                        ]
+                    }
                 }
             ]
         }

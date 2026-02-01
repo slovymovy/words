@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В левый ботинок пришлось подложить <w>косок</w>, так как он был немного велик."
+                            "text": "В левый ботинок пришлось подложить <w>косок</w>, так как он был немного велик.",
+                            "target_lang_translations": {
+                                "en": "I had to put a <w>heel piece</w> in the left boot because it was a bit too big."
+                            }
                         },
                         {
-                            "text": "Мастер предложил вклеить кожаный <w>косок</w> для исправления положения стопы."
+                            "text": "Мастер предложил вклеить кожаный <w>косок</w> для исправления положения стопы.",
+                            "target_lang_translations": {
+                                "en": "The cobbler suggested gluing in a leather <w>heel lift</w> to correct the foot position."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "войлочный косок",
                         "кожаный косок"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "обувное дело"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A thickened insole or insert placed under the heel inside a shoe for comfort or to adjust the size."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "heel piece",
+                                "target_lang_sense_clarification": "insert for shoe adjustment"
+                            },
+                            {
+                                "target_lang_word": "heel lift",
+                                "target_lang_sense_clarification": "orthopedic insert"
+                            },
+                            {
+                                "target_lang_word": "heel pad",
+                                "target_lang_sense_clarification": "cushioning insert"
+                            }
+                        ]
+                    }
                 }
             ]
         }

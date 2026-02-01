@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Drwale przeprowadzili wczoraj <w>ścinkę</w> drzew w głębi lasu."
+                            "text": "Drwale przeprowadzili wczoraj <w>ścinkę</w> drzew w głębi lasu.",
+                            "target_lang_translations": {
+                                "ru": "Вчера лесорубы провели <w>валку</w> деревьев в глубине леса."
+                            }
                         },
                         {
-                            "text": "Planowa <w>ścinka</w> w tym sektorze jest konieczna ze względu na korniki."
+                            "text": "Planowa <w>ścinka</w> w tym sektorze jest konieczna ze względu na korniki.",
+                            "target_lang_translations": {
+                                "ru": "Плановая <w>рубка</w> в этом секторе необходима из-за короедов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,21 @@
                         "ścinka drzew",
                         "ścinka sanitarna"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "leśnictwo"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процесс валки деревьев, чаще всего в хозяйственных или санитарных целях."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "валка",
+                                "target_lang_sense_clarification": "деревьев"
+                            },
+                            {
+                                "target_lang_word": "рубка",
+                                "target_lang_sense_clarification": "леса"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "35c3a7d1-f148-3ec1-8fc2-1556a72254e9",
@@ -54,10 +69,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nie wyrzucaj tego małego <w>ścinka</w> materiału, może się jeszcze przydać."
+                            "text": "Nie wyrzucaj tego małego <w>ścinka</w> materiału, może się jeszcze przydać.",
+                            "target_lang_translations": {
+                                "ru": "Не выбрасывай этот маленький <w>лоскут</w> ткани, он может еще пригодиться."
+                            }
                         },
                         {
-                            "text": "Wymiar tego papierowego <w>ścinka</w> nie pasuje do reszty dokumentów."
+                            "text": "Wymiar tego papierowego <w>ścinka</w> nie pasuje do reszty dokumentów.",
+                            "target_lang_translations": {
+                                "ru": "Размер этого бумажного <w>обрезка</w> не подходит к остальным документам."
+                            }
                         }
                     ],
                     "traits": [
@@ -65,7 +86,22 @@
                             "trait_type": "form",
                             "comment": "dopełniacz liczby pojedynczej"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Форма слова «ścinek» (родительный падеж единственного числа), означающего обрезок или лоскут."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "обрезка",
+                                "target_lang_sense_clarification": "родительный падеж слова «обрезок»"
+                            },
+                            {
+                                "target_lang_word": "лоскута",
+                                "target_lang_sense_clarification": "родительный падеж слова «лоскут»"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Garratt</w> has been managing the company for over twenty years."
+                            "text": "Mr. <w>Garratt</w> has been managing the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Гарратт</w> руководит компанией уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "I went to school with a girl named Sarah <w>Garratt</w>."
+                            "text": "I went to school with a girl named Sarah <w>Garratt</w>.",
+                            "target_lang_translations": {
+                                "ru": "Я учился в школе с девочкой по имени Сара <w>Гарратт</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Гарратт",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -40,10 +57,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The museum restored an old <w>Garratt</w> for the railway exhibition."
+                            "text": "The museum restored an old <w>Garratt</w> for the railway exhibition.",
+                            "target_lang_translations": {
+                                "ru": "Музей отреставрировал старый <w>гарратт</w> для железнодорожной выставки."
+                            }
                         },
                         {
-                            "text": "This <w>Garratt</w> was designed to haul heavy loads on narrow tracks with steep gradients."
+                            "text": "This <w>Garratt</w> was designed to haul heavy loads on narrow tracks with steep gradients.",
+                            "target_lang_translations": {
+                                "ru": "Этот <w>гарратт</w> был спроектирован для перевозки тяжелых грузов по узкоколейным путям с крутыми уклонами."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -55,14 +78,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "technical",
-                            "comment": "rail transport"
-                        },
-                        {
                             "trait_type": "dated",
                             "comment": "steam technology"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Тип сочленённого паровоза, состоящего из трёх частей: котла на центральной раме и двух паровых машин на отдельных рамах по концам."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "гарратт",
+                                "target_lang_sense_clarification": "тип паровоза"
+                            },
+                            {
+                                "target_lang_word": "паровоз системы Гарратт",
+                                "target_lang_sense_clarification": "железнодорожный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

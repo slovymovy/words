@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>vliegdekschip</w> heeft een groot dek waarop vliegtuigen kunnen opstijgen en landen."
+                            "text": "Het <w>vliegdekschip</w> heeft een groot dek waarop vliegtuigen kunnen opstijgen en landen.",
+                            "target_lang_translations": {
+                                "en": "The <w>aircraft carrier</w> has a large deck on which aircraft can take off and land.",
+                                "ru": "<w>Авианосец</w> имеет большую палубу, на которой могут взлетать и садиться самолеты."
+                            }
                         },
                         {
-                            "text": "De marine heeft meerdere moderne <w>vliegdekschepen</w> die wereldwijd worden ingezet."
+                            "text": "De marine heeft meerdere moderne <w>vliegdekschepen</w> die wereldwijd worden ingezet.",
+                            "target_lang_translations": {
+                                "en": "The navy has several modern <w>aircraft carriers</w> that are deployed worldwide.",
+                                "ru": "У военно-морского флота есть несколько современных <w>авианосцев</w>, которые используются по всему миру."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,24 @@
                         "aan boord van",
                         "modern vliegdekschip"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "gebruikscontext"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A large military ship designed for the takeoff, landing, transport, and maintenance of aircraft.",
+                        "ru": "Большой военный корабль, предназначенный для взлета, посадки, транспортировки и обслуживания самолетов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "aircraft carrier",
+                                "target_lang_sense_clarification": "warship serving as a seagoing airbase"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "авианосец",
+                                "target_lang_sense_clarification": "военный корабль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

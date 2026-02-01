@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz przepisał pacjentowi silny antybiotyk na przewlekłe zakażenie <w>gronkowcowe</w>."
+                            "text": "Lekarz przepisał pacjentowi silny antybiotyk na przewlekłe zakażenie <w>gronkowcowe</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врач прописал пациенту сильный антибиотик от хронической <w>стафилококковой</w> инфекции."
+                            }
                         },
                         {
-                            "text": "Zatrucie <w>gronkowcowe</w> pojawia się często po zjedzeniu nieświeżych lodów lub ciastek."
+                            "text": "Zatrucie <w>gronkowcowe</w> pojawia się często po zjedzeniu nieświeżych lodów lub ciastek.",
+                            "target_lang_translations": {
+                                "ru": "<w>Стафилококковое</w> отравление часто возникает после употребления несвежего мороженого или пирожных."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,12 +32,17 @@
                         "zatrucie gronkowcowe",
                         "zapalenie gronkowcowe"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "относящийся к стафилококку, связанный с ним или вызванный им"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "стафилококковый",
+                                "target_lang_sense_clarification": "связанный со стафилококком"
+                            }
+                        ]
+                    }
                 }
             ]
         }

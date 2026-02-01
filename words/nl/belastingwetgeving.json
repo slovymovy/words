@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De regering heeft plannen om de <w>belastingwetgeving</w> volgend jaar te vereenvoudigen."
+                            "text": "De regering heeft plannen om de <w>belastingwetgeving</w> volgend jaar te vereenvoudigen.",
+                            "target_lang_translations": {
+                                "en": "The government plans to simplify <w>tax legislation</w> next year.",
+                                "ru": "Правительство планирует упростить <w>налоговое законодательство</w> в следующем году."
+                            }
                         },
                         {
-                            "text": "Door de complexe <w>belastingwetgeving</w> hebben veel bedrijven een adviseur nodig."
+                            "text": "Door de complexe <w>belastingwetgeving</w> hebben veel bedrijven een adviseur nodig.",
+                            "target_lang_translations": {
+                                "en": "Due to the complex <w>tax laws</w>, many companies need an advisor.",
+                                "ru": "Из-за сложного <w>налогового законодательства</w> многим компаниям нужен консультант."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,28 @@
                         "complexe belastingwetgeving",
                         "huidige belastingwetgeving"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "context"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "register"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The system of laws and rules regarding the levying of taxes.",
+                        "ru": "Совокупность законов и правил, касающихся взимания налогов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tax legislation",
+                                "target_lang_sense_clarification": "general body of laws"
+                            },
+                            {
+                                "target_lang_word": "tax laws",
+                                "target_lang_sense_clarification": "collection of regulations"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "налоговое законодательство",
+                                "target_lang_sense_clarification": "система законов в сфере налогообложения"
+                            }
+                        ]
+                    }
                 }
             ]
         }

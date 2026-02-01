@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Methaan is een bekende <w>koolwaterstof</w>."
+                            "text": "Methaan is een bekende <w>koolwaterstof</w>.",
+                            "target_lang_translations": {
+                                "en": "Methane is a well-known <w>hydrocarbon</w>.",
+                                "ru": "Метан — известный <w>углеводород</w>."
+                            }
                         },
                         {
-                            "text": "Aardolie bestaat voornamelijk uit een mengsel van verschillende <w>koolwaterstoffen</w>."
+                            "text": "Aardolie bestaat voornamelijk uit een mengsel van verschillende <w>koolwaterstoffen</w>.",
+                            "target_lang_translations": {
+                                "en": "Crude oil consists mainly of a mixture of various <w>hydrocarbons</w>.",
+                                "ru": "Нефть состоит преимущественно из смеси различных <w>углеводородов</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,24 @@
                         "verzadigde koolwaterstof",
                         "vluchtige koolwaterstof"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "scheikunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A compound consisting of carbon and hydrogen.",
+                        "ru": "Соединение, состоящее из углерода и водорода."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hydrocarbon",
+                                "target_lang_sense_clarification": "chemistry"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "углеводород",
+                                "target_lang_sense_clarification": "химическое соединение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

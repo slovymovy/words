@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het is vandaag <w>snoeiheet</w> buiten, dus het is verstandig om veel water te drinken."
+                            "text": "Het is vandaag <w>snoeiheet</w> buiten, dus het is verstandig om veel water te drinken.",
+                            "target_lang_translations": {
+                                "en": "It is <w>scorching hot</w> outside today, so it is wise to drink plenty of water.",
+                                "ru": "Сегодня на улице <w>адски жарко</w>, поэтому разумно пить много воды."
+                            }
                         },
                         {
-                            "text": "Door het <w>snoeihete</w> weer zochten veel mensen verkoeling aan de kust."
+                            "text": "Door het <w>snoeihete</w> weer zochten veel mensen verkoeling aan de kust.",
+                            "target_lang_translations": {
+                                "en": "Due to the <w>sweltering</w> weather, many people sought to cool off at the coast.",
+                                "ru": "Из-за <w>невыносимо жаркой</w> погоды многие люди искали прохлады на побережье."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +45,40 @@
                         "snoeiheet weer",
                         "een snoeihete dag"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "intensifier"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Extremely hot or very warm; an intensified form of hot.",
+                        "ru": "Чрезвычайно жарко; очень высокая температура воздуха, часто используемая для описания погоды."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "scorching hot",
+                                "target_lang_sense_clarification": "extremely high temperature"
+                            },
+                            {
+                                "target_lang_word": "sweltering",
+                                "target_lang_sense_clarification": "uncomfortably hot"
+                            },
+                            {
+                                "target_lang_word": "blazing hot",
+                                "target_lang_sense_clarification": "intense heat"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "адски жаркий",
+                                "target_lang_sense_clarification": "разговорное, очень сильная жара"
+                            },
+                            {
+                                "target_lang_word": "невыносимо жаркий",
+                                "target_lang_sense_clarification": "экстремально горячий"
+                            },
+                            {
+                                "target_lang_word": "знойный",
+                                "target_lang_sense_clarification": "о погоде или климате"
+                            }
+                        ]
+                    }
                 }
             ]
         }

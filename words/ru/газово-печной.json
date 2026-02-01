@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На заводе установили современное <w>газово-печное</w> оборудование для обработки металлов."
+                            "text": "На заводе установили современное <w>газово-печное</w> оборудование для обработки металлов.",
+                            "target_lang_translations": {
+                                "en": "Modern <w>gas furnace</w> equipment for metal processing was installed at the plant."
+                            }
                         },
                         {
-                            "text": "В старых кварталах города всё ещё встречается <w>газово-печное</w> отопление."
+                            "text": "В старых кварталах города всё ещё встречается <w>газово-печное</w> отопление.",
+                            "target_lang_translations": {
+                                "en": "<w>Gas stove</w> heating is still found in the old quarters of the city."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,21 @@
                         "газово-печное оборудование",
                         "газово-печное производство"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "used in engineering and industrial contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to gas furnaces or gas stoves."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "gas furnace",
+                                "target_lang_sense_clarification": "used attributively, typically referring to industrial equipment"
+                            },
+                            {
+                                "target_lang_word": "gas stove",
+                                "target_lang_sense_clarification": "used attributively, typically referring to heating systems"
+                            }
+                        ]
+                    }
                 }
             ]
         }

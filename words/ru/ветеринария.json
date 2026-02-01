@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Моя сестра уже три года изучает <w>ветеринарию</w> в университете."
+                            "text": "Моя сестра уже три года изучает <w>ветеринарию</w> в университете.",
+                            "target_lang_translations": {
+                                "en": "My sister has been studying <w>veterinary medicine</w> at the university for three years."
+                            }
                         },
                         {
-                            "text": "Благодаря успехам современной <w>ветеринарии</w> многие болезни животных теперь излечимы."
+                            "text": "Благодаря успехам современной <w>ветеринарии</w> многие болезни животных теперь излечимы.",
+                            "target_lang_translations": {
+                                "en": "Thanks to the successes of modern <w>veterinary medicine</w>, many animal diseases are now curable."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,21 @@
                         "область ветеринарии",
                         "развитие ветеринарии"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The science dealing with the treatment of animals and the prevention of their diseases."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "veterinary medicine",
+                                "target_lang_sense_clarification": "medical field"
+                            },
+                            {
+                                "target_lang_word": "veterinary science",
+                                "target_lang_sense_clarification": "academic discipline"
+                            }
+                        ]
+                    }
                 }
             ]
         }

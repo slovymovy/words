@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik heb gisteren <w>Rodrigo's</w> nieuwe auto gezien."
+                            "text": "Ik heb gisteren <w>Rodrigo's</w> nieuwe auto gezien.",
+                            "target_lang_translations": {
+                                "en": "I saw <w>Rodrigo's</w> new car yesterday.",
+                                "ru": "Вчера я видел новую машину <w>Родриго</w>."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Rodrigo's</w> feestje."
+                            "text": "We gaan vanavond naar <w>Rodrigo's</w> feestje.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Rodrigo's</w> party tonight.",
+                                "ru": "Сегодня вечером мы идем на вечеринку <w>Родриго</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +38,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of <w>Rodrigo</w>",
+                        "ru": "форма родительного падежа имени Родриго, указывающая на принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Rodrigo's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Родриго",
+                                "target_lang_sense_clarification": "имя собственное (несклоняемое)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

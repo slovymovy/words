@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The researcher analyzed the <w>leukaemic</w> cells to understand how the disease spreads."
+                            "text": "The researcher analyzed the <w>leukaemic</w> cells to understand how the disease spreads.",
+                            "target_lang_translations": {
+                                "ru": "Исследователь проанализировал <w>лейкемические</w> клетки, чтобы понять, как распространяется болезнь."
+                            }
                         },
                         {
-                            "text": "Doctors used a new therapy to target the <w>leukaemic</w> tissue specifically."
+                            "text": "Doctors used a new therapy to target the <w>leukaemic</w> tissue specifically.",
+                            "target_lang_translations": {
+                                "ru": "Врачи использовали новую терапию для прицельного воздействия на <w>лейкемическую</w> ткань."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "leukaemic patients",
                         "leukaemic infiltration"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "domain"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Характерный для лейкемии (лейкоза) или связанный с ней."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лейкемический",
+                                "target_lang_sense_clarification": "относящийся к лейкемии"
+                            },
+                            {
+                                "target_lang_word": "лейкозный",
+                                "target_lang_sense_clarification": "связанный с лейкозом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,18 +13,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Planujemy podróż do miasta <w>Choj</w> w przyszłym roku."
+                            "text": "Planujemy podróż do miasta <w>Choj</w> w przyszłym roku.",
+                            "target_lang_translations": {
+                                "ru": "Мы планируем поездку в город <w>Хой</w> в следующем году."
+                            }
                         },
                         {
-                            "text": "<w>Choj</w> słynie z historycznych zabytków i pięknych krajobrazów."
+                            "text": "<w>Choj</w> słynie z historycznych zabytków i pięknych krajobrazów.",
+                            "target_lang_translations": {
+                                "ru": "<w>Хой</w> славится историческими памятниками и красивыми пейзажами."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Город в Иране, расположенный в провинции Западный Азербайджан."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хой",
+                                "target_lang_sense_clarification": "город в Иране"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -40,10 +51,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Weź <w>choj</w> co do jedzenia i ruszajmy w drogę."
+                            "text": "Weź <w>choj</w> co do jedzenia i ruszajmy w drogę.",
+                            "target_lang_translations": {
+                                "ru": "Возьми <w>хоть</w> что-нибудь поесть, и отправляемся в путь."
+                            }
                         },
                         {
-                            "text": "On ubierze <w>choj</w> jaki płaszcz, byle było mu ciepło."
+                            "text": "On ubierze <w>choj</w> jaki płaszcz, byle było mu ciepło.",
+                            "target_lang_translations": {
+                                "ru": "Он наденет <w>хоть</w> какой плащ, лишь бы ему было тепло."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -57,12 +74,19 @@
                         {
                             "trait_type": "dialectal",
                             "comment": "variant of choć"
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Диалектная или устаревшая форма слова «choć», используемая в значении «хоть», «лишь бы» или для образования неопределенных местоимений."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "хоть",
+                                "target_lang_sense_clarification": "частица; диалектная форма"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Każdy <w>petent</w> musi pobrać numerek z automatu przy wejściu do sali."
+                            "text": "Każdy <w>petent</w> musi pobrać numerek z automatu przy wejściu do sali.",
+                            "target_lang_translations": {
+                                "ru": "Каждый <w>посетитель</w> должен взять талон в автомате при входе в зал."
+                            }
                         },
                         {
-                            "text": "Biuro obsługi zaczyna przyjmować <w>petentów</w> dopiero od godziny ósmej rano."
+                            "text": "Biuro obsługi zaczyna przyjmować <w>petentów</w> dopiero od godziny ósmej rano.",
+                            "target_lang_translations": {
+                                "ru": "Бюро обслуживания начинает принимать <w>посетителей</w> только с восьми часов утра."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "przyjmować petentów",
                         "kolejny petent"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "słownictwo typowe dla urzędów"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Лицо, обращающееся в государственное учреждение или организацию для решения какого-либо вопроса или подачи заявления."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "посетитель",
+                                "target_lang_sense_clarification": "лицо, пришедшее в учреждение"
+                            },
+                            {
+                                "target_lang_word": "заявитель",
+                                "target_lang_sense_clarification": "лицо, подающее заявление"
+                            }
+                        ]
+                    }
                 }
             ]
         }

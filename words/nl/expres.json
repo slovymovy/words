@@ -1,6 +1,8 @@
 {
     "word_family": [
-        "exprestrein"
+        "exprestrein",
+        "expressie",
+        "expressief"
     ],
     "entries": [
         {
@@ -8,17 +10,32 @@
             "senses": [
                 {
                     "sense_id": "945cd93e-c7ff-38cb-aa47-2df9629469fc",
-                    "sense_definition": "Met de bedoeling dat het gebeurt; niet per ongeluk.",
+                    "sense_definition": "met de bedoeling dat het gebeurt; niet per ongeluk",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "volition",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sorry, ik deed het echt niet <w>expres</w>."
+                            "text": "Hij heeft het raam <w>expres</w> gebroken omdat hij boos was.",
+                            "target_lang_translations": {
+                                "en": "He broke the window <w>on purpose</w> because he was angry.",
+                                "ru": "Он <w>специально</w> разбил окно, потому что был зол."
+                            }
                         },
                         {
-                            "text": "Hij heeft het glas <w>expres</w> laten vallen omdat hij boos was."
+                            "text": "Ik deed het niet <w>expres</w>, het spijt me echt.",
+                            "target_lang_translations": {
+                                "en": "I didn't do it <w>on purpose</w>, I'm really sorry.",
+                                "ru": "Я сделал это не <w>специально</w>, мне правда жаль."
+                            }
+                        },
+                        {
+                            "text": "Hij deed <w>expres</w> niet zijn best tijdens de wedstrijd.",
+                            "target_lang_translations": {
+                                "en": "He <w>deliberately</w> didn't do his best during the match.",
+                                "ru": "Он <w>нарочно</w> не старался во время матча."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +44,43 @@
                     ],
                     "antonyms": [
                         "per ongeluk",
-                        "per abuis"
+                        "per abuis",
+                        "abusievelijk"
                     ],
                     "common_phrases": [
-                        "niet expres",
-                        "expres doen"
-                    ]
+                        "iets expres doen",
+                        "niet expres"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "intentionally; not by accident",
+                        "ru": "с намерением, чтобы это произошло; не случайно"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "on purpose",
+                                "target_lang_sense_clarification": "intentionally"
+                            },
+                            {
+                                "target_lang_word": "deliberately",
+                                "target_lang_sense_clarification": "consciously and intentionally"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "специально",
+                                "target_lang_sense_clarification": "с целью, намеренно"
+                            },
+                            {
+                                "target_lang_word": "нарочно",
+                                "target_lang_sense_clarification": "с умыслом, часто назло"
+                            },
+                            {
+                                "target_lang_word": "намеренно",
+                                "target_lang_sense_clarification": "сознательно, официально"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -41,23 +89,54 @@
             "senses": [
                 {
                     "sense_id": "84b17513-b1a3-36f4-a261-3cc212d6d953",
-                    "sense_definition": "Een trein die snel rijdt en alleen op de belangrijkste stations stopt.",
+                    "sense_definition": "een snelle trein die op weinig stations stopt; verkorte vorm van <w>exprestrein</w>",
                     "learner_level": "B1",
                     "frequency": "Low",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "transport",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij ging met de <w>expres</w> op vakantie naar het zuiden."
+                            "text": "We nemen morgen de <w>expres</w> naar Parijs.",
+                            "target_lang_translations": {
+                                "en": "We are taking the <w>express</w> to Paris tomorrow.",
+                                "ru": "Завтра мы поедем на <w>экспрессе</w> в Париж."
+                            }
                         },
                         {
-                            "text": "De internationale <w>expres</w> vertrekt vandaag van spoor vier."
+                            "text": "Hij ging met de <w>expres</w> op vakantie naar het zuiden.",
+                            "target_lang_translations": {
+                                "en": "He went on vacation to the south by <w>express</w>.",
+                                "ru": "Он поехал на <w>экспрессе</w> в отпуск на юг."
+                            }
                         }
                     ],
-                    "synonyms": [
-                        "met opzet",
-                        "opzettelijk"
-                    ]
+                    "common_phrases": [
+                        "de expres nemen"
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "shortening"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a fast train that stops at few stations",
+                        "ru": "скоростной поезд с малым количеством остановок"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "express",
+                                "target_lang_sense_clarification": "fast train"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "экспресс",
+                                "target_lang_sense_clarification": "скоростной поезд"
+                            }
+                        ]
+                    }
                 }
             ]
         }

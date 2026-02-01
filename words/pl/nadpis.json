@@ -24,10 +24,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Autor umieścił krótki <w>nadpis</w> nad każdym rozdziałem swojej nowej książki."
+                            "text": "Autor umieścił krótki <w>nadpis</w> nad każdym rozdziałem swojej nowej książki.",
+                            "target_lang_translations": {
+                                "ru": "Автор поместил короткий <w>заголовок</w> над каждой главой своей новой книги."
+                            }
                         },
                         {
-                            "text": "Ten ozdobny <w>nadpis</w> sugeruje, że tekst pochodzi z dawnej epoki."
+                            "text": "Ten ozdobny <w>nadpis</w> sugeruje, że tekst pochodzi z dawnej epoki.",
+                            "target_lang_translations": {
+                                "ru": "Этот декоративный <w>заголовок</w> указывает на то, что текст относится к ушедшей эпохе."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,12 +47,21 @@
                         "nadpis rozdziału",
                         "nadpis kolumny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "współcześnie rzadziej używane niż nagłówek"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Заголовок или название, расположенное над текстом, часто графически выделенное."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "заголовок",
+                                "target_lang_sense_clarification": "название текста"
+                            },
+                            {
+                                "target_lang_word": "надзаголовок",
+                                "target_lang_sense_clarification": "текст над основным заголовком"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "0a02eb2c-76f4-35b4-85b1-14fffd254cbe",
@@ -57,22 +72,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Firma wykupiła usługę, dzięki której <w>nadpis</w> wiadomości to nazwa ich marki."
+                            "text": "Firma wykupiła usługę, dzięki której <w>nadpis</w> wiadomości to nazwa ich marki.",
+                            "target_lang_translations": {
+                                "ru": "Компания приобрела услугу, благодаря которой <w>именем отправителя</w> сообщения становится название их бренда."
+                            }
                         },
                         {
-                            "text": "Klienci chętniej otwierają wiadomości reklamowe, gdy <w>nadpis</w> jest im znany."
+                            "text": "Klienci chętniej otwierają wiadomości reklamowe, gdy <w>nadpis</w> jest im znany.",
+                            "target_lang_translations": {
+                                "ru": "Клиенты охотнее открывают рекламные сообщения, когда <w>имя отправителя</w> им знакомо."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "nadpis SMS",
                         "własny nadpis"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "telekomunikacja, marketing"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Имя отправителя, отображаемое вместо номера телефона в SMS-сообщениях; используется преимущественно в маркетинге."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "имя отправителя",
+                                "target_lang_sense_clarification": "в SMS-рассылках"
+                            },
+                            {
+                                "target_lang_word": "подпись",
+                                "target_lang_sense_clarification": "идентификатор отправителя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

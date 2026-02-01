@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач объяснил, что это <w>неинфекционное</w> заболевание, поэтому изоляция пациента не требуется."
+                            "text": "Врач объяснил, что это <w>неинфекционное</w> заболевание, поэтому изоляция пациента не требуется.",
+                            "target_lang_translations": {
+                                "en": "The doctor explained that it is a <w>non-infectious</w> disease, so patient isolation is not required."
+                            }
                         },
                         {
-                            "text": "Аллергия и астма представляют собой распространённые <w>неинфекционные</w> болезни."
+                            "text": "Аллергия и астма представляют собой распространённые <w>неинфекционные</w> болезни.",
+                            "target_lang_translations": {
+                                "en": "Allergies and asthma are common <w>non-infectious</w> diseases."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,21 @@
                         "неинфекционная природа",
                         "неинфекционный дерматит"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "термин используется преимущественно в медицине"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Not associated with an infection; not caused by pathogenic microorganisms and not transmitted from one organism to another."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "non-infectious",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "non-communicable",
+                                "target_lang_sense_clarification": "medical term, often referring to chronic diseases"
+                            }
+                        ]
+                    }
                 }
             ]
         }

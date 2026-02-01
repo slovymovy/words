@@ -1,28 +1,32 @@
 {
     "word_family": [
         "ли",
-        "иль",
         "неужели",
-        "вряд ли",
-        "навряд ли"
+        "или"
     ],
     "entries": [
         {
-            "pos": "article",
+            "pos": "conjunction",
             "senses": [
                 {
                     "sense_id": "b1f24266-efe0-367d-b04e-6e4fbe34f4ad",
-                    "sense_definition": "Сокращённая форма частицы <w>ли</w>, используемая в вопросах или для выражения сомнения.",
-                    "learner_level": "B2",
-                    "frequency": "Low",
-                    "semantic_group_id": "1",
+                    "sense_definition": "Сокращённая разговорная форма частицы <w>ли</w>, используемая для выражения вопроса или сомнения.",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "li_variants",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Не правда <w>ль</w>, этот пейзаж напоминает картину?"
+                            "text": "Долго <w>ль</w> нам ещё ждать твоего решения?",
+                            "target_lang_translations": {
+                                "en": "How long <w>must</w> we still wait for your decision?"
+                            }
                         },
                         {
-                            "text": "Долго <w>ль</w> нам ещё ждать твоего ответа?"
+                            "text": "Не правда <w>ль</w>, сегодня удивительно хорошая погода?",
+                            "target_lang_translations": {
+                                "en": "<w>Isn't it</w> true that the weather is surprisingly good today?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,38 +35,53 @@
                     "common_phrases": [
                         "не правда ль",
                         "долго ль",
-                        "можно ль",
-                        "надо ль"
+                        "можно ль"
                     ],
                     "traits": [
                         {
                             "trait_type": "colloquial",
-                            "comment": "used in speech"
+                            "comment": "often used in poetic or spoken context"
                         },
                         {
-                            "trait_type": "poetic",
-                            "comment": "common in literature and verse for rhythm"
+                            "trait_type": "form",
+                            "comment": "shortened form of ли"
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "pos": "conjunction",
-            "senses": [
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Shortened colloquial form of the particle 'li', used to express a question or doubt."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "whether",
+                                "target_lang_sense_clarification": "used to imply a question or doubt, often poetic or archaic in direct questions"
+                            },
+                            {
+                                "target_lang_word": "is it",
+                                "target_lang_sense_clarification": "used to form questions or tag questions"
+                            }
+                        ]
+                    }
+                },
                 {
                     "sense_id": "1a568c63-b5dd-3b4c-bf5f-5a1aba66fa5f",
-                    "sense_definition": "Сокращённая форма союза <w>ли</w>, используемая в косвенных вопросах.",
-                    "learner_level": "C1",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "1",
+                    "sense_definition": "Сокращённая разговорная форма союза <w>ли</w>, используемая в косвенных вопросах.",
+                    "learner_level": "B2",
+                    "frequency": "Low",
+                    "semantic_group_id": "li_variants",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Я не знаю, скоро <w>ль</w> закончится этот дождь."
+                            "text": "Я не знаю, хватит <w>ль</w> у нас времени на всё.",
+                            "target_lang_translations": {
+                                "en": "I don't know <w>if</w> we have enough time for everything."
+                            }
                         },
                         {
-                            "text": "Нужно <w>ль</w> мне вмешиваться в этот спор, я пока не решил."
+                            "text": "Посмотри, там <w>ль</w> лежат твои ключи.",
+                            "target_lang_translations": {
+                                "en": "Look to see <w>whether</w> your keys are lying there."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -71,13 +90,28 @@
                     "traits": [
                         {
                             "trait_type": "colloquial",
-                            "comment": "shortened form"
+                            "comment": ""
                         },
                         {
-                            "trait_type": "poetic",
-                            "comment": "often used to maintain meter"
+                            "trait_type": "form",
+                            "comment": "shortened form of ли"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Shortened colloquial form of the conjunction 'li', used in indirect questions."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "whether",
+                                "target_lang_sense_clarification": "introduces an indirect question or doubt between alternatives"
+                            },
+                            {
+                                "target_lang_word": "if",
+                                "target_lang_sense_clarification": "used in indirect questions"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Суд установил точный размер ежемесячных <w>алиментных</w> выплат."
+                            "text": "Суд установил точный размер ежемесячных <w>алиментных</w> выплат.",
+                            "target_lang_translations": {
+                                "en": "The court established the exact amount of monthly <w>child support</w> payments."
+                            }
                         },
                         {
-                            "text": "Родители решили заключить добровольное <w>алиментное</w> соглашение у нотариуса."
+                            "text": "Родители решили заключить добровольное <w>алиментное</w> соглашение у нотариуса.",
+                            "target_lang_translations": {
+                                "en": "The parents decided to sign a voluntary <w>child support</w> agreement at the notary."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,25 @@
                         "алиментный долг",
                         "алиментное соглашение"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "термин используется преимущественно в семейном праве"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Related to alimony or child support — funds legally required to be paid for the maintenance of minor children or disabled family members."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "alimony",
+                                "target_lang_sense_clarification": "relating to financial support payments"
+                            },
+                            {
+                                "target_lang_word": "child support",
+                                "target_lang_sense_clarification": "relating to payments for children"
+                            },
+                            {
+                                "target_lang_word": "maintenance",
+                                "target_lang_sense_clarification": "legal term for financial support"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Цикл с <w>постусловием</w> всегда выполняется хотя бы один раз перед проверкой."
+                            "text": "Цикл с <w>постусловием</w> всегда выполняется хотя бы один раз перед проверкой.",
+                            "target_lang_translations": {
+                                "en": "A loop with a <w>postcondition</w> is always executed at least once before the check."
+                            }
                         },
                         {
-                            "text": "В этом алгоритме важно правильно сформулировать <w>постусловие</w> для корректного завершения работы."
+                            "text": "В этом алгоритме важно правильно сформулировать <w>постусловие</w> для корректного завершения работы.",
+                            "target_lang_translations": {
+                                "en": "In this algorithm, it is important to correctly formulate the <w>postcondition</w> for proper termination."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -29,16 +35,17 @@
                         "цикл с постусловием",
                         "проверка постусловия"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "programming term"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A condition in programming that is checked after the execution of a loop body or a code fragment."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "postcondition",
+                                "target_lang_sense_clarification": "programming logic"
+                            }
+                        ]
+                    }
                 }
             ]
         }

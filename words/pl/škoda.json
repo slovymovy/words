@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W garażu stoi żółta <w>škoda</w>."
+                            "text": "W garażu stoi żółta <w>škoda</w>.",
+                            "target_lang_translations": {
+                                "ru": "В гараже стоит жёлтая <w>Шкода</w>."
+                            }
                         },
                         {
-                            "text": "Mój sąsiad kupił nową, srebrną <w>škodę</w>."
+                            "text": "Mój sąsiad kupił nową, srebrną <w>škodę</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мой сосед купил новую серебристую <w>Шкоду</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +33,17 @@
                         "stara škoda",
                         "salon škody"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "brand",
-                            "comment": "marka samochodu"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Автомобиль марки Škoda."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Шкода",
+                                "target_lang_sense_clarification": "автомобиль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

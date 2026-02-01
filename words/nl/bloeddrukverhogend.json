@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het eten van grote hoeveelheden drop werkt <w>bloeddrukverhogend</w>."
+                            "text": "Het eten van grote hoeveelheden drop werkt <w>bloeddrukverhogend</w>.",
+                            "target_lang_translations": {
+                                "en": "Eating large amounts of liquorice has a <w>blood pressure-raising</w> effect.",
+                                "ru": "Употребление большого количества лакрицы оказывает <w>повышающее давление</w> действие."
+                            }
                         },
                         {
-                            "text": "Stress kan een <w>bloeddrukverhogend</w> effect hebben op het menselijk lichaam."
+                            "text": "Stress kan een <w>bloeddrukverhogend</w> effect hebben op het menselijk lichaam.",
+                            "target_lang_translations": {
+                                "en": "Stress can have a <w>blood pressure-raising</w> effect on the human body.",
+                                "ru": "Стресс может оказывать <w>повышающий давление</w> эффект на человеческий организм."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -31,12 +39,32 @@
                         "bloeddrukverhogende werking",
                         "bloeddrukverhogende middelen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in health and physiological contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "causing blood pressure to rise",
+                        "ru": "способствующий повышению артериального давления"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "blood pressure-raising",
+                                "target_lang_sense_clarification": "general term for something that increases blood pressure"
+                            },
+                            {
+                                "target_lang_word": "hypertensive",
+                                "target_lang_sense_clarification": "medical term referring to the induction of high blood pressure"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "повышающий давление",
+                                "target_lang_sense_clarification": "общее значение"
+                            },
+                            {
+                                "target_lang_word": "гипертензивный",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

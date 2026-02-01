@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pacjent skarżył się lekarzowi na częste <kołatanie> serca."
+                            "text": "Pacjent skarżył się lekarzowi na częste <kołatanie> serca.",
+                            "target_lang_translations": {
+                                "ru": "Пациент жаловался врачу на частое <w>сердцебиение</w>."
+                            }
                         },
                         {
-                            "text": "Silny stres wywołał u niej nagłe <kołatanie>."
+                            "text": "Silny stres wywołał u niej nagłe <kołatanie>.",
+                            "target_lang_translations": {
+                                "ru": "Сильный стресс вызвал у неё внезапное <w>сердцебиение</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "nagłe kołatanie",
                         "nocne kołatanie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin używany w kontekście objawów kardiologicznych"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Неестественно быстрое, сильное или нерегулярное биение сердца."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "сердцебиение",
+                                "target_lang_sense_clarification": "учащенный ритм"
+                            },
+                            {
+                                "target_lang_word": "трепетание",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5315401d-73d3-34b9-b949-a5358c6e3257",
@@ -47,22 +62,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W środku nocy obudziło nas głośne <kołatanie> do drzwi wejściowych."
+                            "text": "W środku nocy obudziło nas głośne <kołatanie> do drzwi wejściowych.",
+                            "target_lang_translations": {
+                                "ru": "Среди ночи нас разбудил громкий <w>стук</w> во входную дверь."
+                            }
                         },
                         {
-                            "text": "Z oddali słychać było rytmiczne <kołatanie> kół pociągu."
+                            "text": "Z oddali słychać było rytmiczne <kołatanie> kół pociągu.",
+                            "target_lang_translations": {
+                                "ru": "Вдали был слышен ритмичный <w>стук</w> колес поезда."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "kołatanie do drzwi",
                         "głuche kołatanie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "literary",
-                            "comment": "słowo rzadziej używane w mowie potocznej niż pukanie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Стук, удары во что-либо, издание глухого звука."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "стук",
+                                "target_lang_sense_clarification": "звук ударов"
+                            }
+                        ]
+                    }
                 }
             ]
         }

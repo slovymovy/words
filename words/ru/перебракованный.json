@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Весь <w>перебракованный</w> товар был отправлен на склад для повторной упаковки."
+                            "text": "Весь <w>перебракованный</w> товар был отправлен на склад для повторной упаковки.",
+                            "target_lang_translations": {
+                                "en": "All the <w>re-sorted</w> goods were sent to the warehouse for repacking."
+                            }
                         },
                         {
-                            "text": "Эта <w>перебракованная</w> партия деталей теперь полностью соответствует стандартам качества."
+                            "text": "Эта <w>перебракованная</w> партия деталей теперь полностью соответствует стандартам качества.",
+                            "target_lang_translations": {
+                                "en": "This <w>re-inspected</w> batch of parts now fully complies with quality standards."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,12 +47,27 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "manufacturing"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Subjected to a repeated inspection or sorting process to identify and remove defective items."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "re-inspected",
+                                "target_lang_sense_clarification": "checked again for quality or defects"
+                            },
+                            {
+                                "target_lang_word": "re-sorted",
+                                "target_lang_sense_clarification": "organized again to separate good items from bad"
+                            },
+                            {
+                                "target_lang_word": "re-screened",
+                                "target_lang_sense_clarification": "filtered again to remove rejects"
+                            }
+                        ]
+                    }
                 }
             ]
         }

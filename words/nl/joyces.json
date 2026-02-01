@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Ik ben gisteren naar <w>Joyces</w> verjaardagsfeestje geweest."
+                            "text": "Ik ben gisteren naar <w>Joyces</w> verjaardagsfeestje geweest.",
+                            "target_lang_translations": {
+                                "en": "I went to <w>Joyce's</w> birthday party yesterday.",
+                                "ru": "Вчера я был на дне рождения <w>Джойс</w>."
+                            }
                         },
                         {
-                            "text": "<w>Joyces</w> nieuwe auto staat geparkeerd op de oprit."
+                            "text": "<w>Joyces</w> nieuwe auto staat geparkeerd op de oprit.",
+                            "target_lang_translations": {
+                                "en": "<w>Joyce's</w> new car is parked in the driveway.",
+                                "ru": "Новая машина <w>Джойс</w> припаркована на подъездной дорожке."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,7 +38,29 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive form of the name Joyce.",
+                        "ru": "Родительный падеж имени Джойс (обозначает принадлежность)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Joyce's",
+                                "target_lang_sense_clarification": "possessive form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Джойс",
+                                "target_lang_sense_clarification": "женское имя (несклоняемое)"
+                            },
+                            {
+                                "target_lang_word": "Джойса",
+                                "target_lang_sense_clarification": "мужское имя (родительный падеж)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

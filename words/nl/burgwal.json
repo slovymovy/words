@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De soldaten stonden op de <w>burgwal</w> om de stad te beschermen tegen de aanval."
+                            "text": "De soldaten stonden op de <w>burgwal</w> om de stad te beschermen tegen de aanval.",
+                            "target_lang_translations": {
+                                "en": "The soldiers stood on the <w>rampart</w> to protect the city against the attack.",
+                                "ru": "Солдаты стояли на <w>крепостном валу</w>, чтобы защитить город от нападения."
+                            }
                         },
                         {
-                            "text": "Tijdens de wandeling zagen we de restanten van een middeleeuwse <w>burgwal</w>."
+                            "text": "Tijdens de wandeling zagen we de restanten van een middeleeuwse <w>burgwal</w>.",
+                            "target_lang_translations": {
+                                "en": "During the walk, we saw the remains of a medieval <w>fortified embankment</w>.",
+                                "ru": "Во время прогулки мы увидели остатки средневекового <w>крепостного вала</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "oude burgwal",
                         "langs de burgwal"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "history"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A defensive wall or earthen rampart surrounding a city or castle.",
+                        "ru": "Оборонительная стена или земляной вал вокруг города или замка."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "rampart",
+                                "target_lang_sense_clarification": "defensive wall or bank"
+                            },
+                            {
+                                "target_lang_word": "fortified embankment",
+                                "target_lang_sense_clarification": "earthen defensive mound"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "крепостной вал",
+                                "target_lang_sense_clarification": "земляное укрепление"
+                            },
+                            {
+                                "target_lang_word": "городской вал",
+                                "target_lang_sense_clarification": "оборонительное сооружение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

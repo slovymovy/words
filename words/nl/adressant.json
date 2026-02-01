@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>adressant</w> moet het formulier volledig invullen en ondertekenen."
+                            "text": "De <w>adressant</w> moet het formulier volledig invullen en ondertekenen.",
+                            "target_lang_translations": {
+                                "en": "The <w>petitioner</w> must fill out the form completely and sign it.",
+                                "ru": "<w>Заявитель</w> должен полностью заполнить и подписать форму."
+                            }
                         },
                         {
-                            "text": "Zonder handtekening van de <w>adressant</w> is het verzoekschrift niet geldig."
+                            "text": "Zonder handtekening van de <w>adressant</w> is het verzoekschrift niet geldig.",
+                            "target_lang_translations": {
+                                "en": "Without the signature of the <w>petitioner</w>, the petition is not valid.",
+                                "ru": "Без подписи <w>подателя</w> ходатайство недействительно."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,36 @@
                         "naam van de adressant",
                         "de adressant van het verzoek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "administrative context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Someone who submits an official request to a competent body or authority.",
+                        "ru": "Лицо, которое подает официальный запрос в уполномоченную инстанцию или орган власти."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "petitioner",
+                                "target_lang_sense_clarification": "person submitting a formal request"
+                            },
+                            {
+                                "target_lang_word": "applicant",
+                                "target_lang_sense_clarification": "person making a formal application"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "заявитель",
+                                "target_lang_sense_clarification": "лицо, подающее официальное заявление"
+                            },
+                            {
+                                "target_lang_word": "податель",
+                                "target_lang_sense_clarification": "тот, кто подает прошение или документ"
+                            },
+                            {
+                                "target_lang_word": "адресант",
+                                "target_lang_sense_clarification": "отправитель обращения (официально-деловой стиль)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "organization_name",
                     "examples": [
                         {
-                            "text": "Wczoraj <w>SLD</w> ogłosiło swojego kandydata na prezydenta."
+                            "text": "Wczoraj <w>SLD</w> ogłosiło swojego kandydata na prezydenta.",
+                            "target_lang_translations": {
+                                "ru": "Вчера <w>СЛД</w> объявил своего кандидата в президенты."
+                            }
                         },
                         {
-                            "text": "Wielu wyborców wciąż pamięta czasy, gdy <w>SLD</w> miało większość w parlamencie."
+                            "text": "Wielu wyborców wciąż pamięta czasy, gdy <w>SLD</w> miało większość w parlamencie.",
+                            "target_lang_translations": {
+                                "ru": "Многие избиратели всё ещё помнят времена, когда у <w>СЛД</w> было большинство в парламенте."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,21 @@
                         "lider SLD",
                         "klub SLD"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "polityka"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "сокращение от: <w>Sojusz Lewicy Demokratycznej</w> (Союз демократических левых сил) — польская левая политическая партия"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "СЛД",
+                                "target_lang_sense_clarification": "польская партия"
+                            },
+                            {
+                                "target_lang_word": "Союз демократических левых сил",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

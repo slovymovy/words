@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We tried to locate Mr. <w>Kik</w> in the directory but could not find his number."
+                            "text": "We tried to locate Mr. <w>Kik</w> in the directory but could not find his number.",
+                            "target_lang_translations": {
+                                "ru": "Мы пытались найти господина <w>Кика</w> в справочнике, но не смогли найти его номер."
+                            }
                         },
                         {
-                            "text": "The article mentioned a researcher named Anna <w>Kik</w> who specializes in marine biology."
+                            "text": "The article mentioned a researcher named Anna <w>Kik</w> who specializes in marine biology.",
+                            "target_lang_translations": {
+                                "ru": "В статье упоминалась исследовательница по имени Анна <w>Кик</w>, которая специализируется на морской биологии."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кик",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

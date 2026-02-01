@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Пациенту была успешно удалена <w>остеокластома</w> бедренной кости."
+                            "text": "Пациенту была успешно удалена <w>остеокластома</w> бедренной кости.",
+                            "target_lang_translations": {
+                                "en": "An <w>osteoclastoma</w> of the femur was successfully removed from the patient."
+                            }
                         },
                         {
-                            "text": "Рентгенологическое исследование выявило признаки, характерные для <w>остеокластомы</w>."
+                            "text": "Рентгенологическое исследование выявило признаки, характерные для <w>остеокластомы</w>.",
+                            "target_lang_translations": {
+                                "en": "X-ray examination revealed signs characteristic of an <w>osteoclastoma</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,21 @@
                         "злокачественная остеокластома",
                         "доброкачественная остеокластома"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "oncology"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A rare bone tumor arising from the rapid proliferation of osteoclasts."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "osteoclastoma",
+                                "target_lang_sense_clarification": "medical term"
+                            },
+                            {
+                                "target_lang_word": "giant cell tumor",
+                                "target_lang_sense_clarification": "synonym"
+                            }
+                        ]
+                    }
                 }
             ]
         }

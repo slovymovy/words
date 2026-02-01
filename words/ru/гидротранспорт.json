@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На горнодобывающем предприятии был внедрён <w>гидротранспорт</w> для перемещения руды."
+                            "text": "На горнодобывающем предприятии был внедрён <w>гидротранспорт</w> для перемещения руды.",
+                            "target_lang_translations": {
+                                "en": "<w>Hydraulic transport</w> was implemented at the mining enterprise to move ore."
+                            }
                         },
                         {
-                            "text": "Безнапорный <w>гидротранспорт</w> часто используется в открытых лотках и каналах."
+                            "text": "Безнапорный <w>гидротранспорт</w> часто используется в открытых лотках и каналах.",
+                            "target_lang_translations": {
+                                "en": "Non-pressurized <w>hydrotransport</w> is often used in open flumes and channels."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "напорный гидротранспорт",
                         "безнапорный гидротранспорт"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The movement of solid materials by a stream of water through pipes or channels."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hydraulic transport",
+                                "target_lang_sense_clarification": "technical term"
+                            },
+                            {
+                                "target_lang_word": "hydrotransport",
+                                "target_lang_sense_clarification": "industry specific"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De huisarts heeft me voor verder onderzoek doorverwezen naar een <w>internist</w>."
+                            "text": "De huisarts heeft me voor verder onderzoek doorverwezen naar een <w>internist</w>.",
+                            "target_lang_translations": {
+                                "en": "The GP referred me to an <w>internist</w> for further examination.",
+                                "ru": "Семейный врач направил меня на дальнейшее обследование к <w>терапевту</w>."
+                            }
                         },
                         {
-                            "text": "Na een lange wachttijd kon ik eindelijk terecht voor een afspraak bij de <w>internist</w>."
+                            "text": "Na een lange wachttijd kon ik eindelijk terecht voor een afspraak bij de <w>internist</w>.",
+                            "target_lang_translations": {
+                                "en": "After a long wait, I could finally go for an appointment with the <w>internist</w>.",
+                                "ru": "После долгого ожидания я наконец смог попасть на прием к <w>терапевту</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +36,28 @@
                         "afspraak bij de internist",
                         "verwijzing naar de internist"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "beroep"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A doctor specialized in internal diseases.",
+                        "ru": "Врач, специализирующийся на диагностике и лечении заболеваний внутренних органов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "internist",
+                                "target_lang_sense_clarification": "specialist in internal medicine"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "терапевт",
+                                "target_lang_sense_clarification": "специалист по внутренним болезням"
+                            },
+                            {
+                                "target_lang_word": "врач-терапевт",
+                                "target_lang_sense_clarification": "полное название специальности"
+                            }
+                        ]
+                    }
                 }
             ]
         }

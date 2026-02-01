@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Студенты первого курса изучают <w>алгоритмику</w> и структуры данных."
+                            "text": "Студенты первого курса изучают <w>алгоритмику</w> и структуры данных.",
+                            "target_lang_translations": {
+                                "en": "First-year students study <w>algorithmics</w> and data structures."
+                            }
                         },
                         {
-                            "text": "Для победы в олимпиаде школьнику потребовались глубокие знания <w>алгоритмики</w>."
+                            "text": "Для победы в олимпиаде школьнику потребовались глубокие знания <w>алгоритмики</w>.",
+                            "target_lang_translations": {
+                                "en": "To win the Olympiad, the student needed deep knowledge of <w>algorithmics</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,21 @@
                         "курс алгоритмики",
                         "задачи по алгоритмике"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "academic discipline"
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": "related to computer science"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A specialized discipline that studies algorithms and their application to problem solving."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "algorithmics",
+                                "target_lang_sense_clarification": "discipline"
+                            },
+                            {
+                                "target_lang_word": "theory of algorithms",
+                                "target_lang_sense_clarification": "academic field"
+                            }
+                        ]
+                    }
                 }
             ]
         }

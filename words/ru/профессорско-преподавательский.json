@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Весь <w>профессорско-преподавательский</w> состав университета собрался в актовом зале для обсуждения нового учебного плана."
+                            "text": "Весь <w>профессорско-преподавательский</w> состав университета собрался в актовом зале для обсуждения нового учебного плана.",
+                            "target_lang_translations": {
+                                "en": "The entire <w>teaching</w> staff of the university gathered in the assembly hall to discuss the new curriculum."
+                            }
                         },
                         {
-                            "text": "Университет объявил конкурс на замещение вакантных должностей <w>профессорско-преподавательского</w> состава."
+                            "text": "Университет объявил конкурс на замещение вакантных должностей <w>профессорско-преподавательского</w> состава.",
+                            "target_lang_translations": {
+                                "en": "The university announced a competition to fill vacant <w>faculty</w> positions."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,16 +44,25 @@
                         "профессорско-преподавательский коллектив",
                         "профессорско-преподавательские кадры"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "используется в официальной документации и академической среде"
-                        },
-                        {
-                            "trait_type": "professional",
-                            "comment": "образование"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the collective of teachers and professors of a higher educational institution."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "teaching",
+                                "target_lang_sense_clarification": "used in phrases like 'teaching staff'"
+                            },
+                            {
+                                "target_lang_word": "academic",
+                                "target_lang_sense_clarification": "used in phrases like 'academic staff'"
+                            },
+                            {
+                                "target_lang_word": "faculty",
+                                "target_lang_sense_clarification": "used attributively to refer to the body of educators"
+                            }
+                        ]
+                    }
                 }
             ]
         }

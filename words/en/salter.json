@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Salter</w> has been teaching history at the local college for twenty years."
+                            "text": "Mr. <w>Salter</w> has been teaching history at the local college for twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Солтер</w> преподает историю в местном колледже уже двадцать лет."
+                            }
                         },
                         {
-                            "text": "We invited the <w>Salter</w> family to join us for dinner next Saturday."
+                            "text": "We invited the <w>Salter</w> family to join us for dinner next Saturday.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Солтер</w> поужинать с нами в следующую субботу."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,18 @@
                             "trait_type": "surname",
                             "comment": "occupational origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, происходящая от названия профессии, связанной с добычей или продажей соли."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Солтер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -46,21 +63,36 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The <w>salter</w> packed the freshly caught fish into barrels for preservation."
+                            "text": "The <w>salter</w> packed the freshly caught fish into barrels for preservation.",
+                            "target_lang_translations": {
+                                "ru": "<w>Солильщик</w> укладывал свежевыловленную рыбу в бочки для консервации."
+                            }
                         },
                         {
-                            "text": "In the medieval village, the <w>salter</w> played a crucial role in preparing meat for the winter."
+                            "text": "In the medieval village, the <w>salter</w> played a crucial role in preparing meat for the winter.",
+                            "target_lang_translations": {
+                                "ru": "В средневековой деревне <w>солильщик</w> играл ключевую роль в заготовке мяса на зиму."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "dry salter"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "historical or industrial occupation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, чья работа связана с производством, продажей или использованием соли для консервации продуктов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "солильщик",
+                                "target_lang_sense_clarification": "рабочий, занимающийся засолкой"
+                            },
+                            {
+                                "target_lang_word": "солевар",
+                                "target_lang_sense_clarification": "производитель соли"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "72a2de62-60de-305f-a38c-43b90bcc9323",
@@ -71,10 +103,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The fisherman was thrilled to catch a large <w>salter</w> near the river mouth."
+                            "text": "The fisherman was thrilled to catch a large <w>salter</w> near the river mouth.",
+                            "target_lang_translations": {
+                                "ru": "Рыбак был в восторге, поймав крупную <w>морскую форель</w> у устья реки."
+                            }
                         },
                         {
-                            "text": "A <w>salter</w> changes its behavior when it moves from the ocean to the river."
+                            "text": "A <w>salter</w> changes its behavior when it moves from the ocean to the river.",
+                            "target_lang_translations": {
+                                "ru": "<w>Морская форель</w> меняет свое поведение, когда перемещается из океана в реку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -82,14 +120,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "fishing and biology"
-                        },
-                        {
                             "trait_type": "regional",
                             "comment": "often used in US contexts"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Форель, которая мигрирует из соленой воды в пресные ручьи."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "морская форель",
+                                "target_lang_sense_clarification": "рыба"
+                            },
+                            {
+                                "target_lang_word": "проходная форель",
+                                "target_lang_sense_clarification": "рыба"
+                            }
+                        ]
+                    }
                 }
             ]
         }

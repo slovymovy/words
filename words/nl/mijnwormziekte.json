@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De reiziger liep <w>mijnwormziekte</w> op tijdens zijn verblijf in de tropen."
+                            "text": "De reiziger liep <w>mijnwormziekte</w> op tijdens zijn verblijf in de tropen.",
+                            "target_lang_translations": {
+                                "en": "The traveler contracted <w>hookworm disease</w> during his stay in the tropics.",
+                                "ru": "Путешественник заразился <w>анкилостомозом</w> во время своего пребывания в тропиках."
+                            }
                         },
                         {
-                            "text": "Zonder tijdige behandeling kan <w>mijnwormziekte</w> ernstige vermoeidheid veroorzaken."
+                            "text": "Zonder tijdige behandeling kan <w>mijnwormziekte</w> ernstige vermoeidheid veroorzaken.",
+                            "target_lang_translations": {
+                                "en": "Without timely treatment, <w>hookworm disease</w> can cause severe fatigue.",
+                                "ru": "Без своевременного лечения <w>анкилостомоз</w> может вызвать сильную усталость."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +36,32 @@
                         "lijden aan mijnwormziekte",
                         "behandeling van mijnwormziekte"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An infectious disease caused by parasitic worms that live in the intestines and often lead to anemia and protein deficiency.",
+                        "ru": "Инфекционное заболевание, вызываемое паразитическими червями, живущими в кишечнике, которое часто приводит к анемии и белковой недостаточности."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hookworm disease",
+                                "target_lang_sense_clarification": "common term"
+                            },
+                            {
+                                "target_lang_word": "ancylostomiasis",
+                                "target_lang_sense_clarification": "medical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "анкилостомоз",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "анкилостомидоз",
+                                "target_lang_sense_clarification": "группа заболеваний"
+                            }
+                        ]
+                    }
                 }
             ]
         }

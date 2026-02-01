@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De server kon de plotselinge, enorme <w>gegevensstroom</w> niet snel genoeg verwerken."
+                            "text": "De server kon de plotselinge, enorme <w>gegevensstroom</w> niet snel genoeg verwerken.",
+                            "target_lang_translations": {
+                                "en": "The server could not process the sudden, enormous <w>data stream</w> fast enough.",
+                                "ru": "Сервер не мог достаточно быстро обработать внезапный огромный <w>поток данных</w>."
+                            }
                         },
                         {
-                            "text": "Voor een goede videoverbinding is een stabiele en snelle <w>gegevensstroom</w> noodzakelijk."
+                            "text": "Voor een goede videoverbinding is een stabiele en snelle <w>gegevensstroom</w> noodzakelijk.",
+                            "target_lang_translations": {
+                                "en": "A stable and fast <w>data stream</w> is necessary for a good video connection.",
+                                "ru": "Для хорошей видеосвязи необходим стабильный и быстрый <w>поток данных</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "enorme gegevensstroom",
                         "inkomende gegevensstroom"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The continuous transfer of digital information from one place to another via a communication channel.",
+                        "ru": "Непрерывная передача цифровой информации из одного места в другое по каналу связи."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "data stream",
+                                "target_lang_sense_clarification": "continuous sequence of digital signals"
+                            },
+                            {
+                                "target_lang_word": "data flow",
+                                "target_lang_sense_clarification": "movement of information through a system"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "поток данных",
+                                "target_lang_sense_clarification": "передача цифровых данных"
+                            },
+                            {
+                                "target_lang_word": "информационный поток",
+                                "target_lang_sense_clarification": "поток информации"
+                            }
+                        ]
+                    }
                 }
             ]
         }

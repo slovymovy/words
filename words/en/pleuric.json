@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The patient complained of sharp <w>pleuric</w> pain whenever he tried to take a deep breath."
+                            "text": "The patient complained of sharp <w>pleuric</w> pain whenever he tried to take a deep breath.",
+                            "target_lang_translations": {
+                                "ru": "Пациент жаловался на острую <w>плевральную</w> боль всякий раз, когда пытался сделать глубокий вдох."
+                            }
                         },
                         {
-                            "text": "Medical scans revealed a <w>pleuric</w> clot that required immediate attention from the specialists."
+                            "text": "Medical scans revealed a <w>pleuric</w> clot that required immediate attention from the specialists.",
+                            "target_lang_translations": {
+                                "ru": "Медицинское сканирование выявило <w>плевральный</w> тромб, который требовал немедленного внимания специалистов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,21 @@
                         "pleuric pain",
                         "pleuric clot"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": "less common than 'pleural' or 'pleuritic'"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к плевре, тонкой оболочке, покрывающей легкие и выстилающей грудную полость."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "плевральный",
+                                "target_lang_sense_clarification": "анатомический термин"
+                            },
+                            {
+                                "target_lang_word": "плевритический",
+                                "target_lang_sense_clarification": "связанный с воспалением плевры"
+                            }
+                        ]
+                    }
                 }
             ]
         }

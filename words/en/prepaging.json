@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The operating system uses a <w>prepaging</w> strategy to ensure that necessary data is available in memory before the process requests it."
+                            "text": "The operating system uses a <w>prepaging</w> strategy to ensure that necessary data is available in memory before the process requests it.",
+                            "target_lang_translations": {
+                                "ru": "Операционная система использует стратегию <w>предварительной подкачки</w>, чтобы гарантировать наличие необходимых данных в памяти до того, как процесс их запросит."
+                            }
                         },
                         {
-                            "text": "While <w>prepaging</w> can significantly reduce initial latency, it risks consuming resources for data that might never be used."
+                            "text": "While <w>prepaging</w> can significantly reduce initial latency, it risks consuming resources for data that might never be used.",
+                            "target_lang_translations": {
+                                "ru": "Хотя <w>опережающая подкачка</w> может значительно снизить начальную задержку, она рискует потратить ресурсы на данные, которые могут никогда не понадобиться."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,21 @@
                         "prepaging algorithm",
                         "pure prepaging"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "memory management"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Загрузка страниц памяти до того, как они понадобятся, с целью предотвращения ошибок отсутствия страницы."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "предварительная подкачка",
+                                "target_lang_sense_clarification": "страниц памяти"
+                            },
+                            {
+                                "target_lang_word": "опережающая подкачка",
+                                "target_lang_sense_clarification": "страниц памяти"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мы заказали в баре <w>текилу</w> с солью и лаймом."
+                            "text": "Мы заказали в баре <w>текилу</w> с солью и лаймом.",
+                            "target_lang_translations": {
+                                "en": "We ordered <w>tequila</w> with salt and lime at the bar."
+                            }
                         },
                         {
-                            "text": "Настоящая <w>текила</w> производится только в определённых штатах Мексики."
+                            "text": "Настоящая <w>текила</w> производится только в определённых штатах Мексики.",
+                            "target_lang_translations": {
+                                "en": "Real <w>tequila</w> is produced only in certain states of Mexico."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "текила с лаймом",
                         "золотая текила"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "beverage"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A strong Mexican alcoholic beverage made from agave juice."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tequila",
+                                "target_lang_sense_clarification": "alcoholic drink"
+                            }
+                        ]
+                    }
                 }
             ]
         }

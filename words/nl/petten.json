@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De toeristen kochten oranje <w>petten</w> voor de voetbalwedstrijd."
+                            "text": "De toeristen kochten oranje <w>petten</w> voor de voetbalwedstrijd.",
+                            "target_lang_translations": {
+                                "en": "The tourists bought orange <w>caps</w> for the football match.",
+                                "ru": "Туристы купили оранжевые <w>кепки</w> для футбольного матча."
+                            }
                         },
                         {
-                            "text": "In de gang hangen vijf verschillende <w>petten</w> aan de kapstok."
+                            "text": "In de gang hangen vijf verschillende <w>petten</w> aan de kapstok.",
+                            "target_lang_translations": {
+                                "en": "Five different <w>caps</w> are hanging on the coat rack in the hallway.",
+                                "ru": "В коридоре на вешалке висят пять разных <w>кепок</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,7 +40,33 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of 'pet' (cap).",
+                        "ru": "Множественное число от слова <w>pet</w> (кепка)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "caps",
+                                "target_lang_sense_clarification": "headwear with a visor"
+                            },
+                            {
+                                "target_lang_word": "hats",
+                                "target_lang_sense_clarification": "general headwear"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кепки",
+                                "target_lang_sense_clarification": "головной убор с козырьком"
+                            },
+                            {
+                                "target_lang_word": "фуражки",
+                                "target_lang_sense_clarification": "форменный головной убор"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -48,18 +82,38 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "We maakten een lange wandeling over het strand bij <w>Petten</w>."
+                            "text": "We maakten een lange wandeling over het strand bij <w>Petten</w>.",
+                            "target_lang_translations": {
+                                "en": "We took a long walk on the beach near <w>Petten</w>.",
+                                "ru": "Мы совершили долгую прогулку по пляжу у <w>Петтена</w>."
+                            }
                         },
                         {
-                            "text": "De kernreactor in <w>Petten</w> is belangrijk voor medisch onderzoek."
+                            "text": "De kernreactor in <w>Petten</w> is belangrijk voor medisch onderzoek.",
+                            "target_lang_translations": {
+                                "en": "The nuclear reactor in <w>Petten</w> is important for medical research.",
+                                "ru": "Ядерный реактор в <w>Петтене</w> важен для медицинских исследований."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "village in the Netherlands"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A village and former municipality in the province of North Holland, Netherlands.",
+                        "ru": "Деревня и бывший муниципалитет в провинции Северная Голландия, Нидерланды."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Petten",
+                                "target_lang_sense_clarification": "village in the Netherlands"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Петтен",
+                                "target_lang_sense_clarification": "название населенного пункта"
+                            }
+                        ]
+                    }
                 }
             ]
         }

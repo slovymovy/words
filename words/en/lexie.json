@@ -17,26 +17,35 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Her full name is Alexandra, but her friends just call her <w>Lexie</w>."
+                            "text": "Her full name is Alexandra, but her friends just call her <w>Lexie</w>.",
+                            "target_lang_translations": {
+                                "ru": "Её полное имя — Александра, но друзья зовут её просто <w>Лекси</w>."
+                            }
                         },
                         {
-                            "text": "I think the nickname <w>Lexie</w> sounds very friendly and energetic."
+                            "text": "I think the nickname <w>Lexie</w> sounds very friendly and energetic.",
+                            "target_lang_translations": {
+                                "ru": "Я думаю, что имя <w>Лекси</w> звучит очень дружелюбно и энергично."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "diminutive"
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": "nickname"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Женское имя, уменьшительная форма от имен Алексис, Алексия, Александра или Александрия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Лекси",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -52,21 +61,32 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The professor asked the students to identify the central <w>lexie</w> in the paragraph."
+                            "text": "The professor asked the students to identify the central <w>lexie</w> in the paragraph.",
+                            "target_lang_translations": {
+                                "ru": "Профессор попросил студентов определить центральную <w>лексию</w> в абзаце."
+                            }
                         },
                         {
-                            "text": "In this theory, a <w>lexie</w> serves as a basic block of meaning for analysis."
+                            "text": "In this theory, a <w>lexie</w> serves as a basic block of meaning for analysis.",
+                            "target_lang_translations": {
+                                "ru": "В этой теории <w>лексия</w> служит базовым смысловым блоком для анализа."
+                            }
                         }
                     ],
                     "synonyms": [
                         "lexia"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "literary theory"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Минимальная единица чтения, например, предложение или его фрагмент."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лексия",
+                                "target_lang_sense_clarification": "единица текста"
+                            }
+                        ]
+                    }
                 }
             ]
         }

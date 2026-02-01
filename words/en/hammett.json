@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The famous crime novelist Dashiell <w>Hammett</w> created the character Sam Spade."
+                            "text": "The famous crime novelist Dashiell <w>Hammett</w> created the character Sam Spade.",
+                            "target_lang_translations": {
+                                "ru": "Знаменитый автор детективных романов Дэшил <w>Хэммет</w> создал персонажа Сэма Спейда."
+                            }
                         },
                         {
-                            "text": "Please send the contract to Mr. <w>Hammett</w> for his final approval."
+                            "text": "Please send the contract to Mr. <w>Hammett</w> for his final approval.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, отправьте контракт мистеру <w>Хэммету</w> для окончательного утверждения."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хэммет",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "46fd2386-bd6d-3c14-9697-25074ea1370d",
@@ -35,18 +52,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "We drove through the small community of <w>Hammett</w> on our road trip through Georgia."
+                            "text": "We drove through the small community of <w>Hammett</w> on our road trip through Georgia.",
+                            "target_lang_translations": {
+                                "ru": "Мы проехали через небольшую общину <w>Хэммет</w> во время нашего путешествия по Джорджии."
+                            }
                         },
                         {
-                            "text": "Local residents of <w>Hammett</w> gather every year for the county fair."
+                            "text": "Local residents of <w>Hammett</w> gather every year for the county fair.",
+                            "target_lang_translations": {
+                                "ru": "Местные жители <w>Хэммета</w> собираются каждый год на окружную ярмарку."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "geographical location"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Неинкорпорированная община в округе Кроуфорд, штат Джорджия, США."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хэммет",
+                                "target_lang_sense_clarification": "географическое название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

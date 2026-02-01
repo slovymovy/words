@@ -17,18 +17,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn oudtante heet <w>Harmina</w> en ze woont al jaren in een klein dorpje in Groningen."
+                            "text": "Mijn oudtante heet <w>Harmina</w> en ze woont al jaren in een klein dorpje in Groningen.",
+                            "target_lang_translations": {
+                                "en": "My great-aunt is called <w>Harmina</w> and she has lived in a small village in Groningen for years.",
+                                "ru": "Мою двоюродную бабушку зовут <w>Хармина</w>, и она уже много лет живет в маленькой деревушке в Гронингене."
+                            }
                         },
                         {
-                            "text": "Op het geboortekaartje stond dat ze hun dochter de traditionele naam <w>Harmina</w> hebben gegeven."
+                            "text": "Op het geboortekaartje stond dat ze hun dochter de traditionele naam <w>Harmina</w> hebben gegeven.",
+                            "target_lang_translations": {
+                                "en": "The birth announcement stated that they gave their daughter the traditional name <w>Harmina</w>.",
+                                "ru": "В открытке о рождении было написано, что они дали своей дочери традиционное имя <w>Хармина</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "vrouwelijke voornaam"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female given name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Harmina",
+                                "target_lang_sense_clarification": "female given name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Хармина",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -24,10 +24,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jutro rodzina uroczyście <pochowa> zmarłego na miejscowym cmentarzu."
+                            "text": "Jutro rodzina uroczyście <pochowa> zmarłego na miejscowym cmentarzu.",
+                            "target_lang_translations": {
+                                "ru": "Завтра семья торжественно <похоронит> покойного на местном кладбище."
+                            }
                         },
                         {
-                            "text": "Mama na pewno <pochowa> te dokumenty w bezpiecznym miejscu."
+                            "text": "Mama na pewno <pochowa> te dokumenty w bezpiecznym miejscu.",
+                            "target_lang_translations": {
+                                "ru": "Мама наверняка <спрячет> эти документы в надежное место."
+                            }
                         }
                     ],
                     "traits": [
@@ -35,7 +41,26 @@
                             "trait_type": "form",
                             "comment": "czas przyszły"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Третье лицо единственного числа будущего времени глагола pochować."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "похоронить",
+                                "target_lang_sense_clarification": "предать земле"
+                            },
+                            {
+                                "target_lang_word": "спрятать",
+                                "target_lang_sense_clarification": "убрать в надежное место"
+                            },
+                            {
+                                "target_lang_word": "попрятать",
+                                "target_lang_sense_clarification": "спрятать всё или многое"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -51,22 +76,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ta skromna <pochowa> odbyła się bez udziału mediów."
+                            "text": "Ta skromna <pochowa> odbyła się bez udziału mediów.",
+                            "target_lang_translations": {
+                                "ru": "Эти скромные <похороны> состоялись без участия СМИ."
+                            }
                         },
                         {
-                            "text": "Mieszkańcy wsi wspominali, że była to bardzo smutna <pochowa>."
+                            "text": "Mieszkańcy wsi wspominali, że była to bardzo smutna <pochowa>.",
+                            "target_lang_translations": {
+                                "ru": "Жители деревни вспоминали, что это были очень грустные <похороны>."
+                            }
                         }
                     ],
                     "synonyms": [
                         "pochówek",
                         "pogrzeb"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "rzeczownik rzadko używany, częściej stosuje się słowo pochówek"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Погребение; акт помещения тела умершего в могилу."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "похороны",
+                                "target_lang_sense_clarification": "церемония прощания"
+                            },
+                            {
+                                "target_lang_word": "погребение",
+                                "target_lang_sense_clarification": "захоронение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -1,9 +1,8 @@
 {
     "word_family": [
         "hitter",
-        "hitless",
-        "unhit",
-        "hitman"
+        "hitting",
+        "hitless"
     ],
     "entries": [
         {
@@ -11,17 +10,23 @@
             "senses": [
                 {
                     "sense_id": "418e811b-4eb1-3899-b5ac-94c61b10ccf9",
-                    "sense_definition": "To touch someone or something quickly and with force, often causing injury or damage.",
+                    "sense_definition": "To touch someone or something quickly and with force, often using the hand or a weapon.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "physical_strike",
+                    "semantic_group_id": "physical_impact",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "One boy <w>hit</w> the other on the arm."
+                            "text": "One boy <w>hit</w> the other on the arm during the game.",
+                            "target_lang_translations": {
+                                "ru": "Один мальчик <w>ударил</w> другого по руке во время игры."
+                            }
                         },
                         {
-                            "text": "He tried to <w>hit</w> the ball with the bat."
+                            "text": "He tried to <w>hit</w> me, but I moved out of the way just in time.",
+                            "target_lang_translations": {
+                                "ru": "Он пытался <w>ударить</w> меня, но я вовремя увернулся."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,55 +34,48 @@
                         "punch",
                         "beat",
                         "whack",
-                        "smack"
-                    ],
-                    "antonyms": [
-                        "miss"
+                        "slap"
                     ],
                     "common_phrases": [
                         "hit hard",
-                        "hit someone"
-                    ]
-                },
-                {
-                    "sense_id": "619ab147-becf-34eb-ab1c-b9d40290de38",
-                    "sense_definition": "To press a button, key, or switch to operate a machine or computer.",
-                    "learner_level": "A2",
-                    "frequency": "High",
-                    "semantic_group_id": "operate_machine",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Please <w>hit</w> the enter key to continue."
-                        },
-                        {
-                            "text": "She <w>hit</w> the brakes as soon as she saw the red light."
-                        }
+                        "hit someone",
+                        "hit a ball"
                     ],
-                    "synonyms": [
-                        "press",
-                        "push",
-                        "tap"
-                    ],
-                    "common_phrases": [
-                        "hit the button",
-                        "hit the brakes",
-                        "hit play"
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Быстро и с силой прикоснуться к кому-либо или чему-либо, часто рукой или оружием."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ударить",
+                                "target_lang_sense_clarification": "совершить однократный удар"
+                            },
+                            {
+                                "target_lang_word": "бить",
+                                "target_lang_sense_clarification": "наносить удары (многократно)"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "295f044a-f5f7-3f82-97b8-88d7dbb54794",
-                    "sense_definition": "To come into contact with something forcefully while moving.",
-                    "learner_level": "B1",
+                    "sense_definition": "To come into contact with something forcefully and suddenly; to collide with.",
+                    "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "collision",
+                    "semantic_group_id": "physical_impact",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The car <w>hit</w> a tree after sliding on the ice."
+                            "text": "The car lost control and <w>hit</w> a tree by the side of the road.",
+                            "target_lang_translations": {
+                                "ru": "Машина потеряла управление и <w>врезалась</w> в дерево на обочине."
+                            }
                         },
                         {
-                            "text": "I accidentally <w>hit</w> my head on the low doorframe."
+                            "text": "The ball <w>hit</w> the fence and bounced back into the field.",
+                            "target_lang_translations": {
+                                "ru": "Мяч <w>ударился</w> о забор и отскочил обратно на поле."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -87,79 +85,140 @@
                     ],
                     "antonyms": [
                         "miss"
-                    ]
+                    ],
+                    "common_phrases": [
+                        "hit the ground",
+                        "hit a wall",
+                        "hit the brakes"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "С силой и внезапно соприкоснуться с чем-либо; столкнуться."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "врезаться",
+                                "target_lang_sense_clarification": "столкнуться на скорости"
+                            },
+                            {
+                                "target_lang_word": "удариться",
+                                "target_lang_sense_clarification": "стукнуться обо что-то"
+                            },
+                            {
+                                "target_lang_word": "попасть",
+                                "target_lang_sense_clarification": "угодить в цель"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "619ab147-becf-34eb-ab1c-b9d40290de38",
+                    "sense_definition": "To press a button or key in order to activate a machine or function.",
+                    "learner_level": "A2",
+                    "frequency": "High",
+                    "semantic_group_id": "digital_interaction",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Please <w>hit</w> the Enter key to save your changes.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, <w>нажмите</w> клавишу Enter, чтобы сохранить изменения."
+                            }
+                        },
+                        {
+                            "text": "Someone needs to <w>hit</w> the lights so we can see the screen.",
+                            "target_lang_translations": {
+                                "ru": "Кто-нибудь должен <w>выключить</w> свет, чтобы мы могли видеть экран."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "press",
+                        "push",
+                        "click"
+                    ],
+                    "common_phrases": [
+                        "hit the button",
+                        "hit play",
+                        "hit the switch"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Нажать кнопку или клавишу для активации устройства или функции."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "нажать",
+                                "target_lang_sense_clarification": "надавить на кнопку"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "35bace22-8edc-3fd0-bb52-a5f86b9da799",
                     "sense_definition": "To reach a particular level, target, or place.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "reach_achieve",
+                    "semantic_group_id": "achievement_reach",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The temperature is expected to <w>hit</w> thirty degrees tomorrow."
+                            "text": "The temperature is expected to <w>hit</w> 30 degrees this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "Ожидается, что сегодня днем температура <w>достигнет</w> 30 градусов."
+                            }
                         },
                         {
-                            "text": "We hope to <w>hit</w> our sales target by the end of the month."
+                            "text": "We hope to <w>hit</w> our sales target by the end of the month.",
+                            "target_lang_translations": {
+                                "ru": "Мы надеемся <w>достичь</w> нашей цели по продажам к концу месяца."
+                            }
                         }
                     ],
                     "synonyms": [
                         "reach",
-                        "achieve",
-                        "attain"
+                        "attain",
+                        "achieve"
+                    ],
+                    "antonyms": [
+                        "miss"
                     ],
                     "common_phrases": [
                         "hit a target",
-                        "hit a record",
-                        "hit the mark"
-                    ]
-                },
-                {
-                    "sense_id": "5568e221-bb02-3b4a-a54e-d9fd1f56c939",
-                    "sense_definition": "To go to or arrive at a place, often for a specific purpose.",
-                    "learner_level": "B1",
-                    "frequency": "High",
-                    "semantic_group_id": "visit_place",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Let's <w>hit</w> the gym after work today."
-                        },
-                        {
-                            "text": "We should <w>hit</w> the road early to avoid traffic."
-                        }
-                    ],
-                    "synonyms": [
-                        "visit",
-                        "go to"
-                    ],
-                    "common_phrases": [
                         "hit the road",
-                        "hit the gym",
-                        "hit the shops",
-                        "hit the sack"
+                        "hit a record"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Достичь определенного уровня, цели или места."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "достичь",
+                                "target_lang_sense_clarification": "дойти до уровня или цели"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "8766fccc-c4b2-3702-a7ae-5f973bc06f46",
                     "sense_definition": "To have a strong, often negative, effect on someone or something.",
                     "learner_level": "B2",
-                    "frequency": "High",
-                    "semantic_group_id": "affect_emotionally",
+                    "frequency": "Middle",
+                    "semantic_group_id": "emotional_impact",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The bad news really <w>hit</w> him hard."
+                            "text": "The small business was <w>hit</w> hard by the economic recession.",
+                            "target_lang_translations": {
+                                "ru": "Экономический спад сильно <w>ударил</w> по малому бизнесу."
+                            }
                         },
                         {
-                            "text": "Small businesses were <w>hit</w> by the economic recession."
+                            "text": "The bad news really <w>hit</w> him later that evening.",
+                            "target_lang_translations": {
+                                "ru": "Плохие новости по-настоящему <w>поразили</w> его позже тем же вечером."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -171,75 +230,94 @@
                         "hit hard",
                         "hit home"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "figurative",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Оказать сильное, часто негативное, воздействие на кого-либо или что-либо."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ударить",
+                                "target_lang_sense_clarification": "сильно повлиять (обычно негативно)"
+                            },
+                            {
+                                "target_lang_word": "поразить",
+                                "target_lang_sense_clarification": "произвести сильное впечатление"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "66f95ffd-546b-3170-8327-190edb022d48",
-                    "sense_definition": "To suddenly experience a problem or difficult situation.",
-                    "learner_level": "B2",
+                    "sense_id": "5568e221-bb02-3b4a-a54e-d9fd1f56c939",
+                    "sense_definition": "To go to or arrive at a place, often briefly or for a specific purpose.",
+                    "learner_level": "C1",
                     "frequency": "Middle",
-                    "semantic_group_id": "encounter_problem",
+                    "semantic_group_id": "visit",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We <w>hit</w> a lot of traffic on the way to the airport."
+                            "text": "We decided to <w>hit</w> the grocery store before heading home.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили <w>заскочить</w> в продуктовый магазин перед возвращением домой."
+                            }
                         },
                         {
-                            "text": "The project <w>hit</w> a snag due to lack of funding."
+                            "text": "I try to <w>hit</w> the gym at least three times a week.",
+                            "target_lang_translations": {
+                                "ru": "Я стараюсь <w>ходить</w> в спортзал не реже трех раз в неделю."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "encounter",
-                        "face"
+                        "visit",
+                        "go to",
+                        "stop by"
                     ],
                     "common_phrases": [
-                        "hit a snag",
-                        "hit a wall",
-                        "hit traffic"
-                    ]
-                },
-                {
-                    "sense_id": "3c3f04a1-da25-3b5d-9db4-0750a1a6da9c",
-                    "sense_definition": "To switch a light on or off.",
-                    "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "operate_machine",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Can you <w>hit</w> the lights so we can see the screen?"
-                        }
-                    ],
-                    "synonyms": [
-                        "switch",
-                        "turn on",
-                        "turn off"
-                    ],
-                    "common_phrases": [
-                        "hit the lights"
+                        "hit the gym",
+                        "hit the shops",
+                        "hit the bar"
                     ],
                     "traits": [
                         {
-                            "trait_type": "informal",
-                            "comment": ""
+                            "trait_type": "colloquial",
+                            "comment": "used in informal contexts"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Пойти или прибыть в какое-либо место, часто ненадолго или с определенной целью."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "заскочить",
+                                "target_lang_sense_clarification": "разг. зайти ненадолго"
+                            },
+                            {
+                                "target_lang_word": "сходить",
+                                "target_lang_sense_clarification": "посетить место"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "adafd4c5-f661-34b2-81d3-4f9fa62b81ca",
-                    "sense_definition": "To murder someone, especially upon the instructions of a third party.",
-                    "learner_level": "C1",
+                    "sense_definition": "To kill a person, usually on the instructions of a third party.",
+                    "learner_level": "C2",
                     "frequency": "Low",
-                    "semantic_group_id": "kill",
+                    "semantic_group_id": "crime",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The mob boss ordered his men to <w>hit</w> the informant."
+                            "text": "The mob boss ordered his men to <w>hit</w> the witness before the trial.",
+                            "target_lang_translations": {
+                                "ru": "Главарь мафии приказал своим людям <w>убрать</w> свидетеля до суда."
+                            }
+                        },
+                        {
+                            "text": "They planned to <w>hit</w> the target quietly and leave no trace.",
+                            "target_lang_translations": {
+                                "ru": "Они планировали <w>ликвидировать</w> цель тихо и не оставить следов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -252,7 +330,22 @@
                             "trait_type": "slang",
                             "comment": "criminal context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Убить человека, обычно по указанию третьей стороны."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "убрать",
+                                "target_lang_sense_clarification": "крим. сленг: убить"
+                            },
+                            {
+                                "target_lang_word": "ликвидировать",
+                                "target_lang_sense_clarification": "устранить, убить"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -261,48 +354,77 @@
             "senses": [
                 {
                     "sense_id": "9d97e3ff-29e8-3ef7-8db7-3cef383bb42b",
-                    "sense_definition": "Something that is very popular or successful, such as a song, film, or play.",
+                    "sense_definition": "Something very popular or successful, such as a song, film, or play.",
                     "learner_level": "A2",
                     "frequency": "High",
                     "semantic_group_id": "success",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The band played their greatest <w>hit</w> for the fans."
+                            "text": "The band played their biggest <w>hit</w> to the delight of the fans.",
+                            "target_lang_translations": {
+                                "ru": "Группа сыграла свой самый известный <w>хит</w> на радость фанатам."
+                            }
                         },
                         {
-                            "text": "The new movie was a big <w>hit</w> at the box office."
+                            "text": "The new animated movie is a huge <w>hit</w> with children.",
+                            "target_lang_translations": {
+                                "ru": "Новый мультфильм стал огромным <w>хитом</w> среди детей."
+                            }
                         }
                     ],
                     "synonyms": [
                         "success",
                         "winner",
+                        "triumph",
                         "smash"
                     ],
                     "antonyms": [
                         "flop",
+                        "miss",
                         "turkey",
-                        "miss"
+                        "block"
                     ],
                     "common_phrases": [
+                        "smash hit",
                         "big hit",
-                        "greatest hit",
-                        "smash hit"
-                    ]
+                        "greatest hits"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Что-то очень популярное или успешное, например песня, фильм или спектакль."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "хит",
+                                "target_lang_sense_clarification": "популярное произведение"
+                            },
+                            {
+                                "target_lang_word": "шлягер",
+                                "target_lang_sense_clarification": "популярная песня (устар.)"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "f54a7bb7-0f59-3737-a441-1f7fb4877e3d",
-                    "sense_definition": "An act of hitting someone or something; a blow or collision.",
-                    "learner_level": "B1",
-                    "frequency": "Middle",
-                    "semantic_group_id": "physical_blow",
+                    "sense_definition": "An act of striking someone or something; a physical blow or collision.",
+                    "learner_level": "A2",
+                    "frequency": "High",
+                    "semantic_group_id": "physical_impact",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The boxer took a hard <w>hit</w> to the jaw."
+                            "text": "The boxer took a heavy <w>hit</w> to the jaw in the second round.",
+                            "target_lang_translations": {
+                                "ru": "Боксер получил сильный <w>удар</w> в челюсть во втором раунде."
+                            }
                         },
                         {
-                            "text": "The car took a direct <w>hit</w> from the falling branch."
+                            "text": "The car suffered a direct <w>hit</w> from the falling branch.",
+                            "target_lang_translations": {
+                                "ru": "Машина получила прямой <w>удар</w> упавшей веткой."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -315,68 +437,138 @@
                         "miss"
                     ],
                     "common_phrases": [
-                        "direct hit",
-                        "take a hit"
-                    ]
+                        "take a hit",
+                        "direct hit"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Акт удара по кому-либо или чему-либо; физический удар или столкновение."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "удар",
+                                "target_lang_sense_clarification": "физическое воздействие"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a9c9d856-f35f-32c1-9637-986810026635",
-                    "sense_definition": "A single visit to a website or a request for a file from a server.",
+                    "sense_definition": "A single visit to a website or a match found by a search engine.",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "internet",
+                    "semantic_group_id": "digital_interaction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Our website received over a thousand <w>hits</w> yesterday."
+                            "text": "My blog received over a thousand <w>hits</w> yesterday after I posted the news.",
+                            "target_lang_translations": {
+                                "ru": "Мой блог получил более тысячи <w>просмотров</w> вчера после того, как я опубликовал новости."
+                            }
                         },
                         {
-                            "text": "The article got many <w>hits</w> after being shared on social media."
+                            "text": "The search engine returned zero <w>hits</w> for that specific phrase.",
+                            "target_lang_translations": {
+                                "ru": "Поисковая система не выдала ни одного <w>совпадения</w> по этой конкретной фразе."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        }
-                    ]
+                    "synonyms": [
+                        "view",
+                        "visit",
+                        "result"
+                    ],
+                    "common_phrases": [
+                        "website hits",
+                        "search hits"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Единичное посещение веб-сайта или совпадение, найденное поисковой системой."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "просмотр",
+                                "target_lang_sense_clarification": "посещение страницы"
+                            },
+                            {
+                                "target_lang_word": "совпадение",
+                                "target_lang_sense_clarification": "результат поиска"
+                            },
+                            {
+                                "target_lang_word": "хит",
+                                "target_lang_sense_clarification": "комп. сленг: запрос к серверу"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "1b86fd0e-15f0-3b83-aa45-cfc496e0a1b2",
                     "sense_definition": "A single dose of an illegal or addictive drug.",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "drug",
+                    "semantic_group_id": "drugs",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The addict was desperate for another <w>hit</w>."
+                            "text": "The addict was desperate to find money for his next <w>hit</w>.",
+                            "target_lang_translations": {
+                                "ru": "Наркоман отчаянно пытался найти деньги на свою следующую <w>дозу</w>."
+                            }
+                        },
+                        {
+                            "text": "He tried to quit, but the craving for another <w>hit</w> was too strong.",
+                            "target_lang_translations": {
+                                "ru": "Он пытался бросить, но тяга к очередной <w>дозе</w> была слишком сильной."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "dose"
+                        "dose",
+                        "fix"
                     ],
                     "traits": [
                         {
                             "trait_type": "slang",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Разовая доза нелегального или вызывающего привыкание наркотика."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "доза",
+                                "target_lang_sense_clarification": "порция наркотика"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "b3d0cf9c-d4f6-326c-b8de-def1e6069d38",
-                    "sense_definition": "A premeditated murder committed for criminal or political purposes.",
+                    "sense_definition": "A premeditated murder, usually committed for money or political reasons.",
                     "learner_level": "C2",
                     "frequency": "Low",
-                    "semantic_group_id": "murder",
+                    "semantic_group_id": "crime",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Police believe the shooting was a professional <w>hit</w>."
+                            "text": "Police believe the murder was a professional <w>hit</w> ordered by a rival gang.",
+                            "target_lang_translations": {
+                                "ru": "Полиция считает, что убийство было профессиональным <w>заказом</w>, организованным конкурирующей бандой."
+                            }
+                        },
+                        {
+                            "text": "The detective investigated who might have paid for the <w>hit</w>.",
+                            "target_lang_translations": {
+                                "ru": "Детектив расследовал, кто мог заплатить за <w>убийство</w>."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "assassination"
+                        "assassination",
+                        "murder"
                     ],
                     "common_phrases": [
                         "order a hit"
@@ -386,7 +578,22 @@
                             "trait_type": "slang",
                             "comment": "criminal context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Преднамеренное убийство, обычно совершаемое за деньги или по политическим мотивам."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "заказное убийство",
+                                "target_lang_sense_clarification": "убийство по найму"
+                            },
+                            {
+                                "target_lang_word": "заказ",
+                                "target_lang_sense_clarification": "сленг: убийство по найму"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -398,14 +605,20 @@
                     "sense_definition": "Very successful and popular.",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "success_adj",
+                    "semantic_group_id": "success",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "They are hoping to write a <w>hit</w> song for the summer."
+                            "text": "They performed their <w>hit</w> single on live television.",
+                            "target_lang_translations": {
+                                "ru": "Они исполнили свой <w>популярный</w> сингл в прямом эфире."
+                            }
                         },
                         {
-                            "text": "The studio released a <w>hit</w> movie last year."
+                            "text": "The director is known for several <w>hit</w> movies from the nineties.",
+                            "target_lang_translations": {
+                                "ru": "Режиссер известен несколькими <w>успешными</w> фильмами девяностых."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -413,9 +626,24 @@
                         "popular"
                     ],
                     "common_phrases": [
-                        "hit single",
+                        "hit song",
                         "hit show"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Очень успешный и популярный."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "популярный",
+                                "target_lang_sense_clarification": "пользующийся успехом"
+                            },
+                            {
+                                "target_lang_word": "успешный",
+                                "target_lang_sense_clarification": "имеющий успех"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -427,19 +655,81 @@
                     "sense_definition": "A city in Iraq.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "place",
+                    "semantic_group_id": "",
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "The ancient city of <w>Hit</w> is located on the Euphrates River."
+                            "text": "The city of <w>Hit</w> is located on the Euphrates River.",
+                            "target_lang_translations": {
+                                "ru": "Город <w>Хит</w> расположен на реке Евфрат."
+                            }
+                        },
+                        {
+                            "text": "Travelers passed through <w>Hit</w> on their way to Baghdad.",
+                            "target_lang_translations": {
+                                "ru": "Путешественники проезжали через <w>Хит</w> по пути в Багдад."
+                            }
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Город в Ираке."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хит",
+                                "target_lang_sense_clarification": "город"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "pos": "pronoun",
+            "senses": [
+                {
+                    "sense_id": "11f15855-5eab-3966-a9ee-d7a852456991",
+                    "sense_definition": "It.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Let <w>hit</w> slide down the hill on its own.",
+                            "target_lang_translations": {
+                                "ru": "Пусть <w>оно</w> само скатится с горы."
+                            }
+                        },
+                        {
+                            "text": "I do not know how <w>hit</w> came to be this way.",
+                            "target_lang_translations": {
+                                "ru": "Я не знаю, как <w>оно</w> стало таким."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "place_name",
+                            "trait_type": "dialectal",
+                            "comment": ""
+                        },
+                        {
+                            "trait_type": "archaic",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Оно (устаревшее или диалектное)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "оно",
+                                "target_lang_sense_clarification": "местоимение среднего рода"
+                            }
+                        ]
+                    }
                 }
             ]
         }

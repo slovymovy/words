@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De uitslag van het <w>dopingonderzoek</w> liet lang op zich wachten."
+                            "text": "De uitslag van het <w>dopingonderzoek</w> liet lang op zich wachten.",
+                            "target_lang_translations": {
+                                "ru": "Результатов <w>проверки на допинг</w> пришлось ждать долго.",
+                                "en": "The results of the <w>doping investigation</w> took a long time to arrive."
+                            }
                         },
                         {
-                            "text": "Door een lopend <w>dopingonderzoek</w> mag de sporter voorlopig niet deelnemen aan wedstrijden."
+                            "text": "Door een lopend <w>dopingonderzoek</w> mag de sporter voorlopig niet deelnemen aan wedstrijden.",
+                            "target_lang_translations": {
+                                "ru": "Из-за текущего <w>расследования по делу о допинге</w> спортсмен временно не может участвовать в соревнованиях.",
+                                "en": "Due to an ongoing <w>doping investigation</w>, the athlete is temporarily not allowed to participate in competitions."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,36 @@
                         "lopend dopingonderzoek",
                         "grootschalig dopingonderzoek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "sport"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Расследование или проверка на предмет использования запрещенных веществ (допинга), преимущественно в спорте.",
+                        "en": "Investigation into the use of prohibited performance-enhancing substances, primarily in sports."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "расследование применения допинга",
+                                "target_lang_sense_clarification": "процесс выяснения фактов использования запрещенных веществ"
+                            },
+                            {
+                                "target_lang_word": "проверка на допинг",
+                                "target_lang_sense_clarification": "тестирование спортсменов"
+                            },
+                            {
+                                "target_lang_word": "допинг-контроль",
+                                "target_lang_sense_clarification": "процедура контроля соблюдения антидопинговых правил"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "doping investigation",
+                                "target_lang_sense_clarification": "inquiry into the use of banned substances"
+                            },
+                            {
+                                "target_lang_word": "doping inquiry",
+                                "target_lang_sense_clarification": "formal examination of doping allegations"
+                            }
+                        ]
+                    }
                 }
             ]
         }

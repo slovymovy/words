@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De koning trok zich na het diner terug in zijn <w>slaapvertrek</w>."
+                            "text": "De koning trok zich na het diner terug in zijn <w>slaapvertrek</w>.",
+                            "target_lang_translations": {
+                                "ru": "После ужина король удалился в свою <w>опочивальню</w>.",
+                                "en": "After dinner, the king retired to his <w>bedchamber</w>."
+                            }
                         },
                         {
-                            "text": "Het <w>slaapvertrek</w> was sober ingericht met slechts een bed en een stoel."
+                            "text": "Het <w>slaapvertrek</w> was sober ingericht met slechts een bed en een stoel.",
+                            "target_lang_translations": {
+                                "ru": "<w>Спальня</w> была обставлена скромно: только кровать и стул.",
+                                "en": "The <w>sleeping quarters</w> were soberly furnished with only a bed and a chair."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,40 @@
                         "eigen slaapvertrek",
                         "koninklijk slaapvertrek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "wordt vaker gebruikt in formele beschrijvingen dan het alledaagse 'slaapkamer'"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Комната или помещение, специально предназначенное для сна.",
+                        "en": "A room or space specifically intended for sleeping."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "спальня",
+                                "target_lang_sense_clarification": "общее название"
+                            },
+                            {
+                                "target_lang_word": "опочивальня",
+                                "target_lang_sense_clarification": "устаревшее или торжественное, часто о спальне монарха"
+                            },
+                            {
+                                "target_lang_word": "спальный покой",
+                                "target_lang_sense_clarification": "книжное, устаревшее"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "bedchamber",
+                                "target_lang_sense_clarification": "formal or archaic"
+                            },
+                            {
+                                "target_lang_word": "bedroom",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "sleeping quarters",
+                                "target_lang_sense_clarification": "descriptive"
+                            }
+                        ]
+                    }
                 }
             ]
         }

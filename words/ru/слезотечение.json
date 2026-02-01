@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Яркий солнечный свет вызвал у него сильное <w>слезотечение</w>."
+                            "text": "Яркий солнечный свет вызвал у него сильное <w>слезотечение</w>.",
+                            "target_lang_translations": {
+                                "en": "Bright sunlight caused him severe <w>tearing</w>."
+                            }
                         },
                         {
-                            "text": "Пациент пришёл к врачу с жалобами на постоянное <w>слезотечение</w>."
+                            "text": "Пациент пришёл к врачу с жалобами на постоянное <w>слезотечение</w>.",
+                            "target_lang_translations": {
+                                "en": "The patient came to the doctor complaining of constant <w>lacrimation</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,29 @@
                         "вызвать слезотечение",
                         "жалобы на слезотечение"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "physiological context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Increased secretion of tears caused by disease or eye irritation."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tearing",
+                                "target_lang_sense_clarification": "general term for the flow of tears"
+                            },
+                            {
+                                "target_lang_word": "lacrimation",
+                                "target_lang_sense_clarification": "formal or medical term"
+                            },
+                            {
+                                "target_lang_word": "watering of the eyes",
+                                "target_lang_sense_clarification": "common descriptive phrase"
+                            },
+                            {
+                                "target_lang_word": "epiphora",
+                                "target_lang_sense_clarification": "medical term for excessive tearing"
+                            }
+                        ]
+                    }
                 }
             ]
         }

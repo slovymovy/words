@@ -1,10 +1,11 @@
 {
     "word_family": [
         "lokal",
+        "lokalizacja",
+        "lokalizować",
         "lokalnie",
         "lokalność",
-        "lokalizacja",
-        "lokalizować"
+        "zlokalizować"
     ],
     "entries": [
         {
@@ -12,17 +13,23 @@
             "senses": [
                 {
                     "sense_id": "5a07f7c8-b333-386f-8dfe-c5a39b911a32",
-                    "sense_definition": "związany z jakimś rejonem, miejscem, ograniczony do jakiegoś miejsca",
+                    "sense_definition": "związany z określonym rejonem lub miejscem, ograniczony do niewielkiego obszaru",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "location_relation",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lepiej przestrzegać <w>lokalnych</w> zwyczajów, jeśli nie chce się popaść w konflikt z tubylcami."
+                            "text": "Lepiej przestrzegać <w>lokalnych</w> zwyczajów, jeśli nie chce się popaść w konflikt z tubylcami.",
+                            "target_lang_translations": {
+                                "ru": "Лучше соблюдать <w>местные</w> обычаи, если не хочешь вступить в конфликт с местными жителями."
+                            }
                         },
                         {
-                            "text": "Wspieramy <w>lokalny</w> rynek, kupując świeże produkty od rolników z sąsiedztwa."
+                            "text": "W tym sklepie sprzedajemy tylko świeże, <w>lokalne</w> produkty.",
+                            "target_lang_translations": {
+                                "ru": "В этом магазине мы продаём только свежие <w>местные</w> продукты."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,36 +43,63 @@
                         "władze lokalne",
                         "społeczność lokalna",
                         "rynek lokalny",
-                        "produkt lokalny"
-                    ]
+                        "sieć lokalna"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "связанный с определённым районом или местом, ограниченный небольшой территорией"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "местный",
+                                "target_lang_sense_clarification": "свойственный данной местности"
+                            },
+                            {
+                                "target_lang_word": "локальный",
+                                "target_lang_sense_clarification": "ограниченный определённым местом, не общий"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "afe208d2-ec46-37b4-becc-c817706a4c02",
-                    "sense_definition": "widoczny tylko w obrębie danej procedury lub bloku w kodzie programu",
+                    "sense_definition": "w informatyce: widoczny i dostępny tylko w wyodrębnionej części kodu programu, na przykład wewnątrz funkcji",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "computing_scope",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ta zmienna jest <w>lokalna</w>, nie można jej użyć na zewnątrz funkcji."
+                            "text": "Ta zmienna jest <w>lokalna</w>, nie można jej użyć na zewnątrz funkcji.",
+                            "target_lang_translations": {
+                                "ru": "Эта переменная <w>локальная</w>, её нельзя использовать вне функции."
+                            }
                         },
                         {
-                            "text": "Programista zdefiniował wartość jako <w>lokalną</w>, aby uniknąć błędów w innych częściach kodu."
+                            "text": "Wartości <w>lokalne</w> są usuwane z pamięci po zakończeniu działania bloku kodu.",
+                            "target_lang_translations": {
+                                "ru": "<w>Локальные</w> значения удаляются из памяти после завершения работы блока кода."
+                            }
                         }
                     ],
                     "antonyms": [
                         "globalny"
                     ],
                     "common_phrases": [
-                        "zmienna lokalna"
+                        "zmienna lokalna",
+                        "klasa lokalna"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "dotyczy programowania"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "в информатике: видимый и доступный только в отдельной части кода программы, например, внутри функции"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "локальный",
+                                "target_lang_sense_clarification": "в программировании"
+                            }
+                        ]
+                    }
                 }
             ]
         }

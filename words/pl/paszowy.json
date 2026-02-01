@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Rolnik zamówił wysokiej jakości dodatki <w>paszowe</w> dla swojego bydła."
+                            "text": "Rolnik zamówił wysokiej jakości dodatki <w>paszowe</w> dla swojego bydła.",
+                            "target_lang_translations": {
+                                "ru": "Фермер заказал высококачественные <w>кормовые</w> добавки для своего скота."
+                            }
                         },
                         {
-                            "text": "Ceny zbóż <w>paszowych</w> na giełdzie rolniczej uległy wczoraj zmianie."
+                            "text": "Ceny zbóż <w>paszowych</w> na giełdzie rolniczej uległy wczoraj zmianie.",
+                            "target_lang_translations": {
+                                "ru": "Цены на <w>фуражное</w> зерно на сельскохозяйственной бирже вчера изменились."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,21 @@
                         "wartość paszowa",
                         "burak paszowy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "rolnictwo"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Связанный с кормом, относящийся к пище для сельскохозяйственных животных."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "кормовой",
+                                "target_lang_sense_clarification": "относящийся к корму для животных"
+                            },
+                            {
+                                "target_lang_word": "фуражный",
+                                "target_lang_sense_clarification": "обычно о зерне или сельскохозяйственных культурах"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor recommended <w>antiplatelet</w> therapy to reduce the risk of another heart attack."
+                            "text": "The doctor recommended <w>antiplatelet</w> therapy to reduce the risk of another heart attack.",
+                            "target_lang_translations": {
+                                "ru": "Врач порекомендовал <w>антитромбоцитарную</w> терапию, чтобы снизить риск повторного сердечного приступа."
+                            }
                         },
                         {
-                            "text": "He takes an <w>antiplatelet</w> medication every morning to keep his blood thin."
+                            "text": "He takes an <w>antiplatelet</w> medication every morning to keep his blood thin.",
+                            "target_lang_translations": {
+                                "ru": "Каждое утро он принимает <w>антитромбоцитарный</w> препарат для разжижения крови."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,21 @@
                         "antiplatelet drug",
                         "antiplatelet medication"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Действующий для подавления функции или накопления тромбоцитов, обычно для предотвращения образования тромбов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "антитромбоцитарный",
+                                "target_lang_sense_clarification": "относящийся к подавлению активности тромбоцитов"
+                            },
+                            {
+                                "target_lang_word": "антиагрегантный",
+                                "target_lang_sense_clarification": "препятствующий агрегации (склеиванию) клеток крови"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -48,22 +63,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Aspirin is one of the most commonly used <w>antiplatelets</w> available without a prescription."
+                            "text": "Aspirin is one of the most commonly used <w>antiplatelets</w> available without a prescription.",
+                            "target_lang_translations": {
+                                "ru": "Аспирин — один из наиболее часто используемых <w>антиагрегантов</w>, доступных без рецепта."
+                            }
                         },
                         {
-                            "text": "The patient was prescribed two different <w>antiplatelets</w> to ensure no clots would form."
+                            "text": "The patient was prescribed two different <w>antiplatelets</w> to ensure no clots would form.",
+                            "target_lang_translations": {
+                                "ru": "Пациенту прописали два разных <w>антиагреганта</w>, чтобы гарантировать отсутствие тромбов."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "oral antiplatelets",
                         "prescribed antiplatelets"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Лекарство или вещество, предотвращающее склеивание тромбоцитов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "антиагрегант",
+                                "target_lang_sense_clarification": "препарат, снижающий способность тромбоцитов к склеиванию"
+                            },
+                            {
+                                "target_lang_word": "антитромбоцитарное средство",
+                                "target_lang_sense_clarification": "лекарственное средство против образования тромбов"
+                            }
+                        ]
+                    }
                 }
             ]
         }

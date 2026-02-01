@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dit is de sjoel waar mijn voorouders vroeger altijd <w>davvenden</w>."
+                            "text": "Dit is de sjoel waar mijn voorouders vroeger altijd <w>davvenden</w>.",
+                            "target_lang_translations": {
+                                "ru": "Это синагога, где мои предки раньше всегда <w>молились</w>.",
+                                "en": "This is the shul where my ancestors always used to <w>daven</w>."
+                            }
                         },
                         {
-                            "text": "De oude man stond zachtjes te <w>davvenen</w> in de hoek van de kamer."
+                            "text": "De oude man stond zachtjes te <w>davvenen</w> in de hoek van de kamer.",
+                            "target_lang_translations": {
+                                "ru": "Старик стоял в углу комнаты и тихо <w>молился</w>.",
+                                "en": "The old man stood softly <w>davening</w> in the corner of the room."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,16 +34,32 @@
                         "gaan davvenen",
                         "staan te davvenen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "jodendom"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "Jiddisch leenwoord"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Молиться согласно еврейской традиции, часто сопровождается ритмичным раскачиванием верхней части тела.",
+                        "en": "To pray in the Jewish manner, often accompanied by rocking movements of the upper body."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "давенить",
+                                "target_lang_sense_clarification": "специфический термин, относящийся к еврейской молитве"
+                            },
+                            {
+                                "target_lang_word": "молиться",
+                                "target_lang_sense_clarification": "общий термин"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "daven",
+                                "target_lang_sense_clarification": "specific term for Jewish prayer"
+                            },
+                            {
+                                "target_lang_word": "pray",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

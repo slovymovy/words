@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn neef heet <w>Reinout</w> en hij woont in Utrecht."
+                            "text": "Mijn neef heet <w>Reinout</w> en hij woont in Utrecht.",
+                            "target_lang_translations": {
+                                "en": "My cousin is called <w>Reinout</w> and he lives in Utrecht.",
+                                "ru": "Моего двоюродного брата зовут <w>Рейнаут</w>, и он живет в Утрехте."
+                            }
                         },
                         {
-                            "text": "Heb je <w>Reinout</w> vandaag al gezien op school?"
+                            "text": "Heb je <w>Reinout</w> vandaag al gezien op school?",
+                            "target_lang_translations": {
+                                "en": "Have you seen <w>Reinout</w> at school today?",
+                                "ru": "Ты уже видел <w>Рейнаута</w> сегодня в школе?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A boy's name.",
+                        "ru": "Мужское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Reinout",
+                                "target_lang_sense_clarification": "male given name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Рейнаут",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

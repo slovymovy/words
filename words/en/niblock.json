@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Niblock</w> has been working at the company for over twenty years."
+                            "text": "Mr. <w>Niblock</w> has been working at the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Ниблок</w> работает в компании уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We are going to visit the <w>Niblock</w> family this weekend."
+                            "text": "We are going to visit the <w>Niblock</w> family this weekend.",
+                            "target_lang_translations": {
+                                "ru": "Мы собираемся навестить семью <w>Ниблок</w> в эти выходные."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ниблок",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

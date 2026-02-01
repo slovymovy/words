@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Группа новичков прибыла в <w>альплагерь</w> для прохождения начальной подготовки."
+                            "text": "Группа новичков прибыла в <w>альплагерь</w> для прохождения начальной подготовки.",
+                            "target_lang_translations": {
+                                "en": "A group of beginners arrived at the <w>mountaineering camp</w> for initial training."
+                            }
                         },
                         {
-                            "text": "Летом мы планируем поехать в <w>альплагерь</w> на Кавказе."
+                            "text": "Летом мы планируем поехать в <w>альплагерь</w> на Кавказе.",
+                            "target_lang_translations": {
+                                "en": "In the summer we plan to go to a <w>climbing camp</w> in the Caucasus."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "инструктор альплагеря",
                         "путёвка в альплагерь"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "mountaineering"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A specialized base in the mountains equipped for the accommodation, instruction, and training of mountaineers."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "mountaineering camp",
+                                "target_lang_sense_clarification": "base for climbers"
+                            },
+                            {
+                                "target_lang_word": "climbing camp",
+                                "target_lang_sense_clarification": "training facility"
+                            },
+                            {
+                                "target_lang_word": "alpine camp",
+                                "target_lang_sense_clarification": "mountain base"
+                            }
+                        ]
+                    }
                 }
             ]
         }

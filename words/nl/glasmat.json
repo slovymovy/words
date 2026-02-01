@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De bouwer versterkte de romp van de boot met een extra laag <w>glasmat</w>."
+                            "text": "De bouwer versterkte de romp van de boot met een extra laag <w>glasmat</w>.",
+                            "target_lang_translations": {
+                                "en": "The builder reinforced the hull of the boat with an extra layer of <w>fiberglass mat</w>.",
+                                "ru": "Строитель укрепил корпус лодки дополнительным слоем <w>стекломата</w>."
+                            }
                         },
                         {
-                            "text": "Je moet de <w>glasmat</w> goed doordrenken met hars voor een stevig resultaat."
+                            "text": "Je moet de <w>glasmat</w> goed doordrenken met hars voor een stevig resultaat.",
+                            "target_lang_translations": {
+                                "en": "You must thoroughly saturate the <w>fiberglass mat</w> with resin for a sturdy result.",
+                                "ru": "Нужно хорошо пропитать <w>стекломат</w> смолой для получения прочного результата."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "laag glasmat",
                         "geweven glasmat"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "bouw en constructie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A mat made of glass fibers, often used as reinforcement in plastic structures.",
+                        "ru": "Мат из стекловолокна, часто используемый для укрепления пластиковых конструкций."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fiberglass mat",
+                                "target_lang_sense_clarification": "reinforcement material"
+                            },
+                            {
+                                "target_lang_word": "glass fibre mat",
+                                "target_lang_sense_clarification": "technical variant"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "стекломат",
+                                "target_lang_sense_clarification": "материал"
+                            },
+                            {
+                                "target_lang_word": "стекловолоконный мат",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

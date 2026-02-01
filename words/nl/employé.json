@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het bedrijf is op zoek naar een nieuwe administratief <w>employé</w> voor de afdeling verkoop."
+                            "text": "Het bedrijf is op zoek naar een nieuwe administratief <w>employé</w> voor de afdeling verkoop.",
+                            "target_lang_translations": {
+                                "en": "The company is looking for a new administrative <w>employee</w> for the sales department.",
+                                "ru": "Компания ищет нового административного <w>сотрудника</w> для отдела продаж."
+                            }
                         },
                         {
-                            "text": "Elke <w>employé</w> heeft recht op vakantiedagen en een reiskostenvergoeding."
+                            "text": "Elke <w>employé</w> heeft recht op vakantiedagen en een reiskostenvergoeding.",
+                            "target_lang_translations": {
+                                "en": "Every <w>employee</w> is entitled to vacation days and a travel allowance.",
+                                "ru": "Каждый <w>служащий</w> имеет право на отпуск и компенсацию транспортных расходов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,33 @@
                     "common_phrases": [
                         "administratief employé",
                         "commercieel employé"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone who works for an employer for a salary, often in an administrative or office position.",
+                        "ru": "Тот, кто работает по найму на работодателя, часто выполняя административные или офисные функции."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "employee",
+                                "target_lang_sense_clarification": "general term for a worker"
+                            },
+                            {
+                                "target_lang_word": "clerk",
+                                "target_lang_sense_clarification": "specifically for office or administrative work"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "служащий",
+                                "target_lang_sense_clarification": "офисный работник, не занятый физическим трудом"
+                            },
+                            {
+                                "target_lang_word": "сотрудник",
+                                "target_lang_sense_clarification": "работник учреждения или организации"
+                            }
+                        ]
+                    }
                 }
             ]
         }

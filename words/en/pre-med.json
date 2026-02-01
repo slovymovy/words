@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He is studying hard because the <w>pre-med</w> requirements are very demanding."
+                            "text": "He is studying hard because the <w>pre-med</w> requirements are very demanding.",
+                            "target_lang_translations": {
+                                "ru": "Он усердно учится, потому что требования <w>программы подготовки к медицинскому вузу</w> очень высокие."
+                            }
                         },
                         {
-                            "text": "As a <w>pre-med</w> student, she spends most of her time in the science library."
+                            "text": "As a <w>pre-med</w> student, she spends most of her time in the science library.",
+                            "target_lang_translations": {
+                                "ru": "Как студентка <w>подготовительного медицинского отделения</w>, она проводит большую часть времени в научной библиотеке."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,21 @@
                         "pre-med courses",
                         "pre-med advisor"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "short for premedical"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "related to medical education"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Программа бакалавриата, которая готовит студентов к поступлению в медицинский институт."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "программа подготовки к медицинскому вузу",
+                                "target_lang_sense_clarification": "учебный курс"
+                            },
+                            {
+                                "target_lang_word": "подготовительное медицинское отделение",
+                                "target_lang_sense_clarification": "направление обучения"
+                            }
+                        ]
+                    }
                 }
             ]
         }

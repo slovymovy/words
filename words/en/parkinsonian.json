@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor noticed a <w>parkinsonian</w> tremor in the patient's left hand."
+                            "text": "The doctor noticed a <w>parkinsonian</w> tremor in the patient's left hand.",
+                            "target_lang_translations": {
+                                "ru": "Врач заметил <w>паркинсонический</w> тремор в левой руке пациента."
+                            }
                         },
                         {
-                            "text": "His shuffling walk was described as a <w>parkinsonian</w> gait by the specialist."
+                            "text": "His shuffling walk was described as a <w>parkinsonian</w> gait by the specialist.",
+                            "target_lang_translations": {
+                                "ru": "Его шаркающая походка была описана специалистом как <w>паркинсоническая</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "parkinsonian tremor",
                         "parkinsonian symptoms"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "describing symptoms or conditions"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к синдрому Паркинсона или напоминающий его симптомы."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "паркинсонический",
+                                "target_lang_sense_clarification": "Связанный с болезнью Паркинсона"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -48,18 +59,29 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The support group provides resources for <w>parkinsonians</w> and their caregivers."
+                            "text": "The support group provides resources for <w>parkinsonians</w> and their caregivers.",
+                            "target_lang_translations": {
+                                "ru": "Группа поддержки предоставляет ресурсы для <w>больных паркинсонизмом</w> и их опекунов."
+                            }
                         },
                         {
-                            "text": "As a <w>parkinsonian</w>, he required assistance with fine motor tasks."
+                            "text": "As a <w>parkinsonian</w>, he required assistance with fine motor tasks.",
+                            "target_lang_translations": {
+                                "ru": "Будучи <w>больным паркинсонизмом</w>, он нуждался в помощи при выполнении задач, требующих мелкой моторики."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "referring to a patient"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, страдающий синдромом Паркинсона."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "больной паркинсонизмом",
+                                "target_lang_sense_clarification": "Человек с диагнозом паркинсонизм"
+                            }
+                        ]
+                    }
                 }
             ]
         }

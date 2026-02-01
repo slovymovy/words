@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Среднегодовая</w> температура в этом регионе редко опускается ниже нуля."
+                            "text": "<w>Среднегодовая</w> температура в этом регионе редко опускается ниже нуля.",
+                            "target_lang_translations": {
+                                "en": "The <w>average annual</w> temperature in this region rarely drops below zero."
+                            }
                         },
                         {
-                            "text": "Экономисты рассчитали <w>среднегодовой</w> темп роста производства."
+                            "text": "Экономисты рассчитали <w>среднегодовой</w> темп роста производства.",
+                            "target_lang_translations": {
+                                "en": "Economists calculated the <w>average annual</w> production growth rate."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,12 +37,21 @@
                         "среднегодовое значение",
                         "среднегодовой уровень"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "статистика, метеорология, экономика"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Calculated as an average value over the course of a year."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "average annual",
+                                "target_lang_sense_clarification": "general term for an average calculated over a year"
+                            },
+                            {
+                                "target_lang_word": "mean annual",
+                                "target_lang_sense_clarification": "statistical term often used in scientific contexts like meteorology"
+                            }
+                        ]
+                    }
                 }
             ]
         }

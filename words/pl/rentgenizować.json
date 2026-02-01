@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz postanowił <w>rentgenizować</w> klatkę piersiową pacjenta, aby wykluczyć zapalenie płuc."
+                            "text": "Lekarz postanowił <w>rentgenizować</w> klatkę piersiową pacjenta, aby wykluczyć zapalenie płuc.",
+                            "target_lang_translations": {
+                                "ru": "Врач решил <w>сделать рентген</w> грудной клетки пациента, чтобы исключить пневмонию."
+                            }
                         },
                         {
-                            "text": "Na lotnisku służby bezpieczeństwa muszą dokładnie <w>rentgenizować</w> każdy bagaż."
+                            "text": "Na lotnisku służby bezpieczeństwa muszą dokładnie <w>rentgenizować</w> każdy bagaż.",
+                            "target_lang_translations": {
+                                "ru": "В аэропорту службы безопасности должны тщательно <w>просвечивать</w> каждый багаж."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,21 @@
                         "rentgenizować bagaż",
                         "rentgenizować pacjenta"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "просвечивать рентгеновскими лучами"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "просвечивать",
+                                "target_lang_sense_clarification": "рентгеном"
+                            },
+                            {
+                                "target_lang_word": "делать рентген",
+                                "target_lang_sense_clarification": "проводить обследование"
+                            }
+                        ]
+                    }
                 }
             ]
         }

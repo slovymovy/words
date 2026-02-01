@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Malaria is in veel tropische gebieden geen epidemie, maar een blijvende <w>endemie</w>."
+                            "text": "Malaria is in veel tropische gebieden geen epidemie, maar een blijvende <w>endemie</w>.",
+                            "target_lang_translations": {
+                                "ru": "Малярия во многих тропических районах — это не эпидемия, а постоянная <w>эндемия</w>.",
+                                "en": "In many tropical areas, malaria is not an epidemic, but a persistent <w>endemic</w>."
+                            }
                         },
                         {
-                            "text": "<w>Endemieën</w> worden gevaarlijk als de infectie terechtkomt in een gebied waar deze tot dusver onbekend was."
+                            "text": "<w>Endemieën</w> worden gevaarlijk als de infectie terechtkomt in een gebied waar deze tot dusver onbekend was.",
+                            "target_lang_translations": {
+                                "ru": "<w>Эндемии</w> становятся опасными, когда инфекция попадает в район, где она до сих пор была неизвестна.",
+                                "en": "<w>Endemics</w> become dangerous when the infection enters an area where it was previously unknown."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "lokale endemie",
                         "heersende endemie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "epidemiology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Постоянное присутствие инфекционного заболевания в определенной местности или среди определенной группы населения без резкого роста числа заражений.",
+                        "en": "The constant presence of an infectious disease in a specific area or among a specific population group, without a sharp increase in the number of infections."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "эндемия",
+                                "target_lang_sense_clarification": "медицина"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "endemic",
+                                "target_lang_sense_clarification": "disease or condition"
+                            },
+                            {
+                                "target_lang_word": "endemic disease",
+                                "target_lang_sense_clarification": "medical term"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "56a49b98-b57b-3506-a979-cf38b91c14d3",
@@ -48,21 +72,41 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Door de isolatie van het eiland is er sprake van een hoge mate van <w>endemie</w> onder de vogelsoorten."
+                            "text": "Door de isolatie van het eiland is er sprake van een hoge mate van <w>endemie</w> onder de vogelsoorten.",
+                            "target_lang_translations": {
+                                "ru": "Из-за изоляции острова среди видов птиц наблюдается высокая степень <w>эндемизма</w>.",
+                                "en": "Due to the isolation of the island, there is a high degree of <w>endemism</w> among the bird species."
+                            }
                         },
                         {
-                            "text": "De <w>endemie</w> van deze zeldzame plant maakt bescherming van het leefgebied noodzakelijk."
+                            "text": "De <w>endemie</w> van deze zeldzame plant maakt bescherming van het leefgebied noodzakelijk.",
+                            "target_lang_translations": {
+                                "ru": "<w>Эндемизм</w> этого редкого растения делает защиту среды обитания необходимой.",
+                                "en": "The <w>endemism</w> of this rare plant makes protection of the habitat necessary."
+                            }
                         }
                     ],
                     "synonyms": [
                         "endemisme"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "biology/biogeography"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Явление, при котором организм (растение или животное) в естественных условиях встречается исключительно в определенной географической области.",
+                        "en": "The phenomenon where an organism (plant or animal) naturally occurs exclusively in a specific geographical area."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "эндемизм",
+                                "target_lang_sense_clarification": "биология"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "endemism",
+                                "target_lang_sense_clarification": "biology/ecology"
+                            }
+                        ]
+                    }
                 }
             ]
         }

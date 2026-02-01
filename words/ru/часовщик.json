@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Старый <w>часовщик</w> внимательно осмотрел сломанный механизм."
+                            "text": "Старый <w>часовщик</w> внимательно осмотрел сломанный механизм.",
+                            "target_lang_translations": {
+                                "en": "The old <w>watchmaker</w> carefully examined the broken mechanism."
+                            }
                         },
                         {
-                            "text": "Мне посоветовали обратиться к опытному <w>часовщику</w> в центре города."
+                            "text": "Мне посоветовали обратиться к опытному <w>часовщику</w> в центре города.",
+                            "target_lang_translations": {
+                                "en": "I was advised to see an experienced <w>watchmaker</w> in the city center."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                         "инструменты часовщика",
                         "мастерская часовщика"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "обозначает профессию"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A craftsman who makes and repairs watches or clocks"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "watchmaker",
+                                "target_lang_sense_clarification": "specialist in watches"
+                            },
+                            {
+                                "target_lang_word": "clockmaker",
+                                "target_lang_sense_clarification": "specialist in clocks"
+                            },
+                            {
+                                "target_lang_word": "horologist",
+                                "target_lang_sense_clarification": "formal term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

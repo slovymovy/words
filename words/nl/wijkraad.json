@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>wijkraad</w> heeft bezwaar gemaakt tegen de bouw van de nieuwe flat in de buurt."
+                            "text": "De <w>wijkraad</w> heeft bezwaar gemaakt tegen de bouw van de nieuwe flat in de buurt.",
+                            "target_lang_translations": {
+                                "en": "The <w>neighbourhood council</w> has objected to the construction of the new apartment building in the area.",
+                                "ru": "<w>Районный совет</w> подал возражение против строительства нового многоквартирного дома по соседству."
+                            }
                         },
                         {
-                            "text": "Tijdens de vergadering van de <w>wijkraad</w> werden de problemen met het zwerfafval besproken."
+                            "text": "Tijdens de vergadering van de <w>wijkraad</w> werden de problemen met het zwerfafval besproken.",
+                            "target_lang_translations": {
+                                "en": "During the <w>neighbourhood council</w> meeting, the problems with litter were discussed.",
+                                "ru": "На заседании <w>районного совета</w> обсуждались проблемы с уличным мусором."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +43,32 @@
                         "advies van de wijkraad",
                         "lid van de wijkraad"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "local government context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official advisory body that represents the interests of residents in a specific neighbourhood and advises the municipality on the living environment.",
+                        "ru": "Официальный совещательный орган, представляющий интересы жителей конкретного района и консультирующий муниципалитет по вопросам благоустройства и условий жизни."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "neighbourhood council",
+                                "target_lang_sense_clarification": "local advisory body representing a specific area"
+                            },
+                            {
+                                "target_lang_word": "district council",
+                                "target_lang_sense_clarification": "administrative body for a city district"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "районный совет",
+                                "target_lang_sense_clarification": "орган местного самоуправления"
+                            },
+                            {
+                                "target_lang_word": "совет микрорайона",
+                                "target_lang_sense_clarification": "орган территориального общественного самоуправления"
+                            }
+                        ]
+                    }
                 }
             ]
         }

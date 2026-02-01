@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De overheid wil een nieuwe <w>invoerheffing</w> opleggen om de lokale economie te beschermen."
+                            "text": "De overheid wil een nieuwe <w>invoerheffing</w> opleggen om de lokale economie te beschermen.",
+                            "target_lang_translations": {
+                                "en": "The government wants to impose a new <w>import tariff</w> to protect the local economy.",
+                                "ru": "Правительство хочет ввести новую <w>импортную пошлину</w> для защиты местной экономики."
+                            }
                         },
                         {
-                            "text": "Als je producten uit dat land bestelt, moet je rekening houden met een hoge <w>invoerheffing</w>."
+                            "text": "Als je producten uit dat land bestelt, moet je rekening houden met een hoge <w>invoerheffing</w>.",
+                            "target_lang_translations": {
+                                "en": "If you order products from that country, you must take into account a high <w>import duty</w>.",
+                                "ru": "Если вы заказываете товары из этой страны, нужно учитывать высокую <w>ввозную пошлину</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,36 @@
                         "invoerheffing opleggen",
                         "hoge invoerheffingen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "economie en handel"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A tax that must be paid on the import of goods from abroad.",
+                        "ru": "Налог, который необходимо уплатить при ввозе товаров из-за границы."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "import duty",
+                                "target_lang_sense_clarification": "tax collected on imports"
+                            },
+                            {
+                                "target_lang_word": "import tariff",
+                                "target_lang_sense_clarification": "tax imposed on imported goods"
+                            },
+                            {
+                                "target_lang_word": "import levy",
+                                "target_lang_sense_clarification": "charge on imports"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "импортная пошлина",
+                                "target_lang_sense_clarification": "налог на импорт"
+                            },
+                            {
+                                "target_lang_word": "ввозная пошлина",
+                                "target_lang_sense_clarification": "сбор за ввоз товаров"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriendin heet <w>Dagmar</w> en ze woont in Amsterdam."
+                            "text": "Mijn beste vriendin heet <w>Dagmar</w> en ze woont in Amsterdam.",
+                            "target_lang_translations": {
+                                "en": "My best friend is called <w>Dagmar</w> and she lives in Amsterdam.",
+                                "ru": "Мою лучшую подругу зовут <w>Дагмар</w>, и она живет в Амстердаме."
+                            }
                         },
                         {
-                            "text": "Ik heb gisteren met <w>Dagmar</w> afgesproken om te gaan lunchen."
+                            "text": "Ik heb gisteren met <w>Dagmar</w> afgesproken om te gaan lunchen.",
+                            "target_lang_translations": {
+                                "en": "I arranged to have lunch with <w>Dagmar</w> yesterday.",
+                                "ru": "Вчера я договорился пообедать с <w>Дагмар</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female first name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Dagmar",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Дагмар",
+                                "target_lang_sense_clarification": "женское имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

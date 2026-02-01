@@ -13,10 +13,16 @@
                     "name_type": "brand_or_product_name",
                     "examples": [
                         {
-                            "text": "The band became famous after their music video appeared on <w>MTV</w>."
+                            "text": "The band became famous after their music video appeared on <w>MTV</w>.",
+                            "target_lang_translations": {
+                                "ru": "Группа стала известной после того, как их клип показали на <w>MTV</w>."
+                            }
                         },
                         {
-                            "text": "Many teenagers in the eighties spent hours watching <w>MTV</w> after school."
+                            "text": "Many teenagers in the eighties spent hours watching <w>MTV</w> after school.",
+                            "target_lang_translations": {
+                                "ru": "Многие подростки в восьмидесятые часами смотрели <w>MTV</w> после школы."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -24,12 +30,21 @@
                         "MTV generation",
                         "MTV awards"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "brand",
-                            "comment": "television channel"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Телевизионный канал, который изначально показывал в основном музыкальные клипы, но теперь транслирует разнообразный контент."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "MTV",
+                                "target_lang_sense_clarification": "название телеканала"
+                            },
+                            {
+                                "target_lang_word": "МТВ",
+                                "target_lang_sense_clarification": "транслитерация названия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

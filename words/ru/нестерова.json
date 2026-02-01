@@ -16,18 +16,29 @@
                     "name_type": "geographical_feature",
                     "examples": [
                         {
-                            "text": "На старой карте была отмечена небольшая река <w>Нестерова</w>."
+                            "text": "На старой карте была отмечена небольшая река <w>Нестерова</w>.",
+                            "target_lang_translations": {
+                                "en": "The small <w>Nesterova</w> river was marked on the old map."
+                            }
                         },
                         {
-                            "text": "Река <w>Нестерова</w> протекает через густые лесные массивы."
+                            "text": "Река <w>Нестерова</w> протекает через густые лесные массивы.",
+                            "target_lang_translations": {
+                                "en": "The <w>Nesterova</w> river flows through dense forest areas."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "hydronym"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A river in Russia."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Nesterova",
+                                "target_lang_sense_clarification": "river name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Grigg</w> has managed the local bakery for over thirty years."
+                            "text": "Mr. <w>Grigg</w> has managed the local bakery for over thirty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Григг</w> управляет местной пекарней уже более тридцати лет."
+                            }
                         },
                         {
-                            "text": "Please ask Mrs. <w>Grigg</w> if she is available for a quick call."
+                            "text": "Please ask Mrs. <w>Grigg</w> if she is available for a quick call.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, спросите миссис <w>Григг</w>, может ли она уделить время для короткого звонка."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Григг",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

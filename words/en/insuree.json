@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The company must verify the identity of the <w>insuree</w> before approving any medical claims."
+                            "text": "The company must verify the identity of the <w>insuree</w> before approving any medical claims.",
+                            "target_lang_translations": {
+                                "ru": "Компания должна проверить личность <w>застрахованного лица</w> перед утверждением любых медицинских выплат."
+                            }
                         },
                         {
-                            "text": "As a primary <w>insuree</w>, you are entitled to add your spouse and children to the plan."
+                            "text": "As a primary <w>insuree</w>, you are entitled to add your spouse and children to the plan.",
+                            "target_lang_translations": {
+                                "ru": "Как основной <w>застрахованный</w>, вы имеете право добавить супруга и детей в план страхования."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "insuree benefits",
                         "insuree data"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "insurance context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Лицо или организация, на которых распространяется действие страхового полиса."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "застрахованное лицо",
+                                "target_lang_sense_clarification": "официальный термин"
+                            },
+                            {
+                                "target_lang_word": "застрахованный",
+                                "target_lang_sense_clarification": "субстантивированное прилагательное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

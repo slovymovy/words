@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Токарь выбрал подходящее <w>центровочное</w> сверло, чтобы сделать начальное углубление в заготовке."
+                            "text": "Токарь выбрал подходящее <w>центровочное</w> сверло, чтобы сделать начальное углубление в заготовке.",
+                            "target_lang_translations": {
+                                "en": "The turner chose a suitable <w>center</w> drill to make the initial indentation in the workpiece."
+                            }
                         },
                         {
-                            "text": "Перед каждым рейсом экипаж обязан проверять <w>центровочный</w> график для обеспечения безопасности полёта."
+                            "text": "Перед каждым рейсом экипаж обязан проверять <w>центровочный</w> график для обеспечения безопасности полёта.",
+                            "target_lang_translations": {
+                                "en": "Before every flight, the crew is required to check the <w>balance</w> chart to ensure flight safety."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "центровочный график",
                         "центровочная ведомость"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering, aviation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to centering or alignment; intended for finding the center, axis of rotation, or correct weight distribution."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "centering",
+                                "target_lang_sense_clarification": "general mechanical use, e.g., centering rings"
+                            },
+                            {
+                                "target_lang_word": "center",
+                                "target_lang_sense_clarification": "used in specific tool names, e.g., center drill"
+                            },
+                            {
+                                "target_lang_word": "balance",
+                                "target_lang_sense_clarification": "relating to weight distribution, especially in aviation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

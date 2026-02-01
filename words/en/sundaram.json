@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment with Dr. <w>Sundaram</w> at the clinic tomorrow morning."
+                            "text": "We have an appointment with Dr. <w>Sundaram</w> at the clinic tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "У нас завтра утром прием у доктора <w>Сундарама</w> в клинике."
+                            }
                         },
                         {
-                            "text": "The <w>Sundaram</w> family donated a large collection of books to the local library."
+                            "text": "The <w>Sundaram</w> family donated a large collection of books to the local library.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Сундарам</w> пожертвовала большую коллекцию книг местной библиотеке."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,7 +37,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сундарам",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

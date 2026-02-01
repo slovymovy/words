@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Каждый <w>экзаменующийся</w> должен предъявить паспорт перед входом в аудиторию."
+                            "text": "Каждый <w>экзаменующийся</w> должен предъявить паспорт перед входом в аудиторию.",
+                            "target_lang_translations": {
+                                "en": "Every <w>examinee</w> must present a passport before entering the lecture hall."
+                            }
                         },
                         {
-                            "text": "<w>Экзаменующийся</w> студент внимательно слушал вопросы преподавателя."
+                            "text": "<w>Экзаменующийся</w> студент внимательно слушал вопросы преподавателя.",
+                            "target_lang_translations": {
+                                "en": "The student <w>being examined</w> listened carefully to the teacher's questions."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,7 +46,26 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "One who is taking an exam; a person being examined"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "examinee",
+                                "target_lang_sense_clarification": "person taking an exam"
+                            },
+                            {
+                                "target_lang_word": "candidate",
+                                "target_lang_sense_clarification": "person sitting for an examination"
+                            },
+                            {
+                                "target_lang_word": "person being examined",
+                                "target_lang_sense_clarification": "literal description"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De fotograaf gebruikte een <w>lichtmeter</w> om de perfecte instellingen voor de camera te vinden."
+                            "text": "De fotograaf gebruikte een <w>lichtmeter</w> om de perfecte instellingen voor de camera te vinden.",
+                            "target_lang_translations": {
+                                "en": "The photographer used a <w>light meter</w> to find the perfect settings for the camera.",
+                                "ru": "Фотограф использовал <w>экспонометр</w>, чтобы подобрать идеальные настройки для камеры."
+                            }
                         },
                         {
-                            "text": "Zonder een goede <w>lichtmeter</w> is het lastig om in deze donkere studio te werken."
+                            "text": "Zonder een goede <w>lichtmeter</w> is het lastig om in deze donkere studio te werken.",
+                            "target_lang_translations": {
+                                "en": "Without a good <w>light meter</w>, it is difficult to work in this dark studio.",
+                                "ru": "Без хорошего <w>экспонометра</w> сложно работать в этой темной студии."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "losse lichtmeter",
                         "lichtmeter gebruiken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "used in photography and physics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A device that measures light intensity, often used in photography or science to determine the correct exposure.",
+                        "ru": "Устройство, измеряющее интенсивность света, часто используемое в фотографии или науке для определения правильной экспозиции."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "light meter",
+                                "target_lang_sense_clarification": "photography/general"
+                            },
+                            {
+                                "target_lang_word": "exposure meter",
+                                "target_lang_sense_clarification": "photography"
+                            },
+                            {
+                                "target_lang_word": "photometer",
+                                "target_lang_sense_clarification": "scientific instrument"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "экспонометр",
+                                "target_lang_sense_clarification": "фотография"
+                            },
+                            {
+                                "target_lang_word": "люксметр",
+                                "target_lang_sense_clarification": "измерение освещенности"
+                            }
+                        ]
+                    }
                 }
             ]
         }

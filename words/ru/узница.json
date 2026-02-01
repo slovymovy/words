@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В темной камере сидела одинокая <w>узница</w>."
+                            "text": "В темной камере сидела одинокая <w>узница</w>.",
+                            "target_lang_translations": {
+                                "en": "A lonely <w>prisoner</w> sat in the dark cell."
+                            }
                         },
                         {
-                            "text": "Бывшая <w>узница</w> написала книгу о своей жизни."
+                            "text": "Бывшая <w>узница</w> написала книгу о своей жизни.",
+                            "target_lang_translations": {
+                                "en": "The former <w>prisoner</w> wrote a book about her life."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "узница совести",
                         "беглая узница"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "literary",
-                            "comment": "слово чаще встречается в книгах или историческом контексте, чем в официальной речи"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A woman held in confinement or captivity; the female form of 'prisoner'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "prisoner",
+                                "target_lang_sense_clarification": "female"
+                            },
+                            {
+                                "target_lang_word": "captive",
+                                "target_lang_sense_clarification": "female"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -50,12 +65,29 @@
                     "name_type": "geographical_feature",
                     "examples": [
                         {
-                            "text": "Река <w>Узница</w> протекает через густой лес."
+                            "text": "Река <w>Узница</w> протекает через густой лес.",
+                            "target_lang_translations": {
+                                "en": "The <w>Uznitsa</w> River flows through a dense forest."
+                            }
                         },
                         {
-                            "text": "На карте была отмечена <w>Узница</w>."
+                            "text": "На карте была отмечена <w>Узница</w>.",
+                            "target_lang_translations": {
+                                "en": "<w>Uznitsa</w> was marked on the map."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A river in Russia."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Uznitsa",
+                                "target_lang_sense_clarification": "river name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Компания активно развивает международные <w>автогрузовые</w> перевозки."
+                            "text": "Компания активно развивает международные <w>автогрузовые</w> перевозки.",
+                            "target_lang_translations": {
+                                "en": "The company is actively developing international <w>trucking</w> operations."
+                            }
                         },
                         {
-                            "text": "Новый <w>автогрузовой</w> терминал позволит ускорить доставку товаров в регионы."
+                            "text": "Новый <w>автогрузовой</w> терминал позволит ускорить доставку товаров в регионы.",
+                            "target_lang_translations": {
+                                "en": "The new <w>motor freight</w> terminal will help speed up the delivery of goods to the regions."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,12 +38,25 @@
                         "автогрузовой парк",
                         "автогрузовой тариф"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "логистика и транспорт"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the transportation of cargo by motor vehicles."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "trucking",
+                                "target_lang_sense_clarification": "industry or activity"
+                            },
+                            {
+                                "target_lang_word": "motor freight",
+                                "target_lang_sense_clarification": "technical/logistics context"
+                            },
+                            {
+                                "target_lang_word": "road freight",
+                                "target_lang_sense_clarification": "transport method"
+                            }
+                        ]
+                    }
                 }
             ]
         }

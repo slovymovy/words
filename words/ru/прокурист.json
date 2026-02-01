@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ах, простите, я вас не представил: это мой друг Альберт, а это его племянник, <w>прокурист</w> банка."
+                            "text": "Ах, простите, я вас не представил: это мой друг Альберт, а это его племянник, <w>прокурист</w> банка.",
+                            "target_lang_translations": {
+                                "en": "Ah, forgive me, I didn't introduce you: this is my friend Albert, and this is his nephew, the bank <w>procurator</w>."
+                            }
                         },
                         {
-                            "text": "Для подписания этого договора необходима подпись генерального директора или <w>прокуриста</w> компании."
+                            "text": "Для подписания этого договора необходима подпись генерального директора или <w>прокуриста</w> компании.",
+                            "target_lang_translations": {
+                                "en": "To sign this contract, the signature of the general director or the company <w>procurator</w> is required."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +36,21 @@
                         "назначить прокуриста",
                         "полномочия прокуриста"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "экономика"
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": "юриспруденция"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A trusted person (usually in commercial organizations) having broad powers to perform transactions on behalf of the owner."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "procurator",
+                                "target_lang_sense_clarification": "a commercial agent with full power of attorney"
+                            },
+                            {
+                                "target_lang_word": "authorized agent",
+                                "target_lang_sense_clarification": "a person empowered to act on behalf of a company"
+                            }
+                        ]
+                    }
                 }
             ]
         }

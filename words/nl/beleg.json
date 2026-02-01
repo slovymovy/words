@@ -1,9 +1,10 @@
 {
     "word_family": [
         "beleggen",
-        "belegering",
+        "belegging",
         "belegger",
-        "belegging"
+        "belegeren",
+        "belegering"
     ],
     "entries": [
         {
@@ -11,17 +12,25 @@
             "senses": [
                 {
                     "sense_id": "6c079ab2-c944-3cc7-ab91-3b6a0e1fe2dc",
-                    "sense_definition": "Voedsel dat op een boterham wordt gedaan, zoals kaas, vleeswaren, jam of hagelslag.",
+                    "sense_definition": "Voedzame en smakelijke bedekking van een boterham.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "food",
+                    "semantic_group_id": "food_topping",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kaas is voor veel Nederlanders het favoriete <w>beleg</w>."
+                            "text": "Kaas is voor veel Nederlanders het favoriete <w>beleg</w> op brood.",
+                            "target_lang_translations": {
+                                "ru": "Для многих голландцев сыр — любимая <w>начинка</w> для бутербродов.",
+                                "en": "For many Dutch people, cheese is the favorite <w>topping</w> on bread."
+                            }
                         },
                         {
-                            "text": "Hebben we nog genoeg zoet <w>beleg</w> in huis voor het ontbijt?"
+                            "text": "Hebben we nog genoeg zoet <w>beleg</w> voor het ontbijt morgen?",
+                            "target_lang_translations": {
+                                "ru": "У нас еще достаточно сладкой <w>начинки</w> (или намазки) для завтрака?",
+                                "en": "Do we still have enough sweet <w>toppings</w> for breakfast tomorrow?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,21 +41,59 @@
                         "zoet beleg",
                         "hartig beleg",
                         "beleg op brood"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Питательное и вкусное дополнение, которое кладут на хлеб или бутерброд.",
+                        "en": "A nutritious and tasty addition put on bread or a sandwich."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "начинка",
+                                "target_lang_sense_clarification": "для бутербродов"
+                            },
+                            {
+                                "target_lang_word": "намазка",
+                                "target_lang_sense_clarification": "пастообразная"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "filling",
+                                "target_lang_sense_clarification": "for sandwiches"
+                            },
+                            {
+                                "target_lang_word": "topping",
+                                "target_lang_sense_clarification": "on bread"
+                            },
+                            {
+                                "target_lang_word": "spread",
+                                "target_lang_sense_clarification": "paste-like"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "2fd879a3-0b99-3cf8-b308-76ce34c6cca6",
-                    "sense_definition": "De insluiting van een stad of vesting door een vijandelijk leger met als doel deze te veroveren.",
+                    "sense_definition": "Langdurige uitsluiting van de buitenwereld door een vijandige strijdmacht.",
                     "learner_level": "B2",
-                    "frequency": "Low",
-                    "semantic_group_id": "military",
+                    "frequency": "Middle",
+                    "semantic_group_id": "military_siege",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Tijdens het <w>beleg</w> van de stad was er een groot tekort aan voedsel."
+                            "text": "Bij het <w>beleg</w> van de stad kwamen veel onschuldige burgers om het leven.",
+                            "target_lang_translations": {
+                                "ru": "Во время <w>осады</w> города погибло много невинных мирных жителей.",
+                                "en": "During the <w>siege</w> of the city, many innocent civilians lost their lives."
+                            }
                         },
                         {
-                            "text": "Het leger moest het <w>beleg</w> na enkele maanden opgeven."
+                            "text": "De soldaten hielden stand tijdens het maandenlange <w>beleg</w> door de vijand.",
+                            "target_lang_translations": {
+                                "ru": "Солдаты держали оборону во время многомесячной <w>осады</w> врагом.",
+                                "en": "The soldiers held their ground during the months-long <w>siege</w> by the enemy."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -55,36 +102,76 @@
                     "common_phrases": [
                         "het beleg van",
                         "tijdens het beleg",
-                        "onder beleg"
+                        "beleg opheffen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Длительная изоляция города или крепость вражескими войсками с целью захвата.",
+                        "en": "Prolonged isolation of a city or fortress by enemy forces with the aim of capturing it."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "осада",
+                                "target_lang_sense_clarification": "военная"
+                            },
+                            {
+                                "target_lang_word": "блокада",
+                                "target_lang_sense_clarification": "изоляция"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "siege",
+                                "target_lang_sense_clarification": "military"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "cc16f3f2-e72d-3ecc-b33e-72af2035c3c5",
-                    "sense_definition": "Een strook stof aan de binnenkant van een kledingstuk om de randen netjes af te werken.",
+                    "sense_definition": "Afgewerkte tegenkant van naaiwerk.",
                     "learner_level": "C2",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "sewing",
+                    "frequency": "Low",
+                    "semantic_group_id": "sewing_term",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zorg dat het <w>beleg</w> goed platgestreken is voordat je het vastnaait."
+                            "text": "Zorg ervoor dat het <w>beleg</w> netjes is vastgenaaid aan de binnenkant van de jas.",
+                            "target_lang_translations": {
+                                "ru": "Убедитесь, что <w>обтачка</w> аккуратно пришита к внутренней стороне куртки.",
+                                "en": "Make sure the <w>facing</w> is sewn neatly to the inside of the jacket."
+                            }
                         },
                         {
-                            "text": "Voor een mooie afwerking knip je het <w>beleg</w> uit dezelfde stof als de jas."
+                            "text": "Voor een mooie afwerking moet je het <w>beleg</w> eerst verstevigen.",
+                            "target_lang_translations": {
+                                "ru": "Для красивой отделки нужно сначала укрепить <w>обтачку</w>.",
+                                "en": "For a nice finish, you must first reinforce the <w>facing</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "naaien"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Обработанная деталь швейного изделия для оформления краев (изнаночная сторона).",
+                        "en": "A finished piece of fabric used to treat the edges of a garment."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "обтачка",
+                                "target_lang_sense_clarification": "швейный термин"
+                            },
+                            {
+                                "target_lang_word": "подборт",
+                                "target_lang_sense_clarification": "деталь одежды"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "facing",
+                                "target_lang_sense_clarification": "sewing"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -93,25 +180,187 @@
             "senses": [
                 {
                     "sense_id": "e7de8086-9721-3a6e-b476-9386170b4d7c",
-                    "sense_definition": "Vervoegde vorm van <w>beleggen</w>.",
+                    "sense_definition": "Eerste persoon enkelvoud tegenwoordige tijd van <w>beleggen</w>.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "verb_form_1sg",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik <w>beleg</w> mijn spaargeld liever in duurzame fondsen."
+                            "text": "Ik <w>beleg</w> mijn spaargeld liever in duurzame fondsen dan in olie.",
+                            "target_lang_translations": {
+                                "ru": "Я предпочитаю <w>вкладывать</w> свои сбережения в устойчивые фонды, а не в нефть.",
+                                "en": "I prefer to <w>invest</w> my savings in sustainable funds rather than in oil."
+                            }
                         },
                         {
-                            "text": "<w>Beleg</w> jij je boterham meestal met kaas of met worst?"
+                            "text": "Elke ochtend <w>beleg</w> ik de broodjes voor de kinderen met kaas.",
+                            "target_lang_translations": {
+                                "ru": "Каждое утро я <w>наполняю</w> булочки для детей сыром.",
+                                "en": "Every morning I <w>top</w> the rolls for the children with cheese."
+                            }
                         }
                     ],
                     "traits": [
                         {
                             "trait_type": "form",
-                            "comment": ""
+                            "comment": "first-person singular present indicative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Форма 1-го лица единственного числа настоящего времени от глагола beleggen.",
+                        "en": "First-person singular present tense of the verb 'beleggen' (to invest or to cover)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вкладываю",
+                                "target_lang_sense_clarification": "деньги/инвестиции"
+                            },
+                            {
+                                "target_lang_word": "инвестирую",
+                                "target_lang_sense_clarification": "финансы"
+                            },
+                            {
+                                "target_lang_word": "наполняю",
+                                "target_lang_sense_clarification": "едой/начинкой"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "invest",
+                                "target_lang_sense_clarification": "finance"
+                            },
+                            {
+                                "target_lang_word": "top",
+                                "target_lang_sense_clarification": "food"
+                            },
+                            {
+                                "target_lang_word": "cover",
+                                "target_lang_sense_clarification": "general"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "6b8ff5a3-0b5b-33fe-8a66-3d0ebf9dc445",
+                    "sense_definition": "Gebiedende wijs van <w>beleggen</w>.",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "verb_form_imp",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "<w>Beleg</w> je boterham met gezond voedsel voor een goede start van de dag.",
+                            "target_lang_translations": {
+                                "ru": "<w>Наполни</w> свой бутерброд здоровой едой для хорошего начала дня.",
+                                "en": "<w>Top</w> your sandwich with healthy food for a good start to the day."
+                            }
+                        },
+                        {
+                            "text": "<w>Beleg</w> verstandig als je op lange termijn winst wilt maken.",
+                            "target_lang_translations": {
+                                "ru": "<w>Инвестируй</w> разумно, если хочешь получить прибыль в долгосрочной перспективе.",
+                                "en": "<w>Invest</w> wisely if you want to make a profit in the long term."
+                            }
+                        }
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "imperative"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Повелительное наклонение от глагола beleggen.",
+                        "en": "Imperative mood of the verb 'beleggen'."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вкладывай",
+                                "target_lang_sense_clarification": "деньги"
+                            },
+                            {
+                                "target_lang_word": "инвестируй",
+                                "target_lang_sense_clarification": "финансы"
+                            },
+                            {
+                                "target_lang_word": "наполняй",
+                                "target_lang_sense_clarification": "едой"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "invest",
+                                "target_lang_sense_clarification": "finance"
+                            },
+                            {
+                                "target_lang_word": "top",
+                                "target_lang_sense_clarification": "food"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "86da03d3-933c-3ce5-a176-b9837305c9bb",
+                    "sense_definition": "Tweede persoon enkelvoud tegenwoordige tijd van <w>beleggen</w> (bij inversie).",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "verb_form_2sg",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Waarin <w>beleg</w> je tegenwoordig je geld als de rente zo laag is?",
+                            "target_lang_translations": {
+                                "ru": "Во что ты <w>вкладываешь</w> деньги сейчас, когда процентные ставки так низки?",
+                                "en": "What do you <w>invest</w> your money in these days when interest rates are so low?"
+                            }
+                        },
+                        {
+                            "text": "<w>Beleg</w> je de broodjes even terwijl ik de koffie zet?",
+                            "target_lang_translations": {
+                                "ru": "Ты <w>наполнишь</w> булочки, пока я варю кофе?",
+                                "en": "Will you <w>top</w> the rolls while I make the coffee?"
+                            }
+                        }
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "second-person singular present indicative"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Форма 2-го лица единственного числа настоящего времени от глагола beleggen.",
+                        "en": "Second-person singular present tense of the verb 'beleggen'."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вкладываешь",
+                                "target_lang_sense_clarification": "деньги"
+                            },
+                            {
+                                "target_lang_word": "инвестируешь",
+                                "target_lang_sense_clarification": "финансы"
+                            },
+                            {
+                                "target_lang_word": "наполняешь",
+                                "target_lang_sense_clarification": "едой"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "invest",
+                                "target_lang_sense_clarification": "finance"
+                            },
+                            {
+                                "target_lang_word": "top",
+                                "target_lang_sense_clarification": "food"
+                            }
+                        ]
+                    }
                 }
             ]
         }

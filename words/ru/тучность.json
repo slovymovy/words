@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врачи предупреждали пациента, что чрезмерная <тучность> может привести к проблемам с сердцем."
+                            "text": "Врачи предупреждали пациента, что чрезмерная <тучность> может привести к проблемам с сердцем.",
+                            "target_lang_translations": {
+                                "en": "The doctors warned the patient that excessive <obesity> could lead to heart problems."
+                            }
                         },
                         {
-                            "text": "С годами появилась <тучность>, и ему стало труднее подниматься по лестнице."
+                            "text": "С годами появилась <тучность>, и ему стало труднее подниматься по лестнице.",
+                            "target_lang_translations": {
+                                "en": "Over the years, <corpulence> set in, and it became harder for him to climb the stairs."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "склонность к тучности",
                         "бороться с тучностью"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "слово звучит более официально или книжно, чем «полнота»"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The quality of being corpulent; excessive fatness or significant plumpness of the body."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "corpulence",
+                                "target_lang_sense_clarification": "formal, referring to a large, bulky body"
+                            },
+                            {
+                                "target_lang_word": "obesity",
+                                "target_lang_sense_clarification": "medical condition of excess body fat"
+                            },
+                            {
+                                "target_lang_word": "adiposity",
+                                "target_lang_sense_clarification": "technical/medical term for fattiness"
+                            }
+                        ]
+                    }
                 }
             ]
         }

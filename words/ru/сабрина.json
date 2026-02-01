@@ -15,18 +15,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мою лучшую подругу зовут <w>Сабрина</w>."
+                            "text": "Мою лучшую подругу зовут <w>Сабрина</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend's name is <w>Sabrina</w>."
+                            }
                         },
                         {
-                            "text": "Мы приготовили для <w>Сабрины</w> большой сюрприз."
+                            "text": "Мы приготовили для <w>Сабрины</w> большой сюрприз.",
+                            "target_lang_translations": {
+                                "en": "We prepared a big surprise for <w>Sabrina</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female personal name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sabrina",
+                                "target_lang_sense_clarification": "female given name"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -42,10 +53,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В списке жильцов не оказалось гражданина <w>Сабрина</w>."
+                            "text": "В списке жильцов не оказалось гражданина <w>Сабрина</w>.",
+                            "target_lang_translations": {
+                                "en": "Citizen <w>Sabrin</w> was not found on the list of residents."
+                            }
                         },
                         {
-                            "text": "Мы ничего не слышали о работах профессора <w>Сабрина</w>."
+                            "text": "Мы ничего не слышали о работах профессора <w>Сабрина</w>.",
+                            "target_lang_translations": {
+                                "en": "We haven't heard anything about the works of Professor <w>Sabrin</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -57,7 +74,18 @@
                             "trait_type": "surname",
                             "comment": "implied context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive or accusative singular form of the noun Sabrin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sabrin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

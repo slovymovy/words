@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zalecił, aby ten antybiotyk stosować <w>doustnie</w> dwa razy dziennie po posiłku."
+                            "text": "Lekarz zalecił, aby ten antybiotyk stosować <w>doustnie</w> dwa razy dziennie po posiłku.",
+                            "target_lang_translations": {
+                                "ru": "Врач рекомендовал принимать этот антибиотик <w>внутрь</w> два раза в день после еды."
+                            }
                         },
                         {
-                            "text": "Niektóre szczepionki można podawać <w>doustnie</w>, co jest znacznie mniej bolesne dla małych pacjentów."
+                            "text": "Niektóre szczepionki można podawać <w>doustnie</w>, co jest znacznie mniej bolesne dla małych pacjentów.",
+                            "target_lang_translations": {
+                                "ru": "Некоторые вакцины можно вводить <w>перорально</w>, что значительно менее болезненно для маленьких пациентов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,25 @@
                         "podawać doustnie",
                         "lek stosowany doustnie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin używany głównie w kontekście podawania leków"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Способ введения вещества (обычно лекарства) в организм через рот."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перорально",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "внутрь",
+                                "target_lang_sense_clarification": "о приеме лекарств"
+                            },
+                            {
+                                "target_lang_word": "через рот",
+                                "target_lang_sense_clarification": "разговорное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

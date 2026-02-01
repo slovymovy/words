@@ -13,22 +13,33 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего нового коллегу зовут <w>Даррен</w>."
+                            "text": "Моего нового коллегу зовут <w>Даррен</w>.",
+                            "target_lang_translations": {
+                                "en": "My new colleague's name is <w>Darren</w>."
+                            }
                         },
                         {
-                            "text": "<w>Даррен</w> прислал нам приглашение на вечеринку."
+                            "text": "<w>Даррен</w> прислал нам приглашение на вечеринку.",
+                            "target_lang_translations": {
+                                "en": "<w>Darren</w> sent us an invitation to the party."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "меня зовут Даррен",
                         "знакомьтесь, это Даррен"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "мужское"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male given name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Darren",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited the <w>Parten</w> family to the neighborhood gathering."
+                            "text": "We invited the <w>Parten</w> family to the neighborhood gathering.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Партен</w> на соседское собрание."
+                            }
                         },
                         {
-                            "text": "Please deliver this package to Mr. <w>Parten</w> at the front desk."
+                            "text": "Please deliver this package to Mr. <w>Parten</w> at the front desk.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте эту посылку мистеру <w>Партену</w> на стойку администратора."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Партен",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -40,10 +57,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The elder wished to <w>parten</w> his wisdom to the next generation."
+                            "text": "The elder wished to <w>parten</w> his wisdom to the next generation.",
+                            "target_lang_translations": {
+                                "ru": "Старейшина желал <w>передать</w> свою мудрость следующему поколению."
+                            }
                         },
                         {
-                            "text": "They gathered to <w>parten</w> the supplies among the needy villagers."
+                            "text": "They gathered to <w>parten</w> the supplies among the needy villagers.",
+                            "target_lang_translations": {
+                                "ru": "Они собрались, чтобы <w>распределить</w> припасы среди нуждающихся жителей деревни."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -56,12 +79,25 @@
                         "withhold",
                         "keep"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "often archaic or dialectal"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Вовлекать, передавать, раздавать, даровать или делиться (устаревшее или редкое использование)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "передавать",
+                                "target_lang_sense_clarification": "знания, мудрость"
+                            },
+                            {
+                                "target_lang_word": "распределять",
+                                "target_lang_sense_clarification": "делить между кем-то"
+                            },
+                            {
+                                "target_lang_word": "делиться",
+                                "target_lang_sense_clarification": "отдавать часть чего-либо"
+                            }
+                        ]
+                    }
                 }
             ]
         }

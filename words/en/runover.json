@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The football game caused a twenty-minute <w>runover</w> for the following show."
+                            "text": "The football game caused a twenty-minute <w>runover</w> for the following show.",
+                            "target_lang_translations": {
+                                "ru": "Футбольный матч вызвал двадцатиминутную <w>задержку</w> следующей передачи."
+                            }
                         },
                         {
-                            "text": "Due to the <w>runover</w>, the evening news started much later than planned."
+                            "text": "Due to the <w>runover</w>, the evening news started much later than planned.",
+                            "target_lang_translations": {
+                                "ru": "Из-за <w>перерасхода времени</w> вечерние новости начались намного позже запланированного."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "sports runover",
                         "schedule runover"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "broadcasting"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Ситуация, когда телепрограмма или мероприятие продолжается дольше запланированного времени."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "задержка",
+                                "target_lang_sense_clarification": "сдвиг по времени из-за затянувшегося события"
+                            },
+                            {
+                                "target_lang_word": "перерасход времени",
+                                "target_lang_sense_clarification": "выход за рамки отведенного эфирного времени"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "ba2501c3-1259-3263-b1fc-a8080cc184f4",
@@ -46,10 +61,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The graphic designer adjusted the font size to prevent a <w>runover</w>."
+                            "text": "The graphic designer adjusted the font size to prevent a <w>runover</w>.",
+                            "target_lang_translations": {
+                                "ru": "Графический дизайнер изменил размер шрифта, чтобы предотвратить <w>выход текста за поля</w>."
+                            }
                         },
                         {
-                            "text": "There is a bad <w>runover</w> in the second column that needs fixing."
+                            "text": "There is a bad <w>runover</w> in the second column that needs fixing.",
+                            "target_lang_translations": {
+                                "ru": "Во второй колонке есть неудачный <w>перенос</w>, который нужно исправить."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -60,12 +81,21 @@
                         "text runover",
                         "line runover"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "printing"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Строка текста, которая выходит за пределы доступного места или переносится на следующую строку."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "выход за поля",
+                                "target_lang_sense_clarification": "текст, не помещающийся в отведенные границы"
+                            },
+                            {
+                                "target_lang_word": "перенос",
+                                "target_lang_sense_clarification": "часть текста, перенесенная на новую строку или колонку"
+                            }
+                        ]
+                    }
                 }
             ]
         }

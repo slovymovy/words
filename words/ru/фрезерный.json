@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В цехе громко работал старый <w>фрезерный</w> станок, вытачивая деталь из стали."
+                            "text": "В цехе громко работал старый <w>фрезерный</w> станок, вытачивая деталь из стали.",
+                            "target_lang_translations": {
+                                "en": "An old <w>milling</w> machine was working loudly in the workshop, machining a part out of steel."
+                            }
                         },
                         {
-                            "text": "Для выполнения этого заказа потребуется сложная <w>фрезерная</w> обработка древесины."
+                            "text": "Для выполнения этого заказа потребуется сложная <w>фрезерная</w> обработка древесины.",
+                            "target_lang_translations": {
+                                "en": "Completing this order will require complex wood <w>milling</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,12 +37,17 @@
                         "фрезерные работы",
                         "фрезерный инструмент"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering and manufacturing context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the mechanical processing of hard materials (metal, wood, stone) using a rotating multi-bladed tool called a milling cutter."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "milling",
+                                "target_lang_sense_clarification": "related to the process of cutting or shaping materials with a rotating tool"
+                            }
+                        ]
+                    }
                 }
             ]
         }

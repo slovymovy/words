@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>bewaarnemer</w> is wettelijk verplicht om goed voor de toevertrouwde spullen te zorgen."
+                            "text": "De <w>bewaarnemer</w> is wettelijk verplicht om goed voor de toevertrouwde spullen te zorgen.",
+                            "target_lang_translations": {
+                                "en": "The <w>depositee</w> is legally obliged to take good care of the entrusted items.",
+                                "ru": "<w>Хранитель</w> по закону обязан должным образом заботиться о вверенных ему вещах."
+                            }
                         },
                         {
-                            "text": "In het contract staat precies beschreven wat de aansprakelijkheid van de <w>bewaarnemer</w> is bij schade."
+                            "text": "In het contract staat precies beschreven wat de aansprakelijkheid van de <w>bewaarnemer</w> is bij schade.",
+                            "target_lang_translations": {
+                                "en": "The contract describes exactly what the liability of the <w>depositee</w> is in the event of damage.",
+                                "ru": "В договоре точно описана ответственность <w>хранителя</w> в случае возникновения ущерба."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +45,32 @@
                         "plichten van de bewaarnemer",
                         "als goed bewaarnemer"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "juridische term"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A person who takes goods from another into custody to look after them temporarily.",
+                        "ru": "Лицо, принимающее имущество другого лица на временное хранение."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "depositee",
+                                "target_lang_sense_clarification": "legal context; person receiving a deposit"
+                            },
+                            {
+                                "target_lang_word": "bailee",
+                                "target_lang_sense_clarification": "legal context; person to whom property is entrusted"
+                            },
+                            {
+                                "target_lang_word": "custodian",
+                                "target_lang_sense_clarification": "general context"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "хранитель",
+                                "target_lang_sense_clarification": "сторона договора хранения; лицо, принимающее вещь на хранение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

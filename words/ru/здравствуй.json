@@ -1,11 +1,13 @@
 {
     "word_family": [
+        "здоровье",
+        "здоровый",
+        "здороваться",
         "здравствовать",
         "здравие",
-        "поздравить",
-        "поздравление",
-        "оздоровить",
-        "выздороветь"
+        "поздравлять",
+        "выздоравливать",
+        "здравница"
     ],
     "entries": [
         {
@@ -13,17 +15,23 @@
             "senses": [
                 {
                     "sense_id": "2326e683-d9ce-394e-9e26-838229a0efbd",
-                    "sense_definition": "Приветствие при встрече, обращённое к одному человеку, с которым говорящий на «ты» (другу, родственнику или ребёнку).",
+                    "sense_definition": "Приветствие при встрече, используемое при обращении к одному лицу на «ты» (к другу, родственнику или ребёнку).",
                     "learner_level": "A1",
                     "frequency": "High",
                     "semantic_group_id": "greeting",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "— <w>Здравствуй</w>, Сергей, я очень рад тебя видеть!"
+                            "text": "<w>Здравствуй</w>, мой дорогой друг, я очень рад тебя видеть!",
+                            "target_lang_translations": {
+                                "en": "<w>Hello</w>, my dear friend, I am very glad to see you!"
+                            }
                         },
                         {
-                            "text": "Ой, <w>здравствуй</w>, проходи скорее в комнату."
+                            "text": "Она улыбнулась и тихо сказала: «<w>Здравствуй</w>».",
+                            "target_lang_translations": {
+                                "en": "She smiled and quietly said: \"<w>Hello</w>.\""
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,13 +39,32 @@
                         "здоро́во"
                     ],
                     "antonyms": [
-                        "прощай",
-                        "пока"
+                        "пока",
+                        "прощай"
                     ],
                     "common_phrases": [
-                        "здравствуй, друг",
-                        "здравствуй, школа"
-                    ]
+                        "здравствуй-друг",
+                        "ой-здравствуй"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A greeting used when meeting someone addressed informally (a friend, relative, or child)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hello",
+                                "target_lang_sense_clarification": "general greeting"
+                            },
+                            {
+                                "target_lang_word": "hi",
+                                "target_lang_sense_clarification": "informal greeting"
+                            },
+                            {
+                                "target_lang_word": "greetings",
+                                "target_lang_sense_clarification": "formal or literary"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,30 +72,47 @@
             "pos": "verb",
             "senses": [
                 {
-                    "sense_id": "1a1a16c0-7086-343a-b286-89cc355576fa",
-                    "sense_definition": "Форма второго лица единственного числа повелительного наклонения глагола <w>здравствовать</w>; пожелание быть здоровым и благополучным.",
+                    "sense_id": "a00bcb37-8235-3ec3-8e47-d74cdca8465e",
+                    "sense_definition": "Форма второго лица единственного числа повелительного наклонения глагола <w>здравствовать</w>.",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "wish_health",
+                    "semantic_group_id": "verb_form",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Живи и <w>здравствуй</w> на радость своим родителям."
+                            "text": "Живи, цвети и <w>здравствуй</w>, наша великая страна.",
+                            "target_lang_translations": {
+                                "en": "Live, bloom, and <w>prosper</w>, our great country."
+                            }
                         },
                         {
-                            "text": "Цвети и <w>здравствуй</w>, наш любимый край!"
+                            "text": "Желаю тебе счастья, <w>здравствуй</w> многие лета на радость нам.",
+                            "target_lang_translations": {
+                                "en": "I wish you happiness, <w>be healthy</w> for many years to our joy."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "literary",
-                            "comment": "used in poetic or high-style wishes"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "imperative"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The second-person singular imperative form of the verb meaning to be healthy or to prosper."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "prosper",
+                                "target_lang_sense_clarification": "to thrive or succeed"
+                            },
+                            {
+                                "target_lang_word": "be healthy",
+                                "target_lang_sense_clarification": "literal meaning"
+                            }
+                        ]
+                    }
                 }
             ]
         }

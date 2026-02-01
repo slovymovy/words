@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The salvage team started <w>lightering</w> the vessel immediately to prevent an oil spill."
+                            "text": "The salvage team started <w>lightering</w> the vessel immediately to prevent an oil spill.",
+                            "target_lang_translations": {
+                                "ru": "Спасательная команда немедленно начала <w>паузку</w> судна, чтобы предотвратить разлив нефти."
+                            }
                         },
                         {
-                            "text": "A complex <w>lightering</w> operation was required before the ship could be pulled off the reef."
+                            "text": "A complex <w>lightering</w> operation was required before the ship could be pulled off the reef.",
+                            "target_lang_translations": {
+                                "ru": "Потребовалась сложная операция по <w>паузке</w>, прежде чем судно удалось снять с рифа."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +36,21 @@
                         "lightering vessel",
                         "ship-to-ship lightering"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "maritime industry context"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "specific salvage or transport process"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процесс перегрузки груза или топлива с севшего на мель или затонувшего судна для уменьшения его веса и облегчения снятия с мели."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "паузка",
+                                "target_lang_sense_clarification": "морской термин: частичная разгрузка судна"
+                            },
+                            {
+                                "target_lang_word": "лихтеровка",
+                                "target_lang_sense_clarification": "перегрузка на лихтеры"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -55,10 +66,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "They are <w>lightering</w> the cargo onto barges to reduce the ship's draft."
+                            "text": "They are <w>lightering</w> the cargo onto barges to reduce the ship's draft.",
+                            "target_lang_translations": {
+                                "ru": "Они <w>перегружают</w> груз на баржи, чтобы уменьшить осадку судна."
+                            }
                         },
                         {
-                            "text": "By <w>lightering</w> the fuel tanks, the crew hoped to float the vessel at high tide."
+                            "text": "By <w>lightering</w> the fuel tanks, the crew hoped to float the vessel at high tide.",
+                            "target_lang_translations": {
+                                "ru": "<w>Разгружая</w> топливные баки, экипаж надеялся, что судно всплывет во время прилива."
+                            }
                         }
                     ],
                     "traits": [
@@ -66,7 +83,22 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Причастие и герундий от глагола lighter: разгружать судно (обычно на лихтеры или баржи) для уменьшения его осадки."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "производить паузку",
+                                "target_lang_sense_clarification": "действие по облегчению судна"
+                            },
+                            {
+                                "target_lang_word": "разгружать",
+                                "target_lang_sense_clarification": "снимать груз с судна"
+                            }
+                        ]
+                    }
                 }
             ]
         }

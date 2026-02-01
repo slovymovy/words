@@ -6,17 +6,23 @@
             "senses": [
                 {
                     "sense_id": "15cf2c5f-8f77-37ba-9e72-64e9f454e372",
-                    "sense_definition": "Włoski napój kawowy przygotowywany z espresso i spienionego mleka, często posypywany czekoladą lub cynamonem.",
+                    "sense_definition": "Włoski napój kawowy przygotowywany z espresso i spienionego mleka",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "coffee_drinks",
+                    "semantic_group_id": "beverage",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Codziennie rano w drodze do pracy kupuję gorące <w>cappuccino</w>."
+                            "text": "Codziennie rano zamawiam w kawiarni duże <w>cappuccino</w>.",
+                            "target_lang_translations": {
+                                "ru": "Каждое утро я заказываю в кафе большой <w>капучино</w>."
+                            }
                         },
                         {
-                            "text": "Kelner przyniósł nam dwa <w>cappuccino</w> i kawałek sernika."
+                            "text": "To włoskie <w>cappuccino</w> ma idealnie gęstą piankę.",
+                            "target_lang_translations": {
+                                "ru": "У этого итальянского <w>капучино</w> идеально густая пенка."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -25,16 +31,17 @@
                         "zamawiać cappuccino",
                         "filiżanka cappuccino"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "beverage"
-                        },
-                        {
-                            "trait_type": "form",
-                            "comment": "indeclinable"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Итальянский кофейный напиток, приготовленный из эспрессо и вспененного молока"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "капучино",
+                                "target_lang_sense_clarification": "напиток"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,48 +50,65 @@
             "senses": [
                 {
                     "sense_id": "bf799f8d-d32d-32a0-bd06-f29de4a86600",
-                    "sense_definition": "Mający smak lub zapach charakterystyczny dla kawy cappuccino.",
+                    "sense_definition": "Mający smak lub zapach kawy cappuccino",
                     "learner_level": "B1",
                     "frequency": "Middle",
                     "semantic_group_id": "taste_smell",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Z lodów najbardziej lubię te waniliowe i <w>cappuccino</w>."
+                            "text": "Z lodów najbardziej lubię cytrynowe, waniliowe i <w>cappuccino</w>.",
+                            "target_lang_translations": {
+                                "ru": "Из мороженого я больше всего люблю лимонное, ванильное и <w>капучино</w>."
+                            }
                         },
                         {
-                            "text": "Na deser podano nam wyśmienity tort <w>cappuccino</w> z bitą śmietaną."
+                            "text": "Kupiłam dzisiaj pyszne ciastka o smaku <w>cappuccino</w>.",
+                            "target_lang_translations": {
+                                "ru": "Я купила сегодня вкусное печенье со вкусом <w>капучино</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "lody cappuccino",
-                        "ciasto cappuccino",
-                        "tort cappuccino"
+                        "tort cappuccino",
+                        "deser cappuccino"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "flavor"
-                        },
-                        {
-                            "trait_type": "form",
-                            "comment": "indeclinable"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Имеющий вкус или запах капучино"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "капучино",
+                                "target_lang_sense_clarification": "вкус"
+                            },
+                            {
+                                "target_lang_word": "со вкусом капучино",
+                                "target_lang_sense_clarification": "описание вкуса"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "2eba3965-491a-300d-90c8-609aa57c5159",
-                    "sense_definition": "Mający jasnobrązowy kolor, przypominający barwę kawy z mlekiem.",
+                    "sense_definition": "Mający jasnobrązowy kolor przypominający kawę z mlekiem",
                     "learner_level": "B2",
                     "frequency": "Low",
                     "semantic_group_id": "color",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pomalowaliśmy ściany w salonie na ciepły odcień <w>cappuccino</w>."
+                            "text": "Pomalowaliśmy ściany w salonie na modny kolor <w>cappuccino</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мы покрасили стены в гостиной в модный цвет <w>капучино</w>."
+                            }
                         },
                         {
-                            "text": "Do tej sukienki idealnie pasują buty w kolorze <w>cappuccino</w>."
+                            "text": "Do tej sukienki będą pasować buty w odcieniu <w>cappuccino</w>.",
+                            "target_lang_translations": {
+                                "ru": "К этому платью подойдут туфли оттенка <w>капучино</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -95,12 +119,21 @@
                         "kolor cappuccino",
                         "odcień cappuccino"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "form",
-                            "comment": "indeclinable"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Имеющий светло-коричневый цвет, напоминающий кофе с молоком"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "капучино",
+                                "target_lang_sense_clarification": "цвет"
+                            },
+                            {
+                                "target_lang_word": "цвета капучино",
+                                "target_lang_sense_clarification": "оттенок"
+                            }
+                        ]
+                    }
                 }
             ]
         }

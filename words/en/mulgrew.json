@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Mulgrew</w> has been working at the company for over twenty years."
+                            "text": "Mr. <w>Mulgrew</w> has been working at the company for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Малгрю</w> работает в этой компании уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The letter was addressed to a Sarah <w>Mulgrew</w>, but nobody by that name lives here."
+                            "text": "The letter was addressed to a Sarah <w>Mulgrew</w>, but nobody by that name lives here.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано Саре <w>Малгрю</w>, но здесь никто с таким именем не живет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Малгрю",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

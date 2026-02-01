@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В Москве мы прошли <w>санобработку</w>, после чего получили билеты на Ленинград."
+                            "text": "В Москве мы прошли <w>санобработку</w>, после чего получили билеты на Ленинград.",
+                            "target_lang_translations": {
+                                "en": "In Moscow, we underwent <w>sanitary treatment</w>, after which we received tickets to Leningrad."
+                            }
                         },
                         {
-                            "text": "В больнице регулярно проводится полная <w>санобработка</w> всех помещений."
+                            "text": "В больнице регулярно проводится полная <w>санобработка</w> всех помещений.",
+                            "target_lang_translations": {
+                                "en": "Complete <w>sanitization</w> of all rooms is regularly carried out in the hospital."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,14 +41,29 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "sanitary"
-                        },
-                        {
                             "trait_type": "colloquial",
                             "comment": "abbreviation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for \"sanitary treatment\"; measures taken for disinfection and cleaning."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sanitization",
+                                "target_lang_sense_clarification": "process of cleaning and disinfecting"
+                            },
+                            {
+                                "target_lang_word": "decontamination",
+                                "target_lang_sense_clarification": "removal of contaminants or germs, often from people or equipment"
+                            },
+                            {
+                                "target_lang_word": "sanitary treatment",
+                                "target_lang_sense_clarification": "formal or literal translation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

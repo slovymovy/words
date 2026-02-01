@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The electrician decided to install a new <w>submain</w> to handle the power requirements of the workshop."
+                            "text": "The electrician decided to install a new <w>submain</w> to handle the power requirements of the workshop.",
+                            "target_lang_translations": {
+                                "ru": "Электрик решил проложить новую <w>питающую линию</w>, чтобы обеспечить потребности мастерской в электроэнергии."
+                            }
                         },
                         {
-                            "text": "Damage to the <w>submain</w> cable caused a power outage in the rear section of the building."
+                            "text": "Damage to the <w>submain</w> cable caused a power outage in the rear section of the building.",
+                            "target_lang_translations": {
+                                "ru": "Повреждение кабеля <w>вспомогательной магистрали</w> привело к отключению электричества в задней части здания."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,21 @@
                         "submain circuit",
                         "electrical submain"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "electrical engineering"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Вспомогательная электрическая магистраль или цепь, соединяющая главный распределительный щит с распределительным щитом."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "питающая линия",
+                                "target_lang_sense_clarification": "электрическая линия от главного щита"
+                            },
+                            {
+                                "target_lang_word": "вспомогательная магистраль",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

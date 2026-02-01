@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Benson</w> has been teaching history at the high school for twenty years."
+                            "text": "Mr. <w>Benson</w> has been teaching history at the high school for twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Бенсон</w> преподает историю в старшей школе уже двадцать лет."
+                            }
                         },
                         {
-                            "text": "Please tell Ms. <w>Benson</w> that her package has arrived at the front desk."
+                            "text": "Please tell Ms. <w>Benson</w> that her package has arrived at the front desk.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте мисс <w>Бенсон</w>, что её посылка прибыла на стойку регистрации."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "common English surname"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Английская фамилия, первоначально означавшая «сын Бена» или «сын Бенедикта»."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бенсон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "40a7cba7-6a8e-3b20-a0a4-e289472bbd09",
@@ -35,18 +52,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "They decided to stop in <w>Benson</w> for lunch while driving through Arizona."
+                            "text": "They decided to stop in <w>Benson</w> for lunch while driving through Arizona.",
+                            "target_lang_translations": {
+                                "ru": "Они решили остановиться в <w>Бенсоне</w> пообедать, пока ехали через Аризону."
+                            }
                         },
                         {
-                            "text": "The village of <w>Benson</w> is located near the River Thames in England."
+                            "text": "The village of <w>Benson</w> is located near the River Thames in England.",
+                            "target_lang_translations": {
+                                "ru": "Деревня <w>Бенсон</w> расположена недалеко от реки Темзы в Англии."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "various locations"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Название нескольких населенных пунктов в Великобритании, США и Канаде, включая деревню в Оксфордшире и город в Аризоне."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бенсон",
+                                "target_lang_sense_clarification": "географическое название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

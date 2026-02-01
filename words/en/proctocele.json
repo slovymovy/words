@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The surgeon recommended an operation to repair the patient's <w>proctocele</w>."
+                            "text": "The surgeon recommended an operation to repair the patient's <w>proctocele</w>.",
+                            "target_lang_translations": {
+                                "ru": "Хирург порекомендовал операцию для устранения <w>проктоцеле</w> у пациента."
+                            }
                         },
                         {
-                            "text": "Chronic constipation can sometimes contribute to the development of a <w>proctocele</w> in older adults."
+                            "text": "Chronic constipation can sometimes contribute to the development of a <w>proctocele</w> in older adults.",
+                            "target_lang_translations": {
+                                "ru": "Хронические запоры иногда могут способствовать развитию <w>проктоцеле</w> у пожилых людей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,16 +32,21 @@
                         "proctocele repair",
                         "symptomatic proctocele"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "pathology"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "terminology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Патологическое состояние, при котором происходит выворот и выпадение слизистой оболочки прямой кишки, как правило, вследствие ослабления сфинктера."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "проктоцеле",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "выпадение прямой кишки",
+                                "target_lang_sense_clarification": "описательный перевод"
+                            }
+                        ]
+                    }
                 }
             ]
         }

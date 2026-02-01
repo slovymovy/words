@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На металлургический завод поступил <w>скрап</w> для дальнейшей переработки."
+                            "text": "На металлургический завод поступил <w>скрап</w> для дальнейшей переработки.",
+                            "target_lang_translations": {
+                                "en": "The metallurgical plant received <w>scrap</w> for further processing."
+                            }
                         },
                         {
-                            "text": "Технический <w>скрап</w> часто содержит ценные элементы, которые можно извлечь повторно."
+                            "text": "Технический <w>скрап</w> часто содержит ценные элементы, которые можно извлечь повторно.",
+                            "target_lang_translations": {
+                                "en": "Technical <w>scrap</w> often contains valuable elements that can be re-extracted."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "технический скрап",
                         "стальной скрап"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "металлургия"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Metal scrap and production waste intended for remelting to obtain usable metal."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "scrap",
+                                "target_lang_sense_clarification": "metal waste for remelting"
+                            },
+                            {
+                                "target_lang_word": "scrap metal",
+                                "target_lang_sense_clarification": "discarded metal"
+                            }
+                        ]
+                    }
                 }
             ]
         }

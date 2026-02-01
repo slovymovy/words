@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het kleine winkeltje is inmiddels uitgegroeid tot een groot <w>wereldconcern</w>."
+                            "text": "Het kleine winkeltje is inmiddels uitgegroeid tot een groot <w>wereldconcern</w>.",
+                            "target_lang_translations": {
+                                "en": "The small shop has since grown into a large <w>global concern</w>.",
+                                "ru": "Маленький магазинчик со временем вырос в крупный <w>мировой концерн</w>."
+                            }
                         },
                         {
-                            "text": "Hij geeft leiding aan een <w>wereldconcern</w> met duizenden werknemers in verschillende landen."
+                            "text": "Hij geeft leiding aan een <w>wereldconcern</w> met duizenden werknemers in verschillende landen.",
+                            "target_lang_translations": {
+                                "en": "He leads a <w>multinational corporation</w> with thousands of employees in different countries.",
+                                "ru": "Он руководит <w>мировым концерном</w> с тысячами сотрудников в разных странах."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,36 @@
                         "uitgroeien tot een wereldconcern",
                         "leiden van een wereldconcern"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A large enterprise consisting of various companies and operating worldwide.",
+                        "ru": "Крупное предприятие, состоящее из различных компаний и действующее по всему миру."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "global concern",
+                                "target_lang_sense_clarification": "large international business group"
+                            },
+                            {
+                                "target_lang_word": "multinational corporation",
+                                "target_lang_sense_clarification": "company operating in many countries"
+                            },
+                            {
+                                "target_lang_word": "global conglomerate",
+                                "target_lang_sense_clarification": "large multi-industry company"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "мировой концерн",
+                                "target_lang_sense_clarification": "крупное международное объединение предприятий"
+                            },
+                            {
+                                "target_lang_word": "транснациональная корпорация",
+                                "target_lang_sense_clarification": "компания, владеющая производственными подразделениями в нескольких странах"
+                            }
+                        ]
+                    }
                 }
             ]
         }

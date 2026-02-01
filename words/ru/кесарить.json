@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врачи приняли решение экстренно <w>кесарить</w> роженицу из-за возникших осложнений."
+                            "text": "Врачи приняли решение экстренно <w>кесарить</w> роженицу из-за возникших осложнений.",
+                            "target_lang_translations": {
+                                "en": "The doctors decided to urgently <w>perform a C-section</w> on the woman in labor due to complications."
+                            }
                         },
                         {
-                            "text": "Если роды не начнутся самостоятельно, придётся <w>кесарить</w>."
+                            "text": "Если роды не начнутся самостоятельно, придётся <w>кесарить</w>.",
+                            "target_lang_translations": {
+                                "en": "If labor doesn't start on its own, we'll have to <w>do a C-section</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,27 @@
                         {
                             "trait_type": "colloquial",
                             "comment": "разговорное слово"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "используется в медицинской практике и общении пациентов"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To perform a caesarean section surgery."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "perform a C-section",
+                                "target_lang_sense_clarification": "standard medical term"
+                            },
+                            {
+                                "target_lang_word": "do a C-section",
+                                "target_lang_sense_clarification": "common spoken form"
+                            },
+                            {
+                                "target_lang_word": "deliver by C-section",
+                                "target_lang_sense_clarification": "focus on the delivery method"
+                            }
+                        ]
+                    }
                 }
             ]
         }

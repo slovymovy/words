@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Для унификации снабжения армия перешла на <w>однокалиберное</w> стрелковое оружие."
+                            "text": "Для унификации снабжения армия перешла на <w>однокалиберное</w> стрелковое оружие.",
+                            "target_lang_translations": {
+                                "en": "To unify supplies, the army switched to <w>same-caliber</w> small arms."
+                            }
                         },
                         {
-                            "text": "Эти два пистолета — <w>однокалиберные</w>, поэтому к ним подходят одинаковые патроны."
+                            "text": "Эти два пистолета — <w>однокалиберные</w>, поэтому к ним подходят одинаковые патроны.",
+                            "target_lang_translations": {
+                                "en": "These two pistols are <w>of the same caliber</w>, so the same cartridges fit them."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,16 +42,21 @@
                         "однокалиберные патроны",
                         "однокалиберное орудие"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Having the same caliber as another weapon or ammunition."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "same-caliber",
+                                "target_lang_sense_clarification": "adjective describing weapons or ammunition of identical size"
+                            },
+                            {
+                                "target_lang_word": "of the same caliber",
+                                "target_lang_sense_clarification": "phrase indicating identical bore diameter"
+                            }
+                        ]
+                    }
                 }
             ]
         }

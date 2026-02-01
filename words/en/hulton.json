@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Ms. <w>Hulton</w> to speak at the conference regarding her research."
+                            "text": "We invited Ms. <w>Hulton</w> to speak at the conference regarding her research.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили г-жу <w>Халтон</w> выступить на конференции с докладом о её исследовании."
+                            }
                         },
                         {
-                            "text": "The old <w>Hulton</w> estate was sold to a developer last year."
+                            "text": "The old <w>Hulton</w> estate was sold to a developer last year.",
+                            "target_lang_translations": {
+                                "ru": "Старое поместье <w>Халтон</w> было продано застройщику в прошлом году."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Халтон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

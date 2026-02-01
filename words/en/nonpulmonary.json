@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor investigated several <w>nonpulmonary</w> causes for the patient's persistent symptoms."
+                            "text": "The doctor investigated several <w>nonpulmonary</w> causes for the patient's persistent symptoms.",
+                            "target_lang_translations": {
+                                "ru": "Врач исследовал несколько <w>нелёгочных</w> причин постоянных симптомов у пациента."
+                            }
                         },
                         {
-                            "text": "Although the disease usually affects the lungs, <w>nonpulmonary</w> infections can occur in other organs."
+                            "text": "Although the disease usually affects the lungs, <w>nonpulmonary</w> infections can occur in other organs.",
+                            "target_lang_translations": {
+                                "ru": "Хотя болезнь обычно поражает лёгкие, <w>внелёгочные</w> инфекции могут возникать в других органах."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "nonpulmonary symptoms",
                         "nonpulmonary disease"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Не относящийся к лёгким; не связанный с лёгкими."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "нелёгочный",
+                                "target_lang_sense_clarification": "не связанный с лёгкими"
+                            },
+                            {
+                                "target_lang_word": "внелёгочный",
+                                "target_lang_sense_clarification": "находящийся за пределами лёгких"
+                            }
+                        ]
+                    }
                 }
             ]
         }

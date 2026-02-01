@@ -17,22 +17,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Наш сосед <w>Гаврюша</w> всегда угощал нас яблоками."
+                            "text": "Наш сосед <w>Гаврюша</w> всегда угощал нас яблоками.",
+                            "target_lang_translations": {
+                                "en": "Our neighbor <w>Gavryusha</w> always treated us to apples."
+                            }
                         },
                         {
-                            "text": "<w>Гаврюша</w>, ты уже сделал уроки?"
+                            "text": "<w>Гаврюша</w>, ты уже сделал уроки?",
+                            "target_lang_translations": {
+                                "en": "<w>Gavryusha</w>, have you done your homework yet?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": "diminutive"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A diminutive form of the male name Gavriil."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Gavryusha",
+                                "target_lang_sense_clarification": "diminutive name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ta duża hala magazynowa jest ogrzewana wydajną <w>nagrzewnicą</w> elektryczną."
+                            "text": "Ta duża hala magazynowa jest ogrzewana wydajną <w>nagrzewnicą</w> elektryczną.",
+                            "target_lang_translations": {
+                                "ru": "Этот большой складской цех отапливается мощным электрическим <w>калорифером</w>."
+                            }
                         },
                         {
-                            "text": "Zimą sprawna <w>nagrzewnica</w> w samochodzie jest niezbędna, aby szyby nie parowały."
+                            "text": "Zimą sprawna <w>nagrzewnica</w> w samochodzie jest niezbędna, aby szyby nie parowały.",
+                            "target_lang_translations": {
+                                "ru": "Зимой исправный <w>отопитель</w> в машине необходим, чтобы стёкла не запотевали."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,25 @@
                         "nagrzewnica gazowa",
                         "wymiana nagrzewnicy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "used in automotive, HVAC, and industrial contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Техническое устройство, предназначенное для нагрева проходящего через него воздуха, часто используемое в системах вентиляции, для отопления цехов или в автомобилях."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "калорифер",
+                                "target_lang_sense_clarification": "устройство для нагрева воздуха в системах вентиляции и отопления"
+                            },
+                            {
+                                "target_lang_word": "отопитель",
+                                "target_lang_sense_clarification": "устройство для обогрева салона транспортного средства"
+                            },
+                            {
+                                "target_lang_word": "нагреватель",
+                                "target_lang_sense_clarification": "общее название нагревающего устройства"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Heb jij nog genoeg <w>adv</w> staan voor een vrije week?"
+                            "text": "Heb jij nog genoeg <w>adv</w> staan voor een vrije week?",
+                            "target_lang_translations": {
+                                "en": "Do you still have enough <w>reduction of working hours</w> left for a week off?",
+                                "ru": "У тебя еще осталось достаточно <w>дополнительных выходных</w>, чтобы взять неделю отдыха?"
+                            }
                         },
                         {
-                            "text": "De opgebouwde <w>adv</w> wordt aan het einde van het jaar uitbetaald."
+                            "text": "De opgebouwde <w>adv</w> wordt aan het einde van het jaar uitbetaald.",
+                            "target_lang_translations": {
+                                "en": "The accrued <w>working time reduction</w> is paid out at the end of the year.",
+                                "ru": "Накопленные <w>часы сокращения рабочего времени</w> выплачиваются в конце года."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +43,34 @@
                         {
                             "trait_type": "form",
                             "comment": "afkorting"
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": "arbeidsvoorwaarden"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation of <w>arbeidsduurverkorting</w> (reduction of working hours).",
+                        "ru": "Сокращение от <w>arbeidsduurverkorting</w> (сокращение рабочего времени)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "reduction of working hours",
+                                "target_lang_sense_clarification": "system granting extra days off or shorter weeks"
+                            },
+                            {
+                                "target_lang_word": "working time reduction",
+                                "target_lang_sense_clarification": "formal term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сокращение рабочего времени",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "дополнительный выходной",
+                                "target_lang_sense_clarification": "день отдыха в рамках ADV"
+                            }
+                        ]
+                    }
                 }
             ]
         }

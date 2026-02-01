@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Beckmann</w> has been working in the accounting department for ten years."
+                            "text": "Mr. <w>Beckmann</w> has been working in the accounting department for ten years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Бекман</w> работает в бухгалтерии уже десять лет."
+                            }
                         },
                         {
-                            "text": "The gallery is currently exhibiting a collection of paintings by Max <w>Beckmann</w>."
+                            "text": "The gallery is currently exhibiting a collection of paintings by Max <w>Beckmann</w>.",
+                            "target_lang_translations": {
+                                "ru": "В галерее сейчас выставлена коллекция картин Макса <w>Бекмана</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "German origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бекман",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

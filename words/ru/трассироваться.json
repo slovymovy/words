@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Новая автомагистраль будет <w>трассироваться</w> с учётом сохранения заповедных зон."
+                            "text": "Новая автомагистраль будет <w>трассироваться</w> с учётом сохранения заповедных зон.",
+                            "target_lang_translations": {
+                                "en": "The new highway will <w>be routed</w> taking into account the preservation of protected zones."
+                            }
                         },
                         {
-                            "text": "Маршрут газопровода <w>трассируется</w> инженерами на основе данных геодезической разведки."
+                            "text": "Маршрут газопровода <w>трассируется</w> инженерами на основе данных геодезической разведки.",
+                            "target_lang_translations": {
+                                "en": "The gas pipeline route is <w>traced</w> by engineers based on geodetic survey data."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "трассироваться на местности",
                         "трассироваться по карте"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "строительство, геодезия"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To be laid out, routed, or marked out (referring to a line, road, or canal)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be routed",
+                                "target_lang_sense_clarification": "regarding a path or road"
+                            },
+                            {
+                                "target_lang_word": "be traced",
+                                "target_lang_sense_clarification": "regarding a line or course"
+                            },
+                            {
+                                "target_lang_word": "be laid out",
+                                "target_lang_sense_clarification": "regarding planning or construction"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De haven van Rotterdam heeft een grote terminal voor de overslag van <w>lng</w>."
+                            "text": "De haven van Rotterdam heeft een grote terminal voor de overslag van <w>lng</w>.",
+                            "target_lang_translations": {
+                                "en": "The Port of Rotterdam has a large terminal for the transshipment of <w>LNG</w>.",
+                                "ru": "В порту Роттердама есть крупный терминал для перевалки <w>СПГ</w>."
+                            }
                         },
                         {
-                            "text": "Door de stijgende gasprijzen is de vraag naar <w>lng</w> wereldwijd sterk toegenomen."
+                            "text": "Door de stijgende gasprijzen is de vraag naar <w>lng</w> wereldwijd sterk toegenomen.",
+                            "target_lang_translations": {
+                                "en": "Due to rising gas prices, the demand for <w>LNG</w> has increased sharply worldwide.",
+                                "ru": "Из-за роста цен на газ спрос на <w>СПГ</w> во всем мире резко вырос."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +35,32 @@
                         "import van lng",
                         "opslag van lng"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "energy sector"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Liquefied natural gas, a fuel transported and stored in liquid form.",
+                        "ru": "Сжиженный природный газ — топливо, которое транспортируется и хранится в жидком состоянии."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "LNG",
+                                "target_lang_sense_clarification": "abbreviation"
+                            },
+                            {
+                                "target_lang_word": "liquefied natural gas",
+                                "target_lang_sense_clarification": "full form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "СПГ",
+                                "target_lang_sense_clarification": "аббревиатура: сжиженный природный газ"
+                            },
+                            {
+                                "target_lang_word": "сжиженный природный газ",
+                                "target_lang_sense_clarification": "полная форма"
+                            }
+                        ]
+                    }
                 }
             ]
         }

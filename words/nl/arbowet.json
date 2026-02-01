@@ -17,10 +17,18 @@
                     "name_type": "document_or_program_name",
                     "examples": [
                         {
-                            "text": "Elke werkgever in Nederland moet zich houden aan de regels van de <w>Arbowet</w>."
+                            "text": "Elke werkgever in Nederland moet zich houden aan de regels van de <w>Arbowet</w>.",
+                            "target_lang_translations": {
+                                "ru": "Каждый работодатель в Нидерландах должен соблюдать правила <w>Закона об условиях труда</w>.",
+                                "en": "Every employer in the Netherlands must comply with the rules of the <w>Working Conditions Act</w>."
+                            }
                         },
                         {
-                            "text": "Volgens de <w>Arbowet</w> is het verplicht om te zorgen voor een veilige werkplek."
+                            "text": "Volgens de <w>Arbowet</w> is het verplicht om te zorgen voor een veilige werkplek.",
+                            "target_lang_translations": {
+                                "ru": "Согласно <w>Закону об условиях труда</w>, обеспечение безопасного рабочего места является обязательным.",
+                                "en": "According to the <w>Working Conditions Act</w>, it is mandatory to ensure a safe workplace."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +39,32 @@
                         "voldoen aan de Arbowet",
                         "regels uit de Arbowet"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "context"
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Закон, устанавливающий правила безопасности, охраны здоровья и благополучия работников.",
+                        "en": "The law that establishes rules for the safety, health, and well-being of employees."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Закон об условиях труда",
+                                "target_lang_sense_clarification": "полное название: Arbeidsomstandighedenwet"
+                            },
+                            {
+                                "target_lang_word": "Закон об охране труда",
+                                "target_lang_sense_clarification": "функциональный аналог"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Working Conditions Act",
+                                "target_lang_sense_clarification": "official English name for the Dutch Arbeidsomstandighedenwet"
+                            },
+                            {
+                                "target_lang_word": "Occupational Health and Safety Act",
+                                "target_lang_sense_clarification": "descriptive translation/international equivalent"
+                            }
+                        ]
+                    }
                 }
             ]
         }

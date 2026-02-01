@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>bovengemelde</w> regels zijn strikt van toepassing op alle medewerkers binnen de organisatie."
+                            "text": "De <w>bovengemelde</w> regels zijn strikt van toepassing op alle medewerkers binnen de organisatie.",
+                            "target_lang_translations": {
+                                "en": "The <w>aforementioned</w> rules apply strictly to all employees within the organization.",
+                                "ru": "<w>Вышеупомянутые</w> правила строго распространяются на всех сотрудников организации."
+                            }
                         },
                         {
-                            "text": "Indien u vragen heeft over de <w>bovengemelde</w> procedure, kunt u contact opnemen met de afdeling personeelszaken."
+                            "text": "Indien u vragen heeft over de <w>bovengemelde</w> procedure, kunt u contact opnemen met de afdeling personeelszaken.",
+                            "target_lang_translations": {
+                                "en": "If you have questions about the <w>above-mentioned</w> procedure, you can contact the Human Resources department.",
+                                "ru": "Если у вас есть вопросы о <w>вышеуказанной</w> процедуре, вы можете связаться с отделом кадров."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,12 +49,32 @@
                         "het bovengemelde bedrag",
                         "de bovengemelde personen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "wordt voornamelijk gebruikt in geschreven, zakelijke of juridische teksten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Mentioned earlier in the text or document.",
+                        "ru": "Упомянутый ранее в тексте или документе."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "aforementioned",
+                                "target_lang_sense_clarification": "formal, referring to something cited previously"
+                            },
+                            {
+                                "target_lang_word": "above-mentioned",
+                                "target_lang_sense_clarification": "referring to something written earlier in the text"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вышеупомянутый",
+                                "target_lang_sense_clarification": "упомянутый ранее в тексте"
+                            },
+                            {
+                                "target_lang_word": "вышеуказанный",
+                                "target_lang_sense_clarification": "указанный выше в документе"
+                            }
+                        ]
+                    }
                 }
             ]
         }

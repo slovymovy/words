@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The cleanup crew applied a chemical <w>solidifier</w> to the oil spill to make removal easier."
+                            "text": "The cleanup crew applied a chemical <w>solidifier</w> to the oil spill to make removal easier.",
+                            "target_lang_translations": {
+                                "ru": "Команда по очистке применила химический <w>отвердитель</w> к разливу нефти, чтобы облегчить её удаление."
+                            }
                         },
                         {
-                            "text": "You must mix the <w>solidifier</w> with the resin immediately before pouring it into the mold."
+                            "text": "You must mix the <w>solidifier</w> with the resin immediately before pouring it into the mold.",
+                            "target_lang_translations": {
+                                "ru": "Необходимо смешать <w>отвердитель</w> со смолой непосредственно перед тем, как залить её в форму."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,21 @@
                         "waste solidifier",
                         "paint solidifier"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "often used in chemistry or waste management"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Вещество или средство, которое заставляет жидкий материал становиться твердым."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "отвердитель",
+                                "target_lang_sense_clarification": "химическое вещество, добавляемое к материалам (например, смолам) для их затвердевания"
+                            },
+                            {
+                                "target_lang_word": "загуститель",
+                                "target_lang_sense_clarification": "вещество, повышающее вязкость жидкости вплоть до твердого состояния"
+                            }
+                        ]
+                    }
                 }
             ]
         }

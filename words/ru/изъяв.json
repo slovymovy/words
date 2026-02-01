@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Следователи покинули офис, <w>изъяв</w> необходимые для дела документы."
+                            "text": "Следователи покинули офис, <w>изъяв</w> необходимые для дела документы.",
+                            "target_lang_translations": {
+                                "en": "The investigators left the office, <w>having seized</w> the documents necessary for the case."
+                            }
                         },
                         {
-                            "text": "Центральный банк стабилизировал валюту, <w>изъяв</w> излишки денег из обращения."
+                            "text": "Центральный банк стабилизировал валюту, <w>изъяв</w> излишки денег из обращения.",
+                            "target_lang_translations": {
+                                "en": "The Central Bank stabilized the currency, <w>having withdrawn</w> excess money from circulation."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,31 @@
                         {
                             "trait_type": "form",
                             "comment": "деепричастие"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past gerund of the verb <w>изъять</w> (to withdraw, to confiscate, to seize)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "having confiscated",
+                                "target_lang_sense_clarification": "taking private property with authority"
+                            },
+                            {
+                                "target_lang_word": "having withdrawn",
+                                "target_lang_sense_clarification": "removing from circulation or use"
+                            },
+                            {
+                                "target_lang_word": "having seized",
+                                "target_lang_sense_clarification": "taking possession of something forcibly or legally"
+                            },
+                            {
+                                "target_lang_word": "having removed",
+                                "target_lang_sense_clarification": "taking something away from a place"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts stelde een nieuw <w>farmacotherapeutisch</w> beleid op voor de afdeling."
+                            "text": "De arts stelde een nieuw <w>farmacotherapeutisch</w> beleid op voor de afdeling.",
+                            "target_lang_translations": {
+                                "ru": "Врач разработал новую <w>фармакотерапевтическую</w> стратегию для отделения.",
+                                "en": "The doctor established a new <w>pharmacotherapeutic</w> policy for the department."
+                            }
                         },
                         {
-                            "text": "Voor de juiste dosering en bijwerkingen raadpleegde de verpleegkundige het <w>farmacotherapeutisch</w> kompas."
+                            "text": "Voor de juiste dosering en bijwerkingen raadpleegde de verpleegkundige het <w>farmacotherapeutisch</w> kompas.",
+                            "target_lang_translations": {
+                                "ru": "Для уточнения правильной дозировки и побочных эффектов медсестра обратилась к <w>фармакотерапевтическому</w> справочнику.",
+                                "en": "For the correct dosage and side effects, the nurse consulted the <w>pharmacotherapeutic</w> compass."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +41,24 @@
                         "farmacotherapeutische behandeling",
                         "farmacotherapeutisch overleg"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in healthcare contexts"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "specialized terminology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Связанный с лечением заболеваний с помощью лекарственных средств.",
+                        "en": "Relating to the treatment of diseases using medication."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "фармакотерапевтический",
+                                "target_lang_sense_clarification": "относящийся к медикаментозному лечению"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "pharmacotherapeutic",
+                                "target_lang_sense_clarification": "relating to drug therapy"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zullen we vanavond gezellig samen naar de <w>bios</w> gaan?"
+                            "text": "Zullen we vanavond gezellig samen naar de <w>bios</w> gaan?",
+                            "target_lang_translations": {
+                                "en": "Shall we go to the <w>cinema</w> together tonight?",
+                                "ru": "Может, сходим сегодня вечером вместе в <w>кино</w>?"
+                            }
                         },
                         {
-                            "text": "Ik heb die nieuwe actiefilm gisteren in de <w>bios</w> gezien."
+                            "text": "Ik heb die nieuwe actiefilm gisteren in de <w>bios</w> gezien.",
+                            "target_lang_translations": {
+                                "en": "I saw that new action movie at the <w>cinema</w> yesterday.",
+                                "ru": "Я посмотрел этот новый боевик вчера в <w>кино</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,36 @@
                         "naar de bios",
                         "in de bios"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "common spoken abbreviation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A shortened form of cinema, a building where films are shown on a large screen.",
+                        "ru": "Сокращенная форма слова \"bioscoop\" (кинотеатр), здание, где показывают фильмы на большом экране."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cinema",
+                                "target_lang_sense_clarification": "building for showing films"
+                            },
+                            {
+                                "target_lang_word": "movies",
+                                "target_lang_sense_clarification": "informal, place to watch films"
+                            },
+                            {
+                                "target_lang_word": "movie theater",
+                                "target_lang_sense_clarification": "US term for cinema"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кино",
+                                "target_lang_sense_clarification": "разговорное сокращение, место для просмотра фильмов"
+                            },
+                            {
+                                "target_lang_word": "кинотеатр",
+                                "target_lang_sense_clarification": "полная форма, здание кинотеатра"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "9e9c114b-efb3-351d-839e-9affd5a2bb5c",
@@ -49,10 +81,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Je moet de instellingen in de <w>bios</w> aanpassen om van een USB-stick op te starten."
+                            "text": "Je moet de instellingen in de <w>bios</w> aanpassen om van een USB-stick op te starten.",
+                            "target_lang_translations": {
+                                "en": "You need to adjust the settings in the <w>BIOS</w> to boot from a USB stick.",
+                                "ru": "Тебе нужно изменить настройки в <w>BIOS</w>, чтобы загрузиться с USB-накопителя."
+                            }
                         },
                         {
-                            "text": "De computer start niet meer op omdat de <w>bios</w> beschadigd is geraakt."
+                            "text": "De computer start niet meer op omdat de <w>bios</w> beschadigd is geraakt.",
+                            "target_lang_translations": {
+                                "en": "The computer won't start anymore because the <w>BIOS</w> has been damaged.",
+                                "ru": "Компьютер больше не запускается, так как <w>BIOS</w> поврежден."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -62,16 +102,28 @@
                         "bios updaten",
                         "in de bios"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The basic software stored on a chip in the computer that controls the hardware during startup (Basic Input/Output System).",
+                        "ru": "Базовое программное обеспечение, хранящееся на чипе компьютера и управляющее оборудованием при запуске (Basic Input/Output System)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "BIOS",
+                                "target_lang_sense_clarification": "computer firmware"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "BIOS",
+                                "target_lang_sense_clarification": "компьютерный термин"
+                            },
+                            {
+                                "target_lang_word": "БИОС",
+                                "target_lang_sense_clarification": "транслитерация аббревиатуры"
+                            }
+                        ]
+                    }
                 }
             ]
         }

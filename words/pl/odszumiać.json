@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Grafik musiał ręcznie <w>odszumiać</w> stare zdjęcia, aby poprawić ich jakość."
+                            "text": "Grafik musiał ręcznie <w>odszumiać</w> stare zdjęcia, aby poprawić ich jakość.",
+                            "target_lang_translations": {
+                                "ru": "Графическому дизайнеру пришлось вручную <w>удалять шум</w> со старых фотографий, чтобы улучшить их качество."
+                            }
                         },
                         {
-                            "text": "Ten program pozwala automatycznie <w>odszumiać</w> nagrania z dyktafonu."
+                            "text": "Ten program pozwala automatycznie <w>odszumiać</w> nagrania z dyktafonu.",
+                            "target_lang_translations": {
+                                "ru": "Эта программа позволяет автоматически <w>очищать от шума</w> записи с диктофона."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,25 @@
                         "odszumiać dźwięk",
                         "odszumiać sygnał"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "używane w fotografii, inżynierii dźwięku i informatyce"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Удалять нежелательные помехи (шум) из звукового сигнала, видеозаписи или цифровой фотографии."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "удалять шум",
+                                "target_lang_sense_clarification": "убирать помехи"
+                            },
+                            {
+                                "target_lang_word": "очищать от шума",
+                                "target_lang_sense_clarification": "улучшать качество сигнала или изображения"
+                            },
+                            {
+                                "target_lang_word": "подавлять шум",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

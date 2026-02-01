@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Каждый <голосовавший> за новый закон депутат должен объяснить своё решение избирателям."
+                            "text": "Каждый <голосовавший> за новый закон депутат должен объяснить своё решение избирателям.",
+                            "target_lang_translations": {
+                                "en": "Every deputy <w>who voted</w> for the new law must explain their decision to the constituents."
+                            }
                         },
                         {
-                            "text": "Мы составили список людей, <голосовавших> на этом участке в прошлый раз."
+                            "text": "Мы составили список людей, <голосовавших> на этом участке в прошлый раз.",
+                            "target_lang_translations": {
+                                "en": "We compiled a list of people <w>who voted</w> at this polling station last time."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -42,7 +48,22 @@
                             "trait_type": "form",
                             "comment": "действительное причастие прошедшего времени"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Active past participle of the verb 'to vote'; describes someone who cast a vote."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who voted",
+                                "target_lang_sense_clarification": "relative clause equivalent"
+                            },
+                            {
+                                "target_lang_word": "voting",
+                                "target_lang_sense_clarification": "participle usage"
+                            }
+                        ]
+                    }
                 }
             ]
         }

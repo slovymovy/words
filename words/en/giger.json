@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Giger</w> has lived in this neighborhood for over twenty years."
+                            "text": "Mr. <w>Giger</w> has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Гигер</w> живет в этом районе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "Please ask Mrs. <w>Giger</w> to come to the front desk immediately."
+                            "text": "Please ask Mrs. <w>Giger</w> to come to the front desk immediately.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, попросите госпожу <w>Гигер</w> немедленно подойти к стойке регистрации."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Гигер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

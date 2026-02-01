@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Badanie histopatologiczne potwierdziło, że wycięty guz ma charakter <w>mięsakowy</w>."
+                            "text": "Badanie histopatologiczne potwierdziło, że wycięty guz ma charakter <w>mięsakowy</w>.",
+                            "target_lang_translations": {
+                                "ru": "Гистопатологическое исследование подтвердило, что удаленная опухоль имеет <w>саркоматозный</w> характер."
+                            }
                         },
                         {
-                            "text": "Lekarze zdiagnozowali u pacjenta rzadki nowotwór <w>mięsakowy</w> tkanek miękkich."
+                            "text": "Lekarze zdiagnozowali u pacjenta rzadki nowotwór <w>mięsakowy</w> tkanek miękkich.",
+                            "target_lang_translations": {
+                                "ru": "Врачи диагностировали у пациента редкую <w>саркоматозную</w> опухоль мягких тканей."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,16 +34,17 @@
                         "zmiana mięsakowa",
                         "rozrost mięsakowy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к саркоме (злокачественной опухоли соединительной ткани), связанный с ней или имеющий её признаки."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "саркоматозный",
+                                "target_lang_sense_clarification": "связанный с саркомой"
+                            }
+                        ]
+                    }
                 }
             ]
         }

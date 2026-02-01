@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "За позднюю <w>аннуляцию</w> бронирования отель взимает штраф."
+                            "text": "За позднюю <w>аннуляцию</w> бронирования отель взимает штраф.",
+                            "target_lang_translations": {
+                                "en": "The hotel charges a penalty for late booking <w>cancellation</w>."
+                            }
                         },
                         {
-                            "text": "Менеджер сообщил нам, что <w>аннуляция</w> заказа прошла успешно."
+                            "text": "Менеджер сообщил нам, что <w>аннуляция</w> заказа прошла успешно.",
+                            "target_lang_translations": {
+                                "en": "The manager informed us that the order <w>cancellation</w> was successful."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,16 +44,21 @@
                         "условия аннуляции",
                         "штраф за аннуляцию"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "официально-деловой стиль"
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": "часто используется в туризме и торговле"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The official cancellation of an agreement, order, or document; the act of declaring something invalid."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cancellation",
+                                "target_lang_sense_clarification": "act of cancelling an arrangement"
+                            },
+                            {
+                                "target_lang_word": "annulment",
+                                "target_lang_sense_clarification": "act of declaring invalid"
+                            }
+                        ]
+                    }
                 }
             ]
         }

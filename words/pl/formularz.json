@@ -1,6 +1,11 @@
 {
     "word_family": [
-        "formularzowy"
+        "formularzowy",
+        "forma",
+        "formalny",
+        "formować",
+        "sformułować",
+        "formuła"
     ],
     "entries": [
         {
@@ -8,17 +13,23 @@
             "senses": [
                 {
                     "sense_id": "5037f23f-6410-3ae2-aae5-be331aef41a7",
-                    "sense_definition": "Dokument papierowy lub cyfrowy zawierający puste miejsca (rubryki) przeznaczone do wpisania określonych danych.",
-                    "learner_level": "B1",
+                    "sense_definition": "Drukowany dokument zawierający puste miejsca przeznaczone do wpisania określonych informacji, używany w sprawach urzędowych lub administracyjnych.",
+                    "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "dokument_do_wypelnienia",
+                    "semantic_group_id": "document_form",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Tomek musiał wypełnić odpowiedni <w>formularz</w>, żeby założyć firmę."
+                            "text": "Tomek musiał wypełnić odpowiedni <w>formularz</w>, żeby założyć firmę.",
+                            "target_lang_translations": {
+                                "ru": "Томек должен был заполнить соответствующий <w>бланк</w>, чтобы открыть фирму."
+                            }
                         },
                         {
-                            "text": "Proszę czytelnie podpisać <w>formularz</w> w wyznaczonym miejscu na dole strony."
+                            "text": "Proszę podpisać ten <w>formularz</w> w prawym dolnym rogu.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, подпишите этот <w>бланк</w> в правом нижнем углу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,60 +40,64 @@
                         "formularz zgłoszeniowy",
                         "formularz podatkowy",
                         "złożyć formularz"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Печатный документ, содержащий пустые места для внесения определенной информации, используемый в официальных или административных делах."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "бланк",
+                                "target_lang_sense_clarification": "лист с частично напечатанным текстом"
+                            },
+                            {
+                                "target_lang_word": "анкета",
+                                "target_lang_sense_clarification": "опросный лист"
+                            },
+                            {
+                                "target_lang_word": "форма",
+                                "target_lang_sense_clarification": "документ установленного образца"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6618fe6b-f1c2-3099-9ea4-3278d4b621f4",
-                    "sense_definition": "Wydzielona część strony internetowej, która umożliwia użytkownikowi wprowadzanie i wysyłanie danych do systemu.",
+                    "sense_definition": "Wydzielona część strony internetowej umożliwiająca użytkownikowi wprowadzanie i wysyłanie danych.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "dokument_do_wypelnienia",
+                    "semantic_group_id": "document_form",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Aby zapisać się na konferencję, konieczne jest zgłoszenie udziału za pomocą <w>formularza</w> rejestracyjnego dostępnego online."
+                            "text": "Aby zapisać się na konferencję, konieczne jest zgłoszenie udziału za pomocą <w>formularza</w> rejestracyjnego dostępnego online.",
+                            "target_lang_translations": {
+                                "ru": "Чтобы записаться на конференцию, необходимо подать заявку с помощью регистрационной <w>формы</w>, доступной онлайн."
+                            }
                         },
                         {
-                            "text": "Jeśli masz problem z logowaniem, skorzystaj z <w>formularza</w> pomocy technicznej na naszej stronie."
+                            "text": "Jeśli masz pytania, wyślij do nas wiadomość przez <w>formularz</w> kontaktowy.",
+                            "target_lang_translations": {
+                                "ru": "Если у вас есть вопросы, отправьте нам сообщение через контактную <w>форму</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "formularz kontaktowy",
                         "formularz rejestracyjny",
-                        "wysłać formularz"
+                        "formularz online"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "internet",
-                            "comment": "dotyczy stron WWW"
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": "informatyka"
-                        }
-                    ]
-                },
-                {
-                    "sense_id": "c361c6b9-c0e3-3b40-bc6e-c6c667ef8162",
-                    "sense_definition": "Zbiór wzorów pism urzędowych, formuł prawnych lub tekstów liturgicznych.",
-                    "learner_level": "C2",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Prawnik sięgnął po stary <w>formularz</w>, aby sprawdzić poprawność zapisu w akcie notarialnym."
-                        },
-                        {
-                            "text": "W bibliotece znaleziono średniowieczny <w>formularz</w> zawierający wzory dokumentów kancelaryjnych."
-                        }
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "prawo lub administracja"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Выделенная часть веб-страницы, позволяющая пользователю вводить и отправлять данные."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "форма",
+                                "target_lang_sense_clarification": "интерфейс для ввода данных на сайте"
+                            }
+                        ]
+                    }
                 }
             ]
         }

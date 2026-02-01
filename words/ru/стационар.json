@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач настоял на том, чтобы пациента немедленно положили в <w>стационар</w> для полного обследования."
+                            "text": "Врач настоял на том, чтобы пациента немедленно положили в <w>стационар</w> для полного обследования.",
+                            "target_lang_translations": {
+                                "en": "The doctor insisted that the patient be immediately admitted to the <w>hospital</w> for a full examination."
+                            }
                         },
                         {
-                            "text": "Как и все ординаторы, Павел вёл больных в <w>стационаре</w> и принимал два раза в неделю в поликлинике."
+                            "text": "Как и все ординаторы, Павел вёл больных в <w>стационаре</w> и принимал два раза в неделю в поликлинике.",
+                            "target_lang_translations": {
+                                "en": "Like all residents, Pavel treated patients in the <w>inpatient department</w> and saw patients twice a week at the outpatient clinic."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,25 @@
                         "направление в стационар",
                         "выписаться из стационара"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical institution with permanent beds for round-the-clock patient care under the supervision of doctors."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "inpatient facility",
+                                "target_lang_sense_clarification": "medical institution for overnight care"
+                            },
+                            {
+                                "target_lang_word": "hospital",
+                                "target_lang_sense_clarification": "general term often used in contrast to outpatient clinic"
+                            },
+                            {
+                                "target_lang_word": "inpatient department",
+                                "target_lang_sense_clarification": "specific section of a hospital"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "0e29431b-9b24-3b7e-a9e4-23d7568aee5d",
@@ -53,22 +72,41 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Биологи организовали в лесу научный <w>стационар</w> для длительного наблюдения за миграцией птиц."
+                            "text": "Биологи организовали в лесу научный <w>стационар</w> для длительного наблюдения за миграцией птиц.",
+                            "target_lang_translations": {
+                                "en": "Biologists organized a scientific <w>station</w> in the forest for long-term observation of bird migration."
+                            }
                         },
                         {
-                            "text": "Экспедиция завершила работу, и оборудование перевезли на постоянный <w>стационар</w>."
+                            "text": "Экспедиция завершила работу, и оборудование перевезли на постоянный <w>стационар</w>.",
+                            "target_lang_translations": {
+                                "en": "The expedition finished its work, and the equipment was transported to the permanent <w>base</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "научный стационар",
                         "полевой стационар"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "scientific"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A permanently operating institution (usually research-based) working in one location, as opposed to temporary or mobile bases."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "permanent station",
+                                "target_lang_sense_clarification": "fixed location facility"
+                            },
+                            {
+                                "target_lang_word": "research station",
+                                "target_lang_sense_clarification": "scientific context"
+                            },
+                            {
+                                "target_lang_word": "base",
+                                "target_lang_sense_clarification": "fixed center of operations"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "07785ba1-a860-3460-885c-16ae2d37a702",
@@ -79,18 +117,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "При выходе из гавани корабль был встречен английским <w>стационаром</w>, открывшим предупредительный огонь."
+                            "text": "При выходе из гавани корабль был встречен английским <w>стационаром</w>, открывшим предупредительный огонь.",
+                            "target_lang_translations": {
+                                "en": "Upon leaving the harbor, the ship was met by an English <w>station ship</w> which fired a warning shot."
+                            }
                         },
                         {
-                            "text": "В этом порту уже много лет стоит русский <w>стационар</w>, обеспечивающий дипломатическую связь."
+                            "text": "В этом порту уже много лет стоит русский <w>стационар</w>, обеспечивающий дипломатическую связь.",
+                            "target_lang_translations": {
+                                "en": "A Russian <w>station ship</w> providing diplomatic communication has been docked in this port for many years."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A ship permanently stationed in a port or specific area to perform special tasks (guard duty, communication, etc.)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "station ship",
+                                "target_lang_sense_clarification": "nautical term"
+                            },
+                            {
+                                "target_lang_word": "guard ship",
+                                "target_lang_sense_clarification": "military context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

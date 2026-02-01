@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Rifkin</w> has been our neighbor for over twenty years."
+                            "text": "Mr. <w>Rifkin</w> has been our neighbor for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Рифкин</w> — наш сосед уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "Please give this important document to Ms. <w>Rifkin</w> when she arrives."
+                            "text": "Please give this important document to Ms. <w>Rifkin</w> when she arrives.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте этот важный документ мисс <w>Рифкин</w>, когда она приедет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from Yiddish"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия идишского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Рифкин",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

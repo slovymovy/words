@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De bewoners hebben samen een <w>beheerstichting</w> opgericht om het buurthuis open te houden."
+                            "text": "De bewoners hebben samen een <w>beheerstichting</w> opgericht om het buurthuis open te houden.",
+                            "target_lang_translations": {
+                                "en": "The residents jointly established a <w>management foundation</w> to keep the community center open.",
+                                "ru": "Жители совместно создали <w>управляющий фонд</w>, чтобы поддерживать работу общественного центра."
+                            }
                         },
                         {
-                            "text": "Het bestuur van de <w>beheerstichting</w> beslist over de uitgaven voor het groot onderhoud."
+                            "text": "Het bestuur van de <w>beheerstichting</w> beslist over de uitgaven voor het groot onderhoud.",
+                            "target_lang_translations": {
+                                "en": "The board of the <w>management foundation</w> decides on expenditures for major maintenance.",
+                                "ru": "Правление <w>управляющего фонда</w> принимает решения о расходах на капитальный ремонт."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,32 @@
                         "beheerstichting oprichten",
                         "bestuur van de beheerstichting"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An organization responsible for the management, maintenance, and protection of a building, grounds, or assets.",
+                        "ru": "Организация, ответственная за управление, обслуживание и защиту здания, территории или активов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "management foundation",
+                                "target_lang_sense_clarification": "legal entity dedicated to managing property or assets"
+                            },
+                            {
+                                "target_lang_word": "administrative foundation",
+                                "target_lang_sense_clarification": "foundation focused on administration duties"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "управляющий фонд",
+                                "target_lang_sense_clarification": "фонд, созданный для управления имуществом"
+                            },
+                            {
+                                "target_lang_word": "фонд управления",
+                                "target_lang_sense_clarification": "организация по управлению объектом или капиталом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

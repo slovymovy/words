@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The shopkeeper removed the <w>unsaleable</w> fruit from the display."
+                            "text": "The shopkeeper removed the <w>unsaleable</w> fruit from the display.",
+                            "target_lang_translations": {
+                                "ru": "Лавочник убрал <w>непродаваемые</w> фрукты с витрины."
+                            }
                         },
                         {
-                            "text": "Water damage made the entire shipment of books <w>unsaleable</w>."
+                            "text": "Water damage made the entire shipment of books <w>unsaleable</w>.",
+                            "target_lang_translations": {
+                                "ru": "Повреждение водой сделало всю партию книг <w>непригодной для продажи</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,7 +43,26 @@
                         "unsaleable goods",
                         "unsaleable stock",
                         "unsaleable items"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Непригодный для продажи; такой, который невозможно продать."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неликвидный",
+                                "target_lang_sense_clarification": "о товаре, который трудно или невозможно сбыть"
+                            },
+                            {
+                                "target_lang_word": "непродаваемый",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "негодный для продажи",
+                                "target_lang_sense_clarification": "о состоянии товара"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -53,22 +78,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The manager tracks <w>unsaleables</w> to reduce inventory losses."
+                            "text": "The manager tracks <w>unsaleables</w> to reduce inventory losses.",
+                            "target_lang_translations": {
+                                "ru": "Менеджер отслеживает <w>неликвид</w>, чтобы снизить потери товарных запасов."
+                            }
                         },
                         {
-                            "text": "We donate some <w>unsaleables</w> to charity if they are still safe to use."
+                            "text": "We donate some <w>unsaleables</w> to charity if they are still safe to use.",
+                            "target_lang_translations": {
+                                "ru": "Мы жертвуем некоторую <w>некондицию</w> на благотворительность, если её всё ещё безопасно использовать."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "list of unsaleables",
                         "return of unsaleables"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "retail context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Товар, не подлежащий продаже (из-за дефектов, истечения срока годности и т.д.)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неликвид",
+                                "target_lang_sense_clarification": "неходовой или залежалый товар"
+                            },
+                            {
+                                "target_lang_word": "некондиция",
+                                "target_lang_sense_clarification": "товар с недостатками"
+                            }
+                        ]
+                    }
                 }
             ]
         }

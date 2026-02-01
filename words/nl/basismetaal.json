@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De economische groei in de <w>basismetaal</w> was het afgelopen kwartaal zeer positief."
+                            "text": "De economische groei in de <w>basismetaal</w> was het afgelopen kwartaal zeer positief.",
+                            "target_lang_translations": {
+                                "en": "Economic growth in the <w>basic metal industry</w> was very positive last quarter.",
+                                "ru": "Экономический рост в <w>металлургической промышленности</w> в прошлом квартале был очень позитивным."
+                            }
                         },
                         {
-                            "text": "Veel werknemers in de <w>basismetaal</w> vallen onder een specifieke collectieve arbeidsovereenkomst."
+                            "text": "Veel werknemers in de <w>basismetaal</w> vallen onder een specifieke collectieve arbeidsovereenkomst.",
+                            "target_lang_translations": {
+                                "en": "Many employees in the <w>basic metal industry</w> fall under a specific collective labor agreement.",
+                                "ru": "Многие работники <w>металлургической отрасли</w> подпадают под действие специального коллективного трудового договора."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "cao basismetaal",
                         "productie in de basismetaal"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "refers to the economic sector"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The industrial sector concerned with the production and processing of metals.",
+                        "ru": "Промышленный сектор, занимающийся производством и обработкой металлов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "basic metal industry",
+                                "target_lang_sense_clarification": "industrial sector"
+                            },
+                            {
+                                "target_lang_word": "primary metal industry",
+                                "target_lang_sense_clarification": "industrial sector"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "металлургическая промышленность",
+                                "target_lang_sense_clarification": "сектор экономики"
+                            },
+                            {
+                                "target_lang_word": "металлургия",
+                                "target_lang_sense_clarification": "отрасль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

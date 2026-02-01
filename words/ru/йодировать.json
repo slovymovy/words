@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На этом заводе начали <w>йодировать</w> поваренную соль для профилактики заболеваний."
+                            "text": "На этом заводе начали <w>йодировать</w> поваренную соль для профилактики заболеваний.",
+                            "target_lang_translations": {
+                                "en": "At this factory, they started to <w>iodize</w> table salt for disease prevention."
+                            }
                         },
                         {
-                            "text": "В некоторых регионах необходимо дополнительно <w>йодировать</w> воду из-за нехватки микроэлементов."
+                            "text": "В некоторых регионах необходимо дополнительно <w>йодировать</w> воду из-за нехватки микроэлементов.",
+                            "target_lang_translations": {
+                                "en": "In some regions, it is necessary to additionally <w>iodize</w> water due to a lack of micronutrients."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,25 @@
                         "йодировать воду",
                         "йодировать продукты"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "химия и пищевая промышленность"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To saturate with iodine; to introduce iodine into the composition of something."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "iodize",
+                                "target_lang_sense_clarification": "general term, especially for salt or water"
+                            },
+                            {
+                                "target_lang_word": "iodate",
+                                "target_lang_sense_clarification": "to treat with iodine"
+                            },
+                            {
+                                "target_lang_word": "iodinate",
+                                "target_lang_sense_clarification": "chemical context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

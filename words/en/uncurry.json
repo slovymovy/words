@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The developer decided to <w>uncurry</w> the function to simplify the interface for the new library."
+                            "text": "The developer decided to <w>uncurry</w> the function to simplify the interface for the new library.",
+                            "target_lang_translations": {
+                                "ru": "Разработчик решил <w>декаррировать</w> функцию, чтобы упростить интерфейс для новой библиотеки."
+                            }
                         },
                         {
-                            "text": "You can <w>uncurry</w> the arguments to pass them as a single tuple instead of a chain of calls."
+                            "text": "You can <w>uncurry</w> the arguments to pass them as a single tuple instead of a chain of calls.",
+                            "target_lang_translations": {
+                                "ru": "Вы можете <w>декаррировать</w> аргументы, чтобы передать их как один кортеж вместо цепочки вызовов."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -30,12 +36,21 @@
                         "uncurry a function",
                         "uncurry the arguments"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "functional programming"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Обратить операцию каррирования в функциональном программировании, преобразуя последовательность функций, принимающих по одному аргументу, в одну функцию, принимающую несколько аргументов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "декаррировать",
+                                "target_lang_sense_clarification": "термин функционального программирования"
+                            },
+                            {
+                                "target_lang_word": "обратить каррирование",
+                                "target_lang_sense_clarification": "описание процесса"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Командир полка получил срочное <w>донесение</w> о передвижении войск противника."
+                            "text": "Командир полка получил срочное <w>донесение</w> о передвижении войск противника.",
+                            "target_lang_translations": {
+                                "en": "The regiment commander received an urgent <w>dispatch</w> regarding enemy troop movements."
+                            }
                         },
                         {
-                            "text": "В штаб поступило <w>донесение</w>, содержащее важные сведения о результатах ночной разведки."
+                            "text": "В штаб поступило <w>донесение</w>, содержащее важные сведения о результатах ночной разведки.",
+                            "target_lang_translations": {
+                                "en": "A <w>report</w> containing important information about the results of the night reconnaissance arrived at headquarters."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,21 @@
                         "секретное донесение",
                         "представить донесение"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "used in official communication"
-                        },
-                        {
-                            "trait_type": "military",
-                            "comment": "frequently used in military contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official oral or written report conveying specific information to a superior or higher authority."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "report",
+                                "target_lang_sense_clarification": "official account"
+                            },
+                            {
+                                "target_lang_word": "dispatch",
+                                "target_lang_sense_clarification": "official message, often military"
+                            }
+                        ]
+                    }
                 }
             ]
         }

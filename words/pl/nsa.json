@@ -17,10 +17,16 @@
                     "name_type": "organization_name",
                     "examples": [
                         {
-                            "text": "Wczoraj <w>NSA</w> wydał przełomowy wyrok w sprawie interpretacji przepisów podatkowych."
+                            "text": "Wczoraj <w>NSA</w> wydał przełomowy wyrok w sprawie interpretacji przepisów podatkowych.",
+                            "target_lang_translations": {
+                                "ru": "Вчера <w>Высший административный суд</w> вынес знаковое решение по делу о толковании налогового законодательства."
+                            }
                         },
                         {
-                            "text": "Prawnik poinformował klienta, że przysługuje mu prawo wniesienia skargi do <w>NSA</w>."
+                            "text": "Prawnik poinformował klienta, że przysługuje mu prawo wniesienia skargi do <w>NSA</w>.",
+                            "target_lang_translations": {
+                                "ru": "Юрист сообщил клиенту, что он имеет право подать жалобу в <w>Высший административный суд</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,17 @@
                         "orzecznictwo NSA",
                         "skarga do NSA"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "termin prawniczy"
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": "dotyczy administracji publicznej"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "сокращение от названия <w>Naczelny Sąd Administracyjny</w> (Высший административный суд); высший орган административного судопроизводства в Польше"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Высший административный суд",
+                                "target_lang_sense_clarification": "государственный орган в Польше"
+                            }
+                        ]
+                    }
                 }
             ]
         }

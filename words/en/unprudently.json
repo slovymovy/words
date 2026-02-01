@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He <w>unprudently</w> spent his entire paycheck on lottery tickets instead of paying the rent."
+                            "text": "He <w>unprudently</w> spent his entire paycheck on lottery tickets instead of paying the rent.",
+                            "target_lang_translations": {
+                                "ru": "Он <w>неблагоразумно</w> потратил всю зарплату на лотерейные билеты вместо оплаты аренды."
+                            }
                         },
                         {
-                            "text": "The company <w>unprudently</w> ignored the safety regulations, leading to a significant accident."
+                            "text": "The company <w>unprudently</w> ignored the safety regulations, leading to a significant accident.",
+                            "target_lang_translations": {
+                                "ru": "Компания <w>неосмотрительно</w> проигнорировала правила техники безопасности, что привело к крупной аварии."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "act unprudently",
                         "behave unprudently"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "less common variant of 'imprudently'"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Образом, лишенным осторожности или мудрости; синоним <w>imprudently</w>."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неблагоразумно",
+                                "target_lang_sense_clarification": "поступая без должной рассудительности"
+                            },
+                            {
+                                "target_lang_word": "неосмотрительно",
+                                "target_lang_sense_clarification": "не проявляя осторожности"
+                            },
+                            {
+                                "target_lang_word": "опрометчиво",
+                                "target_lang_sense_clarification": "поспешно и необдуманно"
+                            }
+                        ]
+                    }
                 }
             ]
         }

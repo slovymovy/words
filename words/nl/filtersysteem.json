@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het bedrijf gebruikt een biologisch <w>filtersysteem</w> om het afvalwater te reinigen."
+                            "text": "Het bedrijf gebruikt een biologisch <w>filtersysteem</w> om het afvalwater te reinigen.",
+                            "target_lang_translations": {
+                                "en": "The company uses a biological <w>filter system</w> to clean the wastewater.",
+                                "ru": "Компания использует биологическую <w>систему фильтрации</w> для очистки сточных вод."
+                            }
                         },
                         {
-                            "text": "Je moet het <w>filtersysteem</w> van het aquarium regelmatig controleren op verstoppingen."
+                            "text": "Je moet het <w>filtersysteem</w> van het aquarium regelmatig controleren op verstoppingen.",
+                            "target_lang_translations": {
+                                "en": "You must regularly check the aquarium's <w>filter system</w> for blockages.",
+                                "ru": "Вам нужно регулярно проверять <w>систему фильтрации</w> аквариума на наличие засоров."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "geavanceerd filtersysteem",
                         "filtersysteem installeren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A set of devices intended to remove unwanted substances from liquids or gases.",
+                        "ru": "Комплекс устройств, предназначенный для очистки жидкостей или газов от нежелательных веществ."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "filter system",
+                                "target_lang_sense_clarification": "assembly of filtering devices"
+                            },
+                            {
+                                "target_lang_word": "filtration system",
+                                "target_lang_sense_clarification": "technical term emphasizing the process"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "система фильтрации",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "фильтровальная установка",
+                                "target_lang_sense_clarification": "оборудование"
+                            }
+                        ]
+                    }
                 }
             ]
         }

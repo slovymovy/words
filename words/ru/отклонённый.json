@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ваш <w>отклонённый</w> запрос можно подать повторно через месяц."
+                            "text": "Ваш <w>отклонённый</w> запрос можно подать повторно через месяц.",
+                            "target_lang_translations": {
+                                "en": "Your <w>rejected</w> request can be resubmitted in a month."
+                            }
                         },
                         {
-                            "text": "Этот <w>отклонённый</w> проект требовал слишком больших вложений."
+                            "text": "Этот <w>отклонённый</w> проект требовал слишком больших вложений.",
+                            "target_lang_translations": {
+                                "en": "This <w>rejected</w> project required too much investment."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,7 +48,26 @@
                             "trait_type": "form",
                             "comment": "причастие"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Describes something that has been refused, turned down, or not accepted."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "rejected",
+                                "target_lang_sense_clarification": "refused or not accepted (e.g., a proposal, request)"
+                            },
+                            {
+                                "target_lang_word": "declined",
+                                "target_lang_sense_clarification": "refused politely or failed (e.g., a payment, card)"
+                            },
+                            {
+                                "target_lang_word": "denied",
+                                "target_lang_sense_clarification": "refused permission or access"
+                            }
+                        ]
+                    }
                 }
             ]
         }

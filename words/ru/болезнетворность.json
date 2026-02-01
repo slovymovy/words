@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Генетические изменения могут повысить <w>болезнетворность</w> вирусов."
+                            "text": "Генетические изменения могут повысить <w>болезнетворность</w> вирусов.",
+                            "target_lang_translations": {
+                                "en": "Genetic changes can increase the <w>pathogenicity</w> of viruses."
+                            }
                         },
                         {
-                            "text": "Врачи обсуждали высокую <w>болезнетворность</w> этой инфекции."
+                            "text": "Врачи обсуждали высокую <w>болезнетворность</w> этой инфекции.",
+                            "target_lang_translations": {
+                                "en": "Doctors discussed the high <w>pathogenicity</w> of this infection."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "высокая болезнетворность",
                         "болезнетворность микробов"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "термин используется в медицине и микробиологии"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The property or ability to cause disease."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pathogenicity",
+                                "target_lang_sense_clarification": "medical term for the ability to cause disease"
+                            },
+                            {
+                                "target_lang_word": "virulence",
+                                "target_lang_sense_clarification": "severity or harmfulness of a disease"
+                            }
+                        ]
+                    }
                 }
             ]
         }

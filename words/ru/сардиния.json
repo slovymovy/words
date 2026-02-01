@@ -17,10 +17,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Мы провели незабываемый отпуск на <w>Сардинии</w>."
+                            "text": "Мы провели незабываемый отпуск на <w>Сардинии</w>.",
+                            "target_lang_translations": {
+                                "en": "We spent an unforgettable vacation in <w>Sardinia</w>."
+                            }
                         },
                         {
-                            "text": "<w>Сардиния</w> находится к западу от материковой Италии."
+                            "text": "<w>Сардиния</w> находится к западу от материковой Италии.",
+                            "target_lang_translations": {
+                                "en": "<w>Sardinia</w> is located to the west of mainland Italy."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "берега Сардинии",
                         "путешествие по Сардинии"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "географическое название"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An island in the Mediterranean Sea and an autonomous region of Italy."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sardinia",
+                                "target_lang_sense_clarification": "island and region in Italy"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -24,10 +24,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В порт прибыло специальное <w>разгрузное</w> судно, оснащенное мощными кранами для перемещения контейнеров."
+                            "text": "В порт прибыло специальное <w>разгрузное</w> судно, оснащенное мощными кранами для перемещения контейнеров.",
+                            "target_lang_translations": {
+                                "en": "A special <w>unloading</w> vessel arrived at the port, equipped with powerful cranes for moving containers."
+                            }
                         },
                         {
-                            "text": "Механик проверил <w>разгрузной</w> клапан системы, чтобы предотвратить избыточное давление в трубах."
+                            "text": "Механик проверил <w>разгрузной</w> клапан системы, чтобы предотвратить избыточное давление в трубах.",
+                            "target_lang_translations": {
+                                "en": "The mechanic checked the system's <w>relief</w> valve to prevent excessive pressure in the pipes."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,12 +48,25 @@
                         "разгрузной механизм",
                         "разгрузной люк"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "техническое"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Intended for or serving the purpose of unloading cargo or relieving pressure (usually in a technical context)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "unloading",
+                                "target_lang_sense_clarification": "pertaining to the removal of cargo or load"
+                            },
+                            {
+                                "target_lang_word": "relief",
+                                "target_lang_sense_clarification": "pertaining to the reduction of pressure or mechanical stress (e.g., valve)"
+                            },
+                            {
+                                "target_lang_word": "discharge",
+                                "target_lang_sense_clarification": "related to the mechanism of emptying or releasing"
+                            }
+                        ]
+                    }
                 }
             ]
         }

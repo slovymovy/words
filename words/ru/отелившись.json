@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Корова, благополучно <w>отелившись</w>, принялась заботливо вылизывать своего мокрого телёнка."
+                            "text": "Корова, благополучно <w>отелившись</w>, принялась заботливо вылизывать своего мокрого телёнка.",
+                            "target_lang_translations": {
+                                "en": "The cow, <w>having calved</w> safely, began to solicitously lick her wet calf."
+                            }
                         },
                         {
-                            "text": "Фермер заметил, что буренка, <w>отелившись</w> ночью, теперь спокойно отдыхает в теплом стойле."
+                            "text": "Фермер заметил, что буренка, <w>отелившись</w> ночью, теперь спокойно отдыхает в теплом стойле.",
+                            "target_lang_translations": {
+                                "en": "The farmer noticed that the cow, <w>having calved</w> during the night, was now resting calmly in the warm stall."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,12 +38,23 @@
                         {
                             "trait_type": "form",
                             "comment": "past adverbial participle"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "agriculture"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Having given birth to a calf (referring to a cow or other hoofed animal)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "having calved",
+                                "target_lang_sense_clarification": "past action"
+                            },
+                            {
+                                "target_lang_word": "after calving",
+                                "target_lang_sense_clarification": "temporal context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

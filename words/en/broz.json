@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We learned about the historical figure Josip <w>Broz</w> Tito during the lecture."
+                            "text": "We learned about the historical figure Josip <w>Broz</w> Tito during the lecture.",
+                            "target_lang_translations": {
+                                "ru": "На лекции мы узнали об исторической личности Иосипе <w>Броз</w> Тито."
+                            }
                         },
                         {
-                            "text": "Please tell Mr. <w>Broz</w> that the meeting has been rescheduled for tomorrow."
+                            "text": "Please tell Mr. <w>Broz</w> that the meeting has been rescheduled for tomorrow.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте мистеру <w>Брозу</w>, что встреча перенесена на завтра."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Броз",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The dermatologist suggested <w>phototherapy</w> as an effective way to manage her psoriasis."
+                            "text": "The dermatologist suggested <w>phototherapy</w> as an effective way to manage her psoriasis.",
+                            "target_lang_translations": {
+                                "ru": "Дерматолог предложил <w>фототерапию</w> как эффективный способ лечения её псориаза."
+                            }
                         },
                         {
-                            "text": "Patients suffering from seasonal affective disorder often benefit from regular <w>phototherapy</w> treatment during winter."
+                            "text": "Patients suffering from seasonal affective disorder often benefit from regular <w>phototherapy</w> treatment during winter.",
+                            "target_lang_translations": {
+                                "ru": "Пациенты, страдающие сезонным аффективным расстройством, часто получают пользу от регулярной <w>фототерапии</w> в зимний период."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "phototherapy treatment",
                         "phototherapy session"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Использование света для лечения кожных заболеваний и некоторых расстройств настроения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "фототерапия",
+                                "target_lang_sense_clarification": "медицинская процедура"
+                            },
+                            {
+                                "target_lang_word": "светолечение",
+                                "target_lang_sense_clarification": "терапия светом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

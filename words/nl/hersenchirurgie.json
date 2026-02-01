@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij wil zich na haar studie geneeskunde gaan specialiseren in <w>hersenchirurgie</w>."
+                            "text": "Zij wil zich na haar studie geneeskunde gaan specialiseren in <w>hersenchirurgie</w>.",
+                            "target_lang_translations": {
+                                "en": "She wants to specialize in <w>brain surgery</w> after her medical studies.",
+                                "ru": "После окончания медицинского института она хочет специализироваться на <w>нейрохирургии</w>."
+                            }
                         },
                         {
-                            "text": "De afdeling <w>hersenchirurgie</w> van het academisch ziekenhuis staat internationaal hoog aangeschreven."
+                            "text": "De afdeling <w>hersenchirurgie</w> van het academisch ziekenhuis staat internationaal hoog aangeschreven.",
+                            "target_lang_translations": {
+                                "en": "The <w>brain surgery</w> department of the university hospital is highly regarded internationally.",
+                                "ru": "Отделение <w>нейрохирургии</w> университетской клиники пользуется высоким международным авторитетом."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,32 @@
                         "afdeling hersenchirurgie",
                         "complexe hersenchirurgie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "betreft een medisch specialisme"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Medical field dealing with surgical interventions on the brain.",
+                        "ru": "Раздел медицины, занимающийся хирургическими операциями на головном мозге."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "brain surgery",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "neurosurgery",
+                                "target_lang_sense_clarification": "medical specialty"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "нейрохирургия",
+                                "target_lang_sense_clarification": "медицинская специальность"
+                            },
+                            {
+                                "target_lang_word": "хирургия головного мозга",
+                                "target_lang_sense_clarification": "область хирургии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

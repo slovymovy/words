@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zonder een geldig <w>werkvisum</w> mag je in de Verenigde Staten geen betaalde baan aannemen."
+                            "text": "Zonder een geldig <w>werkvisum</w> mag je in de Verenigde Staten geen betaalde baan aannemen.",
+                            "target_lang_translations": {
+                                "en": "Without a valid <w>work visa</w>, you are not allowed to accept a paid job in the United States.",
+                                "ru": "Без действующей <w>рабочей визы</w> вы не можете устроиться на оплачиваемую работу в Соединенных Штатах."
+                            }
                         },
                         {
-                            "text": "Het bedrijf hielp de nieuwe medewerker bij het aanvragen van zijn <w>werkvisum</w>."
+                            "text": "Het bedrijf hielp de nieuwe medewerker bij het aanvragen van zijn <w>werkvisum</w>.",
+                            "target_lang_translations": {
+                                "en": "The company helped the new employee apply for his <w>work visa</w>.",
+                                "ru": "Компания помогла новому сотруднику подать заявление на получение <w>рабочей визы</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,28 @@
                         "geldig werkvisum",
                         "tijdelijk werkvisum"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "immigration context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official document that grants a foreigner the right to stay in a country and work there.",
+                        "ru": "Официальный документ, дающий иностранцу право проживать и работать в стране."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "work visa",
+                                "target_lang_sense_clarification": "official authorization to work in a foreign country"
+                            },
+                            {
+                                "target_lang_word": "employment visa",
+                                "target_lang_sense_clarification": "formal term for a visa granting work rights"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "рабочая виза",
+                                "target_lang_sense_clarification": "документ, разрешающий трудоустройство за границей"
+                            }
+                        ]
+                    }
                 }
             ]
         }

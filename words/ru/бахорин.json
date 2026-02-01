@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Вчера к нам в офис заходил гражданин <w>Бахорин</w> по личному вопросу."
+                            "text": "Вчера к нам в офис заходил гражданин <w>Бахорин</w> по личному вопросу.",
+                            "target_lang_translations": {
+                                "en": "Yesterday, Mr. <w>Bakhorin</w> came to our office regarding a personal matter."
+                            }
                         },
                         {
-                            "text": "В старых городских архивах часто упоминается купец <w>Бахорин</w>."
+                            "text": "В старых городских архивах часто упоминается купец <w>Бахорин</w>.",
+                            "target_lang_translations": {
+                                "en": "The merchant <w>Bakhorin</w> is often mentioned in the old city archives."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Bakhorin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

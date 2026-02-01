@@ -15,18 +15,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "The nuclear power plant in <w>Paks</w> provides a significant portion of the country's electricity."
+                            "text": "The nuclear power plant in <w>Paks</w> provides a significant portion of the country's electricity.",
+                            "target_lang_translations": {
+                                "ru": "Атомная электростанция в <w>Пакше</w> обеспечивает значительную часть электроэнергии страны."
+                            }
                         },
                         {
-                            "text": "We decided to visit <w>Paks</w> during our tour of central Hungary."
+                            "text": "We decided to visit <w>Paks</w> during our tour of central Hungary.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили посетить <w>Пакш</w> во время нашего тура по центральной Венгрии."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "in Hungary"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Город в Венгрии."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Пакш",
+                                "target_lang_sense_clarification": "город"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -42,10 +53,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The store displayed several value <w>paks</w> of batteries near the checkout counter."
+                            "text": "The store displayed several value <w>paks</w> of batteries near the checkout counter.",
+                            "target_lang_translations": {
+                                "ru": "В магазине возле кассы было выставлено несколько экономичных <w>упаковок</w> батареек."
+                            }
                         },
                         {
-                            "text": "He bought two six-<w>paks</w> of soda for the party."
+                            "text": "He bought two six-<w>paks</w> of soda for the party.",
+                            "target_lang_translations": {
+                                "ru": "Он купил две <w>упаковки</w> газировки по шесть штук для вечеринки."
+                            }
                         }
                     ],
                     "traits": [
@@ -53,7 +70,22 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Множественное число от \"pak\" (альтернативное написание слова \"pack\" — упаковка)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "упаковки",
+                                "target_lang_sense_clarification": "пачки"
+                            },
+                            {
+                                "target_lang_word": "пачки",
+                                "target_lang_sense_clarification": "упаковки"
+                            }
+                        ]
+                    }
                 }
             ]
         }

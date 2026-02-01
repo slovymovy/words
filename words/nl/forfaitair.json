@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De belastingdienst rekent met een <w>forfaitair</w> rendement op vermogen in plaats van de werkelijke winst."
+                            "text": "De belastingdienst rekent met een <w>forfaitair</w> rendement op vermogen in plaats van de werkelijke winst.",
+                            "target_lang_translations": {
+                                "en": "The tax authorities calculate a <w>notional</w> return on assets instead of the actual profit.",
+                                "ru": "Налоговая служба рассчитывает <w>фиксированную</w> доходность на капитал вместо фактической прибыли."
+                            }
                         },
                         {
-                            "text": "Werknemers ontvangen vaak een <w>forfaitaire</w> vergoeding voor hun dagelijkse reiskosten."
+                            "text": "Werknemers ontvangen vaak een <w>forfaitaire</w> vergoeding voor hun dagelijkse reiskosten.",
+                            "target_lang_translations": {
+                                "en": "Employees often receive a <w>flat-rate</w> allowance for their daily travel expenses.",
+                                "ru": "Сотрудники часто получают <w>фиксированную</w> компенсацию ежедневных транспортных расходов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,20 +41,36 @@
                         "forfaitaire aftrek",
                         "forfaitair bedrag"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Calculated as a fixed amount, regardless of actual costs or usage.",
+                        "ru": "Рассчитываемый как фиксированная сумма или по единой ставке, независимо от фактических затрат или использования."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "flat-rate",
+                                "target_lang_sense_clarification": "applied as a fixed rate or amount"
+                            },
+                            {
+                                "target_lang_word": "lump-sum",
+                                "target_lang_sense_clarification": "consisting of a single fixed payment"
+                            },
+                            {
+                                "target_lang_word": "notional",
+                                "target_lang_sense_clarification": "estimated or theoretical, often for tax purposes"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "фиксированный",
+                                "target_lang_sense_clarification": "установленный в виде твердой суммы"
+                            },
+                            {
+                                "target_lang_word": "паушальный",
+                                "target_lang_sense_clarification": "выплачиваемый единовременно или по общей ставке (финансовый термин)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

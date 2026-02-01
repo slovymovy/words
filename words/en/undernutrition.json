@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor explained that the child's slow growth was caused by severe <w>undernutrition</w>."
+                            "text": "The doctor explained that the child's slow growth was caused by severe <w>undernutrition</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врач объяснил, что замедленный рост ребенка был вызван сильным <w>недоеданием</w>."
+                            }
                         },
                         {
-                            "text": "Many aid organizations are working to combat chronic <w>undernutrition</w> in the region."
+                            "text": "Many aid organizations are working to combat chronic <w>undernutrition</w> in the region.",
+                            "target_lang_translations": {
+                                "ru": "Многие гуманитарные организации работают над борьбой с хроническим <w>недостаточным питанием</w> в регионе."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,25 @@
                         "severe undernutrition",
                         "signs of undernutrition"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "describes a health condition"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Недостаточное питание, обусловленное нехваткой пищи или неспособностью организма усваивать питательные вещества."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "недоедание",
+                                "target_lang_sense_clarification": "состояние организма вследствие недостатка пищи"
+                            },
+                            {
+                                "target_lang_word": "недостаточное питание",
+                                "target_lang_sense_clarification": "формальный или медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "недостаточность питания",
+                                "target_lang_sense_clarification": "медицинский диагноз или состояние"
+                            }
+                        ]
+                    }
                 }
             ]
         }

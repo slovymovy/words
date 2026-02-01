@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The dentist treated a severe case of <w>bromopnea</w> caused by advanced gum disease."
+                            "text": "The dentist treated a severe case of <w>bromopnea</w> caused by advanced gum disease.",
+                            "target_lang_translations": {
+                                "ru": "Стоматолог лечил тяжелый случай <w>галитоза</w>, вызванный запущенным заболеванием десен."
+                            }
                         },
                         {
-                            "text": "Chronic <w>bromopnea</w> can often be a symptom of deeper gastrointestinal issues."
+                            "text": "Chronic <w>bromopnea</w> can often be a symptom of deeper gastrointestinal issues.",
+                            "target_lang_translations": {
+                                "ru": "Хронический <w>галитоз</w> часто может быть симптомом более глубоких проблем с желудочно-кишечным трактом."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,12 +32,21 @@
                         "case of bromopnea",
                         "chronic bromopnea"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "formal term"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Состояние, характеризующееся неприятным запахом изо рта."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "галитоз",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "зловонное дыхание",
+                                "target_lang_sense_clarification": "формальное описание симптома"
+                            }
+                        ]
+                    }
                 }
             ]
         }

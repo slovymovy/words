@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Na dachu budynku zamontowano nową <w>czerpnię</w> powietrza, aby poprawić wentylację."
+                            "text": "Na dachu budynku zamontowano nową <w>czerpnię</w> powietrza, aby poprawić wentylację.",
+                            "target_lang_translations": {
+                                "ru": "На крыше здания установили новый <w>воздухозаборник</w> для улучшения вентиляции."
+                            }
                         },
                         {
-                            "text": "Główna <w>czerpnia</w> wody dla miasta znajduje się w górnym biegu rzeki."
+                            "text": "Główna <w>czerpnia</w> wody dla miasta znajduje się w górnym biegu rzeki.",
+                            "target_lang_translations": {
+                                "ru": "Главный <w>водозабор</w> города находится в верхнем течении реки."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,21 @@
                         "czerpnia dachowa",
                         "czerpnia ścienna"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "budownictwo, inżynieria sanitarna"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Устройство или входное отверстие для забора воздуха или воды из окружающей среды в систему."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "воздухозаборник",
+                                "target_lang_sense_clarification": "устройство для забора воздуха (вентиляция)"
+                            },
+                            {
+                                "target_lang_word": "водозабор",
+                                "target_lang_sense_clarification": "сооружение для забора воды (гидротехника)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

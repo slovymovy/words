@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The farmer specifically grows <w>maltable</w> barley for the local beer industry."
+                            "text": "The farmer specifically grows <w>maltable</w> barley for the local beer industry.",
+                            "target_lang_translations": {
+                                "ru": "Фермер специально выращивает ячмень, <w>пригодный для соложения</w>, для местной пивоваренной промышленности."
+                            }
                         },
                         {
-                            "text": "Not every type of grain is <w>maltable</w>, so brewers must choose their ingredients carefully."
+                            "text": "Not every type of grain is <w>maltable</w>, so brewers must choose their ingredients carefully.",
+                            "target_lang_translations": {
+                                "ru": "Не каждый вид зерна <w>пригоден для соложения</w>, поэтому пивовары должны тщательно выбирать ингредиенты."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -32,12 +38,21 @@
                         "maltable barley",
                         "maltable grain"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "brewing and agriculture"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Способный быть переработанным в солод"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пригодный для соложения",
+                                "target_lang_sense_clarification": "о зерне"
+                            },
+                            {
+                                "target_lang_word": "соложимый",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Vitamin K is essential for proper blood <w>coagulation</w> after an injury."
+                            "text": "Vitamin K is essential for proper blood <w>coagulation</w> after an injury.",
+                            "target_lang_translations": {
+                                "ru": "Витамин К необходим для нормального <w>свёртывания</w> крови после травмы."
+                            }
                         },
                         {
-                            "text": "The doctor ordered a test to check the patient's <w>coagulation</w> rate."
+                            "text": "The doctor ordered a test to check the patient's <w>coagulation</w> rate.",
+                            "target_lang_translations": {
+                                "ru": "Врач назначил анализ для проверки скорости <w>свёртывания</w> крови пациента."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,21 @@
                         "coagulation factor",
                         "coagulation test"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in contexts regarding blood health and hematology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Биологический процесс, при котором кровь переходит из жидкого состояния в твердое или полутвердое, образуя сгусток."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "свёртывание",
+                                "target_lang_sense_clarification": "крови"
+                            },
+                            {
+                                "target_lang_word": "коагуляция",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "711bfaf7-eb47-32b1-83d3-87a2f3775d87",
@@ -53,10 +68,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "High temperatures can cause the <w>coagulation</w> of proteins in the egg."
+                            "text": "High temperatures can cause the <w>coagulation</w> of proteins in the egg.",
+                            "target_lang_translations": {
+                                "ru": "Высокие температуры могут вызвать <w>свёртывание</w> белков в яйце."
+                            }
                         },
                         {
-                            "text": "The water treatment plant uses chemical <w>coagulation</w> to remove impurities."
+                            "text": "The water treatment plant uses chemical <w>coagulation</w> to remove impurities.",
+                            "target_lang_translations": {
+                                "ru": "Станция очистки воды использует химическую <w>коагуляцию</w> для удаления примесей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -73,16 +94,25 @@
                         "protein coagulation",
                         "chemical coagulation"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "common in chemistry and food science"
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процесс перехода жидкости в твердую или полутвердую массу, или слипание взвешенных частиц."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "коагуляция",
+                                "target_lang_sense_clarification": "химический процесс, очистка воды"
+                            },
+                            {
+                                "target_lang_word": "свёртывание",
+                                "target_lang_sense_clarification": "белков"
+                            },
+                            {
+                                "target_lang_word": "сгущение",
+                                "target_lang_sense_clarification": "уплотнение массы"
+                            }
+                        ]
+                    }
                 }
             ]
         }

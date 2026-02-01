@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач проверил <w>мигательный</w> рефлекс пациента, чтобы оценить реакцию нервной системы."
+                            "text": "Врач проверил <w>мигательный</w> рефлекс пациента, чтобы оценить реакцию нервной системы.",
+                            "target_lang_translations": {
+                                "en": "The doctor checked the patient's <w>blink</w> reflex to assess the nervous system's response."
+                            }
                         },
                         {
-                            "text": "У многих птиц и рептилий есть прозрачная <w>мигательная</w> перепонка, которая защищает глаз от повреждений."
+                            "text": "У многих птиц и рептилий есть прозрачная <w>мигательная</w> перепонка, которая защищает глаз от повреждений.",
+                            "target_lang_translations": {
+                                "en": "Many birds and reptiles have a transparent <w>nictitating</w> membrane that protects the eye from damage."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,25 @@
                         "мигательный рефлекс",
                         "мигательное движение"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "anatomy and zoology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the physiological process of blinking."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "nictitating",
+                                "target_lang_sense_clarification": "anatomy (membrane)"
+                            },
+                            {
+                                "target_lang_word": "blink",
+                                "target_lang_sense_clarification": "in medical terms like 'blink reflex'"
+                            },
+                            {
+                                "target_lang_word": "blinking",
+                                "target_lang_sense_clarification": "general physiological process"
+                            }
+                        ]
+                    }
                 }
             ]
         }

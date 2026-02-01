@@ -16,26 +16,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor asked the patient if he experienced any pain during <w>miction</w>."
+                            "text": "The doctor asked the patient if he experienced any pain during <w>miction</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врач спросил пациента, испытывает ли он боль при <w>мочеиспускании</w>."
+                            }
                         },
                         {
-                            "text": "Frequent <w>miction</w> at night can be a symptom of various medical conditions."
+                            "text": "Frequent <w>miction</w> at night can be a symptom of various medical conditions.",
+                            "target_lang_translations": {
+                                "ru": "Частое <w>мочеиспускание</w> по ночам может быть симптомом различных заболеваний."
+                            }
                         }
                     ],
                     "synonyms": [
                         "urination",
                         "micturition"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "technical term often replaced by micturition"
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": "less common than urination"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процесс выведения мочи из организма."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "мочеиспускание",
+                                "target_lang_sense_clarification": "физиологический процесс"
+                            }
+                        ]
+                    }
                 }
             ]
         }

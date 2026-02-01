@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На контурной карте эта область <заштриховывается> зелёным цветом."
+                            "text": "На контурной карте эта область <заштриховывается> зелёным цветом.",
+                            "target_lang_translations": {
+                                "en": "On the outline map, this area <w>is shaded</w> in green."
+                            }
                         },
                         {
-                            "text": "Затем весь фон равномерно <заштриховывается> мягким карандашом для создания тени."
+                            "text": "Затем весь фон равномерно <заштриховывается> мягким карандашом для создания тени.",
+                            "target_lang_translations": {
+                                "en": "Then the entire background <w>is</w> evenly <w>shaded</w> with a soft pencil to create a shadow."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,21 @@
                         "поверхность заштриховывается",
                         "автоматически заштриховывается"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "drawing and drafting context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To be covered with strokes or lines; the passive form of the verb 'to shade' or 'to hatch'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be shaded",
+                                "target_lang_sense_clarification": "to be darkened or filled in with pencil strokes or color"
+                            },
+                            {
+                                "target_lang_word": "be hatched",
+                                "target_lang_sense_clarification": "to be marked with closely spaced parallel lines (technical/artistic)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

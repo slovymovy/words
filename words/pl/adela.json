@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Moja babcia miała na imię <w>Adela</w>."
+                            "text": "Moja babcia miała na imię <w>Adela</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мою бабушку звали <w>Адела</w>."
+                            }
                         },
                         {
-                            "text": "Wczoraj <w>Adela</w> odwiedziła nas w nowym mieszkaniu."
+                            "text": "Wczoraj <w>Adela</w> odwiedziła nas w nowym mieszkaniu.",
+                            "target_lang_translations": {
+                                "ru": "Вчера <w>Адела</w> навестила нас в новой квартире."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "pani Adela",
                         "babcia Adela"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "женское личное имя"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Адела",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

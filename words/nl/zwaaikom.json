@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het schip is te lang om hier te draaien, dus we varen door naar de <w>zwaaikom</w>."
+                            "text": "Het schip is te lang om hier te draaien, dus we varen door naar de <w>zwaaikom</w>.",
+                            "target_lang_translations": {
+                                "en": "The ship is too long to turn here, so we are sailing on to the <w>turning basin</w>.",
+                                "ru": "Судно слишком длинное, чтобы развернуться здесь, поэтому мы идем дальше к <w>разворотному бассейну</w>."
+                            }
                         },
                         {
-                            "text": "In de <w>zwaaikom</w> kunnen grote schepen veilig keren."
+                            "text": "In de <w>zwaaikom</w> kunnen grote schepen veilig keren.",
+                            "target_lang_translations": {
+                                "en": "Large ships can turn safely in the <w>turning basin</w>.",
+                                "ru": "В <w>разворотном бассейне</w> крупные суда могут безопасно развернуться."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,16 +37,32 @@
                     "common_phrases": [
                         "keren in de zwaaikom"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "scheepvaart"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "waterbouwkunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A widened area in a river, canal, or harbor where ships can turn around.",
+                        "ru": "Расширенный участок реки, канала или гавани, предназначенный для разворота судов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "turning basin",
+                                "target_lang_sense_clarification": "general maritime term"
+                            },
+                            {
+                                "target_lang_word": "winding hole",
+                                "target_lang_sense_clarification": "specifically in canals"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "разворотный бассейн",
+                                "target_lang_sense_clarification": "специальное место для разворота судов"
+                            },
+                            {
+                                "target_lang_word": "разворотный круг",
+                                "target_lang_sense_clarification": "расширение русла для маневра"
+                            }
+                        ]
+                    }
                 }
             ]
         }

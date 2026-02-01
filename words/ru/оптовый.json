@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "У этой компании есть свой большой <w>оптовый</w> склад."
+                            "text": "У этой компании есть свой большой <w>оптовый</w> склад.",
+                            "target_lang_translations": {
+                                "en": "This company has its own large <w>wholesale</w> warehouse."
+                            }
                         },
                         {
-                            "text": "<w>Оптовая</w> цена товара обычно значительно ниже розничной."
+                            "text": "<w>Оптовая</w> цена товара обычно значительно ниже розничной.",
+                            "target_lang_translations": {
+                                "en": "The <w>wholesale</w> price of goods is usually significantly lower than the retail price."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -33,12 +39,17 @@
                         "оптовый склад",
                         "оптовый покупатель"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "экономика и торговля"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the trade of goods in large quantities rather than individually."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wholesale",
+                                "target_lang_sense_clarification": "trade"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников числится инженер <w>Селиванов</w>."
+                            "text": "В списке сотрудников числится инженер <w>Селиванов</w>.",
+                            "target_lang_translations": {
+                                "en": "Engineer <w>Selivanov</w> is listed among the employees."
+                            }
                         },
                         {
-                            "text": "Вчера к нам в гости заходил мой коллега Дмитрий <w>Селиванов</w>."
+                            "text": "Вчера к нам в гости заходил мой коллега Дмитрий <w>Селиванов</w>.",
+                            "target_lang_translations": {
+                                "en": "Yesterday my colleague Dmitry <w>Selivanov</w> came over to visit."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Selivanov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

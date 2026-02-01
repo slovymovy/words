@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На ужин мы заказали сочный <w>лангет</w> с жареным картофелем."
+                            "text": "На ужин мы заказали сочный <w>лангет</w> с жареным картофелем.",
+                            "target_lang_translations": {
+                                "en": "For dinner, we ordered a juicy <w>thin steak</w> with fried potatoes."
+                            }
                         },
                         {
-                            "text": "Правильно приготовленный <w>лангет</w> должен быть мягким и ароматным."
+                            "text": "Правильно приготовленный <w>лангет</w> должен быть мягким и ароматным.",
+                            "target_lang_translations": {
+                                "en": "A properly cooked <w>thin steak</w> should be tender and aromatic."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -24,12 +30,21 @@
                         "сочный лангет",
                         "заказать лангет"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A meat dish made from thin, elongated slices of beef tenderloin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "thin steak",
+                                "target_lang_sense_clarification": "culinary description"
+                            },
+                            {
+                                "target_lang_word": "langet",
+                                "target_lang_sense_clarification": "specific dish name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

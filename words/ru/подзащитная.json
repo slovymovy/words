@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Адвокат уверенно заявил, что его <w>подзащитная</w> полностью невиновна."
+                            "text": "Адвокат уверенно заявил, что его <w>подзащитная</w> полностью невиновна.",
+                            "target_lang_translations": {
+                                "en": "The lawyer confidently stated that his <w>client</w> was completely innocent."
+                            }
                         },
                         {
-                            "text": "Во время перерыва защитник обсудил с <w>подзащитной</w> дальнейшую стратегию."
+                            "text": "Во время перерыва защитник обсудил с <w>подзащитной</w> дальнейшую стратегию.",
+                            "target_lang_translations": {
+                                "en": "During the break, the defense attorney discussed further strategy with the <w>client</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "интересы подзащитной",
                         "права подзащитной"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "юридический термин"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A woman whose interests are represented by a lawyer in court."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "client",
+                                "target_lang_sense_clarification": "female, represented by a defense attorney"
+                            },
+                            {
+                                "target_lang_word": "defendant",
+                                "target_lang_sense_clarification": "female, in the context of being defended"
+                            }
+                        ]
+                    }
                 }
             ]
         }

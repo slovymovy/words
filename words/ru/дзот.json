@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Разведчики обнаружили замаскированный <w>дзот</w> на склоне холма и передали координаты артиллерии."
+                            "text": "Разведчики обнаружили замаскированный <w>дзот</w> на склоне холма и передали координаты артиллерии.",
+                            "target_lang_translations": {
+                                "en": "The scouts discovered a camouflaged <w>pillbox</w> on the hillside and transmitted the coordinates to the artillery."
+                            }
                         },
                         {
-                            "text": "Пулемётный огонь из вражеского <w>дзота</w> надолго задержал наступление нашей пехоты."
+                            "text": "Пулемётный огонь из вражеского <w>дзота</w> надолго задержал наступление нашей пехоты.",
+                            "target_lang_translations": {
+                                "en": "Machine-gun fire from the enemy <w>bunker</w> held up our infantry's advance for a long time."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "уничтожить дзот",
                         "замаскированный дзот"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A field defensive structure made of logs, earth, and stones used for firing and shelter from bullets and shrapnel; short for \"timber-and-earth firing point\"."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pillbox",
+                                "target_lang_sense_clarification": "timber-and-earth defensive structure"
+                            },
+                            {
+                                "target_lang_word": "bunker",
+                                "target_lang_sense_clarification": "fortified firing point"
+                            }
+                        ]
+                    }
                 }
             ]
         }

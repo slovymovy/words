@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij ontvangt een goede <w>overwerkvergoeding</w> als hij in het weekend moet werken."
+                            "text": "Hij ontvangt een goede <w>overwerkvergoeding</w> als hij in het weekend moet werken.",
+                            "target_lang_translations": {
+                                "en": "He receives good <w>overtime pay</w> if he has to work on the weekend.",
+                                "ru": "Он получает хорошую <w>оплату сверхурочных</w>, если ему приходится работать в выходные."
+                            }
                         },
                         {
-                            "text": "In mijn nieuwe contract heb ik helaas geen recht op <w>overwerkvergoeding</w>."
+                            "text": "In mijn nieuwe contract heb ik helaas geen recht op <w>overwerkvergoeding</w>.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, in my new contract I am not entitled to <w>overtime compensation</w>.",
+                                "ru": "В моем новом контракте я, к сожалению, не имею права на <w>оплату сверхурочных</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "recht op overwerkvergoeding",
                         "geen overwerkvergoeding"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "employment context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Extra payment an employee receives for working more hours than stipulated in the employment contract.",
+                        "ru": "Дополнительная оплата, которую сотрудник получает за работу сверх часов, оговоренных в трудовом договоре."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "overtime pay",
+                                "target_lang_sense_clarification": "payment for extra hours worked"
+                            },
+                            {
+                                "target_lang_word": "overtime compensation",
+                                "target_lang_sense_clarification": "formal term for remuneration for extra work"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "оплата сверхурочных",
+                                "target_lang_sense_clarification": "денежная компенсация"
+                            },
+                            {
+                                "target_lang_word": "сверхурочные",
+                                "target_lang_sense_clarification": "разговорное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

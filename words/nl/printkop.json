@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn printer werkt niet goed omdat de <w>printkop</w> waarschijnlijk verstopt is."
+                            "text": "Mijn printer werkt niet goed omdat de <w>printkop</w> waarschijnlijk verstopt is.",
+                            "target_lang_translations": {
+                                "en": "My printer is not working well because the <w>printhead</w> is probably clogged.",
+                                "ru": "Мой принтер плохо работает, потому что <w>печатающая головка</w>, вероятно, засорилась."
+                            }
                         },
                         {
-                            "text": "De <w>printkop</w> beweegt snel heen en weer om de tekst op het papier te krijgen."
+                            "text": "De <w>printkop</w> beweegt snel heen en weer om de tekst op het papier te krijgen.",
+                            "target_lang_translations": {
+                                "en": "The <w>printhead</w> moves back and forth quickly to get the text onto the paper.",
+                                "ru": "<w>Печатающая головка</w> быстро движется взад-вперед, чтобы нанести текст на бумагу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,28 @@
                         "printkop reinigen",
                         "printkop vervangen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "hardware"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The part of a printer that sprays ink onto the paper or applies material to the surface.",
+                        "ru": "Часть принтера, которая распыляет чернила на бумагу или наносит материал на поверхность."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "printhead",
+                                "target_lang_sense_clarification": "printer component"
+                            },
+                            {
+                                "target_lang_word": "print head",
+                                "target_lang_sense_clarification": "alternative spelling"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "печатающая головка",
+                                "target_lang_sense_clarification": "компонент принтера"
+                            }
+                        ]
+                    }
                 }
             ]
         }

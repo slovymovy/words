@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor explained that the patient suffered from severe <w>parenchymal</w> damage to the liver caused by long-term alcohol abuse."
+                            "text": "The doctor explained that the patient suffered from severe <w>parenchymal</w> damage to the liver caused by long-term alcohol abuse.",
+                            "target_lang_translations": {
+                                "ru": "Врач объяснил, что пациент страдает от тяжелого <w>паренхиматозного</w> поражения печени, вызванного длительным злоупотреблением алкоголем."
+                            }
                         },
                         {
-                            "text": "Microscopic analysis revealed that the <w>parenchymal</w> tissue was functioning normally despite the surrounding inflammation."
+                            "text": "Microscopic analysis revealed that the <w>parenchymal</w> tissue was functioning normally despite the surrounding inflammation.",
+                            "target_lang_translations": {
+                                "ru": "Микроскопический анализ показал, что <w>паренхиматозная</w> ткань функционировала нормально, несмотря на окружающее воспаление."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,17 @@
                         "parenchymal disease",
                         "parenchymal cells"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "anatomy and pathology"
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": "biology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к функциональной ткани органа, известной как паренхима, в отличие от соединительной (опорной) ткани."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "паренхиматозный",
+                                "target_lang_sense_clarification": "относящийся к функциональной ткани органов"
+                            }
+                        ]
+                    }
                 }
             ]
         }

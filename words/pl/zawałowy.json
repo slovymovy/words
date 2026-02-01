@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pacjent został przyjęty na oddział w ostrym stanie <w>zawałowym</w>."
+                            "text": "Pacjent został przyjęty na oddział w ostrym stanie <w>zawałowym</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пациент поступил в отделение в остром <w>инфарктном</w> состоянии."
+                            }
                         },
                         {
-                            "text": "Badanie EKG wykazało u chorego wyraźne zmiany <w>zawałowe</w>."
+                            "text": "Badanie EKG wykazało u chorego wyraźne zmiany <w>zawałowe</w>.",
+                            "target_lang_translations": {
+                                "ru": "ЭКГ показала у больного отчетливые <w>инфарктные</w> изменения."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "zmiany zawałowe",
                         "ognisko zawałowe"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin używany w medycynie i opisach stanu zdrowia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "относящийся к инфаркту, связанный с возникновением некроза ткани (чаще всего сердечной мышцы) в результате ишемии"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "инфарктный",
+                                "target_lang_sense_clarification": "связанный с инфарктом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

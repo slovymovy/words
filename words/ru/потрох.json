@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Бабушка сварила наваристый суп с гусиным <w>потрохом</w>."
+                            "text": "Бабушка сварила наваристый суп с гусиным <w>потрохом</w>.",
+                            "target_lang_translations": {
+                                "en": "Grandma cooked a rich soup with goose <w>giblets</w>."
+                            }
                         },
                         {
-                            "text": "На рынке можно купить свежие куриные <w>потроха</w> для бульона."
+                            "text": "На рынке можно купить свежие куриные <w>потроха</w> для бульона.",
+                            "target_lang_translations": {
+                                "en": "You can buy fresh chicken <w>giblets</w> for broth at the market."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,27 @@
                         {
                             "trait_type": "archaic",
                             "comment": "в значении отдельного органа или в единственном числе"
-                        },
-                        {
-                            "trait_type": "culinary",
-                            "comment": "основная сфера употребления"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Internal organs of an animal (especially poultry) used for food, such as the liver, heart, and gizzard."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "giblets",
+                                "target_lang_sense_clarification": "edible internal organs of poultry"
+                            },
+                            {
+                                "target_lang_word": "offal",
+                                "target_lang_sense_clarification": "internal organs used as food"
+                            },
+                            {
+                                "target_lang_word": "entrails",
+                                "target_lang_sense_clarification": "internal organs generally"
+                            }
+                        ]
+                    }
                 }
             ]
         }

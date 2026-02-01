@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Analysts often <w>deseasonalize</w> data to better understand the true economic performance of the quarter."
+                            "text": "Analysts often <w>deseasonalize</w> data to better understand the true economic performance of the quarter.",
+                            "target_lang_translations": {
+                                "ru": "Аналитики часто <w>устраняют сезонные колебания</w> в данных, чтобы лучше понять истинные экономические показатели квартала."
+                            }
                         },
                         {
-                            "text": "It is important to <w>deseasonalize</w> statistics so that holiday spikes do not distort the yearly analysis."
+                            "text": "It is important to <w>deseasonalize</w> statistics so that holiday spikes do not distort the yearly analysis.",
+                            "target_lang_translations": {
+                                "ru": "Важно <w>проводить сезонную корректировку</w> статистики, чтобы праздничные всплески не искажали годовой анализ."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,21 @@
                         "deseasonalize data",
                         "deseasonalize statistics"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "statistics and economics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Корректировать статистические данные путем устранения влияния сезонных колебаний для выявления основных тенденций."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "устранять сезонные колебания",
+                                "target_lang_sense_clarification": "в статистике"
+                            },
+                            {
+                                "target_lang_word": "проводить сезонную корректировку",
+                                "target_lang_sense_clarification": "официальный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

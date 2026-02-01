@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач-<w>эндокринолог</w> назначил пациенту необходимые анализы."
+                            "text": "Врач-<w>эндокринолог</w> назначил пациенту необходимые анализы.",
+                            "target_lang_translations": {
+                                "en": "The <w>endocrinologist</w> prescribed the necessary tests for the patient."
+                            }
                         },
                         {
-                            "text": "Мне посоветовали обратиться к опытному <w>эндокринологу</w>."
+                            "text": "Мне посоветовали обратиться к опытному <w>эндокринологу</w>.",
+                            "target_lang_translations": {
+                                "en": "I was advised to consult an experienced <w>endocrinologist</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,17 @@
                         "записаться к эндокринологу",
                         "детский эндокринолог"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "профессия"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A doctor specializing in the diagnosis and treatment of diseases of the endocrine system and hormonal disorders."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "endocrinologist",
+                                "target_lang_sense_clarification": "medical specialist"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He was the most interesting of all the <w>suers</w> for her hand."
+                            "text": "He was the most interesting of all the <w>suers</w> for her hand.",
+                            "target_lang_translations": {
+                                "ru": "Он был самым интересным из всех <w>претендентов</w> на её руку."
+                            }
                         },
                         {
-                            "text": "The <w>suer</w> filed a formal complaint with the court to recover the debt."
+                            "text": "The <w>suer</w> filed a formal complaint with the court to recover the debt.",
+                            "target_lang_translations": {
+                                "ru": "<w>Истец</w> подал официальную жалобу в суд для взыскания долга."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                     "antonyms": [
                         "defendant"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "This term is uncommon in modern English; 'plaintiff' is used in law and 'suitor' in romance."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, который возбуждает судебный иск или подает прошение; часто, в частности, поклонник, добивающийся брака."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "истец",
+                                "target_lang_sense_clarification": "в суде"
+                            },
+                            {
+                                "target_lang_word": "претендент",
+                                "target_lang_sense_clarification": "на руку и сердце"
+                            },
+                            {
+                                "target_lang_word": "проситель",
+                                "target_lang_sense_clarification": "подающий петицию"
+                            }
+                        ]
+                    }
                 }
             ]
         }

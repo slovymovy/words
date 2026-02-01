@@ -1,10 +1,10 @@
 {
     "word_family": [
         "name",
-        "rename",
         "surname",
         "username",
-        "namesake"
+        "rename",
+        "misname"
     ],
     "entries": [
         {
@@ -12,17 +12,23 @@
             "senses": [
                 {
                     "sense_id": "2b202eb8-2044-3d6b-af63-a6af1acd6f8a",
-                    "sense_definition": "A familiar, shortened or diminutive name for a person or thing.",
+                    "sense_definition": "A familiar, shortened form of a person's real name.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "alternative_name",
+                    "semantic_group_id": "name_types",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "My name is Jonathan, but I go by my <w>nickname</w>, Johnny."
+                            "text": "My name is Jonathan, but I go by my <w>nickname</w>, Johnny.",
+                            "target_lang_translations": {
+                                "ru": "Меня зовут Джонатан, но я использую <w>уменьшительное имя</w> Джонни."
+                            }
                         },
                         {
-                            "text": "Elizabeth prefers to use the <w>nickname</w> Liz when she is with her friends."
+                            "text": "She prefers to use a <w>nickname</w> because her full name is very long.",
+                            "target_lang_translations": {
+                                "ru": "Она предпочитает использовать <w>сокращённое имя</w>, так как её полное имя очень длинное."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,34 +37,65 @@
                     "common_phrases": [
                         "go by a nickname",
                         "use a nickname"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамильярная, сокращённая форма настоящего имени человека."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "уменьшительное имя",
+                                "target_lang_sense_clarification": "сокращённая форма имени (например, Саша от Александр)"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "74cfcdd9-a4bc-302b-9f0f-b68ec40fa120",
-                    "sense_definition": "A familiar, invented name for a person or thing used instead of the actual name, often based on a noteworthy characteristic.",
+                    "sense_definition": "An invented name for a person or thing, often based on a specific characteristic or event, used instead of the real name.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "alternative_name",
+                    "semantic_group_id": "name_types",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "\"The Big Apple\" is a famous <w>nickname</w> for New York City."
+                            "text": "\"The Big Apple\" is a famous <w>nickname</w> for New York City.",
+                            "target_lang_translations": {
+                                "ru": "«Большое яблоко» — это известное <w>прозвище</w> Нью-Йорка."
+                            }
                         },
                         {
-                            "text": "His friends gave him the <w>nickname</w> \"Tiny\" because he is actually very tall."
+                            "text": "He earned the <w>nickname</w> \"Speedy\" because he was the fastest runner on the team.",
+                            "target_lang_translations": {
+                                "ru": "Он получил <w>прозвище</w> «Спиди», потому что был самым быстрым бегуном в команде."
+                            }
                         }
                     ],
                     "synonyms": [
                         "moniker",
-                        "handle",
                         "sobriquet",
-                        "byname"
+                        "handle"
                     ],
                     "common_phrases": [
+                        "earn a nickname",
                         "have a nickname",
-                        "give a nickname",
-                        "earn a nickname"
-                    ]
+                        "give a nickname"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Выдуманное имя для человека или предмета, часто основанное на какой-либо характеристике или событии."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "прозвище",
+                                "target_lang_sense_clarification": "имя, указывающее на черту характера или внешности"
+                            },
+                            {
+                                "target_lang_word": "кличка",
+                                "target_lang_sense_clarification": "имя животного или пренебрежительное прозвище человека"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -67,23 +104,43 @@
             "senses": [
                 {
                     "sense_id": "0a3e1869-6ef1-369f-8347-8f994e81f9d6",
-                    "sense_definition": "To give a nickname to a person or thing.",
+                    "sense_definition": "To give a special or familiar name to a person or thing.",
                     "learner_level": "B1",
                     "frequency": "Middle",
                     "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Gerald, <w>nicknamed</w> \"Jerry\", was usually a very cheerful person."
+                            "text": "His friends decided to <w>nickname</w> him \"Bear\" because he was so strong.",
+                            "target_lang_translations": {
+                                "ru": "Его друзья решили <w>прозвать</w> его «Медведем», потому что он был очень сильным."
+                            }
                         },
                         {
-                            "text": "The press <w>nicknamed</w> the new building \"The Shard\" because of its sharp, glass design."
+                            "text": "The tall building was <w>nicknamed</w> \"The Shard\" due to its sharp, glass-like appearance.",
+                            "target_lang_translations": {
+                                "ru": "Это высокое здание <w>окрестили</w> «Осколком» из-за его острого, похожего на стекло вида."
+                            }
                         }
                     ],
                     "common_phrases": [
-                        "be nicknamed",
-                        "nickname someone"
-                    ]
+                        "be nicknamed"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Давать особое или фамильярное имя человеку или предмету."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "прозвать",
+                                "target_lang_sense_clarification": "дать прозвище"
+                            },
+                            {
+                                "target_lang_word": "окрестить",
+                                "target_lang_sense_clarification": "перен. дать название или прозвище"
+                            }
+                        ]
+                    }
                 }
             ]
         }

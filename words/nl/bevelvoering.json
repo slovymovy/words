@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De generaal was volledig verantwoordelijk voor de <w>bevelvoering</w> tijdens de risicovolle missie."
+                            "text": "De generaal was volledig verantwoordelijk voor de <w>bevelvoering</w> tijdens de risicovolle missie.",
+                            "target_lang_translations": {
+                                "en": "The general was fully responsible for the <w>command</w> during the high-risk mission.",
+                                "ru": "Генерал нес полную ответственность за <w>командование</w> во время рискованной миссии."
+                            }
                         },
                         {
-                            "text": "Door een storing in de communicatieapparatuur werd de centrale <w>bevelvoering</w> ernstig verstoord."
+                            "text": "Door een storing in de communicatieapparatuur werd de centrale <w>bevelvoering</w> ernstig verstoord.",
+                            "target_lang_translations": {
+                                "en": "Due to a malfunction in the communication equipment, the central <w>command</w> was seriously disrupted.",
+                                "ru": "Из-за сбоя в оборудовании связи центральное <w>управление</w> было серьезно нарушено."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "militaire bevelvoering",
                         "centrale bevelvoering"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The exercise of leadership and authority over a military unit or operation.",
+                        "ru": "Осуществление руководства и власти над воинским подразделением или операцией."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "command",
+                                "target_lang_sense_clarification": "military authority"
+                            },
+                            {
+                                "target_lang_word": "command and control",
+                                "target_lang_sense_clarification": "operational management"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "командование",
+                                "target_lang_sense_clarification": "процесс управления войсками"
+                            },
+                            {
+                                "target_lang_word": "управление",
+                                "target_lang_sense_clarification": "руководство действиями (воен.)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

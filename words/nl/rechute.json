@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts waarschuwde dat de patiënt na de behandeling een <w>rechute</w> kon krijgen."
+                            "text": "De arts waarschuwde dat de patiënt na de behandeling een <w>rechute</w> kon krijgen.",
+                            "target_lang_translations": {
+                                "en": "The doctor warned that the patient could suffer a <w>relapse</w> after the treatment.",
+                                "ru": "Врач предупредил, что после лечения у пациента может случиться <w>рецидив</w>."
+                            }
                         },
                         {
-                            "text": "Na een korte periode van beterschap volgde helaas een ernstige <w>rechute</w>."
+                            "text": "Na een korte periode van beterschap volgde helaas een ernstige <w>rechute</w>.",
+                            "target_lang_translations": {
+                                "en": "After a short period of recovery, unfortunately a severe <w>relapse</w> followed.",
+                                "ru": "После короткого периода улучшения, к сожалению, последовал тяжелый <w>рецидив</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,28 @@
                         "een rechute krijgen",
                         "een rechute voorkomen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "wordt voornamelijk gebruikt in medische contexten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The recurrence of disease symptoms in a patient who is recovering.",
+                        "ru": "Возобновление симптомов заболевания у пациента, находящегося в стадии выздоровления."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "relapse",
+                                "target_lang_sense_clarification": "medical condition"
+                            },
+                            {
+                                "target_lang_word": "recurrence",
+                                "target_lang_sense_clarification": "of symptoms"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "рецидив",
+                                "target_lang_sense_clarification": "возврат болезни"
+                            }
+                        ]
+                    }
                 }
             ]
         }

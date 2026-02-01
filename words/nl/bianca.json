@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriendin heet <w>Bianca</w> en we kennen elkaar al jaren."
+                            "text": "Mijn beste vriendin heet <w>Bianca</w> en woont in Utrecht.",
+                            "target_lang_translations": {
+                                "en": "My best friend is called <w>Bianca</w> and lives in Utrecht.",
+                                "ru": "Мою лучшую подругу зовут <w>Бьянка</w>, и она живет в Утрехте."
+                            }
                         },
                         {
-                            "text": "Vraag aan <w>Bianca</w> of ze vanavond ook naar het feest komt."
+                            "text": "Heb jij <w>Bianca</w> vandaag al gezien op school?",
+                            "target_lang_translations": {
+                                "en": "Have you seen <w>Bianca</w> at school today?",
+                                "ru": "Ты сегодня уже видел <w>Бьянку</w> в школе?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A girl's name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Bianca",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Бьянка",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

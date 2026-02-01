@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На зиму мы всегда заготавливаем <w>квашеную</w> капусту в больших банках."
+                            "text": "На зиму мы всегда заготавливаем <w>квашеную</w> капусту в больших банках.",
+                            "target_lang_translations": {
+                                "en": "We always prepare <w>fermented</w> cabbage in large jars for the winter."
+                            }
                         },
                         {
-                            "text": "К варёной картошке отлично подходят <w>квашеные</w> огурцы."
+                            "text": "К варёной картошке отлично подходят <w>квашеные</w> огурцы.",
+                            "target_lang_translations": {
+                                "en": "<w>Pickled</w> cucumbers go perfectly with boiled potatoes."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,25 @@
                         "квашеные овощи",
                         "квашеные яблоки"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "о способе приготовления пищи"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Prepared by fermentation (souring), usually referring to vegetables; having a sour taste due to such preparation."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fermented",
+                                "target_lang_sense_clarification": "produced by fermentation (e.g. cabbage)"
+                            },
+                            {
+                                "target_lang_word": "pickled",
+                                "target_lang_sense_clarification": "preserved in brine (common culinary equivalent)"
+                            },
+                            {
+                                "target_lang_word": "sour",
+                                "target_lang_sense_clarification": "tasting acidic due to preparation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

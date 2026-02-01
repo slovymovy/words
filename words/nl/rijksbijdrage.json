@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De gemeente is sterk afhankelijk van de jaarlijkse <w>rijksbijdrage</w> om de begroting sluitend te krijgen."
+                            "text": "De gemeente is sterk afhankelijk van de jaarlijkse <w>rijksbijdrage</w> om de begroting sluitend te krijgen.",
+                            "target_lang_translations": {
+                                "en": "The municipality is heavily dependent on the annual <w>government contribution</w> to balance the budget.",
+                                "ru": "Муниципалитет сильно зависит от ежегодной <w>государственной дотации</w>, чтобы сбалансировать бюджет."
+                            }
                         },
                         {
-                            "text": "Zonder deze extra <w>rijksbijdrage</w> zou het openbaar vervoer in de regio aanzienlijk duurder worden."
+                            "text": "Zonder deze extra <w>rijksbijdrage</w> zou het openbaar vervoer in de regio aanzienlijk duurder worden.",
+                            "target_lang_translations": {
+                                "en": "Without this extra <w>government grant</w>, public transport in the region would become significantly more expensive.",
+                                "ru": "Без этой дополнительной <w>государственной субсидии</w> общественный транспорт в регионе стал бы значительно дороже."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,40 @@
                         "een rijksbijdrage ontvangen",
                         "korting op de rijksbijdrage"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "administrative and political context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A financial contribution provided by the national government to support a specific goal, project, or organization.",
+                        "ru": "Финансовый взнос, предоставляемый центральным правительством для поддержки определенной цели, проекта или организации."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "government contribution",
+                                "target_lang_sense_clarification": "general term for funds provided by the national government"
+                            },
+                            {
+                                "target_lang_word": "state contribution",
+                                "target_lang_sense_clarification": "funds provided by the state rather than local authorities"
+                            },
+                            {
+                                "target_lang_word": "government grant",
+                                "target_lang_sense_clarification": "financial aid for a specific purpose or project"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "государственная субсидия",
+                                "target_lang_sense_clarification": "финансовая помощь от государства на определенные цели"
+                            },
+                            {
+                                "target_lang_word": "государственная дотация",
+                                "target_lang_sense_clarification": "средства из госбюджета для покрытия расходов или сбалансирования бюджета"
+                            },
+                            {
+                                "target_lang_word": "государственный взнос",
+                                "target_lang_sense_clarification": "общий термин для вклада со стороны государства"
+                            }
+                        ]
+                    }
                 }
             ]
         }

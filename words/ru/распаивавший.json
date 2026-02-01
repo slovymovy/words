@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мастер, <w>распаивавший</w> старый радиоприёмник, аккуратно отделил все детали."
+                            "text": "Мастер, <w>распаивавший</w> старый радиоприёмник, аккуратно отделил все детали.",
+                            "target_lang_translations": {
+                                "en": "The technician, who was <w>unsoldering</w> the old radio receiver, carefully separated all the parts."
+                            }
                         },
                         {
-                            "text": "Ученик, <w>распаивавший</w> контакты, случайно повредил плату."
+                            "text": "Ученик, <w>распаивавший</w> контакты, случайно повредил плату.",
+                            "target_lang_translations": {
+                                "en": "The student, who was <w>desoldering</w> the contacts, accidentally damaged the circuit board."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -38,12 +44,23 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "electronics"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb 'to unsolder'; describes someone who was in the process of separating soldered parts."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "unsoldering",
+                                "target_lang_sense_clarification": "removing solder to separate components"
+                            },
+                            {
+                                "target_lang_word": "desoldering",
+                                "target_lang_sense_clarification": "technical term for removing solder"
+                            }
+                        ]
+                    }
                 }
             ]
         }

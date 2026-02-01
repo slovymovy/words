@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В списке сотрудников числится Андрей <w>Балагуров</w>."
+                            "text": "В списке сотрудников числится Андрей <w>Балагуров</w>.",
+                            "target_lang_translations": {
+                                "en": "Andrey <w>Balagurov</w> is on the list of employees."
+                            }
                         },
                         {
-                            "text": "Мы познакомились с семьёй <w>Балагуровых</w> на отдыхе."
+                            "text": "Мы познакомились с семьёй <w>Балагуровых</w> на отдыхе.",
+                            "target_lang_translations": {
+                                "en": "We met the <w>Balagurov</w> family on vacation."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +34,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Balagurov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

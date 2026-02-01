@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The chemist decided to use an <w>unboraxed</w> solution to establish a baseline for the experiment."
+                            "text": "The chemist decided to use an <w>unboraxed</w> solution to establish a baseline for the experiment.",
+                            "target_lang_translations": {
+                                "ru": "Химик решил использовать раствор, <w>не содержащий буры</w>, чтобы установить исходные данные для эксперимента."
+                            }
                         },
                         {
-                            "text": "For this specific cleaning process, <w>unboraxed</w> soap is preferred to avoid chemical residue."
+                            "text": "For this specific cleaning process, <w>unboraxed</w> soap is preferred to avoid chemical residue.",
+                            "target_lang_translations": {
+                                "ru": "Для этого конкретного процесса очистки предпочтительно мыло <w>без добавления буры</w>, чтобы избежать химического остатка."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "unboraxed soap",
                         "unboraxed mixture"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "often used in manufacturing or chemistry contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Не обработанный, не смешанный и не консервированный с использованием буры."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "не содержащий буры",
+                                "target_lang_sense_clarification": "об отсутствии вещества в составе"
+                            },
+                            {
+                                "target_lang_word": "без добавления буры",
+                                "target_lang_sense_clarification": "о продуктах или смесях"
+                            },
+                            {
+                                "target_lang_word": "не обработанный бурой",
+                                "target_lang_sense_clarification": "о материалах или поверхностях"
+                            }
+                        ]
+                    }
                 }
             ]
         }

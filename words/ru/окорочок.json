@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На ужин мама запекла в духовке куриные <w>окорочка</w> с картофелем."
+                            "text": "На ужин мама запекла в духовке куриные <w>окорочка</w> с картофелем.",
+                            "target_lang_translations": {
+                                "en": "For dinner, Mom baked chicken <w>legs</w> with potatoes in the oven."
+                            }
                         },
                         {
-                            "text": "В этом магазине можно купить свежий <w>окорочок</w> по хорошей цене."
+                            "text": "В этом магазине можно купить свежий <w>окорочок</w> по хорошей цене.",
+                            "target_lang_translations": {
+                                "en": "In this store, you can buy a fresh <w>chicken leg</w> at a good price."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,23 @@
                         {
                             "trait_type": "form",
                             "comment": "diminutive"
-                        },
-                        {
-                            "trait_type": "culinary",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A diminutive form of 'ham'; in cooking, it usually refers to a chicken leg (thigh and drumstick)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "chicken leg",
+                                "target_lang_sense_clarification": "culinary cut including thigh and drumstick"
+                            },
+                            {
+                                "target_lang_word": "leg",
+                                "target_lang_sense_clarification": "short for chicken leg"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,22 +13,33 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "My friend <w>Cate</w> is coming over for dinner tonight."
+                            "text": "My friend <w>Cate</w> is coming over for dinner tonight.",
+                            "target_lang_translations": {
+                                "ru": "Моя подруга <w>Кейт</w> придет сегодня на ужин."
+                            }
                         },
                         {
-                            "text": "Is <w>Cate</w> short for Catherine or Caitlin in her case?"
+                            "text": "Is <w>Cate</w> short for Catherine or Caitlin in her case?",
+                            "target_lang_translations": {
+                                "ru": "В её случае <w>Кейт</w> — это сокращение от Кэтрин или Кейтлин?"
+                            }
                         }
                     ],
                     "synonyms": [
                         "Kate",
                         "Cathy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Уменьшительная форма женского имени Кэтрин."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кейт",
+                                "target_lang_sense_clarification": "женское имя"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -44,10 +55,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The banquet table was laden with sweet <w>cates</w> and fine wines."
+                            "text": "The banquet table was laden with sweet <w>cates</w> and fine wines.",
+                            "target_lang_translations": {
+                                "ru": "Банкетный стол ломился от сладких <w>яств</w> и изысканных вин."
+                            }
                         },
                         {
-                            "text": "He spent his fortune on rare <w>cates</w> to impress the guests."
+                            "text": "He spent his fortune on rare <w>cates</w> to impress the guests.",
+                            "target_lang_translations": {
+                                "ru": "Он потратил своё состояние на редкие <w>лакомства</w>, чтобы впечатлить гостей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -59,12 +76,23 @@
                         {
                             "trait_type": "archaic",
                             "comment": ""
-                        },
-                        {
-                            "trait_type": "literary",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Деликатес или изысканное угощение (устаревшее)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лакомство",
+                                "target_lang_sense_clarification": "изысканная еда"
+                            },
+                            {
+                                "target_lang_word": "яство",
+                                "target_lang_sense_clarification": "кушанье (устар.)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

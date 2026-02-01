@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Op de website staat een <w>afdrukbare</w> versie van de handleiding die je kunt downloaden."
+                            "text": "Op de website staat een <w>afdrukbare</w> versie van de handleiding die je kunt downloaden.",
+                            "target_lang_translations": {
+                                "en": "The website has a <w>printable</w> version of the manual that you can download.",
+                                "ru": "На сайте есть версия руководства <w>для печати</w>, которую можно скачать."
+                            }
                         },
                         {
-                            "text": "Het bestand was beschadigd en daardoor helaas niet meer <w>afdrukbaar</w>."
+                            "text": "Het bestand was beschadigd en daardoor helaas niet meer <w>afdrukbaar</w>.",
+                            "target_lang_translations": {
+                                "en": "The file was damaged and therefore unfortunately no longer <w>printable</w>.",
+                                "ru": "Файл был поврежден и, к сожалению, больше не <w>пригоден для печати</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "afdrukbaar bestand",
                         "afdrukbaar formaat"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "context of digital files"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Able to be printed, usually referring to a digital file or document.",
+                        "ru": "Пригодный для распечатки на принтере, обычно относится к цифровым файлам или документам."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "printable",
+                                "target_lang_sense_clarification": "capable of being printed"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пригодный для печати",
+                                "target_lang_sense_clarification": "о файле или документе"
+                            },
+                            {
+                                "target_lang_word": "для печати",
+                                "target_lang_sense_clarification": "используется как определение, например, \"версия для печати\""
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач объяснил, что сильная <w>светобоязнь</w> является одним из симптомов воспаления роговицы."
+                            "text": "Врач объяснил, что сильная <w>светобоязнь</w> является одним из симптомов воспаления роговицы.",
+                            "target_lang_translations": {
+                                "en": "The doctor explained that severe <w>photophobia</w> is one of the symptoms of corneal inflammation."
+                            }
                         },
                         {
-                            "text": "Из-за развившейся <w>светобоязни</w> пациент был вынужден постоянно носить тёмные очки даже в помещении."
+                            "text": "Из-за развившейся <w>светобоязни</w> пациент был вынужден постоянно носить тёмные очки даже в помещении.",
+                            "target_lang_translations": {
+                                "en": "Due to the <w>photophobia</w> that developed, the patient was forced to constantly wear dark glasses even indoors."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,21 @@
                         "вызывать светобоязнь",
                         "симптомы светобоязни"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "medical term"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A painful sensitivity of the eyes to light, where exposure causes discomfort, tearing, and squinting."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "photophobia",
+                                "target_lang_sense_clarification": "medical term"
+                            },
+                            {
+                                "target_lang_word": "light sensitivity",
+                                "target_lang_sense_clarification": "general description"
+                            }
+                        ]
+                    }
                 }
             ]
         }

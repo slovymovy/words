@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "На собрании выступил директор завода <w>Вагин</w>."
+                            "text": "На собрании выступил директор завода <w>Вагин</w>.",
+                            "target_lang_translations": {
+                                "en": "The factory director <w>Vagin</w> spoke at the meeting."
+                            }
                         },
                         {
-                            "text": "В списке приглашённых гостей числится господин <w>Вагин</w>."
+                            "text": "В списке приглашённых гостей числится господин <w>Вагин</w>.",
+                            "target_lang_translations": {
+                                "en": "Mr. <w>Vagin</w> is listed among the invited guests."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,22 @@
                             "trait_type": "surname",
                             "comment": "male"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Vagin",
+                                "target_lang_sense_clarification": "surname"
+                            },
+                            {
+                                "target_lang_word": "Vaghin",
+                                "target_lang_sense_clarification": "surname variant"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,10 +64,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В научной статье описывались анатомические особенности <w>вагин</w> различных млекопитающих."
+                            "text": "В научной статье описывались анатомические особенности <w>вагин</w> различных млекопитающих.",
+                            "target_lang_translations": {
+                                "en": "The scientific article described the anatomical features of the <w>vaginas</w> of various mammals."
+                            }
                         },
                         {
-                            "text": "Для исследования микрофлоры <w>вагин</w> были взяты соответствующие анализы."
+                            "text": "Для исследования микрофлоры <w>вагин</w> были взяты соответствующие анализы.",
+                            "target_lang_translations": {
+                                "en": "Appropriate samples were taken to study the microflora of the <w>vaginas</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -56,12 +83,19 @@
                         {
                             "trait_type": "form",
                             "comment": ""
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive plural form of the noun \"vagina\"."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "vaginas",
+                                "target_lang_sense_clarification": "plural form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

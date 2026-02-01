@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W tradycyjnym słowniku papierowym <w>lemma</w> jest zazwyczaj wyróżniona pogrubioną czcionką."
+                            "text": "W tradycyjnym słowniku papierowym <w>lemma</w> jest zazwyczaj wyróżniona pogrubioną czcionką.",
+                            "target_lang_translations": {
+                                "ru": "В традиционном бумажном словаре <w>лемма</w> обычно выделена жирным шрифтом."
+                            }
                         },
                         {
-                            "text": "Komputerowa analiza tekstu często wymaga, aby każde słowo zostało sprowadzone do swojej <w>lemmy</w>."
+                            "text": "Komputerowa analiza tekstu często wymaga, aby każde słowo zostało sprowadzone do swojej <w>lemmy</w>.",
+                            "target_lang_translations": {
+                                "ru": "Компьютерный анализ текста часто требует, чтобы каждое слово было приведено к своей <w>лемме</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,25 @@
                         "wyznaczanie lemmy",
                         "lemma czasownika"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "językoznawstwo, informatyka"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Основная, каноническая форма слова, которая представляет все его грамматические варианты и используется как заголовочное слово в словарях."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лемма",
+                                "target_lang_sense_clarification": "лингвистический термин"
+                            },
+                            {
+                                "target_lang_word": "словарная форма",
+                                "target_lang_sense_clarification": "грамматика"
+                            },
+                            {
+                                "target_lang_word": "начальная форма",
+                                "target_lang_sense_clarification": "грамматика"
+                            }
+                        ]
+                    }
                 }
             ]
         }

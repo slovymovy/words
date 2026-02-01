@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Als je het niet eens bent met de uitspraak, moet je handelen binnen de <w>beroepstermijn</w>."
+                            "text": "Als je het niet eens bent met de uitspraak, moet je handelen binnen de <w>beroepstermijn</w>.",
+                            "target_lang_translations": {
+                                "en": "If you disagree with the ruling, you must act within the <w>appeal period</w>.",
+                                "ru": "Если вы не согласны с постановлением, вы должны действовать в пределах <w>срока обжалования</w>."
+                            }
                         },
                         {
-                            "text": "De advocaat legde uit dat de <w>beroepstermijn</w> zes weken bedraagt na de dagtekening van het besluit."
+                            "text": "De advocaat legde uit dat de <w>beroepstermijn</w> zes weken bedraagt na de dagtekening van het besluit.",
+                            "target_lang_translations": {
+                                "en": "The lawyer explained that the <w>time limit for appeal</w> is six weeks from the date of the decision.",
+                                "ru": "Адвокат объяснил, что <w>срок подачи апелляции</w> составляет шесть недель с даты вынесения решения."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +36,32 @@
                         "de beroepstermijn verstrijkt",
                         "overschrijding van de beroepstermijn"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "juridische context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The fixed period during which a legal appeal can be lodged against a decision or verdict.",
+                        "ru": "Установленный период времени, в течение которого можно юридически обжаловать решение или приговор."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "appeal period",
+                                "target_lang_sense_clarification": "time frame to file an appeal"
+                            },
+                            {
+                                "target_lang_word": "time limit for appeal",
+                                "target_lang_sense_clarification": "legal deadline"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "срок обжалования",
+                                "target_lang_sense_clarification": "период для подачи жалобы на решение суда"
+                            },
+                            {
+                                "target_lang_word": "срок подачи апелляции",
+                                "target_lang_sense_clarification": "время, отведенное на официальное оспаривание"
+                            }
+                        ]
+                    }
                 }
             ]
         }

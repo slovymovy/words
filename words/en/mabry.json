@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Mabry</w> has been working at the local post office for over twenty years."
+                            "text": "Mr. <w>Mabry</w> has been working at the local post office for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Мэбри</w> работает в местном почтовом отделении уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We decided to invite the entire <w>Mabry</w> family to the neighborhood summer picnic."
+                            "text": "We decided to invite the entire <w>Mabry</w> family to the neighborhood summer picnic.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили пригласить всю семью <w>Мэбри</w> на соседский летний пикник."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Мэбри",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

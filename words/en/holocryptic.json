@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The spy used a <w>holocryptic</w> cipher to ensure that the enemy could never read the intercepted message."
+                            "text": "The spy used a <w>holocryptic</w> cipher to ensure that the enemy could never read the intercepted message.",
+                            "target_lang_translations": {
+                                "ru": "Шпион использовал <w>неразгадываемый</w> шифр, чтобы враг никогда не смог прочитать перехваченное сообщение."
+                            }
                         },
                         {
-                            "text": "Without the correct key, the <w>holocryptic</w> code appeared to be nothing more than a random sequence of characters."
+                            "text": "Without the correct key, the <w>holocryptic</w> code appeared to be nothing more than a random sequence of characters.",
+                            "target_lang_translations": {
+                                "ru": "Без правильного ключа этот <w>не поддающийся дешифровке</w> код казался не более чем случайной последовательностью символов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,21 @@
                         "holocryptic cipher",
                         "holocryptic code"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "cryptography"
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Описывает шифр или код, который полностью скрывает своё содержание и не может быть расшифрован без конкретного ключа."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неразгадываемый",
+                                "target_lang_sense_clarification": "о шифре или загадке"
+                            },
+                            {
+                                "target_lang_word": "не поддающийся дешифровке",
+                                "target_lang_sense_clarification": "невозможно прочитать без ключа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

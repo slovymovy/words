@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Za <w>niewypełnienie</w> powierzonych obowiązków pracownikowi grozi nagana."
+                            "text": "Za <w>niewypełnienie</w> powierzonych obowiązków pracownikowi grozi nagana.",
+                            "target_lang_translations": {
+                                "ru": "За <w>невыполнение</w> возложенных обязанностей работнику грозит выговор."
+                            }
                         },
                         {
-                            "text": "Proszę pamiętać, że <w>niewypełnienie</w> wszystkich pól formularza uniemożliwi jego wysłanie."
+                            "text": "Proszę pamiętać, że <w>niewypełnienie</w> wszystkich pól formularza uniemożliwi jego wysłanie.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, помните, что <w>незаполнение</w> всех полей формы сделает невозможной её отправку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,25 @@
                         "niewypełnienie formularza",
                         "niewypełnienie warunków umowy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "używane głównie w kontekstach urzędowych i prawnych"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Факт незаполнения чего-либо (например, документа) или невыполнения какой-либо обязанности"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "невыполнение",
+                                "target_lang_sense_clarification": "обязанностей, условий"
+                            },
+                            {
+                                "target_lang_word": "незаполнение",
+                                "target_lang_sense_clarification": "документа, формы"
+                            },
+                            {
+                                "target_lang_word": "неисполнение",
+                                "target_lang_sense_clarification": "официальное/формальное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

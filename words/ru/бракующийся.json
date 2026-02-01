@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Весь <w>бракующийся</w> отделом контроля товар немедленно отправляется на переработку."
+                            "text": "Весь <w>бракующийся</w> отделом контроля товар немедленно отправляется на переработку.",
+                            "target_lang_translations": {
+                                "en": "All merchandise <w>being rejected</w> by the quality control department is immediately sent for reprocessing."
+                            }
                         },
                         {
-                            "text": "Постоянно <w>бракующийся</w> материал заставил завод сменить поставщика сырья."
+                            "text": "Постоянно <w>бракующийся</w> материал заставил завод сменить поставщика сырья.",
+                            "target_lang_translations": {
+                                "en": "The material <w>being constantly rejected</w> forced the factory to change the raw material supplier."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,12 +48,27 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "manufacturing/quality control"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Being rejected or discarded as defective; undergoing the process of being marked as flawed."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "being rejected",
+                                "target_lang_sense_clarification": "as defective"
+                            },
+                            {
+                                "target_lang_word": "being discarded",
+                                "target_lang_sense_clarification": "due to flaws"
+                            },
+                            {
+                                "target_lang_word": "being culled",
+                                "target_lang_sense_clarification": "removed from a group"
+                            }
+                        ]
+                    }
                 }
             ]
         }

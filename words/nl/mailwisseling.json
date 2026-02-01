@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik heb een lange <w>mailwisseling</w> met de klantenservice gehad over mijn bestelling."
+                            "text": "Ik heb een lange <w>mailwisseling</w> met de klantenservice gehad over mijn bestelling.",
+                            "target_lang_translations": {
+                                "en": "I had a long <w>email exchange</w> with customer service about my order.",
+                                "ru": "У меня была долгая <w>переписка</w> со службой поддержки по поводу моего заказа."
+                            }
                         },
                         {
-                            "text": "Uit de <w>mailwisseling</w> bleek dat we elkaar verkeerd begrepen hadden."
+                            "text": "Uit de <w>mailwisseling</w> bleek dat we elkaar verkeerd begrepen hadden.",
+                            "target_lang_translations": {
+                                "en": "From the <w>email correspondence</w>, it became clear that we had misunderstood each other.",
+                                "ru": "Из <w>переписки</w> стало ясно, что мы неправильно поняли друг друга."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +37,37 @@
                         "lange mailwisseling",
                         "mailwisseling met",
                         "recente mailwisseling"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The exchange of emails between two or more people.",
+                        "ru": "Обмен электронными письмами между двумя или более людьми."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "email exchange",
+                                "target_lang_sense_clarification": "a conversation conducted via email"
+                            },
+                            {
+                                "target_lang_word": "email correspondence",
+                                "target_lang_sense_clarification": "communication by exchanging emails, often implying a series of messages"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переписка",
+                                "target_lang_sense_clarification": "обмен сообщениями"
+                            },
+                            {
+                                "target_lang_word": "обмен письмами",
+                                "target_lang_sense_clarification": "взаимная отправка писем"
+                            },
+                            {
+                                "target_lang_word": "электронная переписка",
+                                "target_lang_sense_clarification": "переписка по e-mail"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -8,17 +8,25 @@
             "senses": [
                 {
                     "sense_id": "fcf83b1e-412c-3fa1-a852-7efd2639b348",
-                    "sense_definition": "Een hoofdafdeling van een universiteit of hogeschool die onderwijs en onderzoek verzorgt in een specifiek vakgebied.",
-                    "learner_level": "B2",
+                    "sense_definition": "Een hoofdafdeling van een universiteit of hogeschool die onderwijs en onderzoek verzorgt binnen een specifiek vakgebied.",
+                    "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "university_division",
+                    "semantic_group_id": "university_dept",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij studeert al drie jaar aan de <w>faculteit</w> geneeskunde van de universiteit."
+                            "text": "Hij is onlangs benoemd tot decaan van de <w>faculteit</w> Geesteswetenschappen.",
+                            "target_lang_translations": {
+                                "en": "He was recently appointed Dean of the <w>Faculty</w> of Humanities.",
+                                "ru": "Недавно он был назначен деканом <w>факультета</w> гуманитарных наук."
+                            }
                         },
                         {
-                            "text": "De <w>faculteit</w> moet bezuinigen omdat er minder geld beschikbaar is voor onderzoek."
+                            "text": "De <w>faculteit</w> organiseert volgende week een open dag voor nieuwe studenten.",
+                            "target_lang_translations": {
+                                "en": "The <w>faculty</w> is organizing an open day for new students next week.",
+                                "ru": "На следующей неделе <w>факультет</w> организует день открытых дверей для новых студентов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,24 +34,54 @@
                         "departement"
                     ],
                     "common_phrases": [
-                        "aan de faculteit",
                         "faculteit der letteren",
-                        "decaan van de faculteit"
-                    ]
+                        "faculteit geneeskunde",
+                        "aan de faculteit"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A main division of a university or college that provides education and research within a specific field.",
+                        "ru": "Основное подразделение университета или института, которое обеспечивает обучение и проводит исследования в определенной области знаний."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "faculty",
+                                "target_lang_sense_clarification": "university division"
+                            },
+                            {
+                                "target_lang_word": "school",
+                                "target_lang_sense_clarification": "academic division (e.g., Law School)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "факультет",
+                                "target_lang_sense_clarification": "подразделение вуза"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "22ffb3cd-0151-3ece-807e-b096603c1c56",
-                    "sense_definition": "Het product van een reeks opeenvolgende gehele getallen van één tot en met een bepaald getal.",
+                    "sense_definition": "Een wiskundige functie die het product berekent van een reeks opeenvolgende gehele getallen van één tot en met een bepaald getal.",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "mathematics",
+                    "semantic_group_id": "math_term",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>faculteit</w> van vijf is gelijk aan honderdtwintig."
+                            "text": "Tijdens de wiskundeles moesten we de <w>faculteit</w> van grote getallen berekenen.",
+                            "target_lang_translations": {
+                                "en": "During math class, we had to calculate the <w>factorial</w> of large numbers.",
+                                "ru": "На уроке математики нам нужно было вычислить <w>факториал</w> больших чисел."
+                            }
                         },
                         {
-                            "text": "In de wiskundeles leerden we hoe je de <w>faculteit</w> van grote getallen berekent."
+                            "text": "De notatie voor 5 <w>faculteit</w> is 5! en de uitkomst is 120.",
+                            "target_lang_translations": {
+                                "en": "The notation for 5 <w>factorial</w> is 5! and the result is 120.",
+                                "ru": "Обозначение для 5 <w>факториал</w> — 5!, а результат равен 120."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -51,37 +89,92 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "technical",
-                            "comment": "wiskunde"
+                            "trait_type": "regional",
+                            "comment": "mathematics"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A mathematical function that calculates the product of a series of consecutive integers from one up to a specific number.",
+                        "ru": "Математическая функция, вычисляющая произведение последовательных целых чисел от единицы до заданного числа."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "factorial",
+                                "target_lang_sense_clarification": "mathematics"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "факториал",
+                                "target_lang_sense_clarification": "математика"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4a661a6b-a23d-3d57-ad84-d5c53c5200f4",
-                    "sense_definition": "Een specifiek geestelijk of lichamelijk vermogen om iets te kunnen doen.",
+                    "sense_definition": "Een geestelijk vermogen, talent of een specifieke bevoegdheid om iets te doen.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
                     "semantic_group_id": "ability",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ondanks zijn hoge leeftijd beschikt hij nog over elke geestelijke <w>faculteit</w>."
+                            "text": "Na het ongeluk was hij gelukkig nog in het bezit van al zijn geestelijke <w>faculteiten</w>.",
+                            "target_lang_translations": {
+                                "en": "Fortunately, after the accident, he was still in possession of all his mental <w>faculties</w>.",
+                                "ru": "К счастью, после аварии он всё ещё обладал всеми своими умственными <w>способностями</w>."
+                            }
                         },
                         {
-                            "text": "Het spreken is een unieke menselijke <w>faculteit</w> die ons onderscheidt van dieren."
+                            "text": "De wet verleent de minister de <w>faculteit</w> om in uitzonderlijke gevallen in te grijpen.",
+                            "target_lang_translations": {
+                                "en": "The law grants the minister the <w>power</w> to intervene in exceptional cases.",
+                                "ru": "Закон предоставляет министру <w>полномочие</w> вмешиваться в исключительных случаях."
+                            }
                         }
                     ],
                     "synonyms": [
                         "vermogen",
-                        "gave",
-                        "talent"
+                        "bevoegdheid",
+                        "gave"
+                    ],
+                    "common_phrases": [
+                        "geestelijke faculteiten"
                     ],
                     "traits": [
                         {
-                            "trait_type": "formal",
-                            "comment": ""
+                            "trait_type": "dated",
+                            "comment": "often used in formal or archaic contexts"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A mental ability, talent, or a specific authority to do something.",
+                        "ru": "Умственная способность, талант или особое полномочие делать что-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "faculty",
+                                "target_lang_sense_clarification": "mental ability or power"
+                            },
+                            {
+                                "target_lang_word": "power",
+                                "target_lang_sense_clarification": "authority or capability"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "способность",
+                                "target_lang_sense_clarification": "умственная возможность"
+                            },
+                            {
+                                "target_lang_word": "полномочие",
+                                "target_lang_sense_clarification": "право или власть (формально)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

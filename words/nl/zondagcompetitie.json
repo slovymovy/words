@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het eerste elftal speelt dit jaar niet meer in de <w>zondagcompetitie</w>."
+                            "text": "Het eerste elftal speelt dit jaar niet meer in de <w>zondagcompetitie</w>.",
+                            "target_lang_translations": {
+                                "ru": "Первая команда в этом году больше не играет в <w>воскресной лиге</w>.",
+                                "en": "The first team is no longer playing in the <w>Sunday league</w> this year."
+                            }
                         },
                         {
-                            "text": "Hij kijkt elke week naar de uitslagen van de <w>zondagcompetitie</w>."
+                            "text": "Hij kijkt elke week naar de uitslagen van de <w>zondagcompetitie</w>.",
+                            "target_lang_translations": {
+                                "ru": "Он каждую неделю смотрит результаты <w>воскресной лиги</w>.",
+                                "en": "He checks the results of the <w>Sunday league</w> every week."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -29,12 +37,32 @@
                         "in de zondagcompetitie spelen",
                         "de zondagcompetitie winnen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "sport"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Серия спортивных матчей между командами или клубами, которые проводятся специально по воскресеньям.",
+                        "en": "A series of sports matches between teams or clubs that are played specifically on Sundays."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "воскресная лига",
+                                "target_lang_sense_clarification": "спортивные соревнования по воскресеньям"
+                            },
+                            {
+                                "target_lang_word": "воскресный чемпионат",
+                                "target_lang_sense_clarification": "турнир, проходящий по воскресеньям"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Sunday league",
+                                "target_lang_sense_clarification": "sports league played on Sundays"
+                            },
+                            {
+                                "target_lang_word": "Sunday competition",
+                                "target_lang_sense_clarification": "organized matches on Sundays"
+                            }
+                        ]
+                    }
                 }
             ]
         }

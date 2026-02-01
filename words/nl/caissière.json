@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De jonge <w>caissière</w> werkt snel, nauwkeurig en staat de klanten vriendelijk te woord."
+                            "text": "De jonge <w>caissière</w> werkt snel, nauwkeurig en staat de klanten vriendelijk te woord.",
+                            "target_lang_translations": {
+                                "ru": "Молодая <w>кассирша</w> работает быстро, точно и вежливо общается с клиентами.",
+                                "en": "The young <w>cashier</w> works quickly, accurately, and attends to customers in a friendly manner."
+                            }
                         },
                         {
-                            "text": "Ik vroeg aan de <w>caissière</w> of ik met mijn pinpas kon betalen."
+                            "text": "Ik vroeg aan de <w>caissière</w> of ik met mijn pinpas kon betalen.",
+                            "target_lang_translations": {
+                                "ru": "Я спросил у <w>кассира</w>, могу ли я оплатить картой.",
+                                "en": "I asked the <w>cashier</w> if I could pay with my debit card."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "werken als caissière",
                         "vriendelijke caissière"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "beroep"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Женщина, которая по профессии занимается приемом платежей от клиентов в магазине или компании.",
+                        "en": "A woman whose job is to handle payments from customers in a store or business."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "кассир",
+                                "target_lang_sense_clarification": "профессия"
+                            },
+                            {
+                                "target_lang_word": "кассирша",
+                                "target_lang_sense_clarification": "женщина-кассир (разг.)"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "cashier",
+                                "target_lang_sense_clarification": "person handling payments"
+                            },
+                            {
+                                "target_lang_word": "checkout assistant",
+                                "target_lang_sense_clarification": "supermarket employee"
+                            }
+                        ]
+                    }
                 }
             ]
         }

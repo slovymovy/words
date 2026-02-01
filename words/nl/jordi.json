@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriend op school heet <w>Jordi</w>."
+                            "text": "Mijn beste vriend op school heet <w>Jordi</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend at school is called <w>Jordi</w>.",
+                                "ru": "Моего лучшего друга в школе зовут <w>Йорди</w>."
+                            }
                         },
                         {
-                            "text": "Heeft <w>Jordi</w> zijn huiswerk al gemaakt?"
+                            "text": "Heeft <w>Jordi</w> zijn huiswerk al gemaakt?",
+                            "target_lang_translations": {
+                                "en": "Has <w>Jordi</w> done his homework yet?",
+                                "ru": "<w>Йорди</w> уже сделал домашнее задание?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "mannelijk"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A boy's name.",
+                        "ru": "Мужское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Jordi",
+                                "target_lang_sense_clarification": "male given name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Йорди",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

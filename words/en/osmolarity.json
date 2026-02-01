@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Doctors often measure serum <w>osmolarity</w> to evaluate the balance of water and chemicals in the blood."
+                            "text": "Doctors often measure serum <w>osmolarity</w> to evaluate the balance of water and chemicals in the blood.",
+                            "target_lang_translations": {
+                                "ru": "Врачи часто измеряют <w>осмолярность</w> сыворотки, чтобы оценить баланс воды и химических веществ в крови."
+                            }
                         },
                         {
-                            "text": "Severe dehydration causes an increase in plasma <w>osmolarity</w>, which signals the body to conserve water."
+                            "text": "Severe dehydration causes an increase in plasma <w>osmolarity</w>, which signals the body to conserve water.",
+                            "target_lang_translations": {
+                                "ru": "Сильное обезвоживание вызывает повышение <w>осмолярности</w> плазмы, что сигнализирует организму о необходимости сохранять воду."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,17 @@
                         "urine osmolarity",
                         "high osmolarity"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "chemistry"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "physiology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Осмотическая концентрация раствора, обычно выражаемая в осмолях растворенного вещества на литр раствора."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "осмолярность",
+                                "target_lang_sense_clarification": "концентрация осмотически активных частиц"
+                            }
+                        ]
+                    }
                 }
             ]
         }

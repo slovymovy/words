@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач диагностировал у пациента острый <w>катаральный</w> отит."
+                            "text": "Врач диагностировал у пациента острый <w>катаральный</w> отит.",
+                            "target_lang_translations": {
+                                "en": "The doctor diagnosed the patient with acute <w>catarrhal</w> otitis."
+                            }
                         },
                         {
-                            "text": "При осмотре у ребёнка были выявлены <w>катаральные</w> явления в носоглотке."
+                            "text": "При осмотре у ребёнка были выявлены <w>катаральные</w> явления в носоглотке.",
+                            "target_lang_translations": {
+                                "en": "During the examination, <w>catarrhal</w> signs were detected in the child's nasopharynx."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -30,12 +36,17 @@
                         "катаральные явления",
                         "катаральный отит"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "используется для описания воспалительных процессов"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to or characteristic of catarrh (inflammation of the mucous membranes)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "catarrhal",
+                                "target_lang_sense_clarification": "medical"
+                            }
+                        ]
+                    }
                 }
             ]
         }

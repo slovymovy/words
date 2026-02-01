@@ -15,18 +15,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего лучшего друга зовут <w>Харлан</w>."
+                            "text": "Моего лучшего друга зовут <w>Харлан</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend's name is <w>Harlan</w>."
+                            }
                         },
                         {
-                            "text": "В исторических документах упоминается князь <w>Харлан</w>."
+                            "text": "В исторических документах упоминается князь <w>Харлан</w>.",
+                            "target_lang_translations": {
+                                "en": "Prince <w>Harlan</w> is mentioned in historical documents."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "мужское имя"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male personal name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Harlan",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

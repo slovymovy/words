@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Door de zware brand is het hele archief helaas <w>teloorgegaan</w>."
+                            "text": "Door de zware brand is het hele archief helaas <w>teloorgegaan</w>.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, the entire archive was <w>lost</w> due to the heavy fire.",
+                                "ru": "К сожалению, из-за сильного пожара весь архив <w>погиб</w>."
+                            }
                         },
                         {
-                            "text": "We moeten ons best doen zodat deze oude tradities niet zullen <w>teloorgaan</w>."
+                            "text": "We moeten ons best doen zodat deze oude tradities niet zullen <w>teloorgaan</w>.",
+                            "target_lang_translations": {
+                                "en": "We must do our best so that these old traditions will not <w>be lost</w>.",
+                                "ru": "Мы должны сделать всё возможное, чтобы эти старые традиции не <w>исчезли</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +44,40 @@
                         "niet teloorgaan",
                         "voorgoed teloorgaan"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "wordt voornamelijk in geschreven of plechtige taal gebruikt"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To be lost, disappear, or cease to exist.",
+                        "ru": "Быть потерянным, исчезнуть или прекратить существование."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be lost",
+                                "target_lang_sense_clarification": "general sense of ceasing to exist or being destroyed"
+                            },
+                            {
+                                "target_lang_word": "perish",
+                                "target_lang_sense_clarification": "formal, often regarding destruction or dying out"
+                            },
+                            {
+                                "target_lang_word": "disappear",
+                                "target_lang_sense_clarification": "to cease to exist"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "исчезать",
+                                "target_lang_sense_clarification": "переставать существовать"
+                            },
+                            {
+                                "target_lang_word": "погибать",
+                                "target_lang_sense_clarification": "разрушаться или уничтожаться (о предметах, коллекциях)"
+                            },
+                            {
+                                "target_lang_word": "пропадать",
+                                "target_lang_sense_clarification": "теряться безвозвратно"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts schreef antibiotica voor om de <w>bacteriële</w> infectie te bestrijden."
+                            "text": "De arts schreef antibiotica voor om de <w>bacteriële</w> infectie te bestrijden.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed antibiotics to fight the <w>bacterial</w> infection.",
+                                "ru": "Врач выписал антибиотики, чтобы побороть <w>бактериальную</w> инфекцию."
+                            }
                         },
                         {
-                            "text": "In het laboratorium onderzoeken wetenschappers de <w>bacteriële</w> groei op de monsters."
+                            "text": "In het laboratorium onderzoeken wetenschappers de <w>bacteriële</w> groei op de monsters.",
+                            "target_lang_translations": {
+                                "en": "In the laboratory, scientists are examining the <w>bacterial</w> growth on the samples.",
+                                "ru": "В лаборатории ученые исследуют <w>бактериальный</w> рост на образцах."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,16 +34,24 @@
                         "bacteriële besmetting",
                         "bacteriële groei"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "vaak gebruikt in de context van ziektes"
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": "biologie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to or caused by bacteria.",
+                        "ru": "Относящийся к бактериям или вызванный ими."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bacterial",
+                                "target_lang_sense_clarification": "relating to bacteria"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "бактериальный",
+                                "target_lang_sense_clarification": "связанный с бактериями"
+                            }
+                        ]
+                    }
                 }
             ]
         }

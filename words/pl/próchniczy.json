@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz dentysta oczyścił ubytek <w>próchniczy</w> i założył pacjentowi plombę."
+                            "text": "Lekarz dentysta oczyścił ubytek <w>próchniczy</w> i założył pacjentowi plombę.",
+                            "target_lang_translations": {
+                                "ru": "Стоматолог вычистил <w>кариозную</w> полость и поставил пациенту пломбу."
+                            }
                         },
                         {
-                            "text": "Nieleczone zmiany <w>próchnicze</w> mogą prowadzić do poważnych infekcji jamy ustnej."
+                            "text": "Nieleczone zmiany <w>próchnicze</w> mogą prowadzić do poważnych infekcji jamy ustnej.",
+                            "target_lang_translations": {
+                                "ru": "Невылеченные <w>кариозные</w> изменения могут привести к серьезным инфекциям полости рта."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "zmiana próchnicza",
                         "proces próchniczy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "stomatologia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Связанный с кариесом (болезнью зубов), относящийся к процессу разрушения твердых тканей зуба."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "кариозный",
+                                "target_lang_sense_clarification": "относящийся к кариесу"
+                            }
+                        ]
+                    }
                 }
             ]
         }

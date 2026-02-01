@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The patient developed an infection after being treated with an <w>unsterilized</w> needle."
+                            "text": "The patient developed an infection after being treated with an <w>unsterilized</w> needle.",
+                            "target_lang_translations": {
+                                "ru": "У пациента развилась инфекция после использования <w>нестерилизованной</w> иглы."
+                            }
                         },
                         {
-                            "text": "Surgeons must never use <w>unsterilized</w> equipment during an operation to ensure patient safety."
+                            "text": "Surgeons must never use <w>unsterilized</w> equipment during an operation to ensure patient safety.",
+                            "target_lang_translations": {
+                                "ru": "Хирурги ни в коем случае не должны использовать <w>нестерилизованное</w> оборудование во время операции для обеспечения безопасности пациента."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,21 @@
                         "unsterilized equipment",
                         "unsterilized instruments"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "common context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Не подвергшийся стерилизации; не очищенный от бактерий или других живых микроорганизмов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "нестерилизованный",
+                                "target_lang_sense_clarification": "не прошедший процесс стерилизации"
+                            },
+                            {
+                                "target_lang_word": "нестерильный",
+                                "target_lang_sense_clarification": "содержащий микробы, не обеззараженный"
+                            }
+                        ]
+                    }
                 }
             ]
         }

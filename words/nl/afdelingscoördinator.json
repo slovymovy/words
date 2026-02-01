@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>afdelingscoördinator</w> zorgt ervoor dat alle projecten op tijd worden afgerond."
+                            "text": "De <w>afdelingscoördinator</w> zorgt ervoor dat alle projecten op tijd worden afgerond.",
+                            "target_lang_translations": {
+                                "ru": "<w>Координатор отдела</w> следит за тем, чтобы все проекты были завершены вовремя.",
+                                "en": "The <w>department coordinator</w> ensures that all projects are completed on time."
+                            }
                         },
                         {
-                            "text": "Zij wil graag solliciteren naar de functie van <w>afdelingscoördinator</w> in het ziekenhuis."
+                            "text": "Zij wil graag solliciteren naar de functie van <w>afdelingscoördinator</w> in het ziekenhuis.",
+                            "target_lang_translations": {
+                                "ru": "Она хочет подать заявление на должность <w>координатора отделения</w> в больнице.",
+                                "en": "She would like to apply for the position of <w>ward coordinator</w> at the hospital."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "werken als afdelingscoördinator",
                         "functie van afdelingscoördinator"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "job title"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Сотрудник, ответственный за организацию и координацию работы и персонала в определенном отделе организации.",
+                        "en": "Someone responsible for organizing and coordinating work and staff within a specific department of an organization."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "координатор отдела",
+                                "target_lang_sense_clarification": "в компании или организации"
+                            },
+                            {
+                                "target_lang_word": "координатор отделения",
+                                "target_lang_sense_clarification": "в медицинском учреждении"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "department coordinator",
+                                "target_lang_sense_clarification": "general business or organizational context"
+                            },
+                            {
+                                "target_lang_word": "ward coordinator",
+                                "target_lang_sense_clarification": "medical or hospital context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

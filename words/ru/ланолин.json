@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот увлажняющий крем содержит натуральный <w>ланолин</w>, который смягчает сухую кожу."
+                            "text": "Этот увлажняющий крем содержит натуральный <w>ланолин</w>, который смягчает сухую кожу.",
+                            "target_lang_translations": {
+                                "en": "This moisturizing cream contains natural <w>lanolin</w>, which softens dry skin."
+                            }
                         },
                         {
-                            "text": "Фармацевт смешал <w>ланолин</w> с другими компонентами для получения лечебной мази."
+                            "text": "Фармацевт смешал <w>ланолин</w> с другими компонентами для получения лечебной мази.",
+                            "target_lang_translations": {
+                                "en": "The pharmacist mixed <w>lanolin</w> with other ingredients to produce a medicinal ointment."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "безводный ланолин",
                         "очищенный ланолин"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "chemistry, pharmacology, cosmetics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Animal wax obtained from washing sheep's wool, used as a base for ointments, cosmetic creams, and soaps."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "lanolin",
+                                "target_lang_sense_clarification": "fatty substance from wool"
+                            },
+                            {
+                                "target_lang_word": "wool wax",
+                                "target_lang_sense_clarification": "chemical synonym"
+                            }
+                        ]
+                    }
                 }
             ]
         }

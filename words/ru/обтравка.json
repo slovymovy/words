@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Для каталога товаров потребовалась качественная <w>обтравка</w> всех фотографий."
+                            "text": "Для каталога товаров потребовалась качественная <w>обтравка</w> всех фотографий.",
+                            "target_lang_translations": {
+                                "en": "High-quality <w>clipping</w> of all photos was required for the product catalog."
+                            }
                         },
                         {
-                            "text": "Сложная <w>обтравка</w> волос модели заняла у дизайнера несколько часов."
+                            "text": "Сложная <w>обтравка</w> волос модели заняла у дизайнера несколько часов.",
+                            "target_lang_translations": {
+                                "en": "The complex <w>clipping</w> of the model's hair took the designer several hours."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,25 @@
                         "контур обтравки",
                         "автоматическая обтравка"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "дизайн, полиграфия"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "In printing and design, the process of separating the main object in an image from the background (creating a clipping path)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "clipping",
+                                "target_lang_sense_clarification": "graphic design/image editing"
+                            },
+                            {
+                                "target_lang_word": "deep etching",
+                                "target_lang_sense_clarification": "printing industry term"
+                            },
+                            {
+                                "target_lang_word": "background removal",
+                                "target_lang_sense_clarification": "general description"
+                            }
+                        ]
+                    }
                 }
             ]
         }

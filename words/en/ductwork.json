@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The contractor needs to inspect the <w>ductwork</w> to find the source of the airflow problem."
+                            "text": "The contractor needs to inspect the <w>ductwork</w> to find the source of the airflow problem.",
+                            "target_lang_translations": {
+                                "ru": "Подрядчику необходимо осмотреть <w>систему воздуховодов</w>, чтобы найти причину проблемы с циркуляцией воздуха."
+                            }
                         },
                         {
-                            "text": "We decided to keep the exposed <w>ductwork</w> painted black for a modern industrial style."
+                            "text": "We decided to keep the exposed <w>ductwork</w> painted black for a modern industrial style.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили оставить открытые <w>воздуховоды</w> покрашенными в черный цвет для создания современного индустриального стиля."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,21 @@
                         "install ductwork",
                         "clean the ductwork"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "HVAC and construction context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Система труб или каналов в здании, используемая для вентиляции, отопления и кондиционирования воздуха."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "система воздуховодов",
+                                "target_lang_sense_clarification": "общая сеть вентиляционных труб"
+                            },
+                            {
+                                "target_lang_word": "воздуховоды",
+                                "target_lang_sense_clarification": "трубы для подачи воздуха"
+                            }
+                        ]
+                    }
                 }
             ]
         }

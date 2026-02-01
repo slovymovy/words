@@ -13,10 +13,16 @@
                     "name_type": "organization_name",
                     "examples": [
                         {
-                            "text": "Местное <w>УФАС</w> признало распространяемую рекламу банка ненадлежащей."
+                            "text": "Местное <w>УФАС</w> признало распространяемую рекламу банка ненадлежащей.",
+                            "target_lang_translations": {
+                                "en": "The local <w>UFAS</w> declared the bank's advertisement to be improper."
+                            }
                         },
                         {
-                            "text": "Предприниматель обратился в <w>УФАС</w> с жалобой на неправомерные действия заказчика."
+                            "text": "Предприниматель обратился в <w>УФАС</w> с жалобой на неправомерные действия заказчика.",
+                            "target_lang_translations": {
+                                "en": "The entrepreneur filed a complaint with the <w>UFAS</w> regarding the unlawful actions of the contracting authority."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,14 +33,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "administrative",
-                            "comment": "государственные органы"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "аббревиатура"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for the Directorate of the Federal Antimonopoly Service (a regional body)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "UFAS",
+                                "target_lang_sense_clarification": "Regional Office of the Federal Antimonopoly Service"
+                            },
+                            {
+                                "target_lang_word": "Regional FAS Office",
+                                "target_lang_sense_clarification": "descriptive translation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

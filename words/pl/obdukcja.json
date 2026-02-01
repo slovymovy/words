@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ofiara napadu zgłosiła się do lekarza sądowego, aby została przeprowadzona <w>obdukcja</w>."
+                            "text": "Ofiara napadu zgłosiła się do lekarza sądowego, aby została przeprowadzona <w>obdukcja</w>.",
+                            "target_lang_translations": {
+                                "ru": "Жертва нападения обратилась к судебно-медицинскому эксперту, чтобы пройти <w>освидетельствование</w>."
+                            }
                         },
                         {
-                            "text": "Szczegółowa <w>obdukcja</w> zwłok pozwoliła śledczym ustalić dokładny czas i przyczynę zgonu."
+                            "text": "Szczegółowa <w>obdukcja</w> zwłok pozwoliła śledczym ustalić dokładny czas i przyczynę zgonu.",
+                            "target_lang_translations": {
+                                "ru": "Детальное <w>вскрытие</w> трупа позволило следователям установить точное время и причину смерти."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,25 @@
                         "obdukcja lekarska",
                         "obdukcja zwłok"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Специализированное медицинское обследование тела живого человека или умершего с целью фиксации телесных повреждений или установления причины смерти, как правило, для судебных нужд."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "судебно-медицинская экспертиза",
+                                "target_lang_sense_clarification": "официальный термин, охватывающий и живых, и умерших"
+                            },
+                            {
+                                "target_lang_word": "освидетельствование",
+                                "target_lang_sense_clarification": "обследование живого человека (напр. для фиксации побоев)"
+                            },
+                            {
+                                "target_lang_word": "вскрытие",
+                                "target_lang_sense_clarification": "посмертное исследование (аутопсия)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

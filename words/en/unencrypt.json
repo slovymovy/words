@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "You will need a special key to <w>unencrypt</w> the files on this drive."
+                            "text": "You will need a special key to <w>unencrypt</w> the files on this drive.",
+                            "target_lang_translations": {
+                                "ru": "Вам понадобится специальный ключ, чтобы <w>расшифровать</w> файлы на этом диске."
+                            }
                         },
                         {
-                            "text": "The software is designed to <w>unencrypt</w> data automatically once the user logs in."
+                            "text": "The software is designed to <w>unencrypt</w> data automatically once the user logs in.",
+                            "target_lang_translations": {
+                                "ru": "Программное обеспечение предназначено для того, чтобы автоматически <w>расшифровывать</w> данные после входа пользователя в систему."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,21 @@
                         "unencrypt data",
                         "unencrypt the message"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Преобразовать зашифрованные данные обратно в их исходную, читаемую форму."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "расшифровать",
+                                "target_lang_sense_clarification": "преобразовать в читаемый вид"
+                            },
+                            {
+                                "target_lang_word": "дешифровать",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

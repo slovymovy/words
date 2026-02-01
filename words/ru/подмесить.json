@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Тесто получилось слишком жидким, поэтому пришлось <w>подмесить</w> ещё немного муки."
+                            "text": "Тесто получилось слишком жидким, поэтому пришлось <w>подмесить</w> ещё немного муки.",
+                            "target_lang_translations": {
+                                "en": "The dough turned out too runny, so I had to <w>knead in</w> a little more flour."
+                            }
                         },
                         {
-                            "text": "Повар решил <w>подмесить</w> в основу для пирога ароматные травы."
+                            "text": "Повар решил <w>подмесить</w> в основу для пирога ароматные травы.",
+                            "target_lang_translations": {
+                                "en": "The chef decided to <w>knead</w> aromatic herbs <w>into</w> the pie base."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,25 @@
                         "подмесить воды",
                         "подмесить в тесто"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "используется преимущественно в контексте приготовления пищи (работа с тестом, глиной и т.п.)"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To add an ingredient to a soft mass (usually dough) by kneading or mixing it in."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "knead in",
+                                "target_lang_sense_clarification": "to add by kneading (specifically for dough)"
+                            },
+                            {
+                                "target_lang_word": "mix in",
+                                "target_lang_sense_clarification": "to add by mixing"
+                            },
+                            {
+                                "target_lang_word": "work in",
+                                "target_lang_sense_clarification": "to incorporate an ingredient into a mixture"
+                            }
+                        ]
+                    }
                 }
             ]
         }

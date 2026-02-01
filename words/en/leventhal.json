@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Leventhal</w> has been managing the accounts for over twenty years."
+                            "text": "Mr. <w>Leventhal</w> has been managing the accounts for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Левенталь</w> управляет счетами уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The <w>Leventhal</w> family donated a large sum to the local library."
+                            "text": "The <w>Leventhal</w> family donated a large sum to the local library.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Левенталь</w> пожертвовала крупную сумму местной библиотеке."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Левенталь",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

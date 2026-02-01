@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В больнице полностью заменили старое <w>пищеблоковое</w> оборудование на современное."
+                            "text": "В больнице полностью заменили старое <w>пищеблоковое</w> оборудование на современное.",
+                            "target_lang_translations": {
+                                "en": "The hospital completely replaced the old <w>catering unit</w> equipment with modern equipment."
+                            }
                         },
                         {
-                            "text": "Санитарная инспекция тщательно проверила все <w>пищеблоковые</w> помещения в школе."
+                            "text": "Санитарная инспекция тщательно проверила все <w>пищеблоковые</w> помещения в школе.",
+                            "target_lang_translations": {
+                                "en": "The sanitary inspection thoroughly checked all the <w>food block</w> premises in the school."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,25 @@
                         "пищеблоковые помещения",
                         "пищеблоковый корпус"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "административный, официально-деловой контекст"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to a catering unit or food block; pertaining to the complex of facilities for food preparation in public institutions (hospitals, schools, camps)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "catering unit",
+                                "target_lang_sense_clarification": "attributive use; referring to institutional food preparation facilities"
+                            },
+                            {
+                                "target_lang_word": "food block",
+                                "target_lang_sense_clarification": "referring to the specific kitchen complex in an institution"
+                            },
+                            {
+                                "target_lang_word": "kitchen",
+                                "target_lang_sense_clarification": "general context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

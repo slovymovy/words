@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мама испекла вкусную <w>шарлотку</w> к чаю."
+                            "text": "Мама испекла вкусную <w>шарлотку</w> к чаю.",
+                            "target_lang_translations": {
+                                "en": "Mom baked a delicious <w>charlotte</w> for tea."
+                            }
                         },
                         {
-                            "text": "На десерт нам подали тёплую <w>шарлотку</w> с яблоками."
+                            "text": "На десерт нам подали тёплую <w>шарлотку</w> с яблоками.",
+                            "target_lang_translations": {
+                                "en": "For dessert, we were served warm <w>charlotte</w> with apples."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +34,25 @@
                         "рецепт шарлотки",
                         "кусочек шарлотки"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A sweet pie filled with sliced apples baked in batter."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "charlotte",
+                                "target_lang_sense_clarification": "apple sponge cake"
+                            },
+                            {
+                                "target_lang_word": "apple pie",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "apple cake",
+                                "target_lang_sense_clarification": "culinary description"
+                            }
+                        ]
+                    }
                 }
             ]
         }

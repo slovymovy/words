@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The company, <w>hereinafter</w> referred to as the \"Client\", agrees to all the terms listed below."
+                            "text": "The company, <w>hereinafter</w> referred to as the \"Client\", agrees to all the terms listed below.",
+                            "target_lang_translations": {
+                                "ru": "Компания, <w>в дальнейшем</w> именуемая «Клиент», соглашается со всеми условиями, перечисленными ниже."
+                            }
                         },
                         {
-                            "text": "All regulations described <w>hereinafter</w> must be strictly observed by the staff."
+                            "text": "All regulations described <w>hereinafter</w> must be strictly observed by the staff.",
+                            "target_lang_translations": {
+                                "ru": "Все правила, описанные <w>ниже</w>, должны строго соблюдаться персоналом."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,16 +45,25 @@
                         "hereinafter referred to as",
                         "hereinafter called"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "standard usage in official texts"
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": "typically found in contracts and agreements"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "В последующих частях этого документа или заявления"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "в дальнейшем",
+                                "target_lang_sense_clarification": "в тексте документа"
+                            },
+                            {
+                                "target_lang_word": "ниже",
+                                "target_lang_sense_clarification": "далее по тексту"
+                            },
+                            {
+                                "target_lang_word": "здесь и далее",
+                                "target_lang_sense_clarification": "в этом документе"
+                            }
+                        ]
+                    }
                 }
             ]
         }

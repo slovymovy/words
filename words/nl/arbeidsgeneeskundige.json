@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>arbeidsgeneeskundige</w> adviseerde de werknemer om tijdelijk minder uren te werken."
+                            "text": "De <w>arbeidsgeneeskundige</w> adviseerde de werknemer om tijdelijk minder uren te werken.",
+                            "target_lang_translations": {
+                                "en": "The <w>occupational physician</w> advised the employee to work fewer hours temporarily.",
+                                "ru": "<w>Профпатолог</w> посоветовал сотруднику временно сократить рабочее время."
+                            }
                         },
                         {
-                            "text": "Voor advies over veiligheid op de werkvloer kun je terecht bij een klinisch <w>arbeidsgeneeskundige</w>."
+                            "text": "Voor advies over veiligheid op de werkvloer kun je terecht bij een klinisch <w>arbeidsgeneeskundige</w>.",
+                            "target_lang_translations": {
+                                "en": "For advice on workplace safety, you can consult a clinical <w>occupational physician</w>.",
+                                "ru": "За советом по безопасности на рабочем месте вы можете обратиться к клиническому <w>профпатологу</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,32 @@
                         "advies van de arbeidsgeneeskundige",
                         "bezoek aan de arbeidsgeneeskundige"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "medical context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A doctor specialized in the influence of work on health, dealing with working conditions and occupational diseases.",
+                        "ru": "Врач, специализирующийся на влиянии работы на здоровье, занимающийся условиями труда и профессиональными заболеваниями."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "occupational physician",
+                                "target_lang_sense_clarification": "medical specialist in work-related health"
+                            },
+                            {
+                                "target_lang_word": "company doctor",
+                                "target_lang_sense_clarification": "doctor employed by an organization to attend to employees"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "профпатолог",
+                                "target_lang_sense_clarification": "врач-специалист по профессиональным болезням"
+                            },
+                            {
+                                "target_lang_word": "врач по гигиене труда",
+                                "target_lang_sense_clarification": "специалист по медицине труда"
+                            }
+                        ]
+                    }
                 }
             ]
         }

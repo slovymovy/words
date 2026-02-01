@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz stwierdził u pacjenta ostry epizod <w>psychotyczny</w> wymagający hospitalizacji."
+                            "text": "Lekarz stwierdził u pacjenta ostry epizod <w>psychotyczny</w> wymagający hospitalizacji.",
+                            "target_lang_translations": {
+                                "ru": "Врач диагностировал у пациента острый <w>психотический</w> эпизод, требующий госпитализации."
+                            }
                         },
                         {
-                            "text": "Nieleczone objawy <w>psychotyczne</w> mogą prowadzić do całkowitego oderwania od rzeczywistości."
+                            "text": "Nieleczone objawy <w>psychotyczne</w> mogą prowadzić do całkowitego oderwania od rzeczywistości.",
+                            "target_lang_translations": {
+                                "ru": "Нелеченные <w>психотические</w> симптомы могут привести к полному отрыву от реальности."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,17 @@
                         "zaburzenia psychotyczne",
                         "stan psychotyczny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin używany w psychiatrii i psychologii"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "связанный с психозом, относящийся к психозу или характерный для человека, страдающего этим психическим расстройством"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "психотический",
+                                "target_lang_sense_clarification": "связанный с психозом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

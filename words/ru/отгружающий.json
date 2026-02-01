@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Завод, <w>отгружающий</w> продукцию на экспорт, должен соблюдать международные стандарты."
+                            "text": "Завод, <w>отгружающий</w> продукцию на экспорт, должен соблюдать международные стандарты.",
+                            "target_lang_translations": {
+                                "en": "The factory <w>shipping</w> products for export must comply with international standards."
+                            }
                         },
                         {
-                            "text": "Сотрудник, <w>отгружающий</w> товар со склада, обязан проверить накладную."
+                            "text": "Сотрудник, <w>отгружающий</w> товар со склада, обязан проверить накладную.",
+                            "target_lang_translations": {
+                                "en": "The employee <w>dispatching</w> goods from the warehouse is required to check the invoice."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -44,12 +50,23 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": "logistics context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Describes a subject (person or entity) that is shipping, dispatching, or sending off cargo or goods."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "shipping",
+                                "target_lang_sense_clarification": "transporting goods"
+                            },
+                            {
+                                "target_lang_word": "dispatching",
+                                "target_lang_sense_clarification": "sending off goods"
+                            }
+                        ]
+                    }
                 }
             ]
         }

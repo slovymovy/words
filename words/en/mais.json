@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Mr. <w>Mais</w> to speak at the conference next week."
+                            "text": "We invited Mr. <w>Mais</w> to speak at the conference next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили мистера <w>Мейса</w> выступить на конференции на следующей неделе."
+                            }
                         },
                         {
-                            "text": "The <w>Mais</w> family has owned the bakery on the corner for decades."
+                            "text": "The <w>Mais</w> family has owned the bakery on the corner for decades.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Мейс</w> владеет пекарней на углу уже несколько десятилетий."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,22 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Мейс",
+                                "target_lang_sense_clarification": "фамилия"
+                            },
+                            {
+                                "target_lang_word": "Майс",
+                                "target_lang_sense_clarification": "фамилия (вариант транслитерации)"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -40,22 +61,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The patient was diagnosed with <w>MAIS</w> after a series of genetic tests."
+                            "text": "The patient was diagnosed with <w>MAIS</w> after a series of genetic tests.",
+                            "target_lang_translations": {
+                                "ru": "Пациенту диагностировали <w>МАИС</w> после серии генетических тестов."
+                            }
                         },
                         {
-                            "text": "Research into <w>MAIS</w> helps doctors understand variations in physical development."
+                            "text": "Research into <w>MAIS</w> helps doctors understand variations in physical development.",
+                            "target_lang_translations": {
+                                "ru": "Исследования <w>МАИС</w> помогают врачам понять вариации физического развития."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Аббревиатура от \"mild androgen insensitivity syndrome\" (синдром легкой нечувствительности к андрогенам)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "МАИС",
+                                "target_lang_sense_clarification": "медицинская аббревиатура"
+                            },
+                            {
+                                "target_lang_word": "синдром легкой нечувствительности к андрогенам",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врачи говорят, что здоровый <w>кишечник</w> очень важен для иммунитета."
+                            "text": "Врачи говорят, что здоровый <w>кишечник</w> очень важен для иммунитета.",
+                            "target_lang_translations": {
+                                "en": "Doctors say that a healthy <w>gut</w> is very important for immunity."
+                            }
                         },
                         {
-                            "text": "После отравления у него началось сильное расстройство <w>кишечника</w>."
+                            "text": "После отравления у него началось сильное расстройство <w>кишечника</w>.",
+                            "target_lang_translations": {
+                                "en": "After the poisoning, he developed a severe <w>bowel</w> disorder."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "микрофлора кишечника",
                         "работа кишечника"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "anatomical context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The digestive and excretory organ in humans and animals, consisting of the intestines and located in the abdominal cavity."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "intestines",
+                                "target_lang_sense_clarification": "Standard anatomical term, usually plural"
+                            },
+                            {
+                                "target_lang_word": "bowels",
+                                "target_lang_sense_clarification": "Medical or formal term"
+                            },
+                            {
+                                "target_lang_word": "gut",
+                                "target_lang_sense_clarification": "Informal, often used in the context of health and digestion"
+                            }
+                        ]
+                    }
                 }
             ]
         }

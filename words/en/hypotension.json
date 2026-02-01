@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor explained that her frequent dizziness was caused by <w>hypotension</w>."
+                            "text": "The doctor explained that her frequent dizziness was caused by <w>hypotension</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врач объяснил, что её частые головокружения вызваны <w>гипотензией</w>."
+                            }
                         },
                         {
-                            "text": "Elderly patients often suffer from <w>hypotension</w> when they stand up too quickly."
+                            "text": "Elderly patients often suffer from <w>hypotension</w> when they stand up too quickly.",
+                            "target_lang_translations": {
+                                "ru": "Пожилые пациенты часто страдают от <w>гипотензии</w>, когда слишком быстро встают."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "suffer from hypotension",
                         "severe hypotension"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Медицинское состояние, характеризующееся аномально низким кровяным давлением."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "гипотензия",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "гипотония",
+                                "target_lang_sense_clarification": "распространенное название"
+                            },
+                            {
+                                "target_lang_word": "пониженное давление",
+                                "target_lang_sense_clarification": "описательный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

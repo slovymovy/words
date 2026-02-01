@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Er zitten vierentwintig uur in een <w>etmaal</w>."
+                            "text": "Er zitten vierentwintig uur in een <w>etmaal</w>.",
+                            "target_lang_translations": {
+                                "en": "There are twenty-four hours in a <w>24-hour period</w>.",
+                                "ru": "В <w>сутках</w> двадцать четыре часа."
+                            }
                         },
                         {
-                            "text": "We moeten dit probleem binnen een <w>etmaal</w> oplossen."
+                            "text": "We moeten dit probleem binnen een <w>etmaal</w> oplossen.",
+                            "target_lang_translations": {
+                                "en": "We must solve this problem within <w>24 hours</w>.",
+                                "ru": "Мы должны решить эту проблему в течение <w>суток</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,7 +34,29 @@
                         "binnen een etmaal",
                         "per etmaal",
                         "een half etmaal"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A period of 24 hours, comprising a day and a night.",
+                        "ru": "Период времени в 24 часа, включающий день и ночь."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "24 hours",
+                                "target_lang_sense_clarification": "duration"
+                            },
+                            {
+                                "target_lang_word": "24-hour period",
+                                "target_lang_sense_clarification": "unit of time"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сутки",
+                                "target_lang_sense_clarification": "период в 24 часа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

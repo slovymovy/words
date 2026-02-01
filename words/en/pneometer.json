@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor instructed the patient to blow steadily into the <w>pneometer</w> to test their lung capacity."
+                            "text": "The doctor instructed the patient to blow steadily into the <w>pneometer</w> to test their lung capacity.",
+                            "target_lang_translations": {
+                                "ru": "Врач проинструктировал пациента равномерно дуть в <w>спирометр</w>, чтобы проверить объем легких."
+                            }
                         },
                         {
-                            "text": "Researchers used a calibrated <w>pneometer</w> to record the respiratory strength of the study participants."
+                            "text": "Researchers used a calibrated <w>pneometer</w> to record the respiratory strength of the study participants.",
+                            "target_lang_translations": {
+                                "ru": "Исследователи использовали откалиброванный <w>спирометр</w> для регистрации силы дыхания участников исследования."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +36,21 @@
                         "use a pneometer",
                         "pneometer reading"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context of usage"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "scientific instrument"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Прибор, используемый для измерения объема или силы воздуха, вдыхаемого или выдыхаемого легкими."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "спирометр",
+                                "target_lang_sense_clarification": "медицинский прибор для измерения объема легких"
+                            },
+                            {
+                                "target_lang_word": "пневматометр",
+                                "target_lang_sense_clarification": "инструмент для измерения силы дыхания"
+                            }
+                        ]
+                    }
                 }
             ]
         }

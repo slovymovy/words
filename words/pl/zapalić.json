@@ -1,12 +1,15 @@
 {
     "word_family": [
-        "zapalniczka",
+        "palić",
         "zapałka",
+        "zapalniczka",
         "zapłon",
         "zapalenie",
         "zapalny",
         "palny",
-        "łatwopalny"
+        "podpalić",
+        "rozpalić",
+        "wypalić"
     ],
     "entries": [
         {
@@ -14,17 +17,23 @@
             "senses": [
                 {
                     "sense_id": "789ecbee-f9cf-3b32-af08-a17951749a78",
-                    "sense_definition": "Sprawić, że coś zaczyna świecić lub dawać światło (np. lampa, światło w pokoju).",
+                    "sense_definition": "Sprawić, że źródło światła zaczyna świecić (np. lampa, żarówka).",
                     "learner_level": "A1",
                     "frequency": "High",
                     "semantic_group_id": "light_source",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kiedy weszła do ciemnego pokoju, natychmiast <w>zapaliła</w> górne światło."
+                            "text": "Gdy weszła do ciemnego pokoju, natychmiast <zapaliła> światło.",
+                            "target_lang_translations": {
+                                "ru": "Когда она вошла в темную комнату, она немедленно <зажгла> свет."
+                            }
                         },
                         {
-                            "text": "Proszę, <w>zapal</w> lampkę na biurku, bo nie widzę, co czytam."
+                            "text": "Musisz <zapalić> lampkę na biurku, żeby nie psuć sobie wzroku.",
+                            "target_lang_translations": {
+                                "ru": "Ты должен <включить> настольную лампу, чтобы не портить зрение."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,22 +47,43 @@
                     "common_phrases": [
                         "zapalić światło",
                         "zapalić lampę",
-                        "zapalić latarkę"
-                    ]
+                        "zapalić żarówkę"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Включить свет или заставить источник света светить (например, лампу)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "зажечь",
+                                "target_lang_sense_clarification": "свет, лампу (универсальное)"
+                            },
+                            {
+                                "target_lang_word": "включить",
+                                "target_lang_sense_clarification": "электрический свет"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "eff2b582-fee6-3e77-be53-db31a6a0b3fe",
                     "sense_definition": "Wzniecić ogień, sprawić, że coś zaczyna płonąć (np. zapałka, ognisko, papieros).",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "fire_start",
+                    "semantic_group_id": "fire_ignition",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Musimy <w>zapalić</w> ognisko, żeby upiec kiełbaski na kolację."
+                            "text": "Harcerze postanowili <zapalić> ognisko, aby ogrzać się w nocy.",
+                            "target_lang_translations": {
+                                "ru": "Скауты решили <развести> костер, чтобы согреться ночью."
+                            }
                         },
                         {
-                            "text": "Mężczyzna wyszedł na balkon, aby <w>zapalić</w> papierosa."
+                            "text": "Czy mogę <zapalić> papierosa na balkonie?",
+                            "target_lang_translations": {
+                                "ru": "Могу я <закурить> сигарету на балконе?"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -67,22 +97,47 @@
                         "zapalić papierosa",
                         "zapalić ognisko",
                         "zapalić znicz",
-                        "zapalić w piecu"
-                    ]
+                        "zapalić świeczkę"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Зажечь огонь, заставить что-то гореть (спичку, костер, сигарету)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "зажечь",
+                                "target_lang_sense_clarification": "спичку, свечу"
+                            },
+                            {
+                                "target_lang_word": "разжечь",
+                                "target_lang_sense_clarification": "костер, огонь"
+                            },
+                            {
+                                "target_lang_word": "закурить",
+                                "target_lang_sense_clarification": "сигарету"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6fd28a79-3505-31a6-9316-95e039c1dfed",
-                    "sense_definition": "Zacząć świecić, wyemitować światło (o lampie, ekranie, kontrolce).",
+                    "sense_definition": "Zacząć świecić lub emitować światło (o urządzeniu, lampie, kontrolce).",
                     "learner_level": "A2",
                     "frequency": "High",
                     "semantic_group_id": "light_source",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nagle na korytarzu <w>zapaliło</w> się światło, chociaż nikogo tam nie było."
+                            "text": "Czerwona kontrolka na desce rozdzielczej nagle się <zapaliła>.",
+                            "target_lang_translations": {
+                                "ru": "Красная лампочка на приборной панели внезапно <загорелась>."
+                            }
                         },
                         {
-                            "text": "Czerwona lampka ostrzegawcza <w>zapaliła</w> się na desce rozdzielczej."
+                            "text": "Latarnie uliczne <zapaliły> się, gdy tylko słońce zaszło za horyzont.",
+                            "target_lang_translations": {
+                                "ru": "Уличные фонари <зажглись>, как только солнце зашло за горизонт."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -97,51 +152,43 @@
                     "common_phrases": [
                         "światło się zapaliło",
                         "ekran się zapalił",
-                        "latarnia się zapaliła"
-                    ]
-                },
-                {
-                    "sense_id": "481d8fae-7463-3e3c-88fe-0be4d2375dd7",
-                    "sense_definition": "Uruchomić silnik pojazdu lub urządzenia; o silniku: zacząć pracować.",
-                    "learner_level": "B1",
-                    "frequency": "Middle",
-                    "semantic_group_id": "engine_start",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Zimą przy dużym mrozie trudno jest <w>zapalić</w> silnik starego samochodu."
-                        },
-                        {
-                            "text": "Przekręcił kluczyk w stacyjce, ale auto nie chciało <w>zapalić</w>."
-                        }
+                        "kontrolka się zapaliła"
                     ],
-                    "synonyms": [
-                        "uruchomić",
-                        "zaskoczyć"
-                    ],
-                    "antonyms": [
-                        "zgasić",
-                        "wyłączyć"
-                    ],
-                    "common_phrases": [
-                        "zapalić silnik",
-                        "zapalić samochód",
-                        "auto nie zapaliło"
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Начать светить или излучать свет (об устройстве, лампе, индикаторе)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "загореться",
+                                "target_lang_sense_clarification": "начать светить"
+                            },
+                            {
+                                "target_lang_word": "зажечься",
+                                "target_lang_sense_clarification": "о свете, фонарях"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "9a41979c-cd69-3d66-bd26-37e92c3f1e03",
-                    "sense_definition": "Zacząć płonąć, zostać objętym ogniem.",
-                    "learner_level": "B1",
-                    "frequency": "Middle",
-                    "semantic_group_id": "fire_start",
+                    "sense_definition": "Zacząć płonąć, zająć się ogniem.",
+                    "learner_level": "A2",
+                    "frequency": "High",
+                    "semantic_group_id": "fire_ignition",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Od rzuconej na ziemię zapałki błyskawicznie <w>zapaliła</w> się sucha trawa."
+                            "text": "Sucha trawa bardzo szybko <zapaliła> się od rzuconego niedopałka.",
+                            "target_lang_translations": {
+                                "ru": "Сухая трава очень быстро <загорелась> от брошенного окурка."
+                            }
                         },
                         {
-                            "text": "Stary drewniany dom <w>zapalił</w> się od uderzenia pioruna."
+                            "text": "Stary drewniany dom <zapalił> się podczas gwałtownej burzy.",
+                            "target_lang_translations": {
+                                "ru": "Старый деревянный дом <загорелся> во время сильной грозы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -152,23 +199,131 @@
                     ],
                     "common_phrases": [
                         "zapalić się od iskry",
-                        "las się zapalił",
-                        "dach się zapalił"
-                    ]
+                        "zapalić się żywym ogniem"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Начать гореть, охватиться огнем."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "загореться",
+                                "target_lang_sense_clarification": "воспламениться"
+                            },
+                            {
+                                "target_lang_word": "вспыхнуть",
+                                "target_lang_sense_clarification": "быстро загореться"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "e32eb4a4-2329-31d5-9291-1a557c842d2a",
-                    "sense_definition": "Nabrać wielkiej chęci, entuzjazmu i zapału do zrobienia czegoś.",
-                    "learner_level": "B2",
-                    "frequency": "Low",
-                    "semantic_group_id": "emotion",
+                    "sense_id": "481d8fae-7463-3e3c-88fe-0be4d2375dd7",
+                    "sense_definition": "Uruchomić silnik pojazdu lub urządzenia mechanicznego.",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "engine_start",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mój brat bardzo <w>zapalił</w> się do pomysłu wspólnego wyjazdu w góry."
+                            "text": "Zimą często trudno jest <zapalić> silnik w starym samochodzie.",
+                            "target_lang_translations": {
+                                "ru": "Зимой часто трудно <завести> двигатель в старой машине."
+                            }
                         },
                         {
-                            "text": "Początkowo była niechętna, ale po chwili <w>zapaliła</w> się do tego projektu."
+                            "text": "Kierowca wsiadł do auta, <zapalił> silnik i ruszył w drogę.",
+                            "target_lang_translations": {
+                                "ru": "Водитель сел в машину, <завел> двигатель и отправился в путь."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "uruchomić"
+                    ],
+                    "antonyms": [
+                        "zgasić",
+                        "wyłączyć"
+                    ],
+                    "common_phrases": [
+                        "zapalić silnik",
+                        "zapalić samochód",
+                        "zapalić auto"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Запустить двигатель транспортного средства."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "завести",
+                                "target_lang_sense_clarification": "машину, мотор"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "9dae80ea-755b-332a-be3e-206e6b92c4ac",
+                    "sense_definition": "O silniku: zacząć pracować.",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "engine_start",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Mój samochód w końcu <zapalił> po wielu nieudanych próbach.",
+                            "target_lang_translations": {
+                                "ru": "Моя машина наконец <завелась> после многих неудачных попыток."
+                            }
+                        },
+                        {
+                            "text": "Kosiarka nie chciała <zapalić>, więc musieliśmy wezwać mechanika.",
+                            "target_lang_translations": {
+                                "ru": "Газонокосилка не хотела <заводиться>, поэтому нам пришлось вызвать механика."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "zaskoczyć"
+                    ],
+                    "antonyms": [
+                        "zgasnąć"
+                    ],
+                    "common_phrases": [
+                        "nie chce zapalić",
+                        "auto zapaliło"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "О двигателе: начать работать."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "завестись",
+                                "target_lang_sense_clarification": "о машине, моторе"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "e32eb4a4-2329-31d5-9291-1a557c842d2a",
+                    "sense_definition": "Nabrać wielkiej chęci, entuzjazmu i zapału do realizacji jakiegoś pomysłu.",
+                    "learner_level": "B2",
+                    "frequency": "Middle",
+                    "semantic_group_id": "enthusiasm",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Mój brat bardzo <zapalił> się do nauki gry na gitarze elektrycznej.",
+                            "target_lang_translations": {
+                                "ru": "Мой брат очень <загорелся> идеей научиться играть на электрогитаре."
+                            }
+                        },
+                        {
+                            "text": "Cały zespół szybko <zapalił> się do nowego projektu szefa.",
+                            "target_lang_translations": {
+                                "ru": "Вся команда быстро <загорелась> новым проектом начальника."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -180,14 +335,73 @@
                     "common_phrases": [
                         "zapalić się do pomysłu",
                         "zapalić się do pracy",
-                        "szybko się zapalić"
+                        "zapalić się do projektu"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Загореться идеей, проявить большой энтузиазм."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "загореться",
+                                "target_lang_sense_clarification": "идеей, желанием"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "789f9534-3124-30e7-8d56-f37bf8947435",
+                    "sense_definition": "Oczuwać nagły przypływ silnych emocji, takich jak gniew lub wstyd.",
+                    "learner_level": "C1",
+                    "frequency": "Low",
+                    "semantic_group_id": "emotions",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Jego twarz <zapaliła> się rumieńcem, gdy usłyszał ten komplement.",
+                            "target_lang_translations": {
+                                "ru": "Его лицо <вспыхнуло> румянцем, когда он услышал этот комплимент."
+                            }
+                        },
+                        {
+                            "text": "Dyskusja była ostra i polityk szybko <zapalił> się gniewem.",
+                            "target_lang_translations": {
+                                "ru": "Дискуссия была острой, и политик быстро <вспыхнул> от гнева."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "zagotować się"
+                    ],
+                    "antonyms": [
+                        "opaść"
+                    ],
+                    "common_phrases": [
+                        "zapalić się gniewem",
+                        "twarz się zapaliła",
+                        "oczy się zapaliły"
                     ],
                     "traits": [
                         {
-                            "trait_type": "figurative",
-                            "comment": "odnosi się do emocji i motywacji"
+                            "trait_type": "colloquial",
+                            "comment": "często używane w kontekście nagłych emocji"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Испытать внезапный прилив сильных эмоций (гнева, стыда)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вспыхнуть",
+                                "target_lang_sense_clarification": "от гнева, стыда"
+                            },
+                            {
+                                "target_lang_word": "залиться",
+                                "target_lang_sense_clarification": "румянцем"
+                            }
+                        ]
+                    }
                 }
             ]
         }

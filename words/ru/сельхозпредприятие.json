@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Государство выделило субсидии на развитие местных <w>сельхозпредприятий</w>."
+                            "text": "Государство выделило субсидии на развитие местных <w>сельхозпредприятий</w>.",
+                            "target_lang_translations": {
+                                "en": "The state allocated subsidies for the development of local <w>agricultural enterprises</w>."
+                            }
                         },
                         {
-                            "text": "Крупное <w>сельхозпредприятие</w> объявило о наборе новых сотрудников на сезонные работы."
+                            "text": "Крупное <w>сельхозпредприятие</w> объявило о наборе новых сотрудников на сезонные работы.",
+                            "target_lang_translations": {
+                                "en": "A large <w>agricultural enterprise</w> announced the recruitment of new employees for seasonal work."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,25 @@
                         "работники сельхозпредприятия",
                         "поддержка сельхозпредприятий"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "используется в экономическом и официальном контексте"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An enterprise engaged in the production, processing, or sale of agricultural products"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "agricultural enterprise",
+                                "target_lang_sense_clarification": "formal business entity"
+                            },
+                            {
+                                "target_lang_word": "agribusiness",
+                                "target_lang_sense_clarification": "commercial farming business"
+                            },
+                            {
+                                "target_lang_word": "farming enterprise",
+                                "target_lang_sense_clarification": "business involved in farming"
+                            }
+                        ]
+                    }
                 }
             ]
         }

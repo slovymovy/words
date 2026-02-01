@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "При неправильной сушке досок часто происходит их сильное <w>коробление</w>."
+                            "text": "При неправильной сушке досок часто происходит их сильное <w>коробление</w>.",
+                            "target_lang_translations": {
+                                "en": "Improper drying of boards often results in their severe <w>warping</w>."
+                            }
                         },
                         {
-                            "text": "Термическая обработка деталей может вызвать <w>коробление</w> металла, если не соблюдать технологию."
+                            "text": "Термическая обработка деталей может вызвать <w>коробление</w> металла, если не соблюдать технологию.",
+                            "target_lang_translations": {
+                                "en": "Heat treatment of parts can cause <w>warping</w> of the metal if the technology is not followed."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,12 +46,25 @@
                         "допустимое коробление",
                         "степень коробления"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering and woodworking context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The curvature or change in shape of a material (usually wood or metal) caused by moisture, temperature fluctuations, or internal stresses."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "warping",
+                                "target_lang_sense_clarification": "deformation of material due to heat or moisture"
+                            },
+                            {
+                                "target_lang_word": "buckling",
+                                "target_lang_sense_clarification": "bending or collapsing under pressure or heat"
+                            },
+                            {
+                                "target_lang_word": "distortion",
+                                "target_lang_sense_clarification": "general alteration of original shape"
+                            }
+                        ]
+                    }
                 }
             ]
         }

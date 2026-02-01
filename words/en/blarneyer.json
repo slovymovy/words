@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The politician was a skilled <w>blarneyer</w> who could charm almost anyone in the room."
+                            "text": "The politician was a skilled <w>blarneyer</w> who could charm almost anyone in the room.",
+                            "target_lang_translations": {
+                                "ru": "Этот политик был искусным <w>краснобаем</w>, который мог очаровать почти любого в комнате."
+                            }
                         },
                         {
-                            "text": "Don't trust that old <w>blarneyer</w>; he is just trying to get a favor from you."
+                            "text": "Don't trust that old <w>blarneyer</w>; he is just trying to get a favor from you.",
+                            "target_lang_translations": {
+                                "ru": "Не доверяй этому старому <w>льстецу</w>; он просто пытается добиться от тебя одолжения."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +33,25 @@
                         "sweet-talker",
                         "wheedler"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "often used in a playful or slightly derogatory context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, использующий лесть или красноречие, чтобы уговорить или очаровать людей"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "льстец",
+                                "target_lang_sense_clarification": "человек, который льстит"
+                            },
+                            {
+                                "target_lang_word": "краснобай",
+                                "target_lang_sense_clarification": "человек, склонный к многословию и красноречию"
+                            },
+                            {
+                                "target_lang_word": "улещиватель",
+                                "target_lang_sense_clarification": "тот, кто добивается своего лестью и уговорами"
+                            }
+                        ]
+                    }
                 }
             ]
         }

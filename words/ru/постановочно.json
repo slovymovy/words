@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот спектакль был <w>постановочно</w> очень сложным, требующим слаженной работы всех служб театра."
+                            "text": "Этот спектакль был <w>постановочно</w> очень сложным, требующим слаженной работы всех служб театра.",
+                            "target_lang_translations": {
+                                "en": "This play was very complex <w>in terms of staging</w>, requiring the coordinated work of all theater departments."
+                            }
                         },
                         {
-                            "text": "Фильм выглядит <w>постановочно</w> безупречным, каждая сцена продумана до мелочей."
+                            "text": "Фильм выглядит <w>постановочно</w> безупречным, каждая сцена продумана до мелочей.",
+                            "target_lang_translations": {
+                                "en": "The film looks <w>production-wise</w> flawless; every scene is thought out to the smallest detail."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                         "постановочно интересный",
                         "решено постановочно"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "театр и кино"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "From the perspective of staging, production design, or the technical organization of a performance or film."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "in terms of staging",
+                                "target_lang_sense_clarification": "referring to the arrangement and direction of a performance"
+                            },
+                            {
+                                "target_lang_word": "production-wise",
+                                "target_lang_sense_clarification": "regarding the technical and artistic aspects of a production"
+                            },
+                            {
+                                "target_lang_word": "scenically",
+                                "target_lang_sense_clarification": "regarding the visual or stage presentation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

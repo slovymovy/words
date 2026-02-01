@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited the <w>Hein</w> family to the dinner party next week."
+                            "text": "We invited the <w>Hein</w> family to the dinner party next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Хайн</w> на званый ужин на следующей неделе."
+                            }
                         },
                         {
-                            "text": "Is Dr. <w>Hein</w> available for a consultation later today?"
+                            "text": "Is Dr. <w>Hein</w> available for a consultation later today?",
+                            "target_lang_translations": {
+                                "ru": "Доктор <w>Хайн</w> свободен для консультации сегодня попозже?"
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хайн",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

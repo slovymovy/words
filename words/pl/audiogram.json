@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz laryngolog dokładnie przeanalizował mój <w>audiogram</w> podczas wizyty."
+                            "text": "Lekarz laryngolog dokładnie przeanalizował mój <w>audiogram</w> podczas wizyty.",
+                            "target_lang_translations": {
+                                "ru": "ЛОР-врач тщательно проанализировал мою <w>аудиограмму</w> во время приема."
+                            }
                         },
                         {
-                            "text": "Na podstawie tego <w>audiogramu</w> dobrano pacjentowi odpowiedni aparat słuchowy."
+                            "text": "Na podstawie tego <w>audiogramu</w> dobrano pacjentowi odpowiedni aparat słuchowy.",
+                            "target_lang_translations": {
+                                "ru": "На основании этой <w>аудиограммы</w> пациенту подобрали подходящий слуховой аппарат."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,12 +37,17 @@
                         "wynik audiogramu",
                         "prawidłowy audiogram"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "laryngologia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Запись результата исследования слуха, выполненного с помощью аудиометра, обычно в форме графика."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "аудиограмма",
+                                "target_lang_sense_clarification": "график слуха"
+                            }
+                        ]
+                    }
                 }
             ]
         }

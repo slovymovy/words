@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего нового коллегу из Швеции зовут <w>Ларс</w>."
+                            "text": "Моего нового коллегу из Швеции зовут <w>Ларс</w>.",
+                            "target_lang_translations": {
+                                "en": "My new colleague from Sweden is named <w>Lars</w>."
+                            }
                         },
                         {
-                            "text": "Известный режиссёр <w>Ларс</w> фон Триер представил свой новый фильм."
+                            "text": "Известный режиссёр <w>Ларс</w> фон Триер представил свой новый фильм.",
+                            "target_lang_translations": {
+                                "en": "The famous director <w>Lars</w> von Trier presented his new film."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,12 +32,17 @@
                         "Ларс фон Триер",
                         "Ларс Ульрих"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male name common in Scandinavian countries"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Lars",
+                                "target_lang_sense_clarification": "male name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zdiagnozował u mojego syna <w>atopowe</w> zapalenie skóry."
+                            "text": "Lekarz zdiagnozował u mojego syna <w>atopowe</w> zapalenie skóry.",
+                            "target_lang_translations": {
+                                "ru": "Врач диагностировал у моего сына <w>атопический</w> дерматит."
+                            }
                         },
                         {
-                            "text": "Osoby z cerą <w>atopową</w> powinny unikać silnych detergentów i szorstkich tkanin."
+                            "text": "Osoby z cerą <w>atopową</w> powinny unikać silnych detergentów i szorstkich tkanin.",
+                            "target_lang_translations": {
+                                "ru": "Людям с <w>атопической</w> кожей следует избегать сильных моющих средств и грубых тканей."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "wyprysk atopowy",
                         "marsz atopowy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "связанный с атопией, генетической склонностью к аллергическим реакциям (часто проявляется на коже или в виде астмы)"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "атопический",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

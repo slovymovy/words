@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Прошу принять меры в отношении <w>вышеназванного</w> сотрудника."
+                            "text": "Прошу принять меры в отношении <w>вышеназванного</w> сотрудника.",
+                            "target_lang_translations": {
+                                "en": "I request that measures be taken regarding the <w>above-named</w> employee."
+                            }
                         },
                         {
-                            "text": "Все <w>вышеназванные</w> документы должны быть предоставлены в оригинале."
+                            "text": "Все <w>вышеназванные</w> документы должны быть предоставлены в оригинале.",
+                            "target_lang_translations": {
+                                "en": "All <w>aforementioned</w> documents must be provided in the original."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,25 @@
                         "вышеназванные причины",
                         "вышеназванные лица"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "офиц."
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": "используется в деловой переписке"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "One that was mentioned or named earlier in the text or speech."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "above-named",
+                                "target_lang_sense_clarification": "formal, specifically referring to a person or entity named previously"
+                            },
+                            {
+                                "target_lang_word": "aforementioned",
+                                "target_lang_sense_clarification": "formal, referring to something previously cited"
+                            },
+                            {
+                                "target_lang_word": "above-mentioned",
+                                "target_lang_sense_clarification": "general formal reference"
+                            }
+                        ]
+                    }
                 }
             ]
         }

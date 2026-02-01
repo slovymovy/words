@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мастер, <w>отпаявший</w> старый конденсатор, заменил его на новый."
+                            "text": "Мастер, <w>отпаявший</w> старый конденсатор, заменил его на новый.",
+                            "target_lang_translations": {
+                                "en": "The technician <w>who unsoldered</w> the old capacitor replaced it with a new one."
+                            }
                         },
                         {
-                            "text": "Ювелир, аккуратно <w>отпаявший</w> сломанную застёжку, приступил к её починке."
+                            "text": "Ювелир, аккуратно <w>отпаявший</w> сломанную застёжку, приступил к её починке.",
+                            "target_lang_translations": {
+                                "en": "The jeweler, <w>who carefully unsoldered</w> the broken clasp, proceeded to repair it."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,12 +48,27 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "electronics, metalwork"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb <w>to unsolder</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who unsoldered",
+                                "target_lang_sense_clarification": "relative clause describing the subject"
+                            },
+                            {
+                                "target_lang_word": "having unsoldered",
+                                "target_lang_sense_clarification": "participial phrase indicating completed action"
+                            },
+                            {
+                                "target_lang_word": "who desoldered",
+                                "target_lang_sense_clarification": "technical context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

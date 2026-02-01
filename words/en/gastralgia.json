@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The patient was admitted to the hospital suffering from acute <w>gastralgia</w>."
+                            "text": "The patient was admitted to the hospital suffering from acute <w>gastralgia</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пациент был госпитализирован с острой <w>гастралгией</w>."
+                            }
                         },
                         {
-                            "text": "Doctors often treat <w>gastralgia</w> by addressing the underlying digestive issues."
+                            "text": "Doctors often treat <w>gastralgia</w> by addressing the underlying digestive issues.",
+                            "target_lang_translations": {
+                                "ru": "Врачи часто лечат <w>гастралгию</w>, устраняя основные проблемы с пищеварением."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "chronic gastralgia",
                         "severe gastralgia"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Боль в желудке или области живота, обычно схваткообразного характера."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "гастралгия",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "боль в желудке",
+                                "target_lang_sense_clarification": "симптом"
+                            }
+                        ]
+                    }
                 }
             ]
         }

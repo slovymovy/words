@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The store manager decided to <w>reprice</w> the winter collection to encourage more sales."
+                            "text": "The store manager decided to <w>reprice</w> the winter collection to encourage more sales.",
+                            "target_lang_translations": {
+                                "ru": "Управляющий магазином решил <w>переоценить</w> зимнюю коллекцию, чтобы стимулировать продажи."
+                            }
                         },
                         {
-                            "text": "Banks may <w>reprice</w> loans when the central bank adjusts the interest rates."
+                            "text": "Banks may <w>reprice</w> loans when the central bank adjusts the interest rates.",
+                            "target_lang_translations": {
+                                "ru": "Банки могут <w>пересмотреть стоимость</w> кредитов, когда центральный банк корректирует процентные ставки."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "reprice assets",
                         "reprice the loan"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "common in retail and finance contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Назначить новую цену чему-либо, обычно изменяя стоимость товара, услуги или актива."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "переоценивать",
+                                "target_lang_sense_clarification": "изменять цену или стоимость"
+                            },
+                            {
+                                "target_lang_word": "изменять цену",
+                                "target_lang_sense_clarification": "назначать другую цену"
+                            }
+                        ]
+                    }
                 }
             ]
         }

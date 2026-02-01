@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The manager checked the inventory before opening the <w>salesroom</w> to the public."
+                            "text": "The manager checked the inventory before opening the <w>salesroom</w> to the public.",
+                            "target_lang_translations": {
+                                "ru": "Менеджер проверил запасы перед тем, как открыть <w>торговый зал</w> для посетителей."
+                            }
                         },
                         {
-                            "text": "All the antique furniture was arranged neatly in the main <w>salesroom</w> for inspection."
+                            "text": "All the antique furniture was arranged neatly in the main <w>salesroom</w> for inspection.",
+                            "target_lang_translations": {
+                                "ru": "Вся антикварная мебель была аккуратно расставлена в главном <w>выставочном зале</w> для осмотра."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,25 @@
                         "main salesroom",
                         "visit the salesroom"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "often used in the context of auctions or wholesale"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Помещение или зона, где товары выставлены для показа и продажи покупателям."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "торговый зал",
+                                "target_lang_sense_clarification": "помещение магазина"
+                            },
+                            {
+                                "target_lang_word": "выставочный зал",
+                                "target_lang_sense_clarification": "место для демонстрации образцов"
+                            },
+                            {
+                                "target_lang_word": "аукционный зал",
+                                "target_lang_sense_clarification": "место проведения торгов"
+                            }
+                        ]
+                    }
                 }
             ]
         }

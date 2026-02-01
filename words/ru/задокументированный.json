@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот <задокументированный> факт подтверждает нашу теорию о происхождении вида."
+                            "text": "Этот <задокументированный> факт подтверждает нашу теорию о происхождении вида.",
+                            "target_lang_translations": {
+                                "en": "This <w>documented</w> fact confirms our theory about the origin of the species."
+                            }
                         },
                         {
-                            "text": "В архиве хранится каждый официально <задокументированный> случай нарушения границы."
+                            "text": "В архиве хранится каждый официально <задокументированный> случай нарушения границы.",
+                            "target_lang_translations": {
+                                "en": "Every officially <w>documented</w> case of border violation is kept in the archive."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,21 @@
                         "официально задокументированный",
                         "документально задокументированный"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "используется в официальной и деловой речи"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Recorded or fixed in official documents, files, or other media."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "documented",
+                                "target_lang_sense_clarification": "recorded in documents or files"
+                            },
+                            {
+                                "target_lang_word": "recorded",
+                                "target_lang_sense_clarification": "set down in writing or other permanent form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

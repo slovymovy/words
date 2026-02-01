@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De regering overweegt om een algemene <w>vaccinatieplicht</w> in te voeren voor de hele bevolking."
+                            "text": "De regering overweegt om een algemene <w>vaccinatieplicht</w> in te voeren voor de hele bevolking.",
+                            "target_lang_translations": {
+                                "en": "The government is considering introducing a general <w>vaccine mandate</w> for the entire population.",
+                                "ru": "Правительство рассматривает возможность введения всеобщей <w>обязательной вакцинации</w> для всего населения."
+                            }
                         },
                         {
-                            "text": "Er is veel maatschappelijke discussie over de wenselijkheid van een <w>vaccinatieplicht</w>."
+                            "text": "Er is veel maatschappelijke discussie over de wenselijkheid van een <w>vaccinatieplicht</w>.",
+                            "target_lang_translations": {
+                                "en": "There is a lot of public debate about the desirability of a <w>vaccine mandate</w>.",
+                                "ru": "В обществе ведется много дискуссий о целесообразности <w>обязательной вакцинации</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,32 @@
                         "vaccinatieplicht invoeren",
                         "discussie over vaccinatieplicht"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "context"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A legal obligation to get vaccinated against a specific disease.",
+                        "ru": "Законодательное требование пройти вакцинацию против определенной болезни."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "vaccine mandate",
+                                "target_lang_sense_clarification": "official order"
+                            },
+                            {
+                                "target_lang_word": "mandatory vaccination",
+                                "target_lang_sense_clarification": "policy requirement"
+                            },
+                            {
+                                "target_lang_word": "compulsory vaccination",
+                                "target_lang_sense_clarification": "legal obligation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "обязательная вакцинация",
+                                "target_lang_sense_clarification": "требование сделать прививку"
+                            }
+                        ]
+                    }
                 }
             ]
         }

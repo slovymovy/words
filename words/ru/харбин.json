@@ -17,10 +17,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Я в Китае бывал, до самого <w>Харбина</w> ездил."
+                            "text": "Я в Китае бывал, до самого <w>Харбина</w> ездил.",
+                            "target_lang_translations": {
+                                "en": "I've been to China, I traveled all the way to <w>Harbin</w>."
+                            }
                         },
                         {
-                            "text": "Город <w>Харбин</w>, как мне помнится, находится в Китае."
+                            "text": "Город <w>Харбин</w>, как мне помнится, находится в Китае.",
+                            "target_lang_translations": {
+                                "en": "The city of <w>Harbin</w>, as I recall, is located in China."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "жить в Харбине",
                         "поехать в Харбин"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "city"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A city in China, the administrative center of Heilongjiang province."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Harbin",
+                                "target_lang_sense_clarification": "city in China"
+                            }
+                        ]
+                    }
                 }
             ]
         }

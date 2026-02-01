@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Za <nieposiadanie> ważnego biletu w komunikacji miejskiej grozi mandat."
+                            "text": "Za <nieposiadanie> ważnego biletu w komunikacji miejskiej grozi mandat.",
+                            "target_lang_translations": {
+                                "ru": "За <отсутствие> действительного билета в общественном транспорте грозит штраф."
+                            }
                         },
                         {
-                            "text": "Oskarżony tłumaczył się <nieposiadaniem> wiedzy na temat popełnionego przestępstwa."
+                            "text": "Oskarżony tłumaczył się <nieposiadaniem> wiedzy na temat popełnionego przestępstwa.",
+                            "target_lang_translations": {
+                                "ru": "Обвиняемый оправдывался <отсутствием> знаний о совершенном преступлении."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "kara za nieposiadanie",
                         "skutki nieposiadania"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "słowo używane często w kontekstach prawnych i administracyjnych"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "факт отсутствия чего-либо в собственности или распоряжении; неимение"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "отсутствие",
+                                "target_lang_sense_clarification": "чего-либо (напр. документов, билета)"
+                            },
+                            {
+                                "target_lang_word": "неимение",
+                                "target_lang_sense_clarification": "формально: факт того, что у кого-то чего-то нет"
+                            },
+                            {
+                                "target_lang_word": "невладение",
+                                "target_lang_sense_clarification": "отсутствие права собственности"
+                            }
+                        ]
+                    }
                 }
             ]
         }

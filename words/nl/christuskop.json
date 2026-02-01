@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De kunstenaar maakte een gedetailleerde schets van een <w>christuskop</w> met een doornenkroon."
+                            "text": "De kunstenaar maakte een gedetailleerde schets van een <w>christuskop</w> met een doornenkroon.",
+                            "target_lang_translations": {
+                                "en": "The artist made a detailed sketch of a <w>head of Christ</w> with a crown of thorns.",
+                                "ru": "Художник сделал детальный набросок <w>головы Христа</w> в терновом венце."
+                            }
                         },
                         {
-                            "text": "In het museum hangt een prachtige <w>christuskop</w> die door een onbekende meester is geschilderd."
+                            "text": "In het museum hangt een prachtige <w>christuskop</w> die door een onbekende meester is geschilderd.",
+                            "target_lang_translations": {
+                                "en": "In the museum hangs a beautiful <w>head of Christ</w> painted by an unknown master.",
+                                "ru": "В музее висит прекрасная <w>голова Христа</w>, написанная неизвестным мастером."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +38,32 @@
                         "een houten christuskop",
                         "een getekende christuskop"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "kunst"
-                        },
-                        {
-                            "trait_type": "religious",
-                            "comment": "christendom"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A depiction or artistic representation of the head of Christ.",
+                        "ru": "Изображение или художественное представление головы Иисуса Христа."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "head of Christ",
+                                "target_lang_sense_clarification": "artistic representation"
+                            },
+                            {
+                                "target_lang_word": "Christ's head",
+                                "target_lang_sense_clarification": "artistic representation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "голова Христа",
+                                "target_lang_sense_clarification": "художественное изображение"
+                            },
+                            {
+                                "target_lang_word": "лик Христа",
+                                "target_lang_sense_clarification": "возвышенный или иконописный образ"
+                            }
+                        ]
+                    }
                 }
             ]
         }

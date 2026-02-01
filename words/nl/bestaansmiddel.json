@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Voor veel mensen in deze regio is de visserij het belangrijkste <w>bestaansmiddel</w>."
+                            "text": "Voor veel mensen in deze regio is de visserij het belangrijkste <w>bestaansmiddel</w>.",
+                            "target_lang_translations": {
+                                "en": "For many people in this region, fishing is the most important <w>livelihood</w>.",
+                                "ru": "Для многих людей в этом регионе рыболовство является основным <w>средством к существованию</w>."
+                            }
                         },
                         {
-                            "text": "Hij moest op zoek naar een nieuw <w>bestaansmiddel</w> nadat hij zijn baan was kwijtgeraakt."
+                            "text": "Hij moest op zoek naar een nieuw <w>bestaansmiddel</w> nadat hij zijn baan was kwijtgeraakt.",
+                            "target_lang_translations": {
+                                "en": "He had to look for a new <w>means of support</w> after he lost his job.",
+                                "ru": "Ему пришлось искать новый <w>источник существования</w> после того, как он потерял работу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +44,36 @@
                         "enige bestaansmiddel",
                         "als bestaansmiddel"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "wordt vaak gebruikt in economische of sociologische contexten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A source of income or resources necessary to stay alive and provide for one's own maintenance.",
+                        "ru": "Источник дохода или ресурсы, необходимые для поддержания жизни и самообеспечения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "livelihood",
+                                "target_lang_sense_clarification": "means of securing the necessities of life"
+                            },
+                            {
+                                "target_lang_word": "means of subsistence",
+                                "target_lang_sense_clarification": "resources required for survival"
+                            },
+                            {
+                                "target_lang_word": "means of support",
+                                "target_lang_sense_clarification": "source of income to live on"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "средства к существованию",
+                                "target_lang_sense_clarification": "материальные ресурсы, необходимые для жизни"
+                            },
+                            {
+                                "target_lang_word": "источник существования",
+                                "target_lang_sense_clarification": "деятельность или ресурс, обеспечивающий жизнь"
+                            }
+                        ]
+                    }
                 }
             ]
         }

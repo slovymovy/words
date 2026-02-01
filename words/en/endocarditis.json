@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor suspected infective <w>endocarditis</w> after hearing a new murmur during the examination."
+                            "text": "The doctor suspected infective <w>endocarditis</w> after hearing a new murmur during the examination.",
+                            "target_lang_translations": {
+                                "ru": "Врач заподозрил инфекционный <w>эндокардит</w>, услышав новый шум во время осмотра."
+                            }
                         },
                         {
-                            "text": "Patients with artificial heart valves are at a higher risk of developing <w>endocarditis</w>."
+                            "text": "Patients with artificial heart valves are at a higher risk of developing <w>endocarditis</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пациенты с искусственными клапанами сердца подвержены более высокому риску развития <w>эндокардита</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,17 @@
                         "bacterial endocarditis",
                         "subacute endocarditis"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "pathology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Воспаление эндокарда — внутренней оболочки камер и клапанов сердца."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "эндокардит",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

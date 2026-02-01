@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На обед бабушка сварила вкусный <w>фасолевый</w> суп."
+                            "text": "На обед бабушка сварила вкусный <w>фасолевый</w> суп.",
+                            "target_lang_translations": {
+                                "en": "For lunch, grandma cooked a delicious <w>bean</w> soup."
+                            }
                         },
                         {
-                            "text": "Этот острый <w>фасолевый</w> соус отлично подходит к мясу."
+                            "text": "Этот острый <w>фасолевый</w> соус отлично подходит к мясу.",
+                            "target_lang_translations": {
+                                "en": "This spicy <w>bean</w> sauce goes perfectly with meat."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "фасолевый салат",
                         "фасолевый стручок"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "часто используется в названиях блюд"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to beans; made from beans."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bean",
+                                "target_lang_sense_clarification": "attributive use (e.g. bean soup)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

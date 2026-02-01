@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего хорошего друга зовут <w>Сандро</w>."
+                            "text": "Моего хорошего друга зовут <w>Сандро</w>.",
+                            "target_lang_translations": {
+                                "en": "My good friend's name is <w>Sandro</w>."
+                            }
                         },
                         {
-                            "text": "Вчера <w>Сандро</w> пригласил нас к себе в гости."
+                            "text": "Вчера <w>Сандро</w> пригласил нас к себе в гости.",
+                            "target_lang_translations": {
+                                "en": "Yesterday <w>Sandro</w> invited us over to his place."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,17 @@
                         "дядя Сандро",
                         "друг Сандро"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male personal name, the Georgian variant of the name Alexander."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Sandro",
+                                "target_lang_sense_clarification": "male name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts heeft samen met de patiënt een nieuw <w>behandelingsplan</w> gemaakt."
+                            "text": "De arts heeft samen met de patiënt een nieuw <w>behandelingsplan</w> gemaakt.",
+                            "target_lang_translations": {
+                                "en": "The doctor created a new <w>treatment plan</w> together with the patient.",
+                                "ru": "Врач вместе с пациентом составил новый <w>план лечения</w>."
+                            }
                         },
                         {
-                            "text": "Op basis van de onderzoeksresultaten zal er een <w>behandelingsplan</w> worden opgesteld."
+                            "text": "Op basis van de onderzoeksresultaten zal er een <w>behandelingsplan</w> worden opgesteld.",
+                            "target_lang_translations": {
+                                "en": "Based on the test results, a <w>treatment plan</w> will be drawn up.",
+                                "ru": "На основе результатов обследования будет составлен <w>план лечения</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,24 @@
                         "individueel behandelingsplan",
                         "behandelingsplan bespreken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A document outlining the approach, goals, and description of a medical or therapeutic treatment.",
+                        "ru": "Документ, в котором описываются подход, цели и содержание медицинского или терапевтического лечения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "treatment plan",
+                                "target_lang_sense_clarification": "medical or therapeutic strategy"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "план лечения",
+                                "target_lang_sense_clarification": "документ с описанием терапии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач, <w>перевязавший</w> рану пострадавшему, дал рекомендации по уходу."
+                            "text": "Врач, <w>перевязавший</w> рану пострадавшему, дал рекомендации по уходу.",
+                            "target_lang_translations": {
+                                "en": "The doctor <w>who bandaged</w> the victim's wound gave care recommendations."
+                            }
                         },
                         {
-                            "text": "Грузчик, <w>перевязавший</w> коробки прочной верёвкой, поставил их в угол."
+                            "text": "Грузчик, <w>перевязавший</w> коробки прочной верёвкой, поставил их в угол.",
+                            "target_lang_translations": {
+                                "en": "The loader <w>who tied up</w> the boxes with strong rope put them in the corner."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,7 +45,26 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb 'to bandage' or 'to tie up'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who bandaged",
+                                "target_lang_sense_clarification": "medical context"
+                            },
+                            {
+                                "target_lang_word": "who tied up",
+                                "target_lang_sense_clarification": "fastening objects"
+                            },
+                            {
+                                "target_lang_word": "having bandaged",
+                                "target_lang_sense_clarification": "perfective aspect"
+                            }
+                        ]
+                    }
                 }
             ]
         }

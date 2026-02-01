@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Кусок мяса, <w>шпигующийся</w> чесноком и морковью, лежал на разделочной доске."
+                            "text": "Кусок мяса, <w>шпигующийся</w> чесноком и морковью, лежал на разделочной доске.",
+                            "target_lang_translations": {
+                                "en": "The piece of meat <w>being larded</w> with garlic and carrots lay on the cutting board."
+                            }
                         },
                         {
-                            "text": "Этот рулет, <w>шпигующийся</w> ароматными травами, обещает быть очень вкусным."
+                            "text": "Этот рулет, <w>шпигующийся</w> ароматными травами, обещает быть очень вкусным.",
+                            "target_lang_translations": {
+                                "en": "This roll, <w>being stuffed</w> with aromatic herbs, promises to be very tasty."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,23 @@
                         {
                             "trait_type": "form",
                             "comment": "причастие"
-                        },
-                        {
-                            "trait_type": "culinary",
-                            "comment": "термин приготовления пищи"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Present active participle of the verb 'шпиговаться', describing food (usually meat) that is undergoing the process of being larded or stuffed with ingredients."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "being larded",
+                                "target_lang_sense_clarification": "culinary term for inserting strips of fat or vegetables into meat"
+                            },
+                            {
+                                "target_lang_word": "being stuffed",
+                                "target_lang_sense_clarification": "general term for filling or inserting ingredients into food"
+                            }
+                        ]
+                    }
                 }
             ]
         }

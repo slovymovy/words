@@ -21,10 +21,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zeefdruk is een veelgebruikte <w>druktechniek</w> voor het bedrukken van kleding."
+                            "text": "Zeefdruk is een veelgebruikte <w>druktechniek</w> voor het bedrukken van kleding.",
+                            "target_lang_translations": {
+                                "en": "Screen printing is a frequently used <w>printing technique</w> for printing on clothing.",
+                                "ru": "Шелкография — это часто используемая <w>техника печати</w> для нанесения изображений на одежду."
+                            }
                         },
                         {
-                            "text": "Met deze nieuwe <w>druktechniek</w> zijn de kleuren veel helderder dan voorheen."
+                            "text": "Met deze nieuwe <w>druktechniek</w> zijn de kleuren veel helderder dan voorheen.",
+                            "target_lang_translations": {
+                                "en": "With this new <w>printing technique</w>, the colors are much brighter than before.",
+                                "ru": "С этой новой <w>техникой печати</w> цвета стали намного ярче, чем раньше."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +44,36 @@
                         "digitale druktechniek",
                         "oude druktechnieken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "printing industry context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The method or process used to print text and images onto paper or other material.",
+                        "ru": "Метод или процесс, используемый для печати текста и изображений на бумаге или другом материале."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "printing technique",
+                                "target_lang_sense_clarification": "specific method used for printing"
+                            },
+                            {
+                                "target_lang_word": "printing method",
+                                "target_lang_sense_clarification": "process or procedure of printing"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "техника печати",
+                                "target_lang_sense_clarification": "общий термин для методов нанесения изображения"
+                            },
+                            {
+                                "target_lang_word": "технология печати",
+                                "target_lang_sense_clarification": "технологический процесс создания печатной продукции"
+                            },
+                            {
+                                "target_lang_word": "способ печати",
+                                "target_lang_sense_clarification": "конкретный метод (например, офсет, цифровая печать)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

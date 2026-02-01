@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn grootmoeder was een zeer <w>vrome</w> vrouw die elke dag bad."
+                            "text": "Mijn grootmoeder was een zeer <w>vrome</w> vrouw die elke dag bad.",
+                            "target_lang_translations": {
+                                "en": "My grandmother was a very <w>pious</w> woman who prayed every day.",
+                                "ru": "Моя бабушка была очень <w>набожной</w> женщиной, которая молилась каждый день."
+                            }
                         },
                         {
-                            "text": "De monniken probeerden een <w>vroom</w> leven te leiden binnen de muren van het klooster."
+                            "text": "De monniken probeerden een <w>vroom</w> leven te leiden binnen de muren van het klooster.",
+                            "target_lang_translations": {
+                                "en": "The monks tried to lead a <w>devout</w> life within the walls of the monastery.",
+                                "ru": "Монахи старались вести <w>благочестивую</w> жизнь в стенах монастыря."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "een vroom mens",
                         "een vroom leven"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "wordt gebruikt in de context van geloof en religie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Religious in outlook and way of life; deeply believing and devoted to God.",
+                        "ru": "Религиозный во взглядах и образе жизни; глубоко верующий и преданный Богу."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pious",
+                                "target_lang_sense_clarification": "devoutly religious"
+                            },
+                            {
+                                "target_lang_word": "devout",
+                                "target_lang_sense_clarification": "showing deep religious commitment"
+                            },
+                            {
+                                "target_lang_word": "godly",
+                                "target_lang_sense_clarification": "showing great reverence for God"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "набожный",
+                                "target_lang_sense_clarification": "ревностно исполняющий религиозные обряды"
+                            },
+                            {
+                                "target_lang_word": "благочестивый",
+                                "target_lang_sense_clarification": "соблюдающий предписания веры, праведный"
+                            }
+                        ]
+                    }
                 }
             ]
         }

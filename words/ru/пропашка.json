@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Весенняя <w>пропашка</w> земли необходима для получения хорошего урожая."
+                            "text": "Весенняя <w>пропашка</w> земли необходима для получения хорошего урожая.",
+                            "target_lang_translations": {
+                                "en": "Spring <w>tilling</w> of the land is necessary to obtain a good harvest."
+                            }
                         },
                         {
-                            "text": "Междурядная <w>пропашка</w> картофеля помогает избавиться от сорняков и сохранить влагу."
+                            "text": "Междурядная <w>пропашка</w> картофеля помогает избавиться от сорняков и сохранить влагу.",
+                            "target_lang_translations": {
+                                "en": "Inter-row <w>cultivation</w> of potatoes helps get rid of weeds and conserve moisture."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "глубокая пропашка",
                         "сплошная пропашка"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "agricultural"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The act of tilling or loosening the soil using agricultural tools."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tilling",
+                                "target_lang_sense_clarification": "general soil preparation"
+                            },
+                            {
+                                "target_lang_word": "cultivation",
+                                "target_lang_sense_clarification": "loosening soil, often between rows"
+                            },
+                            {
+                                "target_lang_word": "ploughing",
+                                "target_lang_sense_clarification": "turning over soil"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "eb616a30-dcd7-3c57-9f9b-328c77ffca01",
@@ -52,10 +71,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На краю поля осталась небольшая <w>пропашка</w>, которую тракторист не заметил."
+                            "text": "На краю поля осталась небольшая <w>пропашка</w>, которую тракторист не заметил.",
+                            "target_lang_translations": {
+                                "en": "A small <w>miss</w> remained at the edge of the field, which the tractor driver did not notice."
+                            }
                         },
                         {
-                            "text": "Бригадир ругал пахаря за каждую <w>пропашку</w>, обнаруженную на участке."
+                            "text": "Бригадир ругал пахаря за каждую <w>пропашку</w>, обнаруженную на участке.",
+                            "target_lang_translations": {
+                                "en": "The foreman scolded the ploughman for every <w>skip</w> found on the plot."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -66,7 +91,26 @@
                             "trait_type": "regional",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A patch of land accidentally left unploughed during tillage."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "miss",
+                                "target_lang_sense_clarification": "an accidental skip in ploughing"
+                            },
+                            {
+                                "target_lang_word": "balk",
+                                "target_lang_sense_clarification": "an unploughed strip of ground"
+                            },
+                            {
+                                "target_lang_word": "skip",
+                                "target_lang_sense_clarification": "an omitted section"
+                            }
+                        ]
+                    }
                 }
             ]
         }

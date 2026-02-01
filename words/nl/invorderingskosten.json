@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Als je de factuur niet op tijd betaalt, worden er extra <w>invorderingskosten</w> berekend."
+                            "text": "Als je de factuur niet op tijd betaalt, worden er extra <w>invorderingskosten</w> berekend.",
+                            "target_lang_translations": {
+                                "en": "If you don't pay the invoice on time, extra <w>collection costs</w> will be charged.",
+                                "ru": "Если вы не оплатите счет вовремя, будут начислены дополнительные <w>расходы по взысканию</w>."
+                            }
                         },
                         {
-                            "text": "De rechter bepaalde dat de schuldenaar ook de buitengerechtelijke <w>invorderingskosten</w> moest vergoeden."
+                            "text": "De rechter bepaalde dat de schuldenaar ook de buitengerechtelijke <w>invorderingskosten</w> moest vergoeden.",
+                            "target_lang_translations": {
+                                "en": "The judge ruled that the debtor also had to reimburse the extrajudicial <w>collection costs</w>.",
+                                "ru": "Судья постановил, что должник также должен возместить внесудебные <w>издержки по взысканию</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +39,32 @@
                         "wettelijke invorderingskosten",
                         "invorderingskosten betalen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "financial context"
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": "debt collection context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Costs incurred to collect an outstanding debt or unpaid bill.",
+                        "ru": "Расходы, понесенные с целью взыскания непогашенного долга или неоплаченного счета."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "collection costs",
+                                "target_lang_sense_clarification": "fees charged for collecting a debt"
+                            },
+                            {
+                                "target_lang_word": "recovery costs",
+                                "target_lang_sense_clarification": "costs associated with recovering money owed"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "расходы по взысканию",
+                                "target_lang_sense_clarification": "затраты на процесс истребования долга"
+                            },
+                            {
+                                "target_lang_word": "издержки по взысканию",
+                                "target_lang_sense_clarification": "официальный термин для затрат, связанных с взысканием задолженности"
+                            }
+                        ]
+                    }
                 }
             ]
         }

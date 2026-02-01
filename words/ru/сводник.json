@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом романе старик выступает как хитрый <w>сводник</w>, знающий все тайны города."
+                            "text": "В этом романе старик выступает как хитрый <w>сводник</w>, знающий все тайны города.",
+                            "target_lang_translations": {
+                                "en": "In this novel, the old man acts as a cunning <w>procurer</w>, knowing all the secrets of the city."
+                            }
                         },
                         {
-                            "text": "За свои тайные услуги <w>сводник</w> потребовал от клиента большую сумму денег."
+                            "text": "За свои тайные услуги <w>сводник</w> потребовал от клиента большую сумму денег.",
+                            "target_lang_translations": {
+                                "en": "For his secret services, the <w>pimp</w> demanded a large sum of money from the client."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,25 @@
                         "услуги сводника",
                         "роль сводника"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "literary",
-                            "comment": "часто встречается в классической литературе"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A person who acts as an intermediary in love affairs, facilitating connections between men and women, often for profit."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pimp",
+                                "target_lang_sense_clarification": "someone who controls prostitutes and arranges clients for them"
+                            },
+                            {
+                                "target_lang_word": "procurer",
+                                "target_lang_sense_clarification": "a person who obtains others for sexual gratification"
+                            },
+                            {
+                                "target_lang_word": "pander",
+                                "target_lang_sense_clarification": "someone who facilitates illicit love affairs or vices"
+                            }
+                        ]
+                    }
                 }
             ]
         }

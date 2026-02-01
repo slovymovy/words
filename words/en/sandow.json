@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Sandow</w> introduced himself to the board members before the presentation began."
+                            "text": "Mr. <w>Sandow</w> introduced himself to the board members before the presentation began.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Сандов</w> представился членам правления перед началом презентации."
+                            }
                         },
                         {
-                            "text": "The historical records show that the <w>Sandow</w> family emigrated here in the late nineteenth century."
+                            "text": "The historical records show that the <w>Sandow</w> family emigrated here in the late nineteenth century.",
+                            "target_lang_translations": {
+                                "ru": "Исторические записи показывают, что семья <w>Сандовых</w> эмигрировала сюда в конце девятнадцатого века."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from German"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сандов",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

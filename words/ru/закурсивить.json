@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Редактор попросил меня <w>закурсивить</w> все иностранные слова в статье."
+                            "text": "Редактор попросил меня <w>закурсивить</w> все иностранные слова в статье.",
+                            "target_lang_translations": {
+                                "en": "The editor asked me to <w>italicize</w> all foreign words in the article."
+                            }
                         },
                         {
-                            "text": "Ты забыл <w>закурсивить</w> название книги в библиографическом списке."
+                            "text": "Ты забыл <w>закурсивить</w> название книги в библиографическом списке.",
+                            "target_lang_translations": {
+                                "en": "You forgot to <w>italicize</w> the book title in the bibliography."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,23 @@
                         {
                             "trait_type": "colloquial",
                             "comment": "разг."
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": "text editing context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To format text using italics (slanted font style)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "italicize",
+                                "target_lang_sense_clarification": "typography"
+                            },
+                            {
+                                "target_lang_word": "put in italics",
+                                "target_lang_sense_clarification": "formatting"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Omdat de e-mail niet werkte, hebben we het contract per <w>faxpost</w> verstuurd."
+                            "text": "Omdat de e-mail niet werkte, hebben we het contract per <w>faxpost</w> verstuurd.",
+                            "target_lang_translations": {
+                                "en": "Because the email wasn't working, we sent the contract by <w>fax</w>.",
+                                "ru": "Так как электронная почта не работала, мы отправили контракт <w>факсимильной почтой</w>."
+                            }
                         },
                         {
-                            "text": "De secretaresse legt alle binnengekomen <w>faxpost</w> elke ochtend op het bureau van de directeur."
+                            "text": "De secretaresse legt alle binnengekomen <w>faxpost</w> elke ochtend op het bureau van de directeur.",
+                            "target_lang_translations": {
+                                "en": "The secretary puts all incoming <w>faxes</w> on the director's desk every morning.",
+                                "ru": "Секретарь каждое утро кладет всю входящую <w>факсимильную почту</w> на стол директора."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,7 +46,33 @@
                             "trait_type": "dated",
                             "comment": "verwijst naar technologie die grotendeels is vervangen door e-mail"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Mail sent or received via a fax machine.",
+                        "ru": "Почта, отправленная или полученная посредством факсимильного аппарата."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fax",
+                                "target_lang_sense_clarification": "document sent via telephone line"
+                            },
+                            {
+                                "target_lang_word": "fax mail",
+                                "target_lang_sense_clarification": "correspondence sent via fax"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "факсимильная почта",
+                                "target_lang_sense_clarification": "официальная корреспонденция"
+                            },
+                            {
+                                "target_lang_word": "факс",
+                                "target_lang_sense_clarification": "общее название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

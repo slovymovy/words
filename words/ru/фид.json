@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Я настроил <w>фид</w> для получения свежих новостей на телефон."
+                            "text": "Я настроил <w>фид</w> для получения свежих новостей на телефон.",
+                            "target_lang_translations": {
+                                "en": "I set up a <w>feed</w> to receive fresh news on my phone."
+                            }
                         },
                         {
-                            "text": "Этот <w>фид</w> позволяет автоматически публиковать новые статьи в социальных сетях."
+                            "text": "Этот <w>фид</w> позволяет автоматически публиковать новые статьи в социальных сетях.",
+                            "target_lang_translations": {
+                                "en": "This <w>feed</w> allows automatically publishing new articles to social networks."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +36,21 @@
                         "настроить фид",
                         "читать фид"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "internet",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A specially formatted stream of data or news on a website, intended for automatic reading by programs."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "feed",
+                                "target_lang_sense_clarification": "data stream"
+                            },
+                            {
+                                "target_lang_word": "RSS feed",
+                                "target_lang_sense_clarification": "specific format"
+                            }
+                        ]
+                    }
                 }
             ]
         }

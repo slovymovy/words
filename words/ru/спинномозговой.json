@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач назначил процедуру, чтобы взять на анализ <w>спинномозговую</w> жидкость."
+                            "text": "Врач назначил процедуру, чтобы взять на анализ <w>спинномозговую</w> жидкость.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed a procedure to sample <w>cerebrospinal</w> fluid for analysis."
+                            }
                         },
                         {
-                            "text": "Через <w>спинномозговой</w> канал проходят важные нервные пути."
+                            "text": "Через <w>спинномозговой</w> канал проходят важные нервные пути.",
+                            "target_lang_translations": {
+                                "en": "Important nerve pathways pass through the <w>spinal</w> canal."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,21 @@
                         "спинномозговая пункция",
                         "спинномозговые нервы"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "анатомия"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the spinal cord."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "spinal",
+                                "target_lang_sense_clarification": "general term relating to the spinal cord"
+                            },
+                            {
+                                "target_lang_word": "cerebrospinal",
+                                "target_lang_sense_clarification": "relating to the brain and spinal cord, typically used with 'fluid'"
+                            }
+                        ]
+                    }
                 }
             ]
         }

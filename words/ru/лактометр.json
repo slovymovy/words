@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Лаборант аккуратно опустил <w>лактометр</w> в ёмкость, чтобы проверить плотность молока."
+                            "text": "Лаборант аккуратно опустил <w>лактометр</w> в ёмкость, чтобы проверить плотность молока.",
+                            "target_lang_translations": {
+                                "en": "The lab technician carefully lowered the <w>lactometer</w> into the container to check the milk's density."
+                            }
                         },
                         {
-                            "text": "Показания <w>лактометра</w> подтвердили, что продукт соответствует всем необходимым стандартам качества."
+                            "text": "Показания <w>лактометра</w> подтвердили, что продукт соответствует всем необходимым стандартам качества.",
+                            "target_lang_translations": {
+                                "en": "The <w>lactometer</w> readings confirmed that the product meets all necessary quality standards."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "использовать лактометр",
                         "цифровой лактометр"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "instrument"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A device for determining the quality of milk, specifically its fat percentage."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "lactometer",
+                                "target_lang_sense_clarification": "instrument for testing milk"
+                            },
+                            {
+                                "target_lang_word": "galactometer",
+                                "target_lang_sense_clarification": "synonym"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The pharmacist recommended a product containing <w>pseudoephedrine</w> to help clear my blocked nose."
+                            "text": "The pharmacist recommended a product containing <w>pseudoephedrine</w> to help clear my blocked nose.",
+                            "target_lang_translations": {
+                                "ru": "Фармацевт порекомендовал средство, содержащее <w>псевдоэфедрин</w>, чтобы помочь избавиться от заложенности носа."
+                            }
                         },
                         {
-                            "text": "Because of legal restrictions, you often have to show identification to purchase <w>pseudoephedrine</w> tablets."
+                            "text": "Because of legal restrictions, you often have to show identification to purchase <w>pseudoephedrine</w> tablets.",
+                            "target_lang_translations": {
+                                "ru": "Из-за законодательных ограничений часто приходится предъявлять удостоверение личности, чтобы купить таблетки с <w>псевдоэфедрином</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,12 +32,17 @@
                         "contains pseudoephedrine",
                         "pseudoephedrine tablets"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "pharmaceutical"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Химическое соединение, обычно используемое как противоотечное средство для снятия заложенности носа."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "псевдоэфедрин",
+                                "target_lang_sense_clarification": "лекарственное вещество"
+                            }
+                        ]
+                    }
                 }
             ]
         }

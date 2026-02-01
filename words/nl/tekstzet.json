@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In dit schaakboek wordt elke <w>tekstzet</w> voorzien van uitgebreid commentaar door de auteur."
+                            "text": "In dit schaakboek wordt elke <w>tekstzet</w> voorzien van uitgebreid commentaar door de auteur.",
+                            "target_lang_translations": {
+                                "en": "In this chess book, every <w>text move</w> is provided with extensive commentary by the author.",
+                                "ru": "В этой шахматной книге каждый <w>ход в партии</w> сопровождается подробными комментариями автора."
+                            }
                         },
                         {
-                            "text": "De computeranalyse toonde achteraf aan dat de <w>tekstzet</w> eigenlijk een blunder was."
+                            "text": "De computeranalyse toonde achteraf aan dat de <w>tekstzet</w> eigenlijk een blunder was.",
+                            "target_lang_translations": {
+                                "en": "The computer analysis showed afterwards that the <w>text move</w> was actually a blunder.",
+                                "ru": "Компьютерный анализ впоследствии показал, что <w>сделанный ход</w> на самом деле был грубой ошибкой."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "de tekstzet volgen",
                         "commentaar op de tekstzet"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "schaak- en damterminologie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A move that was actually played during a game, as recorded in the text of an analysis, distinguishing it from hypothetical variations.",
+                        "ru": "Ход, который был фактически сделан во время партии и зафиксирован в записи, в отличие от возможных вариантов при анализе."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "text move",
+                                "target_lang_sense_clarification": "chess term for the move actually played"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "ход в партии",
+                                "target_lang_sense_clarification": "фактически сыгранный ход"
+                            },
+                            {
+                                "target_lang_word": "сделанный ход",
+                                "target_lang_sense_clarification": "реальный ход игры"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -21,10 +21,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Op de eerste <w>speeldag</w> van het nieuwe seizoen zat het stadion helemaal vol met supporters."
+                            "text": "Op de eerste <w>speeldag</w> van het nieuwe seizoen zat het stadion helemaal vol met supporters.",
+                            "target_lang_translations": {
+                                "ru": "В первый <w>игровой день</w> нового сезона стадион был полностью заполнен болельщиками.",
+                                "en": "On the first <w>match day</w> of the new season, the stadium was completely full of supporters."
+                            }
                         },
                         {
-                            "text": "De coach besloot zijn sterspeler rust te geven voor de volgende belangrijke <w>speeldag</w>."
+                            "text": "De coach besloot zijn sterspeler rust te geven voor de volgende belangrijke <w>speeldag</w>.",
+                            "target_lang_translations": {
+                                "ru": "Тренер решил дать своему звёздному игроку отдохнуть перед следующим важным <w>игровым днём</w>.",
+                                "en": "The coach decided to rest his star player for the next important <w>match day</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +46,32 @@
                         "laatste speeldag",
                         "volgende speeldag"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "sport"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "День, когда проводятся запланированные спортивные матчи, часто в рамках соревнований.",
+                        "en": "A day on which scheduled sports matches are played, often as part of a competition."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "игровой день",
+                                "target_lang_sense_clarification": "день проведения матчей"
+                            },
+                            {
+                                "target_lang_word": "тур",
+                                "target_lang_sense_clarification": "этап чемпионата"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "match day",
+                                "target_lang_sense_clarification": "day of sports fixtures"
+                            },
+                            {
+                                "target_lang_word": "game day",
+                                "target_lang_sense_clarification": "day of a game"
+                            }
+                        ]
+                    }
                 }
             ]
         }

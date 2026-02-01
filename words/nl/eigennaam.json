@@ -21,10 +21,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Omdat Rome een <w>eigennaam</w> is, wordt het met een hoofdletter geschreven."
+                            "text": "Omdat Rome een <w>eigennaam</w> is, wordt het met een hoofdletter geschreven.",
+                            "target_lang_translations": {
+                                "en": "Because Rome is a <w>proper noun</w>, it is written with a capital letter.",
+                                "ru": "Так как Рим — это <w>имя собственное</w>, он пишется с большой буквы."
+                            }
                         },
                         {
-                            "text": "De leraar legde de klas uit wat het verschil is tussen een soortnaam en een <w>eigennaam</w>."
+                            "text": "De leraar legde de klas uit wat het verschil is tussen een soortnaam en een <w>eigennaam</w>.",
+                            "target_lang_translations": {
+                                "en": "The teacher explained to the class the difference between a common noun and a <w>proper noun</w>.",
+                                "ru": "Учитель объяснил классу, в чем разница между именем нарицательным и <w>именем собственным</w>."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -34,12 +42,28 @@
                         "als eigennaam gebruiken",
                         "een eigennaam schrijven"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "taalkunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A name used to identify a specific person, animal, place, organization, or thing and distinguish it from others of the same kind, usually written with a capital letter.",
+                        "ru": "Имя, используемое для обозначения конкретного человека, животного, места, организации или предмета и отличия его от других подобных объектов; обычно пишется с большой буквы."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "proper noun",
+                                "target_lang_sense_clarification": "grammatical term"
+                            },
+                            {
+                                "target_lang_word": "proper name",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "имя собственное",
+                                "target_lang_sense_clarification": "грамматический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

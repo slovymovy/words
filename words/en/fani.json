@@ -13,18 +13,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "My colleague <w>Fani</w> will be leading the presentation this afternoon."
+                            "text": "My colleague <w>Fani</w> will be leading the presentation this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "Моя коллега <w>Фани</w> будет вести презентацию сегодня днем."
+                            }
                         },
                         {
-                            "text": "She introduced herself as <w>Fani</w> when she first arrived at the office."
+                            "text": "She introduced herself as <w>Fani</w> when she first arrived at the office.",
+                            "target_lang_translations": {
+                                "ru": "Она представилась как <w>Фани</w>, когда впервые пришла в офис."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Фани",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

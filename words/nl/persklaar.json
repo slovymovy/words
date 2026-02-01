@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De redacteur heeft het artikel gisteren <w>persklaar</w> gemaakt."
+                            "text": "De redacteur heeft het artikel gisteren <w>persklaar</w> gemaakt.",
+                            "target_lang_translations": {
+                                "en": "The editor made the article <w>ready for press</w> yesterday.",
+                                "ru": "Вчера редактор <w>подготовил</w> статью <w>к печати</w>."
+                            }
                         },
                         {
-                            "text": "Zodra het manuscript <w>persklaar</w> is, sturen we het direct naar de drukker."
+                            "text": "Zodra het manuscript <w>persklaar</w> is, sturen we het direct naar de drukker.",
+                            "target_lang_translations": {
+                                "en": "As soon as the manuscript is <w>ready for press</w>, we will send it directly to the printer.",
+                                "ru": "Как только рукопись будет <w>готова к печати</w>, мы сразу отправим её в типографию."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,12 +34,32 @@
                         "persklaar maken",
                         "persklaar manuscript"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "uitgeverij en journalistiek"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Ready to be printed and published.",
+                        "ru": "Готовый к печати и публикации."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ready for press",
+                                "target_lang_sense_clarification": "fully prepared for printing"
+                            },
+                            {
+                                "target_lang_word": "press-ready",
+                                "target_lang_sense_clarification": "technical term for ready to print"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "готовый к печати",
+                                "target_lang_sense_clarification": "о рукописи, макете или документе"
+                            },
+                            {
+                                "target_lang_word": "подготовленный к печати",
+                                "target_lang_sense_clarification": "прошедший окончательную обработку перед изданием"
+                            }
+                        ]
+                    }
                 }
             ]
         }

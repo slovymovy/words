@@ -16,10 +16,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Nelsons</w> nieuwe fiets die hij voor zijn verjaardag heeft gekregen."
+                            "text": "Dit is <w>Nelsons</w> nieuwe fiets die hij voor zijn verjaardag heeft gekregen.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Nelson's</w> new bike that he got for his birthday.",
+                                "ru": "Это новый велосипед <w>Нельсона</w>, который он получил на день рождения."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond naar <w>Nelsons</w> huis om samen te eten."
+                            "text": "We gaan vanavond naar <w>Nelsons</w> huis om samen te eten.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Nelson's</w> house tonight to have dinner together.",
+                                "ru": "Мы идем сегодня вечером в дом <w>Нельсона</w>, чтобы вместе поужинать."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +35,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Genitive form of the name Nelson.",
+                        "ru": "Родительный падеж имени Нельсон."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Nelson's",
+                                "target_lang_sense_clarification": "possessive form of the name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Нельсона",
+                                "target_lang_sense_clarification": "форма имени"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,10 +69,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De worstelaar paste tijdens het toernooi verschillende effectieve <w>nelsons</w> toe."
+                            "text": "De worstelaar paste tijdens het toernooi verschillende effectieve <w>nelsons</w> toe.",
+                            "target_lang_translations": {
+                                "en": "The wrestler applied several effective <w>nelsons</w> during the tournament.",
+                                "ru": "Во время турнира борец применил несколько эффективных <w>нельсонов</w>."
+                            }
                         },
                         {
-                            "text": "Hij wist zich met veel moeite uit de greep van de <w>nelsons</w> te bevrijden."
+                            "text": "Hij wist zich met veel moeite uit de greep van de <w>nelsons</w> te bevrijden.",
+                            "target_lang_translations": {
+                                "en": "He managed to free himself from the grip of the <w>nelsons</w> with great difficulty.",
+                                "ru": "Ему с большим трудом удалось освободиться из захвата <w>нельсонов</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -57,12 +91,26 @@
                         {
                             "trait_type": "form",
                             "comment": "plural"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "sport (worstelen)"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural of nelson (a specific wrestling hold).",
+                        "ru": "Множественное число слова «нельсон» (борцовский прием)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "nelsons",
+                                "target_lang_sense_clarification": "wrestling holds"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "нельсоны",
+                                "target_lang_sense_clarification": "борцовские приемы"
+                            }
+                        ]
+                    }
                 }
             ]
         }

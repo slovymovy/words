@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Сварщик, <w>наплавлявший</w> слой металла на изношенную деталь, работал очень аккуратно."
+                            "text": "Сварщик, <w>наплавлявший</w> слой металла на изношенную деталь, работал очень аккуратно.",
+                            "target_lang_translations": {
+                                "en": "The welder, who was <w>depositing</w> a layer of metal onto the worn part, worked very carefully."
+                            }
                         },
                         {
-                            "text": "Технолог, <w>наплавлявший</w> опытные образцы сплава, следил за показаниями приборов."
+                            "text": "Технолог, <w>наплавлявший</w> опытные образцы сплава, следил за показаниями приборов.",
+                            "target_lang_translations": {
+                                "en": "The technologist, who was <w>fusing</w> experimental alloy samples, monitored the instrument readings."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,12 +39,27 @@
                         {
                             "trait_type": "form",
                             "comment": "past active participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "metallurgy, welding"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb 'наплавлять' (to deposit metal, to fuse on)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "depositing",
+                                "target_lang_sense_clarification": "applying a layer of metal onto a surface"
+                            },
+                            {
+                                "target_lang_word": "fusing on",
+                                "target_lang_sense_clarification": "melting material onto a base"
+                            },
+                            {
+                                "target_lang_word": "surfacing",
+                                "target_lang_sense_clarification": "technical term for applying a surface layer"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De chirurg herstelde de gescheurde <w>buigpees</w> in de vinger van de patiënt nauwkeurig."
+                            "text": "De chirurg herstelde de gescheurde <w>buigpees</w> in de vinger van de patiënt nauwkeurig.",
+                            "target_lang_translations": {
+                                "en": "The surgeon accurately repaired the torn <w>flexor tendon</w> in the patient's finger.",
+                                "ru": "Хирург аккуратно восстановил порванное <w>сухожилие сгибателя</w> в пальце пациента."
+                            }
                         },
                         {
-                            "text": "Een chronisch ontstoken <w>buigpees</w> kan leiden tot langdurige pijn en beperkte bewegingsvrijheid."
+                            "text": "Een chronisch ontstoken <w>buigpees</w> kan leiden tot langdurige pijn en beperkte bewegingsvrijheid.",
+                            "target_lang_translations": {
+                                "en": "A chronically inflamed <w>flexor tendon</w> can lead to prolonged pain and limited freedom of movement.",
+                                "ru": "Хронически воспаленное <w>сухожилие сгибателя</w> может привести к длительной боли и ограниченной подвижности."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -33,12 +41,24 @@
                         "gescheurde buigpees",
                         "oppervlakkige buigpees"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "anatomie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A tendon that connects a flexor muscle to a bone, allowing a joint to bend.",
+                        "ru": "Сухожилие, соединяющее мышцу-сгибатель с костью, что позволяет суставу сгибаться."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "flexor tendon",
+                                "target_lang_sense_clarification": "anatomy"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сухожилие сгибателя",
+                                "target_lang_sense_clarification": "анатомия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

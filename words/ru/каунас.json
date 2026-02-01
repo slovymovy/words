@@ -15,10 +15,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Мы решили провести выходные в <w>Каунасе</w>."
+                            "text": "Мы решили провести выходные в <w>Каунасе</w>.",
+                            "target_lang_translations": {
+                                "en": "We decided to spend the weekend in <w>Kaunas</w>."
+                            }
                         },
                         {
-                            "text": "<w>Каунас</w> славится своей красивой архитектурой и музеями."
+                            "text": "<w>Каунас</w> славится своей красивой архитектурой и музеями.",
+                            "target_lang_translations": {
+                                "en": "<w>Kaunas</w> is famous for its beautiful architecture and museums."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,12 +32,17 @@
                         "поехать в Каунас",
                         "жить в Каунасе"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "city"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A city in Lithuania, the second largest and most important after Vilnius."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Kaunas",
+                                "target_lang_sense_clarification": "city in Lithuania"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Met mijn <w>dalurenkaart</w> krijg ik veertig procent korting als ik na negen uur 's ochtends de trein neem."
+                            "text": "Met mijn <w>dalurenkaart</w> krijg ik veertig procent korting als ik na negen uur 's ochtends de trein neem.",
+                            "target_lang_translations": {
+                                "en": "With my <w>off-peak discount card</w>, I get a forty percent discount if I take the train after nine in the morning.",
+                                "ru": "С моей <w>картой скидок на непиковые часы</w> я получаю сорокапроцентную скидку, если сажусь на поезд после девяти утра."
+                            }
                         },
                         {
-                            "text": "Het is voordelig om een <w>dalurenkaart</w> te gebruiken voor uitstapjes in het weekend."
+                            "text": "Het is voordelig om een <w>dalurenkaart</w> te gebruiken voor uitstapjes in het weekend.",
+                            "target_lang_translations": {
+                                "en": "It is economical to use an <w>off-peak discount card</w> for trips on the weekend.",
+                                "ru": "Выгодно использовать <w>карту скидок на непиковые часы</w> для поездок на выходных."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "een dalurenkaart aanschaffen",
                         "korting met dalurenkaart"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "openbaar vervoer"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A discount card for public transport that gives travelers a discount when traveling outside peak hours (during off-peak hours).",
+                        "ru": "Скидочная карта для общественного транспорта, дающая пассажирам право на скидку при поездках вне часов пик (в «тихие» часы)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "off-peak discount card",
+                                "target_lang_sense_clarification": "public transport subscription"
+                            },
+                            {
+                                "target_lang_word": "off-peak pass",
+                                "target_lang_sense_clarification": "travel card"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "карта скидок на непиковые часы",
+                                "target_lang_sense_clarification": "проездной документ"
+                            },
+                            {
+                                "target_lang_word": "льготный проездной вне час пик",
+                                "target_lang_sense_clarification": "описательный перевод"
+                            }
+                        ]
+                    }
                 }
             ]
         }

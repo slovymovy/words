@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz przepisał mi maść <w>antybiotykową</w> na zakażenie skóry."
+                            "text": "Lekarz przepisał mi maść <w>antybiotykową</w> na zakażenie skóry.",
+                            "target_lang_translations": {
+                                "ru": "Врач прописал мне <w>антибиотическую</w> мазь от кожной инфекции."
+                            }
                         },
                         {
-                            "text": "Długotrwała kuracja <w>antybiotykowa</w> może znacznie osłabić organizm."
+                            "text": "Długotrwała kuracja <w>antybiotykowa</w> może znacznie osłabić organizm.",
+                            "target_lang_translations": {
+                                "ru": "Длительная <w>антибиотическая</w> терапия может значительно ослабить организм."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,17 @@
                         "terapia antybiotykowa",
                         "osłona antybiotykowa"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "связанный с антибиотиками, касающийся их применения"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "антибиотический",
+                                "target_lang_sense_clarification": "относящийся к антибиотикам"
+                            }
+                        ]
+                    }
                 }
             ]
         }

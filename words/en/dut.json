@@ -13,26 +13,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The engineer connected the <w>DUT</w> to the signal generator to check its response."
+                            "text": "The engineer connected the <w>DUT</w> to the signal generator to check its response.",
+                            "target_lang_translations": {
+                                "ru": "Инженер подключил <w>тестируемое устройство</w> к генератору сигналов, чтобы проверить его отклик."
+                            }
                         },
                         {
-                            "text": "Please ensure the <w>DUT</w> is powered off before attaching the probes."
+                            "text": "Please ensure the <w>DUT</w> is powered off before attaching the probes.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, убедитесь, что <w>тестируемое устройство</w> обесточено перед подключением щупов."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "connect the DUT",
                         "DUT failure"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "electronics"
-                        },
-                        {
-                            "trait_type": "engineering",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Аббревиатура от \"device under test\" (тестируемое устройство), обозначающая произведенный продукт, проходящий проверку производительности или качества."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "тестируемое устройство",
+                                "target_lang_sense_clarification": "электроника"
+                            },
+                            {
+                                "target_lang_word": "объект испытаний",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "9ec62b83-7e7f-3b61-8cc0-2b9a2bd18e71",
@@ -43,10 +54,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "He pulled his <w>dut</w> down over his ears to block out the freezing wind."
+                            "text": "He pulled his <w>dut</w> down over his ears to block out the freezing wind.",
+                            "target_lang_translations": {
+                                "ru": "Он натянул свою <w>вязаную шапку</w> на уши, чтобы защититься от ледяного ветра."
+                            }
                         },
                         {
-                            "text": "Don't forget to grab your <w>dut</w> before we head to the match."
+                            "text": "Don't forget to grab your <w>dut</w> before we head to the match.",
+                            "target_lang_translations": {
+                                "ru": "Не забудь захватить свою <w>шапку</w>, прежде чем мы отправимся на матч."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -62,7 +79,22 @@
                             "trait_type": "dialectal",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Плотно облегающая шерстяная шапка, которую часто носят зимой."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "вязаная шапка",
+                                "target_lang_sense_clarification": "одежда"
+                            },
+                            {
+                                "target_lang_word": "шапочка",
+                                "target_lang_sense_clarification": "головной убор"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -78,22 +110,29 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The drummers whispered '<w>dut</w>' in unison to stay perfectly in time during the silence."
+                            "text": "The drummers whispered '<w>dut</w>' in unison to stay perfectly in time during the silence.",
+                            "target_lang_translations": {
+                                "ru": "Барабанщики шепотом произнесли «<w>дат</w>» в унисон, чтобы идеально держать ритм в тишине."
+                            }
                         },
                         {
-                            "text": "You could hear a sharp '<w>dut</w>, <w>dut</w>, <w>dut</w>' just before the brass section began their fanfare."
+                            "text": "You could hear a sharp '<w>dut</w>, <w>dut</w>, <w>dut</w>' just before the brass section began their fanfare.",
+                            "target_lang_translations": {
+                                "ru": "Можно было услышать резкое «<w>дат</w>, <w>дат</w>, <w>дат</w>» прямо перед тем, как духовая секция начала фанфары."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "musical",
-                            "comment": "marching bands"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Голосовой звук, используемый музыкантами в марширующих оркестрах для поддержания ритма во время пауз."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "дат",
+                                "target_lang_sense_clarification": "звуковой сигнал для счета ритма"
+                            }
+                        ]
+                    }
                 }
             ]
         }

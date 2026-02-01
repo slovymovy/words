@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Na het verstrijken van de <w>contracttermijn</w> wordt het abonnement automatisch verlengd."
+                            "text": "Na het verstrijken van de <w>contracttermijn</w> wordt het abonnement automatisch verlengd.",
+                            "target_lang_translations": {
+                                "en": "After the expiration of the <w>contract term</w>, the subscription is automatically renewed.",
+                                "ru": "После истечения <w>срока действия контракта</w> подписка продлевается автоматически."
+                            }
                         },
                         {
-                            "text": "Wij hebben gekozen voor een vaste <w>contracttermijn</w> van twee jaar."
+                            "text": "Wij hebben gekozen voor een vaste <w>contracttermijn</w> van twee jaar.",
+                            "target_lang_translations": {
+                                "en": "We have chosen a fixed <w>contract term</w> of two years.",
+                                "ru": "Мы выбрали фиксированный <w>срок действия договора</w> на два года."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +42,32 @@
                         "vaste contracttermijn",
                         "verstrijken van de contracttermijn"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The established period during which a contract is valid and the agreements are in effect.",
+                        "ru": "Установленный период, в течение которого договор действителен и соглашения имеют силу."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "contract term",
+                                "target_lang_sense_clarification": "specific duration of an agreement"
+                            },
+                            {
+                                "target_lang_word": "contract period",
+                                "target_lang_sense_clarification": "time span of validity"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "срок действия договора",
+                                "target_lang_sense_clarification": "период юридической силы соглашения"
+                            },
+                            {
+                                "target_lang_word": "срок контракта",
+                                "target_lang_sense_clarification": "продолжительность контракта"
+                            }
+                        ]
+                    }
                 }
             ]
         }

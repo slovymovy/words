@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zdiagnozował u pacjenta przewlekłą <w>drożdżycę</w> jamy ustnej."
+                            "text": "Lekarz zdiagnozował u pacjenta przewlekłą <w>drożdżycę</w> jamy ustnej.",
+                            "target_lang_translations": {
+                                "ru": "Врач диагностировал у пациента хронический <w>кандидоз</w> полости рта."
+                            }
                         },
                         {
-                            "text": "Długotrwałe stosowanie antybiotyków może czasem wywołać <w>drożdżycę</w>."
+                            "text": "Długotrwałe stosowanie antybiotyków może czasem wywołać <w>drożdżycę</w>.",
+                            "target_lang_translations": {
+                                "ru": "Длительное применение антибиотиков может иногда вызвать <w>кандидоз</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,25 @@
                         "leczenie drożdżycy",
                         "objawy drożdżycy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Грибковая инфекция кожи, слизистых оболочек или ногтей, вызываемая дрожжевыми грибками"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "кандидоз",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "молочница",
+                                "target_lang_sense_clarification": "разговорное название"
+                            },
+                            {
+                                "target_lang_word": "дрожжевая инфекция",
+                                "target_lang_sense_clarification": "описательный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

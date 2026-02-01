@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mamy szeroki asortyment ubranek dla <w>niemowlaczków</w>."
+                            "text": "Mamy szeroki asortyment ubranek dla <w>niemowlaczków</w>.",
+                            "target_lang_translations": {
+                                "ru": "У нас широкий ассортимент одежды для <w>малышей</w>."
+                            }
                         },
                         {
-                            "text": "Ten <w>niemowlaczek</w> jest bardzo spokojny i dużo śpi."
+                            "text": "Ten <w>niemowlaczek</w> jest bardzo spokojny i dużo śpi.",
+                            "target_lang_translations": {
+                                "ru": "Этот <w>младенчик</w> очень спокойный и много спит."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,27 @@
                         {
                             "trait_type": "form",
                             "comment": "zdrobnienie"
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": "pieszczotliwe"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Маленький ребенок; уменьшительно-ласкательная форма от слова \"младенец\""
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "младенчик",
+                                "target_lang_sense_clarification": "уменьшительно-ласкательное"
+                            },
+                            {
+                                "target_lang_word": "малыш",
+                                "target_lang_sense_clarification": "ласковое название ребенка"
+                            },
+                            {
+                                "target_lang_word": "грудничок",
+                                "target_lang_sense_clarification": "разговорное, младенец"
+                            }
+                        ]
+                    }
                 }
             ]
         }

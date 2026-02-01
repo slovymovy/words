@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Chirurg wyjaśnił pacjentowi, na czym dokładnie będzie polegać <w>resekcja</w> żołądka."
+                            "text": "Chirurg wyjaśnił pacjentowi, na czym dokładnie będzie polegać <w>resekcja</w> żołądka.",
+                            "target_lang_translations": {
+                                "ru": "Хирург объяснил пациенту, в чем именно будет заключаться <w>резекция</w> желудка."
+                            }
                         },
                         {
-                            "text": "W przypadku zaawansowanych zmian chorobowych konieczna była natychmiastowa <w>resekcja</w> jelita."
+                            "text": "W przypadku zaawansowanych zmian chorobowych konieczna była natychmiastowa <w>resekcja</w> jelita.",
+                            "target_lang_translations": {
+                                "ru": "В случае серьезных патологических изменений потребовалась немедленная <w>резекция</w> кишечника."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,17 @@
                         "resekcja wierzchołka korzenia",
                         "resekcja guza"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Медицинская процедура, заключающаяся в хирургическом удалении части или всего органа, ткани или кости."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "резекция",
+                                "target_lang_sense_clarification": "хирургическое удаление части органа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

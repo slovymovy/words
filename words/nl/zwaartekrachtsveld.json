@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De maan is gevangen in het <w>zwaartekrachtsveld</w> van de aarde."
+                            "text": "De maan is gevangen in het <w>zwaartekrachtsveld</w> van de aarde.",
+                            "target_lang_translations": {
+                                "en": "The moon is trapped in the Earth's <w>gravitational field</w>.",
+                                "ru": "Луна удерживается <w>гравитационным полем</w> Земли."
+                            }
                         },
                         {
-                            "text": "Zelfs licht kan niet ontsnappen aan het enorme <w>zwaartekrachtsveld</w> van een zwart gat."
+                            "text": "Zelfs licht kan niet ontsnappen aan het enorme <w>zwaartekrachtsveld</w> van een zwart gat.",
+                            "target_lang_translations": {
+                                "en": "Even light cannot escape the enormous <w>gravitational field</w> of a black hole.",
+                                "ru": "Даже свет не может вырваться из мощного <w>гравитационного поля</w> черной дыры."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "in het zwaartekrachtsveld",
                         "sterk zwaartekrachtsveld"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "natuurkunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A physical force field that exerts influence on the movement of everything located within it, such as objects with mass and light.",
+                        "ru": "Физическое силовое поле, влияющее на движение всего, что в нем находится, включая объекты с массой и свет."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "gravitational field",
+                                "target_lang_sense_clarification": "physics"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "гравитационное поле",
+                                "target_lang_sense_clarification": "физический термин"
+                            },
+                            {
+                                "target_lang_word": "поле тяготения",
+                                "target_lang_sense_clarification": "синоним"
+                            }
+                        ]
+                    }
                 }
             ]
         }

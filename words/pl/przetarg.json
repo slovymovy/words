@@ -1,6 +1,11 @@
 {
     "word_family": [
-        "przetargowy"
+        "przetargowy",
+        "targ",
+        "targować",
+        "zatarg",
+        "utarg",
+        "targowisko"
     ],
     "entries": [
         {
@@ -8,17 +13,23 @@
             "senses": [
                 {
                     "sense_id": "67871900-6065-3d7f-8295-c2922a7e5146",
-                    "sense_definition": "Oficjalna procedura wyboru wykonawcy usługi lub dostawcy towaru, polegająca na porównaniu złożonych ofert i wyborze najkorzystniejszej dla zamawiającego.",
+                    "sense_definition": "Procedura wyboru wykonawcy usługi lub dostawcy towaru, polegająca na porównaniu złożonych ofert i wyborze najkorzystniejszej.",
                     "learner_level": "B2",
                     "frequency": "High",
                     "semantic_group_id": "procurement",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nasza firma wygrała <w>przetarg</w> na dostawę komputerów do szkół."
+                            "text": "Urząd miasta postanowił ogłosić <w>przetarg</w> na budowę nowej szkoły podstawowej.",
+                            "target_lang_translations": {
+                                "ru": "Городская администрация решила объявить <w>тендер</w> на строительство новой начальной школы."
+                            }
                         },
                         {
-                            "text": "Urząd miasta musiał unieważnić <w>przetarg</w>, ponieważ nie wpłynęła żadna oferta."
+                            "text": "Nasza firma budowlana wygrała <w>przetarg</w> na generalny remont drogi krajowej.",
+                            "target_lang_translations": {
+                                "ru": "Наша строительная компания выиграла <w>тендер</w> на капитальный ремонт дороги государственного значения."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,34 +38,45 @@
                     "common_phrases": [
                         "wygrać przetarg",
                         "ogłosić przetarg",
-                        "przetarg nieograniczony",
+                        "stanąć do przetargu",
                         "unieważnić przetarg",
-                        "stanąć do przetargu"
+                        "przetarg nieograniczony"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "used in commercial and administrative contexts"
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": "common in public sector procedures"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процедура выбора исполнителя услуги или поставщика товара, основанная на сравнении предложений и выборе наиболее выгодного."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "тендер",
+                                "target_lang_sense_clarification": "конкурс на размещение заказа"
+                            },
+                            {
+                                "target_lang_word": "торги",
+                                "target_lang_sense_clarification": "конкурсная процедура закупки"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "1d04854c-cd17-36e0-9923-ab909e04efe8",
-                    "sense_definition": "Publiczna sprzedaż mienia, w której nabywcą zostaje osoba lub podmiot oferujący najwyższą cenę lub najlepsze warunki.",
+                    "sense_definition": "Publiczna sprzedaż mienia, w której nabywcą zostaje osoba lub podmiot oferujący najwyższą cenę.",
                     "learner_level": "C1",
                     "frequency": "Middle",
-                    "semantic_group_id": "sale",
+                    "semantic_group_id": "auction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Gmina wystawiła atrakcyjną działkę budowlaną na <w>przetarg</w>."
+                            "text": "Komornik wystawił zajęty samochód na <w>przetarg</w>, aby pokryć długi dłużnika.",
+                            "target_lang_translations": {
+                                "ru": "Судебный пристав выставил арестованный автомобиль на <w>торги</w>, чтобы покрыть долги должника."
+                            }
                         },
                         {
-                            "text": "Wzięliśmy udział w <w>przetargu</w> na zakup samochodów poleasingowych."
+                            "text": "Wzięliśmy udział w <w>przetargu</w> na zakup atrakcyjnej działki budowlanej od gminy.",
+                            "target_lang_translations": {
+                                "ru": "Мы приняли участие в <w>торгах</w> по покупке привлекательного строительного участка у муниципалитета."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -65,16 +87,21 @@
                         "przetarg na sprzedaż",
                         "przetarg ustny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "related to asset disposal"
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": "formal procedure regulated by law"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Публичная продажа имущества, при которой покупателем становится лицо, предложившее наивысшую цену."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "аукцион",
+                                "target_lang_sense_clarification": "публичная продажа"
+                            },
+                            {
+                                "target_lang_word": "торги",
+                                "target_lang_sense_clarification": "продажа имущества с молотка"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Нам придётся <w>перезаключать</w> договор аренды в конце этого года."
+                            "text": "Нам придётся <w>перезаключать</w> договор аренды в конце этого года.",
+                            "target_lang_translations": {
+                                "en": "We will have to <w>renew</w> the lease agreement at the end of this year."
+                            }
                         },
                         {
-                            "text": "Компания решила не <w>перезаключать</w> контракт с ненадёжным поставщиком."
+                            "text": "Компания решила не <w>перезаключать</w> контракт с ненадёжным поставщиком.",
+                            "target_lang_translations": {
+                                "en": "The company decided not to <w>renew</w> the contract with the unreliable supplier."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,16 +44,25 @@
                         "перезаключать соглашение",
                         "перезаключать на новый срок"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To conclude a contract, agreement, or deal again, often with new terms."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "renew",
+                                "target_lang_sense_clarification": "to extend the period of validity of a contract or agreement"
+                            },
+                            {
+                                "target_lang_word": "renegotiate",
+                                "target_lang_sense_clarification": "to discuss the terms of an agreement again in order to change them"
+                            },
+                            {
+                                "target_lang_word": "re-sign",
+                                "target_lang_sense_clarification": "to sign a contract or agreement again"
+                            }
+                        ]
+                    }
                 }
             ]
         }

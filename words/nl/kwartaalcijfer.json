@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het bedrijf presenteerde gisteren positieve <w>kwartaalcijfers</w> aan de aandeelhouders."
+                            "text": "Het bedrijf presenteerde gisteren positieve <w>kwartaalcijfers</w> aan de aandeelhouders.",
+                            "target_lang_translations": {
+                                "en": "The company presented positive <w>quarterly figures</w> to the shareholders yesterday.",
+                                "ru": "Вчера компания представила акционерам положительные <w>квартальные результаты</w>."
+                            }
                         },
                         {
-                            "text": "Beleggers wachten gespannen op de nieuwe <w>kwartaalcijfers</w> van de techgigant."
+                            "text": "Beleggers wachten gespannen op de nieuwe <w>kwartaalcijfers</w> van de techgigant.",
+                            "target_lang_translations": {
+                                "en": "Investors are anxiously awaiting the new <w>quarterly results</w> from the tech giant.",
+                                "ru": "Инвесторы с напряжением ждут новых <w>квартальных показателей</w> технологического гиганта."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,14 +42,40 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "business",
-                            "comment": "financial reporting"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "meestal meervoud"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A number representing the financial results of a company over a period of three months, usually used in the plural.",
+                        "ru": "Числовой показатель финансовых результатов компании за трехмесячный период; обычно используется во множественном числе."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "quarterly figure",
+                                "target_lang_sense_clarification": "financial statistic"
+                            },
+                            {
+                                "target_lang_word": "quarterly result",
+                                "target_lang_sense_clarification": "performance outcome"
+                            },
+                            {
+                                "target_lang_word": "quarterly earning",
+                                "target_lang_sense_clarification": "profit made during a quarter"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "квартальный показатель",
+                                "target_lang_sense_clarification": "финансовые данные за квартал"
+                            },
+                            {
+                                "target_lang_word": "квартальный результат",
+                                "target_lang_sense_clarification": "итоги деятельности за три месяца"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The recipe requires a packet of <w>unflavored</w> gelatin to make the dessert set properly."
+                            "text": "The recipe requires a packet of <w>unflavored</w> gelatin to make the dessert set properly.",
+                            "target_lang_translations": {
+                                "ru": "Для рецепта требуется пакетик желатина <w>без вкусовых добавок</w>, чтобы десерт правильно застыл."
+                            }
                         },
                         {
-                            "text": "I prefer to buy <w>unflavored</w> yogurt and add fresh fruit to it myself."
+                            "text": "I prefer to buy <w>unflavored</w> yogurt and add fresh fruit to it myself.",
+                            "target_lang_translations": {
+                                "ru": "Я предпочитаю покупать йогурт <w>без добавок</w> и самостоятельно добавлять в него свежие фрукты."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +41,26 @@
                         "unflavored gelatin",
                         "unflavored yogurt",
                         "unflavored protein powder"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Не содержащий вкусовых добавок или ароматизаторов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "без вкусовых добавок",
+                                "target_lang_sense_clarification": "об отсутствии искусственного вкуса"
+                            },
+                            {
+                                "target_lang_word": "без добавок",
+                                "target_lang_sense_clarification": "общий термин для продуктов"
+                            },
+                            {
+                                "target_lang_word": "натуральный",
+                                "target_lang_sense_clarification": "часто используется для йогурта"
+                            }
+                        ]
+                    }
                 }
             ]
         }

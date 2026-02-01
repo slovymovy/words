@@ -1,45 +1,59 @@
 {
-    "word_family": [
-        "magazyn",
-        "magazynowy",
-        "magazynier",
-        "magazynować",
-        "zmagazynować"
-    ],
+    "word_family": [],
     "entries": [
         {
             "pos": "noun",
             "senses": [
                 {
                     "sense_id": "1926190f-5381-3f6f-8f77-262da2e696ba",
-                    "sense_definition": "Skrót używany w logistyce i księgowości oznaczający „między magazynami”, odnoszący się do dokumentu lub procesu przesunięcia towarów z jednego magazynu do drugiego.",
-                    "learner_level": "C1",
+                    "sense_definition": "skrót od: przesunięcie międzymagazynowe; dokument lub operacja logistyczna dotycząca przemieszczania towarów między magazynami",
+                    "learner_level": "C2",
                     "frequency": "Low",
-                    "semantic_group_id": "",
-                    "name_type": "no",
+                    "semantic_group_id": "logistics_abbrev",
+                    "name_type": "document_or_program_name",
                     "examples": [
                         {
-                            "text": "Kierownik działu logistyki zatwierdził wczorajsze przesunięcie <w>mm</w>."
+                            "text": "Magazynier musi wystawić dokument <w>mm</w>, aby towar mógł wyjechać z hali.",
+                            "target_lang_translations": {
+                                "ru": "Кладовщик должен оформить документ на <w>межскладское перемещение</w>, чтобы товар мог покинуть склад."
+                            }
                         },
                         {
-                            "text": "Musisz wystawić dokument <w>mm</w>, zanim towar wyjedzie z głównej hali."
+                            "text": "Kierownik zatwierdził <w>mm</w> w systemie przed końcem zmiany.",
+                            "target_lang_translations": {
+                                "ru": "Руководитель утвердил <w>межскладское перемещение</w> в системе до конца смены."
+                            }
                         }
+                    ],
+                    "synonyms": [
+                        "przesunięcie międzymagazynowe"
                     ],
                     "common_phrases": [
                         "dokument mm",
-                        "przesunięcie mm",
-                        "wystawić mm"
+                        "wystawić mm",
+                        "zatwierdzić mm"
                     ],
                     "traits": [
                         {
-                            "trait_type": "business",
-                            "comment": "logistyka i księgowość"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "skrót branżowy"
+                            "trait_type": "form",
+                            "comment": "skrót"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "сокращение от: межскладское перемещение; документ или логистическая операция по перемещению товаров между складами"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "межскладское перемещение",
+                                "target_lang_sense_clarification": "операция"
+                            },
+                            {
+                                "target_lang_word": "накладная на перемещение",
+                                "target_lang_sense_clarification": "документ"
+                            }
+                        ]
+                    }
                 }
             ]
         }

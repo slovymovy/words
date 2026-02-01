@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dała nam kaszy z <w>omastą</w> i kwaśnego mleka."
+                            "text": "Dała nam kaszy z <w>omastą</w> i kwaśnego mleka.",
+                            "target_lang_translations": {
+                                "ru": "Она дала нам каши с <w>жиром</w> и простокваши."
+                            }
                         },
                         {
-                            "text": "Najlepsza <w>omasta</w> do pierogów to ta zrobiona z boczku i podsmażonej cebulki."
+                            "text": "Najlepsza <w>omasta</w> do pierogów to ta zrobiona z boczku i podsmażonej cebulki.",
+                            "target_lang_translations": {
+                                "ru": "Лучшая <w>заправка</w> к вареникам — это та, что сделана из грудинки и поджаренного лука."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                         "ziemniaki z omastą",
                         "dużo omasty"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "używane w kontekście tradycyjnej kuchni"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Жир (например, смалец, сало, сливочное или растительное масло), часто со шкварками или луком, добавляемый в мучные блюда, каши или картофель для улучшения вкуса."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "жир",
+                                "target_lang_sense_clarification": "пищевой жир для заправки блюд"
+                            },
+                            {
+                                "target_lang_word": "заправка",
+                                "target_lang_sense_clarification": "жировая добавка к еде (часто со шкварками)"
+                            },
+                            {
+                                "target_lang_word": "смалец",
+                                "target_lang_sense_clarification": "топленый жир"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4c6f2d20-80f3-3148-9b28-fb3605591ae6",
@@ -47,22 +66,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Gospodarz dosypał <w>omasty</w> do parowanych ziemniaków dla trzody."
+                            "text": "Gospodarz dosypał <w>omasty</w> do parowanych ziemniaków dla trzody.",
+                            "target_lang_translations": {
+                                "ru": "Хозяин подсыпал <w>фуражной муки</w> в пареный картофель для скота."
+                            }
                         },
                         {
-                            "text": "W dawnym gospodarstwie <w>omasta</w> była tanim sposobem na zagęszczenie karmy."
+                            "text": "W dawnym gospodarstwie <w>omasta</w> była tanim sposobem na zagęszczenie karmy.",
+                            "target_lang_translations": {
+                                "ru": "В старом хозяйстве <w>мука низкого сорта</w> была дешевым способом загустить корм."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rural",
-                            "comment": "termin związany z gospodarstwem wiejskim"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "rolnictwo"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Мука низкого сорта, добавляемая в корм для домашнего скота, особенно для свиней."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "фуражная мука",
+                                "target_lang_sense_clarification": "мука для корма скота"
+                            },
+                            {
+                                "target_lang_word": "мучная посыпка",
+                                "target_lang_sense_clarification": "добавка в корм"
+                            }
+                        ]
+                    }
                 }
             ]
         }

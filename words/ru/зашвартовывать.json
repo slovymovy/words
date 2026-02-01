@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Матросы начали быстро <w>зашвартовывать</w> корабль, так как надвигался сильный шторм."
+                            "text": "Матросы начали быстро <w>зашвартовывать</w> корабль, так как надвигался сильный шторм.",
+                            "target_lang_translations": {
+                                "en": "The sailors began to quickly <w>moor</w> the ship, as a strong storm was approaching."
+                            }
                         },
                         {
-                            "text": "Капитану пришлось долго учить новичка правильно <w>зашвартовывать</w> лодку у пирса."
+                            "text": "Капитану пришлось долго учить новичка правильно <w>зашвартовывать</w> лодку у пирса.",
+                            "target_lang_translations": {
+                                "en": "The captain had to spend a long time teaching the rookie how to properly <w>tie up</w> the boat at the pier."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,25 @@
                         "зашвартовывать катер",
                         "зашвартовывать у причала"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "морской термин"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To secure a vessel to a pier, shore, or another vessel using special cables or hawsers."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "moor",
+                                "target_lang_sense_clarification": "nautical term"
+                            },
+                            {
+                                "target_lang_word": "tie up",
+                                "target_lang_sense_clarification": "phrasal verb, common usage"
+                            },
+                            {
+                                "target_lang_word": "dock",
+                                "target_lang_sense_clarification": "bring into a dock or pier"
+                            }
+                        ]
+                    }
                 }
             ]
         }

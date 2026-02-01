@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Инженеры завершили <w>трассирование</w> новой железнодорожной ветки через горный перевал."
+                            "text": "Инженеры завершили <w>трассирование</w> новой железнодорожной ветки через горный перевал.",
+                            "target_lang_translations": {
+                                "en": "The engineers completed the <w>routing</w> of the new railway line through the mountain pass."
+                            }
                         },
                         {
-                            "text": "Для выявления ошибки в коде программист выполнил пошаговое <w>трассирование</w> алгоритма."
+                            "text": "Для выявления ошибки в коде программист выполнил пошаговое <w>трассирование</w> алгоритма.",
+                            "target_lang_translations": {
+                                "en": "To identify the error in the code, the programmer performed a step-by-step <w>tracing</w> of the algorithm."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,25 @@
                         "трассирование маршрута",
                         "трассирование программы"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering, computing"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The process of determining and laying out the direction of a line, road, or canal on terrain or a map; the act of tracing."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tracing",
+                                "target_lang_sense_clarification": "general / computing"
+                            },
+                            {
+                                "target_lang_word": "routing",
+                                "target_lang_sense_clarification": "determining a path"
+                            },
+                            {
+                                "target_lang_word": "laying out",
+                                "target_lang_sense_clarification": "surveying / construction"
+                            }
+                        ]
+                    }
                 }
             ]
         }

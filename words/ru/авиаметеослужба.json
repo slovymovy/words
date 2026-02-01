@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Авиаметеослужба</w> предупредила пилотов о возможном обледенении в верхних слоях атмосферы."
+                            "text": "<w>Авиаметеослужба</w> предупредила пилотов о возможном обледенении в верхних слоях атмосферы.",
+                            "target_lang_translations": {
+                                "en": "The <w>aviation weather service</w> warned the pilots about possible icing in the upper layers of the atmosphere."
+                            }
                         },
                         {
-                            "text": "Для составления плана полёта экипажу потребовались свежие данные <w>авиаметеослужбы</w>."
+                            "text": "Для составления плана полёта экипажу потребовались свежие данные <w>авиаметеослужбы</w>.",
+                            "target_lang_translations": {
+                                "en": "To create the flight plan, the crew needed fresh data from the <w>aviation meteorological service</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,16 +36,21 @@
                         "данные авиаметеослужбы",
                         "сводка авиаметеослужбы"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "aviation"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Aviation meteorological service; an organization providing aviation with weather information for flight safety."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "aviation weather service",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "aviation meteorological service",
+                                "target_lang_sense_clarification": "formal/technical term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

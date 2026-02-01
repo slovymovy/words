@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Mr. <w>Ropp</w> to speak at the conference next week."
+                            "text": "We invited Mr. <w>Ropp</w> to speak at the conference next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили господина <w>Роппа</w> выступить на конференции на следующей неделе."
+                            }
                         },
                         {
-                            "text": "The historical records show that a family named <w>Ropp</w> lived in this area."
+                            "text": "The historical records show that a family named <w>Ropp</w> lived in this area.",
+                            "target_lang_translations": {
+                                "ru": "Исторические записи показывают, что семья по фамилии <w>Ропп</w> жила в этом районе."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ропп",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

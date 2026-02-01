@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het is belangrijk dat ik de bestelling vandaag nog <w>uitlever</w>."
+                            "text": "Het is belangrijk dat ik de bestelling vandaag nog <w>uitlever</w>.",
+                            "target_lang_translations": {
+                                "en": "It is important that I <w>deliver</w> the order today.",
+                                "ru": "Важно, чтобы я <w>отгрузил</w> заказ сегодня."
+                            }
                         },
                         {
-                            "text": "Als ik de verdachte aan dat land <w>uitlever</w>, riskeert hij een zware straf."
+                            "text": "Als ik de verdachte aan dat land <w>uitlever</w>, riskeert hij een zware straf.",
+                            "target_lang_translations": {
+                                "en": "If I <w>extradite</w> the suspect to that country, he risks a heavy sentence.",
+                                "ru": "Если я <w>выдам</w> подозреваемого этой стране, ему грозит суровое наказание."
+                            }
                         }
                     ],
                     "traits": [
@@ -28,7 +36,41 @@
                             "trait_type": "form",
                             "comment": "in bijzin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "First person singular present tense of <w>uitleveren</w>.",
+                        "ru": "Первое лицо единственного числа настоящего времени глагола <w>uitleveren</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "extradite",
+                                "target_lang_sense_clarification": "legal context, handing over a suspect"
+                            },
+                            {
+                                "target_lang_word": "deliver",
+                                "target_lang_sense_clarification": "to supply or distribute goods"
+                            },
+                            {
+                                "target_lang_word": "hand over",
+                                "target_lang_sense_clarification": "to transfer custody of someone"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "выдавать",
+                                "target_lang_sense_clarification": "преступника, подозреваемого"
+                            },
+                            {
+                                "target_lang_word": "поставлять",
+                                "target_lang_sense_clarification": "товары, заказы"
+                            },
+                            {
+                                "target_lang_word": "отгружать",
+                                "target_lang_sense_clarification": "продукцию"
+                            }
+                        ]
+                    }
                 }
             ]
         }

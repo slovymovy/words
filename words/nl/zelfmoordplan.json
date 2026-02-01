@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De hulpverlener vroeg voorzichtig of de cliënt een concreet <w>zelfmoordplan</w> had."
+                            "text": "De hulpverlener vroeg voorzichtig of de cliënt een concreet <w>zelfmoordplan</w> had.",
+                            "target_lang_translations": {
+                                "en": "The care provider cautiously asked if the client had a concrete <w>suicide plan</w>.",
+                                "ru": "Специалист осторожно спросил, есть ли у клиента конкретный <w>план самоубийства</w>."
+                            }
                         },
                         {
-                            "text": "Het is van levensbelang om direct professionele hulp in te schakelen als iemand spreekt over een <w>zelfmoordplan</w>."
+                            "text": "Het is van levensbelang om direct professionele hulp in te schakelen als iemand spreekt over een <w>zelfmoordplan</w>.",
+                            "target_lang_translations": {
+                                "en": "It is of vital importance to immediately call in professional help if someone speaks about a <w>suicide plan</w>.",
+                                "ru": "Жизненно важно немедленно обратиться за профессиональной помощью, если кто-то говорит о <w>плане самоубийства</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "een zelfmoordplan hebben",
                         "concreet zelfmoordplan"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "psychologie en psychiatrie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The intention or developed idea to take one's own life.",
+                        "ru": "Намерение или проработанная идея покончить с собой."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "suicide plan",
+                                "target_lang_sense_clarification": "a formulated plan to end one's life"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "план самоубийства",
+                                "target_lang_sense_clarification": "конкретный замысел уйти из жизни"
+                            },
+                            {
+                                "target_lang_word": "суицидальный план",
+                                "target_lang_sense_clarification": "термин, часто используемый в психологии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

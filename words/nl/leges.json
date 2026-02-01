@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Voor het verlengen van je rijbewijs moet je bij het gemeentehuis <w>leges</w> betalen."
+                            "text": "Voor het verlengen van je rijbewijs moet je bij het gemeentehuis <w>leges</w> betalen.",
+                            "target_lang_translations": {
+                                "en": "To renew your driver's license, you must pay <w>administrative fees</w> at the town hall.",
+                                "ru": "За продление водительских прав в муниципалитете нужно заплатить <w>пошлину</w>."
+                            }
                         },
                         {
-                            "text": "De gemeente heeft besloten de <w>leges</w> voor een bouwvergunning volgend jaar te verhogen."
+                            "text": "De gemeente heeft besloten de <w>leges</w> voor een bouwvergunning volgend jaar te verhogen.",
+                            "target_lang_translations": {
+                                "en": "The municipality has decided to increase the <w>fees</w> for a building permit next year.",
+                                "ru": "Муниципалитет решил повысить <w>сборы</w> за разрешение на строительство в следующем году."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,18 +37,44 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "plural only"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A fee that must be paid to the government for the use of administrative services, such as issuing permits or identity documents.",
+                        "ru": "Плата, взимаемая государственными органами за оказание административных услуг, например, за выдачу разрешений или удостоверений личности."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "administrative fees",
+                                "target_lang_sense_clarification": "fees paid to an authority for official services"
+                            },
+                            {
+                                "target_lang_word": "fees",
+                                "target_lang_sense_clarification": "payments for professional or public services"
+                            },
+                            {
+                                "target_lang_word": "administrative charges",
+                                "target_lang_sense_clarification": "costs levied for administrative processing"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пошлина",
+                                "target_lang_sense_clarification": "денежный сбор, взимаемый уполномоченными официальными органами"
+                            },
+                            {
+                                "target_lang_word": "административный сбор",
+                                "target_lang_sense_clarification": "плата за совершение административных действий"
+                            },
+                            {
+                                "target_lang_word": "сбор",
+                                "target_lang_sense_clarification": "обязательный взнос за услуги"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Эта научная теория легко <опровергается> новыми экспериментальными данными."
+                            "text": "Эта научная теория легко <опровергается> новыми экспериментальными данными.",
+                            "target_lang_translations": {
+                                "en": "This scientific theory is easily <w>refuted</w> by new experimental data."
+                            }
                         },
                         {
-                            "text": "Слухи о его отставке официально <опровергаются> представителями компании."
+                            "text": "Слухи о его отставке официально <опровергаются> представителями компании.",
+                            "target_lang_translations": {
+                                "en": "Rumors about his resignation are officially <w>denied</w> by company representatives."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "теория опровергается",
                         "легко опровергаться"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To be proven false, erroneous, or groundless; passive voice of the verb 'refute'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be refuted",
+                                "target_lang_sense_clarification": "general sense"
+                            },
+                            {
+                                "target_lang_word": "be disproved",
+                                "target_lang_sense_clarification": "regarding theories or facts"
+                            },
+                            {
+                                "target_lang_word": "be denied",
+                                "target_lang_sense_clarification": "regarding rumors or accusations"
+                            }
+                        ]
+                    }
                 }
             ]
         }

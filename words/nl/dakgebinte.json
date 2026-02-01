@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De architect maakte een gedetailleerde tekening van het nieuwe <w>dakgebinte</w>."
+                            "text": "De architect maakte een gedetailleerde tekening van het nieuwe <w>dakgebinte</w>.",
+                            "target_lang_translations": {
+                                "en": "The architect made a detailed drawing of the new <w>roof truss</w>.",
+                                "ru": "Архитектор сделал подробный чертеж новой <w>стропильной системы</w>."
+                            }
                         },
                         {
-                            "text": "Het zware <w>dakgebinte</w> zorgt ervoor dat het huis bestand is tegen harde wind."
+                            "text": "Het zware <w>dakgebinte</w> zorgt ervoor dat het huis bestand is tegen harde wind.",
+                            "target_lang_translations": {
+                                "en": "The heavy <w>roof framework</w> ensures the house can withstand strong winds.",
+                                "ru": "Тяжелая <w>стропильная ферма</w> обеспечивает устойчивость дома к сильному ветру."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,36 @@
                         "houten dakgebinte",
                         "stevig dakgebinte"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "bouw"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A portal-shaped construction that supports the roof.",
+                        "ru": "Конструкция, на которую опирается крыша; стропильная система."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "roof truss",
+                                "target_lang_sense_clarification": "structural framework"
+                            },
+                            {
+                                "target_lang_word": "roof framework",
+                                "target_lang_sense_clarification": "skeleton of the roof"
+                            },
+                            {
+                                "target_lang_word": "roof structure",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "стропильная ферма",
+                                "target_lang_sense_clarification": "несущая конструкция крыши"
+                            },
+                            {
+                                "target_lang_word": "стропильная система",
+                                "target_lang_sense_clarification": "каркас кровли"
+                            }
+                        ]
+                    }
                 }
             ]
         }

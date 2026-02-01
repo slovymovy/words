@@ -1,100 +1,170 @@
 {
     "word_family": [
-        "Adriaan",
-        "Adolf",
-        "adrem"
+        "Adriaan"
     ],
     "entries": [
-        {
-            "pos": "name",
-            "senses": [
-                {
-                    "sense_id": "001094ad-293f-36a1-b3d9-e50a856cf5ee",
-                    "sense_definition": "Een jongensnaam, meestal een verkorting van <w>Adriaan</w> of <w>Adolf</w>.",
-                    "learner_level": "A2",
-                    "frequency": "High",
-                    "semantic_group_id": "person_name",
-                    "name_type": "person_name",
-                    "examples": [
-                        {
-                            "text": "Mijn oom heet <w>Ad</w> en hij woont in Utrecht."
-                        },
-                        {
-                            "text": "Is <w>Ad</w> vandaag ook op kantoor?"
-                        }
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
-                },
-                {
-                    "sense_id": "2edd2f81-ba5e-33a9-89dd-1bd44b7016b2",
-                    "sense_definition": "De afkorting voor het <w>Algemeen Dagblad</w>, een grote Nederlandse krant.",
-                    "learner_level": "B1",
-                    "frequency": "High",
-                    "semantic_group_id": "media",
-                    "name_type": "organization_name",
-                    "examples": [
-                        {
-                            "text": "Heb jij het <w>AD</w> vanochtend al gelezen?"
-                        },
-                        {
-                            "text": "Het <w>AD</w> publiceerde gisteren een interessant artikel over de verkiezingen."
-                        }
-                    ],
-                    "synonyms": [
-                        "Algemeen Dagblad"
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "brand",
-                            "comment": "newspaper"
-                        },
-                        {
-                            "trait_type": "form",
-                            "comment": "abbreviation"
-                        }
-                    ]
-                }
-            ]
-        },
         {
             "pos": "preposition",
             "senses": [
                 {
                     "sense_id": "b32a2fb9-8c2e-3bc9-82f7-ee47b35d5f41",
-                    "sense_definition": "Latijns voorzetsel dat 'tot', 'bij' of 'voor' betekent, voornamelijk gebruikt in vaste uitdrukkingen.",
-                    "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "",
+                    "sense_definition": "Latijns voorzetsel dat 'bij', 'tot' of 'naar' betekent, voornamelijk gebruikt in vaste uitdrukkingen",
+                    "learner_level": "C1",
+                    "frequency": "Low",
+                    "semantic_group_id": "latin_prep",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We moeten voor dit probleem een <w>ad</w> hoc oplossing vinden."
+                            "text": "De commissie werd <w>ad</w> hoc samengesteld om het crisisprobleem direct aan te pakken.",
+                            "target_lang_translations": {
+                                "ru": "Комиссия была создана <w>ad</w> hoc (специально для этого), чтобы немедленно заняться решением кризиса.",
+                                "en": "The committee was composed <w>ad</w> hoc to immediately tackle the crisis problem."
+                            }
                         },
                         {
-                            "text": "De directeur is tijdelijk <w>ad</w> interim aangesteld."
+                            "text": "Zij reageerde zeer <w>ad</w> rem op de kritische vragen van de journalist.",
+                            "target_lang_translations": {
+                                "ru": "Она очень <w>ad</w> rem (находчиво) отреагировала на критические вопросы журналиста.",
+                                "en": "She responded very <w>ad</w> rem to the journalist's critical questions."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "ad hoc",
-                        "ad interim",
                         "ad rem",
-                        "ad fundum"
+                        "ad interim",
+                        "ad fundum",
+                        "ad valvas"
                     ],
                     "traits": [
                         {
-                            "trait_type": "formal",
-                            "comment": "Latin origin"
+                            "trait_type": "form",
+                            "comment": "Latin"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Латинский предлог, означающий «при», «к» или «для», используемый в основном в устойчивых выражениях",
+                        "en": "Latin preposition meaning 'at', 'to', or 'towards', primarily used in fixed expressions"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ад",
+                                "target_lang_sense_clarification": "в составе латинских фраз"
+                            },
+                            {
+                                "target_lang_word": "к",
+                                "target_lang_sense_clarification": "буквальное значение"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "ad",
+                                "target_lang_sense_clarification": "in Latin phrases like 'ad hoc'"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "pos": "name",
+            "senses": [
+                {
+                    "sense_id": "001094ad-293f-36a1-b3d9-e50a856cf5ee",
+                    "sense_definition": "Een jongensnaam, verkorting van <w>Adriaan</w> of soms <w>Adolf</w>",
+                    "learner_level": "A2",
+                    "frequency": "Middle",
+                    "semantic_group_id": "person_name",
+                    "name_type": "person_name",
+                    "examples": [
+                        {
+                            "text": "Mijn oom <w>Ad</w> komt morgenavond bij ons op bezoek.",
+                            "target_lang_translations": {
+                                "ru": "Мой дядя <w>Ад</w> придет к нам в гости завтра вечером.",
+                                "en": "My uncle <w>Ad</w> is coming to visit us tomorrow evening."
+                            }
                         },
                         {
-                            "trait_type": "specialized",
-                            "comment": "used in phrases"
+                            "text": "Hoewel hij officieel Adriaan heet, noemt iedereen hem gewoon <w>Ad</w>.",
+                            "target_lang_translations": {
+                                "ru": "Хотя официально его зовут Адриан, все называют его просто <w>Ад</w>.",
+                                "en": "Although his official name is Adriaan, everyone just calls him <w>Ad</w>."
+                            }
                         }
-                    ]
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "diminutive"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Мужское имя, сокращение от Адриан или иногда Адольф",
+                        "en": "A boy's name, short for Adriaan or sometimes Adolf"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ад",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Ad",
+                                "target_lang_sense_clarification": "male name"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "2edd2f81-ba5e-33a9-89dd-1bd44b7016b2",
+                    "sense_definition": "Afkorting voor het <w>Algemeen Dagblad</w>, een bekend Nederlands dagblad",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "newspaper_name",
+                    "name_type": "document_or_program_name",
+                    "examples": [
+                        {
+                            "text": "Heb jij het <w>AD</w> van vanochtend al uit de brievenbus gehaald?",
+                            "target_lang_translations": {
+                                "ru": "Ты уже достал утренний <w>AD</w> из почтового ящика?",
+                                "en": "Have you already taken this morning's <w>AD</w> out of the mailbox?"
+                            }
+                        },
+                        {
+                            "text": "In het <w>AD</w> stond een interessant artikel over de nieuwe maatregelen.",
+                            "target_lang_translations": {
+                                "ru": "В <w>AD</w> была интересная статья о новых мерах.",
+                                "en": "There was an interesting article in the <w>AD</w> about the new measures."
+                            }
+                        }
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "abbreviation"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Сокращение от Algemeen Dagblad, известной нидерландской газеты",
+                        "en": "Abbreviation for the Algemeen Dagblad, a well-known Dutch newspaper"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "AD",
+                                "target_lang_sense_clarification": "название газеты"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "AD",
+                                "target_lang_sense_clarification": "Dutch newspaper"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -102,62 +172,110 @@
             "pos": "noun",
             "senses": [
                 {
-                    "sense_id": "00be69a6-0c9c-3b4b-b0a3-4227a594586f",
-                    "sense_definition": "Afkorting voor <w>Associate Degree</w>, een titel na een tweejarige hbo-opleiding.",
-                    "learner_level": "C1",
+                    "sense_id": "ad250134-4546-3c15-8c6b-dd8c6a6eb537",
+                    "sense_definition": "Afkorting van <w>annō Dominī</w> (in het jaar des Heren), gebruikt om jaartallen na Christus aan te duiden",
+                    "learner_level": "B2",
                     "frequency": "Low",
-                    "semantic_group_id": "education",
+                    "semantic_group_id": "time_abbr",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Na haar studie mag zij de titel <w>Ad</w> achter haar naam zetten."
+                            "text": "Dit historische document stamt uit het jaar 1250 <w>ad</w>.",
+                            "target_lang_translations": {
+                                "ru": "Этот исторический документ датируется 1250 годом <w>н.э.</w>",
+                                "en": "This historical document dates from the year 1250 <w>AD</w>."
+                            }
                         },
                         {
-                            "text": "De opleiding Management in de Zorg leidt op tot een <w>Ad</w>."
+                            "text": "De jaartelling wordt in oude teksten soms aangegeven met <w>ad</w> achter het getal.",
+                            "target_lang_translations": {
+                                "ru": "Летоисчисление в старых текстах иногда обозначается с помощью <w>ad</w> после числа.",
+                                "en": "In old texts, the era is sometimes indicated with <w>ad</w> after the number."
+                            }
                         }
                     ],
-                    "synonyms": [
-                        "Associate Degree"
-                    ],
                     "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "academic title"
-                        },
                         {
                             "trait_type": "form",
                             "comment": "abbreviation"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Сокращение от annō Dominī (в год Господень), используется для обозначения годов нашей эры",
+                        "en": "Abbreviation of annō Dominī (in the year of the Lord), used to denote years after Christ"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "н.э.",
+                                "target_lang_sense_clarification": "нашей эры"
+                            },
+                            {
+                                "target_lang_word": "от Р.Х.",
+                                "target_lang_sense_clarification": "от Рождества Христова"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "AD",
+                                "target_lang_sense_clarification": "time abbreviation"
+                            },
+                            {
+                                "target_lang_word": "A.D.",
+                                "target_lang_sense_clarification": "time abbreviation"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "ad250134-4546-3c15-8c6b-dd8c6a6eb537",
-                    "sense_definition": "Afkorting van <w>anno Domini</w>, gebruikt om jaartallen na de geboorte van Christus aan te duiden.",
-                    "learner_level": "C1",
-                    "frequency": "Low",
-                    "semantic_group_id": "time",
+                    "sense_id": "00be69a6-0c9c-3b4b-b0a3-4227a594586f",
+                    "sense_definition": "Academische titel (Associate degree) die men mag voeren na het afronden van een tweejarige hbo-opleiding",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "degree_title",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het Romeinse Rijk eindigde officieel in 476 <w>AD</w>."
+                            "text": "Na haar studie Management in de Zorg mag zij de titel <w>Ad</w> achter haar naam zetten.",
+                            "target_lang_translations": {
+                                "ru": "После изучения менеджмента в здравоохранении она может ставить титул <w>Ad</w> после своего имени.",
+                                "en": "After her studies in Healthcare Management, she is allowed to put the title <w>Ad</w> after her name."
+                            }
                         },
                         {
-                            "text": "Deze oude munten stammen uit de periode rond 200 <w>AD</w>."
+                            "text": "De nieuwe opleiding biedt studenten de mogelijkheid om in twee jaar een <w>Ad</w> te behalen.",
+                            "target_lang_translations": {
+                                "ru": "Новая программа предлагает студентам возможность получить степень <w>Ad</w> за два года.",
+                                "en": "The new program offers students the possibility to obtain an <w>Ad</w> (Associate degree) in two years."
+                            }
                         }
                     ],
-                    "synonyms": [
-                        "n.Chr."
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "dated",
-                            "comment": "historical context"
-                        },
-                        {
-                            "trait_type": "form",
-                            "comment": "abbreviation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Академическая степень (Associate degree), которую можно использовать после завершения двухгодичного курса высшего профессионального образования",
+                        "en": "Academic title (Associate degree) that one may use after completing a two-year higher professional education program"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ad",
+                                "target_lang_sense_clarification": "академическая степень"
+                            },
+                            {
+                                "target_lang_word": "младший специалист",
+                                "target_lang_sense_clarification": "приблизительный аналог"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Associate degree",
+                                "target_lang_sense_clarification": "academic title"
+                            },
+                            {
+                                "target_lang_word": "Ad",
+                                "target_lang_sense_clarification": "Dutch degree abbreviation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts controleerde de <w>drukzin</w> van de patiënt om zenuwschade uit te sluiten."
+                            "text": "De arts controleerde de <w>drukzin</w> van de patiënt om zenuwschade uit te sluiten.",
+                            "target_lang_translations": {
+                                "en": "The doctor checked the patient's <w>sense of pressure</w> to rule out nerve damage.",
+                                "ru": "Врач проверил <w>чувство давления</w> у пациента, чтобы исключить повреждение нервов."
+                            }
                         },
                         {
-                            "text": "Bij sommige diepzeevissen is de <w>drukzin</w> extreem goed ontwikkeld."
+                            "text": "Bij sommige diepzeevissen is de <w>drukzin</w> extreem goed ontwikkeld.",
+                            "target_lang_translations": {
+                                "en": "In some deep-sea fish, the <w>pressure sense</w> is extremely well developed.",
+                                "ru": "У некоторых глубоководных рыб <w>чувство давления</w> развито чрезвычайно хорошо."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +38,36 @@
                         "gevoelige drukzin",
                         "verstoorde drukzin"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The ability of a human or animal to perceive pressure or touch.",
+                        "ru": "Способность человека или животного воспринимать давление или прикосновение."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sense of pressure",
+                                "target_lang_sense_clarification": "perception of physical pressure"
+                            },
+                            {
+                                "target_lang_word": "pressure sense",
+                                "target_lang_sense_clarification": "sensory faculty"
+                            },
+                            {
+                                "target_lang_word": "pressure sensibility",
+                                "target_lang_sense_clarification": "sensitivity to pressure"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "чувство давления",
+                                "target_lang_sense_clarification": "способность ощущать физическое давление"
+                            },
+                            {
+                                "target_lang_word": "барестезия",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

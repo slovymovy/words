@@ -2,9 +2,11 @@
     "word_family": [
         "taakstraf",
         "taakverdeling",
+        "taakomschrijving",
         "hoofdtaak",
-        "dagtaak",
-        "neventaak"
+        "neventaak",
+        "takenpakket",
+        "taakgroep"
     ],
     "entries": [
         {
@@ -12,17 +14,25 @@
             "senses": [
                 {
                     "sense_id": "e3da6635-6bf8-3d3e-b650-84a11562761e",
-                    "sense_definition": "Een hoeveelheid werk of een opdracht die iemand moet uitvoeren.",
+                    "sense_definition": "Een werk of activiteit die gedaan moet worden.",
                     "learner_level": "A2",
                     "frequency": "High",
                     "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Iedereen had duidelijke <w>taken</w> in het huishouden."
+                            "text": "Het is mijn <w>taak</w> om ervoor te zorgen dat de planten water krijgen.",
+                            "target_lang_translations": {
+                                "en": "It is my <w>job</w> to ensure that the plants get water.",
+                                "ru": "Это моя <w>задача</w> — следить за тем, чтобы растения получали воду."
+                            }
                         },
                         {
-                            "text": "Het is een zware <w>taak</w> om dit project te leiden."
+                            "text": "De leerlingen kregen de moeilijke <w>taak</w> om het hele hoofdstuk te leren.",
+                            "target_lang_translations": {
+                                "en": "The students were given the difficult <w>task</w> of learning the whole chapter.",
+                                "ru": "Ученики получили трудную <w>задачу</w> выучить всю главу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,8 +42,100 @@
                     "common_phrases": [
                         "een taak uitvoeren",
                         "zware taak",
-                        "taak volbrengen"
-                    ]
+                        "taak volbrengen",
+                        "dagelijkse taak"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A piece of work or activity that must be done.",
+                        "ru": "Работа или деятельность, которую необходимо выполнить."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "task",
+                                "target_lang_sense_clarification": "a piece of work to be done"
+                            },
+                            {
+                                "target_lang_word": "job",
+                                "target_lang_sense_clarification": "a specific piece of work or responsibility"
+                            },
+                            {
+                                "target_lang_word": "assignment",
+                                "target_lang_sense_clarification": "an allocated task or instruction"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "задача",
+                                "target_lang_sense_clarification": "то, что требует исполнения, разрешения"
+                            },
+                            {
+                                "target_lang_word": "задание",
+                                "target_lang_sense_clarification": "порученная работа или упражнение"
+                            },
+                            {
+                                "target_lang_word": "обязанность",
+                                "target_lang_sense_clarification": "круг действий, возложенных на кого-либо"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "aa6b03a1-bf01-3bb5-9217-a05f7e74305a",
+                    "sense_definition": "Eerste persoon enkelvoud tegenwoordige tijd van <w>taken</w>.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Ik <w>taak</w> zelden, omdat dit werkwoord in het modern Nederlands nauwelijks wordt gebruikt.",
+                            "target_lang_translations": {
+                                "en": "I rarely <w>task</w>, because this verb is hardly used in modern Dutch.",
+                                "ru": "Я редко <w>даю задания</w>, так как этот глагол почти не используется в современном нидерландском языке."
+                            }
+                        },
+                        {
+                            "text": "Als ik zeg dat ik <w>taak</w>, gebruik ik een zeer ouderwetse vorm van het woord.",
+                            "target_lang_translations": {
+                                "en": "If I say that I <w>task</w>, I am using a very old-fashioned form of the word.",
+                                "ru": "Если я говорю, что <w>даю задание</w>, я использую очень старомодную форму этого слова."
+                            }
+                        }
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "verb form"
+                        },
+                        {
+                            "trait_type": "archaic",
+                            "comment": "the verb taken is archaic"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "en": "First person singular present tense of the verb 'taken'.",
+                        "ru": "Форма первого лица единственного числа настоящего времени глагола 'taken'."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "task",
+                                "target_lang_sense_clarification": "to assign a task (archaic)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "давать задание",
+                                "target_lang_sense_clarification": "поручать работу (устаревшее)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

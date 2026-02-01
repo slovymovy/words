@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De monteur controleerde de <w>accuspanning</w> voordat hij de motor startte."
+                            "text": "De monteur controleerde de <w>accuspanning</w> voordat hij de motor startte.",
+                            "target_lang_translations": {
+                                "en": "The mechanic checked the <w>battery voltage</w> before starting the engine.",
+                                "ru": "Механик проверил <w>напряжение аккумулятора</w> перед тем, как завести двигатель."
+                            }
                         },
                         {
-                            "text": "Bij een te lage <w>accuspanning</w> kunnen de koplampen minder fel gaan branden."
+                            "text": "Bij een te lage <w>accuspanning</w> kunnen de koplampen minder fel gaan branden.",
+                            "target_lang_translations": {
+                                "en": "If the <w>battery voltage</w> is too low, the headlights may shine less brightly.",
+                                "ru": "При слишком низком <w>напряжении аккумулятора</w> фары могут светить менее ярко."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,24 @@
                         "accuspanning meten",
                         "accuspanning controleren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "elektriciteit"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The electric potential difference between the terminals of a battery",
+                        "ru": "Разность электрических потенциалов между полюсами аккумулятора"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "battery voltage",
+                                "target_lang_sense_clarification": "electrical potential"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "напряжение аккумулятора",
+                                "target_lang_sense_clarification": "электрический параметр батареи"
+                            }
+                        ]
+                    }
                 }
             ]
         }

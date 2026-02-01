@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Er is veel kritiek vanuit <w>aandeelhouderskringen</w> op het nieuwe beleid van de directeur."
+                            "text": "Er is veel kritiek vanuit <w>aandeelhouderskringen</w> op het nieuwe beleid van de directeur.",
+                            "target_lang_translations": {
+                                "en": "There is much criticism from <w>shareholder circles</w> regarding the director's new policy.",
+                                "ru": "Со стороны <w>акционерных кругов</w> звучит много критики в адрес новой политики директора."
+                            }
                         },
                         {
-                            "text": "De onrust binnen de <w>aandeelhouderskring</w> zorgde voor een daling van de beurskoers."
+                            "text": "De onrust binnen de <w>aandeelhouderskring</w> zorgde voor een daling van de beurskoers.",
+                            "target_lang_translations": {
+                                "en": "The unrest within the <w>circle of shareholders</w> caused a drop in the stock price.",
+                                "ru": "Волнения в <w>кругу акционеров</w> привели к падению биржевого курса."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +38,36 @@
                         "in aandeelhouderskringen",
                         "vanuit aandeelhouderskringen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "financieel"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The group of people or entities that own shares in a company.",
+                        "ru": "Группа лиц или организаций, владеющих акциями компании."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "circle of shareholders",
+                                "target_lang_sense_clarification": "literal translation, referring to the specific group"
+                            },
+                            {
+                                "target_lang_word": "shareholder circles",
+                                "target_lang_sense_clarification": "often used in plural to refer to the community or environment of investors"
+                            },
+                            {
+                                "target_lang_word": "shareholder base",
+                                "target_lang_sense_clarification": "collective body of investors"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "круг акционеров",
+                                "target_lang_sense_clarification": "группа владельцев акций"
+                            },
+                            {
+                                "target_lang_word": "акционерные круги",
+                                "target_lang_sense_clarification": "сообщество акционеров (часто во мн. ч.)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

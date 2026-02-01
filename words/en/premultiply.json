@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "You must <w>premultiply</w> the transformation matrix to apply the rotation in the correct order."
+                            "text": "You must <w>premultiply</w> the transformation matrix to apply the rotation in the correct order.",
+                            "target_lang_translations": {
+                                "ru": "Вы должны <w>умножить слева</w> матрицу преобразования, чтобы применить вращение в правильном порядке."
+                            }
                         },
                         {
-                            "text": "In computer graphics, it is common to <w>premultiply</w> the alpha channel to simplify blending calculations."
+                            "text": "In computer graphics, it is common to <w>premultiply</w> the alpha channel to simplify blending calculations.",
+                            "target_lang_translations": {
+                                "ru": "В компьютерной графике принято <w>предварительно умножать</w> альфа-канал, чтобы упростить вычисления смешивания."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -32,12 +38,25 @@
                         "premultiply by a factor",
                         "premultiply alpha"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "mathematics and computing"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Умножать математический объект (например, матрицу или кватернион) на другой множитель, помещая его перед исходным объектом (умножение слева)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "умножать слева",
+                                "target_lang_sense_clarification": "математический термин для матриц"
+                            },
+                            {
+                                "target_lang_word": "предварительно умножать",
+                                "target_lang_sense_clarification": "в компьютерной графике"
+                            },
+                            {
+                                "target_lang_word": "домножать слева",
+                                "target_lang_sense_clarification": "разговорный математический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

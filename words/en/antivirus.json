@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "You should install <w>antivirus</w> software to protect your new laptop."
+                            "text": "You should install <w>antivirus</w> software to protect your new laptop.",
+                            "target_lang_translations": {
+                                "ru": "Вам следует установить <w>антивирус</w> для защиты вашего нового ноутбука."
+                            }
                         },
                         {
-                            "text": "The <w>antivirus</w> scanned the hard drive and found no threats."
+                            "text": "The <w>antivirus</w> scanned the hard drive and found no threats.",
+                            "target_lang_translations": {
+                                "ru": "<w>Антивирус</w> просканировал жесткий диск и не обнаружил угроз."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,17 @@
                         "update antivirus",
                         "run antivirus"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "software context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Программное обеспечение, предназначенное для обнаружения, предотвращения и удаления компьютерных вирусов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "антивирус",
+                                "target_lang_sense_clarification": "программа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

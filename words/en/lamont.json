@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Lamont</w> will be leading the meeting this afternoon."
+                            "text": "Mr. <w>Lamont</w> will be leading the meeting this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Ламонт</w> будет вести собрание сегодня днем."
+                            }
                         },
                         {
-                            "text": "The <w>Lamont</w> family has lived in this neighborhood for over fifty years."
+                            "text": "The <w>Lamont</w> family has lived in this neighborhood for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Ламонт</w> живет в этом районе уже более пятидесяти лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ламонт",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6b5d2168-bf11-344f-94e5-9f9bac9b5e7a",
@@ -35,18 +52,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "They stopped in the small town of <w>Lamont</w> to refuel their car."
+                            "text": "They stopped in the small town of <w>Lamont</w> to refuel their car.",
+                            "target_lang_translations": {
+                                "ru": "Они остановились в маленьком городке <w>Ламонт</w>, чтобы заправить машину."
+                            }
                         },
                         {
-                            "text": "He was born in <w>Lamont</w>, Alberta, before moving to the city."
+                            "text": "He was born in <w>Lamont</w>, Alberta, before moving to the city.",
+                            "target_lang_translations": {
+                                "ru": "Он родился в <w>Ламонте</w>, провинция Альберта, до переезда в большой город."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "geographical locations"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Название различных населенных пунктов в США и Канаде."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ламонт",
+                                "target_lang_sense_clarification": "географическое название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

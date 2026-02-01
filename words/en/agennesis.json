@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The medical report indicated <w>agennesis</w> as the primary reason for the couple's inability to conceive."
+                            "text": "The medical report indicated <w>agennesis</w> as the primary reason for the couple's inability to conceive.",
+                            "target_lang_translations": {
+                                "ru": "В медицинском заключении <w>бесплодие</w> было указано как основная причина неспособности пары к зачатию."
+                            }
                         },
                         {
-                            "text": "Although rare, <w>agennesis</w> can be a distressing diagnosis for those wishing to start a family."
+                            "text": "Although rare, <w>agennesis</w> can be a distressing diagnosis for those wishing to start a family.",
+                            "target_lang_translations": {
+                                "ru": "Хотя <w>бесплодие</w> встречается редко, оно может стать тяжелым диагнозом для тех, кто хочет создать семью."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,25 @@
                         "fertility",
                         "fecundity"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "refers to reproductive health"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Медицинское состояние, характеризующееся стерильностью или импотенцией, приводящее к неспособности к воспроизводству потомства."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "бесплодие",
+                                "target_lang_sense_clarification": "неспособность иметь потомство"
+                            },
+                            {
+                                "target_lang_word": "импотенция",
+                                "target_lang_sense_clarification": "половое бессилие"
+                            },
+                            {
+                                "target_lang_word": "стерильность",
+                                "target_lang_sense_clarification": "неспособность к оплодотворению"
+                            }
+                        ]
+                    }
                 }
             ]
         }

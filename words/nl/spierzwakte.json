@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De dokter onderzocht de oorzaak van de plotselinge <w>spierzwakte</w>."
+                            "text": "De dokter onderzocht de oorzaak van de plotselinge <w>spierzwakte</w>.",
+                            "target_lang_translations": {
+                                "en": "The doctor investigated the cause of the sudden <w>muscle weakness</w>.",
+                                "ru": "Врач исследовал причину внезапной <w>мышечной слабости</w>."
+                            }
                         },
                         {
-                            "text": "Na de operatie had hij last van <w>spierzwakte</w> in zijn benen."
+                            "text": "Na de operatie had hij last van <w>spierzwakte</w> in zijn benen.",
+                            "target_lang_translations": {
+                                "en": "After the surgery, he suffered from <w>muscle weakness</w> in his legs.",
+                                "ru": "После операции он страдал от <w>мышечной слабости</w> в ногах."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "ernstige spierzwakte",
                         "plotselinge spierzwakte"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A state of reduced strength in the muscles.",
+                        "ru": "Состояние сниженной силы в мышцах."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "muscle weakness",
+                                "target_lang_sense_clarification": "physical symptom"
+                            },
+                            {
+                                "target_lang_word": "muscular weakness",
+                                "target_lang_sense_clarification": "formal"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "мышечная слабость",
+                                "target_lang_sense_clarification": "физический симптом"
+                            },
+                            {
+                                "target_lang_word": "слабость мышц",
+                                "target_lang_sense_clarification": "общее значение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor noted that the patient displayed typical <w>coryzal</w> symptoms, such as sneezing and a runny nose."
+                            "text": "The doctor noted that the patient displayed typical <w>coryzal</w> symptoms, such as sneezing and a runny nose.",
+                            "target_lang_translations": {
+                                "ru": "Врач отметил, что у пациента наблюдались типичные <w>катаральные</w> симптомы, такие как чихание и насморк."
+                            }
                         },
                         {
-                            "text": "Despite the lack of a fever, the persistent <w>coryzal</w> discharge suggested a lingering viral infection."
+                            "text": "Despite the lack of a fever, the persistent <w>coryzal</w> discharge suggested a lingering viral infection.",
+                            "target_lang_translations": {
+                                "ru": "Несмотря на отсутствие жара, стойкие <w>катаральные</w> выделения указывали на затяжную вирусную инфекцию."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "coryzal illness",
                         "coryzal signs"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in clinical contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к насморку (коризе), в частности, связанный с воспалением слизистой оболочки носа."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "катаральный",
+                                "target_lang_sense_clarification": "медицинский термин; связанный с воспалением слизистых оболочек"
+                            },
+                            {
+                                "target_lang_word": "относящийся к риниту",
+                                "target_lang_sense_clarification": "связанный с воспалением носа"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Противоракета</w> успешно поразила учебную цель на большой высоте."
+                            "text": "<w>Противоракета</w> успешно поразила учебную цель на большой высоте.",
+                            "target_lang_translations": {
+                                "en": "The <w>anti-missile</w> successfully hit the training target at a high altitude."
+                            }
                         },
                         {
-                            "text": "Военные осуществили запуск <w>противоракеты</w> для проверки системы обороны."
+                            "text": "Военные осуществили запуск <w>противоракеты</w> для проверки системы обороны.",
+                            "target_lang_translations": {
+                                "en": "The military launched an <w>interceptor missile</w> to test the defense system."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                         "испытание противоракеты",
                         "новая противоракета"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A combat missile designed to intercept and destroy enemy missiles in flight."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "anti-missile",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "interceptor missile",
+                                "target_lang_sense_clarification": "military terminology"
+                            },
+                            {
+                                "target_lang_word": "antiballistic missile",
+                                "target_lang_sense_clarification": "specific type"
+                            }
+                        ]
+                    }
                 }
             ]
         }

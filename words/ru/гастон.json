@@ -13,18 +13,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Моего французского коллегу зовут <w>Гастон</w>."
+                            "text": "Моего французского коллегу зовут <w>Гастон</w>.",
+                            "target_lang_translations": {
+                                "en": "My French colleague is named <w>Gaston</w>."
+                            }
                         },
                         {
-                            "text": "<w>Гастон</w> вежливо открыл дверь перед дамой."
+                            "text": "<w>Гастон</w> вежливо открыл дверь перед дамой.",
+                            "target_lang_translations": {
+                                "en": "<w>Gaston</w> politely opened the door for the lady."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male name of French origin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Gaston",
+                                "target_lang_sense_clarification": "male name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

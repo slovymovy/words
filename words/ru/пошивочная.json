@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В театре есть собственная <w>пошивочная</w>, где мастера создают уникальные костюмы для новых спектаклей."
+                            "text": "В театре есть собственная <w>пошивочная</w>, где мастера создают уникальные костюмы для новых спектаклей.",
+                            "target_lang_translations": {
+                                "en": "The theater has its own <w>costume shop</w>, where artisans create unique costumes for new productions."
+                            }
                         },
                         {
-                            "text": "Заказ на униформу был передан в <w>пошивочную</w>, чтобы успеть подготовить всё к началу сезона."
+                            "text": "Заказ на униформу был передан в <w>пошивочную</w>, чтобы успеть подготовить всё к началу сезона.",
+                            "target_lang_translations": {
+                                "en": "The order for uniforms was sent to the <w>sewing workshop</w> to get everything ready by the start of the season."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "театральная пошивочная",
                         "работать в пошивочной"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "используется в профессиональной среде (театр, армия, производство)"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A workshop dedicated to making and repairing clothes."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sewing workshop",
+                                "target_lang_sense_clarification": "general term for a place where sewing is done"
+                            },
+                            {
+                                "target_lang_word": "tailoring shop",
+                                "target_lang_sense_clarification": "place for making or altering clothes"
+                            },
+                            {
+                                "target_lang_word": "costume shop",
+                                "target_lang_sense_clarification": "specifically in the context of a theater or film production"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De neuroloog wees op de scan de locatie van de derde <w>hersenholte</w> aan."
+                            "text": "De neuroloog wees op de scan de locatie van de derde <w>hersenholte</w> aan.",
+                            "target_lang_translations": {
+                                "en": "The neurologist pointed out the location of the third <w>ventricle</w> on the scan.",
+                                "ru": "Невролог указал на снимке расположение третьего <w>желудочка головного мозга</w>."
+                            }
                         },
                         {
-                            "text": "Een blokkade in de <w>hersenholte</w> kan leiden tot ernstige medische klachten."
+                            "text": "Een blokkade in de <w>hersenholte</w> kan leiden tot ernstige medische klachten.",
+                            "target_lang_translations": {
+                                "en": "A blockage in the <w>brain ventricle</w> can lead to serious medical complaints.",
+                                "ru": "Блокировка в <w>желудочке головного мозга</w> может привести к серьезным проблемам со здоровьем."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,32 @@
                         "verwijde hersenholte",
                         "vierde hersenholte"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "anatomie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "One of the four cavities in the brain filled with cerebrospinal fluid.",
+                        "ru": "Одна из четырех полостей в головном мозге, заполненных спинномозговой жидкостью."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "brain ventricle",
+                                "target_lang_sense_clarification": "anatomical cavity in the brain"
+                            },
+                            {
+                                "target_lang_word": "ventricle",
+                                "target_lang_sense_clarification": "medical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "желудочек головного мозга",
+                                "target_lang_sense_clarification": "анатомический термин"
+                            },
+                            {
+                                "target_lang_word": "мозговой желудочек",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

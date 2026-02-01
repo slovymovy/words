@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Молодой бычок <w>холостится</w> ветеринаром для более спокойного нрава."
+                            "text": "Молодой бычок <w>холостится</w> ветеринаром для более спокойного нрава.",
+                            "target_lang_translations": {
+                                "en": "The young bull <w>is being castrated</w> by the veterinarian for a calmer temperament."
+                            }
                         },
                         {
-                            "text": "В этом хозяйстве скот <w>холостится</w> только весной."
+                            "text": "В этом хозяйстве скот <w>холостится</w> только весной.",
+                            "target_lang_translations": {
+                                "en": "On this farm, the livestock <w>is castrated</w> only in the spring."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,14 +36,29 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "veterinary"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "passive voice"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Passive form of the verb 'to castrate'; to undergo castration, an operation to remove sex glands (usually regarding animals)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be castrated",
+                                "target_lang_sense_clarification": "general term for removing sex organs"
+                            },
+                            {
+                                "target_lang_word": "be gelded",
+                                "target_lang_sense_clarification": "specifically for male animals like horses or bulls"
+                            },
+                            {
+                                "target_lang_word": "be neutered",
+                                "target_lang_sense_clarification": "general term for pets and domestic animals"
+                            }
+                        ]
+                    }
                 }
             ]
         }

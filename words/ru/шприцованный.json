@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Технолог внимательно осмотрел <w>шприцованный</w> профиль на наличие брака."
+                            "text": "Технолог внимательно осмотрел <w>шприцованный</w> профиль на наличие брака.",
+                            "target_lang_translations": {
+                                "en": "The technologist carefully examined the <w>extruded</w> profile for defects."
+                            }
                         },
                         {
-                            "text": "В магазине часто продают <w>шприцованное</w> мясо для увеличения веса."
+                            "text": "В магазине часто продают <w>шприцованное</w> мясо для увеличения веса.",
+                            "target_lang_translations": {
+                                "en": "Stores often sell <w>injected</w> meat to increase the weight."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -31,12 +37,25 @@
                         "шприцованное мясо",
                         "шприцованный профиль"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "manufacturing or culinary context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Past passive participle of the verb 'shpritsevat' (to inject, extrude, or grease)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "injected",
+                                "target_lang_sense_clarification": "meat or food products"
+                            },
+                            {
+                                "target_lang_word": "extruded",
+                                "target_lang_sense_clarification": "technical profiles or materials"
+                            },
+                            {
+                                "target_lang_word": "pumped",
+                                "target_lang_sense_clarification": "meat treated with brine"
+                            }
+                        ]
+                    }
                 }
             ]
         }

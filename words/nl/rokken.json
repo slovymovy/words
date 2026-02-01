@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In de zomer dragen veel vrouwen kleurrijke <rokken>."
+                            "text": "In de zomer dragen veel vrouwen kleurrijke <rokken>.",
+                            "target_lang_translations": {
+                                "en": "In the summer, many women wear colorful <skirts>.",
+                                "ru": "Летом многие женщины носят яркие <юбки>."
+                            }
                         },
                         {
-                            "text": "Zij heeft al haar lange <rokken> gewassen en gestreken."
+                            "text": "Zij heeft al haar lange <rokken> gewassen en gestreken.",
+                            "target_lang_translations": {
+                                "en": "She has washed and ironed all her long <skirts>.",
+                                "ru": "Она постирала и погладила все свои длинные <юбки>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -35,7 +43,25 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural form of 'rok', a garment worn by women and girls that hangs from the waist.",
+                        "ru": "Множественное число от слова \"юбка\"."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "skirts",
+                                "target_lang_sense_clarification": "clothing"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "юбки",
+                                "target_lang_sense_clarification": "одежда"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "88fc41dd-0bf5-3257-99b2-c7e0b5fe1bea",
@@ -46,10 +72,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De oude vrouw bevestigde de wol behendig aan de <rokken>."
+                            "text": "De oude vrouw bevestigde de wol behendig aan de <rokken>.",
+                            "target_lang_translations": {
+                                "en": "The old woman skillfully attached the wool to the <distaff>.",
+                                "ru": "Старуха ловко прикрепила шерсть к <прялке>."
+                            }
                         },
                         {
-                            "text": "In het museum ligt een antieke <rokken> uit de achttiende eeuw."
+                            "text": "In het museum ligt een antieke <rokken> uit de achttiende eeuw.",
+                            "target_lang_translations": {
+                                "en": "In the museum lies an antique <distaff> from the eighteenth century.",
+                                "ru": "В музее лежит старинная <прялка> восемнадцатого века."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -57,14 +91,32 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "textile"
-                        },
-                        {
                             "trait_type": "dated",
                             "comment": "historical tool"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A stick or spindle onto which wool or flax is wound for spinning.",
+                        "ru": "Палка или стержень, на который наматывается шерсть или лен для прядения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "distaff",
+                                "target_lang_sense_clarification": "spinning tool"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "прялка",
+                                "target_lang_sense_clarification": "инструмент для прядения"
+                            },
+                            {
+                                "target_lang_word": "кудель",
+                                "target_lang_sense_clarification": "волокно на прялке (метонимия)"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -80,21 +132,45 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij moest het vlas eerst <rokken> voor ze kon beginnen met spinnen."
+                            "text": "Zij moest het vlas eerst <rokken> voor ze kon beginnen met spinnen.",
+                            "target_lang_translations": {
+                                "en": "She had to <wind> the flax <onto a distaff> first before she could start spinning.",
+                                "ru": "Ей нужно было сначала <намотать на прялку> лен, прежде чем она смогла начать прясть."
+                            }
                         },
                         {
-                            "text": "Het is een oude kunst om de wol netjes te <rokken>."
+                            "text": "Het is een oude kunst om de wol netjes te <rokken>.",
+                            "target_lang_translations": {
+                                "en": "It is an old art to <wind> the wool neatly <onto a distaff>.",
+                                "ru": "Аккуратно <наматывать на прялку> шерсть — это старинное искусство."
+                            }
                         }
                     ],
                     "synonyms": [
                         "rokkenen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "textile"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To wind fibers such as wool or flax onto a distaff in preparation for spinning.",
+                        "ru": "Наматывать волокна, такие как шерсть или лен, на прялку."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wind onto a distaff",
+                                "target_lang_sense_clarification": "textile processing"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "наматывать на прялку",
+                                "target_lang_sense_clarification": "готовить к прядению"
+                            },
+                            {
+                                "target_lang_word": "готовить кудель",
+                                "target_lang_sense_clarification": "процесс"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>zakenrelatie</w> met wie ik uit eten ben geweest, heeft het contract getekend."
+                            "text": "De <w>zakenrelatie</w> met wie ik uit eten ben geweest, heeft het contract getekend.",
+                            "target_lang_translations": {
+                                "en": "The <w>business associate</w> I went out to dinner with signed the contract.",
+                                "ru": "<w>Деловой партнёр</w>, с которым я ужинал, подписал контракт."
+                            }
                         },
                         {
-                            "text": "We hebben alle <w>zakenrelaties</w> uitgenodigd voor de opening van ons nieuwe gebouw."
+                            "text": "We hebben alle <w>zakenrelaties</w> uitgenodigd voor de opening van ons nieuwe gebouw.",
+                            "target_lang_translations": {
+                                "en": "We invited all our <w>business contacts</w> to the opening of our new building.",
+                                "ru": "Мы пригласили всех <w>деловых партнёров</w> на открытие нашего нового здания."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +43,40 @@
                         "zakenrelaties onderhouden",
                         "nieuwe zakenrelatie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A person or company with whom one has a business connection.",
+                        "ru": "Человек или компания, с которыми установлены деловые отношения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "business associate",
+                                "target_lang_sense_clarification": "professional connection (person)"
+                            },
+                            {
+                                "target_lang_word": "business contact",
+                                "target_lang_sense_clarification": "network connection"
+                            },
+                            {
+                                "target_lang_word": "business relation",
+                                "target_lang_sense_clarification": "formal term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "деловой партнёр",
+                                "target_lang_sense_clarification": "лицо или организация, с которыми ведется сотрудничество"
+                            },
+                            {
+                                "target_lang_word": "бизнес-партнёр",
+                                "target_lang_sense_clarification": "современный термин для обозначения партнёра по бизнесу"
+                            },
+                            {
+                                "target_lang_word": "деловой контакт",
+                                "target_lang_sense_clarification": "человек из профессиональной сети знакомств"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мясо нужно <w>потомить</w> на медленном огне около часа, чтобы оно стало мягким."
+                            "text": "Мясо нужно <w>потомить</w> на медленном огне около часа, чтобы оно стало мягким.",
+                            "target_lang_translations": {
+                                "en": "The meat needs to <w>simmer</w> over low heat for about an hour so it becomes tender."
+                            }
                         },
                         {
-                            "text": "Артист решил немного <w>потомить</w> зрителей перед началом представления."
+                            "text": "Артист решил немного <w>потомить</w> зрителей перед началом представления.",
+                            "target_lang_translations": {
+                                "en": "The artist decided to <w>keep</w> the audience <w>in suspense</w> a little before the start of the performance."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,29 @@
                         "потомить под крышкой",
                         "потомить ожиданием"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "в значении приготовления пищи"
-                        },
-                        {
-                            "trait_type": "figurative",
-                            "comment": "в значении заставлять ждать или мучиться"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To cook something over low heat for a while (simmer, stew); to keep someone waiting or in suspense for a short time."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "simmer",
+                                "target_lang_sense_clarification": "cooking"
+                            },
+                            {
+                                "target_lang_word": "stew",
+                                "target_lang_sense_clarification": "cooking"
+                            },
+                            {
+                                "target_lang_word": "keep in suspense",
+                                "target_lang_sense_clarification": "figurative"
+                            },
+                            {
+                                "target_lang_word": "keep waiting",
+                                "target_lang_sense_clarification": "figurative"
+                            }
+                        ]
+                    }
                 }
             ]
         }

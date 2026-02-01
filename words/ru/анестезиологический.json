@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач объяснил пациенту, какие риски включает в себя предстоящее <w>анестезиологическое</w> пособие."
+                            "text": "Врач объяснил пациенту, какие риски включает в себя предстоящее <w>анестезиологическое</w> пособие.",
+                            "target_lang_translations": {
+                                "en": "The doctor explained to the patient the risks involved in the upcoming <w>anesthetic</w> management."
+                            }
                         },
                         {
-                            "text": "В нашей клинике работает опытная <w>анестезиологическая</w> бригада, готовая к любым сложным ситуациям."
+                            "text": "В нашей клинике работает опытная <w>анестезиологическая</w> бригада, готовая к любым сложным ситуациям.",
+                            "target_lang_translations": {
+                                "en": "Our clinic has an experienced <w>anesthesia</w> team ready for any complex situations."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,21 @@
                         "анестезиологическая бригада",
                         "анестезиологический риск"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "термин используется в медицинской практике"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to anesthesiology, the branch of medicine concerned with pain relief and the maintenance of vital functions during surgery."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "anesthetic",
+                                "target_lang_sense_clarification": "relating to anesthesia or anesthesiology"
+                            },
+                            {
+                                "target_lang_word": "anesthesia",
+                                "target_lang_sense_clarification": "used attributively (e.g., anesthesia team)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

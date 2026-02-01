@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have a meeting scheduled with Mr. <w>Loewe</w> later this afternoon."
+                            "text": "We have a meeting scheduled with Mr. <w>Loewe</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас запланирована встреча с господином <w>Лёве</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "The historical records mention a family named <w>Loewe</w> living in this area."
+                            "text": "The historical records mention a family named <w>Loewe</w> living in this area.",
+                            "target_lang_translations": {
+                                "ru": "В исторических записях упоминается семья по фамилии <w>Лёве</w>, проживавшая в этой местности."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Лёве",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The chemical reaction produced an <w>unappreciable</w> amount of heat during the experiment."
+                            "text": "The chemical reaction produced an <w>unappreciable</w> amount of heat during the experiment.",
+                            "target_lang_translations": {
+                                "ru": "В ходе эксперимента химическая реакция выделила <w>незначительное</w> количество тепла."
+                            }
                         },
                         {
-                            "text": "There is an <w>unappreciable</w> difference between the two shades of paint."
+                            "text": "There is an <w>unappreciable</w> difference between the two shades of paint.",
+                            "target_lang_translations": {
+                                "ru": "Между двумя оттенками краски существует <w>едва уловимая</w> разница."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,12 +45,25 @@
                         "unappreciable amount",
                         "unappreciable distance"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "less common than inappreciable or negligible"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Слишком маленький или несущественный, чтобы быть замеченным; ничтожно малый."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "незначительный",
+                                "target_lang_sense_clarification": "несущественный по размеру или важности"
+                            },
+                            {
+                                "target_lang_word": "неощутимый",
+                                "target_lang_sense_clarification": "едва заметный, трудный для восприятия"
+                            },
+                            {
+                                "target_lang_word": "ничтожный",
+                                "target_lang_sense_clarification": "очень малый, пренебрежимо малый"
+                            }
+                        ]
+                    }
                 }
             ]
         }

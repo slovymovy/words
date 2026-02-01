@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The architect unrolled the large <w>dyeline</w> to show the client the proposed floor plan."
+                            "text": "The architect unrolled the large <w>dyeline</w> to show the client the proposed floor plan.",
+                            "target_lang_translations": {
+                                "ru": "Архитектор развернул большую <w>светокопию</w>, чтобы показать клиенту предлагаемый план этажа."
+                            }
                         },
                         {
-                            "text": "Before digital plotters became common, the <w>dyeline</w> process was standard for reproducing technical drawings."
+                            "text": "Before digital plotters became common, the <w>dyeline</w> process was standard for reproducing technical drawings.",
+                            "target_lang_translations": {
+                                "ru": "До того как цифровые плоттеры стали обычным явлением, процесс <w>диазокопирования</w> был стандартом для размножения технических чертежей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,14 +37,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "technical",
-                            "comment": "printing and engineering context"
-                        },
-                        {
                             "trait_type": "dated",
                             "comment": "largely replaced by digital printing"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Система печати или копия, созданная с использованием диазокрасителей, часто используемая для архитектурных или инженерных планов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "светокопия",
+                                "target_lang_sense_clarification": "копия чертежа"
+                            },
+                            {
+                                "target_lang_word": "диазокопия",
+                                "target_lang_sense_clarification": "технический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

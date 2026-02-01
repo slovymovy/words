@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The logistics firm hired a <w>seatrain</w> to move the freight cars directly to the island."
+                            "text": "The logistics firm hired a <w>seatrain</w> to move the freight cars directly to the island.",
+                            "target_lang_translations": {
+                                "ru": "Логистическая фирма наняла <w>железнодорожный паром</w>, чтобы переправить грузовые вагоны прямо на остров."
+                            }
                         },
                         {
-                            "text": "Using a <w>seatrain</w> service eliminates the need to transfer cargo from trains to ships manually."
+                            "text": "Using a <w>seatrain</w> service eliminates the need to transfer cargo from trains to ships manually.",
+                            "target_lang_translations": {
+                                "ru": "Использование услуг <w>железнодорожного парома</w> устраняет необходимость вручную перегружать грузы с поездов на корабли."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,16 +33,21 @@
                         "seatrain service",
                         "chartered seatrain"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "transportation logistics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Судно, предназначенное для перевозки железнодорожных вагонов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "железнодорожный паром",
+                                "target_lang_sense_clarification": "судно для перевозки вагонов"
+                            },
+                            {
+                                "target_lang_word": "вагоновоз",
+                                "target_lang_sense_clarification": "специализированное судно"
+                            }
+                        ]
+                    }
                 }
             ]
         }

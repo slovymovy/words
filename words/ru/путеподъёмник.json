@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На этом участке железной дороги работает мощный <w>путеподъёмник</w>."
+                            "text": "На этом участке железной дороги работает мощный <w>путеподъёмник</w>.",
+                            "target_lang_translations": {
+                                "en": "A powerful <w>track lifter</w> is operating on this section of the railway."
+                            }
                         },
                         {
-                            "text": "Бригада применила гидравлический <w>путеподъёмник</w> для выравнивания рельсов."
+                            "text": "Бригада применила гидравлический <w>путеподъёмник</w> для выравнивания рельсов.",
+                            "target_lang_translations": {
+                                "en": "The crew used a hydraulic <w>track jack</w> to align the rails."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "использовать путеподъёмник",
                         "ремонт путеподъёмника"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "железнодорожный транспорт"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A mobile machine or special device used to lift rails attached to sleepers during the repair of railway or tram tracks."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "track lifter",
+                                "target_lang_sense_clarification": "machine for lifting railway tracks"
+                            },
+                            {
+                                "target_lang_word": "track jack",
+                                "target_lang_sense_clarification": "device for lifting rails"
+                            }
+                        ]
+                    }
                 }
             ]
         }

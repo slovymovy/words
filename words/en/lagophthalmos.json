@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The ophthalmologist diagnosed the patient with <w>lagophthalmos</w> after noticing significant corneal dryness."
+                            "text": "The ophthalmologist diagnosed the patient with <w>lagophthalmos</w> after noticing significant corneal dryness.",
+                            "target_lang_translations": {
+                                "ru": "Офтальмолог диагностировал у пациента <w>лагофтальм</w>, заметив значительную сухость роговицы."
+                            }
                         },
                         {
-                            "text": "Treatment for nocturnal <w>lagophthalmos</w> often involves using lubricating ointments or taping the eyelids shut at night."
+                            "text": "Treatment for nocturnal <w>lagophthalmos</w> often involves using lubricating ointments or taping the eyelids shut at night.",
+                            "target_lang_translations": {
+                                "ru": "Лечение ночного <w>лагофтальма</w> часто включает использование увлажняющих мазей или заклеивание век на ночь."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +34,21 @@
                         "nocturnal lagophthalmos",
                         "paralytic lagophthalmos"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "ophthalmology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Медицинское состояние, при котором веки не могут полностью сомкнуться, часто возникающее во время сна"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лагофтальм",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "заячий глаз",
+                                "target_lang_sense_clarification": "разговорное/устаревшее название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

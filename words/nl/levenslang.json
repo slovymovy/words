@@ -5,7 +5,8 @@
         "levensduur",
         "levensloop",
         "levenslust",
-        "langdurig"
+        "overleven",
+        "beleven"
     ],
     "entries": [
         {
@@ -13,31 +14,66 @@
             "senses": [
                 {
                     "sense_id": "2ce8c914-0637-3827-afbc-abf086479119",
-                    "sense_definition": "Gedurende het hele leven blijvend of voortdurend.",
+                    "sense_definition": "Het hele leven durend of geldig blijvend; tot aan de dood.",
                     "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "",
+                    "frequency": "High",
+                    "semantic_group_id": "duration",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij zijn al sinds de basisschool <w>levenslange</w> vrienden."
+                            "text": "Hij heeft een <w>levenslange</w> gevangenisstraf gekregen voor zijn daden.",
+                            "target_lang_translations": {
+                                "en": "He received a <w>life</w> sentence for his actions.",
+                                "ru": "Он получил <w>пожизненное</w> тюремное заключение за свои деяния."
+                            }
                         },
                         {
-                            "text": "Op dit dure horloge zit een <w>levenslange</w> garantie."
+                            "text": "Mijn grootouders hebben een <w>levenslange</w> vriendschap met hun buren.",
+                            "target_lang_translations": {
+                                "en": "My grandparents have a <w>lifelong</w> friendship with their neighbors.",
+                                "ru": "Моих бабушку и дедушку связывает <w>пожизненная</w> дружба с соседями."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "eeuwigdurend"
+                        "eeuwigdurend",
+                        "permanent"
                     ],
                     "antonyms": [
                         "tijdelijk",
                         "kortstondig"
                     ],
                     "common_phrases": [
-                        "levenslange garantie",
-                        "levenslange vriendschap",
-                        "levenslang leren"
-                    ]
+                        "levenslang leren",
+                        "een levenslange gevangenisstraf",
+                        "levenslange garantie"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Lasting the whole life or remaining valid; until death.",
+                        "ru": "Длится всю жизнь или остается в силе до самой смерти."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "lifelong",
+                                "target_lang_sense_clarification": "lasting for the duration of a person's life"
+                            },
+                            {
+                                "target_lang_word": "life",
+                                "target_lang_sense_clarification": "used in compound terms like 'life sentence' or 'life member'"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пожизненный",
+                                "target_lang_sense_clarification": "длящийся всю жизнь"
+                            },
+                            {
+                                "target_lang_word": "на всю жизнь",
+                                "target_lang_sense_clarification": "фраза, указывающая на длительность"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -46,29 +82,61 @@
             "senses": [
                 {
                     "sense_id": "4b59f414-7a65-3f6c-8443-2da3e7478fce",
-                    "sense_definition": "Een gevangenisstraf die duurt tot aan de dood van de veroordeelde.",
+                    "sense_definition": "Een gevangenisstraf die duurt tot het einde van het leven.",
                     "learner_level": "B2",
                     "frequency": "Middle",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "legal_penalty",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De rechter veroordeelde de zware crimineel tot <w>levenslang</w>."
+                            "text": "De rechter veroordeelde de moordenaar tot <w>levenslang</w>.",
+                            "target_lang_translations": {
+                                "en": "The judge sentenced the murderer to <w>life</w>.",
+                                "ru": "Судья приговорил убийцу к <w>пожизненному заключению</w>."
+                            }
                         },
                         {
-                            "text": "Hij riskeert <w>levenslang</w> voor de moord die hij heeft gepleegd."
+                            "text": "In sommige landen betekent <w>levenslang</w> echt dat je nooit meer vrijkomt.",
+                            "target_lang_translations": {
+                                "en": "In some countries, <w>life imprisonment</w> really means that you will never be released.",
+                                "ru": "В некоторых странах <w>пожизненное заключение</w> действительно означает, что ты никогда больше не выйдешь на свободу."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "levenslang krijgen",
                         "tot levenslang veroordelen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "used in the context of criminal justice"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A prison sentence lasting until the end of life.",
+                        "ru": "Тюремное заключение, которое длится до конца жизни."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "life imprisonment",
+                                "target_lang_sense_clarification": "legal penalty"
+                            },
+                            {
+                                "target_lang_word": "life sentence",
+                                "target_lang_sense_clarification": "term for the punishment"
+                            },
+                            {
+                                "target_lang_word": "life",
+                                "target_lang_sense_clarification": "colloquial short form"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пожизненное заключение",
+                                "target_lang_sense_clarification": "юридический термин"
+                            },
+                            {
+                                "target_lang_word": "пожизненное",
+                                "target_lang_sense_clarification": "разговорное сокращение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

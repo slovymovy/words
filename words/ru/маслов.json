@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "В нашем классе учится Дима <w>Маслов</w>."
+                            "text": "В нашем классе учится Дима <w>Маслов</w>.",
+                            "target_lang_translations": {
+                                "en": "Dima <w>Maslov</w> is in our class."
+                            }
                         },
                         {
-                            "text": "Документы должен подписать директор <w>Маслов</w>."
+                            "text": "Документы должен подписать директор <w>Маслов</w>.",
+                            "target_lang_translations": {
+                                "en": "Director <w>Maslov</w> must sign the documents."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Maslov",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

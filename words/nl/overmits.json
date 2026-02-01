@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Overmits</w> de directeur onverwacht ziek is geworden, gaat de vergadering vandaag niet door."
+                            "text": "<w>Overmits</w> de directeur onverwacht ziek is geworden, gaat de vergadering vandaag niet door.",
+                            "target_lang_translations": {
+                                "en": "<w>Since</w> the director unexpectedly fell ill, the meeting is cancelled today.",
+                                "ru": "<w>Поскольку</w> директор неожиданно заболел, собрание сегодня не состоится."
+                            }
                         },
                         {
-                            "text": "De rechter oordeelde dat de verdachte vrijuit ging, <w>overmits</w> er onvoldoende bewijs was gevonden."
+                            "text": "De rechter oordeelde dat de verdachte vrijuit ging, <w>overmits</w> er onvoldoende bewijs was gevonden.",
+                            "target_lang_translations": {
+                                "en": "The judge ruled that the suspect was acquitted, <w>as</w> insufficient evidence had been found.",
+                                "ru": "Судья постановил, что подозреваемый оправдан, <w>поскольку</w> было найдено недостаточно доказательств."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,14 +36,44 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "formal",
-                            "comment": "wordt voornamelijk gebruikt in geschreven taal of officiële contexten"
-                        },
-                        {
                             "trait_type": "archaic",
                             "comment": "wordt in modern gesproken Nederlands zelden gebruikt"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Indicates a reason or cause; introduces a subordinate clause explaining why something happens.",
+                        "ru": "Указывает на причину или основание; вводит придаточное предложение, объясняющее, почему что-то происходит."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "since",
+                                "target_lang_sense_clarification": "used to introduce a reason or cause"
+                            },
+                            {
+                                "target_lang_word": "as",
+                                "target_lang_sense_clarification": "considering that; because"
+                            },
+                            {
+                                "target_lang_word": "because",
+                                "target_lang_sense_clarification": "for the reason that"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "поскольку",
+                                "target_lang_sense_clarification": "вводит причину; формальный или нейтральный стиль"
+                            },
+                            {
+                                "target_lang_word": "так как",
+                                "target_lang_sense_clarification": "вводит причину"
+                            },
+                            {
+                                "target_lang_word": "ибо",
+                                "target_lang_sense_clarification": "устаревшее или книжное слово, означающее «потому что»"
+                            }
+                        ]
+                    }
                 }
             ]
         }

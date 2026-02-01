@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I asked Mr. <w>Blackley</w> to sign the documents before he left the office."
+                            "text": "I asked Mr. <w>Blackley</w> to sign the documents before he left the office.",
+                            "target_lang_translations": {
+                                "ru": "Я попросил мистера <w>Блэкли</w> подписать документы, прежде чем он покинул офис."
+                            }
                         },
                         {
-                            "text": "The <w>Blackley</w> family has lived in this town for over three generations."
+                            "text": "The <w>Blackley</w> family has lived in this town for over three generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Блэкли</w> живет в этом городе уже более трех поколений."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Блэкли",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

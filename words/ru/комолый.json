@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На сельскохозяйственной выставке была представлена <w>комолая</w> корова редкой породы."
+                            "text": "На сельскохозяйственной выставке была представлена <w>комолая</w> корова редкой породы.",
+                            "target_lang_translations": {
+                                "en": "A <w>hornless</w> cow of a rare breed was presented at the agricultural exhibition."
+                            }
                         },
                         {
-                            "text": "Фермер объяснил, что <w>комолый</w> скот меньше травмирует друг друга в тесном загоне."
+                            "text": "Фермер объяснил, что <w>комолый</w> скот меньше травмирует друг друга в тесном загоне.",
+                            "target_lang_translations": {
+                                "en": "The farmer explained that <w>hornless</w> cattle injure each other less in a cramped pen."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "комолый скот",
                         "комолая порода"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "сельское хозяйство"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Hornless (referring to cloven-hoofed animals that usually have horns)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hornless",
+                                "target_lang_sense_clarification": "general meaning"
+                            },
+                            {
+                                "target_lang_word": "polled",
+                                "target_lang_sense_clarification": "livestock terminology"
+                            }
+                        ]
+                    }
                 }
             ]
         }

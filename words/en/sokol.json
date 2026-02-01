@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment with Dr. <w>Sokol</w> tomorrow morning."
+                            "text": "We have an appointment with Dr. <w>Sokol</w> tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначена встреча с доктором <w>Соколом</w> завтра утром."
+                            }
                         },
                         {
-                            "text": "The <w>Sokol</w> family has lived in this neighborhood for fifty years."
+                            "text": "The <w>Sokol</w> family has lived in this neighborhood for fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Сокол</w> живет в этом районе уже пятьдесят лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сокол",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -40,10 +57,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The <w>Sokol</w> movement played a key role in the national revival during the nineteenth century."
+                            "text": "The <w>Sokol</w> movement played a key role in the national revival during the nineteenth century.",
+                            "target_lang_translations": {
+                                "ru": "Движение «<w>Сокол</w>» сыграло ключевую роль в национальном возрождении в девятнадцатом веке."
+                            }
                         },
                         {
-                            "text": "He joined the local <w>Sokol</w> to practice gymnastics and meet others in the community."
+                            "text": "He joined the local <w>Sokol</w> to practice gymnastics and meet others in the community.",
+                            "target_lang_translations": {
+                                "ru": "Он вступил в местный «<w>Сокол</w>», чтобы заниматься гимнастикой и познакомиться с другими людьми в общине."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -51,12 +74,17 @@
                         "Sokol member",
                         "Sokol festival"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "historical/cultural"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Чешское гимнастическое общество, исторически связанное с чешским национализмом; отделение или член этой организации."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сокол",
+                                "target_lang_sense_clarification": "спортивное общество"
+                            }
+                        ]
+                    }
                 }
             ]
         }

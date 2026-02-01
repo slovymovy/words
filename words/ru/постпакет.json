@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Сотрудник отделения связи запечатал <w>постпакет</w> и подготовил его к отправке."
+                            "text": "Сотрудник отделения связи запечатал <w>постпакет</w> и подготовил его к отправке.",
+                            "target_lang_translations": {
+                                "en": "The post office employee sealed the <w>mailbag</w> and prepared it for dispatch."
+                            }
                         },
                         {
-                            "text": "Весь <w>постпакет</w> с письмами был по ошибке отправлен в другой город."
+                            "text": "Весь <w>постпакет</w> с письмами был по ошибке отправлен в другой город.",
+                            "target_lang_translations": {
+                                "en": "The entire <w>mailbag</w> containing letters was sent to another city by mistake."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "вскрыть постпакет",
                         "отправить постпакет"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "почтовое дело"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A bag or packet containing postal correspondence intended for shipment to a specific destination."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "mailbag",
+                                "target_lang_sense_clarification": "container for mail"
+                            },
+                            {
+                                "target_lang_word": "postal packet",
+                                "target_lang_sense_clarification": "bundle of mail"
+                            }
+                        ]
+                    }
                 }
             ]
         }

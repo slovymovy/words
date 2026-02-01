@@ -16,10 +16,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Мой друг родился и вырос в <w>Шадринске</w>, небольшом, но уютном городе."
+                            "text": "Мой друг родился и вырос в <w>Шадринске</w>, небольшом, но уютном городе.",
+                            "target_lang_translations": {
+                                "en": "My friend was born and raised in <w>Shadrinsk</w>, a small but cozy city."
+                            }
                         },
                         {
-                            "text": "<w>Шадринск</w> известен своими архитектурными памятниками и минеральными водами."
+                            "text": "<w>Шадринск</w> известен своими архитектурными памятниками и минеральными водами.",
+                            "target_lang_translations": {
+                                "en": "<w>Shadrinsk</w> is known for its architectural monuments and mineral waters."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "поехать в Шадринск",
                         "жители Шадринска"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "city in Russia"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A city in Russia, located in the Kurgan Oblast."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Shadrinsk",
+                                "target_lang_sense_clarification": "city in Russia"
+                            }
+                        ]
+                    }
                 }
             ]
         }

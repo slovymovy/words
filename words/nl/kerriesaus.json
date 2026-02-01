@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wij eten vanavond rijst met kip en een lekkere <w>kerriesaus</w>."
+                            "text": "Wij eten vanavond rijst met kip en een lekkere <w>kerriesaus</w>.",
+                            "target_lang_translations": {
+                                "en": "Tonight we are having rice with chicken and a delicious <w>curry sauce</w>.",
+                                "ru": "Сегодня вечером мы едим рис с курицей и вкусным <w>соусом карри</w>."
+                            }
                         },
                         {
-                            "text": "Bij de friet bestel ik meestal mayonaise of warme <w>kerriesaus</w>."
+                            "text": "Bij de friet bestel ik meestal mayonaise of warme <w>kerriesaus</w>.",
+                            "target_lang_translations": {
+                                "en": "I usually order mayonnaise or warm <w>curry sauce</w> with my fries.",
+                                "ru": "К картошке фри я обычно заказываю майонез или теплый <w>соус карри</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +37,24 @@
                         "friet met kerriesaus",
                         "warme kerriesaus"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A yellow sauce seasoned with curry.",
+                        "ru": "Желтый соус, приправленный карри."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "curry sauce",
+                                "target_lang_sense_clarification": "condiment"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "соус карри",
+                                "target_lang_sense_clarification": "соус"
+                            }
+                        ]
+                    }
                 }
             ]
         }

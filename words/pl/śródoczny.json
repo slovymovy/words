@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zmierzył pacjentowi ciśnienie <w>śródoczne</w> podczas rutynowego badania wzroku."
+                            "text": "Lekarz zmierzył pacjentowi ciśnienie <w>śródoczne</w> podczas rutynowego badania wzroku.",
+                            "target_lang_translations": {
+                                "ru": "Врач измерил пациенту <w>внутриглазное</w> давление во время плановой проверки зрения."
+                            }
                         },
                         {
-                            "text": "Zbyt wysokie ciśnienie <w>śródoczne</w> może prowadzić do poważnego uszkodzenia nerwu wzrokowego."
+                            "text": "Zbyt wysokie ciśnienie <w>śródoczne</w> może prowadzić do poważnego uszkodzenia nerwu wzrokowego.",
+                            "target_lang_translations": {
+                                "ru": "Слишком высокое <w>внутриглазное</w> давление может привести к серьезному повреждению зрительного нерва."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +36,17 @@
                         "ciśnienie śródoczne",
                         "płyn śródoczny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "находящийся внутри глазного яблока"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "внутриглазной",
+                                "target_lang_sense_clarification": "расположенный внутри глаза"
+                            }
+                        ]
+                    }
                 }
             ]
         }

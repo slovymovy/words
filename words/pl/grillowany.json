@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W restauracji zamówiłem <w>grillowane</w> warzywa jako dodatek do głównego dania."
+                            "text": "W restauracji zamówiłem <w>grillowane</w> warzywa jako dodatek do głównego dania.",
+                            "target_lang_translations": {
+                                "ru": "В ресторане я заказал овощи, <w>жаренные на гриле</w>, в качестве гарнира к основному блюду."
+                            }
                         },
                         {
-                            "text": "Na letnie przyjęcie przygotowaliśmy pysznego <w>grillowanego</w> kurczaka w ziołach."
+                            "text": "Na letnie przyjęcie przygotowaliśmy pysznego <w>grillowanego</w> kurczaka w ziołach.",
+                            "target_lang_translations": {
+                                "ru": "Для летней вечеринки мы приготовили вкусную курицу, <w>жаренную на гриле</w> с травами."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,21 @@
                         "grillowana ryba",
                         "ser grillowany"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Приготовленный или запеченный на гриле (решетке)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "жареный на гриле",
+                                "target_lang_sense_clarification": "приготовленный на решетке"
+                            },
+                            {
+                                "target_lang_word": "гриль",
+                                "target_lang_sense_clarification": "в названиях блюд (напр. курица-гриль)"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -59,10 +74,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mięso jest powoli <w>grillowane</w> na małym ogniu, aby zachowało soczystość."
+                            "text": "Mięso jest powoli <w>grillowane</w> na małym ogniu, aby zachowało soczystość.",
+                            "target_lang_translations": {
+                                "ru": "Мясо медленно <w>жарится на гриле</w> на слабом огне, чтобы сохранить сочность."
+                            }
                         },
                         {
-                            "text": "To danie jest <w>grillowane</w> przez kucharza na oczach gości."
+                            "text": "To danie jest <w>grillowane</w> przez kucharza na oczach gości.",
+                            "target_lang_translations": {
+                                "ru": "Это блюдо <w>готовится на гриле</w> поваром на глазах у гостей."
+                            }
                         }
                     ],
                     "traits": [
@@ -70,7 +91,22 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Страдательное причастие от глагола grillować (жарить на гриле)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "приготовленный на гриле",
+                                "target_lang_sense_clarification": "процесс готовки"
+                            },
+                            {
+                                "target_lang_word": "жаренный на гриле",
+                                "target_lang_sense_clarification": "причастие"
+                            }
+                        ]
+                    }
                 }
             ]
         }

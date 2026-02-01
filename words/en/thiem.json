@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The letter was addressed to a Mr. <w>Thiem</w> living in Vienna."
+                            "text": "The letter was addressed to a Mr. <w>Thiem</w> living in Vienna.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано господину <w>Тиму</w>, проживающему в Вене."
+                            }
                         },
                         {
-                            "text": "Dominic <w>Thiem</w> is a professional tennis player known for his powerful backhand."
+                            "text": "Dominic <w>Thiem</w> is a professional tennis player known for his powerful backhand.",
+                            "target_lang_translations": {
+                                "ru": "Доминик <w>Тим</w> — профессиональный теннисист, известный своим мощным бэкхендом."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Тим",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

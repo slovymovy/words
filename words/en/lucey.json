@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We met Mr. <w>Lucey</w> at the community center yesterday."
+                            "text": "We met Mr. <w>Lucey</w> at the community center yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера в общественном центре мы встретили мистера <w>Люси</w>."
+                            }
                         },
                         {
-                            "text": "Sarah <w>Lucey</w> was appointed as the new director of the board."
+                            "text": "Sarah <w>Lucey</w> was appointed as the new director of the board.",
+                            "target_lang_translations": {
+                                "ru": "Сара <w>Люси</w> была назначена новым директором совета."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Irish origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия ирландского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Люси",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

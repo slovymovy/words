@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот район считается <w>радиационно</w> загрязнённым, поэтому жить здесь запрещено."
+                            "text": "Этот район считается <w>радиационно</w> загрязнённым, поэтому жить здесь запрещено.",
+                            "target_lang_translations": {
+                                "en": "This area is considered <w>radioactively</w> contaminated, so living here is prohibited."
+                            }
                         },
                         {
-                            "text": "Новая установка является <w>радиационно</w> безопасной и не угрожает здоровью персонала."
+                            "text": "Новая установка является <w>радиационно</w> безопасной и не угрожает здоровью персонала.",
+                            "target_lang_translations": {
+                                "en": "The new unit is <w>radiologically</w> safe and does not threaten the health of the personnel."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,21 @@
                         "радиационно загрязнённый",
                         "радиационно чистый"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to radiation or radioactive emissions; from the perspective of radiation safety."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "radiologically",
+                                "target_lang_sense_clarification": "regarding radiation levels or safety"
+                            },
+                            {
+                                "target_lang_word": "radioactively",
+                                "target_lang_sense_clarification": "involving radioactive substances (often used with 'contaminated')"
+                            }
+                        ]
+                    }
                 }
             ]
         }

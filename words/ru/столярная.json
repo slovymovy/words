@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Я страстно люблю, как пахнет струганное дерево в <w>столярной</w>."
+                            "text": "Я страстно люблю, как пахнет струганное дерево в <w>столярной</w>.",
+                            "target_lang_translations": {
+                                "en": "I passionately love the smell of planed wood in the <w>carpentry workshop</w>."
+                            }
                         },
                         {
-                            "text": "В школьной <w>столярной</w> ученики мастерили простые табуретки."
+                            "text": "В школьной <w>столярной</w> ученики мастерили простые табуретки.",
+                            "target_lang_translations": {
+                                "en": "In the school <w>woodshop</w>, students were making simple stools."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "школьная столярная",
                         "оборудование столярной"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "crafts and trades context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A workshop where a carpenter works"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "carpentry workshop",
+                                "target_lang_sense_clarification": "place for woodwork"
+                            },
+                            {
+                                "target_lang_word": "woodshop",
+                                "target_lang_sense_clarification": "often in schools"
+                            },
+                            {
+                                "target_lang_word": "carpenter's shop",
+                                "target_lang_sense_clarification": "workplace"
+                            }
+                        ]
+                    }
                 }
             ]
         }

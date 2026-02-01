@@ -19,22 +19,43 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Пациентка, <w>менструировавшая</w> ранее регулярно, пожаловалась на внезапную задержку цикла."
+                            "text": "Пациентка, <w>менструировавшая</w> ранее регулярно, пожаловалась на внезапную задержку цикла.",
+                            "target_lang_translations": {
+                                "en": "The patient, <w>who had been menstruating</w> regularly before, complained of a sudden delay in her cycle."
+                            }
                         },
                         {
-                            "text": "Врач внимательно выслушал женщину, <w>менструировавшую</w> с сильными болями в течение нескольких лет."
+                            "text": "Врач внимательно выслушал женщину, <w>менструировавшую</w> с сильными болями в течение нескольких лет.",
+                            "target_lang_translations": {
+                                "en": "The doctor carefully listened to the woman <w>who had been menstruating</w> with severe pain for several years."
+                            }
                         }
                     ],
                     "traits": [
                         {
                             "trait_type": "form",
                             "comment": "past active participle"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb <w>menstruate</w>"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who menstruated",
+                                "target_lang_sense_clarification": "relative clause indicating past action"
+                            },
+                            {
+                                "target_lang_word": "who was menstruating",
+                                "target_lang_sense_clarification": "relative clause indicating past continuous action"
+                            },
+                            {
+                                "target_lang_word": "who had been menstruating",
+                                "target_lang_sense_clarification": "relative clause indicating past perfect continuous action"
+                            }
+                        ]
+                    }
                 }
             ]
         }

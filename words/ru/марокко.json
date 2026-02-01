@@ -17,10 +17,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Мы мечтаем поехать в <w>Марокко</w> во время отпуска."
+                            "text": "Мы мечтаем поехать в <w>Марокко</w> во время отпуска.",
+                            "target_lang_translations": {
+                                "en": "We dream of going to <w>Morocco</w> during our vacation."
+                            }
                         },
                         {
-                            "text": "Столица <w>Марокко</w> находится на берегу океана."
+                            "text": "Столица <w>Марокко</w> находится на берегу океана.",
+                            "target_lang_translations": {
+                                "en": "The capital of <w>Morocco</w> is located on the ocean coast."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,17 @@
                         "берега Марокко",
                         "история Марокко"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "country"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A state in northwest Africa."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Morocco",
+                                "target_lang_sense_clarification": "country"
+                            }
+                        ]
+                    }
                 }
             ]
         }

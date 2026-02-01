@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The detective carefully separated the <w>nonsuspects</w> from those who were under active investigation."
+                            "text": "The detective carefully separated the <w>nonsuspects</w> from those who were under active investigation.",
+                            "target_lang_translations": {
+                                "ru": "Детектив тщательно отделил <w>лиц, не находящихся под подозрением</w>, от тех, кто находился под активным следствием."
+                            }
                         },
                         {
-                            "text": "To ensure fairness, the police lineup included several <w>nonsuspects</w> who resembled the description of the perpetrator."
+                            "text": "To ensure fairness, the police lineup included several <w>nonsuspects</w> who resembled the description of the perpetrator.",
+                            "target_lang_translations": {
+                                "ru": "Для обеспечения справедливости в процедуру опознания включили нескольких <w>статистов</w>, похожих по описанию на преступника."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -32,12 +38,21 @@
                         "nonsuspect fillers",
                         "potential nonsuspects"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "used in police and criminal justice contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, который не рассматривается как подозреваемый в преступлении или расследовании."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лицо, не находящееся под подозрением",
+                                "target_lang_sense_clarification": "юридический термин"
+                            },
+                            {
+                                "target_lang_word": "статист",
+                                "target_lang_sense_clarification": "участник опознания, не причастный к делу"
+                            }
+                        ]
+                    }
                 }
             ]
         }

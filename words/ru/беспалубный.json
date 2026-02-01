@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Раньше рыбаки выходили в открытое море на опасных <w>беспалубных</w> лодках."
+                            "text": "Раньше рыбаки выходили в открытое море на опасных <w>беспалубных</w> лодках.",
+                            "target_lang_translations": {
+                                "en": "Fishermen used to go out into the open sea in dangerous <w>undecked</w> boats."
+                            }
                         },
                         {
-                            "text": "Это лёгкое <w>беспалубное</w> судно отлично подходит для плавания по тихой реке."
+                            "text": "Это лёгкое <w>беспалубное</w> судно отлично подходит для плавания по тихой реке.",
+                            "target_lang_translations": {
+                                "en": "This light <w>deckless</w> vessel is perfect for sailing on a quiet river."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -33,12 +39,25 @@
                         "беспалубная лодка",
                         "беспалубный катер"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "морской термин"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Having no deck (referring to a vessel or boat)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "undecked",
+                                "target_lang_sense_clarification": "nautical term"
+                            },
+                            {
+                                "target_lang_word": "deckless",
+                                "target_lang_sense_clarification": "general description"
+                            },
+                            {
+                                "target_lang_word": "open",
+                                "target_lang_sense_clarification": "referring to a boat without a deck"
+                            }
+                        ]
+                    }
                 }
             ]
         }

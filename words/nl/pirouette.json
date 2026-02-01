@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De ballerina maakte een perfecte <w>pirouette</w> tijdens de voorstelling."
+                            "text": "De ballerina maakte een perfecte <w>pirouette</w> tijdens de voorstelling.",
+                            "target_lang_translations": {
+                                "en": "The ballerina performed a perfect <w>pirouette</w> during the performance.",
+                                "ru": "Балерина исполнила идеальный <w>пируэт</w> во время выступления."
+                            }
                         },
                         {
-                            "text": "Hij verloor zijn evenwicht toen hij een dubbele <w>pirouette</w> probeerde te draaien."
+                            "text": "Hij verloor zijn evenwicht toen hij een dubbele <w>pirouette</w> probeerde te draaien.",
+                            "target_lang_translations": {
+                                "en": "He lost his balance when he tried to turn a double <w>pirouette</w>.",
+                                "ru": "Он потерял равновесие, когда пытался сделать двойной <w>пируэт</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +36,28 @@
                         "een pirouette maken",
                         "een pirouette draaien"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "dans en sport"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A rapid turn on one foot in dancing or figure skating.",
+                        "ru": "Быстрый поворот на одной ноге в танцах или фигурном катании."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pirouette",
+                                "target_lang_sense_clarification": "ballet or skating move"
+                            },
+                            {
+                                "target_lang_word": "spin",
+                                "target_lang_sense_clarification": "rapid rotation"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пируэт",
+                                "target_lang_sense_clarification": "танцевальное движение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

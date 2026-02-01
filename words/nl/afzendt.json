@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het is belangrijk dat je het formulier vandaag nog <w>afzendt</w>."
+                            "text": "Het is belangrijk dat je het formulier vandaag nog <w>afzendt</w>.",
+                            "target_lang_translations": {
+                                "en": "It is important that you <w>send</w> the form today.",
+                                "ru": "Важно, чтобы ты <w>отправил</w> этот бланк сегодня же."
+                            }
                         },
                         {
-                            "text": "Ik wacht hier totdat hij het pakketje naar de klant <w>afzendt</w>."
+                            "text": "Ik wacht hier totdat hij het pakketje naar de klant <w>afzendt</w>.",
+                            "target_lang_translations": {
+                                "en": "I am waiting here until he <w>sends</w> the package to the customer.",
+                                "ru": "Я подожду здесь, пока он не <w>отправит</w> посылку клиенту."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,7 +51,33 @@
                             "trait_type": "form",
                             "comment": "in een bijzin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Conjugated form of <w>afzenden</w>: second and third person singular present tense in a subordinate clause.",
+                        "ru": "Спрягаемая форма глагола <w>afzenden</w>: второе и третье лицо единственного числа настоящего времени (часто используется в придаточных предложениях)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "send",
+                                "target_lang_sense_clarification": "general term for causing something to go to a destination"
+                            },
+                            {
+                                "target_lang_word": "dispatch",
+                                "target_lang_sense_clarification": "formal; to send off to a destination, often regarding goods or mail"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "отправлять",
+                                "target_lang_sense_clarification": "посылать почту, груз или документы"
+                            },
+                            {
+                                "target_lang_word": "посылать",
+                                "target_lang_sense_clarification": "общее значение передачи чего-либо"
+                            }
+                        ]
+                    }
                 }
             ]
         }

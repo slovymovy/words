@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Valero</w> has been working in the engineering department for ten years."
+                            "text": "Mr. <w>Valero</w> has been working in the engineering department for ten years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Валеро</w> работает в инженерном отделе уже десять лет."
+                            }
                         },
                         {
-                            "text": "The <w>Valero</w> family hosted a large gathering last weekend."
+                            "text": "The <w>Valero</w> family hosted a large gathering last weekend.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Валеро</w> устроила большой прием в прошлые выходные."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Валеро",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

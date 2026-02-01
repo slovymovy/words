@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Tijdens de kerkdienst zingen we altijd uit het <w>liedboek</w>."
+                            "text": "Tijdens de kerkdienst zingen we altijd uit het <w>liedboek</w>.",
+                            "target_lang_translations": {
+                                "ru": "Во время церковной службы мы всегда поем из <w>песенника</w>.",
+                                "en": "During the church service, we always sing from the <w>hymnal</w>."
+                            }
                         },
                         {
-                            "text": "Het koor heeft een nieuw <w>liedboek</w> aangeschaft voor de feestdagen."
+                            "text": "Het koor heeft een nieuw <w>liedboek</w> aangeschaft voor de feestdagen.",
+                            "target_lang_translations": {
+                                "ru": "Хор приобрел новый <w>сборник песен</w> к праздникам.",
+                                "en": "The choir has purchased a new <w>songbook</w> for the holidays."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,32 @@
                         "uit het liedboek zingen",
                         "het nieuwe liedboek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "vaak gebruikt in een kerkelijke context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Книга, содержащая собрание песен, часто используемая для церковных служб или общего пения.",
+                        "en": "A book containing a collection of songs, often used for church services or communal singing."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "песенник",
+                                "target_lang_sense_clarification": "книга с текстами песен"
+                            },
+                            {
+                                "target_lang_word": "сборник песен",
+                                "target_lang_sense_clarification": "издание с коллекцией песен"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "songbook",
+                                "target_lang_sense_clarification": "general collection of songs"
+                            },
+                            {
+                                "target_lang_word": "hymnal",
+                                "target_lang_sense_clarification": "book of religious songs/hymns"
+                            }
+                        ]
+                    }
                 }
             ]
         }

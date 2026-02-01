@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I asked Mr. <w>Ning</w> to review the documents before the meeting."
+                            "text": "I asked Mr. <w>Ning</w> to review the documents before the meeting.",
+                            "target_lang_translations": {
+                                "ru": "Я попросил господина <w>Нина</w> просмотреть документы перед встречей."
+                            }
                         },
                         {
-                            "text": "The <w>Ning</w> family has lived in this neighborhood for over twenty years."
+                            "text": "The <w>Ning</w> family has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Нин</w> живет в этом районе уже более двадцати лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Нин",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

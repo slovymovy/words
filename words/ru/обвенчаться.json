@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Молодые люди решили <обвенчаться> в старинной деревенской церкви."
+                            "text": "Молодые люди решили <обвенчаться> в старинной деревенской церкви.",
+                            "target_lang_translations": {
+                                "en": "The young couple decided to <w>get married</w> in an old village church."
+                            }
                         },
                         {
-                            "text": "Они хотят не просто расписаться в ЗАГСе, но и обязательно <обвенчаться>."
+                            "text": "Они хотят не просто расписаться в ЗАГСе, но и обязательно <обвенчаться>.",
+                            "target_lang_translations": {
+                                "en": "They don't just want to sign the papers at the registry office, but definitely want to <w>get married in church</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "тайно обвенчаться",
                         "решили обвенчаться"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "связано с церковным обрядом"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To get married according to a religious rite."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "get married in church",
+                                "target_lang_sense_clarification": "religious ceremony"
+                            },
+                            {
+                                "target_lang_word": "have a church wedding",
+                                "target_lang_sense_clarification": "ceremony"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Все новые сотрудники обязаны пройти <w>медосмотр</w> перед началом работы."
+                            "text": "Все новые сотрудники обязаны пройти <w>медосмотр</w> перед началом работы.",
+                            "target_lang_translations": {
+                                "en": "All new employees are required to undergo a <w>medical examination</w> before starting work."
+                            }
                         },
                         {
-                            "text": "В школе объявили, что завтра у нашего класса будет плановый <w>медосмотр</w>."
+                            "text": "В школе объявили, что завтра у нашего класса будет плановый <w>медосмотр</w>.",
+                            "target_lang_translations": {
+                                "en": "At school, they announced that our class will have a scheduled <w>medical check-up</w> tomorrow."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                         "ежегодный медосмотр",
                         "направление на медосмотр"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical examination conducted by a doctor to check health status, often required for work, study, or driving eligibility."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "medical examination",
+                                "target_lang_sense_clarification": "formal assessment of health"
+                            },
+                            {
+                                "target_lang_word": "medical check-up",
+                                "target_lang_sense_clarification": "routine health inspection"
+                            },
+                            {
+                                "target_lang_word": "physical",
+                                "target_lang_sense_clarification": "examination of the body"
+                            }
+                        ]
+                    }
                 }
             ]
         }

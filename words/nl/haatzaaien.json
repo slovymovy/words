@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De politicus werd beschuldigd van <w>haatzaaien</w> tijdens zijn campagne."
+                            "text": "De politicus werd beschuldigd van <w>haatzaaien</w> tijdens zijn campagne.",
+                            "target_lang_translations": {
+                                "en": "The politician was accused of <w>inciting hatred</w> during his campaign.",
+                                "ru": "Политика обвинили в <w>разжигании ненависти</w> во время его предвыборной кампании."
+                            }
                         },
                         {
-                            "text": "Op sociale media is het verboden om te <w>haatzaaien</w> tegen minderheden."
+                            "text": "Op sociale media is het verboden om te <w>haatzaaien</w> tegen minderheden.",
+                            "target_lang_translations": {
+                                "en": "On social media, it is forbidden to <w>spread hate</w> against minorities.",
+                                "ru": "В социальных сетях запрещено <w>разжигать ненависть</w> по отношению к меньшинствам."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,36 @@
                         "vervolgd voor haatzaaien",
                         "stoppen met haatzaaien"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "verwijst vaak naar een strafbaar feit"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To incite hatred against an individual or group through words or actions, often based on characteristics like origin, religion, or orientation.",
+                        "ru": "Побуждение к ненависти по отношению к человеку или группе людей словами или действиями, часто на основе таких признаков, как происхождение, вероисповедание или ориентация."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "incite hatred",
+                                "target_lang_sense_clarification": "formal or legal context"
+                            },
+                            {
+                                "target_lang_word": "spread hate",
+                                "target_lang_sense_clarification": "general context"
+                            },
+                            {
+                                "target_lang_word": "hate-mongering",
+                                "target_lang_sense_clarification": "the act of stirring up hatred"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "разжигать ненависть",
+                                "target_lang_sense_clarification": "активно побуждать к вражде"
+                            },
+                            {
+                                "target_lang_word": "сеять вражду",
+                                "target_lang_sense_clarification": "распространять неприязнь"
+                            }
+                        ]
+                    }
                 }
             ]
         }

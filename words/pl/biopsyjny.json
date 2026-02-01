@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zabezpieczył pobrany materiał <w>biopsyjny</w> do dalszej analizy w laboratorium."
+                            "text": "Lekarz zabezpieczył pobrany materiał <w>biopsyjny</w> do dalszej analizy w laboratorium.",
+                            "target_lang_translations": {
+                                "ru": "Врач сохранил взятый <w>биопсийный</w> материал для дальнейшего анализа в лаборатории."
+                            }
                         },
                         {
-                            "text": "Do wykonania tego zabiegu niezbędna jest specjalistyczna igła <w>biopsyjna</w>."
+                            "text": "Do wykonania tego zabiegu niezbędna jest specjalistyczna igła <w>biopsyjna</w>.",
+                            "target_lang_translations": {
+                                "ru": "Для выполнения этой процедуры необходима специальная <w>биопсийная</w> игла."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,12 +32,21 @@
                         "igła biopsyjna",
                         "badanie biopsyjne"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "относящийся к биопсии, связанный с биопсией"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "биопсийный",
+                                "target_lang_sense_clarification": "наиболее употребительный медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "биопсический",
+                                "target_lang_sense_clarification": "вариант, встречающийся в литературе"
+                            }
+                        ]
+                    }
                 }
             ]
         }

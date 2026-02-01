@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Матрос тщательно проверил <леерное> ограждение перед выходом корабля в открытое море."
+                            "text": "Матрос тщательно проверил <леерное> ограждение перед выходом корабля в открытое море.",
+                            "target_lang_translations": {
+                                "en": "The sailor carefully checked the <lifeline> railing before the ship went into the open sea."
+                            }
                         },
                         {
-                            "text": "На верхней палубе были установлены новые <леерные> стойки для безопасности пассажиров."
+                            "text": "На верхней палубе были установлены новые <леерные> стойки для безопасности пассажиров.",
+                            "target_lang_translations": {
+                                "en": "New <rail> stanchions were installed on the upper deck for passenger safety."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -26,12 +32,25 @@
                         "леерная стойка",
                         "леерный трос"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "морской термин"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to a lifeline or guardrail; pertaining to a taut cable used on a ship for fencing or securing sails."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "lifeline",
+                                "target_lang_sense_clarification": "nautical term for a safety line"
+                            },
+                            {
+                                "target_lang_word": "rail",
+                                "target_lang_sense_clarification": "short for guardrail or railing"
+                            },
+                            {
+                                "target_lang_word": "guardrail",
+                                "target_lang_sense_clarification": "used attributively"
+                            }
+                        ]
+                    }
                 }
             ]
         }

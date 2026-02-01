@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач выписал пациенту эффективный <w>инъекционный</w> препарат для быстрого снятия боли."
+                            "text": "Врач выписал пациенту эффективный <w>инъекционный</w> препарат для быстрого снятия боли.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed the patient an effective <w>injectable</w> drug for rapid pain relief."
+                            }
                         },
                         {
-                            "text": "Для приготовления лекарства потребовался специальный <w>инъекционный</w> раствор."
+                            "text": "Для приготовления лекарства потребовался специальный <w>инъекционный</w> раствор.",
+                            "target_lang_translations": {
+                                "en": "A special <w>injectable</w> solution was required to prepare the medicine."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -31,12 +37,21 @@
                         "инъекционная игла",
                         "инъекционный метод"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used primarily in medical contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to an injection; intended for the administration of medicines or other substances via a shot."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "injectable",
+                                "target_lang_sense_clarification": "referring to a substance or medication capable of being injected"
+                            },
+                            {
+                                "target_lang_word": "injection",
+                                "target_lang_sense_clarification": "attributive use (e.g., injection needle, injection method)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Moja ciocia <w>Zora</w> przyjedzie do nas na święta."
+                            "text": "Moja ciocia <w>Zora</w> przyjedzie do nas na święta.",
+                            "target_lang_translations": {
+                                "ru": "Моя тетя <w>Зора</w> приедет к нам на праздники."
+                            }
                         },
                         {
-                            "text": "Na liście obecności widnieje imię <w>Zora</w>."
+                            "text": "Na liście obecności widnieje imię <w>Zora</w>.",
+                            "target_lang_translations": {
+                                "ru": "В списке присутствующих значится имя <w>Зора</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,17 @@
                         "Zorusia",
                         "Zorunia"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "żeńskie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "женское имя"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Зора",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

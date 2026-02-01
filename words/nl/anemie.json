@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts stelde vast dat de aanhoudende vermoeidheid werd veroorzaakt door <w>anemie</w>."
+                            "text": "De arts stelde vast dat de aanhoudende vermoeidheid werd veroorzaakt door <w>anemie</w>.",
+                            "target_lang_translations": {
+                                "en": "The doctor determined that the persistent fatigue was caused by <w>anemia</w>.",
+                                "ru": "Врач установил, что постоянная усталость была вызвана <w>анемией</w>."
+                            }
                         },
                         {
-                            "text": "Zij heeft al jaren last van <w>anemie</w> en moet regelmatig haar bloed laten controleren."
+                            "text": "Zij heeft al jaren last van <w>anemie</w> en moet regelmatig haar bloed laten controleren.",
+                            "target_lang_translations": {
+                                "en": "She has suffered from <w>anemia</w> for years and must have her blood checked regularly.",
+                                "ru": "Она уже много лет страдает от <w>анемии</w> и должна регулярно проверять кровь."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +36,32 @@
                         "lijden aan anemie",
                         "symptomen van anemie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical condition characterized by a deficiency of hemoglobin or red blood cells, hindering oxygen transport in the blood.",
+                        "ru": "Медицинское состояние, характеризующееся недостатком гемоглобина или эритроцитов, что затрудняет транспорт кислорода в крови."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "anemia",
+                                "target_lang_sense_clarification": "medical condition"
+                            },
+                            {
+                                "target_lang_word": "anaemia",
+                                "target_lang_sense_clarification": "British spelling"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "анемия",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "малокровие",
+                                "target_lang_sense_clarification": "общеупотребительное название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

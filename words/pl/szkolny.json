@@ -4,10 +4,12 @@
         "szkolić",
         "szkolenie",
         "szkolnictwo",
-        "przedszkole",
+        "przedszkolny",
+        "poszkolny",
         "pozaszkolny",
-        "wyszkolenie",
-        "szkoleniowiec"
+        "wewnątrzszkolny",
+        "uczeń",
+        "nauczyciel"
     ],
     "entries": [
         {
@@ -15,17 +17,23 @@
             "senses": [
                 {
                     "sense_id": "56421fe3-d364-378f-aef6-15a93df04768",
-                    "sense_definition": "Związany ze szkołą, dotyczący szkoły jako instytucji, budynku lub procesu nauczania.",
+                    "sense_definition": "Związany ze szkołą, odnoszący się do nauki w szkole, budynku szkoły lub instytucji oświatowej.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "literal_school",
+                    "semantic_group_id": "school_related",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jutro zaczyna się nowy rok <w>szkolny</w> i muszę kupić podręczniki."
+                            "text": "Nowy rok <w>szkolny</w> zaczyna się w Polsce pierwszego września.",
+                            "target_lang_translations": {
+                                "ru": "Новый <w>учебный</w> год начинается в Польше первого сентября."
+                            }
                         },
                         {
-                            "text": "Wszyscy uczniowie pojechali na wycieczkę <w>szkolną</w> do Krakowa."
+                            "text": "Musimy kupić zeszyty, długopisy i inne przybory <w>szkolne</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мы должны купить тетради, ручки и другие <w>школьные</w> принадлежности."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -34,67 +42,119 @@
                     "common_phrases": [
                         "rok szkolny",
                         "wycieczka szkolna",
-                        "lektura szkolna",
                         "legitymacja szkolna",
+                        "lektura szkolna",
                         "autobus szkolny"
-                    ]
-                },
-                {
-                    "sense_id": "6d7fb612-5d44-3e9b-b082-4b2cc85e53ad",
-                    "sense_definition": "Wykonany według utartego wzorca, szablonowy, pozbawiony oryginalności.",
-                    "learner_level": "C1",
-                    "frequency": "Low",
-                    "semantic_group_id": "figurative_quality",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Jego podejście do problemu jest zbyt <w>szkolne</w> i brakuje w nim kreatywności."
-                        },
-                        {
-                            "text": "To rozwiązanie jest poprawne, ale bardzo <w>szkolne</w> i schematyczne."
-                        }
                     ],
-                    "synonyms": [
-                        "schematyczny"
-                    ],
-                    "common_phrases": [
-                        "wiedza szkolna",
-                        "szkolny schemat"
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "figurative",
-                            "comment": "describing style or method"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Связанный со школой, относящийся к учебе в школе, школьному зданию или образовательному учреждению."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "школьный",
+                                "target_lang_sense_clarification": "относящийся к школе"
+                            },
+                            {
+                                "target_lang_word": "учебный",
+                                "target_lang_sense_clarification": "относящийся к учебному процессу (напр. год)"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "16f56e08-6748-35b6-aa0a-470f6ca3e985",
-                    "sense_definition": "Niedojrzały, naiwny lub wykonany na niskim poziomie, przypominający pracę ucznia.",
-                    "learner_level": "C1",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "figurative_quality",
+                    "sense_definition": "Świadczący o braku doświadczenia, wprawy lub profesjonalizmu; charakterystyczny dla osoby dopiero uczącej się (często używane w kontekście prostych błędów).",
+                    "learner_level": "B2",
+                    "frequency": "Low",
+                    "semantic_group_id": "metaphorical_quality",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Popełniłeś prosty błąd <w>szkolny</w>, którego ekspert powinien unikać."
+                            "text": "Doświadczony kierowca nie powinien popełniać tak <w>szkolnych</w> błędów na drodze.",
+                            "target_lang_translations": {
+                                "ru": "Опытный водитель не должен совершать таких <w>детских</w> ошибок на дороге."
+                            }
                         },
                         {
-                            "text": "Ten rysunek jest jeszcze bardzo <w>szkolny</w> i wymaga dopracowania."
+                            "text": "Przez to <w>szkolne</w> niedopatrzenie straciliśmy szansę na wygraną w meczu.",
+                            "target_lang_translations": {
+                                "ru": "Из-за этой <w>детской</w> оплошности мы упустили шанс на победу в матче."
+                            }
                         }
                     ],
                     "synonyms": [
                         "nieprofesjonalny"
                     ],
+                    "antonyms": [
+                        "profesjonalny",
+                        "mistrzowski"
+                    ],
                     "common_phrases": [
                         "błąd szkolny"
                     ],
-                    "traits": [
+                    "target_lang_definitions": {
+                        "ru": "Свидетельствующий об отсутствии опыта или профессионализма; характерный для новичка (часто о простых ошибках)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "детский",
+                                "target_lang_sense_clarification": "перен. наивный, грубый (об ошибке)"
+                            },
+                            {
+                                "target_lang_word": "ученический",
+                                "target_lang_sense_clarification": "свойственный неопытному человеку"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "6d7fb612-5d44-3e9b-b082-4b2cc85e53ad",
+                    "sense_definition": "Wykonany ściśle według wyuczonych reguł i schematów, poprawny, ale pozbawiony inwencji twórczej i oryginalności.",
+                    "learner_level": "C1",
+                    "frequency": "Low",
+                    "semantic_group_id": "metaphorical_quality",
+                    "name_type": "no",
+                    "examples": [
                         {
-                            "trait_type": "figurative",
-                            "comment": "describing lack of professionalism"
+                            "text": "Jego gra na pianinie była technicznie dobra, ale zbyt <w>szkolna</w> i bez emocji.",
+                            "target_lang_translations": {
+                                "ru": "Его игра на пианино была технически хороша, но слишком <w>ученическая</w> и без эмоций."
+                            }
+                        },
+                        {
+                            "text": "To bardzo <w>szkolne</w> podejście do tematu, brakuje tu własnej interpretacji.",
+                            "target_lang_translations": {
+                                "ru": "Это очень <w>школярский</w> подход к теме, здесь не хватает собственной интерпретации."
+                            }
                         }
-                    ]
+                    ],
+                    "synonyms": [
+                        "schematyczny"
+                    ],
+                    "antonyms": [
+                        "oryginalny",
+                        "nowatorski"
+                    ],
+                    "common_phrases": [
+                        "szkolne wykonanie"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Выполненный строго по заученным правилам, правильный, но лишенный творческой искры и оригинальности."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ученический",
+                                "target_lang_sense_clarification": "лишенный мастерства, подражательный"
+                            },
+                            {
+                                "target_lang_word": "школярский",
+                                "target_lang_sense_clarification": "шаблонный, сухой, педантичный"
+                            }
+                        ]
+                    }
                 }
             ]
         }

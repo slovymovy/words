@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Геолог решил <w>отмутить</w> пробу грунта, чтобы детально изучить её минеральный состав."
+                            "text": "Геолог решил <w>отмутить</w> пробу грунта, чтобы детально изучить её минеральный состав.",
+                            "target_lang_translations": {
+                                "en": "The geologist decided to <w>elutriate</w> the soil sample to study its mineral composition in detail."
+                            }
                         },
                         {
-                            "text": "Чтобы получить чистый пигмент для краски, мастеру пришлось несколько раз <w>отмутить</w> глину."
+                            "text": "Чтобы получить чистый пигмент для краски, мастеру пришлось несколько раз <w>отмутить</w> глину.",
+                            "target_lang_translations": {
+                                "en": "To obtain pure pigment for the paint, the master had to <w>levigate</w> the clay several times."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -32,12 +38,21 @@
                         "отмутить осадок",
                         "отмутить пробу"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "спец."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To separate components of a mixture by suspending them in water and allowing them to settle."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "elutriate",
+                                "target_lang_sense_clarification": "technical separation process"
+                            },
+                            {
+                                "target_lang_word": "levigate",
+                                "target_lang_sense_clarification": "separation of fine particles"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Moja babcia ma na imię <w>Stefania</w>."
+                            "text": "Moja babcia ma na imię <w>Stefania</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мою бабушку зовут <w>Стефания</w>."
+                            }
                         },
                         {
-                            "text": "Pani <w>Stefania</w> zawsze kupuje świeże bułki w tej piekarni."
+                            "text": "Pani <w>Stefania</w> zawsze kupuje świeże bułki w tej piekarni.",
+                            "target_lang_translations": {
+                                "ru": "Пани <w>Стефания</w> всегда покупает свежие булочки в этой пекарне."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,17 @@
                         "pani Stefania",
                         "ciocia Stefania"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "женское имя"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Стефания",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

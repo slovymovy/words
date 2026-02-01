@@ -5,7 +5,7 @@
         "metallurgist",
         "metalloid",
         "bimetal",
-        "metallize"
+        "nonmetal"
     ],
     "entries": [
         {
@@ -13,20 +13,23 @@
             "senses": [
                 {
                     "sense_id": "6aeacecd-1f51-3d80-a2e3-0fe3b720f48e",
-                    "sense_definition": "A hard, shiny, solid material, such as iron, gold, or copper, that conducts heat and electricity and can be shaped.",
+                    "sense_definition": "A hard, usually shiny chemical element that conducts heat and electricity well, such as iron, gold, or copper.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "material",
+                    "semantic_group_id": "material_substance",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Gold is a very valuable <w>metal</w> used in jewelry."
+                            "text": "Gold is a precious <w>metal</w> that is often used to make jewelry.",
+                            "target_lang_translations": {
+                                "ru": "Золото — это драгоценный <w>металл</w>, который часто используют для изготовления ювелирных изделий."
+                            }
                         },
                         {
-                            "text": "They recycle scrap <w>metal</w> to help the environment."
-                        },
-                        {
-                            "text": "The gate was made of heavy black <w>metal</w>."
+                            "text": "The factory recycles scrap <w>metal</w> to create new parts for cars.",
+                            "target_lang_translations": {
+                                "ru": "Завод перерабатывает лом <w>металла</w> для создания новых деталей для автомобилей."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -37,21 +40,38 @@
                         "scrap metal",
                         "sheet metal",
                         "heavy metal"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Твердый, обычно блестящий химический элемент, который хорошо проводит тепло и электричество, например железо, золото или медь."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "металл",
+                                "target_lang_sense_clarification": "химический элемент или материал"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "539be7dd-f212-3d40-a114-b61bedf82d1f",
-                    "sense_definition": "A genre of rock music characterized by loud, distorted guitars, strong rhythms, and often aggressive vocals.",
+                    "sense_definition": "A genre of rock music characterized by aggressive rhythms, strong beats, and distorted electric guitars.",
                     "learner_level": "B1",
-                    "frequency": "Middle",
-                    "semantic_group_id": "music",
+                    "frequency": "High",
+                    "semantic_group_id": "music_genre",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "My brother plays the drums in a heavy <w>metal</w> band."
+                            "text": "My brother plays the drums in a heavy <w>metal</w> band.",
+                            "target_lang_translations": {
+                                "ru": "Мой брат играет на барабанах в хеви-<w>метал</w> группе."
+                            }
                         },
                         {
-                            "text": "She prefers listening to <w>metal</w> rather than pop music."
+                            "text": "She prefers listening to <w>metal</w> because she enjoys the energy of the music.",
+                            "target_lang_translations": {
+                                "ru": "Она предпочитает слушать <w>метал</w>, так как ей нравится энергетика этой музыки."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -59,21 +79,42 @@
                         "death metal",
                         "black metal",
                         "thrash metal"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Жанр рок-музыки, характеризующийся агрессивными ритмами, сильными битами и искаженным звучанием электрогитар."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "метал",
+                                "target_lang_sense_clarification": "музыкальный жанр"
+                            },
+                            {
+                                "target_lang_word": "металл",
+                                "target_lang_sense_clarification": "вариант написания жанра"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6af9823d-166a-3859-9302-341a11c0fa48",
-                    "sense_definition": "Crushed stone or rock used to build or repair roads.",
+                    "sense_definition": "Crushed rock or stone used to build or repair roads.",
                     "learner_level": "C2",
                     "frequency": "Low",
-                    "semantic_group_id": "construction",
+                    "semantic_group_id": "road_material",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The truck dumped a load of <w>metal</w> to fill the potholes in the driveway."
+                            "text": "The truck dumped a load of <w>metal</w> near the construction site to fix the pothole.",
+                            "target_lang_translations": {
+                                "ru": "Грузовик высыпал груз <w>щебня</w> рядом со строительной площадкой, чтобы заделать выбоину."
+                            }
                         },
                         {
-                            "text": "Workers laid fresh <w>metal</w> on the country road."
+                            "text": "Workers spread the road <w>metal</w> evenly before rolling it flat.",
+                            "target_lang_translations": {
+                                "ru": "Рабочие равномерно распределили дорожный <w>щебень</w> перед тем, как укатать его."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -81,36 +122,64 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "engineering",
-                            "comment": "civil engineering"
-                        },
-                        {
                             "trait_type": "regional",
                             "comment": "common in UK and NZ"
+                        },
+                        {
+                            "trait_type": "dated",
+                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Дробленый камень или горная порода, используемые для строительства или ремонта дорог."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "щебень",
+                                "target_lang_sense_clarification": "материал для дорог"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a73afed7-1edb-30fa-a1a0-e09a76c6ac90",
-                    "sense_definition": "Any chemical element heavier than hydrogen and helium.",
+                    "sense_definition": "Any chemical element other than hydrogen and helium.",
                     "learner_level": "C2",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "science",
+                    "frequency": "Low",
+                    "semantic_group_id": "astronomy_term",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Astronomers study the abundance of <w>metals</w> in distant stars."
+                            "text": "Astronomers study the abundance of <w>metals</w> in stars to determine their age.",
+                            "target_lang_translations": {
+                                "ru": "Астрономы изучают содержание <w>металлов</w> в звездах, чтобы определить их возраст."
+                            }
                         },
                         {
-                            "text": "The presence of <w>metals</w> affects the color and lifespan of a star."
+                            "text": "The presence of heavy <w>metals</w> in the galaxy suggests previous supernova explosions.",
+                            "target_lang_translations": {
+                                "ru": "Наличие тяжелых <w>металлов</w> в галактике указывает на предыдущие взрывы сверхновых."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "scientific",
-                            "comment": "astronomy"
+                            "trait_type": "colloquial",
+                            "comment": "in astronomy context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Любой химический элемент, кроме водорода и гелия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "металл",
+                                "target_lang_sense_clarification": "астрономический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -119,37 +188,46 @@
             "senses": [
                 {
                     "sense_id": "3b3a38f4-bed3-3e1b-9e80-e44bbbc777fd",
-                    "sense_definition": "Extremely tough, intense, cool, or aggressive, resembling the culture of heavy metal music.",
+                    "sense_definition": "Having the tough, aggressive, or intense attitude associated with heavy metal music.",
                     "learner_level": "C1",
                     "frequency": "Low",
                     "semantic_group_id": "attitude",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wearing a suit of armor to the grocery store is so <w>metal</w>."
+                            "text": "Wearing that spiked leather jacket to the office is so <w>metal</w>.",
+                            "target_lang_translations": {
+                                "ru": "Носить эту кожаную куртку с шипами в офисе — это так <w>брутально</w>."
+                            }
                         },
                         {
-                            "text": "That action movie was absolutely <w>metal</w> from start to finish."
+                            "text": "It was pretty <w>metal</w> of him to finish the race despite his injury.",
+                            "target_lang_translations": {
+                                "ru": "С его стороны было довольно <w>брутально</w> закончить гонку, несмотря на травму."
+                            }
                         }
-                    ],
-                    "synonyms": [
-                        "mettle",
-                        "mettle"
-                    ],
-                    "common_phrases": [
-                        "so metal",
-                        "metal as fuck"
                     ],
                     "traits": [
                         {
                             "trait_type": "slang",
                             "comment": ""
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Обладающий жестким, агрессивным или напряженным настроем, ассоциирующимся с хеви-метал музыкой."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "брутальный",
+                                "target_lang_sense_clarification": "жесткий, суровый"
+                            },
+                            {
+                                "target_lang_word": "крутой",
+                                "target_lang_sense_clarification": "сленг"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -161,22 +239,43 @@
                     "sense_definition": "To make or repair a road using crushed rock or stone.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "construction_action",
+                    "semantic_group_id": "road_construction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The council decided to <w>metal</w> the dirt track to improve access."
+                            "text": "The council decided to <w>metal</w> the dirt track to make it accessible for cars.",
+                            "target_lang_translations": {
+                                "ru": "Совет решил <w>покрыть щебнем</w> грунтовую дорогу, чтобы сделать ее доступной для машин."
+                            }
                         },
                         {
-                            "text": "They have <w>metalled</w> the road surface to withstand heavy traffic."
+                            "text": "They have <w>metalled</w> the surface, so the drive is much smoother now.",
+                            "target_lang_translations": {
+                                "ru": "Они <w>покрыли щебнем</w> поверхность, так что проезд стал намного ровнее."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "engineering",
-                            "comment": "civil engineering"
+                            "trait_type": "regional",
+                            "comment": "common in UK and NZ"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Строить или ремонтировать дорогу, используя дробленый камень или горную породу."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "покрывать щебнем",
+                                "target_lang_sense_clarification": "дорожное строительство"
+                            },
+                            {
+                                "target_lang_word": "мостить",
+                                "target_lang_sense_clarification": "укладывать покрытие"
+                            }
+                        ]
+                    }
                 }
             ]
         }

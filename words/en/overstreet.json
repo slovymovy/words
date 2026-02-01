@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Overstreet</w> has been a valued member of the community for decades."
+                            "text": "Mr. <w>Overstreet</w> has been a valued member of the community for decades.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Оверстрит</w> был ценным членом сообщества на протяжении десятилетий."
+                            }
                         },
                         {
-                            "text": "We need to contact Ms. <w>Overstreet</w> regarding the documents she submitted yesterday."
+                            "text": "We need to contact Ms. <w>Overstreet</w> regarding the documents she submitted yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Нам нужно связаться с г-жой <w>Оверстрит</w> по поводу документов, которые она подала вчера."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Оверстрит",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

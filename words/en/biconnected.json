@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "A <w>biconnected</w> graph is more robust because it does not contain any single point of failure."
+                            "text": "A <w>biconnected</w> graph is more robust because it does not contain any single point of failure.",
+                            "target_lang_translations": {
+                                "ru": "<w>Двусвязный</w> граф более надежен, поскольку не содержит ни одной единой точки отказа."
+                            }
                         },
                         {
-                            "text": "We analyzed the <w>biconnected</w> component of the network to ensure data could still flow if one server went down."
+                            "text": "We analyzed the <w>biconnected</w> component of the network to ensure data could still flow if one server went down.",
+                            "target_lang_translations": {
+                                "ru": "Мы проанализировали <w>двусвязную</w> компоненту сети, чтобы убедиться, что данные смогут передаваться, если один сервер выйдет из строя."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,17 @@
                         "biconnected component",
                         "biconnected graph"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "graph theory"
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Описывает связный граф, который требует удаления как минимум двух вершин для того, чтобы стать несвязным."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "двусвязный",
+                                "target_lang_sense_clarification": "математика, теория графов"
+                            }
+                        ]
+                    }
                 }
             ]
         }

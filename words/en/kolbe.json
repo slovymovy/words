@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Kolbe</w> has been working as a chemist for over twenty years."
+                            "text": "Mr. <w>Kolbe</w> has been working as a chemist for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Кольбе</w> работает химиком уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "We invited the entire <w>Kolbe</w> family to our dinner party next Saturday."
+                            "text": "We invited the entire <w>Kolbe</w> family to our dinner party next Saturday.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили всю семью <w>Кольбе</w> на наш званый ужин в следующую субботу."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кольбе",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

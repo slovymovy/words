@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Фермер потребовал от соседа компенсацию за <w>потраву</w> пшеничного поля стадом коров."
+                            "text": "Фермер потребовал от соседа компенсацию за <w>потраву</w> пшеничного поля стадом коров.",
+                            "target_lang_translations": {
+                                "en": "The farmer demanded compensation from his neighbor for the <w>damage</w> to the wheat field caused by the herd of cows."
+                            }
                         },
                         {
-                            "text": "Дикие кабаны по ночам совершают <w>потраву</w> огородов, уничтожая весь урожай."
+                            "text": "Дикие кабаны по ночам совершают <w>потраву</w> огородов, уничтожая весь урожай.",
+                            "target_lang_translations": {
+                                "en": "Wild boars cause <w>damage</w> to vegetable gardens at night, destroying the entire harvest."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,16 +41,29 @@
                         "потрава хлебов",
                         "штраф за потраву"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "сельское хозяйство"
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": "правонарушение"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The spoiling or destruction of crops, meadows, and harvest, usually as a result of trampling or eating by livestock or wild animals."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "crop damage",
+                                "target_lang_sense_clarification": "general agricultural term"
+                            },
+                            {
+                                "target_lang_word": "trampling",
+                                "target_lang_sense_clarification": "destruction by animals walking on crops"
+                            },
+                            {
+                                "target_lang_word": "damage",
+                                "target_lang_sense_clarification": "general context, specifically to fields or harvest"
+                            },
+                            {
+                                "target_lang_word": "depredation",
+                                "target_lang_sense_clarification": "formal, often referring to destruction by wild animals"
+                            }
+                        ]
+                    }
                 }
             ]
         }

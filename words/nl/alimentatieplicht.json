@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Na de echtscheiding stelde de rechter vast dat er sprake was van een <w>alimentatieplicht</w>."
+                            "text": "Na de echtscheiding stelde de rechter vast dat er sprake was van een <w>alimentatieplicht</w>.",
+                            "target_lang_translations": {
+                                "en": "After the divorce, the judge determined that there was a <w>maintenance obligation</w>.",
+                                "ru": "После развода судья установил наличие <w>алиментных обязательств</w>."
+                            }
                         },
                         {
-                            "text": "Hij kon niet voldoen aan de <w>alimentatieplicht</w> omdat hij zijn baan was kwijtgeraakt."
+                            "text": "Hij kon niet voldoen aan de <w>alimentatieplicht</w> omdat hij zijn baan was kwijtgeraakt.",
+                            "target_lang_translations": {
+                                "en": "He could not meet the <w>alimony obligation</w> because he had lost his job.",
+                                "ru": "Он не мог выполнять <w>алиментные обязательства</w>, так как потерял работу."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "voldoen aan de alimentatieplicht",
                         "duur van de alimentatieplicht"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "juridische context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The legal obligation to pay financial support to an ex-partner or children after a divorce.",
+                        "ru": "Юридическое обязательство выплачивать финансовую поддержку бывшему партнеру или детям после развода."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "maintenance obligation",
+                                "target_lang_sense_clarification": "legal duty to provide financial support"
+                            },
+                            {
+                                "target_lang_word": "alimony obligation",
+                                "target_lang_sense_clarification": "duty to support an ex-spouse"
+                            },
+                            {
+                                "target_lang_word": "duty of support",
+                                "target_lang_sense_clarification": "general legal responsibility to provide for someone"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "алиментные обязательства",
+                                "target_lang_sense_clarification": "юридический термин"
+                            },
+                            {
+                                "target_lang_word": "обязанность по уплате алиментов",
+                                "target_lang_sense_clarification": "описательный перевод"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn nieuwe buurmeisje heet <w>Dinh</w> en ze komt uit Vietnam."
+                            "text": "Mijn nieuwe buurmeisje heet <w>Dinh</w> en ze komt uit Vietnam.",
+                            "target_lang_translations": {
+                                "en": "My new neighbor is named <w>Dinh</w> and she comes from Vietnam.",
+                                "ru": "Мою новую соседку зовут <w>Динь</w>, и она из Вьетнама."
+                            }
                         },
                         {
-                            "text": "Ik wist niet dat <w>Dinh</w> ook als voornaam gebruikt werd."
+                            "text": "Ik wist niet dat <w>Dinh</w> ook als voornaam gebruikt werd.",
+                            "target_lang_translations": {
+                                "en": "I didn't know that <w>Dinh</w> was also used as a first name.",
+                                "ru": "Я не знал, что <w>Динь</w> также используется как имя."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A first name for a girl.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Dinh",
+                                "target_lang_sense_clarification": "female given name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Динь",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

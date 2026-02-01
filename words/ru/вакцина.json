@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач посоветовал сделать новую <w>вакцину</w> перед началом сезона простуд."
+                            "text": "Врач посоветовал сделать новую <w>вакцину</w> перед началом сезона простуд.",
+                            "target_lang_translations": {
+                                "en": "The doctor advised getting a new <w>vaccine</w> before the start of the cold season."
+                            }
                         },
                         {
-                            "text": "Эта <w>вакцина</w> от гриппа считается одной из самых эффективных и безопасных."
+                            "text": "Эта <w>вакцина</w> от гриппа считается одной из самых эффективных и безопасных.",
+                            "target_lang_translations": {
+                                "en": "This flu <w>vaccine</w> is considered one of the most effective and safe."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "доза вакцины",
                         "живая вакцина"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "domain"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A substance used to stimulate the production of antibodies and provide immunity against one or several diseases."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "vaccine",
+                                "target_lang_sense_clarification": "medical preparation"
+                            },
+                            {
+                                "target_lang_word": "jab",
+                                "target_lang_sense_clarification": "informal, injection"
+                            },
+                            {
+                                "target_lang_word": "inoculation",
+                                "target_lang_sense_clarification": "formal, process or substance"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "754e651d-2d9e-31b5-9ac3-33b00e1ef32d",
@@ -50,22 +69,41 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Хорошая книга часто служит лучшей <w>вакциной</w> от скуки и одиночества."
+                            "text": "Хорошая книга часто служит лучшей <w>вакциной</w> от скуки и одиночества.",
+                            "target_lang_translations": {
+                                "en": "A good book often serves as the best <w>vaccine</w> against boredom and loneliness."
+                            }
                         },
                         {
-                            "text": "Юмор стал для них своеобразной <w>вакциной</w> против жизненных трудностей."
+                            "text": "Юмор стал для них своеобразной <w>вакциной</w> против жизненных трудностей.",
+                            "target_lang_translations": {
+                                "en": "Humor became a kind of <w>vaccine</w> for them against life's hardships."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "вакцина от страха",
                         "вакцина против лжи"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "figurative",
-                            "comment": "metaphorical usage"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Something that serves as a protection or defense against something unpleasant or harmful."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "vaccine",
+                                "target_lang_sense_clarification": "figurative protection"
+                            },
+                            {
+                                "target_lang_word": "protection",
+                                "target_lang_sense_clarification": "general safeguard"
+                            },
+                            {
+                                "target_lang_word": "shield",
+                                "target_lang_sense_clarification": "defensive barrier"
+                            }
+                        ]
+                    }
                 }
             ]
         }

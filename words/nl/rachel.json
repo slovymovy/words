@@ -16,18 +16,42 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn buurvrouw heet <w>Rachel</w> en ze is erg aardig."
+                            "text": "Mijn beste vriendin heet <w>Rachel</w> en woont in Amsterdam.",
+                            "target_lang_translations": {
+                                "ru": "Мою лучшую подругу зовут <w>Рахель</w>, и она живет в Амстердаме.",
+                                "en": "My best friend is named <w>Rachel</w> and lives in Amsterdam."
+                            }
                         },
                         {
-                            "text": "Ik heb gisteren met <w>Rachel</w> afgesproken om te gaan lunchen."
+                            "text": "Ik heb gisteren lang met <w>Rachel</w> aan de telefoon gezeten.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я долго разговаривал с <w>Рахель</w> по телефону.",
+                                "en": "I was on the phone with <w>Rachel</w> for a long time yesterday."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Женское имя.",
+                        "en": "A female first name."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Рахель",
+                                "target_lang_sense_clarification": "имя"
+                            },
+                            {
+                                "target_lang_word": "Рахиль",
+                                "target_lang_sense_clarification": "библейское имя"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Rachel",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -36,17 +60,25 @@
             "senses": [
                 {
                     "sense_id": "e12de6fd-34a0-34e2-b917-ae00b8f6381a",
-                    "sense_definition": "Een smalle houten lat die in de bouw wordt gebruikt als onderdeel van een raamwerk, bijvoorbeeld om een plafond of wandbekleding aan te bevestigen.",
+                    "sense_definition": "Een smalle houten lat die in de bouw wordt gebruikt, bijvoorbeeld om een plafond of wandbeschot aan te bevestigen.",
                     "learner_level": "C1",
                     "frequency": "Low",
                     "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De timmerman bevestigde de <w>rachel</w> stevig aan de balkenlaag."
+                            "text": "De timmerman bevestigde elke <w>rachel</w> zorgvuldig aan de balklaag.",
+                            "target_lang_translations": {
+                                "ru": "Плотник тщательно прикрепил каждую <w>рейку</w> к балкам перекрытия.",
+                                "en": "The carpenter carefully attached every <w>batten</w> to the joists."
+                            }
                         },
                         {
-                            "text": "Je moet elke <w>rachel</w> goed uitlijnen voordat je de gipsplaten plaatst."
+                            "text": "Je moet eerst een houten <w>rachel</w> plaatsen voordat je de gipsplaten kunt vastschroeven.",
+                            "target_lang_translations": {
+                                "ru": "Сначала нужно установить деревянную <w>рейку</w>, прежде чем прикручивать гипсокартон.",
+                                "en": "You must place a wooden <w>batten</w> first before you can screw on the plasterboards."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -56,12 +88,32 @@
                         "houten rachel",
                         "rachels aanbrengen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "bouw"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Узкая деревянная планка, используемая в строительстве, например, для крепления потолка или обшивки стен.",
+                        "en": "A narrow wooden slat used in construction, for example to attach a ceiling or wall paneling."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "рейка",
+                                "target_lang_sense_clarification": "строительная планка"
+                            },
+                            {
+                                "target_lang_word": "обрешетина",
+                                "target_lang_sense_clarification": "элемент каркаса/обрешетки"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "batten",
+                                "target_lang_sense_clarification": "construction strip"
+                            },
+                            {
+                                "target_lang_word": "furring strip",
+                                "target_lang_sense_clarification": "strip for leveling/attaching"
+                            }
+                        ]
+                    }
                 }
             ]
         }

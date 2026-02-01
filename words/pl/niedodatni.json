@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jeśli wynik obliczeń jest <w>niedodatni</w>, program zgłasza błąd."
+                            "text": "Jeśli wynik obliczeń jest <w>niedodatni</w>, program zgłasza błąd.",
+                            "target_lang_translations": {
+                                "ru": "Если результат вычислений <w>неположительный</w>, программа сообщает об ошибке."
+                            }
                         },
                         {
-                            "text": "Każda liczba <w>niedodatnia</w> jest mniejsza lub równa zeru."
+                            "text": "Każda liczba <w>niedodatnia</w> jest mniejsza lub równa zeru.",
+                            "target_lang_translations": {
+                                "ru": "Любое <w>неположительное</w> число меньше или равно нулю."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -33,12 +39,17 @@
                         "wartość niedodatnia",
                         "zbiór liczb niedodatnich"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "matematyka"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Меньший нуля или равный нулю."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неположительный",
+                                "target_lang_sense_clarification": "математика: ≤ 0"
+                            }
+                        ]
+                    }
                 }
             ]
         }

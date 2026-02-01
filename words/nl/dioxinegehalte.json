@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>dioxinegehalte</w> in de eieren was hoger dan de wettelijke norm toestaat."
+                            "text": "Het <w>dioxinegehalte</w> in de eieren was hoger dan de wettelijke norm toestaat.",
+                            "target_lang_translations": {
+                                "en": "The <w>dioxin level</w> in the eggs was higher than the legal standard allows.",
+                                "ru": "<w>Содержание диоксина</w> в яйцах превышало допустимую законодательную норму."
+                            }
                         },
                         {
-                            "text": "Laboratoria meten nauwkeurig het <w>dioxinegehalte</w> in de genomen grondmonsters."
+                            "text": "Laboratoria meten nauwkeurig het <w>dioxinegehalte</w> in de genomen grondmonsters.",
+                            "target_lang_translations": {
+                                "en": "Laboratories accurately measure the <w>dioxin content</w> in the taken soil samples.",
+                                "ru": "Лаборатории точно измеряют <w>содержание диоксина</w> во взятых пробах почвы."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "verhoogd dioxinegehalte",
                         "gemeten dioxinegehalte"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "chemie en milieu"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The amount of dioxin present in a product or substance.",
+                        "ru": "Количество диоксина, присутствующее в продукте или веществе."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "dioxin level",
+                                "target_lang_sense_clarification": "concentration measurement"
+                            },
+                            {
+                                "target_lang_word": "dioxin content",
+                                "target_lang_sense_clarification": "amount contained"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "содержание диоксина",
+                                "target_lang_sense_clarification": "количество вещества в смеси"
+                            },
+                            {
+                                "target_lang_word": "уровень диоксина",
+                                "target_lang_sense_clarification": "концентрация"
+                            }
+                        ]
+                    }
                 }
             ]
         }

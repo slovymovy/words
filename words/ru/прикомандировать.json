@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Руководство решило <w>прикомандировать</w> опытного инженера к нашему отделу для ускорения работы над проектом."
+                            "text": "Руководство решило <w>прикомандировать</w> опытного инженера к нашему отделу для ускорения работы над проектом.",
+                            "target_lang_translations": {
+                                "en": "Management decided to <w>second</w> an experienced engineer to our department to speed up work on the project."
+                            }
                         },
                         {
-                            "text": "Молодого офицера могут <w>прикомандировать</w> к штабу армии для прохождения дальнейшей службы."
+                            "text": "Молодого офицера могут <w>прикомандировать</w> к штабу армии для прохождения дальнейшей службы.",
+                            "target_lang_translations": {
+                                "en": "A young officer may be <w>attached</w> to army headquarters for further service."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,16 +45,25 @@
                         "прикомандировать к части",
                         "временно прикомандировать"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "professional",
-                            "comment": "военное дело, администрирование"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To temporarily assign someone to another unit, department, or organization for the performance of official duties."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "attach",
+                                "target_lang_sense_clarification": "common in military or diplomatic contexts for temporary assignment to a unit"
+                            },
+                            {
+                                "target_lang_word": "second",
+                                "target_lang_sense_clarification": "formal term for temporarily transferring an employee to another department or organization"
+                            },
+                            {
+                                "target_lang_word": "assign",
+                                "target_lang_sense_clarification": "general term for appointing someone to a specific duty or location"
+                            }
+                        ]
+                    }
                 }
             ]
         }

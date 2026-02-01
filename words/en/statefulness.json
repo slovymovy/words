@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The <w>statefulness</w> of the application allows users to resume their work exactly where they left off."
+                            "text": "The <w>statefulness</w> of the application allows users to resume their work exactly where they left off.",
+                            "target_lang_translations": {
+                                "ru": "<w>Поддержка состояния</w> приложением позволяет пользователям возобновить работу именно там, где они остановились."
+                            }
                         },
                         {
-                            "text": "Developers must decide between <w>statefulness</w> and statelessness when designing the server architecture."
+                            "text": "Developers must decide between <w>statefulness</w> and statelessness when designing the server architecture.",
+                            "target_lang_translations": {
+                                "ru": "При проектировании архитектуры сервера разработчики должны выбирать между <w>сохранением состояния</w> и отсутствием состояния."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -31,12 +37,21 @@
                         "maintain statefulness",
                         "ensure statefulness"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "used to describe systems that retain state information"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Свойство системы (обычно компьютерной), заключающееся в способности сохранять информацию о предыдущих взаимодействиях и текущем состоянии."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "сохранение состояния",
+                                "target_lang_sense_clarification": "способность системы запоминать данные"
+                            },
+                            {
+                                "target_lang_word": "поддержка состояния",
+                                "target_lang_sense_clarification": "архитектурная особенность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

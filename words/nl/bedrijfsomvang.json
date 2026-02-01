@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>bedrijfsomvang</w> is de afgelopen jaren flink toegenomen door verschillende overnames."
+                            "text": "De <w>bedrijfsomvang</w> is de afgelopen jaren flink toegenomen door verschillende overnames.",
+                            "target_lang_translations": {
+                                "ru": "<w>Размер предприятия</w> значительно увеличился за последние годы в результате различных поглощений.",
+                                "en": "The <w>company size</w> has increased significantly in recent years due to various acquisitions."
+                            }
                         },
                         {
-                            "text": "Voor deze subsidie is de gemiddelde <w>bedrijfsomvang</w> een belangrijk criterium."
+                            "text": "Voor deze subsidie is de gemiddelde <w>bedrijfsomvang</w> een belangrijk criterium.",
+                            "target_lang_translations": {
+                                "ru": "Для этой субсидии средний <w>размер компании</w> является важным критерием.",
+                                "en": "For this subsidy, the average <w>business size</w> is an important criterion."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,36 @@
                         "gemiddelde bedrijfsomvang",
                         "totale bedrijfsomvang"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Размер или масштаб предприятия, компании.",
+                        "en": "The size or scale of a company or enterprise."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "размер предприятия",
+                                "target_lang_sense_clarification": "величина организации"
+                            },
+                            {
+                                "target_lang_word": "размер компании",
+                                "target_lang_sense_clarification": "объем бизнеса"
+                            },
+                            {
+                                "target_lang_word": "масштаб бизнеса",
+                                "target_lang_sense_clarification": "размах деятельности"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "company size",
+                                "target_lang_sense_clarification": "magnitude of an organization"
+                            },
+                            {
+                                "target_lang_word": "business size",
+                                "target_lang_sense_clarification": "scale of operations"
+                            }
+                        ]
+                    }
                 }
             ]
         }

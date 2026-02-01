@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Банк выдаёт крупные кредиты только надёжным и <w>платёжеспособным</w> клиентам."
+                            "text": "Банк выдаёт крупные кредиты только надёжным и <w>платёжеспособным</w> клиентам.",
+                            "target_lang_translations": {
+                                "en": "The bank grants large loans only to reliable and <w>solvent</w> clients."
+                            }
                         },
                         {
-                            "text": "Поскольку наиболее <w>платёжеспособное</w> население разъезжалось, в городе начались финансовые проблемы."
+                            "text": "Поскольку наиболее <w>платёжеспособное</w> население разъезжалось, в городе начались финансовые проблемы.",
+                            "target_lang_translations": {
+                                "en": "Since the most <w>solvent</w> population was moving away, financial problems began in the city."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,16 +42,21 @@
                         "платёжеспособный клиент",
                         "платёжеспособное население"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "часто используется в экономическом и финансовом контексте"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Able to pay one's bills and financial obligations on time; possessing funds for payment."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "solvent",
+                                "target_lang_sense_clarification": "financially capable of meeting obligations"
+                            },
+                            {
+                                "target_lang_word": "creditworthy",
+                                "target_lang_sense_clarification": "suitable to receive credit or a loan"
+                            }
+                        ]
+                    }
                 }
             ]
         }

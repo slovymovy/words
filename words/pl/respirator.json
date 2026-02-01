@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarze zdecydowali, że pacjent musi zostać natychmiast podłączony do <w>respiratora</w>."
+                            "text": "Lekarze zdecydowali, że pacjent musi zostać natychmiast podłączony do <w>respiratora</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врачи решили, что пациента необходимо немедленно подключить к <w>аппарату ИВЛ</w>."
+                            }
                         },
                         {
-                            "text": "W szpitalu brakowało sprzętu, dlatego dyrekcja zamówiła nowy <w>respirator</w> na oddział intensywnej terapii."
+                            "text": "W szpitalu brakowało sprzętu, dlatego dyrekcja zamówiła nowy <w>respirator</w> na oddział intensywnej terapii.",
+                            "target_lang_translations": {
+                                "ru": "В больнице не хватало оборудования, поэтому руководство заказало новый <w>аппарат ИВЛ</w> для отделения интенсивной терапии."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,21 @@
                         "odłączyć od respiratora",
                         "leżeć pod respiratorem"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Медицинский прибор, используемый для механической вентиляции легких у людей, испытывающих трудности с дыханием или неспособных дышать самостоятельно."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "аппарат ИВЛ",
+                                "target_lang_sense_clarification": "медицинское оборудование"
+                            },
+                            {
+                                "target_lang_word": "аппарат искусственной вентиляции лёгких",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "477e8bb1-e045-3ef4-9da3-a8542c4d6ad9",
@@ -45,22 +60,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pracownicy usuwający azbest muszą nosić specjalny <w>respirator</w>, aby chronić swoje płuca."
+                            "text": "Pracownicy usuwający azbest muszą nosić specjalny <w>respirator</w>, aby chronić swoje płuca.",
+                            "target_lang_translations": {
+                                "ru": "Рабочие, удаляющие асбест, должны носить специальный <w>респиратор</w>, чтобы защитить свои легкие."
+                            }
                         },
                         {
-                            "text": "Ten <w>respirator</w> jest wyposażony w wymienny filtr węglowy pochłaniający toksyczne substancje."
+                            "text": "Ten <w>respirator</w> jest wyposażony w wymienny filtr węglowy pochłaniający toksyczne substancje.",
+                            "target_lang_translations": {
+                                "ru": "Этот <w>респиратор</w> оснащен сменным угольным фильтром, поглощающим токсичные вещества."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "respirator przeciwpyłowy",
                         "respirator z filtrem"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "safety equipment"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Защитная маска, оснащенная фильтром, которая предохраняет дыхательную систему от вдыхания вредной пыли, газов или паров."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "респиратор",
+                                "target_lang_sense_clarification": "средство индивидуальной защиты"
+                            },
+                            {
+                                "target_lang_word": "защитная маска",
+                                "target_lang_sense_clarification": "общее название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

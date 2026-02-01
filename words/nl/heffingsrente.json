@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "U moet helaas <w>heffingsrente</w> betalen omdat de aangifte te laat is ingediend."
+                            "text": "U moet helaas <w>heffingsrente</w> betalen omdat de aangifte te laat is ingediend.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, you have to pay <w>tax interest</w> because the tax return was filed late.",
+                                "ru": "К сожалению, вам придется заплатить <w>пени</w>, так как декларация была подана с опозданием."
+                            }
                         },
                         {
-                            "text": "De belastingdienst berekent <w>heffingsrente</w> over het bedrag dat u nog schuldig bent."
+                            "text": "De belastingdienst berekent <w>heffingsrente</w> over het bedrag dat u nog schuldig bent.",
+                            "target_lang_translations": {
+                                "en": "The tax authorities calculate <w>tax interest</w> on the amount you still owe.",
+                                "ru": "Налоговая служба начисляет <w>пени</w> на сумму, которую вы все еще должны."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,32 @@
                         "heffingsrente betalen",
                         "heffingsrente berekenen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "belastingterm"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Interest charged by the tax authorities on a tax assessment that is paid or established late.",
+                        "ru": "Проценты, взимаемые налоговой службой за просрочку уплаты налога или при задержке установления суммы налогового обязательства."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tax interest",
+                                "target_lang_sense_clarification": "interest charged on tax assessments"
+                            },
+                            {
+                                "target_lang_word": "interest on overdue tax",
+                                "target_lang_sense_clarification": "specific to late payments"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пени",
+                                "target_lang_sense_clarification": "за просрочку уплаты налога"
+                            },
+                            {
+                                "target_lang_word": "проценты по задолженности",
+                                "target_lang_sense_clarification": "налоговой"
+                            }
+                        ]
+                    }
                 }
             ]
         }

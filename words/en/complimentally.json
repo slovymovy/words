@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The critic wrote <w>complimentally</w> about the new art exhibition."
+                            "text": "The critic wrote <w>complimentally</w> about the new art exhibition.",
+                            "target_lang_translations": {
+                                "ru": "Критик <w>хвалебно</w> отозвался о новой художественной выставке."
+                            }
                         },
                         {
-                            "text": "She nodded <w>complimentally</w> while listening to his well-prepared speech."
+                            "text": "She nodded <w>complimentally</w> while listening to his well-prepared speech.",
+                            "target_lang_translations": {
+                                "ru": "Она <w>одобрительно</w> кивала, слушая его хорошо подготовленную речь."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                         "critically",
                         "disparagingly"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "This form is much less common than 'complimentarily' or the phrase 'in a complimentary way'."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Способом, выражающим похвалу или восхищение."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "хвалебно",
+                                "target_lang_sense_clarification": "выражая похвалу"
+                            },
+                            {
+                                "target_lang_word": "лестно",
+                                "target_lang_sense_clarification": "содержа похвалу, комплиментарно"
+                            },
+                            {
+                                "target_lang_word": "одобрительно",
+                                "target_lang_sense_clarification": "выражая одобрение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

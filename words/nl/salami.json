@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik lust geen <w>salami</w> omdat er zoveel knoflook in zit."
+                            "text": "Ik lust geen <w>salami</w> omdat er zoveel knoflook in zit.",
+                            "target_lang_translations": {
+                                "en": "I don't like <w>salami</w> because there is so much garlic in it.",
+                                "ru": "Я не люблю <w>салями</w>, потому что в ней так много чеснока."
+                            }
                         },
                         {
-                            "text": "Voor de lunch bestelde hij een broodje <w>salami</w> met kaas en tomaat."
+                            "text": "Voor de lunch bestelde hij een broodje <w>salami</w> met kaas en tomaat.",
+                            "target_lang_translations": {
+                                "en": "For lunch, he ordered a <w>salami</w> sandwich with cheese and tomato.",
+                                "ru": "На обед он заказал бутерброд с <w>салями</w>, сыром и помидором."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +35,24 @@
                         "pizza salami",
                         "plakje salami"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "food"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A spiced, dried type of sausage originally from Italy.",
+                        "ru": "Вид пряной сухой колбасы итальянского происхождения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "salami",
+                                "target_lang_sense_clarification": "cured sausage"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "салями",
+                                "target_lang_sense_clarification": "сорт колбасы"
+                            }
+                        ]
+                    }
                 }
             ]
         }

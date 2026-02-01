@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wij eten vanavond verse <w>zeevis</w> met groenten."
+                            "text": "Wij eten vanavond verse <w>zeevis</w> met groenten.",
+                            "target_lang_translations": {
+                                "en": "We are eating fresh <w>sea fish</w> with vegetables tonight.",
+                                "ru": "Сегодня вечером мы едим свежую <w>морскую рыбу</w> с овощами."
+                            }
                         },
                         {
-                            "text": "De kabeljauw is een bekende <w>zeevis</w> in Nederland."
+                            "text": "De kabeljauw is een bekende <w>zeevis</w> in Nederland.",
+                            "target_lang_translations": {
+                                "en": "The cod is a well-known <w>saltwater fish</w> in the Netherlands.",
+                                "ru": "Треска — известная <w>морская рыба</w> в Нидерландах."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,29 @@
                         "verse zeevis",
                         "gebakken zeevis",
                         "soorten zeevis"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A fish that lives in the sea.",
+                        "ru": "Рыба, обитающая в море."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "saltwater fish",
+                                "target_lang_sense_clarification": "distinguished from freshwater fish"
+                            },
+                            {
+                                "target_lang_word": "sea fish",
+                                "target_lang_sense_clarification": "general term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "морская рыба",
+                                "target_lang_sense_clarification": "рыба, живущая в соленой воде"
+                            }
+                        ]
+                    }
                 }
             ]
         }

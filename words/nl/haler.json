@@ -24,10 +24,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn vader fungeert vaak als <w>haler</w> en brenger voor de sportclub."
+                            "text": "Mijn vader fungeert vaak als <w>haler</w> en brenger voor de sportclub.",
+                            "target_lang_translations": {
+                                "en": "My father often acts as <w>fetcher</w> and carrier for the sports club.",
+                                "ru": "Мой отец часто выступает в роли <w>забирающего</w> и развозящего для спортклуба."
+                            }
                         },
                         {
-                            "text": "De <w>haler</w> van het pakket moet zich eerst legitimeren bij de balie."
+                            "text": "De <w>haler</w> van het pakket moet zich eerst legitimeren bij de balie.",
+                            "target_lang_translations": {
+                                "en": "The <w>collector</w> of the package must first identify themselves at the desk.",
+                                "ru": "<w>Получатель</w> посылки должен сначала предъявить документы на стойке."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,7 +47,33 @@
                     ],
                     "common_phrases": [
                         "haler en brenger"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Someone tasked with picking up something or someone.",
+                        "ru": "Человек, в чьи обязанности входит забирать что-либо или кого-либо."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fetcher",
+                                "target_lang_sense_clarification": "person who goes to get someone or something"
+                            },
+                            {
+                                "target_lang_word": "collector",
+                                "target_lang_sense_clarification": "person picking up an item"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "получатель",
+                                "target_lang_sense_clarification": "тот, кто приходит, чтобы забрать что-то (например, посылку)"
+                            },
+                            {
+                                "target_lang_word": "забирающий",
+                                "target_lang_sense_clarification": "субстантивированное причастие; тот, кто забирает кого-то или что-то"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -55,18 +89,38 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Tijdens onze fietstocht door Limburg kwamen we door het dorpje <w>Haler</w>."
+                            "text": "Tijdens onze fietstocht door Limburg kwamen we door het dorpje <w>Haler</w>.",
+                            "target_lang_translations": {
+                                "en": "During our bike ride through Limburg, we passed through the village of <w>Haler</w>.",
+                                "ru": "Во время нашей велопрогулки по Лимбургу мы проезжали через деревню <w>Халер</w>."
+                            }
                         },
                         {
-                            "text": "Mijn grootouders wonen al jaren in een boerderij in <w>Haler</w>."
+                            "text": "Mijn grootouders wonen al jaren in een boerderij in <w>Haler</w>.",
+                            "target_lang_translations": {
+                                "en": "My grandparents have lived in a farmhouse in <w>Haler</w> for years.",
+                                "ru": "Мои бабушка и дедушка уже много лет живут на ферме в <w>Халере</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "village in the Netherlands"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A village in the municipality of Leudal, in the Dutch province of Limburg.",
+                        "ru": "Деревня в общине Лёдал, в нидерландской провинции Лимбург."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Haler",
+                                "target_lang_sense_clarification": "place name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Халер",
+                                "target_lang_sense_clarification": "географическое название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В основании этой башни лежит правильная <w>семигранная</w> призма."
+                            "text": "В основании этой башни лежит правильная <w>семигранная</w> призма.",
+                            "target_lang_translations": {
+                                "en": "A regular <w>heptagonal</w> prism lies at the base of this tower."
+                            }
                         },
                         {
-                            "text": "Для эксперимента нам понадобился специальный <w>семигранный</w> стержень."
+                            "text": "Для эксперимента нам понадобился специальный <w>семигранный</w> стержень.",
+                            "target_lang_translations": {
+                                "en": "For the experiment, we needed a special <w>seven-sided</w> rod."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -34,12 +40,21 @@
                         "семигранная форма",
                         "семигранный шпиль"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "geometry"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Having seven faces or sides."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "heptagonal",
+                                "target_lang_sense_clarification": "geometry"
+                            },
+                            {
+                                "target_lang_word": "seven-sided",
+                                "target_lang_sense_clarification": "descriptive"
+                            }
+                        ]
+                    }
                 }
             ]
         }

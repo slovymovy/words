@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Хирурги сделали всё возможное, чтобы <w>приживить</w> пациенту донорскую почку."
+                            "text": "Хирурги сделали всё возможное, чтобы <w>приживить</w> пациенту донорскую почку.",
+                            "target_lang_translations": {
+                                "en": "The surgeons did everything possible to <w>transplant</w> the donor kidney into the patient."
+                            }
                         },
                         {
-                            "text": "Садовник попытался <w>приживить</w> черенок редкой розы к кусту шиповника."
+                            "text": "Садовник попытался <w>приживить</w> черенок редкой розы к кусту шиповника.",
+                            "target_lang_translations": {
+                                "en": "The gardener tried to <w>graft</w> a cutting of a rare rose onto a rosehip bush."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,21 @@
                         "приживить черенок",
                         "приживить кожу"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in context of organ or tissue transplantation"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "used in botany and gardening"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To cause to grow together or take root (usually regarding transplanted tissue, organs, or plant parts)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "graft",
+                                "target_lang_sense_clarification": "botany or medical tissue"
+                            },
+                            {
+                                "target_lang_word": "transplant",
+                                "target_lang_sense_clarification": "organs or tissue"
+                            }
+                        ]
+                    }
                 }
             ]
         }

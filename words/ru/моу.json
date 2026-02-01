@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Наше <w>МОУ</w> получило новое компьютерное оборудование."
+                            "text": "Наше <w>МОУ</w> получило новое компьютерное оборудование.",
+                            "target_lang_translations": {
+                                "en": "Our <w>municipal educational institution</w> received new computer equipment."
+                            }
                         },
                         {
-                            "text": "Директор <w>МОУ</w> подписал приказ о начале каникул."
+                            "text": "Директор <w>МОУ</w> подписал приказ о начале каникул.",
+                            "target_lang_translations": {
+                                "en": "The director of the <w>municipal educational institution</w> signed the order for the start of the holidays."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,16 +33,17 @@
                         "директор МОУ",
                         "на базе МОУ"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "канцеляризм"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "официально-деловой стиль"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for municipal educational institution; the official designation for state schools and kindergartens in documents."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "municipal educational institution",
+                                "target_lang_sense_clarification": "formal bureaucratic term"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -52,10 +59,16 @@
                     "name_type": "organization_name",
                     "examples": [
                         {
-                            "text": "<w>МОУ</w> сделало официальное заявление для прессы."
+                            "text": "<w>МОУ</w> сделало официальное заявление для прессы.",
+                            "target_lang_translations": {
+                                "en": "The <w>Ministry of Defence of Ukraine</w> made an official statement to the press."
+                            }
                         },
                         {
-                            "text": "В <w>МОУ</w> сообщили о проведении военных учений."
+                            "text": "В <w>МОУ</w> сообщили о проведении военных учений.",
+                            "target_lang_translations": {
+                                "en": "The <w>Ministry of Defence of Ukraine</w> reported on the holding of military exercises."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -65,16 +78,21 @@
                         "пресс-служба МОУ",
                         "представитель МОУ"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "военная сфера"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "официальное сокращение"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for the Ministry of Defence of Ukraine."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Ministry of Defence of Ukraine",
+                                "target_lang_sense_clarification": "government organization"
+                            },
+                            {
+                                "target_lang_word": "Ukrainian MoD",
+                                "target_lang_sense_clarification": "abbreviation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

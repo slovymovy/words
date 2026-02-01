@@ -17,22 +17,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor examined the athlete for <w>concussional</w> symptoms immediately after the collision."
+                            "text": "The doctor examined the athlete for <w>concussional</w> symptoms immediately after the collision.",
+                            "target_lang_translations": {
+                                "ru": "Врач осмотрел спортсмена на наличие симптомов <w>сотрясения</w> сразу после столкновения."
+                            }
                         },
                         {
-                            "text": "Repeated blows to the head can cause cumulative <w>concussional</w> damage over time."
+                            "text": "Repeated blows to the head can cause cumulative <w>concussional</w> damage over time.",
+                            "target_lang_translations": {
+                                "ru": "Повторяющиеся удары по голове могут со временем привести к кумулятивным повреждениям от <w>сотрясения</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "concussional symptoms",
                         "concussional damage"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in clinical or technical contexts regarding head injuries"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к сотрясению (обычно головного мозга) или являющийся его следствием."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "связанный с сотрясением",
+                                "target_lang_sense_clarification": "общий смысл, часто передается через родительный падеж существительного"
+                            },
+                            {
+                                "target_lang_word": "контузионный",
+                                "target_lang_sense_clarification": "медицинский термин, относящийся к контузии или тяжелому сотрясению"
+                            }
+                        ]
+                    }
                 }
             ]
         }

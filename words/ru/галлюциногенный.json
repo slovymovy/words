@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом лесу растут <w>галлюциногенные</w> грибы, которые опасно употреблять в пищу."
+                            "text": "В этом лесу растут <w>галлюциногенные</w> грибы, которые опасно употреблять в пищу.",
+                            "target_lang_translations": {
+                                "en": "<w>Hallucinogenic</w> mushrooms grow in this forest, which are dangerous to eat."
+                            }
                         },
                         {
-                            "text": "Врач предупредил, что этот препарат может иметь <w>галлюциногенный</w> эффект."
+                            "text": "Врач предупредил, что этот препарат может иметь <w>галлюциногенный</w> эффект.",
+                            "target_lang_translations": {
+                                "en": "The doctor warned that this drug may have a <w>hallucinogenic</w> effect."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,17 @@
                         "галлюциногенные вещества",
                         "галлюциногенные свойства"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "describing properties of substances"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Capable of causing hallucinations"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hallucinogenic",
+                                "target_lang_sense_clarification": "causing hallucinations"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>vervaardiging</w> van deze auto's vindt plaats in een moderne fabriek."
+                            "text": "De <w>vervaardiging</w> van deze auto's vindt plaats in een moderne fabriek.",
+                            "target_lang_translations": {
+                                "ru": "<w>Производство</w> этих автомобилей осуществляется на современном заводе.",
+                                "en": "The <w>manufacture</w> of these cars takes place in a modern factory."
+                            }
                         },
                         {
-                            "text": "Hij is gespecialiseerd in de ambachtelijke <w>vervaardiging</w> van houten meubels."
+                            "text": "Hij is gespecialiseerd in de ambachtelijke <w>vervaardiging</w> van houten meubels.",
+                            "target_lang_translations": {
+                                "ru": "Он специализируется на ремесленном <w>изготовлении</w> деревянной мебели.",
+                                "en": "He specializes in the artisanal <w>making</w> of wooden furniture."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,36 @@
                         "ambachtelijke vervaardiging",
                         "industriële vervaardiging"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процесс создания или производства чего-либо, часто промышленным или ремесленным способом.",
+                        "en": "The process of making or producing something, often in an industrial or artisanal way."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "изготовление",
+                                "target_lang_sense_clarification": "создание изделий"
+                            },
+                            {
+                                "target_lang_word": "производство",
+                                "target_lang_sense_clarification": "выпуск продукции"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "manufacture",
+                                "target_lang_sense_clarification": "industrial or systematic production"
+                            },
+                            {
+                                "target_lang_word": "production",
+                                "target_lang_sense_clarification": "general process of creating goods"
+                            },
+                            {
+                                "target_lang_word": "making",
+                                "target_lang_sense_clarification": "act of forming or constructing"
+                            }
+                        ]
+                    }
                 }
             ]
         }

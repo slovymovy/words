@@ -15,10 +15,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Antonia's</w> nieuwe fiets die in de tuin staat."
+                            "text": "Dit is <w>Antonia's</w> nieuwe fiets die in de tuin staat.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Antonia's</w> new bike standing in the garden.",
+                                "ru": "Это новый велосипед <w>Антонии</w>, который стоит в саду."
+                            }
                         },
                         {
-                            "text": "We gaan vanavond met zijn allen naar <w>Antonia's</w> verjaardagsfeest."
+                            "text": "We gaan vanavond met zijn allen naar <w>Antonia's</w> verjaardagsfeest.",
+                            "target_lang_translations": {
+                                "en": "We are all going to <w>Antonia's</w> birthday party tonight.",
+                                "ru": "Мы все идем сегодня вечером на день рождения <w>Антонии</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +38,26 @@
                         {
                             "trait_type": "form",
                             "comment": "genitief"
-                        },
-                        {
-                            "trait_type": "given_name",
-                            "comment": "vrouwelijke voornaam"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive form of the name Antonia, indicating possession",
+                        "ru": "родительный падеж имени Антония (обозначает принадлежность)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Antonia's",
+                                "target_lang_sense_clarification": "possessive form of the name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Антонии",
+                                "target_lang_sense_clarification": "форма имени, указывающая на принадлежность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

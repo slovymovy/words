@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Deze auto heeft een <w>tankinhoud</w> van vijftig liter."
+                            "text": "Deze auto heeft een <w>tankinhoud</w> van vijftig liter.",
+                            "target_lang_translations": {
+                                "en": "This car has a <w>tank capacity</w> of fifty liters.",
+                                "ru": "У этого автомобиля <w>объем бака</w> составляет пятьдесят литров."
+                            }
                         },
                         {
-                            "text": "Met een grote <w>tankinhoud</w> kun je lange afstanden rijden zonder te stoppen."
+                            "text": "Met een grote <w>tankinhoud</w> kun je lange afstanden rijden zonder te stoppen.",
+                            "target_lang_translations": {
+                                "en": "With a large <w>tank capacity</w>, you can drive long distances without stopping.",
+                                "ru": "С большим <w>объемом бака</w> можно проезжать большие расстояния без остановок."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,7 +38,33 @@
                     "common_phrases": [
                         "grote tankinhoud",
                         "tankinhoud van ... liter"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The maximum amount of fuel that fits in a vehicle's tank.",
+                        "ru": "Максимальное количество топлива, которое может вместить бак транспортного средства."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tank capacity",
+                                "target_lang_sense_clarification": "volume of the fuel tank"
+                            },
+                            {
+                                "target_lang_word": "fuel capacity",
+                                "target_lang_sense_clarification": "amount of fuel a vehicle can hold"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "объем бака",
+                                "target_lang_sense_clarification": "вместимость топливного резервуара"
+                            },
+                            {
+                                "target_lang_word": "емкость бака",
+                                "target_lang_sense_clarification": "максимальное количество топлива"
+                            }
+                        ]
+                    }
                 }
             ]
         }

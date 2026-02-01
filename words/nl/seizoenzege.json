@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De jonge wielrenner was dolblij toen hij eindelijk zijn eerste <w>seizoenzege</w> wist te boeken."
+                            "text": "De jonge wielrenner was dolblij toen hij eindelijk zijn eerste <w>seizoenzege</w> wist te boeken.",
+                            "target_lang_translations": {
+                                "ru": "Молодой велогонщик был вне себя от радости, когда ему наконец удалось одержать свою первую <w>победу в сезоне</w>.",
+                                "en": "The young cyclist was overjoyed when he finally managed to secure his first <w>season victory</w>."
+                            }
                         },
                         {
-                            "text": "Na een moeilijke start van de competitie vierde het elftal gisteren hun derde <w>seizoenzege</w>."
+                            "text": "Na een moeilijke start van de competitie vierde het elftal gisteren hun derde <w>seizoenzege</w>.",
+                            "target_lang_translations": {
+                                "ru": "После трудного начала соревнований команда вчера отпраздновала свою третью <w>победу в сезоне</w>.",
+                                "en": "After a difficult start to the competition, the team celebrated their third <w>win of the season</w> yesterday."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "eerste seizoenzege",
                         "seizoenzege boeken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "sport"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Победа, одержанная спортсменом или командой в течение определенного спортивного сезона.",
+                        "en": "A victory achieved by an athlete or team during a specific sports season."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "победа в сезоне",
+                                "target_lang_sense_clarification": "выигрыш в рамках текущего спортивного сезона"
+                            },
+                            {
+                                "target_lang_word": "сезонная победа",
+                                "target_lang_sense_clarification": "победа, относящаяся к конкретному сезону"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "season victory",
+                                "target_lang_sense_clarification": "a win achieved within the current sports season"
+                            },
+                            {
+                                "target_lang_word": "win of the season",
+                                "target_lang_sense_clarification": "a victory counting towards the current season's record"
+                            }
+                        ]
+                    }
                 }
             ]
         }

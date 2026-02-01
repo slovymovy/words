@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het koperen <w>koorhek</w> in de Grote Kerk is een meesterwerk van zeventiende-eeuwse kunst."
+                            "text": "Het koperen <w>koorhek</w> in de Grote Kerk is een meesterwerk van zeventiende-eeuwse kunst.",
+                            "target_lang_translations": {
+                                "en": "The copper <w>choir screen</w> in the Grote Kerk is a masterpiece of seventeenth-century art.",
+                                "ru": "Медная <w>алтарная преграда</w> в Большой церкви — это шедевр искусства семнадцатого века."
+                            }
                         },
                         {
-                            "text": "Tijdens de ceremonie mochten alleen de ingewijden plaatsnemen achter het <w>koorhek</w>."
+                            "text": "Tijdens de ceremonie mochten alleen de ingewijden plaatsnemen achter het <w>koorhek</w>.",
+                            "target_lang_translations": {
+                                "en": "During the ceremony, only the initiated were allowed to take their places behind the <w>choir screen</w>.",
+                                "ru": "Во время церемонии только посвященным разрешалось занимать места за <w>алтарной преградой</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,36 @@
                         "koperen koorhek",
                         "houten koorhek"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "church architecture"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A screen or partition in a church separating the choir from the nave (the area for the congregation).",
+                        "ru": "Ограда или перегородка в церковном здании, отделяющая хор (пресвитерий) от нефа (пространства для прихожан)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "choir screen",
+                                "target_lang_sense_clarification": "partition separating the choir from the nave"
+                            },
+                            {
+                                "target_lang_word": "rood screen",
+                                "target_lang_sense_clarification": "screen often surmounted by a crucifix"
+                            },
+                            {
+                                "target_lang_word": "chancel screen",
+                                "target_lang_sense_clarification": "architectural barrier between the chancel and nave"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "алтарная преграда",
+                                "target_lang_sense_clarification": "архитектурный элемент, отделяющий алтарь или хор от нефа"
+                            },
+                            {
+                                "target_lang_word": "хорная перегородка",
+                                "target_lang_sense_clarification": "ограда, отделяющая пространство хора"
+                            }
+                        ]
+                    }
                 }
             ]
         }

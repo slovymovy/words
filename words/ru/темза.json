@@ -13,10 +13,16 @@
                     "name_type": "geographical_feature",
                     "examples": [
                         {
-                            "text": "Лондон расположен на берегах <w>Темзы</w>."
+                            "text": "Лондон расположен на берегах <w>Темзы</w>.",
+                            "target_lang_translations": {
+                                "en": "London is located on the banks of the <w>Thames</w>."
+                            }
                         },
                         {
-                            "text": "Мы совершили прогулку на катере по <w>Темзе</w>."
+                            "text": "Мы совершили прогулку на катере по <w>Темзе</w>.",
+                            "target_lang_translations": {
+                                "en": "We took a boat trip on the <w>Thames</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -24,12 +30,17 @@
                         "берега Темзы",
                         "долина Темзы"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "river"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A major river in the south of Great Britain, flowing through London."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Thames",
+                                "target_lang_sense_clarification": "river"
+                            }
+                        ]
+                    }
                 }
             ]
         }

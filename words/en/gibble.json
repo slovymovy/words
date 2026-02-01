@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I met a man named Mr. <w>Gibble</w> at the conference yesterday."
+                            "text": "I met a man named Mr. <w>Gibble</w> at the conference yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера на конференции я встретил мужчину по фамилии <w>Гиббл</w>."
+                            }
                         },
                         {
-                            "text": "The <w>Gibble</w> family has lived in this town for generations."
+                            "text": "The <w>Gibble</w> family has lived in this town for generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Гиббл</w> живет в этом городе уже несколько поколений."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from German"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Гиббл",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

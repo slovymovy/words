@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Программист разработал новый <w>транслятор</w> для ускорения работы системы."
+                            "text": "Программист разработал новый <w>транслятор</w> для ускорения работы системы.",
+                            "target_lang_translations": {
+                                "en": "The programmer developed a new <w>translator</w> to speed up the system's operation."
+                            }
                         },
                         {
-                            "text": "Этот <w>транслятор</w> кода позволяет запускать старые программы на современном оборудовании."
+                            "text": "Этот <w>транслятор</w> кода позволяет запускать старые программы на современном оборудовании.",
+                            "target_lang_translations": {
+                                "en": "This code <w>translator</w> allows running old programs on modern hardware."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,17 @@
                         "входной транслятор",
                         "работа транслятора"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A computer program or technical device that converts program code from one language to another."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "translator",
+                                "target_lang_sense_clarification": "computing"
+                            }
+                        ]
+                    }
                 }
             ]
         }

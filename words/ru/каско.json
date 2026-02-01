@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "При покупке нового автомобиля в кредит банк обязательно требует оформить <w>каско</w>."
+                            "text": "При покупке нового автомобиля в кредит банк обязательно требует оформить <w>каско</w>.",
+                            "target_lang_translations": {
+                                "en": "When buying a new car on credit, the bank always requires taking out <w>comprehensive insurance</w>."
+                            }
                         },
                         {
-                            "text": "Владелец машины получил выплату по <w>каско</w> после того, как на капот упало дерево."
+                            "text": "Владелец машины получил выплату по <w>каско</w> после того, как на капот упало дерево.",
+                            "target_lang_translations": {
+                                "en": "The car owner received a payout from their <w>comprehensive insurance</w> after a tree fell on the hood."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,14 +38,29 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "business",
-                            "comment": "финансы и страхование"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "несклоняемое существительное"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Insurance of a vehicle (car, ship, aircraft) against damage, theft, or hijacking, excluding third-party liability."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "comprehensive insurance",
+                                "target_lang_sense_clarification": "insurance covering damage to the vehicle itself, common for cars"
+                            },
+                            {
+                                "target_lang_word": "hull insurance",
+                                "target_lang_sense_clarification": "technical term, especially for marine and aviation contexts"
+                            },
+                            {
+                                "target_lang_word": "collision insurance",
+                                "target_lang_sense_clarification": "coverage specifically for damage from accidents"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -21,18 +21,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn collega <w>Lieven</w> komt morgen ook naar de vergadering."
+                            "text": "Mijn collega <w>Lieven</w> komt morgen ook naar de vergadering.",
+                            "target_lang_translations": {
+                                "en": "My colleague <w>Lieven</w> is also coming to the meeting tomorrow.",
+                                "ru": "Мой коллега <w>Ливен</w> завтра тоже придет на собрание."
+                            }
                         },
                         {
-                            "text": "<w>Lieven</w> is een veelvoorkomende naam in Vlaanderen."
+                            "text": "<w>Lieven</w> is een veelvoorkomende naam in Vlaanderen.",
+                            "target_lang_translations": {
+                                "en": "<w>Lieven</w> is a common name in Flanders.",
+                                "ru": "<w>Ливен</w> — распространенное имя во Фландрии."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A male given name",
+                        "ru": "Мужское имя"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Lieven",
+                                "target_lang_sense_clarification": "proper name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Ливен",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -48,10 +68,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De soldaten schreven lange brieven naar hun achtergebleven <w>lieven</w>."
+                            "text": "De soldaten schreven lange brieven naar hun achtergebleven <w>lieven</w>.",
+                            "target_lang_translations": {
+                                "en": "The soldiers wrote long letters to their <w>sweethearts</w> left behind.",
+                                "ru": "Солдаты писали длинные письма своим оставшимся дома <w>возлюбленным</w>."
+                            }
                         },
                         {
-                            "text": "Zij sprak vol tederheid over haar vroegere <w>lieven</w>."
+                            "text": "Zij sprak vol tederheid over haar vroegere <w>lieven</w>.",
+                            "target_lang_translations": {
+                                "en": "She spoke full of tenderness about her former <w>lovers</w>.",
+                                "ru": "Она с нежностью говорила о своих бывших <w>возлюбленных</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -63,7 +91,33 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Plural form of 'lief' (sweetheart, lover)",
+                        "ru": "Множественное число слова <w>lief</w> (возлюбленный)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sweethearts",
+                                "target_lang_sense_clarification": "romantic partners"
+                            },
+                            {
+                                "target_lang_word": "lovers",
+                                "target_lang_sense_clarification": "romantic partners"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "возлюбленные",
+                                "target_lang_sense_clarification": "множественное число"
+                            },
+                            {
+                                "target_lang_word": "любимые",
+                                "target_lang_sense_clarification": "близкие люди"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -79,10 +133,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In oude teksten leest men hoe zij elkander innig <w>liefden</w>."
+                            "text": "In oude teksten leest men hoe zij elkander innig <w>liefden</w>.",
+                            "target_lang_translations": {
+                                "en": "In old texts one reads how they dearly <w>loved</w> each other.",
+                                "ru": "В старых текстах читают о том, как они нежно <w>любили</w> друг друга."
+                            }
                         },
                         {
-                            "text": "Men moet het goede <w>lieven</w> en het kwade mijden."
+                            "text": "Men moet het goede <w>lieven</w> en het kwade mijden.",
+                            "target_lang_translations": {
+                                "en": "One must <w>cherish</w> the good and avoid the evil.",
+                                "ru": "Нужно <w>любить</w> добро и избегать зла."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -101,16 +163,34 @@
                         {
                             "trait_type": "archaic",
                             "comment": ""
-                        },
-                        {
-                            "trait_type": "poetic",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "literary",
-                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To love, cherish, or highly value (archaic)",
+                        "ru": "Любить, обожать или высоко ценить (устаревшее)"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "to love",
+                                "target_lang_sense_clarification": "archaic"
+                            },
+                            {
+                                "target_lang_word": "to cherish",
+                                "target_lang_sense_clarification": "archaic"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "любить",
+                                "target_lang_sense_clarification": "устаревшая форма"
+                            },
+                            {
+                                "target_lang_word": "возлюбить",
+                                "target_lang_sense_clarification": "высокий стиль"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De vakbond heeft het <w>eindvoorstel</w> van de directie gisteren afgewezen."
+                            "text": "De vakbond heeft het <w>eindvoorstel</w> van de directie gisteren afgewezen.",
+                            "target_lang_translations": {
+                                "en": "The union rejected the management's <w>final offer</w> yesterday.",
+                                "ru": "Вчера профсоюз отклонил <w>окончательное предложение</w> руководства."
+                            }
                         },
                         {
-                            "text": "Na lange gesprekken besloot hij een <w>eindvoorstel</w> te doen om de deal te sluiten."
+                            "text": "Na lange gesprekken besloot hij een <w>eindvoorstel</w> te doen om de deal te sluiten.",
+                            "target_lang_translations": {
+                                "en": "After long discussions, he decided to make a <w>final proposal</w> to close the deal.",
+                                "ru": "После долгих переговоров он решил сделать <w>финальное предложение</w>, чтобы заключить сделку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +43,32 @@
                         "het eindvoorstel accepteren",
                         "met een eindvoorstel komen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "negotiation context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The final and definitive offer made during a negotiation.",
+                        "ru": "Последнее и окончательное предложение, сделанное в ходе переговоров."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "final offer",
+                                "target_lang_sense_clarification": "negotiation context"
+                            },
+                            {
+                                "target_lang_word": "final proposal",
+                                "target_lang_sense_clarification": "general context"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "окончательное предложение",
+                                "target_lang_sense_clarification": "в переговорах"
+                            },
+                            {
+                                "target_lang_word": "финальное предложение",
+                                "target_lang_sense_clarification": "бизнес-контекст"
+                            }
+                        ]
+                    }
                 }
             ]
         }

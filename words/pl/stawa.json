@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kapitan dostrzegł wysoką <stawę> na brzegu, co pozwoliło mu skorygować kurs."
+                            "text": "Kapitan dostrzegł wysoką <stawę> na brzegu, co pozwoliło mu skorygować kurs.",
+                            "target_lang_translations": {
+                                "ru": "Капитан заметил высокий <навигационный знак> на берегу, что позволило ему скорректировать курс."
+                            }
                         },
                         {
-                            "text": "Ta <stawa> ostrzega żeglarzy przed niebezpieczną mielizną ukrytą pod wodą."
+                            "text": "Ta <stawa> ostrzega żeglarzy przed niebezpieczną mielizną ukrytą pod wodą.",
+                            "target_lang_translations": {
+                                "ru": "Этот <навигационный знак> предупреждает моряков об опасной отмели, скрытой под водой."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,12 +32,21 @@
                         "stawa nawigacyjna",
                         "stawa wejściowa"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Неподвижный навигационный знак, установленный на берегу или на дне водоема, служащий для ориентации на воде."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "навигационный знак",
+                                "target_lang_sense_clarification": "общий термин для ориентира"
+                            },
+                            {
+                                "target_lang_word": "створный знак",
+                                "target_lang_sense_clarification": "знак, образующий створ"
+                            }
+                        ]
+                    }
                 }
             ]
         }

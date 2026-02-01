@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het <w>cortège</w> volgde de koning bij zijn activiteiten."
+                            "text": "Het <w>cortège</w> volgde de koning bij zijn activiteiten.",
+                            "target_lang_translations": {
+                                "en": "The <w>retinue</w> followed the king during his activities.",
+                                "ru": "<w>Свита</w> следовала за королем во время его мероприятий."
+                            }
                         },
                         {
-                            "text": "De burgemeester en zijn wethouders liepen in <w>cortège</w> naar het stadhuis voor de ceremonie."
+                            "text": "De burgemeester en zijn wethouders liepen in <w>cortège</w> naar het stadhuis voor de ceremonie.",
+                            "target_lang_translations": {
+                                "en": "The mayor and his aldermen walked in <w>procession</w> to the town hall for the ceremony.",
+                                "ru": "Мэр и его советники шли <w>процессией</w> к ратуше на церемонию."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,40 @@
                         "koninklijk cortège",
                         "plechtig cortège"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A solemn procession or a group of followers accompanying an important person, often at official occasions or funerals.",
+                        "ru": "Торжественная процессия или группа сопровождающих важное лицо, часто на официальных мероприятиях или похоронах."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "procession",
+                                "target_lang_sense_clarification": "formal movement of people"
+                            },
+                            {
+                                "target_lang_word": "cortege",
+                                "target_lang_sense_clarification": "solemn procession, especially for funerals"
+                            },
+                            {
+                                "target_lang_word": "retinue",
+                                "target_lang_sense_clarification": "group of attendants"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кортеж",
+                                "target_lang_sense_clarification": "торжественное шествие или выезд"
+                            },
+                            {
+                                "target_lang_word": "процессия",
+                                "target_lang_sense_clarification": "группа людей, идущих торжественным строем"
+                            },
+                            {
+                                "target_lang_word": "свита",
+                                "target_lang_sense_clarification": "группа сопровождающих лиц"
+                            }
+                        ]
+                    }
                 }
             ]
         }

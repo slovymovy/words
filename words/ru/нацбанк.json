@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Вчера <w>Нацбанк</w> объявил о снижении ключевой ставки."
+                            "text": "Вчера <w>Нацбанк</w> объявил о снижении ключевой ставки.",
+                            "target_lang_translations": {
+                                "en": "Yesterday the <w>National Bank</w> announced a key rate cut."
+                            }
                         },
                         {
-                            "text": "Все коммерческие банки обязаны выполнять требования, которые устанавливает <w>Нацбанк</w>."
+                            "text": "Все коммерческие банки обязаны выполнять требования, которые устанавливает <w>Нацбанк</w>.",
+                            "target_lang_translations": {
+                                "en": "All commercial banks are required to comply with the requirements established by the <w>National Bank</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,21 @@
                         "постановление Нацбанка",
                         "лицензия Нацбанка"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "финансы и банковское дело"
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": "государственное управление"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for 'national bank'; the country's main state bank regulating monetary policy."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "National Bank",
+                                "target_lang_sense_clarification": "specific institution name"
+                            },
+                            {
+                                "target_lang_word": "central bank",
+                                "target_lang_sense_clarification": "functional equivalent"
+                            }
+                        ]
+                    }
                 }
             ]
         }

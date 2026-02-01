@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Please tell Mr. <w>Duquette</w> that his appointment is scheduled for tomorrow morning."
+                            "text": "Please tell Mr. <w>Duquette</w> that his appointment is scheduled for tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте мистеру <w>Дюкетту</w>, что его встреча назначена на завтрашнее утро."
+                            }
                         },
                         {
-                            "text": "The <w>Duquette</w> family has lived in this town for several generations."
+                            "text": "The <w>Duquette</w> family has lived in this town for several generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Дюкетт</w> живет в этом городе уже несколько поколений."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Дюкетт",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

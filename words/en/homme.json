@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Homme</w> will be joining us for the conference next week."
+                            "text": "Mr. <w>Homme</w> will be joining us for the conference next week.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Хомм</w> присоединится к нам на конференции на следующей неделе."
+                            }
                         },
                         {
-                            "text": "I believe the <w>Homme</w> family owns the bakery on the corner."
+                            "text": "I believe the <w>Homme</w> family owns the bakery on the corner.",
+                            "target_lang_translations": {
+                                "ru": "Я полагаю, семья <w>Хомм</w> владеет пекарней на углу."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хомм",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

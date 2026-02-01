@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач рекомендовал <прижигание> сосудов, чтобы остановить сильное кровотечение."
+                            "text": "Врач рекомендовал <прижигание> сосудов, чтобы остановить сильное кровотечение.",
+                            "target_lang_translations": {
+                                "en": "The doctor recommended <w>cauterization</w> of the vessels to stop the heavy bleeding."
+                            }
                         },
                         {
-                            "text": "После серии болезненных <прижиганий> рана наконец начала заживать."
+                            "text": "После серии болезненных <прижиганий> рана наконец начала заживать.",
+                            "target_lang_translations": {
+                                "en": "After a series of painful <w>cauterizations</w>, the wound finally began to heal."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "прижигание эрозии",
                         "сделать прижигание"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical procedure involving the application of heat, chemicals, or electricity to tissue for therapeutic purposes."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cauterization",
+                                "target_lang_sense_clarification": "medical procedure"
+                            },
+                            {
+                                "target_lang_word": "cautery",
+                                "target_lang_sense_clarification": "process or instrument"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "183bc408-482e-32d2-aff4-a86a72337594",
@@ -48,12 +63,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На коже осталось небольшое <прижигание>, которое со временем исчезнет."
+                            "text": "На коже осталось небольшое <прижигание>, которое со временем исчезнет.",
+                            "target_lang_translations": {
+                                "en": "A small <w>burn mark</w> remained on the skin, which will disappear over time."
+                            }
                         },
                         {
-                            "text": "Это <прижигание> выглядит как темное пятно на поверхности стола."
+                            "text": "Это <прижигание> выглядит как темное пятно на поверхности стола.",
+                            "target_lang_translations": {
+                                "en": "This <w>scorch mark</w> looks like a dark spot on the surface of the table."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A mark, burn, or damage left by high heat or a caustic substance."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "burn mark",
+                                "target_lang_sense_clarification": "trace left by heat"
+                            },
+                            {
+                                "target_lang_word": "scorch mark",
+                                "target_lang_sense_clarification": "surface damage"
+                            }
+                        ]
+                    }
                 }
             ]
         }

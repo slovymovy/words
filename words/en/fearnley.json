@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Fearnley</w> has been managing the department for over ten years."
+                            "text": "Mr. <w>Fearnley</w> has been managing the department for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Фернли</w> руководит отделом уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "The package was delivered to the <w>Fearnley</w> residence on the corner."
+                            "text": "The package was delivered to the <w>Fearnley</w> residence on the corner.",
+                            "target_lang_translations": {
+                                "ru": "Посылка была доставлена в дом <w>Фернли</w> на углу."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Фернли",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

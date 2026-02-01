@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The bakery is famous for its delicate <w>mille-feuille</w> filled with vanilla cream."
+                            "text": "The bakery is famous for its delicate <w>mille-feuille</w> filled with vanilla cream.",
+                            "target_lang_translations": {
+                                "ru": "Эта пекарня славится своим нежным <w>мильфеем</w> с ванильным кремом."
+                            }
                         },
                         {
-                            "text": "For dessert, I ordered a classic <w>mille-feuille</w> topped with fresh berries."
+                            "text": "For dessert, I ordered a classic <w>mille-feuille</w> topped with fresh berries.",
+                            "target_lang_translations": {
+                                "ru": "На десерт я заказал классический <w>мильфей</w> со свежими ягодами."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +34,21 @@
                         "vanilla mille-feuille",
                         "strawberry mille-feuille"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "pastry"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Разновидность пирожного из нескольких слоев слоеного теста, обычно прослоенных кремом и покрытых глазурью или сахаром."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "мильфей",
+                                "target_lang_sense_clarification": "французское пирожное"
+                            },
+                            {
+                                "target_lang_word": "наполеон",
+                                "target_lang_sense_clarification": "слоёный торт (аналог)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

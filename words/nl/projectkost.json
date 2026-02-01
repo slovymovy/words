@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De totale <w>projectkost</w> was veel hoger dan verwacht door onvoorziene omstandigheden."
+                            "text": "De totale <w>projectkost</w> was veel hoger dan verwacht door onvoorziene omstandigheden.",
+                            "target_lang_translations": {
+                                "ru": "Общая <w>стоимость проекта</w> оказалась намного выше ожидаемой из-за непредвиденных обстоятельств.",
+                                "en": "The total <w>project cost</w> was much higher than expected due to unforeseen circumstances."
+                            }
                         },
                         {
-                            "text": "Het management wil de <w>projectkost</w> berekenen om te zien of het plan haalbaar is."
+                            "text": "Het management wil de <w>projectkost</w> berekenen om te zien of het plan haalbaar is.",
+                            "target_lang_translations": {
+                                "ru": "Руководство хочет рассчитать <w>стоимость проекта</w>, чтобы понять, осуществим ли план.",
+                                "en": "Management wants to calculate the <w>project cost</w> to see if the plan is feasible."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,32 @@
                         "geraamde projectkost",
                         "projectkost berekenen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "financial context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Денежные средства, расходуемые на выполнение конкретного проекта.",
+                        "en": "The money spent on the execution of a specific project."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "стоимость проекта",
+                                "target_lang_sense_clarification": "общая сумма расходов"
+                            },
+                            {
+                                "target_lang_word": "затраты на проект",
+                                "target_lang_sense_clarification": "издержки"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "project cost",
+                                "target_lang_sense_clarification": "financial expenditure"
+                            },
+                            {
+                                "target_lang_word": "project expense",
+                                "target_lang_sense_clarification": "cost incurred"
+                            }
+                        ]
+                    }
                 }
             ]
         }

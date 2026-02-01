@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We aten gisteren een heerlijke biefstuk met rode <w>wijnsaus</w>."
+                            "text": "We aten gisteren een heerlijke biefstuk met rode <w>wijnsaus</w>.",
+                            "target_lang_translations": {
+                                "en": "We ate a delicious steak with red <w>wine sauce</w> yesterday.",
+                                "ru": "Вчера мы ели вкусный стейк с красным <w>винным соусом</w>."
+                            }
                         },
                         {
-                            "text": "Bij dit visgerecht past een romige witte <w>wijnsaus</w> heel goed."
+                            "text": "Bij dit visgerecht past een romige witte <w>wijnsaus</w> heel goed.",
+                            "target_lang_translations": {
+                                "en": "A creamy white <w>wine sauce</w> goes very well with this fish dish.",
+                                "ru": "К этому рыбному блюду очень хорошо подходит сливочный белый <w>винный соус</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +35,24 @@
                         "witte wijnsaus",
                         "vis in wijnsaus"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "cooking"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A sauce prepared with wine as a key ingredient, giving it a wine flavor.",
+                        "ru": "Соус, приготовленный с использованием вина в качестве важного ингредиента."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wine sauce",
+                                "target_lang_sense_clarification": "culinary sauce made with wine"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "винный соус",
+                                "target_lang_sense_clarification": "соус на основе вина"
+                            }
+                        ]
+                    }
                 }
             ]
         }

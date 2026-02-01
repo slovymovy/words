@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Jahn</w> has been working as the head of the department for over ten years."
+                            "text": "Mr. <w>Jahn</w> has been working as the head of the department for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Господин <w>Ян</w> работает начальником отдела уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "The package was mistakenly delivered to the <w>Jahn</w> family next door."
+                            "text": "The package was mistakenly delivered to the <w>Jahn</w> family next door.",
+                            "target_lang_translations": {
+                                "ru": "Посылку по ошибке доставили семье <w>Ян</w>, живущей по соседству."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "German origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Ян",
+                                "target_lang_sense_clarification": "немецкая фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

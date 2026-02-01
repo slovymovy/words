@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The politician was accused of <w>currying</w> favor with the local business owners to gain votes."
+                            "text": "The politician was accused of <w>currying</w> favor with the local business owners to gain votes.",
+                            "target_lang_translations": {
+                                "ru": "Политика обвинили в <w>заискивании</w> перед местными владельцами бизнеса ради получения голосов."
+                            }
                         },
                         {
-                            "text": "She is in the kitchen <w>currying</w> the vegetables for tonight's dinner."
+                            "text": "She is in the kitchen <w>currying</w> the vegetables for tonight's dinner.",
+                            "target_lang_translations": {
+                                "ru": "Она на кухне <w>готовит карри</w> из овощей к сегодняшнему ужину."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,7 +35,22 @@
                             "trait_type": "form",
                             "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Причастие настоящего времени и герундий от глагола <w>curry</w>."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "заискивание",
+                                "target_lang_sense_clarification": "в выражении 'curry favor'"
+                            },
+                            {
+                                "target_lang_word": "приготовление карри",
+                                "target_lang_sense_clarification": "кулинария"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,25 +66,32 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In functional programming, <w>currying</w> allows developers to create specialized functions from more general ones."
+                            "text": "In functional programming, <w>currying</w> allows developers to create specialized functions from more general ones.",
+                            "target_lang_translations": {
+                                "ru": "В функциональном программировании <w>каррирование</w> позволяет разработчикам создавать специализированные функции на основе более общих."
+                            }
                         },
                         {
-                            "text": "The process of <w>currying</w> transforms a function with many parameters into a chain of simpler functions."
+                            "text": "The process of <w>currying</w> transforms a function with many parameters into a chain of simpler functions.",
+                            "target_lang_translations": {
+                                "ru": "Процесс <w>каррирования</w> преобразует функцию со множеством параметров в цепочку более простых функций."
+                            }
                         }
                     ],
                     "antonyms": [
                         "uncurrying"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Техника преобразования функции, принимающей несколько аргументов, в последовательность функций, каждая из которых принимает один аргумент."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "каррирование",
+                                "target_lang_sense_clarification": "информатика"
+                            }
+                        ]
+                    }
                 }
             ]
         }

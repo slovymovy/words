@@ -23,10 +23,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Эта большая кость <догрызается> собакой уже второй час."
+                            "text": "Эта большая кость <догрызается> собакой уже второй час.",
+                            "target_lang_translations": {
+                                "en": "This large bone is <w>being finished</w> by the dog for the second hour."
+                            }
                         },
                         {
-                            "text": "Чёрствый сухарь медленно <догрызается> голодным путником."
+                            "text": "Чёрствый сухарь медленно <догрызается> голодным путником.",
+                            "target_lang_translations": {
+                                "en": "The stale rusk is slowly <w>being finished</w> by the hungry traveler."
+                            }
                         }
                     ],
                     "traits": [
@@ -34,7 +40,22 @@
                             "trait_type": "form",
                             "comment": "passive voice"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Passive form of the verb 'to finish gnawing'; the state of being gnawed or eaten until nothing remains."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be finished (by gnawing)",
+                                "target_lang_sense_clarification": "passive voice"
+                            },
+                            {
+                                "target_lang_word": "be gnawed to the end",
+                                "target_lang_sense_clarification": "passive voice"
+                            }
+                        ]
+                    }
                 }
             ]
         }

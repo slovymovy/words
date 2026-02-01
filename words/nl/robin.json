@@ -16,18 +16,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn neef heet <w>Robin</w> en hij woont in Utrecht."
+                            "text": "Mijn neef heet <w>Robin</w> en hij woont in Utrecht.",
+                            "target_lang_translations": {
+                                "en": "My cousin is named <w>Robin</w> and he lives in Utrecht.",
+                                "ru": "Моего двоюродного брата зовут <w>Робин</w>, и он живет в Утрехте."
+                            }
                         },
                         {
-                            "text": "Ik wist niet dat <w>Robin</w> ook een meisjesnaam is."
+                            "text": "Ik wist niet dat <w>Robin</w> ook een meisjesnaam is.",
+                            "target_lang_translations": {
+                                "en": "I didn't know that <w>Robin</w> is also a girl's name.",
+                                "ru": "Я не знал, что <w>Робин</w> — это также и женское имя."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "unisex"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A first name used for both boys and girls.",
+                        "ru": "Имя, которое используется как для мальчиков, так и для девочек."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Robin",
+                                "target_lang_sense_clarification": "proper name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Робин",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De boeren meten regelmatig het <w>bodemvocht</w> om de groei van hun gewassen te optimaliseren."
+                            "text": "De boeren meten regelmatig het <w>bodemvocht</w> om de groei van hun gewassen te optimaliseren.",
+                            "target_lang_translations": {
+                                "en": "The farmers regularly measure the <w>soil moisture</w> to optimize the growth of their crops.",
+                                "ru": "Фермеры регулярно измеряют <w>влажность почвы</w>, чтобы оптимизировать рост своих культур."
+                            }
                         },
                         {
-                            "text": "Door de lange periode van droogte is het <w>bodemvocht</w> in dit gebied sterk afgenomen."
+                            "text": "Door de lange periode van droogte is het <w>bodemvocht</w> in dit gebied sterk afgenomen.",
+                            "target_lang_translations": {
+                                "en": "Due to the long period of drought, the <w>soil moisture</w> in this area has decreased significantly.",
+                                "ru": "Из-за длительного периода засухи <w>почвенная влага</w> в этом районе сильно уменьшилась."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "beschikbaar bodemvocht",
                         "tekort aan bodemvocht"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "hydrology, agriculture"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Water found in the pores of the soil, above the groundwater level.",
+                        "ru": "Вода, находящаяся в порах почвы выше уровня грунтовых вод."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "soil moisture",
+                                "target_lang_sense_clarification": "water content held in the soil"
+                            },
+                            {
+                                "target_lang_word": "soil water",
+                                "target_lang_sense_clarification": "technical term in hydrology and agriculture"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "почвенная влага",
+                                "target_lang_sense_clarification": "вода, удерживаемая в почве"
+                            },
+                            {
+                                "target_lang_word": "влажность почвы",
+                                "target_lang_sense_clarification": "показатель содержания влаги"
+                            }
+                        ]
+                    }
                 }
             ]
         }

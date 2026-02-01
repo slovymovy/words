@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>indicateur</w> op het instrumentenpaneel gaf aan dat de druk te hoog was."
+                            "text": "De <w>indicateur</w> op het instrumentenpaneel gaf aan dat de druk te hoog was.",
+                            "target_lang_translations": {
+                                "en": "The <w>indicator</w> on the instrument panel showed that the pressure was too high.",
+                                "ru": "<w>Индикатор</w> на приборной панели показывал, что давление слишком высокое."
+                            }
                         },
                         {
-                            "text": "In dit chemische proces werkt de vloeistof als een <w>indicateur</w> voor de zuurgraad."
+                            "text": "In dit chemische proces werkt de vloeistof als een <w>indicateur</w> voor de zuurgraad.",
+                            "target_lang_translations": {
+                                "en": "In this chemical process, the liquid acts as an <w>indicator</w> for the acidity.",
+                                "ru": "В этом химическом процессе жидкость действует как <w>индикатор</w> кислотности."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "chemische indicateur",
                         "technische indicateur"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "wordt vaak gebruikt in technische of wetenschappelijke contexten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An instrument or device that indicates a specific value, condition, or direction.",
+                        "ru": "Прибор или средство, указывающее на определенное значение, состояние или направление."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "indicator",
+                                "target_lang_sense_clarification": "device or substance showing a condition"
+                            },
+                            {
+                                "target_lang_word": "gauge",
+                                "target_lang_sense_clarification": "measuring instrument"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "индикатор",
+                                "target_lang_sense_clarification": "прибор или вещество"
+                            },
+                            {
+                                "target_lang_word": "указатель",
+                                "target_lang_sense_clarification": "прибор со стрелкой или шкалой"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De kaasmaker voegt het <w>zuursel</w> toe aan de melk om de smaakontwikkeling te beïnvloeden."
+                            "text": "De kaasmaker voegt het <w>zuursel</w> toe aan de melk om de smaakontwikkeling te beïnvloeden.",
+                            "target_lang_translations": {
+                                "en": "The cheesemaker adds the <w>starter culture</w> to the milk to influence flavor development.",
+                                "ru": "Сыродел добавляет <w>закваску</w> в молоко, чтобы повлиять на развитие вкуса."
+                            }
                         },
                         {
-                            "text": "Voor het maken van yoghurt heb je een goed <w>zuursel</w> nodig om de melk te laten fermenteren."
+                            "text": "Voor het maken van yoghurt heb je een goed <w>zuursel</w> nodig om de melk te laten fermenteren.",
+                            "target_lang_translations": {
+                                "en": "To make yogurt, you need a good <w>starter</w> to ferment the milk.",
+                                "ru": "Для приготовления йогурта нужна хорошая <w>закваска</w>, чтобы молоко ферментировалось."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,36 @@
                         "zuursel toevoegen",
                         "vers zuursel"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "used in dairy production"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "food technology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A mixture of lactic acid bacteria added to milk to initiate the acidification process in the production of cheese, yogurt, or butter.",
+                        "ru": "Смесь молочнокислых бактерий, добавляемая в молоко для запуска процесса сквашивания при изготовлении сыра, йогурта или масла."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "starter culture",
+                                "target_lang_sense_clarification": "bacteria mixture for fermentation"
+                            },
+                            {
+                                "target_lang_word": "starter",
+                                "target_lang_sense_clarification": "substance to start fermentation"
+                            },
+                            {
+                                "target_lang_word": "lactic starter",
+                                "target_lang_sense_clarification": "technical term in dairy production"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "закваска",
+                                "target_lang_sense_clarification": "ингредиент для сквашивания молока"
+                            },
+                            {
+                                "target_lang_word": "стартовая культура",
+                                "target_lang_sense_clarification": "технический термин в сыроделии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

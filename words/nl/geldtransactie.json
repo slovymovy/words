@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De bank controleerde de verdachte <w>geldtransactie</w> onmiddellijk om fraude te voorkomen."
+                            "text": "De bank controleerde de verdachte <w>geldtransactie</w> onmiddellijk om fraude te voorkomen.",
+                            "target_lang_translations": {
+                                "en": "The bank immediately checked the suspicious <w>money transaction</w> to prevent fraud.",
+                                "ru": "Банк немедленно проверил подозрительную <w>денежную транзакцию</w>, чтобы предотвратить мошенничество."
+                            }
                         },
                         {
-                            "text": "Een digitale <w>geldtransactie</w> is tegenwoordig veel sneller dan een overschrijving via papier."
+                            "text": "Een digitale <w>geldtransactie</w> is tegenwoordig veel sneller dan een overschrijving via papier.",
+                            "target_lang_translations": {
+                                "en": "A digital <w>money transaction</w> is nowadays much faster than a paper transfer.",
+                                "ru": "Цифровая <w>денежная транзакция</w> сегодня происходит намного быстрее, чем бумажный перевод."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "digitale geldtransactie",
                         "internationale geldtransactie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "financieel"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An action where money changes ownership, for example via a bank or cash.",
+                        "ru": "Действие, при котором деньги переходят от одного владельца к другому, например, через банк или наличными."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "money transaction",
+                                "target_lang_sense_clarification": "general transfer of funds"
+                            },
+                            {
+                                "target_lang_word": "financial transaction",
+                                "target_lang_sense_clarification": "formal banking context"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "денежная транзакция",
+                                "target_lang_sense_clarification": "банковская или электронная операция по переводу средств"
+                            },
+                            {
+                                "target_lang_word": "денежная операция",
+                                "target_lang_sense_clarification": "общее действие с денежными средствами"
+                            }
+                        ]
+                    }
                 }
             ]
         }

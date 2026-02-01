@@ -13,10 +13,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriendin heet <w>Cathérine</w>."
+                            "text": "Mijn beste vriendin heet <w>Cathérine</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend is called <w>Catherine</w>.",
+                                "ru": "Мою лучшую подругу зовут <w>Катрин</w>."
+                            }
                         },
                         {
-                            "text": "Ik ga morgen met <w>Cathérine</w> naar de bioscoop."
+                            "text": "Ik ga morgen met <w>Cathérine</w> naar de bioscoop.",
+                            "target_lang_translations": {
+                                "en": "I am going to the cinema with <w>Catherine</w> tomorrow.",
+                                "ru": "Завтра я иду с <w>Катрин</w> в кино."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +35,28 @@
                         "tante Cathérine",
                         "zuster Cathérine"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female first name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Catherine",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Катрин",
+                                "target_lang_sense_clarification": "имя"
+                            },
+                            {
+                                "target_lang_word": "Екатерина",
+                                "target_lang_sense_clarification": "русский эквивалент"
+                            }
+                        ]
+                    }
                 }
             ]
         }

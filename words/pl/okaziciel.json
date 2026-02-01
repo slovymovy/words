@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Czek został wystawiony na <w>okaziciela</w>, co oznacza, że każdy może go zrealizować w banku."
+                            "text": "Czek został wystawiony na <w>okaziciela</w>, co oznacza, że każdy może go zrealizować w banku.",
+                            "target_lang_translations": {
+                                "ru": "Чек был выписан на <w>предъявителя</w>, что означает, что любой может обналичить его в банке."
+                            }
                         },
                         {
-                            "text": "Pracownik ochrony poprosił <w>okaziciela</w> przepustki o przejście przez bramkę."
+                            "text": "Pracownik ochrony poprosił <w>okaziciela</w> przepustki o przejście przez bramkę.",
+                            "target_lang_translations": {
+                                "ru": "Сотрудник охраны попросил <w>предъявителя</w> пропуска пройти через рамку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,16 +42,17 @@
                         "akcje na okaziciela",
                         "papiery na okaziciela"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "used in official and legal contexts"
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": "finance and banking"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Лицо, имеющее при себе и предъявляющее определенный документ (например, чек, вексель, билет) для подтверждения своих прав."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "предъявитель",
+                                "target_lang_sense_clarification": "документа, чека"
+                            }
+                        ]
+                    }
                 }
             ]
         }

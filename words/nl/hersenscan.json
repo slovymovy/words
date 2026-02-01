@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts besloot een <w>hersenscan</w> te laten maken na het ongeluk."
+                            "text": "De arts besloot een <w>hersenscan</w> te laten maken na het ongeluk.",
+                            "target_lang_translations": {
+                                "en": "The doctor decided to have a <w>brain scan</w> done after the accident.",
+                                "ru": "Врач решил сделать <w>сканирование мозга</w> после аварии."
+                            }
                         },
                         {
-                            "text": "Op de <w>hersenscan</w> waren gelukkig geen afwijkingen te zien."
+                            "text": "Op de <w>hersenscan</w> waren gelukkig geen afwijkingen te zien.",
+                            "target_lang_translations": {
+                                "en": "Fortunately, no abnormalities were visible on the <w>brain scan</w>.",
+                                "ru": "К счастью, на <w>снимке мозга</w> не было видно никаких отклонений."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +37,32 @@
                         "op de hersenscan",
                         "een hersenscan ondergaan"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A medical image of the brain, produced using equipment such as an MRI or CT scanner.",
+                        "ru": "Медицинское изображение головного мозга, полученное с помощью такого оборудования, как МРТ или КТ."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "brain scan",
+                                "target_lang_sense_clarification": "medical imaging technique"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сканирование мозга",
+                                "target_lang_sense_clarification": "процедура или результат"
+                            },
+                            {
+                                "target_lang_word": "снимок головного мозга",
+                                "target_lang_sense_clarification": "изображение"
+                            },
+                            {
+                                "target_lang_word": "томография головного мозга",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

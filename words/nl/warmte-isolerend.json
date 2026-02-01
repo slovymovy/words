@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het nieuwe kantoorgebouw is voorzien van <w>warmte-isolerend</w> glas om energie te besparen."
+                            "text": "Het nieuwe kantoorgebouw is voorzien van <w>warmte-isolerend</w> glas om energie te besparen.",
+                            "target_lang_translations": {
+                                "en": "The new office building is equipped with <w>heat-insulating</w> glass to save energy.",
+                                "ru": "Новое офисное здание оснащено <w>теплоизоляционным</w> стеклом для экономии энергии."
+                            }
                         },
                         {
-                            "text": "In de winter draag ik altijd <w>warmte-isolerende</w> kleding als ik ga wandelen."
+                            "text": "In de winter draag ik altijd <w>warmte-isolerende</w> kleding als ik ga wandelen.",
+                            "target_lang_translations": {
+                                "en": "In winter, I always wear <w>thermal</w> clothing when I go for a walk.",
+                                "ru": "Зимой я всегда ношу <w>теплосберегающую</w> одежду, когда иду на прогулку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +44,32 @@
                         "warmte-isolerend materiaal",
                         "warmte-isolerend vermogen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "bouw en natuurkunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Having the property of preventing heat from easily passing in or out.",
+                        "ru": "Обладающий свойством предотвращать свободное прохождение тепла внутрь или наружу."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "heat-insulating",
+                                "target_lang_sense_clarification": "preventing the transfer of heat"
+                            },
+                            {
+                                "target_lang_word": "thermal",
+                                "target_lang_sense_clarification": "designed to retain heat, especially regarding clothing"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "теплоизоляционный",
+                                "target_lang_sense_clarification": "препятствующий передаче тепла (о материалах)"
+                            },
+                            {
+                                "target_lang_word": "теплосберегающий",
+                                "target_lang_sense_clarification": "сохраняющий тепло (об одежде)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

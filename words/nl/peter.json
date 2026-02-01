@@ -1,7 +1,9 @@
 {
     "word_family": [
+        "meter",
         "petekind",
-        "peterschap"
+        "peetoom",
+        "peetvader"
     ],
     "entries": [
         {
@@ -16,18 +18,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "<w>Peter</w> is een goede vriend van mij."
+                            "text": "<w>Peter</w> heeft heerlijke hapjes gemaakt voor het feest.",
+                            "target_lang_translations": {
+                                "ru": "<w>Петер</w> приготовил вкусные закуски для вечеринки.",
+                                "en": "<w>Peter</w> made delicious snacks for the party."
+                            }
                         },
                         {
-                            "text": "Ik ga morgen met <w>Peter</w> naar de stad."
+                            "text": "Mijn buurman heet <w>Peter</w> en hij is erg aardig.",
+                            "target_lang_translations": {
+                                "ru": "Моего соседа зовут <w>Петер</w>, и он очень приятный человек.",
+                                "en": "My neighbor is called <w>Peter</w> and he is very nice."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "mannelijk"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Мужское имя.",
+                        "en": "A male given name."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Петер",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Peter",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -36,17 +58,25 @@
             "senses": [
                 {
                     "sense_id": "6181cf2c-d5fa-330a-8273-d33584a49f74",
-                    "sense_definition": "Een man die bij de doop van een kind getuige is en belooft te helpen bij de opvoeding.",
+                    "sense_definition": "Een man die bij de doop van een kind belooft mede voor de opvoeding te zorgen.",
                     "learner_level": "B2",
                     "frequency": "Middle",
-                    "semantic_group_id": "godfather",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn oom is de <w>peter</w> van mijn jongste zusje."
+                            "text": "Hij vroeg zijn broer om <w>peter</w> te worden van zijn pasgeboren zoon.",
+                            "target_lang_translations": {
+                                "ru": "Он попросил своего брата стать <w>крёстным отцом</w> его новорожденного сына.",
+                                "en": "He asked his brother to become <w>godfather</w> to his newborn son."
+                            }
                         },
                         {
-                            "text": "De ouders vroegen hun beste vriend om <w>peter</w> te worden."
+                            "text": "De <w>peter</w> en meter gaven samen een mooi cadeau aan het doopkind.",
+                            "target_lang_translations": {
+                                "ru": "<w>Крёстный</w> и крёстная вместе подарили крестнику хороший подарок.",
+                                "en": "The <w>godfather</w> and godmother gave the baptized child a beautiful gift together."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -55,15 +85,30 @@
                         "peet"
                     ],
                     "common_phrases": [
-                        "peter en meter",
-                        "peter worden"
+                        "peter en meter"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "religious",
-                            "comment": "christelijke traditie"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Мужчина, который при крещении ребенка берет на себя обязательство помогать в его воспитании.",
+                        "en": "A man who promises at a child's baptism to help with their upbringing."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "крёстный отец",
+                                "target_lang_sense_clarification": "полная форма"
+                            },
+                            {
+                                "target_lang_word": "крёстный",
+                                "target_lang_sense_clarification": "разговорное"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "godfather",
+                                "target_lang_sense_clarification": "spiritual parent"
+                            }
+                        ]
+                    }
                 }
             ]
         }

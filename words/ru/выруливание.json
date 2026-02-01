@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Диспетчер разрешил <w>выруливание</w> на взлётную полосу после проверки всех систем."
+                            "text": "Диспетчер разрешил <w>выруливание</w> на взлётную полосу после проверки всех систем.",
+                            "target_lang_translations": {
+                                "en": "The controller cleared <w>taxiing</w> to the runway after checking all systems."
+                            }
                         },
                         {
-                            "text": "Из-за плотно припаркованных машин <w>выруливание</w> со двора заняло у водителя много времени."
+                            "text": "Из-за плотно припаркованных машин <w>выруливание</w> со двора заняло у водителя много времени.",
+                            "target_lang_translations": {
+                                "en": "Due to the tightly parked cars, <w>maneuvering out</w> of the courtyard took the driver a long time."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,12 +47,25 @@
                         "разрешить выруливание",
                         "начать выруливание"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "авиация"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The act of maneuvering a vehicle, typically an aircraft or car, to leave a parking area or enter a specific course."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "taxiing",
+                                "target_lang_sense_clarification": "aviation"
+                            },
+                            {
+                                "target_lang_word": "steering out",
+                                "target_lang_sense_clarification": "driving"
+                            },
+                            {
+                                "target_lang_word": "maneuvering out",
+                                "target_lang_sense_clarification": "general vehicle movement"
+                            }
+                        ]
+                    }
                 }
             ]
         }

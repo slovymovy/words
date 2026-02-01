@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zlecił natychmiastowe <w>zaaplikowanie</w> silnego antybiotyku choremu pacjentowi."
+                            "text": "Lekarz zlecił natychmiastowe <w>zaaplikowanie</w> silnego antybiotyku choremu pacjentowi.",
+                            "target_lang_translations": {
+                                "ru": "Врач распорядился о немедленном <w>введении</w> сильного антибиотика больному пациенту."
+                            }
                         },
                         {
-                            "text": "Prawidłowe <w>zaaplikowanie</w> tej maści wymaga użycia sterylnych rękawiczek."
+                            "text": "Prawidłowe <w>zaaplikowanie</w> tej maści wymaga użycia sterylnych rękawiczek.",
+                            "target_lang_translations": {
+                                "ru": "Правильное <w>нанесение</w> этой мази требует использования стерильных перчаток."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,25 @@
                         "zaaplikowanie szczepionki",
                         "zaaplikowanie zastrzyku"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "słowo używane głównie w kontekście podawania leków"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Действие, заключающееся во введении или нанесении лекарственного средства, вакцины или другой медицинской субстанции."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "введение",
+                                "target_lang_sense_clarification": "лекарства, вакцины"
+                            },
+                            {
+                                "target_lang_word": "нанесение",
+                                "target_lang_sense_clarification": "мази, крема"
+                            },
+                            {
+                                "target_lang_word": "применение",
+                                "target_lang_sense_clarification": "использование средства"
+                            }
+                        ]
+                    }
                 }
             ]
         }

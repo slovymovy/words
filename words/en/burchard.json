@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Burchard</w> has been managing the local library for over twenty years."
+                            "text": "Mr. <w>Burchard</w> has been managing the local library for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Бурхард</w> руководит местной библиотекой уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The <w>Burchard</w> family donated a significant amount to the charity fund."
+                            "text": "The <w>Burchard</w> family donated a significant amount to the charity fund.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Бурхард</w> пожертвовала значительную сумму в благотворительный фонд."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Бурхард",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

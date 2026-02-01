@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We decided to drive him to <w>emerg</w> immediately after he complained of severe chest pain."
+                            "text": "We decided to drive him to <w>emerg</w> immediately after he complained of severe chest pain.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили немедленно отвезти его в <w>приёмный покой</w> после того, как он пожаловался на сильную боль в груди."
+                            }
                         },
                         {
-                            "text": "The doctors working in <w>emerg</w> must be prepared to handle any critical situation that arrives."
+                            "text": "The doctors working in <w>emerg</w> must be prepared to handle any critical situation that arrives.",
+                            "target_lang_translations": {
+                                "ru": "Врачи, работающие в <w>отделении неотложной помощи</w>, должны быть готовы справиться с любой возникающей критической ситуацией."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,25 @@
                         "rush to emerg",
                         "wait in emerg"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "shortened form of emergency"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Отделение неотложной помощи в больнице"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "приёмный покой",
+                                "target_lang_sense_clarification": "отделение регистрации и первичного осмотра"
+                            },
+                            {
+                                "target_lang_word": "неотложка",
+                                "target_lang_sense_clarification": "разговорное"
+                            },
+                            {
+                                "target_lang_word": "отделение скорой помощи",
+                                "target_lang_sense_clarification": "официальное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

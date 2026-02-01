@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Только официально <w>оприходованный</w> товар может быть выставлен на продажу в магазине."
+                            "text": "Только официально <w>оприходованный</w> товар может быть выставлен на продажу в магазине.",
+                            "target_lang_translations": {
+                                "en": "Only officially <w>recorded</w> goods can be put up for sale in the store."
+                            }
                         },
                         {
-                            "text": "Бухгалтер внимательно проверил каждый <w>оприходованный</w> документ перед закрытием месяца."
+                            "text": "Бухгалтер внимательно проверил каждый <w>оприходованный</w> документ перед закрытием месяца.",
+                            "target_lang_translations": {
+                                "en": "The accountant carefully checked every <w>posted</w> document before closing the month."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,14 +45,29 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "business",
-                            "comment": "используется в бухгалтерском учёте и делопроизводстве"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "причастие"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Recorded in the accounting books or inventory; formally accepted and registered as received."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "posted",
+                                "target_lang_sense_clarification": "accounting term for recording an entry"
+                            },
+                            {
+                                "target_lang_word": "recorded",
+                                "target_lang_sense_clarification": "entered into official records"
+                            },
+                            {
+                                "target_lang_word": "taken into inventory",
+                                "target_lang_sense_clarification": "formally received as stock"
+                            }
+                        ]
+                    }
                 }
             ]
         }

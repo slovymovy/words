@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Lipinski</w> has been working at the manufacturing plant for over twenty years."
+                            "text": "Mr. <w>Lipinski</w> has been working at the manufacturing plant for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Липинский</w> работает на заводе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "The letter was addressed to a Tara <w>Lipinski</w> living on Elm Street."
+                            "text": "The letter was addressed to a Tara <w>Lipinski</w> living on Elm Street.",
+                            "target_lang_translations": {
+                                "ru": "Письмо было адресовано Таре <w>Липински</w>, живущей на Элм-стрит."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,22 @@
                             "trait_type": "surname",
                             "comment": "Polish origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия польского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Липинский",
+                                "target_lang_sense_clarification": "мужская фамилия"
+                            },
+                            {
+                                "target_lang_word": "Липински",
+                                "target_lang_sense_clarification": "женская фамилия (в англоязычном контексте)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

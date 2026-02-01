@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The dermatologist examined the large <w>naevus</w> on the patient's back to ensure it was benign."
+                            "text": "The dermatologist examined the large <w>naevus</w> on the patient's back to ensure it was benign.",
+                            "target_lang_translations": {
+                                "ru": "Дерматолог осмотрел большой <w>невус</w> на спине пациента, чтобы убедиться, что он доброкачественный."
+                            }
                         },
                         {
-                            "text": "A spider <w>naevus</w> is a common type of vascular lesion that appears on the skin surface."
+                            "text": "A spider <w>naevus</w> is a common type of vascular lesion that appears on the skin surface.",
+                            "target_lang_translations": {
+                                "ru": "Паукообразный <w>невус</w> — это распространенный тип сосудистого поражения, который появляется на поверхности кожи."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,25 @@
                         "melanocytic naevus",
                         "blue naevus"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "technical term"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Пигментированный, выпуклый или иным образом измененный участок кожи, присутствующий с рождения или приобретенный позже."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "невус",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "родимое пятно",
+                                "target_lang_sense_clarification": "врожденное образование"
+                            },
+                            {
+                                "target_lang_word": "родинка",
+                                "target_lang_sense_clarification": "разговорное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

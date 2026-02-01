@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот успешно <w>компилирующийся</w> код можно сразу отправлять на тестирование."
+                            "text": "Этот успешно <w>компилирующийся</w> код можно сразу отправлять на тестирование.",
+                            "target_lang_translations": {
+                                "en": "This successfully <w>compiling</w> code can be sent for testing immediately."
+                            }
                         },
                         {
-                            "text": "Студент наконец-то написал <w>компилирующийся</w> без ошибок алгоритм."
+                            "text": "Студент наконец-то написал <w>компилирующийся</w> без ошибок алгоритм.",
+                            "target_lang_translations": {
+                                "en": "The student finally wrote an algorithm <w>that compiles</w> without errors."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,12 +46,23 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": "context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Present active participle of the verb <w>компилироваться</w> (to compile); describes code that is successfully undergoing compilation or is capable of being compiled."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "compiling",
+                                "target_lang_sense_clarification": "describing code in the process or state of compilation"
+                            },
+                            {
+                                "target_lang_word": "that compiles",
+                                "target_lang_sense_clarification": "indicating capability or successful action"
+                            }
+                        ]
+                    }
                 }
             ]
         }

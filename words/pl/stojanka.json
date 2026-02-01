@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pilot otrzymał polecenie od wieży kontrolnej, aby kołować na <w>stojankę</w> numer cztery."
+                            "text": "Pilot otrzymał polecenie od wieży kontrolnej, aby kołować na <w>stojankę</w> numer cztery.",
+                            "target_lang_translations": {
+                                "ru": "Пилот получил указание от диспетчерской вышки рулить на <w>стоянку</w> номер четыре."
+                            }
                         },
                         {
-                            "text": "Obsługa naziemna przygotowała sprzęt, zanim samolot dotarł na wyznaczoną <w>stojankę</w>."
+                            "text": "Obsługa naziemna przygotowała sprzęt, zanim samolot dotarł na wyznaczoną <w>stojankę</w>.",
+                            "target_lang_translations": {
+                                "ru": "Наземная служба подготовила оборудование до того, как самолет прибыл на назначенную <w>стоянку</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,21 @@
                         "numer stojanki",
                         "zająć stojankę"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "lotnictwo"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "terminologia lotniskowa"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Место на перроне аэродрома, специально отведенное для стоянки воздушных судов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "стоянка",
+                                "target_lang_sense_clarification": "место парковки самолета"
+                            },
+                            {
+                                "target_lang_word": "место стоянки",
+                                "target_lang_sense_clarification": "обозначенная зона на аэродроме"
+                            }
+                        ]
+                    }
                 }
             ]
         }

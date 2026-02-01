@@ -3,8 +3,8 @@
         "zły",
         "źle",
         "gorszy",
-        "najgorzej",
         "pogorszyć",
+        "pogarszać",
         "pogorszenie"
     ],
     "entries": [
@@ -13,17 +13,23 @@
             "senses": [
                 {
                     "sense_id": "54c6f236-1d6b-3561-afc4-534598a097cf",
-                    "sense_definition": "Stopień wyższy od przysłówka <w>źle</w>; w sposób bardziej niekorzystny, nieprzyjemny lub o niższej jakości niż wcześniej lub w porównaniu do czegoś innego.",
+                    "sense_definition": "stopień wyższy od przysłówka <w>źle</w>",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "comparison_bad",
+                    "semantic_group_id": "comparison",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jest <w>gorzej</w>, niż myślałem na początku."
+                            "text": "Jest <w>gorzej</w>, niż myślałem.",
+                            "target_lang_translations": {
+                                "ru": "Всё <w>хуже</w>, чем я думал."
+                            }
                         },
                         {
-                            "text": "Dziś czuję się znacznie <w>gorzej</w> z powodu przeziębienia."
+                            "text": "Z każdym dniem pacjent czuje się coraz <w>gorzej</w>.",
+                            "target_lang_translations": {
+                                "ru": "С каждым днём пациент чувствует себя всё <w>хуже</w>."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -32,9 +38,19 @@
                     "common_phrases": [
                         "coraz gorzej",
                         "co gorzej",
-                        "czuć się gorzej",
-                        "wypaść gorzej"
-                    ]
+                        "tym gorzej"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "сравнительная степень наречия <w>źle</w> (плохо)"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "хуже",
+                                "target_lang_sense_clarification": "сравнительная степень"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -43,29 +59,46 @@
             "senses": [
                 {
                     "sense_id": "fe1ed298-89ca-3f70-991b-0d93eff0bac2",
-                    "sense_definition": "Forma trybu rozkazującego (2. osoba liczby pojedynczej) czasownika <w>gorzeć</w>; nakaz płonięcia, świecenia ogniem lub odczuwania silnych emocji.",
+                    "sense_definition": "druga osoba liczby pojedynczej trybu rozkazującego od czasownika <w>gorzeć</w>",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "verb_burn",
+                    "semantic_group_id": "verb_form",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Gorzej</w> jasnym płomieniem, święty ogniu!"
+                            "text": "Niech twoje serce <w>gorzej</w> wieczną miłością.",
+                            "target_lang_translations": {
+                                "ru": "Пусть твоё сердце <w>пылает</w> вечной любовью."
+                            }
                         },
                         {
-                            "text": "Nie wygasaj nigdy, lecz <w>gorzej</w> w naszych sercach na zawsze."
+                            "text": "<w>Gorzej</w> jasnym płomieniem, święty ogniu!",
+                            "target_lang_translations": {
+                                "ru": "<w>Гори</w> ясным пламенем, священный огонь!"
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "literary",
-                            "comment": "słowo rzadko używane w mowie potocznej, spotykane w literaturze"
-                        },
-                        {
                             "trait_type": "archaic",
-                            "comment": "współcześnie częściej używa się słowa 'płoń'"
+                            "comment": "użycie czasownika gorzeć jest obecnie rzadkie i nacechowane literacko"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "повелительное наклонение глагола <w>gorzeć</w> (гореть, пылать)"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "гори",
+                                "target_lang_sense_clarification": "повелительное наклонение"
+                            },
+                            {
+                                "target_lang_word": "пылай",
+                                "target_lang_sense_clarification": "поэтическое/книжное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

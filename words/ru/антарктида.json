@@ -16,10 +16,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "<w>Антарктида</w> — самый холодный материк на нашей планете."
+                            "text": "<w>Антарктида</w> — самый холодный материк на нашей планете.",
+                            "target_lang_translations": {
+                                "en": "<w>Antarctica</w> is the coldest continent on our planet."
+                            }
                         },
                         {
-                            "text": "Из-за сурового климата <w>Антарктида</w> не имеет постоянного населения."
+                            "text": "Из-за сурового климата <w>Антарктида</w> не имеет постоянного населения.",
+                            "target_lang_translations": {
+                                "en": "Due to the harsh climate, <w>Antarctica</w> has no permanent population."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,17 @@
                         "климат Антарктиды",
                         "открытие Антарктиды"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "continent"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The southernmost continent on Earth, located in the region of the South Pole."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Antarctica",
+                                "target_lang_sense_clarification": "continent"
+                            }
+                        ]
+                    }
                 }
             ]
         }

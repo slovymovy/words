@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The medical team investigated several <w>extracardial</w> causes for the patient's irregular pulse."
+                            "text": "The medical team investigated several <w>extracardial</w> causes for the patient's irregular pulse.",
+                            "target_lang_translations": {
+                                "ru": "Медицинская бригада исследовала несколько <w>внесердечных</w> причин нерегулярного пульса пациента."
+                            }
                         },
                         {
-                            "text": "Although the pain felt like a heart attack, it was actually due to an <w>extracardial</w> issue in the lungs."
+                            "text": "Although the pain felt like a heart attack, it was actually due to an <w>extracardial</w> issue in the lungs.",
+                            "target_lang_translations": {
+                                "ru": "Хотя боль напоминала сердечный приступ, на самом деле она была вызвана <w>внесердечной</w> проблемой в легких."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,21 @@
                         "extracardial manifestations",
                         "extracardial anomalies"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Находящийся или происходящий за пределами сердца."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "внесердечный",
+                                "target_lang_sense_clarification": "расположенный вне сердца"
+                            },
+                            {
+                                "target_lang_word": "экстракардиальный",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

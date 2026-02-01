@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De advocaat controleerde of de <w>daging</w> van de getuige volgens de wettelijke procedures was verlopen."
+                            "text": "De advocaat controleerde of de <w>daging</w> van de getuige volgens de wettelijke procedures was verlopen.",
+                            "target_lang_translations": {
+                                "en": "The lawyer checked whether the <w>summoning</w> of the witness had proceeded according to legal procedures.",
+                                "ru": "Адвокат проверил, был ли <w>вызов</w> свидетеля осуществлен в соответствии с законными процедурами."
+                            }
                         },
                         {
-                            "text": "Door een vormfout bij de <w>daging</w> voor de rechter moest de zitting worden uitgesteld."
+                            "text": "Door een vormfout bij de <w>daging</w> voor de rechter moest de zitting worden uitgesteld.",
+                            "target_lang_translations": {
+                                "en": "Due to a technical error in the <w>summons</w> to appear before the judge, the hearing had to be postponed.",
+                                "ru": "Из-за формальной ошибки при <w>вызове</w> в суд слушание пришлось отложить."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,36 @@
                         "daging voor de rechter",
                         "daging van partijen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "juridische term"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "wordt voornamelijk in formele contexten gebruikt"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The official act of summoning someone to appear before a judge.",
+                        "ru": "Официальное действие, посредством которого кого-либо вызывают для явки в суд."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "summons",
+                                "target_lang_sense_clarification": "official order to appear in court"
+                            },
+                            {
+                                "target_lang_word": "summoning",
+                                "target_lang_sense_clarification": "the act of calling someone to court"
+                            },
+                            {
+                                "target_lang_word": "citation",
+                                "target_lang_sense_clarification": "formal legal notice"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вызов в суд",
+                                "target_lang_sense_clarification": "процессуальное действие"
+                            },
+                            {
+                                "target_lang_word": "судебный вызов",
+                                "target_lang_sense_clarification": "официальное требование явиться"
+                            }
+                        ]
+                    }
                 }
             ]
         }

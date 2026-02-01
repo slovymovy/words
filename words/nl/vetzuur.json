@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Vet is een verbinding van glycerol en drie <w>vetzuren</w>."
+                            "text": "Vet is een verbinding van glycerol en drie <w>vetzuren</w>.",
+                            "target_lang_translations": {
+                                "en": "Fat is a compound of glycerol and three <w>fatty acids</w>.",
+                                "ru": "Жир — это соединение глицерина и трех <w>жирных кислот</w>."
+                            }
                         },
                         {
-                            "text": "Zalm is rijk aan gezonde <w>vetzuren</w> die goed zijn voor je hart."
+                            "text": "Zalm is rijk aan gezonde <w>vetzuren</w> die goed zijn voor je hart.",
+                            "target_lang_translations": {
+                                "en": "Salmon is rich in healthy <w>fatty acids</w> that are good for your heart.",
+                                "ru": "Лосось богат полезными <w>жирными кислотами</w>, которые полезны для сердца."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +35,24 @@
                         "onverzadigde vetzuren",
                         "essentiële vetzuren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "chemistry and nutrition"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An organic acid that is a major component of fats and oils.",
+                        "ru": "Органическая кислота, являющаяся важным компонентом жиров и масел."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fatty acid",
+                                "target_lang_sense_clarification": "chemistry"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "жирная кислота",
+                                "target_lang_sense_clarification": "химическое соединение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

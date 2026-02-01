@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ta stara <w>nagrywarka</w> znowu zniszczyła mi dwie płytki!"
+                            "text": "Ta stara <w>nagrywarka</w> znowu zniszczyła mi dwie płytki!",
+                            "target_lang_translations": {
+                                "ru": "Этот старый <w>пишущий привод</w> снова испортил мне два диска!"
+                            }
                         },
                         {
-                            "text": "Moja <w>nagrywarka</w> DVD przestała działać, więc nie mogę skopiować filmu."
+                            "text": "Moja <w>nagrywarka</w> DVD przestała działać, więc nie mogę skopiować filmu.",
+                            "target_lang_translations": {
+                                "ru": "Мой DVD-<w>рекордер</w> перестал работать, поэтому я не могу скопировать фильм."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "nagrywarka zewnętrzna",
                         "nagrywarka płyt"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "sprzęt komputerowy"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Устройство, используемое для записи данных на компакт-диски, DVD или другие оптические носители."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "рекордер",
+                                "target_lang_sense_clarification": "устройство для записи (обычно бытовое или внешнее)"
+                            },
+                            {
+                                "target_lang_word": "пишущий привод",
+                                "target_lang_sense_clarification": "компьютерное устройство для записи дисков"
+                            },
+                            {
+                                "target_lang_word": "записывающее устройство",
+                                "target_lang_sense_clarification": "общее название"
+                            }
+                        ]
+                    }
                 }
             ]
         }

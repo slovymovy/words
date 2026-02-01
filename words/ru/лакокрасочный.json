@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Завод выпускает качественные <w>лакокрасочные</w> материалы для строительных работ."
+                            "text": "Завод выпускает качественные <w>лакокрасочные</w> материалы для строительных работ.",
+                            "target_lang_translations": {
+                                "en": "The factory produces high-quality <w>paint and varnish</w> materials for construction work."
+                            }
                         },
                         {
-                            "text": "При покупке подержанного автомобиля важно проверить его <w>лакокрасочное</w> покрытие на наличие дефектов."
+                            "text": "При покупке подержанного автомобиля важно проверить его <w>лакокрасочное</w> покрытие на наличие дефектов.",
+                            "target_lang_translations": {
+                                "en": "When buying a used car, it is important to check its <w>paint</w> finish for defects."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -34,12 +40,21 @@
                         "лакокрасочная промышленность",
                         "лакокрасочная продукция"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "industry and manufacturing context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to varnishes and paints, as well as their production and use."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "paint and varnish",
+                                "target_lang_sense_clarification": "industry or materials"
+                            },
+                            {
+                                "target_lang_word": "paint",
+                                "target_lang_sense_clarification": "general attribute"
+                            }
+                        ]
+                    }
                 }
             ]
         }

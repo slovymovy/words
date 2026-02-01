@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Бухгалтер отложил <таксированный> документ в отдельную папку."
+                            "text": "Бухгалтер отложил <таксированный> документ в отдельную папку.",
+                            "target_lang_translations": {
+                                "en": "The accountant put the <w>rated</w> document aside in a separate folder."
+                            }
                         },
                         {
-                            "text": "На таможне задержали неправильно <таксированный> груз."
+                            "text": "На таможне задержали неправильно <таксированный> груз.",
+                            "target_lang_translations": {
+                                "en": "The incorrectly <w>rated</w> cargo was detained at customs."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,21 @@
                         "таксированный груз",
                         "таксированный документ"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "finance, logistics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Having had a price, rate, or charge calculated, usually according to a specific tariff or schedule."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "rated",
+                                "target_lang_sense_clarification": "evaluated according to a tariff or scale"
+                            },
+                            {
+                                "target_lang_word": "priced",
+                                "target_lang_sense_clarification": "having the cost calculated or fixed"
+                            }
+                        ]
+                    }
                 }
             ]
         }

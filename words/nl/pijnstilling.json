@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts schreef zware <w>pijnstilling</w> voor na de operatie."
+                            "text": "De arts schreef zware <w>pijnstilling</w> voor na de operatie.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed strong <w>pain medication</w> after the surgery.",
+                                "ru": "Врач назначил сильное <w>обезболивание</w> после операции."
+                            }
                         },
                         {
-                            "text": "Zonder adequate <w>pijnstilling</w> is de behandeling erg onprettig."
+                            "text": "Zonder adequate <w>pijnstilling</w> is de behandeling erg onprettig.",
+                            "target_lang_translations": {
+                                "en": "Without adequate <w>pain relief</w>, the treatment is very unpleasant.",
+                                "ru": "Без надлежащего <w>обезболивания</w> лечение очень неприятно."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,36 @@
                         "pijnstilling toedienen",
                         "pijnstilling krijgen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context of healthcare and treatment"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The reduction or elimination of pain, usually through the use of medication.",
+                        "ru": "Уменьшение или устранение боли, обычно с помощью лекарств."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pain relief",
+                                "target_lang_sense_clarification": "general term for alleviating pain"
+                            },
+                            {
+                                "target_lang_word": "pain medication",
+                                "target_lang_sense_clarification": "referring to the drugs used"
+                            },
+                            {
+                                "target_lang_word": "analgesia",
+                                "target_lang_sense_clarification": "medical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "обезболивание",
+                                "target_lang_sense_clarification": "процесс снятия боли"
+                            },
+                            {
+                                "target_lang_word": "аналгезия",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

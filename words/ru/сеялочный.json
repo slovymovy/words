@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Механик тщательно осмотрел <w>сеялочный</w> аппарат, чтобы убедиться в его исправности перед выходом в поле."
+                            "text": "Механик тщательно осмотрел <w>сеялочный</w> аппарат, чтобы убедиться в его исправности перед выходом в поле.",
+                            "target_lang_translations": {
+                                "en": "The mechanic carefully inspected the <w>seeder</w> unit to ensure it was in working order before going out to the field."
+                            }
                         },
                         {
-                            "text": "На складе запчастей мы долго искали подходящий <w>сеялочный</w> диск для старой модели оборудования."
+                            "text": "На складе запчастей мы долго искали подходящий <w>сеялочный</w> диск для старой модели оборудования.",
+                            "target_lang_translations": {
+                                "en": "In the spare parts warehouse, we spent a long time looking for a suitable <w>seed drill</w> disk for the old equipment model."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,16 +37,21 @@
                         "сеялочный ящик",
                         "сеялочный диск"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "сельское хозяйство"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "агротехника"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to a seeder (an agricultural machine for sowing seeds), being part of it, or intended for it."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "seeder",
+                                "target_lang_sense_clarification": "attributive use; relating to the sowing machine"
+                            },
+                            {
+                                "target_lang_word": "seed drill",
+                                "target_lang_sense_clarification": "attributive use; specific type of sowing machine"
+                            }
+                        ]
+                    }
                 }
             ]
         }

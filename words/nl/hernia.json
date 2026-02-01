@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij kan de zware dozen niet tillen vanwege zijn <w>hernia</w>."
+                            "text": "Hij kan de zware dozen niet tillen vanwege zijn <w>hernia</w>.",
+                            "target_lang_translations": {
+                                "en": "He cannot lift the heavy boxes because of his <w>hernia</w>.",
+                                "ru": "Он не может поднимать тяжелые коробки из-за <w>грыжи</w>."
+                            }
                         },
                         {
-                            "text": "Na de operatie aan haar <w>hernia</w> moest ze lang revalideren."
+                            "text": "Na de operatie aan haar <w>hernia</w> moest ze lang revalideren.",
+                            "target_lang_translations": {
+                                "en": "After the surgery on her <w>hernia</w>, she had to rehabilitate for a long time.",
+                                "ru": "После операции на <w>грыже</w> ей пришлось долго восстанавливаться."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +35,28 @@
                         "aan een hernia lijden",
                         "een hernia oplopen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A protrusion of an organ or tissue from the body cavity where it normally lies.",
+                        "ru": "Выпячивание органа или ткани из полости тела, где они обычно находятся."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hernia",
+                                "target_lang_sense_clarification": "general medical condition"
+                            },
+                            {
+                                "target_lang_word": "herniated disc",
+                                "target_lang_sense_clarification": "spinal condition (common Dutch usage)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "грыжа",
+                                "target_lang_sense_clarification": "медицинское состояние"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The company policy grants employees five days of paid <w>bereavement</w> leave."
+                            "text": "The company policy grants employees five days of paid <w>bereavement</w> leave.",
+                            "target_lang_translations": {
+                                "ru": "Политика компании предоставляет сотрудникам пять дней оплачиваемого отпуска в связи с <w>утратой</w> близкого человека."
+                            }
                         },
                         {
-                            "text": "She received counseling to help her cope with the pain of her recent <w>bereavement</w>."
+                            "text": "She received counseling to help her cope with the pain of her recent <w>bereavement</w>.",
+                            "target_lang_translations": {
+                                "ru": "Она получила психологическую помощь, чтобы справиться с болью от недавней <w>утраты</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,25 @@
                         "bereavement counseling",
                         "family bereavement"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in official or serious contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Потеря близкого человека или родственника в результате смерти"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "утрата",
+                                "target_lang_sense_clarification": "потеря близкого человека"
+                            },
+                            {
+                                "target_lang_word": "тяжёлая утрата",
+                                "target_lang_sense_clarification": "глубокая скорбь по умершему"
+                            },
+                            {
+                                "target_lang_word": "потеря",
+                                "target_lang_sense_clarification": "смерть родного или близкого"
+                            }
+                        ]
+                    }
                 }
             ]
         }

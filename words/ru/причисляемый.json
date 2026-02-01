@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот редкий вид животных, <w>причисляемый</w> к вымирающим, находится под строгой охраной."
+                            "text": "Этот редкий вид животных, <w>причисляемый</w> к вымирающим, находится под строгой охраной.",
+                            "target_lang_translations": {
+                                "en": "This rare animal species, <w>classified as</w> endangered, is under strict protection."
+                            }
                         },
                         {
-                            "text": "Каждый человек, <w>причисляемый</w> к лику святых, оставляет значимый след в истории религии."
+                            "text": "Каждый человек, <w>причисляемый</w> к лику святых, оставляет значимый след в истории религии.",
+                            "target_lang_translations": {
+                                "en": "Every person <w>numbered among</w> the saints leaves a significant mark in the history of religion."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -46,12 +52,31 @@
                         {
                             "trait_type": "form",
                             "comment": "причастие"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "книжный стиль"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Being included in a group, list, or category; being reckoned or numbered among others."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "numbered among",
+                                "target_lang_sense_clarification": "included in a count or group"
+                            },
+                            {
+                                "target_lang_word": "classified as",
+                                "target_lang_sense_clarification": "assigned to a specific category"
+                            },
+                            {
+                                "target_lang_word": "reckoned among",
+                                "target_lang_sense_clarification": "considered to be part of a group"
+                            },
+                            {
+                                "target_lang_word": "ranked with",
+                                "target_lang_sense_clarification": "placed in the same rank or class"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The contract clearly outlines the payment schedule to ensure the <w>debtee</w> receives funds on time."
+                            "text": "The contract clearly outlines the payment schedule to ensure the <w>debtee</w> receives funds on time.",
+                            "target_lang_translations": {
+                                "ru": "В договоре четко прописан график платежей, чтобы гарантировать, что <w>кредитор</w> получит средства вовремя."
+                            }
                         },
                         {
-                            "text": "In this transaction, the <w>debtee</w> holds the right to seize assets if the loan is not repaid."
+                            "text": "In this transaction, the <w>debtee</w> holds the right to seize assets if the loan is not repaid.",
+                            "target_lang_translations": {
+                                "ru": "В этой сделке <w>кредитор</w> имеет право изъять активы, если кредит не будет погашен."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,16 +42,21 @@
                         "rights of the debtee",
                         "debtee and debtor"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "often used in legal contexts to pair morphologically with debtor"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Лицо или организация, которым должны деньги."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "кредитор",
+                                "target_lang_sense_clarification": "сторона, имеющая право требовать исполнения обязательства"
+                            },
+                            {
+                                "target_lang_word": "заимодавец",
+                                "target_lang_sense_clarification": "тот, кто дал деньги в долг"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De arts stelde vast dat de patiënt lijdt aan een ernstige <w>ademhalingsstoornis</w>."
+                            "text": "De arts stelde vast dat de patiënt lijdt aan een ernstige <w>ademhalingsstoornis</w>.",
+                            "target_lang_translations": {
+                                "ru": "Врач установил, что пациент страдает серьезным <w>расстройством дыхания</w>.",
+                                "en": "The doctor determined that the patient is suffering from a severe <w>respiratory disorder</w>."
+                            }
                         },
                         {
-                            "text": "Door de allergische reactie ontstond er plotseling een gevaarlijke <w>ademhalingsstoornis</w>."
+                            "text": "Door de allergische reactie ontstond er plotseling een gevaarlijke <w>ademhalingsstoornis</w>.",
+                            "target_lang_translations": {
+                                "ru": "Из-за аллергической реакции внезапно возникло опасное <w>нарушение дыхания</w>.",
+                                "en": "Due to the allergic reaction, a dangerous <w>respiratory disorder</w> suddenly developed."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,40 @@
                         "ernstige ademhalingsstoornis",
                         "chronische ademhalingsstoornis"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Медицинское состояние, вызывающее проблемы с вдохом и выдохом.",
+                        "en": "A medical condition that causes problems with inhaling and exhaling."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "нарушение дыхания",
+                                "target_lang_sense_clarification": "общее понятие"
+                            },
+                            {
+                                "target_lang_word": "дыхательное расстройство",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "расстройство дыхания",
+                                "target_lang_sense_clarification": "патология"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "respiratory disorder",
+                                "target_lang_sense_clarification": "medical term"
+                            },
+                            {
+                                "target_lang_word": "breathing disorder",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "respiratory disturbance",
+                                "target_lang_sense_clarification": "technical variation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

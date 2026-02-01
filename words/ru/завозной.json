@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На рынке продавали только <w>завозной</w> картофель, так как местный ещё не созрел."
+                            "text": "На рынке продавали только <w>завозной</w> картофель, так как местный ещё не созрел.",
+                            "target_lang_translations": {
+                                "en": "They were selling only <w>imported</w> potatoes at the market, as the local ones hadn't ripened yet."
+                            }
                         },
                         {
-                            "text": "Это не местный, а <w>завозной</w> товар, поэтому он стоит дороже."
+                            "text": "Это не местный, а <w>завозной</w> товар, поэтому он стоит дороже.",
+                            "target_lang_translations": {
+                                "en": "This is not a local, but an <w>imported</w> product, which is why it costs more."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -46,7 +52,22 @@
                             "trait_type": "dialectal",
                             "comment": "диал."
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Brought or delivered from elsewhere; not of local origin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "imported",
+                                "target_lang_sense_clarification": "goods brought from another place or country"
+                            },
+                            {
+                                "target_lang_word": "brought-in",
+                                "target_lang_sense_clarification": "delivered from elsewhere, not local"
+                            }
+                        ]
+                    }
                 }
             ]
         }

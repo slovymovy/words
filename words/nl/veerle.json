@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn beste vriendin heet <w>Veerle</w>."
+                            "text": "Mijn beste vriendin heet <w>Veerle</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend is called <w>Veerle</w>.",
+                                "ru": "Мою лучшую подругу зовут <w>Верле</w>."
+                            }
                         },
                         {
-                            "text": "Ik ga morgen met <w>Veerle</w> naar de bioscoop."
+                            "text": "Ik ga morgen met <w>Veerle</w> naar de bioscoop.",
+                            "target_lang_translations": {
+                                "en": "I am going to the cinema with <w>Veerle</w> tomorrow.",
+                                "ru": "Завтра я иду с <w>Верле</w> в кино."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A girl's name.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Veerle",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Верле",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

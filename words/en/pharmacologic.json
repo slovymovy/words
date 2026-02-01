@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor explained the <w>pharmacologic</w> properties of the new medication to the patient."
+                            "text": "The doctor explained the <w>pharmacologic</w> properties of the new medication to the patient.",
+                            "target_lang_translations": {
+                                "ru": "Врач объяснил пациенту <w>фармакологические</w> свойства нового лекарства."
+                            }
                         },
                         {
-                            "text": "We must consider a <w>pharmacologic</w> intervention if lifestyle changes do not work."
+                            "text": "We must consider a <w>pharmacologic</w> intervention if lifestyle changes do not work.",
+                            "target_lang_translations": {
+                                "ru": "Мы должны рассмотреть <w>фармакологическое</w> вмешательство, если изменения образа жизни не сработают."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,17 @@
                         "pharmacologic intervention",
                         "pharmacologic treatment"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "register"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к фармакологии, науке о применении, воздействии и механизмах действия лекарств."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "фармакологический",
+                                "target_lang_sense_clarification": "связанный с лекарствами и их свойствами"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -59,26 +66,37 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The research team is developing several new <w>pharmacologics</w> for cancer treatment."
+                            "text": "The research team is developing several new <w>pharmacologics</w> for cancer treatment.",
+                            "target_lang_translations": {
+                                "ru": "Исследовательская группа разрабатывает несколько новых <w>фармакологических средств</w> для лечения рака."
+                            }
                         },
                         {
-                            "text": "Strict regulations govern the testing and approval of these powerful <w>pharmacologics</w>."
+                            "text": "Strict regulations govern the testing and approval of these powerful <w>pharmacologics</w>.",
+                            "target_lang_translations": {
+                                "ru": "Строгие правила регулируют тестирование и утверждение этих мощных <w>фармакологических препаратов</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "novel pharmacologics",
                         "development of pharmacologics"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "context"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "register"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Лекарственный препарат или фармацевтическое средство."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "фармакологическое средство",
+                                "target_lang_sense_clarification": "лекарственный препарат"
+                            },
+                            {
+                                "target_lang_word": "фармацевтический препарат",
+                                "target_lang_sense_clarification": "лекарство"
+                            }
+                        ]
+                    }
                 }
             ]
         }

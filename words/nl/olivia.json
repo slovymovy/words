@@ -16,18 +16,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn jongste zusje heet <w>Olivia</w>."
+                            "text": "Mijn jongste zusje heet <w>Olivia</w>.",
+                            "target_lang_translations": {
+                                "ru": "Мою младшую сестру зовут <w>Оливия</w>.",
+                                "en": "My youngest sister is called <w>Olivia</w>."
+                            }
                         },
                         {
-                            "text": "Vandaag gaat <w>Olivia</w> voor het eerst naar school."
+                            "text": "Vandaag gaat <w>Olivia</w> voor het eerst naar school.",
+                            "target_lang_translations": {
+                                "ru": "Сегодня <w>Оливия</w> впервые идет в школу.",
+                                "en": "Today <w>Olivia</w> is going to school for the first time."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "vrouwelijk"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Женское имя.",
+                        "en": "A female first name."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Оливия",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Olivia",
+                                "target_lang_sense_clarification": "name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

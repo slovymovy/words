@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Perot</w> was witty and comfortable in his own skin during the interview."
+                            "text": "Mr. <w>Perot</w> was witty and comfortable in his own skin during the interview.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Перо</w> был остроумен и чувствовал себя в своей тарелке во время интервью."
+                            }
                         },
                         {
-                            "text": "The <w>Perot</w> family is well known for their contributions to the local museum."
+                            "text": "The <w>Perot</w> family is well known for their contributions to the local museum.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Перо</w> хорошо известна своим вкладом в местный музей."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "transferred from given name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия, образованная от личного имени."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Перо",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

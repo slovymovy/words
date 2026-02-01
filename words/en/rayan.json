@@ -13,18 +13,33 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "My friend <w>Rayan</w> is coming to visit us next week."
+                            "text": "My friend <w>Rayan</w> is coming to visit us next week.",
+                            "target_lang_translations": {
+                                "ru": "Мой друг <w>Райан</w> приедет к нам в гости на следующей неделе."
+                            }
                         },
                         {
-                            "text": "They decided to name their newborn son <w>Rayan</w>."
+                            "text": "They decided to name their newborn son <w>Rayan</w>.",
+                            "target_lang_translations": {
+                                "ru": "Они решили назвать своего новорожденного сына <w>Райаном</w>."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "male"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Мужское имя арабского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Райан",
+                                "target_lang_sense_clarification": "имя"
+                            },
+                            {
+                                "target_lang_word": "Раян",
+                                "target_lang_sense_clarification": "вариант транслитерации"
+                            }
+                        ]
+                    }
                 }
             ]
         }

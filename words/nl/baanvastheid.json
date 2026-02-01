@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De grootste troef van dit nieuwe model is zijn uitstekende <w>baanvastheid</w>."
+                            "text": "De grootste troef van dit nieuwe model is zijn uitstekende <w>baanvastheid</w>.",
+                            "target_lang_translations": {
+                                "en": "The biggest asset of this new model is its excellent <w>roadholding</w>.",
+                                "ru": "Главный козырь этой новой модели — её превосходная <w>устойчивость на дороге</w>."
+                            }
                         },
                         {
-                            "text": "Er is een probleem met de <w>baanvastheid</w> van de wagen door de versleten banden."
+                            "text": "Er is een probleem met de <w>baanvastheid</w> van de wagen door de versleten banden.",
+                            "target_lang_translations": {
+                                "en": "There is a problem with the car's <w>roadholding</w> due to the worn tires.",
+                                "ru": "У автомобиля проблемы с <w>устойчивостью на дороге</w> из-за изношенных шин."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,32 @@
                         "goede baanvastheid",
                         "baanvastheid van de wagen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "automotive"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The degree to which a vehicle remains stable on the road and maintains contact with the road surface, especially in corners or at high speeds.",
+                        "ru": "Степень устойчивости транспортного средства на дороге и сохранения контакта с дорожным покрытием, особенно на поворотах или при высокой скорости."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "roadholding",
+                                "target_lang_sense_clarification": "the ability of a vehicle to maintain stability and grip on the road"
+                            },
+                            {
+                                "target_lang_word": "grip",
+                                "target_lang_sense_clarification": "firm contact or friction between tires and the road surface"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "устойчивость на дороге",
+                                "target_lang_sense_clarification": "способность автомобиля сохранять траекторию движения"
+                            },
+                            {
+                                "target_lang_word": "сцепление с дорогой",
+                                "target_lang_sense_clarification": "надежный контакт шин с поверхностью"
+                            }
+                        ]
+                    }
                 }
             ]
         }

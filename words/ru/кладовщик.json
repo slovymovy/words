@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Утром <кладовщик> открыл склад и начал принимать новый товар."
+                            "text": "Утром <кладовщик> открыл склад и начал принимать новый товар.",
+                            "target_lang_translations": {
+                                "en": "In the morning, the <w>storekeeper</w> opened the warehouse and began receiving new goods."
+                            }
                         },
                         {
-                            "text": "На эту должность требуется ответственный <кладовщик> с опытом работы."
+                            "text": "На эту должность требуется ответственный <кладовщик> с опытом работы.",
+                            "target_lang_translations": {
+                                "en": "This position requires a responsible <w>warehouseman</w> with work experience."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "работать кладовщиком",
                         "помощник кладовщика"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "occupation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A worker in charge of a storeroom or warehouse, responsible for receiving, storing, and issuing goods."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "storekeeper",
+                                "target_lang_sense_clarification": "person managing a storeroom"
+                            },
+                            {
+                                "target_lang_word": "warehouseman",
+                                "target_lang_sense_clarification": "worker in a warehouse"
+                            }
+                        ]
+                    }
                 }
             ]
         }

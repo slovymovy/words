@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The veterinarian identified a <w>haematozoon</w> in the sample taken from the sick bird."
+                            "text": "The veterinarian identified a <w>haematozoon</w> in the sample taken from the sick bird.",
+                            "target_lang_translations": {
+                                "ru": "Ветеринар обнаружил <w>гематозоона</w> в образце, взятом у больной птицы."
+                            }
                         },
                         {
-                            "text": "Malaria is caused by a type of <w>haematozoon</w> that infects red blood cells."
+                            "text": "Malaria is caused by a type of <w>haematozoon</w> that infects red blood cells.",
+                            "target_lang_translations": {
+                                "ru": "Малярия вызывается типом <w>гематозоона</w>, который поражает эритроциты."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,16 +35,21 @@
                         "haematozoon infection",
                         "haematozoon species"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "biology"
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": "zoology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Любой паразит класса Aconoidasida (ранее подкласс Haematozoa), обитающий в крови."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "гематозоон",
+                                "target_lang_sense_clarification": "научный термин"
+                            },
+                            {
+                                "target_lang_word": "кровепаразит",
+                                "target_lang_sense_clarification": "паразит крови"
+                            }
+                        ]
+                    }
                 }
             ]
         }

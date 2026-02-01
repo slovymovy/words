@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De dokter schreef speciale medicijnen voor om de hevige <w>zenuwpijn</w> te verlichten."
+                            "text": "De dokter schreef speciale medicijnen voor om de hevige <w>zenuwpijn</w> te verlichten.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed special medication to relieve the severe <w>nerve pain</w>.",
+                                "ru": "Врач выписал специальные лекарства, чтобы облегчить сильную <w>нервную боль</w>."
+                            }
                         },
                         {
-                            "text": "Mijn grootvader heeft helaas veel last van chronische <w>zenuwpijn</w> in zijn been."
+                            "text": "Mijn grootvader heeft helaas veel last van chronische <w>zenuwpijn</w> in zijn been.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, my grandfather suffers a lot from chronic <w>nerve pain</w> in his leg.",
+                                "ru": "К сожалению, мой дедушка сильно страдает от хронической <w>нервной боли</w> в ноге."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "hevige zenuwpijn",
                         "last hebben van zenuwpijn"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Pain caused by damage or irritation of a nerve.",
+                        "ru": "Боль, возникающая в результате повреждения или раздражения нерва."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "nerve pain",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "neuralgia",
+                                "target_lang_sense_clarification": "medical term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "нервная боль",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "невралгия",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

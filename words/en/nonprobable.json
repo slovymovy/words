@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The researchers decided to exclude any <w>nonprobable</w> outcome from the final report."
+                            "text": "The researchers decided to exclude any <w>nonprobable</w> outcome from the final report.",
+                            "target_lang_translations": {
+                                "ru": "Исследователи решили исключить любой <w>маловероятный</w> исход из окончательного отчета."
+                            }
                         },
                         {
-                            "text": "Although it was a <w>nonprobable</w> event, the system was designed to handle the error gracefully."
+                            "text": "Although it was a <w>nonprobable</w> event, the system was designed to handle the error gracefully.",
+                            "target_lang_translations": {
+                                "ru": "Хотя это было <w>маловероятное</w> событие, система была спроектирована так, чтобы корректно обработать ошибку."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,21 @@
                         "nonprobable event",
                         "nonprobable outcome"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "Standard English usually uses 'improbable' or 'unlikely'."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Не являющийся вероятным; такой, который вряд ли произойдет."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "маловероятный",
+                                "target_lang_sense_clarification": "имеющий малые шансы на осуществление"
+                            },
+                            {
+                                "target_lang_word": "невероятный",
+                                "target_lang_sense_clarification": "трудно представимый или невозможный (реже используется в значении nonprobable)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

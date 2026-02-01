@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Конюх осторожно надел <w>оголовье</w> на спокойную лошадь."
+                            "text": "Конюх осторожно надел <w>оголовье</w> на спокойную лошадь.",
+                            "target_lang_translations": {
+                                "en": "The groom carefully put the <w>bridle</w> on the calm horse."
+                            }
                         },
                         {
-                            "text": "Новое кожаное <w>оголовье</w> было украшено красивыми пряжками."
+                            "text": "Новое кожаное <w>оголовье</w> было украшено красивыми пряжками.",
+                            "target_lang_translations": {
+                                "en": "The new leather <w>headstall</w> was decorated with beautiful buckles."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "снять оголовье",
                         "кожаное оголовье"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "конный спорт"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A part of a horse's harness worn on the head, used to control the animal."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bridle",
+                                "target_lang_sense_clarification": "general headgear for a horse"
+                            },
+                            {
+                                "target_lang_word": "headstall",
+                                "target_lang_sense_clarification": "the leather part of the bridle without the bit"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The researchers conducted an <w>anatomicopathologic</w> study to identify the specific tissue damage caused by the virus."
+                            "text": "The researchers conducted an <w>anatomicopathologic</w> study to identify the specific tissue damage caused by the virus.",
+                            "target_lang_translations": {
+                                "ru": "Исследователи провели <w>патологоанатомическое</w> исследование, чтобы выявить специфические повреждения тканей, вызванные вирусом."
+                            }
                         },
                         {
-                            "text": "Clinical findings were confirmed through a rigorous <w>anatomicopathologic</w> diagnosis performed after the surgery."
+                            "text": "Clinical findings were confirmed through a rigorous <w>anatomicopathologic</w> diagnosis performed after the surgery.",
+                            "target_lang_translations": {
+                                "ru": "Клинические данные были подтверждены тщательным <w>патологоанатомическим</w> диагнозом, поставленным после операции."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,21 @@
                         "anatomicopathologic study",
                         "anatomicopathologic correlation"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in medical contexts"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "specialized terminology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся как к анатомии, так и к патологии, в частности, связанный с изучением структурных изменений в организме, вызванных заболеванием."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "патологоанатомический",
+                                "target_lang_sense_clarification": "медицинский термин, относящийся к изучению изменений в тканях при болезнях"
+                            },
+                            {
+                                "target_lang_word": "анатомо-патологический",
+                                "target_lang_sense_clarification": "реже используемый синоним, обозначающий связь анатомии и патологии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

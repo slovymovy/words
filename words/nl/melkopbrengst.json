@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De boer was erg tevreden over de <w>melkopbrengst</w> van dit jaar."
+                            "text": "De boer was erg tevreden over de <w>melkopbrengst</w> van dit jaar.",
+                            "target_lang_translations": {
+                                "en": "The farmer was very satisfied with this year's <w>milk yield</w>.",
+                                "ru": "Фермер был очень доволен <w>надоями</w> в этом году."
+                            }
                         },
                         {
-                            "text": "Door het nieuwe voer is de <w>melkopbrengst</w> per koe aanzienlijk gestegen."
+                            "text": "Door het nieuwe voer is de <w>melkopbrengst</w> per koe aanzienlijk gestegen.",
+                            "target_lang_translations": {
+                                "en": "Due to the new feed, the <w>milk yield</w> per cow has increased significantly.",
+                                "ru": "Благодаря новому корму <w>удой</w> на одну корову значительно вырос."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "melkopbrengst per koe",
                         "gemiddelde melkopbrengst"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "landbouw"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The amount of milk produced by cows or other livestock.",
+                        "ru": "Количество молока, производимое коровами или другим скотом."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "milk yield",
+                                "target_lang_sense_clarification": "agricultural term for the volume of milk produced"
+                            },
+                            {
+                                "target_lang_word": "milk production",
+                                "target_lang_sense_clarification": "general term for the amount of milk produced"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "удой",
+                                "target_lang_sense_clarification": "количество молока, получаемое от сельскохозяйственных животных"
+                            },
+                            {
+                                "target_lang_word": "надой",
+                                "target_lang_sense_clarification": "количество выдоенного молока за определенный период"
+                            }
+                        ]
+                    }
                 }
             ]
         }

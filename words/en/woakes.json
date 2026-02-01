@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Woakes</w> has lived in this village for over fifty years."
+                            "text": "Mr. <w>Woakes</w> has lived in this village for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Воукс</w> живет в этой деревне уже более пятидесяти лет."
+                            }
                         },
                         {
-                            "text": "The package was delivered to the <w>Woakes</w> residence yesterday."
+                            "text": "The package was delivered to the <w>Woakes</w> residence yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера посылку доставили в дом <w>Воукса</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Воукс",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

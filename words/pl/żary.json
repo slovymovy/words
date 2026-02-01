@@ -20,10 +20,16 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "W przyszłym tygodniu planujemy wycieczkę do zabytkowego miasta <w>Żary</w>."
+                            "text": "W przyszłym tygodniu planujemy wycieczkę do zabytkowego miasta <w>Żary</w>.",
+                            "target_lang_translations": {
+                                "ru": "На следующей неделе мы планируем экскурсию в старинный город <w>Жары</w>."
+                            }
                         },
                         {
-                            "text": "<w>Żary</w> są największym miastem w polskiej części Łużyc."
+                            "text": "<w>Żary</w> są największym miastem w polskiej części Łużyc.",
+                            "target_lang_translations": {
+                                "ru": "<w>Жары</w> — самый большой город в польской части Лужицы."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,12 +37,17 @@
                         "gmina Żary",
                         "mieszkaniec Żar"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "town in Poland"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Город на западе Польши, в Любушском воеводстве, являющийся административным центром Жарского повята."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Жары",
+                                "target_lang_sense_clarification": "город в Польше"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -52,10 +63,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Niespotykane lipcowe <w>żary</w> wysuszyły całą roślinność w naszym ogrodzie."
+                            "text": "Niespotykane lipcowe <w>żary</w> wysuszyły całą roślinność w naszym ogrodzie.",
+                            "target_lang_translations": {
+                                "ru": "Небывалая июльская <w>жара</w> высушила всю растительность в нашем саду."
+                            }
                         },
                         {
-                            "text": "Podróżnicy z trudem znosili pustynne <w>żary</w> podczas swojej wyprawy."
+                            "text": "Podróżnicy z trudem znosili pustynne <w>żary</w> podczas swojej wyprawy.",
+                            "target_lang_translations": {
+                                "ru": "Путешественники с трудом переносили пустынный <w>зной</w> во время своей экспедиции."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -70,12 +87,27 @@
                         {
                             "trait_type": "form",
                             "comment": "plural of żar"
-                        },
-                        {
-                            "trait_type": "literary",
-                            "comment": "usage is mostly literary"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Форма множественного числа существительного «żar», обозначающая периоды очень высокой температуры или сильную жару; используется редко, в основном в литературном контексте."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "зной",
+                                "target_lang_sense_clarification": "сильная жара"
+                            },
+                            {
+                                "target_lang_word": "жара",
+                                "target_lang_sense_clarification": "высокая температура воздуха"
+                            },
+                            {
+                                "target_lang_word": "пекло",
+                                "target_lang_sense_clarification": "разговорное, очень сильная жара"
+                            }
+                        ]
+                    }
                 }
             ]
         }

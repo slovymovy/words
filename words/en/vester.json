@@ -21,10 +21,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have an appointment scheduled with Dr. <w>Vester</w> tomorrow morning."
+                            "text": "We have an appointment scheduled with Dr. <w>Vester</w> tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначен прием у доктора <w>Вестера</w> на завтрашнее утро."
+                            }
                         },
                         {
-                            "text": "The <w>Vester</w> family has lived in this town for three generations."
+                            "text": "The <w>Vester</w> family has lived in this town for three generations.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Вестер</w> живет в этом городе уже три поколения."
+                            }
                         }
                     ],
                     "traits": [
@@ -32,7 +38,18 @@
                             "trait_type": "surname",
                             "comment": "family name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Вестер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -48,21 +65,36 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The contract details the specific conditions required for the <w>vester</w> of the property rights."
+                            "text": "The contract details the specific conditions required for the <w>vester</w> of the property rights.",
+                            "target_lang_translations": {
+                                "ru": "В договоре подробно описаны конкретные условия, необходимые для <w>закрепления</w> прав собственности."
+                            }
                         },
                         {
-                            "text": "Legal complications arose regarding the exact moment of the <w>vester</w>."
+                            "text": "Legal complications arose regarding the exact moment of the <w>vester</w>.",
+                            "target_lang_translations": {
+                                "ru": "Возникли юридические сложности относительно точного момента <w>закрепления прав</w>."
+                            }
                         }
                     ],
                     "synonyms": [
                         "vesting"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "context of property law"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Установление или закрепление законного права (обычно имущественного)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "закрепление прав",
+                                "target_lang_sense_clarification": "юридический термин"
+                            },
+                            {
+                                "target_lang_word": "наделение правом",
+                                "target_lang_sense_clarification": "юридический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мой лучший друг <w>Алеша</w> живет в соседнем доме."
+                            "text": "Мой лучший друг <w>Алеша</w> живет в соседнем доме.",
+                            "target_lang_translations": {
+                                "en": "My best friend <w>Alyosha</w> lives next door."
+                            }
                         },
                         {
-                            "text": "В русских сказках часто встречается богатырь <w>Алеша</w> Попович."
+                            "text": "В русских сказках часто встречается богатырь <w>Алеша</w> Попович.",
+                            "target_lang_translations": {
+                                "en": "The hero <w>Alyosha</w> Popovich often appears in Russian fairy tales."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,17 @@
                         "Алеша Попович",
                         "дядя Алеша"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "мужское имя"
-                        },
-                        {
-                            "trait_type": "informal",
-                            "comment": "уменьшительная форма"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Diminutive form of the male name Alexei."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Alyosha",
+                                "target_lang_sense_clarification": "diminutive of Alexei"
+                            }
+                        ]
+                    }
                 }
             ]
         }

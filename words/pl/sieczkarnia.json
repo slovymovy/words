@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Rolnik uruchomił <w>sieczkarnię</w>, aby przygotować paszę dla zwierząt na zimę."
+                            "text": "Rolnik uruchomił <w>sieczkarnię</w>, aby przygotować paszę dla zwierząt na zimę.",
+                            "target_lang_translations": {
+                                "ru": "Фермер запустил <w>соломорезку</w>, чтобы подготовить корм для животных на зиму."
+                            }
                         },
                         {
-                            "text": "W kącie stodoły stała stara, zardzewiała <w>sieczkarnia</w>, której nikt już nie używał."
+                            "text": "W kącie stodoły stała stara, zardzewiała <w>sieczkarnia</w>, której nikt już nie używał.",
+                            "target_lang_translations": {
+                                "ru": "В углу сарая стояла старая, ржавая <w>соломорезка</w>, которой уже никто не пользовался."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,16 +33,21 @@
                         "sieczkarnia do słomy",
                         "naprawa sieczkarni"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rural",
-                            "comment": "używane w gospodarstwach rolnych"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "maszyna"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Сельскохозяйственная машина, предназначенная для резки соломы, сена или кормовых растений на сечку."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "соломорезка",
+                                "target_lang_sense_clarification": "машина для измельчения соломы"
+                            },
+                            {
+                                "target_lang_word": "силосорезка",
+                                "target_lang_sense_clarification": "машина для измельчения зеленого корма"
+                            }
+                        ]
+                    }
                 }
             ]
         }

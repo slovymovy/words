@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На рентгеновском снимке врач обнаружил перелом первой <w>пястной</w> кости."
+                            "text": "На рентгеновском снимке врач обнаружил перелом первой <w>пястной</w> кости.",
+                            "target_lang_translations": {
+                                "en": "On the X-ray, the doctor discovered a fracture of the first <w>metacarpal</w> bone."
+                            }
                         },
                         {
-                            "text": "Этот <w>пястный</w> сустав обеспечивает подвижность пальца и требует осторожного лечения при травмах."
+                            "text": "Этот <w>пястный</w> сустав обеспечивает подвижность пальца и требует осторожного лечения при травмах.",
+                            "target_lang_translations": {
+                                "en": "This <w>metacarpal</w> joint ensures the finger's mobility and requires careful treatment in case of injury."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,17 @@
                         "пястный сустав",
                         "пястная область"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "anatomical"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to the metacarpus (the part of the hand between the wrist and the fingers)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "metacarpal",
+                                "target_lang_sense_clarification": "anatomy"
+                            }
+                        ]
+                    }
                 }
             ]
         }

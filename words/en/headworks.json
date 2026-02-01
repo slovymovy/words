@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The engineer designed the <w>headworks</w> to withstand heavy flooding during the rainy season."
+                            "text": "The engineer designed the <w>headworks</w> to withstand heavy flooding during the rainy season.",
+                            "target_lang_translations": {
+                                "ru": "Инженер спроектировал <w>головное сооружение</w> так, чтобы оно выдерживало сильные паводки в сезон дождей."
+                            }
                         },
                         {
-                            "text": "Debris often accumulates at the <w>headworks</w>, requiring regular cleaning to maintain the flow."
+                            "text": "Debris often accumulates at the <w>headworks</w>, requiring regular cleaning to maintain the flow.",
+                            "target_lang_translations": {
+                                "ru": "У <w>головного сооружения</w> часто скапливается мусор, требующий регулярной очистки для поддержания потока."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,16 +33,25 @@
                         "diversion headworks",
                         "treatment plant headworks"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "engineering",
-                            "comment": "civil and hydraulic engineering"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Сооружение, построенное в начале или в точке отвода водного пути для регулирования потока воды в канал или трубу."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "головное сооружение",
+                                "target_lang_sense_clarification": "гидротехника"
+                            },
+                            {
+                                "target_lang_word": "головной узел",
+                                "target_lang_sense_clarification": "комплекс сооружений"
+                            },
+                            {
+                                "target_lang_word": "водозаборное сооружение",
+                                "target_lang_sense_clarification": "место забора воды"
+                            }
+                        ]
+                    }
                 }
             ]
         }

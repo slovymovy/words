@@ -15,10 +15,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Goldberger</w> has been appointed as the new director of the department."
+                            "text": "Mr. <w>Goldberger</w> has been appointed as the new director of the department.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Гольдбергер</w> был назначен новым директором департамента."
+                            }
                         },
                         {
-                            "text": "The research team was led by Professor <w>Goldberger</w> from the university."
+                            "text": "The research team was led by Professor <w>Goldberger</w> from the university.",
+                            "target_lang_translations": {
+                                "ru": "Исследовательскую группу возглавлял профессор <w>Гольдбергер</w> из университета."
+                            }
                         }
                     ],
                     "traits": [
@@ -26,7 +32,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Гольдбергер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

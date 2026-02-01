@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Рыбаки решили сразу <w>завялить</w> часть улова на солнце."
+                            "text": "Рыбаки решили сразу <w>завялить</w> часть улова на солнце.",
+                            "target_lang_translations": {
+                                "en": "The fishermen decided to immediately <w>cure</w> part of the catch in the sun."
+                            }
                         },
                         {
-                            "text": "Чтобы вкусно <w>завялить</w> помидоры, нужно добавить специи и оливковое масло."
+                            "text": "Чтобы вкусно <w>завялить</w> помидоры, нужно добавить специи и оливковое масло.",
+                            "target_lang_translations": {
+                                "en": "To deliciously <w>sun-dry</w> tomatoes, you need to add spices and olive oil."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "завялить мясо",
                         "завялить помидоры"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "способ приготовления пищи"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To prepare food (usually fish, meat, or fruit) by drying it in the air or sun."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cure",
+                                "target_lang_sense_clarification": "food preservation"
+                            },
+                            {
+                                "target_lang_word": "sun-dry",
+                                "target_lang_sense_clarification": "drying in the sun"
+                            },
+                            {
+                                "target_lang_word": "dry-cure",
+                                "target_lang_sense_clarification": "drying process"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ветеринар обнаружил у собаки <w>власоедов</w> и выписал специальные капли."
+                            "text": "Ветеринар обнаружил у собаки <w>власоедов</w> и выписал специальные капли.",
+                            "target_lang_translations": {
+                                "en": "The veterinarian found <w>biting lice</w> on the dog and prescribed special drops."
+                            }
                         },
                         {
-                            "text": "Шампунь эффективно защищает домашних питомцев от блох и <w>власоедов</w>."
+                            "text": "Шампунь эффективно защищает домашних питомцев от блох и <w>власоедов</w>.",
+                            "target_lang_translations": {
+                                "en": "The shampoo effectively protects pets from fleas and <w>chewing lice</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,21 @@
                         "капли от власоедов",
                         "обработка от власоедов"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "зоология, энтомология"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "ветеринария"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A parasitic insect that lives in animal fur and feeds on hair, down, and skin particles."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "biting louse",
+                                "target_lang_sense_clarification": "parasitic insect feeding on hair/skin"
+                            },
+                            {
+                                "target_lang_word": "chewing louse",
+                                "target_lang_sense_clarification": "parasitic insect feeding on hair/skin"
+                            }
+                        ]
+                    }
                 }
             ]
         }

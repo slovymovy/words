@@ -6,17 +6,23 @@
             "senses": [
                 {
                     "sense_id": "701fc452-d6c9-3025-a858-d8be71e632d7",
-                    "sense_definition": "międzynarodowy kod identyfikujący bank, używany do realizacji przelewów zagranicznych",
+                    "sense_definition": "międzynarodowy kod identyfikujący bank, używany przy wykonywaniu przelewów zagranicznych",
                     "learner_level": "B2",
-                    "frequency": "Low",
-                    "semantic_group_id": "",
+                    "frequency": "Middle",
+                    "semantic_group_id": "banking_codes",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Aby przelać pieniądze za granicę, potrzebujesz kodu <w>SWIFT</w> oraz numeru IBAN."
+                            "text": "Aby przelać pieniądze za granicę, potrzebujesz kodu <w>SWIFT</w> oraz numeru IBAN.",
+                            "target_lang_translations": {
+                                "ru": "Чтобы перевести деньги за границу, вам понадобятся код <w>SWIFT</w> и номер IBAN."
+                            }
                         },
                         {
-                            "text": "Przelew typu <w>SWIFT</w> zazwyczaj dociera do odbiorcy w ciągu kilku dni roboczych."
+                            "text": "Pracownik banku poprosił mnie o kod <w>SWIFT</w>, aby zrealizować transakcję międzynarodową.",
+                            "target_lang_translations": {
+                                "ru": "Сотрудник банка попросил у меня код <w>SWIFT</w>, чтобы выполнить международную транзакцию."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -24,15 +30,24 @@
                     ],
                     "common_phrases": [
                         "kod SWIFT",
-                        "przelew SWIFT",
+                        "numer SWIFT",
                         "system SWIFT"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "bankowość"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "международный код идентификации банка, используемый для выполнения зарубежных переводов"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "SWIFT",
+                                "target_lang_sense_clarification": "банковский код"
+                            },
+                            {
+                                "target_lang_word": "СВИФТ",
+                                "target_lang_sense_clarification": "транслитерация"
+                            }
+                        ]
+                    }
                 }
             ]
         }

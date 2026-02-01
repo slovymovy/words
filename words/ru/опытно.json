@@ -10,23 +10,30 @@
             "senses": [
                 {
                     "sense_id": "2bf098b0-ccf4-3d79-a318-a887ae11d269",
-                    "sense_definition": "Со знанием дела, мастерски, используя накопленный опыт.",
-                    "learner_level": "B2",
+                    "sense_definition": "Со знанием дела, обладая большим опытом и профессиональными навыками.",
+                    "learner_level": "B1",
                     "frequency": "Middle",
                     "semantic_group_id": "skill",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Хирург <опытно> провёл сложную операцию и спас пациента."
+                            "text": "Капитан <опытно> вёл судно через опасные рифы.",
+                            "target_lang_translations": {
+                                "en": "The captain <expertly> guided the ship through the dangerous reefs."
+                            }
                         },
                         {
-                            "text": "Она <опытно> управляла лодкой, ловко обходя подводные камни."
+                            "text": "Врач <опытно> наложил повязку на рану пациента.",
+                            "target_lang_translations": {
+                                "en": "The doctor <skillfully> applied a bandage to the patient's wound."
+                            }
                         }
                     ],
                     "synonyms": [
                         "умело",
-                        "мастерски",
                         "профессионально",
+                        "мастерски",
+                        "искусно",
                         "квалифицированно"
                     ],
                     "antonyms": [
@@ -36,22 +43,47 @@
                     "common_phrases": [
                         "опытно руководить",
                         "опытно использовать",
-                        "действовать опытно"
-                    ]
+                        "опытно действовать"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "With expertise, possessing great experience and professional skills."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "expertly",
+                                "target_lang_sense_clarification": "in a highly skillful or knowledgeable manner"
+                            },
+                            {
+                                "target_lang_word": "skillfully",
+                                "target_lang_sense_clarification": "with skill or cleverness"
+                            },
+                            {
+                                "target_lang_word": "proficiently",
+                                "target_lang_sense_clarification": "competently and efficiently"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "c27169f8-1b2b-3050-9e23-88b853407430",
-                    "sense_definition": "Посредством проведения опытов или экспериментов; на практике.",
-                    "learner_level": "C1",
-                    "frequency": "Low",
-                    "semantic_group_id": "method",
+                    "sense_definition": "Посредством опытов и экспериментов; на практике, а не в теории.",
+                    "learner_level": "B2",
+                    "frequency": "Middle",
+                    "semantic_group_id": "experiment",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Учёные <опытно> доказали эффективность нового метода лечения."
+                            "text": "Учёные <опытно> доказали эффективность нового лекарства.",
+                            "target_lang_translations": {
+                                "en": "Scientists <experimentally> proved the effectiveness of the new drug."
+                            }
                         },
                         {
-                            "text": "Мы <опытно> установили зависимость между температурой и давлением."
+                            "text": "Это предположение необходимо проверить <опытно> в лаборатории.",
+                            "target_lang_translations": {
+                                "en": "This assumption must be verified <experimentally> in the laboratory."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -65,16 +97,25 @@
                     ],
                     "common_phrases": [
                         "опытно проверить",
-                        "опытно доказать",
                         "опытно установить",
-                        "опытно подтвердить"
+                        "опытно подтвердить",
+                        "опытно доказать"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "used in scientific or formal contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "By means of tests and experiments; in practice rather than theory."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "experimentally",
+                                "target_lang_sense_clarification": "by means of scientific experiments"
+                            },
+                            {
+                                "target_lang_word": "empirically",
+                                "target_lang_sense_clarification": "based on observation or experience rather than theory"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -90,18 +131,39 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Это животное уже старо и достаточно <опытно>, чтобы избежать ловушки."
+                            "text": "Это животное уже старо и <опытно> в вопросах выживания.",
+                            "target_lang_translations": {
+                                "en": "This animal is already old and <experienced> in matters of survival."
+                            }
                         },
                         {
-                            "text": "Руководство компании <опытно> в вопросах международных переговоров."
+                            "text": "Наше конструкторское бюро <опытно>, оно создаёт прототипы техники.",
+                            "target_lang_translations": {
+                                "en": "Our design bureau is <experimental>; it creates prototypes of machinery."
+                            }
                         }
                     ],
                     "traits": [
                         {
                             "trait_type": "form",
-                            "comment": "short adjective form"
+                            "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Short form of the adjective 'опытный' (experienced or experimental) in the neuter gender."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "experienced",
+                                "target_lang_sense_clarification": "having knowledge or skill from doing something"
+                            },
+                            {
+                                "target_lang_word": "experimental",
+                                "target_lang_sense_clarification": "relating to or used for experiments"
+                            }
+                        ]
+                    }
                 }
             ]
         }

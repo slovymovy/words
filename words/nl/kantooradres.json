@@ -21,10 +21,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Je kunt de getekende contracten per post naar ons <w>kantooradres</w> sturen."
+                            "text": "Je kunt de getekende contracten per post naar ons <w>kantooradres</w> sturen.",
+                            "target_lang_translations": {
+                                "ru": "Вы можете отправить подписанные договоры по почте на наш <w>адрес офиса</w>.",
+                                "en": "You can send the signed contracts by mail to our <w>office address</w>."
+                            }
                         },
                         {
-                            "text": "Op de website van het bedrijf staat het nieuwe <w>kantooradres</w> duidelijk vermeld."
+                            "text": "Op de website van het bedrijf staat het nieuwe <w>kantooradres</w> duidelijk vermeld.",
+                            "target_lang_translations": {
+                                "ru": "На сайте компании четко указан новый <w>адрес офиса</w>.",
+                                "en": "The new <w>office address</w> is clearly stated on the company's website."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,12 +50,32 @@
                         "op het kantooradres",
                         "het juiste kantooradres"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Официальный адрес, по которому расположена компания или организация и куда можно отправлять почту.",
+                        "en": "The official address where a company or organization is located and where mail can be sent."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "адрес офиса",
+                                "target_lang_sense_clarification": "местонахождение офиса компании"
+                            },
+                            {
+                                "target_lang_word": "офисный адрес",
+                                "target_lang_sense_clarification": "адрес для деловой корреспонденции"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "office address",
+                                "target_lang_sense_clarification": "physical location of an office"
+                            },
+                            {
+                                "target_lang_word": "business address",
+                                "target_lang_sense_clarification": "official address for commercial purposes"
+                            }
+                        ]
+                    }
                 }
             ]
         }

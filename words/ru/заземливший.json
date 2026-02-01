@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Электрик, <w>заземливший</w> станок, тщательно проверил все соединения перед запуском."
+                            "text": "Электрик, <w>заземливший</w> станок, тщательно проверил все соединения перед запуском.",
+                            "target_lang_translations": {
+                                "en": "The electrician <w>who grounded</w> the machine carefully checked all connections before startup."
+                            }
                         },
                         {
-                            "text": "Мастер, <w>заземливший</w> корпус прибора, предотвратил возможное короткое замыкание."
+                            "text": "Мастер, <w>заземливший</w> корпус прибора, предотвратил возможное короткое замыкание.",
+                            "target_lang_translations": {
+                                "en": "The technician <w>who grounded</w> the device housing prevented a possible short circuit."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -34,12 +40,27 @@
                         {
                             "trait_type": "form",
                             "comment": "причастие"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "электротехника"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb <w>to ground</w> (to connect to the earth electrically)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "who grounded",
+                                "target_lang_sense_clarification": "referring to a person"
+                            },
+                            {
+                                "target_lang_word": "that grounded",
+                                "target_lang_sense_clarification": "referring to a device or object"
+                            },
+                            {
+                                "target_lang_word": "having grounded",
+                                "target_lang_sense_clarification": "emphasizing the completed action"
+                            }
+                        ]
+                    }
                 }
             ]
         }

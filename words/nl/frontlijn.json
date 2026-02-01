@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De soldaten werden naar de <w>frontlijn</w> gestuurd."
+                            "text": "De soldaten werden naar de <w>frontlijn</w> gestuurd.",
+                            "target_lang_translations": {
+                                "en": "The soldiers were sent to the <w>front line</w>.",
+                                "ru": "Солдат отправили на <w>линию фронта</w>."
+                            }
                         },
                         {
-                            "text": "Het is erg gevaarlijk aan de <w>frontlijn</w>."
+                            "text": "Het is erg gevaarlijk aan de <w>frontlijn</w>.",
+                            "target_lang_translations": {
+                                "en": "It is very dangerous at the <w>front line</w>.",
+                                "ru": "На <w>линии фронта</w> очень опасно."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,32 @@
                         "aan de frontlijn",
                         "achter de frontlijn"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The line where opposing armies meet and fighting takes place.",
+                        "ru": "Линия, вдоль которой ведутся боевые действия."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "front line",
+                                "target_lang_sense_clarification": "military boundary"
+                            },
+                            {
+                                "target_lang_word": "frontline",
+                                "target_lang_sense_clarification": "alternative spelling"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "линия фронта",
+                                "target_lang_sense_clarification": "военный термин"
+                            },
+                            {
+                                "target_lang_word": "передовая",
+                                "target_lang_sense_clarification": "место непосредственных боев"
+                            }
+                        ]
+                    }
                 }
             ]
         }

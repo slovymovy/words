@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "У пациента наблюдается хорошая <w>переносимость</w> нового лекарственного препарата."
+                            "text": "У пациента наблюдается хорошая <w>переносимость</w> нового лекарственного препарата.",
+                            "target_lang_translations": {
+                                "en": "The patient shows good <w>tolerance</w> to the new medication."
+                            }
                         },
                         {
-                            "text": "Индивидуальная <w>переносимость</w> физических нагрузок зависит от уровня подготовки."
+                            "text": "Индивидуальная <w>переносимость</w> физических нагрузок зависит от уровня подготовки.",
+                            "target_lang_translations": {
+                                "en": "Individual <w>tolerance</w> of physical loads depends on the level of training."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,21 @@
                         "хорошая переносимость",
                         "плохая переносимость"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "биол."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The ability of an organism to withstand external influences (medication, climate, physical stress) without harm to health."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tolerance",
+                                "target_lang_sense_clarification": "physiological ability to withstand something"
+                            },
+                            {
+                                "target_lang_word": "tolerability",
+                                "target_lang_sense_clarification": "degree to which a drug or treatment can be tolerated"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "39d4f379-d9a3-3fef-a802-5b039a5a54ae",
@@ -52,10 +67,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Главным преимуществом этого языка программирования является его высокая <w>переносимость</w>."
+                            "text": "Главным преимуществом этого языка программирования является его высокая <w>переносимость</w>.",
+                            "target_lang_translations": {
+                                "en": "The main advantage of this programming language is its high <w>portability</w>."
+                            }
                         },
                         {
-                            "text": "Разработчики должны обеспечить <w>переносимость</w> кода между разными операционными системами."
+                            "text": "Разработчики должны обеспечить <w>переносимость</w> кода между разными операционными системами.",
+                            "target_lang_translations": {
+                                "en": "Developers must ensure code <w>portability</w> between different operating systems."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -66,12 +87,17 @@
                         "переносимость программ",
                         "переносимость данных"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "прогр."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The capability of software to run on different platforms or in different environments with minimal modification."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "portability",
+                                "target_lang_sense_clarification": "software/technical context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

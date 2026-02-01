@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor measured the patient's <w>inspiratory</w> capacity to assess lung function."
+                            "text": "The doctor measured the patient's <w>inspiratory</w> capacity to assess lung function.",
+                            "target_lang_translations": {
+                                "ru": "Врач измерил <w>инспираторную</w> емкость пациента, чтобы оценить функцию легких."
+                            }
                         },
                         {
-                            "text": "Weakness in the <w>inspiratory</w> muscles can make it difficult to take a deep breath."
+                            "text": "Weakness in the <w>inspiratory</w> muscles can make it difficult to take a deep breath.",
+                            "target_lang_translations": {
+                                "ru": "Слабость <w>инспираторных</w> мышц может затруднить глубокий вдох."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -35,12 +41,21 @@
                         "inspiratory flow",
                         "inspiratory reserve volume"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "physiology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к процессу вдоха или вдыхания воздуха в легкие."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "инспираторный",
+                                "target_lang_sense_clarification": "связанный с вдоху (медицинский/физиологический термин)"
+                            },
+                            {
+                                "target_lang_word": "вдыхательный",
+                                "target_lang_sense_clarification": "предназначенный для вдоха (часто о механизмах или клапанах)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

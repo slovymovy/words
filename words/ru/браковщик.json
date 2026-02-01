@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Опытный <w>браковщик</w> сразу заметил дефект на поверхности детали."
+                            "text": "Опытный <w>браковщик</w> сразу заметил дефект на поверхности детали.",
+                            "target_lang_translations": {
+                                "en": "The experienced <w>quality inspector</w> immediately noticed a defect on the surface of the part."
+                            }
                         },
                         {
-                            "text": "На мебельной фабрике <w>браковщик</w> отвечает за то, чтобы в продажу не попали сломанные стулья."
+                            "text": "На мебельной фабрике <w>браковщик</w> отвечает за то, чтобы в продажу не попали сломанные стулья.",
+                            "target_lang_translations": {
+                                "en": "At the furniture factory, the <w>quality inspector</w> is responsible for ensuring that broken chairs do not end up for sale."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "работа браковщика",
                         "старший браковщик"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "occupation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A worker who checks product quality during production and identifies defective items."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "quality inspector",
+                                "target_lang_sense_clarification": "general term for a person checking for defects"
+                            },
+                            {
+                                "target_lang_word": "grader",
+                                "target_lang_sense_clarification": "specifically for sorting items by quality or rejecting bad ones"
+                            }
+                        ]
+                    }
                 }
             ]
         }

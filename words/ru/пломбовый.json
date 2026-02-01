@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На складе закончилась <w>пломбовая</w> проволока, необходимая для опечатывания дверей."
+                            "text": "На складе закончилась <w>пломбовая</w> проволока, необходимая для опечатывания дверей.",
+                            "target_lang_translations": {
+                                "en": "The warehouse ran out of <w>sealing</w> wire needed to seal the doors."
+                            }
                         },
                         {
-                            "text": "Этот современный <w>пломбовый</w> материал отличается высокой прочностью и долговечностью."
+                            "text": "Этот современный <w>пломбовый</w> материал отличается высокой прочностью и долговечностью.",
+                            "target_lang_translations": {
+                                "en": "This modern <w>filling</w> material is characterized by high strength and durability."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,21 @@
                         "пломбовая проволока",
                         "пломбовый трос"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "often used in logistics or dentistry"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to a seal (security device) or a filling (material for filling a cavity)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sealing",
+                                "target_lang_sense_clarification": "relating to security seals (e.g., wire, cable)"
+                            },
+                            {
+                                "target_lang_word": "filling",
+                                "target_lang_sense_clarification": "relating to material used to fill a cavity (e.g., dental)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

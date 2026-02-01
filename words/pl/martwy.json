@@ -1,11 +1,12 @@
 {
     "word_family": [
         "martwica",
+        "martwić",
+        "zmartwienie",
         "martwota",
         "półmartwy",
-        "zmartwychwstanie",
-        "uśmiercić",
-        "obumrzeć"
+        "obumarły",
+        "wymarły"
     ],
     "entries": [
         {
@@ -13,17 +14,23 @@
             "senses": [
                 {
                     "sense_id": "f0cc5078-dc41-3c24-9f6e-36ff43bb3c70",
-                    "sense_definition": "Taki, który przestał żyć; pozbawiony życia biologicznego.",
+                    "sense_definition": "taki, który nie żyje, u którego ustały procesy życiowe",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "biological_death",
+                    "semantic_group_id": "biological_state",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Po wypadku znaleziono w lesie <w>martwego</w> wilka."
+                            "text": "Na poboczu drogi leżał <w>martwy</w> ptak, którego potrącił samochód.",
+                            "target_lang_translations": {
+                                "ru": "На обочине дороги лежала <w>мёртвая</w> птица, которую сбила машина."
+                            }
                         },
                         {
-                            "text": "To stare drzewo jest już <w>martwe</w> i nie wypuszcza liści."
+                            "text": "Policja znalazła <w>martwe</w> ciało mężczyzny w opuszczonym budynku.",
+                            "target_lang_translations": {
+                                "ru": "Полиция нашла <w>мёртвое</w> тело мужчины в заброшенном здании."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,22 +42,108 @@
                     ],
                     "common_phrases": [
                         "martwe ciało",
-                        "martwy naskórek"
-                    ]
+                        "martwy naskórek",
+                        "znaleźć martwego"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "такой, который не живёт, у которого прекратились жизненные процессы"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "мёртвый",
+                                "target_lang_sense_clarification": "лишенный жизни"
+                            },
+                            {
+                                "target_lang_word": "неживой",
+                                "target_lang_sense_clarification": "без признаков жизни"
+                            },
+                            {
+                                "target_lang_word": "умерший",
+                                "target_lang_sense_clarification": "скончавшийся"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "6a8adcc5-583b-3dc7-89ee-8fdce545ba9a",
-                    "sense_definition": "Taki, który nigdy nie żył; dotyczący materii nieożywionej.",
-                    "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "inanimate_objects",
+                    "sense_id": "ab64b78a-fed5-3e1d-a081-7771ec69f5c4",
+                    "sense_definition": "taki, który zepsuł się i nie działa (zwykle o urządzeniach elektronicznych)",
+                    "learner_level": "B1",
+                    "frequency": "Low",
+                    "semantic_group_id": "functionality",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kamienie i piasek to przyroda <w>martwa</w>, która nie czuje bólu."
+                            "text": "Mój telefon jest całkowicie <w>martwy</w>, bo zapomniałem go wczoraj naładować.",
+                            "target_lang_translations": {
+                                "ru": "Мой телефон полностью <w>разряжен</w>, так как я забыл его вчера зарядить."
+                            }
                         },
                         {
-                            "text": "Na lekcji plastyki rysowaliśmy <w>martwą</w> naturę z owocami."
+                            "text": "Na ekranie nowego monitora pojawił się irytujący <w>martwy</w> piksel.",
+                            "target_lang_translations": {
+                                "ru": "На экране нового монитора появился раздражающий <w>битый</w> пиксель."
+                            }
+                        }
+                    ],
+                    "synonyms": [
+                        "zepsuty",
+                        "nieaktywny"
+                    ],
+                    "antonyms": [
+                        "sprawny",
+                        "aktywny"
+                    ],
+                    "common_phrases": [
+                        "martwy piksel",
+                        "martwy telefon",
+                        "martwa linia"
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "colloquial",
+                            "comment": "używane w kontekście technologii"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "сломанный или неработающий (обычно об электронных устройствах)"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неработающий",
+                                "target_lang_sense_clarification": "об устройстве"
+                            },
+                            {
+                                "target_lang_word": "разряженный",
+                                "target_lang_sense_clarification": "о батарее или телефоне"
+                            },
+                            {
+                                "target_lang_word": "битый",
+                                "target_lang_sense_clarification": "о пикселе"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "dad5da11-8d3d-3c44-9776-940b7eff2de1",
+                    "sense_definition": "taki, który nie posiada cech życia biologicznego; dotyczący przedmiotów",
+                    "learner_level": "B2",
+                    "frequency": "Middle",
+                    "semantic_group_id": "nature_of_matter",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Na lekcji plastyki uczniowie malowali obraz przedstawiający <w>martwą</w> naturę.",
+                            "target_lang_translations": {
+                                "ru": "На уроке рисования ученики писали <w>натюрморт</w>."
+                            }
+                        },
+                        {
+                            "text": "Kamienie i piasek to przykłady materii <w>martwej</w>, która nas otacza.",
+                            "target_lang_translations": {
+                                "ru": "Камни и песок — это примеры <w>неживой</w> материи, которая нас окружает."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -61,22 +154,44 @@
                     ],
                     "common_phrases": [
                         "martwa natura",
-                        "materia martwa"
-                    ]
+                        "materia martwa",
+                        "przedmiot martwy"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "не обладающий биологической жизнью; относящийся к предметам"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "неживой",
+                                "target_lang_sense_clarification": "о материи"
+                            },
+                            {
+                                "target_lang_word": "неодушевлённый",
+                                "target_lang_sense_clarification": "о предметах"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "f327e933-9d6d-3396-a91b-5eda2ec8b275",
-                    "sense_definition": "Taki, w którym nic się nie dzieje; pozbawiony ruchu, hałasu lub aktywności.",
-                    "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "figurative_inactive",
+                    "sense_definition": "taki, w którym brakuje ruchu, aktywności, emocji lub dynamiki",
+                    "learner_level": "C1",
+                    "frequency": "Low",
+                    "semantic_group_id": "metaphorical_state",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W nadmorskim kurorcie panował <w>martwy</w> sezon i ulice były puste."
+                            "text": "W kurorcie nadmorskim panował <w>martwy</w> sezon i ulice były puste.",
+                            "target_lang_translations": {
+                                "ru": "В морском курорте царил <w>мёртвый</w> сезон, и улицы были пусты."
+                            }
                         },
                         {
-                            "text": "Nasze negocjacje utknęły w <w>martwym</w> punkcie i nie wiemy, co robić dalej."
+                            "text": "Rozmowy pokojowe utknęły w <w>martwym</w> punkcie i nie osiągnięto porozumienia.",
+                            "target_lang_translations": {
+                                "ru": "Мирные переговоры застряли на <w>мёртвой</w> точке, и соглашение не было достигнуто."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -89,46 +204,23 @@
                         "martwy sezon",
                         "martwy punkt",
                         "martwa cisza",
-                        "martwe pole"
+                        "martwa strefa"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "figurative",
-                            "comment": "odnosi się do braku aktywności"
-                        }
-                    ]
-                },
-                {
-                    "sense_id": "ab64b78a-fed5-3e1d-a081-7771ec69f5c4",
-                    "sense_definition": "Taki, który nie działa, jest zepsuty lub odłączony od zasilania.",
-                    "learner_level": "C1",
-                    "frequency": "Low",
-                    "semantic_group_id": "broken_device",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Mój telefon jest całkowicie <w>martwy</w>, bo zapomniałem go naładować."
-                        },
-                        {
-                            "text": "Zauważyłem jeden <w>martwy</w> piksel na nowym monitorze."
-                        }
-                    ],
-                    "synonyms": [
-                        "zepsuty"
-                    ],
-                    "antonyms": [
-                        "sprawny"
-                    ],
-                    "common_phrases": [
-                        "martwy piksel",
-                        "martwa linia"
-                    ],
-                    "traits": [
-                        {
-                            "trait_type": "colloquial",
-                            "comment": "o urządzeniach elektronicznych"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "лишенный движения, активности, эмоций или динамики"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "мёртвый",
+                                "target_lang_sense_clarification": "переносное значение (сезон, тишина)"
+                            },
+                            {
+                                "target_lang_word": "глухой",
+                                "target_lang_sense_clarification": "о сезоне или тишине"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -137,30 +229,57 @@
             "senses": [
                 {
                     "sense_id": "4c33f002-203d-3d39-899b-34cdea0ca341",
-                    "sense_definition": "Osoba, która nie żyje.",
+                    "sense_definition": "człowiek, który umarł",
                     "learner_level": "B2",
                     "frequency": "Low",
-                    "semantic_group_id": "dead_person",
+                    "semantic_group_id": "person",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wierni modlili się za wszystkich <w>martwych</w> podczas listopadowego święta."
+                            "text": "Wierzy się, że w tym szczególnym dniu <w>martwi</w> powracają, by odwiedzić swoje domy.",
+                            "target_lang_translations": {
+                                "ru": "Считается, что в этот особый день <w>мёртвые</w> возвращаются, чтобы посетить свои дома."
+                            }
                         },
                         {
-                            "text": "Według legendy w tę noc <w>martwi</w> wstają z grobów."
+                            "text": "Według starej legendy ten bohater powstał z <w>martwych</w>, aby ratować swój kraj.",
+                            "target_lang_translations": {
+                                "ru": "Согласно старой легенде, этот герой восстал из <w>мёртвых</w>, чтобы спасти свою страну."
+                            }
                         }
                     ],
                     "synonyms": [
                         "zmarły",
-                        "trup"
+                        "trup",
+                        "umarły"
                     ],
                     "antonyms": [
                         "żywy"
                     ],
                     "common_phrases": [
                         "powstanie z martwych",
-                        "świat martwych"
-                    ]
+                        "świat martwych",
+                        "wstać z martwych"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "человек, который умер"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "мёртвый",
+                                "target_lang_sense_clarification": "субстантивированное прилагательное"
+                            },
+                            {
+                                "target_lang_word": "покойник",
+                                "target_lang_sense_clarification": "умерший человек"
+                            },
+                            {
+                                "target_lang_word": "умерший",
+                                "target_lang_sense_clarification": "официальное"
+                            }
+                        ]
+                    }
                 }
             ]
         }

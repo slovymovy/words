@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zij is afgestudeerd als ingenieur in de <w>landbouwkunde</w>."
+                            "text": "Zij is afgestudeerd als ingenieur in de <w>landbouwkunde</w>.",
+                            "target_lang_translations": {
+                                "en": "She graduated as an engineer in <w>agricultural science</w>.",
+                                "ru": "Она получила диплом инженера в области <w>агрономии</w>."
+                            }
                         },
                         {
-                            "text": "In de <w>landbouwkunde</w> wordt voortdurend gezocht naar duurzame methoden voor voedselproductie."
+                            "text": "In de <w>landbouwkunde</w> wordt voortdurend gezocht naar duurzame methoden voor voedselproductie.",
+                            "target_lang_translations": {
+                                "en": "In <w>agricultural science</w>, there is a constant search for sustainable methods for food production.",
+                                "ru": "В <w>агрономии</w> постоянно ведется поиск устойчивых методов производства продуктов питания."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,32 @@
                         "studie landbouwkunde",
                         "moderne landbouwkunde"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "field of study"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The science dealing with the theory and practice of agriculture.",
+                        "ru": "Наука, занимающаяся теорией и практикой сельского хозяйства."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "agricultural science",
+                                "target_lang_sense_clarification": "broad multidisciplinary field of biology"
+                            },
+                            {
+                                "target_lang_word": "agronomy",
+                                "target_lang_sense_clarification": "science of soil management and crop production"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "агрономия",
+                                "target_lang_sense_clarification": "наука о законах земледелия и сельского хозяйства"
+                            },
+                            {
+                                "target_lang_word": "сельскохозяйственная наука",
+                                "target_lang_sense_clarification": "область знаний, связанная с сельским хозяйством"
+                            }
+                        ]
+                    }
                 }
             ]
         }

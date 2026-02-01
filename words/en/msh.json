@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor ordered a blood test to check <w>MSH</w> levels."
+                            "text": "The doctor ordered a blood test to check <w>MSH</w> levels.",
+                            "target_lang_translations": {
+                                "ru": "Врач назначил анализ крови для проверки уровня <w>МСГ</w>."
+                            }
                         },
                         {
-                            "text": "High concentrations of <w>MSH</w> can cause the skin to darken."
+                            "text": "High concentrations of <w>MSH</w> can cause the skin to darken.",
+                            "target_lang_translations": {
+                                "ru": "Высокие концентрации <w>МСГ</w> могут вызвать потемнение кожи."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -26,16 +32,21 @@
                         "MSH levels",
                         "alpha-MSH"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "biochemistry"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "hormone abbreviation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Сокращение от «меланоцитстимулирующий гормон»."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "МСГ",
+                                "target_lang_sense_clarification": "гормон"
+                            },
+                            {
+                                "target_lang_word": "меланотропин",
+                                "target_lang_sense_clarification": "синоним"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -51,10 +62,16 @@
                     "name_type": "geographical_feature",
                     "examples": [
                         {
-                            "text": "Scientists continue to monitor seismic activity at <w>MSH</w>."
+                            "text": "Scientists continue to monitor seismic activity at <w>MSH</w>.",
+                            "target_lang_translations": {
+                                "ru": "Ученые продолжают следить за сейсмической активностью на <w>вулкане Сент-Хеленс</w>."
+                            }
                         },
                         {
-                            "text": "The <w>MSH</w> eruption changed the surrounding landscape permanently."
+                            "text": "The <w>MSH</w> eruption changed the surrounding landscape permanently.",
+                            "target_lang_translations": {
+                                "ru": "Извержение <w>Сент-Хеленс</w> навсегда изменило окружающий ландшафт."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -65,7 +82,22 @@
                             "trait_type": "regional",
                             "comment": "US geography"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Сокращение названия вулкана Сент-Хеленс."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сент-Хеленс",
+                                "target_lang_sense_clarification": "вулкан"
+                            },
+                            {
+                                "target_lang_word": "Маунт-Сент-Хеленс",
+                                "target_lang_sense_clarification": "полное название"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "370cfae7-d9f6-3a3b-b8a2-aaa97e24acbc",
@@ -76,22 +108,35 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Our train is scheduled to stop at <w>MSH</w> for ten minutes."
+                            "text": "Our train is scheduled to stop at <w>MSH</w> for ten minutes.",
+                            "target_lang_translations": {
+                                "ru": "Наш поезд должен остановиться на станции <w>Мехсана</w> на десять минут."
+                            }
                         },
                         {
-                            "text": "Please verify the arrival time for the train to <w>MSH</w>."
+                            "text": "Please verify the arrival time for the train to <w>MSH</w>.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, проверьте время прибытия поезда в <w>Мехсану</w>."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "railway code"
-                        },
-                        {
                             "trait_type": "regional",
                             "comment": "India"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Код железнодорожной станции Мехсана в Индии."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Мехсана",
+                                "target_lang_sense_clarification": "станция"
+                            }
+                        ]
+                    }
                 }
             ]
         }

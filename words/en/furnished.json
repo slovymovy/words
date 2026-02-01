@@ -3,7 +3,9 @@
         "furnish",
         "furniture",
         "furnishing",
-        "furnisher"
+        "unfurnished",
+        "refurbish",
+        "refurbishment"
     ],
     "entries": [
         {
@@ -14,18 +16,24 @@
                     "sense_definition": "Supplied with furniture.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "1",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "We decided to rent a <w>furnished</w> apartment to save money on buying beds and tables."
+                            "text": "We decided to rent a fully <w>furnished</w> apartment for our short stay in the city.",
+                            "target_lang_translations": {
+                                "ru": "Мы решили снять полностью <w>меблированную</w> квартиру для нашего короткого пребывания в городе."
+                            }
                         },
                         {
-                            "text": "The room is fully <w>furnished</w> and ready for you to move in immediately."
+                            "text": "The room was poorly <w>furnished</w>, containing only a broken chair and an old bed.",
+                            "target_lang_translations": {
+                                "ru": "Комната была плохо <w>обставлена</w>, в ней были только сломанный стул и старая кровать."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "equipped"
+                        "fitted"
                     ],
                     "antonyms": [
                         "unfurnished"
@@ -35,31 +43,67 @@
                         "furnished apartment",
                         "furnished room",
                         "well furnished"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Снабжённый мебелью; имеющий обстановку."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "меблированный",
+                                "target_lang_sense_clarification": "о квартире или комнате"
+                            },
+                            {
+                                "target_lang_word": "обставленный",
+                                "target_lang_sense_clarification": "о помещении с мебелью"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "2eff2766-2e60-3020-a4c9-dd46b6d461c6",
-                    "sense_definition": "Equipped with whatever is needed.",
+                    "sense_definition": "Equipped with whatever is needed or required.",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "1",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The expedition was <w>furnished</w> with enough supplies to last for three months."
+                            "text": "The soldiers arrived at the camp, fully <w>furnished</w> with supplies for the winter.",
+                            "target_lang_translations": {
+                                "ru": "Солдаты прибыли в лагерь, полностью <w>снаряжённые</w> припасами на зиму."
+                            }
                         },
                         {
-                            "text": "He is a scholar <w>furnished</w> with a deep understanding of ancient history."
+                            "text": "She felt confident because her mind was <w>furnished</w> with all the necessary facts.",
+                            "target_lang_translations": {
+                                "ru": "Она чувствовала себя уверенно, потому что её разум был <w>снабжён</w> всеми необходимыми фактами."
+                            }
                         }
                     ],
                     "synonyms": [
                         "equipped",
                         "supplied",
-                        "provided"
+                        "stocked"
                     ],
                     "common_phrases": [
                         "furnished with"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Оборудованный или снабжённый всем необходимым."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "оборудованный",
+                                "target_lang_sense_clarification": "оснащённый техникой или приспособлениями"
+                            },
+                            {
+                                "target_lang_word": "снаряжённый",
+                                "target_lang_sense_clarification": "полностью экипированный или снабжённый припасами"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -70,23 +114,49 @@
                     "sense_id": "cb776bc8-67e5-36d6-a503-3f94e6102169",
                     "sense_definition": "Simple past and past participle of <w>furnish</w>.",
                     "learner_level": "B2",
-                    "frequency": "Middle",
+                    "frequency": "High",
                     "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "They <w>furnished</w> the new office with modern desks and ergonomic chairs."
+                            "text": "They <w>furnished</w> the office with modern desks and ergonomic chairs.",
+                            "target_lang_translations": {
+                                "ru": "Они <w>обставили</w> офис современными столами и эргономичными стульями."
+                            }
                         },
                         {
-                            "text": "The witness <w>furnished</w> the police with a detailed description of the suspect."
+                            "text": "The witness <w>furnished</w> the police with a detailed description of the suspect.",
+                            "target_lang_translations": {
+                                "ru": "Свидетель <w>предоставил</w> полиции подробное описание подозреваемого."
+                            }
                         }
+                    ],
+                    "common_phrases": [
+                        "furnished the room",
+                        "furnished information",
+                        "furnished proof"
                     ],
                     "traits": [
                         {
                             "trait_type": "form",
                             "comment": "past tense and participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Прошедшее время и причастие прошедшего времени от глагола furnish."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "обставил",
+                                "target_lang_sense_clarification": "снабдил мебелью (прош. вр.)"
+                            },
+                            {
+                                "target_lang_word": "предоставил",
+                                "target_lang_sense_clarification": "дал информацию или доказательства (прош. вр.)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

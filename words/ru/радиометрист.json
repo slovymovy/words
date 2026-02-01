@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На вахту заступил опытный <w>радиометрист</w>, готовый к любым неожиданностям."
+                            "text": "На вахту заступил опытный <w>радиометрист</w>, готовый к любым неожиданностям.",
+                            "target_lang_translations": {
+                                "en": "An experienced <w>radar operator</w> came on watch, ready for any surprises."
+                            }
                         },
                         {
-                            "text": "<w>Радиометрист</w> внимательно следил за появлением новых целей на экране радара."
+                            "text": "<w>Радиометрист</w> внимательно следил за появлением новых целей на экране радара.",
+                            "target_lang_translations": {
+                                "en": "The <w>radar operator</w> carefully watched for the appearance of new targets on the radar screen."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,16 +37,21 @@
                         "вахтенный радиометрист",
                         "пост радиометриста"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "naval context"
-                        },
-                        {
-                            "trait_type": "professional",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A specialist who operates a radar station (typically in the navy)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "radar operator",
+                                "target_lang_sense_clarification": "general term"
+                            },
+                            {
+                                "target_lang_word": "radarman",
+                                "target_lang_sense_clarification": "naval term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

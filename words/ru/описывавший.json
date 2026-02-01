@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Журналист, подробно <w>описывавший</w> события того дня, получил известную премию."
+                            "text": "Журналист, подробно <w>описывавший</w> события того дня, получил известную премию.",
+                            "target_lang_translations": {
+                                "en": "The journalist <w>who described</w> the events of that day in detail received a well-known award."
+                            }
                         },
                         {
-                            "text": "Мы нашли старый документ, <w>описывавший</w> границы этого земельного участка."
+                            "text": "Мы нашли старый документ, <w>описывавший</w> границы этого земельного участка.",
+                            "target_lang_translations": {
+                                "en": "We found an old document <w>describing</w> the boundaries of this plot of land."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -44,12 +50,31 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "literary",
-                            "comment": "participles are more common in written text"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past active participle of the verb 'to describe'; one who described or was describing something or someone."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "describing",
+                                "target_lang_sense_clarification": "participle form acting as an adjective"
+                            },
+                            {
+                                "target_lang_word": "who described",
+                                "target_lang_sense_clarification": "relative clause for a person"
+                            },
+                            {
+                                "target_lang_word": "that described",
+                                "target_lang_sense_clarification": "relative clause for an object"
+                            },
+                            {
+                                "target_lang_word": "who was describing",
+                                "target_lang_sense_clarification": "emphasizing the continuous nature of the past action"
+                            }
+                        ]
+                    }
                 }
             ]
         }

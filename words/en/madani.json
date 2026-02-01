@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited Mr. <w>Madani</w> to speak at the conference next week."
+                            "text": "We invited Mr. <w>Madani</w> to speak at the conference next week.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили господина <w>Мадани</w> выступить на конференции на следующей неделе."
+                            }
                         },
                         {
-                            "text": "The <w>Madani</w> family has lived in this neighborhood for over twenty years."
+                            "text": "The <w>Madani</w> family has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Мадани</w> живет в этом районе уже более двадцати лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from Arabic"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия арабского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Мадани",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

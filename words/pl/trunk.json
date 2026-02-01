@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Administrator sieci sprawdził, czy <w>trunk</w> jest poprawnie skonfigurowany na głównym przełączniku."
+                            "text": "Administrator sieci sprawdził, czy <w>trunk</w> jest poprawnie skonfigurowany na głównym przełączniku.",
+                            "target_lang_translations": {
+                                "ru": "Сетевой администратор проверил, правильно ли настроен <w>транк</w> на главном коммутаторе."
+                            }
                         },
                         {
-                            "text": "Ruch sieciowy z różnych działów firmy przechodzi przez jeden główny <w>trunk</w>, co optymalizuje infrastrukturę."
+                            "text": "Ruch sieciowy z różnych działów firmy przechodzi przez jeden główny <w>trunk</w>, co optymalizuje infrastrukturę.",
+                            "target_lang_translations": {
+                                "ru": "Сетевой трафик из разных отделов компании проходит через один главный <w>транк</w>, что оптимизирует инфраструктуру."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,21 @@
                         "konfiguracja trunka",
                         "protokół trunkingu"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "terminologia sieciowa"
-                        },
-                        {
-                            "trait_type": "computing",
-                            "comment": "informatyka"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Общий канал связи в компьютерных сетях, используемый для передачи данных из нескольких виртуальных сетей (VLAN) через одно физическое соединение."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "транк",
+                                "target_lang_sense_clarification": "сетевой сленг/термин"
+                            },
+                            {
+                                "target_lang_word": "магистральный канал",
+                                "target_lang_sense_clarification": "формальный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

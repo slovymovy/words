@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We have a scheduled appointment with Dr. <w>Cronin</w> later this afternoon."
+                            "text": "We have a scheduled appointment with Dr. <w>Cronin</w> later this afternoon.",
+                            "target_lang_translations": {
+                                "ru": "У нас назначен прием у доктора <w>Кронина</w> сегодня во второй половине дня."
+                            }
                         },
                         {
-                            "text": "The famous author A. J. <w>Cronin</w> wrote several novels about medical life in the twentieth century."
+                            "text": "The famous author A. J. <w>Cronin</w> wrote several novels about medical life in the twentieth century.",
+                            "target_lang_translations": {
+                                "ru": "Знаменитый писатель А. Дж. <w>Кронин</w> написал несколько романов о жизни врачей в двадцатом веке."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Irish origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия ирландского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кронин",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

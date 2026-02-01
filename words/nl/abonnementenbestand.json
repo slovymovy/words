@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De uitgeverij wil haar <w>abonnementenbestand</w> uitbreiden met jongere lezers."
+                            "text": "De uitgeverij wil haar <w>abonnementenbestand</w> uitbreiden met jongere lezers.",
+                            "target_lang_translations": {
+                                "en": "The publisher wants to expand its <w>subscriber base</w> with younger readers.",
+                                "ru": "Издательство хочет расширить свою <w>базу подписчиков</w> за счет более молодых читателей."
+                            }
                         },
                         {
-                            "text": "Het is noodzakelijk om het <w>abonnementenbestand</w> bijwerken zodat de adressen weer kloppen."
+                            "text": "Het is noodzakelijk om het <w>abonnementenbestand</w> bijwerken zodat de adressen weer kloppen.",
+                            "target_lang_translations": {
+                                "en": "It is necessary to update the <w>subscriber database</w> so that the addresses are correct again.",
+                                "ru": "Необходимо обновить <w>базу подписчиков</w>, чтобы адреса снова были верными."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,36 @@
                         "het abonnementenbestand bijwerken",
                         "een groot abonnementenbestand"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "administrative context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A list or database containing the details of people who hold a subscription.",
+                        "ru": "Список или база данных, содержащая информацию о людях, оформивших подписку."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "subscriber base",
+                                "target_lang_sense_clarification": "The collective group of subscribers"
+                            },
+                            {
+                                "target_lang_word": "subscription list",
+                                "target_lang_sense_clarification": "A record of subscriptions"
+                            },
+                            {
+                                "target_lang_word": "subscriber database",
+                                "target_lang_sense_clarification": "Digital record of subscriber data"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "база подписчиков",
+                                "target_lang_sense_clarification": "Совокупность данных о всех подписчиках"
+                            },
+                            {
+                                "target_lang_word": "список подписчиков",
+                                "target_lang_sense_clarification": "Реестр лиц, имеющих подписку"
+                            }
+                        ]
+                    }
                 }
             ]
         }

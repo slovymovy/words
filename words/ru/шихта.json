@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В доменную печь непрерывно подаётся подготовленная <w>шихта</w>."
+                            "text": "В доменную печь непрерывно подаётся подготовленная <w>шихта</w>.",
+                            "target_lang_translations": {
+                                "en": "Prepared <w>charge</w> is continuously fed into the blast furnace."
+                            }
                         },
                         {
-                            "text": "Технологи тщательно контролируют химический состав <w>шихты</w> для получения качественного стекла."
+                            "text": "Технологи тщательно контролируют химический состав <w>шихты</w> для получения качественного стекла.",
+                            "target_lang_translations": {
+                                "en": "Technologists carefully control the chemical composition of the <w>batch</w> to obtain high-quality glass."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "плавка шихты",
                         "расчёт шихты"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "metallurgy, glassmaking"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A mixture of raw materials (such as ore, flux, and fuel) prepared in specific proportions for smelting or processing in furnaces."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "charge",
+                                "target_lang_sense_clarification": "metallurgy"
+                            },
+                            {
+                                "target_lang_word": "batch",
+                                "target_lang_sense_clarification": "glassmaking or ceramics"
+                            },
+                            {
+                                "target_lang_word": "furnace charge",
+                                "target_lang_sense_clarification": "technical term"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "10933dde-3589-391b-90ce-b484f316784b",
@@ -50,10 +69,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Утренняя <w>шихта</w> уже спустилась в забой для добычи угля."
+                            "text": "Утренняя <w>шихта</w> уже спустилась в забой для добычи угля.",
+                            "target_lang_translations": {
+                                "en": "The morning <w>shift</w> has already descended into the face to mine coal."
+                            }
                         },
                         {
-                            "text": "После заводского гудка вся <w>шихта</w> направилась к выходу."
+                            "text": "После заводского гудка вся <w>шихта</w> направилась к выходу.",
+                            "target_lang_translations": {
+                                "en": "After the factory whistle, the whole <w>shift</w> headed for the exit."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -63,12 +88,23 @@
                         {
                             "trait_type": "archaic",
                             "comment": ""
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "mining"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A group of workers working the same shift at a mine or factory."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "shift",
+                                "target_lang_sense_clarification": "group of workers"
+                            },
+                            {
+                                "target_lang_word": "gang",
+                                "target_lang_sense_clarification": "mining context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

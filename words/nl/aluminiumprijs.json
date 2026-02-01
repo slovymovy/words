@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>aluminiumprijs</w> is de afgelopen maanden flink gestegen door de grote vraag."
+                            "text": "De <w>aluminiumprijs</w> is de afgelopen maanden flink gestegen door de grote vraag.",
+                            "target_lang_translations": {
+                                "en": "The <w>aluminium price</w> has risen sharply in recent months due to high demand.",
+                                "ru": "<w>Цена на алюминий</w> значительно выросла за последние месяцы из-за высокого спроса."
+                            }
                         },
                         {
-                            "text": "Door een lage <w>aluminiumprijs</w> maken veel producenten minder winst dan verwacht."
+                            "text": "Door een lage <w>aluminiumprijs</w> maken veel producenten minder winst dan verwacht.",
+                            "target_lang_translations": {
+                                "en": "Due to a low <w>aluminium price</w>, many producers are making less profit than expected.",
+                                "ru": "Из-за низкой <w>цены на алюминий</w> многие производители получают меньше прибыли, чем ожидалось."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "stijgende aluminiumprijs",
                         "dalende aluminiumprijs"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "used in financial and economic contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The monetary value of the metal aluminium on the market.",
+                        "ru": "Рыночная стоимость металла алюминий."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "aluminium price",
+                                "target_lang_sense_clarification": "market value"
+                            },
+                            {
+                                "target_lang_word": "price of aluminium",
+                                "target_lang_sense_clarification": "cost"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "цена на алюминий",
+                                "target_lang_sense_clarification": "рыночная котировка"
+                            },
+                            {
+                                "target_lang_word": "стоимость алюминия",
+                                "target_lang_sense_clarification": "денежная ценность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

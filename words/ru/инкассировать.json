@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Специальная служба приезжает каждый вечер, чтобы <инкассировать> дневную выручку магазина."
+                            "text": "Специальная служба приезжает каждый вечер, чтобы <инкассировать> дневную выручку магазина.",
+                            "target_lang_translations": {
+                                "en": "A special service comes every evening to <collect> the shop's daily revenue."
+                            }
                         },
                         {
-                            "text": "Банк обязан своевременно <инкассировать> денежные средства своих клиентов."
+                            "text": "Банк обязан своевременно <инкассировать> денежные средства своих клиентов.",
+                            "target_lang_translations": {
+                                "en": "The bank is obliged to <collect> its clients' funds in a timely manner."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,16 +35,17 @@
                         "инкассировать деньги",
                         "инкассировать наличность"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "финансы"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "банковское дело"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To collect cash or valuables for transport and deposit in a bank."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "collect",
+                                "target_lang_sense_clarification": "money or revenue for deposit"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6d109750-60f0-3d04-a760-f6e482fe1fc7",
@@ -49,10 +56,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Предприниматель решил <инкассировать> вексель в центральном отделении банка."
+                            "text": "Предприниматель решил <инкассировать> вексель в центральном отделении банка.",
+                            "target_lang_translations": {
+                                "en": "The entrepreneur decided to <encash> the bill of exchange at the central bank branch."
+                            }
                         },
                         {
-                            "text": "Нам удалось быстро <инкассировать> чек и получить необходимые наличные."
+                            "text": "Нам удалось быстро <инкассировать> чек и получить необходимые наличные.",
+                            "target_lang_translations": {
+                                "en": "We managed to quickly <cash> the check and get the necessary cash."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -62,16 +75,21 @@
                         "инкассировать вексель",
                         "инкассировать чек"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "финансы"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "банковское дело"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To receive cash at a bank by presenting a payment document (check, bill of exchange)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cash",
+                                "target_lang_sense_clarification": "a check or financial instrument"
+                            },
+                            {
+                                "target_lang_word": "encash",
+                                "target_lang_sense_clarification": "formal; convert into cash"
+                            }
+                        ]
+                    }
                 }
             ]
         }

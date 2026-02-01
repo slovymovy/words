@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The committee reviewed the report and the recommendations arising <w>therefrom</w>."
+                            "text": "The committee reviewed the report and the recommendations arising <w>therefrom</w>.",
+                            "target_lang_translations": {
+                                "ru": "Комитет рассмотрел отчет и рекомендации, вытекающие <w>из него</w>."
+                            }
                         },
                         {
-                            "text": "He ignored the safety regulations and the accidents resulting <w>therefrom</w>."
+                            "text": "He ignored the safety regulations and the accidents resulting <w>therefrom</w>.",
+                            "target_lang_translations": {
+                                "ru": "Он игнорировал правила техники безопасности и несчастные случаи, возникшие <w>вследствие этого</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,25 @@
                         "resulting therefrom",
                         "deriving therefrom"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "typically found in legal or archaic texts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Из этого предмета, места или источника; вследствие этого."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "из этого",
+                                "target_lang_sense_clarification": "указывает на происхождение из упомянутого предмета или обстоятельства"
+                            },
+                            {
+                                "target_lang_word": "оттуда",
+                                "target_lang_sense_clarification": "из упомянутого места или источника"
+                            },
+                            {
+                                "target_lang_word": "вследствие этого",
+                                "target_lang_sense_clarification": "как результат упомянутого"
+                            }
+                        ]
+                    }
                 }
             ]
         }

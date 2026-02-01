@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот магазин оказался <w>малоприбыльным</w>, и владельцы решили его продать."
+                            "text": "Этот магазин оказался <w>малоприбыльным</w>, и владельцы решили его продать.",
+                            "target_lang_translations": {
+                                "en": "This store turned out to be <w>low-profit</w>, and the owners decided to sell it."
+                            }
                         },
                         {
-                            "text": "Компания избавляется от <w>малоприбыльных</w> активов, чтобы сократить расходы."
+                            "text": "Компания избавляется от <w>малоприбыльных</w> активов, чтобы сократить расходы.",
+                            "target_lang_translations": {
+                                "en": "The company is getting rid of <w>low-profit</w> assets to cut costs."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,25 @@
                         "считать малоприбыльным",
                         "малоприбыльный проект"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "used in economic and financial contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Generating little profit, not providing a large income."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "low-profit",
+                                "target_lang_sense_clarification": "yielding small financial gain"
+                            },
+                            {
+                                "target_lang_word": "unprofitable",
+                                "target_lang_sense_clarification": "yielding little or no profit"
+                            },
+                            {
+                                "target_lang_word": "marginally profitable",
+                                "target_lang_sense_clarification": "barely making a profit"
+                            }
+                        ]
+                    }
                 }
             ]
         }

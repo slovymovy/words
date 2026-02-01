@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De psychiater onderzoekt de achterliggende oorzaken van de <w>automutilatie</w> bij de patiënt."
+                            "text": "De psychiater onderzoekt de achterliggende oorzaken van de <w>automutilatie</w> bij de patiënt.",
+                            "target_lang_translations": {
+                                "ru": "Психиатр исследует глубинные причины <w>самоповреждения</w> у пациента.",
+                                "en": "The psychiatrist is investigating the underlying causes of the patient's <w>self-mutilation</w>."
+                            }
                         },
                         {
-                            "text": "Jongeren die worstelen met depressie vertonen soms een neiging tot <w>automutilatie</w>."
+                            "text": "Jongeren die worstelen met depressie vertonen soms een neiging tot <w>automutilatie</w>.",
+                            "target_lang_translations": {
+                                "ru": "Подростки, страдающие от депрессии, иногда проявляют склонность к <w>самоповреждению</w>.",
+                                "en": "Young people struggling with depression sometimes show a tendency towards <w>self-harm</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,16 +37,40 @@
                         "neiging tot automutilatie",
                         "vormen van automutilatie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Преднамеренное нанесение повреждений собственному телу, часто как проявление психологических проблем.",
+                        "en": "The intentional infliction of injuries to one's own body, often as an expression of psychological problems."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "самоповреждение",
+                                "target_lang_sense_clarification": "нанесение вреда самому себе"
+                            },
+                            {
+                                "target_lang_word": "членовредительство",
+                                "target_lang_sense_clarification": "нанесение себе увечий"
+                            },
+                            {
+                                "target_lang_word": "аутомутиляция",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "self-mutilation",
+                                "target_lang_sense_clarification": "direct translation, often clinical"
+                            },
+                            {
+                                "target_lang_word": "self-harm",
+                                "target_lang_sense_clarification": "common general term"
+                            },
+                            {
+                                "target_lang_word": "self-injury",
+                                "target_lang_sense_clarification": "medical/psychological term"
+                            }
+                        ]
+                    }
                 }
             ]
         }

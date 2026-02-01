@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The tourists admired the ornate <w>sacellum</w> located near the main altar."
+                            "text": "The tourists admired the ornate <w>sacellum</w> located near the main altar.",
+                            "target_lang_translations": {
+                                "ru": "Туристы любовались богато украшенной <w>капеллой</w>, расположенной рядом с главным алтарем."
+                            }
                         },
                         {
-                            "text": "A small <w>sacellum</w> was constructed to house the relics of the local saint."
+                            "text": "A small <w>sacellum</w> was constructed to house the relics of the local saint.",
+                            "target_lang_translations": {
+                                "ru": "Для хранения мощей местного святого была построена небольшая <w>часовня</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,16 +42,21 @@
                         "small sacellum",
                         "ornate sacellum"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "architecture"
-                        },
-                        {
-                            "trait_type": "religious",
-                            "comment": "Christianity"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Небольшая часовня, обычно служащая памятником внутри более крупной церкви."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "капелла",
+                                "target_lang_sense_clarification": "придел в храме"
+                            },
+                            {
+                                "target_lang_word": "часовня",
+                                "target_lang_sense_clarification": "небольшая культовая постройка"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "22d84f07-57c8-38df-bb5c-fa340b277207",
@@ -56,10 +67,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Archaeologists uncovered the foundations of a Roman <w>sacellum</w> dedicated to Mars."
+                            "text": "Archaeologists uncovered the foundations of a Roman <w>sacellum</w> dedicated to Mars.",
+                            "target_lang_translations": {
+                                "ru": "Археологи обнаружили фундамент римского <w>сацеллума</w>, посвященного Марсу."
+                            }
                         },
                         {
-                            "text": "The ancient rituals were performed in an open-air <w>sacellum</w> under the sunlight."
+                            "text": "The ancient rituals were performed in an open-air <w>sacellum</w> under the sunlight.",
+                            "target_lang_translations": {
+                                "ru": "Древние ритуалы проводились в <w>святилище</w> под открытым небом при солнечном свете."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -71,14 +88,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "history"
-                        },
-                        {
                             "trait_type": "archaic",
                             "comment": "Ancient Rome context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Святилище под открытым небом в Древнем Риме, часто используемое для жертвоприношений или почитания божества."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "святилище",
+                                "target_lang_sense_clarification": "место поклонения"
+                            },
+                            {
+                                "target_lang_word": "сацеллум",
+                                "target_lang_sense_clarification": "исторический термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

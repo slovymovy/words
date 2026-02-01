@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мы услышали громкий гул <w>катерного</w> мотора."
+                            "text": "Мы услышали громкий гул <w>катерного</w> мотора.",
+                            "target_lang_translations": {
+                                "en": "We heard the loud roar of the <w>cutter</w> engine."
+                            }
                         },
                         {
-                            "text": "Для туристов была организована <w>катерная</w> прогулка по реке."
+                            "text": "Для туристов была организована <w>катерная</w> прогулка по реке.",
+                            "target_lang_translations": {
+                                "en": "A <w>boat</w> trip on the river was organized for the tourists."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,25 @@
                         "катерная прогулка",
                         "катерный экипаж"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "used in the context of boats and shipping"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to a cutter, launch, or small motorboat."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cutter",
+                                "target_lang_sense_clarification": "attributive use (e.g., cutter crew)"
+                            },
+                            {
+                                "target_lang_word": "boat",
+                                "target_lang_sense_clarification": "attributive use (e.g., boat trip)"
+                            },
+                            {
+                                "target_lang_word": "launch",
+                                "target_lang_sense_clarification": "attributive use"
+                            }
+                        ]
+                    }
                 }
             ]
         }

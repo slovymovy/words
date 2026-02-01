@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Плотники начали <w>ошкуривать</w> заготовленные для строительства брёвна."
+                            "text": "Плотники начали <w>ошкуривать</w> заготовленные для строительства брёвна.",
+                            "target_lang_translations": {
+                                "en": "The carpenters began <w>to debark</w> the logs prepared for construction."
+                            }
                         },
                         {
-                            "text": "В лесу рабочие должны <w>ошкуривать</w> поваленные деревья, чтобы в них не завелись жуки."
+                            "text": "В лесу рабочие должны <w>ошкуривать</w> поваленные деревья, чтобы в них не завелись жуки.",
+                            "target_lang_translations": {
+                                "en": "In the forest, workers must <w>debark</w> fallen trees so that beetles do not infest them."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,21 @@
                         "ошкуривать стволы",
                         "ошкуривать деревья"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "лесозаготовка, деревообработка"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To remove the bark from trees or tree trunks."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "debark",
+                                "target_lang_sense_clarification": "remove bark from logs"
+                            },
+                            {
+                                "target_lang_word": "strip",
+                                "target_lang_sense_clarification": "remove outer layer"
+                            }
+                        ]
+                    }
                 }
             ]
         }

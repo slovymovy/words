@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ik ben mijn <w>bankpas</w> vergeten en kan nu geen boodschappen doen."
+                            "text": "Ik ben mijn <w>bankpas</w> vergeten en kan nu geen boodschappen doen.",
+                            "target_lang_translations": {
+                                "en": "I forgot my <w>debit card</w> and cannot do groceries now.",
+                                "ru": "Я забыл свою <w>банковскую карту</w> и теперь не могу купить продукты."
+                            }
                         },
                         {
-                            "text": "Je kunt in deze winkel alleen betalen met de <w>bankpas</w>."
+                            "text": "Je kunt in deze winkel alleen betalen met de <w>bankpas</w>.",
+                            "target_lang_translations": {
+                                "en": "You can only pay with a <w>debit card</w> in this store.",
+                                "ru": "В этом магазине можно расплачиваться только <w>банковской картой</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +39,33 @@
                         "betalen met de bankpas",
                         "bankpas blokkeren",
                         "nieuwe bankpas"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A card issued by a bank that allows you to pay for things and withdraw money.",
+                        "ru": "Банковская карта, с помощью которой можно оплачивать покупки и снимать наличные."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "debit card",
+                                "target_lang_sense_clarification": "card that deducts money directly from a bank account"
+                            },
+                            {
+                                "target_lang_word": "bank card",
+                                "target_lang_sense_clarification": "general term for a card issued by a bank"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "банковская карта",
+                                "target_lang_sense_clarification": "пластиковая карта для платежей"
+                            },
+                            {
+                                "target_lang_word": "карточка",
+                                "target_lang_sense_clarification": "разговорное сокращение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The comedian made a risky joke about being a <w>honky</w> in a diverse neighborhood."
+                            "text": "The comedian made a risky joke about being a <w>honky</w> in a diverse neighborhood.",
+                            "target_lang_translations": {
+                                "ru": "Комик рискованно пошутил о том, каково быть <w>снежком</w> в районе со смешанным населением."
+                            }
                         },
                         {
-                            "text": "He was offended when the stranger shouted a slur and called him a <w>honky</w>."
+                            "text": "He was offended when the stranger shouted a slur and called him a <w>honky</w>.",
+                            "target_lang_translations": {
+                                "ru": "Он обиделся, когда незнакомец выкрикнул ругательство и назвал его <w>белым</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +35,26 @@
                             "trait_type": "slang",
                             "comment": "usually derogatory and offensive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Белый человек (обычно используется как оскорбление по расовому признаку)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "снежок",
+                                "target_lang_sense_clarification": "сленг, часто используется в переводах как аналог оскорбления белых"
+                            },
+                            {
+                                "target_lang_word": "белый",
+                                "target_lang_sense_clarification": "в контексте расового пренебрежения"
+                            },
+                            {
+                                "target_lang_word": "бледнолицый",
+                                "target_lang_sense_clarification": "ироничное или пренебрежительное"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "2f393f72-bdf1-3d9a-bad4-066dcb2df2f0",
@@ -40,18 +65,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The old <w>honky</w> had been working at the steel mill for over forty years."
+                            "text": "The old <w>honky</w> had been working at the steel mill for over forty years.",
+                            "target_lang_translations": {
+                                "ru": "Старый <w>работяга</w> проработал на сталелитейном заводе более сорока лет."
+                            }
                         },
                         {
-                            "text": "They hired a new <w>honky</w> to help move the heavy crates in the warehouse."
+                            "text": "They hired a new <w>honky</w> to help move the heavy crates in the warehouse.",
+                            "target_lang_translations": {
+                                "ru": "Они наняли нового <w>разнорабочего</w>, чтобы помочь перетаскивать тяжелые ящики на складе."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "historical or dialectal"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Заводской рабочий или неквалифицированный работник (устаревшее, часто об иммигрантах)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "работяга",
+                                "target_lang_sense_clarification": "разговорное"
+                            },
+                            {
+                                "target_lang_word": "разнорабочий",
+                                "target_lang_sense_clarification": "общее значение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

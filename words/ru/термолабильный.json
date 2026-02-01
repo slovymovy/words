@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот <w>термолабильный</w> фермент быстро теряет свою активность при повышении температуры."
+                            "text": "Этот <w>термолабильный</w> фермент быстро теряет свою активность при повышении температуры.",
+                            "target_lang_translations": {
+                                "en": "This <w>thermolabile</w> enzyme quickly loses its activity as the temperature rises."
+                            }
                         },
                         {
-                            "text": "В ходе эксперимента был выделен <w>термолабильный</w> токсин, разрушающийся при кипячении."
+                            "text": "В ходе эксперимента был выделен <w>термолабильный</w> токсин, разрушающийся при кипячении.",
+                            "target_lang_translations": {
+                                "en": "During the experiment, a <w>thermolabile</w> toxin was isolated that is destroyed by boiling."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "термолабильный токсин",
                         "термолабильный антиген"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "biology, chemistry"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Unstable to heat; susceptible to alteration or destruction when heated."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "thermolabile",
+                                "target_lang_sense_clarification": "technical/scientific"
+                            },
+                            {
+                                "target_lang_word": "heat-labile",
+                                "target_lang_sense_clarification": "biochemistry context"
+                            }
+                        ]
+                    }
                 }
             ]
         }

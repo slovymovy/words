@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На заводе был внедрён <w>конвейеризированный</w> процесс сборки."
+                            "text": "На заводе был внедрён <w>конвейеризированный</w> процесс сборки.",
+                            "target_lang_translations": {
+                                "en": "A <w>conveyorized</w> assembly process was implemented at the factory."
+                            }
                         },
                         {
-                            "text": "Это <w>конвейеризированное</w> производство позволяет выпускать тысячи деталей в день."
+                            "text": "Это <w>конвейеризированное</w> производство позволяет выпускать тысячи деталей в день.",
+                            "target_lang_translations": {
+                                "en": "This <w>conveyorized</w> production allows thousands of parts to be produced per day."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,12 +39,23 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "manufacturing"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Organized or equipped with a conveyor system; transferred to an assembly line method of production."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "conveyorized",
+                                "target_lang_sense_clarification": "equipped with a conveyor system"
+                            },
+                            {
+                                "target_lang_word": "assembly-line",
+                                "target_lang_sense_clarification": "organized as a linear sequence of operations"
+                            }
+                        ]
+                    }
                 }
             ]
         }

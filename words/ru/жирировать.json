@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Директор поручил главному бухгалтеру <w>жирировать</w> полученный от партнёров вексель."
+                            "text": "Директор поручил главному бухгалтеру <w>жирировать</w> полученный от партнёров вексель.",
+                            "target_lang_translations": {
+                                "en": "The director instructed the chief accountant to <w>endorse</w> the bill of exchange received from the partners."
+                            }
                         },
                         {
-                            "text": "Банк отказался <w>жирировать</w> эти документы из-за отсутствия необходимых подписей."
+                            "text": "Банк отказался <w>жирировать</w> эти документы из-за отсутствия необходимых подписей.",
+                            "target_lang_translations": {
+                                "en": "The bank refused to <w>endorse</w> these documents due to the lack of necessary signatures."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,16 +35,17 @@
                         "жирировать вексель",
                         "жирировать чек"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "финансы"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "банковское дело"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To transfer rights to a bill of exchange or check to another person by making a special endorsement inscription on it."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "endorse",
+                                "target_lang_sense_clarification": "finance/banking"
+                            }
+                        ]
+                    }
                 }
             ]
         }

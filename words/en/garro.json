@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Garro</w> has lived in this neighborhood for over twenty years."
+                            "text": "Mr. <w>Garro</w> has lived in this neighborhood for over twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Гарро</w> живет в этом районе уже более двадцати лет."
+                            }
                         },
                         {
-                            "text": "Please deliver this package to the <w>Garro</w> family on Elm Street."
+                            "text": "Please deliver this package to the <w>Garro</w> family on Elm Street.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, доставьте эту посылку семье <w>Гарро</w> на Элм-стрит."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "Basque origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия баскского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Гарро",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Учёные внимательно изучили полученную <w>батиграмму</w> для уточнения рельефа дна."
+                            "text": "Учёные внимательно изучили полученную <w>батиграмму</w> для уточнения рельефа дна.",
+                            "target_lang_translations": {
+                                "en": "The scientists carefully studied the obtained <w>echogram</w> to refine the bottom relief."
+                            }
                         },
                         {
-                            "text": "На этой <w>батиграмме</w> отчётливо видны глубоководные впадины и возвышенности."
+                            "text": "На этой <w>батиграмме</w> отчётливо видны глубоководные впадины и возвышенности.",
+                            "target_lang_translations": {
+                                "en": "Deep-sea trenches and elevations are clearly visible on this <w>bathymetric profile</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,21 @@
                         "получение батиграммы",
                         "точная батиграмма"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "океанология"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A profile of the sea floor plotted on a map or recorded, obtained using an echo sounder."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "echogram",
+                                "target_lang_sense_clarification": "recording of depth"
+                            },
+                            {
+                                "target_lang_word": "bathymetric profile",
+                                "target_lang_sense_clarification": "cross-section of sea depth"
+                            }
+                        ]
+                    }
                 }
             ]
         }

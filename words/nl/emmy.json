@@ -13,18 +13,38 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mijn tante <w>Emmy</w> komt dit weekend bij ons op bezoek."
+                            "text": "Mijn tante <w>Emmy</w> komt dit weekend bij ons op bezoek.",
+                            "target_lang_translations": {
+                                "en": "My aunt <w>Emmy</w> is coming to visit us this weekend.",
+                                "ru": "Моя тетя <w>Эмми</w> приезжает к нам в гости в эти выходные."
+                            }
                         },
                         {
-                            "text": "<w>Emmy</w> heeft gisteren haar verjaardag gevierd met al haar vrienden."
+                            "text": "<w>Emmy</w> heeft gisteren haar verjaardag gevierd met al haar vrienden.",
+                            "target_lang_translations": {
+                                "en": "<w>Emmy</w> celebrated her birthday yesterday with all her friends.",
+                                "ru": "<w>Эмми</w> вчера отпраздновала свой день рождения со всеми своими друзьями."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "vrouwelijk"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A first name for a girl or woman.",
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Emmy",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Эмми",
+                                "target_lang_sense_clarification": "имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

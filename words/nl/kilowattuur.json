@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Op de jaarrekening kun je zien hoeveel <w>kilowattuur</w> je precies hebt verbruikt."
+                            "text": "Op de jaarrekening kun je zien hoeveel <w>kilowattuur</w> je precies hebt verbruikt.",
+                            "target_lang_translations": {
+                                "en": "On the annual statement you can see exactly how many <w>kilowatt-hours</w> you have consumed.",
+                                "ru": "В годовом отчете вы можете увидеть, сколько именно <w>киловатт-часов</w> вы потребили."
+                            }
                         },
                         {
-                            "text": "De huidige prijs per <w>kilowattuur</w> maakt het aantrekkelijk om energie te besparen."
+                            "text": "De huidige prijs per <w>kilowattuur</w> maakt het aantrekkelijk om energie te besparen.",
+                            "target_lang_translations": {
+                                "en": "The current price per <w>kilowatt-hour</w> makes it attractive to save energy.",
+                                "ru": "Текущая цена за <w>киловатт-час</w> делает экономию энергии привлекательной."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,24 @@
                         "prijs per kilowattuur",
                         "verbruik in kilowattuur"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "natuurkunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A unit of electrical energy, equal to 1000 watt-hours.",
+                        "ru": "Единица измерения электрической энергии, равная 1000 ватт-часов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "kilowatt-hour",
+                                "target_lang_sense_clarification": "unit of energy"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "киловатт-час",
+                                "target_lang_sense_clarification": "единица энергии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W tym chlewie trzymaliśmy przed zarazą <w>tuczniki</w>."
+                            "text": "W tym chlewie trzymaliśmy przed zarazą <w>tuczniki</w>.",
+                            "target_lang_translations": {
+                                "ru": "В этом свинарнике мы держали <w>откормочных свиней</w> до эпидемии."
+                            }
                         },
                         {
-                            "text": "Rolnik zdecydował się sprzedać wszystkie <w>tuczniki</w> do lokalnej rzeźni."
+                            "text": "Rolnik zdecydował się sprzedać wszystkie <w>tuczniki</w> do lokalnej rzeźni.",
+                            "target_lang_translations": {
+                                "ru": "Фермер решил продать всех <w>откормочных свиней</w> на местную скотобойню."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "skup tuczników",
                         "cena tucznika"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "rolnictwo"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Животное, обычно свинья, которое обильно кормят и предназначают на убой для получения мяса."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "откормочная свинья",
+                                "target_lang_sense_clarification": "свинья, выращиваемая на мясо"
+                            },
+                            {
+                                "target_lang_word": "откормочник",
+                                "target_lang_sense_clarification": "сельскохозяйственный термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

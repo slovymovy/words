@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Страна активно экспортирует природные <w>энергоносители</w> за рубеж."
+                            "text": "Страна активно экспортирует природные <w>энергоносители</w> за рубеж.",
+                            "target_lang_translations": {
+                                "en": "The country actively exports natural <w>energy carriers</w> abroad."
+                            }
                         },
                         {
-                            "text": "Рост цен на <w>энергоносители</w> привел к повышению стоимости коммунальных услуг."
+                            "text": "Рост цен на <w>энергоносители</w> привел к повышению стоимости коммунальных услуг.",
+                            "target_lang_translations": {
+                                "en": "The rise in prices for <w>energy carriers</w> led to an increase in the cost of utility services."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,21 @@
                         "дефицит энергоносителей",
                         "основные энергоносители"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "техн."
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in economic and political contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A substance or physical phenomenon used to produce, store, or transmit energy (e.g., oil, gas, coal)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "energy carrier",
+                                "target_lang_sense_clarification": "Technical term for a substance or system that contains energy for conversion or transmission"
+                            },
+                            {
+                                "target_lang_word": "energy resource",
+                                "target_lang_sense_clarification": "Commonly used in economic contexts regarding reserves, trade, or supply"
+                            }
+                        ]
+                    }
                 }
             ]
         }

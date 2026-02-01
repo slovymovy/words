@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The judge determined that the defendant's right to a jury trial was <w>waiverable</w> under these specific circumstances."
+                            "text": "The judge determined that the defendant's right to a jury trial was <w>waiverable</w> under these specific circumstances.",
+                            "target_lang_translations": {
+                                "ru": "Судья определил, что от права подсудимого на суд присяжных <w>можно отказаться</w> при данных конкретных обстоятельствах."
+                            }
                         },
                         {
-                            "text": "Because it is a <w>waiverable</w> fee, applicants demonstrating financial hardship may request not to pay it."
+                            "text": "Because it is a <w>waiverable</w> fee, applicants demonstrating financial hardship may request not to pay it.",
+                            "target_lang_translations": {
+                                "ru": "Поскольку этот сбор <w>может быть отменён</w>, заявители, испытывающие финансовые трудности, могут ходатайствовать об освобождении от его уплаты."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,16 +40,25 @@
                         "waiverable fee",
                         "waiverable offense"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "used primarily in legal contexts"
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": "less common than 'waivable'"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Такой, от которого можно добровольно отказаться (о праве) или который может быть отменён (о сборе или требовании)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "от которого можно отказаться",
+                                "target_lang_sense_clarification": "о правах или привилегиях"
+                            },
+                            {
+                                "target_lang_word": "отменяемый",
+                                "target_lang_sense_clarification": "о сборах, штрафах или правилах"
+                            },
+                            {
+                                "target_lang_word": "допускающий отказ",
+                                "target_lang_sense_clarification": "юридический контекст"
+                            }
+                        ]
+                    }
                 }
             ]
         }

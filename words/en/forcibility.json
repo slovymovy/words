@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The lawyer questioned the legal <w>forcibility</w> of the contract due to the ambiguous language used in the document."
+                            "text": "The lawyer questioned the legal <w>forcibility</w> of the contract due to the ambiguous language used in the document.",
+                            "target_lang_translations": {
+                                "ru": "Адвокат поставил под сомнение <w>юридическую силу</w> контракта из-за двусмысленных формулировок в документе."
+                            }
                         },
                         {
-                            "text": "Historians debated the <w>forcibility</w> of the king's decree and whether it could actually be implemented across the realm."
+                            "text": "Historians debated the <w>forcibility</w> of the king's decree and whether it could actually be implemented across the realm.",
+                            "target_lang_translations": {
+                                "ru": "Историки спорили об <w>исполнимости</w> королевского указа и о том, мог ли он быть реально внедрен по всему королевству."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,25 @@
                     "antonyms": [
                         "weakness"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": "often used in legal or academic contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Свойство быть принудительным, насильственным или имеющим законную силу."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "принудительность",
+                                "target_lang_sense_clarification": "характеристика действия, совершаемого с применением силы"
+                            },
+                            {
+                                "target_lang_word": "юридическая сила",
+                                "target_lang_sense_clarification": "правовая действенность документа или закона"
+                            },
+                            {
+                                "target_lang_word": "исполнимость",
+                                "target_lang_sense_clarification": "возможность принудительного осуществления"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het aantal inwoners van de gemeente wordt elk jaar vastgesteld op de <w>peildatum</w>."
+                            "text": "Het aantal inwoners van de gemeente wordt elk jaar vastgesteld op de <w>peildatum</w>.",
+                            "target_lang_translations": {
+                                "en": "The number of inhabitants of the municipality is determined every year on the <w>reference date</w>.",
+                                "ru": "Численность населения муниципалитета фиксируется ежегодно на <w>отчетную дату</w>."
+                            }
                         },
                         {
-                            "text": "Voor de berekening van de belasting geldt uw situatie op de officiële <w>peildatum</w>."
+                            "text": "Voor de berekening van de belasting geldt uw situatie op de officiële <w>peildatum</w>.",
+                            "target_lang_translations": {
+                                "en": "For the tax calculation, your situation on the official <w>reference date</w> applies.",
+                                "ru": "Для расчета налога учитывается ваше положение на официальную <w>отчетную дату</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,36 @@
                         "de officiële peildatum",
                         "op de peildatum"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "used in official and bureaucratic contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The date used as a fixed starting point for a measurement, calculation, or administrative determination.",
+                        "ru": "Дата, принимаемая за фиксированную точку отсчета для измерения, расчета или административного решения."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "reference date",
+                                "target_lang_sense_clarification": "general administrative term"
+                            },
+                            {
+                                "target_lang_word": "cut-off date",
+                                "target_lang_sense_clarification": "date determining status or eligibility"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "отчетная дата",
+                                "target_lang_sense_clarification": "дата, на которую составляется отчет или производится расчет"
+                            },
+                            {
+                                "target_lang_word": "контрольная дата",
+                                "target_lang_sense_clarification": "дата фиксации состояния"
+                            },
+                            {
+                                "target_lang_word": "дата отсчета",
+                                "target_lang_sense_clarification": "исходная дата для измерений"
+                            }
+                        ]
+                    }
                 }
             ]
         }

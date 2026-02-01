@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The accountant was found to have <w>misappropriated</w> funds over a period of three years."
+                            "text": "The accountant was found to have <w>misappropriated</w> funds over a period of three years.",
+                            "target_lang_translations": {
+                                "ru": "Выяснилось, что бухгалтер <w>присваивал</w> средства в течение трех лет."
+                            }
                         },
                         {
-                            "text": "She was accused of <w>misappropriating</w> company assets to pay for her personal expenses."
+                            "text": "She was accused of <w>misappropriating</w> company assets to pay for her personal expenses.",
+                            "target_lang_translations": {
+                                "ru": "Её обвинили в том, что она <w>присваивала</w> активы компании для оплаты личных расходов."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,21 @@
                         "misappropriate money",
                         "misappropriate property"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "legal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Нечестным путем завладеть чем-либо (особенно деньгами или имуществом), вверенным кому-либо, и использовать это в незаконных целях."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "присвоить",
+                                "target_lang_sense_clarification": "незаконно завладеть чужим имуществом"
+                            },
+                            {
+                                "target_lang_word": "растратить",
+                                "target_lang_sense_clarification": "незаконно истратить вверенные средства"
+                            }
+                        ]
+                    }
                 }
             ]
         }

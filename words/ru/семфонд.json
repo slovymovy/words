@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом году хозяйство полностью засыпало <семфонд> качественным зерном."
+                            "text": "В этом году хозяйство полностью засыпало <семфонд> качественным зерном.",
+                            "target_lang_translations": {
+                                "en": "This year the farm fully stocked the <seed fund> with high-quality grain."
+                            }
                         },
                         {
-                            "text": "Агроном лично проверил состояние <семфонда> перед началом посевной кампании."
+                            "text": "Агроном лично проверил состояние <семфонда> перед началом посевной кампании.",
+                            "target_lang_translations": {
+                                "en": "The agronomist personally checked the condition of the <seed stock> before the start of the sowing campaign."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,23 @@
                         {
                             "trait_type": "form",
                             "comment": "сокращение"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "сельское хозяйство"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for 'seed fund'; a reserve of seeds created at agricultural enterprises for sowing."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "seed fund",
+                                "target_lang_sense_clarification": "agricultural reserve"
+                            },
+                            {
+                                "target_lang_word": "seed stock",
+                                "target_lang_sense_clarification": "supply of seeds"
+                            }
+                        ]
+                    }
                 }
             ]
         }

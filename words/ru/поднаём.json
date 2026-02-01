@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В договоре аренды был пункт, запрещающий сдачу квартиры в <w>поднаём</w> третьим лицам."
+                            "text": "В договоре аренды был пункт, запрещающий сдачу квартиры в <w>поднаём</w> третьим лицам.",
+                            "target_lang_translations": {
+                                "en": "The lease agreement contained a clause prohibiting the <w>subletting</w> of the apartment to third parties."
+                            }
                         },
                         {
-                            "text": "Студент оформил договор <w>поднайма</w> комнаты, чтобы разделить расходы на жильё."
+                            "text": "Студент оформил договор <w>поднайма</w> комнаты, чтобы разделить расходы на жильё.",
+                            "target_lang_translations": {
+                                "en": "The student signed a room <w>sublease</w> agreement to share housing costs."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +38,21 @@
                         "сдача в поднаём",
                         "передача в поднаём"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "юридический термин"
-                        },
-                        {
-                            "trait_type": "business",
-                            "comment": "используется в сфере недвижимости"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The act of renting property from a tenant rather than directly from the owner; subletting."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "subletting",
+                                "target_lang_sense_clarification": "act of renting out a property held under a lease"
+                            },
+                            {
+                                "target_lang_word": "sublease",
+                                "target_lang_sense_clarification": "legal agreement to rent from a tenant"
+                            }
+                        ]
+                    }
                 }
             ]
         }

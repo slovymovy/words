@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Втулка <w>протачивается</w> изнутри для обеспечения плотной посадки на вал."
+                            "text": "Втулка <w>протачивается</w> изнутри для обеспечения плотной посадки на вал.",
+                            "target_lang_translations": {
+                                "en": "The bushing <w>is turned</w> on the inside to ensure a tight fit on the shaft."
+                            }
                         },
                         {
-                            "text": "Мягкая порода камня легко <w>протачивается</w> водой, образуя глубокие русла."
+                            "text": "Мягкая порода камня легко <w>протачивается</w> водой, образуя глубокие русла.",
+                            "target_lang_translations": {
+                                "en": "Soft rock <w>is</w> easily <w>worn through</w> by water, forming deep channels."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,29 @@
                         "деталь протачивается",
                         "паз протачивается"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "в значении обработки на станке"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To be processed on a lathe (turned) or to be worn/eaten through by friction, water, or insects."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "be turned",
+                                "target_lang_sense_clarification": "machining on a lathe"
+                            },
+                            {
+                                "target_lang_word": "be machined",
+                                "target_lang_sense_clarification": "mechanical processing"
+                            },
+                            {
+                                "target_lang_word": "be worn through",
+                                "target_lang_sense_clarification": "by friction or water"
+                            },
+                            {
+                                "target_lang_word": "be eaten through",
+                                "target_lang_sense_clarification": "by insects or corrosion"
+                            }
+                        ]
+                    }
                 }
             ]
         }

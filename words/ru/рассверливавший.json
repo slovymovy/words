@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Мастер, <w>рассверливавший</w> отверстие в стене, надел защитные очки."
+                            "text": "Мастер, <w>рассверливавший</w> отверстие в стене, надел защитные очки.",
+                            "target_lang_translations": {
+                                "en": "The craftsman <w>boring out</w> the hole in the wall put on safety glasses."
+                            }
                         },
                         {
-                            "text": "Станок, <w>рассверливавший</w> металлическую деталь, внезапно остановился из-за перегрева."
+                            "text": "Станок, <w>рассверливавший</w> металлическую деталь, внезапно остановился из-за перегрева.",
+                            "target_lang_translations": {
+                                "en": "The machine <w>reaming</w> the metal part suddenly stopped due to overheating."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,12 +44,27 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "machining context"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Enlarging an existing hole using a drill or other tool."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "boring out",
+                                "target_lang_sense_clarification": "enlarging a hole"
+                            },
+                            {
+                                "target_lang_word": "reaming",
+                                "target_lang_sense_clarification": "technical; enlarging or smoothing a hole"
+                            },
+                            {
+                                "target_lang_word": "drilling out",
+                                "target_lang_sense_clarification": "widening by drilling"
+                            }
+                        ]
+                    }
                 }
             ]
         }

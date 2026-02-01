@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In de oven wordt het ijzer uit het ruwe erts <w>uitgesmolten</w>."
+                            "text": "In de oven wordt het ijzer uit het ruwe erts <w>uitgesmolten</w>.",
+                            "target_lang_translations": {
+                                "en": "In the furnace, the iron is <w>smelted</w> from the raw ore.",
+                                "ru": "В печи из сырой руды <w>выплавляется</w> железо."
+                            }
                         },
                         {
-                            "text": "Je moet het spek langzaam <w>uitsmelten</w> zodat het vet vrijkomt zonder te verbranden."
+                            "text": "Je moet het spek langzaam <w>uitsmelten</w> zodat het vet vrijkomt zonder te verbranden.",
+                            "target_lang_translations": {
+                                "en": "You must slowly <w>render</w> the bacon so the fat releases without burning.",
+                                "ru": "Нужно медленно <w>вытапливать</w> сало, чтобы жир выделился и не пригорел."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,36 @@
                     "common_phrases": [
                         "vet uitsmelten"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "metallurgie"
-                        },
-                        {
-                            "trait_type": "culinary",
-                            "comment": "bereiding van vet"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To liquefy a substance by heating in order to extract or separate it, such as metal from ore or fat from meat.",
+                        "ru": "Превращать вещество в жидкость путем нагревания для его извлечения или отделения от других веществ (например, металла из руды или жира из мяса)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "render",
+                                "target_lang_sense_clarification": "to extract fat by melting"
+                            },
+                            {
+                                "target_lang_word": "smelt",
+                                "target_lang_sense_clarification": "to extract metal from ore"
+                            },
+                            {
+                                "target_lang_word": "melt out",
+                                "target_lang_sense_clarification": "literal translation, general use"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "выплавлять",
+                                "target_lang_sense_clarification": "металл из руды"
+                            },
+                            {
+                                "target_lang_word": "вытапливать",
+                                "target_lang_sense_clarification": "жир"
+                            }
+                        ]
+                    }
                 }
             ]
         }

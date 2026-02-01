@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В комплект входит запасная <w>аккумуляторная</w> батарея."
+                            "text": "В комплект входит запасная <w>аккумуляторная</w> батарея.",
+                            "target_lang_translations": {
+                                "en": "The kit includes a spare <w>rechargeable</w> battery."
+                            }
                         },
                         {
-                            "text": "Для работы на даче отец купил новый <w>аккумуляторный</w> шуруповёрт."
+                            "text": "Для работы на даче отец купил новый <w>аккумуляторный</w> шуруповёрт.",
+                            "target_lang_translations": {
+                                "en": "For work at the dacha, father bought a new <w>cordless</w> screwdriver."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -34,12 +40,25 @@
                         "аккумуляторная кислота",
                         "аккумуляторный шуруповёрт"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "используется в техническом контексте"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to a battery, powered by a battery, or intended for a battery."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "battery",
+                                "target_lang_sense_clarification": "general attribute"
+                            },
+                            {
+                                "target_lang_word": "cordless",
+                                "target_lang_sense_clarification": "for tools and devices"
+                            },
+                            {
+                                "target_lang_word": "rechargeable",
+                                "target_lang_sense_clarification": "referring to the battery type"
+                            }
+                        ]
+                    }
                 }
             ]
         }

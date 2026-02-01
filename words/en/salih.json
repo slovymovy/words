@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dr. <w>Salih</w> published a groundbreaking paper on renewable energy sources last month."
+                            "text": "Dr. <w>Salih</w> published a groundbreaking paper on renewable energy sources last month.",
+                            "target_lang_translations": {
+                                "ru": "В прошлом месяце доктор <w>Салих</w> опубликовал новаторскую статью о возобновляемых источниках энергии."
+                            }
                         },
                         {
-                            "text": "I met with Ms. <w>Salih</w> yesterday to discuss the details of the contract."
+                            "text": "I met with Ms. <w>Salih</w> yesterday to discuss the details of the contract.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я встретился с г-жой <w>Салих</w>, чтобы обсудить детали контракта."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from Arabic"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия арабского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Салих",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

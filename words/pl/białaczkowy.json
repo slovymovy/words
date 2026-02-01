@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W badaniu mikroskopowym wykryto liczne komórki <w>białaczkowe</w>."
+                            "text": "W badaniu mikroskopowym wykryto liczne komórki <w>białaczkowe</w>.",
+                            "target_lang_translations": {
+                                "ru": "При микроскопическом исследовании были обнаружены многочисленные <w>лейкемические</w> клетки."
+                            }
                         },
                         {
-                            "text": "Lekarze starają się zahamować proces <w>białaczkowy</w> u pacjenta."
+                            "text": "Lekarze starają się zahamować proces <w>białaczkowy</w> u pacjenta.",
+                            "target_lang_translations": {
+                                "ru": "Врачи пытаются затормозить <w>лейкемический</w> процесс у пациента."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,12 +33,25 @@
                         "szpik białaczkowy",
                         "naciek białaczkowy"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "связанный с лейкемией (белокровием), относящийся к этому онкологическому заболеванию кроветворной системы"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лейкемический",
+                                "target_lang_sense_clarification": "относящийся к лейкемии"
+                            },
+                            {
+                                "target_lang_word": "лейкозный",
+                                "target_lang_sense_clarification": "связанный с лейкозом"
+                            },
+                            {
+                                "target_lang_word": "белокровный",
+                                "target_lang_sense_clarification": "устаревший термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

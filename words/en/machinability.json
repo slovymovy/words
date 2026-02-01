@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Engineers chose this specific alloy because of its excellent <w>machinability</w> and durability."
+                            "text": "Engineers chose this specific alloy because of its excellent <w>machinability</w> and durability.",
+                            "target_lang_translations": {
+                                "ru": "Инженеры выбрали этот конкретный сплав из-за его отличной <w>обрабатываемости</w> и долговечности."
+                            }
                         },
                         {
-                            "text": "Adding lead to the steel mixture can significantly improve its <w>machinability</w> rating."
+                            "text": "Adding lead to the steel mixture can significantly improve its <w>machinability</w> rating.",
+                            "target_lang_translations": {
+                                "ru": "Добавление свинца в стальную смесь может значительно улучшить её показатели <w>обрабатываемости</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,17 @@
                         "machinability rating",
                         "improve machinability"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering and manufacturing"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Свойство материала, характеризующее легкость его обработки режущими инструментами на станках."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "обрабатываемость",
+                                "target_lang_sense_clarification": "механическая"
+                            }
+                        ]
+                    }
                 }
             ]
         }

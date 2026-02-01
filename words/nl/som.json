@@ -1,11 +1,10 @@
 {
     "word_family": [
         "opsommen",
-        "opsomming",
+        "optelsom",
+        "geldsom",
         "totaalsom",
-        "koopsom",
         "hoofdsom",
-        "slotsom",
         "sommeren"
     ],
     "entries": [
@@ -14,17 +13,25 @@
             "senses": [
                 {
                     "sense_id": "629f23d1-50f2-39b4-9666-d25e23455820",
-                    "sense_definition": "Een rekenkundige opgave die opgelost moet worden, vaak gebruikt in het onderwijs.",
+                    "sense_definition": "Een rekenkundige opgave die opgelost moet worden, vooral gebruikt in de context van het basisonderwijs.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "math_exercise",
+                    "semantic_group_id": "math_problem",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De kinderen moeten elke dag drie <w>sommen</w> maken in de klas."
+                            "text": "De kinderen moeten elke dag tien <w>sommen</w> maken in de klas.",
+                            "target_lang_translations": {
+                                "ru": "Дети должны решать по десять <w>примеров</w> в классе каждый день.",
+                                "en": "The children have to do ten <w>sums</w> in class every day."
+                            }
                         },
                         {
-                            "text": "Ik snap deze moeilijke <w>som</w> niet, kun je me helpen?"
+                            "text": "Ik vind deze <w>som</w> erg moeilijk om op te lossen.",
+                            "target_lang_translations": {
+                                "ru": "Мне кажется, этот <w>пример</w> очень трудно решить.",
+                                "en": "I find this <w>sum</w> very difficult to solve."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,49 +39,113 @@
                         "opgave"
                     ],
                     "common_phrases": [
-                        "een som maken",
-                        "moeilijke som",
-                        "sommen maken"
-                    ]
+                        "sommen maken",
+                        "een moeilijke som"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Арифметическая задача, которую необходимо решить, особенно в контексте начального образования.",
+                        "en": "An arithmetic problem that needs to be solved, especially used in the context of primary education."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пример",
+                                "target_lang_sense_clarification": "математическое упражнение"
+                            },
+                            {
+                                "target_lang_word": "задача",
+                                "target_lang_sense_clarification": "учебное задание"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "sum",
+                                "target_lang_sense_clarification": "arithmetic exercise"
+                            },
+                            {
+                                "target_lang_word": "math problem",
+                                "target_lang_sense_clarification": "school exercise"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a0a4a392-1044-39fa-9020-29d9e4289156",
-                    "sense_definition": "Het resultaat dat ontstaat na het optellen van twee of meer getallen.",
+                    "sense_definition": "Het getal dat het resultaat is van een optelling van twee of meer getallen.",
                     "learner_level": "A2",
                     "frequency": "High",
                     "semantic_group_id": "math_result",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>som</w> van vijf en drie is acht."
+                            "text": "De <w>som</w> van vijf en drie is acht.",
+                            "target_lang_translations": {
+                                "ru": "<w>Сумма</w> пяти и трех равна восьми.",
+                                "en": "The <w>sum</w> of five and three is eight."
+                            }
                         },
                         {
-                            "text": "Als je alle kosten bij elkaar optelt, is de <w>som</w> erg hoog."
+                            "text": "Kun jij de <w>som</w> van al deze prijzen uitrekenen?",
+                            "target_lang_translations": {
+                                "ru": "Ты можешь посчитать <w>сумму</w> всех этих цен?",
+                                "en": "Can you calculate the <w>sum</w> of all these prices?"
+                            }
                         }
                     ],
                     "synonyms": [
-                        "totaal"
+                        "totaal",
+                        "uitkomst"
                     ],
                     "antonyms": [
                         "verschil"
                     ],
                     "common_phrases": [
                         "de som van"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Число, которое является результатом сложения двух или более чисел.",
+                        "en": "The number that is the result of adding two or more numbers."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "сумма",
+                                "target_lang_sense_clarification": "результат сложения"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "sum",
+                                "target_lang_sense_clarification": "result of addition"
+                            },
+                            {
+                                "target_lang_word": "total",
+                                "target_lang_sense_clarification": "combined amount"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "cd485649-f303-32e7-bac4-3bcf28150db1",
                     "sense_definition": "Een bepaalde hoeveelheid geld.",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "money",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij moest een flinke <w>som</w> betalen voor de reparatie van zijn auto."
+                            "text": "Hij moest een flinke <w>som</w> betalen voor de reparatie van zijn auto.",
+                            "target_lang_translations": {
+                                "ru": "Ему пришлось заплатить значительную <w>сумму</w> за ремонт своей машины.",
+                                "en": "He had to pay a considerable <w>sum</w> for the repair of his car."
+                            }
                         },
                         {
-                            "text": "Zij won een mooie <w>som</w> geld in de loterij."
+                            "text": "Zij heeft een grote <w>som</w> geld gewonnen in de loterij.",
+                            "target_lang_translations": {
+                                "ru": "Она выиграла крупную <w>сумму</w> денег в лотерею.",
+                                "en": "She won a large <w>sum</w> of money in the lottery."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -82,53 +153,79 @@
                         "geldbedrag"
                     ],
                     "common_phrases": [
-                        "een grote som geld",
-                        "een som betalen"
-                    ]
+                        "een grote som",
+                        "een som geld"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Определенное количество денег.",
+                        "en": "A certain quantity of money."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "сумма",
+                                "target_lang_sense_clarification": "денежная"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "sum",
+                                "target_lang_sense_clarification": "quantity of money"
+                            },
+                            {
+                                "target_lang_word": "amount",
+                                "target_lang_sense_clarification": "monetary value"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "901fb9ca-06d0-3846-bc58-526af821ff27",
-                    "sense_definition": "De officiële munteenheid van Oezbekistan.",
+                    "sense_definition": "De officiële munteenheid van Oezbekistan en Kirgizië.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
                     "semantic_group_id": "currency",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In Tasjkent kun je overal betalen met de Oezbeekse <w>som</w>."
+                            "text": "Tijdens mijn reis door Oezbekistan betaalde ik alles met de <w>som</w>.",
+                            "target_lang_translations": {
+                                "ru": "Во время путешествия по Узбекистану я платил за всё <w>сомами</w>.",
+                                "en": "During my trip through Uzbekistan, I paid for everything with the <w>som</w>."
+                            }
                         },
                         {
-                            "text": "Hoeveel is duizend <w>som</w> waard in euro's?"
+                            "text": "Heb jij nog wat Kirgizische <w>som</w> over van je vakantie?",
+                            "target_lang_translations": {
+                                "ru": "У тебя остались кыргызские <w>сомы</w> после отпуска?",
+                                "en": "Do you have any Kyrgyz <w>som</w> left from your vacation?"
+                            }
                         }
                     ],
                     "traits": [
                         {
                             "trait_type": "regional",
-                            "comment": "Oezbekistan"
-                        }
-                    ]
-                },
-                {
-                    "sense_id": "ece30fa7-7e4c-3f04-9844-26148038923d",
-                    "sense_definition": "De officiële munteenheid van Kirgizië.",
-                    "learner_level": "C2",
-                    "frequency": "VeryLow",
-                    "semantic_group_id": "currency",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Heb je nog wat Kirgizische <w>som</w> over van je vakantie?"
-                        },
-                        {
-                            "text": "De wisselkoers van de <w>som</w> is vandaag veranderd."
+                            "comment": "Central Asia"
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "regional",
-                            "comment": "Kirgizië"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Официальная валюта Узбекистана и Кыргызстана.",
+                        "en": "The official currency of Uzbekistan and Kyrgyzstan."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "сом",
+                                "target_lang_sense_clarification": "валюта"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "som",
+                                "target_lang_sense_clarification": "currency unit"
+                            }
+                        ]
+                    }
                 }
             ]
         }

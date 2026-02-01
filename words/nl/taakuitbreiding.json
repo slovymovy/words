@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De werknemers vragen om een hoger salaris vanwege de recente <w>taakuitbreiding</w>."
+                            "text": "De werknemers vragen om een hoger salaris vanwege de recente <w>taakuitbreiding</w>.",
+                            "target_lang_translations": {
+                                "en": "The employees are asking for a higher salary due to the recent <w>job enlargement</w>.",
+                                "ru": "Сотрудники просят повышения зарплаты из-за недавнего <w>расширения круга обязанностей</w>."
+                            }
                         },
                         {
-                            "text": "Een structurele <w>taakuitbreiding</w> kan leiden tot meer werkdruk op de afdeling."
+                            "text": "Een structurele <w>taakuitbreiding</w> kan leiden tot meer werkdruk op de afdeling.",
+                            "target_lang_translations": {
+                                "en": "A structural <w>expansion of tasks</w> can lead to more work pressure in the department.",
+                                "ru": "Структурное <w>расширение задач</w> может привести к увеличению рабочей нагрузки в отделе."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,16 +43,32 @@
                         "tijdelijke taakuitbreiding",
                         "taakuitbreiding en taakverrijking"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "human resources context"
-                        },
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The increase in the number of tasks or responsibilities that someone must perform within their current position.",
+                        "ru": "Увеличение количества задач или обязанностей, которые сотрудник должен выполнять в рамках своей текущей должности."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "job enlargement",
+                                "target_lang_sense_clarification": "HR term for adding more tasks at the same level"
+                            },
+                            {
+                                "target_lang_word": "task expansion",
+                                "target_lang_sense_clarification": "general increase in duties"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "расширение круга обязанностей",
+                                "target_lang_sense_clarification": "формальное описание увеличения задач"
+                            },
+                            {
+                                "target_lang_word": "расширение функционала",
+                                "target_lang_sense_clarification": "деловой термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

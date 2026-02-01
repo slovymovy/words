@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Hinson</w> has been working as the head of the department for over ten years."
+                            "text": "Mr. <w>Hinson</w> has been working as the head of the department for over ten years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Хинсон</w> работает начальником отдела уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "The <w>Hinson</w> family decided to donate a large sum of money to the local library."
+                            "text": "The <w>Hinson</w> family decided to donate a large sum of money to the local library.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Хинсон</w> решила пожертвовать крупную сумму денег местной библиотеке."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Хинсон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

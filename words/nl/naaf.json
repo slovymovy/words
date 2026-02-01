@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De spaken verbinden de <w>naaf</w> met de velg van een fietswiel."
+                            "text": "De spaken verbinden de <w>naaf</w> met de velg van een fietswiel.",
+                            "target_lang_translations": {
+                                "ru": "Спицы соединяют <w>втулку</w> с ободом велосипедного колеса.",
+                                "en": "The spokes connect the <w>hub</w> to the rim of a bicycle wheel."
+                            }
                         },
                         {
-                            "text": "Bij deze fiets zit de versnelling in de achterste <w>naaf</w> verwerkt."
+                            "text": "Bij deze fiets zit de versnelling in de achterste <w>naaf</w> verwerkt.",
+                            "target_lang_translations": {
+                                "ru": "У этого велосипеда переключение передач встроено в заднюю <w>втулку</w>.",
+                                "en": "On this bike, the gears are integrated into the rear <w>hub</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,28 @@
                         "naaf van het wiel",
                         "versnellingsnaaf"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "mechanica en fietsonderdelen"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Центральная часть колеса, через которую проходит ось и к которой крепятся спицы.",
+                        "en": "The central part of a wheel through which the axle passes and to which the spokes are attached."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "втулка",
+                                "target_lang_sense_clarification": "велосипедная или техническая деталь"
+                            },
+                            {
+                                "target_lang_word": "ступица",
+                                "target_lang_sense_clarification": "центральная часть колеса"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "hub",
+                                "target_lang_sense_clarification": "central part of a wheel"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De patiënt moet drie keer per week naar het ziekenhuis voor <w>hemodialyse</w>."
+                            "text": "De patiënt moet drie keer per week naar het ziekenhuis voor <w>hemodialyse</w>.",
+                            "target_lang_translations": {
+                                "en": "The patient has to go to the hospital three times a week for <w>hemodialysis</w>.",
+                                "ru": "Пациент должен ездить в больницу три раза в неделю на <w>гемодиализ</w>."
+                            }
                         },
                         {
-                            "text": "Omdat zijn nieren niet meer goed functioneren, moet hij een behandeling met <w>hemodialyse</w> ondergaan."
+                            "text": "Omdat zijn nieren niet meer goed functioneren, moet hij een behandeling met <w>hemodialyse</w> ondergaan.",
+                            "target_lang_translations": {
+                                "en": "Because his kidneys no longer function properly, he has to undergo <w>hemodialysis</w> treatment.",
+                                "ru": "Так как его почки больше не функционируют должным образом, ему необходимо проходить лечение <w>гемодиализом</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,28 @@
                         "hemodialyse ondergaan",
                         "chronische hemodialyse"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Blood purification by means of an artificial kidney.",
+                        "ru": "Очищение крови с помощью искусственной почки, почечный диализ."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "hemodialysis",
+                                "target_lang_sense_clarification": "medical procedure"
+                            },
+                            {
+                                "target_lang_word": "haemodialysis",
+                                "target_lang_sense_clarification": "medical procedure (UK spelling)"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "гемодиализ",
+                                "target_lang_sense_clarification": "медицинская процедура"
+                            }
+                        ]
+                    }
                 }
             ]
         }

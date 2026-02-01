@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The ancient chronicles mention a <w>cloisterer</w> who painted beautiful frescoes in the chapel."
+                            "text": "The ancient chronicles mention a <w>cloisterer</w> who painted beautiful frescoes in the chapel.",
+                            "target_lang_translations": {
+                                "ru": "В древних хрониках упоминается <w>насельник</w>, который написал прекрасные фрески в часовне."
+                            }
                         },
                         {
-                            "text": "He lived like a <w>cloisterer</w>, rarely leaving his room and avoiding all visitors."
+                            "text": "He lived like a <w>cloisterer</w>, rarely leaving his room and avoiding all visitors.",
+                            "target_lang_translations": {
+                                "ru": "Он жил как <w>затворник</w>, редко выходя из своей комнаты и избегая любых посетителей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,25 @@
                         "nun",
                         "cenobite"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "rare",
-                            "comment": "This term is infrequently used in modern English compared to specific terms like monk or nun."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Человек, живущий в монастыре (монах или монахиня), или тот, кто ведет замкнутый, уединенный образ жизни."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "затворник",
+                                "target_lang_sense_clarification": "человек, живущий в уединении"
+                            },
+                            {
+                                "target_lang_word": "насельник",
+                                "target_lang_sense_clarification": "обитатель монастыря (церковный термин)"
+                            },
+                            {
+                                "target_lang_word": "обитатель монастыря",
+                                "target_lang_sense_clarification": "буквальное значение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

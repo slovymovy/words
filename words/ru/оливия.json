@@ -16,18 +16,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Мою лучшую подругу зовут <w>Оливия</w>."
+                            "text": "Мою лучшую подругу зовут <w>Оливия</w>.",
+                            "target_lang_translations": {
+                                "en": "My best friend's name is <w>Olivia</w>."
+                            }
                         },
                         {
-                            "text": "<w>Оливия</w> живёт в большом красивом доме."
+                            "text": "<w>Оливия</w> живёт в большом красивом доме.",
+                            "target_lang_translations": {
+                                "en": "<w>Olivia</w> lives in a big beautiful house."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A female given name."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Olivia",
+                                "target_lang_sense_clarification": "female name"
+                            }
+                        ]
+                    }
                 }
             ]
         }

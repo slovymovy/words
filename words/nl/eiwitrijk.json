@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het is goed om <w>eiwitrijk</w> voedsel te eten."
+                            "text": "Het is goed om <w>eiwitrijk</w> voedsel te eten.",
+                            "target_lang_translations": {
+                                "en": "It is good to eat <w>protein-rich</w> food.",
+                                "ru": "Полезно есть пищу, <w>богатую белком</w>."
+                            }
                         },
                         {
-                            "text": "Kwark is een goedkoop en <w>eiwitrijk</w> product."
+                            "text": "Kwark is een goedkoop en <w>eiwitrijk</w> product.",
+                            "target_lang_translations": {
+                                "en": "Quark is a cheap and <w>high-protein</w> product.",
+                                "ru": "Творог — это недорогой и <w>богатый белком</w> продукт."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +40,33 @@
                         "eiwitrijk dieet",
                         "eiwitrijk voedsel",
                         "eiwitrijke voeding"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Containing a large amount of protein.",
+                        "ru": "Содержащий большое количество белка."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "protein-rich",
+                                "target_lang_sense_clarification": "containing a lot of protein"
+                            },
+                            {
+                                "target_lang_word": "high-protein",
+                                "target_lang_sense_clarification": "having a high protein content"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "богатый белком",
+                                "target_lang_sense_clarification": "о продуктах питания"
+                            },
+                            {
+                                "target_lang_word": "высокобелковый",
+                                "target_lang_sense_clarification": "термин диетологии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

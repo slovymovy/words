@@ -22,10 +22,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Урожай семян этого сорта был высоким, а <w>масличность</w> достигала рекордных показателей."
+                            "text": "Урожай семян этого сорта был высоким, а <w>масличность</w> достигала рекордных показателей.",
+                            "target_lang_translations": {
+                                "en": "The seed yield of this variety was high, and the <w>oil content</w> reached record levels."
+                            }
                         },
                         {
-                            "text": "Фермеры стремятся выбирать культуры, у которых высокая <w>масличность</w> сочетается с устойчивостью к болезням."
+                            "text": "Фермеры стремятся выбирать культуры, у которых высокая <w>масличность</w> сочетается с устойчивостью к болезням.",
+                            "target_lang_translations": {
+                                "en": "Farmers strive to choose crops where high <w>oil content</w> is combined with disease resistance."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -34,16 +40,17 @@
                         "повышение масличности",
                         "масличность подсолнечника"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "сельское хозяйство"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The amount of oil contained in seeds, fruits, or other plant parts, usually expressed as a percentage."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "oil content",
+                                "target_lang_sense_clarification": "percentage of oil in seeds or plants"
+                            }
+                        ]
+                    }
                 }
             ]
         }

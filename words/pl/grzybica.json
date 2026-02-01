@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz przepisał mi skuteczną maść na <w>grzybicę</w> stóp."
+                            "text": "Lekarz przepisał mi skuteczną maść na <w>grzybicę</w> stóp.",
+                            "target_lang_translations": {
+                                "ru": "Врач прописал мне эффективную мазь от <w>грибка</w> стоп."
+                            }
                         },
                         {
-                            "text": "Na basenie należy nosić klapki, aby nie zarazić się <w>grzybicą</w>."
+                            "text": "Na basenie należy nosić klapki, aby nie zarazić się <w>grzybicą</w>.",
+                            "target_lang_translations": {
+                                "ru": "В бассейне нужно носить шлепанцы, чтобы не заразиться <w>грибком</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,12 +41,21 @@
                         "grzybica skóry",
                         "leczyć grzybicę"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Инфекционное заболевание, вызываемое микроскопическими грибами."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "грибок",
+                                "target_lang_sense_clarification": "разговорное, общее название"
+                            },
+                            {
+                                "target_lang_word": "микоз",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

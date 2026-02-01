@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот старый <w>бескомпрессорный</w> дизель всё ещё исправно работает на нашем заводе."
+                            "text": "Этот старый <w>бескомпрессорный</w> дизель всё ещё исправно работает на нашем заводе.",
+                            "target_lang_translations": {
+                                "en": "This old <w>compressorless</w> diesel engine is still working properly at our factory."
+                            }
                         },
                         {
-                            "text": "Для снижения шума в лаборатории был установлен специальный <w>бескомпрессорный</w> холодильник."
+                            "text": "Для снижения шума в лаборатории был установлен специальный <w>бескомпрессорный</w> холодильник.",
+                            "target_lang_translations": {
+                                "en": "To reduce noise in the laboratory, a special <w>compressorless</w> refrigerator was installed."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,21 @@
                         "бескомпрессорное охлаждение",
                         "бескомпрессорный впрыск"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "engineering"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Operating without the use of a compressor in its mechanism or function."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "compressorless",
+                                "target_lang_sense_clarification": "general technical term"
+                            },
+                            {
+                                "target_lang_word": "solid-injection",
+                                "target_lang_sense_clarification": "specific to diesel engines"
+                            }
+                        ]
+                    }
                 }
             ]
         }

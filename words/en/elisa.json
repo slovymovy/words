@@ -13,18 +13,29 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I met <w>Elisa</w> at the library yesterday."
+                            "text": "I met <w>Elisa</w> at the library yesterday.",
+                            "target_lang_translations": {
+                                "ru": "Вчера я встретил <w>Элизу</w> в библиотеке."
+                            }
                         },
                         {
-                            "text": "Does <w>Elisa</w> know about the surprise party?"
+                            "text": "Does <w>Elisa</w> know about the surprise party?",
+                            "target_lang_translations": {
+                                "ru": "<w>Элиза</w> знает о вечеринке-сюрпризе?"
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": "female"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Женское имя."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Элиза",
+                                "target_lang_sense_clarification": "женское имя"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "485739b9-3b77-3281-993c-cb4707d645f1",
@@ -35,25 +46,32 @@
                     "name_type": "document_or_program_name",
                     "examples": [
                         {
-                            "text": "The <w>eLISA</w> mission aims to study the universe in unprecedented detail."
+                            "text": "The <w>eLISA</w> mission aims to study the universe in unprecedented detail.",
+                            "target_lang_translations": {
+                                "ru": "Миссия <w>eLISA</w> нацелена на изучение Вселенной с беспрецедентной детализацией."
+                            }
                         },
                         {
-                            "text": "Scientists are preparing complex data models for the upcoming <w>eLISA</w> project."
+                            "text": "Scientists are preparing complex data models for the upcoming <w>eLISA</w> project.",
+                            "target_lang_translations": {
+                                "ru": "Ученые готовят сложные модели данных для предстоящего проекта <w>eLISA</w>."
+                            }
                         }
                     ],
                     "synonyms": [
                         "evolved Laser Interferometer Space Antenna"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "space mission"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "astrophysics"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Предлагаемая космическая миссия, предназначенная для обнаружения и измерения гравитационных волн; аббревиатура от evolved Laser Interferometer Space Antenna."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "eLISA",
+                                "target_lang_sense_clarification": "название космической миссии"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -69,10 +87,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor ordered an <w>ELISA</w> to confirm the presence of the infection."
+                            "text": "The doctor ordered an <w>ELISA</w> to confirm the presence of the infection.",
+                            "target_lang_translations": {
+                                "ru": "Врач назначил <w>ИФА</w> для подтверждения наличия инфекции."
+                            }
                         },
                         {
-                            "text": "We used an <w>ELISA</w> kit to measure the antibody levels in the sample."
+                            "text": "We used an <w>ELISA</w> kit to measure the antibody levels in the sample.",
+                            "target_lang_translations": {
+                                "ru": "Мы использовали набор для <w>ИФА</w>, чтобы измерить уровень антител в образце."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -83,16 +107,21 @@
                         "sandwich ELISA",
                         "ELISA kit"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "laboratory technique"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "immunology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Чувствительный лабораторный метод, используемый для обнаружения и количественного определения специфических веществ; иммуноферментный анализ."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ИФА",
+                                "target_lang_sense_clarification": "аббревиатура: иммуноферментный анализ"
+                            },
+                            {
+                                "target_lang_word": "иммуноферментный анализ",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

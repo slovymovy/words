@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Лесник решил <w>подсочить</w> старую березу, чтобы собрать немного весеннего сока."
+                            "text": "Лесник решил <w>подсочить</w> старую березу, чтобы собрать немного весеннего сока.",
+                            "target_lang_translations": {
+                                "en": "The forester decided to <w>tap</w> the old birch tree to collect some spring sap."
+                            }
                         },
                         {
-                            "text": "Рабочие начали <w>подсочить</w> сосны для промышленной добычи живицы."
+                            "text": "Рабочие начали <w>подсочить</w> сосны для промышленной добычи живицы.",
+                            "target_lang_translations": {
+                                "en": "The workers began to <w>tap</w> the pine trees for the industrial extraction of resin."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -30,12 +36,21 @@
                         "подсочить дерево",
                         "подсочить сосну"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "лесоводство"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To make cuts on a tree trunk to collect sap or resin."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "tap",
+                                "target_lang_sense_clarification": "trees for sap"
+                            },
+                            {
+                                "target_lang_word": "gash",
+                                "target_lang_sense_clarification": "make an incision"
+                            }
+                        ]
+                    }
                 }
             ]
         }

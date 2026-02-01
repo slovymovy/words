@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Op het terras in Parijs bestelde ik een <w>croque-monsieur</w> met een glas sinaasappelsap."
+                            "text": "Op het terras in Parijs bestelde ik een <w>croque-monsieur</w> met een glas sinaasappelsap.",
+                            "target_lang_translations": {
+                                "en": "On the terrace in Paris, I ordered a <w>croque monsieur</w> with a glass of orange juice.",
+                                "ru": "На террасе в Париже я заказал <w>крок-месье</w> со стаканом апельсинового сока."
+                            }
                         },
                         {
-                            "text": "Voor de lunch wil ik graag een <w>croque-monsieur</w> eten."
+                            "text": "Voor de lunch wil ik graag een <w>croque-monsieur</w> eten.",
+                            "target_lang_translations": {
+                                "en": "I would like to have a <w>croque monsieur</w> for lunch.",
+                                "ru": "На обед я хотел бы съесть <w>крок-месье</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +38,32 @@
                         "een croque-monsieur bestellen",
                         "een croque-monsieur maken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "gerecht"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A toasted sandwich with ham and cheese.",
+                        "ru": "Горячий бутерброд с ветчиной и сыром."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "croque monsieur",
+                                "target_lang_sense_clarification": "French toasted sandwich"
+                            },
+                            {
+                                "target_lang_word": "toasted ham and cheese sandwich",
+                                "target_lang_sense_clarification": "descriptive"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "крок-месье",
+                                "target_lang_sense_clarification": "название блюда"
+                            },
+                            {
+                                "target_lang_word": "горячий бутерброд с ветчиной и сыром",
+                                "target_lang_sense_clarification": "описание"
+                            }
+                        ]
+                    }
                 }
             ]
         }

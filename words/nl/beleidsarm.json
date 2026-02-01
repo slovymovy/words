@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Het demissionaire kabinet heeft besloten een <w>beleidsarme</w> begroting in te dienen."
+                            "text": "Het demissionaire kabinet heeft besloten een <w>beleidsarme</w> begroting in te dienen.",
+                            "target_lang_translations": {
+                                "ru": "Временное правительство решило представить <w>технический</w> бюджет.",
+                                "en": "The caretaker cabinet has decided to submit a <w>policy-poor</w> budget."
+                            }
                         },
                         {
-                            "text": "In deze <w>beleidsarme</w> periode worden er geen controversiële beslissingen genomen."
+                            "text": "In deze <w>beleidsarme</w> periode worden er geen controversiële beslissingen genomen.",
+                            "target_lang_translations": {
+                                "ru": "В этот период <w>без новых политических инициатив</w> не принимается никаких спорных решений.",
+                                "en": "In this <w>low-policy</w> period, no controversial decisions are made."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,16 +40,36 @@
                         "beleidsarme begroting",
                         "beleidsarme periode"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "used in government contexts"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "politics and public administration"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Характеризующийся отсутствием или минимумом новых политических планов или мер; часто используется для описания бюджета или периода, когда не проводятся значительные политические изменения.",
+                        "en": "Characterized by few or no new policy plans or measures, often used to describe a budget or period in which no major political changes are implemented."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "технический",
+                                "target_lang_sense_clarification": "о бюджете: поддерживающий текущее состояние без нововведений"
+                            },
+                            {
+                                "target_lang_word": "лишенный новых инициатив",
+                                "target_lang_sense_clarification": "описательный перевод"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "policy-poor",
+                                "target_lang_sense_clarification": "containing few new policy initiatives; often regarding a budget"
+                            },
+                            {
+                                "target_lang_word": "low-policy",
+                                "target_lang_sense_clarification": "involving minimal new policy making"
+                            },
+                            {
+                                "target_lang_word": "devoid of new policy",
+                                "target_lang_sense_clarification": "descriptive translation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

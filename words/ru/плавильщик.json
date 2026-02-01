@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Опытный <w>плавильщик</w> внимательно следит за температурой в печи."
+                            "text": "Опытный <w>плавильщик</w> внимательно следит за температурой в печи.",
+                            "target_lang_translations": {
+                                "en": "The experienced <w>smelter</w> carefully monitors the temperature in the furnace."
+                            }
                         },
                         {
-                            "text": "Каждый <w>плавильщик</w> в цехе обязан носить специальную защитную одежду."
+                            "text": "Каждый <w>плавильщик</w> в цехе обязан носить специальную защитную одежду.",
+                            "target_lang_translations": {
+                                "en": "Every <w>smelter</w> in the workshop is required to wear special protective clothing."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,12 +37,25 @@
                         "работа плавильщика",
                         "бригада плавильщиков"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "occupation"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A worker or specialist engaged in the melting or smelting of metals."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "smelter",
+                                "target_lang_sense_clarification": "worker who extracts metal from ore"
+                            },
+                            {
+                                "target_lang_word": "melter",
+                                "target_lang_sense_clarification": "worker who operates a melting furnace"
+                            },
+                            {
+                                "target_lang_word": "furnaceman",
+                                "target_lang_sense_clarification": "worker in charge of a furnace"
+                            }
+                        ]
+                    }
                 }
             ]
         }

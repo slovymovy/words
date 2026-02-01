@@ -20,10 +20,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn werkgever betaalt een vaste vergoeding per <w>woon-werkkilometer</w>."
+                            "text": "Mijn werkgever betaalt een vaste vergoeding per <w>woon-werkkilometer</w>.",
+                            "target_lang_translations": {
+                                "en": "My employer pays a fixed allowance per <w>commuting kilometer</w>.",
+                                "ru": "Мой работодатель выплачивает фиксированную компенсацию за каждый <w>километр пути от дома до работы</w>."
+                            }
                         },
                         {
-                            "text": "Voor de belastingaangifte moet je het totaal aantal <w>woon-werkkilometers</w> van het afgelopen jaar weten."
+                            "text": "Voor de belastingaangifte moet je het totaal aantal <w>woon-werkkilometers</w> van het afgelopen jaar weten.",
+                            "target_lang_translations": {
+                                "en": "For the tax return, you need to know the total number of <w>commuting kilometers</w> from the past year.",
+                                "ru": "Для налоговой декларации нужно знать общее количество <w>километров пути от дома до работы</w> за прошлый год."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -31,12 +39,28 @@
                         "aantal woon-werkkilometers",
                         "woon-werkkilometers declareren"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "vooral gebruikt in administratieve en fiscale context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The distance in kilometers traveled between one's home and workplace, often used to calculate travel allowances.",
+                        "ru": "Расстояние в километрах между домом и местом работы, часто используемое для расчета компенсации транспортных расходов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "commuting kilometer",
+                                "target_lang_sense_clarification": "unit of distance for travel between home and work"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "километр пути от дома до работы",
+                                "target_lang_sense_clarification": "единица измерения расстояния при поездках на работу"
+                            },
+                            {
+                                "target_lang_word": "километр между домом и работой",
+                                "target_lang_sense_clarification": "дистанция поездки"
+                            }
+                        ]
+                    }
                 }
             ]
         }

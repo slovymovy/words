@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "I spoke with Mr. <w>Schone</w> regarding the new contract."
+                            "text": "I spoke with Mr. <w>Schone</w> regarding the new contract.",
+                            "target_lang_translations": {
+                                "ru": "Я говорил с мистером <w>Шёне</w> по поводу нового контракта."
+                            }
                         },
                         {
-                            "text": "The <w>Schone</w> family has lived in this neighborhood for over fifty years."
+                            "text": "The <w>Schone</w> family has lived in this neighborhood for over fifty years.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Шёне</w> живет в этом районе уже более пятидесяти лет."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "from German"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия немецкого происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Шёне",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

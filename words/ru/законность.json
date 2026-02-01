@@ -3,10 +3,9 @@
         "закон",
         "законный",
         "незаконный",
+        "беззаконие",
         "узаконить",
         "законодательство",
-        "законодатель",
-        "беззаконие",
         "правозаконность"
     ],
     "entries": [
@@ -15,17 +14,23 @@
             "senses": [
                 {
                     "sense_id": "2e882b5e-02fb-3965-8959-c39692e6fdce",
-                    "sense_definition": "Свойство по значению прилагательного <w>законный</w>; соответствие действующим законам и правовым нормам.",
+                    "sense_definition": "Соответствие чего-либо действующим законам и правовым нормам.",
                     "learner_level": "B2",
                     "frequency": "High",
-                    "semantic_group_id": "quality",
+                    "semantic_group_id": "legality_quality",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Суд подтвердил <w>законность</w> принятого решения после долгого разбирательства."
+                            "text": "Суд подтвердил <законность> принятого решения.",
+                            "target_lang_translations": {
+                                "en": "The court confirmed the <legality> of the decision."
+                            }
                         },
                         {
-                            "text": "У комиссии возникли серьёзные сомнения в <w>законности</w> этой финансовой сделки."
+                            "text": "У нас возникли серьёзные сомнения в <законности> этой сделки.",
+                            "target_lang_translations": {
+                                "en": "We had serious doubts about the <legality> of this deal."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -40,23 +45,48 @@
                     "common_phrases": [
                         "законность действий",
                         "проверить законность",
-                        "гарантировать законность",
+                        "законность требований",
                         "законность основания"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The quality or state of being in accordance with applicable laws and legal norms."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "legality",
+                                "target_lang_sense_clarification": "The state of being in accordance with the law"
+                            },
+                            {
+                                "target_lang_word": "lawfulness",
+                                "target_lang_sense_clarification": "The quality of being allowed or sanctioned by law"
+                            },
+                            {
+                                "target_lang_word": "validity",
+                                "target_lang_sense_clarification": "Legal acceptability or force"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "8486a1d9-4b51-348e-869f-39db130fcb9b",
-                    "sense_definition": "Неукоснительное соблюдение законов; общественно-политическое положение, при котором жизнь общества охраняется законами.",
+                    "sense_definition": "Строгое и неуклонное соблюдение законов государством, должностными лицами и гражданами; правопорядок.",
                     "learner_level": "C1",
                     "frequency": "Middle",
-                    "semantic_group_id": "regime",
+                    "semantic_group_id": "rule_of_law",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Генеральный прокурор призвал усилить надзор за соблюдением <w>законности</w> в регионе."
+                            "text": "Прокуратура обязана следить за соблюдением <законности> на всей территории страны.",
+                            "target_lang_translations": {
+                                "en": "The prosecutor's office is obliged to monitor the observance of <legality> throughout the country."
+                            }
                         },
                         {
-                            "text": "Восстановление <w>законности</w> и порядка стало главной целью нового правительства."
+                            "text": "Восстановление <законности> и порядка стало главной целью нового правительства.",
+                            "target_lang_translations": {
+                                "en": "Restoring <law> and order became the main goal of the new government."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -68,16 +98,29 @@
                     ],
                     "common_phrases": [
                         "соблюдение законности",
-                        "укрепление законности",
                         "нарушение законности",
-                        "режим законности"
+                        "укрепление законности",
+                        "принцип законности"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "refers to the principle of rule of law"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Strict and unswerving observance of laws by the state, officials, and citizens; the rule of law."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "rule of law",
+                                "target_lang_sense_clarification": "The principle that all people and institutions are subject to and accountable to law"
+                            },
+                            {
+                                "target_lang_word": "legality",
+                                "target_lang_sense_clarification": "Strict adherence to the law within a society"
+                            },
+                            {
+                                "target_lang_word": "law and order",
+                                "target_lang_sense_clarification": "A situation characterized by respect for and obedience to the rules of a society"
+                            }
+                        ]
+                    }
                 }
             ]
         }

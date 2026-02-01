@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Met de <w>meetklok</w> wordt het oppervlak van het werkstuk nauwkeurig afgetast."
+                            "text": "Met de <w>meetklok</w> wordt het oppervlak van het werkstuk nauwkeurig afgetast.",
+                            "target_lang_translations": {
+                                "en": "The surface of the workpiece is accurately probed with the <w>dial indicator</w>.",
+                                "ru": "С помощью <w>индикатора часового типа</w> точно проверяется поверхность заготовки."
+                            }
                         },
                         {
-                            "text": "De monteur moet de <w>meetklok</w> instellen om de slingering van de as te kunnen controleren."
+                            "text": "De monteur moet de <w>meetklok</w> instellen om de slingering van de as te kunnen controleren.",
+                            "target_lang_translations": {
+                                "en": "The mechanic must set up the <w>dial indicator</w> to check the runout of the shaft.",
+                                "ru": "Механик должен настроить <w>индикатор часового типа</w> для проверки биения вала."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "de meetklok aflezen",
                         "de meetklok instellen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "werktuigbouwkunde"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A measuring instrument with a round dial and a probe, used to accurately measure very small distances, height differences, or deviations in flatness.",
+                        "ru": "Измерительный прибор с круглым циферблатом и щупом, используемый для точного измерения очень малых расстояний, перепадов высот или отклонений от плоскостности."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "dial indicator",
+                                "target_lang_sense_clarification": "precision measuring tool"
+                            },
+                            {
+                                "target_lang_word": "dial gauge",
+                                "target_lang_sense_clarification": "alternative term"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "индикатор часового типа",
+                                "target_lang_sense_clarification": "измерительный прибор"
+                            },
+                            {
+                                "target_lang_word": "стрелочный индикатор",
+                                "target_lang_sense_clarification": "тип прибора"
+                            }
+                        ]
+                    }
                 }
             ]
         }

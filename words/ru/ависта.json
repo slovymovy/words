@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Вексель <w>ависта</w> был предъявлен банку для немедленного погашения."
+                            "text": "Вексель <w>ависта</w> был предъявлен банку для немедленного погашения.",
+                            "target_lang_translations": {
+                                "en": "The <w>sight</w> draft was presented to the bank for immediate redemption."
+                            }
                         },
                         {
-                            "text": "На документе стояла пометка <w>ависта</w>, обязывающая должника платить сразу."
+                            "text": "На документе стояла пометка <w>ависта</w>, обязывающая должника платить сразу.",
+                            "target_lang_translations": {
+                                "en": "The document bore an <w>at sight</w> notation, obliging the debtor to pay immediately."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -24,16 +30,21 @@
                         "счет ависта",
                         "курс ависта"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "финансы"
-                        },
-                        {
-                            "trait_type": "specialized",
-                            "comment": "банковское дело"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A special inscription on a bill of exchange or other financial document indicating that payment must be made immediately upon presentation."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "at sight",
+                                "target_lang_sense_clarification": "financial term indicating payment upon presentation"
+                            },
+                            {
+                                "target_lang_word": "on demand",
+                                "target_lang_sense_clarification": "payable immediately"
+                            }
+                        ]
+                    }
                 }
             ]
         }

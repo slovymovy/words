@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач объяснил, что холестериновая <бляшка> мешает нормальному кровотоку."
+                            "text": "Врач объяснил, что холестериновая <бляшка> мешает нормальному кровотоку.",
+                            "target_lang_translations": {
+                                "en": "The doctor explained that a cholesterol <w>plaque</w> interferes with normal blood flow."
+                            }
                         },
                         {
-                            "text": "Зубная <бляшка> образуется из бактерий и остатков пищи, если плохо чистить зубы."
+                            "text": "Зубная <бляшка> образуется из бактерий и остатков пищи, если плохо чистить зубы.",
+                            "target_lang_translations": {
+                                "en": "Dental <w>plaque</w> forms from bacteria and food residue if teeth are not brushed well."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,17 @@
                         "зубная бляшка",
                         "псориатическая бляшка"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "used in contexts regarding health, anatomy, and pathology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A dense formation or deposit on the walls of blood vessels, skin, tooth enamel, or other body tissues."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "plaque",
+                                "target_lang_sense_clarification": "medical or dental deposit"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4ee1543c-3a25-301e-a166-6e2638304b7d",
@@ -48,10 +59,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На ошейнике собаки блестела металлическая <бляшка> с выгравированным именем."
+                            "text": "На ошейнике собаки блестела металлическая <бляшка> с выгравированным именем.",
+                            "target_lang_translations": {
+                                "en": "A metal <w>tag</w> with an engraved name gleamed on the dog's collar."
+                            }
                         },
                         {
-                            "text": "Он носил ремень, на котором была простая медная <бляшка>."
+                            "text": "Он носил ремень, на котором была простая медная <бляшка>.",
+                            "target_lang_translations": {
+                                "en": "He wore a belt that had a simple copper <w>buckle</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -61,7 +78,26 @@
                     "common_phrases": [
                         "металлическая бляшка",
                         "медная бляшка"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A small metal plate used as an ornament, badge, or part of a fastener."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "plate",
+                                "target_lang_sense_clarification": "small piece of metal"
+                            },
+                            {
+                                "target_lang_word": "tag",
+                                "target_lang_sense_clarification": "identification label"
+                            },
+                            {
+                                "target_lang_word": "buckle",
+                                "target_lang_sense_clarification": "on a belt"
+                            }
+                        ]
+                    }
                 }
             ]
         }

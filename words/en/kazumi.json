@@ -13,22 +13,35 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "My friend <w>Kazumi</w> is visiting from Tokyo next week."
+                            "text": "My friend <w>Kazumi</w> is visiting from Tokyo next week.",
+                            "target_lang_translations": {
+                                "ru": "Мой друг <w>Кадзуми</w> приезжает из Токио на следующей неделе."
+                            }
                         },
                         {
-                            "text": "It can be difficult to guess the gender of someone named <w>Kazumi</w> without seeing the characters used to write it."
+                            "text": "It can be difficult to guess the gender of someone named <w>Kazumi</w> without seeing the characters used to write it.",
+                            "target_lang_translations": {
+                                "ru": "Бывает трудно определить пол человека по имени <w>Кадзуми</w>, не видя иероглифов, которыми оно записано."
+                            }
                         }
                     ],
                     "traits": [
                         {
-                            "trait_type": "given_name",
-                            "comment": "unisex"
-                        },
-                        {
                             "trait_type": "regional",
                             "comment": "Japanese"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Японское имя, которое может быть как мужским, так и женским."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Кадзуми",
+                                "target_lang_sense_clarification": "японское имя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

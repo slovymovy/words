@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "We invited the <w>Stunkard</w> family to the neighborhood barbecue."
+                            "text": "We invited the <w>Stunkard</w> family to the neighborhood barbecue.",
+                            "target_lang_translations": {
+                                "ru": "Мы пригласили семью <w>Станкардов</w> на соседское барбекю."
+                            }
                         },
                         {
-                            "text": "Dr. <w>Stunkard</w> is known for his research in the medical field."
+                            "text": "Dr. <w>Stunkard</w> is known for his research in the medical field.",
+                            "target_lang_translations": {
+                                "ru": "Доктор <w>Станкард</w> известен своими исследованиями в области медицины."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Станкард",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

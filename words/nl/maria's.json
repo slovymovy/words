@@ -17,10 +17,18 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Dit is <w>Maria's</w> nieuwe fiets."
+                            "text": "Dit is <w>Maria's</w> nieuwe fiets.",
+                            "target_lang_translations": {
+                                "en": "This is <w>Maria's</w> new bike.",
+                                "ru": "Это новый велосипед <w>Марии</w>."
+                            }
                         },
                         {
-                            "text": "We gaan morgen naar <w>Maria's</w> verjaardagsfeest."
+                            "text": "We gaan morgen naar <w>Maria's</w> verjaardagsfeest.",
+                            "target_lang_translations": {
+                                "en": "We are going to <w>Maria's</w> birthday party tomorrow.",
+                                "ru": "Завтра мы идем на день рождения <w>Марии</w>."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,7 +41,25 @@
                             "trait_type": "form",
                             "comment": "genitive"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "genitive of Maria",
+                        "ru": "Родительный падеж имени Мария, обозначающий принадлежность"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Maria's",
+                                "target_lang_sense_clarification": "possessive form of the name Maria"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Марии",
+                                "target_lang_sense_clarification": "принадлежащий Марии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

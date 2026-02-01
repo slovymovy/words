@@ -16,10 +16,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Please tell Mr. <w>Tomlinson</w> that his appointment is scheduled for tomorrow morning."
+                            "text": "Please tell Mr. <w>Tomlinson</w> that his appointment is scheduled for tomorrow morning.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, передайте мистеру <w>Томлинсону</w>, что его встреча назначена на завтрашнее утро."
+                            }
                         },
                         {
-                            "text": "Sarah <w>Tomlinson</w> wrote an interesting article about local history in the newspaper."
+                            "text": "Sarah <w>Tomlinson</w> wrote an interesting article about local history in the newspaper.",
+                            "target_lang_translations": {
+                                "ru": "Сара <w>Томлинсон</w> написала интересную статью о местной истории в газету."
+                            }
                         }
                     ],
                     "traits": [
@@ -27,7 +33,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия английского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Томлинсон",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

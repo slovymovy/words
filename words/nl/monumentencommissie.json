@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De gemeente vroeg de <w>monumentencommissie</w> om advies over de renovatie van het oude pand."
+                            "text": "De gemeente vroeg de <w>monumentencommissie</w> om advies over de renovatie van het oude pand.",
+                            "target_lang_translations": {
+                                "en": "The municipality asked the <w>monuments committee</w> for advice on the renovation of the old building.",
+                                "ru": "Муниципалитет запросил у <w>комиссии по охране памятников</w> совет по поводу реставрации старого здания."
+                            }
                         },
                         {
-                            "text": "Zonder goedkeuring van de <w>monumentencommissie</w> mag je de gevel niet veranderen."
+                            "text": "Zonder goedkeuring van de <w>monumentencommissie</w> mag je de gevel niet veranderen.",
+                            "target_lang_translations": {
+                                "en": "Without approval from the <w>monuments committee</w>, you are not allowed to change the facade.",
+                                "ru": "Без одобрения <w>комиссии по охране памятников</w> нельзя изменять фасад."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +39,32 @@
                         "advies van de monumentencommissie",
                         "gemeentelijke monumentencommissie"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official committee that advises on the preservation, designation, and management of monuments.",
+                        "ru": "Официальная комиссия, консультирующая по вопросам сохранения, присвоения статуса и управления памятниками."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "monuments committee",
+                                "target_lang_sense_clarification": "Literal translation, specific body advising on monument status"
+                            },
+                            {
+                                "target_lang_word": "heritage committee",
+                                "target_lang_sense_clarification": "Broader term often used for similar advisory bodies"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "комиссия по охране памятников",
+                                "target_lang_sense_clarification": "орган, занимающийся вопросами сохранения культурного наследия"
+                            },
+                            {
+                                "target_lang_word": "комитет по охране памятников",
+                                "target_lang_sense_clarification": "административный орган по защите памятников"
+                            }
+                        ]
+                    }
                 }
             ]
         }

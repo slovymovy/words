@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ze maakte een eenvoudige <w>vinaigrette</w> met olijfolie en citroensap."
+                            "text": "Ze maakte een eenvoudige <w>vinaigrette</w> met olijfolie en citroensap.",
+                            "target_lang_translations": {
+                                "en": "She made a simple <w>vinaigrette</w> with olive oil and lemon juice.",
+                                "ru": "Она приготовила простой <w>соус винегрет</w> из оливкового масла и лимонного сока."
+                            }
                         },
                         {
-                            "text": "Giet de <w>vinaigrette</w> pas vlak voor het serveren over de sla."
+                            "text": "Giet de <w>vinaigrette</w> pas vlak voor het serveren over de sla.",
+                            "target_lang_translations": {
+                                "en": "Pour the <w>vinaigrette</w> over the salad just before serving.",
+                                "ru": "Поливайте салат <w>соусом винегрет</w> только перед самой подачей."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,12 +35,32 @@
                         "frisse vinaigrette",
                         "vinaigrette maken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "used in cooking context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A cold sauce made from oil, vinegar, and herbs, primarily used to season salads.",
+                        "ru": "Холодный соус на основе растительного масла, уксуса и специй, который используется преимущественно для заправки салатов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "vinaigrette",
+                                "target_lang_sense_clarification": "oil and vinegar dressing"
+                            },
+                            {
+                                "target_lang_word": "dressing",
+                                "target_lang_sense_clarification": "sauce for salads"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "соус винегрет",
+                                "target_lang_sense_clarification": "классическая заправка из масла и уксуса"
+                            },
+                            {
+                                "target_lang_word": "заправка",
+                                "target_lang_sense_clarification": "соус для салата"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,26 +15,46 @@
                     "name_type": "technology_or_software_name",
                     "examples": [
                         {
-                            "text": "Gebruik jij <w>Unix</w> of Windows?"
+                            "text": "Gebruik jij <w>Unix</w> of Windows?",
+                            "target_lang_translations": {
+                                "ru": "Ты используешь <w>Unix</w> или Windows?",
+                                "en": "Do you use <w>Unix</w> or Windows?"
+                            }
                         },
                         {
-                            "text": "Veel moderne servers zijn gebaseerd op <w>Unix</w> vanwege de stabiliteit."
+                            "text": "Veel moderne servers zijn gebaseerd op <w>Unix</w> vanwege de stabiliteit.",
+                            "target_lang_translations": {
+                                "ru": "Многие современные серверы основаны на <w>Unix</w> из-за его стабильности.",
+                                "en": "Many modern servers are based on <w>Unix</w> because of its stability."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "op Unix gebaseerd",
                         "Unix besturingssysteem"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "context of operating systems"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "specialized terminology"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Семейство многозадачных компьютерных операционных систем",
+                        "en": "A family of computer operating systems capable of performing multiple tasks simultaneously"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Unix",
+                                "target_lang_sense_clarification": "операционная система"
+                            },
+                            {
+                                "target_lang_word": "Юникс",
+                                "target_lang_sense_clarification": "транслитерация названия"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Unix",
+                                "target_lang_sense_clarification": "operating system"
+                            }
+                        ]
+                    }
                 }
             ]
         }

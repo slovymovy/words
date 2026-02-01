@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врачи поставили пациенту тяжёлый диагноз — <w>белокровие</w>."
+                            "text": "Врачи поставили пациенту тяжёлый диагноз — <w>белокровие</w>.",
+                            "target_lang_translations": {
+                                "en": "The doctors gave the patient a severe diagnosis — <w>leukemia</w>."
+                            }
                         },
                         {
-                            "text": "Раньше <w>белокровие</w> считалось практически неизлечимым заболеванием."
+                            "text": "Раньше <w>белокровие</w> считалось практически неизлечимым заболеванием.",
+                            "target_lang_translations": {
+                                "en": "Previously, <w>leukemia</w> was considered a practically incurable disease."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,12 +36,17 @@
                         "острое белокровие",
                         "лечить белокровие"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "medicine"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A malignant disease of the blood-forming system characterized by impaired division and maturation of blood cells; synonymous with leukemia."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "leukemia",
+                                "target_lang_sense_clarification": "medical condition"
+                            }
+                        ]
+                    }
                 }
             ]
         }

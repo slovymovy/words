@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor identified a serious <w>contraindicant</w> that made the surgery too risky for the patient."
+                            "text": "The doctor identified a serious <w>contraindicant</w> that made the surgery too risky for the patient.",
+                            "target_lang_translations": {
+                                "ru": "Врач выявил серьезное <w>противопоказание</w>, из-за которого операция стала слишком рискованной для пациента."
+                            }
                         },
                         {
-                            "text": "High blood pressure acts as a <w>contraindicant</w> for this specific type of medication."
+                            "text": "High blood pressure acts as a <w>contraindicant</w> for this specific type of medication.",
+                            "target_lang_translations": {
+                                "ru": "Высокое кровяное давление служит <w>противопоказанием</w> для этого конкретного типа лекарств."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,16 +39,17 @@
                         "medical contraindicant",
                         "potential contraindicant"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": "The term 'contraindication' is much more commonly used."
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Фактор, симптом или обстоятельство, служащее основанием для отказа от определенного медицинского лечения или процедуры из-за возможного вреда."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "противопоказание",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

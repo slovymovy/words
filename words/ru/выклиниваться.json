@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Геологи заметили, что угольный пласт на этом участке <w>выклинивается</w>."
+                            "text": "Геологи заметили, что угольный пласт на этом участке <w>выклинивается</w>.",
+                            "target_lang_translations": {
+                                "en": "The geologists noticed that the coal seam <w>pinches out</w> in this area."
+                            }
                         },
                         {
-                            "text": "Рудная жила постепенно <w>выклинивается</w> и уходит вглубь породы."
+                            "text": "Рудная жила постепенно <w>выклинивается</w> и уходит вглубь породы.",
+                            "target_lang_translations": {
+                                "en": "The ore vein gradually <w>wedges out</w> and goes deeper into the rock."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "пласт выклинивается",
                         "жила выклинивается"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "геология"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To gradually narrow, decrease in thickness, and disappear (usually regarding rock layers or ore veins)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pinch out",
+                                "target_lang_sense_clarification": "geology: of a layer or vein"
+                            },
+                            {
+                                "target_lang_word": "wedge out",
+                                "target_lang_sense_clarification": "geology: to become thinner and disappear"
+                            },
+                            {
+                                "target_lang_word": "taper out",
+                                "target_lang_sense_clarification": "to gradually diminish in thickness"
+                            }
+                        ]
+                    }
                 }
             ]
         }

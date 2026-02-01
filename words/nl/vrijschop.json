@@ -19,10 +19,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De scheidsrechter floot voor een overtreding en gaf een <w>vrijschop</w>."
+                            "text": "De scheidsrechter floot voor een overtreding en gaf een <w>vrijschop</w>.",
+                            "target_lang_translations": {
+                                "en": "The referee whistled for a foul and awarded a <w>free kick</w>.",
+                                "ru": "Судья дал свисток из-за нарушения и назначил <w>штрафной удар</w>."
+                            }
                         },
                         {
-                            "text": "Hij scoorde een prachtig doelpunt uit een directe <w>vrijschop</w>."
+                            "text": "Hij scoorde een prachtig doelpunt uit een directe <w>vrijschop</w>.",
+                            "target_lang_translations": {
+                                "en": "He scored a beautiful goal from a direct <w>free kick</w>.",
+                                "ru": "Он забил красивый гол прямым <w>штрафным ударом</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,14 +43,32 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "sport (voetbal)"
-                        },
-                        {
                             "trait_type": "regional",
                             "comment": "vooral in België"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A restart of play in football where a player is allowed to kick the ball unhindered following a foul by the opposing team.",
+                        "ru": "Возобновление игры в футболе, при котором игрок выполняет удар по мячу после нарушения правил командой соперника."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "free kick",
+                                "target_lang_sense_clarification": "football/soccer"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "штрафной удар",
+                                "target_lang_sense_clarification": "наказание за нарушение правил"
+                            },
+                            {
+                                "target_lang_word": "свободный удар",
+                                "target_lang_sense_clarification": "вид удара в футболе"
+                            }
+                        ]
+                    }
                 }
             ]
         }

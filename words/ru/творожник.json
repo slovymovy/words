@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "На завтрак мама часто готовит вкусный <w>творожник</w> со сметаной."
+                            "text": "На завтрак мама часто готовит вкусный <w>творожник</w> со сметаной.",
+                            "target_lang_translations": {
+                                "en": "For breakfast, Mom often makes a delicious <w>curd cake</w> with sour cream."
+                            }
                         },
                         {
-                            "text": "В меню кафе мы нашли домашний <w>творожник</w> с ягодным соусом."
+                            "text": "В меню кафе мы нашли домашний <w>творожник</w> с ягодным соусом.",
+                            "target_lang_translations": {
+                                "en": "We found a homemade <w>cottage cheese casserole</w> with berry sauce on the cafe menu."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +40,25 @@
                         "испечь творожник",
                         "сладкий творожник"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A culinary dish made from cottage cheese mixed with flour and eggs, prepared as a fried cake or a baked pie."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "curd cake",
+                                "target_lang_sense_clarification": "general term for a cake made of cottage cheese"
+                            },
+                            {
+                                "target_lang_word": "cottage cheese casserole",
+                                "target_lang_sense_clarification": "baked version"
+                            },
+                            {
+                                "target_lang_word": "curd fritter",
+                                "target_lang_sense_clarification": "fried version, similar to syrnik"
+                            }
+                        ]
+                    }
                 }
             ]
         }

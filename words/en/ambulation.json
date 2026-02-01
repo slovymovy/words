@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The doctor encouraged early <w>ambulation</w> to speed up the patient's recovery after surgery."
+                            "text": "The doctor encouraged early <w>ambulation</w> to speed up the patient's recovery after surgery.",
+                            "target_lang_translations": {
+                                "ru": "Врач рекомендовал раннюю <w>ходьбу</w>, чтобы ускорить выздоровление пациента после операции."
+                            }
                         },
                         {
-                            "text": "Physical therapy sessions are designed to restore safe and independent <w>ambulation</w>."
+                            "text": "Physical therapy sessions are designed to restore safe and independent <w>ambulation</w>.",
+                            "target_lang_translations": {
+                                "ru": "Сеансы физиотерапии направлены на восстановление безопасного и самостоятельного <w>передвижения</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,16 +41,21 @@
                         "independent ambulation",
                         "assist with ambulation"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "common in healthcare contexts regarding patient mobility"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "used in technical descriptions of movement"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Процесс ходьбы или передвижения, часто используется в медицинском контексте для описания способности пациента ходить."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "передвижение",
+                                "target_lang_sense_clarification": "перемещение в пространстве"
+                            },
+                            {
+                                "target_lang_word": "ходьба",
+                                "target_lang_sense_clarification": "процесс хождения"
+                            }
+                        ]
+                    }
                 }
             ]
         }

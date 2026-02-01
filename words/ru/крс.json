@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Фермерское хозяйство планирует увеличить поголовье <w>КРС</w> в следующем году."
+                            "text": "Фермерское хозяйство планирует увеличить поголовье <w>КРС</w> в следующем году.",
+                            "target_lang_translations": {
+                                "en": "The farm plans to increase its <w>cattle</w> herd next year."
+                            }
                         },
                         {
-                            "text": "Для эффективного разведения <w>КРС</w> требуются просторные пастбища и качественные корма."
+                            "text": "Для эффективного разведения <w>КРС</w> требуются просторные пастбища и качественные корма.",
+                            "target_lang_translations": {
+                                "en": "Effective <w>cattle</w> breeding requires spacious pastures and high-quality feed."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,14 +40,25 @@
                     ],
                     "traits": [
                         {
-                            "trait_type": "specialized",
-                            "comment": "сельское хозяйство"
-                        },
-                        {
                             "trait_type": "form",
                             "comment": "аббревиатура"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Abbreviation for 'large horned livestock'; agricultural animals of the subfamily Bovinae (cows, bulls) that provide meat, milk, and leather."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cattle",
+                                "target_lang_sense_clarification": "large ruminant animals with horns and cloven hoofs, domesticated for meat or milk"
+                            },
+                            {
+                                "target_lang_word": "bovines",
+                                "target_lang_sense_clarification": "technical term for cattle"
+                            }
+                        ]
+                    }
                 }
             ]
         }

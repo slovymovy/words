@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The software engineer analyzed the binary file to identify the specific <w>opcode</w> causing the error."
+                            "text": "The software engineer analyzed the binary file to identify the specific <w>opcode</w> causing the error.",
+                            "target_lang_translations": {
+                                "ru": "Инженер-программист проанализировал двоичный файл, чтобы определить конкретный <w>код операции</w>, вызывающий ошибку."
+                            }
                         },
                         {
-                            "text": "An invalid <w>opcode</w> can cause the system to halt unexpectedly during the boot process."
+                            "text": "An invalid <w>opcode</w> can cause the system to halt unexpectedly during the boot process.",
+                            "target_lang_translations": {
+                                "ru": "Недопустимый <w>код операции</w> может привести к неожиданной остановке системы во время процесса загрузки."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -27,16 +33,21 @@
                         "illegal opcode",
                         "opcode cache"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Часть машинной инструкции, определяющая операцию, которую должен выполнить процессор."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "код операции",
+                                "target_lang_sense_clarification": "технический термин"
+                            },
+                            {
+                                "target_lang_word": "опкод",
+                                "target_lang_sense_clarification": "профессиональный жаргон"
+                            }
+                        ]
+                    }
                 }
             ]
         }

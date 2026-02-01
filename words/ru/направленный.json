@@ -1,63 +1,40 @@
 {
     "word_family": [
+        "направить",
         "направление",
         "направленность",
-        "направитель",
-        "направляющая"
+        "направлять",
+        "целенаправленный",
+        "разнонаправленный",
+        "перенаправить"
     ],
     "entries": [
-        {
-            "pos": "verb",
-            "senses": [
-                {
-                    "sense_id": "c17ec1e0-3ddc-3771-a182-e95eae8ba622",
-                    "sense_definition": "Страдательное причастие прошедшего времени от глагола <w>направить</w>.",
-                    "learner_level": "B1",
-                    "frequency": "High",
-                    "semantic_group_id": "",
-                    "name_type": "no",
-                    "examples": [
-                        {
-                            "text": "Льнов увидел <w>направленный</w> на него ствол ружья и бросился на землю."
-                        },
-                        {
-                            "text": "Весь бюджет, <w>направленный</w> на развитие спорта, был успешно использован."
-                        }
-                    ],
-                    "synonyms": [
-                        "нацеленный",
-                        "обращённый",
-                        "устремлённый"
-                    ],
-                    "common_phrases": [
-                        "направленный на",
-                        "направленный против",
-                        "направленный вверх",
-                        "направленный вниз"
-                    ]
-                }
-            ]
-        },
         {
             "pos": "adjective",
             "senses": [
                 {
                     "sense_id": "db5d5a68-656d-30c0-932f-eb15d126ad8f",
-                    "sense_definition": "Имеющий определённое, чётко заданное направление или цель; сосредоточенный в одном направлении.",
+                    "sense_definition": "Имеющий определённое направление, устремлённый к какой-либо цели или сосредоточенный на чём-либо.",
                     "learner_level": "B2",
-                    "frequency": "Middle",
-                    "semantic_group_id": "",
+                    "frequency": "High",
+                    "semantic_group_id": "1",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Учёным удалось сконцентрировать энергию в мощный <w>направленный</w> луч."
+                            "text": "Казалось несложно — преобразовать энергию в излучение высокой частоты и сконцентрировать её в <w>направленный</w> луч.",
+                            "target_lang_translations": {
+                                "en": "It seemed simple — to convert energy into high-frequency radiation and concentrate it into a <w>directed</w> beam."
+                            }
                         },
                         {
-                            "text": "Только <w>направленный</w> поиск лекарственных средств поможет найти решение проблемы."
+                            "text": "Для записи чистого звука в шумном месте лучше использовать <w>направленный</w> микрофон.",
+                            "target_lang_translations": {
+                                "en": "To record clear sound in a noisy place, it is better to use a <w>directional</w> microphone."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "целенаправленный",
+                        "целевой",
                         "ориентированный"
                     ],
                     "antonyms": [
@@ -67,9 +44,81 @@
                     "common_phrases": [
                         "направленный взрыв",
                         "направленный микрофон",
-                        "направленный поиск",
-                        "направленное действие"
-                    ]
+                        "направленное действие",
+                        "направленный поиск"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Having a specific direction, orientation, or focus."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "directional",
+                                "target_lang_sense_clarification": "designed to operate in a specific direction (e.g., microphone, antenna)"
+                            },
+                            {
+                                "target_lang_word": "directed",
+                                "target_lang_sense_clarification": "guided or focused towards a specific goal or target"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "pos": "verb",
+            "senses": [
+                {
+                    "sense_id": "c17ec1e0-3ddc-3771-a182-e95eae8ba622",
+                    "sense_definition": "Страдательное причастие прошедшего времени от глагола <w>направить</w>.",
+                    "learner_level": "B1",
+                    "frequency": "High",
+                    "semantic_group_id": "1",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "Льнов увидел <w>направленный</w> на него ствол ружья и бросился на землю.",
+                            "target_lang_translations": {
+                                "en": "Lnov saw the gun barrel <w>aimed</w> at him and threw himself to the ground."
+                            }
+                        },
+                        {
+                            "text": "Документ, <w>направленный</w> на подпись директору, лежал на столе.",
+                            "target_lang_translations": {
+                                "en": "The document <w>sent</w> to the director for signature lay on the table."
+                            }
+                        }
+                    ],
+                    "common_phrases": [
+                        "направленный на",
+                        "направленный против",
+                        "направленный в сторону"
+                    ],
+                    "traits": [
+                        {
+                            "trait_type": "form",
+                            "comment": "past passive participle"
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Past passive participle of 'to direct' or 'to send'; having been guided, aimed, or forwarded."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "aimed",
+                                "target_lang_sense_clarification": "pointed at a target (e.g., a weapon, a glance)"
+                            },
+                            {
+                                "target_lang_word": "directed",
+                                "target_lang_sense_clarification": "guided towards a specific point or purpose"
+                            },
+                            {
+                                "target_lang_word": "sent",
+                                "target_lang_sense_clarification": "dispatched or forwarded to a destination (e.g., a document)"
+                            }
+                        ]
+                    }
                 }
             ]
         }

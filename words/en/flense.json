@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The crew worked quickly to <w>flense</w> the whale before the storm arrived."
+                            "text": "The crew worked quickly to <w>flense</w> the whale before the storm arrived.",
+                            "target_lang_translations": {
+                                "ru": "Команда работала быстро, чтобы <w>освежевать</w> кита до прихода шторма."
+                            }
                         },
                         {
-                            "text": "Whalers use specialized knives to <w>flense</w> the thick blubber from the carcass."
+                            "text": "Whalers use specialized knives to <w>flense</w> the thick blubber from the carcass.",
+                            "target_lang_translations": {
+                                "ru": "Китобои используют специальные ножи, чтобы <w>срезать</w> толстый слой жира с туши."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -30,16 +36,25 @@
                         "flense the carcass",
                         "flense the blubber"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "whaling context"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "animal processing"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Снимать шкуру или жир (ворвань) с кита, тюленя или подобного морского животного"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "свежевать",
+                                "target_lang_sense_clarification": "снимать шкуру с животного"
+                            },
+                            {
+                                "target_lang_word": "разделывать",
+                                "target_lang_sense_clarification": "тушу животного"
+                            },
+                            {
+                                "target_lang_word": "сдирать",
+                                "target_lang_sense_clarification": "кожу или жир"
+                            }
+                        ]
+                    }
                 }
             ]
         }

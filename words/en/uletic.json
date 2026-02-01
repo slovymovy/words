@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The dentist examined the patient's <w>uletic</w> tissue for any signs of inflammation or disease."
+                            "text": "The dentist examined the patient's <w>uletic</w> tissue for any signs of inflammation or disease.",
+                            "target_lang_translations": {
+                                "ru": "Стоматолог осмотрел <w>десневую</w> ткань пациента на наличие признаков воспаления или заболевания."
+                            }
                         },
                         {
-                            "text": "Proper hygiene is essential to maintain a healthy <w>uletic</w> condition and prevent periodontal issues."
+                            "text": "Proper hygiene is essential to maintain a healthy <w>uletic</w> condition and prevent periodontal issues.",
+                            "target_lang_translations": {
+                                "ru": "Правильная гигиена необходима для поддержания здорового состояния <w>десен</w> и предотвращения проблем с пародонтом."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,16 +35,21 @@
                         "uletic condition",
                         "uletic tissue"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "dentistry"
-                        },
-                        {
-                            "trait_type": "rare",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Относящийся к деснам."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "десневой",
+                                "target_lang_sense_clarification": "относящийся к деснам"
+                            },
+                            {
+                                "target_lang_word": "гингивальный",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

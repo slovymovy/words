@@ -17,10 +17,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mój wujek <w>Cyprian</w> mieszka w Krakowie od wielu lat."
+                            "text": "Mój wujek <w>Cyprian</w> mieszka w Krakowie od wielu lat.",
+                            "target_lang_translations": {
+                                "ru": "Мой дядя <w>Циприан</w> живет в Кракове уже много лет."
+                            }
                         },
                         {
-                            "text": "Na imieniny dostałem książkę, którą napisał <w>Cyprian</w> Kamil Norwid."
+                            "text": "Na imieniny dostałem książkę, którą napisał <w>Cyprian</w> Kamil Norwid.",
+                            "target_lang_translations": {
+                                "ru": "На именины я получил книгу, которую написал <w>Циприан</w> Камиль Норвид."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "święty Cyprian",
                         "Cyprian Kamil Norwid"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "given_name",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "мужское имя"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Циприан",
+                                "target_lang_sense_clarification": "светская форма имени"
+                            },
+                            {
+                                "target_lang_word": "Киприан",
+                                "target_lang_sense_clarification": "церковная/традиционная форма"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -3,32 +3,37 @@
         "rook",
         "roker",
         "rokerig",
+        "rookvrij",
+        "rookworst",
         "meeroken",
         "oproken",
-        "uitroken",
-        "rookworst",
-        "rookverbod"
+        "uitroken"
     ],
     "entries": [
         {
             "pos": "verb",
             "senses": [
                 {
-                    "sense_id": "6d6d28bc-2b1a-339f-bf46-55636fcadf97",
-                    "sense_definition": "Tabak of andere middelen inhaleren en uitblazen.",
+                    "sense_id": "2c736d94-b43c-313f-b932-6e4e306d2cb5",
+                    "sense_definition": "Tabak of andere middelen consumeren door de rook ervan in te ademen.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "consumption",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij <w>rookt</w> elke dag een pakje sigaretten."
+                            "text": "Hij wil proberen te stoppen met <w>roken</w>.",
+                            "target_lang_translations": {
+                                "ru": "Он хочет попытаться бросить <w>курить</w>.",
+                                "en": "He wants to try to stop <w>smoking</w>."
+                            }
                         },
                         {
-                            "text": "In dit restaurant is het verboden te <w>roken</w>."
-                        },
-                        {
-                            "text": "Mijn vader wil volgend jaar stoppen met <w>roken</w>."
+                            "text": "Tijdens de pauze <w>roken</w> ze vaak een sigaret buiten.",
+                            "target_lang_translations": {
+                                "ru": "Во время перерыва они часто <w>курят</w> сигарету на улице.",
+                                "en": "During the break, they often <w>smoke</w> a cigarette outside."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,21 +43,47 @@
                         "stoppen met roken",
                         "verboden te roken",
                         "als een ketter roken"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Употреблять табак или другие вещества, вдыхая их дым.",
+                        "en": "To consume tobacco or other substances by inhaling their smoke."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "курить",
+                                "target_lang_sense_clarification": "табак"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "smoke",
+                                "target_lang_sense_clarification": "consume tobacco"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "167e40c8-fe50-342b-b123-9c2d6106375e",
-                    "sense_definition": "Verleden tijd meervoud van <w>ruiken</w>.",
+                    "sense_definition": "*verleden tijd* meervoud van <w>ruiken</w>.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "form_ruiken",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wij <w>roken</w> de geur van vers brood toen we binnenkwamen."
+                            "text": "Wij <w>roken</w> de geur van versgebakken brood.",
+                            "target_lang_translations": {
+                                "ru": "Мы <w>чувствовали</w> запах свежеиспеченного хлеба.",
+                                "en": "We <w>smelled</w> the scent of fresh-baked bread."
+                            }
                         },
                         {
-                            "text": "De honden <w>roken</w> het spoor van het wild."
+                            "text": "Toen ze de keuken binnenkwamen, <w>roken</w> ze dat het eten was aangebrand.",
+                            "target_lang_translations": {
+                                "ru": "Когда они вошли на кухню, они <w>почувствовали</w>, что еда подгорела.",
+                                "en": "When they entered the kitchen, they <w>smelled</w> that the food had burnt."
+                            }
                         }
                     ],
                     "traits": [
@@ -60,67 +91,157 @@
                             "trait_type": "form",
                             "comment": "past tense plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "*Прошедшее время, множественное число* от <w>ruiken</w> (чувствовать запах).",
+                        "en": "*Past tense plural* of <w>ruiken</w> (to smell)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "чувствовали запах",
+                                "target_lang_sense_clarification": "прошедшее время, мн. ч."
+                            },
+                            {
+                                "target_lang_word": "нюхали",
+                                "target_lang_sense_clarification": "прошедшее время, мн. ч."
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "smelled",
+                                "target_lang_sense_clarification": "past tense plural"
+                            },
+                            {
+                                "target_lang_word": "smelt",
+                                "target_lang_sense_clarification": "past tense plural"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "0d390ba2-6525-3481-b797-69ffe209d8f5",
-                    "sense_definition": "Rook afgeven of uitstoten.",
+                    "sense_id": "bf188b10-47cf-3b84-9842-69582d850d99",
+                    "sense_definition": "Rook uitstoten of afgeven.",
                     "learner_level": "B1",
                     "frequency": "Middle",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "emission",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De oude kachel <w>rookte</w> verschrikkelijk toen we hem aanstaken."
+                            "text": "De oude kachel <w>rookte</w> zo erg dat het alarm afging.",
+                            "target_lang_translations": {
+                                "ru": "Старая печь так сильно <w>дымила</w>, что сработала сигнализация.",
+                                "en": "The old stove <w>smoked</w> so badly that the alarm went off."
+                            }
                         },
                         {
-                            "text": "Nadat de kaars was uitgeblazen, <w>rookte</w> hij nog even na."
+                            "text": "Kijk hoe die fabrieksschoorsteen <w>rookt</w>.",
+                            "target_lang_translations": {
+                                "ru": "Посмотри, как <w>дымит</w> эта заводская труба.",
+                                "en": "Look how that factory chimney is <w>smoking</w>."
+                            }
                         }
+                    ],
+                    "synonyms": [
+                        "paffen"
                     ],
                     "common_phrases": [
                         "de schoorsteen rookt"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Испускать или выделять дым.",
+                        "en": "To emit or give off smoke."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "дымить",
+                                "target_lang_sense_clarification": "испускать дым"
+                            },
+                            {
+                                "target_lang_word": "дымиться",
+                                "target_lang_sense_clarification": "выделять дым"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "smoke",
+                                "target_lang_sense_clarification": "emit smoke"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "39df7486-81f9-35e0-a7fe-7df66c49d5b2",
-                    "sense_definition": "Voedsel conserveren of op smaak brengen door het in rook te hangen.",
+                    "sense_definition": "Voedsel conserveren en op smaak brengen door het langdurig in rook te hangen.",
                     "learner_level": "B2",
                     "frequency": "Low",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "preservation",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mijn opa <w>rookte</w> vroeger zelf zijn gevangen paling."
+                            "text": "Mijn grootvader <w>rookte</w> vroeger zelf zijn gevangen paling.",
+                            "target_lang_translations": {
+                                "ru": "Мой дедушка раньше сам <w>коптил</w> пойманного угря.",
+                                "en": "My grandfather used to <w>smoke</w> his caught eel himself."
+                            }
                         },
                         {
-                            "text": "Deze ham is op ambachtelijke wijze <w>gerookt</w>."
+                            "text": "Ze hebben de ham urenlang op traditionele wijze <w>gerookt</w>.",
+                            "target_lang_translations": {
+                                "ru": "Они часами <w>коптили</w> ветчину традиционным способом.",
+                                "en": "They <w>smoked</w> the ham for hours in the traditional way."
+                            }
                         }
                     ],
                     "common_phrases": [
-                        "gerookte zalm",
-                        "gerookte paling",
-                        "koud roken"
+                        "paling roken",
+                        "gerookte zalm"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Консервировать продукты и придавать им вкус, выдерживая в дыму.",
+                        "en": "To preserve food and add flavor by exposing it to smoke for a long time."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "коптить",
+                                "target_lang_sense_clarification": "продукты"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "smoke",
+                                "target_lang_sense_clarification": "preserve food"
+                            },
+                            {
+                                "target_lang_word": "cure",
+                                "target_lang_sense_clarification": "preserve food"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "8264d702-ddc2-3f06-bff8-aefbaa15a164",
-                    "sense_definition": "Verleden tijd meervoud van <w>rieken</w>.",
+                    "sense_definition": "*verleden tijd* meervoud van <w>rieken</w>.",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "form_rieken",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De stallen <w>roken</w> sterk naar mest en hooi."
+                            "text": "De stallen <w>roken</w> sterk naar mest en hooi.",
+                            "target_lang_translations": {
+                                "ru": "Конюшни сильно <w>пахли</w> навозом и сеном.",
+                                "en": "The stables <w>smelled</w> strongly of manure and hay."
+                            }
                         },
                         {
-                            "text": "Zijn kleren <w>roken</w> muf na de lange reis."
+                            "text": "Zijn kleren <w>roken</w> niet bepaald fris na die lange tocht.",
+                            "target_lang_translations": {
+                                "ru": "Его одежда <w>пахла</w> не особо свежо после этого долгого похода.",
+                                "en": "His clothes didn't exactly <w>smell</w> fresh after that long trip."
+                            }
                         }
                     ],
                     "traits": [
@@ -128,21 +249,55 @@
                             "trait_type": "form",
                             "comment": "past tense plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "*Прошедшее время, множественное число* от <w>rieken</w> (пахнуть, вонять).",
+                        "en": "*Past tense plural* of <w>rieken</w> (to smell, to reek)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "пахли",
+                                "target_lang_sense_clarification": "издавали запах"
+                            },
+                            {
+                                "target_lang_word": "воняли",
+                                "target_lang_sense_clarification": "дурно пахли"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "smelled",
+                                "target_lang_sense_clarification": "past tense plural"
+                            },
+                            {
+                                "target_lang_word": "reeked",
+                                "target_lang_sense_clarification": "past tense plural"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d6b46c87-9eb2-36b9-a224-80e5333aab52",
-                    "sense_definition": "Het stapelen van gewassen in hopen of oppers.",
+                    "sense_definition": "Graanschoven opstapelen in hopen (oppers).",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "agriculture",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De boeren <w>roken</w> het hooi voordat de regen begint."
+                            "text": "Na de oogst moesten de boeren het graan nog <w>roken</w>.",
+                            "target_lang_translations": {
+                                "ru": "После сбора урожая фермерам нужно было еще <w>скирдовать</w> зерно.",
+                                "en": "After the harvest, the farmers still had to <w>stook</w> the grain."
+                            }
                         },
                         {
-                            "text": "Op het land werd het graan zorgvuldig <w>gerookt</w>."
+                            "text": "Op het land stonden de mannen het koren te <w>roken</w>.",
+                            "target_lang_translations": {
+                                "ru": "В поле мужчины стояли и <w>скирдовали</w> зерно.",
+                                "en": "In the field, the men were standing there <w>stooking</w> the corn."
+                            }
                         }
                     ],
                     "traits": [
@@ -150,7 +305,33 @@
                             "trait_type": "regional",
                             "comment": "agricultural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Складывать снопы зерновых в кучи (копны).",
+                        "en": "To stack sheaves of grain into piles (stooks)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "скирдовать",
+                                "target_lang_sense_clarification": "сельское хозяйство"
+                            },
+                            {
+                                "target_lang_word": "складывать в копны",
+                                "target_lang_sense_clarification": "о сене или соломе"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "stook",
+                                "target_lang_sense_clarification": "agriculture"
+                            },
+                            {
+                                "target_lang_word": "stack",
+                                "target_lang_sense_clarification": "agriculture"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -159,17 +340,25 @@
             "senses": [
                 {
                     "sense_id": "b7a1d665-9516-3000-934f-f494314ff954",
-                    "sense_definition": "Meervoud van <w>rook</w>.",
-                    "learner_level": "B1",
-                    "frequency": "Low",
-                    "semantic_group_id": "",
+                    "sense_definition": "*meervoud* van <w>rook</w>.",
+                    "learner_level": "C2",
+                    "frequency": "VeryLow",
+                    "semantic_group_id": "form_noun",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Verschillende gekleurde <w>roken</w> stegen op uit de fabriekspijpen."
+                            "text": "Verschillende gekleurde <w>roken</w> stegen op uit de schoorstenen.",
+                            "target_lang_translations": {
+                                "ru": "Разноцветные <w>дымы</w> поднимались из труб.",
+                                "en": "Various colored <w>smokes</w> rose from the chimneys."
+                            }
                         },
                         {
-                            "text": "De heilige <w>roken</w> vulden de tempel tijdens de ceremonie."
+                            "text": "De heilige <w>roken</w> vulden de tempel tijdens de ceremonie.",
+                            "target_lang_translations": {
+                                "ru": "Священные <w>дымы</w> наполняли храм во время церемонии.",
+                                "en": "The sacred <w>smokes</w> filled the temple during the ceremony."
+                            }
                         }
                     ],
                     "traits": [
@@ -177,7 +366,25 @@
                             "trait_type": "form",
                             "comment": "plural"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "*Множественное число* от <w>rook</w> (дым).",
+                        "en": "*Plural* of <w>rook</w> (smoke)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "дымы",
+                                "target_lang_sense_clarification": "мн. ч. существительного"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "smokes",
+                                "target_lang_sense_clarification": "plural noun"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jutro rano muszę zadzwonić do <w>ADM</w> w sprawie cieknącego kranu."
+                            "text": "Jutro rano muszę zadzwonić do <w>ADM</w> w sprawie cieknącego kranu.",
+                            "target_lang_translations": {
+                                "ru": "Завтра утром мне нужно позвонить в <w>ЖЭК</w> по поводу текущего крана."
+                            }
                         },
                         {
-                            "text": "Mieszkańcy złożyli oficjalną skargę na opieszałe działanie lokalnego <w>ADM</w>."
+                            "text": "Mieszkańcy złożyli oficjalną skargę na opieszałe działanie lokalnego <w>ADM</w>.",
+                            "target_lang_translations": {
+                                "ru": "Жильцы подали официальную жалобу на медлительность местного <w>домоуправления</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +38,21 @@
                         "pracownik ADM",
                         "telefon do ADM"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "dotyczy zarządzania nieruchomościami"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Учреждение, занимающееся управлением и техническим обслуживанием жилых зданий; сокращение от: Администрация жилых домов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "ЖЭК",
+                                "target_lang_sense_clarification": "жилищно-эксплуатационная контора"
+                            },
+                            {
+                                "target_lang_word": "домоуправление",
+                                "target_lang_sense_clarification": "администрация дома"
+                            }
+                        ]
+                    }
                 }
             ]
         }

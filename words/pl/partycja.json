@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Przed instalacją systemu operacyjnego musisz utworzyć przynajmniej jedną nową <w>partycję</w>."
+                            "text": "Przed instalacją systemu operacyjnego musisz utworzyć przynajmniej jedną nową <w>partycję</w>.",
+                            "target_lang_translations": {
+                                "ru": "Перед установкой операционной системы вы должны создать как минимум один новый <w>раздел</w>."
+                            }
                         },
                         {
-                            "text": "Moja <w>partycja</w> systemowa jest prawie pełna, więc muszę usunąć zbędne pliki."
+                            "text": "Moja <w>partycja</w> systemowa jest prawie pełna, więc muszę usunąć zbędne pliki.",
+                            "target_lang_translations": {
+                                "ru": "Мой системный <w>раздел</w> почти заполнен, поэтому мне нужно удалить лишние файлы."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -28,12 +34,21 @@
                         "partycja systemowa",
                         "partycja odzyskiwania"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Выделенная часть физического диска, которая воспринимается операционной системой как отдельный логический диск."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "раздел",
+                                "target_lang_sense_clarification": "диска"
+                            },
+                            {
+                                "target_lang_word": "партиция",
+                                "target_lang_sense_clarification": "компьютерный сленг"
+                            }
+                        ]
+                    }
                 }
             ]
         }

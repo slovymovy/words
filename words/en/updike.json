@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "The famous author John <w>Updike</w> wrote many novels about American life."
+                            "text": "The famous author John <w>Updike</w> wrote many novels about American life.",
+                            "target_lang_translations": {
+                                "ru": "Знаменитый писатель Джон <w>Апдайк</w> написал много романов об американской жизни."
+                            }
                         },
                         {
-                            "text": "Please tell Ms. <w>Updike</w> that her appointment is ready."
+                            "text": "Please tell Ms. <w>Updike</w> that her appointment is ready.",
+                            "target_lang_translations": {
+                                "ru": "Пожалуйста, сообщите мисс <w>Апдайк</w>, что её готовы принять."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "origin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия голландского происхождения."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Апдайк",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

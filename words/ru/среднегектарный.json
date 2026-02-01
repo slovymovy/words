@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом году <w>среднегектарная</w> урожайность пшеницы достигла рекордных показателей."
+                            "text": "В этом году <w>среднегектарная</w> урожайность пшеницы достигла рекордных показателей.",
+                            "target_lang_translations": {
+                                "en": "This year, the <w>average per-hectare</w> wheat yield reached record levels."
+                            }
                         },
                         {
-                            "text": "Агрономы внимательно изучают <w>среднегектарный</w> сбор, чтобы оценить эффективность новых удобрений."
+                            "text": "Агрономы внимательно изучают <w>среднегектарный</w> сбор, чтобы оценить эффективность новых удобрений.",
+                            "target_lang_translations": {
+                                "en": "Agronomists are carefully studying the <w>average per-hectare</w> harvest to evaluate the effectiveness of the new fertilizers."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,21 @@
                         "среднегектарный сбор",
                         "среднегектарный показатель"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "specialized",
-                            "comment": "сельское хозяйство"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Calculated as an average value per hectare of land area (usually referring to yield or income)."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "average per-hectare",
+                                "target_lang_sense_clarification": "adjective describing a value calculated as a mean per unit of land"
+                            },
+                            {
+                                "target_lang_word": "per-hectare average",
+                                "target_lang_sense_clarification": "referring to the mean output or value for every hectare"
+                            }
+                        ]
+                    }
                 }
             ]
         }

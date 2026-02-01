@@ -19,10 +19,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Гражданин <w>Обноскин</w> предъявил свои документы на проходной завода."
+                            "text": "Гражданин <w>Обноскин</w> предъявил свои документы на проходной завода.",
+                            "target_lang_translations": {
+                                "en": "Citizen <w>Obnoskin</w> presented his documents at the factory checkpoint."
+                            }
                         },
                         {
-                            "text": "В списке жильцов этого дома числится некий Иван <w>Обноскин</w>."
+                            "text": "В списке жильцов этого дома числится некий Иван <w>Обноскин</w>.",
+                            "target_lang_translations": {
+                                "en": "A certain Ivan <w>Obnoskin</w> is listed among the residents of this house."
+                            }
                         }
                     ],
                     "traits": [
@@ -30,7 +36,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Russian surname."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Obnoskin",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ]
+                    }
                 }
             ]
         }

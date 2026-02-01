@@ -17,10 +17,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De manager moet de <w>aankooporder</w> eerst goedkeuren voordat we de materialen kunnen bestellen."
+                            "text": "De manager moet de <w>aankooporder</w> eerst goedkeuren voordat we de materialen kunnen bestellen.",
+                            "target_lang_translations": {
+                                "en": "The manager must approve the <w>purchase order</w> first before we can order the materials.",
+                                "ru": "Менеджер должен сначала утвердить <w>заказ на закупку</w>, прежде чем мы сможем заказать материалы."
+                            }
                         },
                         {
-                            "text": "Zodra de leverancier de <w>aankooporder</w> heeft ontvangen, wordt de levering in gang gezet."
+                            "text": "Zodra de leverancier de <w>aankooporder</w> heeft ontvangen, wordt de levering in gang gezet.",
+                            "target_lang_translations": {
+                                "en": "As soon as the supplier has received the <w>purchase order</w>, the delivery is initiated.",
+                                "ru": "Как только поставщик получит <w>заказ на закупку</w>, начнется процесс доставки."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +44,28 @@
                         "de aankooporder bevestigen",
                         "een aankooporder tekenen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "handel en logistiek"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An official order to a supplier to deliver specific goods or services at an agreed price.",
+                        "ru": "Официальный заказ поставщику на поставку определенных товаров или услуг по согласованной цене."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "purchase order",
+                                "target_lang_sense_clarification": "commercial document issued by a buyer"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "заказ на закупку",
+                                "target_lang_sense_clarification": "документ"
+                            },
+                            {
+                                "target_lang_word": "заказ на поставку",
+                                "target_lang_sense_clarification": "коммерческий"
+                            }
+                        ]
+                    }
                 }
             ]
         }

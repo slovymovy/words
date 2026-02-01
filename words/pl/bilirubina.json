@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zlecił mi badanie poziomu <w>bilirubiny</w> we krwi."
+                            "text": "Lekarz zlecił mi badanie poziomu <w>bilirubiny</w> we krwi.",
+                            "target_lang_translations": {
+                                "ru": "Врач назначил мне анализ на уровень <w>билирубина</w> в крови."
+                            }
                         },
                         {
-                            "text": "Wysoka <w>bilirubina</w> często objawia się zażółceniem skóry i oczu."
+                            "text": "Wysoka <w>bilirubina</w> często objawia się zażółceniem skóry i oczu.",
+                            "target_lang_translations": {
+                                "ru": "Высокий <w>билирубин</w> часто проявляется пожелтением кожи и глаз."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -27,16 +33,17 @@
                         "bilirubina całkowita",
                         "badanie bilirubiny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "scientific",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Органический пигмент, образующийся при распаде гема, уровень которого в крови является важным показателем функции печени."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "билирубин",
+                                "target_lang_sense_clarification": "желчный пигмент"
+                            }
+                        ]
+                    }
                 }
             ]
         }

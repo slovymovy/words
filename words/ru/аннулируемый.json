@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот <w>аннулируемый</w> договор больше не имеет юридической силы."
+                            "text": "Этот <w>аннулируемый</w> договор больше не имеет юридической силы.",
+                            "target_lang_translations": {
+                                "en": "This contract <w>being annulled</w> no longer has legal force."
+                            }
                         },
                         {
-                            "text": "В системе всё ещё виден <w>аннулируемый</w> заказ, который мы отменили вчера."
+                            "text": "В системе всё ещё виден <w>аннулируемый</w> заказ, который мы отменили вчера.",
+                            "target_lang_translations": {
+                                "en": "The order <w>being cancelled</w>, which we cancelled yesterday, is still visible in the system."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,12 +47,31 @@
                         {
                             "trait_type": "form",
                             "comment": "participle"
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": "used in official or business contexts"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Present passive participle of the verb <w>annul</w>; describing something that is undergoing cancellation or is capable of being declared invalid."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "being annulled",
+                                "target_lang_sense_clarification": "process of invalidation"
+                            },
+                            {
+                                "target_lang_word": "voidable",
+                                "target_lang_sense_clarification": "legal context; capable of being nullified"
+                            },
+                            {
+                                "target_lang_word": "cancellable",
+                                "target_lang_sense_clarification": "general context; capable of being cancelled"
+                            },
+                            {
+                                "target_lang_word": "being cancelled",
+                                "target_lang_sense_clarification": "process of cancellation"
+                            }
+                        ]
+                    }
                 }
             ]
         }

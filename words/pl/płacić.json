@@ -1,19 +1,19 @@
 {
     "word_family": [
-        "zapłacić",
-        "opłacić",
-        "wpłacić",
-        "wypłacić",
-        "spłacić",
-        "dopłacić",
-        "nadpłacić",
-        "przepłacić",
         "płaca",
         "płatność",
         "opłata",
-        "płatnik",
+        "wypłata",
+        "wpłata",
+        "dopłata",
+        "nadpłata",
+        "zapłacić",
+        "opłacić",
+        "wypłacić",
+        "spłacić",
         "płatny",
-        "bezpłatny"
+        "bezpłatny",
+        "płatnik"
     ],
     "entries": [
         {
@@ -21,17 +21,23 @@
             "senses": [
                 {
                     "sense_id": "04217d22-3eb5-3bf5-be90-a68f116e8d17",
-                    "sense_definition": "Dawać pieniądze w zamian za towar, usługę lub w celu uregulowania należności",
+                    "sense_definition": "Dawać pieniądze w zamian za towar, usługę, pracę lub w celu uregulowania należności.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "money_transaction",
+                    "semantic_group_id": "financial_transaction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W tym małym sklepie klienci <w>płacą</w> tylko gotówką."
+                            "text": "Zawsze <w>płacę</w> kartą, ponieważ nie lubię nosić przy sobie gotówki.",
+                            "target_lang_translations": {
+                                "ru": "Я всегда <w>плачу</w> картой, так как не люблю носить с собой наличные."
+                            }
                         },
                         {
-                            "text": "Czy mogę <w>płacić</w> za zakupy kartą kredytową?"
+                            "text": "Musisz <w>zapłacić</w> wszystkie zaległe rachunki do końca tego tygodnia.",
+                            "target_lang_translations": {
+                                "ru": "Ты должен <w>оплатить</w> все просроченные счета до конца этой недели."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -43,22 +49,43 @@
                         "płacić kartą",
                         "płacić rachunki",
                         "płacić podatki",
-                        "ile płacę"
-                    ]
+                        "słono płacić"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Отдавать деньги в обмен на товары, услуги, работу или для погашения долгов."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "платить",
+                                "target_lang_sense_clarification": "отдавать деньги"
+                            },
+                            {
+                                "target_lang_word": "оплачивать",
+                                "target_lang_sense_clarification": "покрывать расходы, счета"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "304ffd4c-61ad-3e6a-8b6f-bdb0f086c821",
-                    "sense_definition": "Ponosić przykre konsekwencje swoich czynów, błędów lub decyzji",
+                    "sense_definition": "Ponosić przykre konsekwencje swoich czynów, błędów lub decyzji.",
                     "learner_level": "B2",
                     "frequency": "Middle",
                     "semantic_group_id": "consequences",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Polityk do dzisiaj <w>płaci</w> wysoką cenę za swoje kłamstwa."
+                            "text": "Polityk <w>zapłacił</w> utratą stanowiska za skandal, który wywołał.",
+                            "target_lang_translations": {
+                                "ru": "Политик <w>поплатился</w> потерей должности за скандал, который он вызвал."
+                            }
                         },
                         {
-                            "text": "Często <w>płacimy</w> zdrowiem za ciągły stres i brak odpoczynku."
+                            "text": "Często <w>płacimy</w> zdrowiem za stresujący tryb życia i brak odpoczynku.",
+                            "target_lang_translations": {
+                                "ru": "Мы часто <w>расплачиваемся</w> здоровьем за стрессовый образ жизни и отсутствие отдыха."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -66,45 +93,73 @@
                     ],
                     "common_phrases": [
                         "płacić zdrowiem",
+                        "płacić życiem",
                         "płacić za błędy",
-                        "słono płacić",
                         "płacić wysoką cenę"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "figurative",
-                            "comment": "odnosi się do ponoszenia kosztów niematerialnych"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Нести неприятные последствия своих действий, ошибок или решений."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "расплачиваться",
+                                "target_lang_sense_clarification": "нести наказание или последствия"
+                            },
+                            {
+                                "target_lang_word": "платить",
+                                "target_lang_sense_clarification": "жертвовать чем-то ценным"
+                            },
+                            {
+                                "target_lang_word": "поплатиться",
+                                "target_lang_sense_clarification": "понести ущерб за поступок"
+                            }
+                        ]
+                    }
                 },
                 {
-                    "sense_id": "0c155990-6290-353e-ad94-8fa44ae132fb",
-                    "sense_definition": "Mieć określoną wartość lub kosztować",
-                    "learner_level": "C2",
+                    "sense_id": "8c2e0db0-474f-3928-88ec-2df600245c5a",
+                    "sense_definition": "Odwzajemniać się komuś za coś, reagować na czyjeś zachowanie w określony sposób (często metaforycznie).",
+                    "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "value",
+                    "semantic_group_id": "reciprocation",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dobrej jakości drewno <w>płaci</w> dzisiaj bardzo drogo na targu."
+                            "text": "Nie warto <w>płacić</w> agresją za czyjąś uprzejmość i dobre chęci.",
+                            "target_lang_translations": {
+                                "ru": "Не стоит <w>отвечать</w> агрессией на чью-то вежливость и добрые намерения."
+                            }
                         },
                         {
-                            "text": "Nie wiedziałem, jak wysoko <w>płaci</w> teraz zboże w skupie."
+                            "text": "Ona zawsze <w>płaci</w> uśmiechem i życzliwością za każdą okazaną jej pomoc.",
+                            "target_lang_translations": {
+                                "ru": "Она всегда <w>платит</w> улыбкой и доброжелательностью за любую оказанную ей помощь."
+                            }
                         }
                     ],
                     "synonyms": [
-                        "kosztować"
+                        "wynagradzać"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "regional",
-                            "comment": "używane głównie w gwarach, np. góralskiej"
-                        },
-                        {
-                            "trait_type": "dated",
-                            "comment": "rzadko spotykane we współczesnej polszczyźnie ogólnej"
-                        }
-                    ]
+                    "common_phrases": [
+                        "płacić dobrem za zło",
+                        "płacić pięknym za nadobne"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Отвечать на чье-то поведение определенным образом, воздавать (часто метафорически)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "отвечать",
+                                "target_lang_sense_clarification": "реагировать взаимностью"
+                            },
+                            {
+                                "target_lang_word": "платить",
+                                "target_lang_sense_clarification": "воздавать тем же"
+                            }
+                        ]
+                    }
                 }
             ]
         }

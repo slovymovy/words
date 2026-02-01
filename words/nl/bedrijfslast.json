@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De directeur wil de <w>bedrijfslasten</w> omlaag brengen om concurrerend te blijven."
+                            "text": "De directeur wil de <w>bedrijfslasten</w> omlaag brengen om concurrerend te blijven.",
+                            "target_lang_translations": {
+                                "en": "The director wants to lower the <w>operating costs</w> to remain competitive.",
+                                "ru": "Директор хочет снизить <w>операционные расходы</w>, чтобы оставаться конкурентоспособным."
+                            }
                         },
                         {
-                            "text": "Door de stijgende energieprijzen zijn de totale <w>bedrijfslasten</w> dit jaar aanzienlijk toegenomen."
+                            "text": "Door de stijgende energieprijzen zijn de totale <w>bedrijfslasten</w> dit jaar aanzienlijk toegenomen.",
+                            "target_lang_translations": {
+                                "en": "Due to rising energy prices, the total <w>operating expenses</w> have increased significantly this year.",
+                                "ru": "Из-за роста цен на энергоносители общие <w>эксплуатационные расходы</w> в этом году значительно выросли."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,12 +42,40 @@
                         "vaste bedrijfslasten",
                         "bedrijfslasten verlagen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "financial context"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Costs necessary to operate a company or a part thereof.",
+                        "ru": "Расходы, необходимые для обеспечения функционирования предприятия или его части."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "operating costs",
+                                "target_lang_sense_clarification": "expenses associated with the maintenance and administration of a business"
+                            },
+                            {
+                                "target_lang_word": "operating expenses",
+                                "target_lang_sense_clarification": "ongoing costs for running a business"
+                            },
+                            {
+                                "target_lang_word": "business expenses",
+                                "target_lang_sense_clarification": "general costs incurred in the running of a business"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "операционные расходы",
+                                "target_lang_sense_clarification": "текущие затраты на ведение бизнеса"
+                            },
+                            {
+                                "target_lang_word": "эксплуатационные расходы",
+                                "target_lang_sense_clarification": "затраты на содержание и эксплуатацию"
+                            },
+                            {
+                                "target_lang_word": "издержки производства",
+                                "target_lang_sense_clarification": "затраты, связанные с производством товаров или услуг"
+                            }
+                        ]
+                    }
                 }
             ]
         }

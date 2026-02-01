@@ -15,10 +15,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач заметил у пациента выраженный <w>экзофтальм</w> и направил его на обследование."
+                            "text": "Врач заметил у пациента выраженный <w>экзофтальм</w> и направил его на обследование.",
+                            "target_lang_translations": {
+                                "en": "The doctor noticed pronounced <w>exophthalmos</w> in the patient and referred him for an examination."
+                            }
                         },
                         {
-                            "text": "Часто <w>экзофтальм</w> развивается на фоне заболеваний щитовидной железы."
+                            "text": "Часто <w>экзофтальм</w> развивается на фоне заболеваний щитовидной железы.",
+                            "target_lang_translations": {
+                                "en": "<w>Exophthalmos</w> often develops due to thyroid diseases."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,25 @@
                         "ложный экзофтальм",
                         "лечение экзофтальма"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A pathological forward displacement of the eyeball; bulging eyes."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "exophthalmos",
+                                "target_lang_sense_clarification": "medical term"
+                            },
+                            {
+                                "target_lang_word": "bulging eyes",
+                                "target_lang_sense_clarification": "descriptive/common term"
+                            },
+                            {
+                                "target_lang_word": "proptosis",
+                                "target_lang_sense_clarification": "medical synonym"
+                            }
+                        ]
+                    }
                 }
             ]
         }

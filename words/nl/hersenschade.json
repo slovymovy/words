@@ -18,10 +18,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hij heeft blijvende <w>hersenschade</w> opgelopen door het zware auto-ongeluk."
+                            "text": "Hij heeft blijvende <w>hersenschade</w> opgelopen door het zware auto-ongeluk.",
+                            "target_lang_translations": {
+                                "en": "He suffered permanent <w>brain damage</w> due to the severe car accident.",
+                                "ru": "Он получил необратимое <w>повреждение мозга</w> в результате тяжелой автомобильной аварии."
+                            }
                         },
                         {
-                            "text": "Het zuurstoftekort veroorzaakte ernstige <w>hersenschade</w> bij de patiënt."
+                            "text": "Het zuurstoftekort veroorzaakte ernstige <w>hersenschade</w> bij de patiënt.",
+                            "target_lang_translations": {
+                                "en": "The lack of oxygen caused severe <w>brain damage</w> in the patient.",
+                                "ru": "Нехватка кислорода вызвала у пациента серьезное <w>повреждение мозга</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,12 +40,28 @@
                         "ernstige hersenschade",
                         "hersenschade oplopen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Damage to the brain, often caused by an accident, illness, or lack of oxygen.",
+                        "ru": "Повреждение головного мозга, часто вызванное несчастным случаем, болезнью или кислородным голоданием."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "brain damage",
+                                "target_lang_sense_clarification": "physical injury to the brain"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "повреждение мозга",
+                                "target_lang_sense_clarification": "общий термин"
+                            },
+                            {
+                                "target_lang_word": "поражение головного мозга",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

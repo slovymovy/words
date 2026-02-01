@@ -2,10 +2,9 @@
     "word_family": [
         "zbyć",
         "zbywać",
-        "zbytek",
-        "zbyteczny",
         "zbytnio",
-        "zbywalny"
+        "zbyteczny",
+        "zbytek"
     ],
     "entries": [
         {
@@ -13,17 +12,23 @@
             "senses": [
                 {
                     "sense_id": "2d299e13-47aa-3c75-8727-3602c57bfa5c",
-                    "sense_definition": "Słowo oznaczające, że czegoś jest więcej, niż jest to potrzebne, możliwe lub pożądane; w nadmiarze.",
+                    "sense_definition": "W stopniu większym niż to konieczne, pożądane lub dopuszczalne.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "excess",
+                    "semantic_group_id": "degree_excess",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ten płaszcz jest na mnie <w>zbyt</w> duży, muszę poszukać mniejszego rozmiaru."
+                            "text": "Ten płaszcz jest na mnie <zbyt> duży.",
+                            "target_lang_translations": {
+                                "ru": "Это пальто мне <слишком> велико."
+                            }
                         },
                         {
-                            "text": "Przyszliśmy na spotkanie <w>zbyt</w> wcześnie i musieliśmy czekać na zewnątrz."
+                            "text": "Przyszedłeś na spotkanie <zbyt> wcześnie.",
+                            "target_lang_translations": {
+                                "ru": "Ты пришел на встречу <слишком> рано."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,36 +42,67 @@
                         "niezbyt"
                     ],
                     "common_phrases": [
-                        "zbyt duży",
+                        "zbyt dużo",
                         "zbyt późno",
-                        "zbyt wiele",
-                        "zbyt często",
-                        "zbyt drogi"
-                    ]
+                        "zbyt wcześnie",
+                        "zbyt wiele"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "В большей степени, чем необходимо, желательно или допустимо."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "слишком",
+                                "target_lang_sense_clarification": "чрезмерно, более чем нужно"
+                            },
+                            {
+                                "target_lang_word": "чересчур",
+                                "target_lang_sense_clarification": "синоним слова слишком"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4266f216-3598-39ff-a886-30ee9df6f13d",
-                    "sense_definition": "Słowo używane w zdaniach przeczących, oznaczające: bardzo, w dużym stopniu.",
+                    "sense_definition": "Słowo używane w zdaniach przeczących dla osłabienia cechy, oznaczające: nie bardzo, w niewielkim stopniu.",
                     "learner_level": "A2",
                     "frequency": "High",
                     "semantic_group_id": "degree_negation",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "To rozwiązanie nie jest <w>zbyt</w> mądre, powinniśmy wymyślić coś innego."
+                            "text": "To rozwiązanie nie jest <zbyt> mądre.",
+                            "target_lang_translations": {
+                                "ru": "Это решение не <слишком> умное."
+                            }
                         },
                         {
-                            "text": "Nie czuję się dzisiaj <w>zbyt</w> dobrze, więc zostanę w domu."
+                            "text": "Nie czuję się dzisiaj <zbyt> dobrze.",
+                            "target_lang_translations": {
+                                "ru": "Я сегодня чувствую себя не <слишком> хорошо."
+                            }
                         }
                     ],
-                    "synonyms": [
-                        "zbytnio"
-                    ],
                     "common_phrases": [
-                        "niezbyt dobrze",
                         "nie jest zbyt",
-                        "nie wygląda zbyt"
-                    ]
+                        "nie ma zbyt"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Используется в отрицательных предложениях для смягчения значения; означает: не очень, в небольшой степени."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "слишком",
+                                "target_lang_sense_clarification": "в сочетании с «не» (не слишком)"
+                            },
+                            {
+                                "target_lang_word": "очень",
+                                "target_lang_sense_clarification": "в сочетании с «не» (не очень)"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -75,34 +111,48 @@
             "senses": [
                 {
                     "sense_id": "db878843-683a-3725-bc59-d0bd207c67a4",
-                    "sense_definition": "Odpłatne rozprowadzanie towarów przez producenta lub handlowca; możliwość sprzedaży produktów.",
+                    "sense_definition": "Odpłatne rozprowadzanie towarów lub możliwość ich sprzedaży.",
                     "learner_level": "B2",
                     "frequency": "Middle",
                     "semantic_group_id": "trade",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Firma musi znaleźć nowy rynek <w>zbytu</w>, aby zwiększyć swoje zyski."
+                            "text": "Firma musi znaleźć nowy rynek <zbytu> dla swoich produktów.",
+                            "target_lang_translations": {
+                                "ru": "Компании нужно найти новый рынок <сбыта> для своей продукции."
+                            }
                         },
                         {
-                            "text": "W okresie świątecznym <w>zbyt</w> zabawek jest zawsze największy."
+                            "text": "W tym roku rolnicy mają problem ze <zbytem> jabłek.",
+                            "target_lang_translations": {
+                                "ru": "В этом году у фермеров проблемы со <сбытом> яблок."
+                            }
                         }
                     ],
                     "synonyms": [
                         "sprzedaż",
                         "dystrybucja"
                     ],
+                    "antonyms": [
+                        "podaż"
+                    ],
                     "common_phrases": [
                         "rynek zbytu",
                         "zapewnić zbyt",
                         "trudności ze zbytem"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": "used in economic and trade contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Продажа товаров или возможность их реализации."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "сбыт",
+                                "target_lang_sense_clarification": "реализация продукции"
+                            }
+                        ]
+                    }
                 }
             ]
         }

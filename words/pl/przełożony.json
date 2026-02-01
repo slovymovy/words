@@ -1,9 +1,10 @@
 {
     "word_family": [
         "przełożyć",
-        "przekładać",
         "przekład",
-        "przełożenie"
+        "przełożenie",
+        "przełożona",
+        "przełożeństwo"
     ],
     "entries": [
         {
@@ -11,17 +12,23 @@
             "senses": [
                 {
                     "sense_id": "e335997b-b660-3c1e-ba60-b8d51cdc810c",
-                    "sense_definition": "Osoba zajmująca wyższe stanowisko w hierarchii służbowej, mająca władzę nad innymi pracownikami.",
+                    "sense_definition": "Osoba zajmująca wyższe stanowisko w hierarchii zawodowej lub służbowej, która ma władzę nad innymi pracownikami.",
                     "learner_level": "B1",
                     "frequency": "High",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "hierarchy",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mój bezpośredni <w>przełożony</w> zgodził się na mój wniosek o urlop."
+                            "text": "Mój <w>przełożony</w> zgodził się na mój wcześniejszy wyjazd z biura.",
+                            "target_lang_translations": {
+                                "ru": "Мой <w>начальник</w> согласился, чтобы я ушёл из офиса пораньше."
+                            }
                         },
                         {
-                            "text": "Wszelkie problemy w zespole należy najpierw zgłaszać do swojego <w>przełożonego</w>."
+                            "text": "Wszyscy pracownicy muszą wykonywać polecenia, które wydaje ich <w>przełożony</w>.",
+                            "target_lang_translations": {
+                                "ru": "Все сотрудники должны выполнять распоряжения, которые отдаёт их <w>руководитель</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,8 +42,27 @@
                     "common_phrases": [
                         "bezpośredni przełożony",
                         "zgoda przełożonego",
-                        "polecenie przełożonego"
-                    ]
+                        "rozmowa z przełożonym"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Лицо, занимающее более высокую должность в профессиональной или служебной иерархии и имеющее власть над другими сотрудниками."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "начальник",
+                                "target_lang_sense_clarification": "должностное лицо, имеющее подчинённых"
+                            },
+                            {
+                                "target_lang_word": "руководитель",
+                                "target_lang_sense_clarification": "лицо, возглавляющее коллектив или организацию"
+                            },
+                            {
+                                "target_lang_word": "вышестоящий",
+                                "target_lang_sense_clarification": "формальное обозначение старшего по должности"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -45,29 +71,50 @@
             "senses": [
                 {
                     "sense_id": "f039f00a-bd7e-3571-8791-f3b1f3d6ac01",
-                    "sense_definition": "Forma imiesłowu przymiotnikowego biernego od czasownika <w>przełożyć</w>.",
+                    "sense_definition": "Imiesłów przymiotnikowy bierny od czasownika <w>przełożyć</w> (oznaczający np. zmianę terminu, zmianę miejsca lub tłumaczenie tekstu).",
                     "learner_level": "B1",
                     "frequency": "High",
                     "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Z powodu złej pogody mecz piłkarski został <w>przełożony</w> na przyszły tydzień."
+                            "text": "Ważny egzamin z matematyki został <w>przełożony</w> na przyszły tydzień.",
+                            "target_lang_translations": {
+                                "ru": "Важный экзамен по математике был <w>перенесён</w> на следующую неделю."
+                            }
                         },
                         {
-                            "text": "Ten skomplikowany tekst został <w>przełożony</w> na język polski przez wybitnego tłumacza."
+                            "text": "Ten skomplikowany tekst został <w>przełożony</w> na język polski przez eksperta.",
+                            "target_lang_translations": {
+                                "ru": "Этот сложный текст был <w>переведён</w> на польский язык экспертом."
+                            }
                         }
-                    ],
-                    "common_phrases": [
-                        "termin przełożony",
-                        "egzamin przełożony"
                     ],
                     "traits": [
                         {
                             "trait_type": "form",
-                            "comment": "passive adjectival participle"
+                            "comment": "participle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Страдательное причастие от глагола <w>przełożyć</w> (означающее, например, перенос срока, смену места или перевод текста)."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "перенесённый",
+                                "target_lang_sense_clarification": "о сроке, дате или событии"
+                            },
+                            {
+                                "target_lang_word": "переведённый",
+                                "target_lang_sense_clarification": "о тексте (с одного языка на другой)"
+                            },
+                            {
+                                "target_lang_word": "отложенный",
+                                "target_lang_sense_clarification": "о делах или планах"
+                            }
+                        ]
+                    }
                 }
             ]
         }

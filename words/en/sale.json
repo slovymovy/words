@@ -4,9 +4,12 @@
         "seller",
         "salesman",
         "salesperson",
-        "salable",
+        "saleswoman",
         "resale",
-        "wholesale"
+        "wholesale",
+        "undersell",
+        "oversell",
+        "salesmanship"
     ],
     "entries": [
         {
@@ -14,39 +17,63 @@
             "senses": [
                 {
                     "sense_id": "a722777f-989b-3098-a652-8eeab330f62e",
-                    "sense_definition": "A period or event during which a shop sells goods at reduced prices.",
+                    "sense_definition": "An event or period during which a shop sells goods at reduced prices.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "commercial_transaction",
+                    "semantic_group_id": "commerce_discount",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "I bought this jacket for half price during the summer <w>sale</w>."
+                            "text": "I bought this jacket for half price during the winter <w>sale</w>.",
+                            "target_lang_translations": {
+                                "ru": "Я купил эту куртку за полцены на зимней <w>распродаже</w>."
+                            }
                         },
                         {
-                            "text": "The store is having a clearance <w>sale</w> to make room for new stock."
+                            "text": "The local store is having a clearance <w>sale</w> to make room for new stock.",
+                            "target_lang_translations": {
+                                "ru": "В местном магазине проходит полная <w>распродажа</w>, чтобы освободить место для нового товара."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "on sale",
                         "clearance sale",
+                        "summer sale",
                         "garage sale",
-                        "summer sale"
-                    ]
+                        "flash sale"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Событие или период времени, когда магазин продает товары по сниженным ценам."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "распродажа",
+                                "target_lang_sense_clarification": "снижение цен"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "62428e3a-f9dd-35ad-af3f-7d307a499cb0",
                     "sense_definition": "The act of exchanging goods or services for money.",
                     "learner_level": "A2",
                     "frequency": "High",
-                    "semantic_group_id": "commercial_transaction",
+                    "semantic_group_id": "commerce_transaction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The <w>sale</w> of the house was finalized yesterday."
+                            "text": "The <w>sale</w> of the house was finalized yesterday afternoon.",
+                            "target_lang_translations": {
+                                "ru": "<w>Продажа</w> дома была окончательно оформлена вчера днем."
+                            }
                         },
                         {
-                            "text": "He put his old car up for <w>sale</w> last week."
+                            "text": "He put his old car up <w>for sale</w> on the internet.",
+                            "target_lang_translations": {
+                                "ru": "Он выставил свою старую машину <w>на продажу</w> в интернете."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -55,51 +82,101 @@
                     "common_phrases": [
                         "for sale",
                         "point of sale",
+                        "make a sale",
                         "bill of sale",
-                        "make a sale"
-                    ]
+                        "terms of sale"
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Акт обмена товаров или услуг на деньги."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "продажа",
+                                "target_lang_sense_clarification": "обмен товара на деньги"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d654b955-47d1-3d91-b6cc-b6d81fce5dc6",
-                    "sense_definition": "A public event where items are sold to the person who offers the most money.",
+                    "sense_definition": "A public event where items are sold to the person who offers the highest price.",
                     "learner_level": "B2",
                     "frequency": "Low",
-                    "semantic_group_id": "commercial_transaction",
+                    "semantic_group_id": "commerce_auction",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Many rare antiques were available at the estate <w>sale</w>."
+                            "text": "We attended an antique <w>sale</w> to look for rare furniture.",
+                            "target_lang_translations": {
+                                "ru": "Мы посетили <w>аукцион</w> антиквариата в поисках редкой мебели."
+                            }
                         },
                         {
-                            "text": "The auction <w>sale</w> attracted bidders from all over the country."
+                            "text": "The farm equipment was put up for <w>sale</w> at the local auction house.",
+                            "target_lang_translations": {
+                                "ru": "Сельскохозяйственная техника была выставлена на <w>торги</w> в местном аукционном доме."
+                            }
                         }
                     ],
                     "common_phrases": [
                         "auction sale",
                         "estate sale"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Публичное мероприятие, на котором предметы продаются тому, кто предложит самую высокую цену."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "аукцион",
+                                "target_lang_sense_clarification": "публичные торги"
+                            },
+                            {
+                                "target_lang_word": "торги",
+                                "target_lang_sense_clarification": "аукцион"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "80ce320f-cd5f-3b4b-9cf8-a8ded90c07c7",
-                    "sense_definition": "A large hall or room.",
+                    "sense_definition": "A hall or large room.",
                     "learner_level": "C2",
                     "frequency": "VeryLow",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "architecture_archaic",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The guests gathered in the great <w>sale</w> for the feast."
+                            "text": "The guests gathered in the great <w>sale</w> for the evening feast.",
+                            "target_lang_translations": {
+                                "ru": "Гости собрались в большом <w>зале</w> для вечернего пира."
+                            }
                         },
                         {
-                            "text": "He entered the <w>sale</w> where the king held court."
+                            "text": "Historical texts describe the castle's main <w>sale</w> as a place of judgment.",
+                            "target_lang_translations": {
+                                "ru": "Исторические тексты описывают главный <w>зал</w> замка как место суда."
+                            }
                         }
                     ],
                     "traits": [
                         {
                             "trait_type": "archaic",
-                            "comment": "This sense is obsolete in modern English."
+                            "comment": "historical usage derived from French salle"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Зал или большая комната."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "зал",
+                                "target_lang_sense_clarification": "устаревшее значение"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -108,39 +185,89 @@
             "senses": [
                 {
                     "sense_id": "746d7329-9519-30a1-97ea-2e2e112730e4",
-                    "sense_definition": "A town in England or Australia.",
-                    "learner_level": "C2",
+                    "sense_definition": "A town in Greater Manchester, England.",
+                    "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "place_name",
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "We visited the town of <w>Sale</w> during our trip to Greater Manchester."
+                            "text": "My cousin lives in <w>Sale</w> and commutes to Manchester for work.",
+                            "target_lang_translations": {
+                                "ru": "Мой кузен живет в <w>Сейле</w> и ездит на работу в Манчестер."
+                            }
                         },
                         {
-                            "text": "He lives near <w>Sale</w> in the Gippsland region of Victoria."
+                            "text": "The rugby team from <w>Sale</w> is well known in the league.",
+                            "target_lang_translations": {
+                                "ru": "Регбийная команда из <w>Сейла</w> хорошо известна в лиге."
+                            }
                         }
                     ],
-                    "traits": [
+                    "target_lang_definitions": {
+                        "ru": "Город в Большом Манчестере, Англия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сейл",
+                                "target_lang_sense_clarification": "город"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "11189bed-7a15-31f8-a060-bd6f18ff151a",
+                    "sense_definition": "A town in Victoria, Australia.",
+                    "learner_level": "C1",
+                    "frequency": "Low",
+                    "semantic_group_id": "place_name",
+                    "name_type": "place_name",
+                    "examples": [
                         {
-                            "trait_type": "place_name",
-                            "comment": "Refers to specific towns in the UK and Australia."
+                            "text": "We stopped in <w>Sale</w> during our road trip through Gippsland.",
+                            "target_lang_translations": {
+                                "ru": "Мы остановились в <w>Сейле</w> во время нашей поездки по Гипсленду."
+                            }
+                        },
+                        {
+                            "text": "The weather in <w>Sale</w> can be quite variable in the spring.",
+                            "target_lang_translations": {
+                                "ru": "Погода в <w>Сейле</w> может быть довольно переменчивой весной."
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Город в штате Виктория, Австралия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сейл",
+                                "target_lang_sense_clarification": "город"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "e38f9fef-7618-3c07-9aea-3ed7f089fb13",
                     "sense_definition": "A surname.",
                     "learner_level": "C2",
                     "frequency": "Low",
-                    "semantic_group_id": "",
+                    "semantic_group_id": "person_name",
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Sale</w> will be leading the meeting today."
+                            "text": "Mr. <w>Sale</w> has been teaching history at the college for twenty years.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Сейл</w> преподает историю в колледже уже двадцать лет."
+                            }
                         },
                         {
-                            "text": "I was introduced to a woman named Sarah <w>Sale</w>."
+                            "text": "I was introduced to a woman named Sarah <w>Sale</w> at the conference.",
+                            "target_lang_translations": {
+                                "ru": "На конференции меня представили женщине по имени Сара <w>Сейл</w>."
+                            }
                         }
                     ],
                     "traits": [
@@ -148,7 +275,18 @@
                             "trait_type": "surname",
                             "comment": ""
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Сейл",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 }
             ]
         }

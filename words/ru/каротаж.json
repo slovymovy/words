@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Геологи выполнили <w>каротаж</w> скважины для поиска новых залежей нефти."
+                            "text": "Геологи выполнили <w>каротаж</w> скважины для поиска новых залежей нефти.",
+                            "target_lang_translations": {
+                                "en": "The geologists performed <w>well logging</w> to search for new oil deposits."
+                            }
                         },
                         {
-                            "text": "Результаты <w>каротажа</w> позволили точно определить глубину залегания пласта."
+                            "text": "Результаты <w>каротажа</w> позволили точно определить глубину залегания пласта.",
+                            "target_lang_translations": {
+                                "en": "The <w>well logging</w> results allowed for the precise determination of the formation depth."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +39,21 @@
                         "данные каротажа",
                         "проводить каротаж"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "technical",
-                            "comment": "геофизика, геология"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A geophysical survey of wells to study rock formations, search for minerals, and estimate their reserves."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "well logging",
+                                "target_lang_sense_clarification": "geophysical survey of a borehole"
+                            },
+                            {
+                                "target_lang_word": "logging",
+                                "target_lang_sense_clarification": "industry short form"
+                            }
+                        ]
+                    }
                 }
             ]
         }

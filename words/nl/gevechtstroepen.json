@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De generaal besloot om extra <w>gevechtstroepen</w> naar de frontlinie te sturen."
+                            "text": "De generaal besloot om extra <w>gevechtstroepen</w> naar de frontlinie te sturen.",
+                            "target_lang_translations": {
+                                "en": "The general decided to send extra <w>combat troops</w> to the front line.",
+                                "ru": "Генерал решил отправить дополнительные <w>боевые войска</w> на линию фронта."
+                            }
                         },
                         {
-                            "text": "Na de inzet van <w>gevechtstroepen</w> werd de situatie in het gebied snel stabieler."
+                            "text": "Na de inzet van <w>gevechtstroepen</w> werd de situatie in het gebied snel stabieler.",
+                            "target_lang_translations": {
+                                "en": "After the deployment of <w>combat troops</w>, the situation in the area quickly became more stable.",
+                                "ru": "После ввода <w>боевых войск</w> ситуация в регионе быстро стабилизировалась."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,12 +41,32 @@
                         "inzet van gevechtstroepen",
                         "terugtrekking van gevechtstroepen"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "military",
-                            "comment": "used in the context of armed forces and warfare"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Troops intended to participate in combat.",
+                        "ru": "Войска, предназначенные для участия в боевых действиях."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "combat troops",
+                                "target_lang_sense_clarification": "military units engaged in direct fighting"
+                            },
+                            {
+                                "target_lang_word": "fighting forces",
+                                "target_lang_sense_clarification": "general term for units capable of combat"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "боевые войска",
+                                "target_lang_sense_clarification": "силы для ведения боя"
+                            },
+                            {
+                                "target_lang_word": "боевые части",
+                                "target_lang_sense_clarification": "военные подразделения"
+                            }
+                        ]
+                    }
                 }
             ]
         }

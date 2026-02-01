@@ -17,10 +17,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The movie was criticized for the sheer <w>corniness</w> of its romantic dialogue."
+                            "text": "The movie was criticized for the sheer <w>corniness</w> of its romantic dialogue.",
+                            "target_lang_translations": {
+                                "ru": "Фильм критиковали за явную <w>слащавость</w> его романтических диалогов."
+                            }
                         },
                         {
-                            "text": "Despite the <w>corniness</w> of his jokes, everyone at the party laughed."
+                            "text": "Despite the <w>corniness</w> of his jokes, everyone at the party laughed.",
+                            "target_lang_translations": {
+                                "ru": "Несмотря на <w>банальность</w> его шуток, все на вечеринке смеялись."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "sheer corniness",
                         "bouts of corniness"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "informal",
-                            "comment": "often used to describe bad humor or sentimentality"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Свойство быть неоригинальным, чрезмерно сентиментальным или старомодным."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "банальность",
+                                "target_lang_sense_clarification": "отсутствие оригинальности, заурядность"
+                            },
+                            {
+                                "target_lang_word": "избитость",
+                                "target_lang_sense_clarification": "чрезмерная частота употребления, делающая что-то скучным"
+                            },
+                            {
+                                "target_lang_word": "слащавость",
+                                "target_lang_sense_clarification": "чрезмерная, приторная сентиментальность"
+                            }
+                        ]
+                    }
                 }
             ]
         }

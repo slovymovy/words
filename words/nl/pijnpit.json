@@ -16,10 +16,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ze strooide wat geroosterde <w>pijnpitten</w> over de verse salade."
+                            "text": "Ze strooide wat geroosterde <w>pijnpitten</w> over de verse salade.",
+                            "target_lang_translations": {
+                                "en": "She sprinkled some roasted <w>pine nuts</w> over the fresh salad.",
+                                "ru": "Она посыпала свежий салат жареными <w>кедровыми орешками</w>."
+                            }
                         },
                         {
-                            "text": "Voor dit recept heb je basilicum, kaas en een zakje <w>pijnpitten</w> nodig."
+                            "text": "Voor dit recept heb je basilicum, kaas en een zakje <w>pijnpitten</w> nodig.",
+                            "target_lang_translations": {
+                                "en": "For this recipe you need basil, cheese, and a bag of <w>pine nuts</w>.",
+                                "ru": "Для этого рецепта тебе понадобятся базилик, сыр и пакетик <w>кедровых орешков</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +37,24 @@
                         "geroosterde pijnpitten",
                         "handje pijnpitten"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "culinary",
-                            "comment": "ingredient"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "The edible seed of a pine tree.",
+                        "ru": "Съедобное семя сосны."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "pine nut",
+                                "target_lang_sense_clarification": "edible seed used in cooking"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "кедровый орех",
+                                "target_lang_sense_clarification": "семя"
+                            }
+                        ]
+                    }
                 }
             ]
         }

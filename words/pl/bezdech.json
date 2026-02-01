@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nieleczony <w>bezdech</w> senny może prowadzić do poważnych problemów zdrowotnych."
+                            "text": "Nieleczony <w>bezdech</w> senny może prowadzić do poważnych problemów zdrowotnych.",
+                            "target_lang_translations": {
+                                "ru": "Нелеченое <w>апноэ</w> сна может привести к серьезным проблемам со здоровьем."
+                            }
                         },
                         {
-                            "text": "<w>Bezdech</w> jest niebezpieczny, ponieważ powoduje niedotlenienie organizmu."
+                            "text": "<w>Bezdech</w> jest niebezpieczny, ponieważ powoduje niedotlenienie organizmu.",
+                            "target_lang_translations": {
+                                "ru": "<w>Апноэ</w> опасно, поскольку вызывает кислородное голодание организма."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,21 @@
                         "bezdech senny",
                         "nocny bezdech"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Патологическая или вызванная намеренно остановка дыхания."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "апноэ",
+                                "target_lang_sense_clarification": "медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "остановка дыхания",
+                                "target_lang_sense_clarification": "общее значение"
+                            }
+                        ]
+                    }
                 }
             ]
         }

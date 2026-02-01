@@ -13,10 +13,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "De <w>listing</w> van de artikelen in promotie wordt nu afgedrukt."
+                            "text": "De <w>listing</w> van de artikelen in promotie wordt nu afgedrukt.",
+                            "target_lang_translations": {
+                                "en": "The <w>listing</w> of the promotional items is being printed now.",
+                                "ru": "<w>Список</w> акционных товаров сейчас распечатывается."
+                            }
                         },
                         {
-                            "text": "De manager vroeg om een gedetailleerde <w>listing</w> van alle verkoopcijfers."
+                            "text": "De manager vroeg om een gedetailleerde <w>listing</w> van alle verkoopcijfers.",
+                            "target_lang_translations": {
+                                "en": "The manager asked for a detailed <w>listing</w> of all sales figures.",
+                                "ru": "Менеджер попросил подробную <w>распечатку</w> всех показателей продаж."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,12 +36,36 @@
                         "de listing controleren",
                         "een listing maken"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "administrative",
-                            "comment": "vaak gebruikt voor computeruitdraaien of zakelijke overzichten"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "An enumeration of items listed one below the other, often used for an inventory or report.",
+                        "ru": "Перечисление пунктов, расположенных друг под другом; часто используется для инвентаризации или отчетов."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "listing",
+                                "target_lang_sense_clarification": "ordered list or computer printout"
+                            },
+                            {
+                                "target_lang_word": "list",
+                                "target_lang_sense_clarification": "general enumeration"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "список",
+                                "target_lang_sense_clarification": "перечень предметов или данных"
+                            },
+                            {
+                                "target_lang_word": "распечатка",
+                                "target_lang_sense_clarification": "список, выведенный на печать"
+                            },
+                            {
+                                "target_lang_word": "перечень",
+                                "target_lang_sense_clarification": "формальный список"
+                            }
+                        ]
+                    }
                 }
             ]
         }

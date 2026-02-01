@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Грузополучатель</w> обязан проверить целостность упаковки при приёмке товара."
+                            "text": "<w>Грузополучатель</w> обязан проверить целостность упаковки при приёмке товара.",
+                            "target_lang_translations": {
+                                "en": "The <w>consignee</w> is obliged to check the integrity of the packaging upon receipt of the goods."
+                            }
                         },
                         {
-                            "text": "В транспортной накладной необходимо указать точный адрес и телефон <w>грузополучателя</w>."
+                            "text": "В транспортной накладной необходимо указать точный адрес и телефон <w>грузополучателя</w>.",
+                            "target_lang_translations": {
+                                "en": "It is necessary to indicate the exact address and phone number of the <w>consignee</w> in the waybill."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,16 +43,21 @@
                         "права грузополучателя",
                         "склад грузополучателя"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "business",
-                            "comment": ""
-                        },
-                        {
-                            "trait_type": "formal",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "A person or organization to whom a shipment is addressed and sent."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "consignee",
+                                "target_lang_sense_clarification": "recipient of a shipment"
+                            },
+                            {
+                                "target_lang_word": "receiver",
+                                "target_lang_sense_clarification": "general term for one who receives goods"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Biegli lekarze orzekli, że oskarżony był całkowicie <w>niepoczytalny</w>."
+                            "text": "Biegli lekarze orzekli, że oskarżony był całkowicie <w>niepoczytalny</w>.",
+                            "target_lang_translations": {
+                                "ru": "Судмедэксперты заключили, что обвиняемый был полностью <w>невменяем</w>."
+                            }
                         },
                         {
-                            "text": "Mężczyzna został uznany za <w>niepoczytalnego</w> i skierowany na przymusowe leczenie."
+                            "text": "Mężczyzna został uznany za <w>niepoczytalnego</w> i skierowany na przymusowe leczenie.",
+                            "target_lang_translations": {
+                                "ru": "Мужчина был признан <w>невменяемым</w> и направлен на принудительное лечение."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,16 +41,17 @@
                         "uznany za niepoczytalnego",
                         "całkowicie niepoczytalny"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "legal",
-                            "comment": "termin prawniczy"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "termin medyczny"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Неспособный руководить своими действиями или осознавать их значение вследствие психического расстройства."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "невменяемый",
+                                "target_lang_sense_clarification": "юридический и медицинский термин"
+                            }
+                        ]
+                    }
                 }
             ]
         }

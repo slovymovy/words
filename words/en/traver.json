@@ -13,10 +13,16 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Mr. <w>Traver</w> has managed the local grocery store for over a decade."
+                            "text": "Mr. <w>Traver</w> has managed the local grocery store for over a decade.",
+                            "target_lang_translations": {
+                                "ru": "Мистер <w>Травер</w> управляет местным продуктовым магазином уже более десяти лет."
+                            }
                         },
                         {
-                            "text": "The <w>Traver</w> family donated a significant amount to the new library fund."
+                            "text": "The <w>Traver</w> family donated a significant amount to the new library fund.",
+                            "target_lang_translations": {
+                                "ru": "Семья <w>Травер</w> пожертвовала значительную сумму в фонд новой библиотеки."
+                            }
                         }
                     ],
                     "traits": [
@@ -24,7 +30,18 @@
                             "trait_type": "surname",
                             "comment": "used as a last name"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Фамилия."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Травер",
+                                "target_lang_sense_clarification": "фамилия"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "da6d6a51-007d-3d86-b096-48b00b5bc22a",
@@ -35,18 +52,29 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "We stopped briefly in <w>Traver</w> while driving through the central valley of California."
+                            "text": "We stopped briefly in <w>Traver</w> while driving through the central valley of California.",
+                            "target_lang_translations": {
+                                "ru": "Мы ненадолго остановились в <w>Травере</w>, проезжая через Центральную долину Калифорнии."
+                            }
                         },
                         {
-                            "text": "The small community of <w>Traver</w> is located near the highway."
+                            "text": "The small community of <w>Traver</w> is located near the highway.",
+                            "target_lang_translations": {
+                                "ru": "Небольшое поселение <w>Травер</w> расположено недалеко от шоссе."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "place_name",
-                            "comment": "geographical location"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Статистически обособленная местность в округе Туларе, штат Калифорния, США."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "Травер",
+                                "target_lang_sense_clarification": "населенный пункт в Калифорнии"
+                            }
+                        ]
+                    }
                 }
             ]
         }

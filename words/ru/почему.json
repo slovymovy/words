@@ -1,6 +1,5 @@
 {
     "word_family": [
-        "почемучка",
         "почему-то",
         "почему-либо",
         "почему-нибудь"
@@ -11,28 +10,82 @@
             "senses": [
                 {
                     "sense_id": "ce9c02d2-5650-32e8-bfac-26eb571aa6fe",
-                    "sense_definition": "Вопросительное наречие, которое используется для выяснения причины, основания или мотива какого-либо действия или состояния; соответствует значениям «по какой причине?», «из-за чего?».",
+                    "sense_definition": "Вопросительное слово, которое используется для выяснения причины или основания чего-либо; по какой причине.",
                     "learner_level": "A1",
                     "frequency": "High",
-                    "semantic_group_id": "question_cause",
+                    "semantic_group_id": "reason_question",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Почему</w> ты не хочешь пойти с нами в кино?"
+                            "text": "Я не понимаю, <w>почему</w> ты злишься на меня.",
+                            "target_lang_translations": {
+                                "en": "I don't understand <w>why</w> you are angry with me."
+                            }
                         },
                         {
-                            "text": "Я не понимаю, <w>почему</w> эта задача такая сложная."
-                        },
-                        {
-                            "text": "Вот <w>почему</w> нам нужно выходить из дома заранее."
+                            "text": "<w>Почему</w> вы не пришли вчера на собрание?",
+                            "target_lang_translations": {
+                                "en": "<w>Why</w> didn't you come to the meeting yesterday?"
+                            }
                         }
+                    ],
+                    "synonyms": [
+                        "оттого",
+                        "оттого"
                     ],
                     "common_phrases": [
                         "почему бы и нет",
                         "вот почему",
-                        "почему же",
-                        "почему именно"
-                    ]
+                        "почему именно я"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An interrogative word used to ask about the cause or reason for something."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "why",
+                                "target_lang_sense_clarification": "asking for reason"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sense_id": "9c8474b4-7efa-3e0c-969d-3d46c713752f",
+                    "sense_definition": "Вопросительное слово, которое используется для выяснения цели действия; с какой целью.",
+                    "learner_level": "B1",
+                    "frequency": "Middle",
+                    "semantic_group_id": "purpose_question",
+                    "name_type": "no",
+                    "examples": [
+                        {
+                            "text": "<w>Почему</w> мы должны помогать им, если они сами не хотят работать?",
+                            "target_lang_translations": {
+                                "en": "<w>Why</w> should we help them if they don't want to work themselves?"
+                            }
+                        },
+                        {
+                            "text": "Скажи мне, <w>почему</w> ты решил поехать именно в этот город?",
+                            "target_lang_translations": {
+                                "en": "Tell me <w>why</w> you decided to go to this particular city?"
+                            }
+                        }
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An interrogative word used to ask about the purpose of an action."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "why",
+                                "target_lang_sense_clarification": "asking for purpose"
+                            },
+                            {
+                                "target_lang_word": "what for",
+                                "target_lang_sense_clarification": "colloquial, asking for purpose"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -41,25 +94,47 @@
             "senses": [
                 {
                     "sense_id": "25344493-2f46-330c-94f6-f070ce1b2c96",
-                    "sense_definition": "Союзное слово, присоединяющее придаточные предложения следствия; по значению близко к «вследствие чего», «поэтому».",
+                    "sense_definition": "Союзное слово, которое присоединяет придаточное предложение следствия; вследствие чего, по этой причине.",
                     "learner_level": "C1",
                     "frequency": "Low",
-                    "semantic_group_id": "conjunction_consequence",
+                    "semantic_group_id": "",
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Шёл сильный дождь, <w>почему</w> прогулку пришлось отменить."
+                            "text": "Было уже очень поздно, <w>почему</w> мы и решили остаться дома.",
+                            "target_lang_translations": {
+                                "en": "It was already very late, <w>which is why</w> we decided to stay home."
+                            }
                         },
                         {
-                            "text": "Он плохо знал город, <w>почему</w> и заблудился в центре."
+                            "text": "Он плохо знал местность, <w>почему</w> и заблудился в первом же переулке.",
+                            "target_lang_translations": {
+                                "en": "He didn't know the area well, <w>which is why</w> he got lost in the very first alley."
+                            }
                         }
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "literary",
-                            "comment": "характерно для книжной речи"
-                        }
-                    ]
+                    "synonyms": [
+                        "оттого"
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A conjunction connecting a clause of consequence; as a result of which."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "which is why",
+                                "target_lang_sense_clarification": "relative conjunction"
+                            },
+                            {
+                                "target_lang_word": "that is why",
+                                "target_lang_sense_clarification": "consequence"
+                            },
+                            {
+                                "target_lang_word": "so",
+                                "target_lang_sense_clarification": "consequence"
+                            }
+                        ]
+                    }
                 }
             ]
         }

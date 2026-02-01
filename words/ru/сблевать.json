@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "От этого ужасного запаха я чуть не <w>сблевал</w> прямо в коридоре."
+                            "text": "От этого ужасного запаха я чуть не <w>сблевал</w> прямо в коридоре.",
+                            "target_lang_translations": {
+                                "en": "That terrible smell made me almost <w>puke</w> right in the hallway."
+                            }
                         },
                         {
-                            "text": "Парень перебрал с алкоголем и <w>сблевал</w> в кусты возле бара."
+                            "text": "Парень перебрал с алкоголем и <w>сблевал</w> в кусты возле бара.",
+                            "target_lang_translations": {
+                                "en": "The guy had too much to drink and <w>threw up</w> in the bushes near the bar."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -36,12 +42,25 @@
                         "сблевать на пол",
                         "сблевать от запаха"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "vulgar",
-                            "comment": "грубое, просторечное слово"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "To eject the contents of the stomach through the mouth; to vomit."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "puke",
+                                "target_lang_sense_clarification": "colloquial"
+                            },
+                            {
+                                "target_lang_word": "throw up",
+                                "target_lang_sense_clarification": "common phrasal verb"
+                            },
+                            {
+                                "target_lang_word": "vomit",
+                                "target_lang_sense_clarification": "standard"
+                            }
+                        ]
+                    }
                 }
             ]
         }

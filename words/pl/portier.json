@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Portier</w> otworzył nam drzwi do hotelu."
+                            "text": "<w>Portier</w> otworzył nam drzwi do hotelu.",
+                            "target_lang_translations": {
+                                "ru": "<w>Швейцар</w> открыл нам дверь в отель."
+                            }
                         },
                         {
-                            "text": "Zostawiłem klucze w recepcji, gdzie siedział <w>portier</w>."
+                            "text": "Zostawiłem klucze w recepcji, gdzie siedział <w>portier</w>.",
+                            "target_lang_translations": {
+                                "ru": "Я оставил ключи на ресепшене, где сидел <w>портье</w>."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,12 +37,25 @@
                         "uprzejmy portier",
                         "zapytać portiera"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "professional",
-                            "comment": "dotyczy zawodu"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Служащий, дежурящий у входа в здание (гостиницу, учреждение), контролирующий вход или предоставляющий информацию."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "портье",
+                                "target_lang_sense_clarification": "администратор в гостинице"
+                            },
+                            {
+                                "target_lang_word": "вахтёр",
+                                "target_lang_sense_clarification": "дежурный на проходной"
+                            },
+                            {
+                                "target_lang_word": "швейцар",
+                                "target_lang_sense_clarification": "привратник"
+                            }
+                        ]
+                    }
                 }
             ]
         }

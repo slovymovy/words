@@ -18,10 +18,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач посоветовал пациенту отправиться на <w>горноклиматический</w> курорт для восстановления здоровья."
+                            "text": "Врач посоветовал пациенту отправиться на <w>горноклиматический</w> курорт для восстановления здоровья.",
+                            "target_lang_translations": {
+                                "en": "The doctor advised the patient to go to a <w>mountain-climatic</w> resort to restore their health."
+                            }
                         },
                         {
-                            "text": "Этот <w>горноклиматический</w> район славится чистым воздухом и большим количеством солнечных дней."
+                            "text": "Этот <w>горноклиматический</w> район славится чистым воздухом и большим количеством солнечных дней.",
+                            "target_lang_translations": {
+                                "en": "This <w>mountain-climatic</w> region is famous for its clean air and large number of sunny days."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -29,12 +35,21 @@
                         "горноклиматический санаторий",
                         "горноклиматическая станция"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": "often used in the context of health resorts and therapy"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to mountain climate and its use for therapeutic purposes."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "mountain-climatic",
+                                "target_lang_sense_clarification": "pertaining to the specific climate of mountains, often regarding health resorts"
+                            },
+                            {
+                                "target_lang_word": "mountain health",
+                                "target_lang_sense_clarification": "used in the context of resorts or treatments located in the mountains"
+                            }
+                        ]
+                    }
                 }
             ]
         }

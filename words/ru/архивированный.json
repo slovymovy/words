@@ -21,10 +21,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Этот <архивированный> файл можно отправить по электронной почте."
+                            "text": "Этот <архивированный> файл можно отправить по электронной почте.",
+                            "target_lang_translations": {
+                                "en": "This <zipped> file can be sent via email."
+                            }
                         },
                         {
-                            "text": "Системный администратор проверил <архивированный> каталог с документами."
+                            "text": "Системный администратор проверил <архивированный> каталог с документами.",
+                            "target_lang_translations": {
+                                "en": "The system administrator checked the <archived> directory with documents."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -42,12 +48,25 @@
                         "архивированные данные",
                         "архивированная копия"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "computing",
-                            "comment": "часто используется в контексте работы с компьютерными файлами и данными"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Placed in an archive for storage or compressed by a special program"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "archived",
+                                "target_lang_sense_clarification": "stored or compressed"
+                            },
+                            {
+                                "target_lang_word": "zipped",
+                                "target_lang_sense_clarification": "compressed file format"
+                            },
+                            {
+                                "target_lang_word": "compressed",
+                                "target_lang_sense_clarification": "reduced in size"
+                            }
+                        ]
+                    }
                 }
             ]
         }

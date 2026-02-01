@@ -13,10 +13,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The sailor passed the rope through the <w>fairlead</w> to prevent it from rubbing against the deck."
+                            "text": "The sailor passed the rope through the <w>fairlead</w> to prevent it from rubbing against the deck.",
+                            "target_lang_translations": {
+                                "ru": "Матрос пропустил трос через <w>клюз</w>, чтобы он не терся о палубу."
+                            }
                         },
                         {
-                            "text": "Make sure the cable is seated correctly in the <w>fairlead</w> before you start the winch."
+                            "text": "Make sure the cable is seated correctly in the <w>fairlead</w> before you start the winch.",
+                            "target_lang_translations": {
+                                "ru": "Убедитесь, что трос правильно уложен в <w>направляющий ролик</w>, прежде чем запускать лебедку."
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -24,16 +30,25 @@
                         "deck fairlead",
                         "roller fairlead"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "nautical",
-                            "comment": "common on boats and ships"
-                        },
-                        {
-                            "trait_type": "technical",
-                            "comment": "mechanical contexts"
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "ru": "Устройство или приспособление, используемое для направления троса, каната или кабеля, а также для предотвращения его смещения или перетирания."
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "клюз",
+                                "target_lang_sense_clarification": "отверстие или оковка для проводки троса"
+                            },
+                            {
+                                "target_lang_word": "кип",
+                                "target_lang_sense_clarification": "желоб или планка для направления троса"
+                            },
+                            {
+                                "target_lang_word": "направляющий ролик",
+                                "target_lang_sense_clarification": "техническое приспособление"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -20,10 +20,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Рана, <w>нагноившись</w> из-за попавшей грязи, потребовала срочного лечения."
+                            "text": "Рана, <w>нагноившись</w> из-за попавшей грязи, потребовала срочного лечения.",
+                            "target_lang_translations": {
+                                "en": "The wound, <w>having festered</w> due to the dirt that got in, required urgent treatment."
+                            }
                         },
                         {
-                            "text": "Порез на пальце долго не заживал и, <w>нагноившись</w>, начал сильно болеть."
+                            "text": "Порез на пальце долго не заживал и, <w>нагноившись</w>, начал сильно болеть.",
+                            "target_lang_translations": {
+                                "en": "The cut on the finger took a long time to heal and, <w>having festered</w>, began to hurt badly."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,12 +43,23 @@
                         {
                             "trait_type": "form",
                             "comment": "past gerund"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": "pathology"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "having become inflamed and filled with pus; past adverbial participle of the verb 'to fester'"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "having festered",
+                                "target_lang_sense_clarification": "general term for a wound becoming infected and forming pus"
+                            },
+                            {
+                                "target_lang_word": "having suppurated",
+                                "target_lang_sense_clarification": "medical term for the formation or discharge of pus"
+                            }
+                        ]
+                    }
                 }
             ]
         }

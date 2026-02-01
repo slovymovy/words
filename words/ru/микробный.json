@@ -19,10 +19,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В лаборатории учёные тщательно изучали <w>микробный</w> состав пробы воды."
+                            "text": "В лаборатории учёные тщательно изучали <w>микробный</w> состав пробы воды.",
+                            "target_lang_translations": {
+                                "en": "In the laboratory, scientists carefully studied the <w>microbial</w> composition of the water sample."
+                            }
                         },
                         {
-                            "text": "Это лекарство эффективно разрушает <w>микробные</w> клетки и останавливает инфекцию."
+                            "text": "Это лекарство эффективно разрушает <w>микробные</w> клетки и останавливает инфекцию.",
+                            "target_lang_translations": {
+                                "en": "This medicine effectively destroys <w>microbial</w> cells and stops the infection."
+                            }
                         }
                     ],
                     "antonyms": [
@@ -34,16 +40,21 @@
                         "микробное загрязнение",
                         "микробный белок"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "scientific",
-                            "comment": "биология"
-                        },
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Related to, pertaining to, or caused by microbes"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "microbial",
+                                "target_lang_sense_clarification": "relating to microbes"
+                            },
+                            {
+                                "target_lang_word": "microbic",
+                                "target_lang_sense_clarification": "less common variant"
+                            }
+                        ]
+                    }
                 }
             ]
         }

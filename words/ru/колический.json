@@ -16,10 +16,16 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Пациент жаловался на сильные <w>колические</w> боли в области живота."
+                            "text": "Пациент жаловался на сильные <w>колические</w> боли в области живота.",
+                            "target_lang_translations": {
+                                "en": "The patient complained of severe <w>colicky</w> pains in the abdominal area."
+                            }
                         },
                         {
-                            "text": "Врач назначил препарат, чтобы снять этот неприятный <w>колический</w> спазм."
+                            "text": "Врач назначил препарат, чтобы снять этот неприятный <w>колический</w> спазм.",
+                            "target_lang_translations": {
+                                "en": "The doctor prescribed a drug to relieve this unpleasant <w>colicky</w> spasm."
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,12 +35,17 @@
                         "колические боли",
                         "колический спазм"
                     ],
-                    "traits": [
-                        {
-                            "trait_type": "medical",
-                            "comment": ""
-                        }
-                    ]
+                    "target_lang_definitions": {
+                        "en": "Relating to or associated with the noun <w>colic</w>."
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "colicky",
+                                "target_lang_sense_clarification": "medical: relating to severe intermittent abdominal pain"
+                            }
+                        ]
+                    }
                 }
             ]
         }

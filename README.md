@@ -1,6 +1,6 @@
-# Open Words
+# Words
 
-Open Words is a collection of machine-readable word data derived from
+Words is a collection of machine-readable word data derived from
 Wiktionary data processed by [Kaikki.org](https://kaikki.org/) and
 [Wiktextract](https://github.com/tatuylonen/wiktextract).
 
@@ -46,7 +46,7 @@ Kaikki.org maintainers.
 
 ## Acknowledgements
 
-Open Words exists because Wiktionary contributors, Wiktextract contributors,
+Words exists because Wiktionary contributors, Wiktextract contributors,
 and Kaikki.org make lexical knowledge available in forms that developers,
 researchers, linguists, and language learners can reuse.
 

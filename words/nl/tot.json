@@ -19,14 +19,28 @@
                             "text": "De winkel is open van negen <tot> vijf uur.",
                             "target_lang_translations": {
                                 "en": "The shop is open from nine <w>to</w> five o'clock.",
-                                "ru": "Магазин открыт с девяти <до> пяти часов."
+                                "ru": "Магазин открыт с девяти <до> пяти часов.",
+                                "es": "La tienda está abierta de nueve <w>a</w> cinco.",
+                                "pl": "Sklep jest otwarty od dziewiątej <w>do</w> piątej.",
+                                "de": "Das Geschäft ist von neun <w>bis</w> fünf Uhr geöffnet.",
+                                "fr": "Le magasin est ouvert de neuf <w>à</w> dix-sept heures.",
+                                "it": "Il negozio è aperto dalle nove <w>alle</w> cinque.",
+                                "cs": "Obchod je otevřený od devíti <w>do</w> pěti hodin.",
+                                "tr": "Mağaza dokuzdan beşe <w>kadar</w> açık."
                             }
                         },
                         {
                             "text": "We liepen <tot> het einde van de straat.",
                             "target_lang_translations": {
                                 "en": "We walked <w>to</w> the end of the street.",
-                                "ru": "Мы шли <до> конца улицы."
+                                "ru": "Мы шли <до> конца улицы.",
+                                "es": "Caminamos <w>hasta</w> el final de la calle.",
+                                "pl": "Szliśmy <w>do</w> końca ulicy.",
+                                "de": "Wir gingen <w>bis</w> zum Ende der Straße.",
+                                "fr": "Nous avons marché <w>jusqu'au</w> bout de la rue.",
+                                "it": "Abbiamo camminato <w>fino alla</w> fine della strada.",
+                                "cs": "Šli jsme <w>až na</w> konec ulice.",
+                                "tr": "Sokağın sonuna <w>kadar</w> yürüdük."
                             }
                         }
                     ],
@@ -39,7 +53,14 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Indicates an endpoint in time, space, or quantity.",
-                        "ru": "Указывает на конечную точку во времени, пространстве или количестве."
+                        "ru": "Указывает на конечную точку во времени, пространстве или количестве.",
+                        "es": "Indica un punto final en el tiempo, el espacio o la cantidad.",
+                        "pl": "Wskazuje punkt końcowy w czasie, przestrzeni lub ilości.",
+                        "de": "Gibt einen Endpunkt in Zeit, Raum oder Menge an.",
+                        "fr": "Indique un point final dans le temps, l'espace ou la quantité.",
+                        "it": "Indica un punto finale nel tempo, nello spazio o nella quantità.",
+                        "cs": "Označuje koncový bod v čase, prostoru nebo množství.",
+                        "tr": "Zaman, mekân veya miktar olarak bir bitiş noktasını veya sınırı belirtir."
                     },
                     "translations": {
                         "en": [
@@ -61,6 +82,80 @@
                                 "target_lang_word": "до",
                                 "target_lang_sense_clarification": "указывает на предел"
                             }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "hasta",
+                                "target_lang_sense_clarification": "indicando un límite de tiempo o espacio"
+                            },
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "en rangos de tiempo o espacio, como 'de ... a ...'"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "do",
+                                "target_lang_sense_clarification": "określający końcowy punkt w czasie lub przestrzeni"
+                            },
+                            {
+                                "target_lang_word": "aż do",
+                                "target_lang_sense_clarification": "podkreślające osiągnięcie jakiegoś punktu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "bis",
+                                "target_lang_sense_clarification": "gibt einen zeitlichen oder räumlichen Endpunkt an"
+                            },
+                            {
+                                "target_lang_word": "bis zu",
+                                "target_lang_sense_clarification": "gibt eine Obergrenze oder ein Maximum an"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "jusqu'à",
+                                "target_lang_sense_clarification": "indiquant une limite temporelle ou spatiale"
+                            },
+                            {
+                                "target_lang_word": "à",
+                                "target_lang_sense_clarification": "dans une plage horaire ou spatiale, comme 'de ... à ...'"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "fino a",
+                                "target_lang_sense_clarification": "indica un limite temporale o spaziale"
+                            },
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "in intervalli di tempo o spazio, come 'da ... a ...'"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "do",
+                                "target_lang_sense_clarification": "časové nebo prostorové omezení"
+                            },
+                            {
+                                "target_lang_word": "až do",
+                                "target_lang_sense_clarification": "zdůraznění koncového bodu"
+                            },
+                            {
+                                "target_lang_word": "až k",
+                                "target_lang_sense_clarification": "prostorové přiblížení k hranici"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "-e kadar",
+                                "target_lang_sense_clarification": "zaman veya mekân sınırı belirtirken"
+                            },
+                            {
+                                "target_lang_word": "-e",
+                                "target_lang_sense_clarification": "yönelme veya bitiş noktası belirtirken"
+                            }
                         ]
                     }
                 },
@@ -76,14 +171,28 @@
                             "text": "Hij werd veroordeeld <tot> een gevangenisstraf.",
                             "target_lang_translations": {
                                 "en": "He was sentenced <w>to</w> a prison term.",
-                                "ru": "Его приговорили <к> тюремному заключению."
+                                "ru": "Его приговорили <к> тюремному заключению.",
+                                "cs": "Byl odsouzen <w>k</w> trestu odnětí svobody.",
+                                "de": "Er wurde <w>zu</w> einer Gefängnisstrafe verurteilt.",
+                                "es": "Fue condenado <w>a</w> una pena de prisión.",
+                                "fr": "Il a été condamné <w>à</w> une peine de prison.",
+                                "it": "Fu condannato <w>a</w> una pena detentiva.",
+                                "pl": "Został skazany <w>na</w> karę pozbawienia wolności.",
+                                "tr": "Hapis <w>cezasına</w> çarptırıldı."
                             }
                         },
                         {
                             "text": "Dit misverstand leidde <tot> een grote ruzie.",
                             "target_lang_translations": {
                                 "en": "This misunderstanding led <w>to</w> a big fight.",
-                                "ru": "Это недоразумение привело <к> крупной ссоре."
+                                "ru": "Это недоразумение привело <к> крупной ссоре.",
+                                "cs": "Toto nedorozumění vedlo <w>k</w> velké hádce.",
+                                "de": "Dieses Missverständnis führte <w>zu</w> einem großen Streit.",
+                                "es": "Este malentendido condujo <w>a</w> una gran pelea.",
+                                "fr": "Ce malentendu a mené <w>à</w> une grande dispute.",
+                                "it": "Questo malinteso ha portato <w>a</w> un grande litigio.",
+                                "pl": "To nieporozumienie doprowadziło <w>do</w> wielkiej kłótni.",
+                                "tr": "Bu yanlış anlaşılma büyük bir <w>kavgaya</w> yol açtı."
                             }
                         }
                     ],
@@ -95,7 +204,14 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Indicates which function or capacity someone or something acquires.",
-                        "ru": "Указывает на результат действия, изменение состояния или приобретение новой функции."
+                        "ru": "Указывает на результат действия, изменение состояния или приобретение новой функции.",
+                        "es": "Indica a qué conduce algo, cuál es el resultado o en qué se transforma algo.",
+                        "pl": "Wskazuje, do czego coś prowadzi, jaki jest rezultat lub w co coś się zmienia.",
+                        "de": "Gibt an, wozu etwas führt, was das Ergebnis ist oder worin sich etwas verwandelt.",
+                        "fr": "Indique ce à quoi mène quelque chose, quel est le résultat ou en quoi quelque chose se transforme.",
+                        "it": "Indica a cosa porta qualcosa, qual è il risultato o in cosa si trasforma qualcosa.",
+                        "cs": "Označuje, k čemu něco vede, co je výsledkem nebo v co se něco mění.",
+                        "tr": "Bir şeyin neye yol açtığını, sonucun ne olduğunu veya neye dönüştüğünü belirtir."
                     },
                     "translations": {
                         "en": [
@@ -116,6 +232,84 @@
                             {
                                 "target_lang_word": "в",
                                 "target_lang_sense_clarification": "превращение или переход в состояние"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "con verbos de dirección o resultado como 'conducir a'"
+                            },
+                            {
+                                "target_lang_word": "como",
+                                "target_lang_sense_clarification": "indicando una función o rol"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "do",
+                                "target_lang_sense_clarification": "wskazuje na rezultat lub cel działania"
+                            },
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "przy skazywaniu na karę lub zmianie stanu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "zu",
+                                "target_lang_sense_clarification": "drückt ein Ergebnis oder eine Folge aus"
+                            },
+                            {
+                                "target_lang_word": "als",
+                                "target_lang_sense_clarification": "drückt eine Funktion oder Rolle aus"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "à",
+                                "target_lang_sense_clarification": "avec des verbes de résultat ou de direction comme 'mener à'"
+                            },
+                            {
+                                "target_lang_word": "en",
+                                "target_lang_sense_clarification": "indiquant un changement d'état ou une transformation"
+                            },
+                            {
+                                "target_lang_word": "comme",
+                                "target_lang_sense_clarification": "indiquant une fonction ou un rôle"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "con verbi di direzione o risultato come 'condurre a'"
+                            },
+                            {
+                                "target_lang_word": "come",
+                                "target_lang_sense_clarification": "indica una funzione o un ruolo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "k",
+                                "target_lang_sense_clarification": "směřování k výsledku nebo stavu"
+                            },
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "při změně stavu nebo odsouzení k něčemu"
+                            },
+                            {
+                                "target_lang_word": "v",
+                                "target_lang_sense_clarification": "při proměně v něco"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "-e",
+                                "target_lang_sense_clarification": "yol açma veya sonuç bildiren fiillerle"
+                            },
+                            {
+                                "target_lang_word": "olarak",
+                                "target_lang_sense_clarification": "bir görev veya rol edinildiğinde"
                             }
                         ]
                     }
@@ -132,14 +326,28 @@
                             "text": "Zij werd vorig jaar benoemd <tot> directeur.",
                             "target_lang_translations": {
                                 "en": "She was appointed <w>as</w> director last year.",
-                                "ru": "В прошлом году её назначили <директором>."
+                                "ru": "В прошлом году её назначили <директором>.",
+                                "es": "Ella fue nombrada directora el año pasado.",
+                                "pl": "W zeszłym roku została mianowana <w>dyrektorem</w>.",
+                                "de": "Sie wurde letztes Jahr <w>zur</w> Direktorin ernannt.",
+                                "fr": "Elle a été nommée directrice l'année dernière.",
+                                "it": "L'anno scorso è stata nominata direttrice.",
+                                "cs": "Minulý rok byla jmenována <w>ředitelkou</w>.",
+                                "tr": "Geçen yıl müdür <w>olarak</w> atandı."
                             }
                         },
                         {
                             "text": "Dit verhaal dient <tot> voorbeeld voor anderen.",
                             "target_lang_translations": {
                                 "en": "This story serves <w>as</w> an example for others.",
-                                "ru": "Эта история служит <примером> для других."
+                                "ru": "Эта история служит <примером> для других.",
+                                "es": "Esta historia sirve <w>como</w> ejemplo para otros.",
+                                "pl": "Ta historia służy <w>jako</w> przykład dla innych.",
+                                "de": "Diese Geschichte dient <w>als</w> Vorbild für andere.",
+                                "fr": "Cette histoire sert <w>d'</w>exemple pour les autres.",
+                                "it": "Questa storia serve <w>da</w> esempio per gli altri.",
+                                "cs": "Tento příběh slouží <w>jako</w> příklad pro ostatní.",
+                                "tr": "Bu hikaye diğerleri için bir örnek <w>teşkil ediyor</w>."
                             }
                         }
                     ],
@@ -150,7 +358,14 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Indicates which function or capacity someone or something acquires.",
-                        "ru": "Указывает на результат действия, изменение состояния или приобретение новой функции."
+                        "ru": "Указывает на результат действия, изменение состояния или приобретение новой функции.",
+                        "es": "Indica a qué conduce algo, cuál es el resultado o en qué se transforma algo.",
+                        "pl": "Wskazuje, do czego coś prowadzi, jaki jest rezultat lub w co coś się zmienia.",
+                        "de": "Gibt an, wozu etwas führt, was das Ergebnis ist oder worin sich etwas verwandelt.",
+                        "fr": "Indique ce à quoi mène quelque chose, quel est le résultat ou en quoi quelque chose se transforme.",
+                        "it": "Indica a cosa porta qualcosa, qual è il risultato o in cosa si trasforma qualcosa.",
+                        "cs": "Označuje, k čemu něco vede, co je výsledkem nebo v co se něco mění.",
+                        "tr": "Bir şeyin neye yol açtığını, sonucun ne olduğunu veya neye dönüştüğünü belirtir."
                     },
                     "translations": {
                         "en": [
@@ -172,6 +387,84 @@
                                 "target_lang_word": "в",
                                 "target_lang_sense_clarification": "превращение или переход в состояние"
                             }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "con verbos de dirección o resultado como 'conducir a'"
+                            },
+                            {
+                                "target_lang_word": "como",
+                                "target_lang_sense_clarification": "indicando una función o rol"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "do",
+                                "target_lang_sense_clarification": "wskazuje na rezultat lub cel działania"
+                            },
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "przy skazywaniu na karę lub zmianie stanu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "zu",
+                                "target_lang_sense_clarification": "drückt ein Ergebnis oder eine Folge aus"
+                            },
+                            {
+                                "target_lang_word": "als",
+                                "target_lang_sense_clarification": "drückt eine Funktion oder Rolle aus"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "à",
+                                "target_lang_sense_clarification": "avec des verbes de résultat ou de direction comme 'mener à'"
+                            },
+                            {
+                                "target_lang_word": "en",
+                                "target_lang_sense_clarification": "indiquant un changement d'état ou une transformation"
+                            },
+                            {
+                                "target_lang_word": "comme",
+                                "target_lang_sense_clarification": "indiquant une fonction ou un rôle"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "con verbi di direzione o risultato come 'condurre a'"
+                            },
+                            {
+                                "target_lang_word": "come",
+                                "target_lang_sense_clarification": "indica una funzione o un ruolo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "k",
+                                "target_lang_sense_clarification": "směřování k výsledku nebo stavu"
+                            },
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "při změně stavu nebo odsouzení k něčemu"
+                            },
+                            {
+                                "target_lang_word": "v",
+                                "target_lang_sense_clarification": "při proměně v něco"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "-e",
+                                "target_lang_sense_clarification": "yol açma veya sonuç bildiren fiillerle"
+                            },
+                            {
+                                "target_lang_word": "olarak",
+                                "target_lang_sense_clarification": "bir görev veya rol edinildiğinde"
+                            }
                         ]
                     }
                 },
@@ -187,14 +480,28 @@
                             "text": "Hallo, u spreekt <tot> Jan.",
                             "target_lang_translations": {
                                 "en": "Hello, you are speaking <w>to</w> Jan.",
-                                "ru": "Алло, вы говорите <с> Яном."
+                                "ru": "Алло, вы говорите <с> Яном.",
+                                "es": "Hola, habla <w>con</w> Jan.",
+                                "pl": "Halo, mówi Jan / rozmawiasz <w>z</w> Janem.",
+                                "de": "Hallo, Sie sprechen <w>mit</w> Jan.",
+                                "fr": "Allô, vous parlez <w>à</w> Jan.",
+                                "it": "Pronto, parla <w>con</w> Jan.",
+                                "cs": "Haló, mluvíte <w>s</w> Janem.",
+                                "tr": "Merhaba, Jan <w>ile</w> görüşüyorsunuz."
                             }
                         },
                         {
                             "text": "Goedemiddag, <tot> mevrouw De Vries.",
                             "target_lang_translations": {
                                 "en": "Good afternoon, <w>this is</w> Mrs. De Vries.",
-                                "ru": "Добрый день, <это> госпожа Де Врис."
+                                "ru": "Добрый день, <это> госпожа Де Врис.",
+                                "es": "Buenas tardes, <w>habla</w> la señora De Vries.",
+                                "pl": "Dzień dobry, <w>przy telefonie</w> pani De Vries.",
+                                "de": "Guten Tag, <w>hier ist</w> Frau De Vries.",
+                                "fr": "Bonjour, <w>ici</w> Madame De Vries.",
+                                "it": "Buon pomeriggio, <w>sono</w> la signora De Vries.",
+                                "cs": "Dobré odpoledne, <w>u telefonu je</w> paní De Vries.",
+                                "tr": "Tünaydın, <w>ben</w> Bayan De Vries."
                             }
                         }
                     ],
@@ -206,7 +513,14 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Used when picking up the phone to state one's own name.",
-                        "ru": "Используется при ответе на телефонный звонок, чтобы назвать свое имя (региональное: Суринам)."
+                        "ru": "Используется при ответе на телефонный звонок, чтобы назвать свое имя (региональное: Суринам).",
+                        "es": "Se utiliza al contestar el teléfono para indicar el propio nombre (regional de Surinam).",
+                        "pl": "Używane podczas odbierania telefonu przy podawaniu własnego nazwiska (regionalne: Surinam).",
+                        "de": "Wird beim Abheben des Telefons verwendet, um den eigenen Namen zu nennen (regional in Surinam).",
+                        "fr": "Utilisé en décrochant le téléphone pour énoncer son propre nom (régionalisme du Suriname).",
+                        "it": "Usato quando si risponde al telefono per indicare il proprio nome.",
+                        "cs": "Používá se při zvednutí telefonu k uvedení vlastního jména (regionální v Surinamu).",
+                        "tr": "Telefonu açarken kendi adını belirtmek için kullanılır (bölgesel kullanım)."
                     },
                     "translations": {
                         "en": [
@@ -228,6 +542,76 @@
                                 "target_lang_word": "это",
                                 "target_lang_sense_clarification": "представление себя"
                             }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "con",
+                                "target_lang_sense_clarification": "en la expresión 'habla con'"
+                            },
+                            {
+                                "target_lang_word": "soy",
+                                "target_lang_sense_clarification": "para identificarse al teléfono"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "u telefonu",
+                                "target_lang_sense_clarification": "zwrot grzecznościowy przy przedstawianiu się"
+                            },
+                            {
+                                "target_lang_word": "przy telefonie",
+                                "target_lang_sense_clarification": "zwrot używany przy odbieraniu telefonu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "hier ist",
+                                "target_lang_sense_clarification": "zur Vorstellung am Telefon"
+                            },
+                            {
+                                "target_lang_word": "mit",
+                                "target_lang_sense_clarification": "in der Wendung 'Sie sprechen mit'"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "à l'appareil",
+                                "target_lang_sense_clarification": "pour se présenter au téléphone"
+                            },
+                            {
+                                "target_lang_word": "c'est",
+                                "target_lang_sense_clarification": "pour s'identifier au téléphone"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "con",
+                                "target_lang_sense_clarification": "nell'espressione 'parla con'"
+                            },
+                            {
+                                "target_lang_word": "sono",
+                                "target_lang_sense_clarification": "per identificarsi al telefono"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "u telefonu",
+                                "target_lang_sense_clarification": "při představování se v telefonu"
+                            },
+                            {
+                                "target_lang_word": "zde",
+                                "target_lang_sense_clarification": "při ohlášení se"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ben",
+                                "target_lang_sense_clarification": "telefonda kendini tanıtırken"
+                            },
+                            {
+                                "target_lang_word": "ile",
+                                "target_lang_sense_clarification": "biriyle konuşulduğunu belirtirken"
+                            }
                         ]
                     }
                 }
@@ -248,14 +632,28 @@
                             "text": "Blijf hier wachten <tot> ik terugkom.",
                             "target_lang_translations": {
                                 "en": "Wait here <w>until</w> I come back.",
-                                "ru": "Жди здесь, <пока> я не вернусь."
+                                "ru": "Жди здесь, <пока> я не вернусь.",
+                                "es": "Espera aquí <w>hasta que</w> vuelva.",
+                                "pl": "Czekaj tutaj, <w>aż</w> wrócę.",
+                                "de": "Warte hier, <w>bis</w> ich zurückkomme.",
+                                "fr": "Attends ici <w>jusqu'à ce que</w> je revienne.",
+                                "it": "Aspetta qui <w>finché</w> non torno.",
+                                "cs": "Počkej tu, <w>dokud</w> se nevrátím.",
+                                "tr": "Ben dönene <w>kadar</w> burada bekle."
                             }
                         },
                         {
                             "text": "We blijven binnen <tot> de regen stopt.",
                             "target_lang_translations": {
                                 "en": "We are staying inside <w>until</w> the rain stops.",
-                                "ru": "Мы останемся дома, <пока> дождь не прекратится."
+                                "ru": "Мы останемся дома, <пока> дождь не прекратится.",
+                                "es": "Nos quedamos adentro <w>hasta que</w> pare de llover.",
+                                "pl": "Zostaniemy w środku, <w>dopóki nie</w> przestanie padać.",
+                                "de": "Wir bleiben drinnen, <w>bis</w> der Regen aufhört.",
+                                "fr": "Nous restons à l'intérieur <w>jusqu'à ce que</w> la pluie s'arrête.",
+                                "it": "Rimaniamo dentro <w>finché</w> non smette di piovere.",
+                                "cs": "Zůstaneme uvnitř, <w>dokud</w> nepřestane pršet.",
+                                "tr": "Yağmur durana <w>kadar</w> içeride kalacağız."
                             }
                         }
                     ],
@@ -267,7 +665,14 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Up to the moment that; indicates the time limit of the action in the main clause.",
-                        "ru": "До того момента, как; обозначает временной предел действия."
+                        "ru": "До того момента, как; обозначает временной предел действия.",
+                        "es": "Hasta el momento en que; indica el límite de tiempo de la acción en la oración principal.",
+                        "pl": "Do momentu, w którym; wskazuje granicę czasową czynności w zdaniu głównym.",
+                        "de": "Bis zu dem Moment, in dem; gibt die zeitliche Grenze der Handlung im Hauptsatz an.",
+                        "fr": "Jusqu'au moment où ; indique la limite temporelle de l'action dans la proposition principale.",
+                        "it": "Fino al momento in cui; indica il limite temporale dell'azione nella frase principale.",
+                        "cs": "Až do okamžiku, kdy; vyjadřuje časovou hranici děje v hlavní větě.",
+                        "tr": "Ana cümledeki eylemin zaman sınırını belirterek, o an gerçekleşene kadar anlamı katar."
                     },
                     "translations": {
                         "en": [
@@ -288,6 +693,76 @@
                             {
                                 "target_lang_word": "пока не",
                                 "target_lang_sense_clarification": "до наступления события"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "hasta que",
+                                "target_lang_sense_clarification": "conjunción temporal"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "aż",
+                                "target_lang_sense_clarification": "spójnik wprowadzający zdanie podrzędne czasu"
+                            },
+                            {
+                                "target_lang_word": "zanim",
+                                "target_lang_sense_clarification": "spójnik oznaczający granicę czasową"
+                            },
+                            {
+                                "target_lang_word": "dopóki nie",
+                                "target_lang_sense_clarification": "spójnik oznaczający trwanie do określonego momentu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "bis",
+                                "target_lang_sense_clarification": "zeitliche Konjunktion"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "jusqu'à ce que",
+                                "target_lang_sense_clarification": "conjonction de temps suivie du subjonctif"
+                            },
+                            {
+                                "target_lang_word": "en attendant que",
+                                "target_lang_sense_clarification": "conjonction temporelle"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "finché",
+                                "target_lang_sense_clarification": "congiunzione temporale"
+                            },
+                            {
+                                "target_lang_word": "fino a quando",
+                                "target_lang_sense_clarification": "congiunzione temporale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dokud",
+                                "target_lang_sense_clarification": "časová spojka s negativem či pozitivem"
+                            },
+                            {
+                                "target_lang_word": "než",
+                                "target_lang_sense_clarification": "časová spojka vyjadřující mezník"
+                            },
+                            {
+                                "target_lang_word": "dokud ne",
+                                "target_lang_sense_clarification": "vyjádření podmínky do nastání děje"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "-ene kadar",
+                                "target_lang_sense_clarification": "zaman bağlacı olarak"
+                            },
+                            {
+                                "target_lang_word": "-inceye dek",
+                                "target_lang_sense_clarification": "süreç bildiren zaman bağlacı"
                             }
                         ]
                     }

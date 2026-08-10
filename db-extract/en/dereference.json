@@ -304,6 +304,129 @@
         "de-extract.jsonl": [],
         "cs-extract.jsonl": [],
         "es-extract.jsonl": [],
-        "tr-extract.jsonl": []
+        "tr-extract.jsonl": [],
+        "zh-extract.jsonl": [
+            {
+                "entry_id": "227a72bc-4ca6-37b7-96fd-be66641dd871",
+                "word": "dereference",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "e8adb7ed-bb13-41a3-a552-ff78020acf93",
+                        "entry_id": "227a72bc-4ca6-37b7-96fd-be66641dd871",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "dereferences"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "3d825808-b09c-3dee-b1ad-ac157abb706e",
+                        "entry_id": "227a72bc-4ca6-37b7-96fd-be66641dd871",
+                        "glosses": [
+                            "间接引用，解析引用"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            },
+            {
+                "entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                "word": "dereference",
+                "pos": "verb",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "9cd4a8cf-8474-4597-9ab8-9803b988e714",
+                        "entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "tags": [
+                            "third-person",
+                            "singular",
+                            "present"
+                        ],
+                        "form": "dereferences"
+                    },
+                    {
+                        "form_id": "e8cd8b23-9d3e-4a03-a588-9b17a28ed783",
+                        "entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "tags": [
+                            "present",
+                            "participle"
+                        ],
+                        "form": "dereferencing"
+                    },
+                    {
+                        "form_id": "886abb38-e063-4554-bc1f-537c7b601ca1",
+                        "entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "tags": [
+                            "past",
+                            "participle"
+                        ],
+                        "form": "dereferenced"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "7e8655b2-7498-37fc-b89b-846817804927",
+                        "entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "glosses": [
+                            "间接访问，间接存取，解引用，解参考（访问一个指针或类似数据类型的值所指向的内存中的值）"
+                        ],
+                        "tags": [],
+                        "examples": [
+                            {
+                                "example_id": "d1865eab-9147-45ab-bc7c-c69d4cb63b53",
+                                "sense_id": "7e8655b2-7498-37fc-b89b-846817804927",
+                                "text": "Attempting to dereference a null pointer often results in a crash.",
+                                "translation": "试图间接引用空指针常会导致程序崩溃。"
+                            }
+                        ]
+                    },
+                    {
+                        "sense_id": "d9f40891-c128-3e3e-a54b-fe277438ddd8",
+                        "entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "glosses": [
+                            "间接访问，间接存取（直接在符号链接指向的文件上执行操作）"
+                        ],
+                        "tags": [
+                            "在Unix",
+                            "类Unix操作系统中"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "9df58a3e-45e1-4515-bfb9-28e2bec6a538",
+                                "sense_id": "d9f40891-c128-3e3e-a54b-fe277438ddd8",
+                                "text": "With the find command, any symbolic links appearing after -follow will be dereferenced.",
+                                "translation": "使用find命令后，-follow后接的符号链接将被间接访问。"
+                            }
+                        ]
+                    }
+                ],
+                "translations": [],
+                "word_linkages": [
+                    {
+                        "linkage_id": "931ef178-f3bd-4f60-8103-46eec3530d93",
+                        "source_entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "source_sense_ids": [],
+                        "source_sense_description": "间接访问，间接存取（直接在符号链接指向的文件上执行操作）",
+                        "linkage_type": "synonyms",
+                        "word": "follow"
+                    },
+                    {
+                        "linkage_id": "91543534-1242-467a-96f0-0c49aed9d900",
+                        "source_entry_id": "ea4bb240-390a-31ae-8253-015bb8d9f450",
+                        "source_sense_ids": [],
+                        "source_sense_description": "间接访问，间接存取（直接在符号链接指向的文件上执行操作）",
+                        "linkage_type": "synonyms",
+                        "word": "resolve"
+                    }
+                ]
+            }
+        ]
     }
 }

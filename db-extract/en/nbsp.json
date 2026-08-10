@@ -154,6 +154,97 @@
                 "word_linkages": []
             }
         ],
-        "tr-extract.jsonl": []
+        "tr-extract.jsonl": [],
+        "zh-extract.jsonl": [
+            {
+                "entry_id": "9c25cbae-3153-3d5b-b6e6-4297a5a81e8e",
+                "word": "nbsp",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "f34b910a-9aac-44d9-bf23-50e7a2bfedc1",
+                        "entry_id": "9c25cbae-3153-3d5b-b6e6-4297a5a81e8e",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "nbsps"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "8f6a64a4-bd34-3d6e-80a4-59263302f53c",
+                        "entry_id": "9c25cbae-3153-3d5b-b6e6-4297a5a81e8e",
+                        "glosses": [
+                            "non-breaking space (“不可换行空格”) 之首字母縮略詞。"
+                        ],
+                        "tags": [
+                            "form-of"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "ab59e87c-10cf-4fe3-83a9-8c4c1749bd04",
+                                "sense_id": "8f6a64a4-bd34-3d6e-80a4-59263302f53c",
+                                "text": "I also changed OutputToString and OutputToStream to check for an empty document when requesting plain text, in which case they'll return an empty string or stream. This fixes the bug where we'd send back an nbsp in the string."
+                            },
+                            {
+                                "example_id": "5e41d19b-d100-48f0-ab83-27f7e1efdb29",
+                                "sense_id": "8f6a64a4-bd34-3d6e-80a4-59263302f53c",
+                                "text": "You need the nbsp in order for the cell to show like a regular cell (otherwise you get that \"raised\" looking space -- if you know what I mean)."
+                            },
+                            {
+                                "example_id": "0273b6d4-1eee-4b93-97fc-f410f5c38c8d",
+                                "sense_id": "8f6a64a4-bd34-3d6e-80a4-59263302f53c",
+                                "text": "Incidentally - I noticed myself that GL doesn't automatically put a nbsp in table cells."
+                            }
+                        ]
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            },
+            {
+                "entry_id": "89226988-dc5f-37bd-ab6d-b4c8c885eaab",
+                "word": "NBSP",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "ee1234b2-144b-41f4-9789-08035daddcd3",
+                        "entry_id": "89226988-dc5f-37bd-ab6d-b4c8c885eaab",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "NBSPs"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "95e29ab8-c89b-3acd-b898-e75d21aaf505",
+                        "entry_id": "89226988-dc5f-37bd-ab6d-b4c8c885eaab",
+                        "glosses": [
+                            "nbsp的另一種寫法。"
+                        ],
+                        "tags": [
+                            "alt-of"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "835b3a1e-c00e-4cf2-ae2d-9491f8a8ab85",
+                                "sense_id": "95e29ab8-c89b-3acd-b898-e75d21aaf505",
+                                "text": "> I get the feeling that when you use the phrase \"corporate criminals\",\n> it's not actually a phrase, but a word that just happens to have a\n> NBSP in the middle."
+                            },
+                            {
+                                "example_id": "71731999-79d6-44c6-a77b-cd5044edd42f",
+                                "sense_id": "95e29ab8-c89b-3acd-b898-e75d21aaf505",
+                                "text": "(There was probably a bug before where an NBSP in Unicode text was treated as part of a word.)"
+                            }
+                        ]
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ]
     }
 }

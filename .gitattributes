@@ -1,0 +1,4 @@
+# The extractor writes these files with LF. Without this, core.autocrlf=true makes Git
+# warn "LF will be replaced by CRLF" on every one of the ~625k files it touches.
+# text=auto still lets Git detect and leave binary files alone.
+* text=auto eol=lf

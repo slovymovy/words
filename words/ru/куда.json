@@ -23,14 +23,30 @@
                             "text": "Скажите, пожалуйста, <w>куда</w> идёт этот автобус?",
                             "target_lang_translations": {
                                 "en": "Could you please tell me <w>where</w> this bus goes?",
-                                "zh": "请问这辆公交车开往<w>哪里</w>？"
+                                "zh": "请问这辆公交车开往<w>哪里</w>？",
+                                "nl": "Kunt u mij vertellen <w>waarheen</w> deze bus gaat?",
+                                "pl": "Proszę powiedzieć, <w>dokąd</w> jedzie ten autobus?",
+                                "de": "Könnten Sie mir bitte sagen, <w>wohin</w> dieser Bus fährt?",
+                                "fr": "Dites-moi, s'il vous plaît, <w>où</w> va ce bus ?",
+                                "it": "Mi scusi, mi sa dire <w>dove</w> va questo autobus?",
+                                "cs": "Řekněte mi prosím, <w>kam</w> jede tento autobus?",
+                                "tr": "Lütfen söyler misiniz, bu otobüs <w>nereye</w> gidiyor?",
+                                "es": "Dígame, por favor, ¿<w>a dónde</w> va este autobús?"
                             }
                         },
                         {
                             "text": "Я совершенно не понимаю, <w>куда</w> мы сейчас едем.",
                             "target_lang_translations": {
                                 "en": "I absolutely do not understand <w>where</w> we are going right now.",
-                                "zh": "我完全不明白我们现在正<w>去哪儿</w>。"
+                                "zh": "我完全不明白我们现在正<w>去哪儿</w>。",
+                                "nl": "Ik begrijp totaal niet <w>waarheen</w> we nu rijden.",
+                                "pl": "Kompletnie nie rozumiem, <w>dokąd</w> teraz jedziemy.",
+                                "de": "Ich verstehe absolut nicht, <w>wohin</w> wir gerade fahren.",
+                                "fr": "Je ne comprends absolument pas <w>où</w> nous allons en ce moment.",
+                                "it": "Non capisco affatto <w>dove</w> stiamo andando ora.",
+                                "cs": "Vůbec nechápu, <w>kam</w> to teď jedeme.",
+                                "tr": "Şu an <w>nereye</w> gittiğimizi kesinlikle anlamıyorum.",
+                                "es": "No entiendo en absoluto <w>a dónde</w> vamos ahora."
                             }
                         }
                     ],
@@ -45,7 +61,15 @@
                     ],
                     "target_lang_definitions": {
                         "en": "To what place; in what direction.",
-                        "zh": "用于询问去往的地点或方向。"
+                        "zh": "用于询问去往的地点或方向。",
+                        "nl": "Naar welke plaats of in welke richting.",
+                        "pl": "Do jakiego miejsca, w jakim kierunku (słowo pytające lub względne).",
+                        "de": "Zu welchem Ort; in welche Richtung.",
+                        "fr": "Vers quel endroit ou dans quelle direction (utilisé pour interroger sur un lieu ou une destination).",
+                        "it": "In quale luogo o verso quale direzione (usato in domande o frasi relative).",
+                        "cs": "Na jaké místo; kterým směrem (tázací nebo vztažné zájmeno).",
+                        "tr": "Hangi yere, hangi yöne (soru veya ilgi zamiri olarak).",
+                        "es": "A qué lugar; en qué dirección."
                     },
                     "translations": {
                         "en": [
@@ -67,6 +91,70 @@
                                 "target_lang_word": "去哪儿",
                                 "target_lang_sense_clarification": "询问去向"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "waar",
+                                "target_lang_sense_clarification": "vragend: op welke plaats"
+                            },
+                            {
+                                "target_lang_word": "waarheen",
+                                "target_lang_sense_clarification": "vragend: in welke richting"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dokąd",
+                                "target_lang_sense_clarification": "pytanie o kierunek ruchu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "wohin",
+                                "target_lang_sense_clarification": "Frage nach dem Ziel oder der Richtung einer Bewegung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "où",
+                                "target_lang_sense_clarification": "interrogatif sur le lieu ou la destination"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "dove",
+                                "target_lang_sense_clarification": "indica il luogo verso cui ci si dirige"
+                            },
+                            {
+                                "target_lang_word": "per dove",
+                                "target_lang_sense_clarification": "indica la direzione o il percorso"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "kam",
+                                "target_lang_sense_clarification": "na jaké místo"
+                            },
+                            {
+                                "target_lang_word": "kudy",
+                                "target_lang_sense_clarification": "kterým směrem nebo cestou"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "nereye",
+                                "target_lang_sense_clarification": "hangi yere, hangi yöne"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "a dónde",
+                                "target_lang_sense_clarification": "hacia qué lugar"
+                            },
+                            {
+                                "target_lang_word": "hacia dónde",
+                                "target_lang_sense_clarification": "en qué dirección"
+                            }
                         ]
                     }
                 },
@@ -82,14 +170,30 @@
                             "text": "Сегодняшний экзамен оказался <w>куда</w> сложнее, чем я ожидал.",
                             "target_lang_translations": {
                                 "en": "Today's exam turned out to be <w>much</w> harder than I expected.",
-                                "zh": "今天的考试比我预想的要难<w>得多</w>。"
+                                "zh": "今天的考试比我预想的要难<w>得多</w>。",
+                                "nl": "Het examen van vandaag was <w>stukken</w> moeilijker dan ik had verwacht.",
+                                "pl": "Dzisiejszy egzamin okazał się <w>o wiele</w> trudniejszy, niż oczekiwałem.",
+                                "de": "Die heutige Prüfung war <w>viel</w> schwieriger, als ich erwartet hatte.",
+                                "fr": "L'examen d'aujourd'hui s'est avéré <w>bien</w> plus difficile que ce à quoi je m'attendais.",
+                                "it": "L'esame di oggi è stato <w>molto</w> più difficile di quanto mi aspettassi.",
+                                "cs": "Dnešní zkouška byla <w>mnohem</w> těžší, než jsem čekal.",
+                                "tr": "Bugünkü sınav beklediğimden <w>çok daha</w> zordu.",
+                                "es": "El examen de hoy resultó ser <w>mucho</w> más difícil de lo que esperaba."
                             }
                         },
                         {
                             "text": "Ему стало <w>куда</w> лучше после того, как он выпил горячего чая.",
                             "target_lang_translations": {
                                 "en": "He felt <w>much</w> better after he drank some hot tea.",
-                                "zh": "喝了热茶后，他感觉好<w>得多</w>了。"
+                                "zh": "喝了热茶后，他感觉好<w>得多</w>了。",
+                                "nl": "Hij voelde zich <w>veel</w> beter nadat hij hete thee had gedronken.",
+                                "pl": "Poczuł się <w>o wiele</w> lepiej, gdy wypił gorącą herbatę.",
+                                "de": "Er fühlte sich <w>viel</w> besser, nachdem er heißen Tee getrunken hatte.",
+                                "fr": "Il s'est senti <w>bien</w> mieux après avoir bu un thé chaud.",
+                                "it": "Si è sentito <w>molto</w> meglio dopo aver bevuto del tè caldo.",
+                                "cs": "Bylo mu <w>mnohem</w> lépe poté, co vypil horký čaj.",
+                                "tr": "Sıcak çay içtikten sonra kendini <w>çok daha</w> iyi hissetti.",
+                                "es": "Se sintió <w>mucho</w> mejor después de beber té caliente."
                             }
                         }
                     ],
@@ -111,7 +215,15 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Significantly; much (used to intensify comparative adjectives or adverbs).",
-                        "zh": "用于加强比较级，表示程度深，多用于口语。"
+                        "zh": "用于加强比较级，表示程度深，多用于口语。",
+                        "nl": "Aanzienlijk; veel (gebruikt om vergelijkende bijvoeglijke naamwoorden of bijwoorden te versterken).",
+                        "pl": "Znacznie, o wiele (używane do wzmocnienia stopnia wyższego przymiotników lub przysłówków).",
+                        "de": "Deutlich, wesentlich (wird zur Verstärkung von Komparativen bei Adjektiven oder Adverbien verwendet).",
+                        "fr": "Considérablement, beaucoup (utilisé pour renforcer un comparatif).",
+                        "it": "Notevolmente, molto (usato per rafforzare il comparativo di aggettivi o avverbi).",
+                        "cs": "Výrazně, mnohem (používá se pro zesílení srovnávacího stupně přídavných jmen nebo příslovcí).",
+                        "tr": "Önemli ölçüde, çok daha fazla (sıfat veya zarfların karşılaştırma derecesini pekiştirmek için kullanılır).",
+                        "es": "Significativamente; mucho (usado para intensificar adjetivos o adverbios comparativos)."
                     },
                     "translations": {
                         "en": [
@@ -137,6 +249,86 @@
                                 "target_lang_word": "远",
                                 "target_lang_sense_clarification": "用于形容词比较级前"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "veel",
+                                "target_lang_sense_clarification": "bij vergelijkingen"
+                            },
+                            {
+                                "target_lang_word": "stukken",
+                                "target_lang_sense_clarification": "informele versterking"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "o wiele",
+                                "target_lang_sense_clarification": "wzmocnienie stopnia wyższego"
+                            },
+                            {
+                                "target_lang_word": "znacznie",
+                                "target_lang_sense_clarification": "wzmocnienie porównania"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "viel",
+                                "target_lang_sense_clarification": "Verstärkung vor einem Komparativ"
+                            },
+                            {
+                                "target_lang_word": "weitaus",
+                                "target_lang_sense_clarification": "betonte Verstärkung vor einem Komparativ"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "bien",
+                                "target_lang_sense_clarification": "intensificateur devant un comparatif"
+                            },
+                            {
+                                "target_lang_word": "beaucoup",
+                                "target_lang_sense_clarification": "intensificateur de comparaison"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "molto",
+                                "target_lang_sense_clarification": "usato con comparativi"
+                            },
+                            {
+                                "target_lang_word": "ben",
+                                "target_lang_sense_clarification": "rafforzativo davanti a comparativi"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "mnohem",
+                                "target_lang_sense_clarification": "zesílení komparativu"
+                            },
+                            {
+                                "target_lang_word": "o hodně",
+                                "target_lang_sense_clarification": "hovorové zesílení"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "çok daha",
+                                "target_lang_sense_clarification": "karşılaştırma derecesini pekiştirmek için"
+                            },
+                            {
+                                "target_lang_word": "fersah fersah",
+                                "target_lang_sense_clarification": "aradaki büyük farkı vurgulamak için"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "mucho",
+                                "target_lang_sense_clarification": "con adjetivos comparativos"
+                            },
+                            {
+                                "target_lang_word": "bastante",
+                                "target_lang_sense_clarification": "intensificador de comparación"
+                            }
                         ]
                     }
                 },
@@ -152,14 +344,30 @@
                             "text": "<w>Куда</w> тебе столько дров, если зима уже заканчивается?",
                             "target_lang_translations": {
                                 "en": "<w>What</w> do you need so much firewood for, if winter is already ending?",
-                                "zh": "冬天都要结束了，你<w>干嘛</w>还要这么多木柴？"
+                                "zh": "冬天都要结束了，你<w>干嘛</w>还要这么多木柴？",
+                                "nl": "<w>Waarom</w> heb je zoveel brandhout nodig als de winter al bijna voorbij is?",
+                                "pl": "<w>Po co</w> ci tyle drewna, skoro zima już się kończy?",
+                                "de": "<w>Wozu</w> brauchst du so viel Brennholz, wenn der Winter schon zu Ende geht?",
+                                "fr": "<w>À quoi bon</w> avoir autant de bois si l'hiver touche à sa fin ?",
+                                "it": "<w>Perché</w> ti serve tutta questa legna, se l'inverno sta finendo?",
+                                "cs": "<w>Na co</w> ti je tolik dřeva, když zima už končí?",
+                                "tr": "Kış bitmek üzereyken <w>ne diye</w> bu kadar oduna ihtiyacın var?",
+                                "es": "¿<w>Para qué</w> quieres tanta leña si el invierno ya está terminando?"
                             }
                         },
                         {
                             "text": "Не понимаю, <w>куда</w> нам так спешить в выходной день.",
                             "target_lang_translations": {
                                 "en": "I don't understand <w>why</w> we need to rush so much on a day off.",
-                                "zh": "我不明白周末我们<w>何必</w>这么匆忙。"
+                                "zh": "我不明白周末我们<w>何必</w>这么匆忙。",
+                                "nl": "Ik begrijp niet <w>waarom</w> we zo moeten haasten op een vrije dag.",
+                                "pl": "Nie rozumiem, <w>po co</w> mamy się tak spieszyć w dzień wolny.",
+                                "de": "Ich verstehe nicht, <w>wozu</w> wir es an einem freien Tag so eilig haben müssen.",
+                                "fr": "Je ne comprends pas <w>pourquoi</w> nous devons nous presser autant un jour de repos.",
+                                "it": "Non capisco <w>perché</w> dobbiamo avere così tanta fretta in un giorno di riposo.",
+                                "cs": "Nechápu, <w>proč</w> musíme ve volný den tak spěchat.",
+                                "tr": "Tatil gününde <w>ne diye</w> bu kadar acele ettiğimizi anlamıyorum.",
+                                "es": "No entiendo <w>por qué</w> tenemos que tener tanta prisa en un día libre."
                             }
                         }
                     ],
@@ -181,7 +389,15 @@
                     ],
                     "target_lang_definitions": {
                         "en": "What for; for what purpose (often with a shade of disapproval or bewilderment).",
-                        "zh": "询问目的或原因，常带有不赞成或困惑的语气。"
+                        "zh": "询问目的或原因，常带有不赞成或困惑的语气。",
+                        "nl": "Waarvoor; met welk doel (vaak met een ondertoon van afkeuring of verbazing).",
+                        "pl": "Po co, w jakim celu (często z odcieniem dezaprobaty lub zdziwienia).",
+                        "de": "Wozu, aus welchem Grund (oft mit einem Unterton von Missbilligung oder Verwunderung).",
+                        "fr": "Dans quel but, pourquoi (souvent avec une nuance de désapprobation ou d'incompréhension).",
+                        "it": "Per quale scopo, perché (spesso con una sfumatura di disapprovazione o perplessità).",
+                        "cs": "Proč, za jakým účelem (často s nádechem nesouhlasu nebo údivu).",
+                        "tr": "Niçin, ne amaçla (genellikle onaylamama veya şaşkınlık tonuyla).",
+                        "es": "Para qué; con qué propósito (a menudo con un matiz de desaprobación o desconcierto)."
                     },
                     "translations": {
                         "en": [
@@ -203,6 +419,86 @@
                                 "target_lang_word": "何必",
                                 "target_lang_sense_clarification": "反问原因"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "waarom",
+                                "target_lang_sense_clarification": "vragen naar de reden"
+                            },
+                            {
+                                "target_lang_word": "waarvoor",
+                                "target_lang_sense_clarification": "vragen naar het doel"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "po co",
+                                "target_lang_sense_clarification": "pytanie o cel"
+                            },
+                            {
+                                "target_lang_word": "na co",
+                                "target_lang_sense_clarification": "pytanie o użyteczność lub cel"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "wozu",
+                                "target_lang_sense_clarification": "Frage nach dem Zweck oder Nutzen"
+                            },
+                            {
+                                "target_lang_word": "warum",
+                                "target_lang_sense_clarification": "Frage nach dem Grund"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "à quoi bon",
+                                "target_lang_sense_clarification": "interrogation sur l'utilité ou le but"
+                            },
+                            {
+                                "target_lang_word": "pourquoi",
+                                "target_lang_sense_clarification": "interrogation sur la raison"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "perché",
+                                "target_lang_sense_clarification": "chiedere lo scopo"
+                            },
+                            {
+                                "target_lang_word": "a che scopo",
+                                "target_lang_sense_clarification": "domanda retorica o critica"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "proč",
+                                "target_lang_sense_clarification": "dotaz na účel"
+                            },
+                            {
+                                "target_lang_word": "na co",
+                                "target_lang_sense_clarification": "dotaz na využití"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ne diye",
+                                "target_lang_sense_clarification": "niçin, hangi amaçla"
+                            },
+                            {
+                                "target_lang_word": "niye",
+                                "target_lang_sense_clarification": "neden, niçin"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "para qué",
+                                "target_lang_sense_clarification": "preguntando por el propósito"
+                            },
+                            {
+                                "target_lang_word": "por qué",
+                                "target_lang_sense_clarification": "preguntando por la razón"
+                            }
                         ]
                     }
                 },
@@ -218,14 +514,30 @@
                             "text": "Если вы <w>куда</w> отойдёте, обязательно предупредите дежурного.",
                             "target_lang_translations": {
                                 "en": "If you go <w>anywhere</w>, be sure to warn the attendant.",
-                                "zh": "如果您要去<w>哪儿</w>，请务必告知值班人员。"
+                                "zh": "如果您要去<w>哪儿</w>，请务必告知值班人员。",
+                                "nl": "Als u <w>ergens</w> heen gaat, waarschuw dan de dienstdoende persoon.",
+                                "pl": "Jeśli <w>dokądś</w> wyjdziesz, koniecznie uprzedź dyżurnego.",
+                                "de": "Wenn Sie <w>irgendwohin</w> gehen, geben Sie unbedingt dem Diensthabenden Bescheid.",
+                                "fr": "Si vous allez <w>quelque part</w>, prévenez impérativement le responsable.",
+                                "it": "Se andate <w>da qualche parte</w>, avvisate assolutamente il responsabile.",
+                                "cs": "Pokud si <w>někam</w> odskočíte, určitě dejte vědět dozorčímu.",
+                                "tr": "Eğer <w>bir yere</w> ayrılırsanız, mutlaka görevliyi bilgilendirin.",
+                                "es": "Si va <w>a algún lugar</w>, asegúrese de avisar al encargado."
                             }
                         },
                         {
                             "text": "Давай сходим <w>куда</w> вечером, чтобы не сидеть дома.",
                             "target_lang_translations": {
                                 "en": "Let's go <w>somewhere</w> in the evening so we don't stay at home.",
-                                "zh": "晚上我们去<w>哪儿</w>转转吧，别待在家里。"
+                                "zh": "晚上我们去<w>哪儿</w>转转吧，别待在家里。",
+                                "nl": "Laten we vanavond <w>ergens</w> heen gaan, zodat we niet thuis zitten.",
+                                "pl": "Chodźmy wieczorem <w>gdzieś</w>, żeby nie siedzieć w domu.",
+                                "de": "Lass uns abends <w>irgendwohin</w> gehen, damit wir nicht zu Hause sitzen.",
+                                "fr": "Allons <w>quelque part</w> ce soir pour ne pas rester à la maison.",
+                                "it": "Andiamo <w>da qualche parte</w> stasera, così non restiamo a casa.",
+                                "cs": "Pojďme večer <w>někam</w> vyrazit, abychom neseděli doma.",
+                                "tr": "Evde oturmamak için akşam <w>bir yerlere</w> gidelim.",
+                                "es": "Vamos <w>a algún sitio</w> esta noche para no quedarnos en casa."
                             }
                         }
                     ],
@@ -247,7 +559,15 @@
                     ],
                     "target_lang_definitions": {
                         "en": "To some place; somewhere (used instead of indefinite adverbs).",
-                        "zh": "指代不确定的地点，表示去某个地方。"
+                        "zh": "指代不确定的地点，表示去某个地方。",
+                        "nl": "Naar een of andere plaats; ergens heen.",
+                        "pl": "W jakieś miejsce (używane zamiast zaimków nieokreślonych).",
+                        "de": "An irgendeinen Ort; irgendwohin (wird als Ersatz für unbestimmte Adverbien verwendet).",
+                        "fr": "Vers un endroit indéfini (utilisé pour exprimer une destination quelconque).",
+                        "it": "In un luogo non specificato (usato come indefinito).",
+                        "cs": "Na nějaké místo; někam (používá se místo neurčitých příslovcí).",
+                        "tr": "Herhangi bir yere, bir yere (belirsiz zarflar yerine kullanılır).",
+                        "es": "A algún lugar; en algún sitio (usado para indicar un lugar indeterminado)."
                     },
                     "translations": {
                         "en": [
@@ -269,6 +589,78 @@
                                 "target_lang_word": "哪儿",
                                 "target_lang_sense_clarification": "泛指地点"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "ergens",
+                                "target_lang_sense_clarification": "naar een onbepaalde plaats"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "gdzieś",
+                                "target_lang_sense_clarification": "w nieokreślone miejsce"
+                            },
+                            {
+                                "target_lang_word": "dokądś",
+                                "target_lang_sense_clarification": "w jakiś kierunek"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "irgendwohin",
+                                "target_lang_sense_clarification": "zu einem unbestimmten Ort"
+                            },
+                            {
+                                "target_lang_word": "wohin",
+                                "target_lang_sense_clarification": "umgangssprachlich für eine unbestimmte Richtung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "quelque part",
+                                "target_lang_sense_clarification": "lieu indéfini"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "da qualche parte",
+                                "target_lang_sense_clarification": "in un luogo imprecisato"
+                            },
+                            {
+                                "target_lang_word": "ovunque",
+                                "target_lang_sense_clarification": "in qualsiasi luogo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "někam",
+                                "target_lang_sense_clarification": "na nějaké místo"
+                            },
+                            {
+                                "target_lang_word": "kamkoliv",
+                                "target_lang_sense_clarification": "na jakékoliv místo"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bir yere",
+                                "target_lang_sense_clarification": "belirsiz bir yer"
+                            },
+                            {
+                                "target_lang_word": "herhangi bir yere",
+                                "target_lang_sense_clarification": "herhangi bir yer"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "a algún lugar",
+                                "target_lang_sense_clarification": "a un sitio indeterminado"
+                            },
+                            {
+                                "target_lang_word": "a cualquier lugar",
+                                "target_lang_sense_clarification": "a cualquier sitio"
+                            }
                         ]
                     }
                 },
@@ -284,14 +676,30 @@
                             "text": "<w>Куда</w> мне до него, он настоящий профессионал своего дела!",
                             "target_lang_translations": {
                                 "en": "<w>How</w> can I compare to him, he is a real professional in his field!",
-                                "zh": "我<w>哪里比得上</w>他，他是真正的专业人士！"
+                                "zh": "我<w>哪里比得上</w>他，他是真正的专业人士！",
+                                "nl": "<w>Hoe</w> kan ik me met hem vergelijken, hij is een echte professional in zijn vak!",
+                                "pl": "<w>Gdzie mi tam</w> do niego, on jest prawdziwym profesjonalistą w swoim fachu!",
+                                "de": "<w>Wie</w> sollte ich mich mit ihm vergleichen können, er ist ein echter Profi auf seinem Gebiet!",
+                                "fr": "<w>Comment</w> pourrais-je me comparer à lui, c'est un vrai professionnel !",
+                                "it": "<w>Come posso</w> paragonarmi a lui, è un vero professionista nel suo campo!",
+                                "cs": "<w>Kde bych se mu vyrovnal</w>, je to skutečný profesionál ve svém oboru!",
+                                "tr": "Benim onunla <w>kıyaslanmam ne mümkün</w>, o işinin gerçek bir profesyoneli!",
+                                "es": "¿<w>Cómo</w> voy a compararme con él? ¡Es un verdadero profesional en su campo!"
                             }
                         },
                         {
                             "text": "Да <w>куда</w> тебе понять такие сложные научные теории.",
                             "target_lang_translations": {
                                 "en": "Oh, <w>how</w> could you understand such complex scientific theories.",
-                                "zh": "你<w>怎么</w>可能理解这么复杂的科学理论。"
+                                "zh": "你<w>怎么</w>可能理解这么复杂的科学理论。",
+                                "nl": "Ach, <w>hoe</w> zou jij zulke complexe wetenschappelijke theorieën kunnen begrijpen.",
+                                "pl": "No <w>jakże</w> miałbyś zrozumieć tak skomplikowane teorie naukowe.",
+                                "de": "Ach, <w>wie</w> solltest du solche komplexen wissenschaftlichen Theorien verstehen.",
+                                "fr": "Mais <w>comment</w> pourrais-tu comprendre des théories scientifiques aussi complexes.",
+                                "it": "Ma <w>come</w> potresti capire teorie scientifiche così complesse.",
+                                "cs": "Vždyť <w>jak bys</w> mohl pochopit tak složité vědecké teorie.",
+                                "tr": "Böylesine karmaşık bilimsel teorileri anlaman <w>ne mümkün</w>.",
+                                "es": "¿<w>Cómo</w> vas a entender teorías científicas tan complejas?"
                             }
                         }
                     ],
@@ -308,7 +716,15 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Expresses doubt, skepticism, or impossibility of comparison.",
-                        "zh": "表示怀疑、怀疑或无法与某人相比。"
+                        "zh": "表示怀疑、怀疑或无法与某人相比。",
+                        "nl": "Drukt twijfel, scepsis of de onmogelijkheid van vergelijking uit.",
+                        "pl": "Wyraża wątpliwość, sceptycyzm lub niemożność porównania się z kimś lub czymś.",
+                        "de": "Drückt Zweifel, Skepsis oder die Unmöglichkeit aus, sich mit jemandem oder etwas zu vergleichen.",
+                        "fr": "Exprime le doute, le scepticisme ou l'impossibilité de se comparer à quelqu'un.",
+                        "it": "Esprime scetticismo o l'impossibilità di competere con qualcuno o qualcosa.",
+                        "cs": "Vyjadřuje pochybnost, skepsi nebo nemožnost se někomu či něčemu vyrovnat.",
+                        "tr": "Şüphe, şüphecilik veya biriyle ya da bir şeyle kıyaslanamayacak durumda olmayı ifade eder.",
+                        "es": "Expresa duda, escepticismo o la imposibilidad de compararse con alguien o algo."
                     },
                     "translations": {
                         "en": [
@@ -330,6 +746,82 @@
                                 "target_lang_word": "哪里比得上",
                                 "target_lang_sense_clarification": "表示无法相比"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "hoe",
+                                "target_lang_sense_clarification": "retorisch, impliceert onmogelijkheid"
+                            },
+                            {
+                                "target_lang_word": "lang niet",
+                                "target_lang_sense_clarification": "idiomatische vergelijking"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "gdzie mi tam",
+                                "target_lang_sense_clarification": "idiomatyczne wyrażenie niemożności porównania"
+                            },
+                            {
+                                "target_lang_word": "jakże",
+                                "target_lang_sense_clarification": "retoryczne pytanie o możliwość"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "wie sollte ich",
+                                "target_lang_sense_clarification": "rhetorische Frage, die Unmöglichkeit ausdrückt"
+                            },
+                            {
+                                "target_lang_word": "bei weitem nicht",
+                                "target_lang_sense_clarification": "idiomatisch für einen Vergleich, der nicht standhält"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "comment",
+                                "target_lang_sense_clarification": "interrogation rhétorique sur la possibilité"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "come posso",
+                                "target_lang_sense_clarification": "esprime impossibilità di confronto"
+                            },
+                            {
+                                "target_lang_word": "non sono all'altezza",
+                                "target_lang_sense_clarification": "idiomatico per indicare inferiorità"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "kde by",
+                                "target_lang_sense_clarification": "vyjádření nemožnosti"
+                            },
+                            {
+                                "target_lang_word": "to se nedá srovnat",
+                                "target_lang_sense_clarification": "idiomatické vyjádření odstupu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "nerede o",
+                                "target_lang_sense_clarification": "kıyaslanamaz olduğunu belirtmek için"
+                            },
+                            {
+                                "target_lang_word": "ne mümkün",
+                                "target_lang_sense_clarification": "imkansızlığı ifade etmek için"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "cómo",
+                                "target_lang_sense_clarification": "retórico, implicando imposibilidad"
+                            },
+                            {
+                                "target_lang_word": "ni de lejos",
+                                "target_lang_sense_clarification": "comparación idiomática"
+                            }
                         ]
                     }
                 },
@@ -345,14 +837,30 @@
                             "text": "<w>Куда</w> на выдумки природа таровата!",
                             "target_lang_translations": {
                                 "en": "<w>How</w> inventive nature is!",
-                                "zh": "大自然在创造力上是<w>多么</w>慷慨啊！"
+                                "zh": "大自然在创造力上是<w>多么</w>慷慨啊！",
+                                "nl": "<w>Hoe</w> vindingrijk is de natuur toch!",
+                                "pl": "<w>Jakże</w> natura jest hojna w pomysły!",
+                                "de": "<w>Wie</w> einfallsreich die Natur doch ist!",
+                                "fr": "<w>Combien</w> la nature est inventive !",
+                                "it": "<w>Quanto</w> è generosa la natura nell'inventare!",
+                                "cs": "<w>Jak</w> je příroda štědrá na nápady!",
+                                "tr": "Doğa yaratıcılık konusunda <w>ne kadar</w> cömert!",
+                                "es": "¡<w>Cuánto</w> ingenio tiene la naturaleza!"
                             }
                         },
                         {
                             "text": "<w>Куда</w> как весело мы провели время в деревне.",
                             "target_lang_translations": {
                                 "en": "We had <w>ever so</w> much fun in the village.",
-                                "zh": "我们在村子里过得<w>多么</w>开心。"
+                                "zh": "我们在村子里过得<w>多么</w>开心。",
+                                "nl": "We hebben <w>hoe</w> leuk we het ook hadden, een geweldige tijd gehad in het dorp.",
+                                "pl": "<w>Jakże</w> wesoło spędziliśmy czas na wsi.",
+                                "de": "Wir hatten <w>ungemein</w> viel Spaß im Dorf.",
+                                "fr": "<w>Combien</w> nous avons passé un moment joyeux au village.",
+                                "it": "<w>Quanto</w> ci siamo divertiti in campagna.",
+                                "cs": "<w>Jak</w> vesele jsme strávili čas na vesnici.",
+                                "tr": "Köyde <w>ne kadar</w> eğlenceli vakit geçirdik.",
+                                "es": "¡<w>Qué</w> bien lo pasamos en el pueblo!"
                             }
                         }
                     ],
@@ -367,7 +875,15 @@
                     ],
                     "target_lang_definitions": {
                         "en": "How; to what extent (usually in exclamatory sentences).",
-                        "zh": "用于感叹句，表示程度。"
+                        "zh": "用于感叹句，表示程度。",
+                        "nl": "Hoe; in welke mate (meestal in uitroepende zinnen).",
+                        "pl": "Jak, w jakim stopniu (zazwyczaj w zdaniach wykrzyknikowych).",
+                        "de": "Wie, in welchem Maße (meist in Ausrufesätzen).",
+                        "fr": "À quel point, combien (utilisé dans des exclamations pour marquer l'intensité).",
+                        "it": "Quanto, in che misura (usato in frasi esclamative, arcaico).",
+                        "cs": "Jak, nakolik, v jaké míře (obvykle ve zvolacích větách).",
+                        "tr": "Nasıl, ne kadar, hangi derecede (genellikle ünlem cümlelerinde).",
+                        "es": "Cómo; hasta qué punto (usado en oraciones exclamativas)."
                     },
                     "translations": {
                         "en": [
@@ -384,6 +900,74 @@
                             {
                                 "target_lang_word": "多么",
                                 "target_lang_sense_clarification": "感叹程度"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "hoe",
+                                "target_lang_sense_clarification": "uitroepende versterker"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "jakże",
+                                "target_lang_sense_clarification": "wzmocnienie stopnia w wykrzyknieniach"
+                            },
+                            {
+                                "target_lang_word": "jak bardzo",
+                                "target_lang_sense_clarification": "określenie stopnia"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "wie",
+                                "target_lang_sense_clarification": "verstärkendes Wort in Ausrufen"
+                            },
+                            {
+                                "target_lang_word": "ungemein",
+                                "target_lang_sense_clarification": "gehoben für ein hohes Maß"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "combien",
+                                "target_lang_sense_clarification": "intensificateur exclamatif"
+                            },
+                            {
+                                "target_lang_word": "à quel point",
+                                "target_lang_sense_clarification": "expression de l'intensité"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "quanto",
+                                "target_lang_sense_clarification": "intensificatore esclamativo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "jak",
+                                "target_lang_sense_clarification": "zvolací zesílení"
+                            },
+                            {
+                                "target_lang_word": "jak moc",
+                                "target_lang_sense_clarification": "vyjádření vysoké míry"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ne kadar",
+                                "target_lang_sense_clarification": "dereceyi vurgulayan ünlem"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "cuánto",
+                                "target_lang_sense_clarification": "intensificador exclamativo"
+                            },
+                            {
+                                "target_lang_word": "qué",
+                                "target_lang_sense_clarification": "intensificador de grado"
                             }
                         ]
                     }
@@ -405,20 +989,44 @@
                             "text": "В этой книге главного героя зовут <w>Куда</w>.",
                             "target_lang_translations": {
                                 "en": "In this book, the main character's name is <w>Kuda</w>.",
-                                "zh": "这本书的主角名叫<w>库达</w>。"
+                                "zh": "这本书的主角名叫<w>库达</w>。",
+                                "nl": "In dit boek heet de hoofdpersoon <w>Kuda</w>.",
+                                "pl": "W tej książce główny bohater nazywa się <w>Kuda</w>.",
+                                "de": "In diesem Buch heißt der Hauptcharakter <w>Kuda</w>.",
+                                "fr": "Dans ce livre, le personnage principal s'appelle <w>Kuda</w>.",
+                                "it": "In questo libro il protagonista si chiama <w>Kuda</w>.",
+                                "cs": "V této knize se hlavní hrdina jmenuje <w>Kuda</w>.",
+                                "tr": "Bu kitapta ana karakterin adı <w>Kuda</w>.",
+                                "es": "En este libro, el protagonista se llama <w>Kuda</w>."
                             }
                         },
                         {
                             "text": "Моего иностранного друга зовут <w>Куда</w>.",
                             "target_lang_translations": {
                                 "en": "My foreign friend's name is <w>Kuda</w>.",
-                                "zh": "我的外国朋友名叫<w>库达</w>。"
+                                "zh": "我的外国朋友名叫<w>库达</w>。",
+                                "nl": "Mijn buitenlandse vriend heet <w>Kuda</w>.",
+                                "pl": "Mój zagraniczny przyjaciel nazywa się <w>Kuda</w>.",
+                                "de": "Mein ausländischer Freund heißt <w>Kuda</w>.",
+                                "fr": "Mon ami étranger s'appelle <w>Kuda</w>.",
+                                "it": "Il mio amico straniero si chiama <w>Kuda</w>.",
+                                "cs": "Můj zahraniční přítel se jmenuje <w>Kuda</w>.",
+                                "tr": "Yabancı arkadaşımın adı <w>Kuda</w>.",
+                                "es": "Mi amigo extranjero se llama <w>Kuda</w>."
                             }
                         }
                     ],
                     "target_lang_definitions": {
                         "en": "Male name.",
-                        "zh": "男性名字。"
+                        "zh": "男性名字。",
+                        "nl": "Mannelijke voornaam.",
+                        "pl": "Imię męskie.",
+                        "de": "Männlicher Vorname.",
+                        "fr": "Prénom masculin.",
+                        "it": "Nome proprio maschile.",
+                        "cs": "Mužské jméno.",
+                        "tr": "Erkek ismi.",
+                        "es": "Nombre propio masculino."
                     },
                     "translations": {
                         "en": [
@@ -431,6 +1039,54 @@
                             {
                                 "target_lang_word": "库达",
                                 "target_lang_sense_clarification": "人名音译"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "persoonsnaam"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "imię własne"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "Eigenname"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "prénom"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "nome proprio"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "osobní jméno"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "özel isim"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Kuda",
+                                "target_lang_sense_clarification": "nombre de persona"
                             }
                         ]
                     }

@@ -25,15 +25,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W godzinach szczytu <ruch> na ulicach jest bardzo duży.",
+                            "text": "W godzinach szczytu <w>ruch</w> na ulicach jest bardzo duży.",
                             "target_lang_translations": {
-                                "ru": "В часы пик <движение> на улицах очень сильное."
+                                "ru": "В часы пик <w>движение</w> на улицах очень сильное.",
+                                "en": "During rush hour, <w>traffic</w> on the streets is very heavy.",
+                                "nl": "In de spits is het <w>verkeer</w> op de wegen erg druk.",
+                                "de": "In den Stoßzeiten ist der <w>Verkehr</w> auf den Straßen sehr stark.",
+                                "fr": "Aux heures de pointe, la <w>circulation</w> dans les rues est très dense.",
+                                "it": "Nelle ore di punta il <w>traffico</w> nelle strade è molto intenso.",
+                                "cs": "V době dopravní špičky je <w>provoz</w> na ulicích velmi hustý.",
+                                "tr": "Yoğun saatlerde sokaklardaki <w>trafik</w> çok fazladır.",
+                                "es": "En las horas punta, el <w>tráfico</w> en las calles es muy intenso.",
+                                "zh": "高峰时段街上的<w>交通</w>非常拥堵。"
                             }
                         },
                         {
-                            "text": "Policjant kieruje <ruchem> drogowym z powodu awarii sygnalizacji.",
+                            "text": "Policjant kieruje <w>ruchem</w> drogowym z powodu awarii sygnalizacji.",
                             "target_lang_translations": {
-                                "ru": "Полицейский руководит дорожным <движением> из-за поломки светофора."
+                                "ru": "Полицейский руководит дорожным <w>движением</w> из-за поломки светофора.",
+                                "en": "A police officer is directing <w>traffic</w> due to a signal failure.",
+                                "nl": "De politieagent regelt het <w>verkeer</w> vanwege een defect aan de verkeerslichten.",
+                                "de": "Ein Polizist regelt den <w>Verkehr</w> wegen eines Ampelausfalls.",
+                                "fr": "Le policier dirige la <w>circulation</w> routière à cause d'une panne de signalisation.",
+                                "it": "Il vigile dirige il <w>traffico</w> a causa di un guasto al semaforo.",
+                                "cs": "Policista řídí silniční <w>provoz</w> kvůli poruše signalizace.",
+                                "tr": "Polis, sinyalizasyon arızası nedeniyle trafik <w>hareketini</w> yönetiyor.",
+                                "es": "El policía dirige el <w>tráfico</w> debido a una avería en el semáforo.",
+                                "zh": "由于信号灯故障，警察正在指挥<w>交通</w>。"
                             }
                         }
                     ],
@@ -44,7 +62,16 @@
                         "wstrzymać ruch"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Перемещение транспортных средств и пешеходов по дорогам; интенсивность этого явления."
+                        "ru": "Перемещение транспортных средств и пешеходов по дорогам; интенсивность этого явления.",
+                        "en": "The movement of vehicles and pedestrians on roads; the intensity of this phenomenon.",
+                        "nl": "Het verplaatsen van voertuigen en voetgangers op wegen; de intensiteit van dit verschijnsel.",
+                        "de": "Bewegung von Fahrzeugen und Fußgängern auf Straßen; Intensität dieses Phänomens.",
+                        "fr": "Circulation des véhicules et des piétons sur les routes ; intensité de ce phénomène.",
+                        "it": "Spostamento di veicoli e pedoni sulle strade; intensità di tale fenomeno.",
+                        "cs": "Pohyb dopravních prostředků a chodců na pozemních komunikacích; intenzita tohoto jevu.",
+                        "tr": "Araçların ve yayaların yollardaki hareketi; bu olgunun yoğunluğu.",
+                        "es": "Circulación de vehículos y peatones por las vías; intensidad de este fenómeno.",
+                        "zh": "指车辆和行人在道路上的往来；也指这种往来的频繁程度。"
                     },
                     "translations": {
                         "ru": [
@@ -55,6 +82,84 @@
                             {
                                 "target_lang_word": "трафик",
                                 "target_lang_sense_clarification": "интенсивность потока"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "traffic",
+                                "target_lang_sense_clarification": "vehicles and pedestrians on roads"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "verkeer",
+                                "target_lang_sense_clarification": "verplaatsing van voertuigen en mensen"
+                            },
+                            {
+                                "target_lang_word": "verkeersdrukte",
+                                "target_lang_sense_clarification": "intensiteit van het verkeer"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Verkehr",
+                                "target_lang_sense_clarification": "allgemeiner Straßenverkehr"
+                            },
+                            {
+                                "target_lang_word": "Verkehrsaufkommen",
+                                "target_lang_sense_clarification": "Intensität des Verkehrs"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "circulation",
+                                "target_lang_sense_clarification": "routière, urbaine"
+                            },
+                            {
+                                "target_lang_word": "trafic",
+                                "target_lang_sense_clarification": "intensité du flux de véhicules"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "traffico",
+                                "target_lang_sense_clarification": "circolazione stradale"
+                            },
+                            {
+                                "target_lang_word": "circolazione",
+                                "target_lang_sense_clarification": "flusso di veicoli"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "provoz",
+                                "target_lang_sense_clarification": "dopravní situace na silnicích"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "trafik",
+                                "target_lang_sense_clarification": "araç ve yaya akışı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "tráfico",
+                                "target_lang_sense_clarification": "circulación de vehículos"
+                            },
+                            {
+                                "target_lang_word": "circulación",
+                                "target_lang_sense_clarification": "tránsito de personas o vehículos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "交通",
+                                "target_lang_sense_clarification": "指道路上的车辆和行人往来"
+                            },
+                            {
+                                "target_lang_word": "车流",
+                                "target_lang_sense_clarification": "指车辆行驶的密集程度"
                             }
                         ]
                     }
@@ -68,15 +173,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Lekarz zalecił mi więcej <ruchu> na świeżym powietrzu.",
+                            "text": "Lekarz zalecił mi więcej <w>ruchu</w> na świeżym powietrzu.",
                             "target_lang_translations": {
-                                "ru": "Врач посоветовал мне больше <движения> на свежем воздухе."
+                                "ru": "Врач посоветовал мне больше <w>движения</w> на свежем воздухе.",
+                                "en": "The doctor recommended more <w>exercise</w> in the fresh air.",
+                                "nl": "De dokter adviseerde me meer <w>beweging</w> in de buitenlucht.",
+                                "de": "Der Arzt hat mir mehr <w>Bewegung</w> an der frischen Luft empfohlen.",
+                                "fr": "Le médecin m'a conseillé de faire plus d'<w>exercice</w> en plein air.",
+                                "it": "Il medico mi ha consigliato più <w>movimento</w> all'aria aperta.",
+                                "cs": "Lékař mi doporučil více <w>pohybu</w> na čerstvém vzduchu.",
+                                "tr": "Doktor bana açık havada daha fazla <w>hareket</w> önerdi.",
+                                "es": "El médico me recomendó más <w>ejercicio</w> al aire libre.",
+                                "zh": "医生建议我多在户外进行<w>运动</w>。"
                             }
                         },
                         {
-                            "text": "Regularny <ruch> to zdrowie i dobre samopoczucie.",
+                            "text": "Regularny <w>ruch</w> to zdrowie i dobre samopoczucie.",
                             "target_lang_translations": {
-                                "ru": "Регулярное <движение> — это здоровье и хорошее самочувствие."
+                                "ru": "Регулярное <w>движение</w> — это здоровье и хорошее самочувствие.",
+                                "en": "Regular <w>physical activity</w> means health and well-being.",
+                                "nl": "Regelmatige <w>beweging</w> is goed voor de gezondheid en het welzijn.",
+                                "de": "Regelmäßige <w>Bewegung</w> bedeutet Gesundheit und Wohlbefinden.",
+                                "fr": "Une <w>activité physique</w> régulière est synonyme de santé et de bien-être.",
+                                "it": "Il <w>movimento</w> regolare è salute e benessere.",
+                                "cs": "Pravidelný <w>pohyb</w> znamená zdraví a dobrou náladu.",
+                                "tr": "Düzenli <w>hareket</w> sağlık ve iyi hissetmektir.",
+                                "es": "El <w>ejercicio</w> regular es salud y bienestar.",
+                                "zh": "经常<w>运动</w>有益于健康和身心愉悦。"
                             }
                         }
                     ],
@@ -90,7 +213,16 @@
                         "być w ruchu"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Физическая активность человека, часто направленная на улучшение здоровья или физической формы."
+                        "ru": "Физическая активность человека, часто направленная на улучшение здоровья или физической формы.",
+                        "en": "Physical activity of a person, often aimed at improving health or fitness.",
+                        "nl": "Fysieke activiteit van een persoon, vaak bedoeld om de gezondheid of conditie te verbeteren.",
+                        "de": "Körperliche Aktivität eines Menschen, oft zur Verbesserung der Gesundheit oder Fitness.",
+                        "fr": "Activité physique humaine, souvent visant à améliorer la santé ou la condition physique.",
+                        "it": "Attività fisica umana, spesso volta a migliorare la salute o la forma fisica.",
+                        "cs": "Fyzická aktivita člověka, často zaměřená na zlepšení zdraví nebo kondice.",
+                        "tr": "İnsanın genellikle sağlığını veya kondisyonunu iyileştirmeyi amaçlayan fiziksel aktivitesi.",
+                        "es": "Actividad física humana, a menudo orientada a mejorar la salud o la condición física.",
+                        "zh": "为了改善健康或体能而进行的身体活动。"
                     },
                     "translations": {
                         "ru": [
@@ -101,6 +233,100 @@
                             {
                                 "target_lang_word": "активность",
                                 "target_lang_sense_clarification": "подвижность"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "exercise",
+                                "target_lang_sense_clarification": "physical activity for health"
+                            },
+                            {
+                                "target_lang_word": "movement",
+                                "target_lang_sense_clarification": "physical activity"
+                            },
+                            {
+                                "target_lang_word": "physical activity",
+                                "target_lang_sense_clarification": "general movement"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "beweging",
+                                "target_lang_sense_clarification": "fysieke activiteit"
+                            },
+                            {
+                                "target_lang_word": "lichaamsbeweging",
+                                "target_lang_sense_clarification": "sportieve of fysieke inspanning"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Bewegung",
+                                "target_lang_sense_clarification": "sportliche Betätigung"
+                            },
+                            {
+                                "target_lang_word": "körperliche Aktivität",
+                                "target_lang_sense_clarification": "allgemeine Bewegung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "exercice",
+                                "target_lang_sense_clarification": "activité physique"
+                            },
+                            {
+                                "target_lang_word": "activité physique",
+                                "target_lang_sense_clarification": "mouvement du corps"
+                            },
+                            {
+                                "target_lang_word": "bouger",
+                                "target_lang_sense_clarification": "action de rester actif"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "movimento",
+                                "target_lang_sense_clarification": "attività fisica"
+                            },
+                            {
+                                "target_lang_word": "attività fisica",
+                                "target_lang_sense_clarification": "esercizio"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "pohyb",
+                                "target_lang_sense_clarification": "fyzická aktivita"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hareket",
+                                "target_lang_sense_clarification": "fiziksel aktivite"
+                            },
+                            {
+                                "target_lang_word": "egzersiz",
+                                "target_lang_sense_clarification": "spor veya sağlık amaçlı hareket"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "ejercicio",
+                                "target_lang_sense_clarification": "actividad física"
+                            },
+                            {
+                                "target_lang_word": "movimiento",
+                                "target_lang_sense_clarification": "actividad corporal"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "运动",
+                                "target_lang_sense_clarification": "指身体锻炼"
+                            },
+                            {
+                                "target_lang_word": "活动",
+                                "target_lang_sense_clarification": "指身体的活动量"
                             }
                         ]
                     }
@@ -114,15 +340,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Czujnik wykrył <ruch> w ciemnym korytarzu.",
+                            "text": "Czujnik wykrył <w>ruch</w> w ciemnym korytarzu.",
                             "target_lang_translations": {
-                                "ru": "Датчик обнаружил <движение> в темном коридоре."
+                                "ru": "Датчик обнаружил <w>движение</w> в темном коридоре.",
+                                "en": "The sensor detected <w>movement</w> in the dark corridor.",
+                                "nl": "De sensor detecteerde <w>beweging</w> in de donkere gang.",
+                                "de": "Der Sensor hat eine <w>Bewegung</w> im dunklen Flur erkannt.",
+                                "fr": "Le capteur a détecté un <w>mouvement</w> dans le couloir sombre.",
+                                "it": "Il sensore ha rilevato un <w>movimento</w> nel corridoio buio.",
+                                "cs": "Senzor zaznamenal <w>pohyb</w> v temné chodbě.",
+                                "tr": "Sensör karanlık koridorda bir <w>hareket</w> algıladı.",
+                                "es": "El sensor detectó <w>movimiento</w> en el pasillo oscuro.",
+                                "zh": "传感器探测到了黑暗走廊里的<w>移动</w>。"
                             }
                         },
                         {
-                            "text": "Planety wykonują stały <ruch> wokół Słońca.",
+                            "text": "Planety wykonują stały <w>ruch</w> wokół Słońca.",
                             "target_lang_translations": {
-                                "ru": "Планеты совершают постоянное <движение> вокруг Солнца."
+                                "ru": "Планеты совершают постоянное <w>движение</w> вокруг Солнца.",
+                                "en": "Planets are in constant <w>motion</w> around the Sun.",
+                                "nl": "Planeten maken een constante <w>beweging</w> rond de zon.",
+                                "de": "Die Planeten führen eine ständige <w>Bewegung</w> um die Sonne aus.",
+                                "fr": "Les planètes effectuent un <w>mouvement</w> constant autour du Soleil.",
+                                "it": "I pianeti compiono un <w>movimento</w> costante attorno al Sole.",
+                                "cs": "Planety vykonávají stálý <w>pohyb</w> kolem Slunce.",
+                                "tr": "Gezegenler Güneş etrafında sürekli bir <w>hareket</w> halindedir.",
+                                "es": "Los planetas realizan un <w>movimiento</w> constante alrededor del Sol.",
+                                "zh": "行星绕着太阳做持续的<w>运动</w>。"
                             }
                         }
                     ],
@@ -138,7 +382,16 @@
                         "ciągły ruch"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Изменение положения кого-либо или чего-либо в пространстве."
+                        "ru": "Изменение положения кого-либо или чего-либо в пространстве.",
+                        "en": "A change in the position of someone or something in space.",
+                        "nl": "Het veranderen van de positie van iemand of iets in de ruimte.",
+                        "de": "Änderung der Position von jemandem oder etwas im Raum.",
+                        "fr": "Changement de position de quelqu'un ou de quelque chose dans l'espace.",
+                        "it": "Cambiamento di posizione di qualcuno o qualcosa nello spazio.",
+                        "cs": "Změna polohy někoho nebo něčeho v prostoru.",
+                        "tr": "Birinin veya bir şeyin uzaydaki konumunun değişmesi.",
+                        "es": "Cambio de posición de alguien o algo en el espacio.",
+                        "zh": "人或物体在空间中位置的改变。"
                     },
                     "translations": {
                         "ru": [
@@ -149,6 +402,84 @@
                             {
                                 "target_lang_word": "перемещение",
                                 "target_lang_sense_clarification": "смена места"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "movement",
+                                "target_lang_sense_clarification": "physical motion"
+                            },
+                            {
+                                "target_lang_word": "motion",
+                                "target_lang_sense_clarification": "act of moving"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "beweging",
+                                "target_lang_sense_clarification": "verplaatsing in de ruimte"
+                            },
+                            {
+                                "target_lang_word": "verplaatsing",
+                                "target_lang_sense_clarification": "het veranderen van locatie"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Bewegung",
+                                "target_lang_sense_clarification": "allgemeine Ortsveränderung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mouvement",
+                                "target_lang_sense_clarification": "déplacement dans l'espace"
+                            },
+                            {
+                                "target_lang_word": "déplacement",
+                                "target_lang_sense_clarification": "changement de lieu"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "movimento",
+                                "target_lang_sense_clarification": "spostamento nello spazio"
+                            },
+                            {
+                                "target_lang_word": "spostamento",
+                                "target_lang_sense_clarification": "cambio di luogo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "pohyb",
+                                "target_lang_sense_clarification": "změna polohy v prostoru"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hareket",
+                                "target_lang_sense_clarification": "yer değiştirme"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "movimiento",
+                                "target_lang_sense_clarification": "cambio de posición"
+                            },
+                            {
+                                "target_lang_word": "desplazamiento",
+                                "target_lang_sense_clarification": "cambio de lugar"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "移动",
+                                "target_lang_sense_clarification": "指位置的改变"
+                            },
+                            {
+                                "target_lang_word": "运动",
+                                "target_lang_sense_clarification": "指物体在空间中的位移"
                             }
                         ]
                     }
@@ -162,15 +493,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wykonał gwałtowny <ruch> ręką, aby odgonić owada.",
+                            "text": "Wykonał gwałtowny <w>ruch</w> ręką, aby odgonić owada.",
                             "target_lang_translations": {
-                                "ru": "Он сделал резкое <движение> рукой, чтобы отогнать насекомое."
+                                "ru": "Он сделал резкое <w>движение</w> рукой, чтобы отогнать насекомое.",
+                                "en": "He made a sudden <w>movement</w> with his hand to shoo away the insect.",
+                                "nl": "Hij maakte een plotselinge <w>beweging</w> met zijn hand om het insect weg te jagen.",
+                                "de": "Er machte eine heftige <w>Bewegung</w> mit der Hand, um das Insekt zu verscheuchen.",
+                                "fr": "Il a fait un <w>mouvement</w> brusque de la main pour chasser l'insecte.",
+                                "it": "Ha fatto un <w>movimento</w> brusco con la mano per scacciare l'insetto.",
+                                "cs": "Udělal prudký <w>pohyb</w> rukou, aby odehnal hmyz.",
+                                "tr": "Böceği kovmak için eliyle ani bir <w>hareket</w> yaptı.",
+                                "es": "Hizo un <w>movimiento</w> brusco con la mano para espantar al insecto.",
+                                "zh": "他挥手做了一个猛烈的<w>动作</w>来赶走昆虫。"
                             }
                         },
                         {
-                            "text": "Jeden fałszywy <ruch> może spowodować upadek.",
+                            "text": "Jeden fałszywy <w>ruch</w> może spowodować upadek.",
                             "target_lang_translations": {
-                                "ru": "Одно неверное <движение> может привести к падению."
+                                "ru": "Одно неверное <w>движение</w> может привести к падению.",
+                                "en": "One false <w>move</w> could cause a fall.",
+                                "nl": "Eén verkeerde <w>beweging</w> kan een val veroorzaken.",
+                                "de": "Eine falsche <w>Bewegung</w> kann zu einem Sturz führen.",
+                                "fr": "Un faux <w>mouvement</w> peut provoquer une chute.",
+                                "it": "Una <w>mossa</w> falsa può causare una caduta.",
+                                "cs": "Jeden chybný <w>pohyb</w> může způsobit pád.",
+                                "tr": "Tek bir yanlış <w>hareket</w> düşmeye neden olabilir.",
+                                "es": "Un <w>movimiento</w> en falso puede provocar una caída.",
+                                "zh": "一个错误的<w>动作</w>就可能导致摔倒。"
                             }
                         }
                     ],
@@ -181,7 +530,16 @@
                         "ruch ręką"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Изменение положения тела или его части; жест."
+                        "ru": "Изменение положения тела или его части; жест.",
+                        "en": "A change in the position of the body or a part of it; a gesture.",
+                        "nl": "Het veranderen van de houding van het lichaam of een lichaamsdeel; een gebaar.",
+                        "de": "Änderung der Körperhaltung oder eines Körperteils; Geste.",
+                        "fr": "Changement de position du corps ou d'une de ses parties ; geste.",
+                        "it": "Cambiamento di posizione del corpo o di una sua parte; gesto.",
+                        "cs": "Změna polohy těla nebo jeho části; gesto.",
+                        "tr": "Vücudun veya bir kısmının konumunun değişmesi; jest.",
+                        "es": "Cambio en la posición del cuerpo o de una parte del mismo; gesto.",
+                        "zh": "身体或身体部位位置的改变；动作或手势。"
                     },
                     "translations": {
                         "ru": [
@@ -192,6 +550,96 @@
                             {
                                 "target_lang_word": "жест",
                                 "target_lang_sense_clarification": "знак рукой или телом"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "movement",
+                                "target_lang_sense_clarification": "body movement"
+                            },
+                            {
+                                "target_lang_word": "gesture",
+                                "target_lang_sense_clarification": "movement of body part"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "beweging",
+                                "target_lang_sense_clarification": "lichaamsbeweging"
+                            },
+                            {
+                                "target_lang_word": "gebaar",
+                                "target_lang_sense_clarification": "teken met hand of lichaam"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Bewegung",
+                                "target_lang_sense_clarification": "Körperbewegung"
+                            },
+                            {
+                                "target_lang_word": "Geste",
+                                "target_lang_sense_clarification": "ausdrucksstarke Handbewegung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mouvement",
+                                "target_lang_sense_clarification": "geste corporel"
+                            },
+                            {
+                                "target_lang_word": "geste",
+                                "target_lang_sense_clarification": "mouvement expressif ou fonctionnel"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "movimento",
+                                "target_lang_sense_clarification": "gesto del corpo"
+                            },
+                            {
+                                "target_lang_word": "gesto",
+                                "target_lang_sense_clarification": "segno fatto con la mano o il corpo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "pohyb",
+                                "target_lang_sense_clarification": "fyzický úkon tělem"
+                            },
+                            {
+                                "target_lang_word": "gesto",
+                                "target_lang_sense_clarification": "pohyb rukou nebo tělem"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hareket",
+                                "target_lang_sense_clarification": "bedensel eylem"
+                            },
+                            {
+                                "target_lang_word": "jest",
+                                "target_lang_sense_clarification": "el veya vücut işareti"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "movimiento",
+                                "target_lang_sense_clarification": "gesto o acción corporal"
+                            },
+                            {
+                                "target_lang_word": "gesto",
+                                "target_lang_sense_clarification": "señal con el cuerpo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "动作",
+                                "target_lang_sense_clarification": "指身体部位的活动"
+                            },
+                            {
+                                "target_lang_word": "手势",
+                                "target_lang_sense_clarification": "指用手表达的动作"
                             }
                         ]
                     }
@@ -205,15 +653,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Teraz jest twój <ruch>, więc rzuć kostką.",
+                            "text": "Teraz jest twój <w>ruch</w>, więc rzuć kostką.",
                             "target_lang_translations": {
-                                "ru": "Сейчас твой <ход>, так что бросай кубик."
+                                "ru": "Сейчас твой <w>ход</w>, так что бросай кубик.",
+                                "en": "It is your <w>move</w> now, so roll the dice.",
+                                "nl": "Nu is het jouw <w>beurt</w>, dus gooi met de dobbelsteen.",
+                                "de": "Jetzt bist du am <w>Zug</w>, also würfle.",
+                                "fr": "C'est à ton <w>tour</w> de jouer, alors lance le dé.",
+                                "it": "Ora è la tua <w>mossa</w>, quindi tira il dado.",
+                                "cs": "Teď je tvůj <w>tah</w>, tak hoď kostkou.",
+                                "tr": "Şimdi senin <w>sıran</w>, o yüzden zarları at.",
+                                "es": "Ahora es tu <w>turno</w>, así que tira el dado.",
+                                "zh": "现在轮到你<w>走棋</w>了，掷骰子吧。"
                             }
                         },
                         {
-                            "text": "Ten <ruch> szachowy zaskoczył wszystkich obserwatorów.",
+                            "text": "Ten <w>ruch</w> szachowy zaskoczył wszystkich obserwatorów.",
                             "target_lang_translations": {
-                                "ru": "Этот шахматный <ход> удивил всех наблюдателей."
+                                "ru": "Этот шахматный <w>ход</w> удивил всех наблюдателей.",
+                                "en": "This chess <w>move</w> surprised all the observers.",
+                                "nl": "Deze <w>schaakzet</w> verraste alle toeschouwers.",
+                                "de": "Dieser <w>Zug</w> beim Schach hat alle Beobachter überrascht.",
+                                "fr": "Ce <w>coup</w> aux échecs a surpris tous les observateurs.",
+                                "it": "Questa <w>mossa</w> scacchistica ha sorpreso tutti gli osservatori.",
+                                "cs": "Tento šachový <w>tah</w> překvapil všechny pozorovatele.",
+                                "tr": "Bu satranç <w>hamlesi</w> tüm gözlemcileri şaşırttı.",
+                                "es": "Esta <w>jugada</w> de ajedrez sorprendió a todos los observadores.",
+                                "zh": "这步<w>走棋</w>让所有旁观者都感到惊讶。"
                             }
                         }
                     ],
@@ -228,13 +694,104 @@
                         "ruch pionkiem"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Действие игрока в настольной, карточной или компьютерной игре, совершаемое, когда наступает его очередь."
+                        "ru": "Действие игрока в настольной, карточной или компьютерной игре, совершаемое, когда наступает его очередь.",
+                        "en": "An action taken by a player in a board, card, or computer game when it is their turn.",
+                        "nl": "De actie van een speler in een bord-, kaart- of computerspel, uitgevoerd wanneer het zijn beurt is.",
+                        "de": "Aktion eines Spielers in einem Brett-, Karten- oder Computerspiel, die ausgeführt wird, wenn er an der Reihe ist.",
+                        "fr": "Action d'un joueur dans un jeu de société, de cartes ou vidéo, effectuée à son tour.",
+                        "it": "Azione di un giocatore in un gioco da tavolo, di carte o al computer, compiuta quando tocca a lui.",
+                        "cs": "Akce hráče ve stolní, karetní nebo počítačové hře, prováděná, když je na řadě.",
+                        "tr": "Bir masa, kart veya bilgisayar oyununda oyuncunun sırası geldiğinde yaptığı eylem.",
+                        "es": "Acción de un jugador en un juego de mesa, de cartas o de ordenador, realizada cuando llega su turno.",
+                        "zh": "在棋类、牌类或电子游戏中，轮到某人时所采取的行动。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "ход",
                                 "target_lang_sense_clarification": "в игре"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "move",
+                                "target_lang_sense_clarification": "in a game"
+                            },
+                            {
+                                "target_lang_word": "turn",
+                                "target_lang_sense_clarification": "player's opportunity to act"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "zet",
+                                "target_lang_sense_clarification": "in een spel zoals schaken"
+                            },
+                            {
+                                "target_lang_word": "beurt",
+                                "target_lang_sense_clarification": "wanneer iemand aan de beurt is"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Zug",
+                                "target_lang_sense_clarification": "Spielzug"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "coup",
+                                "target_lang_sense_clarification": "action dans un jeu"
+                            },
+                            {
+                                "target_lang_word": "tour",
+                                "target_lang_sense_clarification": "moment de jouer"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "mossa",
+                                "target_lang_sense_clarification": "nel gioco"
+                            },
+                            {
+                                "target_lang_word": "turno",
+                                "target_lang_sense_clarification": "momento in cui tocca a qualcuno"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "tah",
+                                "target_lang_sense_clarification": "v deskových hrách"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hamle",
+                                "target_lang_sense_clarification": "oyun sırasındaki eylem"
+                            },
+                            {
+                                "target_lang_word": "sıra",
+                                "target_lang_sense_clarification": "oyun sırası"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "turno",
+                                "target_lang_sense_clarification": "momento de jugar"
+                            },
+                            {
+                                "target_lang_word": "jugada",
+                                "target_lang_sense_clarification": "acción en el juego"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "走棋",
+                                "target_lang_sense_clarification": "指棋类游戏中的行动"
+                            },
+                            {
+                                "target_lang_word": "出牌",
+                                "target_lang_sense_clarification": "指牌类游戏中的行动"
                             }
                         ]
                     }
@@ -248,15 +805,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ten <ruch> społeczny walczy o prawa zwierząt.",
+                            "text": "Ten <w>ruch</w> społeczny walczy o prawa zwierząt.",
                             "target_lang_translations": {
-                                "ru": "Это общественное <движение> борется за права животных."
+                                "ru": "Это общественное <w>движение</w> борется за права животных.",
+                                "en": "This social <w>movement</w> fights for animal rights.",
+                                "nl": "Deze maatschappelijke <w>beweging</w> strijdt voor dierenrechten.",
+                                "de": "Diese soziale <w>Bewegung</w> kämpft für Tierrechte.",
+                                "fr": "Ce <w>mouvement</w> social lutte pour les droits des animaux.",
+                                "it": "Questo <w>movimento</w> sociale lotta per i diritti degli animali.",
+                                "cs": "Toto společenské <w>hnutí</w> bojuje za práva zvířat.",
+                                "tr": "Bu toplumsal <w>hareket</w> hayvan hakları için savaşıyor.",
+                                "es": "Este <w>movimiento</w> social lucha por los derechos de los animales.",
+                                "zh": "这场社会<w>运动</w>致力于争取动物权利。"
                             }
                         },
                         {
-                            "text": "W czasie wojny wielu młodych ludzi wstąpiło do <ruchu> oporu.",
+                            "text": "W czasie wojny wielu młodych ludzi wstąpiło do <w>ruchu</w> oporu.",
                             "target_lang_translations": {
-                                "ru": "Во время войны многие молодые люди вступили в <движение> сопротивления."
+                                "ru": "Во время войны многие молодые люди вступили в <w>движение</w> сопротивления.",
+                                "en": "During the war, many young people joined the resistance <w>movement</w>.",
+                                "nl": "Tijdens de oorlog sloten veel jongeren zich aan bij het <w>verzet</w>.",
+                                "de": "Während des Krieges schlossen sich viele junge Leute der <w>Widerstandsbewegung</w> an.",
+                                "fr": "Pendant la guerre, beaucoup de jeunes gens ont rejoint le <w>mouvement</w> de résistance.",
+                                "it": "Durante la guerra molti giovani si sono uniti al <w>movimento</w> di resistenza.",
+                                "cs": "Během války mnoho mladých lidí vstoupilo do <w>hnutí</w> odporu.",
+                                "tr": "Savaş sırasında birçok genç direniş <w>hareketine</w> katıldı.",
+                                "es": "Durante la guerra, muchos jóvenes se unieron al <w>movimiento</w> de resistencia.",
+                                "zh": "战争期间，许多年轻人加入了抵抗<w>运动</w>。"
                             }
                         }
                     ],
@@ -267,13 +842,80 @@
                         "ruch robotniczy"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Организованная деятельность группы людей, стремящихся к общим социальным, политическим или идеологическим целям."
+                        "ru": "Организованная деятельность группы людей, стремящихся к общим социальным, политическим или идеологическим целям.",
+                        "en": "Organized activity of a group of people striving for common social, political, or ideological goals.",
+                        "nl": "Georganiseerde activiteit van een groep mensen die streven naar gemeenschappelijke sociale, politieke of ideologische doelen.",
+                        "de": "Organisierte Tätigkeit einer Gruppe von Menschen, die gemeinsame soziale, politische oder ideologische Ziele verfolgen.",
+                        "fr": "Action organisée d'un groupe de personnes poursuivant des objectifs sociaux, politiques ou idéologiques communs.",
+                        "it": "Attività organizzata di un gruppo di persone che perseguono obiettivi sociali, politici o ideologici comuni.",
+                        "cs": "Organizovaná činnost skupiny lidí usilujících o společné sociální, politické nebo ideologické cíle.",
+                        "tr": "Ortak sosyal, siyasi veya ideolojik hedeflere ulaşmaya çalışan bir grup insanın organize faaliyeti.",
+                        "es": "Actividad organizada de un grupo de personas que persiguen objetivos sociales, políticos o ideológicos comunes.",
+                        "zh": "一群人为实现共同的社会、政治或意识形态目标而进行的有组织活动。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "движение",
                                 "target_lang_sense_clarification": "общественное или политическое"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "movement",
+                                "target_lang_sense_clarification": "social or political group"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "beweging",
+                                "target_lang_sense_clarification": "maatschappelijke of politieke groepering"
+                            },
+                            {
+                                "target_lang_word": "stroming",
+                                "target_lang_sense_clarification": "groep met gedeelde denkbeelden"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Bewegung",
+                                "target_lang_sense_clarification": "soziale oder politische Gruppierung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mouvement",
+                                "target_lang_sense_clarification": "social ou politique"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "movimento",
+                                "target_lang_sense_clarification": "politico o sociale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "hnutí",
+                                "target_lang_sense_clarification": "společenská nebo politická organizace"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hareket",
+                                "target_lang_sense_clarification": "toplumsal veya siyasi akım"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "movimiento",
+                                "target_lang_sense_clarification": "organización social o política"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "运动",
+                                "target_lang_sense_clarification": "指社会或政治性的集体活动"
                             }
                         ]
                     }
@@ -287,15 +929,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Przed świętami w sklepach panuje ogromny <ruch>.",
+                            "text": "Przed świętami w sklepach panuje ogromny <w>ruch</w>.",
                             "target_lang_translations": {
-                                "ru": "Перед праздниками в магазинах царит огромное <оживление>."
+                                "ru": "Перед праздниками в магазинах царит огромное <w>оживление</w>.",
+                                "en": "Before the holidays, there is a huge <w>bustle</w> in the shops.",
+                                "nl": "Voor de feestdagen is er enorme <w>drukte</w> in de winkels.",
+                                "de": "Vor den Feiertagen herrscht in den Geschäften ein riesiger <w>Betrieb</w>.",
+                                "fr": "Avant les fêtes, il y a une énorme <w>animation</w> dans les magasins.",
+                                "it": "Prima delle feste nei negozi c'è una grande <w>affluenza</w>.",
+                                "cs": "Před svátky v obchodech panuje obrovský <w>ruch</w>.",
+                                "tr": "Bayramlardan önce mağazalarda büyük bir <w>hareketlilik</w> olur.",
+                                "es": "Antes de las fiestas, hay mucha <w>animación</w> en las tiendas.",
+                                "zh": "节日前夕，商店里的<w>客流</w>非常大。"
                             }
                         },
                         {
-                            "text": "W naszej restauracji największy <ruch> jest w weekendy.",
+                            "text": "W naszej restauracji największy <w>ruch</w> jest w weekendy.",
                             "target_lang_translations": {
-                                "ru": "В нашем ресторане самый большой <наплыв> посетителей в выходные."
+                                "ru": "В нашем ресторане самый большой <w>наплыв</w> посетителей в выходные.",
+                                "en": "Our restaurant has the most <w>activity</w> on weekends.",
+                                "nl": "In ons restaurant is de grootste <w>aanloop</w> in het weekend.",
+                                "de": "In unserem Restaurant ist der größte <w>Andrang</w> an den Wochenenden.",
+                                "fr": "Dans notre restaurant, la plus grande <w>affluence</w> a lieu le week-end.",
+                                "it": "Nel nostro ristorante la maggiore <w>affluenza</w> si registra nei fine settimana.",
+                                "cs": "V naší restauraci je největší <w>nával</w> o víkendech.",
+                                "tr": "Restoranımızda en büyük <w>yoğunluk</w> hafta sonları olur.",
+                                "es": "En nuestro restaurante, la mayor <w>afluencia</w> de clientes es los fines de semana.",
+                                "zh": "我们餐厅周末的<w>客流</w>最大。"
                             }
                         }
                     ],
@@ -305,7 +965,16 @@
                         "panuje ruch"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Ситуация, характеризующаяся присутствием множества людей, оживлением и суетой (часто в торговле или сфере услуг)."
+                        "ru": "Ситуация, характеризующаяся присутствием множества людей, оживлением и суетой (часто в торговле или сфере услуг).",
+                        "en": "A situation characterized by the presence of many people, liveliness, and bustle (often in trade or services).",
+                        "nl": "Situatie gekenmerkt door de aanwezigheid van veel mensen, levendigheid en drukte (vaak in de handel of dienstverlening).",
+                        "de": "Situation, die durch die Anwesenheit vieler Menschen, Lebhaftigkeit und Betriebsamkeit gekennzeichnet ist (oft im Handel oder Dienstleistungsbereich).",
+                        "fr": "Situation caractérisée par la présence de nombreuses personnes, de l'animation et de l'agitation (souvent dans le commerce ou les services).",
+                        "it": "Situazione caratterizzata dalla presenza di molte persone, vivacità e fermento (spesso nel commercio o nei servizi).",
+                        "cs": "Situace charakterizovaná přítomností mnoha lidí, ruchem a shonem (často v obchodě nebo službách).",
+                        "tr": "Birçok insanın varlığı, canlılık ve telaş ile karakterize edilen durum (genellikle ticaret veya hizmet sektöründe).",
+                        "es": "Situación caracterizada por la presencia de muchas personas, animación y ajetreo (a menudo en el comercio o servicios).",
+                        "zh": "指人多、热闹、忙碌的状况，常见于商业或服务业。"
                     },
                     "translations": {
                         "ru": [
@@ -316,6 +985,96 @@
                             {
                                 "target_lang_word": "наплыв",
                                 "target_lang_sense_clarification": "посетителей, людей"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "bustle",
+                                "target_lang_sense_clarification": "lively activity"
+                            },
+                            {
+                                "target_lang_word": "activity",
+                                "target_lang_sense_clarification": "high level of business"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "drukte",
+                                "target_lang_sense_clarification": "veel mensen en activiteit"
+                            },
+                            {
+                                "target_lang_word": "aanloop",
+                                "target_lang_sense_clarification": "toestroom van klanten"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Betrieb",
+                                "target_lang_sense_clarification": "geschäftiges Treiben"
+                            },
+                            {
+                                "target_lang_word": "Andrang",
+                                "target_lang_sense_clarification": "viele Besucher"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "animation",
+                                "target_lang_sense_clarification": "effervescence, activité"
+                            },
+                            {
+                                "target_lang_word": "affluence",
+                                "target_lang_sense_clarification": "grand nombre de personnes"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "affluenza",
+                                "target_lang_sense_clarification": "di persone o clienti"
+                            },
+                            {
+                                "target_lang_word": "movimento",
+                                "target_lang_sense_clarification": "vivacità commerciale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "ruch",
+                                "target_lang_sense_clarification": "shon a čilý život"
+                            },
+                            {
+                                "target_lang_word": "nával",
+                                "target_lang_sense_clarification": "velké množství lidí"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hareketlilik",
+                                "target_lang_sense_clarification": "canlılık, yoğunluk"
+                            },
+                            {
+                                "target_lang_word": "yoğunluk",
+                                "target_lang_sense_clarification": "müşteri veya insan kalabalığı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "animación",
+                                "target_lang_sense_clarification": "concurrencia y bullicio"
+                            },
+                            {
+                                "target_lang_word": "afluencia",
+                                "target_lang_sense_clarification": "gran cantidad de personas"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "生意",
+                                "target_lang_sense_clarification": "指商业活动的繁忙程度"
+                            },
+                            {
+                                "target_lang_word": "客流",
+                                "target_lang_sense_clarification": "指顾客往来的数量"
                             }
                         ]
                     }

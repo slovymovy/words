@@ -25,15 +25,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mój dziadek <żył> dziewięćdziesiąt lat i cieszył się dobrym zdrowiem.",
+                            "text": "Mój dziadek <w>żył</w> dziewięćdziesiąt lat i cieszył się dobrym zdrowiem.",
                             "target_lang_translations": {
-                                "ru": "Мой дедушка <жил> девяносто лет и отличался хорошим здоровьем."
+                                "ru": "Мой дедушка <w>жил</w> девяносто лет и отличался хорошим здоровьем.",
+                                "en": "My grandfather <w>lived</w> for ninety years and enjoyed good health.",
+                                "nl": "Mijn grootvader <w>leefde</w> negentig jaar en genoot van een goede gezondheid.",
+                                "de": "Mein Großvater <w>lebte</w> neunzig Jahre und erfreute sich guter Gesundheit.",
+                                "fr": "Mon grand-père a <w>vécu</w> quatre-vingt-dix ans et jouissait d'une bonne santé.",
+                                "it": "Mio nonno è <w>vissuto</w> novant'anni e godeva di buona salute.",
+                                "cs": "Můj dědeček <w>žil</w> devadesát let a těšil se dobrému zdraví.",
+                                "tr": "Dedem doksan yıl <w>yaşadı</w> ve sağlığı yerindeydi.",
+                                "es": "Mi abuelo <w>vivió</w> noventa años y gozó de buena salud.",
+                                "zh": "我祖父<w>活着</w>了九十年，身体一直很健康。"
                             }
                         },
                         {
-                            "text": "Niektóre gatunki żółwi mogą <żyć> nawet ponad sto lat.",
+                            "text": "Niektóre gatunki żółwi mogą <w>żyć</w> nawet ponad sto lat.",
                             "target_lang_translations": {
-                                "ru": "Некоторые виды черепах могут <жить> даже более ста лет."
+                                "ru": "Некоторые виды черепах могут <w>жить</w> даже более ста лет.",
+                                "en": "Some species of turtles can <w>live</w> for even more than a hundred years.",
+                                "nl": "Sommige schildpadsoorten kunnen wel meer dan honderd jaar <w>leven</w>.",
+                                "de": "Einige Schildkrötenarten können sogar über hundert Jahre <w>leben</w>.",
+                                "fr": "Certaines espèces de tortues peuvent <w>vivre</w> même plus de cent ans.",
+                                "it": "Alcune specie di tartarughe possono <w>vivere</w> anche più di cento anni.",
+                                "cs": "Některé druhy želv mohou <w>žít</w> dokonce více než sto let.",
+                                "tr": "Bazı kaplumbağa türleri yüz yıldan fazla bile <w>yaşayabilir</w>.",
+                                "es": "Algunas especies de tortugas pueden <w>vivir</w> incluso más de cien años.",
+                                "zh": "有些种类的乌龟可以<w>活</w>到一百多岁。"
                             }
                         }
                     ],
@@ -50,13 +68,84 @@
                         "żyć wiecznie"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Быть живым, функционировать как биологический организм; противоположность состоянию смерти."
+                        "ru": "Быть живым, функционировать как биологический организм; противоположность состоянию смерти.",
+                        "en": "To be alive; to have life as a biological organism.",
+                        "nl": "Levend zijn, functioneren als een biologisch organisme; het tegenovergestelde van dood zijn.",
+                        "de": "Biologisch existieren, am Leben sein; das Gegenteil von tot sein.",
+                        "fr": "Être en vie, fonctionner comme un organisme biologique ; le contraire d'être mort.",
+                        "it": "Essere in vita, funzionare come organismo biologico; il contrario di essere morto.",
+                        "cs": "Být naživu, fungovat jako biologický organismus; opak smrti.",
+                        "tr": "Canlı olmak, biyolojik bir organizma olarak işlev görmek; ölmenin zıttı.",
+                        "es": "Estar vivo, funcionar como un organismo biológico; lo opuesto a estar muerto.",
+                        "zh": "作为生物体存在；与死亡相对。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "быть живым, существовать"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live",
+                                "target_lang_sense_clarification": "to be alive"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "leven",
+                                "target_lang_sense_clarification": "biologisch in leven zijn"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "leben",
+                                "target_lang_sense_clarification": "biologisch existieren"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre",
+                                "target_lang_sense_clarification": "être en vie, exister"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vivere",
+                                "target_lang_sense_clarification": "essere in vita, esplicare funzioni vitali"
+                            },
+                            {
+                                "target_lang_word": "durare in vita",
+                                "target_lang_sense_clarification": "avere una certa durata biologica"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít",
+                                "target_lang_sense_clarification": "být naživu, existovat"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yaşamak",
+                                "target_lang_sense_clarification": "hayatta olmak, varlığını sürdürmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir",
+                                "target_lang_sense_clarification": "tener vida"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "活着",
+                                "target_lang_sense_clarification": "保持生命状态"
+                            },
+                            {
+                                "target_lang_word": "生存",
+                                "target_lang_sense_clarification": "维持生命"
                             }
                         ]
                     }
@@ -70,15 +159,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Niedźwiedzie polarne to zwierzęta, które <żyją> w zimnym klimacie.",
+                            "text": "Niedźwiedzie polarne to zwierzęta, które <w>żyją</w> w zimnym klimacie.",
                             "target_lang_translations": {
-                                "ru": "Белые медведи — это животные, которые <живут> в холодном климате."
+                                "ru": "Белые медведи — это животные, которые <w>живут</w> в холодном климате.",
+                                "en": "Polar bears are animals that <w>live</w> in a cold climate.",
+                                "nl": "Ijsberen zijn dieren die in een koud klimaat <w>leven</w>.",
+                                "de": "Eisbären sind Tiere, die in einem kalten Klima <w>leben</w>.",
+                                "fr": "Les ours polaires sont des animaux qui <w>vivent</w> dans un climat froid.",
+                                "it": "Gli orsi polari sono animali che <w>vivono</w> in un clima freddo.",
+                                "cs": "Lední medvědi jsou zvířata, která <w>žijí</w> v chladném klimatu.",
+                                "tr": "Kutup ayıları soğuk iklimde <w>yaşayan</w> hayvanlardır.",
+                                "es": "Los osos polares son animales que <w>viven</w> en climas fríos.",
+                                "zh": "北极熊是生活在寒冷气候中的动物，它们<w>住</w>在寒冷的地方。"
                             }
                         },
                         {
-                            "text": "Moi rodzice od wielu lat <żyją> w małym domku na wsi.",
+                            "text": "Moi rodzice od wielu lat <w>żyją</w> w małym domku na wsi.",
                             "target_lang_translations": {
-                                "ru": "Мои родители уже много лет <живут> в маленьком домике в деревне."
+                                "ru": "Мои родители уже много лет <w>живут</w> в маленьком домике в деревне.",
+                                "en": "My parents have <w>lived</w> in a small house in the countryside for many years.",
+                                "nl": "Mijn ouders <w>wonen</w> al vele jaren in een klein huisje op het platteland.",
+                                "de": "Meine Eltern <w>leben</w> seit vielen Jahren in einem kleinen Haus auf dem Land.",
+                                "fr": "Mes parents <w>vivent</w> depuis de nombreuses années dans une petite maison à la campagne.",
+                                "it": "I miei genitori <w>vivono</w> da molti anni in una piccola casa in campagna.",
+                                "cs": "Moji rodiče už mnoho let <w>žijí</w> v malém domku na venkově.",
+                                "tr": "Annem ve babam uzun yıllardır köydeki küçük bir evde <w>yaşıyorlar</w>.",
+                                "es": "Mis padres <w>viven</w> desde hace muchos años en una pequeña casa en el campo.",
+                                "zh": "我父母多年来一直<w>住</w>在乡下的一间小屋里。"
                             }
                         }
                     ],
@@ -93,13 +200,104 @@
                         "żyć za granicą"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Проживать или находиться постоянно в определенном месте."
+                        "ru": "Проживать или находиться постоянно в определенном месте.",
+                        "en": "To have a permanent residence in a specific place.",
+                        "nl": "Vast verblijven of wonen op een bepaalde plek.",
+                        "de": "An einem bestimmten Ort wohnen oder sich dauerhaft aufhalten.",
+                        "fr": "Résider ou séjourner de manière permanente dans un lieu donné.",
+                        "it": "Abitare o risiedere stabilmente in un determinato luogo.",
+                        "cs": "Bydlet nebo trvale pobývat na určitém místě.",
+                        "tr": "Belirli bir yerde sürekli olarak ikamet etmek veya bulunmak.",
+                        "es": "Residir o permanecer de forma permanente en un lugar determinado.",
+                        "zh": "长期居住或栖息在某地。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "проживать, обитать"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live",
+                                "target_lang_sense_clarification": "to reside"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "wonen",
+                                "target_lang_sense_clarification": "ergens verblijven"
+                            },
+                            {
+                                "target_lang_word": "leven",
+                                "target_lang_sense_clarification": "ergens verblijven of verblijf houden"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "leben",
+                                "target_lang_sense_clarification": "wohnen, ansässig sein"
+                            },
+                            {
+                                "target_lang_word": "wohnen",
+                                "target_lang_sense_clarification": "einen Wohnsitz haben"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre",
+                                "target_lang_sense_clarification": "habiter, résider"
+                            },
+                            {
+                                "target_lang_word": "habiter",
+                                "target_lang_sense_clarification": "résider dans un lieu"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vivere",
+                                "target_lang_sense_clarification": "abitare, dimorare"
+                            },
+                            {
+                                "target_lang_word": "abitare",
+                                "target_lang_sense_clarification": "risiedere in un luogo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít",
+                                "target_lang_sense_clarification": "bydlet, obývat"
+                            },
+                            {
+                                "target_lang_word": "bydlet",
+                                "target_lang_sense_clarification": "mít domov"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yaşamak",
+                                "target_lang_sense_clarification": "ikamet etmek, oturmak"
+                            },
+                            {
+                                "target_lang_word": "oturmak",
+                                "target_lang_sense_clarification": "bir yerde ikamet etmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir",
+                                "target_lang_sense_clarification": "tener su residencia en un lugar"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "住",
+                                "target_lang_sense_clarification": "居住"
+                            },
+                            {
+                                "target_lang_word": "生活",
+                                "target_lang_sense_clarification": "在某地居住和活动"
                             }
                         ]
                     }
@@ -113,15 +311,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mimo trudnej sytuacji finansowej, starali się <żyć> godnie i uczciwie.",
+                            "text": "Mimo trudnej sytuacji finansowej, starali się <w>żyć</w> godnie i uczciwie.",
                             "target_lang_translations": {
-                                "ru": "Несмотря на трудное финансовое положение, они старались <жить> достойно и честно."
+                                "ru": "Несмотря на трудное финансовое положение, они старались <w>жить</w> достойно и честно.",
+                                "en": "Despite a difficult financial situation, they tried to <w>live</w> with dignity and honesty.",
+                                "nl": "Ondanks de moeilijke financiële situatie probeerden ze waardig en eerlijk te <w>leven</w>.",
+                                "de": "Trotz der schwierigen finanziellen Lage versuchten sie, würdevoll und ehrlich zu <w>leben</w>.",
+                                "fr": "Malgré une situation financière difficile, ils essayaient de <w>vivre</w> dignement et honnêtement.",
+                                "it": "Nonostante la difficile situazione finanziaria, cercavano di <w>vivere</w> dignitosamente e onestamente.",
+                                "cs": "Navzdory těžké finanční situaci se snažili <w>žít</w> důstojně a poctivě.",
+                                "tr": "Zor mali duruma rağmen, onurlu ve dürüst bir şekilde <w>yaşamaya</w> çalıştılar.",
+                                "es": "A pesar de la difícil situación financiera, intentaban <w>vivir</w> digna y honestamente.",
+                                "zh": "尽管经济困难，他们仍努力<w>生活</w>得有尊严且诚实。"
                             }
                         },
                         {
-                            "text": "Wielu ludzi marzy o tym, by <żyć> w luksusie i nie martwić się o nic.",
+                            "text": "Wielu ludzi marzy o tym, by <w>żyć</w> w luksusie i nie martwić się o nic.",
                             "target_lang_translations": {
-                                "ru": "Многие люди мечтают о том, чтобы <жить> в роскоши и ни о чем не беспокоиться."
+                                "ru": "Многие люди мечтают о том, чтобы <w>жить</w> в роскоши и ни о чем не беспокоиться.",
+                                "en": "Many people dream of <w>living</w> in luxury and not worrying about anything.",
+                                "nl": "Veel mensen dromen ervan om in luxe te <w>leven</w> en zich nergens zorgen over te maken.",
+                                "de": "Viele Menschen träumen davon, in Luxus zu <w>leben</w> und sich um nichts Sorgen zu machen.",
+                                "fr": "Beaucoup de gens rêvent de <w>vivre</w> dans le luxe et de ne se soucier de rien.",
+                                "it": "Molte persone sognano di <w>vivere</w> nel lusso e di non doversi preoccupare di nulla.",
+                                "cs": "Mnoho lidí sní o tom, aby <w>žili</w> v luxusu a nemuseli se o nic starat.",
+                                "tr": "Birçok insan lüks içinde <w>yaşamayı</w> ve hiçbir şey için endişelenmemeyi hayal eder.",
+                                "es": "Muchas personas sueñan con <w>vivir</w> en el lujo y no preocuparse por nada.",
+                                "zh": "许多人梦想着能<w>生活</w>在奢华中，不必为任何事发愁。"
                             }
                         }
                     ],
@@ -136,13 +352,80 @@
                         "żyć chwilą"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Проводить жизнь определенным образом или в конкретных материальных условиях."
+                        "ru": "Проводить жизнь определенным образом или в конкретных материальных условиях.",
+                        "en": "To spend one's life in a specific way or under certain material conditions.",
+                        "nl": "Het leven doorbrengen op een bepaalde manier of onder specifieke materiële omstandigheden.",
+                        "de": "Das Leben auf eine bestimmte Weise oder unter bestimmten materiellen Bedingungen führen.",
+                        "fr": "Mener sa vie d'une certaine manière ou dans des conditions matérielles spécifiques.",
+                        "it": "Condurre la propria esistenza in un modo specifico o in determinate condizioni materiali.",
+                        "cs": "Trávit život určitým způsobem nebo v konkrétních materiálních podmínkách.",
+                        "tr": "Hayatı belirli bir şekilde veya belirli maddi koşullar altında geçirmek.",
+                        "es": "Pasar la vida de una manera determinada o bajo condiciones materiales concretas.",
+                        "zh": "以某种方式或在特定的物质条件下度过一生。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "вести образ жизни"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live",
+                                "target_lang_sense_clarification": "to pass life in a specified manner"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "leven",
+                                "target_lang_sense_clarification": "een bepaalde levensstijl hebben"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "leben",
+                                "target_lang_sense_clarification": "einen Lebensstil führen"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre",
+                                "target_lang_sense_clarification": "mener un train de vie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vivere",
+                                "target_lang_sense_clarification": "condurre un certo tenore di vita"
+                            },
+                            {
+                                "target_lang_word": "stare",
+                                "target_lang_sense_clarification": "trovarsi in una condizione di vita"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít",
+                                "target_lang_sense_clarification": "vést určitý způsob života"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yaşamak",
+                                "target_lang_sense_clarification": "bir hayat tarzı sürmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir",
+                                "target_lang_sense_clarification": "tener un estilo de vida"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "生活",
+                                "target_lang_sense_clarification": "度过日子"
                             }
                         ]
                     }
@@ -156,15 +439,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Po utracie pracy musiał nauczyć się <żyć> z bardzo skromnych oszczędności.",
+                            "text": "Po utracie pracy musiał nauczyć się <w>żyć</w> z bardzo skromnych oszczędności.",
                             "target_lang_translations": {
-                                "ru": "После потери работы ему пришлось научиться <жить> на очень скромные сбережения."
+                                "ru": "После потери работы ему пришлось научиться <w>жить</w> на очень скромные сбережения.",
+                                "en": "After losing his job, he had to learn to <w>live</w> on very modest savings.",
+                                "nl": "Na het verlies van zijn baan moest hij leren <w>rondkomen</w> van zeer bescheiden spaargeld.",
+                                "de": "Nach dem Verlust seines Arbeitsplatzes musste er lernen, von sehr bescheidenen Ersparnissen zu <w>leben</w>.",
+                                "fr": "Après avoir perdu son emploi, il a dû apprendre à <w>vivre</w> avec des économies très modestes.",
+                                "it": "Dopo aver perso il lavoro ha dovuto imparare a <w>vivere</w> con risparmi molto modesti.",
+                                "cs": "Po ztrátě práce se musel naučit <w>žít</w> z velmi skromných úspor.",
+                                "tr": "İşini kaybettikten sonra çok mütevazı birikimlerle <w>geçinmeyi</w> öğrenmek zorunda kaldı.",
+                                "es": "Tras perder su trabajo, tuvo que aprender a <w>vivir</w> de ahorros muy modestos.",
+                                "zh": "失业后，他不得不学会<w>靠</w>微薄的积蓄<w>生活</w>。"
                             }
                         },
                         {
-                            "text": "Artystom często jest trudno <żyć> wyłącznie ze sprzedaży swoich obrazów.",
+                            "text": "Artystom często jest trudno <w>żyć</w> wyłącznie ze sprzedaży swoich obrazów.",
                             "target_lang_translations": {
-                                "ru": "Художникам часто трудно <жить> исключительно за счет продажи своих картин."
+                                "ru": "Художникам часто трудно <w>жить</w> исключительно за счет продажи своих картин.",
+                                "en": "It is often difficult for artists to <w>live</w> solely from the sale of their paintings.",
+                                "nl": "Voor kunstenaars is het vaak moeilijk om uitsluitend te <w>leven</w> van de verkoop van hun schilderijen.",
+                                "de": "Künstlern fällt es oft schwer, ausschließlich vom Verkauf ihrer Bilder zu <w>leben</w>.",
+                                "fr": "Il est souvent difficile pour les artistes de <w>vivre</w> uniquement de la vente de leurs tableaux.",
+                                "it": "Per gli artisti è spesso difficile <w>vivere</w> esclusivamente della vendita dei propri quadri.",
+                                "cs": "Umělcům je často těžké <w>žít</w> výhradně z prodeje svých obrazů.",
+                                "tr": "Sanatçıların sadece tablolarını satarak <w>geçinmeleri</w> genellikle zordur.",
+                                "es": "A menudo es difícil para los artistas <w>vivir</w> exclusivamente de la venta de sus cuadros.",
+                                "zh": "艺术家往往很难仅靠卖画<w>谋生</w>。"
                             }
                         }
                     ],
@@ -177,13 +478,108 @@
                         "żyć na koszt państwa"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Зарабатывать финансовые средства, необходимые для существования."
+                        "ru": "Зарабатывать финансовые средства, необходимые для существования.",
+                        "en": "To earn the financial means necessary to support oneself.",
+                        "nl": "Financiële middelen verdienen die nodig zijn om te overleven.",
+                        "de": "Finanzielle Mittel für den Lebensunterhalt verdienen.",
+                        "fr": "Gagner les ressources financières nécessaires pour subvenir à ses besoins.",
+                        "it": "Guadagnare i mezzi finanziari necessari per il proprio sostentamento.",
+                        "cs": "Získávat finanční prostředky potřebné k obživě.",
+                        "tr": "Geçinmek için gerekli finansal araçları kazanmak.",
+                        "es": "Obtener los medios financieros necesarios para mantenerse.",
+                        "zh": "赚取维持生存所需的经济来源。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "зарабатывать на жизнь"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live on",
+                                "target_lang_sense_clarification": "to subsist or support oneself"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "rondkomen",
+                                "target_lang_sense_clarification": "financieel overleven"
+                            },
+                            {
+                                "target_lang_word": "leven van",
+                                "target_lang_sense_clarification": "financieel afhankelijk zijn van iets"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "leben von",
+                                "target_lang_sense_clarification": "den Lebensunterhalt bestreiten"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre de",
+                                "target_lang_sense_clarification": "subvenir à ses besoins grâce à"
+                            },
+                            {
+                                "target_lang_word": "gagner sa vie",
+                                "target_lang_sense_clarification": "travailler pour subvenir à ses besoins"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vivere di",
+                                "target_lang_sense_clarification": "sostentarsi tramite una fonte specifica"
+                            },
+                            {
+                                "target_lang_word": "mantenersi",
+                                "target_lang_sense_clarification": "provvedere al proprio sostentamento"
+                            },
+                            {
+                                "target_lang_word": "campare",
+                                "target_lang_sense_clarification": "sopravvivere economicamente"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít z něčeho",
+                                "target_lang_sense_clarification": "mít příjem z určitého zdroje"
+                            },
+                            {
+                                "target_lang_word": "uživit se",
+                                "target_lang_sense_clarification": "zajistit si obživu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "geçinmek",
+                                "target_lang_sense_clarification": "hayatını idame ettirmek"
+                            },
+                            {
+                                "target_lang_word": "yaşamak",
+                                "target_lang_sense_clarification": "bir gelir kaynağı ile hayatını sürdürmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir",
+                                "target_lang_sense_clarification": "satisfacer las necesidades diarias"
+                            },
+                            {
+                                "target_lang_word": "vivir de",
+                                "target_lang_sense_clarification": "tener un medio de subsistencia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "靠……生活",
+                                "target_lang_sense_clarification": "维持生计"
+                            },
+                            {
+                                "target_lang_word": "谋生",
+                                "target_lang_sense_clarification": "赚取生活费"
                             }
                         ]
                     }
@@ -197,15 +593,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sąsiedzi powinni starać się <żyć> ze sobą w zgodzie i wzajemnym szacunku.",
+                            "text": "Sąsiedzi powinni starać się <w>żyć</w> ze sobą w zgodzie i wzajemnym szacunku.",
                             "target_lang_translations": {
-                                "ru": "Соседи должны стараться <жить> друг с другом в согласии и взаимном уважении."
+                                "ru": "Соседи должны стараться <w>жить</w> друг с другом в согласии и взаимном уважении.",
+                                "en": "Neighbors should try to <w>live</w> together in harmony and mutual respect.",
+                                "nl": "Buren moeten proberen in harmonie en met wederzijds respect met elkaar te <w>samenleven</w>.",
+                                "de": "Nachbarn sollten versuchen, in Eintracht und gegenseitigem Respekt miteinander zu <w>leben</w>.",
+                                "fr": "Les voisins devraient essayer de <w>vivre</w> ensemble en harmonie et dans le respect mutuel.",
+                                "it": "I vicini dovrebbero cercare di <w>vivere</w> in armonia e rispetto reciproco.",
+                                "cs": "Sousedé by se měli snažit <w>žít</w> spolu v souladu a vzájemné úctě.",
+                                "tr": "Komşular birbirleriyle uyum ve karşılıklı saygı içinde <w>yaşamaya</w> çalışmalıdır.",
+                                "es": "Los vecinos deberían intentar <w>vivir</w> en armonía y respeto mutuo.",
+                                "zh": "邻居之间应该努力<w>相处</w>得和睦并互相尊重。"
                             }
                         },
                         {
-                            "text": "Oni <żyją> ze sobą od lat, chociaż nigdy nie wzięli ślubu.",
+                            "text": "Oni <w>żyją</w> ze sobą od lat, chociaż nigdy nie wzięli ślubu.",
                             "target_lang_translations": {
-                                "ru": "Они <живут> вместе уже много лет, хотя так и не поженились."
+                                "ru": "Они <w>живут</w> вместе уже много лет, хотя так и не поженились.",
+                                "en": "They have <w>lived</w> together for years, even though they never got married.",
+                                "nl": "Ze <w>leven</w> al jaren samen, hoewel ze nooit getrouwd zijn.",
+                                "de": "Sie <w>leben</w> seit Jahren zusammen, obwohl sie nie geheiratet haben.",
+                                "fr": "Ils <w>vivent</w> ensemble depuis des années, bien qu'ils ne se soient jamais mariés.",
+                                "it": "Loro <w>convivono</w> da anni, anche se non si sono mai sposati.",
+                                "cs": "Oni spolu <w>žijí</w> už léta, i když se nikdy nevzali.",
+                                "tr": "Hiç evlenmemiş olsalar da yıllardır birlikte <w>yaşıyorlar</w>.",
+                                "es": "Ellos <w>viven</w> juntos desde hace años, aunque nunca se casaron.",
+                                "zh": "他们虽然从未结婚，但已经<w>同居</w>多年了。"
                             }
                         }
                     ],
@@ -218,13 +632,100 @@
                         "żyć jak pies z kotem"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Поддерживать отношения с кем-либо, взаимодействовать с другими людьми, часто проживая вместе."
+                        "ru": "Поддерживать отношения с кем-либо, взаимодействовать с другими людьми, часто проживая вместе.",
+                        "en": "To maintain relationships with others, often while living together.",
+                        "nl": "Relaties onderhouden met anderen, functioneren in een sociale context, vaak samenwonend.",
+                        "de": "Beziehungen zu anderen pflegen, oft in einer gemeinsamen Wohnung.",
+                        "fr": "Entretenir des relations avec quelqu'un, interagir avec d'autres personnes, souvent en cohabitant.",
+                        "it": "Intrattenere relazioni con qualcuno, interagire con altre persone, spesso vivendo insieme.",
+                        "cs": "Udržovat s někým vztahy, fungovat s ostatními lidmi, často při společném bydlení.",
+                        "tr": "Biriyle ilişki sürdürmek, diğer insanlarla etkileşimde bulunmak, genellikle birlikte yaşamak.",
+                        "es": "Mantener relaciones con alguien, interactuar con otras personas, a menudo viviendo juntos.",
+                        "zh": "与他人维持关系或共同生活。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "сожительствовать, ладить"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live with",
+                                "target_lang_sense_clarification": "to cohabit or get along"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "samenleven",
+                                "target_lang_sense_clarification": "met iemand in een relatie of huishouden wonen"
+                            },
+                            {
+                                "target_lang_word": "omgaan met",
+                                "target_lang_sense_clarification": "sociale interactie hebben"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "zusammenleben",
+                                "target_lang_sense_clarification": "mit jemandem in einer Gemeinschaft wohnen"
+                            },
+                            {
+                                "target_lang_word": "auskommen",
+                                "target_lang_sense_clarification": "mit jemandem gut zurechtkommen"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre avec",
+                                "target_lang_sense_clarification": "cohabiter, partager la vie de"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "convivere",
+                                "target_lang_sense_clarification": "vivere insieme, condividere l'abitazione"
+                            },
+                            {
+                                "target_lang_word": "vivere insieme",
+                                "target_lang_sense_clarification": "avere una relazione di coabitazione"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít spolu",
+                                "target_lang_sense_clarification": "sdílet společnou domácnost"
+                            },
+                            {
+                                "target_lang_word": "vycházet",
+                                "target_lang_sense_clarification": "udržovat dobré vztahy"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "birlikte yaşamak",
+                                "target_lang_sense_clarification": "aynı evde veya ilişkide olmak"
+                            },
+                            {
+                                "target_lang_word": "geçinmek",
+                                "target_lang_sense_clarification": "biriyle uyum içinde olmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir con",
+                                "target_lang_sense_clarification": "convivir o compartir residencia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "相处",
+                                "target_lang_sense_clarification": "与人共处"
+                            },
+                            {
+                                "target_lang_word": "同居",
+                                "target_lang_sense_clarification": "住在一起"
                             }
                         ]
                     }
@@ -238,15 +739,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Pamięć o bohaterach narodowych będzie <żyć> w naszych sercach na zawsze.",
+                            "text": "Pamięć o bohaterach narodowych będzie <w>żyć</w> w naszych sercach na zawsze.",
                             "target_lang_translations": {
-                                "ru": "Память о национальных героях будет вечно <жить> в наших сердцах."
+                                "ru": "Память о национальных героях будет вечно <w>жить</w> в наших сердцах.",
+                                "en": "The memory of national heroes will <w>live</w> on in our hearts forever.",
+                                "nl": "De herinnering aan nationale helden zal voor altijd in onze harten <w>voortleven</w>.",
+                                "de": "Die Erinnerung an die Nationalhelden wird für immer in unseren Herzen <w>weiterleben</w>.",
+                                "fr": "Le souvenir des héros nationaux <w>vivra</w> à jamais dans nos cœurs.",
+                                "it": "Il ricordo degli eroi nazionali <w>vivrà</w> per sempre nei nostri cuori.",
+                                "cs": "Památka na národní hrdiny bude v našich srdcích <w>žít</w> navždy.",
+                                "tr": "Ulusal kahramanların anısı kalplerimizde sonsuza dek <w>yaşayacak</w>.",
+                                "es": "El recuerdo de los héroes nacionales <w>vivirá</w> en nuestros corazones para siempre.",
+                                "zh": "对民族英雄的记忆将永远<w>活</w>在我们的心中。"
                             }
                         },
                         {
-                            "text": "Jego muzyka wciąż <żyje> i inspiruje kolejne pokolenia młodych artystów.",
+                            "text": "Jego muzyka wciąż <w>żyje</w> i inspiruje kolejne pokolenia młodych artystów.",
                             "target_lang_translations": {
-                                "ru": "Его музыка всё ещё <живёт> и вдохновляет следующие поколения молодых артистов."
+                                "ru": "Его музыка всё ещё <w>живёт</w> и вдохновляет следующие поколения молодых артистов.",
+                                "en": "His music still <w>lives</w> on and inspires subsequent generations of young artists.",
+                                "nl": "Zijn muziek <w>leeft</w> nog steeds voort en inspireert volgende generaties jonge artiesten.",
+                                "de": "Seine Musik <w>lebt</w> weiter und inspiriert nachfolgende Generationen junger Künstler.",
+                                "fr": "Sa musique <w>vit</w> encore et inspire les générations futures de jeunes artistes.",
+                                "it": "La sua musica <w>vive</w> ancora e ispira le nuove generazioni di giovani artisti.",
+                                "cs": "Jeho hudba stále <w>žije</w> a inspiruje další generace mladých umělců.",
+                                "tr": "Müziği hala <w>yaşıyor</w> ve genç sanatçıların sonraki nesillerine ilham veriyor.",
+                                "es": "Su música aún <w>vive</w> e inspira a las siguientes generaciones de jóvenes artistas.",
+                                "zh": "他的音乐依然<w>长存</w>，并激励着一代又一代年轻艺术家。"
                             }
                         }
                     ],
@@ -265,13 +784,92 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Сохраняться в памяти, истории или культуре, несмотря на физическую смерть или течение времени."
+                        "ru": "Сохраняться в памяти, истории или культуре, несмотря на физическую смерть или течение времени.",
+                        "en": "To endure in memory, history, or culture despite physical death.",
+                        "nl": "Voortbestaan in het geheugen, de geschiedenis of cultuur ondanks fysieke dood of het verstrijken van de tijd.",
+                        "de": "Trotz physischen Todes oder Zeitablaufs in Erinnerung, Geschichte oder Kultur fortbestehen.",
+                        "fr": "Persister dans la mémoire, l'histoire ou la culture malgré la mort physique ou le passage du temps.",
+                        "it": "Persistere nella memoria, nella storia o nella cultura nonostante la morte fisica o il passare del tempo.",
+                        "cs": "Trvat v paměti, historii nebo kultuře i po fyzické smrti nebo uplynutí času.",
+                        "tr": "Fiziksel ölüme veya zamanın geçişine rağmen hafızada, tarihte veya kültürde varlığını sürdürmek.",
+                        "es": "Permanecer en la memoria, la historia o la cultura a pesar de la muerte física o el paso del tiempo.",
+                        "zh": "在记忆、历史或文化中留存，不随时间消逝。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "сохраняться, существовать (перен.)"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live on",
+                                "target_lang_sense_clarification": "to endure in memory"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "voortleven",
+                                "target_lang_sense_clarification": "in herinnering blijven"
+                            },
+                            {
+                                "target_lang_word": "voortbestaan",
+                                "target_lang_sense_clarification": "blijven bestaan"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "weiterleben",
+                                "target_lang_sense_clarification": "in der Erinnerung fortbestehen"
+                            },
+                            {
+                                "target_lang_word": "fortbestehen",
+                                "target_lang_sense_clarification": "andauern"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre",
+                                "target_lang_sense_clarification": "subsister, perdurer"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vivere",
+                                "target_lang_sense_clarification": "persistere nel ricordo o nella cultura"
+                            },
+                            {
+                                "target_lang_word": "sopravvivere",
+                                "target_lang_sense_clarification": "continuare a esistere nel tempo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít",
+                                "target_lang_sense_clarification": "přetrvávat, existovat v paměti"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yaşamak",
+                                "target_lang_sense_clarification": "varlığını sürdürmek, unutulmamak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir",
+                                "target_lang_sense_clarification": "permanecer en el tiempo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "长存",
+                                "target_lang_sense_clarification": "长久存在"
+                            },
+                            {
+                                "target_lang_word": "活在……中",
+                                "target_lang_sense_clarification": "存在于记忆或心中"
                             }
                         ]
                     }
@@ -285,15 +883,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Po przejściu na emeryturę wreszcie poczuła, że zaczyna naprawdę <żyć>.",
+                            "text": "Po przejściu na emeryturę wreszcie poczuła, że zaczyna naprawdę <w>żyć</w>.",
                             "target_lang_translations": {
-                                "ru": "Выйдя на пенсию, она наконец почувствовала, что начинает по-настоящему <жить>."
+                                "ru": "Выйдя на пенсию, она наконец почувствовала, что начинает по-настоящему <w>жить</w>.",
+                                "en": "After retiring, she finally felt that she was starting to really <w>live</w>.",
+                                "nl": "Na haar pensionering voelde ze eindelijk dat ze echt begon te <w>leven</w>.",
+                                "de": "Nach dem Eintritt in den Ruhestand spürte sie endlich, dass sie anfängt, wirklich zu <w>leben</w>.",
+                                "fr": "Après avoir pris sa retraite, elle a enfin senti qu'elle commençait vraiment à <w>vivre</w>.",
+                                "it": "Dopo essere andata in pensione ha finalmente sentito di iniziare a <w>vivere</w> davvero.",
+                                "cs": "Po odchodu do důchodu konečně pocítila, že začíná skutečně <w>žít</w>.",
+                                "tr": "Emekli olduktan sonra nihayet gerçekten <w>yaşamaya</w> başladığını hissetti.",
+                                "es": "Tras jubilarse, por fin sintió que empezaba a <w>vivir</w> de verdad.",
+                                "zh": "退休后，她终于感到自己开始真正地<w>享受生活</w>了。"
                             }
                         },
                         {
-                            "text": "Chcę podróżować i <żyć> pełnią życia, póki jestem jeszcze młody.",
+                            "text": "Chcę podróżować i <w>żyć</w> pełnią życia, póki jestem jeszcze młody.",
                             "target_lang_translations": {
-                                "ru": "Я хочу путешествовать и <жить> полной жизнью, пока я еще молод."
+                                "ru": "Я хочу путешествовать и <w>жить</w> полной жизнью, пока я еще молод.",
+                                "en": "I want to travel and <w>live</w> life to the fullest while I am still young.",
+                                "nl": "Ik wil reizen en <w>ten volle leven</w> zolang ik nog jong ben.",
+                                "de": "Ich möchte reisen und das Leben in vollen Zügen <w>genießen</w>, solange ich noch jung bin.",
+                                "fr": "Je veux voyager et <w>vivre</w> pleinement ma vie tant que je suis encore jeune.",
+                                "it": "Voglio viaggiare e <w>vivere</w> appieno la vita finché sono ancora giovane.",
+                                "cs": "Chci cestovat a <w>žít</w> naplno, dokud jsem ještě mladý.",
+                                "tr": "Hala gençken seyahat etmek ve hayatı dolu dolu <w>yaşamak</w> istiyorum.",
+                                "es": "Quiero viajar y <w>vivir</w> la vida al máximo mientras aún soy joven.",
+                                "zh": "趁我还年轻，我想去旅行，<w>享受</w>充实的<w>生活</w>。"
                             }
                         }
                     ],
@@ -302,13 +918,88 @@
                         "żyć pełnią życia"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Брать от жизни всё, в полной мере использовать время и возможности."
+                        "ru": "Брать от жизни всё, в полной мере использовать время и возможности.",
+                        "en": "To make the most of life and fully utilize time and opportunities.",
+                        "nl": "Het leven ten volle benutten, optimaal gebruikmaken van tijd en mogelijkheden.",
+                        "de": "Das Leben in vollen Zügen genießen und Möglichkeiten ausschöpfen.",
+                        "fr": "Profiter pleinement de la vie, utiliser au mieux son temps et ses opportunités.",
+                        "it": "Godersi la vita appieno, sfruttare al massimo il tempo e le opportunità.",
+                        "cs": "Užívat si života plnými doušky, plně využívat čas a možnosti.",
+                        "tr": "Hayatın tadını çıkarmak, zamanı ve fırsatları tam anlamıyla değerlendirmek.",
+                        "es": "Aprovechar la vida al máximo, utilizar plenamente el tiempo y las oportunidades.",
+                        "zh": "充分利用时间和机会，享受生活。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "наслаждаться жизнью"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live",
+                                "target_lang_sense_clarification": "to experience a full, rich life"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "ten volle leven",
+                                "target_lang_sense_clarification": "intensief genieten van het leven"
+                            },
+                            {
+                                "target_lang_word": "genieten van het leven",
+                                "target_lang_sense_clarification": "het leven vieren"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "das Leben genießen",
+                                "target_lang_sense_clarification": "sich am Leben erfreuen"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre pleinement",
+                                "target_lang_sense_clarification": "profiter de la vie"
+                            },
+                            {
+                                "target_lang_word": "croquer la vie à pleines dents",
+                                "target_lang_sense_clarification": "expression idiomatique pour profiter de la vie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "godersi la vita",
+                                "target_lang_sense_clarification": "vivere intensamente"
+                            },
+                            {
+                                "target_lang_word": "vivere appieno",
+                                "target_lang_sense_clarification": "sfruttare ogni momento"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít naplno",
+                                "target_lang_sense_clarification": "užívat si života"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hayatını yaşamak",
+                                "target_lang_sense_clarification": "hayatın tadını çıkarmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir la vida",
+                                "target_lang_sense_clarification": "disfrutar plenamente de la existencia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "享受生活",
+                                "target_lang_sense_clarification": "积极地过日子"
                             }
                         ]
                     }
@@ -322,15 +1013,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mój brat to zapalony sportowiec, który dosłownie <żyje> piłką nożną.",
+                            "text": "Mój brat to zapalony sportowiec, który dosłownie <w>żyje</w> piłką nożną.",
                             "target_lang_translations": {
-                                "ru": "Мой брат — заядлый спортсмен, который буквально <живёт> футболом."
+                                "ru": "Мой брат — заядлый спортсмен, который буквально <w>живёт</w> футболом.",
+                                "en": "My brother is an avid athlete who literally <w>lives</w> for soccer.",
+                                "nl": "Mijn broer is een fanatieke sporter die letterlijk <w>leeft voor</w> voetbal.",
+                                "de": "Mein Bruder ist ein begeisterter Sportler, der buchstäblich <w>für</w> den Fußball <w>lebt</w>.",
+                                "fr": "Mon frère est un sportif passionné qui <w>vit</w> littéralement pour le football.",
+                                "it": "Mio fratello è un atleta appassionato che <w>vive</w> letteralmente per il calcio.",
+                                "cs": "Můj bratr je zapálený sportovec, který doslova <w>žije</w> fotbalem.",
+                                "tr": "Erkek kardeşim, kelimenin tam anlamıyla futbolla <w>yaşayan</w> tutkulu bir sporcudur.",
+                                "es": "Mi hermano es un deportista apasionado que literalmente <w>vive</w> por el fútbol.",
+                                "zh": "我弟弟是个狂热的运动员，他简直是<w>沉浸于</w>足球之中。"
                             }
                         },
                         {
-                            "text": "Nie można ciągle <żyć> przeszłością, trzeba patrzeć w przyszłość.",
+                            "text": "Nie można ciągle <w>żyć</w> przeszłością, trzeba patrzeć w przyszłość.",
                             "target_lang_translations": {
-                                "ru": "Нельзя постоянно <жить> прошлым, нужно смотреть в будущее."
+                                "ru": "Нельзя постоянно <w>жить</w> прошлым, нужно смотреть в будущее.",
+                                "en": "You cannot constantly <w>live</w> in the past; you need to look to the future.",
+                                "nl": "Je kunt niet constant in het verleden <w>leven</w>, je moet naar de toekomst kijken.",
+                                "de": "Man kann nicht ständig in der Vergangenheit <w>leben</w>, man muss in die Zukunft blicken.",
+                                "fr": "On ne peut pas toujours <w>vivre</w> dans le passé, il faut regarder vers l'avenir.",
+                                "it": "Non si può <w>vivere</w> costantemente nel passato, bisogna guardare al futuro.",
+                                "cs": "Nelze neustále <w>žít</w> minulostí, je třeba hledět do budoucnosti.",
+                                "tr": "Sürekli geçmişle <w>yaşayamazsınız</w>, geleceğe bakmalısınız.",
+                                "es": "No se puede <w>vivir</w> constantemente del pasado, hay que mirar hacia el futuro.",
+                                "zh": "人不能总是<w>沉浸于</w>过去，必须向前看。"
                             }
                         }
                     ],
@@ -340,13 +1049,92 @@
                         "żyć przeszłością"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Посвящать чему-то всё своё внимание и энергию; быть чем-то полностью поглощённым."
+                        "ru": "Посвящать чему-то всё своё внимание и энергию; быть чем-то полностью поглощённым.",
+                        "en": "To dedicate all attention and energy to something; to be completely absorbed by it.",
+                        "nl": "Iets al je aandacht en energie geven; ergens volledig door in beslag genomen worden.",
+                        "de": "Etwas mit voller Aufmerksamkeit und Energie verfolgen; von etwas völlig eingenommen sein.",
+                        "fr": "Consacrer toute son attention et son énergie à quelque chose ; être totalement absorbé par une passion.",
+                        "it": "Dedicare a qualcosa tutta la propria attenzione ed energia; essere completamente assorbiti da qualcosa.",
+                        "cs": "Věnovat něčemu veškerou pozornost a energii; být něčím zcela pohlcen.",
+                        "tr": "Tüm dikkatini ve enerjisini bir şeye adamak; bir şeyle tamamen meşgul olmak.",
+                        "es": "Dedicar toda la atención y energía a algo; estar completamente absorbido por algo.",
+                        "zh": "将全部注意力和精力投入某事。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жить",
                                 "target_lang_sense_clarification": "быть увлеченным чем-то"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "live for",
+                                "target_lang_sense_clarification": "to be passionate about something"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "leven voor",
+                                "target_lang_sense_clarification": "gepassioneerd zijn door iets"
+                            },
+                            {
+                                "target_lang_word": "geobsedeerd zijn door",
+                                "target_lang_sense_clarification": "volledig in beslag genomen worden"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "für etwas leben",
+                                "target_lang_sense_clarification": "von einer Leidenschaft erfüllt sein"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vivre pour",
+                                "target_lang_sense_clarification": "être passionné par"
+                            },
+                            {
+                                "target_lang_word": "être obsédé par",
+                                "target_lang_sense_clarification": "être totalement absorbé par"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vivere di",
+                                "target_lang_sense_clarification": "essere totalmente dediti a qualcosa"
+                            },
+                            {
+                                "target_lang_word": "essere assorbito da",
+                                "target_lang_sense_clarification": "essere totalmente concentrati su un interesse"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "žít pro něco",
+                                "target_lang_sense_clarification": "být něčím nadšený, věnovat se něčemu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ile yaşamak",
+                                "target_lang_sense_clarification": "bir şeye tutkuyla bağlı olmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vivir de",
+                                "target_lang_sense_clarification": "estar obsesionado o volcado en algo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "沉浸于",
+                                "target_lang_sense_clarification": "全神贯注"
+                            },
+                            {
+                                "target_lang_word": "以……为生",
+                                "target_lang_sense_clarification": "精神寄托"
                             }
                         ]
                     }
@@ -365,15 +1153,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wiele ludzkich <żyć> zostało uratowanych dzięki szybkiej akcji ratunkowej.",
+                            "text": "Wiele ludzkich <w>żyć</w> zostało uratowanych dzięki szybkiej akcji ratunkowej.",
                             "target_lang_translations": {
-                                "ru": "Много человеческих <жизней> было спасено благодаря быстрой спасательной операции."
+                                "ru": "Много человеческих <w>жизней</w> было спасено благодаря быстрой спасательной операции.",
+                                "en": "Many human <w>lives</w> were saved thanks to a quick rescue operation.",
+                                "nl": "Vele <w>mensenlevens</w> werden gered dankzij een snelle reddingsactie.",
+                                "de": "Viele <w>Menschenleben</w> konnten dank einer schnellen Rettungsaktion gerettet werden.",
+                                "fr": "De nombreuses <w>vies</w> humaines ont été sauvées grâce à une opération de sauvetage rapide.",
+                                "it": "Molte <w>vite</w> umane sono state salvate grazie a una rapida operazione di soccorso.",
+                                "cs": "Mnoho lidských <w>životů</w> bylo zachráněno díky rychlé záchranné akci.",
+                                "tr": "Hızlı bir kurtarma operasyonu sayesinde birçok insanın <w>hayatı</w> kurtarıldı.",
+                                "es": "Muchas <w>vidas</w> humanas fueron salvadas gracias a la rápida operación de rescate.",
+                                "zh": "多亏了迅速的救援行动，许多人的<w>生命</w>得以挽救。"
                             }
                         },
                         {
-                            "text": "Nie mamy prawa oceniać cudzych <żyć>, jeśli nie znamy ich historii.",
+                            "text": "Nie mamy prawa oceniać cudzych <w>żyć</w>, jeśli nie znamy ich historii.",
                             "target_lang_translations": {
-                                "ru": "Мы не имеем права судить чужих <жизней>, если не знаем их истории."
+                                "ru": "Мы не имеем права судить чужих <w>жизней</w>, если не знаем их истории.",
+                                "en": "We have no right to judge others' <w>lives</w> if we do not know their history.",
+                                "nl": "We hebben niet het recht om andermans <w>levens</w> te beoordelen als we hun verhaal niet kennen.",
+                                "de": "Wir haben nicht das Recht, über fremde <w>Leben</w> zu urteilen, wenn wir ihre Geschichte nicht kennen.",
+                                "fr": "Nous n'avons pas le droit de juger les <w>vies</w> des autres si nous ne connaissons pas leur histoire.",
+                                "it": "Non abbiamo il diritto di giudicare le <w>vite</w> altrui se non ne conosciamo la storia.",
+                                "cs": "Nemáme právo hodnotit cizí <w>životy</w>, pokud neznáme jejich příběhy.",
+                                "tr": "Hikayelerini bilmiyorsak başkalarının <w>hayatlarını</w> yargılama hakkımız yoktur.",
+                                "es": "No tenemos derecho a juzgar las <w>vidas</w> ajenas si no conocemos su historia.",
+                                "zh": "如果我们不了解他人的经历，就没有权利评价别人的<w>生命</w>。"
                             }
                         }
                     ],
@@ -384,13 +1190,76 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Форма родительного падежа множественного числа существительного «жизнь» (życie)."
+                        "ru": "Форма родительного падежа множественного числа существительного «жизнь» (życie).",
+                        "en": "Genitive plural form of the noun 'life'.",
+                        "nl": "Genitief meervoud van het zelfstandig naamwoord 'leven'.",
+                        "de": "Genitiv Plural des Substantivs „Leben“.",
+                        "fr": "Forme du génitif pluriel du nom « vie » (życie).",
+                        "it": "Forma del genitivo plurale del sostantivo «vita» (życie).",
+                        "cs": "Tvar genitivu množného čísla podstatného jména „život“.",
+                        "tr": "Hayat (życie) isminin çoğul genitif hali.",
+                        "es": "Forma del genitivo plural del sustantivo «vida» (życie).",
+                        "zh": "名词“生命”的复数形式。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "жизней",
                                 "target_lang_sense_clarification": "форма мн. ч. родительного падежа"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "lives",
+                                "target_lang_sense_clarification": "plural of life"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "levens",
+                                "target_lang_sense_clarification": "meervoudsvorm van leven"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Leben",
+                                "target_lang_sense_clarification": "Genitiv Plural"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "vies",
+                                "target_lang_sense_clarification": "pluriel de vie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "vite",
+                                "target_lang_sense_clarification": "plurale di vita"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "životů",
+                                "target_lang_sense_clarification": "tvar 2. pádu množného čísla"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hayatların",
+                                "target_lang_sense_clarification": "hayat isminin çoğul tamlayan hali"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "vidas",
+                                "target_lang_sense_clarification": "forma plural de vida"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "生命",
+                                "target_lang_sense_clarification": "指代多个生命"
                             }
                         ]
                     }

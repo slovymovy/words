@@ -22,15 +22,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jaka jest <cena> tego chleba w piekarni?",
+                            "text": "Jaka jest <w>cena</w> tego chleba w piekarni?",
                             "target_lang_translations": {
-                                "ru": "Какова <цена> этого хлеба в пекарне?"
+                                "ru": "Какова <w>цена</w> этого хлеба в пекарне?",
+                                "en": "What is the <w>price</w> of this bread at the bakery?",
+                                "nl": "Wat is de <w>prijs</w> van dit brood bij de bakker?",
+                                "de": "Wie hoch ist der <w>Preis</w> für dieses Brot in der Bäckerei?",
+                                "fr": "Quel est le <w>prix</w> de ce pain à la boulangerie ?",
+                                "it": "Qual è il <w>prezzo</w> di questo pane in panetteria?",
+                                "cs": "Jaká je <w>cena</w> toho chleba v pekárně?",
+                                "tr": "Fırındaki bu ekmeğin <w>fiyatı</w> nedir?",
+                                "es": "¿Cuál es el <w>precio</w> de este pan en la panadería?",
+                                "zh": "这家面包店的面包<w>价格</w>是多少？"
                             }
                         },
                         {
-                            "text": "W tym roku <ceny> paliwa znacznie wzrosły.",
+                            "text": "W tym roku <w>ceny</w> paliwa znacznie wzrosły.",
                             "target_lang_translations": {
-                                "ru": "В этом году <цены> на топливо значительно выросли."
+                                "ru": "В этом году <w>цены</w> на топливо значительно выросли.",
+                                "en": "Fuel <w>prices</w> have risen significantly this year.",
+                                "nl": "Dit jaar zijn de <w>prijzen</w> van brandstof aanzienlijk gestegen.",
+                                "de": "In diesem Jahr sind die <w>Preise</w> für Kraftstoff deutlich gestiegen.",
+                                "fr": "Cette année, les <w>prix</w> du carburant ont considérablement augmenté.",
+                                "it": "Quest'anno i <w>prezzi</w> del carburante sono aumentati notevolmente.",
+                                "cs": "V letošním roce <w>ceny</w> paliva výrazně vzrostly.",
+                                "tr": "Bu yıl yakıt <w>fiyatları</w> önemli ölçüde arttı.",
+                                "es": "Este año los <w>precios</w> del combustible han subido considerablemente.",
+                                "zh": "今年燃料的<w>价格</w>大幅上涨。"
                             }
                         }
                     ],
@@ -48,7 +66,16 @@
                         "wzrost cen"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Сумма денег, которую необходимо заплатить, чтобы купить данный товар или услугу."
+                        "ru": "Сумма денег, которую необходимо заплатить, чтобы купить данный товар или услугу.",
+                        "en": "The amount of money that must be paid to purchase a specific good or service.",
+                        "nl": "Het bedrag (meestal in geld) dat betaald moet worden om een product of dienst te verkrijgen.",
+                        "de": "Der Geldbetrag, den man für den Erwerb einer Ware oder Dienstleistung bezahlen muss.",
+                        "fr": "Somme d'argent qu'il faut payer pour acheter un bien ou un service.",
+                        "it": "La somma di denaro necessaria per acquistare un bene o un servizio.",
+                        "cs": "Částka peněz, kterou je třeba zaplatit za zboží nebo službu.",
+                        "tr": "Bir mal veya hizmeti satın almak için ödenmesi gereken para miktarı.",
+                        "es": "Cantidad de dinero que se debe pagar para adquirir un bien o servicio.",
+                        "zh": "购买商品或服务时需要支付的金额。"
                     },
                     "translations": {
                         "ru": [
@@ -59,6 +86,88 @@
                             {
                                 "target_lang_word": "стоимость",
                                 "target_lang_sense_clarification": "денежное выражение ценности"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "price",
+                                "target_lang_sense_clarification": "the monetary cost of an item"
+                            },
+                            {
+                                "target_lang_word": "cost",
+                                "target_lang_sense_clarification": "the amount required to acquire something"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "prijs",
+                                "target_lang_sense_clarification": "financiële waarde of kosten van een goed of dienst"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Preis",
+                                "target_lang_sense_clarification": "Geldbetrag für eine Ware oder Dienstleistung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "prix",
+                                "target_lang_sense_clarification": "valeur financière d'un bien ou service"
+                            },
+                            {
+                                "target_lang_word": "coût",
+                                "target_lang_sense_clarification": "montant des dépenses nécessaires"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "prezzo",
+                                "target_lang_sense_clarification": "valore monetario di un bene o servizio"
+                            },
+                            {
+                                "target_lang_word": "costo",
+                                "target_lang_sense_clarification": "spesa necessaria per ottenere qualcosa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "cena",
+                                "target_lang_sense_clarification": "peněžní hodnota zboží nebo služby"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "fiyat",
+                                "target_lang_sense_clarification": "bir mal veya hizmetin para karşılığındaki değeri"
+                            },
+                            {
+                                "target_lang_word": "bedel",
+                                "target_lang_sense_clarification": "bir şeyin karşılığı olan değer veya ücret"
+                            },
+                            {
+                                "target_lang_word": "eder",
+                                "target_lang_sense_clarification": "bir şeyin piyasadaki değeri veya fiyatı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "precio",
+                                "target_lang_sense_clarification": "valor monetario de un producto o servicio"
+                            },
+                            {
+                                "target_lang_word": "coste",
+                                "target_lang_sense_clarification": "gasto o desembolso necesario para obtener algo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "价格",
+                                "target_lang_sense_clarification": "商品或服务的货币价值"
+                            },
+                            {
+                                "target_lang_word": "价钱",
+                                "target_lang_sense_clarification": "口语中指代商品的价格"
                             }
                         ]
                     }
@@ -72,15 +181,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sukces zawodowy ma często wysoką <cenę> w życiu osobistym.",
+                            "text": "Sukces zawodowy ma często wysoką <w>cenę</w> w życiu osobistym.",
                             "target_lang_translations": {
-                                "ru": "Профессиональный успех часто имеет высокую <цену> в личной жизни."
+                                "ru": "Профессиональный успех часто имеет высокую <w>цену</w> в личной жизни.",
+                                "en": "Professional success often comes at a high <w>price</w> in one's personal life.",
+                                "nl": "Professioneel succes heeft vaak een hoge <w>prijs</w> in het persoonlijke leven.",
+                                "de": "Beruflicher Erfolg hat oft einen hohen <w>Preis</w> im Privatleben.",
+                                "fr": "La réussite professionnelle a souvent un <w>prix</w> élevé dans la vie personnelle.",
+                                "it": "Il successo professionale ha spesso un <w>prezzo</w> alto nella vita privata.",
+                                "cs": "Profesní úspěch má často vysokou <w>cenu</w> v osobním životě.",
+                                "tr": "Mesleki başarının özel hayatta genellikle ağır bir <w>bedeli</w> olur.",
+                                "es": "El éxito profesional a menudo tiene un alto <w>precio</w> en la vida personal.",
+                                "zh": "职业上的成功往往要在个人生活中付出高昂的<w>代价</w>。"
                             }
                         },
                         {
-                            "text": "Musimy wygrać ten mecz za wszelką <cenę>.",
+                            "text": "Musimy wygrać ten mecz za wszelką <w>cenę</w>.",
                             "target_lang_translations": {
-                                "ru": "Мы должны выиграть этот матч любой <ценой>."
+                                "ru": "Мы должны выиграть этот матч любой <w>ценой</w>.",
+                                "en": "We must win this match at any <w>price</w>.",
+                                "nl": "We moeten deze wedstrijd tot elke <w>prijs</w> winnen.",
+                                "de": "Wir müssen dieses Spiel um jeden <w>Preis</w> gewinnen.",
+                                "fr": "Nous devons gagner ce match à tout <w>prix</w>.",
+                                "it": "Dobbiamo vincere questa partita a ogni <w>prezzo</w>.",
+                                "cs": "Musíme ten zápas vyhrát za každou <w>cenu</w>.",
+                                "tr": "Bu maçı ne pahasına olursa olsun <w>kazanmalıyız</w>.",
+                                "es": "Debemos ganar este partido a toda <w>costa</w>.",
+                                "zh": "我们必须不惜一切<w>代价</w>赢得这场比赛。"
                             }
                         }
                     ],
@@ -94,13 +221,92 @@
                         "płacić wysoką cenę"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Жертва, усилие или потеря, которые необходимо понести для достижения намеченной цели."
+                        "ru": "Жертва, усилие или потеря, которые необходимо понести для достижения намеченной цели.",
+                        "en": "A sacrifice, effort, or loss that must be endured to achieve a desired goal.",
+                        "nl": "De opoffering, inspanning of het verlies dat nodig is om een bepaald doel te bereiken.",
+                        "de": "Der Aufwand, das Opfer oder der Nachteil, den man in Kauf nehmen muss, um ein bestimmtes Ziel zu erreichen.",
+                        "fr": "Sacrifice, effort ou perte nécessaire pour atteindre un objectif.",
+                        "it": "Il sacrificio, lo sforzo o la perdita necessari per raggiungere un obiettivo.",
+                        "cs": "Oběť, úsilí nebo ztráta, které je nutné podstoupit pro dosažení určitého cíle.",
+                        "tr": "Bir amaca ulaşmak için katlanılması gereken fedakarlık, çaba veya kayıp.",
+                        "es": "Sacrificio, esfuerzo o pérdida que se debe asumir para alcanzar un objetivo.",
+                        "zh": "为达到预期目标所必须付出的代价、努力或牺牲。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "цена",
                                 "target_lang_sense_clarification": "переносное значение: усилие, жертва"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "price",
+                                "target_lang_sense_clarification": "metaphorical cost of an action or achievement"
+                            },
+                            {
+                                "target_lang_word": "cost",
+                                "target_lang_sense_clarification": "the negative consequence of an action"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "prijs",
+                                "target_lang_sense_clarification": "figuurlijke kosten of opoffering"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Preis",
+                                "target_lang_sense_clarification": "figurativ: Opfer oder Aufwand für ein Ziel"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "prix",
+                                "target_lang_sense_clarification": "sens figuré : sacrifice ou effort consenti"
+                            },
+                            {
+                                "target_lang_word": "coût",
+                                "target_lang_sense_clarification": "sens figuré : conséquence négative d'une action"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "prezzo",
+                                "target_lang_sense_clarification": "senso figurato: sacrificio o conseguenza negativa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "cena",
+                                "target_lang_sense_clarification": "přenesený význam: oběť nebo úsilí"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bedel",
+                                "target_lang_sense_clarification": "mecazi anlamda ödenen manevi veya fiziksel karşılık"
+                            },
+                            {
+                                "target_lang_word": "fiyat",
+                                "target_lang_sense_clarification": "mecazi anlamda bir başarının veya kararın sonucu"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "precio",
+                                "target_lang_sense_clarification": "sentido figurado: sacrificio o consecuencia negativa"
+                            },
+                            {
+                                "target_lang_word": "coste",
+                                "target_lang_sense_clarification": "sentido figurado: esfuerzo o pérdida necesaria"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "代价",
+                                "target_lang_sense_clarification": "比喻意义：为获得某事而付出的牺牲"
                             }
                         ]
                     }
@@ -114,15 +320,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Bogaci Rzymianie zapraszali wielu gości na wystawną <cenę>.",
+                            "text": "Bogaci Rzymianie zapraszali wielu gości na wystawną <w>cenę</w>.",
                             "target_lang_translations": {
-                                "ru": "Богатые римляне приглашали много гостей на роскошную <цену>."
+                                "ru": "Богатые римляне приглашали много гостей на роскошную <w>цену</w>.",
+                                "en": "Wealthy Romans invited many guests to a lavish dinner.",
+                                "nl": "Rijke Romeinen nodigden veel gasten uit voor een uitbundige <w>maaltijd</w>.",
+                                "de": "Reiche Römer luden viele Gäste zu einer prunkvollen <w>Cena</w> ein.",
+                                "fr": "Les riches Romains invitaient de nombreux convives à une <w>cena</w> somptueuse.",
+                                "it": "I ricchi romani invitavano molti ospiti a una <w>cena</w> sontuosa.",
+                                "cs": "Bohatí Římané zvali mnoho hostů na okázalou <w>cenu</w>.",
+                                "tr": "Zengin Romalılar birçok misafiri gösterişli bir <w>akşam yemeğine</w> davet ederlerdi.",
+                                "es": "Los romanos ricos invitaban a muchos huéspedes a una <w>cena</w> suntuosa.",
+                                "zh": "富有的罗马人会邀请许多客人参加丰盛的<w>正餐</w>。"
                             }
                         },
                         {
-                            "text": "Podczas <ceny> podawano wino i egzotyczne potrawy.",
+                            "text": "Podczas <w>ceny</w> podawano wino i egzotyczne potrawy.",
                             "target_lang_translations": {
-                                "ru": "Во время <цены> подавали вино и экзотические блюда."
+                                "ru": "Во время <w>цены</w> подавали вино и экзотические блюда.",
+                                "en": "During the dinner, wine and exotic dishes were served.",
+                                "nl": "Tijdens de <w>maaltijd</w> werden wijn en exotische gerechten geserveerd.",
+                                "de": "Während der <w>Cena</w> wurden Wein und exotische Speisen serviert.",
+                                "fr": "Pendant la <w>cena</w>, on servait du vin et des plats exotiques.",
+                                "it": "Durante la <w>cena</w> venivano serviti vino e piatti esotici.",
+                                "cs": "Během <w>ceny</w> se podávalo víno a exotické pokrmy.",
+                                "tr": "<w>Akşam yemeği</w> sırasında şarap ve egzotik yemekler servis edilirdi.",
+                                "es": "Durante la <w>cena</w> se servía vino y platos exóticos.",
+                                "zh": "在<w>正餐</w>期间，人们会享用葡萄酒和异国菜肴。"
                             }
                         }
                     ],
@@ -133,13 +357,71 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Главный прием пищи в Древнем Риме в послеобеденное время."
+                        "ru": "Главный прием пищи в Древнем Риме в послеобеденное время.",
+                        "en": "The main meal eaten in ancient Rome in the afternoon.",
+                        "nl": "De hoofdmaaltijd in het oude Rome, genuttigd in de namiddag.",
+                        "de": "Die Hauptmahlzeit im antiken Rom am Nachmittag.",
+                        "fr": "Repas principal pris dans la Rome antique en fin d'après-midi.",
+                        "it": "Il pasto principale consumato nell'antica Roma durante il pomeriggio.",
+                        "cs": "Hlavní jídlo dne ve starověkém Římě podávané v odpoledních hodinách.",
+                        "tr": "Antik Roma'da öğleden sonra yenen ana öğün.",
+                        "es": "La comida principal que se consumía en la Antigua Roma durante la tarde.",
+                        "zh": "古罗马时期在午后享用的正餐。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "цена",
                                 "target_lang_sense_clarification": "историческое: трапеза в Древнем Риме"
+                            }
+                        ],
+                        "en": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "maaltijd",
+                                "target_lang_sense_clarification": "historische context van een Romeinse maaltijd"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Cena",
+                                "target_lang_sense_clarification": "historisch: Hauptmahlzeit im antiken Rom"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "cena",
+                                "target_lang_sense_clarification": "terme historique pour le repas romain"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "cena",
+                                "target_lang_sense_clarification": "termine storico per il pasto principale romano"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "cena",
+                                "target_lang_sense_clarification": "historický termín pro římskou večeři"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "akşam yemeği",
+                                "target_lang_sense_clarification": "tarihi bağlamda Roma ziyafeti"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "cena",
+                                "target_lang_sense_clarification": "término histórico para la comida principal romana"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "正餐",
+                                "target_lang_sense_clarification": "历史语境下的主要餐食"
                             }
                         ]
                     }
@@ -153,15 +435,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ten stary dzbanek został wykonany z <ceny>.",
+                            "text": "Ten stary dzbanek został wykonany z <w>ceny</w>.",
                             "target_lang_translations": {
-                                "ru": "Этот старый кувшин был сделан из <олова>."
+                                "ru": "Этот старый кувшин был сделан из <w>олова</w>.",
+                                "en": "This old pitcher was made of <w>tin</w>.",
+                                "nl": "Deze oude kan is gemaakt van <w>tin</w>.",
+                                "de": "Dieser alte Krug wurde aus <w>Zinn</w> gefertigt.",
+                                "fr": "Cette vieille cruche a été fabriquée en <w>étain</w>.",
+                                "it": "Questo vecchio bricco è stato realizzato in <w>stagno</w>.",
+                                "cs": "Ten starý džbán byl vyroben z <w>cínu</w>.",
+                                "tr": "Bu eski sürahi <w>kalaydan</w> yapılmıştı.",
+                                "es": "Esta jarra antigua fue fabricada de <w>estaño</w>.",
+                                "zh": "这个旧水罐是用<w>锡</w>做的。"
                             }
                         },
                         {
-                            "text": "Rzemieślnik wytapiał ozdoby z <ceny>.",
+                            "text": "Rzemieślnik wytapiał ozdoby z <w>ceny</w>.",
                             "target_lang_translations": {
-                                "ru": "Ремесленник выплавлял украшения из <олова>."
+                                "ru": "Ремесленник выплавлял украшения из <w>олова</w>.",
+                                "en": "The craftsman cast ornaments from <w>tin</w>.",
+                                "nl": "De ambachtsman goot versieringen van <w>tin</w>.",
+                                "de": "Der Handwerker goss Schmuck aus <w>Zinn</w>.",
+                                "fr": "L'artisan fondait des ornements en <w>étain</w>.",
+                                "it": "L'artigiano fondeva ornamenti di <w>stagno</w>.",
+                                "cs": "Řemeslník odléval ozdoby z <w>cínu</w>.",
+                                "tr": "Zanaatkar <w>kalaydan</w> süs eşyaları döküyordu.",
+                                "es": "El artesano fundía adornos de <w>estaño</w>.",
+                                "zh": "工匠用<w>锡</w>熔铸装饰品。"
                             }
                         }
                     ],
@@ -172,13 +472,76 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Устаревшая или региональная форма слова «олово» (cyna)."
+                        "ru": "Устаревшая или региональная форма слова «олово» (cyna).",
+                        "en": "An archaic or regional form of the word for tin.",
+                        "nl": "Een verouderde of regionale vorm voor het metaal tin.",
+                        "de": "Eine veraltete oder regionale Bezeichnung für das Metall Zinn.",
+                        "fr": "Forme archaïque ou régionale du mot étain.",
+                        "it": "Forma arcaica o regionale per indicare il metallo stagno.",
+                        "cs": "Zastaralý nebo nářeční výraz pro kov cín.",
+                        "tr": "Kalay metali için kullanılan eski veya yöresel bir terim.",
+                        "es": "Forma antigua o regional de la palabra estaño.",
+                        "zh": "指金属锡的旧称或方言变体。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "олово",
                                 "target_lang_sense_clarification": "металл"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "tin",
+                                "target_lang_sense_clarification": "a chemical element, a silvery-white metal"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "tin",
+                                "target_lang_sense_clarification": "chemisch element en metaal"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Zinn",
+                                "target_lang_sense_clarification": "chemisches Element, Metall"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "étain",
+                                "target_lang_sense_clarification": "métal"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "stagno",
+                                "target_lang_sense_clarification": "metallo chimico"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "cín",
+                                "target_lang_sense_clarification": "chemický prvek, kov"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kalay",
+                                "target_lang_sense_clarification": "kimyasal bir element olan metal"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "estaño",
+                                "target_lang_sense_clarification": "metal maleable"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "锡",
+                                "target_lang_sense_clarification": "化学元素金属"
                             }
                         ]
                     }

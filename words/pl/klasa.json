@@ -21,15 +21,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Moja <klasa> jedzie jutro na wycieczkę do Krakowa.",
+                            "text": "Moja <w>klasa</w> jedzie jutro na wycieczkę do Krakowa.",
                             "target_lang_translations": {
-                                "ru": "Мой <класс> едет завтра на экскурсию в Краков."
+                                "ru": "Мой <w>класс</w> едет завтра на экскурсию в Краков.",
+                                "en": "My <w>class</w> is going on a trip to Krakow tomorrow.",
+                                "nl": "Mijn <w>klas</w> gaat morgen op schoolreis naar Krakau.",
+                                "de": "Meine <w>Klasse</w> fährt morgen auf einen Ausflug nach Krakau.",
+                                "fr": "Ma <w>classe</w> part demain en excursion à Cracovie.",
+                                "it": "La mia <w>classe</w> va domani in gita a Cracovia.",
+                                "cs": "Naše <w>třída</w> jede zítra na výlet do Krakova.",
+                                "tr": "<w>Sınıfım</w> yarın Krakow'a geziye gidiyor.",
+                                "es": "Mi <w>clase</w> va mañana de excursión a Cracovia.",
+                                "zh": "我们<w>班</w>明天要去克拉科夫旅行。"
                             }
                         },
                         {
-                            "text": "W naszej <klasie> jest dwadzieścia osób, w tym dwunastu chłopców.",
+                            "text": "W naszej <w>klasie</w> jest dwadzieścia osób, w tym dwunastu chłopców.",
                             "target_lang_translations": {
-                                "ru": "В нашем <классе> двадцать человек, в том числе двенадцать мальчиков."
+                                "ru": "В нашем <w>классе</w> двадцать человек, в том числе двенадцать мальчиков.",
+                                "en": "There are twenty people in our <w>class</w>, including twelve boys.",
+                                "nl": "In onze <w>klas</w> zitten twintig personen, waaronder twaalf jongens.",
+                                "de": "In unserer <w>Klasse</w> sind zwanzig Personen, darunter zwölf Jungen.",
+                                "fr": "Dans notre <w>classe</w>, il y a vingt personnes, dont douze garçons.",
+                                "it": "Nella nostra <w>classe</w> ci sono venti persone, inclusi dodici ragazzi.",
+                                "cs": "V naší <w>třídě</w> je dvacet lidí, včetně dvanácti chlapců.",
+                                "tr": "<w>Sınıfımızda</w> on ikisi erkek olmak üzere yirmi kişi var.",
+                                "es": "En nuestra <w>clase</w> hay veinte personas, entre ellas doce chicos.",
+                                "zh": "我们<w>班</w>有二十个人，其中十二个是男生。"
                             }
                         }
                     ],
@@ -44,13 +62,80 @@
                         "wychowawca klasy"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Группа учеников, которые учатся вместе в школе и посещают общие уроки."
+                        "ru": "Группа учеников, которые учатся вместе в школе и посещают общие уроки.",
+                        "en": "A group of students in a regularly scheduled meeting with a teacher.",
+                        "nl": "Een groep leerlingen die samen les krijgen op school.",
+                        "de": "Eine Gruppe von Schülern, die gemeinsam unterrichtet werden.",
+                        "fr": "Groupe d'élèves qui étudient ensemble dans une école et suivent les mêmes cours.",
+                        "it": "Gruppo di studenti che studiano insieme a scuola e seguono le stesse lezioni.",
+                        "cs": "Skupina žáků nebo studentů, kteří se učí společně ve škole.",
+                        "tr": "Birlikte eğitim gören ve ortak derslere giren öğrenci grubu.",
+                        "es": "Grupo de alumnos que estudian juntos en la escuela y tienen las mismas clases.",
+                        "zh": "在学校里一起学习、一起上课的一组学生。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "класс",
                                 "target_lang_sense_clarification": "группа учеников"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "a group of students"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klas",
+                                "target_lang_sense_clarification": "groep leerlingen"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "Gruppe von Schülern"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "groupe d'élèves"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "gruppo di alunni"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "skupina žáků"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "öğrenci grubu"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "clase",
+                                "target_lang_sense_clarification": "grupo de alumnos que estudian juntos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "班",
+                                "target_lang_sense_clarification": "学校里一起上课的一班学生"
+                            },
+                            {
+                                "target_lang_word": "班级",
+                                "target_lang_sense_clarification": "学校中的班级"
                             }
                         ]
                     }
@@ -64,15 +149,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nauczyciel poprosił uczniów, aby weszli do <klasy> i zajęli miejsca.",
+                            "text": "Nauczyciel poprosił uczniów, aby weszli do <w>klasy</w> i zajęli miejsca.",
                             "target_lang_translations": {
-                                "ru": "Учитель попросил учеников войти в <класс> и занять места."
+                                "ru": "Учитель попросил учеников войти в <w>класс</w> и занять места.",
+                                "en": "The teacher asked the students to enter the <w>classroom</w> and take their seats.",
+                                "nl": "De leraar vroeg de leerlingen om het <w>klaslokaal</w> binnen te gaan en hun plaatsen in te nemen.",
+                                "de": "Der Lehrer bat die Schüler, in die <w>Klasse</w> zu gehen und ihre Plätze einzunehmen.",
+                                "fr": "Le professeur a demandé aux élèves d'entrer en <w>classe</w> et de prendre place.",
+                                "it": "L'insegnante ha chiesto agli studenti di entrare in <w>aula</w> e prendere posto.",
+                                "cs": "Učitel požádal žáky, aby vešli do <w>třídy</w> a zaujali svá místa.",
+                                "tr": "Öğretmen öğrencilerden <w>sınıfa</w> girip yerlerine oturmalarını istedi.",
+                                "es": "El profesor pidió a los alumnos que entraran en el <w>aula</w> y tomaran asiento.",
+                                "zh": "老师让学生们走进<w>教室</w>并坐到自己的座位上。"
                             }
                         },
                         {
-                            "text": "W tej <klasie> mamy nową tablicę interaktywną i wygodne krzesła.",
+                            "text": "W tej <w>klasie</w> mamy nową tablicę interaktywną i wygodne krzesła.",
                             "target_lang_translations": {
-                                "ru": "В этом <классе> у нас новая интерактивная доска и удобные стулья."
+                                "ru": "В этом <w>классе</w> у нас новая интерактивная доска и удобные стулья.",
+                                "en": "In this <w>classroom</w> we have a new interactive whiteboard and comfortable chairs.",
+                                "nl": "In dit <w>klaslokaal</w> hebben we een nieuw digibord en comfortabele stoelen.",
+                                "de": "In dieser <w>Klasse</w> haben wir ein neues interaktives Whiteboard und bequeme Stühle.",
+                                "fr": "Dans cette <w>classe</w>, nous avons un nouveau tableau interactif et des chaises confortables.",
+                                "it": "In questa <w>aula</w> abbiamo una nuova lavagna interattiva e sedie comode.",
+                                "cs": "V této <w>třídě</w> máme novou interaktivní tabuli a pohodlné židle.",
+                                "tr": "Bu <w>sınıfta</w> yeni bir akıllı tahtamız ve rahat sandalyelerimiz var.",
+                                "es": "En esta <w>aula</w> tenemos una nueva pizarra interactiva y sillas cómodas.",
+                                "zh": "这个<w>教室</w>里有一块新的互动白板和舒适的椅子。"
                             }
                         }
                     ],
@@ -87,7 +190,16 @@
                         "wyjść z klasy"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Помещение в школе, в котором проходят уроки."
+                        "ru": "Помещение в школе, в котором проходят уроки.",
+                        "en": "A room, often in a school, where classes take place.",
+                        "nl": "Een ruimte in een schoolgebouw waar lessen worden gegeven.",
+                        "de": "Ein Raum in der Schule, in dem Unterricht stattfindet.",
+                        "fr": "Salle dans une école où se déroulent les cours.",
+                        "it": "Aula scolastica in cui si svolgono le lezioni.",
+                        "cs": "Místnost ve škole, ve které probíhá výuka.",
+                        "tr": "Okulda derslerin işlendiği oda.",
+                        "es": "Sala de la escuela en la que se imparten las clases.",
+                        "zh": "学校里上课的房间。"
                     },
                     "translations": {
                         "ru": [
@@ -98,6 +210,92 @@
                             {
                                 "target_lang_word": "кабинет",
                                 "target_lang_sense_clarification": "школьное помещение"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "classroom",
+                                "target_lang_sense_clarification": "a school room"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klas",
+                                "target_lang_sense_clarification": "klaslokaal"
+                            },
+                            {
+                                "target_lang_word": "klaslokaal",
+                                "target_lang_sense_clarification": "specifieke ruimte voor onderwijs"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "kurz für Klassenzimmer"
+                            },
+                            {
+                                "target_lang_word": "Klassenzimmer",
+                                "target_lang_sense_clarification": "Raum für Unterricht"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "salle de cours"
+                            },
+                            {
+                                "target_lang_word": "salle de classe",
+                                "target_lang_sense_clarification": "local scolaire"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "aula",
+                                "target_lang_sense_clarification": "spazio fisico per le lezioni"
+                            },
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "riferito all'aula scolastica"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "učebna"
+                            },
+                            {
+                                "target_lang_word": "učebna",
+                                "target_lang_sense_clarification": "místnost pro výuku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "derslik"
+                            },
+                            {
+                                "target_lang_word": "derslik",
+                                "target_lang_sense_clarification": "okul odası"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "aula",
+                                "target_lang_sense_clarification": "sala de la escuela donde se dan las clases"
+                            },
+                            {
+                                "target_lang_word": "salón de clase",
+                                "target_lang_sense_clarification": "denominación de la sala de clase en muchos países"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "教室",
+                                "target_lang_sense_clarification": "学校上课用的房间"
+                            },
+                            {
+                                "target_lang_word": "课堂",
+                                "target_lang_sense_clarification": "上课的场所，偏重教学空间"
                             }
                         ]
                     }
@@ -111,32 +309,124 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mój młodszy brat chodzi teraz do trzeciej <klasy> szkoły podstawowej.",
+                            "text": "Mój młodszy brat chodzi teraz do trzeciej <w>klasy</w> szkoły podstawowej.",
                             "target_lang_translations": {
-                                "ru": "Мой младший брат ходит сейчас в третий <класс> начальной школы."
+                                "ru": "Мой младший брат ходит сейчас в третий <w>класс</w> начальной школы.",
+                                "en": "My younger brother is now in the third <w>grade</w> of primary school.",
+                                "nl": "Mijn jongere broertje zit nu in de derde <w>klas</w> van de basisschool.",
+                                "de": "Mein jüngerer Bruder geht jetzt in die dritte <w>Klasse</w> der Grundschule.",
+                                "fr": "Mon petit frère est maintenant en troisième <w>classe</w> de l'école primaire.",
+                                "it": "Mio fratello minore frequenta ora la terza <w>classe</w> della scuola primaria.",
+                                "cs": "Můj mladší bratr chodí teď do třetí <w>třídy</w> základní školy.",
+                                "tr": "Küçük kardeşim şimdi ilkokul üçüncü <w>sınıfa</w> gidiyor.",
+                                "es": "Mi hermano pequeño va ahora a <w>tercer curso</w> de primaria.",
+                                "zh": "我弟弟现在上小学三<w>年级</w>。"
                             }
                         },
                         {
-                            "text": "Jeśli nie poprawisz ocen, będziesz musiał powtarzać <klasę>.",
+                            "text": "Jeśli nie poprawisz ocen, będziesz musiał powtarzać <w>klasę</w>.",
                             "target_lang_translations": {
-                                "ru": "Если не исправишь оценки, тебе придется повторить <класс>."
+                                "ru": "Если не исправишь оценки, тебе придется повторить <w>класс</w>.",
+                                "en": "If you don't improve your grades, you will have to repeat the <w>grade</w>.",
+                                "nl": "Als je je cijfers niet verbetert, zul je de <w>klas</w> moeten overdoen.",
+                                "de": "Wenn du deine Noten nicht verbesserst, wirst du die <w>Klasse</w> wiederholen müssen.",
+                                "fr": "Si tu n'améliores pas tes notes, tu devras redoubler ta <w>classe</w>.",
+                                "it": "Se non migliorerai i voti, dovrai ripetere l'<w>anno</w>.",
+                                "cs": "Pokud si neopravíš známky, budeš muset opakovat <w>třídu</w>.",
+                                "tr": "Notlarını düzeltmezsen <w>sınıfı</w> tekrar etmek zorunda kalacaksın.",
+                                "es": "Si no mejoras tus notas, tendrás que repetir <w>curso</w>.",
+                                "zh": "如果你不提高成绩，就得留级。"
                             }
                         }
                     ],
-                    "synonyms": [],
                     "common_phrases": [
                         "pierwsza klasa",
                         "zdać do klasy",
                         "powtarzać klasę"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Уровень обучения в школе, соответствующий одному году учебы."
+                        "ru": "Уровень обучения в школе, соответствующий одному году учебы.",
+                        "en": "A group of students who commenced or completed their education during a particular year.",
+                        "nl": "Het niveau of jaar van onderwijs op school.",
+                        "de": "Ein Jahrgangsstufe in der Schule.",
+                        "fr": "Niveau d'enseignement correspondant à une année scolaire.",
+                        "it": "Livello di istruzione scolastica corrispondente a un anno di studio.",
+                        "cs": "Úroveň školní docházky odpovídající jednomu roku studia.",
+                        "tr": "Okulda bir yıllık eğitime karşılık gelen öğretim düzeyi.",
+                        "es": "Nivel de enseñanza en la escuela que corresponde a un año de estudios.",
+                        "zh": "学校里的学习阶段，相当于一个学年的级别。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "класс",
                                 "target_lang_sense_clarification": "год обучения"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "grade",
+                                "target_lang_sense_clarification": "a year of study"
+                            },
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "a year of study"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klas",
+                                "target_lang_sense_clarification": "leerjaar"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "Jahrgangsstufe"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "année scolaire"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "anno di corso"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "ročník"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "eğitim yılı seviyesi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "curso",
+                                "target_lang_sense_clarification": "año o nivel escolar"
+                            },
+                            {
+                                "target_lang_word": "grado",
+                                "target_lang_sense_clarification": "nivel escolar, especialmente en algunos países"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "年级",
+                                "target_lang_sense_clarification": "学校中按学习年限划分的等级"
+                            },
+                            {
+                                "target_lang_word": "级",
+                                "target_lang_sense_clarification": "用于表示第几级学习阶段"
                             }
                         ]
                     }
@@ -150,15 +440,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zazwyczaj podróżuję drugą <klasą>, ponieważ bilety są znacznie tańsze.",
+                            "text": "Zazwyczaj podróżuję drugą <w>klasą</w>, ponieważ bilety są znacznie tańsze.",
                             "target_lang_translations": {
-                                "ru": "Я обычно путешествую вторым <классом>, так как билеты значительно дешевле."
+                                "ru": "Я обычно путешествую вторым <w>классом</w>, так как билеты значительно дешевле.",
+                                "en": "I usually travel second <w>class</w> because the tickets are much cheaper.",
+                                "nl": "Ik reis meestal tweede <w>klasse</w>, omdat de tickets veel goedkoper zijn.",
+                                "de": "Normalerweise reise ich zweiter <w>Klasse</w>, da die Tickets deutlich günstiger sind.",
+                                "fr": "Je voyage généralement en seconde <w>classe</w>, car les billets sont beaucoup moins chers.",
+                                "it": "Di solito viaggio in seconda <w>classe</w>, perché i biglietti sono molto più economici.",
+                                "cs": "Obvykle cestuji druhou <w>třídou</w>, protože jízdenky jsou mnohem levnější.",
+                                "tr": "Genellikle ikinci <w>sınıfta</w> seyahat ederim çünkü biletler çok daha ucuz.",
+                                "es": "Normalmente viajo en <w>segunda clase</w>, porque los billetes son mucho más baratos.",
+                                "zh": "我通常坐<w>二等座</w>出行，因为票便宜得多。"
                             }
                         },
                         {
-                            "text": "W pierwszej <klasie> pasażerowie mają więcej miejsca na nogi i darmowy posiłek.",
+                            "text": "W pierwszej <w>klasie</w> pasażerowie mają więcej miejsca na nogi i darmowy posiłek.",
                             "target_lang_translations": {
-                                "ru": "В первом <классе> у пассажиров больше места для ног и бесплатная еда."
+                                "ru": "В первом <w>классе</w> у пассажиров больше места для ног и бесплатная еда.",
+                                "en": "In first <w>class</w>, passengers have more legroom and a free meal.",
+                                "nl": "In de eerste <w>klasse</w> hebben passagiers meer beenruimte en een gratis maaltijd.",
+                                "de": "In der ersten <w>Klasse</w> haben Passagiere mehr Beinfreiheit und eine kostenlose Mahlzeit.",
+                                "fr": "En première <w>classe</w>, les passagers ont plus d'espace pour les jambes et un repas gratuit.",
+                                "it": "In prima <w>classe</w> i passeggeri hanno più spazio per le gambe e un pasto gratuito.",
+                                "cs": "V první <w>třídě</w> mají cestující více místa na nohy a jídlo zdarma.",
+                                "tr": "Birinci <w>sınıfta</w> yolcuların bacak mesafesi daha fazla ve yemek ücretsiz.",
+                                "es": "En <w>primera clase</w>, los pasajeros tienen más espacio para las piernas y una comida gratis.",
+                                "zh": "在<w>头等舱</w>，乘客有更大的腿部空间，还有免费餐食。"
                             }
                         }
                     ],
@@ -171,13 +479,80 @@
                         "wagon pierwszej klasy"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Категория мест в транспорте (например, в поезде, самолете), различающаяся уровнем комфорта и ценой."
+                        "ru": "Категория мест в транспорте (например, в поезде, самолете), различающаяся уровнем комфорта и ценой.",
+                        "en": "A category of seats in an airplane, train or other means of mass transportation.",
+                        "nl": "Een categorie in het openbaar vervoer die verschilt in comfort en prijs.",
+                        "de": "Eine Qualitätsstufe im Angebot für Reisende (z. B. Bahn, Flugzeug).",
+                        "fr": "Catégorie de confort dans les transports (train, avion) déterminant le prix et les services.",
+                        "it": "Categoria di posti nei mezzi di trasporto (es. treno, aereo) che differisce per comfort e prezzo.",
+                        "cs": "Kategorie služeb v dopravě (např. ve vlaku či letadle) lišící se komfortem a cenou.",
+                        "tr": "Ulaşım araçlarında (tren, uçak vb.) konfor ve fiyata göre ayrılan kategori.",
+                        "es": "Categoría de plazas en medios de transporte, como trenes o aviones, que se diferencia por el nivel de comodidad y el precio.",
+                        "zh": "交通工具中按照舒适程度和价格区分的座位或舱位类别。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "класс",
                                 "target_lang_sense_clarification": "категория комфорта"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "category of travel comfort"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klasse",
+                                "target_lang_sense_clarification": "categorie in vervoer"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "Reisekomfort"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "catégorie de confort"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "categoria di viaggio"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "úroveň komfortu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "konfor kategorisi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "clase",
+                                "target_lang_sense_clarification": "categoría de asiento o de servicio en el transporte"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "舱位等级",
+                                "target_lang_sense_clarification": "交通工具中按舒适度和价格划分的等级"
+                            },
+                            {
+                                "target_lang_word": "等级",
+                                "target_lang_sense_clarification": "座位或舱位的类别"
                             }
                         ]
                     }
@@ -191,15 +566,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mimo przegranej, zawodnik zachował <klasę> i pogratulował swojemu rywalowi.",
+                            "text": "Mimo przegranej, zawodnik zachował <w>klasę</w> i pogratulował swojemu rywalowi.",
                             "target_lang_translations": {
-                                "ru": "Несмотря на проигрыш, спортсмен показал <класс> и поздравил своего соперника."
+                                "ru": "Несмотря на проигрыш, спортсмен показал <w>класс</w> и поздравил своего соперника.",
+                                "en": "Despite the loss, the athlete showed <w>class</w> and congratulated his rival.",
+                                "nl": "Ondanks het verlies toonde de sporter <w>klasse</w> en feliciteerde hij zijn tegenstander.",
+                                "de": "Trotz der Niederlage bewies der Sportler <w>Klasse</w> und gratulierte seinem Rivalen.",
+                                "fr": "Malgré sa défaite, le joueur a gardé la <w>classe</w> et a félicité son rival.",
+                                "it": "Nonostante la sconfitta, l'atleta ha mantenuto la <w>classe</w> e si è congratulato con il suo rivale.",
+                                "cs": "I přes prohru si závodník zachoval <w>úroveň</w> a pogratuloval svému soupeři.",
+                                "tr": "Mağlubiyete rağmen sporcu <w>sınıfını</w> (asaletini) korudu ve rakibini tebrik etti.",
+                                "es": "A pesar de la derrota, el deportista mantuvo la <w>clase</w> y felicitó a su rival.",
+                                "zh": "尽管输了，这位运动员还是保持了<w>风度</w>，并向对手表示祝贺。"
                             }
                         },
                         {
-                            "text": "To jest samochód najwyższej <klasy>, który kosztuje fortunę.",
+                            "text": "To jest samochód najwyższej <w>klasy</w>, który kosztuje fortunę.",
                             "target_lang_translations": {
-                                "ru": "Это автомобиль высшего <класса>, который стоит целое состояние."
+                                "ru": "Это автомобиль высшего <w>класса</w>, который стоит целое состояние.",
+                                "en": "This is a top-<w>class</w> car that costs a fortune.",
+                                "nl": "Dit is een auto van de hoogste <w>klasse</w> die een fortuin kost.",
+                                "de": "Das ist ein Auto der <w>Spitzenklasse</w>, das ein Vermögen kostet.",
+                                "fr": "C'est une voiture de la plus haute <w>classe</w>, qui coûte une fortune.",
+                                "it": "Questa è un'auto di altissima <w>classe</w>, che costa una fortuna.",
+                                "cs": "Toto je auto nejvyšší <w>třídy</w>, které stojí jmění.",
+                                "tr": "Bu, bir servet değerinde olan en üst <w>sınıf</w> bir araba.",
+                                "es": "Es un coche de <w>alta gama</w> que cuesta una fortuna.",
+                                "zh": "这是一辆最高<w>档次</w>的汽车，价值不菲。"
                             }
                         }
                     ],
@@ -216,7 +609,16 @@
                         "światowa klasa"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Высокий уровень личной культуры, элегантность или высокое качество чего-либо."
+                        "ru": "Высокий уровень личной культуры, элегантность или высокое качество чего-либо.",
+                        "en": "Admirable behavior; elegance or high quality.",
+                        "nl": "Een hoge mate van elegantie, kwaliteit of persoonlijke stijl.",
+                        "de": "Ein hoher Grad an persönlicher Kultur, Eleganz oder Qualität.",
+                        "fr": "Haut niveau de distinction, élégance ou qualité supérieure.",
+                        "it": "Alto livello di cultura personale, eleganza o alta qualità di qualcosa.",
+                        "cs": "Vysoká úroveň společenského vystupování, elegance nebo kvality.",
+                        "tr": "Yüksek kişisel kültür, zarafet veya bir şeyin yüksek kalitesi.",
+                        "es": "Alto nivel de cultura personal, elegancia o gran calidad en la manera de comportarse o en la calidad de algo.",
+                        "zh": "指人的修养、举止优雅，也可指事物的品质或水平很高。"
                     },
                     "translations": {
                         "ru": [
@@ -227,6 +629,92 @@
                             {
                                 "target_lang_word": "уровень",
                                 "target_lang_sense_clarification": "качество"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "elegance or high quality"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klasse",
+                                "target_lang_sense_clarification": "kwaliteit of stijl"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "Qualität oder Stil"
+                            },
+                            {
+                                "target_lang_word": "Niveau",
+                                "target_lang_sense_clarification": "hoher Standard"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "élégance, distinction"
+                            },
+                            {
+                                "target_lang_word": "qualité",
+                                "target_lang_sense_clarification": "niveau supérieur"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "eleganza, stile"
+                            },
+                            {
+                                "target_lang_word": "qualità",
+                                "target_lang_sense_clarification": "livello superiore"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "úroveň",
+                                "target_lang_sense_clarification": "kvalita"
+                            },
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "vysoká kvalita nebo styl"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kalite",
+                                "target_lang_sense_clarification": "yüksek nitelik"
+                            },
+                            {
+                                "target_lang_word": "seviye",
+                                "target_lang_sense_clarification": "yüksek düzey"
+                            },
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "zarafet veya üstünlük"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "clase",
+                                "target_lang_sense_clarification": "elegancia, distinción o buenos modales"
+                            },
+                            {
+                                "target_lang_word": "categoría",
+                                "target_lang_sense_clarification": "nivel alto o calidad superior"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "风度",
+                                "target_lang_sense_clarification": "人的举止优雅、有分寸"
+                            },
+                            {
+                                "target_lang_word": "档次",
+                                "target_lang_sense_clarification": "事物的高端程度或品质水平"
                             }
                         ]
                     }
@@ -242,13 +730,31 @@
                         {
                             "text": "<w>Klasa</w> średnia jest często uważana za fundament stabilnej gospodarki.",
                             "target_lang_translations": {
-                                "ru": "Средний <класс> часто считается фундаментом стабильной экономики."
+                                "ru": "Средний <w>класс</w> часто считается фундаментом стабильной экономики.",
+                                "en": "The middle <w>class</w> is often considered the foundation of a stable economy.",
+                                "nl": "De <w>middenklasse</w> wordt vaak beschouwd als het fundament van een stabiele economie.",
+                                "de": "Die <w>Mittelklasse</w> wird oft als Fundament einer stabilen Wirtschaft angesehen.",
+                                "fr": "La <w>classe</w> moyenne est souvent considérée comme le fondement d'une économie stable.",
+                                "it": "La <w>classe</w> media è spesso considerata il fondamento di un'economia stabile.",
+                                "cs": "Střední <w>třída</w> je často považována za základ stabilní ekonomiky.",
+                                "tr": "Orta <w>sınıf</w> genellikle istikrarlı bir ekonominin temeli olarak kabul edilir.",
+                                "es": "La <w>clase</w> media suele considerarse la base de una economía estable.",
+                                "zh": "中产<w>阶级</w>常被认为是稳定经济的基础。"
                             }
                         },
                         {
-                            "text": "Historycy badają konflikty między różnymi <klasami> społecznymi w XIX wieku.",
+                            "text": "Historycy badają konflikty między różnymi <w>klasami</w> społecznymi w XIX wieku.",
                             "target_lang_translations": {
-                                "ru": "Историки изучают конфликты между различными социальными <классами> в XIX веке."
+                                "ru": "Историки изучают конфликты между различными социальными <w>классами</w> в XIX веке.",
+                                "en": "Historians study the conflicts between different social <w>classes</w> in the 19th century.",
+                                "nl": "Historici onderzoeken de conflicten tussen verschillende sociale <w>klassen</w> in de negentiende eeuw.",
+                                "de": "Historiker untersuchen die Konflikte zwischen verschiedenen sozialen <w>Klassen</w> im 19. Jahrhundert.",
+                                "fr": "Les historiens étudient les conflits entre les différentes <w>classes</w> sociales au XIXe siècle.",
+                                "it": "Gli storici studiano i conflitti tra le diverse <w>classi</w> sociali nel XIX secolo.",
+                                "cs": "Historici zkoumají konflikty mezi různými společenskými <w>třídami</w> v 19. století.",
+                                "tr": "Tarihçiler 19. yüzyıldaki farklı sosyal <w>sınıflar</w> arasındaki çatışmaları inceliyorlar.",
+                                "es": "Los historiadores estudian los conflictos entre distintas <w>clases sociales</w> en el siglo XIX.",
+                                "zh": "历史学家研究十九世纪不同社会<w>阶级</w>之间的冲突。"
                             }
                         }
                     ],
@@ -263,7 +769,16 @@
                         "walka klas"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Большая социальная группа, выделяемая по имущественному статусу или положению в иерархии."
+                        "ru": "Большая социальная группа, выделяемая по имущественному статусу или положению в иерархии.",
+                        "en": "A social grouping, based on job, wealth, etc.",
+                        "nl": "Een grote sociale groep die wordt ingedeeld op basis van rijkdom of status.",
+                        "de": "Eine große soziale Gruppe, die nach Vermögen oder Status unterschieden wird.",
+                        "fr": "Grand groupe social défini par son statut économique ou sa position hiérarchique.",
+                        "it": "Grande gruppo sociale distinto in base allo status economico o alla posizione nella gerarchia.",
+                        "cs": "Velká společenská skupina vymezená majetkovým statusem nebo postavením v hierarchii.",
+                        "tr": "Maddi durum veya hiyerarşideki konuma göre ayrılan büyük sosyal grup.",
+                        "es": "Gran grupo social distinguido por su nivel económico o su posición en la jerarquía social.",
+                        "zh": "按照财富状况或社会地位划分出来的大型社会群体。"
                     },
                     "translations": {
                         "ru": [
@@ -274,6 +789,88 @@
                             {
                                 "target_lang_word": "слой",
                                 "target_lang_sense_clarification": "социальный"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "social group"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klasse",
+                                "target_lang_sense_clarification": "sociale laag"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "soziale Schicht"
+                            },
+                            {
+                                "target_lang_word": "Schicht",
+                                "target_lang_sense_clarification": "gesellschaftliche Ebene"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe sociale",
+                                "target_lang_sense_clarification": "groupe social"
+                            },
+                            {
+                                "target_lang_word": "couche sociale",
+                                "target_lang_sense_clarification": "strate de la société"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "gruppo sociale"
+                            },
+                            {
+                                "target_lang_word": "ceto",
+                                "target_lang_sense_clarification": "strato sociale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "společenská vrstva"
+                            },
+                            {
+                                "target_lang_word": "vrstva",
+                                "target_lang_sense_clarification": "společenská skupina"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "sosyal grup"
+                            },
+                            {
+                                "target_lang_word": "tabaka",
+                                "target_lang_sense_clarification": "sosyal katman"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "clase",
+                                "target_lang_sense_clarification": "grupo social definido por la posición económica o social"
+                            },
+                            {
+                                "target_lang_word": "estrato social",
+                                "target_lang_sense_clarification": "capa o grupo dentro de la estructura social"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "阶级",
+                                "target_lang_sense_clarification": "按财富或社会地位划分的大群体"
+                            },
+                            {
+                                "target_lang_word": "社会阶层",
+                                "target_lang_sense_clarification": "社会中的层次群体"
                             }
                         ]
                     }
@@ -287,15 +884,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dziewczynki wzięły kredę i narysowały na chodniku pola, żeby grać w <klasy>.",
+                            "text": "Dziewczynki wzięły kredę i narysowały na chodniku pola, żeby grać w <w>klasy</w>.",
                             "target_lang_translations": {
-                                "ru": "Девочки взяли мел и нарисовали на тротуаре клетки, чтобы играть в <классики>."
+                                "ru": "Девочки взяли мел и нарисовали на тротуаре клетки, чтобы играть в <w>классики</w>.",
+                                "en": "The girls took chalk and drew squares on the sidewalk to play <w>hopscotch</w>.",
+                                "nl": "De meisjes pakten krijt en tekenden vakken op de stoep om te <w>hinkelen</w>.",
+                                "de": "Die Mädchen nahmen Kreide und zeichneten Felder auf den Gehweg, um <w>Himmel und Hölle</w> zu spielen.",
+                                "fr": "Les filles ont pris de la craie et ont dessiné des cases sur le trottoir pour jouer à la <w>marelle</w>.",
+                                "it": "Le bambine hanno preso il gesso e hanno disegnato dei riquadri sul marciapiede per giocare a <w>campana</w>.",
+                                "cs": "Holčičky vzaly křídu a nakreslily na chodník políčka, aby si mohly hrát <w>panáka</w>.",
+                                "tr": "Kızlar tebeşir alıp <w>seksek</w> oynamak için kaldırıma kareler çizdiler.",
+                                "es": "Las niñas cogieron una tiza y dibujaron casillas en la acera para jugar a la <w>rayuela</w>.",
+                                "zh": "女孩子们拿来粉笔，在人行道上画好格子玩<w>跳房子</w>。"
                             }
                         },
                         {
-                            "text": "Skakanie w <klasy> było moją ulubioną zabawą na szkolnych przerwach.",
+                            "text": "Skakanie w <w>klasy</w> było moją ulubioną zabawą na szkolnych przerwach.",
                             "target_lang_translations": {
-                                "ru": "Игра в <классики> была моим любимым развлечением на школьных переменах."
+                                "ru": "Игра в <w>классики</w> была моим любимым развлечением на школьных переменах.",
+                                "en": "Playing <w>hopscotch</w> was my favorite activity during school breaks.",
+                                "nl": "<w>Hinkelen</w> was mijn favoriete spelletje tijdens de schoolpauzes.",
+                                "de": "<w>Hüpfekästchen</w> zu spielen war mein liebstes Spiel in den Schulpausen.",
+                                "fr": "Jouer à la <w>marelle</w> était mon jeu préféré pendant les récréations.",
+                                "it": "Giocare a <w>campana</w> era il mio passatempo preferito durante le ricreazioni scolastiche.",
+                                "cs": "Skákání <w>panáka</w> byla moje oblíbená hra o školních přestávkách.",
+                                "tr": "<w>Seksek</w> oynamak okul teneffüslerinde en sevdiğim eğlenceydi.",
+                                "es": "Jugar a la <w>rayuela</w> era mi juego favorito durante los recreos escolares.",
+                                "zh": "课间玩<w>跳房子</w>是我最喜欢的游戏。"
                             }
                         }
                     ],
@@ -310,13 +925,84 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Детская дворовая игра, состоящая в прыгании на одной ноге по начерченным на земле клеткам."
+                        "ru": "Детская дворовая игра, состоящая в прыгании на одной ноге по начерченным на земле клеткам.",
+                        "en": "A children's playground game involving jumping on one leg through squares drawn on the ground.",
+                        "nl": "Een kinderspel waarbij men op één been door getekende vakken op de grond springt.",
+                        "de": "Ein Kinderspiel, bei dem man auf einem Bein durch auf den Boden gezeichnete Felder hüpft.",
+                        "fr": "Jeu d'enfant consistant à sauter à cloche-pied dans des cases tracées au sol.",
+                        "it": "Gioco infantile che consiste nel saltare su una gamba sola su caselle disegnate a terra.",
+                        "cs": "Dětská venkovní hra spočívající ve skákání na jedné noze po políčkách nakreslených na zemi.",
+                        "tr": "Yere çizilen karelerin üzerinde tek ayakla zıplayarak oynanan çocuk oyunu.",
+                        "es": "Juego infantil que consiste en saltar a la pata coja por casillas dibujadas en el suelo.",
+                        "zh": "一种儿童户外游戏，先在地上画格子，再单脚跳着玩。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "классики",
                                 "target_lang_sense_clarification": "игра"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "hopscotch",
+                                "target_lang_sense_clarification": "playground game"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "hinkelen",
+                                "target_lang_sense_clarification": "het spel zelf"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Himmel und Hölle",
+                                "target_lang_sense_clarification": "Hüpfspiel"
+                            },
+                            {
+                                "target_lang_word": "Hüpfekästchen",
+                                "target_lang_sense_clarification": "Hüpfspiel"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "marelle",
+                                "target_lang_sense_clarification": "jeu d'enfant"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "campana",
+                                "target_lang_sense_clarification": "gioco tradizionale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "panák",
+                                "target_lang_sense_clarification": "dětská hra"
+                            },
+                            {
+                                "target_lang_word": "skákání panáka",
+                                "target_lang_sense_clarification": "činnost"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "seksek",
+                                "target_lang_sense_clarification": "çocuk oyunu"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "rayuela",
+                                "target_lang_sense_clarification": "juego infantil de saltar por casillas dibujadas en el suelo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "跳房子",
+                                "target_lang_sense_clarification": "一种在地上画格子、单脚跳的儿童游戏"
                             }
                         ]
                     }
@@ -330,15 +1016,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ssaki to <klasa> zwierząt kręgowych, które karmią młode mlekiem.",
+                            "text": "Ssaki to <w>klasa</w> zwierząt kręgowych, które karmią młode mlekiem.",
                             "target_lang_translations": {
-                                "ru": "Млекопитающие — это <класс> позвоночных животных, которые кормят детенышей молоком."
+                                "ru": "Млекопитающие — это <w>класс</w> позвоночных животных, которые кормят детенышей молоком.",
+                                "en": "Mammals are a <w>class</w> of vertebrates that feed their young with milk.",
+                                "nl": "Zoogdieren zijn een <w>klasse</w> gewervelde dieren die hun jongen voeden met melk.",
+                                "de": "Säugetiere sind eine <w>Klasse</w> von Wirbeltieren, die ihre Jungen mit Milch säugen.",
+                                "fr": "Les mammifères sont une <w>classe</w> d'animaux vertébrés qui nourrissent leurs petits avec du lait.",
+                                "it": "I mammiferi sono una <w>classe</w> di animali vertebrati che nutrono i piccoli con il latte.",
+                                "cs": "Savci jsou <w>třída</w> obratlovců, kteří krmí mláďata mlékem.",
+                                "tr": "Memeliler, yavrularını sütle besleyen omurgalı hayvanlar <w>sınıfıdır</w>.",
+                                "es": "Los mamíferos son una <w>clase</w> de animales vertebrados que alimentan a sus crías con leche.",
+                                "zh": "哺乳动物是脊椎动物中的一个<w>纲</w>，它们用乳汁喂养幼崽。"
                             }
                         },
                         {
-                            "text": "Na lekcji biologii omawialiśmy cechy charakterystyczne <klasy> owadów.",
+                            "text": "Na lekcji biologii omawialiśmy cechy charakterystyczne <w>klasy</w> owadów.",
                             "target_lang_translations": {
-                                "ru": "На уроке биологии мы обсуждали характерные черты <класса> насекомых."
+                                "ru": "На уроке биологии мы обсуждали характерные черты <w>класса</w> насекомых.",
+                                "en": "In biology class, we discussed the characteristics of the insect <w>class</w>.",
+                                "nl": "Tijdens de biologieles bespraken we de kenmerken van de <w>klasse</w> insecten.",
+                                "de": "Im Biologieunterricht besprachen wir die Merkmale der <w>Klasse</w> der Insekten.",
+                                "fr": "En cours de biologie, nous avons discuté des caractéristiques de la <w>classe</w> des insectes.",
+                                "it": "Durante la lezione di biologia abbiamo discusso le caratteristiche della <w>classe</w> degli insetti.",
+                                "cs": "V hodině biologie jsme probírali charakteristické znaky <w>třídy</w> hmyzu.",
+                                "tr": "Biyoloji dersinde böcekler <w>sınıfının</w> karakteristik özelliklerini tartıştık.",
+                                "es": "En la clase de biología hablábamos de las características propias de la <w>clase</w> de los insectos.",
+                                "zh": "生物课上，我们讨论了昆虫<w>纲</w>的特征。"
                             }
                         }
                     ],
@@ -352,13 +1056,76 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Таксономическая единица в систематике организмов, ниже типа и выше отряда."
+                        "ru": "Таксономическая единица в систематике организмов, ниже типа и выше отряда.",
+                        "en": "A rank in the classification of organisms, below phylum and above order.",
+                        "nl": "Een biologische rangorde tussen stam en orde.",
+                        "de": "Eine taxonomische Einheit in der Biologie, unterhalb des Stammes und oberhalb der Ordnung.",
+                        "fr": "Unité de classification biologique, située entre l'embranchement et l'ordre.",
+                        "it": "Unità tassonomica nella sistematica degli organismi, inferiore alla classe e superiore all'ordine.",
+                        "cs": "Taxonomická jednotka v biologické klasifikaci organismů, nižší než kmen a vyšší než řád.",
+                        "tr": "Canlıların sınıflandırılmasında şube ile takım arasında yer alan taksonomik birim.",
+                        "es": "Unidad taxonómica en la clasificación de los organismos, inferior al filo y superior al orden.",
+                        "zh": "生物分类系统中的一个单位，低于门，高于目。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "класс",
                                 "target_lang_sense_clarification": "биология"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "biological taxonomy"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klasse",
+                                "target_lang_sense_clarification": "biologische taxonomie"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "biologische Systematik"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "taxonomie biologique"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "biologia"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "biologie"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "biyoloji terimi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "clase",
+                                "target_lang_sense_clarification": "categoría taxonómica en biología"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "纲",
+                                "target_lang_sense_clarification": "生物分类学中低于门、高于目的单位"
                             }
                         ]
                     }
@@ -372,15 +1139,33 @@
                     "name_type": "technology_or_software_name",
                     "examples": [
                         {
-                            "text": "Programista musi zdefiniować nową <klasę>, aby stworzyć ten skomplikowany obiekt.",
+                            "text": "Programista musi zdefiniować nową <w>klasę</w>, aby stworzyć ten skomplikowany obiekt.",
                             "target_lang_translations": {
-                                "ru": "Программист должен определить новый <класс>, чтобы создать этот сложный объект."
+                                "ru": "Программист должен определить новый <w>класс</w>, чтобы создать этот сложный объект.",
+                                "en": "The programmer must define a new <w>class</w> to create this complex object.",
+                                "nl": "De programmeur moet een nieuwe <w>klasse</w> definiëren om dit complexe object te creëren.",
+                                "de": "Der Programmierer muss eine neue <w>Klasse</w> definieren, um dieses komplexe Objekt zu erstellen.",
+                                "fr": "Le programmeur doit définir une nouvelle <w>classe</w> pour créer cet objet complexe.",
+                                "it": "Il programmatore deve definire una nuova <w>classe</w> per creare questo oggetto complesso.",
+                                "cs": "Programátor musí definovat novou <w>třídu</w>, aby vytvořil tento složitý objekt.",
+                                "tr": "Programcı bu karmaşık nesneyi oluşturmak için yeni bir <w>sınıf</w> tanımlamalı.",
+                                "es": "El programador tiene que definir una nueva <w>clase</w> para crear ese objeto complejo.",
+                                "zh": "程序员必须定义一个新的<w>类</w>，才能创建这个复杂对象。"
                             }
                         },
                         {
-                            "text": "Ta <klasa> zawiera metody potrzebne do obsługi połączenia z bazą danych.",
+                            "text": "Ta <w>klasa</w> zawiera metody potrzebne do obsługi połączenia z bazą danych.",
                             "target_lang_translations": {
-                                "ru": "Этот <класс> содержит методы, необходимые для обслуживания соединения с базой данных."
+                                "ru": "Этот <w>класс</w> содержит методы, необходимые для обслуживания соединения с базой данных.",
+                                "en": "This <w>class</w> contains the methods needed to handle the database connection.",
+                                "nl": "Deze <w>klasse</w> bevat de methoden die nodig zijn voor het afhandelen van de databaseverbinding.",
+                                "de": "Diese <w>Klasse</w> enthält die Methoden, die für die Verwaltung der Datenbankverbindung benötigt werden.",
+                                "fr": "Cette <w>classe</w> contient les méthodes nécessaires pour gérer la connexion à la base de données.",
+                                "it": "Questa <w>classe</w> contiene i metodi necessari per gestire la connessione al database.",
+                                "cs": "Tato <w>třída</w> obsahuje metody potřebné pro obsluhu spojení s databází.",
+                                "tr": "Bu <w>sınıf</w>, veritabanı bağlantısını yönetmek için gereken metotları içerir.",
+                                "es": "Esta <w>clase</w> contiene los métodos necesarios para gestionar la conexión con la base de datos.",
+                                "zh": "这个<w>类</w>包含处理数据库连接所需的方法。"
                             }
                         }
                     ],
@@ -395,13 +1180,76 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "В объектно-ориентированном программировании: шаблон для создания объектов, определяющий их данные и функции."
+                        "ru": "В объектно-ориентированном программировании: шаблон для создания объектов, определяющий их данные и функции.",
+                        "en": "In object-oriented programming: a template for creating objects, defining their data and functions.",
+                        "nl": "Een blauwdruk in objectgeoriënteerd programmeren voor het maken van objecten.",
+                        "de": "In der objektorientierten Programmierung: ein Bauplan für Objekte.",
+                        "fr": "En programmation orientée objet, modèle définissant les propriétés et méthodes des objets.",
+                        "it": "Nella programmazione orientata agli oggetti: un modello per creare oggetti che ne definisce dati e funzioni.",
+                        "cs": "V objektově orientovaném programování: vzor pro vytváření objektů definující jejich data a funkce.",
+                        "tr": "Nesne yönelimli programlamada, nesnelerin verilerini ve işlevlerini tanımlayan şablon.",
+                        "es": "En programación orientada a objetos: estructura o plantilla para crear objetos, que define sus datos y sus funciones.",
+                        "zh": "在面向对象编程中，用来创建对象并规定其数据和方法的模板。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "класс",
                                 "target_lang_sense_clarification": "программирование"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "programming"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "klasse",
+                                "target_lang_sense_clarification": "informatica"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Klasse",
+                                "target_lang_sense_clarification": "Programmierung"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "programmation informatique"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "informatica"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "třída",
+                                "target_lang_sense_clarification": "programování"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "programlama terimi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "clase",
+                                "target_lang_sense_clarification": "plantilla o definición de objetos en programación orientada a objetos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "类",
+                                "target_lang_sense_clarification": "面向对象编程中定义对象数据和功能的模板"
                             }
                         ]
                     }

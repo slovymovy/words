@@ -27,15 +27,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Скажите, пожалуйста, как <доехать> до центрального вокзала?",
+                            "text": "Скажите, пожалуйста, как <w>доехать</w> до центрального вокзала?",
                             "target_lang_translations": {
-                                "en": "Could you please tell me how to <get> to the central station?"
+                                "en": "Could you please tell me how to <w>get</w> to the central station?",
+                                "nl": "Kunt u mij alstublieft vertellen hoe ik bij het centraal station <w>kan komen</w>?",
+                                "pl": "Proszę powiedzieć, jak <w>dojechać</w> do dworca centralnego?",
+                                "de": "Können Sie mir bitte sagen, wie ich zum Hauptbahnhof <w>hinkomme</w>?",
+                                "fr": "Dites-moi, s'il vous plaît, comment <w>arriver</w> à la gare centrale ?",
+                                "it": "Mi scusi, mi sa dire come <w>arrivare</w> alla stazione centrale?",
+                                "cs": "Řekněte mi prosím, jak se <w>dojedu</w> na hlavní nádraží?",
+                                "tr": "Lütfen söyler misiniz, merkez istasyonuna nasıl <w>varabilirim</w>?",
+                                "es": "Dígame, por favor, ¿cómo puedo <w>llegar</w> a la estación central?",
+                                "zh": "请问，去中央火车站怎么<w>到</w>？"
                             }
                         },
                         {
-                            "text": "Мы <доехали> до дома на такси всего за двадцать минут.",
+                            "text": "Мы <w>доехали</w> до дома на такси всего за двадцать минут.",
                             "target_lang_translations": {
-                                "en": "We <got> home by taxi in just twenty minutes."
+                                "en": "We <w>got</w> home by taxi in just twenty minutes.",
+                                "nl": "We zijn in slechts twintig minuten met de taxi thuis <w>aangekomen</w>.",
+                                "pl": "Do domu <w>dojechaliśmy</w> taksówką w zaledwie dwadzieścia minut.",
+                                "de": "Wir sind mit dem Taxi in nur zwanzig Minuten nach Hause <w>gekommen</w>.",
+                                "fr": "Nous sommes <w>arrivés</w> à la maison en taxi en seulement vingt minutes.",
+                                "it": "Siamo <w>arrivati</w> a casa in taxi in soli venti minuti.",
+                                "cs": "Domů jsme <w>dojeli</w> taxíkem za pouhých dvacet minut.",
+                                "tr": "Eve taksiyle sadece yirmi dakikada <w>vardık</w>.",
+                                "es": "Nosotros <w>llegamos</w> a casa en taxi en solo veinte minutos.",
+                                "zh": "我们坐出租车只用了二十分钟就<w>到达</w>了家。"
                             }
                         }
                     ],
@@ -46,7 +64,16 @@
                         "быстро доехать"
                     ],
                     "target_lang_definitions": {
-                        "en": "To reach a destination, typically using a vehicle."
+                        "en": "To reach a destination, typically using a vehicle.",
+                        "nl": "Een bestemming bereiken, meestal met een vervoersmiddel.",
+                        "pl": "Dotrzeć do miejsca przeznaczenia, zazwyczaj przy użyciu środka transportu.",
+                        "de": "Ein Ziel mit einem Verkehrsmittel erreichen.",
+                        "fr": "Atteindre une destination en utilisant un moyen de transport.",
+                        "it": "Raggiungere una destinazione, solitamente utilizzando un mezzo di trasporto.",
+                        "cs": "Dostat se na místo určení pomocí dopravního prostředku.",
+                        "tr": "Bir taşıt kullanarak bir yere ulaşmak veya varmak.",
+                        "es": "Llegar a un destino utilizando un medio de transporte.",
+                        "zh": "乘坐交通工具到达目的地。"
                     },
                     "translations": {
                         "en": [
@@ -62,6 +89,108 @@
                                 "target_lang_word": "arrive",
                                 "target_lang_sense_clarification": "to come to a certain place"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "bereiken",
+                                "target_lang_sense_clarification": "aankomen op een bestemming"
+                            },
+                            {
+                                "target_lang_word": "aankomen",
+                                "target_lang_sense_clarification": "op een bepaalde plek arriveren"
+                            },
+                            {
+                                "target_lang_word": "geraken",
+                                "target_lang_sense_clarification": "ergens komen (vaak gebruikt met 'tot')"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dojechać",
+                                "target_lang_sense_clarification": "dotrzeć do celu podróży"
+                            },
+                            {
+                                "target_lang_word": "dotrzeć",
+                                "target_lang_sense_clarification": "przybyć do określonego miejsca"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "ankommen",
+                                "target_lang_sense_clarification": "am Zielort eintreffen"
+                            },
+                            {
+                                "target_lang_word": "hinkommen",
+                                "target_lang_sense_clarification": "einen Ort erreichen (umgangssprachlich)"
+                            },
+                            {
+                                "target_lang_word": "erreichen",
+                                "target_lang_sense_clarification": "ein Ziel ankommen"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "arriver à",
+                                "target_lang_sense_clarification": "atteindre un lieu"
+                            },
+                            {
+                                "target_lang_word": "se rendre à",
+                                "target_lang_sense_clarification": "aller vers une destination"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "arrivare",
+                                "target_lang_sense_clarification": "giungere a destinazione"
+                            },
+                            {
+                                "target_lang_word": "raggiungere",
+                                "target_lang_sense_clarification": "arrivare in un luogo specifico"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dojet",
+                                "target_lang_sense_clarification": "dorazit na místo dopravním prostředkem"
+                            },
+                            {
+                                "target_lang_word": "dostat se",
+                                "target_lang_sense_clarification": "obecné vyjádření cesty na místo"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "varmak",
+                                "target_lang_sense_clarification": "bir yere ulaşmak"
+                            },
+                            {
+                                "target_lang_word": "ulaşmak",
+                                "target_lang_sense_clarification": "bir yere gitmek"
+                            },
+                            {
+                                "target_lang_word": "gitmek",
+                                "target_lang_sense_clarification": "bir yere ulaşmak (günlük kullanım)"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "llegar",
+                                "target_lang_sense_clarification": "alcanzar un lugar o destino"
+                            },
+                            {
+                                "target_lang_word": "ir",
+                                "target_lang_sense_clarification": "dirigirse a un lugar"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "到达",
+                                "target_lang_sense_clarification": "抵达某地"
+                            },
+                            {
+                                "target_lang_word": "到",
+                                "target_lang_sense_clarification": "抵达目的地"
+                            }
                         ]
                     }
                 },
@@ -74,15 +203,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Своими постоянными придирками и замечаниями он меня просто <доехал>.",
+                            "text": "Своими постоянными придирками и замечаниями он меня просто <w>доехал</w>.",
                             "target_lang_translations": {
-                                "en": "With his constant nitpicking and remarks, he simply <wore> me <out>."
+                                "en": "With his constant nitpicking and remarks, he simply <w>wore</w> me <w>out</w>.",
+                                "nl": "Met zijn constante gezeur en opmerkingen heeft hij me echt <w>afgemat</w>.",
+                                "pl": "Swoim ciągłym czepianiem się i uwagami po prostu mnie <w>wykończył</w>.",
+                                "de": "Mit seiner ständigen Nörgelei und seinen Bemerkungen hat er mich einfach <w>fertiggemacht</w>.",
+                                "fr": "Avec ses critiques et ses remarques constantes, il m'a tout simplement <w>épuisé</w>.",
+                                "it": "Con le sue continue critiche e osservazioni mi ha proprio <w>esasperato</w>.",
+                                "cs": "Svým neustálým rýpáním a poznámkami mě úplně <w>dorazil</w>.",
+                                "tr": "Sürekli kusur bulmaları ve eleştirileriyle beni resmen <w>bezdirdi</w>.",
+                                "es": "Con sus constantes críticas y comentarios, simplemente me <w>agotó</w>.",
+                                "zh": "他那没完没了的挑剔和指责简直让我<w>烦透</w>了。"
                             }
                         },
                         {
-                            "text": "Эта бесконечная и тяжёлая работа вконец нас <доехала>.",
+                            "text": "Эта бесконечная и тяжёлая работа вконец нас <w>доехала</w>.",
                             "target_lang_translations": {
-                                "en": "This endless and hard work completely <finished> us <off>."
+                                "en": "This endless and hard work completely <w>finished</w> us <w>off</w>.",
+                                "nl": "Dit eindeloze en zware werk heeft ons volledig <w>gesloopt</w>.",
+                                "pl": "Ta niekończąca się i ciężka praca kompletnie nas <w>wykończyła</w>.",
+                                "de": "Diese endlose und schwere Arbeit hat uns völlig <w>zermürbt</w>.",
+                                "fr": "Ce travail interminable et difficile nous a complètement <w>épuisés</w>.",
+                                "it": "Questo lavoro infinito e pesante ci ha <w>finito</w> del tutto.",
+                                "cs": "Tato nekonečná a těžká práce nás úplně <w>dorazila</w>.",
+                                "tr": "Bu bitmek bilmeyen ağır iş bizi tamamen <w>tüketti</w>.",
+                                "es": "Este trabajo interminable y pesado nos <w>hartó</w> por completo.",
+                                "zh": "这没完没了的繁重工作把我们彻底<w>折磨</w>垮了。"
                             }
                         }
                     ],
@@ -104,7 +251,16 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "en": "To annoy someone greatly or wear them out completely."
+                        "en": "To annoy someone greatly or wear them out completely.",
+                        "nl": "Iemand enorm irriteren of volledig uitputten.",
+                        "pl": "Bardzo kogoś zdenerwować, zmęczyć lub doprowadzić do ostateczności swoim zachowaniem.",
+                        "de": "Jemanden durch ständiges Verhalten oder Worte stark nerven oder erschöpfen.",
+                        "fr": "Épuiser quelqu'un moralement ou physiquement par des actions ou des paroles répétées.",
+                        "it": "Infastidire qualcuno in modo estremo o sfinirlo completamente.",
+                        "cs": "Velmi někoho obtěžovat, unavit nebo dohnat k šílenství svým chováním.",
+                        "tr": "Birini davranışları veya sözleriyle çok rahatsız etmek, bunaltmak veya tüketmek.",
+                        "es": "Molestar profundamente, agotar o llevar a alguien al límite de su paciencia.",
+                        "zh": "因某人的言行而感到极度厌烦或精疲力竭。"
                     },
                     "translations": {
                         "en": [
@@ -120,6 +276,116 @@
                                 "target_lang_word": "finish off",
                                 "target_lang_sense_clarification": "to exhaust completely"
                             }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "afmatten",
+                                "target_lang_sense_clarification": "iemand volledig uitputten"
+                            },
+                            {
+                                "target_lang_word": "op de zenuwen werken",
+                                "target_lang_sense_clarification": "iemand tot grote irritatie drijven"
+                            },
+                            {
+                                "target_lang_word": "slopen",
+                                "target_lang_sense_clarification": "iemand emotioneel of fysiek uitputten (informeel)"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wykończyć",
+                                "target_lang_sense_clarification": "pozbawić kogoś sił lub cierpliwości"
+                            },
+                            {
+                                "target_lang_word": "dać się we znaki",
+                                "target_lang_sense_clarification": "bardzo kogoś zirytować lub zmęczyć"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "fertigmachen",
+                                "target_lang_sense_clarification": "jemanden psychisch oder physisch zermürben"
+                            },
+                            {
+                                "target_lang_word": "zermürben",
+                                "target_lang_sense_clarification": "jemanden durch ständige Belastung erschöpfen"
+                            },
+                            {
+                                "target_lang_word": "nerven",
+                                "target_lang_sense_clarification": "jemanden stark ärgern"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "épuiser",
+                                "target_lang_sense_clarification": "fatiguer quelqu'un à l'extrême"
+                            },
+                            {
+                                "target_lang_word": "exaspérer",
+                                "target_lang_sense_clarification": "rendre quelqu'un très irritable"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "esasperare",
+                                "target_lang_sense_clarification": "portare qualcuno al limite della pazienza"
+                            },
+                            {
+                                "target_lang_word": "stancare",
+                                "target_lang_sense_clarification": "esaurire le forze di qualcuno"
+                            },
+                            {
+                                "target_lang_word": "finire",
+                                "target_lang_sense_clarification": "distruggere o sfinire qualcuno (colloquiale)"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dorazit",
+                                "target_lang_sense_clarification": "zcela někoho vyčerpat nebo zničit"
+                            },
+                            {
+                                "target_lang_word": "dostat",
+                                "target_lang_sense_clarification": "dostat někoho psychicky (hovorově)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bıktırmak",
+                                "target_lang_sense_clarification": "birini çok rahatsız etmek"
+                            },
+                            {
+                                "target_lang_word": "tüketmek",
+                                "target_lang_sense_clarification": "birini tamamen yormak veya bitirmek"
+                            },
+                            {
+                                "target_lang_word": "bezdirmek",
+                                "target_lang_sense_clarification": "birini aşırı derecede rahatsız etmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "agotar",
+                                "target_lang_sense_clarification": "cansar o fastidiar intensamente"
+                            },
+                            {
+                                "target_lang_word": "hartar",
+                                "target_lang_sense_clarification": "causar gran molestia o hastío"
+                            },
+                            {
+                                "target_lang_word": "sacar de quicio",
+                                "target_lang_sense_clarification": "hacer perder la paciencia a alguien"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "烦透",
+                                "target_lang_sense_clarification": "使人感到极度厌烦"
+                            },
+                            {
+                                "target_lang_word": "折磨",
+                                "target_lang_sense_clarification": "使人身心疲惫"
+                            }
                         ]
                     }
                 },
@@ -132,15 +398,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Я только сейчас <доехал>, что это была всего лишь шутка.",
+                            "text": "Я только сейчас <w>доехал</w>, что это была всего лишь шутка.",
                             "target_lang_translations": {
-                                "en": "I only just <got> that it was just a joke."
+                                "en": "I only just <w>got</w> that it was just a joke.",
+                                "nl": "Ik heb nu pas <w>door</w> dat het maar een grapje was.",
+                                "pl": "Dopiero teraz <w>załapałem</w>, że to był tylko żart.",
+                                "de": "Ich habe erst jetzt <w>kapiert</w>, dass das nur ein Scherz war.",
+                                "fr": "Je viens seulement de <w>percuter</w> que ce n'était qu'une blague.",
+                                "it": "Solo ora ci sono <w>arrivato</w> che era solo uno scherzo.",
+                                "cs": "Až teď mi <w>došlo</w>, že to byl jen vtip.",
+                                "tr": "Bunun sadece bir şaka olduğunu ancak şimdi <w>çaktım</w>.",
+                                "es": "Recién ahora <w>pille</w> que esto era solo una broma.",
+                                "zh": "我刚才才<w>明白</w>，那不过是个玩笑。"
                             }
                         },
                         {
-                            "text": "Он долго не мог <доехать>, как правильно решить эту задачу.",
+                            "text": "Он долго не мог <w>доехать</w>, как правильно решить эту задачу.",
                             "target_lang_translations": {
-                                "en": "He couldn't <figure out> for a long time how to solve this problem."
+                                "en": "He couldn't <w>figure out</w> for a long time how to solve this problem.",
+                                "nl": "Hij kon lange tijd niet <w>begrijpen</w> hoe hij deze opgave correct moest oplossen.",
+                                "pl": "Długo nie mógł <w>skumać</w>, jak poprawnie rozwiązać to zadanie.",
+                                "de": "Er konnte lange nicht <w>checken</w>, wie man diese Aufgabe richtig löst.",
+                                "fr": "Il n'a pas réussi à <w>comprendre</w> pendant longtemps comment résoudre correctement ce problème.",
+                                "it": "Per molto tempo non riusciva a <w>capire</w> come risolvere correttamente questo problema.",
+                                "cs": "Dlouho nemohl <w>pochopit</w>, jak správně vyřešit tento úkol.",
+                                "tr": "Bu problemi nasıl doğru çözeceğini uzun süre <w>kavrayamadı</w>.",
+                                "es": "Él no pudo <w>entender</w> durante mucho tiempo cómo resolver correctamente este problema.",
+                                "zh": "他好半天才<w>领悟</w>到这道题该怎么做。"
                             }
                         }
                     ],
@@ -155,7 +439,16 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "en": "To finally understand or realize something."
+                        "en": "To finally understand or realize something.",
+                        "nl": "Eindelijk iets begrijpen of inzien.",
+                        "pl": "Zrozumieć, uświadomić sobie lub pojąć sens czegoś.",
+                        "de": "Etwas endlich verstehen oder begreifen.",
+                        "fr": "Comprendre ou réaliser enfin le sens de quelque chose.",
+                        "it": "Capire o rendersi conto finalmente di qualcosa.",
+                        "cs": "Konečně něco pochopit nebo si uvědomit.",
+                        "tr": "Bir şeyi nihayet anlamak veya kavramak.",
+                        "es": "Comprender, darse cuenta o captar el sentido de algo finalmente.",
+                        "zh": "终于理解或意识到某事。"
                     },
                     "translations": {
                         "en": [
@@ -170,6 +463,116 @@
                             {
                                 "target_lang_word": "figure out",
                                 "target_lang_sense_clarification": "to solve or understand"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "doorhebben",
+                                "target_lang_sense_clarification": "eindelijk begrijpen hoe iets zit"
+                            },
+                            {
+                                "target_lang_word": "snappen",
+                                "target_lang_sense_clarification": "begrijpen (informeel)"
+                            },
+                            {
+                                "target_lang_word": "begrijpen",
+                                "target_lang_sense_clarification": "inzien of doorgronden"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "załapać",
+                                "target_lang_sense_clarification": "zrozumieć coś (potocznie)"
+                            },
+                            {
+                                "target_lang_word": "skumać",
+                                "target_lang_sense_clarification": "pojąć sens czegoś (slang)"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "kapieren",
+                                "target_lang_sense_clarification": "etwas verstehen (umgangssprachlich)"
+                            },
+                            {
+                                "target_lang_word": "checken",
+                                "target_lang_sense_clarification": "etwas begreifen (jugendsprachlich)"
+                            },
+                            {
+                                "target_lang_word": "verstehen",
+                                "target_lang_sense_clarification": "den Sinn von etwas erfassen"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "percuter",
+                                "target_lang_sense_clarification": "comprendre soudainement (familier)"
+                            },
+                            {
+                                "target_lang_word": "comprendre",
+                                "target_lang_sense_clarification": "saisir le sens d'une chose"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "capire",
+                                "target_lang_sense_clarification": "comprendere il senso di qualcosa"
+                            },
+                            {
+                                "target_lang_word": "arrivarci",
+                                "target_lang_sense_clarification": "comprendere dopo un ragionamento (colloquiale)"
+                            },
+                            {
+                                "target_lang_word": "intuire",
+                                "target_lang_sense_clarification": "afferrare il senso di qualcosa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dojít (někomu)",
+                                "target_lang_sense_clarification": "pochopit souvislosti (hovorově)"
+                            },
+                            {
+                                "target_lang_word": "pochopit",
+                                "target_lang_sense_clarification": "porozumět významu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "çakmak",
+                                "target_lang_sense_clarification": "bir şeyi aniden anlamak (argo)"
+                            },
+                            {
+                                "target_lang_word": "kavramak",
+                                "target_lang_sense_clarification": "bir şeyi zihinsel olarak anlamak"
+                            },
+                            {
+                                "target_lang_word": "anlamak",
+                                "target_lang_sense_clarification": "bir şeyin farkına varmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "pillar",
+                                "target_lang_sense_clarification": "entender algo (coloquial)"
+                            },
+                            {
+                                "target_lang_word": "darse cuenta",
+                                "target_lang_sense_clarification": "percatarse de algo"
+                            },
+                            {
+                                "target_lang_word": "entender",
+                                "target_lang_sense_clarification": "comprender el significado"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "明白",
+                                "target_lang_sense_clarification": "理解某事"
+                            },
+                            {
+                                "target_lang_word": "领悟",
+                                "target_lang_sense_clarification": "领会并理解"
                             }
                         ]
                     }

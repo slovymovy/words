@@ -35,7 +35,42 @@
                         ]
                     }
                 ],
-                "translations": [],
+                "translations": [
+                    {
+                        "translation_id": "a7d27d28-ad19-4d69-9bbe-d71492c21b46",
+                        "source_entry_id": "e73122ae-6b5d-3cc3-8e5d-0819813c79d2",
+                        "source_sense_id": "c351f611-9c57-328f-99af-fcbd313278df",
+                        "source_sense_description": "networking",
+                        "target_lang_word": "δεδομενόγραμμα",
+                        "target_lang_code": "el",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "δεδομενόγραμμα",
+                                "target_lang_code": "el",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "c73507d2-798e-38d2-8600-6aa11ae27900",
+                                        "entry_id": "e063c1f3-9689-3687-81a8-ff1d30a9b55a",
+                                        "glosses": [
+                                            "datagram: ομάδα δεδομένων, όπως το πακέτο στο IP, που διασχίζει ένα δίκτυο υπολογιστών και αποτελείται από την κεφαλίδα (header) και το ωφέλιμο φορτίο (payload)"
+                                        ],
+                                        "tags": [
+                                            "δίκτυο υπολογιστών"
+                                        ],
+                                        "examples": [
+                                            {
+                                                "example_id": "d4f7b63a-d819-43d6-b351-baea55c222a5",
+                                                "sense_id": "c73507d2-798e-38d2-8600-6aa11ae27900",
+                                                "text": "※ Μάλιστα ο όρος για ένα πακέτο IP είναι δεδομενόγραμμα (datagram), αφού αποτελεί ένα γράμμα, όπου η κεφαλίδα είναι ο φάκελος με τις διευθύνσεις αποστολέα και παραλήπτη και άλλες πληροφορίες ελέγχου, ενώ τα δεδομένα το περιεχόμενο της επιστολής."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
                 "word_linkages": []
             },
             {
@@ -177,6 +212,52 @@
         "cs-extract.jsonl": [],
         "es-extract.jsonl": [],
         "tr-extract.jsonl": [],
-        "zh-extract.jsonl": []
+        "zh-extract.jsonl": [],
+        "el-extract.jsonl": [
+            {
+                "entry_id": "2965c205-5c65-3ba6-8b55-810d396c23fc",
+                "word": "datagram",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "31585870-6585-4c7e-b71c-cb5d8ac7c1e3",
+                        "entry_id": "2965c205-5c65-3ba6-8b55-810d396c23fc",
+                        "tags": [],
+                        "form": "datagram"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "c1df7869-a706-37aa-afb9-0380ba133d45",
+                        "entry_id": "2965c205-5c65-3ba6-8b55-810d396c23fc",
+                        "glosses": [
+                            "το δεδομενόγραμμα"
+                        ],
+                        "tags": [
+                            "δίκτυο υπολογιστών"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "c61eeeb7-d5cc-46cd-9c99-137b85c6f6a9",
+                                "sense_id": "c1df7869-a706-37aa-afb9-0380ba133d45",
+                                "text": "※ Sending datagrams is much like sending a letter through the mail service: The order of delivery is not important and is not guaranteed, and each message is independent of any others.",
+                                "translation": "Η αποστολή δεδομενογράμματος είναι σαν να στέλνετε ένα γράμμα μέσω του ταχυδρομείου. Η σειρά παράδοσης δεν είναι σημαντική και δεν είναι εγγυημένη, και κάθε μήνυμα είναι ανεξάρτητο από οποιοδήποτε άλλο."
+                            }
+                        ]
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ],
+        "id-extract.jsonl": [],
+        "ja-extract.jsonl": [],
+        "ko-extract.jsonl": [],
+        "ku-extract.jsonl": [],
+        "ms-extract.jsonl": [],
+        "pt-extract.jsonl": [],
+        "th-extract.jsonl": [],
+        "vi-extract.jsonl": []
     }
 }

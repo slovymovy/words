@@ -82,11 +82,29 @@
                         "cross_references": []
                     },
                     {
+                        "translation_id": "4e662000-ea6d-45e8-8c9c-89243dc3d99e",
+                        "source_entry_id": "eb046ef7-d2ed-3a9a-acae-f320132a5b53",
+                        "source_sense_description": "not accepting negative numbers; having only a positive value",
+                        "target_lang_word": "符号無し",
+                        "target_lang_code": "ja",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
                         "translation_id": "f00531b4-8839-48bb-9ee4-bfb1424772a8",
                         "source_entry_id": "eb046ef7-d2ed-3a9a-acae-f320132a5b53",
                         "source_sense_description": "not accepting negative numbers; having only a positive value",
                         "target_lang_word": "bez znaku",
                         "target_lang_code": "pl",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "d006ffd7-92e1-47a7-a390-90e9e33c1885",
+                        "source_entry_id": "eb046ef7-d2ed-3a9a-acae-f320132a5b53",
+                        "source_sense_description": "not accepting negative numbers; having only a positive value",
+                        "target_lang_word": "sem sinal",
+                        "target_lang_code": "pt",
                         "target_sense_ids": [],
                         "cross_references": []
                     },
@@ -107,6 +125,31 @@
                         "target_lang_code": "cs",
                         "target_sense_ids": [],
                         "cross_references": []
+                    },
+                    {
+                        "translation_id": "c6f9ca57-2d42-4316-8966-3669dcebcaf0",
+                        "source_entry_id": "eb046ef7-d2ed-3a9a-acae-f320132a5b53",
+                        "source_sense_description": "lacking a signature, unendorsed",
+                        "target_lang_word": "ανυπόγραφος",
+                        "target_lang_code": "el",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "ανυπόγραφος",
+                                "target_lang_code": "el",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "1b75a91d-38e7-37cb-b833-d0f2bed2cdc7",
+                                        "entry_id": "7a72ef1b-70a0-3813-b27d-84a16b5b0c6a",
+                                        "glosses": [
+                                            "που δεν έχει υπογραφεί, δεν φέρει υπογραφή"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "translation_id": "92e123f2-b714-4f24-9b91-a32808d52c34",
@@ -341,6 +384,281 @@
             }
         ],
         "tr-extract.jsonl": [],
-        "zh-extract.jsonl": []
+        "zh-extract.jsonl": [],
+        "el-extract.jsonl": [
+            {
+                "entry_id": "463bca14-994d-3c1c-a2d4-2f4ab7b2367e",
+                "word": "unsigned",
+                "pos": "adj",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "3aebef5c-67b6-47fb-b296-b990a5d8296d",
+                        "entry_id": "463bca14-994d-3c1c-a2d4-2f4ab7b2367e",
+                        "tags": [],
+                        "form": "unsigned"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "b722f2ae-fc6f-35ed-9320-0b397f3e4772",
+                        "entry_id": "463bca14-994d-3c1c-a2d4-2f4ab7b2367e",
+                        "glosses": [
+                            "ανυπόγραφος"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    },
+                    {
+                        "sense_id": "d2d0df7c-b5b7-3656-94be-d8300b771cae",
+                        "entry_id": "463bca14-994d-3c1c-a2d4-2f4ab7b2367e",
+                        "glosses": [
+                            "χωρίς πρόσημο, θεωρείται ότι έχει θετικό πρόσημο (+)"
+                        ],
+                        "tags": [
+                            "μαθηματικά",
+                            "πληροφορική"
+                        ],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": [
+                    {
+                        "linkage_id": "44343790-3257-41ae-b03c-bed9a44d0886",
+                        "source_entry_id": "463bca14-994d-3c1c-a2d4-2f4ab7b2367e",
+                        "source_sense_ids": [],
+                        "linkage_type": "antonyms",
+                        "word": "signed"
+                    }
+                ]
+            }
+        ],
+        "id-extract.jsonl": [],
+        "ja-extract.jsonl": [
+            {
+                "entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                "word": "unsigned",
+                "pos": "adj",
+                "lang_code": "en",
+                "forms": [],
+                "senses": [
+                    {
+                        "sense_id": "73fc62ad-7246-3f9a-af3c-4f80e0f1aae5",
+                        "entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "glosses": [
+                            "負数を受け付けない。（0を含む）自然数しか受け付けない。符号なしの。"
+                        ],
+                        "tags": [],
+                        "examples": [
+                            {
+                                "example_id": "65ada343-6cbf-4e24-9469-5567c38ac673",
+                                "sense_id": "73fc62ad-7246-3f9a-af3c-4f80e0f1aae5",
+                                "text": "We use an unsigned variable to store the employee's salary, since it will never be less than zero.",
+                                "translation": "ゼロを下回ることは絶対にないので、従業員の給料を格納するのに符号なしの変数を使う。"
+                            }
+                        ]
+                    },
+                    {
+                        "sense_id": "2a707351-5e63-36a6-aaa0-7aad236c45ee",
+                        "entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "glosses": [
+                            "署名を欠いた。裏書を欠いた。"
+                        ],
+                        "tags": [],
+                        "examples": [
+                            {
+                                "example_id": "677ed922-7ff6-4bf0-b22b-a7587858812b",
+                                "sense_id": "2a707351-5e63-36a6-aaa0-7aad236c45ee",
+                                "text": "The bank rejected the unsigned check.",
+                                "translation": "銀行は署名のない小切手を拒否した。"
+                            }
+                        ]
+                    },
+                    {
+                        "sense_id": "e4329cc9-502d-3899-a494-2ca6da981dbb",
+                        "entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "glosses": [
+                            "スポーツチームやレコードレーベルなどと署名付きの契約がされていない。未契約の。"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [
+                    {
+                        "translation_id": "d5c82678-789c-4662-b8c9-0bf1acadcd5f",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味1",
+                        "target_lang_word": "senza segno",
+                        "target_lang_code": "it",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "349f49d0-345b-44cb-a4a7-c8caad55addf",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味1",
+                        "target_lang_word": "non-signé",
+                        "target_lang_code": "fr",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "f9994428-b4a1-423b-bcbc-905143ae87e1",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味1",
+                        "target_lang_word": "bez znaku",
+                        "target_lang_code": "pl",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "15c01a31-1fac-47a8-a2c3-3074adecb8a6",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味1",
+                        "target_lang_word": "sem sinal",
+                        "target_lang_code": "pt",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "ad5acf97-94de-46d1-ab6f-92c29f35bf0d",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味1",
+                        "target_lang_word": "без знака",
+                        "target_lang_code": "ru",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "90f48f32-26c9-4cb5-a0fa-9668c94c415d",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味2",
+                        "target_lang_word": "nepodepsaný",
+                        "target_lang_code": "cs",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
+                        "translation_id": "25dd75e9-8251-4c9d-9dc2-a336e31640cf",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_description": "意味2",
+                        "target_lang_word": "imzasız",
+                        "target_lang_code": "tr",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "imzasız",
+                                "target_lang_code": "tr",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "2a11b873-5a3a-3925-be3b-ddbe7a2abdd5",
+                                        "entry_id": "8df43131-f330-3508-b555-2351511aef2e",
+                                        "glosses": [
+                                            "imza edilmemiş"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    },
+                                    {
+                                        "sense_id": "75b688f0-1b80-39f3-91fa-896b61b5e521",
+                                        "entry_id": "8df43131-f330-3508-b555-2351511aef2e",
+                                        "glosses": [
+                                            "yazarı belirtilmemiş"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "word_linkages": [
+                    {
+                        "linkage_id": "62ff7c7c-a464-459f-9ab1-dbb4d454c494",
+                        "source_entry_id": "46715e85-2159-309f-9d2f-c561a5569517",
+                        "source_sense_ids": [],
+                        "linkage_type": "antonyms",
+                        "word": "signed"
+                    }
+                ]
+            },
+            {
+                "entry_id": "929baa27-855a-31a4-86b2-67aa3b1d0281",
+                "word": "unsigned",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "f7fe2fed-9555-4d43-bf7f-796c01c3bdce",
+                        "entry_id": "929baa27-855a-31a4-86b2-67aa3b1d0281",
+                        "tags": [
+                            "plural"
+                        ],
+                        "form": "unsigneds"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "3fd4406b-f668-352e-af0a-e7634d8957b7",
+                        "entry_id": "929baa27-855a-31a4-86b2-67aa3b1d0281",
+                        "glosses": [
+                            "符号なしの数値。自然数のみを受け入れる変数。"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ],
+        "ko-extract.jsonl": [],
+        "ku-extract.jsonl": [],
+        "ms-extract.jsonl": [],
+        "pt-extract.jsonl": [],
+        "th-extract.jsonl": [],
+        "vi-extract.jsonl": [
+            {
+                "entry_id": "fd23cd2e-f537-388b-9c90-d5c94d73d0ac",
+                "word": "unsigned",
+                "pos": "adj",
+                "lang_code": "en",
+                "forms": [],
+                "senses": [
+                    {
+                        "sense_id": "3b2b24b0-3398-3a3d-9f43-596d6ed4c8ac",
+                        "entry_id": "fd23cd2e-f537-388b-9c90-d5c94d73d0ac",
+                        "glosses": [
+                            "Không đánh dấu; (tôn giáo) không làm dấu."
+                        ],
+                        "tags": [],
+                        "examples": []
+                    },
+                    {
+                        "sense_id": "2bb46b2e-66f8-371f-bf19-23be12ec6bdc",
+                        "entry_id": "fd23cd2e-f537-388b-9c90-d5c94d73d0ac",
+                        "glosses": [
+                            "Không ký tên."
+                        ],
+                        "tags": [],
+                        "examples": []
+                    },
+                    {
+                        "sense_id": "ca114ae8-d181-3844-a3e8-a6175a9e6da7",
+                        "entry_id": "fd23cd2e-f537-388b-9c90-d5c94d73d0ac",
+                        "glosses": [
+                            "Không ra hiệu, không làm hiệu."
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ]
     }
 }

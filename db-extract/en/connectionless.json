@@ -22,7 +22,52 @@
                         "examples": []
                     }
                 ],
-                "translations": [],
+                "translations": [
+                    {
+                        "translation_id": "ddfc7dbf-1c6e-403b-bcfa-0bf1de0820e0",
+                        "source_entry_id": "af9e6e3a-e8ba-315a-9806-d9ee5ee2e56b",
+                        "source_sense_id": "2f86f58a-1aa4-31b8-88f8-47cf72eebcc5",
+                        "source_sense_description": "networking",
+                        "target_lang_word": "ασυνδεσιμικός",
+                        "target_lang_code": "el",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "ασυνδεσιμικός",
+                                "target_lang_code": "el",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "7c7b01d3-3224-3d22-8713-0804f0e16a45",
+                                        "entry_id": "58af9e10-2506-3ed5-b775-41c9471265da",
+                                        "glosses": [
+                                            "connectionless: χωρίς την εγκαθίδρυση σταθερής σύνδεσης, με αποστολή και λήψη δεδομενογραμμάτων (datagrams) αυθαίρετα, χωρίς επιβεβαίωση αν παραλήφθηκαν, συνήθως με λιγότερη αξιοπιστία από μια σταθερή σύνδεση, αλλά με περισσότερη απλότητα και ταχύτητα"
+                                        ],
+                                        "tags": [
+                                            "δίκτυο υπολογιστών"
+                                        ],
+                                        "examples": [
+                                            {
+                                                "example_id": "0d52d390-00aa-4381-9ed6-09d68dce866a",
+                                                "sense_id": "7c7b01d3-3224-3d22-8713-0804f0e16a45",
+                                                "text": "συντομογραφία: CL"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "translation_id": "c291848f-193f-4541-b48c-f983ab14c9f7",
+                        "source_entry_id": "af9e6e3a-e8ba-315a-9806-d9ee5ee2e56b",
+                        "source_sense_id": "2f86f58a-1aa4-31b8-88f8-47cf72eebcc5",
+                        "source_sense_description": "networking",
+                        "target_lang_word": "ασυνδεσιστρεφής",
+                        "target_lang_code": "el",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    }
+                ],
                 "word_linkages": [
                     {
                         "linkage_id": "dfb29472-20c5-49c5-b370-febff1124407",
@@ -45,6 +90,76 @@
         "cs-extract.jsonl": [],
         "es-extract.jsonl": [],
         "tr-extract.jsonl": [],
-        "zh-extract.jsonl": []
+        "zh-extract.jsonl": [],
+        "el-extract.jsonl": [
+            {
+                "entry_id": "0d71c4b4-7e71-367c-a092-b3db7a587ef6",
+                "word": "connectionless",
+                "pos": "adj",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "91dcd7d2-3d17-48bc-a9a9-7ebf9a52deeb",
+                        "entry_id": "0d71c4b4-7e71-367c-a092-b3db7a587ef6",
+                        "tags": [],
+                        "form": "connectionless"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "0e0a248e-fe4c-3ef8-b266-fdde574c0d14",
+                        "entry_id": "0d71c4b4-7e71-367c-a092-b3db7a587ef6",
+                        "glosses": [
+                            "ασυνδεσιμικός, ασυνδεσιστρεφής, ασυνδεσμικός"
+                        ],
+                        "tags": [
+                            "δίκτυο υπολογιστών"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "f6ec08c7-816f-4d62-8038-74380731797d",
+                                "sense_id": "0e0a248e-fe4c-3ef8-b266-fdde574c0d14",
+                                "text": "※ In connection-oriented service, packets follow the same route. In connection-less service, packets do not follow the same route.",
+                                "translation": "«Στην συνδεσιμική υπηρεσία, τα πακέτα ακολουθούν την ίδια διαδρομή. Στην ασυνδεσιμική υπηρεσία, τα πακέτα δεν ακολουθούν την ίδια διαδρομή.»"
+                            },
+                            {
+                                "example_id": "eab229f6-eed6-4e4a-9ebb-d815748e169c",
+                                "sense_id": "0e0a248e-fe4c-3ef8-b266-fdde574c0d14",
+                                "text": "συντομογραφία: CL"
+                            }
+                        ]
+                    }
+                ],
+                "translations": [],
+                "word_linkages": [
+                    {
+                        "linkage_id": "19a923f0-8942-45b1-90a1-078d4c4b2244",
+                        "source_entry_id": "0d71c4b4-7e71-367c-a092-b3db7a587ef6",
+                        "source_sense_ids": [
+                            "0e0a248e-fe4c-3ef8-b266-fdde574c0d14"
+                        ],
+                        "linkage_type": "antonyms",
+                        "word": "connection-based"
+                    },
+                    {
+                        "linkage_id": "c2e7d6b4-d49c-492b-a977-6f9110efee4f",
+                        "source_entry_id": "0d71c4b4-7e71-367c-a092-b3db7a587ef6",
+                        "source_sense_ids": [
+                            "0e0a248e-fe4c-3ef8-b266-fdde574c0d14"
+                        ],
+                        "linkage_type": "antonyms",
+                        "word": "connection-oriented"
+                    }
+                ]
+            }
+        ],
+        "id-extract.jsonl": [],
+        "ja-extract.jsonl": [],
+        "ko-extract.jsonl": [],
+        "ku-extract.jsonl": [],
+        "ms-extract.jsonl": [],
+        "pt-extract.jsonl": [],
+        "th-extract.jsonl": [],
+        "vi-extract.jsonl": []
     }
 }

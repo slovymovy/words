@@ -277,6 +277,31 @@
                         ]
                     },
                     {
+                        "translation_id": "f6b2278a-dfe0-4fbf-a862-48ff6a3ffcf7",
+                        "source_entry_id": "1de5104b-982b-3a32-9a85-c1cd3435a2b4",
+                        "source_sense_description": "return to a prior state",
+                        "target_lang_word": "巻き返し",
+                        "target_lang_code": "ja",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "巻き返し",
+                                "target_lang_code": "ja",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "a4fb5c48-26a5-3efd-9ca2-5aac725d7de7",
+                                        "entry_id": "a151eead-937d-320c-a2be-f554a999c393",
+                                        "glosses": [
+                                            "まきかえしの漢字表記。"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "translation_id": "7a18360b-b8da-446d-af0e-f8bdcbcfc8c2",
                         "source_entry_id": "1de5104b-982b-3a32-9a85-c1cd3435a2b4",
                         "source_sense_description": "return to a prior state",
@@ -885,6 +910,31 @@
                         ]
                     },
                     {
+                        "translation_id": "ecab19e9-e1d2-4345-92c5-f401c5b8cb67",
+                        "source_entry_id": "1de5104b-982b-3a32-9a85-c1cd3435a2b4",
+                        "source_sense_description": "withdrawal of military forces",
+                        "target_lang_word": "引き出し",
+                        "target_lang_code": "ja",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "引き出し",
+                                "target_lang_code": "ja",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "449a365f-ca3f-3fc3-be58-874b4a10dc0e",
+                                        "entry_id": "39d22405-5b39-3455-b67d-0c3c9c5fe2ef",
+                                        "glosses": [
+                                            "「ひきだし」を参照。"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "translation_id": "124131ee-6835-4967-9905-9216eea8817b",
                         "source_entry_id": "1de5104b-982b-3a32-9a85-c1cd3435a2b4",
                         "source_sense_description": "withdrawal of military forces",
@@ -1340,6 +1390,15 @@
                         ]
                     },
                     {
+                        "translation_id": "419cb70b-1a3a-406d-b424-d71fc1f09e12",
+                        "source_entry_id": "1de5104b-982b-3a32-9a85-c1cd3435a2b4",
+                        "source_sense_description": "(computing) operation to return the database to the previous commit point",
+                        "target_lang_word": "ロールバック",
+                        "target_lang_code": "ja",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
                         "translation_id": "7b8b2245-b961-4fa2-816f-938d34ab6bd8",
                         "source_entry_id": "1de5104b-982b-3a32-9a85-c1cd3435a2b4",
                         "source_sense_description": "(computing) operation to return the database to the previous commit point",
@@ -1748,6 +1807,65 @@
         "cs-extract.jsonl": [],
         "es-extract.jsonl": [],
         "tr-extract.jsonl": [],
-        "zh-extract.jsonl": []
+        "zh-extract.jsonl": [],
+        "el-extract.jsonl": [
+            {
+                "entry_id": "05107807-17d3-30fb-a72e-893d6270df21",
+                "word": "rollback",
+                "pos": "noun",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "81edd11e-3686-47e2-8506-fc5d0ecaf395",
+                        "entry_id": "05107807-17d3-30fb-a72e-893d6270df21",
+                        "tags": [],
+                        "form": "rollback"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "0c375cb5-1050-3f81-aa1a-3fc3f47330ae",
+                        "entry_id": "05107807-17d3-30fb-a72e-893d6270df21",
+                        "glosses": [
+                            "η επιστροφή σε πρότερη κατάσταση"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    },
+                    {
+                        "sense_id": "e507a8fb-5c40-3400-99dd-361c17f12ab5",
+                        "entry_id": "05107807-17d3-30fb-a72e-893d6270df21",
+                        "glosses": [
+                            "η εντολή (statement) ακύρωσης μιας συναλλαγής (transaction) σε μία βάση δεδομένων και η επαναφορά της στην πρότερη κατάσταση (βλ. ρήμα abort)"
+                        ],
+                        "tags": [
+                            "βάσεις δεδομένων"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "dada608a-154e-49bf-9909-4d5051f1bf64",
+                                "sense_id": "e507a8fb-5c40-3400-99dd-361c17f12ab5",
+                                "text": "If you do not want to save the changes, you can roll back using the ROLLBACK or ROLLBACK TRANSACTION statement"
+                            },
+                            {
+                                "example_id": "95d8e8c1-7cd7-4215-96fe-9fad9a7545ca",
+                                "sense_id": "e507a8fb-5c40-3400-99dd-361c17f12ab5",
+                                "text": "δείτε επίσης:\nrollback (data management) στην αγγλική Βικιπαίδεια"
+                            }
+                        ]
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ],
+        "id-extract.jsonl": [],
+        "ja-extract.jsonl": [],
+        "ko-extract.jsonl": [],
+        "ku-extract.jsonl": [],
+        "ms-extract.jsonl": [],
+        "pt-extract.jsonl": [],
+        "th-extract.jsonl": [],
+        "vi-extract.jsonl": []
     }
 }

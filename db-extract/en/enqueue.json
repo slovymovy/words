@@ -122,6 +122,16 @@
                         "cross_references": []
                     },
                     {
+                        "translation_id": "2cdc16d6-e5e4-4e2c-8a23-39f62a56dde4",
+                        "source_entry_id": "ff5caec4-757e-3d40-a4fc-f4866c1cc2ce",
+                        "source_sense_id": "a9cae9ff-bee8-3987-9151-45a8952ddc30",
+                        "source_sense_description": "to add an item to a queue",
+                        "target_lang_word": "エンキューする",
+                        "target_lang_code": "ja",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    },
+                    {
                         "translation_id": "fb151581-124a-4b1d-903c-e26296f2f713",
                         "source_entry_id": "ff5caec4-757e-3d40-a4fc-f4866c1cc2ce",
                         "source_sense_id": "a9cae9ff-bee8-3987-9151-45a8952ddc30",
@@ -130,6 +140,50 @@
                         "target_lang_code": "pl",
                         "target_sense_ids": [],
                         "cross_references": []
+                    },
+                    {
+                        "translation_id": "6ce9a9d3-a5d0-48f6-8fc0-4a974c36af67",
+                        "source_entry_id": "ff5caec4-757e-3d40-a4fc-f4866c1cc2ce",
+                        "source_sense_id": "a9cae9ff-bee8-3987-9151-45a8952ddc30",
+                        "source_sense_description": "to add an item to a queue",
+                        "target_lang_word": "enfileirar",
+                        "target_lang_code": "pt",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "enfileirar",
+                                "target_lang_code": "pt",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "d1b80c84-8217-3842-934e-ce0628cc6f3a",
+                                        "entry_id": "6a032ec7-3ce0-3408-ab46-f801fe0d7b1b",
+                                        "glosses": [
+                                            "pôr em fileiras"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    },
+                                    {
+                                        "sense_id": "a66049dc-175f-334e-a7a3-80b6cef10444",
+                                        "entry_id": "6a032ec7-3ce0-3408-ab46-f801fe0d7b1b",
+                                        "glosses": [
+                                            "alinhar"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    },
+                                    {
+                                        "sense_id": "a2c6490f-6124-33ad-a27b-bed6e4b6d4a7",
+                                        "entry_id": "6a032ec7-3ce0-3408-ab46-f801fe0d7b1b",
+                                        "glosses": [
+                                            "dispor-se em fileiras"
+                                        ],
+                                        "tags": [],
+                                        "examples": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "translation_id": "bc0480d2-c4ae-4b89-a916-123fa97256a3",
@@ -340,6 +394,76 @@
         "cs-extract.jsonl": [],
         "es-extract.jsonl": [],
         "tr-extract.jsonl": [],
-        "zh-extract.jsonl": []
+        "zh-extract.jsonl": [],
+        "el-extract.jsonl": [
+            {
+                "entry_id": "ffb0f923-d392-32f1-9899-2d1f9ae342fe",
+                "word": "enqueue",
+                "pos": "verb",
+                "lang_code": "en",
+                "forms": [
+                    {
+                        "form_id": "ca454d2b-f52a-436f-9897-760b6a20b682",
+                        "entry_id": "ffb0f923-d392-32f1-9899-2d1f9ae342fe",
+                        "tags": [],
+                        "form": "enqueue"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "8e18aff5-a64d-3224-b3d7-90debd5a6c99",
+                        "entry_id": "ffb0f923-d392-32f1-9899-2d1f9ae342fe",
+                        "glosses": [
+                            "μία από τις δύο βασικές λειτουργίες της ουράς (FIFO) κατά την οποία εισάγεται μια οντότητα (στοιχείο/δεδομένο) στο τέλος της"
+                        ],
+                        "tags": [
+                            "πληροφορική"
+                        ],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": [
+                    {
+                        "linkage_id": "51c0fcf2-1c1a-46c3-bfb4-29ea5d8c9f8d",
+                        "source_entry_id": "ffb0f923-d392-32f1-9899-2d1f9ae342fe",
+                        "source_sense_ids": [
+                            "8e18aff5-a64d-3224-b3d7-90debd5a6c99"
+                        ],
+                        "linkage_type": "antonyms",
+                        "word": "dequeue"
+                    }
+                ]
+            }
+        ],
+        "id-extract.jsonl": [],
+        "ja-extract.jsonl": [],
+        "ko-extract.jsonl": [],
+        "ku-extract.jsonl": [],
+        "ms-extract.jsonl": [],
+        "pt-extract.jsonl": [],
+        "th-extract.jsonl": [],
+        "vi-extract.jsonl": [
+            {
+                "entry_id": "72476036-a976-32b2-a6b0-f140933ca514",
+                "word": "enqueue",
+                "pos": "verb",
+                "lang_code": "en",
+                "forms": [],
+                "senses": [
+                    {
+                        "sense_id": "796dfb17-9627-33a4-8857-ce61f1515537",
+                        "entry_id": "72476036-a976-32b2-a6b0-f140933ca514",
+                        "glosses": [
+                            "Đặt thứ tự, sắp đặt hàng, vào hàng."
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ]
     }
 }

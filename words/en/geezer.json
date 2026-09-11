@@ -317,15 +317,15 @@
                         {
                             "text": "The <w>geezer</w> in the kitchen is leaking and needs to be replaced.",
                             "target_lang_translations": {
-                                "ru": "Водонагреватель на кухне протекает, и его нужно заменить.",
-                                "pl": "Podgrzewacz wody w kuchni przecieka i wymaga wymiany."
+                                "ru": "<w>Водонагреватель</w> на кухне протекает, и его нужно заменить.",
+                                "pl": "<w>Podgrzewacz wody</w> w kuchni przecieka i wymaga wymiany."
                             }
                         },
                         {
                             "text": "We have no hot water because the old <w>geezer</w> stopped working.",
                             "target_lang_translations": {
-                                "ru": "У нас нет горячей воды, потому что старый водонагреватель перестал работать.",
-                                "pl": "Nie mamy ciepłej wody, bo stary podgrzewacz przestał działać."
+                                "ru": "У нас нет горячей воды, потому что старый <w>водонагреватель</w> перестал работать.",
+                                "pl": "Nie mamy ciepłej wody, bo stary <w>podgrzewacz</w> przestał działać."
                             }
                         }
                     ],
@@ -340,8 +340,18 @@
                         "pl": "Domowy podgrzewacz wody."
                     },
                     "translations": {
-                        "ru": [],
-                        "pl": []
+                        "ru": [
+                            {
+                                "target_lang_word": "водонагреватель",
+                                "target_lang_sense_clarification": "бытовой прибор для нагрева воды"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "podgrzewacz wody",
+                                "target_lang_sense_clarification": "domowy bojler"
+                            }
+                        ]
                     }
                 }
             ]

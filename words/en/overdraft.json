@@ -16,10 +16,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "I have an <w>overdraft</w> of five hundred pounds on my account."
+                            "text": "I have an <w>overdraft</w> of five hundred pounds on my account.",
+                            "target_lang_translations": {
+                                "ru": "У меня на счете <w>овердрафт</w> в пятьсот фунтов.",
+                                "nl": "Ik heb een <w>roodstand</w> van vijfhonderd pond op mijn rekening.",
+                                "pl": "Mam <w>debet</w> w wysokości pięciuset funtów na moim koncie.",
+                                "de": "Ich habe eine <w>Überziehung</w> von fünfhundert Pfund auf meinem Konto.",
+                                "fr": "J'ai un <w>découvert</w> de cinq cents livres sur mon compte.",
+                                "it": "Ho uno <w>scoperto</w> di cinquecento sterline sul mio conto.",
+                                "cs": "Na účtu mám <w>přečerpání</w> pět set liber.",
+                                "tr": "Hesabımda beş yüz sterlinlik bir <w>kredili mevduat hesabı borcum</w> var.",
+                                "es": "Tengo un <w>sobregiro</w> de quinientas libras en mi cuenta.",
+                                "zh": "我的账户有五百英镑的<w>透支</w>。"
+                            }
                         },
                         {
-                            "text": "The bank charged me interest because of my large <w>overdraft</w>."
+                            "text": "The bank charged me interest because of my large <w>overdraft</w>.",
+                            "target_lang_translations": {
+                                "ru": "Банк начислил мне проценты из-за моего большого <w>овердрафта</w>.",
+                                "nl": "De bank bracht mij rente in rekening vanwege mijn grote <w>roodstand</w>.",
+                                "pl": "Bank naliczył mi odsetki z powodu mojego dużego <w>debetu</w>.",
+                                "de": "Die Bank hat mir wegen meiner hohen <w>Kontoüberziehung</w> Zinsen berechnet.",
+                                "fr": "La banque m'a facturé des intérêts à cause de mon important <w>découvert</w>.",
+                                "it": "La banca mi ha addebitato degli interessi a causa del mio ampio <w>scoperto</w>.",
+                                "cs": "Banka mi naúčtovala úroky kvůli mému vysokému <w>přečerpání</w>.",
+                                "tr": "Yüksek <w>hesap eksim</w> nedeniyle banka benden faiz aldı.",
+                                "es": "El banco me cobró intereses debido a mi gran <w>sobregiro</w>.",
+                                "zh": "因为我有大额<w>透支</w>，银行向我收取了利息。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -31,7 +55,105 @@
                     "common_phrases": [
                         "bank overdraft",
                         "large overdraft"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Сумма денег, снятая с банковского счета сверх доступного остатка.",
+                        "nl": "Het bedrag dat van een bankrekening is opgenomen en het beschikbare saldo overschrijdt.",
+                        "pl": "Kwota pieniędzy wypłacona z rachunku bankowego, która przekracza dostępny stan środków.",
+                        "de": "Der Betrag, um den ein Bankkonto über das verfügbare Guthaben hinaus belastet wurde.",
+                        "fr": "Montant d'argent retiré d'un compte bancaire qui dépasse le solde disponible.",
+                        "it": "La somma di denaro prelevata da un conto bancario che supera il saldo disponibile.",
+                        "cs": "Částka peněz vybraná z bankovního účtu, která přesahuje dostupný zůstatek.",
+                        "tr": "Bir banka hesabından mevcut bakiyeyi aşan miktarda para çekilmesi durumu.",
+                        "es": "Cantidad de dinero retirada de una cuenta bancaria que supera el saldo disponible.",
+                        "zh": "银行账户中超过可用余额的取款金额。"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "овердрафт",
+                                "target_lang_sense_clarification": "банковский термин для обозначения отрицательного баланса"
+                            },
+                            {
+                                "target_lang_word": "перерасход",
+                                "target_lang_sense_clarification": "общий термин для превышения лимита средств"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "roodstand",
+                                "target_lang_sense_clarification": "het bedrag waarmee men rood staat"
+                            },
+                            {
+                                "target_lang_word": "negatief saldo",
+                                "target_lang_sense_clarification": "het bedrag dat onder nul staat"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "debet",
+                                "target_lang_sense_clarification": "stan ujemny na rachunku bankowym"
+                            },
+                            {
+                                "target_lang_word": "przekroczenie stanu konta",
+                                "target_lang_sense_clarification": "opisowa nazwa sytuacji posiadania ujemnego salda"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Überziehung",
+                                "target_lang_sense_clarification": "Der tatsächliche Betrag, um den das Konto überzogen ist."
+                            },
+                            {
+                                "target_lang_word": "Überziehungskredit",
+                                "target_lang_sense_clarification": "Der in Anspruch genommene Kreditrahmen."
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "découvert",
+                                "target_lang_sense_clarification": "Solde négatif sur un compte bancaire."
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "scoperto",
+                                "target_lang_sense_clarification": "riferito a un conto bancario in rosso"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přečerpání",
+                                "target_lang_sense_clarification": "stav, kdy je účet v záporném zůstatku"
+                            },
+                            {
+                                "target_lang_word": "debet",
+                                "target_lang_sense_clarification": "záporný zůstatek na účtu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hesap eksisi",
+                                "target_lang_sense_clarification": "Bankadaki mevcut paranın bitip eksiye düşülmesi durumu."
+                            },
+                            {
+                                "target_lang_word": "kredili mevduat hesabı borcu",
+                                "target_lang_sense_clarification": "Hesapta para kalmadığında kullanılan krediden kaynaklanan borç."
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "sobregiro",
+                                "target_lang_sense_clarification": "Saldo negativo en una cuenta bancaria."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "透支",
+                                "target_lang_sense_clarification": "指账户余额不足时支取的款项。"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "7de929dc-ddac-35d0-9afc-4b4f10b3dee4",
@@ -42,10 +164,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The bank approved an <w>overdraft</w> of two thousand dollars for my business."
+                            "text": "The bank approved an <w>overdraft</w> of two thousand dollars for my business.",
+                            "target_lang_translations": {
+                                "ru": "Банк одобрил <w>овердрафт</w> в две тысячи долларов для моего бизнеса.",
+                                "nl": "De bank heeft een <w>kredietlimiet</w> van tweeduizend dollar voor mijn bedrijf goedgekeurd.",
+                                "pl": "Bank zatwierdził dla mojej firmy <w>limit debetowy</w> w wysokości dwóch tysięcy dolarów.",
+                                "de": "Die Bank hat einen <w>Dispositionskredit</w> von zweitausend Dollar für mein Unternehmen genehmigt.",
+                                "fr": "La banque a approuvé une <w>autorisation de découvert</w> de deux mille dollars pour mon entreprise.",
+                                "it": "La banca ha approvato un <w>fido bancario</w> di duemila dollari per la mia attività.",
+                                "cs": "Banka mé firmě schválila <w>kontokorent</w> ve výši dva tisíce dolarů.",
+                                "tr": "Banka iş yerim için iki bin dolarlık bir <w>KMH limiti</w> onayladı.",
+                                "es": "El banco aprobó un <w>sobregiro</w> de dos mil dólares para mi negocio.",
+                                "zh": "银行批准了我的企业两千美元的<w>透支额度</w>。"
+                            }
                         },
                         {
-                            "text": "I need to ask the bank to increase my <w>overdraft</w> limit."
+                            "text": "I need to ask the bank to increase my <w>overdraft</w> limit.",
+                            "target_lang_translations": {
+                                "ru": "Мне нужно попросить банк увеличить мой <w>лимит овердрафта</w>.",
+                                "nl": "Ik moet de bank vragen om mijn <w>limiet voor roodstand</w> te verhogen.",
+                                "pl": "Muszę poprosić bank o zwiększenie mojego <w>limitu debetowego</w>.",
+                                "de": "Ich muss die Bank bitten, meinen <w>Überziehungsrahmen</w> zu erhöhen.",
+                                "fr": "Je dois demander à la banque d'augmenter ma <w>limite de découvert</w>.",
+                                "it": "Devo chiedere alla banca di aumentare il mio limite di <w>fido</w>.",
+                                "cs": "Musím požádat banku o zvýšení mého limitu <w>kontokorentu</w>.",
+                                "tr": "Bankadan <w>kredili mevduat hesabı</w> limitimi artırmalarını istemem gerekiyor.",
+                                "es": "Necesito pedirle al banco que aumente mi <w>límite de sobregiro</w>.",
+                                "zh": "我需要申请银行提高我的<w>透支额度</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -54,7 +200,117 @@
                     "common_phrases": [
                         "overdraft limit",
                         "approved overdraft"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Согласованный лимит суммы, которую клиент может снять со своего банковского счета сверх текущего остатка.",
+                        "nl": "Een overeengekomen limiet voor het bedrag dat een klant van zijn bankrekening kan opnemen boven het huidige saldo.",
+                        "pl": "Uzgodniony limit kwoty, o jaką klient może przekroczyć stan środków na swoim rachunku bankowym.",
+                        "de": "Ein vereinbartes Limit, bis zu dem ein Kunde sein Bankkonto überziehen darf.",
+                        "fr": "Limite autorisée par la banque pour le montant qu'un client peut retirer au-delà de son solde actuel.",
+                        "it": "Un limite concordato sull'importo di denaro che un cliente può prelevare dal proprio conto bancario oltre il saldo corrente.",
+                        "cs": "Sjednaný limit, o který může zákazník přečerpat svůj bankovní účet nad rámec aktuálního zůstatku.",
+                        "tr": "Bir müşterinin banka hesabından mevcut bakiyesinin üzerinde çekebileceği para miktarı için belirlenen limit.",
+                        "es": "Límite acordado sobre la cantidad de dinero que un cliente puede retirar de su cuenta bancaria más allá de su saldo actual.",
+                        "zh": "银行同意客户在当前余额之外可额外支取的金额上限。"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "лимит овердрафта",
+                                "target_lang_sense_clarification": "максимально допустимая сумма заемных средств"
+                            },
+                            {
+                                "target_lang_word": "кредитный лимит",
+                                "target_lang_sense_clarification": "максимальная сумма кредита по счету"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "kredietlimiet",
+                                "target_lang_sense_clarification": "de afgesproken limiet voor rood staan"
+                            },
+                            {
+                                "target_lang_word": "limiet voor roodstand",
+                                "target_lang_sense_clarification": "de toegestane grens voor negatief saldo"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "limit debetowy",
+                                "target_lang_sense_clarification": "ustalona przez bank maksymalna kwota zadłużenia"
+                            },
+                            {
+                                "target_lang_word": "kredyt w rachunku bieżącym",
+                                "target_lang_sense_clarification": "formalna nazwa usługi bankowej pozwalającej na ujemne saldo"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Dispositionskredit",
+                                "target_lang_sense_clarification": "Der eingeräumte Kreditrahmen (oft kurz 'Dispo')."
+                            },
+                            {
+                                "target_lang_word": "Überziehungsgrenze",
+                                "target_lang_sense_clarification": "Das festgelegte Limit für eine Kontoüberziehung."
+                            },
+                            {
+                                "target_lang_word": "Dispositionsrahmen",
+                                "target_lang_sense_clarification": "Der finanzielle Spielraum, der dem Kunden eingeräumt wird."
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "autorisation de découvert",
+                                "target_lang_sense_clarification": "Limite de crédit accordée par la banque."
+                            },
+                            {
+                                "target_lang_word": "facilité de caisse",
+                                "target_lang_sense_clarification": "Autorisation ponctuelle de découvert."
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "fido bancario",
+                                "target_lang_sense_clarification": "limite di credito concesso dalla banca"
+                            },
+                            {
+                                "target_lang_word": "apertura di credito",
+                                "target_lang_sense_clarification": "accordo formale per prelevare oltre il saldo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "kontokorent",
+                                "target_lang_sense_clarification": "povolený debetní limit k běžnému účtu"
+                            },
+                            {
+                                "target_lang_word": "povolené přečerpání",
+                                "target_lang_sense_clarification": "oficiální bankovní produkt"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kredili mevduat hesabı limiti",
+                                "target_lang_sense_clarification": "Bankanın müşteriye tanıdığı eksi bakiye kullanma sınırı."
+                            },
+                            {
+                                "target_lang_word": "KMH limiti",
+                                "target_lang_sense_clarification": "Kredili Mevduat Hesabı için kullanılan yaygın kısaltma."
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "límite de sobregiro",
+                                "target_lang_sense_clarification": "El tope máximo permitido para retirar dinero excedente."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "透支额度",
+                                "target_lang_sense_clarification": "银行批准的透支上限。"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6c6d246d-a8c6-38e2-aa45-e488b9d0bb85",
@@ -65,12 +321,110 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Frequent <w>overdraft</w> of your account can lead to high bank fees."
+                            "text": "Frequent <w>overdraft</w> of your account can lead to high bank fees.",
+                            "target_lang_translations": {
+                                "ru": "Частое <w>превышение лимита</w> по вашему счету может привести к высоким банковским комиссиям.",
+                                "nl": "Het frequent <w>rood staan</w> op uw rekening kan leiden tot hoge bankkosten.",
+                                "pl": "Częste <w>przekraczanie salda</w> na koncie może prowadzić do wysokich opłat bankowych.",
+                                "de": "Häufige <w>Kontoüberziehungen</w> können zu hohen Bankgebühren führen.",
+                                "fr": "Le fait de <w>dépasser fréquemment le solde</w> de votre compte peut entraîner des frais bancaires élevés.",
+                                "it": "Andare <w>frequentemente in rosso</w> sul proprio conto può portare a commissioni bancarie elevate.",
+                                "cs": "Časté <w>přečerpávání</w> účtu může vést k vysokým bankovním poplatkům.",
+                                "tr": "Hesabınızı sık sık <w>eksiye düşürmek</w> yüksek banka ücretlerine yol açabilir.",
+                                "es": "El <w>sobregiro</w> frecuente de su cuenta puede generar altas comisiones bancarias.",
+                                "zh": "频繁<w>透支</w>账户可能会导致高额的银行手续费。"
+                            }
                         },
                         {
-                            "text": "The system automatically blocked the <w>overdraft</w> of the account."
+                            "text": "The system automatically blocked the <w>overdraft</w> of the account.",
+                            "target_lang_translations": {
+                                "ru": "Система автоматически заблокировала <w>превышение лимита</w> по счету.",
+                                "nl": "Het systeem blokkeerde automatisch het <w>rood staan</w> van de rekening.",
+                                "pl": "System automatycznie zablokował możliwość <w>przekroczenia salda</w> na koncie.",
+                                "de": "Das System hat die <w>Überziehung</w> des Kontos automatisch blockiert.",
+                                "fr": "Le système a automatiquement bloqué le <w>dépassement</w> du compte.",
+                                "it": "Il sistema ha bloccato automaticamente l'<w>andata in rosso</w> del conto.",
+                                "cs": "Systém automaticky zablokoval <w>přečerpání</w> účtu.",
+                                "tr": "Sistem, hesabın <w>eksiye düşürülmesini</w> otomatik olarak engelledi.",
+                                "es": "El sistema bloqueó automáticamente el <w>sobregiro</w> de la cuenta.",
+                                "zh": "系统自动阻止了该账户的<w>透支</w>。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Процесс снятия с банковского счета суммы, превышающей имеющийся остаток.",
+                        "nl": "De handeling van het opnemen van meer geld van een bankrekening dan er op dat moment beschikbaar is.",
+                        "pl": "Czynność polegająca na wypłaceniu z rachunku bankowego większej kwoty, niż jest aktualnie dostępna.",
+                        "de": "Der Vorgang, mehr Geld von einem Bankkonto abzuheben, als aktuell verfügbar ist.",
+                        "fr": "L'action de retirer plus d'argent d'un compte bancaire que ce qui est disponible.",
+                        "it": "L'atto di prelevare da un conto bancario più denaro di quanto sia attualmente disponibile.",
+                        "cs": "Činnost spočívající ve výběru více peněz z bankovního účtu, než je aktuálně k dispozici.",
+                        "tr": "Bir banka hesabından mevcut olandan daha fazla para çekme eylemi.",
+                        "es": "La acción de retirar más dinero de una cuenta bancaria del que está disponible actualmente.",
+                        "zh": "从银行账户中支取超过现有余额的资金的行为。"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "превышение лимита",
+                                "target_lang_sense_clarification": "действие по выходу за рамки доступных средств"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "rood staan",
+                                "target_lang_sense_clarification": "het proces van meer opnemen dan beschikbaar"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przekroczenie salda",
+                                "target_lang_sense_clarification": "działanie polegające na wyjściu na minus"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Kontoüberziehung",
+                                "target_lang_sense_clarification": "Der Akt des Überziehens des Kontos."
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "dépasser son solde",
+                                "target_lang_sense_clarification": "Action de rendre son compte négatif."
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "andare in rosso",
+                                "target_lang_sense_clarification": "l'azione di superare il saldo disponibile"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přečerpání účtu",
+                                "target_lang_sense_clarification": "proces překročení zůstatku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hesabı eksiye düşürme",
+                                "target_lang_sense_clarification": "Hesap bakiyesini aşarak borçlanma işlemi."
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "sobregiro",
+                                "target_lang_sense_clarification": "La acción o el acto de gastar más fondos de los disponibles."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "透支",
+                                "target_lang_sense_clarification": "指透支这一行为本身。"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a275d5a4-8482-34f0-8fc4-18f16e964382",
@@ -81,12 +435,118 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Severe <w>overdraft</w> of the local aquifer has caused the ground to sink."
+                            "text": "Severe <w>overdraft</w> of the local aquifer has caused the ground to sink.",
+                            "target_lang_translations": {
+                                "ru": "Серьезная <w>чрезмерная откачка</w> воды из местного водоносного горизонта привела к проседанию почвы.",
+                                "nl": "Ernstige <w>overexploitatie</w> van de lokale aquifer heeft ervoor gezorgd dat de grond is verzakt.",
+                                "pl": "Poważna <w>nadmierna eksploatacja</w> lokalnej warstwy wodonośnej spowodowała osiadanie gruntu.",
+                                "de": "Die starke <w>Grundwasserübernutzung</w> des örtlichen Grundwasserleiters hat dazu geführt, dass der Boden abgesackt ist.",
+                                "fr": "La <w>surexploitation</w> sévère de la nappe phréatique locale a provoqué l'affaissement du sol.",
+                                "it": "Il grave <w>sovrasfruttamento</w> della falda acquifera locale ha causato l'abbassamento del terreno.",
+                                "cs": "Závažné <w>nadměrné čerpání</w> místního aquiferu způsobilo pokles půdy.",
+                                "tr": "Yerel akiferden yapılan <w>aşırı yeraltı suyu çekimi</w> zeminin çökmesine neden oldu.",
+                                "es": "La severa <w>sobreexplotación</w> del acuífero local ha provocado que el suelo se hunda.",
+                                "zh": "当地含水层严重的<w>过度开采</w>导致了地面沉降。"
+                            }
                         },
                         {
-                            "text": "Farmers must manage water usage to prevent the <w>overdraft</w> of underground resources."
+                            "text": "Farmers must manage water usage to prevent the <w>overdraft</w> of underground resources.",
+                            "target_lang_translations": {
+                                "ru": "Фермеры должны контролировать использование воды, чтобы предотвратить <w>истощение</w> подземных ресурсов.",
+                                "nl": "Boeren moeten het waterverbruik beheren om de <w>uitputting</w> van ondergrondse bronnen te voorkomen.",
+                                "pl": "Rolnicy muszą zarządzać zużyciem wody, aby zapobiec <w>nadmiernej eksploatacji</w> zasobów podziemnych.",
+                                "de": "Landwirte müssen den Wasserverbrauch steuern, um eine <w>Übernutzung</w> der unterirdischen Ressourcen zu verhindern.",
+                                "fr": "Les agriculteurs doivent gérer leur consommation d'eau pour éviter la <w>surexploitation</w> des ressources souterraines.",
+                                "it": "Gli agricoltori devono gestire l'utilizzo dell'acqua per prevenire il <w>sovrasfruttamento</w> delle risorse sotterranee.",
+                                "cs": "Zemědělci musí hospodařit s vodou tak, aby zabránili <w>nadměrnému čerpání</w> podzemních zdrojů.",
+                                "tr": "Çiftçiler, yeraltı kaynaklarının <w>aşırı tüketilmesini</w> önlemek için su kullanımını yönetmelidir.",
+                                "es": "Los agricultores deben gestionar el uso del agua para evitar la <w>sobreexplotación</w> de los recursos subterráneos.",
+                                "zh": "农民必须管理用水量，以防止对地下资源的<w>过度开采</w>。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Извлечение подземных вод из водоносного горизонта со скоростью, превышающей скорость их естественного восполнения.",
+                        "nl": "Het onttrekken van grondwater aan een aquifer in een tempo dat sneller is dan de natuurlijke aanvulling.",
+                        "pl": "Wydobywanie wód gruntowych z warstwy wodonośnej w tempie szybszym, niż są one naturalnie uzupełniane.",
+                        "de": "Die Entnahme von Grundwasser aus einem Grundwasserleiter in einer Geschwindigkeit, die die natürliche Regeneration übersteigt.",
+                        "fr": "Extraction d'eau souterraine d'une nappe phréatique à un rythme plus rapide que sa reconstitution naturelle.",
+                        "it": "L'estrazione di acqua sotterranea da una falda acquifera a una velocità superiore a quella con cui può essere naturalmente reintegrata.",
+                        "cs": "Odčerpávání podzemní vody z aquiferu rychleji, než se přirozeně obnovuje.",
+                        "tr": "Yeraltı suyunun, doğal yollarla yenilenme hızından daha hızlı bir şekilde akiferden çekilmesi.",
+                        "es": "Extracción de agua subterránea de un acuífero a una velocidad mayor a la que puede reponerse naturalmente.",
+                        "zh": "地下水开采速度超过其自然补给速度的现象。"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "чрезмерная откачка",
+                                "target_lang_sense_clarification": "экологический термин для истощения ресурсов"
+                            },
+                            {
+                                "target_lang_word": "истощение запасов",
+                                "target_lang_sense_clarification": "процесс исчерпания природных ресурсов"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "overexploitatie",
+                                "target_lang_sense_clarification": "het overmatig onttrekken van natuurlijke hulpbronnen"
+                            },
+                            {
+                                "target_lang_word": "uitputting",
+                                "target_lang_sense_clarification": "het leegmaken van een watervoorraad"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "nadmierna eksploatacja wód",
+                                "target_lang_sense_clarification": "ekologiczny termin dotyczący wyczerpywania zasobów wodnych"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Grundwasserübernutzung",
+                                "target_lang_sense_clarification": "Übermäßige Entnahme von Grundwasser."
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "surexploitation",
+                                "target_lang_sense_clarification": "Utilisation excessive d'une ressource naturelle."
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sovrasfruttamento",
+                                "target_lang_sense_clarification": "estrazione eccessiva di risorse idriche"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nadměrné čerpání",
+                                "target_lang_sense_clarification": "v kontextu vodních zdrojů"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "aşırı yeraltı suyu çekimi",
+                                "target_lang_sense_clarification": "Yeraltı su kaynaklarının kapasitesinin üzerinde tüketilmesi."
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "sobreexplotación",
+                                "target_lang_sense_clarification": "Uso excesivo de recursos naturales, como acuíferos."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "过度开采",
+                                "target_lang_sense_clarification": "指对地下水等资源的超量提取。"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "40d502a9-81e1-3229-b5e7-5c4d62f5dbf5",
@@ -97,12 +557,110 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The furnace design includes an <w>overdraft</w> to improve combustion efficiency."
+                            "text": "The furnace design includes an <w>overdraft</w> to improve combustion efficiency.",
+                            "target_lang_translations": {
+                                "ru": "Конструкция печи включает <w>верхнее дутье</w> для повышения эффективности сгорания.",
+                                "nl": "Het ovenontwerp bevat een <w>bovenwind</w> om de verbrandingsefficiëntie te verbeteren.",
+                                "pl": "Konstrukcja pieca zawiera <w>nawiew górny</w> w celu poprawy wydajności spalania.",
+                                "de": "Die Ofenkonstruktion beinhaltet eine <w>Oberluftzufuhr</w>, um die Verbrennungseffizienz zu verbessern.",
+                                "fr": "La conception du four inclut une <w>arrivée d'air secondaire</w> pour améliorer l'efficacité de la combustion.",
+                                "it": "Il design della fornace include un <w>tiraggio forzato</w> per migliorare l'efficienza della combustione.",
+                                "cs": "Konstrukce pece zahrnuje <w>přísun vzduchu</w> pro zlepšení účinnosti spalování.",
+                                "tr": "Fırın tasarımı, yanma verimliliğini artırmak için bir <w>üstten hava çekişi</w> içerir.",
+                                "es": "El diseño del horno incluye un <w>tiro forzado</w> para mejorar la eficiencia de la combustión.",
+                                "zh": "该炉膛设计包含一套<w>上部通风</w>系统以提高燃烧效率。"
+                            }
                         },
                         {
-                            "text": "Adjusting the <w>overdraft</w> helps control the temperature inside the industrial furnace."
+                            "text": "Adjusting the <w>overdraft</w> helps control the temperature inside the industrial furnace.",
+                            "target_lang_translations": {
+                                "ru": "Регулировка <w>верхнего дутья</w> помогает контролировать температуру внутри промышленной печи.",
+                                "nl": "Het aanpassen van de <w>bovenwind</w> helpt de temperatuur in de industriële oven te regelen.",
+                                "pl": "Regulacja <w>nawiewu górnego</w> pomaga kontrolować temperaturę wewnątrz pieca przemysłowego.",
+                                "de": "Das Einstellen der <w>Oberluft</w> hilft dabei, die Temperatur im Industrieofen zu regeln.",
+                                "fr": "Régler l'<w>arrivée d'air secondaire</w> aide à contrôler la température à l'intérieur du four industriel.",
+                                "it": "Regolare il <w>tiraggio forzato</w> aiuta a controllare la temperatura all'interno della fornace industriale.",
+                                "cs": "Nastavení <w>přísunu vzduchu</w> pomáhá regulovat teplotu uvnitř průmyslové pece.",
+                                "tr": "<w>Üstten hava çekişini</w> ayarlamak, endüstriyel fırının içindeki sıcaklığı kontrol etmeye yardımcı olur.",
+                                "es": "Ajustar el <w>tiro forzado</w> ayuda a controlar la temperatura dentro del horno industrial.",
+                                "zh": "调节<w>上部通风</w>有助于控制工业炉内的温度。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Система воздушных каналов в печи, нагнетающая воздух через топливо.",
+                        "nl": "Een systeem van luchtkanalen in een oven dat lucht door de brandstof perst.",
+                        "pl": "System kanałów powietrznych w piecu, który wymusza przepływ powietrza przez paliwo.",
+                        "de": "Ein System von Luftkanälen in einem Ofen, das Luft durch den Brennstoff leitet.",
+                        "fr": "Système de canaux d'air dans un four qui force l'air à travers le combustible.",
+                        "it": "Un sistema di canali d'aria in una fornace che forza l'aria attraverso il combustibile.",
+                        "cs": "Systém vzduchových kanálů v peci, který vhání vzduch přes palivo.",
+                        "tr": "Bir fırında havayı yakıtın içinden geçmeye zorlayan hava kanalları sistemi.",
+                        "es": "Sistema de canales de aire en un horno que fuerza el paso del aire a través del combustible.",
+                        "zh": "一种强制空气通过燃料的炉膛通风系统。"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "верхнее дутье",
+                                "target_lang_sense_clarification": "технический термин для подачи воздуха в топку"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "bovenwind",
+                                "target_lang_sense_clarification": "luchttoevoer boven het brandstofbed in een oven"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "nawiew górny",
+                                "target_lang_sense_clarification": "techniczne określenie dopływu powietrza w piecu"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Oberluft",
+                                "target_lang_sense_clarification": "Luftzufuhr oberhalb des Brennstoffbetts in einem Ofen."
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "arrivée d'air secondaire",
+                                "target_lang_sense_clarification": "Apport d'air au-dessus du foyer pour améliorer la combustion."
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "tiraggio forzato",
+                                "target_lang_sense_clarification": "sistema di ventilazione in un forno"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přísun vzduchu",
+                                "target_lang_sense_clarification": "technický systém v peci"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "üstten hava çekişi",
+                                "target_lang_sense_clarification": "Fırınlarda yanmayı artırmak için kullanılan hava sistemi."
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "tiro forzado",
+                                "target_lang_sense_clarification": "Sistema técnico para mejorar la combustión mediante el flujo de aire."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "上部通风",
+                                "target_lang_sense_clarification": "工业炉中用于改善燃烧的通风设计。"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -118,12 +676,114 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Industrial farms continue to <w>overdraft</w> the aquifer despite warnings from scientists."
+                            "text": "Industrial farms continue to <w>overdraft</w> the aquifer despite warnings from scientists.",
+                            "target_lang_translations": {
+                                "ru": "Промышленные фермы продолжают <w>чрезмерно откачивать</w> воду из водоносного горизонта, несмотря на предупреждения ученых.",
+                                "nl": "Industriële boerderijen blijven de aquifer <w>overmatig onttrekken</w> ondanks waarschuwingen van wetenschappers.",
+                                "pl": "Gospodarstwa przemysłowe nadal <w>nadmiernie eksploatują</w> warstwę wodonośną pomimo ostrzeżeń naukowców.",
+                                "de": "Industriebetriebe <w>übernutzen</w> weiterhin den Grundwasserleiter, trotz der Warnungen von Wissenschaftlern.",
+                                "fr": "Les fermes industrielles continuent de <w>surexploiter</w> la nappe phréatique malgré les avertissements des scientifiques.",
+                                "it": "Le aziende agricole industriali continuano a <w>sovrasfruttare</w> la falda acquifera nonostante gli avvertimenti degli scienziati.",
+                                "cs": "Průmyslové farmy navzdory varování vědců nadále <w>nadměrně čerpají</w> aquifer.",
+                                "tr": "Endüstriyel çiftlikler, bilim insanlarının uyarılarına rağmen akiferden <w>aşırı su çekmeye</w> devam ediyor.",
+                                "es": "Las granjas industriales continúan <w>sobreexplotando</w> el acuífero a pesar de las advertencias de los científicos.",
+                                "zh": "尽管有科学家的警告，工业农场仍在继续<w>过度开采</w>含水层。"
+                            }
                         },
                         {
-                            "text": "If we <w>overdraft</w> the water supply, the wells will eventually run dry."
+                            "text": "If we <w>overdraft</w> the water supply, the wells will eventually run dry.",
+                            "target_lang_translations": {
+                                "ru": "Если мы будем <w>чрезмерно откачивать</w> воду, колодцы со временем пересохнут.",
+                                "nl": "Als we de watervoorraad <w>uitputten</w>, zullen de putten uiteindelijk droogvallen.",
+                                "pl": "Jeśli będziemy <w>nadmiernie eksploatować</w> zasoby wodne, studnie w końcu wyschną.",
+                                "de": "Wenn wir die Wasserreserven <w>übermäßig anzapfen</w>, werden die Brunnen irgendwann austrocknen.",
+                                "fr": "Si nous <w>surexploitons</w> l'approvisionnement en eau, les puits finiront par s'assécher.",
+                                "it": "Se <w>sovrasfruttiamo</w> la riserva idrica, i pozzi finiranno per prosciugarsi.",
+                                "cs": "Pokud budeme <w>nadměrně čerpat</w> zásoby vody, studny nakonec vyschnou.",
+                                "tr": "Su kaynağını <w>aşırı tüketirsek</w>, kuyular sonunda kuruyacaktır.",
+                                "es": "Si <w>sobreexplotamos</w> el suministro de agua, los pozos eventualmente se secarán.",
+                                "zh": "如果我们对供水进行<w>过度开采</w>，水井最终会干涸。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "ru": "Извлекать подземные воды из водоносного горизонта быстрее, чем они восполняются естественным путем.",
+                        "nl": "Grondwater uit een aquifer onttrekken in een tempo dat sneller is dan de natuurlijke aanvulling.",
+                        "pl": "Wydobywać wody gruntowe z warstwy wodonośnej szybciej, niż są one naturalnie uzupełniane.",
+                        "de": "Grundwasser schneller aus einem Grundwasserleiter entnehmen, als es natürlich ersetzt wird.",
+                        "fr": "Extraire de l'eau souterraine d'une nappe phréatique plus rapidement qu'elle n'est naturellement remplacée.",
+                        "it": "Estrarre acqua sotterranea da una falda acquifera più velocemente di quanto venga naturalmente sostituita.",
+                        "cs": "Těžit podzemní vodu z aquiferu rychleji, než je přirozeně nahrazována.",
+                        "tr": "Yeraltı suyunu, doğal olarak yenilenme hızından daha hızlı bir şekilde akiferden çıkarmak.",
+                        "es": "Extraer agua subterránea de un acuífero más rápido de lo que se reemplaza naturalmente.",
+                        "zh": "以超过自然补给的速度开采地下水。"
+                    },
+                    "translations": {
+                        "ru": [
+                            {
+                                "target_lang_word": "чрезмерно откачивать",
+                                "target_lang_sense_clarification": "глагол, описывающий истощение водоносных слоев"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "overmatig onttrekken",
+                                "target_lang_sense_clarification": "te veel water uit de grond halen"
+                            },
+                            {
+                                "target_lang_word": "uitputten",
+                                "target_lang_sense_clarification": "een voorraad volledig verbruiken"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "nadmiernie eksploatować",
+                                "target_lang_sense_clarification": "w kontekście zasobów naturalnych"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "übernutzen",
+                                "target_lang_sense_clarification": "Ressourcen über das nachhaltige Maß hinaus beanspruchen."
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "surexploiter",
+                                "target_lang_sense_clarification": "Exploiter une ressource au-delà de sa capacité de renouvellement."
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sovrasfruttare",
+                                "target_lang_sense_clarification": "estrarre risorse oltre il tasso di rigenerazione"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nadměrně čerpat",
+                                "target_lang_sense_clarification": "v kontextu vodních zdrojů"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "aşırı su çekmek",
+                                "target_lang_sense_clarification": "Yeraltı su kaynaklarını sürdürülebilir olmayan bir hızla tüketmek."
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "sobreexplotar",
+                                "target_lang_sense_clarification": "Verbo que indica el uso excesivo de un recurso natural."
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "过度开采",
+                                "target_lang_sense_clarification": "指对地下水资源的超量提取行为。"
+                            }
+                        ]
+                    }
                 }
             ]
         }

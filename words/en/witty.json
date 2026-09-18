@@ -124,13 +124,13 @@
                         {
                             "text": "The research paper was written by a professor named <w>Witty</w>.",
                             "target_lang_translations": {
-                                "ru": "Научная статья была написана профессором по фамилии Уитти."
+                                "ru": "Научная статья была написана профессором по фамилии <w>Уитти</w>."
                             }
                         },
                         {
                             "text": "I met a man named Mr. <w>Witty</w> at the conference yesterday.",
                             "target_lang_translations": {
-                                "ru": "Вчера на конференции я встретил человека по фамилии Уитти."
+                                "ru": "Вчера на конференции я встретил человека по фамилии <w>Уитти</w>."
                             }
                         }
                     ],
@@ -144,7 +144,12 @@
                         "ru": "Фамилия."
                     },
                     "translations": {
-                        "ru": []
+                        "ru": [
+                            {
+                                "target_lang_word": "Уитти",
+                                "target_lang_sense_clarification": "фамилия, транслитерация"
+                            }
+                        ]
                     }
                 }
             ]

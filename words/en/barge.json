@@ -181,13 +181,13 @@
                         {
                             "text": "The historical records mention a man named Mr. <w>Barge</w> who lived in the village.",
                             "target_lang_translations": {
-                                "fr": "Les archives historiques mentionnent un homme nommé M. Barge qui vivait dans le village."
+                                "fr": "Les archives historiques mentionnent un homme nommé M. <w>Barge</w> qui vivait dans le village."
                             }
                         },
                         {
                             "text": "I met a researcher named Dr. <w>Barge</w> at the conference last week.",
                             "target_lang_translations": {
-                                "fr": "J'ai rencontré un chercheur nommé Dr Barge à la conférence la semaine dernière."
+                                "fr": "J'ai rencontré un chercheur nommé Dr <w>Barge</w> à la conférence la semaine dernière."
                             }
                         }
                     ],
@@ -201,7 +201,12 @@
                         "fr": "Un nom de famille."
                     },
                     "translations": {
-                        "fr": []
+                        "fr": [
+                            {
+                                "target_lang_word": "Barge",
+                                "target_lang_sense_clarification": "nom de famille; ne se traduit pas"
+                            }
+                        ]
                     }
                 }
             ]

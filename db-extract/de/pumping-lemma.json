@@ -1,0 +1,211 @@
+{
+    "word": "pumping-lemma",
+    "lang_code": "de",
+    "source_file_to_entries": {
+        "raw-wiktextract-data.jsonl": [],
+        "ru-extract.jsonl": [],
+        "nl-extract.jsonl": [],
+        "pl-extract.jsonl": [],
+        "fr-extract.jsonl": [],
+        "it-extract.jsonl": [],
+        "de-extract.jsonl": [
+            {
+                "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                "word": "Pumping-Lemma",
+                "pos": "noun",
+                "lang_code": "de",
+                "forms": [
+                    {
+                        "form_id": "6be6a4a0-3e71-4065-b032-a15bd25d8fe5",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "nominative",
+                            "singular"
+                        ],
+                        "form": "das Pumping-Lemma"
+                    },
+                    {
+                        "form_id": "5a2d5be6-dfa1-4df4-befb-772653afad80",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "nominative",
+                            "plural"
+                        ],
+                        "form": "die Pumping-Lemmata"
+                    },
+                    {
+                        "form_id": "f679ed8c-52ea-4fb6-89ef-b0094b6f9663",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "genitive",
+                            "singular"
+                        ],
+                        "form": "des Pumping-Lemmas"
+                    },
+                    {
+                        "form_id": "471c65d7-9100-4bb7-b7c1-3ce211300923",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "genitive",
+                            "plural"
+                        ],
+                        "form": "der Pumping-Lemmata"
+                    },
+                    {
+                        "form_id": "c584b484-06d4-4a3f-8cf1-cd389fd49c83",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "dative",
+                            "singular"
+                        ],
+                        "form": "dem Pumping-Lemma"
+                    },
+                    {
+                        "form_id": "6414374b-5156-41f8-a66b-b8b551bb07bf",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "dative",
+                            "plural"
+                        ],
+                        "form": "den Pumping-Lemmata"
+                    },
+                    {
+                        "form_id": "698f639d-158b-4cde-a254-c986e425e297",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "accusative",
+                            "singular"
+                        ],
+                        "form": "das Pumping-Lemma"
+                    },
+                    {
+                        "form_id": "2a2281dd-79bf-46ee-80af-2a36439fba1c",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "tags": [
+                            "accusative",
+                            "plural"
+                        ],
+                        "form": "die Pumping-Lemmata"
+                    }
+                ],
+                "senses": [
+                    {
+                        "sense_id": "aeda06d7-523d-35f3-9692-9dd555b373d6",
+                        "entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "glosses": [
+                            "Satz über die Eigenschaft bestimmter Sprachklassen, ab einer gewissen Wortlänge nur Wörter mit beliebig wiederholbaren Teilstrings zu enthalten"
+                        ],
+                        "tags": [
+                            "Theorie formaler Sprachen"
+                        ],
+                        "examples": [
+                            {
+                                "example_id": "6571dcf2-ec6c-4c3e-a664-eac893140139",
+                                "sense_id": "aeda06d7-523d-35f3-9692-9dd555b373d6",
+                                "text": "Für reguläre Sprachen und für kontextfreie Sprachen gilt jeweils ein spezielles Pumping-Lemma."
+                            }
+                        ],
+                        "sense_index_json": "\"1\""
+                    }
+                ],
+                "translations": [
+                    {
+                        "translation_id": "4986608d-4b74-47c8-a8c9-b11c659a7214",
+                        "source_entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "source_sense_id": "aeda06d7-523d-35f3-9692-9dd555b373d6",
+                        "target_lang_word": "pumping lemma",
+                        "target_lang_code": "en",
+                        "target_sense_ids": [],
+                        "cross_references": [
+                            {
+                                "target_word": "pumping lemma",
+                                "target_lang_code": "en",
+                                "target_senses": [
+                                    {
+                                        "sense_id": "6d4b3887-0782-30bd-bc00-170c9d567dc0",
+                                        "entry_id": "2f28975b-bf13-3dd6-ad7d-f75ea392e91a",
+                                        "glosses": [
+                                            "A lemma which states that for a language to be a member of a language class any sufficiently long string in the language contains a section that can be removed or repeated any number of times with the resulting string remaining in the language, used to determine if a particular language is in a given language class (e.g. not regular)."
+                                        ],
+                                        "tags": [],
+                                        "examples": [
+                                            {
+                                                "example_id": "df74a2d8-e1cd-404e-9d94-45991e864078",
+                                                "sense_id": "6d4b3887-0782-30bd-bc00-170c9d567dc0",
+                                                "text": "There is a pumping lemma for CFLs similar to the one for regular sets. It can be used in the same way to show that certain sets are not context-free."
+                                            },
+                                            {
+                                                "example_id": "b2e5dc1a-a25a-4f80-9f49-51b1619c03a5",
+                                                "sense_id": "6d4b3887-0782-30bd-bc00-170c9d567dc0",
+                                                "text": "In the literature one finds many pumping lemmas which describe the ability to repeat (pump) certain words repeatedly in some languages, under different circumstances."
+                                            },
+                                            {
+                                                "example_id": "61748446-3d12-4fde-999f-149aee970211",
+                                                "sense_id": "6d4b3887-0782-30bd-bc00-170c9d567dc0",
+                                                "text": "String-language hierarchies are usually proven using formalism-specific pumping lemmata."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "translation_id": "c3e3f8e9-dde4-43de-aff7-6253e4e3230b",
+                        "source_entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "source_sense_id": "aeda06d7-523d-35f3-9692-9dd555b373d6",
+                        "target_lang_word": "pumping argument",
+                        "target_lang_code": "en",
+                        "target_sense_ids": [],
+                        "cross_references": []
+                    }
+                ],
+                "word_linkages": [
+                    {
+                        "linkage_id": "99d0c0c8-2652-4cb7-bcd6-6dee129d19e7",
+                        "source_entry_id": "6818bdad-633c-3175-a588-611247e69adf",
+                        "source_sense_ids": [
+                            "aeda06d7-523d-35f3-9692-9dd555b373d6"
+                        ],
+                        "linkage_type": "synonyms",
+                        "word": "Schleifensatz"
+                    }
+                ]
+            }
+        ],
+        "cs-extract.jsonl": [],
+        "es-extract.jsonl": [],
+        "tr-extract.jsonl": [],
+        "zh-extract.jsonl": [
+            {
+                "entry_id": "24cbd17f-381a-3054-a4e4-dfac9b218085",
+                "word": "Pumping-Lemma",
+                "pos": "noun",
+                "lang_code": "de",
+                "forms": [],
+                "senses": [
+                    {
+                        "sense_id": "e49aca60-d907-39a9-8ba4-2d59e4d710e0",
+                        "entry_id": "24cbd17f-381a-3054-a4e4-dfac9b218085",
+                        "glosses": [
+                            "〈中〉 [数学]泵定理"
+                        ],
+                        "tags": [],
+                        "examples": []
+                    }
+                ],
+                "translations": [],
+                "word_linkages": []
+            }
+        ],
+        "el-extract.jsonl": [],
+        "id-extract.jsonl": [],
+        "ja-extract.jsonl": [],
+        "ko-extract.jsonl": [],
+        "ku-extract.jsonl": [],
+        "ms-extract.jsonl": [],
+        "pt-extract.jsonl": [],
+        "th-extract.jsonl": [],
+        "vi-extract.jsonl": []
+    }
+}

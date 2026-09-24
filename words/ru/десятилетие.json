@@ -18,15 +18,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "За последнее <десятилетие> технологии шагнули далеко вперёд.",
+                            "text": "За последнее <w>десятилетие</w> технологии шагнули далеко вперёд.",
                             "target_lang_translations": {
-                                "en": "Over the last <decade>, technology has made great strides."
+                                "en": "Over the last <w>decade</w>, technology has made great strides.",
+                                "nl": "In het afgelopen <w>decennium</w> zijn technologische ontwikkelingen ver vooruitgegaan.",
+                                "pl": "W ostatnim <w>dziesięcioleciu</w> technologia poczyniła ogromne postępy.",
+                                "de": "Im letzten <w>Jahrzehnt</w> haben technologische Fortschritte große Sprünge gemacht.",
+                                "fr": "Au cours de la dernière <w>décennie</w>, la technologie a fait de grands progrès.",
+                                "it": "Nell'ultimo <w>decennio</w> la tecnologia ha fatto grandi passi avanti.",
+                                "cs": "Během posledního <w>desetiletí</w> udělaly technologie velký pokrok.",
+                                "tr": "Son <w>onyıl</w> içinde teknoloji büyük bir ilerleme kaydetti.",
+                                "es": "Durante la última <w>década</w>, la tecnología ha avanzado mucho.",
+                                "zh": "在过去的<w>十年</w>里，科技取得了巨大的进步。"
                             }
                         },
                         {
-                            "text": "Этот конфликт продолжался целое <десятилетие>.",
+                            "text": "Этот конфликт продолжался целое <w>десятилетие</w>.",
                             "target_lang_translations": {
-                                "en": "This conflict continued for a whole <decade>."
+                                "en": "This conflict continued for a whole <w>decade</w>.",
+                                "nl": "Dit conflict duurde een heel <w>decennium</w>.",
+                                "pl": "Ten konflikt trwał całą <w>dekadę</w>.",
+                                "de": "Dieser Konflikt dauerte ein ganzes <w>Jahrzehnt</w> an.",
+                                "fr": "Ce conflit a duré une <w>décennie</w> entière.",
+                                "it": "Questo conflitto è durato un intero <w>decennio</w>.",
+                                "cs": "Tento konflikt trval celé <w>desetiletí</w>.",
+                                "tr": "Bu çatışma tam bir <w>onyıl</w> sürdü.",
+                                "es": "Este conflicto duró toda una <w>década</w>.",
+                                "zh": "这场冲突持续了整整<w>十年</w>。"
                             }
                         }
                     ],
@@ -39,13 +57,88 @@
                         "на протяжении десятилетий"
                     ],
                     "target_lang_definitions": {
-                        "en": "A period of ten years"
+                        "en": "A period of ten years",
+                        "nl": "Een periode van tien jaar.",
+                        "pl": "Okres trwający dziesięć lat.",
+                        "de": "Ein Zeitraum von zehn Jahren",
+                        "fr": "Une période de dix ans.",
+                        "it": "Un periodo di dieci anni.",
+                        "cs": "Období deseti let.",
+                        "tr": "On yıllık bir zaman dilimi",
+                        "es": "Un periodo de diez años.",
+                        "zh": "指十年的时间段"
                     },
                     "translations": {
                         "en": [
                             {
                                 "target_lang_word": "decade",
                                 "target_lang_sense_clarification": "period of 10 years"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "decennium",
+                                "target_lang_sense_clarification": "periode van 10 jaar"
+                            },
+                            {
+                                "target_lang_word": "tien jaar",
+                                "target_lang_sense_clarification": "letterlijke aanduiding van een periode van 10 jaar"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dziesięciolecie",
+                                "target_lang_sense_clarification": "okres dziesięciu lat"
+                            },
+                            {
+                                "target_lang_word": "dekada",
+                                "target_lang_sense_clarification": "okres dziesięciu lat"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Jahrzehnt",
+                                "target_lang_sense_clarification": "Zeitraum von zehn Jahren"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "décennie",
+                                "target_lang_sense_clarification": "période de dix ans"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "decennio",
+                                "target_lang_sense_clarification": "periodo di dieci anni"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "desetiletí",
+                                "target_lang_sense_clarification": "období deseti let"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "onyıl",
+                                "target_lang_sense_clarification": "10 yıllık süre"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "década",
+                                "target_lang_sense_clarification": "periodo de diez años"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "十年",
+                                "target_lang_sense_clarification": "指十年的时间跨度"
+                            },
+                            {
+                                "target_lang_word": "年代",
+                                "target_lang_sense_clarification": "指特定世纪中的十年时期"
                             }
                         ]
                     }
@@ -59,15 +152,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "В этом году музей торжественно отметил своё <десятилетие>.",
+                            "text": "В этом году музей торжественно отметил своё <w>десятилетие</w>.",
                             "target_lang_translations": {
-                                "en": "This year the museum solemnly celebrated its <tenth anniversary>."
+                                "en": "This year the museum solemnly celebrated its <w>tenth anniversary</w>.",
+                                "nl": "Dit jaar vierde het museum plechtig zijn <w>tienjarig jubileum</w>.",
+                                "pl": "W tym roku muzeum uroczyście obchodziło swoje <w>dziesięciolecie</w>.",
+                                "de": "In diesem Jahr feierte das Museum feierlich sein <w>zehnjähriges Jubiläum</w>.",
+                                "fr": "Cette année, le musée a célébré solennellement son <w>dixième anniversaire</w>.",
+                                "it": "Quest'anno il museo ha celebrato solennemente il suo <w>decimo anniversario</w>.",
+                                "cs": "Letos muzeum slavnostně oslavilo své <w>desáté výročí</w>.",
+                                "tr": "Müze bu yıl <w>onuncu yıl dönümünü</w> törenle kutladı.",
+                                "es": "Este año el museo celebró solemnemente su <w>décimo aniversario</w>.",
+                                "zh": "今年博物馆隆重地庆祝了它的<w>十周年</w>。"
                             }
                         },
                         {
-                            "text": "Мы получили приглашение на <десятилетие> свадьбы наших друзей.",
+                            "text": "Мы получили приглашение на <w>десятилетие</w> свадьбы наших друзей.",
                             "target_lang_translations": {
-                                "en": "We received an invitation to the <tenth anniversary> of our friends' wedding."
+                                "en": "We received an invitation to the <w>tenth anniversary</w> of our friends' wedding.",
+                                "nl": "We hebben een uitnodiging ontvangen voor het <w>tienjarig huwelijksjubileum</w> van onze vrienden.",
+                                "pl": "Otrzymaliśmy zaproszenie na <w>dziesięciolecie</w> ślubu naszych przyjaciół.",
+                                "de": "Wir haben eine Einladung zum <w>zehnten Hochzeitstag</w> unserer Freunde erhalten.",
+                                "fr": "Nous avons reçu une invitation pour le <w>dixième anniversaire</w> de mariage de nos amis.",
+                                "it": "Abbiamo ricevuto un invito per il <w>decimo anniversario</w> di matrimonio dei nostri amici.",
+                                "cs": "Dostali jsme pozvánku na <w>desáté výročí</w> svatby našich přátel.",
+                                "tr": "Arkadaşlarımızın evliliklerinin <w>onuncu yıl dönümü</w> için davetiye aldık.",
+                                "es": "Recibimos una invitación para el <w>décimo aniversario</w> de bodas de nuestros amigos.",
+                                "zh": "我们收到了朋友结婚<w>十周年</w>纪念日的邀请。"
                             }
                         }
                     ],
@@ -76,13 +187,88 @@
                         "праздновать десятилетие"
                     ],
                     "target_lang_definitions": {
-                        "en": "The tenth anniversary of an event or activity"
+                        "en": "The tenth anniversary of an event or activity",
+                        "nl": "De tiende verjaardag of jubileum van een gebeurtenis.",
+                        "pl": "Dziesiąta rocznica jakiegoś wydarzenia lub rozpoczęcia działalności.",
+                        "de": "Der zehnte Jahrestag eines Ereignisses oder einer Tätigkeit",
+                        "fr": "Le dixième anniversaire d'un événement ou d'une activité.",
+                        "it": "Il decimo anniversario di un evento o di un'attività.",
+                        "cs": "Desáté výročí nějaké události nebo činnosti.",
+                        "tr": "Bir olayın veya faaliyetin onuncu yıl dönümü",
+                        "es": "El décimo aniversario de un evento o actividad.",
+                        "zh": "某事件或活动发生后的第十年纪念日"
                     },
                     "translations": {
                         "en": [
                             {
                                 "target_lang_word": "tenth anniversary",
                                 "target_lang_sense_clarification": "celebration of 10 years"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "tienjarig jubileum",
+                                "target_lang_sense_clarification": "viering van 10 jaar bestaan"
+                            },
+                            {
+                                "target_lang_word": "tiende verjaardag",
+                                "target_lang_sense_clarification": "de dag waarop iets 10 jaar geleden plaatsvond"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dziesięciolecie",
+                                "target_lang_sense_clarification": "dziesiąta rocznica"
+                            },
+                            {
+                                "target_lang_word": "dziesięciolecie istnienia",
+                                "target_lang_sense_clarification": "dziesiąta rocznica powstania lub działalności"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "zehnjähriges Jubiläum",
+                                "target_lang_sense_clarification": "Feier zum zehnjährigen Bestehen"
+                            },
+                            {
+                                "target_lang_word": "zehnter Jahrestag",
+                                "target_lang_sense_clarification": "der Tag, der sich zum zehnten Mal jährt"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "dixième anniversaire",
+                                "target_lang_sense_clarification": "célébration de dix ans"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "decimo anniversario",
+                                "target_lang_sense_clarification": "celebrazione dei dieci anni di un evento"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "desáté výročí",
+                                "target_lang_sense_clarification": "oslava deseti let od události"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "onuncu yıl dönümü",
+                                "target_lang_sense_clarification": "bir olayın 10. yılı kutlaması"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "décimo aniversario",
+                                "target_lang_sense_clarification": "celebración de diez años"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "十周年",
+                                "target_lang_sense_clarification": "指十周年的纪念"
                             }
                         ]
                     }

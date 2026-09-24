@@ -47,7 +47,7 @@
                                 "cs": "Nasbíral nějaké suché <w>dříví</w>, aby rozdělal oheň na pláži.",
                                 "tr": "Plajda ateş yakmak için biraz kuru <w>odun</w> topladı.",
                                 "es": "Recogió un poco de <w>leña</w> seca para encender una fogata en la playa.",
-                                "zh": "他在海滩上收集了一些干<w>柴</w>来生火。"
+                                "zh": "他在海滩上收集了一些干<w>木头</w>来生火。"
                             }
                         }
                     ],
@@ -205,13 +205,13 @@
                     ],
                     "synonyms": [
                         "forest",
-                        "woodland",
-                        "woods"
+                        "woodland"
                     ],
                     "common_phrases": [
                         "in the woods",
                         "neck of the woods",
-                        "out of the woods"
+                        "out of the woods",
+                        "walk in the woods"
                     ],
                     "target_lang_definitions": {
                         "ru": "Участок земли, покрытый растущими деревьями, обычно меньше, чем лес.",
@@ -367,13 +367,12 @@
                                 "cs": "Přidej na oheň další poleno <w>dřeva</w>, aby stále hořel.",
                                 "tr": "Ateşin sönmemesi için üzerine bir <w>odun</w> daha at.",
                                 "es": "Pon otro tronco de <w>madera</w> al fuego para mantenerlo encendido.",
-                                "zh": "往火里再添一根<w>木头</w>，让火继续烧。"
+                                "zh": "往火里再添一根<w>木柴</w>，让火继续烧。"
                             }
                         }
                     ],
                     "common_phrases": [
                         "chop wood",
-                        "fire wood",
                         "gather wood"
                     ],
                     "target_lang_definitions": {
@@ -485,7 +484,10 @@
                                 "target_lang_sense_clarification": "专门用于生火的木料"
                             }
                         ]
-                    }
+                    },
+                    "synonyms": [
+                        "firewood"
+                    ]
                 },
                 {
                     "sense_id": "7aee9c2e-cdf2-3f16-9123-996caf2a0d4f",
@@ -514,7 +516,7 @@
                             "text": "The carpenter selected a fine cherry <w>wood</w> for the cabinets.",
                             "target_lang_translations": {
                                 "ru": "Плотник выбрал отличную вишневую <w>древесину</w> для шкафов.",
-                                "nl": "De timmerman koos een mooie kersen<w>houtsoort</w> voor de kasten.",
+                                "nl": "De timmerman koos een mooie <w>kersenhoutsoort</w> voor de kasten.",
                                 "pl": "Stolarz wybrał piękne wiśniowe <w>drewno</w> na szafki.",
                                 "de": "Der Schreiner wählte eine feine Kirsch-<w>Holzart</w> für die Schränke aus.",
                                 "fr": "Le charpentier a choisi un beau <w>bois</w> de cerisier pour les armoires.",
@@ -1123,9 +1125,28 @@
                                 "target_lang_sense_clarification": "obraźliwie o białym człowieku"
                             }
                         ],
-                        "de": [],
-                        "fr": [],
-                        "it": [],
+                        "de": [
+                            {
+                                "target_lang_word": "Weißer",
+                                "target_lang_sense_clarification": "abwertend für eine weiße Person"
+                            },
+                            {
+                                "target_lang_word": "Weißbrot",
+                                "target_lang_sense_clarification": "Gefängnisjargon für eine weiße Person"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "blanc",
+                                "target_lang_sense_clarification": "péjoratif pour une personne blanche"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "bianco",
+                                "target_lang_sense_clarification": "spregiativo per una persona bianca"
+                            }
+                        ],
                         "cs": [
                             {
                                 "target_lang_word": "běloch",
@@ -1138,8 +1159,18 @@
                                 "target_lang_sense_clarification": "hapishane argosu, aşağılayıcı"
                             }
                         ],
-                        "es": [],
-                        "zh": []
+                        "es": [
+                            {
+                                "target_lang_word": "blanco",
+                                "target_lang_sense_clarification": "despectivo para una persona blanca"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "白人",
+                                "target_lang_sense_clarification": "监狱俚语中对白人的蔑称"
+                            }
+                        ]
                     }
                 }
             ]
@@ -1310,7 +1341,7 @@
                                 "cs": "Pozemek byl hustě <w>zarostlý stromy</w>, aby majitelům poskytoval soukromí.",
                                 "tr": "Sahiplerine mahremiyet sağlamak amacıyla mülk yoğun bir şekilde <w>ağaçlandırılmıştı</w>.",
                                 "es": "La propiedad estaba densamente <w>poblada de árboles</w> para brindar privacidad a los propietarios.",
-                                "zh": "庄园里<w>种满了树</w>，为业主提供了隐私。"
+                                "zh": "庄园里<w>种满</w>了树，为业主提供了隐私。"
                             }
                         }
                     ],
@@ -1405,6 +1436,10 @@
                             {
                                 "target_lang_word": "造林",
                                 "target_lang_sense_clarification": "大面积种植树木"
+                            },
+                            {
+                                "target_lang_word": "种满",
+                                "target_lang_sense_clarification": "使某地遍植树木"
                             }
                         ]
                     }
@@ -1508,7 +1543,12 @@
                                 "target_lang_sense_clarification": "veraltet für verrückt"
                             }
                         ],
-                        "fr": [],
+                        "fr": [
+                            {
+                                "target_lang_word": "fou",
+                                "target_lang_sense_clarification": "fou de rage, hors de soi"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "folle",

@@ -21,15 +21,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Врач обещал быстро <вылечить> мою простуду.",
+                            "text": "Врач обещал быстро <w>вылечить</w> мою простуду.",
                             "target_lang_translations": {
-                                "en": "The doctor promised to quickly <cure> my cold."
+                                "en": "The doctor promised to quickly <w>cure</w> my cold.",
+                                "nl": "De dokter beloofde mijn verkoudheid snel te <w>genezen</w>.",
+                                "pl": "Lekarz obiecał szybko <w>wyleczyć</w> moje przeziębienie.",
+                                "de": "Der Arzt versprach, meine Erkältung schnell zu <w>heilen</w>.",
+                                "fr": "Le médecin a promis de <w>guérir</w> rapidement mon rhume.",
+                                "it": "Il medico ha promesso di <w>guarire</w> rapidamente il mio raffreddore.",
+                                "cs": "Lékař slíbil, že mou rýmu rychle <w>vyléčí</w>.",
+                                "tr": "Doktor nezlemi çabucak <w>iyileştireceğine</w> söz verdi.",
+                                "es": "El médico prometió <w>curar</w> rápidamente mi resfriado.",
+                                "zh": "医生承诺能很快<w>治愈</w>我的感冒。"
                             }
                         },
                         {
-                            "text": "Современная медицина может <вылечить> многие опасные болезни.",
+                            "text": "Современная медицина может <w>вылечить</w> многие опасные болезни.",
                             "target_lang_translations": {
-                                "en": "Modern medicine can <cure> many dangerous diseases."
+                                "en": "Modern medicine can <w>cure</w> many dangerous diseases.",
+                                "nl": "Moderne geneeskunde kan veel gevaarlijke ziektes <w>genezen</w>.",
+                                "pl": "Współczesna medycyna potrafi <w>wyleczyć</w> wiele niebezpiecznych chorób.",
+                                "de": "Die moderne Medizin kann viele gefährliche Krankheiten <w>heilen</w>.",
+                                "fr": "La médecine moderne peut <w>guérir</w> de nombreuses maladies dangereuses.",
+                                "it": "La medicina moderna può <w>curare</w> molte malattie pericolose.",
+                                "cs": "Moderní medicína dokáže <w>vyléčit</w> mnoho nebezpečných nemocí.",
+                                "tr": "Modern tıp birçok tehlikeli hastalığı <w>iyileştirebilir</w>.",
+                                "es": "La medicina moderna puede <w>curar</w> muchas enfermedades peligrosas.",
+                                "zh": "现代医学可以<w>治愈</w>许多危险的疾病。"
                             }
                         }
                     ],
@@ -43,7 +61,16 @@
                         "полностью вылечить"
                     ],
                     "target_lang_definitions": {
-                        "en": "To restore health or eliminate a disease through medical treatment."
+                        "en": "To restore health or eliminate a disease through medical treatment.",
+                        "nl": "Gezondheid herstellen of een ziekte elimineren door middel van medische behandeling.",
+                        "pl": "Przywrócić zdrowie lub wyeliminować chorobę poprzez leczenie medyczne.",
+                        "de": "Die Gesundheit wiederherstellen oder eine Krankheit durch medizinische Behandlung beseitigen.",
+                        "fr": "Restaurer la santé ou éliminer une maladie grâce à un traitement médical.",
+                        "it": "Ripristinare la salute o eliminare una malattia attraverso un trattamento medico.",
+                        "cs": "Obnovit zdraví nebo odstranit nemoc pomocí léčby.",
+                        "tr": "Tıbbi tedavi yoluyla sağlığına kavuşturmak veya bir hastalığı tamamen ortadan kaldırmak.",
+                        "es": "Restaurar la salud o eliminar una enfermedad mediante tratamiento médico.",
+                        "zh": "通过医疗手段恢复健康或消除疾病。"
                     },
                     "translations": {
                         "en": [
@@ -54,6 +81,96 @@
                             {
                                 "target_lang_word": "heal",
                                 "target_lang_sense_clarification": "to restore to health"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "genezen",
+                                "target_lang_sense_clarification": "iemand of een ziekte beter maken"
+                            },
+                            {
+                                "target_lang_word": "beter maken",
+                                "target_lang_sense_clarification": "het proces van herstel van een ziekte"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wyleczyć",
+                                "target_lang_sense_clarification": "całkowicie usunąć chorobę lub dolegliwość"
+                            },
+                            {
+                                "target_lang_word": "uleczyć",
+                                "target_lang_sense_clarification": "przywrócić komuś zdrowie"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "heilen",
+                                "target_lang_sense_clarification": "eine Krankheit oder Verletzung vollständig beseitigen"
+                            },
+                            {
+                                "target_lang_word": "gesund machen",
+                                "target_lang_sense_clarification": "jemanden wieder gesund pflegen"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "guérir",
+                                "target_lang_sense_clarification": "éliminer une maladie ou une affection"
+                            },
+                            {
+                                "target_lang_word": "soigner",
+                                "target_lang_sense_clarification": "apporter des soins pour rétablir la santé"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "guarire",
+                                "target_lang_sense_clarification": "ripristinare la salute di qualcuno o superare una malattia"
+                            },
+                            {
+                                "target_lang_word": "curare",
+                                "target_lang_sense_clarification": "trattare una malattia o un disturbo per risolverlo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "vyléčit",
+                                "target_lang_sense_clarification": "odstranit nemoc nebo zdravotní problém"
+                            },
+                            {
+                                "target_lang_word": "uzdravit",
+                                "target_lang_sense_clarification": "navrátit někoho do stavu zdraví"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "iyileştirmek",
+                                "target_lang_sense_clarification": "bir hastalığı veya yarayı tedavi ederek sağlığına kavuşturmak"
+                            },
+                            {
+                                "target_lang_word": "tedavi etmek",
+                                "target_lang_sense_clarification": "bir hastalığı iyileştirmek için tıbbi yöntemler uygulamak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "curar",
+                                "target_lang_sense_clarification": "restaurar la salud de una persona afectada por una enfermedad o lesión"
+                            },
+                            {
+                                "target_lang_word": "sanar",
+                                "target_lang_sense_clarification": "devolver la salud a alguien o recuperar el estado de salud"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "治愈",
+                                "target_lang_sense_clarification": "指彻底消除疾病或伤痛"
+                            },
+                            {
+                                "target_lang_word": "医好",
+                                "target_lang_sense_clarification": "指通过治疗使人恢复健康"
                             }
                         ]
                     }
@@ -67,15 +184,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Армия быстро <вылечит> его от лени и безответственности.",
+                            "text": "Армия быстро <w>вылечит</w> его от лени и безответственности.",
                             "target_lang_translations": {
-                                "en": "The army will quickly <cure> him of laziness and irresponsibility."
+                                "en": "The army will quickly <w>cure</w> him of laziness and irresponsibility.",
+                                "nl": "Het leger zal hem snel <w>afhelpen</w> van zijn luiheid en onverantwoordelijkheid.",
+                                "pl": "Wojsko szybko <w>wyleczy</w> go z lenistwa i nieodpowiedzialności.",
+                                "de": "Die Armee wird ihm die Faulheit und Verantwortungslosigkeit schnell <w>abgewöhnen</w>.",
+                                "fr": "L'armée va vite le <w>guérir</w> de sa paresse et de son irresponsabilité.",
+                                "it": "L'esercito lo <w>guarirà</w> presto dalla pigrizia e dall'irresponsabilità.",
+                                "cs": "Armáda ho rychle <w>odnaučí</w> lenosti a nezodpovědnosti.",
+                                "tr": "Ordu onu tembellikten ve sorumsuzluktan çabucak <w>kurtaracaktır</w>.",
+                                "es": "El ejército lo <w>curará</w> rápidamente de su pereza e irresponsabilidad.",
+                                "zh": "军队很快就能让他<w>改掉</w>懒惰和不负责任的毛病。"
                             }
                         },
                         {
-                            "text": "Только время сможет <вылечить> её от этой глубокой печали.",
+                            "text": "Только время сможет <w>вылечить</w> её от этой глубокой печали.",
                             "target_lang_translations": {
-                                "en": "Only time will be able to <cure> her of this deep sorrow."
+                                "en": "Only time will be able to <w>cure</w> her of this deep sorrow.",
+                                "nl": "Alleen tijd zal haar kunnen <w>genezen</w> van dit diepe verdriet.",
+                                "pl": "Tylko czas zdoła <w>uleczyć</w> ją z tego głębokiego smutku.",
+                                "de": "Nur die Zeit wird sie von dieser tiefen Trauer <w>heilen</w> können.",
+                                "fr": "Seul le temps pourra la <w>guérir</w> de cette profonde tristesse.",
+                                "it": "Solo il tempo potrà <w>guarirla</w> da questa profonda tristezza.",
+                                "cs": "Jen čas ji dokáže <w>vyléčit</w> z tohoto hlubokého smutku.",
+                                "tr": "Onu bu derin kederden sadece zaman <w>kurtarabilir</w>.",
+                                "es": "Solo el tiempo podrá <w>sanar</w> su profunda tristeza.",
+                                "zh": "只有时间才能<w>治愈</w>她内心深处的悲伤。"
                             }
                         }
                     ],
@@ -88,7 +223,16 @@
                         "вылечить от страха"
                     ],
                     "target_lang_definitions": {
-                        "en": "To free someone from a bad habit, negative trait, or emotional pain."
+                        "en": "To free someone from a bad habit, negative trait, or emotional pain.",
+                        "nl": "Iemand bevrijden van een slechte gewoonte, negatieve eigenschap of emotionele pijn.",
+                        "pl": "Uwolnić kogoś od złego nawyku, negatywnej cechy lub bólu emocjonalnego.",
+                        "de": "Jemanden von einer schlechten Angewohnheit, einer negativen Eigenschaft oder emotionalem Schmerz befreien.",
+                        "fr": "Débarrasser quelqu'un d'une mauvaise habitude, d'un trait négatif ou d'une souffrance émotionnelle.",
+                        "it": "Liberare qualcuno da una cattiva abitudine, un tratto negativo o una sofferenza emotiva.",
+                        "cs": "Zbavit někoho špatného návyku, negativní vlastnosti nebo citové bolesti.",
+                        "tr": "Birini kötü bir alışkanlıktan, olumsuz bir özellikten veya duygusal acıdan kurtarmak.",
+                        "es": "Liberar a alguien de un mal hábito, un rasgo negativo o un dolor emocional.",
+                        "zh": "使人摆脱某种坏习惯、负面特质或情感痛苦。"
                     },
                     "translations": {
                         "en": [
@@ -99,6 +243,96 @@
                             {
                                 "target_lang_word": "heal",
                                 "target_lang_sense_clarification": "to alleviate emotional distress"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "afhelpen",
+                                "target_lang_sense_clarification": "iemand van een gewoonte of eigenschap bevrijden"
+                            },
+                            {
+                                "target_lang_word": "genezen",
+                                "target_lang_sense_clarification": "figuurlijk herstellen van emotioneel leed"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wyleczyć",
+                                "target_lang_sense_clarification": "pozbyć się złego nawyku lub cechy"
+                            },
+                            {
+                                "target_lang_word": "uleczyć",
+                                "target_lang_sense_clarification": "złagodzić cierpienie emocjonalne"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "heilen",
+                                "target_lang_sense_clarification": "von emotionalem Schmerz oder Kummer befreien"
+                            },
+                            {
+                                "target_lang_word": "abgewöhnen",
+                                "target_lang_sense_clarification": "jemandem eine schlechte Angewohnheit austreiben"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "guérir",
+                                "target_lang_sense_clarification": "se débarrasser d'un défaut ou d'une habitude"
+                            },
+                            {
+                                "target_lang_word": "soulager",
+                                "target_lang_sense_clarification": "atténuer une peine ou une souffrance morale"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "guarire",
+                                "target_lang_sense_clarification": "liberare da un'abitudine o da un dolore emotivo"
+                            },
+                            {
+                                "target_lang_word": "liberare",
+                                "target_lang_sense_clarification": "affrancare da un vizio o da un comportamento negativo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odnaučit",
+                                "target_lang_sense_clarification": "zbavit někoho zlozvyku nebo vlastnosti"
+                            },
+                            {
+                                "target_lang_word": "vyléčit",
+                                "target_lang_sense_clarification": "přeneseně zbavit někoho duševního trápení"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kurtarmak",
+                                "target_lang_sense_clarification": "birini kötü bir alışkanlıktan veya durumdan arındırmak"
+                            },
+                            {
+                                "target_lang_word": "arındırmak",
+                                "target_lang_sense_clarification": "birini olumsuz bir duygu veya davranıştan temizlemek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "curar",
+                                "target_lang_sense_clarification": "remediar un mal o sanar las pasiones del alma"
+                            },
+                            {
+                                "target_lang_word": "sanar",
+                                "target_lang_sense_clarification": "restablecer la salud moral o emocional"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "改掉",
+                                "target_lang_sense_clarification": "指纠正坏习惯或负面特质"
+                            },
+                            {
+                                "target_lang_word": "治愈",
+                                "target_lang_sense_clarification": "指抚平情感上的创伤"
                             }
                         ]
                     }

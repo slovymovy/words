@@ -23,9 +23,9 @@
                             "text": "I have to study hard because I have a math <w>test</w> tomorrow morning.",
                             "target_lang_translations": {
                                 "ru": "Мне нужно усердно учиться, потому что завтра утром у меня <w>контрольная</w> по математике.",
-                                "nl": "Ik moet hard studeren omdat ik morgenochtend een wiskunde<w>toets</w> heb.",
+                                "nl": "Ik moet hard studeren omdat ik morgenochtend een <w>wiskundetoets</w> heb.",
                                 "pl": "Muszę się pilnie uczyć, bo jutro rano mam <w>sprawdzian</w> z matematyki.",
-                                "de": "Ich muss fleißig lernen, weil ich morgen früh eine Mathe<w>arbeit</w> schreibe.",
+                                "de": "Ich muss fleißig lernen, weil ich morgen früh eine <w>Mathearbeit</w> schreibe.",
                                 "fr": "Je dois étudier dur parce que j'ai un <w>contrôle</w> de maths demain matin.",
                                 "it": "Devo studiare sodo perché domani mattina ho un <w>compito</w> di matematica.",
                                 "cs": "Musím se hodně učit, protože zítra ráno píšu <w>test</w> z matematiky.",
@@ -38,9 +38,9 @@
                             "text": "The teacher gave the students a difficult spelling <w>test</w>.",
                             "target_lang_translations": {
                                 "ru": "Учитель дал ученикам сложный <w>тест</w> по правописанию.",
-                                "nl": "De leraar gaf de leerlingen een moeilijke spelling<w>test</w>.",
+                                "nl": "De leraar gaf de leerlingen een moeilijke <w>spellingtest</w>.",
                                 "pl": "Nauczyciel dał uczniom trudny <w>test</w> z ortografii.",
-                                "de": "Der Lehrer gab den Schülern einen schwierigen Rechtschreib<w>test</w>.",
+                                "de": "Der Lehrer gab den Schülern einen schwierigen <w>Rechtschreibtest</w>.",
                                 "fr": "L'enseignant a donné aux élèves un <w>test</w> d'orthographe difficile.",
                                 "it": "L'insegnante ha fatto fare agli studenti un difficile <w>test</w> di ortografia.",
                                 "cs": "Učitel dal studentům těžký <w>test</w> z pravopisu.",
@@ -224,9 +224,9 @@
                             "text": "The doctor ordered a blood <w>test</w> to check the patient's cholesterol levels.",
                             "target_lang_translations": {
                                 "ru": "Врач назначил <w>анализ</w> крови, чтобы проверить уровень холестерина у пациента.",
-                                "nl": "De arts vroeg een bloed<w>onderzoek</w> aan om het cholesterolgehalte van de patiënt te controleren.",
+                                "nl": "De arts vroeg een <w>bloedonderzoek</w> aan om het cholesterolgehalte van de patiënt te controleren.",
                                 "pl": "Lekarz zlecił <w>badanie</w> krwi, aby sprawdzić poziom cholesterolu u pacjenta.",
-                                "de": "Der Arzt ordnete eine Blut<w>untersuchung</w> an, um den Cholesterinspiegel des Patienten zu überprüfen.",
+                                "de": "Der Arzt ordnete eine <w>Blutuntersuchung</w> an, um den Cholesterinspiegel des Patienten zu überprüfen.",
                                 "fr": "Le médecin a ordonné une <w>analyse</w> de sang pour vérifier le taux de cholestérol du patient.",
                                 "it": "Il medico ha ordinato un <w>esame</w> del sangue per controllare i livelli di colesterolo del paziente.",
                                 "cs": "Lékař nařídil <w>rozbor</w> krve, aby zkontroloval hladinu cholesterolu pacienta.",
@@ -240,7 +240,7 @@
                             "target_lang_translations": {
                                 "ru": "Мы взяли машину на дорожное <w>испытание</w>, прежде чем решить купить её.",
                                 "nl": "We hebben een <w>proefrit</w> met de auto gemaakt voordat we besloten hem te kopen.",
-                                "pl": "Wzięliśmy samochód na <w>jazdę próbną</w> przed podjęciem decyzji o zakupie.",
+                                "pl": "Wzięliśmy samochód na jazdę <w>próbną</w> przed podjęciem decyzji o zakupie.",
                                 "de": "Wir haben mit dem Auto eine <w>Probefahrt</w> gemacht, bevor wir uns zum Kauf entschieden haben.",
                                 "fr": "Nous avons emmené la voiture pour un <w>essai</w> routier avant de décider de l'acheter.",
                                 "it": "Abbiamo fatto una <w>prova</w> su strada con l'auto prima di decidere di acquistarla.",
@@ -434,6 +434,10 @@
                             {
                                 "target_lang_word": "试验",
                                 "target_lang_sense_clarification": "性能或可靠性验证"
+                            },
+                            {
+                                "target_lang_word": "测试",
+                                "target_lang_sense_clarification": "对性能进行的检查"
                             }
                         ]
                     }
@@ -816,7 +820,6 @@
                         }
                     ],
                     "synonyms": [
-                        "trial",
                         "check",
                         "try out"
                     ],
@@ -976,6 +979,10 @@
                             {
                                 "target_lang_word": "检验",
                                 "target_lang_sense_clarification": "验证质量"
+                            },
+                            {
+                                "target_lang_word": "试验",
+                                "target_lang_sense_clarification": "通过实际操作加以检验"
                             }
                         ]
                     }
@@ -1176,7 +1183,11 @@
                                 "target_lang_sense_clarification": "进行小测验"
                             }
                         ]
-                    }
+                    },
+                    "synonyms": [
+                        "examine",
+                        "quiz"
+                    ]
                 },
                 {
                     "sense_id": "8522eb0e-c9c4-33af-acec-461e8935d061",
@@ -1336,6 +1347,10 @@
                             {
                                 "target_lang_word": "检测结果",
                                 "target_lang_sense_clarification": "化验出的结果"
+                            },
+                            {
+                                "target_lang_word": "呈",
+                                "target_lang_sense_clarification": "检测结果显示为，如“呈阳性”"
                             }
                         ]
                     }

@@ -19,10 +19,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Die Fahrt mit dem Zug dauert <w>ungefähr</w> zwei Stunden."
+                            "text": "Die Fahrt mit dem Zug dauert <w>ungefähr</w> zwei Stunden.",
+                            "target_lang_translations": {
+                                "en": "The train ride takes <w>about</w> two hours.",
+                                "ru": "Поездка на поезде длится <w>примерно</w> два часа.",
+                                "nl": "De treinrit duurt <w>ongeveer</w> twee uur.",
+                                "pl": "Podróż pociągiem trwa <w>około</w> dwóch godzin.",
+                                "fr": "Le trajet en train dure <w>environ</w> deux heures.",
+                                "it": "Il viaggio in treno dura <w>circa</w> due ore.",
+                                "cs": "Cesta vlakem trvá <w>asi</w> dvě hodiny.",
+                                "tr": "Tren yolculuğu <w>yaklaşık</w> iki saat sürer.",
+                                "es": "El viaje en tren dura <w>aproximadamente</w> dos horas.",
+                                "zh": "乘坐火车<w>大约</w>需要两个小时。"
+                            }
                         },
                         {
-                            "text": "Wie viele Personen haben <w>ungefähr</w> an der Veranstaltung teilgenommen?"
+                            "text": "Wie viele Personen haben <w>ungefähr</w> an der Veranstaltung teilgenommen?",
+                            "target_lang_translations": {
+                                "en": "<w>Approximately</w> how many people attended the event?",
+                                "ru": "Сколько человек <w>приблизительно</w> приняло участие в мероприятии?",
+                                "nl": "Hoeveel personen hebben <w>ongeveer</w> aan het evenement deelgenomen?",
+                                "pl": "<w>Mniej więcej</w> ile osób wzięło udział w wydarzeniu?",
+                                "fr": "Combien de personnes <w>environ</w> ont participé à l'événement ?",
+                                "it": "<w>Circa</w> quante persone hanno partecipato all'evento?",
+                                "cs": "<w>Přibližně</w> kolik lidí se akce zúčastnilo?",
+                                "tr": "Etkinliğe <w>aşağı yukarı</w> kaç kişi katıldı?",
+                                "es": "¿<w>Aproximadamente</w> cuántas personas participaron en el evento?",
+                                "zh": "<w>大概</w>有多少人参加了这次活动？"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,7 +63,173 @@
                     "common_phrases": [
                         "ungefähr gleich",
                         "so ungefähr"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "not precisely determined; approximately or close to a certain number, time, or quantity",
+                        "ru": "не совсем точно; приблизительно соответствующий какому-либо числу, времени или количеству",
+                        "nl": "niet helemaal precies bepaald; bij benadering overeenkomend met een bepaald getal, tijd of hoeveelheid",
+                        "pl": "niedokładnie określony; zbliżony do pewnej liczby, czasu lub ilości",
+                        "fr": "De manière non rigoureusement exacte ; à peu près ou proche d'une certaine quantité, d'un nombre ou d'une heure déterminés.",
+                        "it": "non esattamente determinato; vicino o corrispondente all'incirca a un determinato numero, orario o quantità",
+                        "cs": "nepřesně určený; přibližně odpovídající určitému číslu, času nebo množství",
+                        "tr": "Tam olarak kesin olmayan; belirli bir sayıya, zamana veya miktara yakın olan, tahmini",
+                        "es": "No determinado con total exactitud; cercano o correspondiente aproximadamente a un número, tiempo o cantidad determinada.",
+                        "zh": "不十分确切；大致接近某一数字、时间或数量"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "approximately",
+                                "target_lang_sense_clarification": "close to an exact amount or number"
+                            },
+                            {
+                                "target_lang_word": "roughly",
+                                "target_lang_sense_clarification": "imprecisely, about"
+                            },
+                            {
+                                "target_lang_word": "about",
+                                "target_lang_sense_clarification": "close to in quantity or time"
+                            },
+                            {
+                                "target_lang_word": "around",
+                                "target_lang_sense_clarification": "approximately, roughly"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "примерно",
+                                "target_lang_sense_clarification": "приблизительно, около"
+                            },
+                            {
+                                "target_lang_word": "приблизительно",
+                                "target_lang_sense_clarification": "неточно, близко к истинному значению"
+                            },
+                            {
+                                "target_lang_word": "около",
+                                "target_lang_sense_clarification": "приблизительно по количеству или времени"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "ongeveer",
+                                "target_lang_sense_clarification": "bij benadering, niet exact"
+                            },
+                            {
+                                "target_lang_word": "circa",
+                                "target_lang_sense_clarification": "omstreeks, bij benadering"
+                            },
+                            {
+                                "target_lang_word": "rond",
+                                "target_lang_sense_clarification": "ongeveer op of bij een bepaald aantal of tijdstip"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "około",
+                                "target_lang_sense_clarification": "w odniesieniu do liczby, czasu lub ilości"
+                            },
+                            {
+                                "target_lang_word": "mniej więcej",
+                                "target_lang_sense_clarification": "w przybliżeniu, szacunkowo"
+                            },
+                            {
+                                "target_lang_word": "w przybliżeniu",
+                                "target_lang_sense_clarification": "nieprecyzyjnie, orientacyjnie"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "environ",
+                                "target_lang_sense_clarification": "pour une quantité, une durée ou un nombre estimé"
+                            },
+                            {
+                                "target_lang_word": "à peu près",
+                                "target_lang_sense_clarification": "approximativement, presque"
+                            },
+                            {
+                                "target_lang_word": "approximativement",
+                                "target_lang_sense_clarification": "de façon approchée, sans grande précision"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "circa",
+                                "target_lang_sense_clarification": "indicativamente per quantità, numero o tempo"
+                            },
+                            {
+                                "target_lang_word": "all'incirca",
+                                "target_lang_sense_clarification": "a grandi linee, orientativamente"
+                            },
+                            {
+                                "target_lang_word": "approssimativamente",
+                                "target_lang_sense_clarification": "in modo non del tutto esatto"
+                            },
+                            {
+                                "target_lang_word": "più o meno",
+                                "target_lang_sense_clarification": "in modo approssimativo, colloquiale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přibližně",
+                                "target_lang_sense_clarification": "odhadem, ne zcela přesně"
+                            },
+                            {
+                                "target_lang_word": "asi",
+                                "target_lang_sense_clarification": "zhruba, kolem určitého čísla či času"
+                            },
+                            {
+                                "target_lang_word": "zhruba",
+                                "target_lang_sense_clarification": "orientačně, přibližně"
+                            },
+                            {
+                                "target_lang_word": "kolem",
+                                "target_lang_sense_clarification": "přibližně (o čase nebo množství)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yaklaşık",
+                                "target_lang_sense_clarification": "tahmini miktar, zaman veya sayı için"
+                            },
+                            {
+                                "target_lang_word": "aşağı yukarı",
+                                "target_lang_sense_clarification": "hemen hemen, kabaca"
+                            },
+                            {
+                                "target_lang_word": "tahminen",
+                                "target_lang_sense_clarification": "tahmin edildiği üzere"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "aproximadamente",
+                                "target_lang_sense_clarification": "cerca de una cifra o cantidad exacta"
+                            },
+                            {
+                                "target_lang_word": "más o menos",
+                                "target_lang_sense_clarification": "de forma estimada o aproximada"
+                            },
+                            {
+                                "target_lang_word": "alrededor de",
+                                "target_lang_sense_clarification": "en torno a una cantidad, hora o cifra"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "大约",
+                                "target_lang_sense_clarification": "表示对数量或时间的估计"
+                            },
+                            {
+                                "target_lang_word": "大概",
+                                "target_lang_sense_clarification": "大致、差不多"
+                            },
+                            {
+                                "target_lang_word": "约",
+                                "target_lang_sense_clarification": "多用于书面语，表示接近的数量"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "ffb6c1c5-98a9-309b-8a8f-3adcdf7b9a6f",
@@ -50,15 +240,161 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sein großer Erfolg in der schwierigen Prüfung kommt nicht von <w>ungefähr</w>."
+                            "text": "Sein großer Erfolg in der schwierigen Prüfung kommt nicht von <w>ungefähr</w>.",
+                            "target_lang_translations": {
+                                "en": "His great success in the difficult exam is no <w>coincidence</w>.",
+                                "ru": "Его большой успех на сложном экзамене возник не <w>случайно</w>.",
+                                "nl": "Zijn grote succes bij het moeilijke examen is niet <w>toevallig</w>.",
+                                "pl": "Jego wielki sukces na trudnym egzaminie to nie <w>przypadek</w>.",
+                                "fr": "Son grand succès à cet examen difficile n'est pas un simple <w>hasard</w>.",
+                                "it": "Il suo grande successo nel difficile esame non è un <w>caso</w>.",
+                                "cs": "Jeho velký úspěch v náročné zkoušce nepřišel jen tak <w>náhodou</w>.",
+                                "tr": "Zorlu sınavdaki büyük başarısı <w>tesadüf</w> değil.",
+                                "es": "Su gran éxito en el difícil examen no es ninguna <w>casualidad</w>.",
+                                "zh": "他在难度极高的考试中取得巨大成功绝非<w>偶然</w>。"
+                            }
                         },
                         {
-                            "text": "Es geschah nicht von <w>ungefähr</w>, dass das Projekt vorzeitig abgeschlossen werden konnte."
+                            "text": "Es geschah nicht von <w>ungefähr</w>, dass das Projekt vorzeitig abgeschlossen werden konnte.",
+                            "target_lang_translations": {
+                                "en": "It was not <w>by chance</w> that the project could be finished ahead of schedule.",
+                                "ru": "То, что проект удалось завершить досрочно, произошло не <w>случайно</w>.",
+                                "nl": "Het was niet <w>toevallig</w> dat het project voortijdig kon worden afgerond.",
+                                "pl": "To nie był <w>przypadek</w>, że projekt udało się ukończyć przed terminem.",
+                                "fr": "Ce n'est pas <w>par hasard</w> que le projet a pu être achevé avant l'échéance.",
+                                "it": "Non è stato <w>per caso</w> che il progetto si sia potuto concludere in anticipo.",
+                                "cs": "Nebylo žádnou <w>náhodou</w>, že se projekt podařilo dokončit v předstihu.",
+                                "tr": "Projenin vaktinden önce tamamlanabilmesi <w>tesadüfen</w> olmadı.",
+                                "es": "No fue por <w>casualidad</w> que el proyecto se pudiera terminar antes de tiempo.",
+                                "zh": "该项目能够提前完成绝非<w>巧合</w>。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "nicht von ungefähr"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "happening by chance, coincidence, or without a specific reason (almost exclusively in set phrases)",
+                        "ru": "происходящий по воле случая или без определенной причины (почти исключительно в устойчивых оборотах)",
+                        "nl": "door toeval of zonder specifieke aanleiding gebeurend (vrijwel uitsluitend in vaste uitdrukkingen)",
+                        "pl": "dziejący się przypadkowo lub bez konkretnego powodu (niemal wyłącznie w zwrotach)",
+                        "fr": "Par hasard ou sans motif particulier (s'emploie presque exclusivement dans des expressions figées comme « nicht von ungefähr »).",
+                        "it": "che accade per caso o senza un motivo specifico (usato quasi esclusivamente in espressioni idiomatiche come «nicht von ungefähr»)",
+                        "cs": "dějící se náhodou nebo bez určitého důvodu (téměř výhradně v ustálených vazbách jako „nicht von ungefähr“)",
+                        "tr": "Tesadüfen ya da belirgin bir sebep olmadan meydana gelen (neredeyse sadece kalıplaşmış ifadelerde)",
+                        "es": "Que ocurre por casualidad o sin un motivo específico (casi exclusivamente en frases hechas como «nicht von ungefähr»).",
+                        "zh": "出于偶然或毫无缘由地发生（几乎仅用于固定短语中）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "by chance",
+                                "target_lang_sense_clarification": "as an accident or coincidence"
+                            },
+                            {
+                                "target_lang_word": "by accident",
+                                "target_lang_sense_clarification": "without intention or specific cause"
+                            },
+                            {
+                                "target_lang_word": "coincidence",
+                                "target_lang_sense_clarification": "happening by mere chance"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "случайно",
+                                "target_lang_sense_clarification": "по воле случая, без определённого замысла"
+                            },
+                            {
+                                "target_lang_word": "случайность",
+                                "target_lang_sense_clarification": "стечение обстоятельств"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "toevallig",
+                                "target_lang_sense_clarification": "door toeval, als samenloop van omstandigheden"
+                            },
+                            {
+                                "target_lang_word": "zomaar",
+                                "target_lang_sense_clarification": "zonder duidelijke reden of toevallig"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przypadek",
+                                "target_lang_sense_clarification": "zbieg okoliczności (np. nie bez powodu, nieprzypadkowo)"
+                            },
+                            {
+                                "target_lang_word": "przypadkowo",
+                                "target_lang_sense_clarification": "przez zbieg okoliczności"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "par hasard",
+                                "target_lang_sense_clarification": "de manière fortuite ou sans intention"
+                            },
+                            {
+                                "target_lang_word": "hasard",
+                                "target_lang_sense_clarification": "coïncidence fortuite (p. ex. ce n'est pas un hasard)"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "per caso",
+                                "target_lang_sense_clarification": "per pura coincidenza o accidentalmente"
+                            },
+                            {
+                                "target_lang_word": "caso",
+                                "target_lang_sense_clarification": "coincidenza (es. non essere un caso)"
+                            },
+                            {
+                                "target_lang_word": "casualmente",
+                                "target_lang_sense_clarification": "senza un motivo o un piano preciso"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "náhodou",
+                                "target_lang_sense_clarification": "shodou okolností (ve spojení „ne náhodou“)"
+                            },
+                            {
+                                "target_lang_word": "náhoda",
+                                "target_lang_sense_clarification": "shoda okolností (ve spojení „není náhoda“)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "tesadüf",
+                                "target_lang_sense_clarification": "rastlantı (genellikle 'nicht von ungefähr' kalıbında)"
+                            },
+                            {
+                                "target_lang_word": "tesadüfen",
+                                "target_lang_sense_clarification": "rastlantısal olarak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "por casualidad",
+                                "target_lang_sense_clarification": "de forma fortuita o accidental"
+                            },
+                            {
+                                "target_lang_word": "casualidad",
+                                "target_lang_sense_clarification": "coincidencia (especialmente en «no es casualidad»)"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "偶然",
+                                "target_lang_sense_clarification": "碰巧发生，多用于否定表达「绝非偶然」"
+                            },
+                            {
+                                "target_lang_word": "巧合",
+                                "target_lang_sense_clarification": "机缘巧合"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -74,10 +410,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Können Sie mir eine <w>ungefähre</w> Angabe zu den voraussichtlichen Kosten machen?"
+                            "text": "Können Sie mir eine <w>ungefähre</w> Angabe zu den voraussichtlichen Kosten machen?",
+                            "target_lang_translations": {
+                                "en": "Can you give me an <w>approximate</w> indication of the expected costs?",
+                                "ru": "Можете ли вы дать мне <w>приблизительную</w> информацию о предполагаемых расходах?",
+                                "nl": "Kunt u mij een <w>globale</w> indicatie van de verwachte kosten geven?",
+                                "pl": "Czy może mi Pan podać <w>przybliżoną</w> informację na temat przewidywanych kosztów?",
+                                "fr": "Pouvez-vous me donner une estimation <w>approximative</w> des coûts prévus ?",
+                                "it": "Può darmi un'indicazione <w>approssimativa</w> sui costi previsti?",
+                                "cs": "Můžete mi poskytnout <w>přibližný</w> údaj o předpokládaných nákladech?",
+                                "tr": "Beklenen masraflar hakkında bana <w>yaklaşık</w> bir bilgi verebilir misiniz?",
+                                "es": "¿Puede darme una indicación <w>aproximada</w> sobre los costes previstos?",
+                                "zh": "您能否向我提供一个预计费用的<w>大概</w>数据？"
+                            }
                         },
                         {
-                            "text": "Ich habe zumindest eine <w>ungefähre</w> Vorstellung davon, wie die neue Software funktioniert."
+                            "text": "Ich habe zumindest eine <w>ungefähre</w> Vorstellung davon, wie die neue Software funktioniert.",
+                            "target_lang_translations": {
+                                "en": "I have at least a <w>rough</w> idea of how the new software works.",
+                                "ru": "У меня есть хотя бы <w>примерное</w> представление о том, как работает новая программа.",
+                                "nl": "Ik heb ten minste een <w>globaal</w> beeld van hoe de nieuwe software werkt.",
+                                "pl": "Mam przynajmniej <w>ogólne</w> pojęcie o tym, jak działa to nowe oprogramowanie.",
+                                "fr": "J'ai au moins une idée <w>approximative</w> du fonctionnement du nouveau logiciel.",
+                                "it": "Ho almeno un'idea <w>approssimativa</w> di come funzioni il nuovo software.",
+                                "cs": "Mám alespoň <w>přibližnou</w> představu o tom, jak nový software funguje.",
+                                "tr": "Yeni yazılımın nasıl çalıştığı hakkında en azından <w>kabataslak</w> bir fikrim var.",
+                                "es": "Tengo al menos una idea <w>aproximada</w> de cómo funciona el nuevo software.",
+                                "zh": "我至少对这款新软件是如何运作的有一个<w>大致的</w>了解。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -90,7 +450,141 @@
                     "common_phrases": [
                         "eine ungefähre Vorstellung",
                         "ungefähre Angaben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "not accurately fixed or detailed; estimated or rough",
+                        "ru": "не точно определённый или не подробно изложенный; ориентировочный",
+                        "nl": "niet exact vastgesteld of gedetailleerd uitgewerkt; ruw geschat",
+                        "pl": "nieprecyzyjnie określony lub pozbawiony szczegółów; szacunkowy",
+                        "fr": "Qui n'est pas fixé de façon exacte ni détaillé ; estimatif, vague.",
+                        "it": "non fissato con precisione o non dettagliato; stimato a grandi linee",
+                        "cs": "ne zcela přesně stanovený nebo detailně vypracovaný; odhadovaný, rámcový",
+                        "tr": "Kesin olarak belirlenmemiş veya ayrıntılandırılmamış; tahmini, kabataslak",
+                        "es": "No fijado con exactitud ni detallado; estimado o a grandes rasgos.",
+                        "zh": "未精确确定或未经细致说明的；粗略的，大致的"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "approximate",
+                                "target_lang_sense_clarification": "close to actual but not completely exact"
+                            },
+                            {
+                                "target_lang_word": "rough",
+                                "target_lang_sense_clarification": "approximate, not detailed"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "приблизительный",
+                                "target_lang_sense_clarification": "неточный, не вдающийся в детали"
+                            },
+                            {
+                                "target_lang_word": "примерный",
+                                "target_lang_sense_clarification": "ориентировочный, предварительный"
+                            },
+                            {
+                                "target_lang_word": "ориентировочный",
+                                "target_lang_sense_clarification": "намеченный предварительно"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "globaal",
+                                "target_lang_sense_clarification": "in grote lijnen, niet gedetailleerd"
+                            },
+                            {
+                                "target_lang_word": "ruw",
+                                "target_lang_sense_clarification": "bij benadering geschat, niet nauwkeurig"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przybliżony",
+                                "target_lang_sense_clarification": "niedokładny, orientacyjny"
+                            },
+                            {
+                                "target_lang_word": "orientacyjny",
+                                "target_lang_sense_clarification": "szacunkowy, ogólny"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "approximatif",
+                                "target_lang_sense_clarification": "estimé sans grande précision ou dans les grandes lignes"
+                            },
+                            {
+                                "target_lang_word": "vague",
+                                "target_lang_sense_clarification": "imprécis, peu détaillé"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "approssimativo",
+                                "target_lang_sense_clarification": "non esatto, stimato a grandi linee"
+                            },
+                            {
+                                "target_lang_word": "orientativo",
+                                "target_lang_sense_clarification": "fornito a titolo di stima generale"
+                            },
+                            {
+                                "target_lang_word": "di massima",
+                                "target_lang_sense_clarification": "generale, senza dettagli approfonditi"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přibližný",
+                                "target_lang_sense_clarification": "odhadnutý, ne zcela přesný"
+                            },
+                            {
+                                "target_lang_word": "orientační",
+                                "target_lang_sense_clarification": "rámcový, pro základní představu"
+                            },
+                            {
+                                "target_lang_word": "hrubý",
+                                "target_lang_sense_clarification": "povrchní, bez podrobností"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yaklaşık",
+                                "target_lang_sense_clarification": "kesin olmayan, tahmini değer veya ölçü"
+                            },
+                            {
+                                "target_lang_word": "tahmini",
+                                "target_lang_sense_clarification": "öngörülen, kabaca hesaplanmış"
+                            },
+                            {
+                                "target_lang_word": "kabataslak",
+                                "target_lang_sense_clarification": "ayrıntısız, genel hatlarıyla"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "aproximado",
+                                "target_lang_sense_clarification": "cercano a lo exacto, estimado"
+                            },
+                            {
+                                "target_lang_word": "orientativo",
+                                "target_lang_sense_clarification": "que sirve de guía aproximada"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "大概的",
+                                "target_lang_sense_clarification": "大致的，非精确的"
+                            },
+                            {
+                                "target_lang_word": "大致的",
+                                "target_lang_sense_clarification": "大体上的，粗略的"
+                            },
+                            {
+                                "target_lang_word": "粗略的",
+                                "target_lang_sense_clarification": "未详述的，估计性的"
+                            }
+                        ]
+                    }
                 }
             ]
         }

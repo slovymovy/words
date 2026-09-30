@@ -19,10 +19,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Meine Mutter muss mich jeden Morgen für die Schule <w>wecken</w>."
+                            "text": "Meine Mutter muss mich jeden Morgen für die Schule <w>wecken</w>.",
+                            "target_lang_translations": {
+                                "en": "My mother has to <w>wake</w> me <w>up</w> for school every morning.",
+                                "ru": "Моей маме приходится каждое утро <w>будить</w> меня в школу.",
+                                "nl": "Mijn moeder moet me elke ochtend voor school <w>wekken</w>.",
+                                "pl": "Moja mama musi mnie każdego ranka <w>budzić</w> do szkoły.",
+                                "fr": "Ma mère doit me <w>réveiller</w> tous les matins pour l'école.",
+                                "it": "Mia madre mi deve <w>svegliare</w> ogni mattina per la scuola.",
+                                "cs": "Moje máma mě musí každé ráno do školy <w>budit</w>.",
+                                "tr": "Annem okul için her sabah beni <w>uyandırmak</w> zorunda.",
+                                "es": "Mi madre me tiene que <w>despertar</w> todas las mañanas para ir a la escuela.",
+                                "zh": "我妈妈每天早上都得为了上学把我<w>叫醒</w>。"
+                            }
                         },
                         {
-                            "text": "Bitte sei leise, damit wir das schlafende Baby nicht <w>wecken</w>."
+                            "text": "Bitte sei leise, damit wir das schlafende Baby nicht <w>wecken</w>.",
+                            "target_lang_translations": {
+                                "en": "Please be quiet so that we do not <w>wake</w> the sleeping baby.",
+                                "ru": "Пожалуйста, веди себя тихо, чтобы мы не <w>разбудили</w> спящего малыша.",
+                                "nl": "Wees alsjeblieft stil, zodat we de slapende baby niet <w>wekken</w>.",
+                                "pl": "Proszę, bądź cicho, żebyśmy nie <w>obudzili</w> śpiącego dziecka.",
+                                "fr": "S'il te plaît, sois discret pour que nous ne <w>réveillions</w> pas le bébé qui dort.",
+                                "it": "Per favore fai silenzio, così non <w>svegliamo</w> il bambino che dorme.",
+                                "cs": "Buď prosím potichu, abychom to spící miminko <w>nevzbudili</w>.",
+                                "tr": "Lütfen sessiz ol ki uyuyan bebeği <w>uyandırmayalım</w>.",
+                                "es": "Por favor, no hagas ruido para que no <w>despertemos</w> al bebé que duerme.",
+                                "zh": "请小声点，免得我们把睡着的小宝宝<w>吵醒</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +56,125 @@
                         "sanft wecken",
                         "früh wecken",
                         "aus dem Schlaf wecken"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to wake someone up from sleep",
+                        "ru": "прерывать чей-либо сон, заставлять проснуться",
+                        "nl": "iemand uit de slaap halen en wakker maken",
+                        "pl": "przerywać czyjś sen i sprawiać, że dana osoba przestaje spać",
+                        "fr": "tirer quelqu'un du sommeil et le rendre éveillé",
+                        "it": "far uscire qualcuno dal sonno e renderlo vigile",
+                        "cs": "přerušit něčí spánek a probudit ho",
+                        "tr": "birini uykusundan uyandırmak, uykusunu bölmek",
+                        "es": "despertar a alguien del sueño o hacer que se despierte",
+                        "zh": "把人从睡眠中叫醒或弄醒"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wake up",
+                                "target_lang_sense_clarification": "someone sleeping"
+                            },
+                            {
+                                "target_lang_word": "wake",
+                                "target_lang_sense_clarification": "from sleep"
+                            },
+                            {
+                                "target_lang_word": "rouse",
+                                "target_lang_sense_clarification": "from sleep, formal"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "будить",
+                                "target_lang_sense_clarification": "прерывать чей-либо сон (несовершенный вид)"
+                            },
+                            {
+                                "target_lang_word": "разбудить",
+                                "target_lang_sense_clarification": "заставить проснуться (совершенный вид)"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "wekken",
+                                "target_lang_sense_clarification": "uit de slaap halen"
+                            },
+                            {
+                                "target_lang_word": "wakker maken",
+                                "target_lang_sense_clarification": "uit de slaap halen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "budzić",
+                                "target_lang_sense_clarification": "przerywać czyjś sen (aspekt niedokonany)"
+                            },
+                            {
+                                "target_lang_word": "obudzić",
+                                "target_lang_sense_clarification": "sprawić, że ktoś się budzi (aspekt dokonany)"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "réveiller",
+                                "target_lang_sense_clarification": "tirer quelqu'un du sommeil"
+                            },
+                            {
+                                "target_lang_word": "éveiller",
+                                "target_lang_sense_clarification": "faire sortir du sommeil"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "svegliare",
+                                "target_lang_sense_clarification": "interrompere il sonno di qualcuno"
+                            },
+                            {
+                                "target_lang_word": "destare",
+                                "target_lang_sense_clarification": "far uscire dal sonno, registro più formale o letterario"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "budit",
+                                "target_lang_sense_clarification": "nedokonavý vid, přerušovat spánek"
+                            },
+                            {
+                                "target_lang_word": "vzbudit",
+                                "target_lang_sense_clarification": "dokonavý vid, způsobit probuzení"
+                            },
+                            {
+                                "target_lang_word": "probudit",
+                                "target_lang_sense_clarification": "dokonavý vid, probrat ze spánku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "uyandırmak",
+                                "target_lang_sense_clarification": "birini uykudan kaldırmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "despertar",
+                                "target_lang_sense_clarification": "interrumpir el sueño de alguien"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "叫醒",
+                                "target_lang_sense_clarification": "将熟睡的人喊醒或催醒"
+                            },
+                            {
+                                "target_lang_word": "唤醒",
+                                "target_lang_sense_clarification": "使从睡眠中清醒过来，较为正式"
+                            },
+                            {
+                                "target_lang_word": "吵醒",
+                                "target_lang_sense_clarification": "因声音嘈杂而弄醒睡着的人"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5e4e68fb-b365-3e0a-8f7f-55e82e0465a6",
@@ -43,17 +185,195 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Das spannende Buch konnte sofort mein großes Interesse <w>wecken</w>."
+                            "text": "Das spannende Buch konnte sofort mein großes Interesse <w>wecken</w>.",
+                            "target_lang_translations": {
+                                "en": "The exciting book was immediately able to <w>arouse</w> my keen interest.",
+                                "ru": "Увлекательная книга сразу же смогла <w>вызвать</w> у меня огромный интерес.",
+                                "nl": "Het spannende boek kon meteen mijn grote interesse <w>wekken</w>.",
+                                "pl": "Ta wciągająca książka zdołała od razu <w>wzbudzić</w> moje wielkie zainteresowanie.",
+                                "fr": "Ce livre captivant a tout de suite su <w>éveiller</w> mon plus grand intérêt.",
+                                "it": "Quel libro avvincente è riuscito subito a <w>suscitare</w> il mio vivo interesse.",
+                                "cs": "Ta napínavá kniha dokázala okamžitě <w>vzbudit</w> můj velký zájem.",
+                                "tr": "Bu heyecan verici kitap hemen bende büyük bir ilgi <w>uyandırmayı</w> başardı.",
+                                "es": "El apasionante libro logró <w>despertar</w> de inmediato mi gran interés.",
+                                "zh": "这本扣人心弦的书立刻<w>激发</w>了我极大的兴趣。"
+                            }
                         },
                         {
-                            "text": "Der Duft von frischem Apfelkuchen <w>weckte</w> schöne Erinnerungen an ihre Kindheit."
+                            "text": "Der Duft von frischem Apfelkuchen <w>weckte</w> schöne Erinnerungen an ihre Kindheit.",
+                            "target_lang_translations": {
+                                "en": "The scent of fresh apple pie <w>awakened</w> fond memories of her childhood.",
+                                "ru": "Аромат свежего яблочного пирога <w>пробудил</w> приятные воспоминания о её детстве.",
+                                "nl": "De geur van verse appeltaart <w>wekte</w> mooie herinneringen aan haar kindertijd.",
+                                "pl": "Zapach świeżej szarlotki <w>obudził</w> piękne wspomnienia z jej dzieciństwa.",
+                                "fr": "L'odeur de la tarte aux pommes fraîche a <w>réveillé</w> de merveilleux souvenirs de son enfance.",
+                                "it": "Il profumo della torta di mele appena sfornata <w>ha risvegliato</w> dolci ricordi della sua infanzia.",
+                                "cs": "Vůně čerstvého jablečného koláče <w>probudila</w> krásné vzpomínky na její dětství.",
+                                "tr": "Taze elmalı turtanın kokusu, onun çocukluğuna dair güzel anıları <w>canlandırdı</w>.",
+                                "es": "El aroma a tarta de manzana recién hecha <w>despertó</w> hermosos recuerdos de su infancia.",
+                                "zh": "新鲜苹果派的香气<w>唤起</w>了她对童年的美好回忆。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "Interesse wecken",
                         "Erinnerungen wecken",
                         "Neugier wecken"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to cause a feeling, interest, or memory to arise in someone",
+                        "ru": "вызывать появление чувств, интереса или воспоминаний",
+                        "nl": "een gevoel, interesse of herinnering bij iemand laten ontstaan",
+                        "pl": "wywoływać w kimś uczucie, zainteresowanie, ciekawość lub wspomnienia",
+                        "fr": "faire naître un sentiment, un intérêt ou un souvenir chez quelqu'un",
+                        "it": "far nascere in qualcuno un sentimento, un interesse o un ricordo",
+                        "cs": "vyvolat v někom pocit, zájem nebo vzpomínku",
+                        "tr": "bir kimsede duygu, ilgi, merak veya anı meydana getirmek, canlandırmak",
+                        "es": "hacer surgir un sentimiento, interés o recuerdo en alguien",
+                        "zh": "在某人心中激起或唤起某种情感、兴趣或回忆"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "arouse",
+                                "target_lang_sense_clarification": "interest, curiosity, or feelings"
+                            },
+                            {
+                                "target_lang_word": "awaken",
+                                "target_lang_sense_clarification": "feelings or memories"
+                            },
+                            {
+                                "target_lang_word": "spark",
+                                "target_lang_sense_clarification": "interest or curiosity"
+                            },
+                            {
+                                "target_lang_word": "evoke",
+                                "target_lang_sense_clarification": "memories or emotions"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пробуждать",
+                                "target_lang_sense_clarification": "чувства, воспоминания или интерес"
+                            },
+                            {
+                                "target_lang_word": "будить",
+                                "target_lang_sense_clarification": "воспоминания, любопытство (переносное значение)"
+                            },
+                            {
+                                "target_lang_word": "вызывать",
+                                "target_lang_sense_clarification": "интерес или любопытство"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "wekken",
+                                "target_lang_sense_clarification": "belangstelling of gevoelens oproepen"
+                            },
+                            {
+                                "target_lang_word": "opwekken",
+                                "target_lang_sense_clarification": "gevoelens of interesse veroorzaken"
+                            },
+                            {
+                                "target_lang_word": "oproepen",
+                                "target_lang_sense_clarification": "herinneringen of emoties naar boven brengen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wzbudzać",
+                                "target_lang_sense_clarification": "wywoływać zainteresowanie lub emocje"
+                            },
+                            {
+                                "target_lang_word": "budzić",
+                                "target_lang_sense_clarification": "wywoływać wspomnienia, uczucia lub ciekawość"
+                            },
+                            {
+                                "target_lang_word": "rozbudzać",
+                                "target_lang_sense_clarification": "intensyfikować zainteresowanie lub ciekawość"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "éveiller",
+                                "target_lang_sense_clarification": "un intérêt, la curiosité ou des sentiments"
+                            },
+                            {
+                                "target_lang_word": "susciter",
+                                "target_lang_sense_clarification": "un intérêt, une réaction ou une émotion"
+                            },
+                            {
+                                "target_lang_word": "réveiller",
+                                "target_lang_sense_clarification": "des souvenirs ou des émotions enfouies"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "suscitare",
+                                "target_lang_sense_clarification": "riferito a interesse, curiosità o emozioni"
+                            },
+                            {
+                                "target_lang_word": "risvegliare",
+                                "target_lang_sense_clarification": "riferito a ricordi o sentimenti assopiti"
+                            },
+                            {
+                                "target_lang_word": "destare",
+                                "target_lang_sense_clarification": "riferito ad attenzione, interesse o sospetti"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "vzbudit",
+                                "target_lang_sense_clarification": "zájem, zvědavost či dojem"
+                            },
+                            {
+                                "target_lang_word": "probudit",
+                                "target_lang_sense_clarification": "vzpomínky nebo dřímající pocity"
+                            },
+                            {
+                                "target_lang_word": "vyvolat",
+                                "target_lang_sense_clarification": "reakci, pocit nebo emoce"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "uyandırmak",
+                                "target_lang_sense_clarification": "ilgi, merak veya his oluşturmak"
+                            },
+                            {
+                                "target_lang_word": "canlandırmak",
+                                "target_lang_sense_clarification": "anıları veya duyguları yeniden harekete geçirmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "despertar",
+                                "target_lang_sense_clarification": "un interés, curiosidad o recuerdos"
+                            },
+                            {
+                                "target_lang_word": "suscitar",
+                                "target_lang_sense_clarification": "interés, dudas o emociones"
+                            },
+                            {
+                                "target_lang_word": "evocar",
+                                "target_lang_sense_clarification": "recuerdos o sensaciones del pasado"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "激发",
+                                "target_lang_sense_clarification": "激发兴趣或好奇心"
+                            },
+                            {
+                                "target_lang_word": "唤起",
+                                "target_lang_sense_clarification": "唤起记忆或某种情感"
+                            },
+                            {
+                                "target_lang_word": "引起",
+                                "target_lang_sense_clarification": "引起兴趣或关注"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -69,10 +389,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zum Frühstück kauft er beim Bäcker zwei knusprige <w>Wecken</w>."
+                            "text": "Zum Frühstück kauft er beim Bäcker zwei knusprige <w>Wecken</w>.",
+                            "target_lang_translations": {
+                                "en": "For breakfast, he buys two crispy <w>bread rolls</w> at the bakery.",
+                                "ru": "На завтрак он покупает в пекарне две хрустящие <w>булочки</w>.",
+                                "nl": "Voor het ontbijt koopt hij bij de bakker twee knapperige <w>broodjes</w>.",
+                                "pl": "Na śniadanie kupuje w piekarni dwie chrupiące <w>bułki</w>.",
+                                "fr": "Pour le petit-déjeuner, il achète deux <w>petits pains</w> croustillants à la boulangerie.",
+                                "it": "A colazione compra dal panettiere due <w>panini</w> croccanti.",
+                                "cs": "K snídani si v pekařství kupuje dvě křupavé <w>housky</w>.",
+                                "tr": "Kahvaltı için fırından iki çıtır <w>küçük ekmek</w> satın alıyor.",
+                                "es": "Para el desayuno compra dos <w>panecillos</w> crujientes en la panadería.",
+                                "zh": "早餐时，他在面包店买了两个酥脆的<w>小面包</w>。"
+                            }
                         },
                         {
-                            "text": "Er aß eine warme Wurst mit einem frischen <w>Wecken</w>."
+                            "text": "Er aß eine warme Wurst mit einem frischen <w>Wecken</w>.",
+                            "target_lang_translations": {
+                                "en": "He ate a warm sausage with a fresh <w>bread roll</w>.",
+                                "ru": "Он съел тёплую колбаску со свежей <w>булочкой</w>.",
+                                "nl": "Hij at een warme worst met een vers <w>broodje</w>.",
+                                "pl": "Zjadł ciepłą kiełbaskę ze świeżą <w>bułką</w>.",
+                                "fr": "Il a mangé une saucisse chaude avec un <w>petit pain</w> frais.",
+                                "it": "Ha mangiato una salsiccia calda con un <w>panino</w> fresco.",
+                                "cs": "Snědl teplý párek s čerstvým <w>rohlíkem</w>.",
+                                "tr": "Sıcak bir sosisi taze bir <w>küçük ekmek</w> eşliğinde yedi.",
+                                "es": "Comió una salchicha caliente con un <w>panecillo</w> fresco.",
+                                "zh": "他吃了一根热香肠，搭配一个新鲜的<w>小面包</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -91,7 +435,129 @@
                             "trait_type": "regional",
                             "comment": "süddeutsch"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a small, typically oblong bread roll made of wheat flour (regional)",
+                        "ru": "небольшая, обычно продолговатая булочка из пшеничной муки (южнонемецкое)",
+                        "nl": "klein, meestal langwerpig witbroodje (regionaal)",
+                        "pl": "niewielkie, zazwyczaj podłużne pieczywo z mąki pszennej (regionalne)",
+                        "fr": "petit pain, généralement de forme allongée, à base de farine de blé (régional)",
+                        "it": "piccolo pane, solitamente di forma allungata, a base di farina di frumento (regionale)",
+                        "cs": "drobné, obvykle podlouhlé pečivo z pšeničné mouky (regionální výraz)",
+                        "tr": "buğday unundan yapılan küçük, genellikle uzunlamasına ekmekcik (Güney Almanya)",
+                        "es": "panecillo pequeño, por lo general alargado, hecho de harina de trigo (regional)",
+                        "zh": "一种通常呈长条形的小麦面粉小面包（德语南部方言）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "bread roll",
+                                "target_lang_sense_clarification": "regional term for a roll"
+                            },
+                            {
+                                "target_lang_word": "roll",
+                                "target_lang_sense_clarification": "small bread roll"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "булочка",
+                                "target_lang_sense_clarification": "небольшое хлебобулочное изделие"
+                            },
+                            {
+                                "target_lang_word": "сайка",
+                                "target_lang_sense_clarification": "продолговатая пшеничная булочка"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "broodje",
+                                "target_lang_sense_clarification": "klein gebakken broodje"
+                            },
+                            {
+                                "target_lang_word": "pistolet",
+                                "target_lang_sense_clarification": "krokant langwerpig broodje"
+                            },
+                            {
+                                "target_lang_word": "puntje",
+                                "target_lang_sense_clarification": "langwerpig zacht witbroodje"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "bułka",
+                                "target_lang_sense_clarification": "małe pieczywo pszenne"
+                            },
+                            {
+                                "target_lang_word": "bułeczka",
+                                "target_lang_sense_clarification": "zdrobniale o małym pieczywie"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "petit pain",
+                                "target_lang_sense_clarification": "petit pain individuel"
+                            },
+                            {
+                                "target_lang_word": "petit pain au lait",
+                                "target_lang_sense_clarification": "pain individuel doux et allongé"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "panino",
+                                "target_lang_sense_clarification": "piccola pagnotta individuale"
+                            },
+                            {
+                                "target_lang_word": "paninetto",
+                                "target_lang_sense_clarification": "piccolo panino allungato o rotondo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "houska",
+                                "target_lang_sense_clarification": "drobné bílé pečivo"
+                            },
+                            {
+                                "target_lang_word": "rohlík",
+                                "target_lang_sense_clarification": "podlouhlé běžné pečivo"
+                            },
+                            {
+                                "target_lang_word": "žemle",
+                                "target_lang_sense_clarification": "kulaté či podlouhlé pšeničné pečivo"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sandviç ekmeği",
+                                "target_lang_sense_clarification": "küçük, tek porsiyonluk ekmek"
+                            },
+                            {
+                                "target_lang_word": "küçük ekmek",
+                                "target_lang_sense_clarification": "küçük porsiyonluk ekmekcik"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "panecillo",
+                                "target_lang_sense_clarification": "pieza pequeña individual de pan"
+                            },
+                            {
+                                "target_lang_word": "bollo",
+                                "target_lang_sense_clarification": "pan individual pequeño"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "小面包",
+                                "target_lang_sense_clarification": "单个供应的麦面小面包"
+                            },
+                            {
+                                "target_lang_word": "圆面包",
+                                "target_lang_sense_clarification": "小巧的餐包"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5fe9c233-3ae0-3203-944f-98d6dcf8ec11",
@@ -102,10 +568,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Im Ferienlager erfolgt das tägliche <w>Wecken</w> immer pünktlich um sieben Uhr."
+                            "text": "Im Ferienlager erfolgt das tägliche <w>Wecken</w> immer pünktlich um sieben Uhr.",
+                            "target_lang_translations": {
+                                "en": "At summer camp, the daily <w>wake-up call</w> is always promptly at seven o'clock.",
+                                "ru": "В лагере отдыха ежедневный <w>подъём</w> происходит всегда ровно в семь часов.",
+                                "nl": "In het vakantiekamp vindt het dagelijkse <w>wekken</w> altijd stipt om zeven uur plaats.",
+                                "pl": "Na obozie codzienna <w>pobudka</w> odbywa się zawsze punktualnie o siódmej.",
+                                "fr": "En colonie de vacances, le <w>réveil</w> quotidien a toujours lieu pile à sept heures.",
+                                "it": "Al campo estivo la <w>sveglia</w> quotidiana suona sempre puntuale alle sette.",
+                                "cs": "Na táboře probíhá každodenní <w>budíček</w> vždy přesně v sedm hodin.",
+                                "tr": "Tatil kampında günlük <w>uyandırma</w> her zaman tam saat yedide yapılır.",
+                                "es": "En el campamento de vacaciones, la <w>diana</w> diaria tiene lugar siempre puntualmente a las siete en punto.",
+                                "zh": "在夏令营里，每天早上的<w>起床号</w>总是在七点准时吹响。"
+                            }
                         },
                         {
-                            "text": "Gleich nach dem <w>Wecken</w> versammeln sich alle Sportler zum gemeinsamen Frühsport."
+                            "text": "Gleich nach dem <w>Wecken</w> versammeln sich alle Sportler zum gemeinsamen Frühsport.",
+                            "target_lang_translations": {
+                                "en": "Right after the <w>wake-up</w>, all the athletes gather for morning exercise.",
+                                "ru": "Сразу после <w>подъёма</w> все спортсмены собираются на общую утреннюю зарядку.",
+                                "nl": "Meteen na het <w>wekken</w> verzamelen alle sporters zich voor de gezamenlijke ochtendgymnastiek.",
+                                "pl": "Zaraz po <w>pobudce</w> wszyscy sportowcy zbierają się na wspólną poranną gimnastykę.",
+                                "fr": "Aussitôt après le <w>réveil</w>, tous les sportifs se rassemblent pour la gymnastique matinale.",
+                                "it": "Subito dopo la <w>sveglia</w>, tutti gli atleti si radunano per la ginnastica mattutina di gruppo.",
+                                "cs": "Hned po <w>budíčku</w> se všichni sportovci scházejí ke společné ranní rozcvičce.",
+                                "tr": "<w>Kalk borusu</w>nun hemen ardından tüm sporcular ortak sabah sporu için toplanırlar.",
+                                "es": "Justo después de la <w>diana</w>, todos los atletas se reúnen para hacer gimnasia matutina juntos.",
+                                "zh": "在<w>起床号</w>过后，所有运动员立刻集合一起做晨练。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -114,7 +604,125 @@
                     "common_phrases": [
                         "das morgendliche Wecken",
                         "Zeit zum Wecken"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "the waking of sleeping people, often signaled by a sound or call",
+                        "ru": "пробуждение спящих людей, часто по установленному сигналу или команде",
+                        "nl": "het wakker maken van slapende personen, vaak volgens vastgesteld schema of signaal",
+                        "pl": "budzenie śpiących osób, często o wyznaczonej porze lub za pomocą sygnału",
+                        "fr": "action de réveiller des personnes endormies, souvent selon un horaire ou un signal fixé",
+                        "it": "l'atto di svegliare persone addormentate, spesso a un'ora prestabilita o mediante un segnale",
+                        "cs": "probuzení spících lidí, často podle plánu nebo signálem",
+                        "tr": "uyuyan kişileri genellikle belirli bir saatte veya işaretle uyandırma eylemi",
+                        "es": "acción de despertar a personas dormidas, a menudo a una hora fijada o mediante una señal",
+                        "zh": "唤醒熟睡者的行动或信号，常指营地或军队中定时的起床号令"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "wake-up call",
+                                "target_lang_sense_clarification": "signal or scheduled waking"
+                            },
+                            {
+                                "target_lang_word": "reveille",
+                                "target_lang_sense_clarification": "military or camp wake-up signal"
+                            },
+                            {
+                                "target_lang_word": "wake-up",
+                                "target_lang_sense_clarification": "act of waking people"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "подъём",
+                                "target_lang_sense_clarification": "пробуждение по сигналу (в лагере, армии)"
+                            },
+                            {
+                                "target_lang_word": "побудка",
+                                "target_lang_sense_clarification": "сигнал или процесс пробуждения"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "wekken",
+                                "target_lang_sense_clarification": "het wakker maken van personen"
+                            },
+                            {
+                                "target_lang_word": "wekroep",
+                                "target_lang_sense_clarification": "signaal of oproep om wakker te worden"
+                            },
+                            {
+                                "target_lang_word": "reveille",
+                                "target_lang_sense_clarification": "militair signaal voor het opstaan"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "pobudka",
+                                "target_lang_sense_clarification": "sygnał lub planowe budzenie wielu osób"
+                            },
+                            {
+                                "target_lang_word": "budzenie",
+                                "target_lang_sense_clarification": "czynność wyrywania ze snu"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "réveil",
+                                "target_lang_sense_clarification": "heure ou signal pour sortir du lit"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sveglia",
+                                "target_lang_sense_clarification": "segnale o momento del risveglio collettivo"
+                            },
+                            {
+                                "target_lang_word": "risveglio",
+                                "target_lang_sense_clarification": "azione o momento in cui ci si sveglia"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "budíček",
+                                "target_lang_sense_clarification": "signál nebo hromadné ranní vstávání"
+                            },
+                            {
+                                "target_lang_word": "buzení",
+                                "target_lang_sense_clarification": "činnost přerušování spánku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "uyandırma",
+                                "target_lang_sense_clarification": "toplu veya planlı uyandırma eylemi"
+                            },
+                            {
+                                "target_lang_word": "kalk borusu",
+                                "target_lang_sense_clarification": "kamp veya kışlalarda uyanma işareti"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "diana",
+                                "target_lang_sense_clarification": "señal o momento para despertar en campamentos o cuarteles"
+                            },
+                            {
+                                "target_lang_word": "toque de diana",
+                                "target_lang_sense_clarification": "toque o llamada matutina para levantarse"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "起床号",
+                                "target_lang_sense_clarification": "营地或军营中唤醒全员的信号"
+                            },
+                            {
+                                "target_lang_word": "叫醒",
+                                "target_lang_sense_clarification": "唤醒沉睡者的行动或时刻"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6b2db3fd-3b4c-36a2-9fee-3183172f461d",
@@ -125,10 +733,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Die Bäckerin schnitt den frisch gebackenen <w>Wecken</w> in dicke Scheiben."
+                            "text": "Die Bäckerin schnitt den frisch gebackenen <w>Wecken</w> in dicke Scheiben.",
+                            "target_lang_translations": {
+                                "en": "The baker sliced the freshly baked <w>loaf</w> into thick slices.",
+                                "ru": "Пекарь нарезала свежеиспечённый <w>батон</w> толстыми ломтиками.",
+                                "nl": "De bakster sneed het versgebakken <w>witbrood</w> in dikke plakken.",
+                                "pl": "Piekarz pokroił świeżo upieczony <w>bochenek</w> na grube kromki.",
+                                "fr": "La boulangère a coupé le <w>pain</w> fraîchement cuit en tranches épaisses.",
+                                "it": "La fornaia ha tagliato a fette spesse il <w>filone</w> appena sfornato.",
+                                "cs": "Pekařka nakrájela čerstvě upečenou <w>veku</w> na tlusté plátky.",
+                                "tr": "Fırıncı kadın taze pişmiş <w>somun ekmeği</w> kalın dilimler halinde kesti.",
+                                "es": "La panadera cortó la <w>barra de pan</w> recién horneada en rebanadas gruesas.",
+                                "zh": "面包师把新鲜出炉的<w>长条面包</w>切成了厚片。"
+                            }
                         },
                         {
-                            "text": "Für das Fest kaufte die Familie einen großen <w>Wecken</w> aus weißem Mehl."
+                            "text": "Für das Fest kaufte die Familie einen großen <w>Wecken</w> aus weißem Mehl.",
+                            "target_lang_translations": {
+                                "en": "For the celebration, the family bought a large <w>loaf</w> made from white flour.",
+                                "ru": "Для праздника семья купила большой <w>батон</w> из белой муки.",
+                                "nl": "Voor het feest kocht de familie een groot <w>witbrood</w> van tarwebloem.",
+                                "pl": "Na uroczystość rodzina kupiła duży <w>bochenek</w> z białej mąki.",
+                                "fr": "Pour la fête, la famille a acheté un grand <w>pain</w> de farine blanche.",
+                                "it": "Per la festa la famiglia ha comprato un grande <w>filone</w> di farina bianca.",
+                                "cs": "Na oslavu rodina koupila velkou <w>veku</w> z bílé mouky.",
+                                "tr": "Kutlama için aile beyaz undan yapılmış büyük bir <w>somun ekmek</w> satın aldı.",
+                                "es": "Para la fiesta, la familia compró una gran <w>barra de pan</w> de harina blanca.",
+                                "zh": "为了庆祝活动，这家人买了一个用白面粉烤制的大<w>长条面包</w>。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -139,7 +771,121 @@
                             "trait_type": "regional",
                             "comment": "süddeutsch"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "an oblong loaf of bread made from fine wheat flour (regional)",
+                        "ru": "продолговатый хлеб из тонкой пшеничной муки (южнонемецкое)",
+                        "nl": "een langwerpig brood van fijn tarwemeel (regionaal)",
+                        "pl": "podłużny chleb z jasnej mąki pszennej (regionalne)",
+                        "fr": "pain allongé confectionné à base de farine blanche de blé (régional)",
+                        "it": "pane allungato a base di farina raffinata di grano (regionale)",
+                        "cs": "podlouhlý bílý chléb z jemné pšeničné mouky (regionální výraz)",
+                        "tr": "ince buğday unundan yapılan uzunlamasına somun ekmek (Güney Almanya)",
+                        "es": "pan alargado elaborado con harina fina de trigo (regional)",
+                        "zh": "用精制小麦面粉烤制的大长条面包（德语南部方言）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "oblong loaf",
+                                "target_lang_sense_clarification": "loaf of white bread"
+                            },
+                            {
+                                "target_lang_word": "loaf",
+                                "target_lang_sense_clarification": "oblong bread loaf"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "батон",
+                                "target_lang_sense_clarification": "продолговатый белый хлеб"
+                            },
+                            {
+                                "target_lang_word": "буханка",
+                                "target_lang_sense_clarification": "хлеб продолговатой формы"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "witbrood",
+                                "target_lang_sense_clarification": "langwerpig brood van tarwebloem"
+                            },
+                            {
+                                "target_lang_word": "brood",
+                                "target_lang_sense_clarification": "heel brood"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "bochenek",
+                                "target_lang_sense_clarification": "bochenek chleba pszennego"
+                            },
+                            {
+                                "target_lang_word": "bułka paryska",
+                                "target_lang_sense_clarification": "podłużne białe pieczywo (tzw. weka lub angielka)"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "pain",
+                                "target_lang_sense_clarification": "miche ou pain de forme allongée"
+                            },
+                            {
+                                "target_lang_word": "miche",
+                                "target_lang_sense_clarification": "pain blanc allongé ou ovale"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "filone",
+                                "target_lang_sense_clarification": "forma di pane allungata di farina bianca"
+                            },
+                            {
+                                "target_lang_word": "filoncino",
+                                "target_lang_sense_clarification": "pane di forma allungata di media grandezza"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "veka",
+                                "target_lang_sense_clarification": "podlouhlé bílé pečivo z pšeničné mouky"
+                            },
+                            {
+                                "target_lang_word": "bílý chléb",
+                                "target_lang_sense_clarification": "podlouhlý světlý bochník"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "somun ekmek",
+                                "target_lang_sense_clarification": "uzunlamasına beyaz ekmek"
+                            },
+                            {
+                                "target_lang_word": "baton ekmek",
+                                "target_lang_sense_clarification": "uzun beyaz somun"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "barra de pan",
+                                "target_lang_sense_clarification": "pan alargado de harina blanca"
+                            },
+                            {
+                                "target_lang_word": "pan",
+                                "target_lang_sense_clarification": "pieza entera de pan blanco alargado"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "长条面包",
+                                "target_lang_sense_clarification": "长条状的白面包"
+                            },
+                            {
+                                "target_lang_word": "白面包",
+                                "target_lang_sense_clarification": "精白小麦面粉烤制的大面包"
+                            }
+                        ]
+                    }
                 }
             ]
         }

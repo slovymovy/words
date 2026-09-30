@@ -16,10 +16,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wir haben <w>gestern</w> eine lange Fahrradtour durch den Wald gemacht."
+                            "text": "Wir haben <w>gestern</w> eine lange Fahrradtour durch den Wald gemacht.",
+                            "target_lang_translations": {
+                                "en": "We went on a long bike tour through the forest <w>yesterday</w>.",
+                                "ru": "Мы <w>вчера</w> совершили долгую велопрогулку по лесу.",
+                                "nl": "We hebben <w>gisteren</w> een lange fietstocht door het bos gemaakt.",
+                                "pl": "Zrobiliśmy <w>wczoraj</w> długą wycieczkę rowerową po lesie.",
+                                "fr": "Nous avons fait une longue balade à vélo en forêt <w>hier</w>.",
+                                "it": "<w>Ieri</w> abbiamo fatto un lungo giro in bicicletta nel bosco.",
+                                "cs": "<w>Včera</w> jsme podnikli dlouhý výlet na kole lesem.",
+                                "tr": "<w>Dün</w> ormanda uzun bir bisiklet turu yaptık.",
+                                "es": "<w>Ayer</w> hicimos una larga excursión en bicicleta por el bosque.",
+                                "zh": "我们<w>昨天</w>穿过森林进行了一次长途骑行。"
+                            }
                         },
                         {
-                            "text": "Ich habe sie erst <w>gestern</w> Abend im Supermarkt getroffen."
+                            "text": "Ich habe sie erst <w>gestern</w> Abend im Supermarkt getroffen.",
+                            "target_lang_translations": {
+                                "en": "I only met her <w>yesterday</w> evening at the supermarket.",
+                                "ru": "Я только <w>вчера</w> вечером встретил её в супермаркете.",
+                                "nl": "Ik heb haar pas <w>gisteren</w> 's avonds in de supermarkt ontmoet.",
+                                "pl": "Spotkałem ją dopiero <w>wczoraj</w> wieczorem w supermarkecie.",
+                                "fr": "Je ne l'ai croisée qu'<w>hier</w> soir au supermarché.",
+                                "it": "L'ho incontrata solo <w>ieri</w> sera al supermercato.",
+                                "cs": "Potkal jsem ji teprve <w>včera</w> večer v supermarketu.",
+                                "tr": "Onunla daha <w>dün</w> akşam süpermarkette karşılaştım.",
+                                "es": "Me encontré con ella apenas <w>ayer</w> por la noche en el supermercado.",
+                                "zh": "我<w>昨天</w>晚上才在超市遇见她。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -29,7 +53,89 @@
                     "common_phrases": [
                         "gestern Abend",
                         "gestern Nachmittag"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "on the day immediately preceding today",
+                        "ru": "в день, непосредственно предшествующий сегодняшнему",
+                        "nl": "op de dag direct voorafgaand aan vandaag",
+                        "pl": "w dniu bezpośrednio poprzedzającym dzień dzisiejszy",
+                        "fr": "le jour précédant immédiatement aujourd'hui",
+                        "it": "nel giorno immediatamente precedente a quello di oggi",
+                        "cs": "v den bezprostředně předcházející dnešku",
+                        "tr": "bugünden bir önceki günde",
+                        "es": "en el día inmediatamente anterior al de hoy",
+                        "zh": "在今天的前一天"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "yesterday",
+                                "target_lang_sense_clarification": "on the day before today"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вчера",
+                                "target_lang_sense_clarification": "в предыдущий день"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "gisteren",
+                                "target_lang_sense_clarification": "op de dag voor vandaag"
+                            },
+                            {
+                                "target_lang_word": "gister",
+                                "target_lang_sense_clarification": "informele variant van gisteren"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wczoraj",
+                                "target_lang_sense_clarification": "w dniu poprzedzającym dzisiejszy"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "hier",
+                                "target_lang_sense_clarification": "le jour qui précède celui-ci"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "ieri",
+                                "target_lang_sense_clarification": "nel giorno prima di oggi"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "včera",
+                                "target_lang_sense_clarification": "v den před dneškem"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "dün",
+                                "target_lang_sense_clarification": "bugünden bir önceki gün"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "ayer",
+                                "target_lang_sense_clarification": "en el día inmediatamente anterior al de hoy"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "昨天",
+                                "target_lang_sense_clarification": "今天的前一日，最常用"
+                            },
+                            {
+                                "target_lang_word": "昨日",
+                                "target_lang_sense_clarification": "书面语或正式语境，指昨天"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "3548b6dc-127c-3a6c-97ce-a751e2c90532",
@@ -40,15 +146,153 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Was <w>gestern</w> noch modern war, gilt heute oft schon als veraltet."
+                            "text": "Was <w>gestern</w> noch modern war, gilt heute oft schon als veraltet.",
+                            "target_lang_translations": {
+                                "en": "What was still modern <w>yesterday</w> is often already considered outdated today.",
+                                "ru": "То, что <w>ещё вчера</w> было современным, сегодня зачастую считается устаревшим.",
+                                "nl": "Wat <w>gisteren</w> nog modern was, geldt vandaag vaak al als verouderd.",
+                                "pl": "To, co jeszcze <w>wczoraj</w> było nowoczesne, dzisiaj często uważa się już za przestarzałe.",
+                                "fr": "Ce qui était encore moderne <w>hier</w> est souvent déjà considéré comme dépassé aujourd'hui.",
+                                "it": "Ciò che <w>ieri</w> era ancora moderno, oggi è spesso già considerato superato.",
+                                "cs": "To, co bylo ještě <w>včera</w> moderní, se dnes často považuje za zastaralé.",
+                                "tr": "Daha <w>dün</w> modern olan şey, bugün çoğu zaman modası geçmiş sayılıyor.",
+                                "es": "Lo que <w>ayer</w> todavía era moderno, hoy a menudo ya se considera anticuado.",
+                                "zh": "<w>昨天</w>还很时髦的东西，今天往往就已经过时了。"
+                            }
                         },
                         {
-                            "text": "Die Beschlüsse von <w>gestern</w> passen leider nicht mehr zur aktuellen Lage."
+                            "text": "Die Beschlüsse von <w>gestern</w> passen leider nicht mehr zur aktuellen Lage.",
+                            "target_lang_translations": {
+                                "en": "The decisions of <w>yesterday</w> unfortunately no longer fit the current situation.",
+                                "ru": "<w>Вчерашние</w> решения, к сожалению, больше не соответствуют текущей ситуации.",
+                                "nl": "De besluiten van <w>gisteren</w> passen helaas niet meer bij de huidige situatie.",
+                                "pl": "Decyzje z <w>wczoraj</w> niestety nie pasują już do obecnej sytuacji.",
+                                "fr": "Les décisions <w>d'hier</w> ne correspondent malheureusement plus à la situation actuelle.",
+                                "it": "Le decisioni di <w>ieri</w> purtroppo non si adattano più alla situazione attuale.",
+                                "cs": "Rozhodnutí ze <w>včerejška</w> už bohužel neodpovídají aktuální situaci.",
+                                "tr": "<w>Dünün</w> kararları ne yazık ki artık mevcut duruma uymuyor.",
+                                "es": "Las decisiones de <w>ayer</w> lamentablemente ya no se ajustan a la situación actual.",
+                                "zh": "<w>昨天</w>的决议遗憾的是已经不再适应当下的局势了。"
+                            }
                         }
                     ],
                     "antonyms": [
                         "heute"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "in the recent past or not so long ago",
+                        "ru": "в недавнем прошлом или не так давно",
+                        "nl": "in het recente verleden of nog niet zo lang geleden",
+                        "pl": "w niedawnej przeszłości lub jeszcze nie tak dawno temu",
+                        "fr": "dans un passé récent ou il n'y a pas si longtemps",
+                        "it": "nel passato recente o non molto tempo fa",
+                        "cs": "v nedávné minulosti nebo před ne příliš dlouhou dobou",
+                        "tr": "yakın geçmişte veya çok da uzun olmayan bir süre önce",
+                        "es": "en el pasado reciente o no hace mucho tiempo",
+                        "zh": "在不久以前或近来的过去"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "yesterday",
+                                "target_lang_sense_clarification": "in the recent past"
+                            },
+                            {
+                                "target_lang_word": "recently",
+                                "target_lang_sense_clarification": "not long ago"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вчера",
+                                "target_lang_sense_clarification": "в недавнем прошлом"
+                            },
+                            {
+                                "target_lang_word": "ещё недавно",
+                                "target_lang_sense_clarification": "совсем недавно"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "gisteren",
+                                "target_lang_sense_clarification": "figuurlijk voor het recente verleden"
+                            },
+                            {
+                                "target_lang_word": "onlangs",
+                                "target_lang_sense_clarification": "korte tijd geleden"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wczoraj",
+                                "target_lang_sense_clarification": "przenośnie: w niedalekiej przeszłości"
+                            },
+                            {
+                                "target_lang_word": "niedawno",
+                                "target_lang_sense_clarification": "nie tak dawno temu"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "hier",
+                                "target_lang_sense_clarification": "au sens figuré, un passé tout proche"
+                            },
+                            {
+                                "target_lang_word": "récemment",
+                                "target_lang_sense_clarification": "il y a peu de temps"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "ieri",
+                                "target_lang_sense_clarification": "in senso figurato, nel passato recente"
+                            },
+                            {
+                                "target_lang_word": "recentemente",
+                                "target_lang_sense_clarification": "non molto tempo fa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "včera",
+                                "target_lang_sense_clarification": "přeneseně: v nedávné době"
+                            },
+                            {
+                                "target_lang_word": "nedávno",
+                                "target_lang_sense_clarification": "před nedlouhou dobou"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "dün",
+                                "target_lang_sense_clarification": "mecazi anlamda: yakın geçmişte"
+                            },
+                            {
+                                "target_lang_word": "daha dün",
+                                "target_lang_sense_clarification": "kısa süre önce, henüz yeni"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "ayer",
+                                "target_lang_sense_clarification": "en sentido figurado, en el pasado reciente"
+                            },
+                            {
+                                "target_lang_word": "recientemente",
+                                "target_lang_sense_clarification": "hace poco tiempo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "昨天",
+                                "target_lang_sense_clarification": "比喻用法，与“今天”对照，指不久前的过去"
+                            },
+                            {
+                                "target_lang_word": "不久前",
+                                "target_lang_sense_clarification": "时间上距离现在不远"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -64,10 +308,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Manche Menschen leben gedanklich noch immer im <w>Gestern</w>."
+                            "text": "Manche Menschen leben gedanklich noch immer im <w>Gestern</w>.",
+                            "target_lang_translations": {
+                                "en": "Some people still mentally live in <w>the past</w>.",
+                                "ru": "Некоторые люди мысленно всё ещё живут в <w>прошлом</w>.",
+                                "nl": "Sommige mensen leven in gedachten nog altijd in <w>het verleden</w>.",
+                                "pl": "Niektórzy ludzie myślami wciąż żyją w <w>przeszłości</w>.",
+                                "fr": "Certaines personnes vivent encore en pensée dans <w>le passé</w>.",
+                                "it": "Alcune persone vivono mentalmente ancora nel <w>passato</w>.",
+                                "cs": "Někteří lidé v myšlenkách stále ještě žijí v <w>minulosti</w>.",
+                                "tr": "Bazı insanlar zihnen hâlâ <w>geçmişte</w> yaşıyor.",
+                                "es": "Algunas personas todavía viven mentalmente en el <w>pasado</w>.",
+                                "zh": "有些人思想上仍然生活在<w>过去</w>。"
+                            }
                         },
                         {
-                            "text": "Wer sich nur mit dem <w>Gestern</w> beschäftigt, verpasst wichtige Chancen im Leben."
+                            "text": "Wer sich nur mit dem <w>Gestern</w> beschäftigt, verpasst wichtige Chancen im Leben.",
+                            "target_lang_translations": {
+                                "en": "Whoever only dwells on <w>the past</w> misses important opportunities in life.",
+                                "ru": "Тот, кто зацикливается лишь на <w>прошлом</w>, упускает важные жизненные возможности.",
+                                "nl": "Wie zich alleen bezighoudt met <w>het verleden</w>, mist belangrijke kansen in het leven.",
+                                "pl": "Kto zajmuje się tylko <w>przeszłością</w>, traci ważne szanse w życiu.",
+                                "fr": "Quiconque ne se préoccupe que du <w>passé</w> passe à côté d'opportunités importantes dans la vie.",
+                                "it": "Chi si occupa solo del <w>passato</w> perde importanti opportunità nella vita.",
+                                "cs": "Kdo se zabývá jen <w>minulostí</w>, propásne v životě důležité příležitosti.",
+                                "tr": "Sadece <w>geçmişle</w> meşgul olan kişi, hayattaki önemli fırsatları kaçırır.",
+                                "es": "Quien solo se ocupa del <w>pasado</w>, pierde oportunidades importantes en la vida.",
+                                "zh": "只专注于<w>过去</w>的人，会错失人生中的重要机会。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -78,7 +346,121 @@
                     ],
                     "common_phrases": [
                         "im Gestern leben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "past times or the past in general",
+                        "ru": "прошедшее время или прошлое в целом",
+                        "nl": "de voorbije tijd of het verleden in het algemeen",
+                        "pl": "czas miniony, dawne lata lub ogólnie przeszłość",
+                        "fr": "le temps passé ou le passé en général",
+                        "it": "il tempo trascorso o il passato in generale",
+                        "cs": "minulá doba nebo minulost obecně",
+                        "tr": "geçip gitmiş zaman veya genel olarak geçmiş",
+                        "es": "el tiempo transcurrido o el pasado en general",
+                        "zh": "过去的时间或过去的岁月"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "the past",
+                                "target_lang_sense_clarification": "bygone times"
+                            },
+                            {
+                                "target_lang_word": "yesterday",
+                                "target_lang_sense_clarification": "past times, often contrasted with the present"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "прошлое",
+                                "target_lang_sense_clarification": "минувшее время"
+                            },
+                            {
+                                "target_lang_word": "вчерашний день",
+                                "target_lang_sense_clarification": "нечто устаревшее или прошедшее"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "het verleden",
+                                "target_lang_sense_clarification": "voorbije tijd"
+                            },
+                            {
+                                "target_lang_word": "gisteren",
+                                "target_lang_sense_clarification": "de tijd van vroeger, vaak tegenover het heden"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przeszłość",
+                                "target_lang_sense_clarification": "minione czasy"
+                            },
+                            {
+                                "target_lang_word": "wczoraj",
+                                "target_lang_sense_clarification": "rzeczownikowo: dawny porządek, to co minęło"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "le passé",
+                                "target_lang_sense_clarification": "le temps écoulé ou révolu"
+                            },
+                            {
+                                "target_lang_word": "hier",
+                                "target_lang_sense_clarification": "nom masculin, le passé par opposition au présent"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "passato",
+                                "target_lang_sense_clarification": "il tempo trascorso o ciò che è stato"
+                            },
+                            {
+                                "target_lang_word": "ieri",
+                                "target_lang_sense_clarification": "come sostantivo maschile, il passato in contrapposizione all'oggi"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "minulost",
+                                "target_lang_sense_clarification": "dřívější doba obecně"
+                            },
+                            {
+                                "target_lang_word": "včerejšek",
+                                "target_lang_sense_clarification": "to, co minulo, dřívější poměry"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "geçmiş",
+                                "target_lang_sense_clarification": "geride kalan zaman"
+                            },
+                            {
+                                "target_lang_word": "dün",
+                                "target_lang_sense_clarification": "isim olarak: geçmiş, eski günler"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "el pasado",
+                                "target_lang_sense_clarification": "el tiempo anterior o transcurrido"
+                            },
+                            {
+                                "target_lang_word": "ayer",
+                                "target_lang_sense_clarification": "como sustantivo masculino, el pasado frente al presente"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "过去",
+                                "target_lang_sense_clarification": "指以往的岁月或曾经的事物"
+                            },
+                            {
+                                "target_lang_word": "昨天",
+                                "target_lang_sense_clarification": "名词用法，象征往昔或过去"
+                            }
+                        ]
+                    }
                 }
             ]
         }

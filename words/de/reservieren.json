@@ -16,10 +16,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wir haben für heute Abend einen Tisch im italienischen Restaurant <w>reserviert</w>."
+                            "text": "Wir haben für heute Abend einen Tisch im italienischen Restaurant <w>reserviert</w>.",
+                            "target_lang_translations": {
+                                "en": "We have <w>reserved</w> a table at the Italian restaurant for this evening.",
+                                "ru": "Мы <w>забронировали</w> столик в итальянском ресторане на сегодняшний вечер.",
+                                "nl": "We hebben voor vanavond een tafel in het Italiaanse restaurant <w>gereserveerd</w>.",
+                                "pl": "Na dzisiejszy wieczór <w>zarezerwowaliśmy</w> stolik we włoskiej restauracji.",
+                                "fr": "Nous avons <w>réservé</w> une table dans le restaurant italien pour ce soir.",
+                                "it": "Abbiamo <w>prenotato</w> un tavolo al ristorante italiano per stasera.",
+                                "cs": "Na dnešní večer jsme v italské restauraci <w>zarezervovali</w> stůl.",
+                                "tr": "Bu akşam için İtalyan restoranında bir masa <w>ayırttık</w>.",
+                                "es": "Hemos <w>reservado</w> una mesa en el restaurante italiano para esta noche.",
+                                "zh": "我们今晚在一家意大利餐厅<w>预订</w>了一张桌子。"
+                            }
                         },
                         {
-                            "text": "Können Sie bitte für nächste Woche ein ruhiges Doppelzimmer <w>reservieren</w>?"
+                            "text": "Können Sie bitte für nächste Woche ein ruhiges Doppelzimmer <w>reservieren</w>?",
+                            "target_lang_translations": {
+                                "en": "Could you please <w>reserve</w> a quiet double room for next week?",
+                                "ru": "Не могли бы вы <w>забронировать</w> тихий двухместный номер на следующую неделю?",
+                                "nl": "Kunt u alstublieft voor volgende week een rustige tweepersoonskamer <w>reserveren</w>?",
+                                "pl": "Czy mógłby Pan <w>zarezerwować</w> cichy pokój dwuosobowy na przyszły tydzień?",
+                                "fr": "Pourriez-vous s'il vous plaît <w>réserver</w> une chambre double calme pour la semaine prochaine ?",
+                                "it": "Potrebbe per favore <w>prenotare</w> una camera doppia tranquilla per la prossima settimana?",
+                                "cs": "Mohl byste prosím na příští týden <w>zarezervovat</w> klidný dvoulůžkový pokoj?",
+                                "tr": "Gelecek hafta için lütfen sessiz bir çift kişilik oda <w>ayırtabilir misiniz</w>?",
+                                "es": "¿Podría, por favor, <w>reservar</w> una habitación doble tranquila para la próxima semana?",
+                                "zh": "能否请您为下周<w>预订</w>一间安静的双人间？"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +53,133 @@
                         "einen Tisch reservieren",
                         "ein Zimmer reservieren",
                         "einen Sitzplatz reservieren"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to arrange in advance for a place, room, or item to be kept available for someone",
+                        "ru": "заранее закрепить за собой или кем-либо место, номер, билет или вещь",
+                        "nl": "van tevoren regelen dat een plaats, kamer of voorwerp voor iemand wordt vrijgehouden",
+                        "pl": "z góry zadbać o to, aby miejsce, pokój lub przedmiot były dla kogoś dostępne",
+                        "fr": "retenir à l'avance une place, une chambre ou un objet pour quelqu'un",
+                        "it": "assicurarsi o tenere a disposizione in anticipo un posto, una camera o un oggetto per qualcuno",
+                        "cs": "předem zajistit, aby bylo místo, pokoj nebo předmět pro někoho k dispozici",
+                        "tr": "Bir yerin, odanın veya nesnenin önceden biri için ayrılmasını sağlamak",
+                        "es": "asegurar o guardar con antelación una plaza, habitación u objeto para alguien",
+                        "zh": "提前为某人保留座位、房间或物品"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "reserve",
+                                "target_lang_sense_clarification": "a table, room, or seat in advance"
+                            },
+                            {
+                                "target_lang_word": "book",
+                                "target_lang_sense_clarification": "accommodations, tickets, or a table"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "бронировать",
+                                "target_lang_sense_clarification": "столик, номер, билеты"
+                            },
+                            {
+                                "target_lang_word": "забронировать",
+                                "target_lang_sense_clarification": "столик, номер, билеты (совершенный вид)"
+                            },
+                            {
+                                "target_lang_word": "резервировать",
+                                "target_lang_sense_clarification": "место, ресурсы"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "reserveren",
+                                "target_lang_sense_clarification": "een tafel, kamer of zitplaats van tevoren vastleggen"
+                            },
+                            {
+                                "target_lang_word": "boeken",
+                                "target_lang_sense_clarification": "een kamer, reis of ticket vastleggen"
+                            },
+                            {
+                                "target_lang_word": "bespreken",
+                                "target_lang_sense_clarification": "een tafel of zitplaats laten vrijhouden"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "rezerwować",
+                                "target_lang_sense_clarification": "miejsce, stolik lub pokój (aspekt niedokonany)"
+                            },
+                            {
+                                "target_lang_word": "zarezerwować",
+                                "target_lang_sense_clarification": "miejsce, stolik lub pokój z wyprzedzeniem (aspekt dokonany)"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "réserver",
+                                "target_lang_sense_clarification": "une table, une chambre ou une place à l'avance"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "prenotare",
+                                "target_lang_sense_clarification": "un tavolo, una camera o un posto in anticipo"
+                            },
+                            {
+                                "target_lang_word": "riservare",
+                                "target_lang_sense_clarification": "un posto o un tavolo tenendolo occupato per qualcuno"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "rezervovat",
+                                "target_lang_sense_clarification": "místo, pokoj nebo stůl předem"
+                            },
+                            {
+                                "target_lang_word": "zarezervovat",
+                                "target_lang_sense_clarification": "místo, pokoj nebo stůl s předstihem"
+                            },
+                            {
+                                "target_lang_word": "zamluvit",
+                                "target_lang_sense_clarification": "hovorově stůl nebo pokoj předem"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ayırtmak",
+                                "target_lang_sense_clarification": "önceden masa, oda veya yer tutmak"
+                            },
+                            {
+                                "target_lang_word": "rezerve etmek",
+                                "target_lang_sense_clarification": "masa, oda veya koltuk ayırtmak"
+                            },
+                            {
+                                "target_lang_word": "rezervasyon yapmak",
+                                "target_lang_sense_clarification": "önceden yer ayırtmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "reservar",
+                                "target_lang_sense_clarification": "una mesa, habitación o plaza con antelación"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "预订",
+                                "target_lang_sense_clarification": "提前订桌位、房间或车票"
+                            },
+                            {
+                                "target_lang_word": "预定",
+                                "target_lang_sense_clarification": "事先约好或安排席位、客房"
+                            },
+                            {
+                                "target_lang_word": "保留",
+                                "target_lang_sense_clarification": "为某人留出座位或物品"
+                            }
+                        ]
+                    }
                 }
             ]
         }

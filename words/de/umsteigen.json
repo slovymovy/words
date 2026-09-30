@@ -21,10 +21,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wir müssen am Hauptbahnhof in einen anderen Zug <w>umsteigen</w>."
+                            "text": "Wir müssen am Hauptbahnhof in einen anderen Zug <w>umsteigen</w>.",
+                            "target_lang_translations": {
+                                "en": "We have to <w>change</w> to another train at the main station.",
+                                "ru": "Нам нужно <w>пересесть</w> на другой поезд на главном вокзале.",
+                                "nl": "We moeten op het centraal station <w>overstappen</w> op een andere trein.",
+                                "pl": "Na dworcu głównym musimy <w>przesiąść się</w> do innego pociągu.",
+                                "fr": "Nous devons <w>changer</w> pour un autre train à la gare centrale.",
+                                "it": "Alla stazione centrale dobbiamo <w>cambiare</w> treno.",
+                                "cs": "Na hlavním nádraží musíme <w>přestoupit</w> na jiný vlak.",
+                                "tr": "Merkez garda başka bir trene <w>aktarma yapmamız</w> gerekiyor.",
+                                "es": "Tenemos que <w>cambiar</w> a otro tren en la estación central.",
+                                "zh": "我们必须在火车总站<w>换乘</w>另一趟列车。"
+                            }
                         },
                         {
-                            "text": "Der Fahrgast <w>steigt</w> an der nächsten Haltestelle in die Straßenbahn <w>um</w>."
+                            "text": "Der Fahrgast <w>steigt</w> an der nächsten Haltestelle in die Straßenbahn <w>um</w>.",
+                            "target_lang_translations": {
+                                "en": "The passenger <w>transfers</w> to the tram at the next stop.",
+                                "ru": "Пассажир <w>пересаживается</w> на трамвай на следующей остановке.",
+                                "nl": "De reiziger <w>stapt</w> bij de volgende halte <w>over</w> op de tram.",
+                                "pl": "Pasażer na następnym przystanku <w>przesiada się</w> do tramwaju.",
+                                "fr": "Le voyageur <w>change</w> pour le tramway au prochain arrêt.",
+                                "it": "Alla prossima fermata il passeggero <w>cambia</w> con il tram.",
+                                "cs": "Cestující na příští zastávce <w>přestupuje</w> na tramvaj.",
+                                "tr": "Yolcu, bir sonraki durakta tramvaya <w>aktarma yapıyor</w>.",
+                                "es": "El pasajero <w>hace transbordo</w> al tranvía en la siguiente parada.",
+                                "zh": "乘客在下一站<w>转乘</w>有轨电车。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +58,145 @@
                         "am Hauptbahnhof umsteigen",
                         "in den Zug umsteigen",
                         "in die U-Bahn umsteigen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To change from one vehicle or mode of transport to another in order to continue a journey.",
+                        "ru": "Пересаживаться с одного транспортного средства на другое, чтобы продолжить поездку.",
+                        "nl": "Van het ene vervoermiddel naar het andere overgaan om een reis voort te zetten.",
+                        "pl": "Zmieniać jeden środek transportu na inny, aby kontynuować podróż.",
+                        "fr": "Changer de moyen de transport au cours d'un trajet pour continuer son voyage.",
+                        "it": "Passare da un mezzo di trasporto a un altro per proseguire un viaggio.",
+                        "cs": "Přejít z jednoho dopravního prostředku do jiného za účelem pokračování v cestě.",
+                        "tr": "Yolculuğa devam etmek amacıyla bir taşıttan diğerine geçmek, aktarma yapmak.",
+                        "es": "Cambiar de un vehículo o medio de transporte a otro para continuar el viaje.",
+                        "zh": "换乘，转乘（从一种交通工具换到另一种交通工具以继续旅程）。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "change",
+                                "target_lang_sense_clarification": "vehicles, trains, or buses"
+                            },
+                            {
+                                "target_lang_word": "transfer",
+                                "target_lang_sense_clarification": "between public transit connections"
+                            },
+                            {
+                                "target_lang_word": "switch",
+                                "target_lang_sense_clarification": "to another train or transport"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пересаживаться",
+                                "target_lang_sense_clarification": "на другой транспорт, несовершенный вид"
+                            },
+                            {
+                                "target_lang_word": "пересесть",
+                                "target_lang_sense_clarification": "на другой транспорт, совершенный вид"
+                            },
+                            {
+                                "target_lang_word": "делать пересадку",
+                                "target_lang_sense_clarification": "в поездке"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "overstappen",
+                                "target_lang_sense_clarification": "op een andere trein, bus of ander vervoermiddel"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przesiadać się",
+                                "target_lang_sense_clarification": "do innego środka lokomocji, aspekt niedokonany"
+                            },
+                            {
+                                "target_lang_word": "przesiąść się",
+                                "target_lang_sense_clarification": "do innego środka lokomocji, aspekt dokonany"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "changer",
+                                "target_lang_sense_clarification": "de train, de bus ou de moyen de transport"
+                            },
+                            {
+                                "target_lang_word": "prendre une correspondance",
+                                "target_lang_sense_clarification": "entre deux liaisons de transport public"
+                            },
+                            {
+                                "target_lang_word": "faire une correspondance",
+                                "target_lang_sense_clarification": "effectuer un changement de véhicule en cours de route"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "cambiare",
+                                "target_lang_sense_clarification": "di treno, autobus o altro mezzo di trasporto"
+                            },
+                            {
+                                "target_lang_word": "fare un cambio",
+                                "target_lang_sense_clarification": "tra collegamenti di trasporto pubblico"
+                            },
+                            {
+                                "target_lang_word": "trasbordare",
+                                "target_lang_sense_clarification": "passare direttamente da un mezzo all'altro"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přestoupit",
+                                "target_lang_sense_clarification": "dokonavý vid, na jiný vlak, spoj či dopravní prostředek"
+                            },
+                            {
+                                "target_lang_word": "přestupovat",
+                                "target_lang_sense_clarification": "nedokonavý vid, mezi spoji či dopravními prostředky"
+                            },
+                            {
+                                "target_lang_word": "přesednout",
+                                "target_lang_sense_clarification": "dokonavý vid, do jiného vozu nebo vlaku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "aktarma yapmak",
+                                "target_lang_sense_clarification": "toplu taşımada bir araçtan diğerine geçmek"
+                            },
+                            {
+                                "target_lang_word": "araç değiştirmek",
+                                "target_lang_sense_clarification": "ulaşım aracını yenisiyle değiştirmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "hacer transbordo",
+                                "target_lang_sense_clarification": "cambiar de tren, autobús u otro transporte público"
+                            },
+                            {
+                                "target_lang_word": "cambiar",
+                                "target_lang_sense_clarification": "de tren o medio de transporte"
+                            },
+                            {
+                                "target_lang_word": "transbordar",
+                                "target_lang_sense_clarification": "pasar de un vehículo a otro durante el trayecto"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "换乘",
+                                "target_lang_sense_clarification": "转换火车、地铁或公共汽车等交通工具"
+                            },
+                            {
+                                "target_lang_word": "转乘",
+                                "target_lang_sense_clarification": "转搭其他车次或交通工具"
+                            },
+                            {
+                                "target_lang_word": "转车",
+                                "target_lang_sense_clarification": "换乘其他车辆"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "7339a640-26b0-3327-b2d3-c3e3706bde40",
@@ -45,10 +207,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Aus Umweltgründen wollen viele Pendler vom Auto auf das Fahrrad <w>umsteigen</w>."
+                            "text": "Aus Umweltgründen wollen viele Pendler vom Auto auf das Fahrrad <w>umsteigen</w>.",
+                            "target_lang_translations": {
+                                "en": "For environmental reasons, many commuters want to <w>switch</w> from cars to bicycles.",
+                                "ru": "По экологическим соображениям многие пассажиры хотят <w>пересесть</w> с автомобиля на велосипед.",
+                                "nl": "Om milieuredenen willen veel forenzen van de auto <w>overstappen</w> op de fiets.",
+                                "pl": "Ze względów ekologicznych wielu dojeżdżających do pracy chce <w>przesiąść się</w> z samochodu na rower.",
+                                "fr": "Pour des raisons écologiques, de nombreux navetteurs veulent <w>passer</w> de la voiture au vélo.",
+                                "it": "Per motivi ambientali, molti pendolari vogliono <w>passare</w> dall'auto alla bicicletta.",
+                                "cs": "Z ekologických důvodů chce mnoho dojíždějících <w>přesedlat</w> z auta na jízdní kolo.",
+                                "tr": "Çevre koruma nedenleriyle birçok çalışan arabadan bisiklete <w>geçmek</w> istiyor.",
+                                "es": "Por motivos medioambientales, muchos trabajadores quieren <w>pasarse</w> del coche a la bicicleta.",
+                                "zh": "出于环保考虑，许多通勤者想从开汽车<w>改用</w>自行车。"
+                            }
                         },
                         {
-                            "text": "Das Unternehmen <w>steigt</w> im nächsten Monat auf eine neue Software <w>um</w>."
+                            "text": "Das Unternehmen <w>steigt</w> im nächsten Monat auf eine neue Software <w>um</w>.",
+                            "target_lang_translations": {
+                                "en": "The company is <w>switching</w> to new software next month.",
+                                "ru": "В следующем месяце компания <w>переходит</w> на новое программное обеспечение.",
+                                "nl": "Het bedrijf <w>stapt</w> volgende maand <w>over</w> op nieuwe software.",
+                                "pl": "W przyszłym miesiącu przedsiębiorstwo <w>przechodzi</w> na nowe oprogramowanie.",
+                                "fr": "L'entreprise <w>passe</w> à un nouveau logiciel le mois prochain.",
+                                "it": "Il mese prossimo l'azienda <w>passerà</w> a un nuovo software.",
+                                "cs": "Podnik příští měsíc <w>přechází</w> na nový software.",
+                                "tr": "Şirket önümüzdeki ay yeni bir yazılıma <w>geçiş yapıyor</w>.",
+                                "es": "La empresa <w>pasará</w> a un nuevo software el próximo mes.",
+                                "zh": "该公司下个月将<w>改用</w>一套新软件。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -61,7 +247,153 @@
                     "common_phrases": [
                         "aufs Fahrrad umsteigen",
                         "auf erneuerbare Energien umsteigen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "To change or transition to a different method, technology, habit, or alternative.",
+                        "ru": "Переходить на другой метод, технологию, привычку или альтернативу.",
+                        "nl": "Overgaan op een andere methode, technologie, gewoonte of alternatief.",
+                        "pl": "Przechodzić na inną metodę, technologię, nawyk lub alternatywę.",
+                        "fr": "Passer à une autre méthode, une nouvelle technologie ou changer d'habitude.",
+                        "it": "Passare a un metodo, una tecnologia, un'abitudine o un'alternativa diversa.",
+                        "cs": "Přejít na jinou metodu, technologii, návyk nebo alternativu.",
+                        "tr": "Farklı bir yönteme, teknolojiye, alışkanlığa veya alternatife yönelmek, geçiş yapmak.",
+                        "es": "Pasar o adoptar un método, tecnología, hábito o alternativa diferente.",
+                        "zh": "改用，转向（转为采用其他方法、技术、工具或生活习惯）。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "switch",
+                                "target_lang_sense_clarification": "to an alternative method, habit, or technology"
+                            },
+                            {
+                                "target_lang_word": "change over",
+                                "target_lang_sense_clarification": "to a new system or standard"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переходить",
+                                "target_lang_sense_clarification": "на другую технологию, метод, систему"
+                            },
+                            {
+                                "target_lang_word": "перейти",
+                                "target_lang_sense_clarification": "на другую технологию, метод, совершенный вид"
+                            },
+                            {
+                                "target_lang_word": "пересаживаться",
+                                "target_lang_sense_clarification": "на другой вид транспорта как привычку, например, на велосипед"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "overstappen",
+                                "target_lang_sense_clarification": "naar een andere methode, gewoonte of partij"
+                            },
+                            {
+                                "target_lang_word": "overschakelen",
+                                "target_lang_sense_clarification": "naar een ander systeem of werkwijze"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przechodzić",
+                                "target_lang_sense_clarification": "na inny system, technologię lub rozwiązanie, aspekt niedokonany"
+                            },
+                            {
+                                "target_lang_word": "przejść",
+                                "target_lang_sense_clarification": "na inny system lub technologię, aspekt dokonany"
+                            },
+                            {
+                                "target_lang_word": "przesiadać się",
+                                "target_lang_sense_clarification": "potocznie: na inny nawyk lub narzędzie, np. rower czy oprogramowanie"
+                            },
+                            {
+                                "target_lang_word": "przesiąść się",
+                                "target_lang_sense_clarification": "potocznie: na inne narzędzie lub środek transportu, aspekt dokonany"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "passer",
+                                "target_lang_sense_clarification": "à une nouvelle habitude, méthode ou technologie (passer à)"
+                            },
+                            {
+                                "target_lang_word": "changer",
+                                "target_lang_sense_clarification": "de système ou de pratique (changer pour)"
+                            },
+                            {
+                                "target_lang_word": "basculer",
+                                "target_lang_sense_clarification": "vers une autre solution ou un autre outil"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "passare",
+                                "target_lang_sense_clarification": "a una nuova abitudine, tecnologia o mezzo (passare a)"
+                            },
+                            {
+                                "target_lang_word": "cambiare",
+                                "target_lang_sense_clarification": "sistema o abitudine"
+                            },
+                            {
+                                "target_lang_word": "convertirsi",
+                                "target_lang_sense_clarification": "a una pratica o soluzione alternativa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přejít",
+                                "target_lang_sense_clarification": "dokonavý vid, na nový systém, technologii či řešení"
+                            },
+                            {
+                                "target_lang_word": "přecházet",
+                                "target_lang_sense_clarification": "nedokonavý vid, na nový systém či zvyk"
+                            },
+                            {
+                                "target_lang_word": "přesedlat",
+                                "target_lang_sense_clarification": "přeneseně, např. na jiný dopravní prostředek jako kolo"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "geçiş yapmak",
+                                "target_lang_sense_clarification": "yeni bir sisteme, teknolojiye veya yönteme"
+                            },
+                            {
+                                "target_lang_word": "geçmek",
+                                "target_lang_sense_clarification": "başka bir araca veya alışkanlığa yönelmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "pasarse",
+                                "target_lang_sense_clarification": "a una nueva costumbre o alternativa, p. ej. a la bicicleta"
+                            },
+                            {
+                                "target_lang_word": "cambiar",
+                                "target_lang_sense_clarification": "a un nuevo sistema, hábito o tecnología"
+                            },
+                            {
+                                "target_lang_word": "pasar",
+                                "target_lang_sense_clarification": "a una nueva metodología o solución"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "改用",
+                                "target_lang_sense_clarification": "转换至新的系统、软件或工具"
+                            },
+                            {
+                                "target_lang_word": "换用",
+                                "target_lang_sense_clarification": "换为另一种替代产品或方式"
+                            },
+                            {
+                                "target_lang_word": "转向",
+                                "target_lang_sense_clarification": "转为采用其他方案或习惯"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -77,10 +409,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Beim <w>Umsteigen</w> am Hauptbahnhof haben wir leider den Anschlusszug verpasst."
+                            "text": "Beim <w>Umsteigen</w> am Hauptbahnhof haben wir leider den Anschlusszug verpasst.",
+                            "target_lang_translations": {
+                                "en": "During the <w>transfer</w> at the main station, we unfortunately missed our connecting train.",
+                                "ru": "Во время <w>пересадки</w> на главном вокзале мы, к сожалению, опоздали на стыковочный поезд.",
+                                "nl": "Bij het <w>overstappen</w> op het centraal station hebben we helaas de aansluitende trein gemist.",
+                                "pl": "Podczas <w>przesiadki</w> na dworcu głównym niestety uciekł nam pociąg skomunikowany.",
+                                "fr": "Lors du <w>changement de train</w> à la gare centrale, nous avons malheureusement manqué notre correspondance.",
+                                "it": "Durante il <w>cambio</w> alla stazione centrale abbiamo purtroppo perso la coincidenza.",
+                                "cs": "Při <w>přestupu</w> na hlavním nádraží jsme bohužel zmeškali navazující vlak.",
+                                "tr": "Merkez istasyondaki <w>aktarma</w> sırasında ne yazık ki bağlantı trenini kaçırdık.",
+                                "es": "Durante el <w>transbordo</w> en la estación central, lamentablemente perdimos el tren de conexión.",
+                                "zh": "在火车总站<w>换乘</w>时，我们很遗憾错过了接驳列车。"
+                            }
                         },
                         {
-                            "text": "Diese Zugverbindung ermöglicht eine bequeme Reise ohne zeitraubendes <w>Umsteigen</w>."
+                            "text": "Diese Zugverbindung ermöglicht eine bequeme Reise ohne zeitraubendes <w>Umsteigen</w>.",
+                            "target_lang_translations": {
+                                "en": "This train connection allows for a comfortable journey without time-consuming <w>transfers</w>.",
+                                "ru": "Это железнодорожное сообщение обеспечивает комфортную поездку без утомительных <w>пересадок</w>.",
+                                "nl": "Deze treinverbinding maakt een comfortabele reis mogelijk zonder tijdrovend <w>overstappen</w>.",
+                                "pl": "To połączenie kolejowe umożliwia wygodną podróż bez czasochłonnych <w>przesiadek</w>.",
+                                "fr": "Cette liaison ferroviaire permet un voyage confortable sans <w>changement</w> fastidieux.",
+                                "it": "Questo collegamento ferroviario permette un viaggio comodo senza <w>cambi</w> che fanno perdere tempo.",
+                                "cs": "Toto vlakové spojení umožňuje pohodlnou cestu bez zdlouhavého <w>přestupování</w>.",
+                                "tr": "Bu tren bağlantısı, zaman kaybettiren <w>aktarmalar</w> olmadan konforlu bir yolculuk sağlar.",
+                                "es": "Esta conexión de tren permite un viaje cómodo sin tediosos <w>transbordos</w>.",
+                                "zh": "该火车班次让旅途更舒适，无需耗时的<w>换乘</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -89,7 +445,129 @@
                     "common_phrases": [
                         "beim Umsteigen",
                         "ohne Umsteigen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The act of changing from one vehicle or mode of transport to another; a transit transfer.",
+                        "ru": "Смена одного транспортного средства на другое; процесс пересадки.",
+                        "nl": "Het wisselen van het ene vervoermiddel naar het andere; de handeling van het overstappen.",
+                        "pl": "Zmiana środka transportu na inny; czynność przesiadania się.",
+                        "fr": "Fait de changer de moyen de transport au cours d'un trajet ; changement ou correspondance.",
+                        "it": "L'atto di cambiare mezzo di trasporto durante un viaggio; cambio o coincidenza.",
+                        "cs": "Změna jednoho dopravního prostředku za jiný během cesty; přestup.",
+                        "tr": "Bir ulaşım aracından diğerine geçme işlemi; aktarma.",
+                        "es": "Acción de cambiar de un medio de transporte a otro durante un trayecto; transbordo.",
+                        "zh": "换乘，转乘（途中由一种交通工具换至另一种交通工具的行为或过程）。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "transfer",
+                                "target_lang_sense_clarification": "between vehicles or transit lines"
+                            },
+                            {
+                                "target_lang_word": "change",
+                                "target_lang_sense_clarification": "transfer between trains or buses"
+                            },
+                            {
+                                "target_lang_word": "connection",
+                                "target_lang_sense_clarification": "transfer between connecting services"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "пересадка",
+                                "target_lang_sense_clarification": "смена транспорта в пути"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "het overstappen",
+                                "target_lang_sense_clarification": "het wisselen tussen vervoermiddelen"
+                            },
+                            {
+                                "target_lang_word": "de overstap",
+                                "target_lang_sense_clarification": "het overstappunt of de overstaphandeling"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przesiadka",
+                                "target_lang_sense_clarification": "zmiana środka lokomocji w podróży"
+                            },
+                            {
+                                "target_lang_word": "przesiadanie się",
+                                "target_lang_sense_clarification": "proces lub czynność zmiany pojazdu"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "changement",
+                                "target_lang_sense_clarification": "de train, de ligne ou de véhicule"
+                            },
+                            {
+                                "target_lang_word": "correspondance",
+                                "target_lang_sense_clarification": "changement entre deux liaisons de transport"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "il cambio",
+                                "target_lang_sense_clarification": "di mezzo di trasporto o linea"
+                            },
+                            {
+                                "target_lang_word": "la coincidenza",
+                                "target_lang_sense_clarification": "collegamento tra due mezzi di trasporto"
+                            },
+                            {
+                                "target_lang_word": "il trasbordo",
+                                "target_lang_sense_clarification": "passaggio da un mezzo all'altro"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přestup",
+                                "target_lang_sense_clarification": "změna dopravního spoje"
+                            },
+                            {
+                                "target_lang_word": "přestupování",
+                                "target_lang_sense_clarification": "činnost přecházení mezi spoji"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "aktarma",
+                                "target_lang_sense_clarification": "bir toplu taşıma aracından diğerine geçiş"
+                            },
+                            {
+                                "target_lang_word": "araç değiştirme",
+                                "target_lang_sense_clarification": "bir vasıtadan diğerine geçme süreci"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "el transbordo",
+                                "target_lang_sense_clarification": "cambio de tren, línea o vehículo de transporte público"
+                            },
+                            {
+                                "target_lang_word": "el cambio",
+                                "target_lang_sense_clarification": "de tren o vehículo en un trayecto"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "换乘",
+                                "target_lang_sense_clarification": "更换公共交通工具的过程或行为"
+                            },
+                            {
+                                "target_lang_word": "转乘",
+                                "target_lang_sense_clarification": "中途换乘车次或线路"
+                            },
+                            {
+                                "target_lang_word": "转车",
+                                "target_lang_sense_clarification": "中途改换车辆"
+                            }
+                        ]
+                    }
                 }
             ]
         }

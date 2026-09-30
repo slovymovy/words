@@ -19,10 +19,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Guten Tag, <w>woher</w> kommen Sie eigentlich?"
+                            "text": "Guten Tag, <w>woher</w> kommen Sie eigentlich?",
+                            "target_lang_translations": {
+                                "en": "Hello, <w>where</w> do you actually come <w>from</w>?",
+                                "ru": "Добрый день, а <w>откуда</w> вы родом?",
+                                "nl": "Goedendag, <w>waar</w> komt u eigenlijk <w>vandaan</w>?",
+                                "pl": "Dzień dobry, <w>skąd</w> właściwie Pan/Pani pochodzi?",
+                                "fr": "Bonjour, <w>d'où</w> venez-vous au juste ?",
+                                "it": "Buongiorno, <w>da dove</w> viene esattamente?",
+                                "cs": "Dobrý den, <w>odkud</w> vlastně pocházíte?",
+                                "tr": "İyi günler, aslında <w>nereden</w> geliyorsunuz?",
+                                "es": "Buenos días, ¿<w>de dónde</w> es usted exactamente?",
+                                "zh": "您好，您究竟<w>从哪里</w>来？"
+                            }
                         },
                         {
-                            "text": "Ich möchte gerne wissen, <w>woher</w> dieser schöne Wein stammt."
+                            "text": "Ich möchte gerne wissen, <w>woher</w> dieser schöne Wein stammt.",
+                            "target_lang_translations": {
+                                "en": "I would like to know <w>where</w> this fine wine comes <w>from</w>.",
+                                "ru": "Я хотел бы узнать, <w>откуда</w> это прекрасное вино.",
+                                "nl": "Ik wil graag weten <w>waar</w> deze mooie wijn <w>vandaan</w> komt.",
+                                "pl": "Chciałbym wiedzieć, <w>skąd</w> pochodzi to wyborne wino.",
+                                "fr": "J'aimerais bien savoir <w>d'où</w> provient ce bon vin.",
+                                "it": "Vorrei sapere <w>da dove</w> proviene questo buon vino.",
+                                "cs": "Rád bych věděl, <w>odkud</w> toto skvělé víno pochází.",
+                                "tr": "Bu güzel şarabın <w>nereden</w> geldiğini bilmek isterdim.",
+                                "es": "Me gustaría saber <w>de dónde</w> procede este buen vino.",
+                                "zh": "我很想知道这款美酒来自<w>哪里</w>。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -30,7 +54,105 @@
                     ],
                     "common_phrases": [
                         "woher kommen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "asks about the physical origin or the direction from which someone or something comes",
+                        "ru": "вопросительное слово, указывающее на вопрос о месте происхождения или направлении движения кого-либо или чего-либо",
+                        "nl": "vraagt naar de geografische herkomst of de richting waar iets of iemand vandaan komt",
+                        "pl": "pyta o fizyczne lub geograficzne pochodzenie albo kierunek, z którego ktoś lub coś przybywa",
+                        "fr": "Interroge sur l'origine géographique ou la direction d'où provient une personne ou une chose.",
+                        "it": "Chiede l'origine geografica o la direzione da cui proviene qualcosa o qualcuno.",
+                        "cs": "ptá se na místní původ nebo směr, odkud někdo nebo něco přichází",
+                        "tr": "Bir kişinin veya nesnenin geldiği yeri, coğrafi kökeni ya da yönü sorar.",
+                        "es": "Pregunta por el origen geográfico, procedencia física o la dirección de la que viene alguien o algo.",
+                        "zh": "用于疑问句，询问人或事物的空间来源、籍贯或运动方向，意为“从哪里”、“从何处”。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "where ... from",
+                                "target_lang_sense_clarification": "asking about geographical origin"
+                            },
+                            {
+                                "target_lang_word": "from where",
+                                "target_lang_sense_clarification": "asking about the place or direction of origin"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "откуда",
+                                "target_lang_sense_clarification": "вопрос о физическом или географическом происхождении"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "waar ... vandaan",
+                                "target_lang_sense_clarification": "vraag naar geografische of fysieke herkomst"
+                            },
+                            {
+                                "target_lang_word": "waarvandaan",
+                                "target_lang_sense_clarification": "vraag naar de herkomstplaats"
+                            },
+                            {
+                                "target_lang_word": "vanwaar",
+                                "target_lang_sense_clarification": "formelere vraag naar de herkomst of vertrekplaats"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "skąd",
+                                "target_lang_sense_clarification": "pytanie o miejsce pochodzenia lub kierunek ruchu"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "d'où",
+                                "target_lang_sense_clarification": "pour demander l'origine ou la provenance géographique"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "da dove",
+                                "target_lang_sense_clarification": "per chiedere la provenienza o l'origine geografica"
+                            },
+                            {
+                                "target_lang_word": "donde",
+                                "target_lang_sense_clarification": "letterario o formale, per chiedere la provenienza"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odkud",
+                                "target_lang_sense_clarification": "otázka na místní původ nebo směr"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "nereden",
+                                "target_lang_sense_clarification": "bir yer veya yön belirtirken köken sorma"
+                            },
+                            {
+                                "target_lang_word": "nereli",
+                                "target_lang_sense_clarification": "bir kişinin memleketini veya kökenini sorarken"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "de dónde",
+                                "target_lang_sense_clarification": "pregunta directa o indirecta por el origen o procedencia geográfica"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "从哪里",
+                                "target_lang_sense_clarification": "用于询问具体出发地、出处或籍贯"
+                            },
+                            {
+                                "target_lang_word": "哪里",
+                                "target_lang_sense_clarification": "疑问代词，与动词或介词连用表示来源"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4b87be87-9206-3644-bdb4-341ca496faae",
@@ -41,15 +163,149 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Woher</w> weißt du eigentlich schon von diesem neuen Plan?"
+                            "text": "<w>Woher</w> weißt du eigentlich schon von diesem neuen Plan?",
+                            "target_lang_translations": {
+                                "en": "<w>How</w> do you actually already know about this new plan?",
+                                "ru": "<w>Откуда</w> ты вообще уже знаешь об этом новом плане?",
+                                "nl": "<w>Hoe</w> weet je eigenlijk al van dit nieuwe plan?",
+                                "pl": "<w>Skąd</w> właściwie wiesz już o tym nowym planie?",
+                                "fr": "<w>D'où</w> sais-tu déjà pour ce nouveau plan ?",
+                                "it": "<w>Come</w> fai in realtà a sapere già di questo nuovo piano?",
+                                "cs": "<w>Odkud</w> vlastně o tom novém plánu už víš?",
+                                "tr": "Bu yeni planı aslında <w>nereden</w> biliyorsun?",
+                                "es": "¿<w>De dónde</w> sabes ya lo de este nuevo plan?",
+                                "zh": "你究竟是<w>从哪里</w>知道这个新计划的？"
+                            }
                         },
                         {
-                            "text": "<w>Woher</w> soll ich das denn jetzt so genau wissen?"
+                            "text": "<w>Woher</w> soll ich das denn jetzt so genau wissen?",
+                            "target_lang_translations": {
+                                "en": "<w>How</w> am I supposed to know that so precisely now?",
+                                "ru": "И <w>откуда</w> мне сейчас знать это настолько точно?",
+                                "nl": "<w>Hoe</w> moet ik dat nu zo precies weten?",
+                                "pl": "<w>Skąd</w> niby mam to teraz tak dokładnie wiedzieć?",
+                                "fr": "<w>Comment</w> veux-tu que je sache cela aussi précisément maintenant ?",
+                                "it": "<w>Come</w> dovrei saperlo così esattamente adesso?",
+                                "cs": "<w>Odkud</w> to mám teď tak přesně vědět?",
+                                "tr": "Bunu şimdi bu kadar kesin olarak <w>nereden</w> bileyim ki?",
+                                "es": "¿<w>Cómo</w> voy a saber yo eso ahora con tanta exactitud?",
+                                "zh": "我现在<w>怎么</w>可能知道得这么清楚呢？"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "woher wissen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "asks figuratively about the source of information or the reason why someone knows something",
+                        "ru": "вопросительное слово в переносном значении, выражающее вопрос об источнике информации или причине осведомлённости",
+                        "nl": "vraagt in overdrachtelijke zin naar de bron van informatie of de reden voor iemands kennis",
+                        "pl": "pyta w sensie przenośnym o źródło informacji lub powód wiedzy na dany temat",
+                        "fr": "Interroge au sens figuré sur la source d'une information ou sur la raison pour laquelle on sait quelque chose.",
+                        "it": "Chiede in senso figurato la fonte di un'informazione o il motivo per cui si sa qualcosa.",
+                        "cs": "ptá se v přeneseném smyslu na zdroj informací nebo důvod vědomosti",
+                        "tr": "Mecazi anlamda bir bilginin kaynağını veya bir şeyin nasıl öğrenildiğini sorar.",
+                        "es": "Pregunta en sentido figurado por la fuente de una información o el motivo por el que se tiene conocimiento de algo.",
+                        "zh": "用于比喻，询问消息来源或获知某事的缘由，意为“怎么”、“从何处（得知）”。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "how",
+                                "target_lang_sense_clarification": "asking how someone came to know something"
+                            },
+                            {
+                                "target_lang_word": "where ... from",
+                                "target_lang_sense_clarification": "asking about the source of information"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "откуда",
+                                "target_lang_sense_clarification": "вопрос об источнике сведений или знаний"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "hoe",
+                                "target_lang_sense_clarification": "vraag naar hoe iemand aan bepaalde informatie komt"
+                            },
+                            {
+                                "target_lang_word": "waar ... vandaan",
+                                "target_lang_sense_clarification": "vraag naar de bron van kennis of informatie"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "skąd",
+                                "target_lang_sense_clarification": "pytanie o źródło wiedzy lub informacji"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "comment",
+                                "target_lang_sense_clarification": "pour demander comment on a appris quelque chose"
+                            },
+                            {
+                                "target_lang_word": "d'où",
+                                "target_lang_sense_clarification": "pour interroger sur la source d'une information"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "come",
+                                "target_lang_sense_clarification": "per chiedere come si è venuti a conoscenza di qualcosa"
+                            },
+                            {
+                                "target_lang_word": "da dove",
+                                "target_lang_sense_clarification": "per chiedere la fonte di un'informazione"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odkud",
+                                "target_lang_sense_clarification": "otázka na zdroj informací či poznatku"
+                            },
+                            {
+                                "target_lang_word": "jak",
+                                "target_lang_sense_clarification": "otázka na způsob, jakým se člověk něco dozvěděl"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "nereden",
+                                "target_lang_sense_clarification": "bilginin kaynağını sorarken"
+                            },
+                            {
+                                "target_lang_word": "nasıl",
+                                "target_lang_sense_clarification": "bir şeyi nasıl bildiğini sorgularken"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "de dónde",
+                                "target_lang_sense_clarification": "para indagar sobre la fuente o procedencia de una información"
+                            },
+                            {
+                                "target_lang_word": "cómo",
+                                "target_lang_sense_clarification": "para expresar asombro o indagar cómo se sabe algo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "怎么",
+                                "target_lang_sense_clarification": "用于反问或询问得知某事的途径"
+                            },
+                            {
+                                "target_lang_word": "从哪里",
+                                "target_lang_sense_clarification": "询问信息、消息或认知的来源"
+                            },
+                            {
+                                "target_lang_word": "从何",
+                                "target_lang_sense_clarification": "书面语，询问缘由或出处"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "21ea816a-bf6f-38a8-b2fb-920d0956ddea",
@@ -60,12 +316,130 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sie kehrte schließlich wieder in die Stadt zurück, <w>woher</w> sie ursprünglich stammte."
+                            "text": "Sie kehrte schließlich wieder in die Stadt zurück, <w>woher</w> sie ursprünglich stammte.",
+                            "target_lang_translations": {
+                                "en": "She finally returned to the city <w>where</w> she originally came <w>from</w>.",
+                                "ru": "В конце концов она вернулась в город, <w>откуда</w> была родом изначально.",
+                                "nl": "Ze keerde tenslotte weer terug naar de stad <w>waar</w> ze oorspronkelijk <w>vandaan</w> kwam.",
+                                "pl": "W końcu wróciła do miasta, <w>skąd</w> pierwotnie pochodziła.",
+                                "fr": "Elle est finalement retournée dans la ville <w>d'où</w> elle était originaire.",
+                                "it": "Alla fine tornò nella città <w>da cui</w> proveniva originariamente.",
+                                "cs": "Nakonec se vrátila zpět do města, <w>odkud</w> původně pocházela.",
+                                "tr": "Sonunda aslen <w>nereden</w> geldiyse o şehre geri döndü.",
+                                "es": "Finalmente regresó a la ciudad <w>de donde</w> era originaria.",
+                                "zh": "她最终回到了自己最初来自的那座城市。"
+                            }
                         },
                         {
-                            "text": "Ganz egal, <w>woher</w> du kommst, hier bist du immer herzlich willkommen."
+                            "text": "Ganz egal, <w>woher</w> du kommst, hier bist du immer herzlich willkommen.",
+                            "target_lang_translations": {
+                                "en": "No matter <w>where</w> you come <w>from</w>, you are always warmly welcome here.",
+                                "ru": "Неважно, <w>откуда</w> ты, здесь тебе всегда искренне рады.",
+                                "nl": "Het maakt niet uit <w>waar</w> je <w>vandaan</w> komt, hier ben je altijd van harte welkom.",
+                                "pl": "Bez względu na to, <w>skąd</w> pochodzisz, jesteś tu zawsze mile widziany.",
+                                "fr": "Peu importe <w>d'où</w> tu viens, tu es toujours le bienvenu ici.",
+                                "it": "Non importa <w>da dove</w> vieni, qui sei sempre il benvenuto.",
+                                "cs": "Bez ohledu na to, <w>odkud</w> jsi, jsi tu vždy srdečně vítán.",
+                                "tr": "<w>Nereden</w> gelirsen gel, burada her zaman içtenlikle karşılanırsın.",
+                                "es": "No importa <w>de dónde</w> vengas, aquí siempre eres bienvenido.",
+                                "zh": "无论你来自<w>哪里</w>，在这里都随时受到热烈欢迎。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "introduces a subordinate clause indicating the starting point, source, or origin",
+                        "ru": "союзное слово, присоединяющее придаточное предложение и указывающее на исходный пункт или происхождение",
+                        "nl": "leidt een bijzin in en duidt het vertrekpunt of de herkomst aan",
+                        "pl": "wprowadza zdanie podrzędne wskazujące punkt wyjścia, źródło lub pochodzenie",
+                        "fr": "Introduit une proposition subordonnée indiquant le point de départ, la source ou l'origine.",
+                        "it": "Introduce una proposizione subordinata indicando il punto di partenza o l'origine.",
+                        "cs": "uvozuje vedlejší větu a označuje výchozí bod nebo původ",
+                        "tr": "Yan cümle kurarak çıkış noktasını, kaynağı veya kökeni belirtir.",
+                        "es": "Introduce una oración subordinada indicando el punto de partida, origen o procedencia.",
+                        "zh": "引导从句，表示起点、出处或籍贯来源。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "where ... from",
+                                "target_lang_sense_clarification": "indicating origin in a relative or subordinate clause"
+                            },
+                            {
+                                "target_lang_word": "from where",
+                                "target_lang_sense_clarification": "indicating a point of origin"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "откуда",
+                                "target_lang_sense_clarification": "союзное слово в придаточных предложениях"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "waar ... vandaan",
+                                "target_lang_sense_clarification": "geeft herkomst aan in een bijzin"
+                            },
+                            {
+                                "target_lang_word": "vanwaar",
+                                "target_lang_sense_clarification": "geeft herkomst of vertrekpunt aan in een bijzin (formeler)"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "skąd",
+                                "target_lang_sense_clarification": "spójnik/zaimek w zdaniach podrzędnych określający pochodzenie"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "d'où",
+                                "target_lang_sense_clarification": "indiquant l'origine ou la provenance dans une proposition relative"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "da dove",
+                                "target_lang_sense_clarification": "indica provenienza o origine in una proposizione subordinata"
+                            },
+                            {
+                                "target_lang_word": "da cui",
+                                "target_lang_sense_clarification": "indica il luogo di provenienza in una frase relativa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odkud",
+                                "target_lang_sense_clarification": "spojovací výraz ve vedlejší větě označující výchozí bod nebo původ"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "nereden",
+                                "target_lang_sense_clarification": "yan cümlelerde köken veya çıkış noktasını bağlarken"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "de donde",
+                                "target_lang_sense_clarification": "adverbio relativo con antecedente que indica procedencia u origen"
+                            },
+                            {
+                                "target_lang_word": "de dónde",
+                                "target_lang_sense_clarification": "en subordinadas interrogativas indirectas"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "哪里",
+                                "target_lang_sense_clarification": "引导从句表示来源地或籍贯"
+                            },
+                            {
+                                "target_lang_word": "从何处",
+                                "target_lang_sense_clarification": "较书面，引导从句表示起点或来源"
+                            }
+                        ]
+                    }
                 }
             ]
         }

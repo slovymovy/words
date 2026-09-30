@@ -24,10 +24,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Der Zugbegleiter kündigte den nächsten <w>Halt</w> über die Lautsprecher an."
+                            "text": "Der Zugbegleiter kündigte den nächsten <w>Halt</w> über die Lautsprecher an.",
+                            "target_lang_translations": {
+                                "en": "The train conductor announced the next <w>stop</w> over the loudspeakers.",
+                                "ru": "Проводник объявил следующую <w>остановку</w> по громкой связи.",
+                                "nl": "De conducteur kondigde de volgende <w>halte</w> aan via de luidsprekers.",
+                                "pl": "Konduktor zapowiedział przez głośniki kolejną <w>stację</w>.",
+                                "fr": "Le contrôleur annonça le prochain <w>arrêt</w> dans les haut-parleurs.",
+                                "it": "Il capotreno ha annunciato la prossima <w>fermata</w> tramite gli altoparlanti.",
+                                "cs": "Průvodčí oznámil příští <w>zastávku</w> přes reproduktory.",
+                                "tr": "Kondüktör, bir sonraki <w>durağı</w> hoparlörden anons etti.",
+                                "es": "El revisor anunció la próxima <w>parada</w> por los altavoces.",
+                                "zh": "列车员通过广播播报了下一个<w>停靠站</w>。"
+                            }
                         },
                         {
-                            "text": "Der Busfahrer verpasste versehentlich einen planmäßigen <w>Halt</w> an der Kreuzung."
+                            "text": "Der Busfahrer verpasste versehentlich einen planmäßigen <w>Halt</w> an der Kreuzung.",
+                            "target_lang_translations": {
+                                "en": "The bus driver accidentally missed a scheduled <w>stop</w> at the intersection.",
+                                "ru": "Водитель автобуса случайно пропустил запланированную <w>остановку</w> на перекрёстке.",
+                                "nl": "De buschauffeur miste per ongeluk een geplande <w>halte</w> bij de kruising.",
+                                "pl": "Kierowca autobusu przez pomyłkę pominął planowy <w>przystanek</w> na skrzyżowaniu.",
+                                "fr": "Le chauffeur de bus a accidentellement manqué un <w>arrêt</w> prévu au carrefour.",
+                                "it": "L'autista dell'autobus ha saltato per errore una <w>fermata</w> prevista all'incrocio.",
+                                "cs": "Řidič autobusu omylem minul plánovanou <w>zastávku</w> na křižovatce.",
+                                "tr": "Otobüs şoförü, kavşaktaki planlı bir <w>durağı</w> yanlışlıkla kaçırdı.",
+                                "es": "El conductor del autobús se saltó por error una <w>parada</w> programada en el cruce.",
+                                "zh": "公交车司机不小心错过了十字路口的一处预定<w>停靠站</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -35,7 +59,125 @@
                     ],
                     "common_phrases": [
                         "nächster Halt"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A station or designated stopping point for public transport vehicles",
+                        "ru": "Остановка или станция общественного транспорта",
+                        "nl": "Een halte of station waar het openbaar vervoer stopt",
+                        "pl": "Przystanek lub stacja środka transportu publicznego",
+                        "fr": "Station ou point d'arrêt désigné pour un moyen de transport en commun",
+                        "it": "Stazione o punto di fermata designato per i mezzi di trasporto pubblico",
+                        "cs": "Stanice nebo určené místo k zastavení dopravního prostředku veřejné dopravy",
+                        "tr": "Toplu taşıma araçlarının yolcu indirip bindirmek için durduğu yer veya istasyon",
+                        "es": "Parada o estación designada para un medio de transporte público",
+                        "zh": "公共交通工具的经停车站或指定停靠点"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "designated location where buses or trains halt"
+                            },
+                            {
+                                "target_lang_word": "station",
+                                "target_lang_sense_clarification": "regular stopping place along a route"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "остановка",
+                                "target_lang_sense_clarification": "пункт посадки и высадки пассажиров"
+                            },
+                            {
+                                "target_lang_word": "станция",
+                                "target_lang_sense_clarification": "пункт маршрута поезда или другого транспорта"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "halte",
+                                "target_lang_sense_clarification": "aangewezen stopplek voor bussen, trams of treinen"
+                            },
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "tussenstop of halte op een traject"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przystanek",
+                                "target_lang_sense_clarification": "miejsce zatrzymywania się autobusów lub tramwajów"
+                            },
+                            {
+                                "target_lang_word": "stacja",
+                                "target_lang_sense_clarification": "punkt zatrzymania pociągu na trasie"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "arrêt",
+                                "target_lang_sense_clarification": "lieu aménagé pour la montée et la descente des passagers"
+                            },
+                            {
+                                "target_lang_word": "halte",
+                                "target_lang_sense_clarification": "station secondaire ou arrêt temporaire sur un trajet"
+                            },
+                            {
+                                "target_lang_word": "station",
+                                "target_lang_sense_clarification": "point d'arrêt sur une ligne de train, de tram ou de métro"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "fermata",
+                                "target_lang_sense_clarification": "punto di arresto lungo il percorso di bus, tram o treni"
+                            },
+                            {
+                                "target_lang_word": "stazione",
+                                "target_lang_sense_clarification": "struttura ferroviaria o di transito passeggeri"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "zastávka",
+                                "target_lang_sense_clarification": "místo pro nástup a výstup cestujících"
+                            },
+                            {
+                                "target_lang_word": "stanice",
+                                "target_lang_sense_clarification": "dopravní nebo železniční uzel na trase"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "durak",
+                                "target_lang_sense_clarification": "otobüs, tramvay veya minibüs gibi toplu taşıma araçlarının durduğu yer"
+                            },
+                            {
+                                "target_lang_word": "istasyon",
+                                "target_lang_sense_clarification": "tren veya raylı sistem durma noktası"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "parada",
+                                "target_lang_sense_clarification": "lugar designado donde se detiene un autobús, tranvía o tren"
+                            },
+                            {
+                                "target_lang_word": "estación",
+                                "target_lang_sense_clarification": "punto o apeadero en una línea de transporte ferroviario o de pasajeros"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "停靠站",
+                                "target_lang_sense_clarification": "供公共交通工具中途停靠上下客的地点"
+                            },
+                            {
+                                "target_lang_word": "车站",
+                                "target_lang_sense_clarification": "火车、公交等线路沿途的停车站点"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "af7a44d4-a069-324c-acad-3b21d6280019",
@@ -46,10 +188,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nach einer langen Autofahrt machten wir kurz <w>Halt</w> an einer Raststätte."
+                            "text": "Nach einer langen Autofahrt machten wir kurz <w>Halt</w> an einer Raststätte.",
+                            "target_lang_translations": {
+                                "en": "After a long drive, we made a short <w>stop</w> at a service station.",
+                                "ru": "После долгой поездки на машине мы сделали короткую <w>остановку</w> в зоне отдыха.",
+                                "nl": "Na een lange autorit hielden we even <w>halt</w> bij een verzorgingsplaats.",
+                                "pl": "Po długiej podróży samochodem zrobiliśmy krótki <w>postój</w> na stacji benzynowej.",
+                                "fr": "Après un long trajet en voiture, nous avons fait une courte <w>halte</w> sur une aire d'autoroute.",
+                                "it": "Dopo un lungo viaggio in auto, abbiamo fatto una breve <w>sosta</w> in un'area di servizio.",
+                                "cs": "Po dlouhé jízdě autem jsme udělali krátkou <w>zastávku</w> na odpočívadle.",
+                                "tr": "Uzun bir araba yolculuğunun ardından bir dinlenme tesisinde kısa bir <w>mola</w> verdik.",
+                                "es": "Tras un largo viaje en coche, hicimos una breve <w>parada</w> en un área de descanso.",
+                                "zh": "长途驱车之后，我们在一家高速公路服务区作了短暂<w>停留</w>。"
+                            }
                         },
                         {
-                            "text": "Der Schnellzug kam erst wenige Meter vor der Absperrung zum <w>Halt</w>."
+                            "text": "Der Schnellzug kam erst wenige Meter vor der Absperrung zum <w>Halt</w>.",
+                            "target_lang_translations": {
+                                "en": "The express train came to a <w>halt</w> only a few meters before the barrier.",
+                                "ru": "Скоростной поезд <w>остановился</w> лишь в нескольких метрах от заграждения.",
+                                "nl": "De sneltrein kwam pas enkele meters voor de afzetting tot <w>stilstand</w>.",
+                                "pl": "Pociąg pospieszny <w>zatrzymał się</w> dopiero kilka metrów przed barierką.",
+                                "fr": "Le train express n'a marqué l'<w>arrêt</w> qu'à quelques mètres de la barrière.",
+                                "it": "Il treno espresso si è <w>arrestato</w> solo a pochi metri dalla barriera.",
+                                "cs": "Rychlík <w>zastavil</w> teprve několik metrů před zábranou.",
+                                "tr": "Hızlı tren, bariyerin ancak birkaç metre önünde <w>durabildi</w>.",
+                                "es": "El tren de alta velocidad <w>se detuvo</w> a escasos metros de la barrera.",
+                                "zh": "特快列车直到距离路障仅几米远的地方才停下来。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -63,7 +229,133 @@
                     "common_phrases": [
                         "Halt machen",
                         "zum Halt kommen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A pause, interruption, or cessation of movement or travel",
+                        "ru": "Прекращение или временный перерыв в движении либо поездке",
+                        "nl": "Een onderbreking of beëindiging van een beweging of reis",
+                        "pl": "Przerwanie lub zakończenie ruchu albo podróży",
+                        "fr": "Interruption ou cessation temporaire ou définitive d'un mouvement ou d'un trajet",
+                        "it": "Interruzione, pausa o cessazione temporanea o definitiva di un movimento o di un viaggio",
+                        "cs": "Přerušení nebo ukončení pohybu či jízdy",
+                        "tr": "Bir hareketin veya yolculuğun geçici olarak kesilmesi veya tamamen durması",
+                        "es": "Pausa, interrupción o cese temporal o definitivo del movimiento o de un viaje",
+                        "zh": "行进或移动过程中的暂停、中断或终止"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "interruption of travel or movement"
+                            },
+                            {
+                                "target_lang_word": "halt",
+                                "target_lang_sense_clarification": "temporary or complete cessation of movement"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "остановка",
+                                "target_lang_sense_clarification": "прекращение движения или перерыв в пути"
+                            },
+                            {
+                                "target_lang_word": "привал",
+                                "target_lang_sense_clarification": "кратковременный отдых в пути"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "onderbreking van een reis of rit"
+                            },
+                            {
+                                "target_lang_word": "stilstand",
+                                "target_lang_sense_clarification": "het tot stilstand komen van een voertuig of beweging"
+                            },
+                            {
+                                "target_lang_word": "halt",
+                                "target_lang_sense_clarification": "vooral in de vaste verbinding 'halt houden'"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "postój",
+                                "target_lang_sense_clarification": "krótka przerwa w podróży"
+                            },
+                            {
+                                "target_lang_word": "zatrzymanie się",
+                                "target_lang_sense_clarification": "zaprzestanie poruszania się pojazdu lub osoby"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "arrêt",
+                                "target_lang_sense_clarification": "interruption ou fin d'un déplacement"
+                            },
+                            {
+                                "target_lang_word": "halte",
+                                "target_lang_sense_clarification": "pause temporaire au cours d'un trajet"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sosta",
+                                "target_lang_sense_clarification": "pausa o breve interruzione durante un tragitto"
+                            },
+                            {
+                                "target_lang_word": "arresto",
+                                "target_lang_sense_clarification": "cessazione completa del movimento di un veicolo o di una persona"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "zastavení",
+                                "target_lang_sense_clarification": "ukončení pohybu nebo jízdy"
+                            },
+                            {
+                                "target_lang_word": "zastávka",
+                                "target_lang_sense_clarification": "krátké přerušení cesty za účelem odpočinku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "mola",
+                                "target_lang_sense_clarification": "yolculuk sırasında verilen kısa dinlenme arası"
+                            },
+                            {
+                                "target_lang_word": "duraklama",
+                                "target_lang_sense_clarification": "harekete veya yolculuğa ara verme"
+                            },
+                            {
+                                "target_lang_word": "durma",
+                                "target_lang_sense_clarification": "hareketin tamamen kesilmesi veya son bulması"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "parada",
+                                "target_lang_sense_clarification": "interrupción o pausa durante un trayecto o viaje"
+                            },
+                            {
+                                "target_lang_word": "alto",
+                                "target_lang_sense_clarification": "detención de la marcha, como en la expresión 'hacer un alto'"
+                            },
+                            {
+                                "target_lang_word": "detención",
+                                "target_lang_sense_clarification": "cese completo del avance o movimiento"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "停留",
+                                "target_lang_sense_clarification": "旅途或行动中的短暂停歇"
+                            },
+                            {
+                                "target_lang_word": "停顿",
+                                "target_lang_sense_clarification": "动作或行进的暂时中止"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "1f920bcc-5f84-3557-8df5-f4581e29ee80",
@@ -74,10 +366,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Auf dem nassen Boden verlor der Wanderer plötzlich den <w>Halt</w>."
+                            "text": "Auf dem nassen Boden verlor der Wanderer plötzlich den <w>Halt</w>.",
+                            "target_lang_translations": {
+                                "en": "On the wet ground, the hiker suddenly lost his <w>footing</w>.",
+                                "ru": "На мокрой земле путник внезапно потерял <w>опору под ногами</w>.",
+                                "nl": "Op de natte ondergrond verloor de wandelaar plotseling zijn <w>houvast</w>.",
+                                "pl": "Na mokrej ziemi wędrowiec nagle stracił <w>równowagę</w>.",
+                                "fr": "Sur le sol mouillé, le randonneur a soudainement perdu l'<w>équilibre</w>.",
+                                "it": "Sul terreno bagnato l'escursionista ha improvvisamente perso l'<w>equilibrio</w>.",
+                                "cs": "Na mokré zemi turista náhle ztratil <w>oporu</w>.",
+                                "tr": "Islak zeminde yürüyüşçü aniden <w>dengesini</w> kaybetti.",
+                                "es": "En el suelo mojado, el senderista perdió repentinamente el <w>equilibrio</w>.",
+                                "zh": "在湿滑的地面上，徒步者突然失去了脚下的<w>立足点</w>。"
+                            }
                         },
                         {
-                            "text": "Das Geländer an der steilen Treppe gibt älteren Menschen sicheren <w>Halt</w>."
+                            "text": "Das Geländer an der steilen Treppe gibt älteren Menschen sicheren <w>Halt</w>.",
+                            "target_lang_translations": {
+                                "en": "The railing on the steep stairs provides older people with secure <w>support</w>.",
+                                "ru": "Перила на крутой лестнице дают пожилым людям надёжную <w>опору</w>.",
+                                "nl": "De leuning aan de steile trap biedt ouderen een veilig <w>houvast</w>.",
+                                "pl": "Poręcz przy stromych schodach daje starszym ludziom pewne <w>oparcie</w>.",
+                                "fr": "La rampe de l'escalier raide offre un <w>appui</w> sûr aux personnes âgées.",
+                                "it": "La ringhiera sulla ripida scala offre agli anziani un sicuro <w>appoggio</w>.",
+                                "cs": "Zábradlí na příkrém schodišti dává starším lidem bezpečnou <w>oporu</w>.",
+                                "tr": "Dik merdivendeki tırabzan, yaşlı insanlara güvenli bir <w>destek</w> sağlar.",
+                                "es": "La barandilla de la empinada escalera proporciona un <w>apoyo</w> seguro a las personas mayores.",
+                                "zh": "陡峭楼梯上的栏杆为老年人提供了安全的<w>支撑</w>。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -86,7 +402,157 @@
                     "common_phrases": [
                         "den Halt verlieren",
                         "Halt geben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Physical support, grip, footing, or something to hold onto to prevent falling",
+                        "ru": "Физическая опора или возможность удержаться от падения",
+                        "nl": "Fysieke steun, grip of houvast om niet te vallen",
+                        "pl": "Fizyczne oparcie, uchwyt lub możliwość przytrzymania się",
+                        "fr": "Point d'appui physique, prise ou stabilité permettant d'éviter de tomber",
+                        "it": "Sostegno fisico, presa o stabilità che impedisce di scivolare o cadere",
+                        "cs": "Fyzická opora, stabilita nebo možnost se něčeho zachytit",
+                        "tr": "Düşmeyi ya da kaymayı önleyen fiziksel destek, tutunacak yer veya denge",
+                        "es": "Apoyo físico, agarre o estabilidad que permite sujetarse o evita resbalar o caer",
+                        "zh": "使身体保持平衡、防止摔倒的物理支撑、立足点或可抓握处"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "footing",
+                                "target_lang_sense_clarification": "secure grip or balance on a surface"
+                            },
+                            {
+                                "target_lang_word": "support",
+                                "target_lang_sense_clarification": "physical brace or fixture providing stability"
+                            },
+                            {
+                                "target_lang_word": "hold",
+                                "target_lang_sense_clarification": "grasp or grip that keeps someone from slipping"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "опора",
+                                "target_lang_sense_clarification": "предмет или поверхность, на которую можно опереться"
+                            },
+                            {
+                                "target_lang_word": "точка опоры",
+                                "target_lang_sense_clarification": "место, дающее возможность удержать равновесие"
+                            },
+                            {
+                                "target_lang_word": "равновесие",
+                                "target_lang_sense_clarification": "устойчивое положение тела"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "houvast",
+                                "target_lang_sense_clarification": "fysieke grip of steunpunt om zich aan vast te houden"
+                            },
+                            {
+                                "target_lang_word": "steun",
+                                "target_lang_sense_clarification": "fysieke ondersteuning of stabiliteit"
+                            },
+                            {
+                                "target_lang_word": "grip",
+                                "target_lang_sense_clarification": "wrijving of houvast op een oppervlak"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "oparcie",
+                                "target_lang_sense_clarification": "fizyczna podpora dająca stabilność"
+                            },
+                            {
+                                "target_lang_word": "punkt podparcia",
+                                "target_lang_sense_clarification": "miejsce umożliwiające utrzymanie równowagi"
+                            },
+                            {
+                                "target_lang_word": "uchwyt",
+                                "target_lang_sense_clarification": "coś, czego można się przytrzymać"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "appui",
+                                "target_lang_sense_clarification": "support physique ou élément sur lequel s'appuyer"
+                            },
+                            {
+                                "target_lang_word": "prise",
+                                "target_lang_sense_clarification": "moyen physique pour se retenir ou s'agripper"
+                            },
+                            {
+                                "target_lang_word": "soutien",
+                                "target_lang_sense_clarification": "maintien ou stabilité matérielle"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "appoggio",
+                                "target_lang_sense_clarification": "superficie o elemento a cui reggersi per stabilità"
+                            },
+                            {
+                                "target_lang_word": "sostegno",
+                                "target_lang_sense_clarification": "struttura o supporto che regge fisicamente"
+                            },
+                            {
+                                "target_lang_word": "presa",
+                                "target_lang_sense_clarification": "capacità di afferrare saldamente per non scivolare"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "opora",
+                                "target_lang_sense_clarification": "fyzický bod nebo předmět sloužící k podepření"
+                            },
+                            {
+                                "target_lang_word": "stabilita",
+                                "target_lang_sense_clarification": "pevné držení a rovnováha zabraňující pádu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "destek",
+                                "target_lang_sense_clarification": "fiziksel sağlamlık ve dayanma sağlayan nesne"
+                            },
+                            {
+                                "target_lang_word": "tutunacak yer",
+                                "target_lang_sense_clarification": "kaymayı veya düşmeyi önlemek için tutunulan nokta"
+                            },
+                            {
+                                "target_lang_word": "dayanak",
+                                "target_lang_sense_clarification": "üzerine basılan veya yaslanılan sağlam yer"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "apoyo",
+                                "target_lang_sense_clarification": "elemento o superficie física sobre la que afirmarse"
+                            },
+                            {
+                                "target_lang_word": "agarre",
+                                "target_lang_sense_clarification": "punto o sujeción para sostenerse con seguridad"
+                            },
+                            {
+                                "target_lang_word": "equilibrio",
+                                "target_lang_sense_clarification": "estabilidad o firmeza corporal para no caer"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "支撑",
+                                "target_lang_sense_clarification": "借以保持身体平衡的物体或受力点"
+                            },
+                            {
+                                "target_lang_word": "立足点",
+                                "target_lang_sense_clarification": "站稳脚跟的基础或着力处"
+                            },
+                            {
+                                "target_lang_word": "依托",
+                                "target_lang_sense_clarification": "防止滑落或倒下的凭借物"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4e5d28b8-ac18-3981-a44d-32118efdc814",
@@ -97,10 +563,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In dieser schweren Lebensphase gaben ihr Familie und Freunde großen <w>Halt</w>."
+                            "text": "In dieser schweren Lebensphase gaben ihr Familie und Freunde großen <w>Halt</w>.",
+                            "target_lang_translations": {
+                                "en": "During this difficult phase of life, family and friends gave her great <w>support</w>.",
+                                "ru": "В этот трудный период жизни семья и друзья стали для неё огромной <w>опорой</w>.",
+                                "nl": "In deze moeilijke levensfase boden familie en vrienden haar veel <w>steun</w>.",
+                                "pl": "W tym trudnym okresie życia rodzina i przyjaciele byli dla niej ogromnym <w>oparciem</w>.",
+                                "fr": "Dans cette phase difficile de sa vie, sa famille et ses amis lui ont apporté un grand <w>soutien</w>.",
+                                "it": "In questa fase difficile della vita, la famiglia e gli amici le hanno dato un grande <w>sostegno</w>.",
+                                "cs": "V této těžké životní fázi jí byli rodina a přátelé velkou <w>oporou</w>.",
+                                "tr": "Hayatının bu zor döneminde ailesi ve arkadaşları ona büyük bir <w>destek</w> oldu.",
+                                "es": "En esta difícil etapa de la vida, su familia y sus amigos le dieron un gran <w>apoyo</w>.",
+                                "zh": "在这一段艰难的人生时期，家人和朋友成了她巨大的<w>依靠</w>。"
+                            }
                         },
                         {
-                            "text": "Nach dem Schicksalsschlag fand er wieder festen <w>Halt</w> im Glauben."
+                            "text": "Nach dem Schicksalsschlag fand er wieder festen <w>Halt</w> im Glauben.",
+                            "target_lang_translations": {
+                                "en": "After the stroke of fate, he found firm <w>support</w> in faith once again.",
+                                "ru": "После удара судьбы он снова нашёл твёрдую <w>опору</w> в вере.",
+                                "nl": "Na de zware tegenslag vond hij weer een stevig <w>houvast</w> in het geloof.",
+                                "pl": "Po ciosie losu znów odnalazł silne <w>oparcie</w> w wierze.",
+                                "fr": "Après ce coup du sort, il a de nouveau trouvé un <w>appui</w> solide dans la foi.",
+                                "it": "Dopo quel duro colpo del destino, ha ritrovato un solido <w>sostegno</w> nella fede.",
+                                "cs": "Po těžké ráně osudu našel znovu pevnou <w>oporu</w> ve víře.",
+                                "tr": "Uğradığı ağır darbenin ardından inancında yeniden güçlü bir <w>dayanak</w> buldu.",
+                                "es": "Tras el golpe del destino, volvió a encontrar un firme <w>sostén</w> en la fe.",
+                                "zh": "在遭受命运的沉重打击后，他又在信仰中找到了坚实的<w>寄托</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -114,7 +604,145 @@
                     "common_phrases": [
                         "Halt finden",
                         "Halt geben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Emotional support, comfort, or psychological stability in difficult times",
+                        "ru": "Душевная или моральная поддержка в трудных ситуациях",
+                        "nl": "Emotionele steun, toeverlaat of moreel houvast in moeilijke tijden",
+                        "pl": "Wsparcie psychiczne lub oparcie emocjonalne w trudnych chwilach",
+                        "fr": "Soutien moral, réconfort affectif ou repère psychologique dans les moments difficiles",
+                        "it": "Sostegno morale, conforto emotivo o punto di riferimento in momenti difficili",
+                        "cs": "Duševní podpora nebo morální opora v těžkých životních chvílích",
+                        "tr": "Zor zamanlarda insana güç ve güven veren duygusal veya manevi dayanak",
+                        "es": "Apoyo moral, consuelo o estabilidad emocional en momentos difíciles",
+                        "zh": "在逆境或困难时期给予的心理依靠、精神寄托或情感支持"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "support",
+                                "target_lang_sense_clarification": "emotional backing and reassurance"
+                            },
+                            {
+                                "target_lang_word": "comfort",
+                                "target_lang_sense_clarification": "source of solace and security"
+                            },
+                            {
+                                "target_lang_word": "anchor",
+                                "target_lang_sense_clarification": "source of emotional stability"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "опора",
+                                "target_lang_sense_clarification": "моральная стойкость или надёжный источник помощи"
+                            },
+                            {
+                                "target_lang_word": "поддержка",
+                                "target_lang_sense_clarification": "эмоциональная помощь и ободрение"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "steun",
+                                "target_lang_sense_clarification": "emotionele of mentale bijstand"
+                            },
+                            {
+                                "target_lang_word": "houvast",
+                                "target_lang_sense_clarification": "psychologische stabiliteit of zekerheid"
+                            },
+                            {
+                                "target_lang_word": "toeverlaat",
+                                "target_lang_sense_clarification": "iemand of iets waar men troost en zekerheid bij vindt"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "oparcie",
+                                "target_lang_sense_clarification": "emocjonalna podpora w osobie lub wierze"
+                            },
+                            {
+                                "target_lang_word": "wsparcie",
+                                "target_lang_sense_clarification": "pomoc psychiczna i poczucie bezpieczeństwa"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "soutien",
+                                "target_lang_sense_clarification": "aide morale, présence réconfortante"
+                            },
+                            {
+                                "target_lang_word": "appui",
+                                "target_lang_sense_clarification": "personne ou principe sur lequel on peut compter"
+                            },
+                            {
+                                "target_lang_word": "réconfort",
+                                "target_lang_sense_clarification": "consolation ou apaisement émotionnel"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sostegno",
+                                "target_lang_sense_clarification": "aiuto morale o supporto psicologico ed emotivo"
+                            },
+                            {
+                                "target_lang_word": "appoggio",
+                                "target_lang_sense_clarification": "figura o certezza su cui poter fare affidamento"
+                            },
+                            {
+                                "target_lang_word": "conforto",
+                                "target_lang_sense_clarification": "consolazione e fonte di rassicurazione emotiva"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "opora",
+                                "target_lang_sense_clarification": "morální podpora v osobě, víře nebo zásadách"
+                            },
+                            {
+                                "target_lang_word": "podpora",
+                                "target_lang_sense_clarification": "citová nebo psychická pomoc v nouzi"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "destek",
+                                "target_lang_sense_clarification": "zor zamanlarda hissedilen manevi ve psikolojik güç"
+                            },
+                            {
+                                "target_lang_word": "dayanak",
+                                "target_lang_sense_clarification": "güvenilen kişi, inanç veya sığınak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "apoyo",
+                                "target_lang_sense_clarification": "ayuda o respaldo moral y afectivo"
+                            },
+                            {
+                                "target_lang_word": "sostén",
+                                "target_lang_sense_clarification": "persona, fe o circunstancia que da seguridad y firmeza interior"
+                            },
+                            {
+                                "target_lang_word": "consuelo",
+                                "target_lang_sense_clarification": "fuente de tranquilidad o alivio emocional"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "依靠",
+                                "target_lang_sense_clarification": "提供安全感与精神支持的人或事物"
+                            },
+                            {
+                                "target_lang_word": "寄托",
+                                "target_lang_sense_clarification": "心灵上的依附与抚慰"
+                            },
+                            {
+                                "target_lang_word": "支柱",
+                                "target_lang_sense_clarification": "精神或情感上的坚定支持力量"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -130,10 +758,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wenn der Zug Verspätung hat, müssen wir <w>halt</w> ein wenig warten."
+                            "text": "Wenn der Zug Verspätung hat, müssen wir <w>halt</w> ein wenig warten.",
+                            "target_lang_translations": {
+                                "en": "If the train is delayed, we will <w>just</w> have to wait a little.",
+                                "ru": "Если поезд опаздывает, нам <w>просто</w> придётся немного подождать.",
+                                "nl": "Als de trein vertraging heeft, moeten we <w>gewoon</w> even wachten.",
+                                "pl": "Jeśli pociąg jest opóźniony, musimy <w>po prostu</w> trochę poczekać.",
+                                "fr": "Si le train a du retard, nous devons <w>simplement</w> attendre un peu.",
+                                "it": "Se il treno è in ritardo, dobbiamo <w>semplicemente</w> aspettare un po'.",
+                                "cs": "Když má vlak zpoždění, musíme <w>prostě</w> chvíli počkat.",
+                                "tr": "Tren gecikirse biraz beklemek zorunda kalacağız <w>artık</w>.",
+                                "es": "Si el tren se retrasa, <w>simplemente</w> tendremos que esperar un poco.",
+                                "zh": "要是火车晚点了，我们<w>就</w>只能稍微等等了。"
+                            }
                         },
                         {
-                            "text": "Da kann man leider überhaupt nichts mehr ändern, es ist <w>halt</w> so."
+                            "text": "Da kann man leider überhaupt nichts mehr ändern, es ist <w>halt</w> so.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, nothing can be changed anymore, that is <w>just</w> the way it is.",
+                                "ru": "Тут, к сожалению, ничего уже не изменить, такова <w>уж</w> ситуация.",
+                                "nl": "Daar kun je helaas helemaal niets meer aan veranderen, het is <w>nou eenmaal</w> zo.",
+                                "pl": "Niestety nie da się już nic zmienić, <w>po prostu</w> tak już jest.",
+                                "fr": "On ne peut malheureusement plus rien y changer, c'est <w>tout simplement</w> comme ça.",
+                                "it": "Purtroppo non si può più cambiare nulla, è <w>semplicemente</w> così.",
+                                "cs": "S tím se bohužel už nedá vůbec nic dělat, je to <w>holt</w> tak.",
+                                "tr": "Maalesef artık hiçbir şey değiştirilemez, durum <w>işte</w> böyle.",
+                                "es": "Lamentablemente ya no se puede cambiar nada, es <w>simplemente</w> así.",
+                                "zh": "可惜现在什么也改变不了，事情<w>反正</w>就是这样了。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -147,7 +799,125 @@
                             "trait_type": "colloquial",
                             "comment": "umgangssprachlich als Modalpartikel gebraucht"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Expresses acceptance of an unalterable fact or obvious reality",
+                        "ru": "Выражает неизбежность ситуации, очевидность факта или смирение с ним",
+                        "nl": "Drukt uit dat iets een onvermijdelijk feit of een vanzelfsprekendheid is",
+                        "pl": "Wyraża pogodzenie się z nieodwracalnym faktem lub oczywistą rzeczywistością",
+                        "fr": "Exprime l'acceptation d'un fait inévitable ou d'une réalité indiscutable",
+                        "it": "Esprime rassegnazione o accettazione di un fatto inevitabile e palese",
+                        "cs": "Vyjadřuje smíření se s neměnnou skutečností nebo zřejmým faktem",
+                        "tr": "Bir durumun kaçınılmaz olduğunu, değiştirilemeyeceğini veya doğal karşılanması gerektiğini belirten edat/bağlaç",
+                        "es": "Expresa resignación o aceptación de un hecho inevitable, evidente o conocido",
+                        "zh": "语气词，表示对既成事实或无可奈何局面的顺应与接受"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "just",
+                                "target_lang_sense_clarification": "indicating resignation or inevitable reality"
+                            },
+                            {
+                                "target_lang_word": "simply",
+                                "target_lang_sense_clarification": "stating an unavoidable fact plainly"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "просто",
+                                "target_lang_sense_clarification": "констатация очевидного или неизбежного факта"
+                            },
+                            {
+                                "target_lang_word": "уж",
+                                "target_lang_sense_clarification": "выражение смирения с обстоятельствами"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "gewoon",
+                                "target_lang_sense_clarification": "geeft berusting of een vanzelfsprekend feit aan"
+                            },
+                            {
+                                "target_lang_word": "nou eenmaal",
+                                "target_lang_sense_clarification": "geeft aan dat aan de situatie niets te veranderen is"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "po prostu",
+                                "target_lang_sense_clarification": "wskazuje na pogodzenie się z faktami"
+                            },
+                            {
+                                "target_lang_word": "przecież",
+                                "target_lang_sense_clarification": "podkreśla oczywistość sytuacji"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "simplement",
+                                "target_lang_sense_clarification": "pour marquer l'évidence d'une situation"
+                            },
+                            {
+                                "target_lang_word": "tout simplement",
+                                "target_lang_sense_clarification": "souligne la résignation face à ce qu'on ne peut changer"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "semplicemente",
+                                "target_lang_sense_clarification": "indica che la situazione non si può cambiare ed è ovvia"
+                            },
+                            {
+                                "target_lang_word": "proprio",
+                                "target_lang_sense_clarification": "rafforza la constatazione di una realtà di fatto"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "prostě",
+                                "target_lang_sense_clarification": "konstatování nevyhnutelného faktu"
+                            },
+                            {
+                                "target_lang_word": "holt",
+                                "target_lang_sense_clarification": "hovorové vyjádření smíření se se situací"
+                            },
+                            {
+                                "target_lang_word": "zkrátka",
+                                "target_lang_sense_clarification": "vyjádření samozřejmosti nebo neodvratnosti"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "işte",
+                                "target_lang_sense_clarification": "durumun değiştirilemezliğini veya kabullenilmesini belirtir"
+                            },
+                            {
+                                "target_lang_word": "artık",
+                                "target_lang_sense_clarification": "kaçınılmaz bir sonuca rıza gösterildiğini ifade eder"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "simplemente",
+                                "target_lang_sense_clarification": "indica aceptación llana de una realidad inalterable"
+                            },
+                            {
+                                "target_lang_word": "pues",
+                                "target_lang_sense_clarification": "matiz coloquial de resignación ante los hechos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "就",
+                                "target_lang_sense_clarification": "表示顺应事实、别无选择"
+                            },
+                            {
+                                "target_lang_word": "反正",
+                                "target_lang_sense_clarification": "表示事实无可辩驳或已无法更改"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a91aea69-0707-365a-9056-23fd2f5751a2",
@@ -158,10 +928,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wenn du starke Schmerzen hast, dann geh <w>halt</w> endlich zum Arzt."
+                            "text": "Wenn du starke Schmerzen hast, dann geh <w>halt</w> endlich zum Arzt.",
+                            "target_lang_translations": {
+                                "en": "If you have severe pain, then <w>just</w> go see a doctor already.",
+                                "ru": "Если у тебя сильная боль, сходи <w>уже</w> наконец к врачу.",
+                                "nl": "Als je hevige pijn hebt, ga dan <w>gewoon</w> eindelijk eens naar de dokter.",
+                                "pl": "Jeśli masz silne bóle, to idź <w>w końcu</w> do lekarza.",
+                                "fr": "Si tu as de fortes douleurs, va <w>donc</w> enfin chez le médecin.",
+                                "it": "Se hai forti dolori, va' <w>pure</w> finalmente dal medico.",
+                                "cs": "Když máš silné bolesti, tak jdi <w>prostě</w> konečně k lékaři.",
+                                "tr": "Şiddetli ağrın varsa doktora git <w>bari</w> artık.",
+                                "es": "Si tienes dolores fuertes, ve <w>simplemente</w> al médico de una vez.",
+                                "zh": "要是你疼得厉害，<w>干脆</w>赶紧去看医生吧。"
+                            }
                         },
                         {
-                            "text": "Frag <w>halt</w> deine Kollegen, wenn du mit der Aufgabe nicht zurechtkommst."
+                            "text": "Frag <w>halt</w> deine Kollegen, wenn du mit der Aufgabe nicht zurechtkommst.",
+                            "target_lang_translations": {
+                                "en": "<w>Just</w> ask your colleagues if you cannot cope with the task.",
+                                "ru": "<w>Просто</w> спроси коллег, если не справляешься с задачей.",
+                                "nl": "Vraag het <w>gewoon</w> aan je collega's als je er met de taak niet uitkomt.",
+                                "pl": "<w>Po prostu</w> zapytaj swoich kolegów, jeśli nie radzisz sobie z tym zadaniem.",
+                                "fr": "Demande <w>simplement</w> à tes collègues si tu n'arrives pas à t'en sortir avec cette tâche.",
+                                "it": "Chiedi <w>semplicemente</w> ai tuoi colleghi se non riesci a sbrigare il compito.",
+                                "cs": "<w>Prostě</w> se zeptej kolegů, pokud si s tím úkolem nevíš rady.",
+                                "tr": "Görevin üstesinden gelemiyorsan iş arkadaşlarına soruver <w>işte</w>.",
+                                "es": "<w>Simplemente</w> pregúntales a tus compañeros si no te las arreglas con la tarea.",
+                                "zh": "如果你搞不定这项任务，<w>就</w>问问你的同事吧。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -175,7 +969,117 @@
                             "trait_type": "colloquial",
                             "comment": "umgangssprachlich gebraucht"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Adds emphasis or urgency to a request, piece of advice, or suggestion",
+                        "ru": "Придаёт побуждению, совету или предложению оттенок непринуждённости или настояния",
+                        "nl": "Geeft nadruk of aansporing aan een advies, aansporing of voorstel",
+                        "pl": "Nadaje nacisk lub przynaglenie wezwaniu, radzie albo propozycji",
+                        "fr": "Renforce une incitation, un conseil ou une proposition",
+                        "it": "Dà enfasi a un consiglio, un invito o una proposta, sollecitando ad agire senza indugi",
+                        "cs": "Dodává důraz výzvě, radě nebo návrhu jednat bez otálení",
+                        "tr": "Bir tavsiyeye, öneriye veya emre ivedilik ve vurgu katarak tereddütsüz yapılması gerektiğini ifade eder",
+                        "es": "Añade énfasis, apremio o espontaneidad a una exhortación, consejo o propuesta",
+                        "zh": "语气词，用于加强建议、劝告或催促的语气，意在促使对方果断行动"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "just",
+                                "target_lang_sense_clarification": "used with imperatives or suggestions to urge action"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "просто",
+                                "target_lang_sense_clarification": "при совете сделать что-либо без лишних сомнений"
+                            },
+                            {
+                                "target_lang_word": "же",
+                                "target_lang_sense_clarification": "усилительная частица при побуждении"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "gewoon",
+                                "target_lang_sense_clarification": "gebruikt bij aansporingen om aan te geven dat men niet moet aarzelen"
+                            },
+                            {
+                                "target_lang_word": "maar",
+                                "target_lang_sense_clarification": "verzachtende of aansporende partikel bij suggesties en bevelen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "po prostu",
+                                "target_lang_sense_clarification": "przy zachęcie do bezproblemowego podjęcia działania"
+                            },
+                            {
+                                "target_lang_word": "no to",
+                                "target_lang_sense_clarification": "partykuła ponaglająca do zrobienia czegoś"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "donc",
+                                "target_lang_sense_clarification": "employé avec l'impératif pour pousser à l'action"
+                            },
+                            {
+                                "target_lang_word": "simplement",
+                                "target_lang_sense_clarification": "pour suggérer d'agir sans complication ni hésitation"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "semplicemente",
+                                "target_lang_sense_clarification": "usato con inviti per indicare di agire senza troppe complicazioni"
+                            },
+                            {
+                                "target_lang_word": "allora",
+                                "target_lang_sense_clarification": "particella esortativa per spronare a compiere un'azione"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "prostě",
+                                "target_lang_sense_clarification": "důraz při pobídce udělat něco bez váhání"
+                            },
+                            {
+                                "target_lang_word": "tak",
+                                "target_lang_sense_clarification": "zdůrazňující částice u rozkazu či rady"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bari",
+                                "target_lang_sense_clarification": "tavsiyeyi veya rica edilen adımı pekiştirmek için kullanılır"
+                            },
+                            {
+                                "target_lang_word": "artık",
+                                "target_lang_sense_clarification": "bir eylemin gecikmeden yapılması gerektiğini vurgular"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "simplemente",
+                                "target_lang_sense_clarification": "empleado en sugerencias para instar a actuar sin dudar"
+                            },
+                            {
+                                "target_lang_word": "pues",
+                                "target_lang_sense_clarification": "partícula de refuerzo al dar un consejo o mandato"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "干脆",
+                                "target_lang_sense_clarification": "用于建议中，劝促对方索性采取行动"
+                            },
+                            {
+                                "target_lang_word": "就",
+                                "target_lang_sense_clarification": "用于祈使句，强调无需犹豫直接去做"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -191,10 +1095,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Halt</w>, bleiben Sie bitte sofort an der Absperrung stehen!"
+                            "text": "<w>Halt</w>, bleiben Sie bitte sofort an der Absperrung stehen!",
+                            "target_lang_translations": {
+                                "en": "<w>Halt</w>, please stop immediately at the barrier!",
+                                "ru": "<w>Стойте</w>, пожалуйста, немедленно остановитесь у заграждения!",
+                                "nl": "<w>Halt</w>, blijf alstublieft onmiddellijk bij de afzetting staan!",
+                                "pl": "<w>Stój</w>, proszę natychmiast zatrzymać się przed barierką!",
+                                "fr": "<w>Halte</w>, arrêtez-vous immédiatement à la barrière, s'il vous plaît !",
+                                "it": "<w>Alt</w>, si fermi immediatamente alla transenna, per favore!",
+                                "cs": "<w>Stát</w>, zůstaňte prosím okamžitě stát u zábrany!",
+                                "tr": "<w>Durun</w>, lütfen derhal bariyerin önünde bekleyin!",
+                                "es": "¡<w>Alto</w>, quédese inmediatamente junto a la barrera, por favor!",
+                                "zh": "“<w>站住</w>，请立刻在隔离栏前停下！”"
+                            }
                         },
                         {
-                            "text": "<w>Halt</w>, so schnell können wir diese wichtige Frage nicht entscheiden!"
+                            "text": "<w>Halt</w>, so schnell können wir diese wichtige Frage nicht entscheiden!",
+                            "target_lang_translations": {
+                                "en": "<w>Wait</w>, we cannot decide such an important question so quickly!",
+                                "ru": "<w>Постойте</w>, мы не можем решить такой важный вопрос настолько быстро!",
+                                "nl": "<w>Wacht</w>, zo snel kunnen we deze belangrijke kwestie niet beslissen!",
+                                "pl": "<w>Czekaj</w>, tak ważnej kwestii nie możemy rozstrzygnąć tak szybko!",
+                                "fr": "<w>Attendez</w>, nous ne pouvons pas trancher une question aussi importante si vite !",
+                                "it": "<w>Aspetta</w>, non possiamo decidere una questione così importante così in fretta!",
+                                "cs": "<w>Počkat</w>, tak rychle tuto důležitou otázku rozhodnout nemůžeme!",
+                                "tr": "<w>Bir dakika</w>, bu denli önemli bir konuyu bu kadar çabuk karara bağlayamayız!",
+                                "es": "¡<w>Espera</w>, no podemos decidir una cuestión tan importante tan rápido!",
+                                "zh": "“<w>等等</w>，这么重要的问题我们可不能决定得这么匆忙！”"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -202,7 +1130,161 @@
                     ],
                     "antonyms": [
                         "weiter"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An exclamation commanding someone to stop moving immediately or halt an action",
+                        "ru": "Возглас или приказ немедленно остановиться либо прекратить действие",
+                        "nl": "Uitroep om iemand onmiddellijk te laten stoppen of een handeling te onderbreken",
+                        "pl": "Wezwanie do natychmiastowego zatrzymania się lub przerwania czynności",
+                        "fr": "Exclamation intimant l'ordre de s'arrêter sur-le-champ ou d'interrompre une action",
+                        "it": "Esclamazione che intima di fermarsi sul posto o di interrompere subito un'azione",
+                        "cs": "Zvolání vyzývající k okamžitému zastavení nebo přerušení činnosti",
+                        "tr": "Hemen durmayı, hareketi veya eylemi o anda kesmeyi emreden ünlem",
+                        "es": "Exclamación que ordena detenerse de inmediato o interrumpir una acción",
+                        "zh": "表示立即停步或暂缓当下行动的呼喊或口令"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "exclamation commanding an immediate halt"
+                            },
+                            {
+                                "target_lang_word": "halt",
+                                "target_lang_sense_clarification": "formal exclamation commanding someone to freeze or stop"
+                            },
+                            {
+                                "target_lang_word": "wait",
+                                "target_lang_sense_clarification": "used to pause or interrupt an ongoing action"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "стой",
+                                "target_lang_sense_clarification": "приказ остановиться на месте"
+                            },
+                            {
+                                "target_lang_word": "стоп",
+                                "target_lang_sense_clarification": "требование прекратить движение или действие"
+                            },
+                            {
+                                "target_lang_word": "погоди",
+                                "target_lang_sense_clarification": "призыв не торопиться или сделать паузу"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "uitroep om onmiddellijk op te houden of stil te staan"
+                            },
+                            {
+                                "target_lang_word": "halt",
+                                "target_lang_sense_clarification": "formeel of militair bevel om stil te blijven staan"
+                            },
+                            {
+                                "target_lang_word": "ho",
+                                "target_lang_sense_clarification": "uitroep om iemand af te remmen of tot pauzeren te manen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "stój",
+                                "target_lang_sense_clarification": "rozkaz natychmiastowego zatrzymania się"
+                            },
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "wykrzyknik nakazujący przerwanie ruchu lub działania"
+                            },
+                            {
+                                "target_lang_word": "chwileczkę",
+                                "target_lang_sense_clarification": "wezwanie do zatrzymania biegu myśli lub działania"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "halte",
+                                "target_lang_sense_clarification": "ordre ferme et immédiat de s'arrêter"
+                            },
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "exclamation pour stopper net un mouvement ou une action"
+                            },
+                            {
+                                "target_lang_word": "attendez",
+                                "target_lang_sense_clarification": "invitation à faire une pause avant de continuer"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "alt",
+                                "target_lang_sense_clarification": "ordine formale o perentorio di arrestare il cammino"
+                            },
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "comando immediato di interrompere un'attività o un moto"
+                            },
+                            {
+                                "target_lang_word": "aspetta",
+                                "target_lang_sense_clarification": "invito a sospendere l'azione prima di proseguire"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "stůj",
+                                "target_lang_sense_clarification": "příkaz okamžitě se zastavit na místě"
+                            },
+                            {
+                                "target_lang_word": "stát",
+                                "target_lang_sense_clarification": "rázný povel k zastavení"
+                            },
+                            {
+                                "target_lang_word": "stop",
+                                "target_lang_sense_clarification": "výzva k přerušení činnosti či pohybu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "dur",
+                                "target_lang_sense_clarification": "tek kişiye yönelik derhal durma çağrısı"
+                            },
+                            {
+                                "target_lang_word": "durun",
+                                "target_lang_sense_clarification": "çoğul ya da saygılı biçimde yapılan durma uyarısı"
+                            },
+                            {
+                                "target_lang_word": "bir dakika",
+                                "target_lang_sense_clarification": "bir düşünceyi veya eylemi duraklatmak için kullanılan uyarı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "¡alto!",
+                                "target_lang_sense_clarification": "orden terminante de detener la marcha o el movimiento"
+                            },
+                            {
+                                "target_lang_word": "¡para!",
+                                "target_lang_sense_clarification": "aviso para frenar o detener una actividad en el acto"
+                            },
+                            {
+                                "target_lang_word": "¡espera!",
+                                "target_lang_sense_clarification": "llamada a hacer una pausa antes de precipitarse"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "站住",
+                                "target_lang_sense_clarification": "命令或呼喝他人立即停止前进"
+                            },
+                            {
+                                "target_lang_word": "等等",
+                                "target_lang_sense_clarification": "招呼他人暂缓行动或决定"
+                            },
+                            {
+                                "target_lang_word": "停",
+                                "target_lang_sense_clarification": "制止动作或行为的简短口令"
+                            }
+                        ]
+                    }
                 }
             ]
         }

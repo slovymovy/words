@@ -17,10 +17,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Draußen ist es sehr kalt, deshalb bleiben wir heute lieber <w>drin</w>."
+                            "text": "Draußen ist es sehr kalt, deshalb bleiben wir heute lieber <w>drin</w>.",
+                            "target_lang_translations": {
+                                "en": "It is very cold outside, so we would rather stay <w>inside</w> today.",
+                                "ru": "На улице очень холодно, поэтому сегодня мы лучше останемся <w>внутри</w>.",
+                                "nl": "Buiten is het erg koud, daarom blijven we vandaag liever <w>binnen</w>.",
+                                "pl": "Na zewnątrz jest bardzo zimno, dlatego dzisiaj wolimy zostać <w>w środku</w>.",
+                                "fr": "Dehors, il fait très froid, c'est pourquoi nous préférons rester <w>à l'intérieur</w> aujourd'hui.",
+                                "it": "Fuori fa molto freddo, per questo oggi preferiamo rimanere <w>dentro</w>.",
+                                "cs": "Venku je velká zima, proto dnes raději zůstaneme <w>vevnitř</w>.",
+                                "tr": "Dışarısı çok soğuk, bu yüzden bugün <w>içeride</w> kalmayı tercih ederiz.",
+                                "es": "Fuera hace mucho frío, por eso hoy preferimos quedarnos <w>dentro</w>.",
+                                "zh": "外面很冷，所以我们今天更愿意待<w>在屋里</w>。"
+                            }
                         },
                         {
-                            "text": "Ist Peter noch <w>drin</w> oder schon draußen im Garten?"
+                            "text": "Ist Peter noch <w>drin</w> oder schon draußen im Garten?",
+                            "target_lang_translations": {
+                                "en": "Is Peter still <w>inside</w> or already outside in the garden?",
+                                "ru": "Петер ещё <w>в помещении</w> или уже на улице в саду?",
+                                "nl": "Is Peter nog <w>binnen</w> of al buiten in de tuin?",
+                                "pl": "Czy Peter jest jeszcze <w>w środku</w>, czy już na zewnątrz w ogrodzie?",
+                                "fr": "Est-ce que Peter est encore <w>à l'intérieur</w> ou déjà dehors dans le jardin ?",
+                                "it": "Peter è ancora <w>dentro</w> o è già fuori in giardino?",
+                                "cs": "Je Petr ještě <w>uvnitř</w>, nebo už venku na zahradě?",
+                                "tr": "Peter hâlâ <w>içeride</w> mi yoksa dışarıda bahçede mi?",
+                                "es": "¿Peter sigue todavía <w>dentro</w> o ya está fuera en el jardín?",
+                                "zh": "彼得还<w>在里面</w>，还是已经在花园里了？"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +58,133 @@
                             "trait_type": "colloquial",
                             "comment": "umgangssprachliche Verkürzung von drinnen"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "located inside a building or room; indoors rather than outdoors",
+                        "ru": "находящийся внутри здания или помещения; не на открытом воздухе",
+                        "nl": "binnen in een gebouw of ruimte; binnenshuis en niet in de openlucht",
+                        "pl": "znajdujący się wewnątrz budynku lub pomieszczenia; nie na świeżym powietrzu",
+                        "fr": "situé à l'intérieur d'un bâtiment ou d'une pièce ; à l'abri plutôt que dehors",
+                        "it": "situato all'interno di un edificio o di una stanza; al chiuso anziché all'aperto",
+                        "cs": "nacházející se uvnitř budovy nebo místnosti; nikoli venku",
+                        "tr": "Bir binanın veya kapalı bir alanın içinde bulunan; dışarıda veya açık havada olmayan",
+                        "es": "situado en el interior de un edificio o habitación; a cubierto y no al aire libre",
+                        "zh": "位于建筑物或房间内部；在屋里、在室内（非户外）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "inside",
+                                "target_lang_sense_clarification": "in a building or room"
+                            },
+                            {
+                                "target_lang_word": "indoors",
+                                "target_lang_sense_clarification": "not outside"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "внутри",
+                                "target_lang_sense_clarification": "в помещении или здании"
+                            },
+                            {
+                                "target_lang_word": "в помещении",
+                                "target_lang_sense_clarification": "не на улице"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "binnen",
+                                "target_lang_sense_clarification": "in een gebouw of kamer"
+                            },
+                            {
+                                "target_lang_word": "binnenshuis",
+                                "target_lang_sense_clarification": "niet buiten"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "w środku",
+                                "target_lang_sense_clarification": "w budynku lub pomieszczeniu"
+                            },
+                            {
+                                "target_lang_word": "wewnątrz",
+                                "target_lang_sense_clarification": "w pomieszczeniu, nie na dworze"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "à l'intérieur",
+                                "target_lang_sense_clarification": "dans un bâtiment ou une pièce"
+                            },
+                            {
+                                "target_lang_word": "dedans",
+                                "target_lang_sense_clarification": "à l'intérieur, pas dehors"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "dentro",
+                                "target_lang_sense_clarification": "all'interno di un edificio o stanza"
+                            },
+                            {
+                                "target_lang_word": "all'interno",
+                                "target_lang_sense_clarification": "al chiuso, non all'aperto"
+                            },
+                            {
+                                "target_lang_word": "in casa",
+                                "target_lang_sense_clarification": "all'interno della propria abitazione"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "vevnitř",
+                                "target_lang_sense_clarification": "v budově či místnosti"
+                            },
+                            {
+                                "target_lang_word": "uvnitř",
+                                "target_lang_sense_clarification": "v prostoru, ne venku"
+                            },
+                            {
+                                "target_lang_word": "doma",
+                                "target_lang_sense_clarification": "v teple domova, uvnitř"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "içeride",
+                                "target_lang_sense_clarification": "bina veya oda içinde, kapalı alanda"
+                            },
+                            {
+                                "target_lang_word": "içerde",
+                                "target_lang_sense_clarification": "günlük konuşma dilinde bina içinde"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "dentro",
+                                "target_lang_sense_clarification": "en el interior de un edificio o habitación"
+                            },
+                            {
+                                "target_lang_word": "adentro",
+                                "target_lang_sense_clarification": "a cubierto, no fuera"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "在屋里",
+                                "target_lang_sense_clarification": "位于室内或建筑物内"
+                            },
+                            {
+                                "target_lang_word": "在里面",
+                                "target_lang_sense_clarification": "在建筑或房间内部"
+                            },
+                            {
+                                "target_lang_word": "在室内",
+                                "target_lang_sense_clarification": "未在户外"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "02114b54-17f1-3efe-9281-833a768fbaca",
@@ -45,10 +195,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In dieser Schachtel ist leider überhaupt nichts mehr <w>drin</w>."
+                            "text": "In dieser Schachtel ist leider überhaupt nichts mehr <w>drin</w>.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, there is nothing at all left <w>inside</w> this box.",
+                                "ru": "В этой коробке, к сожалению, уже ничего <w>нет внутри</w>.",
+                                "nl": "In deze doos zit helaas helemaal niets meer <w>in</w>.",
+                                "pl": "W tym pudełku niestety nie ma już zupełnie nic <w>w środku</w>.",
+                                "fr": "Dans cette boîte, il n'y a malheureusement plus rien <w>dedans</w>.",
+                                "it": "In questa scatola purtroppo non c'è più niente <w>dentro</w>.",
+                                "cs": "V téhle krabici už bohužel není vůbec nic <w>vevnitř</w>.",
+                                "tr": "Bu kutunun <w>içinde</w> maalesef artık hiçbir şey yok.",
+                                "es": "En esta caja, por desgracia, ya no queda nada <w>dentro</w>.",
+                                "zh": "可惜这个盒子<w>里面</w>什么都没有了。"
+                            }
                         },
                         {
-                            "text": "Hast du nachgesehen, ob noch frische Milch in der Flasche <w>drin</w> ist?"
+                            "text": "Hast du nachgesehen, ob noch frische Milch in der Flasche <w>drin</w> ist?",
+                            "target_lang_translations": {
+                                "en": "Did you check whether there is still fresh milk <w>inside</w> the bottle?",
+                                "ru": "Ты проверил, осталась ли ещё свежая молоко <w>в</w> бутылке?",
+                                "nl": "Heb je nagekeken of er nog verse melk <w>in</w> de fles zit?",
+                                "pl": "Sprawdziłeś, czy w butelce jest jeszcze <w>w środku</w> świeże mleko?",
+                                "fr": "As-tu vérifié s'il reste encore du lait frais <w>à l'intérieur</w> de la bouteille ?",
+                                "it": "Hai controllato se c'è ancora latte fresco <w>dentro</w> la bottiglia?",
+                                "cs": "Podíval ses, jestli je v té lahvi ještě <w>uvnitř</w> čerstvé mléko?",
+                                "tr": "Şişenin <w>içinde</w> hâlâ taze süt var mı diye baktın mı?",
+                                "es": "¿Has mirado si todavía queda leche fresca <w>dentro</w> de la botella?",
+                                "zh": "你看了瓶子<w>里面</w>还有没有新鲜牛奶吗？"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -60,7 +234,141 @@
                             "trait_type": "colloquial",
                             "comment": "umgangssprachliche Verkürzung von darin"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "contained or situated within a container, object, or space",
+                        "ru": "содержащийся или находящийся внутри предмета, ёмкости или пространства",
+                        "nl": "bevat in of aanwezig aan de binnenzijde van een voorwerp, verpakking of houder",
+                        "pl": "znajdujący się lub zawarty wewnątrz pojemnika lub przedmiotu",
+                        "fr": "contenu ou situé à l'intérieur d'un récipient ou d'un objet",
+                        "it": "contenuto o situato all'interno di un contenitore, oggetto o spazio delimitato",
+                        "cs": "obsažený nebo nacházející se uvnitř nádoby, předmětu či prostoru",
+                        "tr": "Bir kabın, nesnenin veya alanın içinde bulunan ya da yer alan",
+                        "es": "contenido o situado en el interior de un recipiente, objeto o espacio delimitado",
+                        "zh": "包含或位于容器、物体内部；装在里面"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "inside",
+                                "target_lang_sense_clarification": "within an object or container"
+                            },
+                            {
+                                "target_lang_word": "in it",
+                                "target_lang_sense_clarification": "contained within"
+                            },
+                            {
+                                "target_lang_word": "in there",
+                                "target_lang_sense_clarification": "contained inside that place or item"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "внутри",
+                                "target_lang_sense_clarification": "в предмете или ёмкости"
+                            },
+                            {
+                                "target_lang_word": "там",
+                                "target_lang_sense_clarification": "внутри чего-либо"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "erin",
+                                "target_lang_sense_clarification": "aanwezig in een houder of voorwerp"
+                            },
+                            {
+                                "target_lang_word": "binnenin",
+                                "target_lang_sense_clarification": "aan de binnenkant"
+                            },
+                            {
+                                "target_lang_word": "in",
+                                "target_lang_sense_clarification": "in iets aanwezig"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "w środku",
+                                "target_lang_sense_clarification": "w pojemniku lub naczyniu"
+                            },
+                            {
+                                "target_lang_word": "w środku tego",
+                                "target_lang_sense_clarification": "zawarty w czymś"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "dedans",
+                                "target_lang_sense_clarification": "dans un récipient ou objet"
+                            },
+                            {
+                                "target_lang_word": "là-dedans",
+                                "target_lang_sense_clarification": "à l'intérieur de cet objet"
+                            },
+                            {
+                                "target_lang_word": "à l'intérieur",
+                                "target_lang_sense_clarification": "au-dedans d'un contenant"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "dentro",
+                                "target_lang_sense_clarification": "all'interno di un contenitore o oggetto"
+                            },
+                            {
+                                "target_lang_word": "all'interno",
+                                "target_lang_sense_clarification": "posto nella parte interna"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "uvnitř",
+                                "target_lang_sense_clarification": "v nádobě nebo předmětu"
+                            },
+                            {
+                                "target_lang_word": "vevnitř",
+                                "target_lang_sense_clarification": "v něčem obsažený"
+                            },
+                            {
+                                "target_lang_word": "v tom",
+                                "target_lang_sense_clarification": "obsažený v dané věci"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "içinde",
+                                "target_lang_sense_clarification": "bir nesnenin veya kabın dahilinde"
+                            },
+                            {
+                                "target_lang_word": "içerisinde",
+                                "target_lang_sense_clarification": "bir nesnenin iç kısmında bulunan"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "dentro",
+                                "target_lang_sense_clarification": "contenido en un objeto o recipiente"
+                            },
+                            {
+                                "target_lang_word": "ahí dentro",
+                                "target_lang_sense_clarification": "en el interior de ese objeto o lugar"
+                            },
+                            {
+                                "target_lang_word": "adentro",
+                                "target_lang_sense_clarification": "en la parte interior de algo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "里面",
+                                "target_lang_sense_clarification": "容器或物体的内部"
+                            },
+                            {
+                                "target_lang_word": "在里面",
+                                "target_lang_sense_clarification": "物体或容器内部所含"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a1932bfb-392c-39c5-bc1c-0348273a65f6",
@@ -71,10 +379,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ein teurer Urlaub ist dieses Jahr finanziell leider überhaupt nicht <w>drin</w>."
+                            "text": "Ein teurer Urlaub ist dieses Jahr finanziell leider überhaupt nicht <w>drin</w>.",
+                            "target_lang_translations": {
+                                "en": "An expensive vacation is unfortunately not <w>an option</w> financially this year.",
+                                "ru": "Дорогой отпуск в этом году нам в финансовом плане, к сожалению, совсем <w>не по карману</w>.",
+                                "nl": "Een dure vakantie zit er dit jaar financieel helaas helemaal niet <w>in</w>.",
+                                "pl": "Drogi urlop w tym roku finansowo niestety w ogóle nie jest <w>możliwy</w>.",
+                                "fr": "Des vacances coûteuses ne sont malheureusement pas du tout <w>envisageables</w> financièrement cette année.",
+                                "it": "Una vacanza costosa quest'anno purtroppo non è affatto <w>alla portata</w> dal punto di vista economico.",
+                                "cs": "Drahá dovolená letos finančně bohužel vůbec <w>není v našich možnostech</w>.",
+                                "tr": "Pahalı bir tatil bu yıl maddi açıdan maalesef hiç <w>mümkün değil</w>.",
+                                "es": "Unas vacaciones caras este año, por desgracia, no son nada <w>posibles</w> económicamente.",
+                                "zh": "昂贵的度假今年在经济上可惜根本<w>承担不起</w>。"
+                            }
                         },
                         {
-                            "text": "Wenn wir uns jetzt richtig anstrengen, ist der Sieg vielleicht noch <w>drin</w>."
+                            "text": "Wenn wir uns jetzt richtig anstrengen, ist der Sieg vielleicht noch <w>drin</w>.",
+                            "target_lang_translations": {
+                                "en": "If we really make an effort now, victory might still be <w>possible</w>.",
+                                "ru": "Если мы сейчас как следует постараемся, победа всё ещё <w>возможна</w>.",
+                                "nl": "Als we nu echt ons best doen, zit de overwinning er misschien nog <w>in</w>.",
+                                "pl": "Jeśli teraz naprawdę damy z siebie wszystko, zwycięstwo może jest jeszcze <w>w zasięgu</w>.",
+                                "fr": "Si nous faisons vraiment des efforts maintenant, la victoire est peut-être encore <w>jouable</w>.",
+                                "it": "Se adesso ci impegniamo davvero, la vittoria è forse ancora <w>possibile</w>.",
+                                "cs": "Když se teď pořádně vynasnažíme, vítězství je možná ještě <w>reálné</w>.",
+                                "tr": "Şimdi gerçekten çabalarsak zafer belki hâlâ <w>mümkün</w>.",
+                                "es": "Si ahora nos esforzamos de verdad, la victoria quizá todavía sea <w>posible</w>.",
+                                "zh": "如果我们现在全力以赴，获胜也许还<w>有可能</w>。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -86,7 +418,157 @@
                             "trait_type": "colloquial",
                             "comment": "umgangssprachlich"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "within the realm of possibility; feasible or financially affordable",
+                        "ru": "находящийся в пределах возможного; осуществимый или доступный по средствам",
+                        "nl": "binnen het bereik van de mogelijkheden liggend; haalbaar of financieel betaalbaar",
+                        "pl": "leżący w granicach możliwości; wykonalny lub przystępny finansowo",
+                        "fr": "qui relève du possible ; faisable ou financièrement abordable",
+                        "it": "che rientra nell'ambito del possibile; fattibile o accessibile dal punto di vista economico",
+                        "cs": "v mezích možností; uskutečnitelný nebo finančně dostupný",
+                        "tr": "Olasılık dâhilinde olan; yapılabilir veya maddi açıdan karşılanabilir",
+                        "es": "que entra dentro de lo posible; realizable, factible o asequible económicamente",
+                        "zh": "处于可能范围内；可行、有可能或经济上承担得起"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "possible",
+                                "target_lang_sense_clarification": "achievable or attainable"
+                            },
+                            {
+                                "target_lang_word": "doable",
+                                "target_lang_sense_clarification": "feasible or manageable"
+                            },
+                            {
+                                "target_lang_word": "an option",
+                                "target_lang_sense_clarification": "feasible or affordable"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "возможно",
+                                "target_lang_sense_clarification": "осуществимо, реально"
+                            },
+                            {
+                                "target_lang_word": "по карману",
+                                "target_lang_sense_clarification": "финансово доступно"
+                            },
+                            {
+                                "target_lang_word": "светит",
+                                "target_lang_sense_clarification": "в значении «есть шанс, возможно» (разг.)"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "erin",
+                                "target_lang_sense_clarification": "in de verbinding 'erin zitten': mogelijk of haalbaar"
+                            },
+                            {
+                                "target_lang_word": "mogelijk",
+                                "target_lang_sense_clarification": "te realiseren"
+                            },
+                            {
+                                "target_lang_word": "haalbaar",
+                                "target_lang_sense_clarification": "financieel of praktisch mogelijk"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "możliwy",
+                                "target_lang_sense_clarification": "do osiągnięcia lub zrealizowania"
+                            },
+                            {
+                                "target_lang_word": "w zasięgu",
+                                "target_lang_sense_clarification": "możliwy, osiągalny"
+                            },
+                            {
+                                "target_lang_word": "wchodzić w grę",
+                                "target_lang_sense_clarification": "być realną opcją"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "envisageable",
+                                "target_lang_sense_clarification": "faisable ou financièrement possible"
+                            },
+                            {
+                                "target_lang_word": "possible",
+                                "target_lang_sense_clarification": "réalisable"
+                            },
+                            {
+                                "target_lang_word": "jouable",
+                                "target_lang_sense_clarification": "faisable, à portée (familier)"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "fattibile",
+                                "target_lang_sense_clarification": "realizzabile o alla portata"
+                            },
+                            {
+                                "target_lang_word": "possibile",
+                                "target_lang_sense_clarification": "che può accadere o essere realizzato"
+                            },
+                            {
+                                "target_lang_word": "alla portata",
+                                "target_lang_sense_clarification": "accessibile o economicamente sostenibile"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "reálný",
+                                "target_lang_sense_clarification": "možný, uskutečnitelný"
+                            },
+                            {
+                                "target_lang_word": "možný",
+                                "target_lang_sense_clarification": "dosažitelný"
+                            },
+                            {
+                                "target_lang_word": "v možnostech",
+                                "target_lang_sense_clarification": "finančně či prakticky proveditelný"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "mümkün",
+                                "target_lang_sense_clarification": "gerçekleştirilebilir ya da bütçeye uygun"
+                            },
+                            {
+                                "target_lang_word": "ihtimal dahilinde",
+                                "target_lang_sense_clarification": "olası, gerçekleşebilir"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "posible",
+                                "target_lang_sense_clarification": "alcanzable o viable"
+                            },
+                            {
+                                "target_lang_word": "factible",
+                                "target_lang_sense_clarification": "que se puede realizar o conseguir"
+                            },
+                            {
+                                "target_lang_word": "al alcance",
+                                "target_lang_sense_clarification": "asequible o a la mano"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "有可能",
+                                "target_lang_sense_clarification": "可以实现或有望达到"
+                            },
+                            {
+                                "target_lang_word": "承担得起",
+                                "target_lang_sense_clarification": "经济或能力上承受得住"
+                            },
+                            {
+                                "target_lang_word": "办得到",
+                                "target_lang_sense_clarification": "切实可行"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "33356e8b-2651-3349-8932-875e405a3a88",
@@ -97,10 +579,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In diesem neuen Projekt bin ich fachlich noch nicht so ganz <w>drin</w>."
+                            "text": "In diesem neuen Projekt bin ich fachlich noch nicht so ganz <w>drin</w>.",
+                            "target_lang_translations": {
+                                "en": "Professionally, I'm not quite <w>up to speed</w> on this new project yet.",
+                                "ru": "В профессиональном плане я ещё не совсем <w>в теме</w> этого нового проекта.",
+                                "nl": "In dit nieuwe project ben ik inhoudelijk nog niet helemaal <w>ingewerkt</w>.",
+                                "pl": "W tym nowym projekcie merytorycznie nie jestem jeszcze tak całkiem <w>w temacie</w>.",
+                                "fr": "Sur le plan technique, je ne suis pas encore tout à fait <w>dans le bain</w> dans ce nouveau projet.",
+                                "it": "In questo nuovo progetto a livello tecnico non sono ancora del tutto <w>sul pezzo</w>.",
+                                "cs": "V tomhle novém projektu odborně ještě nejsem tak docela <w>v obraze</w>.",
+                                "tr": "Bu yeni projeye mesleki olarak henüz tam anlamıyla <w>hâkim</w> değilim.",
+                                "es": "En este nuevo proyecto, técnicamente todavía no estoy del todo <w>metido</w>.",
+                                "zh": "在这个新项目中，我在业务上还没有完全<w>进入状态</w>。"
+                            }
                         },
                         {
-                            "text": "Nach einigen Wochen Übung war sie wieder voll im Thema <w>drin</w>."
+                            "text": "Nach einigen Wochen Übung war sie wieder voll im Thema <w>drin</w>.",
+                            "target_lang_translations": {
+                                "en": "After a few weeks of practice, she was completely <w>up to speed</w> on the topic again.",
+                                "ru": "После нескольких недель практики она снова была полностью <w>в курсе</w> темы.",
+                                "nl": "Na een paar weken oefenen was ze weer helemaal <w>thuis in</w> het onderwerp.",
+                                "pl": "Po kilku tygodniach ćwiczeń znów była w pełni <w>w temacie</w>.",
+                                "fr": "Après quelques semaines d'entraînement, elle était de nouveau complètement <w>dans le bain</w> sur le sujet.",
+                                "it": "Dopo alcune settimane di pratica era di nuovo pienamente <w>addentro</w> all'argomento.",
+                                "cs": "Po několika týdnech tréninku už byla v tématu zase plně <w>doma</w>.",
+                                "tr": "Birkaç haftalık alıştırmadan sonra konuya tekrar tamamen <w>hâkimdi</w>.",
+                                "es": "Después de unas semanas de práctica, estaba otra vez totalmente <w>metida</w> en el tema.",
+                                "zh": "经过几周的练习，她又完全<w>熟悉</w>了这个主题。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -112,7 +618,149 @@
                             "trait_type": "colloquial",
                             "comment": "umgangssprachlich"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "familiar with or well-practiced in a topic, task, or subject matter",
+                        "ru": "хорошо знакомый с темой или задачей, вошедший в курс дела",
+                        "nl": "vertrouwd met en goed ingewerkt in een onderwerp, taak of materie",
+                        "pl": "obeznany z danym tematem, zadaniem lub zagadnieniem; dobrze wdrożony",
+                        "fr": "familiarisé avec un sujet ou une tâche, bien rodé",
+                        "it": "esperto, pratico o ben aggiornato su un argomento, un compito o una materia",
+                        "cs": "dobře obeznámený s tématem, úkolem či problematikou; zapracovaný",
+                        "tr": "Bir konuya, göreve veya alana aşina ve alışkın; konuya vakıf",
+                        "es": "familiarizado con un tema, tarea o materia; bien integrado o puesto al día",
+                        "zh": "熟悉某项主题、任务或业务；进入状态、上手"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "up to speed",
+                                "target_lang_sense_clarification": "familiar with or well-informed about something"
+                            },
+                            {
+                                "target_lang_word": "into it",
+                                "target_lang_sense_clarification": "immersed or well-versed in something"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "в теме",
+                                "target_lang_sense_clarification": "разобравшийся в вопросе, осведомлённый"
+                            },
+                            {
+                                "target_lang_word": "в курсе",
+                                "target_lang_sense_clarification": "освоившийся с задачей или проектом"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "thuis in",
+                                "target_lang_sense_clarification": "vertrouwd met het onderwerp"
+                            },
+                            {
+                                "target_lang_word": "ingewerkt",
+                                "target_lang_sense_clarification": "goed op de hoogte van de materie"
+                            },
+                            {
+                                "target_lang_word": "mee",
+                                "target_lang_sense_clarification": "op de hoogte en bij de les"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "w temacie",
+                                "target_lang_sense_clarification": "obeznany, zorientowany w czymś"
+                            },
+                            {
+                                "target_lang_word": "wdrożony",
+                                "target_lang_sense_clarification": "znający projekt lub zagadnienie"
+                            },
+                            {
+                                "target_lang_word": "na bieżąco",
+                                "target_lang_sense_clarification": "zorientowany w bieżących sprawach"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "dans le bain",
+                                "target_lang_sense_clarification": "familiarisé ou bien au courant d'une tâche"
+                            },
+                            {
+                                "target_lang_word": "dans le coup",
+                                "target_lang_sense_clarification": "au fait d'un sujet ou d'un projet"
+                            },
+                            {
+                                "target_lang_word": "rodé",
+                                "target_lang_sense_clarification": "expérimenté ou habitué à un travail"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sul pezzo",
+                                "target_lang_sense_clarification": "aggiornato o ben inserito in un lavoro"
+                            },
+                            {
+                                "target_lang_word": "addentro",
+                                "target_lang_sense_clarification": "ben informato ed esperto di una materia"
+                            },
+                            {
+                                "target_lang_word": "esperto",
+                                "target_lang_sense_clarification": "pratico e competente"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "v obraze",
+                                "target_lang_sense_clarification": "zorientovaný v tématu"
+                            },
+                            {
+                                "target_lang_word": "zapracovaný",
+                                "target_lang_sense_clarification": "zasvěcený do úkolu"
+                            },
+                            {
+                                "target_lang_word": "doma",
+                                "target_lang_sense_clarification": "zběhlý v určité problematice"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hâkim",
+                                "target_lang_sense_clarification": "bir konuyu veya işi iyi bilen, kavramış"
+                            },
+                            {
+                                "target_lang_word": "vakıf",
+                                "target_lang_sense_clarification": "konunun veya projenin detaylarına aşina"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "metido",
+                                "target_lang_sense_clarification": "familiarizado o involucrado en una materia"
+                            },
+                            {
+                                "target_lang_word": "al tanto",
+                                "target_lang_sense_clarification": "informado y al corriente de un proyecto o tema"
+                            },
+                            {
+                                "target_lang_word": "puesto",
+                                "target_lang_sense_clarification": "entendido o con soltura en un asunto"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "进入状态",
+                                "target_lang_sense_clarification": "融入任务或熟悉工作"
+                            },
+                            {
+                                "target_lang_word": "熟悉",
+                                "target_lang_sense_clarification": "对主题或业务了然于胸"
+                            },
+                            {
+                                "target_lang_word": "上手",
+                                "target_lang_sense_clarification": "熟练掌握业务或工作"
+                            }
+                        ]
+                    }
                 }
             ]
         }

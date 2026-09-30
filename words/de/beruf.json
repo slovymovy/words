@@ -23,10 +23,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Er ist von <w>Beruf</w> Lehrer und arbeitet an einer Schule in Berlin."
+                            "text": "Er ist von <w>Beruf</w> Lehrer und arbeitet an einer Schule in Berlin.",
+                            "target_lang_translations": {
+                                "en": "He is a teacher by <w>profession</w> and works at a school in Berlin.",
+                                "ru": "По <w>профессии</w> он учитель и работает в школе в Берлине.",
+                                "nl": "Hij is van <w>beroep</w> leraar en werkt op een school in Berlijn.",
+                                "pl": "Z <w>zawodu</w> jest nauczycielem i pracuje w szkole w Berlinie.",
+                                "fr": "Il est enseignant de <w>profession</w> et travaille dans une école à Berlin.",
+                                "it": "È insegnante di <w>professione</w> e lavora in una scuola a Berlino.",
+                                "cs": "Je <w>povoláním</w> učitel a pracuje na škole v Berlíně.",
+                                "tr": "O, <w>meslek</w> olarak öğretmen ve Berlin'de bir okulda çalışıyor.",
+                                "es": "Es maestro de <w>profesión</w> y trabaja en una escuela en Berlín.",
+                                "zh": "他的<w>职业</w>是教师，在柏林的一所学校工作。"
+                            }
                         },
                         {
-                            "text": "Welchen <w>Beruf</w> möchtest du nach der Schule erlernen?"
+                            "text": "Welchen <w>Beruf</w> möchtest du nach der Schule erlernen?",
+                            "target_lang_translations": {
+                                "en": "Which <w>profession</w> would you like to learn after finishing school?",
+                                "ru": "Какую <w>профессию</w> ты хочешь получить после школы?",
+                                "nl": "Welk <w>beroep</w> wil je na school leren?",
+                                "pl": "Jakiego <w>zawodu</w> chciałbyś się wyuczyć po szkole?",
+                                "fr": "Quel <w>métier</w> aimerais-tu apprendre après l'école ?",
+                                "it": "Quale <w>mestiere</w> vorresti imparare dopo la scuola?",
+                                "cs": "Jakému <w>povolání</w> se chceš po škole vyučit?",
+                                "tr": "Okuldan sonra hangi <w>mesleği</w> öğrenmek istersin?",
+                                "es": "¿Qué <w>profesión</w> te gustaría aprender después de terminar la escuela?",
+                                "zh": "中学毕业后你想学哪种<w>职业</w>？"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -39,7 +63,157 @@
                         "von Beruf",
                         "einen Beruf erlernen",
                         "einen Beruf ausüben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A learned and usually ongoing gainful activity carried out to secure a livelihood; occupation, trade, or profession.",
+                        "ru": "Освоенная и обычно постоянная трудовая деятельность человека, служащая источником средств к существованию; профессия или специальность.",
+                        "nl": "Een aangeleerde en doorgaans langdurig uitgeoefende werkzaamheid waarmee iemand in zijn levensonderhoud voorziet.",
+                        "pl": "Wyuczona i zazwyczaj stale wykonywana praca zarobkowa stanowiąca źródło utrzymania; profesja lub zajęcie.",
+                        "fr": "Activité professionnelle apprise et généralement exercée de façon durable par une personne pour subvenir à ses besoins ; métier ou profession.",
+                        "it": "Attività lavorativa appresa e solitamente esercitata in modo continuativo per provvedere al proprio sostentamento; professione o mestiere.",
+                        "cs": "Osvojená a zpravidla trvale vykonávaná výdělečná činnost člověka sloužící k zajištění obživy; povolání či zaměstnání.",
+                        "tr": "Bir kimsenin geçimini sağlamak amacıyla öğrendiği ve genellikle sürekli olarak icra ettiği kazanç getirici faaliyet; meslek ya da uzmanlık alanı.",
+                        "es": "Actividad laboral aprendida y generalmente ejercida de forma continuada para ganarse la vida; profesión u oficio.",
+                        "zh": "个人通过专门学习或训练掌握、通常长期从事以谋求生活来源的劳动活动；职业。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "profession",
+                                "target_lang_sense_clarification": "specialized or trained occupation"
+                            },
+                            {
+                                "target_lang_word": "occupation",
+                                "target_lang_sense_clarification": "formal term for one's regular line of work"
+                            },
+                            {
+                                "target_lang_word": "job",
+                                "target_lang_sense_clarification": "general employment or regular work"
+                            },
+                            {
+                                "target_lang_word": "trade",
+                                "target_lang_sense_clarification": "skilled manual craft or practical line of work"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "профессия",
+                                "target_lang_sense_clarification": "основной род занятий и трудовой деятельности"
+                            },
+                            {
+                                "target_lang_word": "специальность",
+                                "target_lang_sense_clarification": "профессиональная квалификация или область занятий"
+                            },
+                            {
+                                "target_lang_word": "род занятий",
+                                "target_lang_sense_clarification": "вид трудовой деятельности"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "beroep",
+                                "target_lang_sense_clarification": "bezigheid of werkzaamheid waarmee men zijn geld verdient"
+                            },
+                            {
+                                "target_lang_word": "vak",
+                                "target_lang_sense_clarification": "ambacht of gespecialiseerd werkterrein"
+                            },
+                            {
+                                "target_lang_word": "baan",
+                                "target_lang_sense_clarification": "betrekking of regulier werk"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "zawód",
+                                "target_lang_sense_clarification": "główne wyuczone zajęcie zarobkowe"
+                            },
+                            {
+                                "target_lang_word": "profesja",
+                                "target_lang_sense_clarification": "wyspecjalizowane zajęcie lub tradycyjny zawód"
+                            },
+                            {
+                                "target_lang_word": "fach",
+                                "target_lang_sense_clarification": "rzemiosło lub konkretna umiejętność zawodowa"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "métier",
+                                "target_lang_sense_clarification": "activité professionnelle ou manuelle apprise"
+                            },
+                            {
+                                "target_lang_word": "profession",
+                                "target_lang_sense_clarification": "activité ou état professionnel qualifié"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "professione",
+                                "target_lang_sense_clarification": "attività lavorativa qualificata o formale"
+                            },
+                            {
+                                "target_lang_word": "mestiere",
+                                "target_lang_sense_clarification": "attività lavorativa artigianale, tecnica o manuale"
+                            },
+                            {
+                                "target_lang_word": "lavoro",
+                                "target_lang_sense_clarification": "occupazione o impiego in senso generale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "povolání",
+                                "target_lang_sense_clarification": "hlavní výdělečná činnost, životní dráha"
+                            },
+                            {
+                                "target_lang_word": "profese",
+                                "target_lang_sense_clarification": "odborné nebo kvalifikované zaměstnání"
+                            },
+                            {
+                                "target_lang_word": "zaměstnání",
+                                "target_lang_sense_clarification": "pravidelná práce či pracovní poměr"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "meslek",
+                                "target_lang_sense_clarification": "eğitim veya beceri gerektiren iş ve uğraş alanı"
+                            },
+                            {
+                                "target_lang_word": "iş",
+                                "target_lang_sense_clarification": "geçim sağlamak için yürütülen düzenli çalışma"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "profesión",
+                                "target_lang_sense_clarification": "ocupación laboral cualificada o formal"
+                            },
+                            {
+                                "target_lang_word": "oficio",
+                                "target_lang_sense_clarification": "ocupación de carácter manual, técnico o artesanal"
+                            },
+                            {
+                                "target_lang_word": "trabajo",
+                                "target_lang_sense_clarification": "empleo u ocupación remunerada en sentido general"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "职业",
+                                "target_lang_sense_clarification": "个人赖以谋生的专门性或正规工作"
+                            },
+                            {
+                                "target_lang_word": "工作",
+                                "target_lang_sense_clarification": "日常从事的劳动或职位"
+                            },
+                            {
+                                "target_lang_word": "行当",
+                                "target_lang_sense_clarification": "行业或手艺差事"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -55,10 +229,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<w>Beruf</w> dich bitte nicht immer auf die Fehler der anderen!"
+                            "text": "<w>Beruf</w> dich bitte nicht immer auf die Fehler der anderen!",
+                            "target_lang_translations": {
+                                "en": "Please don't always <w>refer</w> to the mistakes of others!",
+                                "ru": "Пожалуйста, не <w>ссылайся</w> всё время на ошибки других!",
+                                "nl": "<w>Beroep</w> je alsjeblieft niet altijd op de fouten van anderen!",
+                                "pl": "Proszę, nie <w>powołuj się</w> ciągle na błędy innych!",
+                                "fr": "S'il te plaît, ne <w>te réfère</w> pas toujours aux erreurs des autres !",
+                                "it": "Per favore non <w>appellarti</w> sempre agli errori degli altri!",
+                                "cs": "<w>Neodvolávej</w> se prosím pořád na chyby těch druhých!",
+                                "tr": "Lütfen her zaman başkalarının hatalarını <w>gerekçe gösterme</w>!",
+                                "es": "¡Por favor, no te <w>remitas</w> siempre a los errores de los demás!",
+                                "zh": "请不要总是<w>援引</w>别人的错误！"
+                            }
                         },
                         {
-                            "text": "<w>Beruf</w> es bloß nicht, sonst geht doch noch etwas schief!"
+                            "text": "<w>Beruf</w> es bloß nicht, sonst geht doch noch etwas schief!",
+                            "target_lang_translations": {
+                                "en": "Just don't <w>jinx</w> it, otherwise something will go wrong after all!",
+                                "ru": "Только не <w>сглазь</w>, а то всё-таки что-нибудь пойдёт не так!",
+                                "nl": "<w>Roep</w> het alsjeblieft niet af, anders gaat er toch nog iets mis!",
+                                "pl": "Tylko nie <w>zapeszaj</w>, bo inaczej jeszcze coś pójdzie nie tak!",
+                                "fr": "Surtout, ne <w>porte pas malheur</w>, sinon quelque chose va quand même mal tourner !",
+                                "it": "Non <w>portare sfortuna</w>, altrimenti qualcosa andrà comunque storto!",
+                                "cs": "Hlavně to <w>nezakřikni</w>, jinak se ještě něco pokazí!",
+                                "tr": "Sakın <w>uğursuzluk getirme</w>, yoksa yine de bir şeyler ters gidecek!",
+                                "es": "¡No lo <w>gafes</w>, que si no todavía saldrá algo mal!",
+                                "zh": "千万别<w>乌鸦嘴</w>，不然真会出差错的！"
+                            }
                         }
                     ],
                     "traits": [
@@ -66,7 +264,31 @@
                             "trait_type": "form",
                             "comment": "Kurzform des Imperativs"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Imperative singular present active of the verb berufen ('to invoke', 'refer to', or colloquially 'jinx').",
+                        "ru": "Форма повелительного наклонения единственного числа настоящего времени действительного залога глагола berufen («ссылаться», «назначать» или разг. «сглазить»).",
+                        "nl": "Gebiedende wijs enkelvoud tegenwoordige tijd van het werkwoord berufen ('zich beroepen op' of informeel 'het noodlot afroepen').",
+                        "pl": "Forma trybu rozkazującego liczby pojedynczej czasu teraźniejszego czasownika berufen („powoływać się”, potocznie „zapeszać”).",
+                        "fr": "Impératif singulier présent actif du verbe berufen (« invoquer », « se référer à » ou familièrement « porter la poisse »).",
+                        "it": "Imperativo singolare presente attivo del verbo berufen ('appellarsi a', 'fare riferimento a' o, in senso colloquiale, 'portare sfortuna').",
+                        "cs": "Rozkazovací způsob (imperativ) jednotného čísla přítomného času slovesa berufen („odvolávat se“, „povolat“ nebo hovorově „zakřiknout“).",
+                        "tr": "berufen fiilinin ('dayanmak/gerekçe göstermek' veya gayriresmî olarak 'uğursuzluk getirmek/nazar değdirmek') şimdiki zaman etken tekil emir kipi.",
+                        "es": "Forma de imperativo singular del presente activo del verbo berufen («remitirse a», «apelar a» o coloquialmente «gafar/dar mala suerte»).",
+                        "zh": "动词 berufen（意为“援引”、“以……为借口”，或口语中的“乌鸦嘴、招来晦气”）的第二人称单数现在时主动语态祈使形式。"
+                    },
+                    "translations": {
+                        "en": [],
+                        "ru": [],
+                        "nl": [],
+                        "pl": [],
+                        "fr": [],
+                        "it": [],
+                        "cs": [],
+                        "tr": [],
+                        "es": [],
+                        "zh": []
+                    }
                 }
             ]
         }

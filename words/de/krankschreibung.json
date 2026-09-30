@@ -19,10 +19,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Der Arzt gab dem Mitarbeiter eine <w>Krankschreibung</w> für eine ganze Woche."
+                            "text": "Der Arzt gab dem Mitarbeiter eine <w>Krankschreibung</w> für eine ganze Woche.",
+                            "target_lang_translations": {
+                                "en": "The doctor gave the employee a <w>sick note</w> for an entire week.",
+                                "ru": "Врач открыл сотруднику <w>больничный</w> на целую неделю.",
+                                "nl": "De arts gaf de werknemer een <w>ziektebriefje</w> voor een hele week.",
+                                "pl": "Lekarz wystawił pracownikowi <w>zwolnienie lekarskie</w> na cały tydzień.",
+                                "fr": "Le médecin a donné au salarié un <w>arrêt maladie</w> pour une semaine entière.",
+                                "it": "Il medico ha rilasciato al dipendente un <w>certificato di malattia</w> per un'intera settimana.",
+                                "cs": "Lékař vystavil zaměstnanci <w>neschopenku</w> na celý týden.",
+                                "tr": "Doktor, çalışana tam bir haftalık <w>hastalık raporu</w> verdi.",
+                                "es": "El médico le dio al empleado una <w>baja médica</w> por una semana entera.",
+                                "zh": "医生给这位员工开了一整周的<w>病假条</w>。"
+                            }
                         },
                         {
-                            "text": "Bitte reichen Sie die ärztliche <w>Krankschreibung</w> spätestens am vierten Arbeitstag beim Arbeitgeber ein."
+                            "text": "Bitte reichen Sie die ärztliche <w>Krankschreibung</w> spätestens am vierten Arbeitstag beim Arbeitgeber ein.",
+                            "target_lang_translations": {
+                                "en": "Please submit the medical <w>sick note</w> to your employer no later than the fourth working day.",
+                                "ru": "Пожалуйста, предоставьте медицинский <w>больничный лист</w> работодателю не позднее четвертого рабочего дня.",
+                                "nl": "Dien de medische <w>doktersverklaring</w> uiterlijk op de vierde werkdag in bij de werkgever.",
+                                "pl": "Proszę przedłożyć lekarskie <w>zwolnienie</w> u pracodawcy najpóźniej czwartego dnia roboczego.",
+                                "fr": "Veuillez transmettre l'<w>arrêt de travail</w> médical à votre employeur au plus tard le quatrième jour ouvré.",
+                                "it": "Si prega di presentare il <w>certificato di malattia</w> del medico al datore di lavoro al più tardi entro il quarto giorno lavorativo.",
+                                "cs": "Předložte prosím lékařskou <w>neschopenku</w> zaměstnavateli nejpozději čtvrtý pracovní den.",
+                                "tr": "Lütfen doktor onaylı <w>hastalık raporunu</w> en geç dördüncü iş gününde işverene teslim edin.",
+                                "es": "Por favor, entregue la <w>baja médica</w> al empleador a más tardar el cuarto día laborable.",
+                                "zh": "请最迟在第四个工作日向雇主提交医生开具的<w>病假证明</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,7 +61,177 @@
                         "eine Krankschreibung vorlegen",
                         "ärztliche Krankschreibung",
                         "elektronische Krankschreibung"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a doctor's official note or certificate confirming a patient's inability to work due to illness",
+                        "ru": "медицинская справка или документ, подтверждающий временную нетрудоспособность пациента из-за болезни",
+                        "nl": "een officiële verklaring van een arts waarin staat dat een patiënt wegens ziekte niet kan werken",
+                        "pl": "zaświadczenie lekarskie potwierdzające czasową niezdolność pracownika do pracy z powodu choroby",
+                        "fr": "certificat délivré par un médecin attestant de l'incapacité de travail temporaire d'un patient pour cause de maladie",
+                        "it": "certificato rilasciato da un medico che attesta l'incapacità temporanea al lavoro di un paziente per motivi di salute",
+                        "cs": "lékařské potvrzení o dočasné pracovní neschopnosti pacienta z důvodu nemoci",
+                        "tr": "Bir hastanın hastalık sebebiyle geçici olarak çalışamaz durumda olduğunu gösteren resmi doktor raporu",
+                        "es": "certificado expedido por un médico que acredita la incapacidad laboral temporal de un paciente por motivos de salud",
+                        "zh": "医生为患者开具的、证明其因病无法正常工作的医疗证明或假条"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sick note",
+                                "target_lang_sense_clarification": "written note from a doctor stating an employee is unfit to work"
+                            },
+                            {
+                                "target_lang_word": "doctor's note",
+                                "target_lang_sense_clarification": "note from a physician confirming illness and absence from work"
+                            },
+                            {
+                                "target_lang_word": "medical certificate",
+                                "target_lang_sense_clarification": "formal document issued by a medical professional verifying incapacity for work"
+                            },
+                            {
+                                "target_lang_word": "sick certificate",
+                                "target_lang_sense_clarification": "official statement from a doctor verifying that an individual is ill"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "больничный лист",
+                                "target_lang_sense_clarification": "официальный документ о временной нетрудоспособности"
+                            },
+                            {
+                                "target_lang_word": "больничный",
+                                "target_lang_sense_clarification": "разговорное обозначение больничного листа или периода болезни"
+                            },
+                            {
+                                "target_lang_word": "листок нетрудоспособности",
+                                "target_lang_sense_clarification": "официальный медицинский термин"
+                            },
+                            {
+                                "target_lang_word": "справка о болезни",
+                                "target_lang_sense_clarification": "медицинская справка от врача"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "ziektebriefje",
+                                "target_lang_sense_clarification": "bewijs van de arts dat iemand wegens ziekte arbeidsongeschikt is"
+                            },
+                            {
+                                "target_lang_word": "doktersbriefje",
+                                "target_lang_sense_clarification": "informele aanduiding voor een doktersverklaring van arbeidsongeschiktheid"
+                            },
+                            {
+                                "target_lang_word": "doktersverklaring",
+                                "target_lang_sense_clarification": "formeel bewijs van een arts over ziekte of arbeidsongeschiktheid"
+                            },
+                            {
+                                "target_lang_word": "doktersattest",
+                                "target_lang_sense_clarification": "in België gangbaar getuigschrift van arbeidsongeschiktheid"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "zwolnienie lekarskie",
+                                "target_lang_sense_clarification": "oficjalny dokument od lekarza potwierdzający niezdolność do pracy"
+                            },
+                            {
+                                "target_lang_word": "L4",
+                                "target_lang_sense_clarification": "powszechne, potoczne określenie zwolnienia lekarskiego w Polsce"
+                            },
+                            {
+                                "target_lang_word": "zaświadczenie o niezdolności do pracy",
+                                "target_lang_sense_clarification": "formalna nazwa urzędowa dokumentu medycznego"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "arrêt maladie",
+                                "target_lang_sense_clarification": "document médical attestant de l'inaptitude temporaire au travail"
+                            },
+                            {
+                                "target_lang_word": "arrêt de travail",
+                                "target_lang_sense_clarification": "prescription médicale suspendant temporairement l'activité professionnelle"
+                            },
+                            {
+                                "target_lang_word": "certificat médical",
+                                "target_lang_sense_clarification": "attestation écrite délivrée par un médecin"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "certificato di malattia",
+                                "target_lang_sense_clarification": "documento ufficiale che attesta l'inabilità al lavoro"
+                            },
+                            {
+                                "target_lang_word": "certificato medico",
+                                "target_lang_sense_clarification": "attestazione scritta rilasciata da un medico"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "neschopenka",
+                                "target_lang_sense_clarification": "běžné označení pro potvrzení o dočasné pracovní neschopnosti"
+                            },
+                            {
+                                "target_lang_word": "potvrzení o dočasné pracovní neschopnosti",
+                                "target_lang_sense_clarification": "oficiální lékařský a úřední termín"
+                            },
+                            {
+                                "target_lang_word": "potvrzení o pracovní neschopnosti",
+                                "target_lang_sense_clarification": "formální doklad o nemoci pro zaměstnavatele"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hastalık raporu",
+                                "target_lang_sense_clarification": "hastalık sebebiyle işe gidemeyeceğini belirten hekim raporu"
+                            },
+                            {
+                                "target_lang_word": "iş göremezlik raporu",
+                                "target_lang_sense_clarification": "çalışanın geçici süreyle işini yapamayacağını gösteren resmi sağlık belgesi"
+                            },
+                            {
+                                "target_lang_word": "doktor raporu",
+                                "target_lang_sense_clarification": "istirahat veya hastalık durumunu bildiren hekim belgesi"
+                            },
+                            {
+                                "target_lang_word": "sağlık raporu",
+                                "target_lang_sense_clarification": "sağlık durumunu ve işe devam edememeyi belgeleyen genel rapor"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "baja médica",
+                                "target_lang_sense_clarification": "documento oficial que acredita la incapacidad laboral temporal"
+                            },
+                            {
+                                "target_lang_word": "parte de baja",
+                                "target_lang_sense_clarification": "documento formal expedido por el médico para justificar la ausencia laboral"
+                            },
+                            {
+                                "target_lang_word": "justificante médico",
+                                "target_lang_sense_clarification": "comprobante médico para justificar la inasistencia al trabajo o clase"
+                            },
+                            {
+                                "target_lang_word": "certificado médico",
+                                "target_lang_sense_clarification": "documento formal que da fe del estado de salud o enfermedad"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "病假条",
+                                "target_lang_sense_clarification": "医生开具用于向雇主请假的证明条"
+                            },
+                            {
+                                "target_lang_word": "病假证明",
+                                "target_lang_sense_clarification": "较正式的因病丧失工作能力的医学证明文件"
+                            },
+                            {
+                                "target_lang_word": "医生证明",
+                                "target_lang_sense_clarification": "医生出具的证明患者身体状况的凭证"
+                            }
+                        ]
+                    }
                 }
             ]
         }

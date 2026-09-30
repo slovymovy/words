@@ -22,10 +22,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Die Lampe hängt direkt <w>über</w> dem Esstisch."
+                            "text": "Die Lampe hängt direkt <w>über</w> dem Esstisch.",
+                            "target_lang_translations": {
+                                "en": "The lamp hangs directly <w>above</w> the dining table.",
+                                "ru": "Лампа висит прямо <w>над</w> обеденным столом.",
+                                "nl": "De lamp hangt direct <w>boven</w> de eettafel.",
+                                "pl": "Lampa wisi bezpośrednio <w>nad</w> stołem w jadalni.",
+                                "fr": "La lampe est suspendue directement <w>au-dessus de</w> la table à manger.",
+                                "it": "La lampada è appesa proprio <w>sopra</w> il tavolo da pranzo.",
+                                "cs": "Lampa visí přímo <w>nad</w> jídelním stolem.",
+                                "tr": "Lamba doğrudan yemek masasının <w>üzerinde</w> asılı duruyor.",
+                                "es": "La lámpara cuelga directamente <w>sobre</w> la mesa del comedor.",
+                                "zh": "吊灯直接挂在餐桌<w>上方</w>。"
+                            }
                         },
                         {
-                            "text": "<w>Über</w> unserer Wohnung wohnt eine sehr nette Familie."
+                            "text": "<w>Über</w> unserer Wohnung wohnt eine sehr nette Familie.",
+                            "target_lang_translations": {
+                                "en": "A very nice family lives <w>above</w> our apartment.",
+                                "ru": "<w>Над</w> нашей квартирой живёт очень приятная семья.",
+                                "nl": "<w>Boven</w> ons appartement woont een heel aardig gezin.",
+                                "pl": "<w>Nad</w> naszym mieszkaniem mieszka bardzo miła rodzina.",
+                                "fr": "<w>Au-dessus de</w> notre appartement habite une famille très gentille.",
+                                "it": "<w>Sopra</w> il nostro appartamento abita una famiglia molto simpatica.",
+                                "cs": "<w>Nad</w> naším bytem bydlí velmi milá rodina.",
+                                "tr": "Dairemizin <w>üstünde</w> çok hoş bir aile oturuyor.",
+                                "es": "<w>Por encima de</w> nuestro piso vive una familia muy simpática.",
+                                "zh": "<w>在</w>我们公寓<w>上方</w>住着一家非常友好的人。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -33,7 +57,109 @@
                     ],
                     "antonyms": [
                         "unter"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates a static position at a higher level relative to something else (with dative)",
+                        "ru": "указывает на статичное положение выше чего-либо (с дательным падежом)",
+                        "nl": "drukt een positie op een hogere plaats ten opzichte van iets anders uit (met datief)",
+                        "pl": "wyraża położenie w wyższym miejscu w stosunku do czegoś innego (z celownikiem/narzędnikiem)",
+                        "fr": "indique une position statique plus élevée par rapport à autre chose (avec le datif)",
+                        "it": "indica una posizione statica più elevata rispetto a qualcos'altro (con dativo)",
+                        "cs": "vyjadřuje statickou polohu na vyšším místě ve vztahu k něčemu jinému (s dativem / v češtině s instrumentálem)",
+                        "tr": "Bir nesnenin daha yüksek bir konumda, yukarısında bulunmasını ifade eder (Dativ ile).",
+                        "es": "expresa una posición en un lugar más alto en relación con otra cosa (con dativo)",
+                        "zh": "表示相对于某物处于更高的静态位置，在……上方（接第三格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "above",
+                                "target_lang_sense_clarification": "higher up than"
+                            },
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "directly overhead"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "над",
+                                "target_lang_sense_clarification": "выше чего-либо"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "boven",
+                                "target_lang_sense_clarification": "hoger gelegen dan"
+                            },
+                            {
+                                "target_lang_word": "bovenop",
+                                "target_lang_sense_clarification": "boven op iets"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "wyżej niż coś"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "au-dessus de",
+                                "target_lang_sense_clarification": "plus haut que, sans contact direct"
+                            },
+                            {
+                                "target_lang_word": "sur",
+                                "target_lang_sense_clarification": "au-dessus de, directement au niveau supérieur"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sopra",
+                                "target_lang_sense_clarification": "più in alto di qualcosa, senza contatto"
+                            },
+                            {
+                                "target_lang_word": "su",
+                                "target_lang_sense_clarification": "al di sopra di qualcosa"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "výše než něco jiného, bez přímého dotyku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "üzerinde",
+                                "target_lang_sense_clarification": "daha yüksek bir seviyede, üstünde"
+                            },
+                            {
+                                "target_lang_word": "üstünde",
+                                "target_lang_sense_clarification": "yukarıda bir konumda"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "sobre",
+                                "target_lang_sense_clarification": "en un punto más alto sin contacto directo"
+                            },
+                            {
+                                "target_lang_word": "por encima de",
+                                "target_lang_sense_clarification": "más arriba de algo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "在……上方",
+                                "target_lang_sense_clarification": "处于较高位置且无直接接触"
+                            },
+                            {
+                                "target_lang_word": "在……上面",
+                                "target_lang_sense_clarification": "位于较高位置"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "9b363815-bb04-332d-9763-0ffdd7de6226",
@@ -44,10 +170,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Das Flugzeug fliegt leise <w>über</w> die Stadt hinweg."
+                            "text": "Das Flugzeug fliegt leise <w>über</w> die Stadt hinweg.",
+                            "target_lang_translations": {
+                                "en": "The airplane flies quietly <w>over</w> the city.",
+                                "ru": "Самолёт тихо летит <w>над</w> городом.",
+                                "nl": "Het vliegtuig vliegt rustig <w>over</w> de stad heen.",
+                                "pl": "Samolot leci cicho <w>nad</w> miastem.",
+                                "fr": "L'avion vole silencieusement <w>au-dessus de</w> la ville.",
+                                "it": "L'aereo vola silenzioso <w>sopra</w> la città.",
+                                "cs": "Letadlo tiše letí <w>nad</w> městem.",
+                                "tr": "Uçak sessizce şehrin <w>üzerinden</w> uçup gidiyor.",
+                                "es": "El avión vuela silencioso <w>sobre</w> la ciudad.",
+                                "zh": "飞机悄无声息地从城市上空<w>越过</w>。"
+                            }
                         },
                         {
-                            "text": "Die Kinder laufen vorsichtig <w>über</w> die Straße zur Schule."
+                            "text": "Die Kinder laufen vorsichtig <w>über</w> die Straße zur Schule.",
+                            "target_lang_translations": {
+                                "en": "The children walk carefully <w>across</w> the street to school.",
+                                "ru": "Дети осторожно переходят <w>через</w> дорогу в школу.",
+                                "nl": "De kinderen lopen voorzichtig <w>over</w> de straat naar school.",
+                                "pl": "Dzieci ostrożnie przechodzą <w>przez</w> ulicę do szkoły.",
+                                "fr": "Les enfants courent prudemment <w>à travers</w> la rue pour aller à l'école.",
+                                "it": "I bambini camminano con prudenza <w>attraverso</w> la strada per andare a scuola.",
+                                "cs": "Děti jdou opatrně <w>přes</w> ulici do školy.",
+                                "tr": "Çocuklar okula gitmek için dikkatlice caddenin <w>karşısına</w> geçiyorlar.",
+                                "es": "Los niños cruzan con cuidado <w>por</w> la calle hacia la escuela.",
+                                "zh": "孩子们小心翼翼地<w>穿过</w>马路去上学。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -55,7 +205,133 @@
                     ],
                     "common_phrases": [
                         "über die Straße gehen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates movement passing above something or across to the opposite side (with accusative)",
+                        "ru": "выражает движение поверх чего-либо или на другую сторону (с винительным падежом)",
+                        "nl": "drukt een beweging boven iets langs of naar de overkant uit (met accusatief)",
+                        "pl": "wyraża ruch ponad czymś lub na drugą stronę czegoś (z biernikiem)",
+                        "fr": "exprime un déplacement au-dessus de quelque chose ou le passage de l'autre côté (avec l'accusatif)",
+                        "it": "esprime un movimento al di sopra di qualcosa o verso l'altro lato (con accusativo)",
+                        "cs": "vyjadřuje pohyb nad něčím nebo na druhou stranu (s akuzativem)",
+                        "tr": "Bir şeyin üzerinden geçmeyi veya karşı tarafına aşmayı ifade eden hareketi belirtir (Akkusativ ile).",
+                        "es": "expresa un movimiento por encima de algo o hacia el otro lado (con acusativo)",
+                        "zh": "表示从某物上方越过或穿过、横穿到另一侧（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "passing above"
+                            },
+                            {
+                                "target_lang_word": "across",
+                                "target_lang_sense_clarification": "to the other side of"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "над",
+                                "target_lang_sense_clarification": "движение в воздухе поверх чего-либо"
+                            },
+                            {
+                                "target_lang_word": "через",
+                                "target_lang_sense_clarification": "на противоположную сторону"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "naar de andere zijde of erbovenlangs"
+                            },
+                            {
+                                "target_lang_word": "boven",
+                                "target_lang_sense_clarification": "in de lucht boven iets"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "w powietrzu ponad czymś"
+                            },
+                            {
+                                "target_lang_word": "przez",
+                                "target_lang_sense_clarification": "na drugą stronę, w poprzek"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "au-dessus de",
+                                "target_lang_sense_clarification": "en passant par les airs au-dessus"
+                            },
+                            {
+                                "target_lang_word": "par-dessus",
+                                "target_lang_sense_clarification": "au-dessus d'un obstacle"
+                            },
+                            {
+                                "target_lang_word": "à travers",
+                                "target_lang_sense_clarification": "en traversant un espace"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sopra",
+                                "target_lang_sense_clarification": "in volo o movimento al di sopra"
+                            },
+                            {
+                                "target_lang_word": "attraverso",
+                                "target_lang_sense_clarification": "da un lato all'altro di uno spazio o via"
+                            },
+                            {
+                                "target_lang_word": "oltre",
+                                "target_lang_sense_clarification": "al di là di un ostacolo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "na druhou stranu, napříč překážkou či prostorem"
+                            },
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "pohyb ve vzduchu výše než něco"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "üzerinden",
+                                "target_lang_sense_clarification": "yukarısından geçerek"
+                            },
+                            {
+                                "target_lang_word": "karşısına",
+                                "target_lang_sense_clarification": "bir yolun veya alanın öbür tarafına"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "por encima de",
+                                "target_lang_sense_clarification": "movimiento en el aire sobre un lugar"
+                            },
+                            {
+                                "target_lang_word": "sobre",
+                                "target_lang_sense_clarification": "desplazamiento por el espacio superior"
+                            },
+                            {
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "a través de un espacio o cruzando"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "越过",
+                                "target_lang_sense_clarification": "从某物上方掠过或穿过"
+                            },
+                            {
+                                "target_lang_word": "穿过",
+                                "target_lang_sense_clarification": "横穿道路或空间"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "12fd4185-7765-3f23-917b-9058362ff2eb",
@@ -66,10 +342,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wir sprechen morgen im Unterricht <w>über</w> das neue Buch."
+                            "text": "Wir sprechen morgen im Unterricht <w>über</w> das neue Buch.",
+                            "target_lang_translations": {
+                                "en": "Tomorrow in class we will talk <w>about</w> the new book.",
+                                "ru": "Завтра на уроке мы поговорим <w>о</w> новой книге.",
+                                "nl": "We spreken morgen in de les <w>over</w> het nieuwe boek.",
+                                "pl": "Porozmawiamy jutro na lekcji <w>o</w> nowej książce.",
+                                "fr": "Demain en classe, nous parlerons <w>de</w> ce nouveau livre.",
+                                "it": "Domani a lezione parleremo <w>del</w> nuovo libro.",
+                                "cs": "Zítra budeme v hodině mluvit <w>o</w> té nové knize.",
+                                "tr": "Yarın derste yeni kitap <w>hakkında</w> konuşacağız.",
+                                "es": "Mañana en clase hablaremos <w>sobre</w> el nuevo libro.",
+                                "zh": "明天上课时我们将讨论<w>关于</w>这本新书的内容。"
+                            }
                         },
                         {
-                            "text": "Er hat gestern lange <w>über</w> seine beruflichen Pläne nachgedacht."
+                            "text": "Er hat gestern lange <w>über</w> seine beruflichen Pläne nachgedacht.",
+                            "target_lang_translations": {
+                                "en": "Yesterday he thought for a long time <w>about</w> his career plans.",
+                                "ru": "Вчера он долго думал <w>о</w> своих профессиональных планах.",
+                                "nl": "Hij heeft gisteren lang <w>over</w> zijn professionele plannen nagedacht.",
+                                "pl": "Wczoraj długo rozmyślał <w>nad</w> swoimi planami zawodowymi.",
+                                "fr": "Hier, il a longtemps réfléchi <w>sur</w> ses projets professionnels.",
+                                "it": "Ieri ha riflettuto a lungo <w>sui</w> suoi progetti professionali.",
+                                "cs": "Včera dlouho přemýšlel <w>o</w> svých profesních plánech.",
+                                "tr": "Dün uzun süre mesleki planları <w>üzerine</w> düşündü.",
+                                "es": "Ayer reflexionó durante mucho tiempo <w>sobre</w> sus planes profesionales.",
+                                "zh": "昨天他<w>就</w>自己的职业规划思考了很久。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -77,7 +377,125 @@
                     ],
                     "common_phrases": [
                         "über das Thema sprechen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates the topic, subject matter, or content of speech, thought, or writing (with accusative)",
+                        "ru": "указывает на тему или предмет разговора, мысли или произведения (с винительным падежом)",
+                        "nl": "geeft het onderwerp, de inhoud of het thema van een gesprek, gedachte of werk aan (met accusatief)",
+                        "pl": "oznacza przedmiot, temat lub treść rozmowy, myśli bądź dzieła (z biernikiem)",
+                        "fr": "désigne le sujet, le thème ou le contenu d'un échange, d'une pensée ou d'une œuvre (avec l'accusatif)",
+                        "it": "indica l'argomento, il tema o il contenuto di un discorso, pensiero o testo (con accusativo)",
+                        "cs": "označuje předmět, téma nebo obsah rozhovoru, myšlení či díla (s akuzativem)",
+                        "tr": "Bir konuşmanın, düşüncenin ya da eserin konusunu veya içeriğini belirtir (Akkusativ ile).",
+                        "es": "indica el tema, asunto o contenido de una conversación, pensamiento u obra (con acusativo)",
+                        "zh": "表示谈论、思考或作品的主题、内容或对象，关于、就（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "about",
+                                "target_lang_sense_clarification": "concerning a topic"
+                            },
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "regarding a subject"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "о",
+                                "target_lang_sense_clarification": "о теме, содержании или предмете"
+                            },
+                            {
+                                "target_lang_word": "про",
+                                "target_lang_sense_clarification": "разговорное, о теме или объекте"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "wat betreft een onderwerp"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "o",
+                                "target_lang_sense_clarification": "w odniesieniu do tematu, treści"
+                            },
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "przy czasownikach myślenia, np. zastanawiać się nad"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "sur",
+                                "target_lang_sense_clarification": "au sujet de, à propos de"
+                            },
+                            {
+                                "target_lang_word": "de",
+                                "target_lang_sense_clarification": "concernant un sujet précis"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "di",
+                                "target_lang_sense_clarification": "relativo all'argomento di una conversazione"
+                            },
+                            {
+                                "target_lang_word": "su",
+                                "target_lang_sense_clarification": "a proposito di un tema o soggetto"
+                            },
+                            {
+                                "target_lang_word": "riguardo a",
+                                "target_lang_sense_clarification": "in merito a una questione"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "o",
+                                "target_lang_sense_clarification": "o tématu, předmětu nebo obsahu"
+                            },
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "při slovesech myšlení (např. přemýšlet nad něčím)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "hakkında",
+                                "target_lang_sense_clarification": "bir konu veya tema ile ilgili"
+                            },
+                            {
+                                "target_lang_word": "üzerine",
+                                "target_lang_sense_clarification": "bir meseleye dair"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "sobre",
+                                "target_lang_sense_clarification": "acerca de un tema o asunto"
+                            },
+                            {
+                                "target_lang_word": "acerca de",
+                                "target_lang_sense_clarification": "en relación con un contenido"
+                            },
+                            {
+                                "target_lang_word": "de",
+                                "target_lang_sense_clarification": "referente a un objeto de discusión o reflexión"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "关于",
+                                "target_lang_sense_clarification": "涉及某一主题或事物"
+                            },
+                            {
+                                "target_lang_word": "就",
+                                "target_lang_sense_clarification": "针对某项议题或内容"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "3d596a13-f357-371b-8eab-78c1447580eb",
@@ -88,15 +506,165 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ich habe mich sehr <w>über</w> dein schönes Geschenk gefreut."
+                            "text": "Ich habe mich sehr <w>über</w> dein schönes Geschenk gefreut.",
+                            "target_lang_translations": {
+                                "en": "I was very pleased <w>with</w> your lovely gift.",
+                                "ru": "Я очень <w>обрадовался</w> твоему прекрасному подарку.",
+                                "nl": "Ik was erg blij <w>met</w> je mooie cadeau.",
+                                "pl": "Bardzo ucieszyłem się <w>z</w> twojego pięknego prezentu.",
+                                "fr": "J'ai été très heureux <w>de</w> ton joli cadeau.",
+                                "it": "Sono stato molto felice <w>per</w> il tuo bel regalo.",
+                                "cs": "Měl jsem velkou radost <w>z</w> tvého krásného dárku.",
+                                "tr": "Güzel hediyen<w>e</w> çok sevindim.",
+                                "es": "Me alegré mucho <w>por</w> tu hermoso regalo.",
+                                "zh": "我<w>为</w>你送的精美礼物感到非常高兴。"
+                            }
                         },
                         {
-                            "text": "Alle Schüler lachten laut <w>über</w> den lustigen Witz."
+                            "text": "Alle Schüler lachten laut <w>über</w> den lustigen Witz.",
+                            "target_lang_translations": {
+                                "en": "All the students laughed out loud <w>at</w> the funny joke.",
+                                "ru": "Все ученики громко смеялись <w>над</w> смешной шуткой.",
+                                "nl": "Alle leerlingen lachten luid <w>om</w> de grappige grap.",
+                                "pl": "Wszyscy uczniowie śmiali się głośno <w>z</w> tego zabawnego żartu.",
+                                "fr": "Tous les élèves ont ri bruyamment <w>de</w> cette blague amusante.",
+                                "it": "Tutti gli alunni risero rumorosamente <w>per</w> la barzelletta divertente.",
+                                "cs": "Všichni žáci se hlasitě smáli <w>nad</w> tím vtipným vtipem.",
+                                "tr": "Bütün öğrenciler komik fıkray<w>a</w> kahkahalarla güldü.",
+                                "es": "Todos los alumnos se rieron a carcajadas <w>del</w> chiste gracioso.",
+                                "zh": "所有的学生都<w>因</w>这个好笑的笑话大笑起来。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "sich freuen über"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates the cause, reason, or trigger of an emotional response (with accusative)",
+                        "ru": "выражает повод или причину эмоциональной реакции (с винительным падежом)",
+                        "nl": "drukt de aanleiding of oorzaak van een emotionele reactie uit (met accusatief)",
+                        "pl": "wyraża powód lub przyczynę reakcji emocjonalnej (z biernikiem)",
+                        "fr": "exprime la cause ou le motif d'une réaction émotionnelle (avec l'accusatif)",
+                        "it": "esprime il motivo o la causa di una reazione emotiva (con accusativo)",
+                        "cs": "vyjadřuje podnět nebo příčinu emocionální reakce (s akuzativem)",
+                        "tr": "Duygusal bir tepkinin veya hissin nedenini ya da vesilesini belirtir (Akkusativ ile).",
+                        "es": "expresa el motivo o la causa de una reacción emocional (con acusativo)",
+                        "zh": "表示引起情感反应或情绪波动的缘由、契机（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "about",
+                                "target_lang_sense_clarification": "cause of emotion"
+                            },
+                            {
+                                "target_lang_word": "at",
+                                "target_lang_sense_clarification": "reaction to something"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "над",
+                                "target_lang_sense_clarification": "при выражении насмешки или шутки"
+                            },
+                            {
+                                "target_lang_word": "по поводу",
+                                "target_lang_sense_clarification": "относительно какого-либо повода"
+                            },
+                            {
+                                "target_lang_word": "из-за",
+                                "target_lang_sense_clarification": "причиняющий огорчение или раздражение"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "betreffende een emotie"
+                            },
+                            {
+                                "target_lang_word": "om",
+                                "target_lang_sense_clarification": "als reden van lachen of huilen"
+                            },
+                            {
+                                "target_lang_word": "met",
+                                "target_lang_sense_clarification": "bij blijdschap over iets"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "z",
+                                "target_lang_sense_clarification": "np. cieszyć się z czegoś"
+                            },
+                            {
+                                "target_lang_word": "z powodu",
+                                "target_lang_sense_clarification": "z przyczyny jakiejś emocji"
+                            },
+                            {
+                                "target_lang_word": "z",
+                                "target_lang_sense_clarification": "np. śmiać się z czegoś"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "de",
+                                "target_lang_sense_clarification": "cause d'une joie, rire ou déception"
+                            },
+                            {
+                                "target_lang_word": "à propos de",
+                                "target_lang_sense_clarification": "en réaction à un événement"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "per",
+                                "target_lang_sense_clarification": "motivo di gioia o altra emozione"
+                            },
+                            {
+                                "target_lang_word": "di",
+                                "target_lang_sense_clarification": "causa di un sentimento o risata"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "z",
+                                "target_lang_sense_clarification": "příčina radosti či jiné emoce (např. mít radost z něčeho)"
+                            },
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "reakce na podnět (např. smát se nad něčím)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "-e",
+                                "target_lang_sense_clarification": "yönelme durumu ile bir duygunun nesnesi"
+                            },
+                            {
+                                "target_lang_word": "nedeniyle",
+                                "target_lang_sense_clarification": "bir tepkinin sebebi olarak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "motivo de alegría o emoción"
+                            },
+                            {
+                                "target_lang_word": "de",
+                                "target_lang_sense_clarification": "causa de risa o sentimiento"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "因",
+                                "target_lang_sense_clarification": "因某事而产生情绪反应"
+                            },
+                            {
+                                "target_lang_word": "为",
+                                "target_lang_sense_clarification": "为某事物感到高兴等"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "aa9467b3-9a92-3c75-83fc-4d38698a3c24",
@@ -107,15 +675,161 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wir bleiben <w>über</w> das gesamte Wochenende in den Bergen."
+                            "text": "Wir bleiben <w>über</w> das gesamte Wochenende in den Bergen.",
+                            "target_lang_translations": {
+                                "en": "We are staying in the mountains <w>over</w> the entire weekend.",
+                                "ru": "Мы останемся в горах <w>на</w> все выходные.",
+                                "nl": "We blijven <w>gedurende</w> het hele weekend in de bergen.",
+                                "pl": "Zostajemy w górach <w>na</w> cały weekend.",
+                                "fr": "Nous restons dans les montagnes <w>pendant</w> tout le week-end.",
+                                "it": "Rimaniamo in montagna <w>per</w> tutto il fine settimana.",
+                                "cs": "Zůstaneme na horách <w>přes</w> celý víkend.",
+                                "tr": "Tüm hafta sonu <w>boyunca</w> dağlarda kalacağız.",
+                                "es": "Nos quedaremos en la montaña <w>durante</w> todo el fin de semana.",
+                                "zh": "<w>在</w>整个周末<w>期间</w>，我们都将留在山里。"
+                            }
                         },
                         {
-                            "text": "Sie haben die Diskussion <w>über</w> mehrere Stunden geführt."
+                            "text": "Sie haben die Diskussion <w>über</w> mehrere Stunden geführt.",
+                            "target_lang_translations": {
+                                "en": "They carried on the discussion <w>for</w> several hours.",
+                                "ru": "Они вели дискуссию <w>в течение</w> нескольких часов.",
+                                "nl": "Ze hebben de discussie <w>gedurende</w> meerdere uren gevoerd.",
+                                "pl": "Prowadzili dyskusję <w>przez</w> kilka godzin.",
+                                "fr": "Ils ont poursuivi la discussion <w>pendant</w> plusieurs heures.",
+                                "it": "Hanno portato avanti la discussione <w>per</w> diverse ore.",
+                                "cs": "Vedli diskuzi <w>po</w> několik hodin.",
+                                "tr": "Tartışmayı birkaç saat <w>boyunca</w> sürdürdüler.",
+                                "es": "Mantuvieron el debate <w>durante</w> varias horas.",
+                                "zh": "他们的讨论<w>持续</w>了好几个小时。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "über das Wochenende"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates time duration or extension over a period (with accusative)",
+                        "ru": "выражает временную протяжённость или продолжительность (с винительным падежом)",
+                        "nl": "drukt een tijdsduur of uitstrekking in de tijd uit (met accusatief)",
+                        "pl": "wyraża trwanie w czasie lub rozciągłość czasową (z biernikiem)",
+                        "fr": "exprime une durée ou une étendue temporelle continue (avec l'accusatif)",
+                        "it": "esprime una durata o un'estensione temporale (con accusativo)",
+                        "cs": "vyjadřuje časové trvání nebo rozpětí (s akuzativem)",
+                        "tr": "Bir zaman diliminin süresini veya devamlılığını belirtir (Akkusativ ile).",
+                        "es": "expresa una duración o extensión a lo largo del tiempo (con acusativo)",
+                        "zh": "表示时间的持续或跨度，在……期间、长达（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "during a span of time"
+                            },
+                            {
+                                "target_lang_word": "during",
+                                "target_lang_sense_clarification": "throughout a time period"
+                            },
+                            {
+                                "target_lang_word": "for",
+                                "target_lang_sense_clarification": "spanning a duration"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "в течение",
+                                "target_lang_sense_clarification": "на протяжении отрезка времени"
+                            },
+                            {
+                                "target_lang_word": "на",
+                                "target_lang_sense_clarification": "на какой-либо срок"
+                            },
+                            {
+                                "target_lang_word": "на протяжении",
+                                "target_lang_sense_clarification": "в течение всего периода"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "gedurende",
+                                "target_lang_sense_clarification": "tijdens een bepaalde periode"
+                            },
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "verspreid over een periode"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przez",
+                                "target_lang_sense_clarification": "w ciągu określonego czasu"
+                            },
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "na dany okres, np. na weekend"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "pendant",
+                                "target_lang_sense_clarification": "durant un laps de temps déterminé"
+                            },
+                            {
+                                "target_lang_word": "durant",
+                                "target_lang_sense_clarification": "tout au long d'une période"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "per",
+                                "target_lang_sense_clarification": "durata di un lasso di tempo"
+                            },
+                            {
+                                "target_lang_word": "durante",
+                                "target_lang_sense_clarification": "nel corso di un periodo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "po dobu určitého časového úseku"
+                            },
+                            {
+                                "target_lang_word": "po",
+                                "target_lang_sense_clarification": "v průběhu určité doby"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "boyunca",
+                                "target_lang_sense_clarification": "bir zaman dilimi süresince"
+                            },
+                            {
+                                "target_lang_word": "süresince",
+                                "target_lang_sense_clarification": "kesintisiz bir zaman aralığında"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "durante",
+                                "target_lang_sense_clarification": "a lo largo de un período continuo"
+                            },
+                            {
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "durante un lapso determinado"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "在……期间",
+                                "target_lang_sense_clarification": "在某段时间之内"
+                            },
+                            {
+                                "target_lang_word": "持续",
+                                "target_lang_sense_clarification": "时间延续"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "ad553c77-d0c9-3a76-8aa3-f50bad553516",
@@ -126,15 +840,153 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dieser Zug fährt direkt <w>über</w> München nach Wien."
+                            "text": "Dieser Zug fährt direkt <w>über</w> München nach Wien.",
+                            "target_lang_translations": {
+                                "en": "This train travels directly to Vienna <w>via</w> Munich.",
+                                "ru": "Этот поезд идёт прямо в Вену <w>через</w> Мюнхен.",
+                                "nl": "Deze trein rijdt direct <w>via</w> München naar Wenen.",
+                                "pl": "Ten pociąg jedzie bezpośrednio <w>przez</w> Monachium do Wiednia.",
+                                "fr": "Ce train va directement à Vienne <w>via</w> Munich.",
+                                "it": "Questo treno va direttamente a Vienna <w>via</w> Monaco.",
+                                "cs": "Tento vlak jede přímo <w>přes</w> Mnichov do Vídně.",
+                                "tr": "Bu tren doğrudan Münih <w>üzerinden</w> Viyana'ya gidiyor.",
+                                "es": "Este tren va directo a Viena <w>vía</w> Múnich.",
+                                "zh": "这趟列车直接<w>经由</w>慕尼黑开往维也纳。"
+                            }
                         },
                         {
-                            "text": "Wir reisen mit dem Auto <w>über</w> die Landstraße nach Hause."
+                            "text": "Wir reisen mit dem Auto <w>über</w> die Landstraße nach Hause.",
+                            "target_lang_translations": {
+                                "en": "We are traveling home by car <w>via</w> the country road.",
+                                "ru": "Мы едем домой на машине <w>по</w> загородной дороге.",
+                                "nl": "We reizen met de auto <w>over</w> de provinciale weg naar huis.",
+                                "pl": "Wracamy do domu samochodem <w>przez</w> drogę krajową.",
+                                "fr": "Nous rentrons à la maison en voiture <w>par</w> la route départementale.",
+                                "it": "Torniamo a casa in auto <w>per</w> la strada statale.",
+                                "cs": "Cestujeme autem domů <w>po</w> okresní silnici.",
+                                "tr": "Arabayla kara yolu <w>üzerinden</w> eve dönüyoruz.",
+                                "es": "Volvemos a casa en coche <w>por</w> la carretera comarcal.",
+                                "zh": "我们开车<w>走</w>乡间公路回家。"
+                            }
                         }
                     ],
                     "synonyms": [
                         "via"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates traversing a location or passing through a waypoint along a route (with accusative)",
+                        "ru": "указывает на проезд через какой-либо пункт или маршрут (с винительным падежом)",
+                        "nl": "geeft het doorkruisen van een plaats of een tussenstation op een route aan (met accusatief)",
+                        "pl": "oznacza przejazd przez daną miejscowość lub stację pośrednią na trasie (z biernikiem)",
+                        "fr": "indique la traversée d'un lieu ou une étape intermédiaire sur un itinéraire (avec l'accusatif)",
+                        "it": "indica il passaggio attraverso un luogo o una tappa intermedia lungo un percorso (con accusativo)",
+                        "cs": "vyjadřuje průjezd místem nebo mezistanici na trase (s akuzativem)",
+                        "tr": "Bir güzergâhtaki ara durağı veya geçilen yeri belirtir (Akkusativ ile).",
+                        "es": "indica el paso a través de un lugar o una escala intermedia en un trayecto (con acusativo)",
+                        "zh": "表示途经某地或路线中的中途站，经由、走（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "by way of"
+                            },
+                            {
+                                "target_lang_word": "through",
+                                "target_lang_sense_clarification": "passing through"
+                            },
+                            {
+                                "target_lang_word": "by way of",
+                                "target_lang_sense_clarification": "traveling through"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "через",
+                                "target_lang_sense_clarification": "через промежуточный пункт, транзитом"
+                            },
+                            {
+                                "target_lang_word": "по",
+                                "target_lang_sense_clarification": "по определённой дороге или маршруту"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "langs een tussenstop"
+                            },
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "langs een bepaalde route of weg"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przez",
+                                "target_lang_sense_clarification": "przez punkt pośredni, trasą"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "par",
+                                "target_lang_sense_clarification": "en passant par un lieu ou une route"
+                            },
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "en faisant escale ou étape à"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "passando per una località o tappa"
+                            },
+                            {
+                                "target_lang_word": "per",
+                                "target_lang_sense_clarification": "lungo un tragitto o strada"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "přes mezilehlé místo, tranzitně"
+                            },
+                            {
+                                "target_lang_word": "po",
+                                "target_lang_sense_clarification": "po určité trase nebo silnici"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "üzerinden",
+                                "target_lang_sense_clarification": "güzergâh üzerinde ara durak olarak"
+                            },
+                            {
+                                "target_lang_word": "yoluyla",
+                                "target_lang_sense_clarification": "belirli bir rota vasıtasıyla"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "pasando por un lugar o vía"
+                            },
+                            {
+                                "target_lang_word": "vía",
+                                "target_lang_sense_clarification": "a través de una estación o ciudad intermedia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "经由",
+                                "target_lang_sense_clarification": "途经某站或中途地点"
+                            },
+                            {
+                                "target_lang_word": "走",
+                                "target_lang_sense_clarification": "沿某条道路行进"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4b8d9e4d-9e2e-38e5-8c42-79d19e621621",
@@ -145,10 +997,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Die Anmeldung für den Kurs erfolgt ausschließlich <w>über</w> das Internet."
+                            "text": "Die Anmeldung für den Kurs erfolgt ausschließlich <w>über</w> das Internet.",
+                            "target_lang_translations": {
+                                "en": "Registration for the course takes place exclusively <w>via</w> the internet.",
+                                "ru": "Регистрация на курс осуществляется исключительно <w>через</w> интернет.",
+                                "nl": "De aanmelding voor de cursus verloopt uitsluitend <w>via</w> het internet.",
+                                "pl": "Zapisy na kurs odbywają się wyłącznie <w>przez</w> internet.",
+                                "fr": "L'inscription au cours s'effectue exclusivement <w>via</w> Internet.",
+                                "it": "L'iscrizione al corso avviene esclusivamente <w>tramite</w> Internet.",
+                                "cs": "Přihlášení do kurzu probíhá výhradně <w>přes</w> internet.",
+                                "tr": "Kursa kayıt yalnızca internet <w>üzerinden</w> yapılmaktadır.",
+                                "es": "La inscripción para el curso se realiza exclusivamente <w>a través de</w> internet.",
+                                "zh": "该课程的报名只能<w>通过</w>互联网进行。"
+                            }
                         },
                         {
-                            "text": "Wir haben uns damals <w>über</w> gemeinsame Freunde kennengelernt."
+                            "text": "Wir haben uns damals <w>über</w> gemeinsame Freunde kennengelernt.",
+                            "target_lang_translations": {
+                                "en": "We met back then <w>through</w> mutual friends.",
+                                "ru": "Мы тогда познакомились <w>через</w> общих друзей.",
+                                "nl": "We hebben elkaar destijds <w>via</w> gemeenschappelijke vrienden leren kennen.",
+                                "pl": "Poznaliśmy się wtedy <w>przez</w> wspólnych znajomych.",
+                                "fr": "À l'époque, nous nous sommes rencontrés <w>par l'intermédiaire d'</w>amis communs.",
+                                "it": "All'epoca ci siamo conosciuti <w>tramite</w> amici comuni.",
+                                "cs": "Tehdy jsme se seznámili <w>přes</w> společné přátele.",
+                                "tr": "O zamanlar ortak arkadaşlarımız <w>aracılığıyla</w> tanışmıştık.",
+                                "es": "En aquel entonces nos conocimos <w>a través de</w> amigos comunes.",
+                                "zh": "我们当年是<w>通过</w>共同的朋友结识的。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -156,7 +1032,125 @@
                     ],
                     "common_phrases": [
                         "über das Internet"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates a mediating channel, means, or intermediary (with accusative)",
+                        "ru": "обозначает канал связи, средство передачи или посредника (с винительным падежом)",
+                        "nl": "duidt een communicatiemiddel, kanaal of tussenpersoon aan (met accusatief)",
+                        "pl": "oznacza medium pośredniczące lub instancję pośrednią (z biernikiem)",
+                        "fr": "désigne un canal de transmission, un intermédiaire ou un moyen de communication (avec l'accusatif)",
+                        "it": "indica un mezzo di comunicazione, un canale o un intermediario (con accusativo)",
+                        "cs": "označuje zprostředkující médium nebo prostředníka (s akuzativem)",
+                        "tr": "Bir aracıyı, iletişim vasıtasını veya kanalı belirtir (Akkusativ ile).",
+                        "es": "indica un canal de comunicación o un intermediario (con acusativo)",
+                        "zh": "表示媒介、中介渠道或中间人，通过、借助（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "by means of"
+                            },
+                            {
+                                "target_lang_word": "through",
+                                "target_lang_sense_clarification": "by means of an intermediary"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "через",
+                                "target_lang_sense_clarification": "посредством кого-либо или чего-либо"
+                            },
+                            {
+                                "target_lang_word": "по",
+                                "target_lang_sense_clarification": "с использованием средства связи"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "door middel van een medium of tussenpersoon"
+                            },
+                            {
+                                "target_lang_word": "door",
+                                "target_lang_sense_clarification": "middel of bemiddeling"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przez",
+                                "target_lang_sense_clarification": "za pośrednictwem kogoś lub czegoś"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "par",
+                                "target_lang_sense_clarification": "au moyen d'un intermédiaire ou d'un canal"
+                            },
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "par le biais d'un support technique ou d'un réseau"
+                            },
+                            {
+                                "target_lang_word": "par l'intermédiaire de",
+                                "target_lang_sense_clarification": "grâce à l'entremise de quelqu'un"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "tramite",
+                                "target_lang_sense_clarification": "per mezzo di un canale o intermediario"
+                            },
+                            {
+                                "target_lang_word": "via",
+                                "target_lang_sense_clarification": "attraverso un mezzo tecnico o rete"
+                            },
+                            {
+                                "target_lang_word": "attraverso",
+                                "target_lang_sense_clarification": "grazie a persone o canali"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "prostřednictvím někoho nebo něčeho"
+                            },
+                            {
+                                "target_lang_word": "prostřednictvím",
+                                "target_lang_sense_clarification": "s pomocí zprostředkovatele či kanálu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "aracılığıyla",
+                                "target_lang_sense_clarification": "bir kişi veya kurum vasıtasıyla"
+                            },
+                            {
+                                "target_lang_word": "üzerinden",
+                                "target_lang_sense_clarification": "bir iletişim kanalı veya ağ yoluyla"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "a través de",
+                                "target_lang_sense_clarification": "por medio de un canal o personas"
+                            },
+                            {
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "mediante una plataforma o medio"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "通过",
+                                "target_lang_sense_clarification": "借助媒介或中介"
+                            },
+                            {
+                                "target_lang_word": "借助",
+                                "target_lang_sense_clarification": "凭借某种方式或人际关系"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "3f593a51-a86b-3883-88c6-641567996b12",
@@ -167,10 +1161,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Die Gesamtkosten für das Bauprojekt gehen weit <w>über</w> den Plan hinaus."
+                            "text": "Die Gesamtkosten für das Bauprojekt gehen weit <w>über</w> den Plan hinaus.",
+                            "target_lang_translations": {
+                                "en": "The total costs for the construction project go far <w>beyond</w> the budget.",
+                                "ru": "Общие расходы на строительный проект выходят далеко <w>за рамки</w> плана.",
+                                "nl": "De totale kosten voor het bouwproject gaan ver <w>boven</w> de planning uit.",
+                                "pl": "Całkowite koszty projektu budowlanego wykraczają daleko <w>poza</w> plan.",
+                                "fr": "Le coût global du projet de construction va bien <w>au-delà de</w> ce qui était prévu.",
+                                "it": "I costi complessivi del progetto edilizio vanno ben <w>oltre</w> il piano previsto.",
+                                "cs": "Celkové náklady na stavební projekt jdou daleko <w>nad</w> plán.",
+                                "tr": "İnşaat projesinin toplam maliyeti planlanan bütçenin çok <w>ötesine</w> geçiyor.",
+                                "es": "Los costes totales del proyecto de construcción van mucho <w>más allá de</w> lo planeado.",
+                                "zh": "该建筑项目的总成本远远<w>超出</w>了预算计划。"
+                            }
                         },
                         {
-                            "text": "Seine Fähigkeiten reichen bei weitem <w>über</w> die Anforderungen hinaus."
+                            "text": "Seine Fähigkeiten reichen bei weitem <w>über</w> die Anforderungen hinaus.",
+                            "target_lang_translations": {
+                                "en": "His skills extend by far <w>beyond</w> the requirements.",
+                                "ru": "Его способности выходят далеко <w>за пределы</w> требований.",
+                                "nl": "Zijn vaardigheden reiken ver <w>boven</w> de eisen uit.",
+                                "pl": "Jego umiejętności wykraczają znacznie <w>ponad</w> wymagania.",
+                                "fr": "Ses compétences vont de loin <w>au-delà des</w> exigences requises.",
+                                "it": "Le sue capacità vanno di gran lunga <w>oltre</w> i requisiti richiesti.",
+                                "cs": "Jeho schopnosti sahají daleko <w>nad</w> požadavky.",
+                                "tr": "Yetenekleri gereksinimlerin fazlasıyla <w>ötesine</w> geçiyor.",
+                                "es": "Sus capacidades van con creces <w>por encima de</w> los requisitos.",
+                                "zh": "他的能力远远<w>超出</w>了招聘要求。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -178,7 +1196,125 @@
                     ],
                     "common_phrases": [
                         "über das Ziel hinausschießen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates exceeding a norm, boundary, or limit (with accusative)",
+                        "ru": "выражает превышение нормы, меры, рамок или границы (с винительным падежом)",
+                        "nl": "drukt het overschrijden van een maat, kader of grens uit (met accusatief)",
+                        "pl": "wyraża przekroczenie miary, ram lub granicy (z biernikiem)",
+                        "fr": "exprime le dépassement d'une mesure, d'un cadre ou d'une limite (avec l'accusatif)",
+                        "it": "esprime il superamento di una misura, di un limite o di una soglia (con accusativo)",
+                        "cs": "vyjadřuje překročení míry, rámce nebo hranice (s akuzativem)",
+                        "tr": "Bir ölçünün, sınırın veya çerçevenin aşılmasını ifade eder (Akkusativ ile).",
+                        "es": "expresa la superación de una medida, marco o límite (con acusativo)",
+                        "zh": "表示超出或超越某种限度、范围或界限（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "beyond",
+                                "target_lang_sense_clarification": "exceeding limits"
+                            },
+                            {
+                                "target_lang_word": "past",
+                                "target_lang_sense_clarification": "surpassing a boundary"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "за рамки",
+                                "target_lang_sense_clarification": "превышая установленные пределы"
+                            },
+                            {
+                                "target_lang_word": "за пределы",
+                                "target_lang_sense_clarification": "выходя за границы"
+                            },
+                            {
+                                "target_lang_word": "сверх",
+                                "target_lang_sense_clarification": "больше нормы или плана"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "boven",
+                                "target_lang_sense_clarification": "hoger dan een bepaalde norm of planning"
+                            },
+                            {
+                                "target_lang_word": "voorbij",
+                                "target_lang_sense_clarification": "verder dan een grens"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "poza",
+                                "target_lang_sense_clarification": "przekraczając granice, ramy"
+                            },
+                            {
+                                "target_lang_word": "ponad",
+                                "target_lang_sense_clarification": "więcej niż określona norma"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "au-delà de",
+                                "target_lang_sense_clarification": "en dépassant une limite ou des prévisions"
+                            },
+                            {
+                                "target_lang_word": "au-dessus de",
+                                "target_lang_sense_clarification": "supérieur à une norme ou un critère"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "oltre",
+                                "target_lang_sense_clarification": "al di là di una soglia o previsione"
+                            },
+                            {
+                                "target_lang_word": "al di là di",
+                                "target_lang_sense_clarification": "eccedendo i limiti stabiliti"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "nad rámec, více než stanovená mez"
+                            },
+                            {
+                                "target_lang_word": "za",
+                                "target_lang_sense_clarification": "za hranice nebo meze něčeho"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ötesine",
+                                "target_lang_sense_clarification": "bir sınırın veya planın dışına taşarak"
+                            },
+                            {
+                                "target_lang_word": "üzerine",
+                                "target_lang_sense_clarification": "belirlenen miktarı veya ölçüyü aşarak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "más allá de",
+                                "target_lang_sense_clarification": "sobrepasando un marco o previsión"
+                            },
+                            {
+                                "target_lang_word": "por encima de",
+                                "target_lang_sense_clarification": "superando una norma o exigencia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "超出",
+                                "target_lang_sense_clarification": "超出限度或既定范围"
+                            },
+                            {
+                                "target_lang_word": "超过",
+                                "target_lang_sense_clarification": "超越标准或额度"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6457f20d-c5ea-359d-b364-c00a23e49ca0",
@@ -189,15 +1325,153 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Er stellte gestern einen Scheck <w>über</w> zweihundert Euro aus."
+                            "text": "Er stellte gestern einen Scheck <w>über</w> zweihundert Euro aus.",
+                            "target_lang_translations": {
+                                "en": "Yesterday he made out a check <w>for</w> two hundred euros.",
+                                "ru": "Вчера он выписал чек <w>на</w> двести евро.",
+                                "nl": "Hij schreef gisteren een cheque <w>van</w> tweehonderd euro uit.",
+                                "pl": "Wystawił wczoraj czek <w>na</w> dwieście euro.",
+                                "fr": "Il a établi hier un chèque <w>de</w> deux cents euros.",
+                                "it": "Ieri ha emesso un assegno <w>di</w> duecento euro.",
+                                "cs": "Včera vystavil šek <w>na</w> dvě stě eur.",
+                                "tr": "Dün iki yüz avro <w>tutarında</w> bir çek düzenledi.",
+                                "es": "Ayer extendió un cheque <w>por</w> doscientos euros.",
+                                "zh": "他昨天开出了一张<w>金额为</w>两百欧元的支票。"
+                            }
                         },
                         {
-                            "text": "Die Firma erhielt eine Rechnung <w>über</w> den vereinbarten Betrag."
+                            "text": "Die Firma erhielt eine Rechnung <w>über</w> den vereinbarten Betrag.",
+                            "target_lang_translations": {
+                                "en": "The company received an invoice <w>for</w> the agreed amount.",
+                                "ru": "Фирма получила счёт <w>на</w> согласованную сумму.",
+                                "nl": "Het bedrijf ontving een factuur <w>voor</w> het afgesproken bedrag.",
+                                "pl": "Firma otrzymała fakturę <w>na</w> uzgodnioną kwotę.",
+                                "fr": "L'entreprise a reçu une facture <w>d'un montant de</w> la somme convenue.",
+                                "it": "L'azienda ha ricevuto una fattura <w>per</w> l'importo concordato.",
+                                "cs": "Firma obdržela fakturu <w>na</w> dohodnutou částku.",
+                                "tr": "Şirket, kararlaştırılan miktar <w>tutarında</w> bir fatura aldı.",
+                                "es": "La empresa recibió una factura <w>por</w> el importe acordado.",
+                                "zh": "公司收到了一张<w>金额为</w>约定数额的发票。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "eine Rechnung über"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "indicates the exact monetary amount stated on a bill, check, or financial document (with accusative)",
+                        "ru": "указывает на денежную сумму, на которую выписан платёжный документ (с винительным падежом)",
+                        "nl": "geeft een geldbedrag aan waarvoor een document of betalingsmiddel precies is uitgeschreven (met accusatief)",
+                        "pl": "oznacza kwotę pieniężną, na którą dokładnie opiewa dokument lub środek płatniczy (z biernikiem)",
+                        "fr": "indique le montant financier précis pour lequel un document ou paiement est libellé (avec l'accusatif)",
+                        "it": "indica l'importo monetario esatto per cui è intestato un documento o titolo di pagamento (con accusativo)",
+                        "cs": "označuje peněžní částku, na kterou je vystaven doklad nebo platební prostředek (s akuzativem)",
+                        "tr": "Bir belgenin veya ödeme aracının tam olarak düzenlendiği para tutarını belirtir (Akkusativ ile).",
+                        "es": "indica la cantidad monetaria exacta por la que está extendido un documento financiero o medio de pago (con acusativo)",
+                        "zh": "表示票据或支付凭证上所开具的具体金额，金额为（接第四格）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "for",
+                                "target_lang_sense_clarification": "specifying a sum of money"
+                            },
+                            {
+                                "target_lang_word": "in the amount of",
+                                "target_lang_sense_clarification": "formal, denoting sum"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "на",
+                                "target_lang_sense_clarification": "на определённую денежную сумму"
+                            },
+                            {
+                                "target_lang_word": "на сумму",
+                                "target_lang_sense_clarification": "в размере указанной суммы"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "van",
+                                "target_lang_sense_clarification": "ter waarde van een bedrag"
+                            },
+                            {
+                                "target_lang_word": "voor",
+                                "target_lang_sense_clarification": "uitgeschreven voor een bedrag"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "na określoną kwotę"
+                            },
+                            {
+                                "target_lang_word": "na kwotę",
+                                "target_lang_sense_clarification": "w wysokości danej sumy"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "de",
+                                "target_lang_sense_clarification": "pour la somme exacte de"
+                            },
+                            {
+                                "target_lang_word": "d'un montant de",
+                                "target_lang_sense_clarification": "formel, indiquant une somme d'argent"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "di",
+                                "target_lang_sense_clarification": "per la somma precisa di"
+                            },
+                            {
+                                "target_lang_word": "da",
+                                "target_lang_sense_clarification": "del valore o importo di"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "na",
+                                "target_lang_sense_clarification": "na určitou peněžní částku"
+                            },
+                            {
+                                "target_lang_word": "ve výši",
+                                "target_lang_sense_clarification": "v hodnotě dané finanční sumy"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "tutarında",
+                                "target_lang_sense_clarification": "belirli bir para miktarında düzenlenmiş"
+                            },
+                            {
+                                "target_lang_word": "değerinde",
+                                "target_lang_sense_clarification": "bir meblağ karşılığı olan"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "por un valor económico determinado"
+                            },
+                            {
+                                "target_lang_word": "por valor de",
+                                "target_lang_sense_clarification": "por el importe exacto especificado"
+                            },
+                            {
+                                "target_lang_word": "de",
+                                "target_lang_sense_clarification": "de una cantidad monetaria precisa"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "金额为",
+                                "target_lang_sense_clarification": "标明票据的具体数额"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d2736421-1da5-36f3-ac91-027a8f63097c",
@@ -208,15 +1482,149 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sie arbeitete den ganzen Sommer <w>über</w> fleißig im Garten."
+                            "text": "Sie arbeitete den ganzen Sommer <w>über</w> fleißig im Garten.",
+                            "target_lang_translations": {
+                                "en": "She worked diligently in the garden <w>throughout</w> the whole summer.",
+                                "ru": "Она усердно работала в саду <w>на протяжении</w> всего лета.",
+                                "nl": "Ze werkte de hele zomer <w>door</w> vlijtig in de tuin.",
+                                "pl": "Pracowała pilnie w ogrodzie <w>przez</w> całe lato.",
+                                "fr": "Elle a travaillé assidûment au jardin <w>durant tout</w> l'été.",
+                                "it": "Ha lavorato assiduamente in giardino <w>per tutta</w> l'estate.",
+                                "cs": "Pracovala na zahradě pilně <w>po</w> celé léto.",
+                                "tr": "Bütün yaz <w>boyunca</w> bahçede gayretle çalıştı.",
+                                "es": "Trabajó diligentemente en el jardín <w>durante todo</w> el verano.",
+                                "zh": "她<w>整整</w>一个夏天都在花园里辛勤劳作。"
+                            }
                         },
                         {
-                            "text": "Der starke Sturm hatte die ganze Nacht <w>über</w> angehalten."
+                            "text": "Der starke Sturm hatte die ganze Nacht <w>über</w> angehalten.",
+                            "target_lang_translations": {
+                                "en": "The severe storm had continued <w>throughout</w> the entire night.",
+                                "ru": "Сильный шторм продолжался <w>в течение</w> всей ночи.",
+                                "nl": "De zware storm had de hele nacht <w>door</w> aangehouden.",
+                                "pl": "Silna burza trwała <w>przez</w> całą noc.",
+                                "fr": "La violente tempête a persisté <w>tout au long de</w> la nuit.",
+                                "it": "La forte tempesta è durata <w>per tutta</w> la notte.",
+                                "cs": "Silná bouře trvala <w>po</w> celou noc.",
+                                "tr": "Şiddetli fırtına bütün gece <w>boyunca</w> sürmüştü.",
+                                "es": "La fuerte tormenta había continuado <w>a lo largo de toda</w> la noche.",
+                                "zh": "强烈的暴风雨<w>整整</w>持续了一夜。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "das ganze Jahr über"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "used postpositionally to express the complete duration of a time period",
+                        "ru": "выражает полную продолжительность периода времени при постпозитивном употреблении",
+                        "nl": "drukt achtergeplaatst de volledige duur van een tijdsperiode uit",
+                        "pl": "wyraża całkowity czas trwania okresu (w postpozycji)",
+                        "fr": "exprime en postposition l'intégralité de la durée d'une période donnée",
+                        "it": "esprime in posizione postposta l'intera durata continua di un arco temporale",
+                        "cs": "vyjadřuje celé trvání časového úseku při postpozici",
+                        "tr": "İsimden sonra gelerek bir zaman aralığının baştan sona tüm süresini ifade eder.",
+                        "es": "expresa en posición pospuesta la duración completa de un período de tiempo",
+                        "zh": "（后置使用）表示在整个时间段内持续不断，整整、贯穿"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "throughout",
+                                "target_lang_sense_clarification": "for the entire duration"
+                            },
+                            {
+                                "target_lang_word": "all ... long",
+                                "target_lang_sense_clarification": "the whole period"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "на протяжении",
+                                "target_lang_sense_clarification": "в течение всего периода времени"
+                            },
+                            {
+                                "target_lang_word": "в течение",
+                                "target_lang_sense_clarification": "на всём отрезке времени"
+                            },
+                            {
+                                "target_lang_word": "напролёт",
+                                "target_lang_sense_clarification": "без перерыва весь период"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "door",
+                                "target_lang_sense_clarification": "onafgebroken gedurende de hele periode"
+                            },
+                            {
+                                "target_lang_word": "lang",
+                                "target_lang_sense_clarification": "de gehele periode"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przez",
+                                "target_lang_sense_clarification": "przez cały okres"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "tout au long de",
+                                "target_lang_sense_clarification": "sur l'ensemble de la période"
+                            },
+                            {
+                                "target_lang_word": "durant tout",
+                                "target_lang_sense_clarification": "pendant l'entièreté d'une durée"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "per tutto",
+                                "target_lang_sense_clarification": "per l'intera estensione del periodo"
+                            },
+                            {
+                                "target_lang_word": "durante tutto",
+                                "target_lang_sense_clarification": "per tutto l'arco di tempo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "po",
+                                "target_lang_sense_clarification": "po celou dobu určitého období"
+                            },
+                            {
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "v průběhu celého časového úseku"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "boyunca",
+                                "target_lang_sense_clarification": "tüm dönem süresince aralıksız"
+                            },
+                            {
+                                "target_lang_word": "süresince",
+                                "target_lang_sense_clarification": "bütün bir zaman aralığında"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "durante todo",
+                                "target_lang_sense_clarification": "a lo largo de todo un período"
+                            },
+                            {
+                                "target_lang_word": "a lo largo de todo",
+                                "target_lang_sense_clarification": "sin interrupción durante todo el lapso"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "整整",
+                                "target_lang_sense_clarification": "持续整个时间段"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -232,18 +1640,172 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zu dem großen Konzert kamen gestern <w>über</w> tausend begeisterte Menschen."
+                            "text": "Zu dem großen Konzert kamen gestern <w>über</w> tausend begeisterte Menschen.",
+                            "target_lang_translations": {
+                                "en": "Yesterday, <w>over</w> a thousand enthusiastic people attended the big concert.",
+                                "ru": "На большой концерт вчера пришло <w>более</w> тысячи восторженных людей.",
+                                "nl": "Naar het grote concert kwamen gisteren <w>meer dan</w> duizend enthousiaste mensen.",
+                                "pl": "Na ten wielki koncert przyszło wczoraj <w>ponad</w> tysiąc zachwyconych ludzi.",
+                                "fr": "Hier, <w>plus de</w> mille personnes enthousiastes sont venues au grand concert.",
+                                "it": "Ieri al grande concerto sono arrivate <w>più di</w> mille persone entusiaste.",
+                                "cs": "Na ten velký koncert včera přišlo <w>přes</w> tisíc nadšených lidí.",
+                                "tr": "Dünkü büyük konsere binin <w>üzerinde</w> coşkulu insan geldi.",
+                                "es": "Ayer acudieron al gran concierto <w>más de</w> mil personas entusiasmadas.",
+                                "zh": "昨天有<w>超过</w>一千名热情的观众前来参加这场盛大的音乐会。"
+                            }
                         },
                         {
-                            "text": "Mein Großvater ist mittlerweile schon <w>über</w> achtzig Jahre alt."
+                            "text": "Mein Großvater ist mittlerweile schon <w>über</w> achtzig Jahre alt.",
+                            "target_lang_translations": {
+                                "en": "My grandfather is by now already <w>over</w> eighty years old.",
+                                "ru": "Моему дедушке сейчас уже <w>больше</w> восьмидесяти лет.",
+                                "nl": "Mijn grootvader is inmiddels al <w>over</w> de tachtig jaar oud.",
+                                "pl": "Mój dziadek ma już obecnie <w>ponad</w> osiemdziesiąt lat.",
+                                "fr": "Mon grand-père a désormais déjà <w>plus de</w> quatre-vingts ans.",
+                                "it": "Mio nonno ormai ha già <w>più di</w> ottant'anni.",
+                                "cs": "Mému dědečkovi je mezitím už <w>přes</w> osmdesát let.",
+                                "tr": "Dedem artık seksen yaşının <w>üzerinde</w>.",
+                                "es": "Mi abuelo ya tiene actualmente <w>más de</w> ochenta años.",
+                                "zh": "我祖父如今已经<w>超过</w>八十岁了。"
+                            }
                         }
+                    ],
+                    "synonyms": [
+                        "mehr als"
                     ],
                     "antonyms": [
                         "unter"
                     ],
-                    "synonyms": [
-                        "mehr als"
-                    ]
+                    "target_lang_definitions": {
+                        "en": "indicates that a specified number, quantity, or age limit is exceeded",
+                        "ru": "указывает на превышение определённого числа, количества или возраста",
+                        "nl": "drukt uit dat een bepaald getal, een hoeveelheid of een leeftijdsgrens wordt overschreden",
+                        "pl": "wyraża przekroczenie określonej liczby, ilości lub granicy wieku",
+                        "fr": "exprime le dépassement d'un nombre, d'une quantité ou d'un âge",
+                        "it": "esprime il superamento di un determinato numero, quantità o limite di età",
+                        "cs": "vyjadřuje překročení určitého čísla, množství nebo věkové hranice",
+                        "tr": "Belirli bir sayının, miktarın veya yaş sınırının aşıldığını belirtir.",
+                        "es": "expresa que se supera un número, cantidad o límite de edad determinado",
+                        "zh": "表示超过某个数字、数量或年龄界限，超过、……以上"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "more than a number or age"
+                            },
+                            {
+                                "target_lang_word": "more than",
+                                "target_lang_sense_clarification": "exceeding an amount"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "более",
+                                "target_lang_sense_clarification": "свыше указанного числа или количества"
+                            },
+                            {
+                                "target_lang_word": "больше",
+                                "target_lang_sense_clarification": "превышая возраст или число"
+                            },
+                            {
+                                "target_lang_word": "свыше",
+                                "target_lang_sense_clarification": "более определённого значения"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "meer dan",
+                                "target_lang_sense_clarification": "boven een aantal"
+                            },
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "ouder dan een bepaalde leeftijd"
+                            },
+                            {
+                                "target_lang_word": "boven",
+                                "target_lang_sense_clarification": "hoger dan een getal of grens"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "ponad",
+                                "target_lang_sense_clarification": "więcej niż dana liczba lub wiek"
+                            },
+                            {
+                                "target_lang_word": "przeszło",
+                                "target_lang_sense_clarification": "więcej niż podana wartość"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "plus de",
+                                "target_lang_sense_clarification": "dépassant un montant ou un nombre"
+                            },
+                            {
+                                "target_lang_word": "au-delà de",
+                                "target_lang_sense_clarification": "excédant une limite chiffrée"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "più di",
+                                "target_lang_sense_clarification": "al di sopra di un numero o di un'età"
+                            },
+                            {
+                                "target_lang_word": "oltre",
+                                "target_lang_sense_clarification": "in quantità superiore a una cifra"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "více než určité číslo, množství nebo věk"
+                            },
+                            {
+                                "target_lang_word": "více než",
+                                "target_lang_sense_clarification": "nad danou číselnou hodnotu"
+                            },
+                            {
+                                "target_lang_word": "nad",
+                                "target_lang_sense_clarification": "překračující stanovenou mez"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "üzerinde",
+                                "target_lang_sense_clarification": "bir sayıdan veya yaştan fazla"
+                            },
+                            {
+                                "target_lang_word": "fazla",
+                                "target_lang_sense_clarification": "belirli bir miktardan çok"
+                            },
+                            {
+                                "target_lang_word": "aşkın",
+                                "target_lang_sense_clarification": "bir sayıyı veya süreyi aşmış"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "más de",
+                                "target_lang_sense_clarification": "superando una cifra o cantidad"
+                            },
+                            {
+                                "target_lang_word": "por encima de",
+                                "target_lang_sense_clarification": "mayor que una cifra o edad indicada"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "超过",
+                                "target_lang_sense_clarification": "多于特定数值或年龄"
+                            },
+                            {
+                                "target_lang_word": "……以上",
+                                "target_lang_sense_clarification": "高出特定界限"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "58995cb9-ce81-32c2-9c91-572b963709a2",
@@ -254,10 +1816,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Vom leckeren Abendessen ist zum Glück noch eine Portion Suppe <w>über</w>."
+                            "text": "Vom leckeren Abendessen ist zum Glück noch eine Portion Suppe <w>über</w>.",
+                            "target_lang_translations": {
+                                "en": "Fortunately, one portion of soup is still <w>left over</w> from the delicious dinner.",
+                                "ru": "От вкусного ужина, к счастью, ещё <w>осталась</w> порция супа.",
+                                "nl": "Van het heerlijke avondeten is gelukkig nog een portie soep <w>over</w>.",
+                                "pl": "Z pysznej kolacji na szczęście <w>została</w> jeszcze porcja zupy.",
+                                "fr": "Du délicieux dîner, il reste heureusement encore une portion de soupe <w>de reste</w>.",
+                                "it": "Della deliziosa cena è fortunatamente rimasta ancora una porzione di zuppa <w>d'avanzo</w>.",
+                                "cs": "Z chutné večeře naštěstí ještě <w>zbyla</w> porce polévky.",
+                                "tr": "Lezzetli akşam yemeğinden neyse ki bir porsiyon çorba <w>arttı</w>.",
+                                "es": "De la rica cena afortunadamente todavía queda una ración de sopa <w>de sobra</w>.",
+                                "zh": "美味的晚餐幸好还<w>剩下</w>了一份汤。"
+                            }
                         },
                         {
-                            "text": "Hast du nach dem Einkauf noch etwas Kleingeld für mich <w>über</w>?"
+                            "text": "Hast du nach dem Einkauf noch etwas Kleingeld für mich <w>über</w>?",
+                            "target_lang_translations": {
+                                "en": "Do you have any spare change <w>to spare</w> for me after shopping?",
+                                "ru": "У тебя после покупок не найдётся для меня немного <w>лишней</w> мелочи?",
+                                "nl": "Heb je na het winkelen nog wat wisselgeld voor mij <w>over</w>?",
+                                "pl": "Czy po zakupach <w>zbywa</w> ci jeszcze trochę drobnych dla mnie?",
+                                "fr": "Après les courses, aurais-tu encore un peu de monnaie <w>en trop</w> pour moi ?",
+                                "it": "Dopo la spesa hai ancora qualche spicciolo <w>in più</w> per me?",
+                                "cs": "Máš pro mě po nákupu ještě nějaké drobné <w>navíc</w>?",
+                                "tr": "Alışverişten sonra bana verecek biraz <w>fazla</w> bozukluğun var mı?",
+                                "es": "¿Te queda algo de dinero suelto <w>de sobra</w> para mí después de la compra?",
+                                "zh": "买完东西后你还有<w>多余</w>的零钱给我吗？"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -276,7 +1862,125 @@
                             "trait_type": "regional",
                             "comment": "vor allem in Nord- und Mitteldeutschland gebräuchlich"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "remaining or left over as a remainder (colloquial)",
+                        "ru": "остающийся в качестве излишка или остатка (разговорное)",
+                        "nl": "als restant nog aanwezig; overgebleven (informeel)",
+                        "pl": "jako pozostałość wciąż obecny; pozostający (potocznie)",
+                        "fr": "qui subsiste à l'état de reste ; restant (familier)",
+                        "it": "ancora presente come rimanenza o avanzo (colloquiale)",
+                        "cs": "zbývající jako zbytek; dosud zbylý (hovorově)",
+                        "tr": "Artakalan, geriye kalan veya fazladan bulunan (konuşma dili).",
+                        "es": "que queda como sobrante o remanente; todavía disponible (coloquial)",
+                        "zh": "（口语）作为剩余物尚存，剩下、多余"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "left over",
+                                "target_lang_sense_clarification": "remaining"
+                            },
+                            {
+                                "target_lang_word": "left",
+                                "target_lang_sense_clarification": "remaining to be used"
+                            },
+                            {
+                                "target_lang_word": "to spare",
+                                "target_lang_sense_clarification": "available extra"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "в остатке",
+                                "target_lang_sense_clarification": "оставшийся неиспользованным"
+                            },
+                            {
+                                "target_lang_word": "лишний",
+                                "target_lang_sense_clarification": "свободный, остающийся в наличии"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "over",
+                                "target_lang_sense_clarification": "resterend"
+                            },
+                            {
+                                "target_lang_word": "overgebleven",
+                                "target_lang_sense_clarification": "als rest aanwezig"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "zostać",
+                                "target_lang_sense_clarification": "pozostawać jako resztka"
+                            },
+                            {
+                                "target_lang_word": "zbywać",
+                                "target_lang_sense_clarification": "być zbędnym, w nadmiarze"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "de reste",
+                                "target_lang_sense_clarification": "qui reste en réserve ou non utilisé"
+                            },
+                            {
+                                "target_lang_word": "en trop",
+                                "target_lang_sense_clarification": "disponible en surplus"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "d'avanzo",
+                                "target_lang_sense_clarification": "che resta inutilizzato o avanzato"
+                            },
+                            {
+                                "target_lang_word": "in più",
+                                "target_lang_sense_clarification": "rimasto come eccedenza"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "zbývat",
+                                "target_lang_sense_clarification": "zůstávat jako nevyužitý zbytek"
+                            },
+                            {
+                                "target_lang_word": "navíc",
+                                "target_lang_sense_clarification": "k dispozici jako přebytek"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "artmış",
+                                "target_lang_sense_clarification": "tüketilmeyip geriye kalmış"
+                            },
+                            {
+                                "target_lang_word": "fazla",
+                                "target_lang_sense_clarification": "elde fazladan bulunan"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "de sobra",
+                                "target_lang_sense_clarification": "disponible como sobrante o excedente"
+                            },
+                            {
+                                "target_lang_word": "sobrante",
+                                "target_lang_sense_clarification": "que aún queda"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "剩下",
+                                "target_lang_sense_clarification": "尚有留存"
+                            },
+                            {
+                                "target_lang_word": "多余",
+                                "target_lang_sense_clarification": "尚有结余可支配"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "ac6cbe4e-11ef-3ad2-b105-931510f50256",
@@ -287,15 +1991,141 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nach dem langen Spaziergang war ihr Mantel <w>über</w> und <w>über</w> mit Schlamm bedeckt."
+                            "text": "Nach dem langen Spaziergang war ihr Mantel <w>über</w> und <w>über</w> mit Schlamm bedeckt.",
+                            "target_lang_translations": {
+                                "en": "After the long walk, her coat was covered with mud <w>all over</w>.",
+                                "ru": "После долгой прогулки её пальто было <w>сплошь</w> покрыто грязью.",
+                                "nl": "Na de lange wandeling was haar jas <w>helemaal</w> met modder bedekt.",
+                                "pl": "Po długim spacerze jej płaszcz był <w>cały</w> pokryty błotem.",
+                                "fr": "Après la longue promenade, son manteau était <w>entièrement</w> recouvert de boue.",
+                                "it": "Dopo la lunga passeggiata, il suo cappotto era <w>completamente</w> coperto di fango.",
+                                "cs": "Po dlouhé procházce byl její kabát <w>celý</w> pokrytý blátem.",
+                                "tr": "Uzun yürüyüşün ardından paltosu <w>baştan aşağı</w> çamura bulanmıştı.",
+                                "es": "Después del largo paseo, su abrigo estaba <w>completamente</w> cubierto de barro.",
+                                "zh": "长途散步后，她的大衣上<w>满是</w>泥浆。"
+                            }
                         },
                         {
-                            "text": "Der Frühlingsgarten war <w>über</w> und <w>über</w> voll mit bunten Blumen."
+                            "text": "Der Frühlingsgarten war <w>über</w> und <w>über</w> voll mit bunten Blumen.",
+                            "target_lang_translations": {
+                                "en": "The spring garden was filled <w>all over</w> with colorful flowers.",
+                                "ru": "Весенний сад был <w>целиком</w> полон ярких цветов.",
+                                "nl": "De lentetuin was <w>helemaal</w> vol met kleurrijke bloemen.",
+                                "pl": "Wiosenny ogród był <w>całkowicie</w> pełen kolorowych kwiatów.",
+                                "fr": "Le jardin printanier était <w>complètement</w> rempli de fleurs colorées.",
+                                "it": "Il giardino primaverile era <w>completamente</w> pieno di fiori colorati.",
+                                "cs": "Jarní zahrada byla <w>úplně</w> plná barevných květin.",
+                                "tr": "Bahar bahçesi <w>tamamen</w> rengârenk çiçeklerle doluydu.",
+                                "es": "El jardín primaveral estaba <w>de arriba abajo</w> lleno de flores de colores.",
+                                "zh": "春天的花园里<w>满是</w>五彩缤纷的花朵。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "über und über"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "completely covering or present everywhere (in fixed phrases)",
+                        "ru": "полностью покрывающий поверхность или присутствующий повсюду (в устойчивых выражениях)",
+                        "nl": "volledig bedekkend of op alle plekken aanwezig (in vaste uitdrukkingen)",
+                        "pl": "całkowicie pokrywający lub obecny na całej powierzchni (w stałych związkach)",
+                        "fr": "recouvrant complètement ou présent partout (dans des expressions figées)",
+                        "it": "che copre interamente una superficie o presente ovunque (in espressioni fisse)",
+                        "cs": "zcela pokrývající nebo přítomný na všech místech (v ustálených spojeních)",
+                        "tr": "Bir yüzeyi tamamen örten veya her tarafında bulunan (kalıplaşmış ifadelerde).",
+                        "es": "que cubre por completo o está presente en todas partes (en expresiones fijas)",
+                        "zh": "（固定搭配中）完全覆盖，满是、到处"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "all over",
+                                "target_lang_sense_clarification": "covering completely"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сплошь",
+                                "target_lang_sense_clarification": "полностью покрывая"
+                            },
+                            {
+                                "target_lang_word": "целиком",
+                                "target_lang_sense_clarification": "повсюду, без пробелов"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "helemaal",
+                                "target_lang_sense_clarification": "volledig bedekt of gevuld"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "całkowicie",
+                                "target_lang_sense_clarification": "w całości pokryty"
+                            },
+                            {
+                                "target_lang_word": "cały",
+                                "target_lang_sense_clarification": "w zwrocie über und über"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "entièrement",
+                                "target_lang_sense_clarification": "recouvert sur toute la surface"
+                            },
+                            {
+                                "target_lang_word": "complètement",
+                                "target_lang_sense_clarification": "de part en part, totalement"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "completamente",
+                                "target_lang_sense_clarification": "in ogni sua parte"
+                            },
+                            {
+                                "target_lang_word": "interamente",
+                                "target_lang_sense_clarification": "su tutta la superficie"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "celý",
+                                "target_lang_sense_clarification": "zcela pokrytý po celém povrchu"
+                            },
+                            {
+                                "target_lang_word": "úplně",
+                                "target_lang_sense_clarification": "bez výjimky na všech místech"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "baştan aşağı",
+                                "target_lang_sense_clarification": "her yeri tamamen kaplanmış biçimde"
+                            },
+                            {
+                                "target_lang_word": "tamamen",
+                                "target_lang_sense_clarification": "eksiksiz olarak bütün yüzeyinde"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "completamente",
+                                "target_lang_sense_clarification": "cubriendo la totalidad de una superficie"
+                            },
+                            {
+                                "target_lang_word": "de arriba abajo",
+                                "target_lang_sense_clarification": "por entero en toda su extensión"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "满是",
+                                "target_lang_sense_clarification": "到处覆盖着"
+                            }
+                        ]
+                    }
                 }
             ]
         }

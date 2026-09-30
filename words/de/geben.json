@@ -24,10 +24,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In dieser kleinen Stadt <w>gibt</w> es leider keinen Bahnhof mehr."
+                            "text": "In dieser kleinen Stadt <w>gibt</w> es leider keinen Bahnhof mehr.",
+                            "target_lang_translations": {
+                                "en": "Unfortunately, <w>there is</w> no longer a train station in this small town.",
+                                "ru": "В этом маленьком городке, к сожалению, больше <w>нет</w> вокзала.",
+                                "nl": "In dit kleine stadje <w>is er</w> helaas geen station meer.",
+                                "pl": "W tym małym mieście niestety <w>nie ma</w> już dworca kolejowego.",
+                                "fr": "Dans cette petite ville, <w>il n'y a</w> malheureusement plus de gare.",
+                                "it": "In questa piccola città purtroppo non <w>c'è</w> più una stazione.",
+                                "cs": "V tomto malém městě bohužel už <w>není</w> žádné nádraží.",
+                                "tr": "Bu küçük kasabada maalesef artık bir tren istasyonu <w>yok</w>.",
+                                "es": "Lamentablemente, en esta pequeña ciudad ya no <w>hay</w> estación de tren.",
+                                "zh": "在这座小镇上，遗憾的是已经不再<w>有</w>火车站了。"
+                            }
                         },
                         {
-                            "text": "<w>Gibt</w> es hier in der Nähe ein gutes italienisches Restaurant?"
+                            "text": "<w>Gibt</w> es hier in der Nähe ein gutes italienisches Restaurant?",
+                            "target_lang_translations": {
+                                "en": "<w>Is there</w> a good Italian restaurant nearby?",
+                                "ru": "<w>Есть</w> ли поблизости хороший итальянский ресторан?",
+                                "nl": "<w>Is er</w> hier in de buurt een goed Italiaans restaurant?",
+                                "pl": "Czy <w>jest</w> w pobliżu dobra włoska restauracja?",
+                                "fr": "<w>Y a-t-il</w> un bon restaurant italien près d'ici ?",
+                                "it": "<w>C'è</w> un buon ristorante italiano qui vicino?",
+                                "cs": "<w>Je</w> tady poblíž nějaká dobrá italská restaurace?",
+                                "tr": "Buralarda yakınlarda iyi bir İtalyan restoranı <w>var mı</w>?",
+                                "es": "¿<w>Hay</w> un buen restaurante italiano por aquí cerca?",
+                                "zh": "这附近<w>有</w>好吃的意大利餐厅吗？"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -38,7 +62,125 @@
                     "common_phrases": [
                         "es gibt",
                         "es gab einmal"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to exist or be present (used impersonally with 'es')",
+                        "ru": "указывать на наличие или существование чего-либо (всегда безлично в обороте «es gibt»)",
+                        "nl": "uitdrukken dat iets aanwezig is of bestaat (altijd onpersoonlijk gebruikt met 'es')",
+                        "pl": "wskazywać na istnienie lub obecność czegoś (używane bezosobowo w konstrukcji „es gibt”)",
+                        "fr": "indiquer la présence ou l'existence de quelque chose (toujours impersonnel avec « es »)",
+                        "it": "indicare la presenza o l'esistenza di qualcosa (usato sempre in forma impersonale con «es»)",
+                        "cs": "vyjadřovat, že něco existuje nebo je k dispozici (vždy neosobně ve vazbě „es gibt“)",
+                        "tr": "Bir şeyin var veya mevcut olduğunu belirtmek (daima „es“ zamiriyle kişisiz olarak kullanılır)",
+                        "es": "expresar que algo existe o está presente (siempre de forma impersonal con «es»)",
+                        "zh": "表示存在或发生（常与无人称代词 es 连用）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "there is",
+                                "target_lang_sense_clarification": "indicating existence in the singular"
+                            },
+                            {
+                                "target_lang_word": "there are",
+                                "target_lang_sense_clarification": "indicating existence in the plural"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "быть",
+                                "target_lang_sense_clarification": "иметься, присутствовать в наличии"
+                            },
+                            {
+                                "target_lang_word": "иметься",
+                                "target_lang_sense_clarification": "быть в наличии или распоряжении"
+                            },
+                            {
+                                "target_lang_word": "существовать",
+                                "target_lang_sense_clarification": "иметь место, присутствовать"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "er zijn",
+                                "target_lang_sense_clarification": "aanwezig zijn of voorkomen"
+                            },
+                            {
+                                "target_lang_word": "bestaan",
+                                "target_lang_sense_clarification": "werkelijk voorhanden zijn"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "być",
+                                "target_lang_sense_clarification": "znajdować się, występować na danym obszarze"
+                            },
+                            {
+                                "target_lang_word": "istnieć",
+                                "target_lang_sense_clarification": "występować w rzeczywistości, mieć miejsce"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "il y a",
+                                "target_lang_sense_clarification": "pour marquer l'existence ou la présence"
+                            },
+                            {
+                                "target_lang_word": "exister",
+                                "target_lang_sense_clarification": "avoir une existence réelle ou être présent"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "esserci",
+                                "target_lang_sense_clarification": "indicare la presenza o la disponibilità di qualcosa (c'è, ci sono)"
+                            },
+                            {
+                                "target_lang_word": "esistere",
+                                "target_lang_sense_clarification": "avere un'esistenza reale o trovarsi in un luogo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "být",
+                                "target_lang_sense_clarification": "nacházet se, existovat (vazba es gibt)"
+                            },
+                            {
+                                "target_lang_word": "existovat",
+                                "target_lang_sense_clarification": "vyskytovat se ve skutečnosti"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "var olmak",
+                                "target_lang_sense_clarification": "bir şeyin mevcudiyetini belirtmek için („es gibt“ kalıbı)"
+                            },
+                            {
+                                "target_lang_word": "bulunmak",
+                                "target_lang_sense_clarification": "bir yerde mevcut olmak veya yer almak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "haber",
+                                "target_lang_sense_clarification": "en su uso impersonal 'hay' para indicar existencia o presencia"
+                            },
+                            {
+                                "target_lang_word": "existir",
+                                "target_lang_sense_clarification": "tener existencia real o estar presente"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "有",
+                                "target_lang_sense_clarification": "表示客观存在，对应 es gibt"
+                            },
+                            {
+                                "target_lang_word": "存在",
+                                "target_lang_sense_clarification": "表示某事物实际存在"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "cb833d9a-e929-3b36-9009-7d40fa4ee46a",
@@ -49,10 +191,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Kannst du mir bitte kurz das Salz <w>geben</w>?"
+                            "text": "Kannst du mir bitte kurz das Salz <w>geben</w>?",
+                            "target_lang_translations": {
+                                "en": "Could you please <w>pass</w> me the salt for a moment?",
+                                "ru": "Ты не мог бы, пожалуйста, <w>передать</w> мне соль?",
+                                "nl": "Kun je me alsjeblieft even het zout <w>geven</w>?",
+                                "pl": "Czy możesz mi na chwilę <w>podać</w> sól?",
+                                "fr": "Peux-tu me <w>passer</w> le sel un instant s'il te plaît ?",
+                                "it": "Mi puoi per favore <w>passare</w> il sale per un attimo?",
+                                "cs": "Můžeš mi prosím na chvilku <w>podat</w> sůl?",
+                                "tr": "Bana lütfen tuzu kısaca <w>verebilir misin</w>?",
+                                "es": "¿Me puedes <w>pasar</w> un momento la sal, por favor?",
+                                "zh": "你能把盐<w>递</w>给我一下吗？"
+                            }
                         },
                         {
-                            "text": "Er <w>gab</w> dem Kellner das Geld für die Rechnung."
+                            "text": "Er <w>gab</w> dem Kellner das Geld für die Rechnung.",
+                            "target_lang_translations": {
+                                "en": "He <w>gave</w> the waiter the money for the bill.",
+                                "ru": "Он <w>дал</w> официанту деньги по счёту.",
+                                "nl": "Hij <w>gaf</w> de ober het geld voor de rekening.",
+                                "pl": "<w>Dał</w> kelnerowi pieniądze na rachunek.",
+                                "fr": "Il a <w>donné</w> au serveur l'argent pour l'addition.",
+                                "it": "<w>Ha dato</w> al cameriere i soldi per il conto.",
+                                "cs": "<w>Dal</w> číšníkovi peníze na účet.",
+                                "tr": "Hesap için parayı garsona <w>verdi</w>.",
+                                "es": "Él le <w>dio</w> al camarero el dinero para la cuenta.",
+                                "zh": "他把结账的钱<w>给</w>了服务员。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -67,7 +233,157 @@
                     "common_phrases": [
                         "die Hand geben",
                         "jemandem etwas in die Hand geben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to hand or pass an object to someone directly",
+                        "ru": "передавать или подавать кому-либо предмет рукой",
+                        "nl": "iemand een voorwerp met de hand aanreiken of overhandigen",
+                        "pl": "podawać lub wręczać komuś przedmiot do ręki",
+                        "fr": "tendre, passer ou remettre un objet de la main à la main",
+                        "it": "passare o porgere direttamente con la mano un oggetto a qualcuno",
+                        "cs": "podat nebo předat někomu předmět rukou",
+                        "tr": "Birine bir nesneyi eliyle uzatmak, vermek veya önüne koymak",
+                        "es": "alcanzar o pasar un objeto a alguien con la mano",
+                        "zh": "亲手递给或把物品交给某人"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "give",
+                                "target_lang_sense_clarification": "handing something to someone"
+                            },
+                            {
+                                "target_lang_word": "pass",
+                                "target_lang_sense_clarification": "passing something across to someone"
+                            },
+                            {
+                                "target_lang_word": "hand",
+                                "target_lang_sense_clarification": "transferring directly by hand"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "давать",
+                                "target_lang_sense_clarification": "передавать предмет в руки"
+                            },
+                            {
+                                "target_lang_word": "передавать",
+                                "target_lang_sense_clarification": "подавать кому-либо из рук в руки"
+                            },
+                            {
+                                "target_lang_word": "подавать",
+                                "target_lang_sense_clarification": "протягивать, подносить предмет"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "geven",
+                                "target_lang_sense_clarification": "met de hand overhandigen"
+                            },
+                            {
+                                "target_lang_word": "aangeven",
+                                "target_lang_sense_clarification": "toereiken aan iemand"
+                            },
+                            {
+                                "target_lang_word": "overhandigen",
+                                "target_lang_sense_clarification": "formeel in de handen geven"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dawać",
+                                "target_lang_sense_clarification": "wręczać, przekazywać do rąk (aspekt niedokonany)"
+                            },
+                            {
+                                "target_lang_word": "dać",
+                                "target_lang_sense_clarification": "wręczyć, przekazać do rąk (aspekt dokonany)"
+                            },
+                            {
+                                "target_lang_word": "podawać",
+                                "target_lang_sense_clarification": "przesuwać lub sięgać po coś, by podać komuś"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "donner",
+                                "target_lang_sense_clarification": "remettre un objet à quelqu'un"
+                            },
+                            {
+                                "target_lang_word": "passer",
+                                "target_lang_sense_clarification": "tendre ou faire passer un objet de la main à la main"
+                            },
+                            {
+                                "target_lang_word": "tendre",
+                                "target_lang_sense_clarification": "présenter un objet en allongeant la main"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "dare",
+                                "target_lang_sense_clarification": "consegnare o porgere un oggetto a qualcuno"
+                            },
+                            {
+                                "target_lang_word": "passare",
+                                "target_lang_sense_clarification": "tendere o far arrivare un oggetto con le mani"
+                            },
+                            {
+                                "target_lang_word": "porgere",
+                                "target_lang_sense_clarification": "allungare garbatamente qualcosa verso le mani altrui"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dát",
+                                "target_lang_sense_clarification": "předat nebo podat z ruky do ruky (dokonavé)"
+                            },
+                            {
+                                "target_lang_word": "dávat",
+                                "target_lang_sense_clarification": "předávat nebo podávat z ruky do ruky (nedokonavé)"
+                            },
+                            {
+                                "target_lang_word": "podat",
+                                "target_lang_sense_clarification": "přisunout nebo natáhnout ruku s předmětem"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "vermek",
+                                "target_lang_sense_clarification": "bir nesneyi elden teslim etmek veya ulaştırmak"
+                            },
+                            {
+                                "target_lang_word": "uzatmak",
+                                "target_lang_sense_clarification": "bir nesneyi elini uzatarak birine iletmek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "dar",
+                                "target_lang_sense_clarification": "pasar o poner un objeto en manos de alguien"
+                            },
+                            {
+                                "target_lang_word": "pasar",
+                                "target_lang_sense_clarification": "alcanzar algo extendiendo la mano"
+                            },
+                            {
+                                "target_lang_word": "entregar",
+                                "target_lang_sense_clarification": "poner algo directamente en manos de otra persona"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "递",
+                                "target_lang_sense_clarification": "用手递送物品"
+                            },
+                            {
+                                "target_lang_word": "给",
+                                "target_lang_sense_clarification": "交出、把物品交给某人"
+                            },
+                            {
+                                "target_lang_word": "交给",
+                                "target_lang_sense_clarification": "直接交付到某人手中"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "29ab6478-2e6a-39c5-a026-1b0f71d26c9a",
@@ -78,10 +394,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Meine Großmutter hat mir zum Geburtstag ein altes Buch <w>gegeben</w>."
+                            "text": "Meine Großmutter hat mir zum Geburtstag ein altes Buch <w>gegeben</w>.",
+                            "target_lang_translations": {
+                                "en": "My grandmother <w>gave</w> me an old book for my birthday.",
+                                "ru": "Бабушка <w>подарила</w> мне на день рождения старую книгу.",
+                                "nl": "Mijn grootmoeder heeft me voor mijn verjaardag een oud boek <w>gegeven</w>.",
+                                "pl": "Babcia <w>podarowała</w> mi na urodziny starą książkę.",
+                                "fr": "Ma grand-mère m'a <w>offert</w> un vieux livre pour mon anniversaire.",
+                                "it": "Per il mio compleanno, mia nonna mi ha <w>regalato</w> un vecchio libro.",
+                                "cs": "Babička mi k narozeninám <w>darovala</w> starou knihu.",
+                                "tr": "Büyükannem doğum günüm için bana eski bir kitap <w>hediye etti</w>.",
+                                "es": "Mi abuela me <w>regaló</w> un libro antiguo por mi cumpleaños.",
+                                "zh": "我祖母在我生日时<w>送</w>了我一本旧书。"
+                            }
                         },
                         {
-                            "text": "Sie <w>gab</w> den Kindern Taschengeld für das ganze Wochenende."
+                            "text": "Sie <w>gab</w> den Kindern Taschengeld für das ganze Wochenende.",
+                            "target_lang_translations": {
+                                "en": "She <w>gave</w> the children allowance for the whole weekend.",
+                                "ru": "Она <w>дала</w> детям карманные деньги на все выходные.",
+                                "nl": "Ze <w>gaf</w> de kinderen zakgeld voor het hele weekend.",
+                                "pl": "<w>Dała</w> dzieciom kieszonkowe na cały weekend.",
+                                "fr": "Elle a <w>donné</w> de l'argent de poche aux enfants pour tout le week-end.",
+                                "it": "<w>Ha dato</w> ai bambini la paghetta per tutto il fine settimana.",
+                                "cs": "<w>Dala</w> dětem kapesné na celý víkend.",
+                                "tr": "Çocuklara bütün hafta sonu için harçlık <w>verdi</w>.",
+                                "es": "Les <w>dio</w> a los niños dinero de bolsillo para todo el fin de semana.",
+                                "zh": "她<w>给</w>了孩子们整个周末的零用钱。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -96,7 +436,137 @@
                     "common_phrases": [
                         "Geld geben",
                         "ein Geschenk geben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to bestow or give something as a gift or permanent transfer",
+                        "ru": "преподносить в подарок или передавать в чье-либо распоряжение насовсем",
+                        "nl": "iemand iets cadeau doen of blijvend ter beschikking stellen",
+                        "pl": "przekazywać komuś coś na stałe lub w podarunku",
+                        "fr": "transmettre quelque chose à quelqu'un à titre de cadeau ou de façon durable",
+                        "it": "concedere o far avere a qualcuno qualcosa in dono o in via definitiva",
+                        "cs": "přenechat někomu něco darem nebo natrvalo",
+                        "tr": "Birine bir şeyi hediye olarak veya kalıcı şekilde temin etmek",
+                        "es": "hacer llegar a alguien algo como regalo o de forma duradera",
+                        "zh": "作为礼物赠送或长期提供给某人"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "give",
+                                "target_lang_sense_clarification": "presenting as a gift or providing money/possessions"
+                            },
+                            {
+                                "target_lang_word": "gift",
+                                "target_lang_sense_clarification": "giving something as a present"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "давать",
+                                "target_lang_sense_clarification": "предоставлять деньги или вещи"
+                            },
+                            {
+                                "target_lang_word": "дарить",
+                                "target_lang_sense_clarification": "преподносить в качестве подарка"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "geven",
+                                "target_lang_sense_clarification": "als geschenk of toelage overdragen"
+                            },
+                            {
+                                "target_lang_word": "schenken",
+                                "target_lang_sense_clarification": "als cadeau aanbieden"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dawać",
+                                "target_lang_sense_clarification": "ofiarowywać, przekazywać w czyjeś posiadanie"
+                            },
+                            {
+                                "target_lang_word": "dać",
+                                "target_lang_sense_clarification": "ofiarować, podarować komuś coś"
+                            },
+                            {
+                                "target_lang_word": "podarować",
+                                "target_lang_sense_clarification": "wręczać jako prezent"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "donner",
+                                "target_lang_sense_clarification": "donner de l'argent ou des biens"
+                            },
+                            {
+                                "target_lang_word": "offrir",
+                                "target_lang_sense_clarification": "faire cadeau de quelque chose"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "dare",
+                                "target_lang_sense_clarification": "fornire denaro, beni o disponibilità materiali"
+                            },
+                            {
+                                "target_lang_word": "regalare",
+                                "target_lang_sense_clarification": "donare qualcosa come regalo"
+                            },
+                            {
+                                "target_lang_word": "offrire",
+                                "target_lang_sense_clarification": "mettere a disposizione o donare spontaneamente"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dát",
+                                "target_lang_sense_clarification": "poskytnout, věnovat jako dar (dokonavé)"
+                            },
+                            {
+                                "target_lang_word": "darovat",
+                                "target_lang_sense_clarification": "předat bezplatně jako dárek"
+                            },
+                            {
+                                "target_lang_word": "dávat",
+                                "target_lang_sense_clarification": "poskytovat, věnovat jako dar (nedokonavé)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "vermek",
+                                "target_lang_sense_clarification": "para veya bir şeyi birinin kullanımına sunmak"
+                            },
+                            {
+                                "target_lang_word": "hediye etmek",
+                                "target_lang_sense_clarification": "bir armağan olarak bağışlamak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "dar",
+                                "target_lang_sense_clarification": "facilitar o entregar dinero o cosas de forma duradera"
+                            },
+                            {
+                                "target_lang_word": "regalar",
+                                "target_lang_sense_clarification": "entregar algo como obsequio"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "送",
+                                "target_lang_sense_clarification": "作为礼物赠送"
+                            },
+                            {
+                                "target_lang_word": "给",
+                                "target_lang_sense_clarification": "给予金钱、财物"
+                            },
+                            {
+                                "target_lang_word": "赠送",
+                                "target_lang_sense_clarification": "正式或郑重地赠予"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d816dcb7-152b-3d3b-b53c-2c1f6398d2be",
@@ -107,10 +577,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Darf ich dir vor der Prüfung noch einen guten Rat <w>geben</w>?"
+                            "text": "Darf ich dir vor der Prüfung noch einen guten Rat <w>geben</w>?",
+                            "target_lang_translations": {
+                                "en": "May I <w>give</w> you a piece of good advice before the exam?",
+                                "ru": "Можно я <w>дам</w> тебе хороший совет перед экзаменом?",
+                                "nl": "Mag ik je voor het examen nog een goede raad <w>geven</w>?",
+                                "pl": "Czy mogę ci przed egzaminem <w>dać</w> jeszcze dobrą radę?",
+                                "fr": "Puis-je te <w>donner</w> un bon conseil avant l'examen ?",
+                                "it": "Ti posso <w>dare</w> ancora un buon consiglio prima dell'esame?",
+                                "cs": "Můžu ti před zkouškou ještě <w>dát</w> jednu dobrou radu?",
+                                "tr": "Sınavdan önce sana iyi bir tavsiye <w>verebilir miyim</w>?",
+                                "es": "¿Puedo <w>darte</w> un buen consejo antes del examen?",
+                                "zh": "考试前我能再<w>给</w>你一个好建议吗？"
+                            }
                         },
                         {
-                            "text": "Der Polizist <w>gab</w> den Autofahrern ein deutliches Zeichen zum Anhalten."
+                            "text": "Der Polizist <w>gab</w> den Autofahrern ein deutliches Zeichen zum Anhalten.",
+                            "target_lang_translations": {
+                                "en": "The police officer <w>gave</w> the motorists a clear signal to stop.",
+                                "ru": "Полицейский <w>подал</w> водителям чёткий знак остановиться.",
+                                "nl": "De politieagent <w>gaf</w> de automobilisten een duidelijk teken om te stoppen.",
+                                "pl": "Policjant <w>dał</w> kierowcom wyraźny znak do zatrzymania się.",
+                                "fr": "Le policier a <w>fait</w> un signe clair aux automobilistes pour qu'ils s'arrêtent.",
+                                "it": "Il poliziotto <w>ha fatto</w> un chiaro segno agli automobilisti di fermarsi.",
+                                "cs": "Policista <w>dal</w> řidičům jasné znamení k zastavení.",
+                                "tr": "Polis, sürücülere durmaları için açık bir işaret <w>verdi</w>.",
+                                "es": "El policía les <w>hizo</w> una señal clara a los conductores para que se detuvieran.",
+                                "zh": "交警向驾驶员们<w>做出</w>了明确的停车示意。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -118,7 +612,129 @@
                         "eine Antwort geben",
                         "ein Zeichen geben",
                         "Bescheid geben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to convey information, advice, or a signal",
+                        "ru": "сообщать информацию, давать совет или подавать знак",
+                        "nl": "informatie, een advies of een signaal overbrengen",
+                        "pl": "przekazywać informację, radę lub dawać znak",
+                        "fr": "transmettre une information, un conseil ou adresser un signal",
+                        "it": "trasmettere un'informazione, un consiglio o fare un segnale",
+                        "cs": "poskytnout informaci, radu nebo dát znamení",
+                        "tr": "Bir bilgi, tavsiye veya işaret iletmek",
+                        "es": "transmitir una información, un consejo o una señal",
+                        "zh": "传达信息、提供建议或做出示意"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "give",
+                                "target_lang_sense_clarification": "offering advice, answers, or signals"
+                            },
+                            {
+                                "target_lang_word": "provide",
+                                "target_lang_sense_clarification": "supplying guidance or information"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "давать",
+                                "target_lang_sense_clarification": "совет, ответ или указание"
+                            },
+                            {
+                                "target_lang_word": "подавать",
+                                "target_lang_sense_clarification": "знак или сигнал"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "geven",
+                                "target_lang_sense_clarification": "van advies, antwoord of een teken"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dawać",
+                                "target_lang_sense_clarification": "np. radę, odpowiedź lub znak"
+                            },
+                            {
+                                "target_lang_word": "dać",
+                                "target_lang_sense_clarification": "np. radę, odpowiedź lub znak (aspekt dokonany)"
+                            },
+                            {
+                                "target_lang_word": "udzielać",
+                                "target_lang_sense_clarification": "formalnie lub grzecznie służyć radą, wskazówką"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "donner",
+                                "target_lang_sense_clarification": "prodiguer un conseil ou fournir une réponse"
+                            },
+                            {
+                                "target_lang_word": "faire",
+                                "target_lang_sense_clarification": "adresser un signe ou un signal"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "dare",
+                                "target_lang_sense_clarification": "prodigare un consiglio o fornire una risposta"
+                            },
+                            {
+                                "target_lang_word": "fare",
+                                "target_lang_sense_clarification": "rivolgere un gesto, un cenno o un segnale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dát",
+                                "target_lang_sense_clarification": "např. radu, odpověď či znamení (dokonavé)"
+                            },
+                            {
+                                "target_lang_word": "dávat",
+                                "target_lang_sense_clarification": "např. radu, odpověď či znamení (nedokonavé)"
+                            },
+                            {
+                                "target_lang_word": "udělit",
+                                "target_lang_sense_clarification": "např. radu či ponaučení"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "vermek",
+                                "target_lang_sense_clarification": "öğüt, yanıt veya işaret bildirmek"
+                            },
+                            {
+                                "target_lang_word": "iletmek",
+                                "target_lang_sense_clarification": "haber veya bilgi aktarmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "dar",
+                                "target_lang_sense_clarification": "ofrecer un consejo, una respuesta o una señal"
+                            },
+                            {
+                                "target_lang_word": "hacer",
+                                "target_lang_sense_clarification": "hacer un gesto o una señal a alguien"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "给",
+                                "target_lang_sense_clarification": "提供建议或答复"
+                            },
+                            {
+                                "target_lang_word": "做出",
+                                "target_lang_sense_clarification": "做出信号、手势或指示"
+                            },
+                            {
+                                "target_lang_word": "发出",
+                                "target_lang_sense_clarification": "发出信号或提示"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "030ce7d7-9459-3793-9beb-8cb5f1328b43",
@@ -129,10 +745,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Zum Schluss <w>geben</w> Sie noch etwas Olivenöl an den fertigen Salat."
+                            "text": "Zum Schluss <w>geben</w> Sie noch etwas Olivenöl an den fertigen Salat.",
+                            "target_lang_translations": {
+                                "en": "Finally, <w>add</w> a little olive oil to the finished salad.",
+                                "ru": "В конце <w>добавьте</w> в готовый салат немного оливкового масла.",
+                                "nl": "Tot slot <w>doet</w> u nog wat olijfolie bij de klaargemaakte salade.",
+                                "pl": "Na koniec <w>dodaj</w> jeszcze trochę oliwy z oliwek do gotowej sałatki.",
+                                "fr": "Pour finir, <w>ajoutez</w> encore un peu d'huile d'olive à la salade préparée.",
+                                "it": "Alla fine <w>aggiungete</w> ancora un po' di olio d'oliva all'insalata pronta.",
+                                "cs": "Nakonec ještě do hotového salátu <w>přidejte</w> trochu olivového oleje.",
+                                "tr": "Son olarak hazır salataya biraz zeytinyağı <w>ekleyin</w>.",
+                                "es": "Para terminar, <w>añada</w> un poco de aceite de oliva a la ensalada preparada.",
+                                "zh": "最后，在做好的沙拉里再<w>加</w>一点橄榄油。"
+                            }
                         },
                         {
-                            "text": "Er <w>gab</w> zwei Esslöffel Zucker in den heißen Tee."
+                            "text": "Er <w>gab</w> zwei Esslöffel Zucker in den heißen Tee.",
+                            "target_lang_translations": {
+                                "en": "He <w>put</w> two tablespoons of sugar into the hot tea.",
+                                "ru": "Он <w>положил</w> две столовые ложки сахара в горячий чай.",
+                                "nl": "Hij <w>deed</w> twee eetlepels suiker in de hete thee.",
+                                "pl": "<w>Wsypał</w> dwie łyżki cukru do gorącej herbaty.",
+                                "fr": "Il a <w>mis</w> deux cuillères à soupe de sucre dans le thé chaud.",
+                                "it": "<w>Ha messo</w> due cucchiai di zucchero nel tè caldo.",
+                                "cs": "Do horkého čaje <w>dal</w> dvě polévkové lžíce cukru.",
+                                "tr": "Sıcak çaya iki yemek kaşığı şeker <w>koydu</w>.",
+                                "es": "<w>Echó</w> dos cucharadas de azúcar en el té caliente.",
+                                "zh": "他往热茶里<w>放</w>了整整两勺糖。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -142,7 +782,149 @@
                     "common_phrases": [
                         "in den Teig geben",
                         "an die Suppe geben"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to put or add an ingredient or substance into something",
+                        "ru": "добавлять или подмешивать ингредиент во что-либо",
+                        "nl": "een ingrediënt of substantie ergens aan toevoegen of indoen",
+                        "pl": "dodawać lub wsypywać/wlewać składnik do potrawy lub napoju",
+                        "fr": "ajouter ou incorporer un ingrédient ou une substance dans quelque chose",
+                        "it": "mettere o incorporare un ingrediente o una sostanza in qualcosa",
+                        "cs": "vložit, přisypat nebo přimíchat přísadu do něčeho",
+                        "tr": "Bir yiyeceğe veya karışıma bir malzeme veya madde katmak, eklemek",
+                        "es": "poner, echar o añadir un ingrediente o sustancia en algo",
+                        "zh": "把配料或物质放入、加入到某物中"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "add",
+                                "target_lang_sense_clarification": "mixing an ingredient into food or drink"
+                            },
+                            {
+                                "target_lang_word": "put",
+                                "target_lang_sense_clarification": "placing an ingredient in"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "добавлять",
+                                "target_lang_sense_clarification": "подмешивать ингредиент в блюдо"
+                            },
+                            {
+                                "target_lang_word": "класть",
+                                "target_lang_sense_clarification": "помещать ингредиент внутрь"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "doen",
+                                "target_lang_sense_clarification": "een ingrediënt ergens in doen"
+                            },
+                            {
+                                "target_lang_word": "toevoegen",
+                                "target_lang_sense_clarification": "een substantie bijmengen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dodawać",
+                                "target_lang_sense_clarification": "dorzucać lub domieszywać składnik"
+                            },
+                            {
+                                "target_lang_word": "dodać",
+                                "target_lang_sense_clarification": "dorzucić lub domieszać składnik (aspekt dokonany)"
+                            },
+                            {
+                                "target_lang_word": "wkładać",
+                                "target_lang_sense_clarification": "umieszczać składnik w środku"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mettre",
+                                "target_lang_sense_clarification": "incorporer un ingrédient dans une préparation"
+                            },
+                            {
+                                "target_lang_word": "ajouter",
+                                "target_lang_sense_clarification": "adjoindre un ingrédient"
+                            },
+                            {
+                                "target_lang_word": "verser",
+                                "target_lang_sense_clarification": "verser un ingrédient liquide ou granuleux"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "mettere",
+                                "target_lang_sense_clarification": "inserire o incorporare un ingrediente in una preparazione"
+                            },
+                            {
+                                "target_lang_word": "aggiungere",
+                                "target_lang_sense_clarification": "unire una dose o un ingrediente a un insieme"
+                            },
+                            {
+                                "target_lang_word": "versare",
+                                "target_lang_sense_clarification": "aggiungere un liquido o un ingrediente in polvere facendolo scendere"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dát",
+                                "target_lang_sense_clarification": "vložit či přisypat ingredienci (dokonavé)"
+                            },
+                            {
+                                "target_lang_word": "přidat",
+                                "target_lang_sense_clarification": "přimíchat přísadu"
+                            },
+                            {
+                                "target_lang_word": "dávat",
+                                "target_lang_sense_clarification": "vkládat přísadu do pokrmu (nedokonavé)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "eklemek",
+                                "target_lang_sense_clarification": "bir karışıma malzeme ilave etmek"
+                            },
+                            {
+                                "target_lang_word": "katmak",
+                                "target_lang_sense_clarification": "içine koymak, dahil etmek"
+                            },
+                            {
+                                "target_lang_word": "koymak",
+                                "target_lang_sense_clarification": "belirli miktarda malzemeyi içine bırakmak"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "echar",
+                                "target_lang_sense_clarification": "poner un ingrediente dentro de una preparación"
+                            },
+                            {
+                                "target_lang_word": "poner",
+                                "target_lang_sense_clarification": "añadir una sustancia o ingrediente"
+                            },
+                            {
+                                "target_lang_word": "añadir",
+                                "target_lang_sense_clarification": "incorporar un ingrediente adicional"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "加",
+                                "target_lang_sense_clarification": "添加原料或调料"
+                            },
+                            {
+                                "target_lang_word": "放",
+                                "target_lang_sense_clarification": "放入食材或成分"
+                            },
+                            {
+                                "target_lang_word": "倒入",
+                                "target_lang_sense_clarification": "将液体或颗粒加入其中"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "27604bbb-7cbd-384b-8aa1-da2a6cb87398",
@@ -153,10 +935,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Mach dir keine Sorgen um den Schmerz, das <w>gibt</w> sich bald wieder."
+                            "text": "Mach dir keine Sorgen um den Schmerz, das <w>gibt</w> sich bald wieder.",
+                            "target_lang_translations": {
+                                "en": "Don't worry about the pain, that will soon <w>pass</w>.",
+                                "ru": "Не переживай из-за боли, скоро всё само собой <w>пройдёт</w>.",
+                                "nl": "Maak je geen zorgen over de pijn, dat zal snel weer <w>overgaan</w>.",
+                                "pl": "Nie martw się bólem, to wkrótce <w>minie</w>.",
+                                "fr": "Ne t'inquiète pas pour la douleur, cela va bientôt <w>passer</w>.",
+                                "it": "Non preoccuparti per il dolore, <w>passerà</w> presto.",
+                                "cs": "Nedělej si starosti s tou bolestí, to brzy samo <w>přejde</w>.",
+                                "tr": "Ağrı için endişelenme, yakında kendiliğinden <w>geçer</w>.",
+                                "es": "No te preocupes por el dolor, pronto se <w>pasará</w>.",
+                                "zh": "别担心疼痛，很快就会<w>消退</w>的。"
+                            }
                         },
                         {
-                            "text": "Die Aufregung vor dem Auftritt <w>gab</w> sich nach einigen Minuten."
+                            "text": "Die Aufregung vor dem Auftritt <w>gab</w> sich nach einigen Minuten.",
+                            "target_lang_translations": {
+                                "en": "The nervousness before the performance <w>subsided</w> after a few minutes.",
+                                "ru": "Волнение перед выступлением <w>прошло</w> через несколько минут.",
+                                "nl": "De opwinding voor het optreden <w>zakte</w> na een paar minuten.",
+                                "pl": "Trema przed występem <w>minęła</w> po kilku minutach.",
+                                "fr": "Le trac avant l'entrée en scène s'est <w>dissipé</w> après quelques minutes.",
+                                "it": "L'agitazione prima dell'esibizione <w>si è attenuata</w> dopo alcuni minuti.",
+                                "cs": "Nervozita před vystoupením po několika minutách <w>opadla</w>.",
+                                "tr": "Sahneye çıkış öncesi heyecan birkaç dakika sonra <w>yatıştı</w>.",
+                                "es": "Los nervios antes de la actuación se <w>calmaron</w> después de unos minutos.",
+                                "zh": "演出前的紧张感在几分钟后就<w>消退</w>了。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -169,7 +975,157 @@
                     "common_phrases": [
                         "sich wieder geben",
                         "das gibt sich"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "to diminish, subside, or disappear gradually on its own (reflexive: sich geben)",
+                        "ru": "постепенно ослабевать, утихать или проходить самому по себе (возвратный глагол: sich geben)",
+                        "nl": "vanzelf minder hevig worden, afnemen of verdwijnen (wederkerend: sich geben)",
+                        "pl": "stopniowo słabnąć, uspokajać się lub samoistnie mijać (użycie zwrotne: sich geben)",
+                        "fr": "s'atténuer de soi-même, diminuer d'intensité ou disparaître progressivement (forme pronominale : sich geben)",
+                        "it": "attenuarsi gradualmente, diminuire di intensità o scomparire da solo (riflessivo: sich geben)",
+                        "cs": "postupně samo od sebe slábnout, odeznívat nebo zcela zmizet (zvratně: sich geben)",
+                        "tr": "Kendiliğinden hafiflemek, azalmak veya tamamen geçip gitmek (dönüşlü: sich geben)",
+                        "es": "debilitarse por sí mismo, remitir o desaparecer del todo",
+                        "zh": "（反身）自行减弱、缓解或完全消失"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "ease off",
+                                "target_lang_sense_clarification": "gradually lessening in intensity"
+                            },
+                            {
+                                "target_lang_word": "subside",
+                                "target_lang_sense_clarification": "calming down or fading away"
+                            },
+                            {
+                                "target_lang_word": "pass",
+                                "target_lang_sense_clarification": "going away over time"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "проходить",
+                                "target_lang_sense_clarification": "о боли, волнении или неприятном состоянии"
+                            },
+                            {
+                                "target_lang_word": "утихать",
+                                "target_lang_sense_clarification": "ослабевать, прекращаться"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "overgaan",
+                                "target_lang_sense_clarification": "vanzelf verdwijnen, van pijn of klachten"
+                            },
+                            {
+                                "target_lang_word": "zakken",
+                                "target_lang_sense_clarification": "minder worden, van opwinding of spanning"
+                            },
+                            {
+                                "target_lang_word": "afnemen",
+                                "target_lang_sense_clarification": "in intensiteit verminderen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "mijać",
+                                "target_lang_sense_clarification": "o bólu, dolegliwościach lub emocjach"
+                            },
+                            {
+                                "target_lang_word": "minąć",
+                                "target_lang_sense_clarification": "przestać dokuczać, ustąpić bez śladu"
+                            },
+                            {
+                                "target_lang_word": "ustępować",
+                                "target_lang_sense_clarification": "powoli słabnąć na sile"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "passer",
+                                "target_lang_sense_clarification": "disparaître avec le temps, en parlant d'une douleur ou d'un malaise"
+                            },
+                            {
+                                "target_lang_word": "se dissiper",
+                                "target_lang_sense_clarification": "s'effacer peu à peu"
+                            },
+                            {
+                                "target_lang_word": "s'apaiser",
+                                "target_lang_sense_clarification": "diminuer d'intensité, en parlant d'une émotion"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "passare",
+                                "target_lang_sense_clarification": "svanire spontaneamente con il trascorrere del tempo (di dolore o disturbo)"
+                            },
+                            {
+                                "target_lang_word": "attenuarsi",
+                                "target_lang_sense_clarification": "ridursi d'intensità o affievolirsi poco a poco"
+                            },
+                            {
+                                "target_lang_word": "calmarsi",
+                                "target_lang_sense_clarification": "placarsi o perdere intensità (di un'emozione o agitazione)"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "přejít",
+                                "target_lang_sense_clarification": "samo od sebe přestat, odeznít (o bolesti, pocitu)"
+                            },
+                            {
+                                "target_lang_word": "minout",
+                                "target_lang_sense_clarification": "ustoupit, pominout"
+                            },
+                            {
+                                "target_lang_word": "ustoupit",
+                                "target_lang_sense_clarification": "ztratit intenzitu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "geçmek",
+                                "target_lang_sense_clarification": "ağrı, heyecan veya rahatsızlığın sona ermesi"
+                            },
+                            {
+                                "target_lang_word": "hafiflemek",
+                                "target_lang_sense_clarification": "şiddetini veya etkisini yavaş yavaş kaybetmek"
+                            },
+                            {
+                                "target_lang_word": "yatışmak",
+                                "target_lang_sense_clarification": "duygusal gerginliğin veya heyecanın sakinleşmesi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "pasar",
+                                "target_lang_sense_clarification": "remitir o desaparecer por sí solo (un dolor o malestar)"
+                            },
+                            {
+                                "target_lang_word": "calmarse",
+                                "target_lang_sense_clarification": "apaciguarse o perder intensidad una emoción o dolor"
+                            },
+                            {
+                                "target_lang_word": "quitarse",
+                                "target_lang_sense_clarification": "desaparecer un dolor o síntoma"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "消退",
+                                "target_lang_sense_clarification": "疼痛、紧张情绪等逐渐减弱消失"
+                            },
+                            {
+                                "target_lang_word": "过去",
+                                "target_lang_sense_clarification": "不良状态或痛感自然平息"
+                            },
+                            {
+                                "target_lang_word": "缓解",
+                                "target_lang_sense_clarification": "情绪或症状逐渐平稳"
+                            }
+                        ]
+                    }
                 }
             ]
         }

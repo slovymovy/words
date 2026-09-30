@@ -20,10 +20,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Jeden Morgen <w>esse</w> ich ein frisches Brötchen mit Marmelade zum Frühstück."
+                            "text": "Jeden Morgen <w>esse</w> ich ein frisches Brötchen mit Marmelade zum Frühstück.",
+                            "target_lang_translations": {
+                                "en": "Every morning I <w>eat</w> a fresh bread roll with jam for breakfast.",
+                                "ru": "Каждое утро я <w>ем</w> на завтрак свежую булочку с джемом.",
+                                "nl": "Elke ochtend <w>eet</w> ik als ontbijt een vers broodje met jam.",
+                                "pl": "Każdego ranka <w>jem</w> na śniadanie świeżą bułkę z dżemem.",
+                                "fr": "Chaque matin, je <w>mange</w> un petit pain frais avec de la confiture au petit-déjeuner.",
+                                "it": "Ogni mattina a colazione <w>mangio</w> un panino fresco con la marmellata.",
+                                "cs": "Každé ráno <w>jím</w> k snídani čerstvou housku s marmeládou.",
+                                "tr": "Her sabah kahvaltıda reçelli taze bir sandviç ekmeği <w>yerim</w>.",
+                                "es": "Cada mañana <w>como</w> un panecillo fresco con mermelada para desayunar.",
+                                "zh": "每天早晨我的早餐都会<w>吃</w>一个抹了果酱的新鲜小面包。"
+                            }
                         },
                         {
-                            "text": "Ich <w>esse</w> am liebsten italienische Pizza mit viel frischem Gemüse."
+                            "text": "Ich <w>esse</w> am liebsten italienische Pizza mit viel frischem Gemüse.",
+                            "target_lang_translations": {
+                                "en": "I like to <w>eat</w> Italian pizza with lots of fresh vegetables most of all.",
+                                "ru": "Охотнее всего я <w>ем</w> итальянскую пиццу с обилием свежих овощей.",
+                                "nl": "Ik <w>eet</w> het liefst Italiaanse pizza met veel verse groenten.",
+                                "pl": "Najchętniej <w>jem</w> włoską pizzę z dużą ilością świeżych warzyw.",
+                                "fr": "Je <w>mange</w> de préférence de la pizza italienne avec beaucoup de légumes frais.",
+                                "it": "Preferisco di gran lunga <w>mangiare</w> pizza italiana con molte verdure fresche.",
+                                "cs": "Nejraději <w>jím</w> italskou pizzu se spoustou čerstvé zeleniny.",
+                                "tr": "En çok bol taze sebzeli İtalyan pizzasını severek <w>yerim</w>.",
+                                "es": "Prefiero <w>comer</w> pizza italiana con muchas verduras frescas.",
+                                "zh": "我最喜欢<w>吃</w>配有大量新鲜蔬菜的意式披萨。"
+                            }
                         }
                     ],
                     "traits": [
@@ -31,7 +55,89 @@
                             "trait_type": "form",
                             "comment": "Konjugationsform"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "first-person singular present indicative active of the verb essen ('I eat')",
+                        "ru": "форма 1-го лица единственного числа настоящего времени изъявительного наклонения глагола essen («ем»)",
+                        "nl": "eerste persoon enkelvoud tegenwoordige tijd van het werkwoord eten ('ik eet')",
+                        "pl": "1. osoba liczby pojedynczej czasu teraźniejszego trybu oznajmującego czasownika essen („jem”)",
+                        "fr": "Première personne du singulier du présent de l'indicatif actif du verbe essen (« je mange »)",
+                        "it": "prima persona singolare del presente indicativo attivo del verbo essen («mangio»)",
+                        "cs": "1. osoba jednotného čísla přítomného času oznamovacího způsobu slovesa essen („jím“)",
+                        "tr": "\"essen\" (yemek) fiilinin şimdiki veya geniş zaman birinci tekil şahıs çekimi ('yerim', 'yiyorum')",
+                        "es": "primera persona del singular del presente de indicativo activo del verbo essen ('como')",
+                        "zh": "动词 essen 的第一人称单数现在直陈式主动语态（“我吃”）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "eat",
+                                "target_lang_sense_clarification": "first-person singular present indicative"
+                            },
+                            {
+                                "target_lang_word": "am eating",
+                                "target_lang_sense_clarification": "continuous present"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "ем",
+                                "target_lang_sense_clarification": "1-е лицо ед. ч. настоящего времени"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "eet",
+                                "target_lang_sense_clarification": "eerste persoon enkelvoud tegenwoordige tijd"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "jem",
+                                "target_lang_sense_clarification": "1. os. lp czasu teraźniejszego"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mange",
+                                "target_lang_sense_clarification": "première personne du singulier du présent de l'indicatif"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "mangio",
+                                "target_lang_sense_clarification": "prima persona singolare del presente indicativo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "jím",
+                                "target_lang_sense_clarification": "1. os. j. č. přítomného času"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yerim",
+                                "target_lang_sense_clarification": "geniş zaman birinci tekil şahıs"
+                            },
+                            {
+                                "target_lang_word": "yiyorum",
+                                "target_lang_sense_clarification": "şimdiki zaman birinci tekil şahıs"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "como",
+                                "target_lang_sense_clarification": "primera persona del singular del presente de indicativo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "吃",
+                                "target_lang_sense_clarification": "第一人称单数直陈式"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "4bf8732a-d398-3a79-b266-424797098f53",
@@ -42,10 +148,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Der Patient behauptete, er <w>esse</w> schon seit Monaten keinen Zucker mehr."
+                            "text": "Der Patient behauptete, er <w>esse</w> schon seit Monaten keinen Zucker mehr.",
+                            "target_lang_translations": {
+                                "en": "The patient claimed that he had not <w>eaten</w> any sugar for months.",
+                                "ru": "Пациент утверждал, что уже несколько месяцев не <w>ест</w> сахар.",
+                                "nl": "De patiënt beweerde dat hij al maanden geen suiker meer <w>at</w>.",
+                                "pl": "Pacjent twierdził, że już od miesięcy nie <w>je</w> cukru.",
+                                "fr": "Le patient affirmait qu'il ne <w>mangeait</w> plus de sucre depuis des mois.",
+                                "it": "Il paziente sosteneva che non <w>mangiasse</w> più zucchero da mesi.",
+                                "cs": "Pacient tvrdil, že už celé měsíce <w>nejí</w> žádný cukr.",
+                                "tr": "Hasta, aylardır hiç şeker <w>yemediğini</w> iddia etti.",
+                                "es": "El paciente afirmó que ya no <w>comía</w> azúcar desde hacía meses.",
+                                "zh": "病人声称，他已经有好几个月不<w>吃</w>糖了。"
+                            }
                         },
                         {
-                            "text": "Die Zeitung berichtete, die Kanzlerin <w>esse</w> bei Staatsbesuchen am liebsten lokale Spezialitäten."
+                            "text": "Die Zeitung berichtete, die Kanzlerin <w>esse</w> bei Staatsbesuchen am liebsten lokale Spezialitäten.",
+                            "target_lang_translations": {
+                                "en": "The newspaper reported that the Chancellor prefers to <w>eat</w> local specialties during state visits.",
+                                "ru": "Газета сообщила, что канцлер во время государственных визитов охотнее всего <w>ест</w> местные фирменные блюда.",
+                                "nl": "De krant meldde dat de bondskanselier tijdens staatsbezoeken het liefst lokale specialiteiten <w>eet</w>.",
+                                "pl": "Gazeta donosiła, że kanclerz podczas wizyt państwowych najchętniej <w>je</w> lokalne specjały.",
+                                "fr": "Le journal rapportait que la chancelière <w>mangeait</w> de préférence des spécialités locales lors des visites d'État.",
+                                "it": "Il giornale riferiva che durante le visite di Stato la cancelliera <w>mangiasse</w> preferibilmente specialità locali.",
+                                "cs": "Noviny uvedly, že kancléřka při státních návštěvách nejraději <w>jí</w> místní speciality.",
+                                "tr": "Gazete, Başbakanın resmî ziyaretlerde en çok yerel lezzetleri <w>yediğini</w> bildirdi.",
+                                "es": "El periódico informó de que la canciller prefería <w>comer</w> especialidades locales durante las visitas de Estado.",
+                                "zh": "报纸报道称，总理在国事访问期间最喜欢<w>吃</w>当地特色美食。"
+                            }
                         }
                     ],
                     "traits": [
@@ -53,7 +183,133 @@
                             "trait_type": "form",
                             "comment": "Konjugationsform"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "first-person or third-person singular present subjunctive I active of the verb essen, used in indirect speech",
+                        "ru": "форма 1-го или 3-го лица единственного числа конъюнктива I настоящего времени глагола essen, используемая в косвенной речи",
+                        "nl": "vorm van de aanvoegende wijs enkelvoud van het werkwoord eten, gebruikt in de indirecte rede",
+                        "pl": "forma 1. lub 3. osoby liczby pojedynczej trybu łączącego I (Konjunktiv I) czasu teraźniejszego czasownika essen, stosowana głównie w mowie zależnej",
+                        "fr": "Première ou troisième personne du singulier du subjonctif I présent actif du verbe essen, employée notamment dans le discours indirect",
+                        "it": "prima o terza persona singolare del congiuntivo I presente attivo del verbo essen, impiegata nel discorso indiretto",
+                        "cs": "1. nebo 3. osoba jednotného čísla konjunktivu I přítomného času slovesa essen, užívaná v nepřímé řeči",
+                        "tr": "\"essen\" fiilinin özellikle dolaylı anlatımda kullanılan şimdiki zaman Konjunktiv I çekimi (1. veya 3. tekil şahıs)",
+                        "es": "primera o tercera persona del singular del presente de subjuntivo I activo del verbo essen, empleada en el estilo indirecto",
+                        "zh": "动词 essen 的第一或第三人称单数第一虚拟式现在时主动语态，常用于间接引语转述"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "eats",
+                                "target_lang_sense_clarification": "reported speech present indicative"
+                            },
+                            {
+                                "target_lang_word": "ate",
+                                "target_lang_sense_clarification": "reported speech backshifted past"
+                            },
+                            {
+                                "target_lang_word": "eat",
+                                "target_lang_sense_clarification": "subjunctive"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "ест",
+                                "target_lang_sense_clarification": "3-е лицо ед. ч. в косвенной речи"
+                            },
+                            {
+                                "target_lang_word": "ем",
+                                "target_lang_sense_clarification": "1-е лицо ед. ч. в косвенной речи"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "eet",
+                                "target_lang_sense_clarification": "tegenwoordige tijd in indirecte rede"
+                            },
+                            {
+                                "target_lang_word": "at",
+                                "target_lang_sense_clarification": "verleden tijd in indirecte rede"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "je",
+                                "target_lang_sense_clarification": "3. os. lp w mowie zależnej"
+                            },
+                            {
+                                "target_lang_word": "jem",
+                                "target_lang_sense_clarification": "1. os. lp w mowie zależnej"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mange",
+                                "target_lang_sense_clarification": "présent de l'indicatif dans le discours indirect"
+                            },
+                            {
+                                "target_lang_word": "mangeait",
+                                "target_lang_sense_clarification": "imparfait de concordance dans le discours indirect"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "mangi",
+                                "target_lang_sense_clarification": "congiuntivo presente nel discorso indiretto"
+                            },
+                            {
+                                "target_lang_word": "mangiasse",
+                                "target_lang_sense_clarification": "congiuntivo imperfetto per concordanza dei tempi nel discorso indiretto"
+                            },
+                            {
+                                "target_lang_word": "mangiava",
+                                "target_lang_sense_clarification": "indicativo imperfetto nel discorso indiretto"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "jí",
+                                "target_lang_sense_clarification": "3. os. j. č. v nepřímé řeči"
+                            },
+                            {
+                                "target_lang_word": "jím",
+                                "target_lang_sense_clarification": "1. os. j. č. v nepřímé řeči"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yediğini",
+                                "target_lang_sense_clarification": "dolaylı aktarımda 3. tekil şahıs"
+                            },
+                            {
+                                "target_lang_word": "yediğimi",
+                                "target_lang_sense_clarification": "dolaylı aktarımda 1. tekil şahıs"
+                            },
+                            {
+                                "target_lang_word": "yiyor",
+                                "target_lang_sense_clarification": "dolaylı anlatımda geniş/şimdiki zaman"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "comía",
+                                "target_lang_sense_clarification": "tercera persona del singular en estilo indirecto con concordancia de tiempos"
+                            },
+                            {
+                                "target_lang_word": "coma",
+                                "target_lang_sense_clarification": "subjuntivo en estilo indirecto"
+                            },
+                            {
+                                "target_lang_word": "come",
+                                "target_lang_sense_clarification": "indicativo presente en estilo indirecto"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "吃",
+                                "target_lang_sense_clarification": "间接引语中转述"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -69,10 +325,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dahinter lag eine alte Fabrik mit einer hohen <w>Esse</w>, aus der dunkler Rauch aufstieg."
+                            "text": "Dahinter lag eine alte Fabrik mit einer hohen <w>Esse</w>, aus der dunkler Rauch aufstieg.",
+                            "target_lang_translations": {
+                                "en": "Behind it lay an old factory with a tall <w>smokestack</w> from which dark smoke was rising.",
+                                "ru": "Позади стояла старая фабрика с высокой <w>дымовой трубой</w>, из которой поднимался тёмный дым.",
+                                "nl": "Daarachter lag een oude fabriek met een hoge <w>schoorsteen</w>, waar donkere rook uit opsteeg.",
+                                "pl": "Za tym znajdowała się stara fabryka z wysokim <w>kominem</w>, z którego unosił się ciemny dym.",
+                                "fr": "Derrière se trouvait une vieille usine avec une haute <w>cheminée</w> d'où s'élevait une fumée noire.",
+                                "it": "Dietro sorgeva una vecchia fabbrica con un'alta <w>ciminiera</w> da cui si levava un fumo scuro.",
+                                "cs": "Za tím stála stará továrna s vysokým <w>komínem</w>, ze kterého stoupal tmavý kouř.",
+                                "tr": "Arkasında, içinden koyu bir dumanın yükseldiği yüksek bir <w>bacası</w> olan eski bir fabrika vardı.",
+                                "es": "Detrás se encontraba una vieja fábrica con una alta <w>chimenea</w> de la que salía humo oscuro.",
+                                "zh": "后面是一座老旧的工厂，矗立着高高的<w>烟囱</w>，正冒出滚滚黑烟。"
+                            }
                         },
                         {
-                            "text": "Der Schornsteinfeger überprüfte die alte <w>Esse</w> auf dem Dach des Bauernhauses gründlich."
+                            "text": "Der Schornsteinfeger überprüfte die alte <w>Esse</w> auf dem Dach des Bauernhauses gründlich.",
+                            "target_lang_translations": {
+                                "en": "The chimney sweep thoroughly checked the old <w>chimney</w> on the roof of the farmhouse.",
+                                "ru": "Трубочист тщательно осмотрел старую <w>дымовую трубу</w> на крыше крестьянского дома.",
+                                "nl": "De schoorsteenveger controleerde de oude <w>schoorsteen</w> op het dak van de boerderij grondig.",
+                                "pl": "Kominiarz dokładnie sprawdził stary <w>komin</w> na dachu wiejskiego domu.",
+                                "fr": "Le ramoneur inspecta minutieusement la vieille <w>cheminée</w> sur le toit de la ferme.",
+                                "it": "Lo spazzacamino controllò a fondo il vecchio <w>camino</w> sul tetto della cascina.",
+                                "cs": "Kominík důkladně zkontroloval starý <w>komín</w> na střeše selského stavení.",
+                                "tr": "Bacacı, çiftlik evinin çatısındaki eski <w>bacayı</w> etraflıca kontrol etti.",
+                                "es": "El deshollinador revisó minuciosamente la vieja <w>chimenea</w> en el tejado de la granja.",
+                                "zh": "扫烟囱工人彻底检查了农舍屋顶上的旧<w>烟囱</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -84,7 +364,137 @@
                             "trait_type": "regional",
                             "comment": "besonders ostmitteldeutsch"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a structure or duct for discharging smoke and gases outside; a chimney or industrial smokestack",
+                        "ru": "сооружение или канал для отвода дыма и газов наружу; дымовая труба, дымоход",
+                        "nl": "constructie of kanaal voor het afvoeren van rook en verbrandingsgassen naar buiten; schoorsteen",
+                        "pl": "konstrukcja lub przewód do odprowadzania dymu i spalin na zewnątrz; komin domowy lub fabryczny",
+                        "fr": "Conduit ou structure de maçonnerie servant à évacuer la fumée et les gaz vers l'extérieur ; cheminée domestique ou d'usine",
+                        "it": "struttura o condotto per lo scarico e l'evacuazione all'aperto di fumi e gas combusti; camino o ciminiera",
+                        "cs": "stavební konstrukce nebo šachta pro odvádění kouře a spalin do volného prostoru; komín",
+                        "tr": "Duman ve atık gazları dışarı tahliye etmek için kullanılan yapı elemanı veya boru; baca",
+                        "es": "conducto o estructura para evacuar humos y gases hacia el exterior; chimenea doméstica o industrial",
+                        "zh": "将烟气和废气排到室外的建筑设施或管道；烟囱"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "chimney",
+                                "target_lang_sense_clarification": "domestic or standard flue structure"
+                            },
+                            {
+                                "target_lang_word": "smokestack",
+                                "target_lang_sense_clarification": "tall industrial chimney"
+                            },
+                            {
+                                "target_lang_word": "chimney stack",
+                                "target_lang_sense_clarification": "brick or masonry chimney structure"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дымовая труба",
+                                "target_lang_sense_clarification": "промышленная или печная труба"
+                            },
+                            {
+                                "target_lang_word": "дымоход",
+                                "target_lang_sense_clarification": "канал для отвода дыма"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "schoorsteen",
+                                "target_lang_sense_clarification": "algemeen rookkanaal op een dak"
+                            },
+                            {
+                                "target_lang_word": "fabrieksschoorsteen",
+                                "target_lang_sense_clarification": "hoge pijp bij een fabriek"
+                            },
+                            {
+                                "target_lang_word": "rookkanaal",
+                                "target_lang_sense_clarification": "afvoerkanaal voor rook"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "komin",
+                                "target_lang_sense_clarification": "przewód dymowy lub komin budowlany"
+                            },
+                            {
+                                "target_lang_word": "komin fabryczny",
+                                "target_lang_sense_clarification": "wysoki komin przemysłowy"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "cheminée",
+                                "target_lang_sense_clarification": "conduit ou souche d'évacuation des fumées"
+                            },
+                            {
+                                "target_lang_word": "cheminée d'usine",
+                                "target_lang_sense_clarification": "haute cheminée industrielle"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "camino",
+                                "target_lang_sense_clarification": "condotto o canna fumaria per lo scarico dei fumi"
+                            },
+                            {
+                                "target_lang_word": "ciminiera",
+                                "target_lang_sense_clarification": "alta canna fumaria per impianti industriali o fabbriche"
+                            },
+                            {
+                                "target_lang_word": "fumaiolo",
+                                "target_lang_sense_clarification": "parte terminale della canna fumaria"
+                            },
+                            {
+                                "target_lang_word": "comignolo",
+                                "target_lang_sense_clarification": "sezione esterna terminale di una canna fumaria sul tetto"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "komín",
+                                "target_lang_sense_clarification": "domovní nebo tovární komín"
+                            },
+                            {
+                                "target_lang_word": "tovární komín",
+                                "target_lang_sense_clarification": "vysoký průmyslový komín"
+                            },
+                            {
+                                "target_lang_word": "kouřovod",
+                                "target_lang_sense_clarification": "potrubí či kanál pro odvod spalin"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "baca",
+                                "target_lang_sense_clarification": "ev veya sanayi bacası"
+                            },
+                            {
+                                "target_lang_word": "fabrika bacası",
+                                "target_lang_sense_clarification": "yüksek sanayi bacası"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "chimenea",
+                                "target_lang_sense_clarification": "conducto de evacuación de humo en edificios o industrias"
+                            },
+                            {
+                                "target_lang_word": "chimenea industrial",
+                                "target_lang_sense_clarification": "chimenea alta de una fábrica"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "烟囱",
+                                "target_lang_sense_clarification": "建筑或工厂排烟结构"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5364a75d-19f0-38d9-bdf8-aa948fa8275f",
@@ -95,10 +505,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Der dichte Rauch stieg vom offenen Herd auf und zog direkt durch die <w>Esse</w> ab."
+                            "text": "Der dichte Rauch stieg vom offenen Herd auf und zog direkt durch die <w>Esse</w> ab.",
+                            "target_lang_translations": {
+                                "en": "The thick smoke rose from the open hearth and escaped directly through the <w>smoke hood</w>.",
+                                "ru": "Густой дым поднимался от открытого очага и уходил прямо через <w>дымовой зонт</w>.",
+                                "nl": "De dichte rook steeg op vanaf de open haard en trok direct via de <w>rookvang</w> naar buiten.",
+                                "pl": "Gęsty dym unosił się z otwartego paleniska i uchodził bezpośrednio przez <w>okap</w>.",
+                                "fr": "La fumée épaisse montait du foyer ouvert et s'échappait directement par la <w>hotte</w>.",
+                                "it": "Il fumo denso saliva dal focolare aperto e veniva aspirato direttamente attraverso la <w>cappa</w>.",
+                                "cs": "Hustý kouř stoupal z otevřeného ohniště a unikal přímo <w>dýmníkem</w> ven.",
+                                "tr": "Yoğun duman açık ocaktan yükseldi ve doğrudan <w>davlumbazdan</w> çekilip gitti.",
+                                "es": "El denso humo subía del fogón abierto y salía directamente por la <w>campana</w>.",
+                                "zh": "浓烟从敞开的炉膛升起，直接通过<w>排烟罩</w>排了出去。"
+                            }
                         },
                         {
-                            "text": "In der historischen Bauernküche hing eine breite <w>Esse</w> aus Kupfer über der Kochstelle."
+                            "text": "In der historischen Bauernküche hing eine breite <w>Esse</w> aus Kupfer über der Kochstelle.",
+                            "target_lang_translations": {
+                                "en": "In the historical farmhouse kitchen, a wide copper <w>smoke hood</w> hung over the cooking area.",
+                                "ru": "На старинной крестьянской кухне над плитой висел широкий медный <w>вытяжной колпак</w>.",
+                                "nl": "In de historische boerenkeuken hing een brede koperen <w>schouw</w> boven de kookplaats.",
+                                "pl": "W zabytkowej wiejskiej kuchni nad paleniskiem wisiał szeroki miedziany <w>okap</w>.",
+                                "fr": "Dans la cuisine de ferme historique, une large <w>hotte</w> en cuivre était suspendue au-dessus du foyer.",
+                                "it": "Nella cucina rustica d'epoca pendeva una grande <w>cappa</w> di rame sopra il focolare.",
+                                "cs": "V historické selské kuchyni visel nad varným místem široký měděný <w>dýmník</w>.",
+                                "tr": "Tarihî çiftlik mutfağında ocağın üzerinde bakırdan geniş bir <w>davlumbaz</w> asılıydı.",
+                                "es": "En la histórica cocina de la granja colgaba una ancha <w>campana</w> de cobre sobre el fogón.",
+                                "zh": "在具有历史感的农家厨房里，炉灶上方悬挂着一个宽大的铜制<w>排烟罩</w>。"
+                            }
                         }
                     ],
                     "traits": [
@@ -106,7 +540,141 @@
                             "trait_type": "dated",
                             "comment": "historisierend oder veraltend"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "a funnel-shaped canopy or hood directly above a hearth or cooking area to catch and vent smoke",
+                        "ru": "воронкообразный вытяжной навес или колпак непосредственно над очагом или кухонной плитой",
+                        "nl": "trechtervormige kap of rookvang direct boven een vuur- of kookplaats",
+                        "pl": "lejkowaty okap lub czapa dymna bezpośrednio nad paleniskiem lub miejscem do gotowania",
+                        "fr": "Hotte en entonnoir ou avaloir situé directement au-dessus d'un foyer ou d'un lieu de cuisson pour capter la fumée",
+                        "it": "cappa a imbuto o dispositivo per raccogliere e convogliare il fumo posto direttamente sopra il focolare o la cucina",
+                        "cs": "nálevkovitý lapač kouře nebo dýmník umístěný přímo nad ohništěm nebo varnou plochou",
+                        "tr": "Bir ocak veya ateş yerinin hemen üzerinde bulunan huni biçimli duman toplayıcı davlumbaz veya baca başlığı",
+                        "es": "campana o conducto en forma de embudo situado directamente sobre un fogón o fuego para captar y evacuar el humo",
+                        "zh": "炉灶或火塘正上方用于收集和排出烟气的漏斗形排烟罩或集烟罩"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "smoke hood",
+                                "target_lang_sense_clarification": "hood over a hearth or stove"
+                            },
+                            {
+                                "target_lang_word": "flue",
+                                "target_lang_sense_clarification": "smoke-gathering intake or passage"
+                            },
+                            {
+                                "target_lang_word": "chimney hood",
+                                "target_lang_sense_clarification": "canopy over an open fireplace"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "вытяжной колпак",
+                                "target_lang_sense_clarification": "навес над плитой или очагом"
+                            },
+                            {
+                                "target_lang_word": "дымовой зонт",
+                                "target_lang_sense_clarification": "уловитель дыма над очагом"
+                            },
+                            {
+                                "target_lang_word": "дымосборник",
+                                "target_lang_sense_clarification": "приёмник дыма над открытым огнём"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "rookvang",
+                                "target_lang_sense_clarification": "kap direct boven een open vuur"
+                            },
+                            {
+                                "target_lang_word": "schouw",
+                                "target_lang_sense_clarification": "uitbouw boven een haard"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "okap",
+                                "target_lang_sense_clarification": "czapa wyciągowa nad kuchnią lub paleniskiem"
+                            },
+                            {
+                                "target_lang_word": "dymnik",
+                                "target_lang_sense_clarification": "otwór lub łapacz dymu nad otwartym ogniem"
+                            },
+                            {
+                                "target_lang_word": "czapa kominowa",
+                                "target_lang_sense_clarification": "kaptur zbierający spaliny nad paleniskiem"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "hotte",
+                                "target_lang_sense_clarification": "hotte d'évacuation ou de cheminée"
+                            },
+                            {
+                                "target_lang_word": "avaloir",
+                                "target_lang_sense_clarification": "entonnoir captant la fumée au-dessus d'un foyer"
+                            },
+                            {
+                                "target_lang_word": "manteau de cheminée",
+                                "target_lang_sense_clarification": "partie en saillie captant les fumées"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "cappa",
+                                "target_lang_sense_clarification": "cappa di aspirazione o raccolta fumi sopra il focolare"
+                            },
+                            {
+                                "target_lang_word": "cappa del camino",
+                                "target_lang_sense_clarification": "struttura sovrastante il focolare per intercettare i fumi"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dýmník",
+                                "target_lang_sense_clarification": "lapač kouře nad otevřeným ohništěm"
+                            },
+                            {
+                                "target_lang_word": "sopouch",
+                                "target_lang_sense_clarification": "kouřový tah nebo odtah nad krbem či ohništěm"
+                            },
+                            {
+                                "target_lang_word": "lapač kouře",
+                                "target_lang_sense_clarification": "trychtýřovitý kryt odvádějící zplodiny"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "davlumbaz",
+                                "target_lang_sense_clarification": "ocak üzeri duman toplayıcı başlık"
+                            },
+                            {
+                                "target_lang_word": "ocak davlumbazı",
+                                "target_lang_sense_clarification": "açık ocak veya şömine üzeri duman tutucu"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "campana",
+                                "target_lang_sense_clarification": "campana de chimenea sobre el fuego o fogón"
+                            },
+                            {
+                                "target_lang_word": "campana de chimenea",
+                                "target_lang_sense_clarification": "estructura que recoge el humo directamente sobre la chimenea"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "排烟罩",
+                                "target_lang_sense_clarification": "炉灶或火塘上方的吸排烟设施"
+                            },
+                            {
+                                "target_lang_word": "集烟罩",
+                                "target_lang_sense_clarification": "敞开式火炉上方的漏斗形烟罩"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "8a305a67-76a2-3e27-ad2b-36fa55956a36",
@@ -117,12 +685,150 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Der Schmied legte das glühende Eisenstück mitten in die <w>Esse</w>, um es weiterzubearbeiten."
+                            "text": "Der Schmied legte das glühende Eisenstück mitten in die <w>Esse</w>, um es weiterzubearbeiten.",
+                            "target_lang_translations": {
+                                "en": "The blacksmith placed the red-hot piece of iron right into the <w>forge</w> to continue working on it.",
+                                "ru": "Кузнец положил раскалённый кусок железа прямо в <w>горн</w>, чтобы продолжить обработку.",
+                                "nl": "De smid legde het gloeiende stuk ijzer midden in het <w>smidsvuur</w> om het verder te bewerken.",
+                                "pl": "Kowal położył rozżarzony kawałek żelaza na sam środek <w>paleniska kowalskiego</w>, aby dalej nad nim pracować.",
+                                "fr": "Le forgeron plaça la pièce de fer incandescente au milieu de la <w>forge</w> pour continuer à la travailler.",
+                                "it": "Il fabbro mise il pezzo di ferro incandescente al centro della <w>forgia</w> per continuare a lavorarlo.",
+                                "cs": "Kovář položil rozžhavený kus železa přímo do <w>výhně</w>, aby ho dál zpracoval.",
+                                "tr": "Demirci, işlemeye devam etmek için kor hâlindeki demir parçasını doğrudan <w>demirci ocağının</w> ortasına koydu.",
+                                "es": "El herrero colocó la pieza de hierro al rojo vivo en el centro de la <w>fragua</w> para seguir trabajándola.",
+                                "zh": "铁匠把烧红的铁块放在<w>锻炉</w>中央，以便继续加工。"
+                            }
                         },
                         {
-                            "text": "Die Glut in der <w>Esse</w> erlosch allmählich, als der Schmied Feierabend machte."
+                            "text": "Die Glut in der <w>Esse</w> erlosch allmählich, als der Schmied Feierabend machte.",
+                            "target_lang_translations": {
+                                "en": "The embers in the <w>forge</w> gradually went out as the blacksmith called it a day.",
+                                "ru": "Жар в <w>горне</w> постепенно угасал, когда кузнец закончил рабочий день.",
+                                "nl": "De gloed in het <w>smidsvuur</w> doofde geleidelijk uit toen de smid stopte met werken.",
+                                "pl": "Żar w <w>palenisku kowalskim</w> stopniowo przygasał, gdy kowal kończył pracę.",
+                                "fr": "La braise dans la <w>forge</w> s'éteignit peu à peu lorsque le forgeron eut terminé sa journée.",
+                                "it": "La brace nella <w>forgia</w> si spense gradualmente quando il fabbro terminò la giornata di lavoro.",
+                                "cs": "Žár ve <w>výhni</w> pomalu vyhasínal, když kovář skončil práci.",
+                                "tr": "Demirci paydos ettiğinde <w>demirci ocağındaki</w> korlar yavaş yavaş söndü.",
+                                "es": "Las brasas de la <w>fragua</w> se fueron apagando poco a poco cuando el herrero terminó su jornada.",
+                                "zh": "铁匠收工时，<w>锻炉</w>里的余烬逐渐熄灭了。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "an open, blown hearth or furnace used in a blacksmith's workshop for heating metal",
+                        "ru": "открытый очаг с искусственным дутьём в кузнице для нагрева металла",
+                        "nl": "open, kunstmatig beluchte vuurplaats in een smederij",
+                        "pl": "otwarte palenisko z wymuszonym nadmuchem powietrza w warsztacie kowalskim",
+                        "fr": "Foyer ouvert et ventilé artificiellement dans un atelier de forge servant à chauffer le métal",
+                        "it": "focolare aperto con tiraggio o ventilazione forzata nella bottega del fabbro",
+                        "cs": "otevřené ohniště s umělým vháněním vzduchu v kovářské dílně určené k ohřevu kovů",
+                        "tr": "Bir demirci atölyesinde metalleri tavlamak için kullanılan, körükle havalandırılan açık ateş ocağı",
+                        "es": "hogar o fogón abierto con ventilación forzada en una herrería para calentar metales",
+                        "zh": "铁匠作坊中用于加热金属的带人工鼓风装置的敞开式锻造炉"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "forge",
+                                "target_lang_sense_clarification": "blacksmith's hearth or furnace"
+                            },
+                            {
+                                "target_lang_word": "smithy hearth",
+                                "target_lang_sense_clarification": "open fire in a blacksmith's shop"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "горн",
+                                "target_lang_sense_clarification": "кузнечный очаг"
+                            },
+                            {
+                                "target_lang_word": "кузнечный горн",
+                                "target_lang_sense_clarification": "очаг с поддувом в кузнице"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "smidsvuur",
+                                "target_lang_sense_clarification": "vuurplaats in een smederij"
+                            },
+                            {
+                                "target_lang_word": "smeedhaard",
+                                "target_lang_sense_clarification": "open haard van een smid"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "palenisko kowalskie",
+                                "target_lang_sense_clarification": "otwarty piec z nadmuchem w kuźni"
+                            },
+                            {
+                                "target_lang_word": "kotlinka kowalska",
+                                "target_lang_sense_clarification": "zagłębienie paleniskowe w kuźni"
+                            },
+                            {
+                                "target_lang_word": "kotlinka",
+                                "target_lang_sense_clarification": "palenisko kuźnicze"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "forge",
+                                "target_lang_sense_clarification": "foyer de forge d'un forgeron"
+                            },
+                            {
+                                "target_lang_word": "foyer de forge",
+                                "target_lang_sense_clarification": "foyer ouvert avec soufflerie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "forgia",
+                                "target_lang_sense_clarification": "focolare del fabbro con tiraggio forzato"
+                            },
+                            {
+                                "target_lang_word": "fucina",
+                                "target_lang_sense_clarification": "focolare da fabbro per riscaldare i metalli"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "výheň",
+                                "target_lang_sense_clarification": "otevřené ohniště s dmychadlem v kovářské dílně"
+                            },
+                            {
+                                "target_lang_word": "kovářská výheň",
+                                "target_lang_sense_clarification": "pracoviště kováře pro žíhání železa"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "demirci ocağı",
+                                "target_lang_sense_clarification": "demircilikte metalleri ısıtmak için kullanılan ocak"
+                            },
+                            {
+                                "target_lang_word": "tav ocağı",
+                                "target_lang_sense_clarification": "metal kızdırma ocağı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "fragua",
+                                "target_lang_sense_clarification": "fogón de herrería para caldear los metales"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "锻炉",
+                                "target_lang_sense_clarification": "铁匠铺中加热金属的火炉"
+                            },
+                            {
+                                "target_lang_word": "铁匠炉",
+                                "target_lang_sense_clarification": "铁匠作坊的敞开式炉火"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "69c52b12-19a0-3b24-8291-0940ec4e59c9",
@@ -133,16 +839,186 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In der Philosophie des Thomas von Aquin bildet das <w>Esse</w> einen zentralen Grundbegriff."
+                            "text": "In der Philosophie des Thomas von Aquin bildet das <w>Esse</w> einen zentralen Grundbegriff.",
+                            "target_lang_translations": {
+                                "en": "In the philosophy of Thomas Aquinas, <w>esse</w> constitutes a central core concept.",
+                                "ru": "В философии Фомы Аквинского <w>бытие</w> образует центральное базовое понятие.",
+                                "nl": "In de filosofie van Thomas van Aquino vormt het <w>esse</w> een centraal basisbegrip.",
+                                "pl": "W filozofii Tomasza z Akwinu <w>esse</w> stanowi centralne pojęcie podstawowe.",
+                                "fr": "Dans la philosophie de Thomas d'Aquin, l'<w>esse</w> constitue une notion fondamentale centrale.",
+                                "it": "Nella filosofia di Tommaso d'Aquino l'<w>esse</w> costituisce un concetto fondamentale primario.",
+                                "cs": "Ve filosofii Tomáše Akvinského tvoří <w>esse</w> ústřední základní pojem.",
+                                "tr": "Thomas Aquinas'ın felsefesinde <w>esse</w> merkezî bir temel kavram oluşturur.",
+                                "es": "En la filosofía de Tomás de Aquino, el <w>esse</w> constituye un concepto fundamental clave.",
+                                "zh": "在托马斯·阿奎那的哲学体系中，<w>存在</w>是一个核心的基本概念。"
+                            }
                         },
                         {
-                            "text": "Die Unterscheidung zwischen dem Wesen und dem tatsächlichen <w>Esse</w> beschäftigte viele Philosophen des Mittelalters."
+                            "text": "Die Unterscheidung zwischen dem Wesen und dem tatsächlichen <w>Esse</w> beschäftigte viele Philosophen des Mittelalters.",
+                            "target_lang_translations": {
+                                "en": "The distinction between essence and actual <w>being</w> preoccupied many medieval philosophers.",
+                                "ru": "Различие между сущностью и действительным <w>бытием</w> занимало многих средневековых философов.",
+                                "nl": "Het onderscheid tussen het wezen en het daadwerkelijke <w>zijn</w> hield veel middeleeuwse filosofen bezig.",
+                                "pl": "Rozróżnienie między istotą a rzeczywistym <w>bytem</w> zaprzątało uwagę wielu średniowiecznych filozofów.",
+                                "fr": "La distinction entre l'essence et l'<w>être</w> réel occupait beaucoup de philosophes du Moyen Âge.",
+                                "it": "La distinzione tra l'essenza e l'<w>essere</w> effettivo occupò molti filosofi del Medioevo.",
+                                "cs": "Rozlišení mezi podstatou a skutečným <w>bytím</w> zaměstnávalo mnoho středověkých filosofů.",
+                                "tr": "Öz ile fiilî <w>varlık</w> arasındaki ayrım, birçok Orta Çağ filozofunu meşgul etti.",
+                                "es": "La distinción entre la esencia y el <w>ser</w> real ocupó a muchos filósofos de la Edad Media.",
+                                "zh": "本质与实际<w>存在</w>之间的区别曾引发许多中世纪哲学家的深入思考。"
+                            }
                         }
                     ],
                     "synonyms": [
                         "Sein",
                         "Wesen"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "actual existence, being, or the act of existing in philosophical terminology (from Latin esse)",
+                        "ru": "подлинное бытие, существование вещей в философской терминологии",
+                        "nl": "het werkelijke zijn, bestaan of de ontologische werkelijkheid van dingen in de filosofie",
+                        "pl": "rzeczywiste istnienie, byt lub akt bycia w terminologii filozoficznej (z łaciny esse)",
+                        "fr": "L'existence réelle, l'acte d'exister ou l'être ontologique des choses en philosophie (terme issu du latin)",
+                        "it": "l'atto di essere, l'esistenza effettiva o la realtà ontologica delle cose in ambito filosofico",
+                        "cs": "skutečné bytí, existence či jsoucno věcí ve filosofické terminologii (z latinského esse)",
+                        "tr": "Felsefede varlık, gerçek varoluş veya nesnelerin ontolojik mevcudiyeti (Latince esse)",
+                        "es": "existencia real, acto de ser o realidad ontológica de las cosas en la filosofía (término tomado del latín)",
+                        "zh": "哲学中指事物的实际存在、本体或实存（源自拉丁语 esse）"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "philosophical term for essential being or existence"
+                            },
+                            {
+                                "target_lang_word": "being",
+                                "target_lang_sense_clarification": "existence or reality"
+                            },
+                            {
+                                "target_lang_word": "existence",
+                                "target_lang_sense_clarification": "ontological reality"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "бытие",
+                                "target_lang_sense_clarification": "онтологическая категория существования"
+                            },
+                            {
+                                "target_lang_word": "существование",
+                                "target_lang_sense_clarification": "реальное бытие вещей"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "filosofische Latijnse term voor het zijn"
+                            },
+                            {
+                                "target_lang_word": "zijn",
+                                "target_lang_sense_clarification": "ontologische categorie van bestaan"
+                            },
+                            {
+                                "target_lang_word": "wezen",
+                                "target_lang_sense_clarification": "de eigenlijke bestaansvorm"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "termin filozoficzny oznaczający istnienie lub akt bycia"
+                            },
+                            {
+                                "target_lang_word": "byt",
+                                "target_lang_sense_clarification": "ontologiczna kategoria istnienia"
+                            },
+                            {
+                                "target_lang_word": "istnienie",
+                                "target_lang_sense_clarification": "rzeczywistość ontologiczna rzeczy"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "terme philosophique latin désignant l'acte d'être"
+                            },
+                            {
+                                "target_lang_word": "être",
+                                "target_lang_sense_clarification": "réalité ontologique ou fait d'exister"
+                            },
+                            {
+                                "target_lang_word": "existence",
+                                "target_lang_sense_clarification": "réalité concrète de l'être"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "termine filosofico per l'atto di esistere"
+                            },
+                            {
+                                "target_lang_word": "essere",
+                                "target_lang_sense_clarification": "realtà ontologica o esistenza sostanziale"
+                            },
+                            {
+                                "target_lang_word": "esistenza",
+                                "target_lang_sense_clarification": "condizione effettiva dell'esistere"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "bytí",
+                                "target_lang_sense_clarification": "ontologická skutečnost existence"
+                            },
+                            {
+                                "target_lang_word": "jsoucno",
+                                "target_lang_sense_clarification": "filosofická kategorie toho, co existuje"
+                            },
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "převzatý latinský filosofický termín pro akt existence"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "varlık",
+                                "target_lang_sense_clarification": "ontolojik kategori"
+                            },
+                            {
+                                "target_lang_word": "varoluş",
+                                "target_lang_sense_clarification": "fiilî mevcudiyet"
+                            },
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "felsefe terimi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "esse",
+                                "target_lang_sense_clarification": "término filosófico latino para el acto de ser"
+                            },
+                            {
+                                "target_lang_word": "ser",
+                                "target_lang_sense_clarification": "realidad ontológica o acto de existir"
+                            },
+                            {
+                                "target_lang_word": "existencia",
+                                "target_lang_sense_clarification": "existencia real de las cosas"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "存在",
+                                "target_lang_sense_clarification": "哲学术语，指实存或本体状态"
+                            },
+                            {
+                                "target_lang_word": "实存",
+                                "target_lang_sense_clarification": "哲学中指实际存在的状态"
+                            }
+                        ]
+                    }
                 }
             ]
         }

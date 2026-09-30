@@ -24,10 +24,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Wenn die offene Rechnung nicht bezahlt wird, verschickt das Unternehmen eine schriftliche <w>Mahnung</w>."
+                            "text": "Wenn die offene Rechnung nicht bezahlt wird, verschickt das Unternehmen eine schriftliche <w>Mahnung</w>.",
+                            "target_lang_translations": {
+                                "en": "If the outstanding invoice is not paid, the company sends a written <w>payment reminder</w>.",
+                                "ru": "Если открытый счёт не будет оплачен, компания отправит письменное <w>напоминание об оплате</w>.",
+                                "nl": "Als de openstaande rekening niet wordt betaald, verstuurt het bedrijf een schriftelijke <w>aanmaning</w>.",
+                                "pl": "Jeśli nieopłacony rachunek nie zostanie uregulowany, firma wyśle pisemne <w>wezwanie do zapłaty</w>.",
+                                "fr": "Si la facture impayée n'est pas réglée, l'entreprise envoie une <w>relance</w> écrite.",
+                                "it": "Se la fattura in sospeso non viene pagata, l'azienda invia un <w>sollecito</w> scritto.",
+                                "cs": "Pokud nezaplacená faktura nebude uhrazena, společnost zašle písemnou <w>upomínku</w>.",
+                                "tr": "Açık fatura ödenmezse şirket yazılı bir <w>ödeme ihtarı</w> gönderir.",
+                                "es": "Si la factura pendiente no se paga, la empresa envía un <w>recordatorio de pago</w> por escrito.",
+                                "zh": "如果未结账单没有得到支付，公司会寄出一封书面<w>催款函</w>。"
+                            }
                         },
                         {
-                            "text": "Nachdem er die Zahlungsfrist verpasst hatte, erhielt er eine <w>Mahnung</w> mit zusätzlichen Gebühren."
+                            "text": "Nachdem er die Zahlungsfrist verpasst hatte, erhielt er eine <w>Mahnung</w> mit zusätzlichen Gebühren.",
+                            "target_lang_translations": {
+                                "en": "After he missed the payment deadline, he received an <w>overdue notice</w> with additional fees.",
+                                "ru": "Пропустив срок оплаты, он получил <w>требование об уплате</w> с дополнительными штрафными сборами.",
+                                "nl": "Nadat hij de betalingstermijn had laten verstrijken, ontving hij een <w>aanmaning</w> met extra kosten.",
+                                "pl": "Po tym, jak przekroczył termin płatności, otrzymał <w>upomnienie</w> z dodatkowymi opłatami.",
+                                "fr": "Après avoir manqué la date limite de paiement, il a reçu une <w>mise en demeure</w> avec des frais supplémentaires.",
+                                "it": "Dopo aver mancato la scadenza di pagamento, ha ricevuto un <w>sollecito di pagamento</w> con spese aggiuntive.",
+                                "cs": "Poté, co promeškal lhůtu splatnosti, obdržel <w>upomínku</w> s dodatečnými poplatky.",
+                                "tr": "Ödeme süresini kaçırdıktan sonra ek ücretlerle birlikte bir <w>ihtarname</w> aldı.",
+                                "es": "Después de haber pasado el plazo de pago, recibió un <w>requerimiento de pago</w> con cargos adicionales.",
+                                "zh": "在错过了付款期限后，他收到了一份附带额外费用的<w>催款单</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -37,7 +61,169 @@
                         "eine Mahnung erhalten",
                         "erste Mahnung",
                         "letzte Mahnung"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A formal written notice or reminder demanding the payment of an overdue bill or debt.",
+                        "ru": "Письменное напоминание или официальное требование об оплате просроченного счёта или долга.",
+                        "nl": "Een schriftelijk verzoek of formele herinnering om een openstaande rekening of geldschuld alsnog te voldoen.",
+                        "pl": "Pisemne wezwanie skierowane do osoby lub instytucji, nakazujące uregulowanie zaległego rachunku bądź należności finansowej.",
+                        "fr": "Demande écrite formelle adressée à une personne ou une institution pour réclamer le règlement d'une facture échue ou d'une dette.",
+                        "it": "Richiesta o notifica scritta formale rivolta a una persona o a un ente per sollecitare il pagamento di una fattura scaduta o di un debito.",
+                        "cs": "Písemná výzva osobě nebo instituci k zaplacení splatného účtu či peněžité pohledávky.",
+                        "tr": "Vadesi geçmiş bir faturanın veya para alacağının ödenmesi için bir kişiye ya da kuruma gönderilen resmi yazılı talep.",
+                        "es": "Aviso o notificación formal por escrito en el que se exige a una persona o entidad el pago de una factura vencida o una deuda.",
+                        "zh": "要求个人或机构支付到期账单或款项的书面催告或催款信函。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "payment reminder",
+                                "target_lang_sense_clarification": "written notice requesting payment of an unpaid invoice"
+                            },
+                            {
+                                "target_lang_word": "overdue notice",
+                                "target_lang_sense_clarification": "formal letter notifying that a payment is late"
+                            },
+                            {
+                                "target_lang_word": "reminder",
+                                "target_lang_sense_clarification": "notice for an unpaid bill"
+                            },
+                            {
+                                "target_lang_word": "dunning letter",
+                                "target_lang_sense_clarification": "formal or legal demand for payment of a debt"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "напоминание об оплате",
+                                "target_lang_sense_clarification": "письменное уведомление о необходимости погасить неоплаченный счёт"
+                            },
+                            {
+                                "target_lang_word": "требование об уплате",
+                                "target_lang_sense_clarification": "официальный документ с требованием выплатить долг"
+                            },
+                            {
+                                "target_lang_word": "уведомление о задолженности",
+                                "target_lang_sense_clarification": "извещение о пропуске срока платежа"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "aanmaning",
+                                "target_lang_sense_clarification": "formele schriftelijke eis om een achterstallige betaling te voldoen"
+                            },
+                            {
+                                "target_lang_word": "betalingsherinnering",
+                                "target_lang_sense_clarification": "schriftelijke herinnering voor een openstaande factuur"
+                            },
+                            {
+                                "target_lang_word": "sommatie",
+                                "target_lang_sense_clarification": "dringende of juridische schriftelijke eis tot betaling"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wezwanie do zapłaty",
+                                "target_lang_sense_clarification": "oficjalne pismo nakazujące uregulowanie długu"
+                            },
+                            {
+                                "target_lang_word": "upomnienie",
+                                "target_lang_sense_clarification": "pisemne przypomnienie o zaległej płatności"
+                            },
+                            {
+                                "target_lang_word": "monit",
+                                "target_lang_sense_clarification": "przypomnienie lub wezwanie do zapłaty zaległości"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "relance",
+                                "target_lang_sense_clarification": "courrier invitant à régler une facture impayée"
+                            },
+                            {
+                                "target_lang_word": "mise en demeure",
+                                "target_lang_sense_clarification": "acte formel ou juridique exigeant le paiement d'une dette"
+                            },
+                            {
+                                "target_lang_word": "sommation",
+                                "target_lang_sense_clarification": "injonction formelle ou d'huissier de payer"
+                            },
+                            {
+                                "target_lang_word": "rappel de paiement",
+                                "target_lang_sense_clarification": "avis informant du retard de règlement d'une facture"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "sollecito",
+                                "target_lang_sense_clarification": "comunicazione scritta che ricorda il pagamento di una somma scaduta"
+                            },
+                            {
+                                "target_lang_word": "sollecito di pagamento",
+                                "target_lang_sense_clarification": "notifica formale per richiedere il saldo di una fattura insolute"
+                            },
+                            {
+                                "target_lang_word": "messa in mora",
+                                "target_lang_sense_clarification": "atto formale o legale con cui si intima l'adempimento di un'obbligazione"
+                            },
+                            {
+                                "target_lang_word": "avviso di mora",
+                                "target_lang_sense_clarification": "comunicazione ufficiale di ritardo nel pagamento con eventuali penali"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "upomínka",
+                                "target_lang_sense_clarification": "písemné upozornění na nezaplacený dluh nebo fakturu"
+                            },
+                            {
+                                "target_lang_word": "výzva k zaplacení",
+                                "target_lang_sense_clarification": "formální písemná žádost o úhradu dlužné částky"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ödeme ihtarı",
+                                "target_lang_sense_clarification": "ödenmemiş fatura veya borç için gönderilen yazılı talep"
+                            },
+                            {
+                                "target_lang_word": "ihtarname",
+                                "target_lang_sense_clarification": "borcun ödenmesi için resmi ya da hukuki uyarı yazısı"
+                            },
+                            {
+                                "target_lang_word": "ödeme hatırlatması",
+                                "target_lang_sense_clarification": "geciken ödemeler için yazılı bildirim"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "recordatorio de pago",
+                                "target_lang_sense_clarification": "notificación escrita que recuerda el vencimiento de una factura impagada"
+                            },
+                            {
+                                "target_lang_word": "requerimiento de pago",
+                                "target_lang_sense_clarification": "reclamación formal o jurídica exigiendo el abono de una deuda"
+                            },
+                            {
+                                "target_lang_word": "aviso de pago",
+                                "target_lang_sense_clarification": "comunicación formal de retraso en el pago con posibles recargos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "催款函",
+                                "target_lang_sense_clarification": "要求偿付欠款的书面信件"
+                            },
+                            {
+                                "target_lang_word": "催缴通知",
+                                "target_lang_sense_clarification": "提醒或催促按期缴费的正式通知"
+                            },
+                            {
+                                "target_lang_word": "催款单",
+                                "target_lang_sense_clarification": "催收逾期款项的单据"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "916ffaa8-ead0-3547-b72c-4e5d425438be",
@@ -48,10 +234,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Das historische Denkmal soll den Menschen als ständige <w>Mahnung</w> für den Frieden dienen."
+                            "text": "Das historische Denkmal soll den Menschen als ständige <w>Mahnung</w> für den Frieden dienen.",
+                            "target_lang_translations": {
+                                "en": "The historical monument is meant to serve people as a constant <w>reminder</w> of peace.",
+                                "ru": "Исторический памятник призван служить людям постоянным <w>напоминанием</w> о мире.",
+                                "nl": "Het historische monument moet voor de mensen dienen als een voortdurende <w>vermaning</w> tot vrede.",
+                                "pl": "Historyczny pomnik ma służyć ludziom jako stała <w>przestroga</w> na rzecz pokoju.",
+                                "fr": "Le monument historique doit servir aux hommes de constant <w>rappel</w> pour la paix.",
+                                "it": "Il monumento storico deve servire alle persone come costante <w>monito</w> per la pace.",
+                                "cs": "Historický památník má lidem sloužit jako stálé <w>memento</w> míru.",
+                                "tr": "Tarihî anıt, insanlara barış adına sürekli bir <w>uyarı</w> olarak hizmet etmelidir.",
+                                "es": "El monumento histórico debe servir a las personas como un constante <w>recordatorio</w> de la paz.",
+                                "zh": "这座历史纪念碑旨在作为对和平的恒久<w>警示</w>留给世人。"
+                            }
                         },
                         {
-                            "text": "Trotz der ernsten <w>Mahnung</w> seiner Eltern änderte er sein leichtsinniges Verhalten überhaupt nicht."
+                            "text": "Trotz der ernsten <w>Mahnung</w> seiner Eltern änderte er sein leichtsinniges Verhalten überhaupt nicht.",
+                            "target_lang_translations": {
+                                "en": "Despite the serious <w>warning</w> from his parents, he did not change his reckless behavior at all.",
+                                "ru": "Несмотря на серьёзное <w>предостережение</w> родителей, он совершенно не изменил своё легкомысленное поведение.",
+                                "nl": "Ondanks de ernstige <w>waarschuwing</w> van zijn ouders veranderde hij zijn lichtzinnige gedrag helemaal niet.",
+                                "pl": "Mimo poważnego <w>upomnienia</w> ze strony rodziców wcale nie zmienił swojego lekkomyślnego zachowania.",
+                                "fr": "Malgré le sérieux <w>avertissement</w> de ses parents, il n'a absolument pas changé son comportement imprudent.",
+                                "it": "Nonostante il serio <w>avvertimento</w> dei suoi genitori, non ha cambiato affatto il suo comportamento imprudente.",
+                                "cs": "Navzdory vážnému <w>napomenutí</w> svých rodičů své lehkomyslné chování vůbec nezměnil.",
+                                "tr": "Anne babasının ciddi <w>uyarısına</w> rağmen sorumsuz davranışlarını hiç değiştirmedi.",
+                                "es": "A pesar de la seria <w>advertencia</w> de sus padres, no cambió en absoluto su comportamiento imprudente.",
+                                "zh": "尽管有父母严厉的<w>告诫</w>，他却丝毫没有改变自己轻率的行为。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -61,7 +271,173 @@
                     "common_phrases": [
                         "als Mahnung dienen",
                         "eine ernste Mahnung"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An emphatic appeal, warning, or memorial reminder concerning obligations, danger, or proper conduct.",
+                        "ru": "Настоятельный призыв, предостережение или напоминание об уроках прошлого, опасности или правильном поведении.",
+                        "nl": "Een dringende aansporing, vermanende herinnering of waarschuwing met betrekking tot bepaald gedrag of plichten.",
+                        "pl": "Stanowcze wezwanie do określonego zachowania, przestroga lub ostrzegawcze przypomnienie o obowiązkach bądź lekcji z przeszłości.",
+                        "fr": "Avertissement solennel, mise en garde ou rappel marquant d'un devoir, d'un danger ou des leçons du passé.",
+                        "it": "Solenne richiamo, esortazione o avvertimento morale rivolto a tenere un determinato comportamento o a ricordare un dovere o un pericolo.",
+                        "cs": "Důrazná výzva k určitému chování, varovná připomínka nebo mravní napomenutí.",
+                        "tr": "Belirli bir davranışta bulunmaya yönelik ısrarlı çağrı veya bir sorumluluk ya da tehlike konusunda yapılan uyarıcı hatırlatma.",
+                        "es": "Llamamiento firme, advertencia o recordatorio solemne acerca de un deber moral, un peligro o las lecciones del pasado.",
+                        "zh": "对某种行为的严正督促、告诫，或是对责任、教训的警示性提醒。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "reminder",
+                                "target_lang_sense_clarification": "symbolic or cautionary lesson from the past"
+                            },
+                            {
+                                "target_lang_word": "warning",
+                                "target_lang_sense_clarification": "cautionary alert against bad behavior or danger"
+                            },
+                            {
+                                "target_lang_word": "admonition",
+                                "target_lang_sense_clarification": "firm or earnest rebuke and advice"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "напоминание",
+                                "target_lang_sense_clarification": "предостерегающий знак или поучительный пример из прошлого"
+                            },
+                            {
+                                "target_lang_word": "предостережение",
+                                "target_lang_sense_clarification": "серьёзное предупреждение о последствиях"
+                            },
+                            {
+                                "target_lang_word": "увещевание",
+                                "target_lang_sense_clarification": "настойчивый укор или наставление о правильном поведении"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "vermaning",
+                                "target_lang_sense_clarification": "ernstige terechtwijzing of waarschuwende herinnering"
+                            },
+                            {
+                                "target_lang_word": "waarschuwing",
+                                "target_lang_sense_clarification": "dringend signaal om alert te zijn of verkeerd gedrag te vermijden"
+                            },
+                            {
+                                "target_lang_word": "aanmaning",
+                                "target_lang_sense_clarification": "dringende oproep of aansporing tot een bepaald gedrag"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przestroga",
+                                "target_lang_sense_clarification": "ostrzeżenie przed popełnieniem błędu lub złym zachowaniem"
+                            },
+                            {
+                                "target_lang_word": "upomnienie",
+                                "target_lang_sense_clarification": "uwaga dyscyplinująca lub nagana"
+                            },
+                            {
+                                "target_lang_word": "ostrzeżenie",
+                                "target_lang_sense_clarification": "sygnał ostrzegający przed niebezpieczeństwem lub konsekwencjami"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "avertissement",
+                                "target_lang_sense_clarification": "mise en garde sérieuse contre une mauvaise conduite ou un danger"
+                            },
+                            {
+                                "target_lang_word": "mise en garde",
+                                "target_lang_sense_clarification": "signal d'alerte incitant à la prudence ou au respect des règles"
+                            },
+                            {
+                                "target_lang_word": "rappel",
+                                "target_lang_sense_clarification": "leçon ou symbole servant d'avertissement moral ou historique"
+                            },
+                            {
+                                "target_lang_word": "exhortation",
+                                "target_lang_sense_clarification": "appel pressant incitant à adopter un comportement responsable"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "monito",
+                                "target_lang_sense_clarification": "avvertimento solenne o simbolo che serve da lezione e memoria"
+                            },
+                            {
+                                "target_lang_word": "avvertimento",
+                                "target_lang_sense_clarification": "richiamo prudenziale a evitare comportamenti scorretti o pericoli"
+                            },
+                            {
+                                "target_lang_word": "ammonizione",
+                                "target_lang_sense_clarification": "richiamo severo o rimprovero formale per una condotta inadeguata"
+                            },
+                            {
+                                "target_lang_word": "esortazione",
+                                "target_lang_sense_clarification": "appello pressante a compiere il proprio dovere"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "napomenutí",
+                                "target_lang_sense_clarification": "důrazná domluva nebo výtka k nápravě chování"
+                            },
+                            {
+                                "target_lang_word": "varování",
+                                "target_lang_sense_clarification": "důrazné upozornění před nebezpečím či nevhodným jednáním"
+                            },
+                            {
+                                "target_lang_word": "memento",
+                                "target_lang_sense_clarification": "varovná připomínka z minulosti sloužící jako poučení"
+                            },
+                            {
+                                "target_lang_word": "připomínka",
+                                "target_lang_sense_clarification": "upozornění na povinnost nebo závazek"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "uyarı",
+                                "target_lang_sense_clarification": "yanlış davranışa veya tehlikeye karşı dikkat çekme"
+                            },
+                            {
+                                "target_lang_word": "ikaz",
+                                "target_lang_sense_clarification": "bir görevi veya kuralı hatırlatan ciddi ikaz"
+                            },
+                            {
+                                "target_lang_word": "ibret",
+                                "target_lang_sense_clarification": "geçmişten ders çıkarılması amacıyla yapılan anımsatma veya sembol"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "recordatorio",
+                                "target_lang_sense_clarification": "lección o símbolo histórico y moral que sirve de advertencia"
+                            },
+                            {
+                                "target_lang_word": "advertencia",
+                                "target_lang_sense_clarification": "aviso serio para evitar una conducta incorrecta o un peligro"
+                            },
+                            {
+                                "target_lang_word": "amonestación",
+                                "target_lang_sense_clarification": "reproche o llamada de atención para corregir el comportamiento"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "警示",
+                                "target_lang_sense_clarification": "引以为戒的提醒或告诫"
+                            },
+                            {
+                                "target_lang_word": "告诫",
+                                "target_lang_sense_clarification": "郑重劝诫或警告"
+                            },
+                            {
+                                "target_lang_word": "警钟",
+                                "target_lang_sense_clarification": "比喻具有警醒作用的事物"
+                            }
+                        ]
+                    }
                 }
             ]
         }

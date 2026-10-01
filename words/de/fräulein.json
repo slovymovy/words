@@ -19,10 +19,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Guten Tag, <w>Fräulein</w> Müller, wie geht es Ihnen heute Morgen?"
+                            "text": "Guten Tag, <w>Fräulein</w> Müller, wie geht es Ihnen heute Morgen?",
+                            "target_lang_translations": {
+                                "en": "Good day, <w>Miss</w> Müller, how are you this morning?",
+                                "ru": "Добрый день, <w>фрёйлен</w> Мюллер, как ваши дела сегодня утром?",
+                                "nl": "Goedemorgen, <w>mejuffrouw</w> Müller, hoe gaat het vanmorgen met u?",
+                                "pl": "Dzień dobry, <w>panno</w> Müller, jak się pani miewa dziś rano?",
+                                "fr": "Bonjour, <w>mademoiselle</w> Müller, comment allez-vous ce matin ?",
+                                "it": "Buongiorno, <w>signorina</w> Müller, come sta stamattina?",
+                                "cs": "Dobrý den, <w>slečno</w> Müllerová, jak se vám dnes ráno daří?",
+                                "tr": "İyi günler <w>Matmazel</w> Müller, bu sabah nasılsınız?",
+                                "es": "Buenos días, <w>señorita</w> Müller, ¿cómo está usted esta mañana?",
+                                "zh": "早上好，米勒<w>小姐</w>，您今天上午好吗？"
+                            }
                         },
                         {
-                            "text": "Früher sprach man eine unverheiratete Dame stets als gnädiges <w>Fräulein</w> an."
+                            "text": "Früher sprach man eine unverheiratete Dame stets als gnädiges <w>Fräulein</w> an.",
+                            "target_lang_translations": {
+                                "en": "In the past, an unmarried lady was always addressed as \"gracious <w>miss</w>\".",
+                                "ru": "Раньше к незамужней даме всегда обращались «милостивая <w>барышня</w>».",
+                                "nl": "Vroeger sprak men een ongehuwde dame altijd aan als genadige <w>mejuffrouw</w>.",
+                                "pl": "Kiedyś do niezamężnej damy zawsze zwracano się „łaskawa <w>panno</w>”.",
+                                "fr": "Autrefois, on s'adressait toujours à une dame célibataire en lui disant « chère <w>demoiselle</w> ».",
+                                "it": "Un tempo ci si rivolgeva sempre a una signora nubile con l'appellativo di graziosa <w>signorina</w>.",
+                                "cs": "Dříve se neprovdaná dáma oslovovala vždy jako milostivá <w>slečna</w>.",
+                                "tr": "Eskiden bekâr bir hanımefendiye her zaman 'lütufkâr <w>matmazel</w>' diye hitap edilirdi.",
+                                "es": "Antiguamente siempre se dirigían a una dama soltera tratándola de distinguida <w>señorita</w>.",
+                                "zh": "过去，人们总是称呼未婚女士为“尊贵的<w>小姐</w>”。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -33,7 +57,101 @@
                             "trait_type": "dated",
                             "comment": "als offizielle Anrede heutzutage ungebräuchlich"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Outdated formal address and title for an unmarried woman.",
+                        "ru": "Устаревшая официальная форма вежливого обращения и приставка к фамилии незамужней женщины.",
+                        "nl": "Verouderde formele aanspreektitel en toevoeging aan de achternaam voor een ongehuwde vrouw.",
+                        "pl": "Przestarzały, oficjalny zwrot grzecznościowy oraz dodatek do nazwiska odnoszący się do niezamężnej kobiety.",
+                        "fr": "Formule de civilité et titre désuet précédant le nom d'une femme non mariée.",
+                        "it": "Formula di cortesia e titolo formale, oggi disusato, premesso al cognome di una donna non sposata.",
+                        "cs": "Zastaralé formální oslovení a titul pro svobodnou ženu.",
+                        "tr": "Bekâr kadınlar için eskiden kullanılan resmi bir hitap ve unvan.",
+                        "es": "Tratamiento formal y título de cortesía en desuso que se antepone al apellido o nombre de una mujer soltera.",
+                        "zh": "对未婚女性的过时正式称呼或尊称（小姐）。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Miss",
+                                "target_lang_sense_clarification": "formal title or address for an unmarried woman"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "фрёйлен",
+                                "target_lang_sense_clarification": "обращение к незамужней женщине в немецкоязычных странах"
+                            },
+                            {
+                                "target_lang_word": "барышня",
+                                "target_lang_sense_clarification": "вежливое обращение к незамужней девушке"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "mejuffrouw",
+                                "target_lang_sense_clarification": "formele aanspreektitel voor een ongehuwde vrouw"
+                            },
+                            {
+                                "target_lang_word": "juffrouw",
+                                "target_lang_sense_clarification": "aanspreektitel voor een ongehuwde vrouw"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "panna",
+                                "target_lang_sense_clarification": "dawny oficjalny zwrot do kobiety niezamężnej"
+                            },
+                            {
+                                "target_lang_word": "panienka",
+                                "target_lang_sense_clarification": "zwrot grzecznościowy do młodej kobiety"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mademoiselle",
+                                "target_lang_sense_clarification": "titre ou civilité formelle pour une femme non mariée"
+                            },
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "appellation de politesse pour une femme célibataire"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "signorina",
+                                "target_lang_sense_clarification": "titolo formale per una donna nubile"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "slečna",
+                                "target_lang_sense_clarification": "zdvořilé oslovení svobodné ženy"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "matmazel",
+                                "target_lang_sense_clarification": "bekâr kadınlara yönelik eski resmi hitap unvanı"
+                            },
+                            {
+                                "target_lang_word": "bayan",
+                                "target_lang_sense_clarification": "bekâr kadına hitap veya unvan"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "señorita",
+                                "target_lang_sense_clarification": "tratamiento formal para dirigirse a una mujer soltera"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "小姐",
+                                "target_lang_sense_clarification": "对未婚女性的旧式礼貌称呼"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "ef54ba71-4f61-3172-869b-25126ec916bd",
@@ -44,10 +162,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "In alten Formularen musste man angeben, ob man Frau oder <w>Fräulein</w> war."
+                            "text": "In alten Formularen musste man angeben, ob man Frau oder <w>Fräulein</w> war.",
+                            "target_lang_translations": {
+                                "en": "On old forms, one had to indicate whether one was Mrs. or <w>Miss</w>.",
+                                "ru": "В старых бланках нужно было указывать статус: фрау или <w>фрёйлен</w>.",
+                                "nl": "Op oude formulieren moest men invullen of men mevrouw of <w>mejuffrouw</w> was.",
+                                "pl": "W starych formularzach trzeba było podawać, czy jest się mężatką, czy <w>panną</w>.",
+                                "fr": "Dans les anciens formulaires, il fallait indiquer si l'on était madame ou <w>mademoiselle</w>.",
+                                "it": "Nei vecchi moduli bisognava indicare se si era signora o <w>signorina</w>.",
+                                "cs": "Ve starých formulářích se muselo uvádět, zda je člověk paní, nebo <w>slečna</w>.",
+                                "tr": "Eski formlarda kişinin evli bir kadın mı yoksa <w>matmazel</w> mi olduğunu belirtmesi gerekirdi.",
+                                "es": "En los formularios antiguos había que indicar si una era señora o <w>señorita</w>.",
+                                "zh": "在旧表格中，人们必须注明自己是夫人还是<w>小姐</w>。"
+                            }
                         },
                         {
-                            "text": "Die Nachbarin blieb ihr ganzes langes Leben lang ein unverheiratetes <w>Fräulein</w>."
+                            "text": "Die Nachbarin blieb ihr ganzes langes Leben lang ein unverheiratetes <w>Fräulein</w>.",
+                            "target_lang_translations": {
+                                "en": "The neighbor remained an unmarried <w>spinster</w> throughout her long life.",
+                                "ru": "Соседка всю свою долгую жизнь так и осталась незамужней <w>девушкой</w>.",
+                                "nl": "De buurvrouw bleef haar hele lange leven een ongehuwde <w>vrijster</w>.",
+                                "pl": "Sąsiadka przez całe swoje długie życie pozostała niezamężną <w>panną</w>.",
+                                "fr": "La voisine est restée une <w>demoiselle</w> célibataire tout au long de sa vie.",
+                                "it": "La vicina rimase per tutta la sua lunga vita una <w>signorina</w> non sposata.",
+                                "cs": "Sousedka zůstala po celý svůj dlouhý život neprovdanou <w>starou pannou</w>.",
+                                "tr": "Komşu kadın, bütün uzun ömrü boyunca evlenmemiş bir <w>matmazel</w> olarak kaldı.",
+                                "es": "La vecina permaneció como una <w>señorita</w> soltera durante toda su larga vida.",
+                                "zh": "那位女邻居终其一生都是一个未婚的<w>老姑娘</w>。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -58,7 +200,149 @@
                             "trait_type": "dated",
                             "comment": "wird heute im allgemeinen Sprachgebrauch vermieden"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Outdated term for an unmarried adult woman.",
+                        "ru": "Устаревшее обозначение незамужней взрослой женщины.",
+                        "nl": "Verouderde aanduiding voor een ongehuwde, volwassen vrouw.",
+                        "pl": "Przestarzałe określenie dorosłej, niezamężnej kobiety.",
+                        "fr": "Désignation vieillie pour une femme adulte célibataire.",
+                        "it": "Termine disusato per indicare una donna adulta nubile, non sposata.",
+                        "cs": "Zastaralé označení pro dospělou neprovdanou ženu.",
+                        "tr": "Yetişkin ve bekâr kadınlar için eskiden kullanılan bir niteleme.",
+                        "es": "Denominación en desuso para referirse a una mujer adulta que no está casada.",
+                        "zh": "指成年未婚女性的旧式称谓。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "miss",
+                                "target_lang_sense_clarification": "unmarried woman"
+                            },
+                            {
+                                "target_lang_word": "spinster",
+                                "target_lang_sense_clarification": "older unmarried woman"
+                            },
+                            {
+                                "target_lang_word": "unmarried woman",
+                                "target_lang_sense_clarification": "single adult female"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "девушка",
+                                "target_lang_sense_clarification": "незамужняя особа женского пола"
+                            },
+                            {
+                                "target_lang_word": "незамужняя женщина",
+                                "target_lang_sense_clarification": "женщина, не состоящая в браке"
+                            },
+                            {
+                                "target_lang_word": "барышня",
+                                "target_lang_sense_clarification": "незамужняя девушка или женщина"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "mejuffrouw",
+                                "target_lang_sense_clarification": "ongehuwde volwassen vrouw"
+                            },
+                            {
+                                "target_lang_word": "vrijster",
+                                "target_lang_sense_clarification": "ongehuwde vrouw, vaak op gevorderde leeftijd"
+                            },
+                            {
+                                "target_lang_word": "ongehuwde vrouw",
+                                "target_lang_sense_clarification": "volwassen vrouw die niet getrouwd is"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "panna",
+                                "target_lang_sense_clarification": "kobieta, która nigdy nie wyszła za mąż"
+                            },
+                            {
+                                "target_lang_word": "niezamężna kobieta",
+                                "target_lang_sense_clarification": "kobieta stanu wolnego"
+                            },
+                            {
+                                "target_lang_word": "stara panna",
+                                "target_lang_sense_clarification": "w odniesieniu do starszej kobiety niezamężnej"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "femme adulte non mariée"
+                            },
+                            {
+                                "target_lang_word": "mademoiselle",
+                                "target_lang_sense_clarification": "statut d'une femme non mariée"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "signorina",
+                                "target_lang_sense_clarification": "donna nubile"
+                            },
+                            {
+                                "target_lang_word": "donna nubile",
+                                "target_lang_sense_clarification": "donna adulta non coniugata"
+                            },
+                            {
+                                "target_lang_word": "nubile",
+                                "target_lang_sense_clarification": "donna celibe o non maritata"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "slečna",
+                                "target_lang_sense_clarification": "neprovdaná žena"
+                            },
+                            {
+                                "target_lang_word": "svobodná žena",
+                                "target_lang_sense_clarification": "žena, která nevstoupila do manželství"
+                            },
+                            {
+                                "target_lang_word": "stará panna",
+                                "target_lang_sense_clarification": "starší neprovdaná žena (zejména v obratu altes Fräulein)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bekâr kadın",
+                                "target_lang_sense_clarification": "evlenmemiş yetişkin kadın"
+                            },
+                            {
+                                "target_lang_word": "matmazel",
+                                "target_lang_sense_clarification": "evlenmemiş kadın medeni hali veya tanımı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "señorita",
+                                "target_lang_sense_clarification": "mujer adulta y soltera"
+                            },
+                            {
+                                "target_lang_word": "mujer soltera",
+                                "target_lang_sense_clarification": "mujer que no ha contraído matrimonio"
+                            },
+                            {
+                                "target_lang_word": "solterona",
+                                "target_lang_sense_clarification": "mujer de cierta edad que permanece sin casarse"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "小姐",
+                                "target_lang_sense_clarification": "指未婚状态的成年女性"
+                            },
+                            {
+                                "target_lang_word": "未婚女子",
+                                "target_lang_sense_clarification": "成年未婚女性"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "2968f7c7-7452-3e02-b272-22811e7ee91a",
@@ -69,10 +353,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Hör sofort damit auf, junges <w>Fräulein</w>, sonst musst du dein Zimmer aufräumen!"
+                            "text": "Hör sofort damit auf, junges <w>Fräulein</w>, sonst musst du dein Zimmer aufräumen!",
+                            "target_lang_translations": {
+                                "en": "Stop that immediately, young <w>lady</w>, or else you'll have to tidy up your room!",
+                                "ru": "Немедленно прекрати, юная <w>леди</w>, иначе придётся убирать свою комнату!",
+                                "nl": "Hou daar onmiddellijk mee op, jonge <w>dame</w>, anders moet je je kamer opruimen!",
+                                "pl": "Przestań natychmiast, <w>młoda damo</w>, bo inaczej będziesz musiała posprzątać swój pokój!",
+                                "fr": "Arrête ça tout de suite, jeune <w>demoiselle</w>, sinon tu vas devoir ranger ta chambre !",
+                                "it": "Smettila immediatamente, giovane <w>signorina</w>, altrimenti dovrai riordinare la tua stanza!",
+                                "cs": "Okamžitě s tím přestaň, <w>mladá dámo</w>, jinak si budeš muset uklidit pokoj!",
+                                "tr": "Bunu hemen kes <w>küçük hanım</w>, yoksa odanı toplamak zorunda kalırsın!",
+                                "es": "¡Deja eso inmediatamente, <w>jovencita</w>, o tendrás que recoger tu habitación!",
+                                "zh": "马上住手，<w>小姑娘</w>，否则你就得去打扫自己的房间！"
+                            }
                         },
                         {
-                            "text": "So geht das aber nicht, mein liebes <w>Fräulein</w>, sei jetzt bitte leise."
+                            "text": "So geht das aber nicht, mein liebes <w>Fräulein</w>, sei jetzt bitte leise.",
+                            "target_lang_translations": {
+                                "en": "That won't do at all, <w>missy</w>, please be quiet now.",
+                                "ru": "Так дело не пойдёт, милая <w>барышня</w>, веди себя тихо, пожалуйста.",
+                                "nl": "Zo gaat dat zomaar niet, beste <w>juffrouw</w>, wees nu alsjeblieft stil.",
+                                "pl": "Tak nie może być, moja droga <w>panienko</w>, bądź teraz cicho, proszę.",
+                                "fr": "Ça ne se passe pas comme ça, ma petite <w>mademoiselle</w>, sois calme maintenant, s'il te plaît.",
+                                "it": "Così non va proprio bene, mia cara <w>signorina</w>, per favore fai silenzio adesso.",
+                                "cs": "Takhle to ale nepůjde, milá <w>panenko</w>, buď teď prosím zticha.",
+                                "tr": "Böyle olmaz ama sevgili <w>küçük hanım</w>, lütfen şimdi sessiz ol.",
+                                "es": "Así no pueden ser las cosas, querida <w>señorita</w>, por favor guarda silencio.",
+                                "zh": "这样可不行，我的好<w>姑娘</w>，现在请安静点。"
+                            }
                         }
                     ],
                     "traits": [
@@ -80,7 +388,125 @@
                             "trait_type": "colloquial",
                             "comment": "ermahnend im familiären Kontext"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Scolding or playful form of address for a young girl when misbehaving.",
+                        "ru": "Укоризненное или шутливое обращение к девочке при озорстве или непослушании.",
+                        "nl": "Berispende of schertsende aanspreekvorm voor een jong meisje bij ondeugend gedrag.",
+                        "pl": "Karcący lub żartobliwy zwrot do młodej dziewczynki przy nieposłuszeństwie bądź psotach.",
+                        "fr": "Appellation réprobatrice ou taquine adressée à une jeune fille désobéissante.",
+                        "it": "Appellativo di rimprovero o scherzoso rivolto a una bambina o ragazzina disubbidiente.",
+                        "cs": "Káravé nebo žertovné oslovení mladé dívky při neposlušnosti.",
+                        "tr": "Yaramazlık veya itaatsizlik durumunda genç bir kıza yönelik sitemli veya şakacı hitap.",
+                        "es": "Fórmula de reproche o amonestación en tono severo o burlón dirigida a una niña o muchacha traviesa o desobediente.",
+                        "zh": "对不听话或淘气的小女孩带有训诫或开玩笑语气的称呼。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "young lady",
+                                "target_lang_sense_clarification": "scolding address to a girl"
+                            },
+                            {
+                                "target_lang_word": "missy",
+                                "target_lang_sense_clarification": "playful or stern address to a young girl"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "юная леди",
+                                "target_lang_sense_clarification": "строгое или нравоучительное обращение к девочке"
+                            },
+                            {
+                                "target_lang_word": "барышня",
+                                "target_lang_sense_clarification": "укоризненное обращение к девочке"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "jongedame",
+                                "target_lang_sense_clarification": "vermanende aanspreektitel voor een meisje"
+                            },
+                            {
+                                "target_lang_word": "juffrouwtje",
+                                "target_lang_sense_clarification": "schertsende of vermanende aanspreektitel"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "panienka",
+                                "target_lang_sense_clarification": "żartobliwy lub karcący zwrot do nieposłusznej dziewczynki"
+                            },
+                            {
+                                "target_lang_word": "młoda dama",
+                                "target_lang_sense_clarification": "upominający zwrot rodziców do córki"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "mademoiselle",
+                                "target_lang_sense_clarification": "apostrophe de réprimande ou de taquinerie adressée à une fillette"
+                            },
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "interpellation taquine ou sévère"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "signorina",
+                                "target_lang_sense_clarification": "richiamo severo o scherzoso a una bambina"
+                            },
+                            {
+                                "target_lang_word": "giovinetta",
+                                "target_lang_sense_clarification": "appellativo ammonitore rivolto a una ragazza"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "mladá dáma",
+                                "target_lang_sense_clarification": "napomínající oslovení dívky"
+                            },
+                            {
+                                "target_lang_word": "panenka",
+                                "target_lang_sense_clarification": "důrazné nebo káravé oslovení dívky"
+                            },
+                            {
+                                "target_lang_word": "slečinka",
+                                "target_lang_sense_clarification": "žertovné či káravé oslovení dívky"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "küçük hanım",
+                                "target_lang_sense_clarification": "yaramazlık yapan bir kıza sitem veya uyarı hitabı"
+                            },
+                            {
+                                "target_lang_word": "hanımefendi",
+                                "target_lang_sense_clarification": "çocuğa sitemli veya yarı şaka yollu hitap"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "señorita",
+                                "target_lang_sense_clarification": "apelativo de advertencia o llamada de atención a una niña"
+                            },
+                            {
+                                "target_lang_word": "jovencita",
+                                "target_lang_sense_clarification": "llamada de atención severa o cariñosa a una niña"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "小姑娘",
+                                "target_lang_sense_clarification": "训诫或戏谑时对小女孩的称呼"
+                            },
+                            {
+                                "target_lang_word": "大小姐",
+                                "target_lang_sense_clarification": "带责备或玩笑口吻的称谓"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "1dc326ea-dee2-318e-99b8-e996a0a3b496",
@@ -91,10 +517,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Im Restaurant rief der ungeduldige Gast laut nach dem <w>Fräulein</w>, um zu bezahlen."
+                            "text": "Im Restaurant rief der ungeduldige Gast laut nach dem <w>Fräulein</w>, um zu bezahlen.",
+                            "target_lang_translations": {
+                                "en": "In the restaurant, the impatient guest called loudly for the <w>waitress</w> in order to pay.",
+                                "ru": "В ресторане нетерпеливый гость громко позвал <w>официантку</w>, чтобы расплатиться.",
+                                "nl": "In het restaurant riep de ongeduldige gast luid naar de <w>juffrouw</w> om af te rekenen.",
+                                "pl": "W restauracji niecierpliwy gość zawołał głośno <w>kelnerkę</w>, aby zapłacić.",
+                                "fr": "Au restaurant, le client impatient interpella bruyamment la <w>serveuse</w> pour payer.",
+                                "it": "Al ristorante, il cliente impaziente chiamò a gran voce la <w>cameriera</w> per pagare.",
+                                "cs": "V restauraci netrpělivý host hlasitě volal <w>slečnu</w>, aby zaplatil.",
+                                "tr": "Restoranda sabırsız müşteri, hesabı ödemek için yüksek sesle <w>garsona</w> seslendi.",
+                                "es": "En el restaurante, el cliente impaciente llamó en voz alta a la <w>señorita</w> para pagar.",
+                                "zh": "在餐馆里，急躁的顾客大声叫<w>服务员</w>来结账。"
+                            }
                         },
                         {
-                            "text": "Das berühmte <w>Fräulein</w> vom Amt stellte früher alle Telefongespräche von Hand durch."
+                            "text": "Das berühmte <w>Fräulein</w> vom Amt stellte früher alle Telefongespräche von Hand durch.",
+                            "target_lang_translations": {
+                                "en": "The famous switchboard <w>operator</w> used to put through all telephone calls by hand.",
+                                "ru": "Знаменитая «<w>барышня</w> со станции» раньше соединяла все телефонные разговоры вручную.",
+                                "nl": "De befaamde <w>telefoniste</w> verbond vroeger alle telefoongesprekken handmatig door.",
+                                "pl": "Słynna <w>panienka</w> z centrali łączyła kiedyś wszystkie rozmowy telefoniczne ręcznie.",
+                                "fr": "La célèbre <w>demoiselle</w> du téléphone transférait autrefois toutes les communications à la main.",
+                                "it": "La celebre <w>signorina</w> del centralino inoltrava un tempo tutte le telefonate a mano.",
+                                "cs": "Slavná telefonní <w>spojovatelka</w> dříve přepojovala všechny hovory ručně.",
+                                "tr": "Eski zamanların meşhur santral <w>memuresi</w>, bütün telefon görüşmelerini elle bağlardı.",
+                                "es": "La famosa <w>telefonista</w> de la centralita transfería antiguamente todas las llamadas a mano.",
+                                "zh": "以前著名的电话局女<w>话务员</w>都是人工转接所有通话。"
+                            }
                         }
                     ],
                     "common_phrases": [
@@ -105,7 +555,161 @@
                             "trait_type": "dated",
                             "comment": "für Servicekräfte und Angestellte nicht mehr gebräuchlich"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Former form of address or job title for a female server or clerk.",
+                        "ru": "Прежнее обращение к работнице сферы обслуживания либо обозначение профессии служащей.",
+                        "nl": "Vroegere aanspreekvorm of beroepsbenaming voor een vrouwelijke bediende of werkneemster.",
+                        "pl": "Dawny zwrot lub określenie zawodu kobiety obsługującej gości lub pracownicy biurowej.",
+                        "fr": "Ancienne formule d'appel ou désignation professionnelle pour une employée de service ou de bureau.",
+                        "it": "Vecchia formula di richiamo o qualifica professionale per una cameriera, commessa o impiegata.",
+                        "cs": "Dřívější oslovení nebo profesní označení pro ženskou obsluhu či zaměstnankyni.",
+                        "tr": "Kadın servis elemanları veya büro çalışanları için eskiden kullanılan hitap veya meslek unvanı.",
+                        "es": "Antigua fórmula para llamar a una camarera, dependienta o empleada de cara al público, o denominación de su oficio.",
+                        "zh": "过去对女服务员或女性职员（如接线员）的称呼或职业称谓。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "waitress",
+                                "target_lang_sense_clarification": "female server"
+                            },
+                            {
+                                "target_lang_word": "miss",
+                                "target_lang_sense_clarification": "dated address to a female service worker"
+                            },
+                            {
+                                "target_lang_word": "operator",
+                                "target_lang_sense_clarification": "female switchboard operator"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "официантка",
+                                "target_lang_sense_clarification": "работница заведения общественного питания"
+                            },
+                            {
+                                "target_lang_word": "девушка",
+                                "target_lang_sense_clarification": "обращение к официантке или служащей"
+                            },
+                            {
+                                "target_lang_word": "телефонистка",
+                                "target_lang_sense_clarification": "работница телефонной станции"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "juffrouw",
+                                "target_lang_sense_clarification": "aanspreektitel voor een vrouwelijke bediende of telefoniste"
+                            },
+                            {
+                                "target_lang_word": "serveerster",
+                                "target_lang_sense_clarification": "vrouwelijke bediening in de horeca"
+                            },
+                            {
+                                "target_lang_word": "telefoniste",
+                                "target_lang_sense_clarification": "vrouw die telefonische verbindingen tot stand bracht"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "panienka",
+                                "target_lang_sense_clarification": "dawny zwrot do kelnerki lub ekspedientki"
+                            },
+                            {
+                                "target_lang_word": "kelnerka",
+                                "target_lang_sense_clarification": "kobieta obsługująca w lokalu gastronomicznym"
+                            },
+                            {
+                                "target_lang_word": "telefonistka",
+                                "target_lang_sense_clarification": "w odniesieniu do dawnej pracownicy centrali telefonicznej"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "serveuse",
+                                "target_lang_sense_clarification": "employée de salle dans un restaurant ou un café"
+                            },
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "employée ou opératrice (p. ex. du téléphone)"
+                            },
+                            {
+                                "target_lang_word": "mademoiselle",
+                                "target_lang_sense_clarification": "interpellation d'une employée de service"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "cameriera",
+                                "target_lang_sense_clarification": "personale di servizio femminile nei locali"
+                            },
+                            {
+                                "target_lang_word": "signorina",
+                                "target_lang_sense_clarification": "appellativo formale per impiegata o cameriera"
+                            },
+                            {
+                                "target_lang_word": "centralinista",
+                                "target_lang_sense_clarification": "operatrice del telefono nei vecchi uffici"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "slečna",
+                                "target_lang_sense_clarification": "oslovení obsluhující ženy či úřednice"
+                            },
+                            {
+                                "target_lang_word": "servírka",
+                                "target_lang_sense_clarification": "obsluhující v restauraci"
+                            },
+                            {
+                                "target_lang_word": "spojovatelka",
+                                "target_lang_sense_clarification": "pracovnice telefonní ústředny (Fräulein vom Amt)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "garson",
+                                "target_lang_sense_clarification": "kadın servis görevlisi"
+                            },
+                            {
+                                "target_lang_word": "memure",
+                                "target_lang_sense_clarification": "eski kadın büro veya telefon santrali çalışanı"
+                            },
+                            {
+                                "target_lang_word": "matmazel",
+                                "target_lang_sense_clarification": "kadın çalışanlara yönelik eski hitap"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "señorita",
+                                "target_lang_sense_clarification": "antiguo tratamiento para dirigirse a una empleada de servicio"
+                            },
+                            {
+                                "target_lang_word": "camarera",
+                                "target_lang_sense_clarification": "empleada de cafetería o restaurante"
+                            },
+                            {
+                                "target_lang_word": "telefonista",
+                                "target_lang_sense_clarification": "operadora de centralita telefónica"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "服务员",
+                                "target_lang_sense_clarification": "餐馆等场所的女服务员"
+                            },
+                            {
+                                "target_lang_word": "小姐",
+                                "target_lang_sense_clarification": "旧时对女店员或服务人员的称呼"
+                            },
+                            {
+                                "target_lang_word": "话务员",
+                                "target_lang_sense_clarification": "旧时电话局女接线员（Fräulein vom Amt）"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "cc9bb2e3-0e0c-338e-b685-31130d92cded",
@@ -116,10 +720,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Das hübsche junge <w>Fräulein</w> spazierte verträumt durch den herbstlichen Schlosspark."
+                            "text": "Das hübsche junge <w>Fräulein</w> spazierte verträumt durch den herbstlichen Schlosspark.",
+                            "target_lang_translations": {
+                                "en": "The pretty young <w>maiden</w> strolled dreamily through the autumnal palace park.",
+                                "ru": "Красивая юная <w>барышня</w> мечтательно прогуливалась по осеннему замковому парку.",
+                                "nl": "De mooie jonge <w>jonkvrouw</w> wandelde dromerig door het herfstachtige kasteelpark.",
+                                "pl": "Ładna młoda <w>panienka</w> spacerowała zamyślona po jesiennym parku pałacowym.",
+                                "fr": "La jolie jeune <w>demoiselle</w> se promenait d'un air songeur dans le parc automnal du château.",
+                                "it": "La graziosa e giovane <w>fanciulla</w> passeggiava soprappensiero nel parco autunnale del castello.",
+                                "cs": "Pěkná mladá <w>dívka</w> se zasněně procházela podzimním zámeckým parkem.",
+                                "tr": "Güzel <w>genç kız</w>, sonbahar renklerine bürünmüş saray parkında dalgın dalgın geziniyordu.",
+                                "es": "La hermosa y joven <w>doncella</w> paseaba soñadora por el parque otoñal del palacio.",
+                                "zh": "美丽年轻的<w>少女</w>若有所思地漫步在秋意浓浓的城堡公园中。"
+                            }
                         },
                         {
-                            "text": "In den alten Balladen wird oft von einem holden <w>Fräulein</w> berichtet."
+                            "text": "In den alten Balladen wird oft von einem holden <w>Fräulein</w> berichtet.",
+                            "target_lang_translations": {
+                                "en": "In the old ballads, tales are often told of a fair <w>maiden</w>.",
+                                "ru": "В старинных балладах часто рассказывается о прекрасной <w>деве</w>.",
+                                "nl": "In de oude ballades wordt vaak verteld over een schone <w>jonkvrouw</w>.",
+                                "pl": "W dawnych balladach często opowiada się o nadobnej <w>pannie</w>.",
+                                "fr": "Dans les vieilles ballades, il est souvent question d'une gracieuse <w>demoiselle</w>.",
+                                "it": "Nelle antiche ballate si narra spesso di una soave <w>donzella</w>.",
+                                "cs": "Ve starých baladách se často vypráví o spanilé <w>panně</w>.",
+                                "tr": "Eski baladlarda sık sık latif bir <w>genç kızdan</w> söz edilir.",
+                                "es": "En las antiguas baladas a menudo se relata la historia de una bella <w>doncella</w>.",
+                                "zh": "在古老的叙事诗中，经常讲述关于一位美丽动人的<w>少女</w>的故事。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -134,7 +762,145 @@
                             "trait_type": "dated",
                             "comment": "vor allem in literarischen Texten zu finden"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Elevated or archaic term for a maiden or young girl.",
+                        "ru": "Возвышенное или поэтическое обозначение молодой девушки.",
+                        "nl": "Verheven of verouderde benaming voor een meisje of jonge vrouw.",
+                        "pl": "Wzniosłe lub archaiczne określenie młodej dziewczyny.",
+                        "fr": "Terme soutenu ou archaïque pour désigner une jeune fille.",
+                        "it": "Denominazione arcaica o di registro elevato per una ragazza o giovane donna.",
+                        "cs": "Knižní nebo archaické označení pro dívku.",
+                        "tr": "Genç bir kız için kullanılan edebi veya eski dilde bir niteleme.",
+                        "es": "Denominación poética, culta o arcaica para referirse a una muchacha o joven doncella.",
+                        "zh": "（文雅或古雅语）少女，年轻姑娘。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "maiden",
+                                "target_lang_sense_clarification": "literary or archaic word for a girl"
+                            },
+                            {
+                                "target_lang_word": "damsel",
+                                "target_lang_sense_clarification": "poetic term for a young woman"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "дева",
+                                "target_lang_sense_clarification": "поэтическое обозначение девушки"
+                            },
+                            {
+                                "target_lang_word": "девица",
+                                "target_lang_sense_clarification": "молодая девушка в литературе или фольклоре"
+                            },
+                            {
+                                "target_lang_word": "барышня",
+                                "target_lang_sense_clarification": "молодая девушка"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "jonkvrouw",
+                                "target_lang_sense_clarification": "literaire benaming voor een jonge vrouw"
+                            },
+                            {
+                                "target_lang_word": "maagd",
+                                "target_lang_sense_clarification": "archaïsch voor een jong, ongehuwd meisje"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "panna",
+                                "target_lang_sense_clarification": "młoda dziewczyna w stylu literackim"
+                            },
+                            {
+                                "target_lang_word": "panienka",
+                                "target_lang_sense_clarification": "młoda dziewczyna, panna"
+                            },
+                            {
+                                "target_lang_word": "dziewica",
+                                "target_lang_sense_clarification": "archaicznie lub poetycko o pannie"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "jeune fille, terme poétique ou littéraire"
+                            },
+                            {
+                                "target_lang_word": "jeune fille",
+                                "target_lang_sense_clarification": "adolescente ou femme jeune"
+                            },
+                            {
+                                "target_lang_word": "fille",
+                                "target_lang_sense_clarification": "jeune personne de sexe féminin"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "fanciulla",
+                                "target_lang_sense_clarification": "giovane ragazza in contesto poetico o letterario"
+                            },
+                            {
+                                "target_lang_word": "donzella",
+                                "target_lang_sense_clarification": "termine arcaico o letterario per ragazza"
+                            },
+                            {
+                                "target_lang_word": "damigella",
+                                "target_lang_sense_clarification": "giovane donna in fiore"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dívka",
+                                "target_lang_sense_clarification": "mladá žena"
+                            },
+                            {
+                                "target_lang_word": "panna",
+                                "target_lang_sense_clarification": "knižní výraz pro mladou dívku"
+                            },
+                            {
+                                "target_lang_word": "panenka",
+                                "target_lang_sense_clarification": "mladá nevdaná dívka"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "genç kız",
+                                "target_lang_sense_clarification": "edebi veya şiirsel dilde genç kadın"
+                            },
+                            {
+                                "target_lang_word": "hanım kız",
+                                "target_lang_sense_clarification": "kibar, genç kız"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "doncella",
+                                "target_lang_sense_clarification": "joven mujer en sentido literario o arcaico"
+                            },
+                            {
+                                "target_lang_word": "muchacha",
+                                "target_lang_sense_clarification": "joven de sexo femenino"
+                            },
+                            {
+                                "target_lang_word": "damisela",
+                                "target_lang_sense_clarification": "término literario o poético para una joven"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "少女",
+                                "target_lang_sense_clarification": "文学或古风用语中的年轻女子"
+                            },
+                            {
+                                "target_lang_word": "姑娘",
+                                "target_lang_sense_clarification": "年轻女子"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "cd30ff81-491f-3108-b627-d5d8a6432a31",
@@ -145,22 +911,183 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Die Novelle erzählt die spannende Geschichte über das adlige <w>Fräulein</w> von Scuderi."
+                            "text": "Die Novelle erzählt die spannende Geschichte über das adlige <w>Fräulein</w> von Scuderi.",
+                            "target_lang_translations": {
+                                "en": "The novella tells the exciting story of the noble <w>lady</w> von Scuderi.",
+                                "ru": "Новелла рассказывает захватывающую историю о благородной <w>девице</w> фон Скюдери.",
+                                "nl": "De novelle vertelt het spannende verhaal over de adellijke <w>jonkvrouw</w> von Scuderi.",
+                                "pl": "Nowela opowiada pasjonującą historię o szlachetnie urodzonej <w>pannie</w> von Scuderi.",
+                                "fr": "La nouvelle raconte l'histoire captivante de la noble <w>demoiselle</w> de Scudéry.",
+                                "it": "La novella racconta l'avvincente storia della nobile <w>damigella</w> di Scudéry.",
+                                "cs": "Novela vypráví napínavý příběh o šlechtické <w>slečně</w> ze Scudéry.",
+                                "tr": "Novella, soylu <w>matmazel</w> von Scuderi hakkındaki heyecan verici hikâyeyi anlatır.",
+                                "es": "La novela corta cuenta la apasionante historia sobre la noble <w>damisela</w> de Scudéri.",
+                                "zh": "这部中篇小说讲述了关于贵族<w>小姐</w>斯居代里的精彩故事。"
+                            }
                         },
                         {
-                            "text": "Der junge Ritter ritt zum Schloss, um das schöne <w>Fräulein</w> zu sehen."
+                            "text": "Der junge Ritter ritt zum Schloss, um das schöne <w>Fräulein</w> zu sehen.",
+                            "target_lang_translations": {
+                                "en": "The young knight rode to the castle to see the beautiful <w>damsel</w>.",
+                                "ru": "Молодой рыцарь поскакал к замку, чтобы увидеть прекрасную <w>деву</w>.",
+                                "nl": "De jonge ridder reed naar het kasteel om de mooie <w>jonkvrouw</w> te zien.",
+                                "pl": "Młody rycerz pojechał na zamek, aby ujrzeć piękną <w>pannę</w>.",
+                                "fr": "Le jeune chevalier chevaucha jusqu'au château pour apercevoir la belle <w>damoiselle</w>.",
+                                "it": "Il giovane cavaliere cavalcò fino al castello per vedere la bella <w>damigella</w>.",
+                                "cs": "Mladý rytíř jel k hradu, aby spatřil krásnou <w>pannu</w>.",
+                                "tr": "Genç şövalye, güzel <w>leydiyi</w> görmek için kaleye doğru at sürdü.",
+                                "es": "El joven caballero cabalgó hasta el castillo para ver a la hermosa <w>doncella</w>.",
+                                "zh": "年轻的骑士骑马前往城堡，去看望那位美丽的<w>千金</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
                         "Edelfräulein"
                     ],
-                    "antonyms": [],
                     "traits": [
                         {
                             "trait_type": "archaic",
                             "comment": "historische Standesbezeichnung für adlige Jungfern"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Historical term for an unmarried woman of noble birth.",
+                        "ru": "Историческое обозначение незамужней женщины дворянского происхождения.",
+                        "nl": "Historische standsaanduiding voor een ongehuwde dame van adellijke komaf.",
+                        "pl": "Historyczne określenie niezamężnej damy pochodzenia szlacheckiego.",
+                        "fr": "Titre historique désignant une dame noble non mariée.",
+                        "it": "Denominazione storica per una gentildonna o giovane dama non sposata di rango nobiliare.",
+                        "cs": "Historické označení pro neprovdanou dámu šlechtického původu.",
+                        "tr": "Soylu sınıftan gelen bekâr bir hanımefendi için kullanılan tarihi niteleme.",
+                        "es": "Término histórico para designar a una dama soltera perteneciente a la nobleza.",
+                        "zh": "历史上对贵族出身的未婚年轻女士的称谓。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "noble maiden",
+                                "target_lang_sense_clarification": "unmarried noblewoman"
+                            },
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "historical term for a young gentlewoman"
+                            },
+                            {
+                                "target_lang_word": "lady",
+                                "target_lang_sense_clarification": "unmarried noblewoman"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "благородная девица",
+                                "target_lang_sense_clarification": "незамужняя дворянка"
+                            },
+                            {
+                                "target_lang_word": "барышня",
+                                "target_lang_sense_clarification": "дочь господ, дворянка"
+                            },
+                            {
+                                "target_lang_word": "девица",
+                                "target_lang_sense_clarification": "официальное именование незамужней дворянки"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "jonkvrouw",
+                                "target_lang_sense_clarification": "ongehuwde vrouw van adel"
+                            },
+                            {
+                                "target_lang_word": "freule",
+                                "target_lang_sense_clarification": "adellijke, ongehuwde vrouw"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "panna",
+                                "target_lang_sense_clarification": "niezamężna szlachcianka"
+                            },
+                            {
+                                "target_lang_word": "panienka",
+                                "target_lang_sense_clarification": "córka szlachecka, panna ze dworu"
+                            },
+                            {
+                                "target_lang_word": "dama",
+                                "target_lang_sense_clarification": "niezamężna kobieta szlachetnego rodu"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "damoiselle",
+                                "target_lang_sense_clarification": "jeune femme de la noblesse au Moyen Âge"
+                            },
+                            {
+                                "target_lang_word": "demoiselle",
+                                "target_lang_sense_clarification": "femme de condition noble célibataire"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "damigella",
+                                "target_lang_sense_clarification": "giovane donna di stirpe nobile non maritata"
+                            },
+                            {
+                                "target_lang_word": "donzella",
+                                "target_lang_sense_clarification": "nobile fanciulla d'altri tempi"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "slečna",
+                                "target_lang_sense_clarification": "šlechtična, komtesa"
+                            },
+                            {
+                                "target_lang_word": "šlechtična",
+                                "target_lang_sense_clarification": "neprovdaná dáma ze šlechtického rodu"
+                            },
+                            {
+                                "target_lang_word": "komtesa",
+                                "target_lang_sense_clarification": "neprovdaná dcera hraběte"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "soylu hanım",
+                                "target_lang_sense_clarification": "asil soydan gelen bekâr genç kadın"
+                            },
+                            {
+                                "target_lang_word": "leydi",
+                                "target_lang_sense_clarification": "soylu genç kadın"
+                            },
+                            {
+                                "target_lang_word": "matmazel",
+                                "target_lang_sense_clarification": "soylu ve bekâr genç hanım"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "damisela",
+                                "target_lang_sense_clarification": "mujer joven y soltera de clase noble"
+                            },
+                            {
+                                "target_lang_word": "doncella",
+                                "target_lang_sense_clarification": "joven soltera de estirpe noble"
+                            },
+                            {
+                                "target_lang_word": "señorita",
+                                "target_lang_sense_clarification": "tratamiento de cortesía para una dama noble soltera"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "贵族小姐",
+                                "target_lang_sense_clarification": "贵族出身的未婚女青年"
+                            },
+                            {
+                                "target_lang_word": "千金",
+                                "target_lang_sense_clarification": "名门闺秀或贵族未婚小姐"
+                            }
+                        ]
+                    }
                 }
             ]
         }

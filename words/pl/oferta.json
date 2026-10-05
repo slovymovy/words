@@ -17,15 +17,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dostałem wczoraj bardzo ciekawą <ofertę> pracy w dużej firmie.",
+                            "text": "Dostałem wczoraj bardzo ciekawą <w>ofertę</w> pracy w dużej firmie.",
                             "target_lang_translations": {
-                                "ru": "Вчера я получил очень интересное <w>предложение</w> работы в крупной компании."
+                                "ru": "Вчера я получил очень интересное <w>предложение</w> работы в крупной компании.",
+                                "en": "Yesterday I received a very interesting job <w>offer</w> at a large company.",
+                                "nl": "Ik heb gisteren een heel interessant werk<w>aanbod</w> gekregen bij een groot bedrijf.",
+                                "de": "Ich habe gestern ein sehr interessantes <w>Jobangebot</w> von einem großen Unternehmen bekommen.",
+                                "fr": "J'ai reçu hier une <w>offre</w> d'emploi très intéressante dans une grande entreprise.",
+                                "it": "Ieri ho ricevuto un'<w>offerta</w> di lavoro molto interessante in una grande azienda.",
+                                "cs": "Včera jsem dostal velmi zajímavou pracovní <w>nabídku</w> ve velké firmě.",
+                                "tr": "Dün büyük bir şirketten çok ilginç bir iş <w>teklifi</w> aldım.",
+                                "es": "Ayer recibí una <w>oferta</w> de trabajo muy interesante en una gran empresa.",
+                                "zh": "我昨天收到了大公司一份非常诱人的工作<w>录用通知</w>。"
                             }
                         },
                         {
-                            "text": "To jest <oferta> specjalna, która obowiązuje tylko do końca tygodnia.",
+                            "text": "To jest <w>oferta</w> specjalna, która obowiązuje tylko do końca tygodnia.",
                             "target_lang_translations": {
-                                "ru": "Это специальное <w>предложение</w>, которое действует только до конца недели."
+                                "ru": "Это специальное <w>предложение</w>, которое действует только до конца недели.",
+                                "en": "This is a special <w>offer</w> that is valid only until the end of the week.",
+                                "nl": "Dit is een speciale <w>aanbieding</w> die slechts geldig is tot het einde van de week.",
+                                "de": "Das ist ein <w>Sonderangebot</w>, das nur bis Ende der Woche gilt.",
+                                "fr": "C'est une <w>offre</w> spéciale qui n'est valable que jusqu'à la fin de la semaine.",
+                                "it": "Questa è un'<w>offerta</w> speciale valida solo fino alla fine della settimana.",
+                                "cs": "Toto je speciální <w>nabídka</w>, která platí pouze do konce týdne.",
+                                "tr": "Bu, yalnızca hafta sonuna kadar geçerli olan özel bir <w>tekliftir</w>.",
+                                "es": "Esta es una <w>oferta</w> especial que solo es válida hasta finales de semana.",
+                                "zh": "这是一项特殊<w>优惠</w>，仅在本周末前有效。"
                             }
                         }
                     ],
@@ -40,13 +58,112 @@
                         "odrzucić ofertę"
                     ],
                     "target_lang_definitions": {
-                        "ru": "То, что предлагается кому-либо; предложение сделать что-либо, купить или продать."
+                        "ru": "То, что предлагается кому-либо; предложение сделать что-либо, купить или продать.",
+                        "en": "Something proposed to someone; a suggestion or proposal to do, buy, or sell something.",
+                        "nl": "Wat aan iemand wordt voorgesteld; een voorstel om iets te doen, te kopen of te verkopen.",
+                        "de": "Etwas, das jemandem vorgeschlagen oder offeriert wird; Vorschlag zu einer Handlung, zum Kauf oder Verkauf.",
+                        "fr": "Proposition faite à quelqu'un de faire quelque chose, d'acheter ou de vendre.",
+                        "it": "Ciò che viene proposto a qualcuno; proposta di fare qualcosa, comprare o vendere.",
+                        "cs": "To, co se někomu navrhuje; návrh něco udělat, koupit nebo prodat.",
+                        "tr": "Birine sunulan şey; bir şey yapma, satın alma veya satma önerisi.",
+                        "es": "Lo que se propone a alguien; propuesta para hacer algo, o para comprar o vender.",
+                        "zh": "向某人提出的建议或提议，如做某事、买卖交易等。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "предложение",
                                 "target_lang_sense_clarification": "пропозиция, вариант"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "offer",
+                                "target_lang_sense_clarification": "general proposal to buy, sell, or do something"
+                            },
+                            {
+                                "target_lang_word": "proposal",
+                                "target_lang_sense_clarification": "plan or scheme suggested for consideration"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "aanbod",
+                                "target_lang_sense_clarification": "algemeen voorstel of aanbieding"
+                            },
+                            {
+                                "target_lang_word": "aanbieding",
+                                "target_lang_sense_clarification": "speciale prijs of voorstel"
+                            },
+                            {
+                                "target_lang_word": "voorstel",
+                                "target_lang_sense_clarification": "suggestie of plan"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Angebot",
+                                "target_lang_sense_clarification": "Vorschlag, Offerte"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "offre",
+                                "target_lang_sense_clarification": "proposition générale, offre d'emploi, offre spéciale"
+                            },
+                            {
+                                "target_lang_word": "proposition",
+                                "target_lang_sense_clarification": "suggestion, proposition formelle ou informelle"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "offerta",
+                                "target_lang_sense_clarification": "proposta generica, promozionale o di lavoro"
+                            },
+                            {
+                                "target_lang_word": "proposta",
+                                "target_lang_sense_clarification": "invito a fare qualcosa o accordo"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nabídka",
+                                "target_lang_sense_clarification": "návrh ke koupi či činnosti"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "teklif",
+                                "target_lang_sense_clarification": "öneri, iş veya satış teklifi"
+                            },
+                            {
+                                "target_lang_word": "öneri",
+                                "target_lang_sense_clarification": "tavsiye, sunulan seçenek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "oferta",
+                                "target_lang_sense_clarification": "propuesta de compra, trabajo o descuento"
+                            },
+                            {
+                                "target_lang_word": "propuesta",
+                                "target_lang_sense_clarification": "invitación o sugerencia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "提议",
+                                "target_lang_sense_clarification": "一般的提议或倡议"
+                            },
+                            {
+                                "target_lang_word": "录用通知",
+                                "target_lang_sense_clarification": "工作录用，offer"
+                            },
+                            {
+                                "target_lang_word": "优惠",
+                                "target_lang_sense_clarification": "特惠活动，特价"
                             }
                         ]
                     }
@@ -60,15 +177,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Sklep ma w swojej <ofercie> szeroki wybór świeżych owoców i warzyw.",
+                            "text": "Sklep ma w swojej <w>ofercie</w> szeroki wybór świeżych owoców i warzyw.",
                             "target_lang_translations": {
-                                "ru": "В <w>ассортименте</w> магазина представлен широкий выбор свежих фруктов и овощей."
+                                "ru": "В <w>ассортименте</w> магазина представлен широкий выбор свежих фруктов и овощей.",
+                                "en": "The store has a wide selection of fresh fruits and vegetables in its <w>range</w>.",
+                                "nl": "De winkel heeft in zijn <w>assortiment</w> een ruime keuze aan verse groenten en fruit.",
+                                "de": "Das Geschäft führt in seinem <w>Sortiment</w> eine große Auswahl an frischem Obst und Gemüse.",
+                                "fr": "Le magasin propose dans son <w>assortiment</w> un large choix de fruits et légumes frais.",
+                                "it": "Il negozio ha nel suo <w>assortimento</w> un'ampia scelta di frutta e verdura fresca.",
+                                "cs": "Obchod má ve své <w>nabídce</w> široký výběr čerstvého ovoce a zeleniny.",
+                                "tr": "Mağazanın <w>ürün yelpazesinde</w> taze meyve ve sebzelerden oluşan geniş bir çeşitlilik bulunuyor.",
+                                "es": "La tienda tiene en su <w>oferta</w> una amplia selección de frutas y verduras frescas.",
+                                "zh": "这家商店供应的<w>商品</w>中有品种丰富的各色新鲜果蔬。"
                             }
                         },
                         {
-                            "text": "Nasza <oferta> handlowa jest skierowana głównie do małych przedsiębiorstw.",
+                            "text": "Nasza <w>oferta</w> handlowa jest skierowana głównie do małych przedsiębiorstw.",
                             "target_lang_translations": {
-                                "ru": "Наше коммерческое <w>предложение</w> ориентировано в основном на малые предприятия."
+                                "ru": "Наше коммерческое <w>предложение</w> ориентировано в основном на малые предприятия.",
+                                "en": "Our commercial <w>offering</w> is primarily aimed at small businesses.",
+                                "nl": "Ons commerciële <w>aanbod</w> is voornamelijk gericht op kleine ondernemingen.",
+                                "de": "Unser kommerzielles <w>Angebot</w> richtet sich vor allem an kleine Unternehmen.",
+                                "fr": "Notre <w>offre</w> commerciale s'adresse principalement aux petites entreprises.",
+                                "it": "La nostra <w>offerta</w> commerciale è rivolta principalmente alle piccole imprese.",
+                                "cs": "Naše obchodní <w>nabídka</w> je zaměřena především na malé podniky.",
+                                "tr": "<w>Ürün yelpazemiz</w> esas olarak küçük işletmelere yöneliktir.",
+                                "es": "Nuestra <w>oferta</w> comercial está dirigida principalmente a pequeñas empresas.",
+                                "zh": "我们的商业<w>产品服务</w>主要面向小型企业。"
                             }
                         }
                     ],
@@ -83,7 +218,16 @@
                         "zapoznać się z ofertą"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Набор товаров или услуг, которые компания или магазин предлагает клиентам."
+                        "ru": "Набор товаров или услуг, которые компания или магазин предлагает клиентам.",
+                        "en": "A range of goods or services offered to customers by a company or store.",
+                        "nl": "Het geheel van goederen of diensten dat een bedrijf of winkel aan klanten te koop aanbiedt.",
+                        "de": "Gesamtheit der Waren oder Dienstleistungen, die ein Unternehmen oder Geschäft Kunden zum Kauf anbietet.",
+                        "fr": "Ensemble des biens ou services qu'une entreprise ou un magasin propose aux clients.",
+                        "it": "Insieme di beni o servizi che un'azienda o un negozio propone ai clienti.",
+                        "cs": "Soubor zboží nebo služeb, které firma či obchod nabízí zákazníkům k nákupu.",
+                        "tr": "Bir şirketin veya mağazanın müşterilere sunduğu mal veya hizmetlerin tümü.",
+                        "es": "Conjunto de bienes o servicios que una empresa o tienda pone a disposición de sus clientes.",
+                        "zh": "企业或商店向客户提供的商品或服务组合。"
                     },
                     "translations": {
                         "ru": [
@@ -94,6 +238,120 @@
                             {
                                 "target_lang_word": "предложение",
                                 "target_lang_sense_clarification": "совокупность услуг на рынке"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "range",
+                                "target_lang_sense_clarification": "variety or selection of products or services"
+                            },
+                            {
+                                "target_lang_word": "offering",
+                                "target_lang_sense_clarification": "collection of products or services provided by a business"
+                            },
+                            {
+                                "target_lang_word": "selection",
+                                "target_lang_sense_clarification": "assortment of available goods"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "assortiment",
+                                "target_lang_sense_clarification": "aanbod van producten of goederen"
+                            },
+                            {
+                                "target_lang_word": "aanbod",
+                                "target_lang_sense_clarification": "totaal aan beschikbare goederen of diensten"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Angebot",
+                                "target_lang_sense_clarification": "Waren- oder Leistungspalette"
+                            },
+                            {
+                                "target_lang_word": "Sortiment",
+                                "target_lang_sense_clarification": "Warenauswahl eines Geschäfts"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "offre",
+                                "target_lang_sense_clarification": "ensemble de produits ou de prestations proposés sur le marché"
+                            },
+                            {
+                                "target_lang_word": "gamme",
+                                "target_lang_sense_clarification": "éventail de produits ou services disponibles"
+                            },
+                            {
+                                "target_lang_word": "assortiment",
+                                "target_lang_sense_clarification": "choix d'articles dans un commerce"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "offerta",
+                                "target_lang_sense_clarification": "gamma di prodotti o servizi disponibili"
+                            },
+                            {
+                                "target_lang_word": "assortimento",
+                                "target_lang_sense_clarification": "varietà di merci disponibili"
+                            },
+                            {
+                                "target_lang_word": "gamma",
+                                "target_lang_sense_clarification": "insieme di prodotti"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nabídka",
+                                "target_lang_sense_clarification": "sortiment, portfolio služeb"
+                            },
+                            {
+                                "target_lang_word": "sortiment",
+                                "target_lang_sense_clarification": "výběr zboží"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ürün yelpazesi",
+                                "target_lang_sense_clarification": "sunulan ürün çeşitliliği"
+                            },
+                            {
+                                "target_lang_word": "çeşit",
+                                "target_lang_sense_clarification": "mağazadaki mal varlığı"
+                            },
+                            {
+                                "target_lang_word": "hizmetler",
+                                "target_lang_sense_clarification": "şirketin sunduğu paket"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "oferta",
+                                "target_lang_sense_clarification": "gama de productos o servicios disponibles"
+                            },
+                            {
+                                "target_lang_word": "surtido",
+                                "target_lang_sense_clarification": "variedad de mercancías"
+                            },
+                            {
+                                "target_lang_word": "gama",
+                                "target_lang_sense_clarification": "conjunto de productos ofrecidos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "商品",
+                                "target_lang_sense_clarification": "供应的商品类别或服务"
+                            },
+                            {
+                                "target_lang_word": "产品服务",
+                                "target_lang_sense_clarification": "商业供应范围"
+                            },
+                            {
+                                "target_lang_word": "服务项目",
+                                "target_lang_sense_clarification": "所提供的服务或业务范围"
                             }
                         ]
                     }
@@ -107,15 +365,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Firma budowlana przygotowała szczegółową <ofertę> przetargową na budowę mostu.",
+                            "text": "Firma budowlana przygotowała szczegółową <w>ofertę</w> przetargową na budowę mostu.",
                             "target_lang_translations": {
-                                "ru": "Строительная компания подготовила подробное тендерное <w>предложение</w> на строительство моста."
+                                "ru": "Строительная компания подготовила подробное тендерное <w>предложение</w> на строительство моста.",
+                                "en": "The construction company prepared a detailed <w>tender</w> for the bridge construction.",
+                                "nl": "Het bouwbedrijf heeft een gedetailleerde <w>offerte</w> opgesteld voor de aanbesteding van de brug.",
+                                "de": "Das Bauunternehmen hat ein detailliertes <w>Ausschreibungsangebot</w> für den Bau der Brücke vorbereitet.",
+                                "fr": "L'entreprise de construction a préparé une <w>offre</w> détaillée pour l'appel d'offres de la construction du pont.",
+                                "it": "L'impresa edile ha preparato un'<w>offerta</w> di gara dettagliata per la costruzione del ponte.",
+                                "cs": "Stavební firma připravila podrobnou výběrovou <w>nabídku</w> na stavbu mostu.",
+                                "tr": "İnşaat şirketi, köprü yapımı için ayrıntılı bir ihale <w>teklifi</w> hazırladı.",
+                                "es": "La empresa constructora preparó una <w>oferta</w> de licitación detallada para la construcción del puente.",
+                                "zh": "建筑公司为大桥建设项目准备了详尽的<w>投标书</w>。"
                             }
                         },
                         {
-                            "text": "Ta <oferta> jest wiążąca i wygasa po upływie trzydziestu dni.",
+                            "text": "Ta <w>oferta</w> jest wiążąca i wygasa po upływie trzydziestu dni.",
                             "target_lang_translations": {
-                                "ru": "Эта <w>оферта</w> является обязательной и истекает через тридцать дней."
+                                "ru": "Эта <w>оферта</w> является обязательной и истекает через тридцать дней.",
+                                "en": "This <w>offer</w> is binding and expires after thirty days.",
+                                "nl": "Deze <w>offerte</w> is bindend en verloopt na dertig dagen.",
+                                "de": "Dieses <w>Angebot</w> ist verbindlich und erlischt nach Ablauf von dreißig Tagen.",
+                                "fr": "Cette <w>offre</w> est ferme et expire après un délai de trente jours.",
+                                "it": "Questa <w>offerta</w> è vincolante e scade dopo trenta giorni.",
+                                "cs": "Tato <w>nabídka</w> je závazná a vyprší po uplynutí třiceti dnů.",
+                                "tr": "Bu <w>teklif</w> bağlayıcıdır ve otuz gün sonra geçerliliğini yitirir.",
+                                "es": "Esta <w>oferta</w> es vinculante y caduca transcurridos treinta días.",
+                                "zh": "该项<w>要约</w>具有法律约束力，并在三十天后失效。"
                             }
                         }
                     ],
@@ -125,7 +401,16 @@
                         "oferta wiążąca"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Официальное предложение заключить договор на строго определенных юридических и финансовых условиях."
+                        "ru": "Официальное предложение заключить договор на строго определенных юридических и финансовых условиях.",
+                        "en": "A formal proposal to enter into a contract with specified legal and financial terms.",
+                        "nl": "Een formeel voorstel om een overeenkomst aan te gaan onder strikt bepaalde juridische en financiële voorwaarden.",
+                        "de": "Verbindlicher Vorschlag zum Abschluss eines Vertrags zu genau festgelegten rechtlichen und finanziellen Bedingungen.",
+                        "fr": "Proposition officielle et juridiquement encadrée de conclure un contrat selon des conditions déterminées.",
+                        "it": "Proposta formale e vincolante di concludere un contratto a determinate condizioni legali ed economiche.",
+                        "cs": "Oficiální návrh na uzavření smlouvy s přesně stanovenými právními a finančními podmínkami.",
+                        "tr": "Belirli hukuki ve finansal şartlar içeren resmi bir sözleşme yapma teklifi.",
+                        "es": "Propuesta formal para celebrar un contrato bajo condiciones legales y financieras determinadas.",
+                        "zh": "在明确的法律和财务条件下，提出缔结合同的正式要约或标书。"
                     },
                     "translations": {
                         "ru": [
@@ -136,6 +421,108 @@
                             {
                                 "target_lang_word": "коммерческое предложение",
                                 "target_lang_sense_clarification": "деловое предложение"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "offer",
+                                "target_lang_sense_clarification": "legally binding invitation to enter into a contract"
+                            },
+                            {
+                                "target_lang_word": "tender",
+                                "target_lang_sense_clarification": "formal bid for a contract or project"
+                            },
+                            {
+                                "target_lang_word": "bid",
+                                "target_lang_sense_clarification": "formal price offer submitted in procurement or auctions"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "offerte",
+                                "target_lang_sense_clarification": "formeel prijs- en leveringsvoorstel"
+                            },
+                            {
+                                "target_lang_word": "bod",
+                                "target_lang_sense_clarification": "formeel bod bij aanbesteding of veiling"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Angebot",
+                                "target_lang_sense_clarification": "verbindlicher Vertragsantrag"
+                            },
+                            {
+                                "target_lang_word": "Offerte",
+                                "target_lang_sense_clarification": "formelles oder geschäftliches Angebot"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "offre",
+                                "target_lang_sense_clarification": "soumission, proposition contractuelle ou commerciale"
+                            },
+                            {
+                                "target_lang_word": "soumission",
+                                "target_lang_sense_clarification": "dans le cadre d'un appel d'offres"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "offerta",
+                                "target_lang_sense_clarification": "proposta contrattuale vincolante o commerciale"
+                            },
+                            {
+                                "target_lang_word": "preventivo",
+                                "target_lang_sense_clarification": "stima dei costi e condizioni in ambito professionale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "nabídka",
+                                "target_lang_sense_clarification": "cenová či výběrová nabídka"
+                            },
+                            {
+                                "target_lang_word": "oferta",
+                                "target_lang_sense_clarification": "právní návrh na uzavření smlouvy"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "teklif",
+                                "target_lang_sense_clarification": "ihale veya ticari teklif"
+                            },
+                            {
+                                "target_lang_word": "icap",
+                                "target_lang_sense_clarification": "hukuki bağlayıcılığı olan öneri"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "oferta",
+                                "target_lang_sense_clarification": "propuesta contractual o licitación"
+                            },
+                            {
+                                "target_lang_word": "propuesta",
+                                "target_lang_sense_clarification": "propuesta económica o técnica"
+                            },
+                            {
+                                "target_lang_word": "licitación",
+                                "target_lang_sense_clarification": "en concursos o contratos públicos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "报价",
+                                "target_lang_sense_clarification": "商业报价"
+                            },
+                            {
+                                "target_lang_word": "投标书",
+                                "target_lang_sense_clarification": "招标中的投标方案"
+                            },
+                            {
+                                "target_lang_word": "要约",
+                                "target_lang_sense_clarification": "法律术语，具约束力的缔约提议"
                             }
                         ]
                     }

@@ -15,15 +15,33 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "W <czerwcu> zaczynają się długo wyczekiwane wakacje szkolne.",
+                            "text": "W <w>czerwcu</w> zaczynają się długo wyczekiwane wakacje szkolne.",
                             "target_lang_translations": {
-                                "ru": "В <июне> начинаются долгожданные школьные каникулы."
+                                "ru": "В <w>июне</w> начинаются долгожданные школьные каникулы.",
+                                "en": "The long-awaited school holidays begin in <w>June</w>.",
+                                "nl": "In <w>juni</w> begint de langverwachte schoolvakantie.",
+                                "de": "Im <w>Juni</w> beginnen die lang ersehnten Sommerferien.",
+                                "fr": "C'est en <w>juin</w> que commencent les vacances scolaires tant attendues.",
+                                "it": "A <w>giugno</w> iniziano le tanto attese vacanze scolastiche.",
+                                "cs": "V <w>červnu</w> začínají dlouho očekávané letní prázdniny.",
+                                "tr": "Dört gözle beklenen okul tatili <w>haziranda</w> başlar.",
+                                "es": "En <w>junio</w> empiezan las tan esperadas vacaciones escolares.",
+                                "zh": "令人期待已久的学校暑假在<w>六月</w>开始了。"
                             }
                         },
                         {
-                            "text": "Mój brat ma urodziny pierwszego <czerwca>.",
+                            "text": "Mój brat ma urodziny pierwszego <w>czerwca</w>.",
                             "target_lang_translations": {
-                                "ru": "У моего брата день рождения первого <июня>."
+                                "ru": "У моего брата день рождения первого <w>июня</w>.",
+                                "en": "My brother's birthday is on the first of <w>June</w>.",
+                                "nl": "Mijn broer is op één <w>juni</w> jarig.",
+                                "de": "Mein Bruder hat am ersten <w>Juni</w> Geburtstag.",
+                                "fr": "L'anniversaire de mon frère est le premier <w>juin</w>.",
+                                "it": "Mio fratello compie gli anni il primo di <w>giugno</w>.",
+                                "cs": "Můj bratr má narozeniny prvního <w>června</w>.",
+                                "tr": "Erkek kardeşimin doğum günü 1 <w>Haziran'da</w>.",
+                                "es": "Mi hermano cumple años el primero de <w>junio</w>.",
+                                "zh": "我哥哥的生日是在<w>六月</w>一日。"
                             }
                         }
                     ],
@@ -34,13 +52,76 @@
                         "ciepły czerwiec"
                     ],
                     "target_lang_definitions": {
-                        "ru": "Шестой месяц года в григорианском календаре, следующий за маем и предшествующий июлю."
+                        "ru": "Шестой месяц года в григорианском календаре, следующий за маем и предшествующий июлю.",
+                        "en": "The sixth month of the Gregorian calendar, having 30 days, occurring after May and before July.",
+                        "nl": "De zesde maand van het jaar in de gregoriaanse kalender, met 30 dagen, na mei en voor juli.",
+                        "de": "Der sechste Monat des Jahres im gregorianischen Kalender mit 30 Tagen, zwischen Mai und Juli.",
+                        "fr": "Sixième mois de l’année civile dans le calendrier grégorien, comptant 30 jours, situé après mai et avant juillet.",
+                        "it": "Il sesto mese dell'anno nel calendario gregoriano, composto da 30 giorni, compreso tra maggio e luglio.",
+                        "cs": "Šestý měsíc roku v gregoriánském kalendáři, který má 30 dní, následuje po květnu a předchází červenci.",
+                        "tr": "Miladi takvime göre yılın otuz gün süren, mayıstan sonra ve temmuzdan önce gelen altıncı ayı.",
+                        "es": "Sexto mes del año en el calendario gregoriano, que tiene 30 días, situado entre mayo y julio.",
+                        "zh": "公历一年的第六个月，有30天，介于五月和七月之间。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "июнь",
                                 "target_lang_sense_clarification": "месяц"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "June",
+                                "target_lang_sense_clarification": "month"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "juni",
+                                "target_lang_sense_clarification": "de zesde maand van het jaar"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Juni",
+                                "target_lang_sense_clarification": "Monat"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "juin",
+                                "target_lang_sense_clarification": "mois de l'année"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "giugno",
+                                "target_lang_sense_clarification": "mese dell'anno"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "červen",
+                                "target_lang_sense_clarification": "měsíc"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "haziran",
+                                "target_lang_sense_clarification": "yılın altıncı ayı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "junio",
+                                "target_lang_sense_clarification": "mes del año"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "六月",
+                                "target_lang_sense_clarification": "月份"
                             }
                         ]
                     }
@@ -54,20 +135,47 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dawniej <czerwiec> polski był cennym towarem eksportowym.",
+                            "text": "Dawniej <w>czerwiec</w> polski był cennym towarem eksportowym.",
                             "target_lang_translations": {
-                                "ru": "Раньше польский <червец> был ценным экспортным товаром."
+                                "ru": "Раньше польский <w>червец</w> был ценным экспортным товаром.",
+                                "en": "In the past, Polish <w>cochineal</w> was a valuable export commodity.",
+                                "nl": "Vroeger was de Poolse <w>cochenilleluis</w> een waardevol exportproduct.",
+                                "de": "Früher war die Polnische <w>Cochenille</w> ein wertvolles Exportgut.",
+                                "fr": "Autrefois, la <w>cochenille</w> de Pologne était une marchandise d'exportation précieuse.",
+                                "it": "In passato la <w>cocciniglia</w> polacca era una merce d'esportazione preziosa.",
+                                "cs": "V minulosti byl <w>červec</w> polský cenným vývozním zbožím.",
+                                "tr": "Eskiden Polonya <w>košnili</w> değerli bir ihraç ürünüydü.",
+                                "es": "Antiguamente, la <w>cochinilla</w> polaca era un valioso producto de exportación.",
+                                "zh": "过去，波兰<w>胭脂虫</w>是珍贵的出口商品。"
                             }
                         },
                         {
-                            "text": "Biolog badał cykl rozwojowy <czerwca> znalezionego na łące.",
+                            "text": "Biolog badał cykl rozwojowy <w>czerwca</w> znalezionego na łące.",
                             "target_lang_translations": {
-                                "ru": "Биолог изучал цикл развития <червеца>, найденного на лугу."
+                                "ru": "Биолог изучал цикл развития <w>червеца</w>, найденного на лугу.",
+                                "en": "The biologist studied the life cycle of the <w>scale insect</w> found in the meadow.",
+                                "nl": "De bioloog onderzocht de ontwikkelingscyclus van de <w>schildluis</w> die op de weide was gevonden.",
+                                "de": "Der Biologe untersuchte den Entwicklungszyklus einer auf der Wiese gefundenen <w>Schildlaus</w>.",
+                                "fr": "Le biologiste a étudié le cycle de développement d'une <w>cochenille</w> trouvée dans une prairie.",
+                                "it": "Il biologo ha studiato il ciclo vitale della <w>cocciniglia</w> trovata nel prato.",
+                                "cs": "Biolog zkoumal vývojový cyklus <w>červce</w> nalezeného na louce.",
+                                "tr": "Biyolog, çayırda bulunan <w>kırmız böceğinin</w> gelişim döngüsünü inceliyordu.",
+                                "es": "El biólogo investigaba el ciclo de desarrollo de la <w>cochinilla</w> encontrada en el prado.",
+                                "zh": "生物学家研究了在草地上发现的<w>蚧虫</w>的生命周期。"
                             }
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Насекомое из надсемейства червецов, из которого раньше получали красный краситель."
+                        "ru": "Насекомое из надсемейства червецов, из которого раньше получали красный краситель.",
+                        "en": "A scale insect from the superfamily Coccoidea, historically used to obtain red dye (cochineal).",
+                        "nl": "Een insect uit de superfamilie van schildluizen, waaruit vroeger een rode kleurstof werd gewonnen.",
+                        "de": "Ein Insekt aus der Überfamilie der Schildläuse, aus dem früher ein roter Farbstoff gewonnen wurde.",
+                        "fr": "Insecte hémiptère parasite dont on extrayait autrefois une teinture rouge vif.",
+                        "it": "Insetto emittero della superfamiglia Coccoidea, da cui in passato si ricavava un colorante rosso.",
+                        "cs": "Hmyz z nadčeledi červců, z něhož se dříve získávalo červené barvivo.",
+                        "tr": "Yarım kanatlılar üst familyasına ait, eskiden kırmızı boya elde etmek için kullanılan bir koşnil böceği türü.",
+                        "es": "Insecto hemíptero del que antiguamente se extraía un tinte de color rojo.",
+                        "zh": "半翅目蚧总科昆虫，旧时曾用于提取红色染料（如波兰胭脂虫）。"
                     },
                     "translations": {
                         "ru": [
@@ -78,6 +186,88 @@
                             {
                                 "target_lang_word": "кошениль",
                                 "target_lang_sense_clarification": "насекомое/краситель"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "scale insect",
+                                "target_lang_sense_clarification": "superfamily Coccoidea"
+                            },
+                            {
+                                "target_lang_word": "cochineal",
+                                "target_lang_sense_clarification": "insect yielding red dye, e.g. Polish cochineal"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "cochenilleluis",
+                                "target_lang_sense_clarification": "insect waaruit rode kleurstof werd gewonnen"
+                            },
+                            {
+                                "target_lang_word": "schildluis",
+                                "target_lang_sense_clarification": "insectenfamilie waartoe de soort behoort"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Schildlaus",
+                                "target_lang_sense_clarification": "Insekt allgemein"
+                            },
+                            {
+                                "target_lang_word": "Cochenilleschildlaus",
+                                "target_lang_sense_clarification": "Farbstofflieferndes Insekt"
+                            },
+                            {
+                                "target_lang_word": "Polnische Cochenille",
+                                "target_lang_sense_clarification": "Porphyrophora polonica"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "cochenille",
+                                "target_lang_sense_clarification": "insecte produisant une teinture rouge"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "cocciniglia",
+                                "target_lang_sense_clarification": "insetto parassita"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "červec",
+                                "target_lang_sense_clarification": "hmyz"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "koşnil",
+                                "target_lang_sense_clarification": "böcek"
+                            },
+                            {
+                                "target_lang_word": "kırmız böceği",
+                                "target_lang_sense_clarification": "böcek"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "cochinilla",
+                                "target_lang_sense_clarification": "insecto parásito productor de tinte"
+                            },
+                            {
+                                "target_lang_word": "quermes",
+                                "target_lang_sense_clarification": "insecto de tinte rojo"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "胭脂虫",
+                                "target_lang_sense_clarification": "昆虫，可提取染料"
+                            },
+                            {
+                                "target_lang_word": "蚧虫",
+                                "target_lang_sense_clarification": "昆虫"
                             }
                         ]
                     }
@@ -91,26 +281,119 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "<Czerwiec> roczny jest pospolitym chwastem rosnącym na polach.",
+                            "text": "<w>Czerwiec</w> roczny jest pospolitym chwastem rosnącym na polach.",
                             "target_lang_translations": {
-                                "ru": "<Дивала> однолетняя — распространённый сорняк, растущий на полях."
+                                "ru": "<w>Дивала</w> однолетняя — распространённый сорняк, растущий на полях.",
+                                "en": "Annual <w>knawel</w> is a common weed growing in fields.",
+                                "nl": "De eenjarige <w>hardbloem</w> is een algemeen onkruid op akkers.",
+                                "de": "Das Einjährige <w>Knäuelkraut</w> ist ein häufiges Unkraut auf Äckern.",
+                                "fr": "La <w>gnavelle</w> annuelle est une mauvaise herbe commune qui pousse dans les champs.",
+                                "it": "Lo <w>scleranto</w> annuo è una comune erba infestante che cresce nei campi.",
+                                "cs": "<w>Chmerek</w> roční je běžný plevel rostoucí na polích.",
+                                "tr": "Bir yıllık <w>kınalıot</w>, tarlalarda yetişen yaygın bir yabani ottur.",
+                                "es": "El <w>escleranto</w> anual es una maleza común que crece en los campos.",
+                                "zh": "一年生<w>硬叶草</w>是田间常见的杂草。"
                             }
                         },
                         {
-                            "text": "W atlasie botanicznym znalazłem dokładny opis <czerwca>.",
+                            "text": "W atlasie botanicznym znalazłem dokładny opis <w>czerwca</w>.",
                             "target_lang_translations": {
-                                "ru": "В ботаническом атласе я нашёл подробное описание <дивалы>."
+                                "ru": "В ботаническом атласе я нашёл подробное описание <w>дивалы</w>.",
+                                "en": "I found a detailed description of the <w>knawel</w> in the botanical atlas.",
+                                "nl": "In de botanische atlas vond ik een gedetailleerde beschrijving van de <w>hardbloem</w>.",
+                                "de": "Im Botanikatlas fand ich eine genaue Beschreibung des <w>Knäuelkrauts</w>.",
+                                "fr": "Dans l'atlas de botanique, j'ai trouvé une description détaillée du <w>scléranthe</w>.",
+                                "it": "Nell'atlante botanico ho trovato una descrizione dettagliata dello <w>scleranto</w>.",
+                                "cs": "V botanickém atlase jsem našel podrobný popis <w>chmerku</w>.",
+                                "tr": "Botanik atlasında <w>kınalıotun</w> ayrıntılı bir tanımını buldum.",
+                                "es": "En el atlas botánico encontré una descripción detallada del <w>escleranto</w>.",
+                                "zh": "我在植物图鉴中找到了关于<w>线漆姑草</w>的详细描述。"
                             }
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Небольшое травянистое растение семейства гвоздичных, растущее на песчаных почвах."
+                        "ru": "Небольшое травянистое растение семейства гвоздичных, растущее на песчаных почвах.",
+                        "en": "A small herbaceous plant of the genus Scleranthus in the pink family (Caryophyllaceae), growing on sandy soils.",
+                        "nl": "Een klein kruidachtig plantje uit de anjerfamilie, dat voorkomt op zandgronden.",
+                        "de": "Kleine krautige Pflanze aus der Familie der Nelkengewächse, die auf sandigen Böden wächst.",
+                        "fr": "Petite plante herbacée de la famille des Caryophyllacées, poussant sur des sols sablonneux.",
+                        "it": "Piccola pianta erbacea della famiglia delle Cariofillacee (genere Scleranthus), tipica dei suoli sabbiosi.",
+                        "cs": "Drobná bylina z čeledi hvozdíkovitých, rostoucí na písčitých půdách.",
+                        "tr": "Karanfilgiller familyasından, kumlu topraklarda yetişen küçük, otsu bir bitki (Scleranthus).",
+                        "es": "Pequeña planta herbácea de la familia de las cariofiláceas que crece en suelos arenosos (género Scleranthus).",
+                        "zh": "石竹科线漆姑草属（Scleranthus）的一年生或多年生草本植物，多生长在沙质土壤中。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "дивала",
                                 "target_lang_sense_clarification": "растение"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "knawel",
+                                "target_lang_sense_clarification": "plant genus Scleranthus"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "hardbloem",
+                                "target_lang_sense_clarification": "geslacht Scleranthus"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Knäuelkraut",
+                                "target_lang_sense_clarification": "Pflanzengattung Scleranthus"
+                            },
+                            {
+                                "target_lang_word": "Einjähriges Knäuelkraut",
+                                "target_lang_sense_clarification": "Scleranthus annuus"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "scléranthe",
+                                "target_lang_sense_clarification": "genre de plantes (Scleranthus)"
+                            },
+                            {
+                                "target_lang_word": "gnavelle",
+                                "target_lang_sense_clarification": "nom vernaculaire de plante"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "scleranto",
+                                "target_lang_sense_clarification": "pianta del genere Scleranthus"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "chmerek",
+                                "target_lang_sense_clarification": "rostlina (Scleranthus)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kınalıot",
+                                "target_lang_sense_clarification": "bitki (Scleranthus)"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "escleranto",
+                                "target_lang_sense_clarification": "planta (género Scleranthus)"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "硬叶草",
+                                "target_lang_sense_clarification": "植物（石竹科线漆姑草属）"
+                            },
+                            {
+                                "target_lang_word": "线漆姑草",
+                                "target_lang_sense_clarification": "植物"
                             }
                         ]
                     }
@@ -129,15 +412,33 @@
                     "name_type": "person_name",
                     "examples": [
                         {
-                            "text": "Pan <Czerwiec> został wybrany na przewodniczącego rady osiedla.",
+                            "text": "Pan <w>Czerwiec</w> został wybrany na przewodniczącego rady osiedla.",
                             "target_lang_translations": {
-                                "ru": "Господин <Червец> был избран председателем совета микрорайона."
+                                "ru": "Господин <w>Червец</w> был избран председателем совета микрорайона.",
+                                "en": "Mr. <w>Czerwiec</w> was elected chairman of the neighborhood council.",
+                                "nl": "De heer <w>Czerwiec</w> werd gekozen tot voorzitter van de wijkraad.",
+                                "de": "Herr <w>Czerwiec</w> wurde zum Vorsitzenden des Siedlungsrats gewählt.",
+                                "fr": "M. <w>Czerwiec</w> a été élu président du conseil de quartier.",
+                                "it": "Il signor <w>Czerwiec</w> è stato eletto presidente del comitato di quartiere.",
+                                "cs": "Pan <w>Czerwiec</w> byl zvolen předsedou místní rady.",
+                                "tr": "Bay <w>Czerwiec</w> mahalle meclisi başkanlığına seçildi.",
+                                "es": "El señor <w>Czerwiec</w> fue elegido presidente de la junta vecinal.",
+                                "zh": "<w>切尔维茨</w>先生当选为社区委员会主席。"
                             }
                         },
                         {
-                            "text": "Wczoraj listonosz przyniósł paczkę dla państwa <Czerwców>.",
+                            "text": "Wczoraj listonosz przyniósł paczkę dla państwa <w>Czerwców</w>.",
                             "target_lang_translations": {
-                                "ru": "Вчера почтальон принёс посылку для четы <Червецов>."
+                                "ru": "Вчера почтальон принёс посылку для четы <w>Червецов</w>.",
+                                "en": "Yesterday the postman brought a parcel for the <w>Czerwiecs</w>.",
+                                "nl": "Gisteren bezorgde de postbode een pakketje voor de familie <w>Czerwiec</w>.",
+                                "de": "Gestern brachte der Briefträger ein Paket für die Familie <w>Czerwiec</w>.",
+                                "fr": "Hier, le facteur a apporté un colis pour la famille <w>Czerwiec</w>.",
+                                "it": "Ieri il postino ha portato un pacco per i coniugi <w>Czerwiec</w>.",
+                                "cs": "Včera pošťák přinesl balíček pro manžele <w>Czerwcovi</w>.",
+                                "tr": "Dün postacı <w>Czerwiec</w> ailesi için bir paket getirdi.",
+                                "es": "Ayer el cartero trajo un paquete para los señores <w>Czerwiec</w>.",
+                                "zh": "昨天邮递员送来了给<w>切尔维茨</w>夫妇的包裹。"
                             }
                         }
                     ],
@@ -148,13 +449,76 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "ru": "Польская мужская или женская фамилия."
+                        "ru": "Польская мужская или женская фамилия.",
+                        "en": "A Polish surname.",
+                        "nl": "Poolse achternaam voor een man of vrouw.",
+                        "de": "Polnischer männlicher oder weiblicher Nachname.",
+                        "fr": "Nom de famille polonais.",
+                        "it": "Cognome polacco maschile o femminile.",
+                        "cs": "Polské mužské nebo ženské příjmení.",
+                        "tr": "Polonya kökenli bir erkek veya kadın soyadı.",
+                        "es": "Apellido polaco, masculino o femenino.",
+                        "zh": "波兰人姓氏。"
                     },
                     "translations": {
                         "ru": [
                             {
                                 "target_lang_word": "Червец",
                                 "target_lang_sense_clarification": "фамилия"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "surname"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "achternaam"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "Familienname"
+                            }
+                        ],
+                        "fr": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "nom de famille"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "cognome"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "příjmení"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "özel soyadı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Czerwiec",
+                                "target_lang_sense_clarification": "apellido polaco"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "切尔维茨",
+                                "target_lang_sense_clarification": "姓氏"
                             }
                         ]
                     }

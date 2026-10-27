@@ -171,21 +171,21 @@
                         "ja": [
                             {
                                 "target_lang_word": "洗濯する",
-                                "target_lang_sense_clarification": "衣類や布類を洗うこと。乾燥やアイロンがけまで含めて家事として言うことが多い。"
+                                "target_lang_sense_clarification": "家事として衣類を洗う"
                             },
                             {
                                 "target_lang_word": "洗う",
-                                "target_lang_sense_clarification": "衣類を水で洗い、汚れを落とすこと。アイロンがけは含まない一般的な語。"
+                                "target_lang_sense_clarification": "一般的な語、アイロンは含まない"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "lavar e passar a ferro",
-                                "target_lang_sense_clarification": "descreve a lavagem da roupa seguida da passagem a ferro"
+                                "target_lang_sense_clarification": "lavar e depois passar a ferro"
                             },
                             {
                                 "target_lang_word": "lavar",
-                                "target_lang_sense_clarification": "termo geral para lavar roupa; não inclui por si só a ideia de passar a ferro"
+                                "target_lang_sense_clarification": "termo geral, sem passar a ferro"
                             }
                         ]
                     }
@@ -326,21 +326,21 @@
                         "ja": [
                             {
                                 "target_lang_word": "マネーロンダリングする",
-                                "target_lang_sense_clarification": "犯罪で得た資金の出所を隠すため、合法的な取引や事業を経由させること。ニュースや法律の文章で広く使われる言い方。"
+                                "target_lang_sense_clarification": "ニュースなどで広く使う"
                             },
                             {
                                 "target_lang_word": "資金洗浄する",
-                                "target_lang_sense_clarification": "不正に得た資金を合法的な事業に通して出所を分からなくすこと。法律や金融の場で使われる正式な言い方。"
+                                "target_lang_sense_clarification": "法律・金融の正式な言い方"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "branquear capitais",
-                                "target_lang_sense_clarification": "termo técnico e jurídico para a lavagem de dinheiro de origem ilícita"
+                                "target_lang_sense_clarification": "termo técnico e jurídico"
                             },
                             {
                                 "target_lang_word": "branquear dinheiro",
-                                "target_lang_sense_clarification": "expressão corrente para ocultar a origem ilegal de dinheiro"
+                                "target_lang_sense_clarification": "expressão corrente"
                             }
                         ]
                     }
@@ -492,29 +492,29 @@
                         "ja": [
                             {
                                 "target_lang_word": "洗い流す",
-                                "target_lang_sense_clarification": "水などを流して汚れや物を取り去ること。"
+                                "target_lang_sense_clarification": "水などを流して汚れや物を取り去ること"
                             },
                             {
                                 "target_lang_word": "濡らす",
-                                "target_lang_sense_clarification": "液体を付けて、ぬれた状態にすること。汚れを落とす意味は含まない。"
+                                "target_lang_sense_clarification": "液体でぬらす、汚れは落とさない"
                             },
                             {
                                 "target_lang_word": "洗う",
-                                "target_lang_sense_clarification": "水などで汚れを落とすこと。やや文語的な響きがあり、詩的な描写によく合う。"
+                                "target_lang_sense_clarification": "波などが洗う、文語的な響き"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "lavar",
-                                "target_lang_sense_clarification": "uso literário: a água que passa sobre algo e o limpa, como a chuva ou as ondas"
+                                "target_lang_sense_clarification": "literário: a chuva ou as ondas"
                             },
                             {
                                 "target_lang_word": "banhar",
-                                "target_lang_sense_clarification": "passar água ou outro líquido por cima de uma superfície, em sentido poético"
+                                "target_lang_sense_clarification": "sentido poético"
                             },
                             {
                                 "target_lang_word": "molhar",
-                                "target_lang_sense_clarification": "apenas humedecer com um líquido, sem a ideia de limpeza"
+                                "target_lang_sense_clarification": "só humedecer, sem limpar"
                             }
                         ]
                     }
@@ -557,7 +557,7 @@
                                 "tr": "C++ dilinde, yeniden kullanılan depolama alanındaki nesnelere erişirken bir işaretçiyi <w>temizlemeniz</w> gerekir.",
                                 "es": "En C++, debes <w>reutilizar</w> un puntero al acceder a objetos en almacenamiento reutilizado.",
                                 "zh": "在C++中，当访问重用存储空间中的对象时，必须对指针进行<w>清洗</w>。",
-                                "ja": "C++では、再利用された記憶域のオブジェクトにアクセスするときは、ポインタを<w>再利用しなければなりません</w>。",
+                                "ja": "C++では、再利用された記憶域のオブジェクトにアクセスするときは、ポインタに<w>std::launder</w>を適用しなければなりません。",
                                 "pt": "Em C++, é preciso aplicar <w>launder</w> ao ponteiro quando se acede a objetos em armazenamento reutilizado."
                             }
                         }
@@ -650,17 +650,17 @@
                         "ja": [
                             {
                                 "target_lang_word": "再利用する",
-                                "target_lang_sense_clarification": "記憶領域を別の用途や新しいオブジェクトのために使い直すこと。プログラミングの専門用語で、一般の文章ではほとんど使われない。専門書では「ランダー」と表記されることもある。"
+                                "target_lang_sense_clarification": "記憶領域を使い直す"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "reutilizar",
-                                "target_lang_sense_clarification": "termo técnico da programação: usar de novo um espaço de memória para um novo objeto"
+                                "target_lang_sense_clarification": "termo genérico em programação"
                             },
                             {
                                 "target_lang_word": "launder",
-                                "target_lang_sense_clarification": "função de C++ que reutiliza memória para um novo objeto"
+                                "target_lang_sense_clarification": "função std::launder do C++"
                             }
                         ]
                     }
@@ -818,21 +818,21 @@
                         "ja": [
                             {
                                 "target_lang_word": "洗濯婦",
-                                "target_lang_sense_clarification": "洗濯を職業とする女性を指す歴史的な語。現代ではあまり使われない。"
+                                "target_lang_sense_clarification": "女性を指す歴史的な語"
                             },
                             {
                                 "target_lang_word": "洗濯人",
-                                "target_lang_sense_clarification": "洗濯を職業とする人を指す一般的な言い方。性別は問わない。"
+                                "target_lang_sense_clarification": "性別を問わない言い方"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "lavadeira",
-                                "target_lang_sense_clarification": "mulher que lava roupa de outras pessoas como profissão; termo tradicional"
+                                "target_lang_sense_clarification": "mulher; termo tradicional"
                             },
                             {
                                 "target_lang_word": "lavadeiro",
-                                "target_lang_sense_clarification": "homem que lava roupa de outras pessoas como profissão"
+                                "target_lang_sense_clarification": "homem"
                             }
                         ]
                     }
@@ -994,21 +994,21 @@
                         "ja": [
                             {
                                 "target_lang_word": "雨樋",
-                                "target_lang_sense_clarification": "屋根の端に取り付け、雨水を集めて地面へ流す樋。"
+                                "target_lang_sense_clarification": "屋根の雨水を流す樋"
                             },
                             {
                                 "target_lang_word": "排水溝",
-                                "target_lang_sense_clarification": "雨水や汚水を流すために地面や壁に作られた溝。"
+                                "target_lang_sense_clarification": "地面などに作った溝"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "caleira",
-                                "target_lang_sense_clarification": "calha fixada na beira do telhado para recolher e escoar a água da chuva"
+                                "target_lang_sense_clarification": "calha na beira do telhado"
                             },
                             {
                                 "target_lang_word": "calha",
-                                "target_lang_sense_clarification": "canal aberto que conduz a água, usado em telhados ou em obras de drenagem"
+                                "target_lang_sense_clarification": "canal aberto, telhados ou drenagem"
                             }
                         ]
                     }
@@ -1148,21 +1148,21 @@
                         "ja": [
                             {
                                 "target_lang_word": "掛樋",
-                                "target_lang_sense_clarification": "支柱で支えて架け渡し、水を水車などへ導く木製の樋。水車に関する歴史的な用語。"
+                                "target_lang_sense_clarification": "架け渡した木製の樋"
                             },
                             {
                                 "target_lang_word": "導水路",
-                                "target_lang_sense_clarification": "水を別の場所へ導くための水路。水車へ水を送る水路も含む。"
+                                "target_lang_sense_clarification": "水を導く水路全般"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "calha",
-                                "target_lang_sense_clarification": "canal que leva a água à roda de um moinho"
+                                "target_lang_sense_clarification": "canal que leva a água ao moinho"
                             },
                             {
                                 "target_lang_word": "canal de adução",
-                                "target_lang_sense_clarification": "canal técnico que conduz a água a uma roda hidráulica"
+                                "target_lang_sense_clarification": "termo técnico"
                             }
                         ]
                     }
@@ -1298,21 +1298,21 @@
                         "ja": [
                             {
                                 "target_lang_word": "洗鉱樋",
-                                "target_lang_sense_clarification": "砕いた鉱石を水で洗い、金属などを分けるための鉱山の樋。"
+                                "target_lang_sense_clarification": "鉱石を水で洗う樋"
                             },
                             {
                                 "target_lang_word": "選鉱樋",
-                                "target_lang_sense_clarification": "水の流れを使って鉱石を大きさや比重によって選り分ける樋。"
+                                "target_lang_sense_clarification": "水流で鉱石を選別する樋"
                             }
                         ],
                         "pt": [
                             {
                                 "target_lang_word": "calha de lavagem",
-                                "target_lang_sense_clarification": "calha usada para lavar o minério e separar o ouro ou outros metais"
+                                "target_lang_sense_clarification": "para lavar minério e separar metais"
                             },
                             {
                                 "target_lang_word": "calha",
-                                "target_lang_sense_clarification": "usada isoladamente, refere-se à calha de lavagem numa mina; o contexto deve indicar o sentido mineiro"
+                                "target_lang_sense_clarification": "forma abreviada, em contexto mineiro"
                             }
                         ]
                     }

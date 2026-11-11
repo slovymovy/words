@@ -13,13 +13,49 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Tu vas souvent à Paris en train ? Oui, j'<w>y</w> vais tous les mois."
+                            "text": "Tu vas souvent à Paris en train ? Oui, j'<w>y</w> vais tous les mois.",
+                            "target_lang_translations": {
+                                "en": "Do you often go to Paris by train? Yes, I go <w>there</w> every month.",
+                                "ru": "Ты часто ездишь в Париж на поезде? Да, я <w>туда</w> езжу каждый месяц.",
+                                "nl": "Ga je vaak met de trein naar Parijs? Ja, elke maand ga ik <w>erheen</w>.",
+                                "de": "Fährst du oft mit dem Zug nach Paris? Ja, ich fahre jeden Monat <w>dorthin</w>.",
+                                "pl": "Często jeździsz do Paryża pociągiem? Tak, jeżdżę <w>tam</w> co miesiąc.",
+                                "it": "Vai spesso a Parigi in treno? Sì, <w>ci</w> vado ogni mese.",
+                                "cs": "Jezdíš často do Paříže vlakem? Ano, jezdím <w>tam</w> každý měsíc.",
+                                "tr": "Sık sık Paris'e trenle gidiyor musun? Evet, her ay <w>oraya</w> gidiyorum.",
+                                "es": "¿Vas a menudo a París en tren? Sí, voy <w>allí</w> todos los meses.",
+                                "zh": "你经常坐火车去巴黎吗？是的，我每个月都去<w>那里</w>。"
+                            }
                         },
                         {
-                            "text": "Ce parc est magnifique, j'<w>y</w> passe tout mon temps libre le week-end."
+                            "text": "Ce parc est magnifique, j'<w>y</w> passe tout mon temps libre le week-end.",
+                            "target_lang_translations": {
+                                "en": "This park is wonderful, I spend all my free time <w>there</w> at weekends.",
+                                "ru": "Этот парк потрясающий, я <w>там</w> провожу всё свободное время по выходным.",
+                                "nl": "Dit park is prachtig, ik breng <w>er</w> in het weekend al mijn vrije tijd door.",
+                                "de": "Dieser Park ist wunderschön, ich verbringe am Wochenende meine ganze Freizeit <w>dort</w>.",
+                                "pl": "Ten park jest piękny, spędzam <w>tam</w> cały wolny czas w weekendy.",
+                                "it": "Questo parco è meraviglioso, nel fine settimana <w>ci</w> trascorro tutto il mio tempo libero.",
+                                "cs": "Ten park je úžasný, o víkendech <w>tam</w> trávím veškerý volný čas.",
+                                "tr": "Bu park harika, hafta sonları boş zamanımın tamamını <w>orada</w> geçiriyorum.",
+                                "es": "Este parque es precioso, los fines de semana paso <w>allí</w> todo mi tiempo libre.",
+                                "zh": "这个公园太棒了，周末我所有的空闲时间都在<w>那里</w>度过。"
+                            }
                         },
                         {
-                            "text": "Si tu cherches tes clés sur la table, elles <w>y</w> sont."
+                            "text": "Si tu cherches tes clés sur la table, elles <w>y</w> sont.",
+                            "target_lang_translations": {
+                                "en": "If you're looking for your keys on the table, they're <w>there</w>.",
+                                "ru": "Если ты ищешь ключи на столе, они <w>там</w>.",
+                                "nl": "Als je je sleutels op tafel zoekt, zijn ze <w>daar</w>.",
+                                "de": "Wenn du deine Schlüssel auf dem Tisch suchst, sind sie <w>dort</w>.",
+                                "pl": "Jeśli szukasz kluczy na stole, to <w>tam</w> są.",
+                                "it": "Se cerchi le chiavi sul tavolo, sono <w>lì</w>.",
+                                "cs": "Když hledáš klíče na stole, jsou <w>tam</w>.",
+                                "tr": "Anahtarlarını masada arıyorsan, onlar <w>orada</w>.",
+                                "es": "Si buscas las llaves sobre la mesa, <w>ahí</w> están.",
+                                "zh": "如果你在找桌上的钥匙，它们就在<w>那里</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +65,121 @@
                         "y aller",
                         "y être",
                         "il y a"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Replaces a place already mentioned, where someone is or is going.",
+                        "ru": "Заменяет уже упомянутое место, где кто-либо находится или куда направляется.",
+                        "nl": "Vervangt een plaats die al genoemd is, waar iemand is of naartoe gaat.",
+                        "de": "Ersetzt einen bereits genannten Ortsbezug, an dem sich jemand befindet oder wohin er geht.",
+                        "pl": "Zastępuje wcześniej wymienione miejsce, w którym ktoś przebywa lub do którego ktoś zmierza.",
+                        "it": "Sostituisce un complemento di luogo già citato, indicando il posto in cui si trova qualcuno o verso cui si va.",
+                        "cs": "Zastupuje již zmíněné místo, kde se někdo nachází nebo kam někdo směřuje.",
+                        "tr": "Daha önce geçen, bulunulan veya gidilen bir yerin yerini tutar. Türkçede 'orada' ya da 'oraya' anlamına gelir.",
+                        "es": "Sustituye a un complemento de lugar ya mencionado, donde alguien está o hacia donde se dirige.",
+                        "zh": "指代前文提到的地点，表示某人所在或前往的地方，相当于“在那里”或“去那里”。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "there",
+                                "target_lang_sense_clarification": "in or to that place"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "там",
+                                "target_lang_sense_clarification": "местонахождение, без движения"
+                            },
+                            {
+                                "target_lang_word": "туда",
+                                "target_lang_sense_clarification": "направление движения, с глаголами движения"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "daar",
+                                "target_lang_sense_clarification": "op die plaats, zonder beweging"
+                            },
+                            {
+                                "target_lang_word": "erheen",
+                                "target_lang_sense_clarification": "richting, bij bewegingswerkwoorden"
+                            },
+                            {
+                                "target_lang_word": "er",
+                                "target_lang_sense_clarification": "bij zijn, aanwezig op een plaats"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "dort",
+                                "target_lang_sense_clarification": "Aufenthaltsort, ohne Bewegung"
+                            },
+                            {
+                                "target_lang_word": "dorthin",
+                                "target_lang_sense_clarification": "Richtung, bei Bewegungsverben"
+                            },
+                            {
+                                "target_lang_word": "da",
+                                "target_lang_sense_clarification": "weniger nachdrücklich als dort"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "tam",
+                                "target_lang_sense_clarification": "miejsce pobytu lub kierunek ruchu"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "ci",
+                                "target_lang_sense_clarification": "con andare ed essere"
+                            },
+                            {
+                                "target_lang_word": "lì",
+                                "target_lang_sense_clarification": "in quel posto, senza movimento"
+                            },
+                            {
+                                "target_lang_word": "là",
+                                "target_lang_sense_clarification": "in un luogo lontano"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "tam",
+                                "target_lang_sense_clarification": "místo pobytu i směr"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "orada",
+                                "target_lang_sense_clarification": "bulunulan yer, hareketsiz"
+                            },
+                            {
+                                "target_lang_word": "oraya",
+                                "target_lang_sense_clarification": "yön belirten, hareket fiilleriyle"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "allí",
+                                "target_lang_sense_clarification": "lugar alejado, con ir o estar"
+                            },
+                            {
+                                "target_lang_word": "ahí",
+                                "target_lang_sense_clarification": "lugar cercano al interlocutor"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "那里",
+                                "target_lang_sense_clarification": "所在或前往的地点"
+                            },
+                            {
+                                "target_lang_word": "那儿",
+                                "target_lang_sense_clarification": "口语，所在或前往的地点"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "46e753d2-c890-33d2-a553-7a55fecdd61c",
@@ -40,20 +190,190 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "C'est une excellente question mais je n'<w>y</w> avais jamais pensé."
+                            "text": "C'est une excellente question mais je n'<w>y</w> avais jamais pensé.",
+                            "target_lang_translations": {
+                                "en": "That's an excellent question, but I had never <w>thought about it</w>.",
+                                "ru": "Это отличный вопрос, но я никогда <w>об этом</w> не задумывался.",
+                                "nl": "Dat is een uitstekende vraag, maar <w>eraan</w> had ik nog nooit gedacht.",
+                                "de": "Das ist eine ausgezeichnete Frage, aber ich hatte nie <w>daran</w> gedacht.",
+                                "pl": "To znakomite pytanie, ale nigdy <w>o tym</w> nie pomyślałem.",
+                                "it": "È una domanda eccellente, ma non <w>ci</w> avevo mai pensato.",
+                                "cs": "Je to výborná otázka, ale nikdy jsem <w>na to</w> nepomyslel.",
+                                "tr": "Bu mükemmel bir soru ama <w>bu konuda</w> hiç düşünmemiştim.",
+                                "es": "Es una excelente pregunta, pero nunca había pensado <w>en eso</w>.",
+                                "zh": "这是个很好的问题，但我从来没想过<w>这件事</w>。"
+                            }
                         },
                         {
-                            "text": "Tu crois vraiment à cette histoire ? Non, je n'<w>y</w> crois pas du tout."
+                            "text": "Tu crois vraiment à cette histoire ? Non, je n'<w>y</w> crois pas du tout.",
+                            "target_lang_translations": {
+                                "en": "Do you really believe this story? No, I don't believe <w>in it</w> at all.",
+                                "ru": "Ты правда веришь в эту историю? Нет, я <w>в неё</w> совсем не верю.",
+                                "nl": "Geloof je echt in dit verhaal? Nee, <w>erin</w> geloof ik helemaal niet.",
+                                "de": "Glaubst du wirklich an diese Geschichte? Nein, ich glaube überhaupt nicht <w>daran</w>.",
+                                "pl": "Naprawdę wierzysz w tę historię? Nie, wcale <w>w nią</w> nie wierzę.",
+                                "it": "Credi davvero a questa storia? No, non <w>ci</w> credo affatto.",
+                                "cs": "Opravdu věříš tomu příběhu? Ne, vůbec <w>tomu</w> nevěřím.",
+                                "tr": "Bu hikâyeye gerçekten inanıyor musun? Hayır, <w>buna</w> hiç inanmıyorum.",
+                                "es": "¿De verdad crees en esta historia? No, no creo <w>en eso</w> para nada.",
+                                "zh": "你真的相信这个故事吗？不，我一点也不相信<w>它</w>。"
+                            }
                         },
                         {
-                            "text": "Ce nouveau projet est passionnant et tout le monde s'<w>y</w> intéresse beaucoup."
+                            "text": "Ce nouveau projet est passionnant et tout le monde s'<w>y</w> intéresse beaucoup.",
+                            "target_lang_translations": {
+                                "en": "This new project is exciting, and everyone is very interested <w>in it</w>.",
+                                "ru": "Этот новый проект очень интересный, и все очень интересуются <w>им</w>.",
+                                "nl": "Dit nieuwe project is spannend en <w>erin</w> is iedereen erg geïnteresseerd.",
+                                "de": "Dieses neue Projekt ist spannend, und alle interessieren sich sehr <w>dafür</w>.",
+                                "pl": "Ten nowy projekt jest fascynujący i wszyscy się <w>nim</w> bardzo interesują.",
+                                "it": "Questo nuovo progetto è entusiasmante e <w>ci</w> si interessa moltissimo.",
+                                "cs": "Tenhle nový projekt je strhující a všichni se o <w>něj</w> hodně zajímají.",
+                                "tr": "Bu yeni proje çok heyecan verici ve herkes <w>bununla</w> çok ilgileniyor.",
+                                "es": "Este nuevo proyecto es apasionante y todo el mundo se interesa mucho <w>por ello</w>.",
+                                "zh": "这个新项目很令人兴奋，大家都对<w>它</w>很感兴趣。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "y penser",
                         "y croire",
                         "s'y intéresser"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Replaces a thing or idea that follows the preposition 'à', meaning 'it' or 'that'.",
+                        "ru": "Заменяет неодушевлённое существительное или целую мысль после предлога «à».",
+                        "nl": "Vervangt een zaak of idee die volgt op het voorzetsel ‘à’, zoals ‘het’ of ‘dat’.",
+                        "de": "Ersetzt eine Sache oder einen Gedanken nach einer Verbpräposition wie »an« oder »für«.",
+                        "pl": "Zastępuje rzecz lub pomysł następujący po przyimku „à” w dopełnieniu czasownika.",
+                        "it": "Sostituisce una cosa o un'idea preceduta dalla preposizione «a», con il senso di «a ciò».",
+                        "cs": "Zastupuje neživou věc nebo myšlenku, která následuje za předložkou u slovesa, například „myslet na to“.",
+                        "tr": "'à' edatıyla bağlanan bir şeyin ya da fikrin yerini tutar. Türkçede 'buna' veya 'bunun hakkında' karşılığıdır.",
+                        "es": "Sustituye a una idea o a un objeto inanimado que va detrás de una preposición, como «a eso» o «en eso».",
+                        "zh": "代替前面带介词“à”的无生命事物或前文内容，相当于“这件事”或“它”。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "about it",
+                                "target_lang_sense_clarification": "with think, care, worry"
+                            },
+                            {
+                                "target_lang_word": "in it",
+                                "target_lang_sense_clarification": "with believe, be interested"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "об этом",
+                                "target_lang_sense_clarification": "с думать, беспокоиться"
+                            },
+                            {
+                                "target_lang_word": "в это",
+                                "target_lang_sense_clarification": "с верить, сомневаться"
+                            },
+                            {
+                                "target_lang_word": "к этому",
+                                "target_lang_sense_clarification": "с глаголом интересоваться"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "eraan",
+                                "target_lang_sense_clarification": "bij denken, nadenken"
+                            },
+                            {
+                                "target_lang_word": "erin",
+                                "target_lang_sense_clarification": "bij geloven, geïnteresseerd zijn"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "daran",
+                                "target_lang_sense_clarification": "bei Verben wie denken, glauben"
+                            },
+                            {
+                                "target_lang_word": "dafür",
+                                "target_lang_sense_clarification": "bei Verben wie sich interessieren"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "o tym",
+                                "target_lang_sense_clarification": "myśleć, martwić się"
+                            },
+                            {
+                                "target_lang_word": "w to",
+                                "target_lang_sense_clarification": "wierzyć, nie wierzyć"
+                            },
+                            {
+                                "target_lang_word": "do tego",
+                                "target_lang_sense_clarification": "przyzwyczajać się, przywykać"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "ci",
+                                "target_lang_sense_clarification": "con pensare, credere, interessarsi"
+                            },
+                            {
+                                "target_lang_word": "a ciò",
+                                "target_lang_sense_clarification": "forma formale, riferita a cose"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "na to",
+                                "target_lang_sense_clarification": "sloveso myslet, pamatovat si"
+                            },
+                            {
+                                "target_lang_word": "o to",
+                                "target_lang_sense_clarification": "sloveso zajímat se"
+                            },
+                            {
+                                "target_lang_word": "tomu",
+                                "target_lang_sense_clarification": "sloveso věřit, nevěřit"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bunun hakkında",
+                                "target_lang_sense_clarification": "düşünmek, endişelenmek gibi fiillerle"
+                            },
+                            {
+                                "target_lang_word": "buna",
+                                "target_lang_sense_clarification": "inanmak gibi fiillerle"
+                            },
+                            {
+                                "target_lang_word": "bununla",
+                                "target_lang_sense_clarification": "ilgilenmek fiiliyle"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "en eso",
+                                "target_lang_sense_clarification": "con pensar, creer"
+                            },
+                            {
+                                "target_lang_word": "a eso",
+                                "target_lang_sense_clarification": "con acostumbrarse, dedicarse"
+                            },
+                            {
+                                "target_lang_word": "en ello",
+                                "target_lang_sense_clarification": "registro formal, escrito"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "这件事",
+                                "target_lang_sense_clarification": "指前文提到的事情"
+                            },
+                            {
+                                "target_lang_word": "它",
+                                "target_lang_sense_clarification": "指事物，常接在介词后"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "9b8a4698-e0e9-34cb-ad12-bd132b50e6da",
@@ -64,10 +384,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Attends deux minutes, <w>y</w> arrive tout de suite pour t'aider."
+                            "text": "Attends deux minutes, <w>y</w> arrive tout de suite pour t'aider.",
+                            "target_lang_translations": {
+                                "en": "Wait two minutes, <w>he's</w> coming right away to help you.",
+                                "ru": "Подожди пару минут, <w>он</w> сейчас придёт и поможет тебе.",
+                                "nl": "Wacht even, <w>hij</w> komt meteen om je te helpen.",
+                                "de": "Warte zwei Minuten, <w>er</w> kommt gleich, um dir zu helfen.",
+                                "pl": "Poczekaj dwie minuty, <w>on</w> zaraz przyjdzie, żeby ci pomóc.",
+                                "it": "Aspetta due minuti, <w>lui</w> arriva subito per aiutarti.",
+                                "cs": "Počkej dvě minuty, <w>on</w> hned přijde, aby ti pomohl.",
+                                "tr": "İki dakika bekle, <w>o</w> hemen gelip sana yardım edecek.",
+                                "es": "Espera dos minutos, <w>él</w> viene enseguida a ayudarte.",
+                                "zh": "等两分钟，<w>他</w>马上就来帮你。"
+                            }
                         },
                         {
-                            "text": "Regarde par la fenêtre, <w>y</w> fait vraiment un temps magnifique ce matin."
+                            "text": "Regarde par la fenêtre, <w>y</w> fait vraiment un temps magnifique ce matin.",
+                            "target_lang_translations": {
+                                "en": "Look out of the window, <w>it's</w> really lovely weather this morning.",
+                                "ru": "Посмотри в окно, сегодня утром <w>стоит</w> замечательная погода.",
+                                "nl": "Kijk eens uit het raam, <w>het</w> is vanochtend echt prachtig weer.",
+                                "de": "Schau mal aus dem Fenster, heute Morgen ist das Wetter wirklich herrlich, <w>es</w> ist wunderschön.",
+                                "pl": "Spójrz przez okno, dziś rano <w>jest</w> naprawdę śliczna pogoda.",
+                                "it": "Guarda dalla finestra: stamattina <w>fa</w> davvero un tempo magnifico.",
+                                "cs": "Podívej se z okna, dnes ráno je <w>venku krásně</w>.",
+                                "tr": "Pencereden bak, bu sabah <w>hava</w> gerçekten çok güzel.",
+                                "es": "Mira por la ventana, esta mañana <w>hace</w> un tiempo magnífico.",
+                                "zh": "往窗外看看，今天早上天气真好。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -83,7 +427,133 @@
                             "trait_type": "colloquial",
                             "comment": "langue parlée courante"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Informal spoken form of 'il' or 'ils', used before a consonant.",
+                        "ru": "Разговорная форма местоимений «il» и «ils», употребляемая перед согласным звуком.",
+                        "nl": "Informele, gesproken vorm van ‘il’ of ‘ils’ voor een medeklinker.",
+                        "de": "Umgangssprachliche französische Kurzform von »il« oder »ils« vor Konsonanten.",
+                        "pl": "Potoczna, mówiona forma zaimków „il” i „ils”, używana przed spółgłoską.",
+                        "it": "Forma colloquiale e contratta di «il» o «ils», usata davanti a consonante, che corrisponde a «lui» o «loro».",
+                        "cs": "Hovorový tvar zájmen „on“ a „oni“ ve francouzštině, používaný před souhláskou.",
+                        "tr": "Konuşma dilinde, ünsüzden önce kullanılan 'il' ya da 'ils' zamirlerinin kısaltılmış biçimidir. Türkçede 'o' veya 'onlar' karşılığıdır.",
+                        "es": "Forma coloquial y abreviada de los pronombres franceses «il» e «ils», usada delante de consonante.",
+                        "zh": "法语“il”或“ils”在口语中辅音前的缩略形式，相当于“他”或“他们”。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "he",
+                                "target_lang_sense_clarification": "informal, for masculine 'il'"
+                            },
+                            {
+                                "target_lang_word": "they",
+                                "target_lang_sense_clarification": "informal, for plural 'ils'"
+                            },
+                            {
+                                "target_lang_word": "it",
+                                "target_lang_sense_clarification": "informal, weather and impersonal"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "он",
+                                "target_lang_sense_clarification": "мужской род, разговорная речь"
+                            },
+                            {
+                                "target_lang_word": "они",
+                                "target_lang_sense_clarification": "множественное число, разговорная речь"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "hij",
+                                "target_lang_sense_clarification": "mannelijk enkelvoud, informeel"
+                            },
+                            {
+                                "target_lang_word": "zij",
+                                "target_lang_sense_clarification": "meervoud, informeel"
+                            },
+                            {
+                                "target_lang_word": "het",
+                                "target_lang_sense_clarification": "onpersoonlijk, bijvoorbeeld bij weer"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "er",
+                                "target_lang_sense_clarification": "männliche Person oder Sache"
+                            },
+                            {
+                                "target_lang_word": "sie",
+                                "target_lang_sense_clarification": "Plural, Personen oder Dinge"
+                            },
+                            {
+                                "target_lang_word": "es",
+                                "target_lang_sense_clarification": "unpersönlich, etwa beim Wetter"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "rodzaj męski, potocznie"
+                            },
+                            {
+                                "target_lang_word": "oni",
+                                "target_lang_sense_clarification": "liczba mnoga, osoby męskie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "lui",
+                                "target_lang_sense_clarification": "maschile singolare, spesso enfatico"
+                            },
+                            {
+                                "target_lang_word": "loro",
+                                "target_lang_sense_clarification": "plurale, per persone"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "mužský rod, hovorově"
+                            },
+                            {
+                                "target_lang_word": "oni",
+                                "target_lang_sense_clarification": "množné číslo, hovorově"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "o",
+                                "target_lang_sense_clarification": "tekil, konuşma dilinde"
+                            },
+                            {
+                                "target_lang_word": "onlar",
+                                "target_lang_sense_clarification": "çoğul, kişiler için"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "él",
+                                "target_lang_sense_clarification": "sujeto masculino singular, coloquial"
+                            },
+                            {
+                                "target_lang_word": "ellos",
+                                "target_lang_sense_clarification": "sujeto plural, uso coloquial"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "他",
+                                "target_lang_sense_clarification": "指男性，口语"
+                            },
+                            {
+                                "target_lang_word": "他们",
+                                "target_lang_sense_clarification": "指多人，口语"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -99,10 +569,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Le plombier a utilisé un raccord en <w>Y</w> pour brancher la machine à laver."
+                            "text": "Le plombier a utilisé un raccord en <w>Y</w> pour brancher la machine à laver.",
+                            "target_lang_translations": {
+                                "en": "The plumber used a <w>wye</w> fitting to connect the washing machine.",
+                                "ru": "Сантехник использовал <w>косой тройник</w>, чтобы подключить стиральную машину.",
+                                "nl": "De loodgieter gebruikte een <w>Y-stuk</w> om de wasmachine aan te sluiten.",
+                                "de": "Der Installateur hat ein <w>Y-Stück</w> verwendet, um die Waschmaschine anzuschließen.",
+                                "pl": "Hydraulik użył <w>trójnika ukośnego</w>, żeby podłączyć pralkę.",
+                                "it": "L'idraulico ha usato un raccordo <w>a Y</w> per collegare la lavatrice.",
+                                "cs": "Instalatér k připojení pračky použil šikmou <w>odbočku</w>.",
+                                "tr": "Tesisatçı çamaşır makinesini bağlamak için Y biçimli bir <w>bağlantı parçası</w> kullandı.",
+                                "es": "El fontanero usó un racor <w>en Y</w> para conectar la lavadora.",
+                                "zh": "水管工用了一个<w>斜三通</w>来连接洗衣机。"
+                            }
                         },
                         {
-                            "text": "À la sortie du village, la route forme un grand <w>Y</w> avant de traverser la forêt."
+                            "text": "À la sortie du village, la route forme un grand <w>Y</w> avant de traverser la forêt.",
+                            "target_lang_translations": {
+                                "en": "At the edge of the village, the road forms a big <w>fork</w> before crossing the forest.",
+                                "ru": "На выезде из деревни дорога образует большую <w>развилку</w>, прежде чем пересечь лес.",
+                                "nl": "Aan de rand van het dorp vormt de weg een grote <w>splitsing</w> voordat hij het bos doorkruist.",
+                                "de": "Am Ortsausgang bildet die Straße eine große <w>Gabelung</w>, bevor sie durch den Wald führt.",
+                                "pl": "Na wyjeździe z wsi droga tworzy duże <w>rozwidlenie</w>, zanim przetnie las.",
+                                "it": "All'uscita del paese la strada forma un grande <w>bivio</w> prima di attraversare il bosco.",
+                                "cs": "Na výjezdu z vesnice silnice tvoří velké <w>rozvětvení</w>, než vede přes les.",
+                                "tr": "Köyün çıkışında yol, ormanı geçmeden önce büyük bir <w>çatal</w> oluşturuyor.",
+                                "es": "A la salida del pueblo, la carretera forma una gran <w>bifurcación</w> antes de atravesar el bosque.",
+                                "zh": "村口的路在穿过森林之前形成了一个很大的<w>岔路口</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -111,7 +605,137 @@
                     ],
                     "common_phrases": [
                         "raccord en Y"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An object, element or junction shaped like the letter Y.",
+                        "ru": "Предмет, деталь или место разветвления, по форме похожие на букву Y.",
+                        "nl": "Voorwerp, onderdeel of splitsing met de vorm van de letter Y.",
+                        "de": "Gegenstand, Bauteil oder Verzweigung in Form des Buchstabens Y.",
+                        "pl": "Przedmiot, element lub rozgałęzienie o kształcie litery Y.",
+                        "it": "Oggetto, elemento o punto di diramazione a forma della lettera Y.",
+                        "cs": "Předmět, součást nebo rozvětvení ve tvaru písmena Y.",
+                        "tr": "Y harfi biçiminde olan bir nesne, parça ya da ayrım noktasıdır.",
+                        "es": "Objeto, pieza o cruce con forma de la letra Y.",
+                        "zh": "形状像字母Y的物体、部件或分叉处。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "fork",
+                                "target_lang_sense_clarification": "branching road or river"
+                            },
+                            {
+                                "target_lang_word": "Y-junction",
+                                "target_lang_sense_clarification": "road splitting into two"
+                            },
+                            {
+                                "target_lang_word": "wye",
+                                "target_lang_sense_clarification": "Y-shaped pipe fitting"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "развилка",
+                                "target_lang_sense_clarification": "разветвление дорог, рек"
+                            },
+                            {
+                                "target_lang_word": "косой тройник",
+                                "target_lang_sense_clarification": "трубный фитинг для ответвления"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "splitsing",
+                                "target_lang_sense_clarification": "weg, pad of rivier"
+                            },
+                            {
+                                "target_lang_word": "vork",
+                                "target_lang_sense_clarification": "vorm met twee takken"
+                            },
+                            {
+                                "target_lang_word": "Y-stuk",
+                                "target_lang_sense_clarification": "buisverbinding, sanitair"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Gabelung",
+                                "target_lang_sense_clarification": "Wege, Straßen oder Flüsse"
+                            },
+                            {
+                                "target_lang_word": "Abzweigung",
+                                "target_lang_sense_clarification": "Straßen oder Leitungen"
+                            },
+                            {
+                                "target_lang_word": "Y-Stück",
+                                "target_lang_sense_clarification": "Rohrverbindung, Sanitärtechnik"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "rozwidlenie",
+                                "target_lang_sense_clarification": "drogi lub rzeki"
+                            },
+                            {
+                                "target_lang_word": "trójnik ukośny",
+                                "target_lang_sense_clarification": "instalacje rurowe, hydraulika"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "bivio",
+                                "target_lang_sense_clarification": "strada che si divide"
+                            },
+                            {
+                                "target_lang_word": "biforcazione",
+                                "target_lang_sense_clarification": "di strade, fiumi o rami"
+                            },
+                            {
+                                "target_lang_word": "raccordo a Y",
+                                "target_lang_sense_clarification": "tubi, impianti idraulici"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "rozvětvení",
+                                "target_lang_sense_clarification": "silnice nebo řeky"
+                            },
+                            {
+                                "target_lang_word": "odbočka",
+                                "target_lang_sense_clarification": "potrubní tvarovka, instalatérství"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "çatal",
+                                "target_lang_sense_clarification": "yol, nehir veya dal ayrımı"
+                            },
+                            {
+                                "target_lang_word": "yol ayrımı",
+                                "target_lang_sense_clarification": "iki yöne ayrılan yol"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "bifurcación",
+                                "target_lang_sense_clarification": "carretera, río o ramal"
+                            },
+                            {
+                                "target_lang_word": "racor en Y",
+                                "target_lang_sense_clarification": "fontanería, conexión de tuberías"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "岔路口",
+                                "target_lang_sense_clarification": "道路或河流的分叉处"
+                            },
+                            {
+                                "target_lang_word": "斜三通",
+                                "target_lang_sense_clarification": "管道用的Y形接头"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -127,12 +751,95 @@
                     "name_type": "place_name",
                     "examples": [
                         {
-                            "text": "Cette petite commune de <w>Y</w> possède le toponyme le plus court de France."
+                            "text": "Cette petite commune de <w>Y</w> possède le toponyme le plus court de France.",
+                            "target_lang_translations": {
+                                "en": "This small commune of <w>Y</w> has the shortest place name in France.",
+                                "ru": "Эта небольшая коммуна <w>Y</w> имеет самое короткое название во Франции.",
+                                "nl": "Deze kleine gemeente <w>Y</w> heeft de kortste plaatsnaam van Frankrijk.",
+                                "de": "Diese kleine Gemeinde <w>Y</w> hat den kürzesten Ortsnamen Frankreichs.",
+                                "pl": "Ta mała gmina <w>Y</w> ma najkrótszą nazwę we Francji.",
+                                "it": "Questo piccolo comune di <w>Y</w> ha il toponimo più corto di Francia.",
+                                "cs": "Tato malá obec <w>Y</w> má nejkratší název obce ve Francii.",
+                                "tr": "Somme'daki bu küçük yerleşim birimi <w>Y</w>, Fransa'nın en kısa yer adına sahip.",
+                                "es": "Esta pequeña comuna de <w>Y</w> tiene el topónimo más corto de Francia.",
+                                "zh": "这个位于索姆省的小镇<w>伊</w>，拥有法国最短的地名。"
+                            }
                         },
                         {
-                            "text": "Nous sommes passés par le village de <w>Y</w> lors de notre randonnée dans la Somme."
+                            "text": "Nous sommes passés par le village de <w>Y</w> lors de notre randonnée dans la Somme.",
+                            "target_lang_translations": {
+                                "en": "We passed through the village of <w>Y</w> during our hike in the Somme.",
+                                "ru": "Мы проезжали через деревню <w>Y</w> во время похода по Сомме.",
+                                "nl": "We zijn door het dorpje <w>Y</w> gekomen tijdens onze wandeling in de Somme.",
+                                "de": "Auf unserer Wanderung in der Somme kamen wir durch das Dorf <w>Y</w>.",
+                                "pl": "Podczas wędrówki po Sommie przechodziliśmy przez wieś <w>Y</w>.",
+                                "it": "Siamo passati per il villaggio di <w>Y</w> durante la nostra escursione nella Somme.",
+                                "cs": "Na pěším výletu v Sommě jsme prošli vesnicí <w>Y</w>.",
+                                "tr": "Somme'daki yürüyüşümüz sırasında <w>Y</w> köyünden geçtik.",
+                                "es": "Pasamos por el pueblo de <w>Y</w> durante nuestra excursión por la Somme.",
+                                "zh": "我们在索姆省徒步时路过了一个叫<w>伊</w>的村庄。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A commune in the Somme department of northern France.",
+                        "ru": "Коммуна во французском департаменте Сомма на севере Франции.",
+                        "nl": "Franse gemeente in het departement Somme in Noord-Frankrijk.",
+                        "de": "Französische Gemeinde im Département Somme in Nordfrankreich.",
+                        "pl": "Gmina we Francji, położona w departamencie Sommy na północy kraju.",
+                        "it": "Comune francese nel dipartimento della Somme, nel nord della Francia.",
+                        "cs": "Francouzská obec v departementu Somme na severu země.",
+                        "tr": "Fransa'nın kuzeyinde, Somme ilinde bulunan bir yerleşim birimidir.",
+                        "es": "Comuna francesa del departamento de la Somme, en el norte de Francia.",
+                        "zh": "位于法国索姆省的一个小镇。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "French village in the Somme"
+                            }
+                        ],
+                        "ru": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "plaatsnaam in de Somme"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "Gemeinde im Département Somme"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "gmina w departamencie Sommy"
+                            }
+                        ],
+                        "it": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "francouzská obec v departementu Somme"
+                            }
+                        ],
+                        "tr": [],
+                        "es": [
+                            {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "localidad francesa de la Somme"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "伊",
+                                "target_lang_sense_clarification": "索姆省的法国小镇"
+                            }
+                        ]
+                    }
                 }
             ]
         }

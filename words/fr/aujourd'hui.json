@@ -13,10 +13,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Quel jour sommes-nous <w>aujourd'hui</w> ?"
+                            "text": "Quel jour sommes-nous <w>aujourd'hui</w> ?",
+                            "target_lang_translations": {
+                                "en": "What day is it <w>today</w>?",
+                                "ru": "Какое <w>сегодня</w> число?",
+                                "nl": "Welke dag is het <w>vandaag</w>?",
+                                "de": "Welchen Tag haben wir <w>heute</w>?",
+                                "pl": "Jaki dzień mamy <w>dzisiaj</w>?",
+                                "it": "Che giorno è <w>oggi</w>?",
+                                "cs": "Jaký den máme <w>dnes</w>?",
+                                "tr": "<w>Bugün</w> günlerden ne?",
+                                "es": "¿Qué día es <w>hoy</w>?",
+                                "zh": "<w>今天</w>是星期几？"
+                            }
                         },
                         {
-                            "text": "Il fait très beau <w>aujourd'hui</w> et nous allons nous promener au parc."
+                            "text": "Il fait très beau <w>aujourd'hui</w> et nous allons nous promener au parc.",
+                            "target_lang_translations": {
+                                "en": "The weather is really nice <w>today</w>, and we're going for a walk in the park.",
+                                "ru": "<w>Сегодня</w> очень хорошая погода, и мы пойдём гулять в парк.",
+                                "nl": "Het is <w>vandaag</w> heel mooi weer en we gaan een wandeling maken in het park.",
+                                "de": "Das Wetter ist <w>heute</w> sehr schön, und wir machen einen Spaziergang im Park.",
+                                "pl": "Pogoda jest <w>dzisiaj</w> bardzo ładna i wybieramy się na spacer do parku.",
+                                "it": "<w>Oggi</w> fa davvero bel tempo e andiamo a fare una passeggiata al parco.",
+                                "cs": "<w>Dnes</w> je moc hezky a jdeme se projít do parku.",
+                                "tr": "<w>Bugün</w> hava çok güzel, parka yürüyüşe çıkacağız.",
+                                "es": "<w>Hoy</w> hace muy buen tiempo y vamos a dar un paseo por el parque.",
+                                "zh": "<w>今天</w>天气很好，我们要去公园散步。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -29,7 +53,101 @@
                     "common_phrases": [
                         "aujourd'hui même",
                         "dès aujourd'hui"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The day that is happening right now, the current calendar date.",
+                        "ru": "День, который наступает сейчас, текущая календарная дата.",
+                        "nl": "De dag waarop we nu zijn, de huidige kalenderdag.",
+                        "de": "Der Tag, an dem man sich gerade befindet, also der laufende Kalendertag.",
+                        "pl": "Dzień, w którym właśnie jesteśmy, czyli obecna data kalendarzowa.",
+                        "it": "Il giorno in cui ci si trova al momento, la data del calendario attuale.",
+                        "cs": "Den, ve kterém se právě nacházíme, tedy aktuální kalendářní datum.",
+                        "tr": "İçinde bulunduğumuz takvim günü, şu anki gün.",
+                        "es": "El día en que nos encontramos en este momento, la fecha actual del calendario.",
+                        "zh": "指说话时所处的这一天，即当前的日历日期。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "today",
+                                "target_lang_sense_clarification": "the current calendar date"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сегодня",
+                                "target_lang_sense_clarification": "текущий календарный день"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "vandaag",
+                                "target_lang_sense_clarification": "dagaanduiding in alledaags gebruik"
+                            },
+                            {
+                                "target_lang_word": "heden",
+                                "target_lang_sense_clarification": "formeel, schriftelijk taalgebruik"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "heute",
+                                "target_lang_sense_clarification": "aktuelles Kalenderdatum"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dzisiaj",
+                                "target_lang_sense_clarification": "codzienna mowa, bieżąca data"
+                            },
+                            {
+                                "target_lang_word": "dziś",
+                                "target_lang_sense_clarification": "mowa potoczna i pisana"
+                            },
+                            {
+                                "target_lang_word": "dzisiejszy dzień",
+                                "target_lang_sense_clarification": "podkreślenie konkretnej daty"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "oggi",
+                                "target_lang_sense_clarification": "uso quotidiano, data corrente"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "dnes",
+                                "target_lang_sense_clarification": "běžná každodenní mluva"
+                            },
+                            {
+                                "target_lang_word": "dneska",
+                                "target_lang_sense_clarification": "hovorově, mluvená čeština"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bugün",
+                                "target_lang_sense_clarification": "günlük dilde en yaygın karşılık"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "hoy",
+                                "target_lang_sense_clarification": "día en curso, fecha actual"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "今天",
+                                "target_lang_sense_clarification": "当前的日历日期"
+                            },
+                            {
+                                "target_lang_word": "今日",
+                                "target_lang_sense_clarification": "书面或正式用语"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "99d2b2d8-0dc0-3541-b6e2-45f3a85f1939",
@@ -40,10 +158,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Dans le monde d'<w>aujourd'hui</w>, les nouvelles technologies sont omniprésentes dans la vie quotidienne."
+                            "text": "Dans le monde d'<w>aujourd'hui</w>, les nouvelles technologies sont omniprésentes dans la vie quotidienne.",
+                            "target_lang_translations": {
+                                "en": "In the world of <w>today</w>, new technologies are everywhere in daily life.",
+                                "ru": "В <w>современном</w> мире новые технологии повсюду присутствуют в повседневной жизни.",
+                                "nl": "In de <w>hedendaagse</w> wereld zijn nieuwe technologieën overal aanwezig in het dagelijks leven.",
+                                "de": "In der <w>heutigen</w> Welt sind neue Technologien im Alltag allgegenwärtig.",
+                                "pl": "W <w>współczesnym</w> świecie nowe technologie są wszechobecne w codziennym życiu.",
+                                "it": "Nel mondo di <w>oggi</w>, le nuove tecnologie sono onnipresenti nella vita quotidiana.",
+                                "cs": "V <w>dnešním</w> světě jsou nové technologie všudypřítomné v každodenním životě.",
+                                "tr": "<w>Günümüz</w> dünyasında yeni teknolojiler gündelik hayatın her alanında karşımıza çıkıyor.",
+                                "es": "En el mundo de <w>hoy</w>, las nuevas tecnologías están omnipresentes en la vida diaria.",
+                                "zh": "在<w>如今</w>的世界里，新技术已经渗透到日常生活的方方面面。"
+                            }
                         },
                         {
-                            "text": "Contrairement à autrefois, beaucoup de personnes travaillent <w>aujourd'hui</w> depuis leur domicile."
+                            "text": "Contrairement à autrefois, beaucoup de personnes travaillent <w>aujourd'hui</w> depuis leur domicile.",
+                            "target_lang_translations": {
+                                "en": "Unlike in the past, many people work from home <w>these days</w>.",
+                                "ru": "В отличие от прошлого, многие люди <w>сегодня</w> работают из дома.",
+                                "nl": "In tegenstelling tot vroeger werken veel mensen <w>tegenwoordig</w> vanuit huis.",
+                                "de": "Anders als früher arbeiten <w>heutzutage</w> viele Menschen von zu Hause aus.",
+                                "pl": "W przeciwieństwie do dawnych czasów wiele osób pracuje <w>obecnie</w> z domu.",
+                                "it": "Diversamente da un tempo, <w>oggigiorno</w> molte persone lavorano da casa.",
+                                "cs": "Na rozdíl od dřívějška mnoho lidí <w>dnes</w> pracuje z domova.",
+                                "tr": "Eskiden olduğunun aksine, birçok insan <w>bugünlerde</w> evlerinden çalışıyor.",
+                                "es": "A diferencia de antes, <w>hoy en día</w> mucha gente trabaja desde su casa.",
+                                "zh": "和从前不同，<w>现在</w>很多人都在家里办公。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -58,7 +200,153 @@
                     "common_phrases": [
                         "société d'aujourd'hui",
                         "monde d'aujourd'hui"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The present era or current period, in contrast to the past.",
+                        "ru": "Нынешняя эпоха, современный период в отличие от прошлого.",
+                        "nl": "De huidige tijd en periode, in tegenstelling tot vroeger.",
+                        "de": "Die gegenwärtige Epoche, die Zeit, in der wir leben, im Gegensatz zur Vergangenheit.",
+                        "pl": "Obecna epoka, czasy, w których żyjemy, w przeciwieństwie do przeszłości.",
+                        "it": "Il periodo storico attuale, l'epoca in cui viviamo, in contrasto con il passato.",
+                        "cs": "Současná doba, dnešní epocha, v protikladu k minulosti.",
+                        "tr": "İçinde yaşanılan çağ ve dönem, geçmişin karşıtı olarak.",
+                        "es": "El periodo histórico en el que vivimos, en oposición al pasado.",
+                        "zh": "指当今的时代或当前这段时期，与过去相对。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "nowadays",
+                                "target_lang_sense_clarification": "general statements about modern life"
+                            },
+                            {
+                                "target_lang_word": "these days",
+                                "target_lang_sense_clarification": "contemporary life, conversational usage"
+                            },
+                            {
+                                "target_lang_word": "today",
+                                "target_lang_sense_clarification": "contrast with past eras"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "в наши дни",
+                                "target_lang_sense_clarification": "о современной жизни"
+                            },
+                            {
+                                "target_lang_word": "нынче",
+                                "target_lang_sense_clarification": "разговорное, о нынешнем времени"
+                            },
+                            {
+                                "target_lang_word": "сегодня",
+                                "target_lang_sense_clarification": "в противопоставлении прошлому"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "tegenwoordig",
+                                "target_lang_sense_clarification": "algemene uitspraken over de moderne tijd"
+                            },
+                            {
+                                "target_lang_word": "vandaag de dag",
+                                "target_lang_sense_clarification": "gesprekstaal over de huidige tijd"
+                            },
+                            {
+                                "target_lang_word": "heden ten dage",
+                                "target_lang_sense_clarification": "formeel of schriftelijk taalgebruik"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "heutzutage",
+                                "target_lang_sense_clarification": "allgemeine Aussagen über das moderne Leben"
+                            },
+                            {
+                                "target_lang_word": "heute",
+                                "target_lang_sense_clarification": "Gegensatz zu früher, Alltagssprache"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "współcześnie",
+                                "target_lang_sense_clarification": "ogólne stwierdzenia o życiu"
+                            },
+                            {
+                                "target_lang_word": "obecnie",
+                                "target_lang_sense_clarification": "aktualny stan rzeczy"
+                            },
+                            {
+                                "target_lang_word": "dzisiaj",
+                                "target_lang_sense_clarification": "kontrast z dawnymi czasami"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "oggigiorno",
+                                "target_lang_sense_clarification": "affermazioni generali sulla vita moderna"
+                            },
+                            {
+                                "target_lang_word": "al giorno d'oggi",
+                                "target_lang_sense_clarification": "linguaggio comune, tono generale"
+                            },
+                            {
+                                "target_lang_word": "oggi",
+                                "target_lang_sense_clarification": "in contrasto con il passato"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "v dnešní době",
+                                "target_lang_sense_clarification": "obecné výroky o moderním životě"
+                            },
+                            {
+                                "target_lang_word": "dnes",
+                                "target_lang_sense_clarification": "kontrast s minulostí, běžná mluva"
+                            },
+                            {
+                                "target_lang_word": "v současnosti",
+                                "target_lang_sense_clarification": "formální nebo psaný jazyk"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "günümüzde",
+                                "target_lang_sense_clarification": "modern hayat hakkında genel ifadeler"
+                            },
+                            {
+                                "target_lang_word": "bugünlerde",
+                                "target_lang_sense_clarification": "konuşma dili, yakın dönem"
+                            },
+                            {
+                                "target_lang_word": "bugün",
+                                "target_lang_sense_clarification": "geçmişle karşılaştırmada kullanım"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "hoy en día",
+                                "target_lang_sense_clarification": "vida moderna, afirmaciones generales"
+                            },
+                            {
+                                "target_lang_word": "actualmente",
+                                "target_lang_sense_clarification": "tiempo presente, tono formal"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "如今",
+                                "target_lang_sense_clarification": "与过去相对，泛指当下"
+                            },
+                            {
+                                "target_lang_word": "现在",
+                                "target_lang_sense_clarification": "口语，指当前时期"
+                            },
+                            {
+                                "target_lang_word": "当今",
+                                "target_lang_sense_clarification": "书面语，多指现代社会"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -74,16 +362,174 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Il est souvent difficile d'apprécier pleinement l'<w>aujourd'hui</w> sans penser au lendemain."
+                            "text": "Il est souvent difficile d'apprécier pleinement l'<w>aujourd'hui</w> sans penser au lendemain.",
+                            "target_lang_translations": {
+                                "en": "It is often difficult to fully appreciate the <w>present</w> without thinking about tomorrow.",
+                                "ru": "Часто трудно полностью ценить <w>настоящее</w>, не думая о завтрашнем дне.",
+                                "nl": "Het is vaak moeilijk om het <w>heden</w> volledig te waarderen zonder aan de volgende dag te denken.",
+                                "de": "Es ist oft schwer, die <w>Gegenwart</w> voll zu schätzen, ohne an den nächsten Tag zu denken.",
+                                "pl": "Często trudno w pełni docenić <w>teraźniejszość</w>, nie myśląc o jutrze.",
+                                "it": "Spesso è difficile apprezzare pienamente il <w>presente</w> senza pensare al domani.",
+                                "cs": "Je často těžké plně ocenit <w>přítomnost</w> bez myšlenek na zítřek.",
+                                "tr": "Yarını düşünmeden <w>şimdiki anın</w> tadını tam olarak çıkarmak çoğu zaman zordur.",
+                                "es": "A menudo es difícil apreciar plenamente el <w>presente</w> sin pensar en el mañana.",
+                                "zh": "人们往往很难在惦记明天的同时，充分体会<w>当下</w>。"
+                            }
                         },
                         {
-                            "text": "Ce philosophe nous invite à savourer l'<w>aujourd'hui</w> sans regretter le passé."
+                            "text": "Ce philosophe nous invite à savourer l'<w>aujourd'hui</w> sans regretter le passé.",
+                            "target_lang_translations": {
+                                "en": "This philosopher invites us to savour the <w>present</w> without regretting the past.",
+                                "ru": "Этот философ призывает нас наслаждаться <w>настоящим</w>, не сожалея о прошлом.",
+                                "nl": "Deze filosoof nodigt ons uit om het <w>heden</w> te koesteren zonder het verleden te betreuren.",
+                                "de": "Dieser Philosoph lädt uns ein, die <w>Gegenwart</w> zu genießen, ohne die Vergangenheit zu bedauern.",
+                                "pl": "Ten filozof zachęca nas, abyśmy delektowali się <w>teraźniejszością</w>, nie żałując przeszłości.",
+                                "it": "Questo filosofo ci invita ad assaporare il <w>presente</w> senza rimpiangere il passato.",
+                                "cs": "Tento filozof nás vybízí, abychom si užívali <w>přítomnosti</w> a nelitovali minulosti.",
+                                "tr": "Bu filozof, geçmişe hayıflanmadan <w>şimdiki anın</w> tadını çıkarmamızı öneriyor.",
+                                "es": "Este filósofo nos invita a saborear el <w>presente</w> sin lamentar el pasado.",
+                                "zh": "这位哲学家提醒我们，要珍惜<w>当下</w>，不必为过去懊悔。"
+                            }
                         }
                     ],
                     "antonyms": [
                         "passé",
                         "futur"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The present time, or the current day considered as something lived and experienced.",
+                        "ru": "Настоящее время или текущий день как переживаемая реальность.",
+                        "nl": "Het huidige moment of de huidige dag als werkelijkheid die men beleeft.",
+                        "de": "Die gegenwärtige Zeit oder der heutige Tag, so wie man ihn erlebt.",
+                        "pl": "Czas teraźniejszy, obecna chwila lub bieżący dzień postrzegany jako przeżywana rzeczywistość.",
+                        "it": "Il tempo presente, l'epoca contemporanea o la giornata attuale vissuta come realtà concreta.",
+                        "cs": "Přítomný čas, současná doba nebo dnešní den vnímaný jako prožívaná skutečnost.",
+                        "tr": "Yaşadığımız an ve içinde bulunulan gün, gerçek anlamda yaşanan zaman.",
+                        "es": "El tiempo presente o el día de hoy, vivido como una realidad concreta.",
+                        "zh": "指眼前的时刻，或作为切身经历的当下这一天。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "the present",
+                                "target_lang_sense_clarification": "philosophical or literary usage"
+                            },
+                            {
+                                "target_lang_word": "the here and now",
+                                "target_lang_sense_clarification": "focus on the current moment"
+                            },
+                            {
+                                "target_lang_word": "today",
+                                "target_lang_sense_clarification": "the present day, lived reality"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "настоящее",
+                                "target_lang_sense_clarification": "философский или литературный стиль"
+                            },
+                            {
+                                "target_lang_word": "здесь и сейчас",
+                                "target_lang_sense_clarification": "акцент на текущем моменте"
+                            },
+                            {
+                                "target_lang_word": "сегодняшний день",
+                                "target_lang_sense_clarification": "переживаемая реальность, повседневность"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "het heden",
+                                "target_lang_sense_clarification": "filosofisch of literair taalgebruik"
+                            },
+                            {
+                                "target_lang_word": "het hier en nu",
+                                "target_lang_sense_clarification": "nadruk op het huidige moment"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Gegenwart",
+                                "target_lang_sense_clarification": "philosophischer oder literarischer Sprachgebrauch"
+                            },
+                            {
+                                "target_lang_word": "das Heute",
+                                "target_lang_sense_clarification": "gelebte Gegenwart, selten gebraucht"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "teraźniejszość",
+                                "target_lang_sense_clarification": "język filozoficzny i literacki"
+                            },
+                            {
+                                "target_lang_word": "tu i teraz",
+                                "target_lang_sense_clarification": "nacisk na bieżący moment"
+                            },
+                            {
+                                "target_lang_word": "dzisiejszy dzień",
+                                "target_lang_sense_clarification": "przeżywana codzienność, rzeczywistość"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "presente",
+                                "target_lang_sense_clarification": "uso filosofico e letterario"
+                            },
+                            {
+                                "target_lang_word": "l'oggi",
+                                "target_lang_sense_clarification": "uso letterario, realtà vissuta"
+                            },
+                            {
+                                "target_lang_word": "il qui e ora",
+                                "target_lang_sense_clarification": "enfasi sul momento attuale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "současnost",
+                                "target_lang_sense_clarification": "široké užití, časové období"
+                            },
+                            {
+                                "target_lang_word": "přítomnost",
+                                "target_lang_sense_clarification": "filozofický nebo literární jazyk"
+                            },
+                            {
+                                "target_lang_word": "dnešek",
+                                "target_lang_sense_clarification": "prožitý den, každodenní realita"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bugün",
+                                "target_lang_sense_clarification": "bugünü yaşamak kalıbında"
+                            },
+                            {
+                                "target_lang_word": "şimdiki an",
+                                "target_lang_sense_clarification": "felsefi ve edebi kullanım"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "el presente",
+                                "target_lang_sense_clarification": "uso filosófico o literario"
+                            },
+                            {
+                                "target_lang_word": "el aquí y el ahora",
+                                "target_lang_sense_clarification": "énfasis en el momento actual"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "当下",
+                                "target_lang_sense_clarification": "哲学或文学语境，指当前时刻"
+                            },
+                            {
+                                "target_lang_word": "此刻",
+                                "target_lang_sense_clarification": "强调眼前这一时刻"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -22,7 +22,7 @@
                                 "pl": "Dziś wieczorem <w>nie</w> chcę wychodzić, bo na dworze jest za zimno.",
                                 "it": "Stasera <w>non</w> voglio uscire perché fa troppo freddo.",
                                 "cs": "Dnes večer <w>nechci</w> jít ven, protože je venku příliš zima.",
-                                "tr": "Bu akşam hava çok soğuk olduğu için dışarı çıkmak <w>istemiyorum</w>.",
+                                "tr": "Bu akşam hava çok soğuk olduğu için dışarı çıkmak iste<w>mi</w>yorum.",
                                 "es": "<w>No</w> quiero salir esta noche porque hace demasiado frío.",
                                 "zh": "今晚我<w>不</w>想出去，因为外面太冷了。"
                             }
@@ -33,12 +33,12 @@
                                 "en": "He has <w>never</w> travelled alone outside his country of origin.",
                                 "ru": "Он никогда <w>не</w> путешествовал один за пределами своей родной страны.",
                                 "nl": "Hij heeft <w>nooit</w> alleen buiten zijn geboorteland gereisd.",
-                                "de": "Er ist <w>noch nie</w> allein außerhalb seines Heimatlandes gereist.",
+                                "de": "Er ist noch <w>nie</w> allein außerhalb seines Heimatlandes gereist.",
                                 "pl": "Nigdy <w>nie</w> podróżował sam poza granicami swojego kraju pochodzenia.",
-                                "it": "<w>Non ha mai</w> viaggiato da solo al di fuori del suo paese d'origine.",
+                                "it": "<w>Non</w> ha mai viaggiato da solo al di fuori del suo paese d'origine.",
                                 "cs": "<w>Nikdy</w> sám mimo svou rodnou zemi necestoval.",
-                                "tr": "Kendi ülkesinin dışına yalnız başına hiç seyahat <w>etmemiştir</w>.",
-                                "es": "<w>Nunca</w> ha viajado solo fuera de su país de origen.",
+                                "tr": "Kendi ülkesinin dışına yalnız başına hiç seyahat et<w>me</w>miştir.",
+                                "es": "<w>No</w> ha viajado nunca solo fuera de su país de origen.",
                                 "zh": "他从来<w>没</w>有独自去过本国以外的地方。"
                             }
                         }
@@ -59,20 +59,25 @@
                         "cs": "Úvodní část francouzské záporky, která stojí před slovesem a obvykle se doplňuje druhým záporným slovem, například pas, plus, jamais nebo rien.",
                         "tr": "Fiilin önüne gelen ve genellikle 'pas', 'plus', 'jamais' ya da 'rien' gibi ikinci bir olumsuzluk sözcüğüyle birlikte kullanılan Fransızca olumsuzluğun ilk öğesi.",
                         "es": "Primera parte de la negación en francés, colocada delante del verbo y que suele combinarse con una segunda palabra negativa como pas, plus, jamais o rien.",
-                        "zh": "法语否定结构的前半部分，置于动词之前，通常与“不”“再”“从不”“没有”等第二个否定词连用。"
+                        "zh": "法语否定结构的前半部分，置于动词之前，通常与“pas”“plus”“jamais”“rien”等第二个否定词连用。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "not",
+                                "target_lang_sense_clarification": "with pas: ne … pas"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "не",
-                                "target_lang_sense_clarification": "Отрицание перед глаголом"
+                                "target_lang_sense_clarification": "отрицание перед глаголом"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "niet",
-                                "target_lang_sense_clarification": "Ontkenning bij het werkwoord"
+                                "target_lang_sense_clarification": "ontkenning bij het werkwoord"
                             }
                         ],
                         "de": [
@@ -84,21 +89,26 @@
                         "pl": [
                             {
                                 "target_lang_word": "nie",
-                                "target_lang_sense_clarification": "Przeczenie przy czasowniku"
+                                "target_lang_sense_clarification": "przeczenie przy czasowniku"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "non",
-                                "target_lang_sense_clarification": "Negazione standard prima del verbo"
+                                "target_lang_sense_clarification": "negazione standard prima del verbo"
                             }
                         ],
                         "cs": [],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "-me / -ma",
+                                "target_lang_sense_clarification": "fiile eklenen olumsuzluk eki"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "no",
-                                "target_lang_sense_clarification": "Negación estándar antes del verbo"
+                                "target_lang_sense_clarification": "negación estándar antes del verbo"
                             }
                         ],
                         "zh": [
@@ -124,30 +134,30 @@
                         {
                             "text": "Le vent <w>ne</w> cesse de souffler avec force sur la falaise.",
                             "target_lang_translations": {
-                                "en": "The wind <w>never stops</w> blowing hard on the cliff.",
-                                "ru": "Ветер <w>не перестаёт</w> сильно дуть над обрывом.",
-                                "nl": "De wind <w>houdt niet op</w> met hard over de klif te waaien.",
-                                "de": "Der Wind <w>hört nicht auf</w>, heftig über die Klippe zu wehen.",
-                                "pl": "Wiatr <w>nie przestaje</w> mocno wiać nad klifem.",
-                                "it": "Il vento <w>non smette di</w> soffiare forte sulla scogliera.",
+                                "en": "The wind does <w>not</w> cease to blow hard on the cliff.",
+                                "ru": "Ветер <w>не</w> перестаёт сильно дуть над обрывом.",
+                                "nl": "De wind houdt <w>niet</w> op met hard over de klif te waaien.",
+                                "de": "Der Wind hört <w>nicht</w> auf, heftig über die Klippe zu wehen.",
+                                "pl": "Wiatr <w>nie</w> przestaje mocno wiać nad klifem.",
+                                "it": "Il vento <w>non</w> smette di soffiare forte sulla scogliera.",
                                 "cs": "Vítr nad útesem silně <w>nepřestává</w> foukat.",
-                                "tr": "Rüzgâr uçurumun üzerinde şiddetle esmekten <w>durmuyor</w>.",
-                                "es": "El viento <w>no deja de</w> soplar con fuerza sobre el acantilado.",
-                                "zh": "狂风在悬崖上猛烈地吹个不停。"
+                                "tr": "Rüzgâr uçurumun üzerinde şiddetle esmeyi bırak<w>mı</w>yor.",
+                                "es": "El viento <w>no</w> deja de soplar con fuerza sobre el acantilado.",
+                                "zh": "狂风在悬崖上猛烈地吹个<w>不</w>停。"
                             }
                         },
                         {
                             "text": "Je <w>ne</w> saurais vous répondre avec certitude sur ce sujet complexe.",
                             "target_lang_translations": {
-                                "en": "I <w>would not be able</w> to answer you with certainty on this complex subject.",
-                                "ru": "Я <w>не берусь</w> с уверенностью ответить вам на этот сложный вопрос.",
+                                "en": "I could <w>not</w> answer you with certainty on this complex subject.",
+                                "ru": "Я <w>не</w> берусь с уверенностью ответить вам на этот сложный вопрос.",
                                 "nl": "Over dit ingewikkelde onderwerp zou ik u met zekerheid <w>niet</w> kunnen antwoorden.",
-                                "de": "Zu diesem komplexen Thema <w>wäre ich nicht in der Lage</w>, Ihnen mit Sicherheit zu antworten.",
-                                "pl": "<w>Nie potrafiłbym</w> z całą pewnością odpowiedzieć Państwu na ten złożony temat.",
-                                "it": "Su questo argomento complesso <w>non saprei</w> rispondervi con certezza.",
+                                "de": "Zu diesem komplexen Thema kann ich Ihnen <w>nicht</w> mit Sicherheit antworten.",
+                                "pl": "<w>Nie</w> potrafiłbym z całą pewnością odpowiedzieć Państwu na ten złożony temat.",
+                                "it": "Su questo argomento complesso <w>non</w> saprei rispondervi con certezza.",
                                 "cs": "K tomuto složitému tématu vám s jistotou <w>nedokážu</w> odpovědět.",
-                                "tr": "Bu karmaşık konu hakkında size kesin olarak cevap <w>veremem</w>.",
-                                "es": "<w>No sabría</w> responderle con certeza sobre este tema complejo.",
+                                "tr": "Bu karmaşık konu hakkında size kesin olarak cevap vere<w>me</w>m.",
+                                "es": "<w>No</w> sabría responderle con certeza sobre este tema complejo.",
                                 "zh": "关于这个复杂的问题，我<w>不</w>能很有把握地回答您。"
                             }
                         }
@@ -175,17 +185,22 @@
                         "zh": "书面语中不加第二个否定词、只用前半部分表示否定的用法，常见于“停止”“敢”“能”“知道”等动词前。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "not",
+                                "target_lang_sense_clarification": "on its own, formal or literary"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "не",
-                                "target_lang_sense_clarification": "Книжная речь, без второго слова"
+                                "target_lang_sense_clarification": "книжная речь, без второго слова"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "niet",
-                                "target_lang_sense_clarification": "Schrijftaal, zonder tweede ontkenning"
+                                "target_lang_sense_clarification": "schrijftaal, zonder tweede ontkenning"
                             }
                         ],
                         "de": [
@@ -197,13 +212,13 @@
                         "pl": [
                             {
                                 "target_lang_word": "nie",
-                                "target_lang_sense_clarification": "Styl książkowy, bez drugiego przeczenia"
+                                "target_lang_sense_clarification": "styl książkowy, bez drugiego przeczenia"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "non",
-                                "target_lang_sense_clarification": "Registro letterario o formale"
+                                "target_lang_sense_clarification": "registro letterario o formale"
                             }
                         ],
                         "cs": [],
@@ -211,7 +226,7 @@
                         "es": [
                             {
                                 "target_lang_word": "no",
-                                "target_lang_sense_clarification": "Registro escrito, sin segunda negación"
+                                "target_lang_sense_clarification": "registro escrito, sin segunda negación"
                             }
                         ],
                         "zh": [
@@ -237,30 +252,30 @@
                         {
                             "text": "Dépêchons-nous de rentrer avant que la pluie <w>ne</w> se mette à tomber.",
                             "target_lang_translations": {
-                                "en": "Let's hurry home <w>before</w> the rain starts to fall.",
-                                "ru": "Поторопимся домой, <w>пока не</w> начался дождь.",
-                                "nl": "Laten we opschieten om naar huis te gaan <w>voordat</w> de regen begint te vallen.",
-                                "de": "Beeilen wir uns heimzukommen, <w>bevor</w> der Regen einsetzt.",
-                                "pl": "Pośpieszmy się do domu, <w>zanim</w> zacznie padać deszcz.",
+                                "en": "Let's hurry home before the rain starts to fall.",
+                                "ru": "Поторопимся домой, пока <w>не</w> начался дождь.",
+                                "nl": "Laten we opschieten om naar huis te gaan voordat de regen begint te vallen.",
+                                "de": "Beeilen wir uns heimzukommen, bevor der Regen einsetzt.",
+                                "pl": "Pośpieszmy się do domu, zanim zacznie padać deszcz.",
                                 "it": "Sbrighiamoci a rientrare <w>prima che</w> cominci a piovere.",
-                                "cs": "Pospěšme si domů, <w>než</w> začne pršet.",
-                                "tr": "Yağmur yağmaya <w>başlamadan</w> eve dönmek için acele edelim.",
-                                "es": "Apresurémonos a volver a casa <w>antes de que</w> empiece a llover.",
-                                "zh": "我们快点回家吧，赶在雨下起来<w>之前</w>。"
+                                "cs": "Pospěšme si domů, než začne pršet.",
+                                "tr": "Yağmur yağmaya başlamadan eve dönmek için acele edelim.",
+                                "es": "Apresurémonos a volver a casa antes de que empiece a llover.",
+                                "zh": "我们快点回家吧，赶在雨下起来之前。"
                             }
                         },
                         {
                             "text": "Le problème était bien plus grave que nous <w>ne</w> le pensions.",
                             "target_lang_translations": {
-                                "en": "The problem was much more serious <w>than</w> we had thought.",
-                                "ru": "Проблема была гораздо серьёзнее, <w>чем</w> мы думали.",
-                                "nl": "Het probleem was veel ernstiger <w>dan</w> we hadden gedacht.",
-                                "de": "Das Problem war viel ernster, <w>als</w> wir gedacht hatten.",
-                                "pl": "Problem był znacznie poważniejszy, <w>niż</w> sądziliśmy.",
-                                "it": "Il problema era molto più grave <w>di quanto</w> pensassimo.",
-                                "cs": "Problém byl mnohem vážnější, <w>než</w> jsme si mysleli.",
-                                "tr": "Sorun, <w>sandığımızdan</w> çok daha ciddiydi.",
-                                "es": "El problema era mucho más grave <w>de lo que</w> pensábamos.",
+                                "en": "The problem was much more serious than we had thought.",
+                                "ru": "Проблема была гораздо серьёзнее, чем мы думали.",
+                                "nl": "Het probleem was veel ernstiger dan we hadden gedacht.",
+                                "de": "Das Problem war viel ernster, als wir gedacht hatten.",
+                                "pl": "Problem był znacznie poważniejszy, niż sądziliśmy.",
+                                "it": "Il problema era molto più grave di quanto <w>non</w> pensassimo.",
+                                "cs": "Problém byl mnohem vážnější, než jsme si mysleli.",
+                                "tr": "Sorun, sandığımızdan çok daha ciddiydi.",
+                                "es": "El problema era mucho más grave de lo que pensábamos.",
                                 "zh": "问题比我们想象的严重得多。"
                             }
                         }
@@ -289,7 +304,12 @@
                         "nl": [],
                         "de": [],
                         "pl": [],
-                        "it": [],
+                        "it": [
+                            {
+                                "target_lang_word": "non",
+                                "target_lang_sense_clarification": "pleonastico, senza valore negativo"
+                            }
+                        ],
                         "cs": [],
                         "tr": [],
                         "es": [],
@@ -315,7 +335,7 @@
                                 "en": "The boat keeps heading <w>northeast</w> to avoid the storm.",
                                 "ru": "Лодка держит курс на <w>северо-восток</w>, чтобы избежать шторма.",
                                 "nl": "De boot houdt koers naar het <w>noordoosten</w> om de storm te ontwijken.",
-                                "de": "Das Boot hält seinen Kurs <w>nach Nordosten</w>, um den Sturm zu vermeiden.",
+                                "de": "Das Boot hält seinen Kurs nach <w>Nordosten</w>, um den Sturm zu vermeiden.",
                                 "pl": "Łódź utrzymuje kurs na <w>północny wschód</w>, aby uniknąć sztormu.",
                                 "it": "La barca mantiene la rotta verso <w>nord-est</w> per evitare la tempesta.",
                                 "cs": "Loď drží kurs na <w>severovýchod</w>, aby se vyhnula bouři.",
@@ -333,8 +353,8 @@
                                 "de": "Der Wetterbericht meldet einen kräftigen Wind aus dem <w>Nordosten</w>.",
                                 "pl": "Prognoza pogody zapowiada silny wiatr z <w>północnego wschodu</w>.",
                                 "it": "Le previsioni indicano un vento sostenuto dal settore <w>nord-est</w>.",
-                                "cs": "Předpověď počasí hlásí silný vítr vanoucí z <w>severovýchodu</w>.",
-                                "tr": "Hava tahminleri <w>kuzeydoğu</w> yönünden esen kuvvetli bir rüzgâr bekleniyor.",
+                                "cs": "Předpověď počasí hlásí silný vítr vanoucí ze <w>severovýchodu</w>.",
+                                "tr": "Hava tahminleri, <w>kuzeydoğu</w> yönünden esen kuvvetli bir rüzgâr öngörüyor.",
                                 "es": "Las previsiones meteorológicas indican un viento fuerte procedente del sector <w>noreste</w>.",
                                 "zh": "天气预报显示，将有强风从<w>东北</w>方向吹来。"
                             }
@@ -362,31 +382,31 @@
                         "en": [
                             {
                                 "target_lang_word": "northeast",
-                                "target_lang_sense_clarification": "Compass direction; weather and navigation"
+                                "target_lang_sense_clarification": "compass direction; weather and navigation"
                             },
                             {
                                 "target_lang_word": "NE",
-                                "target_lang_sense_clarification": "Abbreviation on maps and forecasts"
+                                "target_lang_sense_clarification": "abbreviation on maps and forecasts"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "северо-восток",
-                                "target_lang_sense_clarification": "Сторона света; погода и навигация"
+                                "target_lang_sense_clarification": "сторона света; погода и навигация"
                             },
                             {
                                 "target_lang_word": "СВ",
-                                "target_lang_sense_clarification": "Сокращение на картах и в прогнозах"
+                                "target_lang_sense_clarification": "сокращение на картах и в прогнозах"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "noordoosten",
-                                "target_lang_sense_clarification": "Windstreek bij navigatie en weer"
+                                "target_lang_sense_clarification": "windstreek bij navigatie en weer"
                             },
                             {
                                 "target_lang_word": "NO",
-                                "target_lang_sense_clarification": "Afkorting op kaarten en in weerberichten"
+                                "target_lang_sense_clarification": "afkorting op kaarten en in weerberichten"
                             }
                         ],
                         "de": [
@@ -402,51 +422,51 @@
                         "pl": [
                             {
                                 "target_lang_word": "północny wschód",
-                                "target_lang_sense_clarification": "Kierunek świata; pogoda i żegluga"
+                                "target_lang_sense_clarification": "kierunek świata; pogoda i żegluga"
                             },
                             {
                                 "target_lang_word": "płn.-wsch.",
-                                "target_lang_sense_clarification": "Skrót na mapach, w prognozach"
+                                "target_lang_sense_clarification": "skrót na mapach, w prognozach"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "nord-est",
-                                "target_lang_sense_clarification": "Punto cardinale; meteo e navigazione"
+                                "target_lang_sense_clarification": "punto cardinale; meteo e navigazione"
                             },
                             {
                                 "target_lang_word": "NE",
-                                "target_lang_sense_clarification": "Abbreviazione su carte e previsioni"
+                                "target_lang_sense_clarification": "abbreviazione su carte e previsioni"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "severovýchod",
-                                "target_lang_sense_clarification": "Světová strana; počasí, navigace"
+                                "target_lang_sense_clarification": "světová strana; počasí, navigace"
                             },
                             {
                                 "target_lang_word": "SV",
-                                "target_lang_sense_clarification": "Zkratka na mapách"
+                                "target_lang_sense_clarification": "zkratka na mapách"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "kuzeydoğu",
-                                "target_lang_sense_clarification": "Pusula yönü; hava durumu ve seyir"
+                                "target_lang_sense_clarification": "pusula yönü; hava durumu ve seyir"
                             },
                             {
                                 "target_lang_word": "KD",
-                                "target_lang_sense_clarification": "Harita ve hava durumu kısaltması"
+                                "target_lang_sense_clarification": "harita ve hava durumu kısaltması"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "noreste",
-                                "target_lang_sense_clarification": "Punto cardinal; meteorología y navegación"
+                                "target_lang_sense_clarification": "punto cardinal; meteorología y navegación"
                             },
                             {
                                 "target_lang_word": "nordeste",
-                                "target_lang_sense_clarification": "Dirección geográfica; uso general"
+                                "target_lang_sense_clarification": "dirección geográfica; uso general"
                             }
                         ],
                         "zh": [
@@ -521,19 +541,19 @@
                         "en": [
                             {
                                 "target_lang_word": "Ne",
-                                "target_lang_sense_clarification": "Place name, Liguria, Italy"
+                                "target_lang_sense_clarification": "place name, Liguria, Italy"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "Не",
-                                "target_lang_sense_clarification": "Топоним, Лигурия, Италия"
+                                "target_lang_sense_clarification": "топоним, Лигурия, Италия"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "Ne",
-                                "target_lang_sense_clarification": "Plaatsnaam in Ligurië, Italië"
+                                "target_lang_sense_clarification": "plaatsnaam in Ligurië, Italië"
                             }
                         ],
                         "de": [
@@ -545,26 +565,31 @@
                         "pl": [
                             {
                                 "target_lang_word": "Ne",
-                                "target_lang_sense_clarification": "Nazwa miejscowa, Liguria, Włochy"
+                                "target_lang_sense_clarification": "nazwa miejscowa, Liguria, Włochy"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "Ne",
-                                "target_lang_sense_clarification": "Comune ligure vicino a Genova"
+                                "target_lang_sense_clarification": "comune ligure vicino a Genova"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "Ne",
-                                "target_lang_sense_clarification": "Obec v Ligurii, Itálie"
+                                "target_lang_sense_clarification": "obec v Ligurii, Itálie"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "Ne",
+                                "target_lang_sense_clarification": "İtalya, Liguria'da belediye"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "Ne",
-                                "target_lang_sense_clarification": "Topónimo de Liguria, Italia"
+                                "target_lang_sense_clarification": "topónimo de Liguria, Italia"
                             }
                         ],
                         "zh": [

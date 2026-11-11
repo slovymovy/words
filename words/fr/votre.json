@@ -19,7 +19,7 @@
                             "target_lang_translations": {
                                 "en": "Sir, is this <w>your</w> wallet lying on the table?",
                                 "ru": "Сударь, это <w>ваш</w> кошелёк лежит на столе?",
-                                "nl": "Meneer, is dit <w>uw</w> portefeuille dat op de tafel ligt?",
+                                "nl": "Meneer, is dit <w>uw</w> portefeuille die op tafel ligt?",
                                 "de": "Mein Herr, ist das hier <w>Ihr</w> Portemonnaie, das da auf dem Tisch liegt?",
                                 "pl": "Proszę pana, czy to <w>pański</w> portfel leżący na stole?",
                                 "it": "Signore, è questo il <w>Suo</w> portafoglio appoggiato sul tavolo?",
@@ -39,7 +39,7 @@
                                 "pl": "Czy mogę zapytać o <w>pańską</w> opinię na temat tego nowego projektu?",
                                 "it": "Posso chiederLe il <w>Suo</w> parere su questo nuovo progetto?",
                                 "cs": "Mohu vás požádat o <w>váš</w> názor na tento nový projekt?",
-                                "tr": "Bu yeni projeyle ilgili <w>görüşünüzü</w> sorabilir miyim?",
+                                "tr": "Bu yeni projeyle ilgili görüş<w>ünüz</w>ü sorabilir miyim?",
                                 "es": "¿Puedo pedirle <w>su</w> opinión sobre este nuevo proyecto?",
                                 "zh": "关于这个新项目，我能否征求一下<w>您的</w>意见？"
                             }
@@ -78,11 +78,11 @@
                         "nl": [
                             {
                                 "target_lang_word": "uw",
-                                "target_lang_sense_clarification": "beleefd bezit van gesprekspartner"
+                                "target_lang_sense_clarification": "beleefd, één of meer personen"
                             },
                             {
-                                "target_lang_word": "jouw",
-                                "target_lang_sense_clarification": "informeel bezit van één persoon"
+                                "target_lang_word": "jullie",
+                                "target_lang_sense_clarification": "informeel, meerdere personen"
                             }
                         ],
                         "de": [
@@ -99,6 +99,10 @@
                             {
                                 "target_lang_word": "pański",
                                 "target_lang_sense_clarification": "forma grzecznościowa, do mężczyzny"
+                            },
+                            {
+                                "target_lang_word": "pani",
+                                "target_lang_sense_clarification": "forma grzecznościowa, do kobiety"
                             },
                             {
                                 "target_lang_word": "wasz",
@@ -124,11 +128,11 @@
                         "tr": [
                             {
                                 "target_lang_word": "sizin",
-                                "target_lang_sense_clarification": "nezaketli hitap, karşıdaki kişi"
+                                "target_lang_sense_clarification": "nezaket hitabı veya birden çok kişi"
                             },
                             {
-                                "target_lang_word": "senin",
-                                "target_lang_sense_clarification": "samimi hitap, tek kişi"
+                                "target_lang_word": "-iniz / -ınız",
+                                "target_lang_sense_clarification": "2. çoğul kişi iyelik eki"
                             }
                         ],
                         "es": [
@@ -164,30 +168,30 @@
                         {
                             "text": "Puis-je vous poser une question, <w>Votre</w> Majesté ?",
                             "target_lang_translations": {
-                                "en": "May I ask you a question, <w>Your Majesty</w>?",
-                                "ru": "Могу ли я задать вам вопрос, <w>Ваше Величество</w>?",
-                                "nl": "Mag ik u een vraag stellen, <w>Uwe Majesteit</w>?",
-                                "de": "Darf ich Ihnen eine Frage stellen, <w>Ihre Majestät</w>?",
-                                "pl": "Czy mogę zadać pytanie, <w>Wasza Królewska Mość</w>?",
-                                "it": "Posso farLe una domanda, <w>Sua Maestà</w>?",
-                                "cs": "Mohu se vás zeptat na jednu otázku, <w>Vaše Veličenstvo</w>?",
-                                "tr": "Size bir soru sorabilir miyim, <w>Majesteleri</w>?",
-                                "es": "¿Puedo hacerle una pregunta, <w>Su Majestad</w>?",
+                                "en": "May I ask you a question, <w>Your</w> Majesty?",
+                                "ru": "Могу ли я задать вам вопрос, <w>Ваше</w> Величество?",
+                                "nl": "Mag ik u een vraag stellen, <w>Uwe</w> Majesteit?",
+                                "de": "Darf ich Ihnen eine Frage stellen, <w>Eure</w> Majestät?",
+                                "pl": "Czy mogę zadać pytanie, <w>Wasza</w> Królewska Mość?",
+                                "it": "Posso porvi una domanda, <w>Vostra</w> Maestà?",
+                                "cs": "Mohu vám položit otázku, <w>Vaše</w> Veličenstvo?",
+                                "tr": "Size bir soru sorabilir miyim, Majeste<w>leri</w>?",
+                                "es": "¿Puedo hacerle una pregunta, <w>Vuestra</w> Majestad?",
                                 "zh": "<w>陛下</w>，我能否向您提一个问题？"
                             }
                         },
                         {
                             "text": "<w>Votre</w> Excellence, l'ambassadeur de France vous attend dans le salon.",
                             "target_lang_translations": {
-                                "en": "<w>Your Excellency</w>, the French ambassador is waiting for you in the drawing room.",
-                                "ru": "<w>Ваше Превосходительство</w>, французский посол ждёт вас в гостиной.",
-                                "nl": "<w>Uwe Excellentie</w>, de Franse ambassadeur wacht u in de salon.",
-                                "de": "<w>Ihre Exzellenz</w>, der französische Botschafter erwartet Sie im Salon.",
-                                "pl": "<w>Wasza Ekscelencjo</w>, ambasador Francji czeka na Pana w salonie.",
-                                "it": "<w>Sua Eccellenza</w>, l'ambasciatore di Francia La attende nel salotto.",
-                                "cs": "<w>Vaše Excelence</w>, francouzský velvyslanec na vás čeká v salonu.",
-                                "tr": "<w>Ekselansları</w>, Fransa büyükelçisi sizi salonda bekliyor.",
-                                "es": "<w>Su Excelencia</w>, el embajador de Francia le espera en el salón.",
+                                "en": "<w>Your</w> Excellency, the French ambassador is waiting for you in the drawing room.",
+                                "ru": "<w>Ваше</w> Превосходительство, французский посол ждёт вас в гостиной.",
+                                "nl": "<w>Uwe</w> Excellentie, de Franse ambassadeur wacht op u in de salon.",
+                                "de": "<w>Eure</w> Exzellenz, der französische Botschafter erwartet Sie im Salon.",
+                                "pl": "<w>Wasza</w> Ekscelencjo, ambasador Francji czeka na Pana w salonie.",
+                                "it": "<w>Vostra</w> Eccellenza, l'ambasciatore di Francia vi attende nel salotto.",
+                                "cs": "<w>Vaše</w> Excelence, francouzský velvyslanec na vás čeká v salonu.",
+                                "tr": "Ekselans<w>ları</w>, Fransa büyükelçisi sizi salonda bekliyor.",
+                                "es": "<w>Vuestra</w> Excelencia, el embajador de Francia le espera en el salón.",
                                 "zh": "<w>阁下</w>，法国大使正在客厅等候您。"
                             }
                         }
@@ -218,92 +222,48 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "Ваше Величество",
-                                "target_lang_sense_clarification": "обращение к монарху"
+                                "target_lang_word": "Ваше",
+                                "target_lang_sense_clarification": "в титулах: Ваше Величество"
                             },
                             {
-                                "target_lang_word": "Ваше Высочество",
-                                "target_lang_sense_clarification": "обращение к членам королевской семьи"
-                            },
-                            {
-                                "target_lang_word": "Ваше Превосходительство",
-                                "target_lang_sense_clarification": "обращение к послам и высоким сановникам"
+                                "target_lang_word": "Ваша",
+                                "target_lang_sense_clarification": "в титулах: Ваша Светлость"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "Uwe",
                                 "target_lang_sense_clarification": "vóór koninklijke en hoge titels"
-                            },
-                            {
-                                "target_lang_word": "Uwe Majesteit",
-                                "target_lang_sense_clarification": "aanspreking van koning of koningin"
-                            },
-                            {
-                                "target_lang_word": "Uwe Excellentie",
-                                "target_lang_sense_clarification": "aanspreking van gezanten en ministers"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Ihr",
-                                "target_lang_sense_clarification": "vor Hoheits- und Amtstiteln"
-                            },
-                            {
                                 "target_lang_word": "Euer",
-                                "target_lang_sense_clarification": "veraltete Anrede an Monarchen"
+                                "target_lang_sense_clarification": "Anrede vor Titeln: Eure Majestät, Eure Exzellenz"
                             }
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "Wasza Królewska Mość",
-                                "target_lang_sense_clarification": "zwrot do monarchy"
-                            },
-                            {
-                                "target_lang_word": "Wasza Wysokość",
-                                "target_lang_sense_clarification": "zwrot do członków rodziny królewskiej"
-                            },
-                            {
-                                "target_lang_word": "Wasza Ekscelencja",
-                                "target_lang_sense_clarification": "zwrot do ambasadorów i dygnitarzy"
+                                "target_lang_word": "Wasza",
+                                "target_lang_sense_clarification": "w tytułach, np. Wasza Wysokość"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "Sua Maestà",
-                                "target_lang_sense_clarification": "sovrani, forma di cortesia"
-                            },
-                            {
-                                "target_lang_word": "Sua Eccellenza",
-                                "target_lang_sense_clarification": "alti dignitari e ambasciatori"
-                            },
-                            {
-                                "target_lang_word": "Vostra Maestà",
-                                "target_lang_sense_clarification": "forma antica o solenne"
+                                "target_lang_word": "vostro",
+                                "target_lang_sense_clarification": "nei titoli: Vostra Maestà, Vostra Eccellenza"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "Vaše Veličenstvo",
-                                "target_lang_sense_clarification": "oslovení panovníka"
-                            },
-                            {
-                                "target_lang_word": "Vaše Excelence",
-                                "target_lang_sense_clarification": "oslovení vysokých hodnostářů"
-                            },
-                            {
-                                "target_lang_word": "Vaše Výsost",
-                                "target_lang_sense_clarification": "oslovení členů královské rodiny"
+                                "target_lang_word": "Vaše",
+                                "target_lang_sense_clarification": "v titulech: Vaše Veličenstvo, Vaše Excelence"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "Majesteleri",
-                                "target_lang_sense_clarification": "hükümdara hitap"
-                            },
-                            {
-                                "target_lang_word": "Ekselansları",
-                                "target_lang_sense_clarification": "büyükelçi ve yüksek görevlilere hitap"
+                                "target_lang_word": "-leri / -ları",
+                                "target_lang_sense_clarification": "saygı unvanlarında: Majesteleri, Ekselansları"
                             }
                         ],
                         "es": [

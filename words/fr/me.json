@@ -158,7 +158,7 @@
                             "target_lang_translations": {
                                 "en": "My friend phoned <w>me</w> yesterday to ask how I was doing.",
                                 "nl": "Mijn vriend heeft <w>me</w> gisteren gebeld om te vragen hoe het met me ging.",
-                                "de": "Mein Freund hat <w>mich</w> gestern angerufen, um zu fragen, wie es mir geht.",
+                                "de": "Mein Freund hat gestern mit <w>mir</w> telefoniert, um zu fragen, wie es mir geht.",
                                 "pl": "Mój przyjaciel zadzwonił do <w>mnie</w> wczoraj, żeby zapytać, jak się mam.",
                                 "it": "Ieri il mio amico <w>mi</w> ha telefonato per sapere come stavo.",
                                 "cs": "Můj kamarád <w>mi</w> včera volal, aby se zeptal, jak se mám.",
@@ -280,31 +280,31 @@
                         {
                             "text": "<w>Mᵉ</w> Dupont a défendu son client avec beaucoup d'éloquence au tribunal.",
                             "target_lang_translations": {
-                                "en": "<w>Counsel</w> Dupont defended the client with great eloquence in court.",
+                                "en": "<w>Maître</w> Dupont defended the client with great eloquence in court.",
                                 "nl": "<w>Mr.</w> Dupont verdedigde zijn cliënt met veel welsprekendheid in de rechtbank.",
                                 "de": "<w>RA</w> Dupont verteidigte seinen Mandanten mit großer Beredsamkeit vor Gericht.",
                                 "pl": "<w>Mecenas</w> Dupont bronił swojego klienta z dużą swadą w sądzie.",
-                                "it": "<w>Avv.</w> Dupont ha difeso il suo cliente con grande eloquenza in tribunale.",
-                                "cs": "<w>JUDr.</w> Dupont obhajoval svého klienta s velkou výmluvností u soudu.",
+                                "it": "L'<w>avv.</w> Dupont ha difeso il suo cliente con grande eloquenza in tribunale.",
+                                "cs": "<w>Mistr</w> Dupont obhajoval svého klienta u soudu s velkou výmluvností.",
                                 "tr": "<w>Av.</w> Dupont mahkemede müvekkilini büyük bir belagatle savundu.",
-                                "es": "El <w>licenciado</w> Dupont defendió a su cliente con gran elocuencia en el tribunal.",
+                                "es": "El <w>letrado</w> Dupont defendió a su cliente con gran elocuencia en el tribunal.",
                                 "zh": "杜邦<w>律师</w>在法庭上以极强的口才为当事人辩护。",
-                                "ru": "<w>Адвокат</w> Дюпон с большим красноречием защищал своего клиента в суде."
+                                "ru": "<w>Мэтр</w> Дюпон с большим красноречием защищал своего клиента в суде."
                             }
                         },
                         {
                             "text": "L'acte authentique a été signé en présence de <w>Mᵉ</w> Lambert.",
                             "target_lang_translations": {
-                                "en": "The notarised deed was signed in the presence of <w>Counsel</w> Lambert.",
+                                "en": "The notarised deed was signed in the presence of <w>Maître</w> Lambert.",
                                 "nl": "De authentieke akte is ondertekend in aanwezigheid van <w>mr.</w> Lambert.",
-                                "de": "Die notarielle Urkunde wurde in Anwesenheit von <w>RA</w> Lambert unterzeichnet.",
+                                "de": "Die notarielle Urkunde wurde in Anwesenheit von <w>Notar</w> Lambert unterzeichnet.",
                                 "pl": "Akt notarialny został podpisany w obecności <w>mecenasa</w> Lamberta.",
                                 "it": "L'atto notarile è stato firmato alla presenza dell'<w>avvocato</w> Lambert.",
-                                "cs": "Notářská listina byla podepsána za přítomnosti <w>JUDr.</w> Lamberta.",
+                                "cs": "Notářská listina byla podepsána za přítomnosti <w>mistra</w> Lamberta.",
                                 "tr": "Resmi senet, <w>Av.</w> Lambert'in huzurunda imzalandı.",
-                                "es": "El acta notarial se firmó en presencia del <w>licenciado</w> Lambert.",
-                                "zh": "这份公证文件是在拉姆贝尔<w>律师</w>的见证下签署的。",
-                                "ru": "Нотариальный акт был подписан в присутствии <w>нотариуса</w> Ламберта."
+                                "es": "El acta notarial se firmó en presencia del <w>notario</w> Lambert.",
+                                "zh": "这份公证文书是在朗贝尔<w>公证人</w>的见证下签署的。",
+                                "ru": "Нотариальный акт был подписан в присутствии <w>мэтра</w> Ламбера."
                             }
                         }
                     ],
@@ -323,8 +323,8 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "counsel",
-                                "target_lang_sense_clarification": "title before a lawyer's name"
+                                "target_lang_word": "Maître",
+                                "target_lang_sense_clarification": "title for French lawyers and notaries"
                             }
                         ],
                         "nl": [
@@ -336,7 +336,11 @@
                         "de": [
                             {
                                 "target_lang_word": "RA",
-                                "target_lang_sense_clarification": "Anrede vor Anwaltsnamen"
+                                "target_lang_sense_clarification": "Rechtsanwalt, vor Anwaltsnamen"
+                            },
+                            {
+                                "target_lang_word": "Notar",
+                                "target_lang_sense_clarification": "vor dem Namen eines Notars"
                             }
                         ],
                         "pl": [
@@ -361,8 +365,8 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "JUDr.",
-                                "target_lang_sense_clarification": "titul před jménem právníka"
+                                "target_lang_word": "mistr",
+                                "target_lang_sense_clarification": "titul advokáta či notáře ve Francii"
                             }
                         ],
                         "tr": [
@@ -373,20 +377,28 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "licenciado",
+                                "target_lang_word": "letrado",
                                 "target_lang_sense_clarification": "tratamiento ante nombre de abogado"
+                            },
+                            {
+                                "target_lang_word": "notario",
+                                "target_lang_sense_clarification": "ante nombre de notario"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "律师",
-                                "target_lang_sense_clarification": "置于姓氏之前的称呼"
+                                "target_lang_sense_clarification": "对律师的称呼，放在姓氏之后"
+                            },
+                            {
+                                "target_lang_word": "公证人",
+                                "target_lang_sense_clarification": "对公证人的称呼，放在姓氏之后"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "адвокат",
-                                "target_lang_sense_clarification": "перед фамилией адвоката"
+                                "target_lang_word": "мэтр",
+                                "target_lang_sense_clarification": "обращение к адвокату или нотариусу"
                             }
                         ]
                     }
@@ -548,7 +560,7 @@
                             "text": "L'entrée en gare se fait souvent en <w>ME</w> afin de stabiliser le freinage.",
                             "target_lang_translations": {
                                 "en": "Trains often enter the station in <w>coasting</w> mode to keep the braking steady.",
-                                "nl": "Treinen komen het station vaak binnen door <w>uit te rollen</w>, zodat het remmen gelijkmatig blijft.",
+                                "nl": "Treinen komen het station vaak binnen door <w>uit</w> te <w>rollen</w>, zodat het remmen gelijkmatig blijft.",
                                 "de": "Die Einfahrt in den Bahnhof erfolgt oft im <w>Ausrollen</w>, damit das Bremsen gleichmäßig bleibt.",
                                 "pl": "Wjazd na stację często odbywa się w trybie <w>jazdy na wybiegu</w>, żeby hamowanie było płynne.",
                                 "it": "L'ingresso in stazione avviene spesso in <w>veleggio</w> per rendere più regolare la frenata.",
@@ -588,7 +600,7 @@
                         "de": [
                             {
                                 "target_lang_word": "Ausrollen",
-                                "target_lang_sense_clarification": "Fahren ohne Motorkraft"
+                                "target_lang_sense_clarification": "fahren ohne Motorkraft"
                             },
                             {
                                 "target_lang_word": "Segelfahrt",

@@ -25,7 +25,7 @@
                                 "pl": "Kot wszedł do salonu <w>przez</w> otwarte okno.",
                                 "it": "Il gatto è entrato in salotto <w>attraverso</w> la finestra aperta.",
                                 "cs": "Kočka vešla do obývacího pokoje <w>skrz</w> otevřené okno.",
-                                "tr": "Kedi açık <w>pencereden</w> oturma odasına girdi.",
+                                "tr": "Kedi açık pencere<w>den</w> oturma odasına girdi.",
                                 "es": "El gato entró en el salón <w>por</w> la ventana abierta.",
                                 "zh": "猫<w>从</w>敞开的窗户走进了客厅。"
                             }
@@ -40,7 +40,7 @@
                                 "pl": "Żeby dojść na dworzec, zawsze przechodzimy <w>przez</w> park.",
                                 "it": "Per andare alla stazione, passiamo sempre <w>per</w> il parco.",
                                 "cs": "Abychom došli na nádraží, vždycky procházíme <w>přes</w> park.",
-                                "tr": "İstasyona giderken her zaman <w>parktan</w> geçeriz.",
+                                "tr": "İstasyona giderken her zaman park<w>tan</w> geçeriz.",
                                 "es": "Para llegar a la estación, siempre pasamos <w>por</w> el parque.",
                                 "zh": "去车站的路上，我们总是<w>穿过</w>公园。"
                             }
@@ -135,6 +135,10 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "-den / -dan",
+                                "target_lang_sense_clarification": "bir yerden geçerek"
+                            },
+                            {
                                 "target_lang_word": "içinden",
                                 "target_lang_sense_clarification": "kapalı bir alanın içinden geçiş"
                             },
@@ -184,10 +188,10 @@
                                 "ru": "Она принимает лекарство три раза <w>в</w> день после еды.",
                                 "nl": "Ze neemt haar medicijn drie keer <w>per</w> dag na het eten.",
                                 "de": "Sie nimmt ihr Medikament dreimal <w>pro</w> Tag nach dem Essen.",
-                                "pl": "Bierze lekarstwo trzy razy <w>dziennie</w> po posiłku.",
+                                "pl": "Bierze lekarstwo trzy razy <w>na</w> dzień po posiłku.",
                                 "it": "Prende il farmaco tre volte <w>al</w> giorno dopo i pasti.",
                                 "cs": "Lék si bere třikrát <w>za</w> den, vždy po jídle.",
-                                "tr": "Yemekten sonra ilacını <w>günde</w> üç kez alır.",
+                                "tr": "Yemekten sonra ilacını gün<w>de</w> üç kez alır.",
                                 "es": "Toma su medicamento tres veces <w>al</w> día después de las comidas.",
                                 "zh": "她饭后<w>每</w>天吃三次药。"
                             }
@@ -199,10 +203,10 @@
                                 "ru": "Занятия по плаванию проходят два раза <w>в</w> неделю.",
                                 "nl": "De zwemlessen vinden twee keer <w>per</w> week plaats.",
                                 "de": "Die Schwimmkurse finden zweimal <w>pro</w> Woche statt.",
-                                "pl": "Zajęcia z pływania odbywają się dwa razy <w>w tygodniu</w>.",
+                                "pl": "Zajęcia z pływania odbywają się dwa razy <w>w</w> tygodniu.",
                                 "it": "I corsi di nuoto si tengono due volte <w>a</w> settimana.",
                                 "cs": "Plavecké kurzy se konají dvakrát <w>za</w> týden.",
-                                "tr": "Yüzme dersleri <w>haftada</w> iki kez yapılır.",
+                                "tr": "Yüzme dersleri hafta<w>da</w> iki kez yapılır.",
                                 "es": "Las clases de natación se imparten dos veces <w>a</w> la semana.",
                                 "zh": "游泳课<w>每</w>周上两次。"
                             }
@@ -299,8 +303,8 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "günde",
-                                "target_lang_sense_clarification": "günlük sıklık, örn. günde üç kez"
+                                "target_lang_word": "-de / -da",
+                                "target_lang_sense_clarification": "zaman birimiyle sıklık: günde, haftada"
                             },
                             {
                                 "target_lang_word": "başına",
@@ -362,8 +366,8 @@
                                 "pl": "Listy są roznoszone każdego ranka <w>przez</w> listonosza.",
                                 "it": "La posta viene consegnata ogni mattina <w>dal</w> postino.",
                                 "cs": "Pošta je každé ráno doručována <w>od</w> pošťáka.",
-                                "tr": "Mektuplar her sabah <w>postacı tarafından</w> dağıtılır.",
-                                "es": "El correo se reparte cada mañana <w>por</w> el cartero.",
+                                "tr": "Mektuplar her sabah postacı <w>tarafından</w> dağıtılır.",
+                                "es": "El correo es repartido cada mañana <w>por</w> el cartero.",
                                 "zh": "信件每天早上都<w>由</w>邮递员投递。"
                             }
                         }
@@ -422,8 +426,8 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "od",
-                                "target_lang_sense_clarification": "pasivní původce děje, např. od umělce"
+                                "target_lang_word": "7. pád",
+                                "target_lang_sense_clarification": "původce děje v trpném rodě (kým, čím)"
                             }
                         ],
                         "tr": [
@@ -462,14 +466,14 @@
                             "text": "Je vous envoie les documents administratifs <w>par</w> courriel cet après-midi.",
                             "target_lang_translations": {
                                 "en": "I am sending you the administrative documents <w>by</w> email this afternoon.",
-                                "ru": "Я вышлю вам административные документы <w>по электронной почте</w> сегодня днём.",
-                                "nl": "Ik stuur u de administratieve documenten vanmiddag <w>per e-mail</w>.",
+                                "ru": "Я вышлю вам административные документы <w>по</w> электронной почте сегодня днём.",
+                                "nl": "Ik stuur u de administratieve documenten vanmiddag <w>per</w> e-mail.",
                                 "de": "Ich schicke Ihnen die Verwaltungsunterlagen heute Nachmittag <w>per</w> E-Mail.",
-                                "pl": "Wyślę Państwu dokumenty administracyjne dziś po południu <w>drogą elektroniczną</w>.",
+                                "pl": "Wyślę Państwu dokumenty administracyjne dziś po południu <w>drogą</w> elektroniczną.",
                                 "it": "Vi invio i documenti amministrativi <w>per</w> e-mail questo pomeriggio.",
                                 "cs": "Úřední dokumenty vám pošlu dnes odpoledne <w>přes</w> e-mail.",
-                                "tr": "Bu öğleden sonra idari belgeleri size <w>e-posta yoluyla</w> göndereceğim.",
-                                "es": "Le envío los documentos administrativos <w>por correo electrónico</w> esta tarde.",
+                                "tr": "Bu öğleden sonra idari belgeleri size e-posta <w>yoluyla</w> göndereceğim.",
+                                "es": "Le envío los documentos administrativos <w>por</w> correo electrónico esta tarde.",
                                 "zh": "我今天下午<w>通过</w>电子邮件把行政文件发给您。"
                             }
                         },
@@ -477,15 +481,15 @@
                             "text": "Ils ont choisi de voyager <w>par</w> train pour éviter les embouteillages.",
                             "target_lang_translations": {
                                 "en": "They chose to travel <w>by</w> train to avoid traffic jams.",
-                                "ru": "Они решили ехать <w>на поезде</w>, чтобы избежать пробок.",
+                                "ru": "Они решили ехать <w>на</w> поезде, чтобы избежать пробок.",
                                 "nl": "Ze kozen ervoor om <w>met</w> de trein te reizen om files te vermijden.",
                                 "de": "Sie haben sich entschieden, <w>mit</w> dem Zug zu reisen, um Staus zu vermeiden.",
                                 "pl": "Zdecydowali się podróżować <w>pociągiem</w>, aby uniknąć korków.",
                                 "it": "Hanno scelto di viaggiare <w>in</w> treno per evitare gli ingorghi.",
                                 "cs": "Rozhodli se cestovat <w>vlakem</w>, aby se vyhnuli zácpám.",
-                                "tr": "Trafik sıkışıklığından kaçınmak için <w>trenle</w> seyahat etmeyi tercih ettiler.",
+                                "tr": "Trafik sıkışıklığından kaçınmak için tren<w>le</w> seyahat etmeyi tercih ettiler.",
                                 "es": "Eligieron viajar <w>en</w> tren para evitar los atascos.",
-                                "zh": "他们选择<w>用</w>火车出行，为了避开交通堵塞。"
+                                "zh": "他们选择<w>坐</w>火车出行，以避开交通堵塞。"
                             }
                         }
                     ],
@@ -557,16 +561,16 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "drogą elektroniczną",
-                                "target_lang_sense_clarification": "przekaz elektroniczny, np. e-mail"
+                                "target_lang_word": "drogą",
+                                "target_lang_sense_clarification": "sposób przekazu, np. drogą mailową"
                             },
                             {
                                 "target_lang_word": "za pośrednictwem",
                                 "target_lang_sense_clarification": "przy udziale kanału lub medium"
                             },
                             {
-                                "target_lang_word": "środek transportu",
-                                "target_lang_sense_clarification": "transport, np. podróż pociągiem"
+                                "target_lang_word": "-em / -ą (narzędnik)",
+                                "target_lang_sense_clarification": "środek transportu, np. pociągiem"
                             }
                         ],
                         "it": [
@@ -585,12 +589,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "pomocí",
-                                "target_lang_sense_clarification": "prostředek nebo komunikační kanál"
+                                "target_lang_word": "přes",
+                                "target_lang_sense_clarification": "komunikační kanál, např. přes e-mail"
                             },
                             {
-                                "target_lang_word": "přes",
-                                "target_lang_sense_clarification": "komunikace, např. přes e-mail"
+                                "target_lang_word": "7. pád",
+                                "target_lang_sense_clarification": "dopravní prostředek: vlakem, autem"
                             }
                         ],
                         "tr": [
@@ -619,12 +623,16 @@
                         ],
                         "zh": [
                             {
+                                "target_lang_word": "通过",
+                                "target_lang_sense_clarification": "借助某种渠道或媒介"
+                            },
+                            {
                                 "target_lang_word": "用",
                                 "target_lang_sense_clarification": "借助某种工具或方式"
                             },
                             {
-                                "target_lang_word": "通过",
-                                "target_lang_sense_clarification": "借助某种渠道或媒介"
+                                "target_lang_word": "坐",
+                                "target_lang_sense_clarification": "乘坐交通工具"
                             }
                         ]
                     }
@@ -641,13 +649,13 @@
                             "text": "Il a posé cette question indiscrète simplement <w>par</w> curiosité.",
                             "target_lang_translations": {
                                 "en": "He asked that intrusive question simply <w>out of</w> curiosity.",
-                                "ru": "Он задал этот бестактный вопрос просто <w>из любопытства</w>.",
+                                "ru": "Он задал этот бестактный вопрос просто <w>из</w> любопытства.",
                                 "nl": "Hij stelde deze indiscrete vraag simpelweg <w>uit</w> nieuwsgierigheid.",
                                 "de": "Er stellte diese indiskrete Frage einfach <w>aus</w> Neugier.",
-                                "pl": "Zadał to indyskretne pytanie po prostu <w>z ciekawości</w>.",
+                                "pl": "Zadał to indyskretne pytanie po prostu <w>z</w> ciekawości.",
                                 "it": "Ha posto questa domanda indiscreta semplicemente <w>per</w> curiosità.",
                                 "cs": "Položil tuto netaktní otázku prostě <w>ze</w> zvědavosti.",
-                                "tr": "Bu müdahaleci soruyu sadece <w>merakından</w> sordu.",
+                                "tr": "Bu müdahaleci soruyu sadece merakı<w>ndan</w> sordu.",
                                 "es": "Hizo esa pregunta indiscreta simplemente <w>por</w> curiosidad.",
                                 "zh": "他问这个唐突的问题，纯粹是<w>出于</w>好奇。"
                             }
@@ -656,13 +664,13 @@
                             "text": "Elle a accepté d'aider son voisin <w>par</w> pure gentillesse.",
                             "target_lang_translations": {
                                 "en": "She agreed to help her neighbour <w>out of</w> pure kindness.",
-                                "ru": "Она согласилась помочь соседу <w>из чистой доброты</w>.",
+                                "ru": "Она согласилась помочь соседу просто <w>из</w> доброты.",
                                 "nl": "Ze stemde ermee in haar buurman te helpen <w>uit</w> pure vriendelijkheid.",
                                 "de": "Sie willigte ein, ihrem Nachbarn zu helfen, <w>aus</w> reiner Freundlichkeit.",
-                                "pl": "Zgodziła się pomóc sąsiadowi <w>z czystej życzliwości</w>.",
+                                "pl": "Zgodziła się pomóc sąsiadowi <w>z</w> czystej życzliwości.",
                                 "it": "Ha accettato di aiutare il vicino <w>per</w> pura gentilezza.",
                                 "cs": "Souhlasila, že pomůže sousedovi <w>z</w> čiré laskavosti.",
-                                "tr": "Komşusuna yardım etmeyi salt <w>nezaketinden</w> kabul etti.",
+                                "tr": "Komşusuna yardım etmeyi salt nezaketi<w>nden</w> kabul etti.",
                                 "es": "Accedió a ayudar a su vecino <w>por</w> pura amabilidad.",
                                 "zh": "她答应帮邻居的忙，纯粹是<w>出于</w>善意。"
                             }
@@ -751,8 +759,8 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "nedeniyle",
-                                "target_lang_sense_clarification": "iç güdü, örn. merak nedeniyle"
+                                "target_lang_word": "-den / -dan",
+                                "target_lang_sense_clarification": "iç neden: meraktan, nezaketten"
                             },
                             {
                                 "target_lang_word": "ötürü",
@@ -793,10 +801,10 @@
                                 "nl": "Na een lange discussie hebben we <w>uiteindelijk</w> een oplossing gevonden.",
                                 "de": "Nach einer langen Diskussion haben wir <w>schließlich</w> eine Lösung gefunden.",
                                 "pl": "Po długiej dyskusji <w>w końcu</w> znaleźliśmy rozwiązanie.",
-                                "it": "Dopo una lunga discussione, <w>alla fine</w> abbiamo trovato una soluzione.",
+                                "it": "Dopo una lunga discussione, abbiamo finito <w>per</w> trovare una soluzione.",
                                 "cs": "Po dlouhé diskusi jsme <w>nakonec</w> našli řešení.",
                                 "tr": "Uzun bir tartışmadan sonra <w>sonunda</w> bir çözüm bulduk.",
-                                "es": "Tras una larga discusión, <w>acabamos por</w> encontrar una solución.",
+                                "es": "Tras una larga discusión, acabamos <w>por</w> encontrar una solución.",
                                 "zh": "经过长时间的讨论，我们<w>终于</w>找到了解决办法。"
                             }
                         },
@@ -810,7 +818,7 @@
                                 "pl": "Nauczyciel zawsze zaczyna lekcję <w>od</w> sprawdzenia zadań domowych.",
                                 "it": "Il professore inizia sempre la lezione <w>con</w> la verifica dei compiti.",
                                 "cs": "Učitel hodinu vždy začíná <w>tím, že</w> zkontroluje domácí úkoly.",
-                                "tr": "Öğretmen dersine her zaman ödevleri kontrol <w>ederek</w> başlar.",
+                                "tr": "Öğretmen dersine her zaman ödevleri kontrol ed<w>erek</w> başlar.",
                                 "es": "El profesor siempre empieza su clase <w>por</w> revisar los deberes.",
                                 "zh": "老师上课总是<w>从</w>检查作业开始。"
                             }
@@ -824,7 +832,7 @@
                         "en": "Introduces an infinitive after verbs such as finish or start. With finish it means the outcome comes after a process, and with start it means the first action.",
                         "ru": "Вводит инфинитив после глаголов «закончить» и «начать»: итог длительного процесса или первое действие.",
                         "nl": "Leidt een infinitief in die het uiteindelijke resultaat van een proces of de eerste handeling aangeeft.",
-                        "de": "Leitet nach den Verben „enden“ und „anfangen“ einen Infinitiv ein. Bei „finir par“ steht das Endergebnis eines Prozesses, bei „commencer par“ die erste Handlung.",
+                        "de": "Leitet nach den Verben „commencer“ und „finir“ einen Infinitiv ein.",
                         "pl": "Wprowadza bezokolicznik po czasownikach kończyć lub zaczynać, wskazując końcowy wynik procesu albo pierwszą czynność.",
                         "it": "Introduce un verbo all'infinito dopo i verbi finire o cominciare, indicando l'esito finale o la prima azione.",
                         "cs": "Uvozuje infinitiv po slovesech začít nebo skončit, kdy vyjadřuje konečný výsledek dlouhého procesu nebo první krok. U slovesa skončit jde o výsledek, u slovesa začít o první činnost.",
@@ -846,31 +854,31 @@
                         "ru": [
                             {
                                 "target_lang_word": "в конце концов",
-                                "target_lang_sense_clarification": "итог долгого процесса"
+                                "target_lang_sense_clarification": "с finir: итог долгого процесса"
                             },
                             {
-                                "target_lang_word": "начинать с",
-                                "target_lang_sense_clarification": "первое действие в последовательности"
+                                "target_lang_word": "с",
+                                "target_lang_sense_clarification": "с commencer: первое действие"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "uiteindelijk",
-                                "target_lang_sense_clarification": "resultaat na een lang proces"
+                                "target_lang_sense_clarification": "na 'finir': resultaat na lang proces"
                             },
                             {
-                                "target_lang_word": "beginnen met",
-                                "target_lang_sense_clarification": "eerste handeling in een reeks"
+                                "target_lang_word": "met",
+                                "target_lang_sense_clarification": "na 'commencer': eerste handeling"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "schließlich",
-                                "target_lang_sense_clarification": "Ergebnis nach längerem Prozess"
+                                "target_lang_sense_clarification": "nach „finir“: Ergebnis am Ende"
                             },
                             {
-                                "target_lang_word": "beginnen mit",
-                                "target_lang_sense_clarification": "erste Handlung in einer Abfolge"
+                                "target_lang_word": "mit",
+                                "target_lang_sense_clarification": "nach „commencer“: erste Handlung"
                             }
                         ],
                         "pl": [
@@ -883,22 +891,18 @@
                                 "target_lang_sense_clarification": "końcowy skutek sytuacji"
                             },
                             {
-                                "target_lang_word": "zaczynać od",
-                                "target_lang_sense_clarification": "pierwsza czynność w sekwencji"
+                                "target_lang_word": "od",
+                                "target_lang_sense_clarification": "pierwsza czynność, po „zaczynać”"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "alla fine",
-                                "target_lang_sense_clarification": "esito dopo un lungo processo"
+                                "target_lang_word": "per",
+                                "target_lang_sense_clarification": "dopo «finire»: finire per + infinito"
                             },
                             {
-                                "target_lang_word": "finire per",
-                                "target_lang_sense_clarification": "risultato finale con verbo all'infinito"
-                            },
-                            {
-                                "target_lang_word": "cominciare con",
-                                "target_lang_sense_clarification": "prima azione in una sequenza"
+                                "target_lang_word": "con",
+                                "target_lang_sense_clarification": "dopo «cominciare»: cominciare con"
                             }
                         ],
                         "cs": [
@@ -907,28 +911,24 @@
                                 "target_lang_sense_clarification": "výsledek po dlouhém procesu"
                             },
                             {
-                                "target_lang_word": "začít tím, že",
-                                "target_lang_sense_clarification": "první krok v postupu"
+                                "target_lang_word": "tím, že",
+                                "target_lang_sense_clarification": "první krok: začít tím, že"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "sonunda",
-                                "target_lang_sense_clarification": "uzun süreçten sonra ulaşılan sonuç"
+                                "target_lang_sense_clarification": "\"finir par\": uzun süreçten sonra"
                             },
                             {
-                                "target_lang_word": "ile başlamak",
-                                "target_lang_sense_clarification": "sıranın ilk eylemi, günlük dil"
+                                "target_lang_word": "-erek / -arak",
+                                "target_lang_sense_clarification": "\"commencer par\": ilk yapılan iş"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "acabar por",
-                                "target_lang_sense_clarification": "resultado tras un proceso largo"
-                            },
-                            {
-                                "target_lang_word": "empezar por",
-                                "target_lang_sense_clarification": "primera acción de una secuencia"
+                                "target_lang_word": "por",
+                                "target_lang_sense_clarification": "tras «acabar» o «empezar» + infinitivo"
                             }
                         ],
                         "zh": [
@@ -955,13 +955,13 @@
                             "text": "La mère tenait son petit garçon <w>par</w> la main pour traverser.",
                             "target_lang_translations": {
                                 "en": "The mother held her little boy <w>by</w> the hand to cross the road.",
-                                "ru": "Мать держала своего маленького сына <w>за руку</w>, чтобы перейти дорогу.",
+                                "ru": "Мать держала своего маленького сына <w>за</w> руку, чтобы перейти дорогу.",
                                 "nl": "De moeder hield haar kleine jongen <w>bij</w> de hand om over te steken.",
                                 "de": "Die Mutter hielt ihren kleinen Jungen <w>an</w> der Hand, um die Straße zu überqueren.",
-                                "pl": "Matka trzymała swojego małego synka <w>za rękę</w>, żeby przejść przez ulicę.",
+                                "pl": "Matka trzymała swojego małego synka <w>za</w> rękę, żeby przejść przez ulicę.",
                                 "it": "La madre teneva il suo bambino <w>per</w> mano per attraversare la strada.",
                                 "cs": "Matka držela malého synka <w>za</w> ruku, když přecházela silnici.",
-                                "tr": "Anne küçük oğlunu karşıya geçmek için <w>elinden</w> tutuyordu.",
+                                "tr": "Anne küçük oğlunu karşıya geçmek için eli<w>nden</w> tutuyordu.",
                                 "es": "La madre tenía a su hijito <w>de</w> la mano para cruzar la calle.",
                                 "zh": "母亲<w>牵</w>着小儿子的手过马路。"
                             }
@@ -970,13 +970,13 @@
                             "text": "Faites attention et prenez la poêle chaude <w>par</w> le manche.",
                             "target_lang_translations": {
                                 "en": "Be careful and pick up the hot pan <w>by</w> the handle.",
-                                "ru": "Будьте осторожны и возьмите горячую сковороду <w>за ручку</w>.",
+                                "ru": "Будьте осторожны и возьмите горячую сковороду <w>за</w> ручку.",
                                 "nl": "Pas op en pak de hete pan <w>aan</w> de steel vast.",
                                 "de": "Seien Sie vorsichtig und fassen Sie die heiße Pfanne <w>an</w> dem Griff.",
-                                "pl": "Uważajcie i chwyćcie gorącą patelnię <w>za rączkę</w>.",
+                                "pl": "Uważajcie i chwyćcie gorącą patelnię <w>za</w> rączkę.",
                                 "it": "State attenti e prendete la padella calda <w>per</w> il manico.",
                                 "cs": "Dávejte pozor a vezměte horkou pánev <w>za</w> rukojeť.",
-                                "tr": "Dikkatli olun ve sıcak tavayı <w>sapından</w> tutun.",
+                                "tr": "Dikkatli olun ve sıcak tavayı sapı<w>ndan</w> tutun.",
                                 "es": "Tengan cuidado y agarren la sartén caliente <w>por</w> el mango.",
                                 "zh": "请小心，<w>握住</w>热平底锅的手柄。"
                             }
@@ -1050,12 +1050,8 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "tutarak",
-                                "target_lang_sense_clarification": "belirli kısımdan kavrama"
-                            },
-                            {
-                                "target_lang_word": "elinden tutmak",
-                                "target_lang_sense_clarification": "el ile kavrama, günlük dil"
+                                "target_lang_word": "-den / -dan",
+                                "target_lang_sense_clarification": "tutulan kısım: elinden, sapından"
                             }
                         ],
                         "es": [
@@ -1092,13 +1088,13 @@
                             "text": "Il est imprudent de conduire vite sur la route <w>par</w> ce brouillard épais.",
                             "target_lang_translations": {
                                 "en": "It is reckless to drive fast on the road <w>in</w> this thick fog.",
-                                "ru": "Неосторожно ехать быстро по дороге <w>в такой густой туман</w>.",
+                                "ru": "Неосторожно ехать быстро по дороге <w>в</w> такой густой туман.",
                                 "nl": "Het is onverstandig om hard te rijden op de weg <w>bij</w> deze dikke mist.",
                                 "de": "Es ist unvorsichtig, auf der Straße schnell zu fahren, <w>bei</w> diesem dichten Nebel.",
                                 "pl": "Nierozważne jest szybkie jeżdżenie na drodze <w>w</w> tak gęstej mgle.",
                                 "it": "È imprudente guidare velocemente sulla strada <w>con</w> questa fitta nebbia.",
                                 "cs": "Je nebezpečné jezdit rychle po silnici <w>v</w> takové husté mlze.",
-                                "tr": "Bu kalın sisin <w>içinde</w> yolda hızlı araç kullanmak dikkatsizliktir.",
+                                "tr": "Bu yoğun sisin <w>içinde</w> yolda hızlı araç kullanmak tedbirsizliktir.",
                                 "es": "Es imprudente conducir deprisa por la carretera <w>con</w> esta niebla tan espesa.",
                                 "zh": "<w>在</w>这样浓的雾中，在路上快速开车是很不明智的。"
                             }
@@ -1107,13 +1103,13 @@
                             "text": "Les enfants adorent se promener dans la forêt <w>par</w> un beau soleil.",
                             "target_lang_translations": {
                                 "en": "The children love walking in the forest <w>in</w> beautiful sunshine.",
-                                "ru": "Дети обожают гулять в лесу <w>при ярком солнце</w>.",
+                                "ru": "Дети обожают гулять в лесу <w>в</w> солнечную погоду.",
                                 "nl": "De kinderen wandelen graag door het bos <w>bij</w> mooi zonnig weer.",
                                 "de": "Die Kinder wandern im Wald gern <w>bei</w> strahlendem Sonnenschein.",
                                 "pl": "Dzieci uwielbiają spacerować w lesie <w>przy</w> pięknym słońcu.",
                                 "it": "Ai bambini piace passeggiare nel bosco <w>sotto</w> un bel sole.",
                                 "cs": "Děti milují procházky v lese <w>při</w> krásném slunci.",
-                                "tr": "Çocuklar ormanda güneşli bir <w>havada</w> gezmeyi çok severler.",
+                                "tr": "Çocuklar ormanda güneşli bir hava<w>da</w> gezmeyi çok severler.",
                                 "es": "A los niños les encanta pasear por el bosque <w>bajo</w> un sol radiante.",
                                 "zh": "孩子们很喜欢<w>在</w>阳光明媚的天气里去森林散步。"
                             }
@@ -1212,12 +1208,12 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "içinde",
-                                "target_lang_sense_clarification": "hava durumu, örn. sisin içinde"
+                                "target_lang_word": "-de / -da",
+                                "target_lang_sense_clarification": "hava koşulu: siste, güneşli havada"
                             },
                             {
-                                "target_lang_word": "altında",
-                                "target_lang_sense_clarification": "resmi, belirli koşullar altında"
+                                "target_lang_word": "içinde",
+                                "target_lang_sense_clarification": "sis, kar, yağmur içinde"
                             }
                         ],
                         "es": [
@@ -1255,14 +1251,14 @@
                             "text": "Le golfeur a réussi à terminer ce trou difficile sous le <w>par</w>.",
                             "target_lang_translations": {
                                 "en": "The golfer managed to finish this difficult hole under <w>par</w>.",
-                                "ru": "Гольфист сумел сыграть эту сложную лунку <w>под паром</w>.",
-                                "nl": "De golfer slaagde erin deze moeilijke hole <w>onder par</w> af te ronden.",
-                                "de": "Der Golfer schaffte es, dieses schwierige Loch <w>unter Par</w> zu spielen.",
-                                "pl": "Golfista zdołał ukończyć ten trudny dołek <w>pod parem</w>.",
+                                "ru": "Гольфист сумел пройти эту сложную лунку ниже <w>пара</w>.",
+                                "nl": "De golfer slaagde erin deze moeilijke hole onder <w>par</w> af te ronden.",
+                                "de": "Der Golfer schaffte es, dieses schwierige Loch unter <w>Par</w> zu spielen.",
+                                "pl": "Golfista zdołał ukończyć ten trudny dołek poniżej <w>par</w>.",
                                 "it": "Il golfista è riuscito a completare questa buca difficile sotto <w>par</w>.",
-                                "cs": "Golfista dokázal dokončit tuto těžkou jamku <w>pod par</w>.",
-                                "tr": "Golfçü bu zor deliği <w>par'ın altında</w> bitirmeyi başardı.",
-                                "es": "El golfista logró terminar este hoyo difícil <w>bajo par</w>.",
+                                "cs": "Golfista dokázal dokončit tuto těžkou jamku pod <w>par</w>.",
+                                "tr": "Golfçü bu zor deliği <w>par'ın</w> altında bitirmeyi başardı.",
+                                "es": "El golfista logró terminar este hoyo difícil bajo <w>par</w>.",
                                 "zh": "这位高尔夫球手成功地以低于<w>标准杆</w>的成绩打完了这个难度很大的球洞。"
                             }
                         },
@@ -1273,7 +1269,7 @@
                                 "ru": "Эта трасса для гольфа включает восемнадцать лунок с общим <w>паром</w> семьдесят два.",
                                 "nl": "Deze golfbaan telt achttien holes met een totale <w>par</w> van tweeënzeventig.",
                                 "de": "Dieser Golfplatz hat achtzehn Löcher mit einem <w>Par</w> von insgesamt zweiundsiebzig.",
-                                "pl": "Ten pole golfowe ma osiemnaście dołków i łączny <w>par</w> wynoszący siedemdziesiąt dwa.",
+                                "pl": "To pole golfowe ma osiemnaście dołków i łączny <w>par</w> wynoszący siedemdziesiąt dwa.",
                                 "it": "Questo percorso di golf comprende diciotto buche con un <w>par</w> totale di settantadue.",
                                 "cs": "Tento golfový areál má osmnáct jamek s celkovým <w>par</w> sedmdesát dva.",
                                 "tr": "Bu golf sahasında on sekiz delik var ve toplam <w>par</w> yetmiş ikidir.",

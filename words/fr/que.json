@@ -24,7 +24,7 @@
                                 "pl": "Dobrze wiem, <w>że</w> masz w tym tygodniu dużo pracy.",
                                 "it": "So bene <w>che</w> questa settimana hai molto lavoro.",
                                 "cs": "Dobře vím, <w>že</w> máš tento týden hodně práce.",
-                                "tr": "Bu hafta çok işin <w>olduğunu</w> iyi biliyorum.",
+                                "tr": "Bu hafta çok işin ol<w>duğunu</w> iyi biliyorum.",
                                 "es": "Sé bien <w>que</w> tienes mucho trabajo esta semana.",
                                 "zh": "我很清楚你这周工作很多。"
                             }
@@ -39,7 +39,7 @@
                                 "pl": "Lekarz uważa, <w>że</w> wyzdrowieje przed końcem miesiąca.",
                                 "it": "Il medico pensa <w>che</w> sarà guarita prima della fine del mese.",
                                 "cs": "Lékař si myslí, <w>že</w> do konce měsíce bude vyléčená.",
-                                "tr": "Doktor, onun ayın sonundan önce <w>iyileşeceğini</w> düşünüyor.",
+                                "tr": "Doktor, onun ayın sonundan önce iyileş<w>eceğini</w> düşünüyor.",
                                 "es": "El médico cree <w>que</w> ella estará curada antes de fin de mes.",
                                 "zh": "医生认为她月底前就能痊愈。"
                             }
@@ -106,6 +106,10 @@
                             }
                         ],
                         "tr": [
+                            {
+                                "target_lang_word": "-diğini / -dığını",
+                                "target_lang_sense_clarification": "yan cümleyi nesne yapan ek"
+                            },
                             {
                                 "target_lang_word": "ki",
                                 "target_lang_sense_clarification": "düşünce ve bilgi fiillerinden sonra"
@@ -257,12 +261,8 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "-den daha",
-                                "target_lang_sense_clarification": "üstünlük karşılaştırmasında"
-                            },
-                            {
-                                "target_lang_word": "-den az",
-                                "target_lang_sense_clarification": "eksiklik karşılaştırmasında"
+                                "target_lang_word": "-den / -dan",
+                                "target_lang_sense_clarification": "üstünlük veya azlık karşılaştırmasında"
                             },
                             {
                                 "target_lang_word": "kadar",
@@ -302,30 +302,30 @@
                         {
                             "text": "Si le soleil revient et <w>que</w> le vent cesse, nous irons nous promener.",
                             "target_lang_translations": {
-                                "en": "If the sun comes out and <w>the wind drops</w>, we will go for a walk.",
-                                "ru": "Если выглянет солнце и <w>ветер утихнет</w>, мы пойдём гулять.",
-                                "nl": "Als de zon terugkomt en de wind <w>gaat liggen</w>, gaan we wandelen.",
-                                "de": "Wenn die Sonne wieder herauskommt und der Wind <w>nachlässt</w>, gehen wir spazieren.",
-                                "pl": "Jeśli wyjdzie słońce i <w>wiatr ucichnie</w>, pójdziemy na spacer.",
-                                "it": "Se il sole ritorna e <w>il vento cessa</w>, andremo a fare due passi.",
-                                "cs": "Jestli vysvitne slunce a <w>vítr ustane</w>, půjdeme se projít.",
-                                "tr": "Güneş yeniden çıkar ve rüzgâr <w>dinerse</w>, yürüyüşe çıkarız.",
-                                "es": "Si el sol vuelve a salir y el <w>viento cesa</w>, iremos a dar un paseo.",
+                                "en": "If the sun comes out and the wind drops, we will go for a walk.",
+                                "ru": "Если выглянет солнце и ветер утихнет, мы пойдём гулять.",
+                                "nl": "Als de zon terugkomt en de wind gaat liggen, gaan we wandelen.",
+                                "de": "Wenn die Sonne wieder herauskommt und der Wind nachlässt, gehen wir spazieren.",
+                                "pl": "Jeśli wyjdzie słońce i wiatr ucichnie, pójdziemy na spacer.",
+                                "it": "Se il sole ritorna e il vento cessa, andremo a fare due passi.",
+                                "cs": "Jestli vysvitne slunce a vítr ustane, půjdeme se projít.",
+                                "tr": "Güneş yeniden çıkar ve rüzgâr din<w>erse</w>, yürüyüşe çıkarız.",
+                                "es": "Si el sol vuelve a salir y el viento cesa, iremos a dar un paseo.",
                                 "zh": "如果太阳重新出来，风也停了，我们就去散步。"
                             }
                         },
                         {
                             "text": "Quand le train arrivera et <w>que</w> les portes s'ouvriront, nous monterons ensemble.",
                             "target_lang_translations": {
-                                "en": "When the train arrives and <w>the doors open</w>, we will get on together.",
-                                "ru": "Когда поезд придёт и <w>двери откроются</w>, мы сядем вместе.",
-                                "nl": "Wanneer de trein aankomt en de deuren <w>opengaan</w>, stappen we samen in.",
-                                "de": "Wenn der Zug ankommt und die Türen <w>aufgehen</w>, steigen wir gemeinsam ein.",
-                                "pl": "Kiedy pociąg przyjedzie i <w>drzwi się otworzą</w>, wsiądziemy razem.",
-                                "it": "Quando il treno arriverà e <w>le porte si apriranno</w>, saliremo insieme.",
-                                "cs": "Až vlak přijede a <w>dveře se otevřou</w>, nastoupíme spolu.",
-                                "tr": "Tren geldiğinde ve kapılar <w>açıldığında</w>, birlikte bineceğiz.",
-                                "es": "Cuando llegue el tren y las <w>puertas se abran</w>, subiremos juntos.",
+                                "en": "When the train arrives and the doors open, we will get on together.",
+                                "ru": "Когда поезд придёт и двери откроются, мы сядем вместе.",
+                                "nl": "Wanneer de trein aankomt en de deuren opengaan, stappen we samen in.",
+                                "de": "Wenn der Zug ankommt und die Türen aufgehen, steigen wir gemeinsam ein.",
+                                "pl": "Kiedy pociąg przyjedzie i drzwi się otworzą, wsiądziemy razem.",
+                                "it": "Quando il treno arriverà e le porte si apriranno, saliremo insieme.",
+                                "cs": "Až vlak přijede a dveře se otevřou, nastoupíme spolu.",
+                                "tr": "Tren geldiğinde ve kapılar açıl<w>dığında</w>, birlikte bineceğiz.",
+                                "es": "Cuando llegue el tren y se abran las puertas, subiremos juntos.",
                                 "zh": "火车到站、车门打开的时候，我们一起上车。"
                             }
                         }
@@ -409,64 +409,56 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "no sooner",
-                                "target_lang_sense_clarification": "used in 'no sooner...than'"
+                                "target_lang_word": "when",
+                                "target_lang_sense_clarification": "after 'hardly' or 'scarcely'"
                             },
                             {
-                                "target_lang_word": "hardly",
-                                "target_lang_sense_clarification": "used in 'hardly...when'"
+                                "target_lang_word": "than",
+                                "target_lang_sense_clarification": "after 'no sooner'"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "едва",
+                                "target_lang_word": "как",
                                 "target_lang_sense_clarification": "в конструкции «едва… как»"
-                            },
-                            {
-                                "target_lang_word": "как только",
-                                "target_lang_sense_clarification": "сразу после действия"
                             }
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "nauwelijks... of",
-                                "target_lang_sense_clarification": "in de vaste constructie"
+                                "target_lang_word": "of",
+                                "target_lang_sense_clarification": "na 'nauwelijks': nauwelijks … of"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "kaum dass",
-                                "target_lang_sense_clarification": "mit „kaum“ im Hauptsatz"
+                                "target_lang_word": "als",
+                                "target_lang_sense_clarification": "nach „kaum“ im Hauptsatz"
                             }
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "ledwo",
+                                "target_lang_word": "a już",
                                 "target_lang_sense_clarification": "w konstrukcji „ledwo… a już”"
                             },
                             {
-                                "target_lang_word": "ledwie",
+                                "target_lang_word": "gdy",
                                 "target_lang_sense_clarification": "w konstrukcji „ledwie… gdy”"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "appena",
-                                "target_lang_sense_clarification": "nella costruzione «appena… che»"
-                            },
-                            {
-                                "target_lang_word": "non appena",
-                                "target_lang_sense_clarification": "registro formale, subito dopo"
+                                "target_lang_word": "che",
+                                "target_lang_sense_clarification": "dopo «appena»: era appena uscito che…"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "sotva",
-                                "target_lang_sense_clarification": "v souvětí: sotva… a už"
+                                "target_lang_word": "a už",
+                                "target_lang_sense_clarification": "po „sotva“: sotva…, a už"
                             },
                             {
-                                "target_lang_word": "jakmile",
-                                "target_lang_sense_clarification": "okamžitě po předchozím ději"
+                                "target_lang_word": "když",
+                                "target_lang_sense_clarification": "po „sotva“: sotva…, když"
                             }
                         ],
                         "tr": [
@@ -481,22 +473,14 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "apenas",
-                                "target_lang_sense_clarification": "en «apenas… cuando»"
-                            },
-                            {
-                                "target_lang_word": "en cuanto",
-                                "target_lang_sense_clarification": "acción inmediatamente posterior"
+                                "target_lang_word": "cuando",
+                                "target_lang_sense_clarification": "tras «apenas»: apenas… cuando"
                             }
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "刚",
-                                "target_lang_sense_clarification": "与“就”搭配，表示紧接"
-                            },
-                            {
                                 "target_lang_word": "就",
-                                "target_lang_sense_clarification": "表示紧接着发生，立即"
+                                "target_lang_sense_clarification": "与“刚”搭配，表示紧接着发生"
                             }
                         ]
                     }
@@ -524,7 +508,7 @@
                                 "pl": "Wciągająca powieść, <w>którą</w> mi pożyczyłeś, bardzo mi się podobała.",
                                 "it": "Il romanzo avvincente <w>che</w> mi hai prestato mi è piaciuto moltissimo.",
                                 "cs": "Napínavý román, <w>který</w> jsi mi půjčil, se mi moc líbil.",
-                                "tr": "Bana ödünç <w>verdiğin</w> sürükleyici roman çok hoşuma gitti.",
+                                "tr": "Bana ödünç ver<w>diğin</w> sürükleyici roman çok hoşuma gitti.",
                                 "es": "La novela apasionante <w>que</w> me prestaste me gustó mucho.",
                                 "zh": "你借给我的那本引人入胜的小说，我非常喜欢。"
                             }
@@ -539,7 +523,7 @@
                                 "pl": "Przyjaciele, <w>których</w> dziś wieczorem zaprosił, właśnie przybyli.",
                                 "it": "Gli amici <w>che</w> ha invitato stasera sono appena arrivati.",
                                 "cs": "Přátelé, <w>které</w> dnes večer pozval, právě přišli.",
-                                "tr": "Bu akşam davet <w>ettiği</w> arkadaşlar az önce geldiler.",
+                                "tr": "Bu akşam davet et<w>tiği</w> arkadaşlar az önce geldiler.",
                                 "es": "Los amigos <w>a quienes</w> invitó esta noche acaban de llegar.",
                                 "zh": "今晚他邀请的朋友刚刚到了。"
                             }
@@ -624,7 +608,12 @@
                                 "target_lang_sense_clarification": "vztažné zájmeno v určovacích větách"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "-diği / -dığı",
+                                "target_lang_sense_clarification": "nesne görevli ilgi cümlesi eki"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "que",
@@ -966,7 +955,7 @@
                                 "ru": "<w>Как</w> великолепен этот горный пейзаж под снегом!",
                                 "nl": "<w>Wat</w> is dit berglandschap mooi onder de sneeuw!",
                                 "de": "<w>Wie</w> wunderschön diese Berglandschaft unter dem Schnee ist!",
-                                "pl": "<w>Co za</w> piękny jest ten górski krajobraz pod śniegiem!",
+                                "pl": "<w>Jak</w> piękny jest ten górski krajobraz pod śniegiem!",
                                 "it": "<w>Come</w> è magnifico questo paesaggio di montagna sotto la neve!",
                                 "cs": "<w>Jak</w> krásná je tahle horská krajina pod sněhem!",
                                 "tr": "Karla kaplı bu dağ manzarası <w>ne kadar</w> muhteşem!",
@@ -1038,10 +1027,6 @@
                             {
                                 "target_lang_word": "jak",
                                 "target_lang_sense_clarification": "z przymiotnikiem lub przysłówkiem"
-                            },
-                            {
-                                "target_lang_word": "co za",
-                                "target_lang_sense_clarification": "potocznie, przed przymiotnikiem"
                             }
                         ],
                         "it": [
@@ -1114,9 +1099,9 @@
                                 "pl": "<w>Niech</w> wreszcie rozpocznie się uroczystość po tych wszystkich przygotowaniach!",
                                 "it": "<w>Che</w> la festa cominci finalmente dopo tutti questi preparativi!",
                                 "cs": "<w>Ať</w> konečně začne ta oslava po všech těch přípravách!",
-                                "tr": "Bunca hazırlıktan sonra kutlama nihayet <w>başlasın</w>!",
+                                "tr": "Bunca hazırlıktan sonra kutlama nihayet başla<w>sın</w>!",
                                 "es": "¡<w>Que</w> empiece por fin la fiesta después de tantos preparativos!",
-                                "zh": "经过这一番准备，<w>但愿</w>庆典终于能开始！"
+                                "zh": "准备了这么久，<w>让</w>庆典开始吧！"
                             }
                         },
                         {
@@ -1125,13 +1110,13 @@
                                 "en": "<w>Let</w> them be very careful when crossing the slippery road.",
                                 "ru": "<w>Пусть</w> они будут очень осторожны, переходя скользкую дорогу.",
                                 "nl": "<w>Laten</w> ze goed opletten als ze de gladde weg oversteken.",
-                                "de": "<w>Sie</w> sollen beim Überqueren der glatten Straße gut aufpassen.",
+                                "de": "Sie <w>sollen</w> beim Überqueren der glatten Straße gut aufpassen.",
                                 "pl": "<w>Niech</w> dobrze uważają, przechodząc przez śliską drogę.",
                                 "it": "<w>Che</w> stiano molto attenti attraversando la strada scivolosa.",
                                 "cs": "<w>Ať</w> si dávají dobrý pozor, když přecházejí kluzkou silnici.",
-                                "tr": "Kaygan yolu geçerken iyice dikkat <w>etsinler</w>.",
+                                "tr": "Kaygan yolu geçerken iyice dikkat et<w>sinler</w>.",
                                 "es": "<w>Que</w> tengan mucho cuidado al cruzar la carretera resbaladiza.",
-                                "zh": "<w>愿</w>他们过滑溜的马路时多加小心。"
+                                "zh": "<w>让</w>他们过湿滑的马路时多加小心。"
                             }
                         }
                     ],
@@ -1214,7 +1199,12 @@
                                 "target_lang_sense_clarification": "slavnostní nebo knižní styl"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "-sin / -sın",
+                                "target_lang_sense_clarification": "3. kişi için dilek veya emir"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "que",
@@ -1227,12 +1217,16 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "但愿",
-                                "target_lang_sense_clarification": "表示希望，常用于祝愿"
+                                "target_lang_word": "让",
+                                "target_lang_sense_clarification": "表示命令或号召"
                             },
                             {
                                 "target_lang_word": "愿",
-                                "target_lang_sense_clarification": "书面语，表示祝愿或嘱托"
+                                "target_lang_sense_clarification": "书面语，表示祝愿"
+                            },
+                            {
+                                "target_lang_word": "但愿",
+                                "target_lang_sense_clarification": "表示希望，常用于祝愿"
                             }
                         ]
                     }
@@ -1270,9 +1264,9 @@
                                 "pl": "<w>Czemuż</w> nie przyjęliście tej wyjątkowej oferty, kiedy był jeszcze na to czas?",
                                 "it": "<w>Perché</w> non avete accettato questa offerta eccezionale quando c'era ancora tempo?",
                                 "cs": "<w>Proč</w> jste tu výjimečnou nabídku nepřijal, když ještě byl čas?",
-                                "tr": "Vaktin varken bu olağanüstü teklifi <w>neden</w> kabul etmediniz?",
+                                "tr": "Vakit varken bu olağanüstü teklifi <w>neden</w> kabul etmediniz?",
                                 "es": "¿<w>Por qué</w> no aceptaron esta oferta excepcional cuando aún había tiempo?",
-                                "zh": "趁还有时间，您<w>为什么</w>不接受这个难得的优惠？"
+                                "zh": "当初还来得及的时候，您<w>为什么</w>没有接受这个难得的提议呢？"
                             }
                         }
                     ],

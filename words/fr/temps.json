@@ -45,7 +45,7 @@
                                 "ru": "Мы нашли <w>время</w> спокойно побеседовать за чашечкой хорошего кофе.",
                                 "nl": "We hebben er rustig de <w>tijd</w> voor genomen om te praten bij een lekker kopje koffie.",
                                 "de": "Wir haben uns die <w>Zeit</w> genommen, in Ruhe bei einem guten Kaffee zu plaudern.",
-                                "pl": "Wzięliśmy sobie <w>czas</w>, żeby spokojnie porozmawiać przy dobrej kawie.",
+                                "pl": "Znaleźliśmy <w>czas</w>, żeby spokojnie porozmawiać przy dobrej kawie.",
                                 "it": "Ci siamo presi il <w>tempo</w> di chiacchierare con calma davanti a un buon caffè.",
                                 "cs": "Vzali jsme si <w>čas</w> na klidné popovídání u dobré kávy.",
                                 "tr": "İyi bir kahve eşliğinde sakin sakin sohbet etmek için <w>vakit</w> ayırdık.",
@@ -336,7 +336,7 @@
                         {
                             "text": "De mon <w>temps</w>, les enfants jouaient dehors toute la journée sans regarder d'écran.",
                             "target_lang_translations": {
-                                "en": "In my <w>day</w>, children played outside all day without looking at screens.",
+                                "en": "In my <w>time</w>, children played outside all day without looking at screens.",
                                 "ru": "В мое <w>время</w> дети целый день играли на улице, не глядя в экраны.",
                                 "nl": "In mijn <w>tijd</w> speelden kinderen de hele dag buiten zonder naar een scherm te kijken.",
                                 "de": "Zu meiner <w>Zeit</w> spielten die Kinder den ganzen Tag draußen, ohne auf einen Bildschirm zu schauen.",
@@ -385,19 +385,23 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "time",
+                                "target_lang_sense_clarification": "period of history or of a life"
+                            },
+                            {
                                 "target_lang_word": "era",
                                 "target_lang_sense_clarification": "named historical or cultural period"
                             },
                             {
                                 "target_lang_word": "age",
                                 "target_lang_sense_clarification": "distinct stretch of history"
-                            },
-                            {
-                                "target_lang_word": "period",
-                                "target_lang_sense_clarification": "historical phase, e.g. Victorian period"
                             }
                         ],
                         "ru": [
+                            {
+                                "target_lang_word": "время",
+                                "target_lang_sense_clarification": "в оборотах «в моё время», «во времена»"
+                            },
                             {
                                 "target_lang_word": "эпоха",
                                 "target_lang_sense_clarification": "крупный исторический период"
@@ -405,13 +409,13 @@
                             {
                                 "target_lang_word": "период",
                                 "target_lang_sense_clarification": "этап истории или жизни"
-                            },
-                            {
-                                "target_lang_word": "век",
-                                "target_lang_sense_clarification": "эпоха, например век Просвещения"
                             }
                         ],
                         "nl": [
+                            {
+                                "target_lang_word": "tijd",
+                                "target_lang_sense_clarification": "periode, bv. 'in mijn tijd'"
+                            },
                             {
                                 "target_lang_word": "tijdperk",
                                 "target_lang_sense_clarification": "grote historische of culturele periode"
@@ -437,26 +441,26 @@
                         ],
                         "pl": [
                             {
+                                "target_lang_word": "czasy",
+                                "target_lang_sense_clarification": "np. za moich czasów"
+                            },
+                            {
                                 "target_lang_word": "epoka",
                                 "target_lang_sense_clarification": "duży okres historyczny"
                             },
                             {
                                 "target_lang_word": "okres",
                                 "target_lang_sense_clarification": "etap dziejów lub życia"
-                            },
-                            {
-                                "target_lang_word": "wiek",
-                                "target_lang_sense_clarification": "stulecie lub epoka kulturowa"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "epoca",
-                                "target_lang_sense_clarification": "grande periodo storico o culturale"
+                                "target_lang_word": "tempo",
+                                "target_lang_sense_clarification": "epoca: ai miei tempi, al tempo di"
                             },
                             {
-                                "target_lang_word": "età",
-                                "target_lang_sense_clarification": "lungo tratto della storia"
+                                "target_lang_word": "epoca",
+                                "target_lang_sense_clarification": "grande periodo storico o culturale"
                             },
                             {
                                 "target_lang_word": "periodo",
@@ -467,6 +471,10 @@
                             {
                                 "target_lang_word": "doba",
                                 "target_lang_sense_clarification": "delší historické nebo životní období"
+                            },
+                            {
+                                "target_lang_word": "časy",
+                                "target_lang_sense_clarification": "v množném čísle: za mých časů"
                             },
                             {
                                 "target_lang_word": "epocha",
@@ -491,6 +499,10 @@
                             {
                                 "target_lang_word": "época",
                                 "target_lang_sense_clarification": "periodo histórico o cultural amplio"
+                            },
+                            {
+                                "target_lang_word": "tiempos",
+                                "target_lang_sense_clarification": "en plural: en mis tiempos"
                             },
                             {
                                 "target_lang_word": "era",
@@ -868,7 +880,7 @@
                     "target_lang_definitions": {
                         "en": "A brief pause or silence that marks an action, a hesitation, or a line of dialogue.",
                         "ru": "Короткая пауза или момент молчания, отмечающий действие, колебание или реплику.",
-                        "nl": "Korte pauze of stilte die een handeling, aarzeling of replica markeert.",
+                        "nl": "Korte pauze of stilte die een handeling, aarzeling of repliek markeert.",
                         "de": "Kurze Unterbrechung oder Stille, die eine Handlung, ein Zögern oder eine Äußerung markiert.",
                         "pl": "Krótka pauza lub chwila ciszy, która podkreśla czynność, wahanie albo kwestię.",
                         "it": "Breve pausa o momento di silenzio che segna un'azione, un'esitazione o una battuta di dialogo.",

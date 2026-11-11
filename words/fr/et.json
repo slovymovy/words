@@ -200,9 +200,9 @@
                             "text": "Elle a terminé ses devoirs <w>et</w> elle est partie retrouver ses amis.",
                             "target_lang_translations": {
                                 "en": "She finished her homework <w>and then</w> went off to meet her friends.",
-                                "ru": "Она закончила домашние задания <w>и тогда</w> пошла встречаться с друзьями.",
-                                "nl": "Ze maakte haar huiswerk af <w>en dan</w> ging ze haar vrienden opzoeken.",
-                                "de": "Sie hat ihre Hausaufgaben erledigt, <w>und dann</w> ging sie ihre Freunde treffen.",
+                                "ru": "Она закончила домашние задания <w>и</w> пошла встречаться с друзьями.",
+                                "nl": "Ze maakte haar huiswerk af <w>en</w> ging toen haar vrienden opzoeken.",
+                                "de": "Sie hat ihre Hausaufgaben erledigt <w>und</w> ist dann zu ihren Freunden gegangen.",
                                 "pl": "Skończyła odrabiać lekcje, <w>a potem</w> poszła spotkać się z przyjaciółmi.",
                                 "it": "Ha finito i compiti <w>e poi</w> è andata a trovare i suoi amici.",
                                 "cs": "Dokončila domácí úkoly <w>a potom</w> šla za kamarády.",
@@ -233,6 +233,10 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "and",
+                                "target_lang_sense_clarification": "one action following another"
+                            },
+                            {
                                 "target_lang_word": "and then",
                                 "target_lang_sense_clarification": "next action in a sequence"
                             },
@@ -242,6 +246,10 @@
                             }
                         ],
                         "ru": [
+                            {
+                                "target_lang_word": "и",
+                                "target_lang_sense_clarification": "следующее действие или следствие"
+                            },
                             {
                                 "target_lang_word": "и тогда",
                                 "target_lang_sense_clarification": "следующее действие по порядку"
@@ -253,36 +261,32 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "en dan",
-                                "target_lang_sense_clarification": "volgende handeling in de reeks"
+                                "target_lang_word": "en",
+                                "target_lang_sense_clarification": "opeenvolging of gevolg van handelingen"
                             },
                             {
                                 "target_lang_word": "waarna",
                                 "target_lang_sense_clarification": "formeel, direct daarna volgend"
-                            },
-                            {
-                                "target_lang_word": "en dus",
-                                "target_lang_sense_clarification": "gevolg van de vorige handeling"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "und dann",
-                                "target_lang_sense_clarification": "nächste Handlung in der Reihenfolge"
+                                "target_lang_word": "und",
+                                "target_lang_sense_clarification": "zeitliche Abfolge oder Folge"
                             },
                             {
-                                "target_lang_word": "daraufhin",
-                                "target_lang_sense_clarification": "förmlich, unmittelbar darauf folgend"
+                                "target_lang_word": "und dann",
+                                "target_lang_sense_clarification": "nächste Handlung in der Reihenfolge"
                             }
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "a potem",
-                                "target_lang_sense_clarification": "następna czynność w kolejności"
+                                "target_lang_word": "i",
+                                "target_lang_sense_clarification": "kolejna czynność lub jej skutek"
                             },
                             {
-                                "target_lang_word": "a następnie",
-                                "target_lang_sense_clarification": "oficjalnie, zaraz po tym"
+                                "target_lang_word": "a potem",
+                                "target_lang_sense_clarification": "następna czynność w kolejności"
                             },
                             {
                                 "target_lang_word": "więc",
@@ -290,6 +294,10 @@
                             }
                         ],
                         "it": [
+                            {
+                                "target_lang_word": "e",
+                                "target_lang_sense_clarification": "azioni in successione"
+                            },
                             {
                                 "target_lang_word": "e poi",
                                 "target_lang_sense_clarification": "azione successiva nella sequenza"
@@ -300,6 +308,10 @@
                             }
                         ],
                         "cs": [
+                            {
+                                "target_lang_word": "a",
+                                "target_lang_sense_clarification": "následný děj nebo důsledek"
+                            },
                             {
                                 "target_lang_word": "a potom",
                                 "target_lang_sense_clarification": "následující děj v pořadí"
@@ -320,6 +332,10 @@
                             }
                         ],
                         "es": [
+                            {
+                                "target_lang_word": "y",
+                                "target_lang_sense_clarification": "sucesión o consecuencia"
+                            },
                             {
                                 "target_lang_word": "y luego",
                                 "target_lang_sense_clarification": "siguiente acción en una secuencia"
@@ -358,7 +374,7 @@
                             "target_lang_translations": {
                                 "en": "<w>And</w> what do you intend to do about this tricky problem?",
                                 "ru": "<w>А</w> что вы намерены делать, чтобы решить эту непростую проблему?",
-                                "nl": "<w>En</w> wat van plan bent u om dit lastige probleem op te lossen?",
+                                "nl": "<w>En</w> wat bent u van plan te doen om dit lastige probleem op te lossen?",
                                 "de": "<w>Und</w> was haben Sie vor, um dieses knifflige Problem zu lösen?",
                                 "pl": "<w>A</w> co zamierza Pan zrobić, żeby rozwiązać ten trudny problem?",
                                 "it": "<w>E</w> cosa intende fare per risolvere questo problema delicato?",
@@ -371,15 +387,15 @@
                         {
                             "text": "<w>Et</w> pourtant, personne ne semblait surpris par cette décision inattendue.",
                             "target_lang_translations": {
-                                "en": "<w>And yet</w>, nobody seemed surprised by this unexpected decision.",
-                                "ru": "<w>И всё же</w>, никто не казался удивлённым этим неожиданным решением.",
-                                "nl": "<w>En toch</w>, niemand leek verrast door dit onverwachte besluit.",
-                                "de": "<w>Und doch</w> schien niemand von dieser unerwarteten Entscheidung überrascht zu sein.",
-                                "pl": "<w>A jednak</w> nikt nie wydawał się zaskoczony tą nieoczekiwaną decyzją.",
-                                "it": "<w>Eppure</w>, nessuno sembrava sorpreso da questa decisione inattesa.",
-                                "cs": "<w>A přesto</w> se nikdo nezdál být tímto nečekaným rozhodnutím překvapen.",
-                                "tr": "<w>Yine de</w>, bu beklenmedik kararla kimse şaşırmış görünmüyordu.",
-                                "es": "<w>Y sin embargo</w>, nadie parecía sorprendido por esta decisión inesperada.",
+                                "en": "<w>And</w> yet, nobody seemed surprised by this unexpected decision.",
+                                "ru": "<w>И</w> всё же никто не казался удивлённым этим неожиданным решением.",
+                                "nl": "<w>En</w> toch leek niemand verrast door dit onverwachte besluit.",
+                                "de": "<w>Und</w> doch schien niemand von dieser unerwarteten Entscheidung überrascht zu sein.",
+                                "pl": "<w>A</w> jednak nikt nie wydawał się zaskoczony tą nieoczekiwaną decyzją.",
+                                "it": "<w>E</w> tuttavia nessuno sembrava sorpreso da questa decisione inattesa.",
+                                "cs": "<w>A</w> přesto se nikdo nezdál být tímto nečekaným rozhodnutím překvapen.",
+                                "tr": "<w>Ve</w> yine de bu beklenmedik karara kimse şaşırmış görünmüyordu.",
+                                "es": "<w>Y</w> sin embargo, nadie parecía sorprendido por esta decisión inesperada.",
                                 "zh": "<w>那么</w>，居然没有人对这个出人意料的决定感到惊讶。"
                             }
                         }
@@ -478,6 +494,10 @@
                             {
                                 "target_lang_word": "ee",
                                 "target_lang_sense_clarification": "gündelik dilde söze giriş"
+                            },
+                            {
+                                "target_lang_word": "ve",
+                                "target_lang_sense_clarification": "cümle başında vurgu"
                             }
                         ],
                         "es": [
@@ -530,7 +550,7 @@
                             "target_lang_translations": {
                                 "en": "He devoted all his energy to this project, <w>but</w> he failed.",
                                 "ru": "Он отдал этому проекту всю свою энергию, <w>но</w> потерпел неудачу.",
-                                "nl": "Hij heeft al zijn energie in dit project gestoken, <w>maar</w> hij is mislukt.",
+                                "nl": "Hij heeft al zijn energie in dit project gestoken, <w>maar</w> het is hem niet gelukt.",
                                 "de": "Er steckte seine ganze Energie in dieses Projekt, <w>aber</w> er ist gescheitert.",
                                 "pl": "Poświęcił temu projektowi całą swoją energię, <w>ale</w> poniósł porażkę.",
                                 "it": "Ha dedicato tutte le sue energie a questo progetto, <w>ma</w> ha fallito.",
@@ -723,7 +743,7 @@
                                 "it": "In questo circuito la porta <w>AND</w> lascia passare il segnale solo in presenza di una sola condizione.",
                                 "cs": "V tomto obvodu hradlo <w>AND</w> propouští signál jen za jediné podmínky.",
                                 "tr": "Bu devrede <w>VE</w> kapısı, sinyali yalnızca tek bir koşul altında geçirir.",
-                                "es": "En este circuito, la <w>puerta Y</w> deja pasar la señal solo bajo una única condición.",
+                                "es": "En este circuito, la puerta <w>Y</w> deja pasar la señal solo bajo una única condición.",
                                 "zh": "在这个电路中，<w>与门</w>只有在满足单一条件时才会让信号通过。"
                             }
                         }
@@ -742,7 +762,7 @@
                         "pl": "Operator logiczny, który jest prawdziwy wyłącznie wtedy, gdy wszystkie jego składniki są prawdziwe.",
                         "it": "Operatore logico che è vero solo quando tutte le sue componenti sono vere.",
                         "cs": "Logický operátor, který je pravdivý pouze tehdy, když jsou pravdivé všechny jeho složky.",
-                        "tr": "Bütün bileşenleri doğru olduğunda yalnızca doğru olan mantıksal işleç.",
+                        "tr": "Yalnızca bütün bileşenleri doğru olduğunda doğru olan mantıksal işleç.",
                         "es": "Operador lógico que solo da verdadero cuando todas sus partes son verdaderas.",
                         "zh": "逻辑运算符，只有所有组成部分都为真时结果才为真。"
                     },
@@ -831,6 +851,10 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "VE",
+                                "target_lang_sense_clarification": "mantıksal işleç"
+                            },
+                            {
                                 "target_lang_word": "mantıksal çarpım",
                                 "target_lang_sense_clarification": "matematiksel mantık terimi"
                             },
@@ -841,16 +865,16 @@
                         ],
                         "es": [
                             {
+                                "target_lang_word": "Y",
+                                "target_lang_sense_clarification": "operador lógico (AND)"
+                            },
+                            {
                                 "target_lang_word": "conjunción lógica",
                                 "target_lang_sense_clarification": "término de lógica formal"
                             },
                             {
                                 "target_lang_word": "producto lógico",
                                 "target_lang_sense_clarification": "álgebra booleana"
-                            },
-                            {
-                                "target_lang_word": "puerta Y",
-                                "target_lang_sense_clarification": "circuitos electrónicos"
                             }
                         ],
                         "zh": [

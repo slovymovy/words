@@ -17,9 +17,9 @@
                         {
                             "text": "Il chante très bien <w>comme</w> son père depuis son plus jeune âge.",
                             "target_lang_translations": {
-                                "en": "He has sung very well <w>just like</w> his father since he was a very young boy.",
+                                "en": "He has sung very well, just <w>like</w> his father, since he was a very young boy.",
                                 "ru": "Он поёт так же хорошо, <w>как</w> его отец с самого раннего детства.",
-                                "nl": "Hij zingt sinds zijn prille jeugd net zo goed <w>als</w> zijn vader.",
+                                "nl": "Hij zingt al van jongs af aan heel goed, <w>net als</w> zijn vader.",
                                 "de": "Er singt schon seit seiner frühesten Kindheit genauso gut <w>wie</w> sein Vater.",
                                 "pl": "Śpiewa równie dobrze <w>jak</w> jego ojciec, od najmłodszych lat.",
                                 "it": "Canta benissimo, <w>come</w> suo padre, fin da quando era piccolo.",
@@ -34,13 +34,13 @@
                             "target_lang_translations": {
                                 "en": "We will go to the restaurant tonight <w>as</w> agreed, after work.",
                                 "ru": "Мы пойдём в ресторан сегодня вечером, <w>как</w> и договаривались, после работы.",
-                                "nl": "We gaan vanavond na ons werk naar het restaurant, <w>zoals afgesproken</w>.",
+                                "nl": "We gaan vanavond na ons werk naar het restaurant, <w>zoals</w> afgesproken.",
                                 "de": "Wir gehen heute Abend, <w>wie</w> vereinbart, nach der Arbeit ins Restaurant.",
                                 "pl": "Pójdziemy dziś wieczorem do restauracji, <w>jak</w> się umówiliśmy, po pracy.",
-                                "it": "Stasera andremo al ristorante dopo il lavoro, <w>come d'accordo</w>.",
-                                "cs": "Dnes večer půjdeme po práci do restaurace, <w>jak jsme se domluvili</w>.",
-                                "tr": "Bu akşam işten sonra <w>kararlaştırdığımız gibi</w> lokantaya gideceğiz.",
-                                "es": "Esta noche iremos al restaurante <w>como habíamos acordado</w>, después del trabajo.",
+                                "it": "Stasera andremo al ristorante dopo il lavoro, <w>come</w> d'accordo.",
+                                "cs": "Dnes večer půjdeme po práci do restaurace, <w>jak</w> jsme se domluvili.",
+                                "tr": "Bu akşam işten sonra kararlaştırdığımız <w>gibi</w> lokantaya gideceğiz.",
+                                "es": "Esta noche iremos al restaurante <w>como</w> habíamos acordado, después del trabajo.",
                                 "zh": "今晚下班后，我们会<w>像</w>说好的那样去餐厅。"
                             }
                         }
@@ -63,6 +63,10 @@
                     },
                     "translations": {
                         "en": [
+                            {
+                                "target_lang_word": "like",
+                                "target_lang_sense_clarification": "similar to, in the same way as"
+                            },
                             {
                                 "target_lang_word": "as",
                                 "target_lang_sense_clarification": "in the same way as"
@@ -126,6 +130,10 @@
                             {
                                 "target_lang_word": "jako",
                                 "target_lang_sense_clarification": "srovnání stejného způsobu nebo stavu"
+                            },
+                            {
+                                "target_lang_word": "jak",
+                                "target_lang_sense_clarification": "před větou: jak jsme se domluvili"
                             },
                             {
                                 "target_lang_word": "stejně jako",
@@ -524,7 +532,7 @@
                                 "pl": "<w>Ponieważ</w> lało bardzo mocno, woleliśmy zostać w środku.",
                                 "it": "<w>Siccome</w> pioveva a dirotto, abbiamo preferito restare dentro.",
                                 "cs": "<w>Jelikož</w> hustě pršelo, raději jsme zůstali uvnitř.",
-                                "tr": "<w>Madem</w> yağmur şiddetli yağıyordu, içeride kalmayı tercih ettik.",
+                                "tr": "Yağmur şiddetli yağdığı <w>için</w> içeride kalmayı tercih ettik.",
                                 "es": "<w>Como</w> llovía con fuerza, preferimos quedarnos dentro.",
                                 "zh": "<w>由于</w>雨下得很大，我们宁愿待在屋里。"
                             }
@@ -536,10 +544,10 @@
                                 "ru": "<w>Поскольку</w> поезд опоздал, мы не успели на пересадку.",
                                 "nl": "<w>Omdat</w> de trein vertraging had, hebben we onze overstap gemist.",
                                 "de": "<w>Da</w> der Zug Verspätung hatte, verpassten wir unseren Anschluss.",
-                                "pl": "<w>Skoro</w> pociąg się spóźnił, przegapiliśmy przesiadkę.",
+                                "pl": "<w>Ponieważ</w> pociąg się spóźnił, nie zdążyliśmy na przesiadkę.",
                                 "it": "<w>Siccome</w> il treno era in ritardo, abbiamo perso la coincidenza.",
                                 "cs": "<w>Protože</w> vlak měl zpoždění, zmeškali jsme přípoj.",
-                                "tr": "<w>Çünkü</w> tren gecikmişti, aktarmamızı kaçırdık.",
+                                "tr": "Tren geciktiği <w>için</w> aktarmamızı kaçırdık.",
                                 "es": "<w>Como</w> el tren llevaba retraso, perdimos la conexión.",
                                 "zh": "<w>因为</w>火车晚点，我们没赶上转车。"
                             }
@@ -630,8 +638,12 @@
                         ],
                         "cs": [
                             {
+                                "target_lang_word": "protože",
+                                "target_lang_sense_clarification": "běžné, příčina"
+                            },
+                            {
                                 "target_lang_word": "jelikož",
-                                "target_lang_sense_clarification": "formální příčina na začátku věty"
+                                "target_lang_sense_clarification": "formální, na začátku věty"
                             },
                             {
                                 "target_lang_word": "vzhledem k tomu, že",
@@ -640,12 +652,12 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çünkü",
-                                "target_lang_sense_clarification": "gerekçe bildirir, nötr dil"
+                                "target_lang_word": "için",
+                                "target_lang_sense_clarification": "fiille: -dığı için, neden bildirir"
                             },
                             {
-                                "target_lang_word": "madem",
-                                "target_lang_sense_clarification": "bilinen nedene dayanır, konuşma dili"
+                                "target_lang_word": "-dığından",
+                                "target_lang_sense_clarification": "yazı dilinde neden bildirir"
                             }
                         ],
                         "es": [
@@ -696,7 +708,7 @@
                                 "pl": "<w>Gdy</w> pociąg wjeżdżał na stację, pasażerowie wstali.",
                                 "it": "<w>Mentre</w> il treno entrava in stazione, i passeggeri si sono alzati.",
                                 "cs": "<w>Když</w> vlak najížděl do stanice, cestující se zvedli.",
-                                "tr": "<w>Tren istasyona girerken</w>, yolcular ayağa kalktı.",
+                                "tr": "Tren istasyona girer<w>ken</w>, yolcular ayağa kalktı.",
                                 "es": "<w>Cuando</w> el tren entraba en la estación, los viajeros se levantaron.",
                                 "zh": "<w>当</w>火车驶入车站时，乘客们都站了起来。"
                             }
@@ -711,7 +723,7 @@
                                 "pl": "<w>Kiedy</w> słońce zachodziło, zerwał się chłodny wiatr.",
                                 "it": "<w>Quando</w> il sole tramontava, una brezza fresca ha cominciato a soffiare.",
                                 "cs": "<w>Když</w> slunce zapadalo, začal foukat chladný větřík.",
-                                "tr": "<w>Güneş batarken</w>, serin bir esinti esmeye başladı.",
+                                "tr": "Güneş batar<w>ken</w>, serin bir esinti esmeye başladı.",
                                 "es": "<w>Cuando</w> el sol se ponía, empezó a soplar una brisa fresca.",
                                 "zh": "<w>随着</w>太阳西沉，一阵凉风开始吹了起来。"
                             }
@@ -752,16 +764,12 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "toen",
+                                "target_lang_sense_clarification": "eenmalige gebeurtenis in het verleden"
+                            },
+                            {
                                 "target_lang_word": "terwijl",
                                 "target_lang_sense_clarification": "twee lopende handelingen tegelijk"
-                            },
-                            {
-                                "target_lang_word": "toen",
-                                "target_lang_sense_clarification": "moment van een gebeurtenis in het verleden"
-                            },
-                            {
-                                "target_lang_word": "als",
-                                "target_lang_sense_clarification": "verhalend, op het moment dat"
                             }
                         ],
                         "de": [
@@ -814,12 +822,12 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "sırada",
-                                "target_lang_sense_clarification": "bir olayın tam anı"
+                                "target_lang_word": "-ken",
+                                "target_lang_sense_clarification": "fiile eklenir: iki eşzamanlı olay"
                             },
                             {
-                                "target_lang_word": "iken",
-                                "target_lang_sense_clarification": "iki eşzamanlı durum, yazılı dil"
+                                "target_lang_word": "sırada",
+                                "target_lang_sense_clarification": "bir olayın tam anı"
                             }
                         ],
                         "es": [
@@ -871,7 +879,7 @@
                                 "pl": "<w>Jak</w> ten stary dom jest uroczy i przytulny!",
                                 "it": "<w>Quanto</w> è incantevole e accogliente questa vecchia casa!",
                                 "cs": "<w>Jak</w> kouzelný a útulný je tenhle starý dům!",
-                                "tr": "Bu eski ev <w>ne kadar</w> büyüleyici ve sıcakkanlı!",
+                                "tr": "Bu eski ev <w>ne kadar</w> hoş ve sıcak!",
                                 "es": "¡<w>Qué</w> encantadora y acogedora es esta casa antigua!",
                                 "zh": "这栋老房子<w>多么</w>迷人、温馨啊！"
                             }
@@ -1026,11 +1034,11 @@
                                 "nl": "Hij deed liever <w>alsof</w> er niets bijzonders was gebeurd.",
                                 "de": "Er verhielt sich lieber, <w>als ob</w> nichts Ungewöhnliches passiert wäre.",
                                 "pl": "Wolał udawać, <w>jakby</w> nic niezwykłego się nie wydarzyło.",
-                                "it": "Ha preferito fare <w>come se</w> non fosse successo niente di strano.",
+                                "it": "Ha preferito fare <w>come</w> se non fosse successo niente di strano.",
                                 "cs": "Raději se choval, <w>jako by</w> se nic neobvyklého nestalo.",
                                 "tr": "Olağandışı hiçbir şey olmamış <w>gibi</w> davranmayı tercih etti.",
                                 "es": "Prefirió hacer <w>como si</w> nada extraño hubiera pasado.",
-                                "zh": "他宁愿<w>好像</w>什么不寻常的事情都没发生过似的。"
+                                "zh": "他宁愿装作<w>好像</w>什么不寻常的事情都没发生过似的。"
                             }
                         },
                         {
@@ -1041,7 +1049,7 @@
                                 "nl": "Zij blijft zich gedragen <w>alsof</w> ze de situatie niet begrijpt.",
                                 "de": "Sie tut weiterhin so, <w>als ob</w> sie die Lage nicht verstünde.",
                                 "pl": "Nadal zachowuje się <w>jakby</w> nie rozumiała sytuacji.",
-                                "it": "Continua a comportarsi <w>come se</w> non capisse la situazione.",
+                                "it": "Continua a comportarsi <w>come</w> se non capisse la situazione.",
                                 "cs": "Pořád jedná, <w>jako kdyby</w> situaci nechápala.",
                                 "tr": "<w>Sanki</w> durumu anlamıyormuş gibi davranmaya devam ediyor.",
                                 "es": "Sigue actuando <w>como si</w> no entendiera la situación.",
@@ -1118,16 +1126,16 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "come se",
-                                "target_lang_sense_clarification": "situazione immaginata o simulata"
-                            },
-                            {
-                                "target_lang_word": "per così dire",
-                                "target_lang_sense_clarification": "approssimazione figurata"
+                                "target_lang_word": "come",
+                                "target_lang_sense_clarification": "somiglianza ipotetica: come se"
                             },
                             {
                                 "target_lang_word": "quasi",
                                 "target_lang_sense_clarification": "approssimazione, non letterale"
+                            },
+                            {
+                                "target_lang_word": "per così dire",
+                                "target_lang_sense_clarification": "approssimazione figurata"
                             }
                         ],
                         "cs": [
@@ -1143,7 +1151,11 @@
                         "tr": [
                             {
                                 "target_lang_word": "sanki",
-                                "target_lang_sense_clarification": "hayali veya sahte durum"
+                                "target_lang_sense_clarification": "hayali veya gerçek dışı durum"
+                            },
+                            {
+                                "target_lang_word": "gibi",
+                                "target_lang_sense_clarification": "\"-mış gibi\" kalıbında"
                             },
                             {
                                 "target_lang_word": "adeta",

@@ -37,9 +37,9 @@
                                 "nl": "Als je wilt, gaan <w>we</w> samen weg zodra je klaar bent met je werk.",
                                 "de": "Wenn du willst, gehen <w>wir</w> zusammen los, sobald du mit deiner Arbeit fertig bist.",
                                 "pl": "Jeśli chcesz, <w>idziemy</w> razem, jak tylko skończysz pracę.",
-                                "it": "Se vuoi, <w>ci andiamo</w> insieme appena finisci il lavoro.",
+                                "it": "Se vuoi, ci <w>andiamo</w> insieme appena finisci il lavoro.",
                                 "cs": "Jestli chceš, <w>my</w> tam půjdeme spolu, jakmile skončíš práci.",
-                                "tr": "İstersen, işin bitince <w>birlikte gidebiliriz</w>.",
+                                "tr": "İstersen, işin biter bitmez oraya birlikte gider<w>iz</w>.",
                                 "es": "Si quieres, <w>vamos</w> juntos en cuanto termines el trabajo.",
                                 "zh": "如果你愿意，等你忙完工作，<w>咱们</w>就一起过去。"
                             }
@@ -157,10 +157,10 @@
                                 "nl": "Hier mag <w>je</w> niet roken, want het is een afgesloten openbare plaats.",
                                 "de": "Hier darf <w>man</w> nicht rauchen, weil es ein geschlossener öffentlicher Ort ist.",
                                 "pl": "Tutaj <w>nie wolno</w> palić, bo to zamknięte miejsce publiczne.",
-                                "it": "Qui non <w>si può</w> fumare perché è un luogo pubblico chiuso.",
-                                "cs": "Tady <w>se nesmí</w> kouřit, protože je to uzavřené veřejné místo.",
-                                "tr": "Burada <w>sigara içilmez</w>, çünkü burası kapalı bir kamu yeri.",
-                                "es": "Aquí no <w>se puede</w> fumar porque es un lugar público cerrado.",
+                                "it": "Qui non <w>si</w> può fumare perché è un luogo pubblico chiuso.",
+                                "cs": "Tady <w>se</w> nesmí kouřit, protože je to uzavřené veřejné místo.",
+                                "tr": "Burada sigara iç<w>il</w>mez, çünkü burası kapalı bir kamu yeri.",
+                                "es": "Aquí no <w>se</w> puede fumar porque es un lugar público cerrado.",
                                 "zh": "这里不能吸烟，因为这是一个封闭的公共场所。"
                             }
                         },
@@ -171,11 +171,11 @@
                                 "ru": "Как часто <w>говорят</w>, лучше предупредить, чем лечить.",
                                 "nl": "Zoals <w>men</w> vaak zegt, is voorkomen beter dan genezen.",
                                 "de": "Wie <w>man</w> oft sagt, ist Vorbeugen besser als Heilen.",
-                                "pl": "Jak często <w>się mówi</w>, lepiej zapobiegać niż leczyć.",
-                                "it": "Come <w>si dice</w> spesso, prevenire è meglio che curare.",
+                                "pl": "Jak często <w>się</w> mówi, lepiej zapobiegać niż leczyć.",
+                                "it": "Come <w>si</w> dice spesso, prevenire è meglio che curare.",
                                 "cs": "Jak <w>se</w> často říká, lépe předcházet než léčit.",
-                                "tr": "Sık sık <w>dendiği gibi</w>, önlemek tedaviden iyidir.",
-                                "es": "Como <w>se dice</w> a menudo, más vale prevenir que curar.",
+                                "tr": "Sık sık de<w>n</w>diği gibi, önlemek tedaviden iyidir.",
+                                "es": "Como <w>se</w> dice a menudo, más vale prevenir que curar.",
                                 "zh": "正如<w>人们</w>常说的那样，预防胜于治疗。"
                             }
                         }
@@ -226,16 +226,16 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "mensen",
-                                "target_lang_sense_clarification": "algemene uitspraken, alledaags"
-                            },
-                            {
                                 "target_lang_word": "men",
                                 "target_lang_sense_clarification": "onpersoonlijk, formeel"
                             },
                             {
-                                "target_lang_word": "iemand",
-                                "target_lang_sense_clarification": "onbepaald, niet algemeen"
+                                "target_lang_word": "je",
+                                "target_lang_sense_clarification": "algemeen, spreektaal"
+                            },
+                            {
+                                "target_lang_word": "ze",
+                                "target_lang_sense_clarification": "onbepaalde anderen: ze zeggen dat"
                             }
                         ],
                         "de": [
@@ -249,6 +249,10 @@
                             }
                         ],
                         "pl": [
+                            {
+                                "target_lang_word": "się",
+                                "target_lang_sense_clarification": "bezosobowo, np. mówi się"
+                            },
                             {
                                 "target_lang_word": "ludzie",
                                 "target_lang_sense_clarification": "ogólne stwierdzenia, potocznie"
@@ -274,19 +278,23 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "lidé",
-                                "target_lang_sense_clarification": "obecné výroky, každodenní řeč"
+                                "target_lang_word": "se",
+                                "target_lang_sense_clarification": "neosobně: říká se, nesmí se"
                             },
                             {
                                 "target_lang_word": "člověk",
                                 "target_lang_sense_clarification": "neosobní obecné tvrzení"
                             },
                             {
-                                "target_lang_word": "někdo",
-                                "target_lang_sense_clarification": "neurčitá jednotlivá osoba"
+                                "target_lang_word": "lidé",
+                                "target_lang_sense_clarification": "obecné výroky"
                             }
                         ],
                         "tr": [
+                            {
+                                "target_lang_word": "-il / -in (edilgen eki)",
+                                "target_lang_sense_clarification": "kişisiz anlatım: içilmez, denir"
+                            },
                             {
                                 "target_lang_word": "insanlar",
                                 "target_lang_sense_clarification": "genel yargılar, günlük dil"
@@ -298,16 +306,16 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "la gente",
-                                "target_lang_sense_clarification": "generalidades, uso cotidiano"
+                                "target_lang_word": "se",
+                                "target_lang_sense_clarification": "impersonal: «se dice», «se puede»"
                             },
                             {
                                 "target_lang_word": "uno",
-                                "target_lang_sense_clarification": "impersonal, registro formal"
+                                "target_lang_sense_clarification": "impersonal, experiencia general"
                             },
                             {
-                                "target_lang_word": "alguien",
-                                "target_lang_sense_clarification": "persona no precisada"
+                                "target_lang_word": "la gente",
+                                "target_lang_sense_clarification": "generalidades, uso cotidiano"
                             }
                         ],
                         "zh": [
@@ -483,7 +491,7 @@
                                 "pl": "Proszę się absolutnie nie martwić, <w>zajmiemy</w> się szybko Państwa sprawą.",
                                 "it": "Non si preoccupi affatto, <w>ci occuperemo</w> rapidamente della sua pratica.",
                                 "cs": "Vůbec si nedělejte starosti, <w>my</w> váš spis rychle vyřídíme.",
-                                "tr": "Hiç endişelenmeyin, dosyanızla hızlıca <w>ilgileneceğiz</w>.",
+                                "tr": "Hiç endişelenmeyin, dosyanızla hızlıca ilgileneceğ<w>iz</w>.",
                                 "es": "No se preocupe en absoluto, <w>nos ocuparemos</w> rápidamente de su expediente.",
                                 "zh": "请您千万不必担心，<w>我们</w>会尽快为您办理此事。"
                             }
@@ -498,7 +506,7 @@
                                 "pl": "Jeśli wystąpi problem z produktem, <w>znajdziemy</w> polubowne rozwiązanie.",
                                 "it": "Se ha un problema con il prodotto, <w>troveremo</w> una soluzione amichevole.",
                                 "cs": "Pokud s výrobkem budete mít problém, <w>my</w> najdeme smírné řešení.",
-                                "tr": "Ürünle ilgili bir sorununuz olursa, dostane bir çözüm <w>bulacağız</w>.",
+                                "tr": "Ürünle ilgili bir sorununuz olursa, dostane bir çözüm bulacağ<w>ız</w>.",
                                 "es": "Si tiene algún problema con el producto, <w>encontraremos</w> una solución amistosa.",
                                 "zh": "如果产品有什么问题，<w>我们</w>会友好协商解决。"
                             }
@@ -613,7 +621,7 @@
                                 "ru": "Знак с названием «<w>он</w>» соответствует букве «о» глаголического алфавита.",
                                 "nl": "Het teken met de naam <w>on</w> komt overeen met de letter o in het glagolitische alfabet.",
                                 "de": "Das Zeichen mit dem Namen <w>On</w> entspricht dem Buchstaben o im glagolitischen Alphabet.",
-                                "pl": "Znak nazwany <w>on</w> odpowiada literze o w alfabecie glagolickim.",
+                                "pl": "Znak nazwany <w>on</w> odpowiada literze o w alfabecie głagolickim.",
                                 "it": "Il segno chiamato <w>on</w> corrisponde alla lettera o nell'alfabeto glagolitico.",
                                 "cs": "Znak nazvaný <w>on</w> odpovídá písmenu o v hlaholici.",
                                 "tr": "<w>On</w> adı verilen işaret, Glagolitik alfabedeki o harfine karşılık gelir.",
@@ -630,7 +638,7 @@
                                 "de": "Der Lehrer zeichnete ein <w>On</w> an die Tafel, um die altslawische Schrift zu veranschaulichen.",
                                 "pl": "Nauczyciel narysował na tablicy literę <w>on</w>, żeby zilustrować dawne pismo słowiańskie.",
                                 "it": "L'insegnante ha disegnato un <w>on</w> alla lavagna per illustrare l'antica scrittura slava.",
-                                "cs": "Učitel nakreslil na tablu znak <w>on</w>, aby ukázal staré slovanské písmo.",
+                                "cs": "Učitel nakreslil na tabuli znak <w>on</w>, aby ukázal staré slovanské písmo.",
                                 "tr": "Öğretmen, eski Slav yazısını göstermek için tahtaya bir <w>on</w> harfi çizdi.",
                                 "es": "El profesor dibujó en la pizarra la letra <w>on</w> para ilustrar la antigua escritura eslava.",
                                 "zh": "老师在黑板上画了一个<w>On</w>，用来说明古代斯拉夫文字。"
@@ -642,7 +650,7 @@
                         "ru": "Семнадцатая буква глаголицы, древнейшего славянского письма.",
                         "nl": "De zeventiende letter van het glagolitische alfabet, een oud Slavisch schrift.",
                         "de": "Siebzehnter Buchstabe des glagolitischen Alphabets, einer frühen slawischen Schrift.",
-                        "pl": "Siedemnasta litera alfabetu glagolickiego, dawnego pisma słowiańskiego.",
+                        "pl": "Siedemnasta litera alfabetu głagolickiego, dawnego pisma słowiańskiego.",
                         "it": "Diciassettesima lettera dell'alfabeto glagolitico, antico sistema di scrittura slavo.",
                         "cs": "Sedmnácté písmeno hlaholice, starého slovanského písma.",
                         "tr": "Glagolitik alfabenin on yedinci harfidir ve eski bir Slav yazısına aittir.",
@@ -650,21 +658,66 @@
                         "zh": "格拉戈里字母表中的第十七个字母，属于古老的斯拉夫文字。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "letter of the Glagolitic alphabet"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "он",
+                                "target_lang_sense_clarification": "буква глаголицы"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "letter van het glagolitische alfabet"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "Buchstabe des glagolitischen Alphabets"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "litera głagolicy"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "on",
                                 "target_lang_sense_clarification": "nome della lettera glagolitica"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
-                        "zh": []
+                        "cs": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "písmeno hlaholice"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "glagolitik alfabenin 17. harfi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "letra del alfabeto glagolítico"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "格拉戈里字母的名称"
+                            }
+                        ]
                     }
                 },
                 {
@@ -719,21 +772,66 @@
                         "zh": "格鲁吉亚字母表中的第十四个字母，表示元音o。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "letter of the Georgian alphabet"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "он",
+                                "target_lang_sense_clarification": "буква грузинского алфавита"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "letter van het Georgische alfabet"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "Buchstabe des georgischen Alphabets"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "litera alfabetu gruzińskiego"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "on",
                                 "target_lang_sense_clarification": "nome della lettera georgiana"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
-                        "zh": []
+                        "cs": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "písmeno gruzínské abecedy"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "Gürcü alfabesinin 14. harfi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "on",
+                                "target_lang_sense_clarification": "letra del alfabeto georgiano"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "格鲁吉亚字母的名称"
+                            }
+                        ]
                     }
                 }
             ]
@@ -756,12 +854,12 @@
                                 "ru": "Они купили старую ферму в деревне <w>Он</w> в Бельгии.",
                                 "nl": "Ze kochten een oude boerderij in het dorp <w>On</w> in België.",
                                 "de": "Sie haben einen alten Bauernhof im Dorf <w>On</w> in Belgien gekauft.",
-                                "pl": "Kupili stare gospodarstwo w wsi <w>On</w> w Belgii.",
+                                "pl": "Kupili stare gospodarstwo we wsi <w>On</w> w Belgii.",
                                 "it": "Hanno comprato una vecchia fattoria nel villaggio di <w>On</w> in Belgio.",
                                 "cs": "Koupili starý statek ve vsi <w>On</w> v Belgii.",
                                 "tr": "Belçika'daki <w>On</w> köyünde eski bir çiftlik satın aldılar.",
                                 "es": "Compraron una antigua granja en el pueblo de <w>On</w>, en Bélgica.",
-                                "zh": "他们在比利时<w>On</w>村买下了一座老农场。"
+                                "zh": "他们在比利时<w>翁</w>村买下了一座老农场。"
                             }
                         },
                         {
@@ -776,7 +874,7 @@
                                 "cs": "Státní silnice prochází obcí <w>On</w>, než dorazí do Marche-en-Famenne.",
                                 "tr": "Devlet yolu, Marche-en-Famenne'a varmadan önce <w>On</w> yerleşim yerinden geçiyor.",
                                 "es": "La carretera nacional atraviesa la localidad de <w>On</w> antes de llegar a Marche-en-Famenne.",
-                                "zh": "国道穿过<w>On</w>村后才到达马什-昂-法门。"
+                                "zh": "国道穿过<w>翁</w>村后才到达马什-昂-法门。"
                             }
                         }
                     ],
@@ -799,16 +897,66 @@
                         "zh": "比利时瓦隆大区马什-昂-法门市镇下属的一个村庄和行政区。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
-                        "zh": []
+                        "en": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "village in Wallonia, Belgium"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Он",
+                                "target_lang_sense_clarification": "деревня в Валлонии, Бельгия"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "dorp bij Marche-en-Famenne, België"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "Ort in der Wallonie, Belgien"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "miejscowość w Walonii w Belgii"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "villaggio belga presso Marche-en-Famenne"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "vesnice v Belgii"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "belçika, Valonya'da köy"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "On",
+                                "target_lang_sense_clarification": "localidad belga de Valonia"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "翁",
+                                "target_lang_sense_clarification": "比利时瓦隆大区的村庄"
+                            }
+                        ]
                     }
                 },
                 {
@@ -831,7 +979,7 @@
                                 "cs": "Členové <w>ON</w> hlasovali pro politické sloučení.",
                                 "tr": "<w>ON</w>'un üyeleri, siyasi birleşme lehine oy kullandı.",
                                 "es": "Los militantes de <w>ON</w> votaron a favor de la fusión política.",
-                                "zh": "<w>ON</w>的成员投票赞成政治合并。"
+                                "zh": "<w>国民选择党</w>的成员投票赞成政治合并。"
                             }
                         },
                         {
@@ -846,7 +994,7 @@
                                 "cs": "Program <w>ON</w> kladl na první místo nezávislost Quebecu.",
                                 "tr": "<w>ON</w>'un programı, Quebec'in bağımsızlığını ön plana çıkarıyordu.",
                                 "es": "El programa de <w>ON</w> ponía en primer plano la independencia de Quebec.",
-                                "zh": "<w>ON</w>的纲领把魁北克的独立放在首位。"
+                                "zh": "<w>国民选择党</w>的纲领把魁北克的独立放在首位。"
                             }
                         }
                     ],
@@ -869,16 +1017,61 @@
                         "zh": "魁北克已不复存在的一个主张主权的旧政党。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "option nationale, former Quebec party"
+                            }
+                        ],
                         "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
-                        "zh": []
+                        "nl": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "option nationale, voormalige Quebecse partij"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "ehemalige Partei in Québec (Option nationale)"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "dawna partia polityczna w Quebecu"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "ex partito indipendentista del Québec"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "bývalá quebecká strana Option nationale"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "québec'te eski siyasi parti"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "ON",
+                                "target_lang_sense_clarification": "antiguo partido soberanista de Quebec"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "国民选择党",
+                                "target_lang_sense_clarification": "魁北克已解散的主权派政党"
+                            }
+                        ]
                     }
                 }
             ]

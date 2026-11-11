@@ -31,7 +31,7 @@
                                 "de": "Jeden Abend nach dem Essen <w>macht</w> mein Bruder in der Küche den Abwasch.",
                                 "pl": "Każdego wieczoru po kolacji mój brat <w>zmywa</w> naczynia w kuchni.",
                                 "it": "Ogni sera dopo cena mio fratello <w>fa</w> i piatti in cucina.",
-                                "cs": "Každý večer po večeři v kuchyni můj bratr <w>dělá</w> nádobí.",
+                                "cs": "Každý večer po večeři můj bratr v kuchyni <w>myje</w> nádobí.",
                                 "tr": "Her akşam yemekten sonra erkek kardeşim mutfakta bulaşıkları <w>yıkar</w>.",
                                 "es": "Todas las noches después de cenar, mi hermano <w>lava</w> los platos en la cocina.",
                                 "zh": "每天晚饭后，我弟弟都在厨房里<w>干</w>洗碗的活儿。"
@@ -78,8 +78,8 @@
                                 "target_lang_sense_clarification": "general action or task"
                             },
                             {
-                                "target_lang_word": "perform",
-                                "target_lang_sense_clarification": "formal or skilled performance"
+                                "target_lang_word": "make",
+                                "target_lang_sense_clarification": "with noise, a mistake, an effort"
                             },
                             {
                                 "target_lang_word": "carry out",
@@ -220,9 +220,9 @@
                                 "en": "For my sister's birthday, we <w>are making</w> a big chocolate cake.",
                                 "ru": "На день рождения сестры мы <w>готовим</w> большой шоколадный торт.",
                                 "nl": "Voor de verjaardag van mijn zus <w>maken</w> we een grote chocoladetaart.",
-                                "de": "Zum Geburtstag meiner Schwester <w>backen</w> wir einen großen Schokoladenkuchen.",
+                                "de": "Zum Geburtstag meiner Schwester <w>machen</w> wir einen großen Schokoladenkuchen.",
                                 "pl": "Na urodziny mojej siostry <w>pieczemy</w> duży tort czekoladowy.",
-                                "it": "Per il compleanno di mia sorella <w>prepariamo</w> una grande torta al cioccolato.",
+                                "it": "Per il compleanno di mia sorella <w>facciamo</w> una grande torta al cioccolato.",
                                 "cs": "Na narozeniny mojí sestry <w>uděláme</w> velký čokoládový dort.",
                                 "tr": "Kız kardeşimin doğum günü için büyük bir çikolatalı pasta <w>pişiriyoruz</w>.",
                                 "es": "Para el cumpleaños de mi hermana, <w>hacemos</w> una gran tarta de chocolate.",
@@ -416,12 +416,12 @@
                             "text": "Aujourd'hui, il <w>fait</w> très beau et nous pouvons aller nous promener au parc.",
                             "target_lang_translations": {
                                 "en": "Today the weather <w>is</w> very nice, and we can go for a walk in the park.",
-                                "ru": "Сегодня <w>стоит очень хорошая погода</w>, и мы можем пойти погулять в парк.",
+                                "ru": "Сегодня <w>стоит</w> очень хорошая погода, и мы можем пойти погулять в парк.",
                                 "nl": "Vandaag <w>is</w> het heel mooi weer en kunnen we in het park gaan wandelen.",
                                 "de": "Heute <w>ist</w> das Wetter sehr schön, und wir können im Park spazieren gehen.",
                                 "pl": "Dziś <w>jest</w> bardzo ładnie i możemy pójść na spacer do parku.",
                                 "it": "Oggi <w>fa</w> davvero bel tempo, e possiamo andare a fare una passeggiata al parco.",
-                                "cs": "Dnes <w>je moc hezky</w>, a tak můžeme jít na procházku do parku.",
+                                "cs": "Dnes <w>je</w> moc hezky, a tak můžeme jít na procházku do parku.",
                                 "tr": "Bugün <w>hava çok güzel</w>, parka yürüyüşe çıkabiliriz.",
                                 "es": "Hoy <w>hace</w> muy buen tiempo y podemos ir a pasear al parque.",
                                 "zh": "今天天气很好，我们可以去公园散步。"
@@ -431,12 +431,12 @@
                             "text": "En hiver, il <w>fait</w> souvent froid dans cette vieille maison mal isolée.",
                             "target_lang_translations": {
                                 "en": "In winter it <w>is</w> often cold in this old, poorly insulated house.",
-                                "ru": "Зимой в этом старом плохо утеплённом доме часто <w>холодно</w>.",
+                                "ru": "Зимой в этом старом плохо утеплённом доме часто <w>стоит</w> холод.",
                                 "nl": "In de winter <w>is</w> het vaak koud in dit oude, slecht geïsoleerde huis.",
                                 "de": "Im Winter <w>ist</w> es in diesem alten, schlecht isolierten Haus oft kalt.",
                                 "pl": "Zimą w tym starym, słabo ocieplonym domu często <w>jest</w> zimno.",
                                 "it": "D'inverno, in questa vecchia casa poco isolata, <w>fa</w> spesso freddo.",
-                                "cs": "V zimě v tomhle starém a špatně izolovaném domě často <w>je zima</w>.",
+                                "cs": "V zimě <w>je</w> v tomhle starém a špatně izolovaném domě často zima.",
                                 "tr": "Kışın bu eski ve kötü yalıtımlı evde sık sık <w>soğuk oluyor</w>.",
                                 "es": "En invierno, en esta vieja casa mal aislada, a menudo <w>hace</w> frío.",
                                 "zh": "冬天，这栋老房子保温不好，屋里常常很冷。"
@@ -462,7 +462,12 @@
                         "zh": "描述天气或气温的状况。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "be",
+                                "target_lang_sense_clarification": "impersonal, weather: it is cold"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "стоять",
@@ -497,7 +502,12 @@
                                 "target_lang_sense_clarification": "tempo e temperatura, es. fa freddo"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "být",
+                                "target_lang_sense_clarification": "o počasí: je hezky, je zima"
+                            }
+                        ],
                         "tr": [],
                         "es": [
                             {
@@ -525,8 +535,8 @@
                                 "de": "Diese lustige Geschichte <w>lässt</w> mich immer laut lachen, wenn ich sie höre.",
                                 "pl": "Ta zabawna historia zawsze mnie <w>rozbawia</w> do głośnego śmiechu, kiedy ją słyszę.",
                                 "it": "Questa storia divertente mi <w>fa</w> sempre ridere a crepapelle quando la sento.",
-                                "cs": "Tahle vtipná historka mě, když ji slyším, vždycky <w>přinutí</w> nahlas se smát.",
-                                "tr": "Bu komik hikâye, duyduğumda beni her zaman kahkahayla <w>güldürür</w>.",
+                                "cs": "Tahle vtipná historka mě vždycky <w>rozesměje</w> na celé kolo, když ji slyším.",
+                                "tr": "Bu komik hikâye, duyduğumda beni her zaman kahkahayla gül<w>dür</w>ür.",
                                 "es": "Esta historia graciosa siempre me <w>hace</w> reír a carcajadas cuando la oigo.",
                                 "zh": "这个滑稽的故事每次听到，都<w>让</w>我笑得停不下来。"
                             }
@@ -541,7 +551,7 @@
                                 "pl": "Nauczyciel <w>każe</w> uczniom czekać pod drzwiami, zanim otworzy klasę.",
                                 "it": "Il professore <w>fa</w> aspettare i suoi alunni davanti alla porta prima di aprire la classe.",
                                 "cs": "Učitel <w>nechá</w> své žáky čekat před dveřmi, než otevře třídu.",
-                                "tr": "Öğretmen sınıfı açmadan önce öğrencilerini kapının önünde <w>bekletir</w>.",
+                                "tr": "Öğretmen sınıfı açmadan önce öğrencilerini kapının önünde bekle<w>t</w>ir.",
                                 "es": "El profesor <w>hace</w> esperar a sus alumnos delante de la puerta antes de abrir la clase.",
                                 "zh": "老师开教室门之前，总是<w>让</w>学生们先在门外等着。"
                             }
@@ -634,8 +644,8 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "yaptırmak",
-                                "target_lang_sense_clarification": "ettirgen yapı, başkasına yaptırma"
+                                "target_lang_word": "-dir- / -t- (ettirgen eki)",
+                                "target_lang_sense_clarification": "birine bir şey yaptırma: güldürmek"
                             },
                             {
                                 "target_lang_word": "neden olmak",
@@ -695,7 +705,7 @@
                                 "nl": "De som van al die kleine aankopen <w>bedraagt</w> aan het eind van de maand een flink bedrag.",
                                 "de": "Die Summe all dieser kleinen Einkäufe <w>beträgt</w> am Monatsende einen beträchtlichen Betrag.",
                                 "pl": "Suma wszystkich tych drobnych zakupów na koniec miesiąca <w>wynosi</w> sporą kwotę.",
-                                "it": "La somma di tutti questi piccoli acquisti <w>ammonta a</w> una cifra importante alla fine del mese.",
+                                "it": "La somma di tutti questi piccoli acquisti <w>ammonta</w> a una cifra importante alla fine del mese.",
                                 "cs": "Součet všech těch malých nákupů na konci měsíce <w>činí</w> značnou částku.",
                                 "tr": "Ay sonunda bu küçük alışverişlerin toplamı epey bir tutar <w>eder</w>.",
                                 "es": "La suma de todas estas pequeñas compras <w>asciende a</w> una cantidad importante a final de mes.",
@@ -1025,7 +1035,7 @@
                                 "en": "It's hard at first to live in the city, but you <w>get used to</w> it quickly.",
                                 "ru": "Сначала трудно жить в городе, но быстро <w>привыкаешь</w> к нему.",
                                 "nl": "In het begin is het moeilijk om in de stad te wonen, maar je <w>went</w> er snel aan.",
-                                "de": "Am Anfang ist es schwer, in der Stadt zu leben, aber man <w>gewöhnt</w> sich schnell daran.",
+                                "de": "Am Anfang ist es schwer, in der Stadt zu leben, aber man <w>gewöhnt sich</w> schnell daran.",
                                 "pl": "Na początku trudno mieszkać w mieście, ale szybko <w>przyzwyczajasz się</w> do tego.",
                                 "it": "All'inizio è difficile vivere in città, ma <w>ci si abitua</w> in fretta.",
                                 "cs": "Na začátku je těžké žít ve městě, ale člověk si na to rychle <w>zvykne</w>.",
@@ -1040,7 +1050,7 @@
                                 "en": "After several weeks of holiday, I'm struggling to <w>get used to</w> this new pace.",
                                 "ru": "После нескольких недель отпуска мне трудно <w>привыкнуть</w> к этому новому ритму.",
                                 "nl": "Na enkele weken vakantie vind ik het moeilijk om aan dit nieuwe ritme te <w>wennen</w>.",
-                                "de": "Nach mehreren Wochen Urlaub fällt es mir schwer, mich an diesen neuen Rhythmus <w>zu gewöhnen</w>.",
+                                "de": "Nach mehreren Wochen Urlaub fällt es mir schwer, mich an diesen neuen Rhythmus zu <w>gewöhnen</w>.",
                                 "pl": "Po kilku tygodniach wakacji trudno mi <w>przyzwyczaić się</w> do tego nowego rytmu.",
                                 "it": "Dopo diverse settimane di vacanza faccio fatica ad <w>abituarmi</w> a questo nuovo ritmo.",
                                 "cs": "Po několika týdnech dovolené si na tenhle nový rytmus jen těžko <w>zvykám</w>.",
@@ -1204,7 +1214,7 @@
                         {
                             "text": "Porter un costume sombre pour cet entretien d'embauche <w>fait</w> tout de suite plus sérieux.",
                             "target_lang_translations": {
-                                "en": "Wearing a dark suit to this job interview <w>makes you look</w> instantly more serious.",
+                                "en": "Wearing a dark suit to this job interview instantly <w>looks</w> more serious.",
                                 "ru": "Тёмный костюм на собеседование сразу <w>делает</w> вас гораздо серьёзнее.",
                                 "nl": "Een donker pak dragen op dit sollicitatiegesprek <w>komt</w> meteen serieuzer over.",
                                 "de": "Ein dunkler Anzug zu diesem Vorstellungsgespräch <w>wirkt</w> gleich seriöser.",
@@ -1222,9 +1232,9 @@
                                 "en": "This mess in the living room doesn't <w>look</w> very tidy in front of the guests.",
                                 "ru": "Этот беспорядок в гостиной перед гостями <w>выглядит</w> не очень аккуратно.",
                                 "nl": "Deze rommel in de woonkamer <w>oogt</w> niet erg netjes voor de gasten.",
-                                "de": "Diese Unordnung im Wohnzimmer <w>sieht</w> vor den Gästen nicht sehr sauber aus.",
+                                "de": "Diese Unordnung im Wohnzimmer <w>sieht</w> vor den Gästen nicht sehr ordentlich <w>aus</w>.",
                                 "pl": "Ten bałagan w salonie przed gośćmi nie <w>wygląda</w> zbyt schludnie.",
-                                "it": "Questo disordine in salotto non <w>sembra</w> molto pulito davanti agli ospiti.",
+                                "it": "Con questo disordine il salotto non <w>sembra</w> molto pulito davanti agli ospiti.",
                                 "cs": "Tenhle nepořádek v obýváku před hosty moc <w>nevypadá</w> čistě.",
                                 "tr": "Oturma odasındaki bu dağınıklık, misafirlerin önünde pek temiz <w>görünmüyor</w>.",
                                 "es": "Este desorden en el salón no <w>parece</w> muy limpio delante de los invitados.",
@@ -1371,15 +1381,15 @@
                         {
                             "text": "Partir sans dire au revoir aux hôtes de la soirée ne se <w>fait</w> vraiment pas.",
                             "target_lang_translations": {
-                                "en": "Leaving the party without saying goodbye to the hosts is really <w>not done</w>.",
-                                "ru": "Уйти с вечеринки, не попрощавшись с хозяевами, — это совсем <w>не принято</w>.",
+                                "en": "Leaving the party without saying goodbye to the hosts is really not <w>done</w>.",
+                                "ru": "Уйти с вечеринки, не попрощавшись с хозяевами, — это совсем не <w>принято</w>.",
                                 "nl": "Vertrekken zonder afscheid te nemen van de gastheren <w>hoort</w> echt niet.",
                                 "de": "Einfach ohne Abschied von den Gastgebern zu gehen, <w>gehört sich</w> wirklich nicht.",
-                                "pl": "Wyjść z przyjęcia bez pożegnania z gospodarzami naprawdę <w>nie wypada</w>.",
+                                "pl": "Wyjść z przyjęcia bez pożegnania z gospodarzami naprawdę nie <w>wypada</w>.",
                                 "it": "Andarsene dalla festa senza salutare i padroni di casa proprio non <w>si fa</w>.",
-                                "cs": "Odejít z večírku bez rozloučení s pořadateli prostě <w>nepatří se</w>.",
+                                "cs": "Odejít z večírku bez rozloučení s hostiteli <w>se</w> prostě <w>nepatří</w>.",
                                 "tr": "Partideki ev sahiplerine veda etmeden gitmek gerçekten <w>yapılmaz</w>.",
-                                "es": "Irse de la fiesta sin despedirse de los anfitriones realmente <w>no se hace</w>.",
+                                "es": "Irse de la fiesta sin despedirse de los anfitriones realmente no <w>se hace</w>.",
                                 "zh": "不跟主人道别就离开聚会，实在不<w>合乎礼节</w>。"
                             }
                         },
@@ -1389,7 +1399,7 @@
                                 "en": "In this very formal diplomatic world, everyone knows exactly what <w>is proper</w>.",
                                 "ru": "В этой очень официальной дипломатической среде все точно знают, что <w>принято</w>.",
                                 "nl": "In dit zeer formele diplomatieke milieu weet iedereen precies wat <w>gepast is</w>.",
-                                "de": "In diesem sehr förmlichen diplomatischen Umfeld weiß jeder genau, was sich <w>gehört</w>.",
+                                "de": "In diesem sehr förmlichen diplomatischen Umfeld weiß jeder genau, was <w>sich gehört</w>.",
                                 "pl": "W tym bardzo formalnym środowisku dyplomatycznym każdy dokładnie wie, co <w>wypada</w>.",
                                 "it": "In questo ambiente diplomatico molto formale, tutti sanno esattamente cosa <w>si fa</w>.",
                                 "cs": "V tomhle velmi formálním diplomatickém prostředí každý přesně ví, co <w>se patří</w>.",
@@ -1418,22 +1428,22 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "be acceptable",
-                                "target_lang_sense_clarification": "polite conduct in company"
+                                "target_lang_word": "be done",
+                                "target_lang_sense_clarification": "socially accepted, usually negative"
                             },
                             {
                                 "target_lang_word": "be proper",
-                                "target_lang_sense_clarification": "etiquette and manners, usually negative"
+                                "target_lang_sense_clarification": "etiquette and manners"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "не принято",
+                                "target_lang_word": "принято",
                                 "target_lang_sense_clarification": "правила этикета, обычаи"
                             },
                             {
-                                "target_lang_word": "неприлично",
-                                "target_lang_sense_clarification": "поведение в обществе, отрицательно"
+                                "target_lang_word": "прилично",
+                                "target_lang_sense_clarification": "поведение в обществе"
                             }
                         ],
                         "nl": [
@@ -1468,8 +1478,8 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "essere educato",
-                                "target_lang_sense_clarification": "comportamento corretto in società"
+                                "target_lang_word": "farsi",
+                                "target_lang_sense_clarification": "impersonale: (non) si fa"
                             },
                             {
                                 "target_lang_word": "stare bene",
@@ -1497,6 +1507,10 @@
                             }
                         ],
                         "es": [
+                            {
+                                "target_lang_word": "hacerse",
+                                "target_lang_sense_clarification": "en «eso no se hace»"
+                            },
                             {
                                 "target_lang_word": "estar bien visto",
                                 "target_lang_sense_clarification": "aceptado en el trato social"
@@ -1725,7 +1739,7 @@
                                 "it": "I critici d'arte hanno lodato la delicatezza e la virtuosità della <w>tecnica</w> di questo giovane pittore.",
                                 "cs": "Kritici umění vysoko ocenili jemnost a virtuozitu <w>rukopisu</w> tohoto mladého malíře.",
                                 "tr": "Sanat eleştirmenleri bu genç ressamın <w>tekniğinin</w> inceliğini ve ustalığını övdü.",
-                                "es": "Los críticos de arte elogiaron la delicadeza y la virtuosidad de la <w>técnica</w> de este joven pintor.",
+                                "es": "Los críticos de arte elogiaron la delicadeza y el virtuosismo de la <w>técnica</w> de este joven pintor.",
                                 "zh": "艺术评论家高度赞赏这位年轻画家<w>技法</w>的细腻与精湛。"
                             }
                         },
@@ -1739,8 +1753,8 @@
                                 "pl": "W tym dawnym obrazie swoboda <w>pociągnięć</w> pędzla wyraźnie kontrastuje z surowością akademickiego rysunku.",
                                 "it": "In questo antico dipinto, la libertà della <w>pennellata</w> contrasta nettamente con il rigore del disegno accademico.",
                                 "cs": "V tomhle starém obraze svobodný <w>rukopis</w> ostře kontrastuje s přísností akademické kresby.",
-                                "tr": "Bu eski tabloda <w>fırça darbelerinin</w> serbestliği akademik çizimin katılığıyla keskin bir tezat oluşturur.",
-                                "es": "En este cuadro antiguo, la soltura de la <w>pincelada</w> contrasta claramente con el rigor del dibujo académico.",
+                                "tr": "Bu eski tabloda <w>tekniğin</w> serbestliği akademik çizimin katılığıyla keskin bir tezat oluşturur.",
+                                "es": "En este cuadro antiguo, la soltura de la <w>factura</w> contrasta claramente con el rigor del dibujo académico.",
                                 "zh": "这幅古画的<w>笔触</w>自由奔放，与学院派素描的严谨形成鲜明对比。"
                             }
                         }

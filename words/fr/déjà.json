@@ -39,7 +39,7 @@
                                 "pl": "Czy <w>już</w> odwiedziłeś to piękne muzeum podczas swojego pobytu?",
                                 "it": "Hai <w>già</w> visitato questo bel museo durante il tuo soggiorno?",
                                 "cs": "Navštívil jsi <w>už</w> tohle krásné muzeum během svého pobytu?",
-                                "tr": "Kaldığın süre içinde bu güzel müzeyi <w>çoktan</w> ziyaret ettin mi?",
+                                "tr": "Burada kaldığın süre içinde bu güzel müzeyi <w>hiç</w> ziyaret ettin mi?",
                                 "es": "¿<w>Ya</w> has visitado este bonito museo durante tu estancia?",
                                 "zh": "你在这次停留期间<w>已经</w>参观过这座漂亮的博物馆了吗？"
                             }
@@ -143,6 +143,10 @@
                             {
                                 "target_lang_word": "şimdiden",
                                 "target_lang_sense_clarification": "beklenenden erken gerçekleşme, şaşkınlık"
+                            },
+                            {
+                                "target_lang_word": "hiç",
+                                "target_lang_sense_clarification": "soru cümlesinde: daha önce, bir kez olsun"
                             }
                         ],
                         "es": [
@@ -182,10 +186,10 @@
                                 "ru": "Как <w>же</w> называется тот новый ресторан в центре?",
                                 "nl": "Hoe heet dat nieuwe restaurant in het centrum <w>alweer</w>?",
                                 "de": "Wie heißt dieses neue Restaurant in der Innenstadt <w>noch gleich</w>?",
-                                "pl": "Jak się nazywa ta nowa restauracja w centrum, <w>już</w>?",
+                                "pl": "<w>Zaraz</w>, jak się nazywa ta nowa restauracja w centrum?",
                                 "it": "Come si chiama quel nuovo ristorante in centro, <w>già</w>?",
-                                "cs": "Jak se ta nová restaurace v centru jmenuje, <w>zase</w>?",
-                                "tr": "Şehir merkezindeki şu yeni restoranın adı <w>neydi</w>?",
+                                "cs": "Jak se <w>zase</w> jmenuje ta nová restaurace v centru?",
+                                "tr": "Şehir merkezindeki şu yeni restoranın adı ney<w>di</w>?",
                                 "es": "¿Cómo se llama ese restaurante nuevo del centro, <w>ya</w>?",
                                 "zh": "市中心那家新餐厅叫什么<w>来着</w>？"
                             }
@@ -197,10 +201,10 @@
                                 "ru": "Во сколько <w>же</w> мы договаривались встретиться на обед?",
                                 "nl": "Hoe laat hadden we <w>alweer</w> afgesproken voor de lunch?",
                                 "de": "Um wie viel Uhr hatten wir uns <w>noch gleich</w> zum Mittagessen verabredet?",
-                                "pl": "O której godzinie mieliśmy się umówić na obiad, <w>już</w>?",
+                                "pl": "<w>Zaraz</w>, o której byliśmy umówieni na obiad?",
                                 "it": "A che ora avevamo fissato l'appuntamento per pranzo, <w>già</w>?",
-                                "cs": "V kolik hodin jsme měli na oběd sraz, <w>už</w>?",
-                                "tr": "Öğle yemeği için saat kaçta buluşacaktık, <w>neydi</w>?",
+                                "cs": "V kolik hodin jsme <w>zase</w> měli sraz na oběd?",
+                                "tr": "Öğle yemeği için buluşma saatimiz kaçta<w>ydı</w>?",
                                 "es": "¿A qué hora habíamos quedado para comer, <w>ya</w>?",
                                 "zh": "我们约好吃午饭是几点<w>来着</w>？"
                             }
@@ -229,7 +233,16 @@
                                 "target_lang_sense_clarification": "in questions asking for recall"
                             }
                         ],
-                        "ru": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "же",
+                                "target_lang_sense_clarification": "в вопросе: вспоминая забытое"
+                            },
+                            {
+                                "target_lang_word": "бишь",
+                                "target_lang_sense_clarification": "разг.: «как бишь его зовут?»"
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "alweer",
@@ -252,8 +265,8 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "już",
-                                "target_lang_sense_clarification": "w pytaniach o zapomniane szczegóły"
+                                "target_lang_word": "zaraz",
+                                "target_lang_sense_clarification": "przy przypominaniu sobie czegoś"
                             }
                         ],
                         "it": [
@@ -268,15 +281,20 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "už",
-                                "target_lang_sense_clarification": "v otázkách na zapomenuté údaje"
+                                "target_lang_word": "zase",
+                                "target_lang_sense_clarification": "v otázce na zapomenutý údaj"
                             },
                             {
-                                "target_lang_word": "zase",
-                                "target_lang_sense_clarification": "hovorově v otázkách na detail"
+                                "target_lang_word": "honem",
+                                "target_lang_sense_clarification": "hovorově: jak se honem jmenuje?"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "-di / -dı",
+                                "target_lang_sense_clarification": "unutulan bilgiyi yeniden sorarken: neydi"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "ya",
@@ -307,7 +325,7 @@
                                 "nl": "<w>Ten eerste</w> zou het dak gerepareerd moeten worden voordat we de binnenmuren opnieuw schilderen.",
                                 "de": "<w>Zuerst</w> müsste das Dach repariert werden, bevor man die Innenwände neu streicht.",
                                 "pl": "<w>Po pierwsze</w> trzeba by naprawić dach, zanim ponownie pomalujemy wnętrza.",
-                                "it": "<w>Innanzitutto</w>, bisognerebbe riparare il tetto prima di ridipingere le pareti interne.",
+                                "it": "<w>Prima di tutto</w>, bisognerebbe riparare il tetto prima di ridipingere le pareti interne.",
                                 "cs": "<w>Za prvé</w> by bylo potřeba opravit střechu, než se znovu natřou vnitřní stěny.",
                                 "tr": "<w>Öncelikle</w>, iç boyaları yenilemeden önce çatının tamir edilmesi gerekir.",
                                 "es": "<w>Para empezar</w>, habría que reparar el tejado antes de volver a pintar las paredes interiores.",
@@ -317,11 +335,11 @@
                         {
                             "text": "Nous ne pouvons pas accepter cette offre et, <w>déjà</w>, les délais sont intenables.",
                             "target_lang_translations": {
-                                "en": "We can't accept this offer and, <w>for one thing</w>, the deadlines are unworkable.",
+                                "en": "We can't accept this offer and, <w>to begin with</w>, the deadlines are unworkable.",
                                 "ru": "Мы не можем принять это предложение и, <w>во-первых</w>, сроки просто невыполнимы.",
                                 "nl": "We kunnen dit aanbod niet accepteren en <w>ten eerste</w> zijn de termijnen onhaalbaar.",
-                                "de": "Wir können dieses Angebot nicht annehmen, und <w>zum einen</w> sind die Fristen völlig unrealistisch.",
-                                "pl": "Nie możemy przyjąć tej oferty, a <w>po pierwsze</w> terminy są nie do utrzymania.",
+                                "de": "Wir können dieses Angebot nicht annehmen, und <w>zunächst</w> einmal sind die Fristen völlig unrealistisch.",
+                                "pl": "Nie możemy przyjąć tej oferty: <w>po pierwsze</w>, terminy są nie do dotrzymania.",
                                 "it": "Non possiamo accettare questa offerta e, <w>in primo luogo</w>, le scadenze sono irrealistiche.",
                                 "cs": "Tuhle nabídku nemůžeme přijmout a <w>především</w> jsou termíny nereálné.",
                                 "tr": "Bu teklifi kabul edemeyiz; <w>bir kere</w>, süreler gerçekçi değil.",
@@ -454,6 +472,10 @@
                             {
                                 "target_lang_word": "her şeyden önce",
                                 "target_lang_sense_clarification": "argümanın ilk ve ana gerekçesi"
+                            },
+                            {
+                                "target_lang_word": "bir kere",
+                                "target_lang_sense_clarification": "konuşma dilinde ilk gerekçe"
                             }
                         ],
                         "es": [

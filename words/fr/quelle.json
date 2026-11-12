@@ -21,11 +21,11 @@
                             "text": "À <w>quelle</w> heure commence votre réunion de travail ce matin ?",
                             "target_lang_translations": {
                                 "en": "At <w>what</w> time does your work meeting start this morning?",
-                                "ru": "<w>Во сколько</w> начинается ваше рабочее совещание сегодня утром?",
+                                "ru": "В <w>котором</w> часу начинается ваше рабочее совещание сегодня утром?",
                                 "nl": "<w>Hoe laat</w> begint uw werkvergadering vanochtend?",
                                 "de": "Um <w>welche</w> Uhrzeit beginnt heute Vormittag Ihre Arbeitsbesprechung?",
-                                "pl": "<w>O której</w> godzinie zaczyna się dziś rano wasze spotkanie służbowe?",
-                                "it": "<w>A che ora</w> inizia la sua riunione di lavoro stamattina?",
+                                "pl": "O <w>której</w> godzinie zaczyna się dziś rano wasze spotkanie służbowe?",
+                                "it": "A <w>che</w> ora inizia la sua riunione di lavoro stamattina?",
                                 "cs": "V <w>kolik</w> hodin začíná dnes ráno vaše pracovní porada?",
                                 "tr": "Bu sabah iş toplantınız saat <w>kaçta</w> başlıyor?",
                                 "es": "¿A <w>qué</w> hora empieza su reunión de trabajo esta mañana?",
@@ -36,7 +36,7 @@
                             "text": "Dans <w>quelle</w> ville as-tu passé tes dernières vacances d'été ?",
                             "target_lang_translations": {
                                 "en": "In <w>which</w> city did you spend your last summer holiday?",
-                                "ru": "<w>В каком</w> городе ты провёл последние летние каникулы?",
+                                "ru": "В <w>каком</w> городе ты провёл последние летние каникулы?",
                                 "nl": "In <w>welke</w> stad heb je je laatste zomervakantie doorgebracht?",
                                 "de": "In <w>welcher</w> Stadt hast du deine letzten Sommerferien verbracht?",
                                 "pl": "W <w>jakim</w> mieście spędziłeś ostatnie letnie wakacje?",
@@ -142,6 +142,10 @@
                                 "target_lang_sense_clarification": "bilinen bir kümeden seçim"
                             },
                             {
+                                "target_lang_word": "kaç",
+                                "target_lang_sense_clarification": "saat sorarken: saat kaçta"
+                            },
+                            {
                                 "target_lang_word": "ne tür",
                                 "target_lang_sense_clarification": "tür veya çeşit sorarken"
                             }
@@ -182,7 +186,7 @@
                                 "pl": "<w>Co za</w> szczęście, że wszyscy dziś razem jesteśmy!",
                                 "it": "<w>Che</w> fortuna che siamo tutti riuniti oggi!",
                                 "cs": "<w>Jaké</w> štěstí, že jsme se dnes všichni sešli!",
-                                "tr": "Bugün hepimizin bir arada olması <w>ne büyük</w> şans!",
+                                "tr": "Bugün hepimizin bir arada olması <w>ne</w> büyük şans!",
                                 "es": "¡<w>Qué</w> suerte tenemos de estar reunidos todos juntos hoy!",
                                 "zh": "今天我们大家能聚在一起，<w>多么</w>幸运啊！"
                             }
@@ -197,7 +201,7 @@
                                 "pl": "<w>Jaki</w> dobry pomysł, żeby na deser przynieść to pyszne ciasto!",
                                 "it": "<w>Che</w> bella idea aver portato questa deliziosa torta per il dessert!",
                                 "cs": "<w>Jaký</w> dobrý nápad přinést na dezert ten výborný dort!",
-                                "tr": "Tatlı için bu lezzetli pastayı getirmen <w>ne güzel</w> bir fikir!",
+                                "tr": "Tatlı için bu lezzetli pastayı getirmen <w>ne</w> güzel bir fikir!",
                                 "es": "¡<w>Qué</w> buena idea haber traído esta deliciosa tarta para el postre!",
                                 "zh": "今天带来这块美味的蛋糕做甜点，<w>多么</w>好的主意啊！"
                             }
@@ -294,11 +298,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "ne",
-                                "target_lang_sense_clarification": "isim önünde şaşkınlık bildirirken"
-                            },
-                            {
-                                "target_lang_word": "ne güzel",
-                                "target_lang_sense_clarification": "hayranlık ve beğeni bildirirken"
+                                "target_lang_sense_clarification": "isim önünde ünlem: ne şans!"
                             }
                         ],
                         "es": [
@@ -360,7 +360,7 @@
                                 "de": "Von all diesen wunderschönen Kleidern, <w>welches</w> ist deiner Meinung nach das eleganteste?",
                                 "pl": "Spośród wszystkich tych cudownych sukienek, <w>która</w> jest według ciebie najbardziej elegancka?",
                                 "it": "Tra tutti questi splendidi abiti, <w>qual</w> è il più elegante secondo te?",
-                                "cs": "Ze všech těch nádherných šatů, <w>která</w> je podle tebe nejelegantnější?",
+                                "cs": "Ze všech těch nádherných šatů, <w>které</w> jsou podle tebe nejelegantnější?",
                                 "tr": "Bütün bu muhteşem elbiseler arasında, sence en zarif olanı <w>hangisi</w>?",
                                 "es": "Entre todos estos vestidos magníficos, ¿<w>cuál</w> es el más elegante, en tu opinión?",
                                 "zh": "这些漂亮的裙子里，你觉得<w>哪个</w>最优雅？"
@@ -442,12 +442,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "který",
-                                "target_lang_sense_clarification": "volba jedné z několika"
+                                "target_lang_word": "jaký",
+                                "target_lang_sense_clarification": "otázka se slovesem být"
                             },
                             {
-                                "target_lang_word": "co",
-                                "target_lang_sense_clarification": "zjišťování podstaty věci"
+                                "target_lang_word": "který",
+                                "target_lang_sense_clarification": "volba jedné z několika"
                             }
                         ],
                         "tr": [

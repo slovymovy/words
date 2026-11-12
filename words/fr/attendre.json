@@ -24,9 +24,9 @@
                                 "ru": "Каждое утро я стою на остановке и <w>жду</w> автобус.",
                                 "nl": "Elke ochtend sta ik bij de bushalte en <w>wacht op</w> de bus.",
                                 "de": "Ich stehe jeden Morgen an der Haltestelle und <w>warte auf</w> den Bus.",
-                                "pl": "Codziennie rano stoję na przystanku i <w>czekam na</w> autobus.",
+                                "pl": "Codziennie rano stoję na przystanku i <w>czekam</w> na autobus.",
                                 "it": "Ogni mattina sono alla fermata e <w>aspetto</w> l'autobus.",
-                                "cs": "Každé ráno stojím na zastávce a <w>čekám na</w> autobus.",
+                                "cs": "Každé ráno stojím na zastávce a <w>čekám</w> na autobus.",
                                 "tr": "Her sabah durakta duruyorum ve otobüsü <w>bekliyorum</w>.",
                                 "es": "Todas las mañanas estoy en la parada y <w>espero</w> el autobús.",
                                 "zh": "我每天早上都在车站<w>等</w>公交车。"
@@ -38,10 +38,10 @@
                                 "en": "We have been <w>waiting for</w> our friends in front of the cinema for twenty minutes.",
                                 "ru": "Мы уже двадцать минут <w>ждём</w> друзей перед кинотеатром.",
                                 "nl": "Wij <w>wachten op</w> onze vrienden al twintig minuten voor de bioscoop.",
-                                "de": "Seit zwanzig Minuten <w>warten</w> wir vor dem Kino auf unsere Freunde.",
-                                "pl": "Od dwudziestu minut <w>czekamy na</w> naszych przyjaciół przed kinem.",
+                                "de": "Seit zwanzig Minuten <w>warten</w> wir vor dem Kino <w>auf</w> unsere Freunde.",
+                                "pl": "Od dwudziestu minut <w>czekamy</w> na naszych przyjaciół przed kinem.",
                                 "it": "Da venti minuti <w>aspettiamo</w> i nostri amici davanti al cinema.",
-                                "cs": "Už dvacet minut <w>čekáme na</w> naše přátele před kinem.",
+                                "cs": "Už dvacet minut <w>čekáme</w> na naše přátele před kinem.",
                                 "tr": "Yirmi dakikadır sinemanın önünde arkadaşlarımızı <w>bekliyoruz</w>.",
                                 "es": "Llevamos veinte minutos <w>esperando</w> a nuestros amigos delante del cine.",
                                 "zh": "我们已经在电影院门口<w>等</w>朋友二十分钟了。"
@@ -202,7 +202,7 @@
                             "target_lang_translations": {
                                 "en": "We have to <w>wait</w> until the meeting ends before asking questions.",
                                 "ru": "Нам нужно <w>подождать</w> окончания совещания, прежде чем задавать вопросы.",
-                                "nl": "We moeten <w>wachten tot</w> de vergadering is afgelopen voordat we vragen stellen.",
+                                "nl": "We moeten <w>wachten</w> tot de vergadering is afgelopen voordat we vragen stellen.",
                                 "de": "Wir müssen das Ende der Besprechung <w>abwarten</w>, bevor wir Fragen stellen.",
                                 "pl": "Musimy <w>poczekać</w> do końca spotkania, zanim zadamy pytania.",
                                 "it": "Dobbiamo <w>aspettare</w> la fine della riunione per fare domande.",
@@ -263,8 +263,12 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "wachten",
+                                "target_lang_sense_clarification": "tot een bepaald moment"
+                            },
+                            {
                                 "target_lang_word": "wachten met",
-                                "target_lang_sense_clarification": "tot het juiste moment"
+                                "target_lang_sense_clarification": "iets nog niet doen"
                             },
                             {
                                 "target_lang_word": "uitstellen",
@@ -353,16 +357,12 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "推迟",
-                                "target_lang_sense_clarification": "安排好的会议或活动"
-                            },
-                            {
-                                "target_lang_word": "延后",
-                                "target_lang_sense_clarification": "决定或计划的时间往后推"
-                            },
-                            {
                                 "target_lang_word": "等待",
                                 "target_lang_sense_clarification": "等合适时机再行动"
+                            },
+                            {
+                                "target_lang_word": "等到",
+                                "target_lang_sense_clarification": "到某一时刻才行动"
                             }
                         ]
                     }
@@ -477,16 +477,16 @@
                         ],
                         "pl": [
                             {
+                                "target_lang_word": "oczekiwać",
+                                "target_lang_sense_clarification": "wymagać czegoś od kogoś"
+                            },
+                            {
                                 "target_lang_word": "spodziewać się",
                                 "target_lang_sense_clarification": "od ludzi: pracy, wyników"
                             },
                             {
                                 "target_lang_word": "liczyć na",
                                 "target_lang_sense_clarification": "pomoc lub wsparcie"
-                            },
-                            {
-                                "target_lang_word": "wymagać",
-                                "target_lang_sense_clarification": "stawianie wymagań innym"
                             }
                         ],
                         "it": [
@@ -506,7 +506,7 @@
                         "cs": [
                             {
                                 "target_lang_word": "očekávat",
-                                "target_lang_sense_clarification": "výkon, práci nebo výsledky"
+                                "target_lang_sense_clarification": "žádat nebo čekat něco od někoho"
                             },
                             {
                                 "target_lang_word": "spoléhat se",
@@ -573,9 +573,9 @@
                             "text": "Avec cette météo difficile, nous devons nous <w>attendre</w> au pire.",
                             "target_lang_translations": {
                                 "en": "With this difficult weather, we should <w>expect</w> the worst.",
-                                "ru": "При такой тяжёлой погоде нам стоит <w>ожидать худшего</w>.",
+                                "ru": "При такой тяжёлой погоде нам стоит <w>ожидать</w> худшего.",
                                 "nl": "Met dit moeilijke weer moeten we <w>rekenen op</w> het ergste.",
-                                "de": "Bei diesem schwierigen Wetter müssen wir auf das Schlimmste <w>gefasst sein</w>.",
+                                "de": "Bei diesem schwierigen Wetter müssen wir <w>auf</w> das Schlimmste <w>gefasst sein</w>.",
                                 "pl": "Przy tak trudnej pogodzie powinniśmy <w>spodziewać się</w> najgorszego.",
                                 "it": "Con questo tempo così brutto dobbiamo <w>aspettarci</w> il peggio.",
                                 "cs": "Při takovém nepříznivém počasí musíme <w>očekávat</w> to nejhorší.",
@@ -704,7 +704,7 @@
                         "cs": [
                             {
                                 "target_lang_word": "očekávat",
-                                "target_lang_sense_clarification": "pravděpodobné výsledky"
+                                "target_lang_sense_clarification": "počítat s tím, že něco nastane"
                             },
                             {
                                 "target_lang_word": "předvídat",
@@ -948,8 +948,8 @@
                                 "nl": "Ik ben al meer dan een halfuur in het café en <w>wacht op</w> hem.",
                                 "de": "Ich sitze schon seit über einer halben Stunde im Café und <w>warte auf</w> ihn.",
                                 "pl": "Od ponad pół godziny <w>czekam na</w> niego w kawiarni.",
-                                "it": "Sono più di mezz'ora che lo <w>aspetto</w> al bar.",
-                                "cs": "Už víc než půl hodiny <w>čekám na něj</w> v kavárně.",
+                                "it": "È più di mezz'ora che lo <w>aspetto</w> al bar.",
+                                "cs": "Už víc než půl hodiny na něj <w>čekám</w> v kavárně.",
                                 "tr": "Yarım saatten fazladır kafede onu <w>bekliyorum</w>.",
                                 "es": "Llevo más de media hora en el café <w>esperándolo</w>.",
                                 "zh": "我已经在咖啡馆<w>等</w>他半个多小时了。"
@@ -960,8 +960,8 @@
                             "target_lang_translations": {
                                 "en": "Don't worry, I didn't <w>wait</w> too long for you today.",
                                 "ru": "Не переживай, я сегодня недолго тебя <w>ждал</w>.",
-                                "nl": "Maak je geen zorgen, ik heb vandaag niet lang <w>op je gewacht</w>.",
-                                "de": "Mach dir keine Sorgen, ich habe heute nicht lange auf dich <w>gewartet</w>.",
+                                "nl": "Maak je geen zorgen, ik heb vandaag niet lang <w>op</w> je <w>gewacht</w>.",
+                                "de": "Mach dir keine Sorgen, ich habe heute nicht lange <w>auf</w> dich <w>gewartet</w>.",
                                 "pl": "Nie martw się, dziś nie <w>czekałem na</w> ciebie zbyt długo.",
                                 "it": "Non preoccuparti, oggi non ti ho <w>aspettato</w> troppo a lungo.",
                                 "cs": "Neboj se, dnes jsem na tebe <w>nečekal</w> zas tak dlouho.",
@@ -1006,11 +1006,11 @@
                         "ru": [
                             {
                                 "target_lang_word": "ждать",
-                                "target_lang_sense_clarification": "обычное значение, ждать человека"
+                                "target_lang_sense_clarification": "региональный оборот attendre sur"
                             },
                             {
                                 "target_lang_word": "дожидаться",
-                                "target_lang_sense_clarification": "разговорно, ждать кого-либо"
+                                "target_lang_sense_clarification": "региональный оборот, с предлогом sur"
                             }
                         ],
                         "nl": [
@@ -1022,7 +1022,7 @@
                         "de": [
                             {
                                 "target_lang_word": "warten auf",
-                                "target_lang_sense_clarification": "auf eine bestimmte Person"
+                                "target_lang_sense_clarification": "regional mit „sur“ statt direktem Objekt"
                             }
                         ],
                         "pl": [
@@ -1038,27 +1038,23 @@
                         "it": [
                             {
                                 "target_lang_word": "aspettare",
-                                "target_lang_sense_clarification": "uso standard, una persona precisa"
+                                "target_lang_sense_clarification": "rende il regionale «attendre sur qqn»"
                             },
                             {
                                 "target_lang_word": "attendere",
-                                "target_lang_sense_clarification": "registro formale, una persona"
+                                "target_lang_sense_clarification": "formale, per «attendre sur qqn»"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "čekat",
-                                "target_lang_sense_clarification": "konkrétní osoba, obecné užití"
-                            },
-                            {
-                                "target_lang_word": "dočkat se",
-                                "target_lang_sense_clarification": "hovorově, čekání na osobu"
+                                "target_lang_sense_clarification": "na někoho, regionální „attendre sur“"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "beklemek",
-                                "target_lang_sense_clarification": "belirli bir kişi için"
+                                "target_lang_sense_clarification": "bölgesel: attendre sur quelqu'un"
                             }
                         ],
                         "es": [
@@ -1074,11 +1070,11 @@
                         "zh": [
                             {
                                 "target_lang_word": "等",
-                                "target_lang_sense_clarification": "口语，等某个具体的人"
+                                "target_lang_sense_clarification": "地区用法，后接 sur"
                             },
                             {
                                 "target_lang_word": "等候",
-                                "target_lang_sense_clarification": "书面或礼貌用语，等候某人"
+                                "target_lang_sense_clarification": "地区用法，后接 sur，较正式"
                             }
                         ]
                     }

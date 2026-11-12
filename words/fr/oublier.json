@@ -27,7 +27,7 @@
                                 "de": "Ich werde diesen schönen Tag, den ich mit Ihnen am Strand verbracht habe, nie <w>vergessen</w>.",
                                 "pl": "Nigdy nie <w>zapomnę</w> tego pięknego dnia, który spędziliśmy z wami na plaży.",
                                 "it": "Non potrò mai <w>dimenticare</w> questa bella giornata che abbiamo trascorso con voi al mare.",
-                                "cs": "Nikdy <w>nezapomenu na</w> ten krásný den, který jsme s vámi strávili na pláži.",
+                                "cs": "Nikdy <w>nezapomenu</w> na ten krásný den, který jsme s vámi strávili na pláži.",
                                 "tr": "Sizinle sahilde geçirdiğimiz o güzel günü asla <w>unutamayacağım</w>.",
                                 "es": "Nunca podré <w>olvidar</w> ese hermoso día que pasamos con ustedes en la playa.",
                                 "zh": "我永远不会<w>忘记</w>和你们在海边度过的那个美好的日子。"
@@ -60,7 +60,7 @@
                     "target_lang_definitions": {
                         "en": "To no longer remember something or someone you once knew.",
                         "ru": "Перестать помнить что-либо или кого-либо, что вы когда-то знали.",
-                        "nl": "Iets of iemand die je ooit kende niet meer kunnen herinneren.",
+                        "nl": "Zich iets of iemand die je ooit kende niet meer kunnen herinneren.",
                         "de": "Etwas oder jemanden nicht mehr im Gedächtnis behalten, den man einmal kannte.",
                         "pl": "Przestać pamiętać coś lub kogoś, kogo się kiedyś znało.",
                         "it": "Non riuscire più a ricordare qualcosa o qualcuno che si conosceva.",
@@ -163,7 +163,7 @@
                         {
                             "text": "En partant ce matin, elle a <w>oublié</w> ses clés sur la table du salon.",
                             "target_lang_translations": {
-                                "en": "When she left this morning, she <w>forgot</w> her keys on the living room table.",
+                                "en": "On her way out this morning, she <w>left</w> her keys <w>behind</w> on the living room table.",
                                 "ru": "Уходя сегодня утром, она <w>забыла</w> ключи на столе в гостиной.",
                                 "nl": "Toen ze vanmorgen vertrok, heeft ze haar sleutels op de salontafel <w>vergeten</w>.",
                                 "de": "Als sie heute Morgen aus dem Haus ging, hat sie ihre Schlüssel auf dem Wohnzimmertisch <w>vergessen</w>.",
@@ -172,13 +172,13 @@
                                 "cs": "Dnes ráno, když odcházela, <w>zapomněla</w> klíče na stole v obýváku.",
                                 "tr": "Bu sabah çıkarken anahtarlarını salondaki masada <w>unuttu</w>.",
                                 "es": "Al salir esta mañana, <w>olvidó</w> las llaves en la mesa del salón.",
-                                "zh": "今天早上出门时，她<w>忘记</w>带钥匙，钥匙还留在客厅的桌子上。"
+                                "zh": "今天早上出门时，她把钥匙<w>忘</w>在了客厅的桌子上。"
                             }
                         },
                         {
                             "text": "Prends ton parapluie avec toi et ne l'<w>oublie</w> pas dans le train.",
                             "target_lang_translations": {
-                                "en": "Take your umbrella with you and don't <w>forget</w> it on the train.",
+                                "en": "Take your umbrella with you and don't <w>leave</w> it <w>behind</w> on the train.",
                                 "ru": "Возьми зонт с собой и не <w>забудь</w> его в поезде.",
                                 "nl": "Neem je paraplu mee en <w>vergeet</w> hem niet in de trein.",
                                 "de": "Nimm deinen Regenschirm mit und <w>vergiss</w> ihn nicht im Zug.",
@@ -307,8 +307,8 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "忘记",
-                                "target_lang_sense_clarification": "随身物品，如钥匙、雨伞"
+                                "target_lang_word": "忘",
+                                "target_lang_sense_clarification": "把东西忘在某处，如忘在桌上"
                             },
                             {
                                 "target_lang_word": "落下",
@@ -332,7 +332,7 @@
                                 "ru": "Не <w>забудьте</w> запереть дверь на ключ перед уходом из квартиры.",
                                 "nl": "<w>Vergeet</w> niet de deur op slot te doen voordat u het appartement verlaat.",
                                 "de": "<w>Vergessen</w> Sie nicht, die Tür abzuschließen, bevor Sie die Wohnung verlassen.",
-                                "pl": "<w>Nie zapomnijcie</w> zamknąć drzwi na klucz, zanim wyjdziecie z mieszkania.",
+                                "pl": "Nie <w>zapomnijcie</w> zamknąć drzwi na klucz, zanim wyjdziecie z mieszkania.",
                                 "it": "Non <w>dimenticate</w> di chiudere a chiave la porta prima di uscire di casa.",
                                 "cs": "<w>Nezapomeňte</w> zamknout dveře na klíč, než opustíte byt.",
                                 "tr": "Daireden çıkmadan önce kapıyı anahtarla kilitlemeyi <w>unutmayın</w>.",
@@ -457,8 +457,12 @@
                         ],
                         "es": [
                             {
+                                "target_lang_word": "olvidar",
+                                "target_lang_sense_clarification": "con infinitivo: no olvides cerrar"
+                            },
+                            {
                                 "target_lang_word": "olvidarse de",
-                                "target_lang_sense_clarification": "seguido de infinitivo"
+                                "target_lang_sense_clarification": "con infinitivo, más coloquial"
                             },
                             {
                                 "target_lang_word": "omitir",
@@ -486,12 +490,12 @@
                             "target_lang_translations": {
                                 "en": "After their long argument, they decided to <w>let bygones be bygones</w> and move on.",
                                 "ru": "После долгой ссоры они решили <w>забыть</w> прошлое и двигаться дальше.",
-                                "nl": "Na hun lange ruzie besloten ze <w>het verleden te laten rusten</w> en verder te gaan.",
+                                "nl": "Na hun lange ruzie besloten ze het verleden te <w>laten rusten</w> en verder te gaan.",
                                 "de": "Nach ihrem langen Streit beschlossen sie, die Vergangenheit <w>ruhen zu lassen</w> und nach vorn zu schauen.",
                                 "pl": "Po długiej kłótni postanowili <w>puścić w niepamięć</w> przeszłość i iść dalej.",
                                 "it": "Dopo la lunga lite hanno deciso di <w>mettere una pietra sopra</w> il passato e di andare avanti.",
-                                "cs": "Po dlouhé hádce se rozhodli <w>nechat minulost minulostí</w> a jít dál.",
-                                "tr": "Uzun süren tartışmalarının ardından geçmişi <w>geride bırakıp</w> yoluna devam etmeye karar verdiler.",
+                                "cs": "Po dlouhé hádce se rozhodli <w>zapomenout</w> na minulost a jít dál.",
+                                "tr": "Uzun süren tartışmalarının ardından geçmişi <w>unutup</w> yollarına devam etmeye karar verdiler.",
                                 "es": "Después de su larga discusión, decidieron <w>olvidar</w> el pasado y seguir adelante.",
                                 "zh": "经过那场漫长的争吵，他们决定<w>既往不咎</w>，向前看。"
                             }
@@ -505,7 +509,7 @@
                                 "de": "Sie verzieh ihm seinen Fehler und hatte die Ungeschicklichkeit schnell <w>vergessen</w>.",
                                 "pl": "Wybaczyła mu błąd i szybko <w>zapomniała</w> o tej gafie.",
                                 "it": "Gli ha perdonato l'errore e ha subito <w>dimenticato</w> quella goffaggine.",
-                                "cs": "Odpustila mu chybu a rychle <w>zapomněla na</w> tu nešikovnost.",
+                                "cs": "Odpustila mu chybu a rychle <w>zapomněla</w> na tu nešikovnost.",
                                 "tr": "Hatasını affetti ve o sakarlığı çabucak <w>unuttu</w>.",
                                 "es": "Le perdonó el error y pronto <w>olvidó</w> aquella torpeza.",
                                 "zh": "她原谅了他的失误，很快就<w>不计前嫌</w>了。"
@@ -531,6 +535,10 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "forget",
+                                "target_lang_sense_clarification": "a wrong or quarrel, bearing no grudge"
+                            },
+                            {
                                 "target_lang_word": "let bygones be bygones",
                                 "target_lang_sense_clarification": "for old quarrels or offences"
                             },
@@ -541,36 +549,32 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "что было, то было",
-                                "target_lang_sense_clarification": "старые ссоры и обиды"
+                                "target_lang_word": "забыть",
+                                "target_lang_sense_clarification": "обиду, старую ссору"
                             },
                             {
-                                "target_lang_word": "простить и забыть",
-                                "target_lang_sense_clarification": "примирение после обиды"
+                                "target_lang_word": "простить",
+                                "target_lang_sense_clarification": "больше не держать зла"
                             }
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "het verleden laten rusten",
-                                "target_lang_sense_clarification": "oude ruzies of beledigingen"
+                                "target_lang_word": "vergeten",
+                                "target_lang_sense_clarification": "een fout of ruzie niet meer aanrekenen"
                             },
                             {
-                                "target_lang_word": "vergeven en vergeten",
-                                "target_lang_sense_clarification": "verzoening na een conflict"
+                                "target_lang_word": "laten rusten",
+                                "target_lang_sense_clarification": "het verleden of oude ruzies"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "vergeben und vergessen",
-                                "target_lang_sense_clarification": "nach Streit oder Kränkung"
+                                "target_lang_word": "vergessen",
+                                "target_lang_sense_clarification": "nicht mehr nachtragen"
                             },
                             {
-                                "target_lang_word": "Schwamm drüber",
-                                "target_lang_sense_clarification": "umgangssprachlich, Streit beilegen"
-                            },
-                            {
-                                "target_lang_word": "die Vergangenheit ruhen lassen",
-                                "target_lang_sense_clarification": "alte Streitigkeiten beenden"
+                                "target_lang_word": "ruhen lassen",
+                                "target_lang_sense_clarification": "die Vergangenheit, einen Streit"
                             }
                         ],
                         "pl": [
@@ -585,8 +589,8 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "perdonare e dimenticare",
-                                "target_lang_sense_clarification": "torti reciproci, riconciliazione"
+                                "target_lang_word": "dimenticare",
+                                "target_lang_sense_clarification": "torti e offese, senza rancore"
                             },
                             {
                                 "target_lang_word": "mettere una pietra sopra",
@@ -599,32 +603,28 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "nechat minulost minulostí",
-                                "target_lang_sense_clarification": "staré hádky a křivdy"
+                                "target_lang_word": "zapomenout",
+                                "target_lang_sense_clarification": "křivdu, urážku, starý spor"
                             },
                             {
-                                "target_lang_word": "odpustit a zapomenout",
-                                "target_lang_sense_clarification": "smíření po urážce"
-                            },
-                            {
-                                "target_lang_word": "co bylo, bylo",
-                                "target_lang_sense_clarification": "hovorově, uzavření sporu"
+                                "target_lang_word": "prominout",
+                                "target_lang_sense_clarification": "chybu, bez výčitek"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "affetmek",
-                                "target_lang_sense_clarification": "geçmiş hatalar ve kırgınlıklar"
+                                "target_lang_word": "unutmak",
+                                "target_lang_sense_clarification": "kırgınlığı, hatayı: kin tutmamak"
                             },
                             {
-                                "target_lang_word": "bağışlamak",
-                                "target_lang_sense_clarification": "ciddi haksızlıklar için"
+                                "target_lang_word": "affetmek",
+                                "target_lang_sense_clarification": "geçmiş hatalar ve kırgınlıklar"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "perdonar y olvidar",
-                                "target_lang_sense_clarification": "reconciliación tras una ofensa"
+                                "target_lang_word": "olvidar",
+                                "target_lang_sense_clarification": "ofensas o errores, sin rencor"
                             },
                             {
                                 "target_lang_word": "pasar página",
@@ -677,7 +677,7 @@
                                 "it": "Non vieni più a trovarci nel fine settimana, ci <w>trascuri</w>.",
                                 "cs": "Už o víkendech k nám nechodíš, <w>zanedbáváš</w> nás.",
                                 "tr": "Artık hafta sonları yanımıza uğramıyorsun, bizi <w>arayıp sormuyorsun</w>.",
-                                "es": "Ya no vienes a vernos los fines de semana, <w>nos descuidas</w>.",
+                                "es": "Ya no vienes a vernos los fines de semana, nos <w>descuidas</w>.",
                                 "zh": "你周末不再来看我们了，是不是把我们<w>忘记</w>了？"
                             }
                         }
@@ -729,8 +729,8 @@
                                 "target_lang_sense_clarification": "vrienden, familie of relaties"
                             },
                             {
-                                "target_lang_word": "contact verliezen",
-                                "target_lang_sense_clarification": "vriendschap die langzaam wegvalt"
+                                "target_lang_word": "vergeten",
+                                "target_lang_sense_clarification": "niets meer van zich laten horen"
                             }
                         ],
                         "de": [
@@ -842,7 +842,7 @@
                                 "en": "He is generous, but you shouldn't <w>put yourself last</w> just to please others.",
                                 "ru": "Он щедрый, но не стоит <w>забывать о себе</w>, стараясь угодить другим.",
                                 "nl": "Hij is royaal, maar je moet jezelf niet <w>wegcijferen</w> om anderen een plezier te doen.",
-                                "de": "Er ist großzügig, aber man sollte sich nicht selbst <w>zurücknehmen</w>, nur um anderen eine Freude zu machen.",
+                                "de": "Er ist großzügig, aber man sollte sich nicht selbst <w>aufopfern</w>, nur um anderen eine Freude zu machen.",
                                 "pl": "Jest hojny, ale nie powinien <w>zapominać o sobie</w>, by sprawiać innym przyjemność.",
                                 "it": "È generoso, ma non bisogna <w>dimenticarsi di sé</w> per far piacere agli altri.",
                                 "cs": "Je štědrý, ale nesmí <w>zapomínat na sebe</w>, aby druhým dělal radost.",

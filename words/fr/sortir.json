@@ -25,7 +25,7 @@
                                 "de": "Die Schüler machen sich bereit, die Klasse <w>zu verlassen</w>, sobald die Glocke läutet.",
                                 "pl": "Uczniowie szykują się, żeby <w>wyjść</w> z klasy, jak tylko zadzwoni dzwonek.",
                                 "it": "Gli studenti si preparano a <w>uscire</w> dalla classe non appena suona la campanella.",
-                                "cs": "Žáci se připravují, že z třídy <w>vyjdou</w>, jakmile zazvoní zvonek.",
+                                "cs": "Žáci se chystají <w>vyjít</w> ze třídy, jakmile zazvoní zvonek.",
                                 "tr": "Zil çalar çalmaz öğrenciler sınıftan <w>çıkmaya</w> hazırlanıyorlar.",
                                 "es": "Los alumnos se preparan para <w>salir</w> de clase en cuanto suene el timbre.",
                                 "zh": "铃声一响，学生们就准备<w>离开</w>教室。"
@@ -206,7 +206,7 @@
                             "target_lang_translations": {
                                 "en": "We really enjoy <w>going out</w> in the evening with our friends to a restaurant.",
                                 "ru": "Мы очень любим по вечерам <w>выходить</w> с друзьями в ресторан.",
-                                "nl": "We vinden het heerlijk om <w>'s avonds uit te gaan</w> met onze vrienden naar het restaurant.",
+                                "nl": "We vinden het heerlijk om 's avonds <w>uit te gaan</w> met onze vrienden naar het restaurant.",
                                 "de": "Wir lieben es, abends mit unseren Freunden <w>auszugehen</w>, um ins Restaurant zu gehen.",
                                 "pl": "Bardzo lubimy wieczorami <w>wychodzić</w> z przyjaciółmi do restauracji.",
                                 "it": "Ci piace molto <w>uscire</w> la sera con gli amici per andare al ristorante.",
@@ -221,7 +221,7 @@
                             "target_lang_translations": {
                                 "en": "On Saturdays she often <w>goes out</w> into town to go shopping.",
                                 "ru": "По субботам она часто <w>выходит</w> в город за покупками.",
-                                "nl": "Op zaterdag <w>gaat ze vaak de stad in</w> om te winkelen.",
+                                "nl": "Op zaterdag <w>gaat</w> ze vaak de stad in om te winkelen.",
                                 "de": "Samstags <w>geht</w> sie oft in die Stadt, um einzukaufen.",
                                 "pl": "W soboty często <w>wychodzi</w> na miasto, żeby robić zakupy.",
                                 "it": "Il sabato <w>esce</w> spesso in centro per fare shopping.",
@@ -263,6 +263,10 @@
                             }
                         ],
                         "ru": [
+                            {
+                                "target_lang_word": "выходить",
+                                "target_lang_sense_clarification": "из дома: развлечься, погулять"
+                            },
                             {
                                 "target_lang_word": "гулять",
                                 "target_lang_sense_clarification": "прогулки и развлечения вне дома"
@@ -375,7 +379,7 @@
                                 "de": "Vergiss nicht, die Mülltonnen <w>rauszustellen</w>, bevor der Müllwagen durch die Straße fährt.",
                                 "pl": "Nie zapomnij <w>wystawić</w> śmieci przed dom, zanim śmieciarka przejedzie ulicą.",
                                 "it": "Non dimenticare di <w>portare fuori</w> la spazzatura prima che passi il camion.",
-                                "cs": "Nezapomeň popelnice <w>vystavit</w> před dům, než ulicí projede popelářský vůz.",
+                                "cs": "Nezapomeň popelnice <w>vytáhnout</w> před dům, než ulicí projede popelářský vůz.",
                                 "tr": "Çöp kamyonu sokağa gelmeden önce çöpleri <w>dışarı çıkarmayı</w> unutma.",
                                 "es": "No olvides <w>sacar</w> la basura antes de que pase el camión por la calle.",
                                 "zh": "别忘了在垃圾车经过街道前把垃圾桶<w>拿出</w>去。"
@@ -384,14 +388,14 @@
                         {
                             "text": "Mon père a <w>sorti</w> la voiture du garage pour la laver dans l'allée.",
                             "target_lang_translations": {
-                                "en": "My father <w>wheeled</w> the car out of the garage to wash it on the driveway.",
-                                "ru": "Отец <w>вывез</w> машину из гаража, чтобы помыть её на подъездной дорожке.",
+                                "en": "My father <w>took</w> the car <w>out</w> of the garage to wash it on the drive.",
+                                "ru": "Отец <w>выгнал</w> машину из гаража, чтобы помыть её на подъездной дорожке.",
                                 "nl": "Mijn vader heeft de auto uit de garage <w>gereden</w> om hem op de oprit te wassen.",
                                 "de": "Mein Vater <w>fuhr</w> das Auto aus der Garage, um es in der Einfahrt zu waschen.",
                                 "pl": "Ojciec <w>wyprowadził</w> samochód z garażu, żeby umyć go na podjeździe.",
                                 "it": "Mio padre ha <w>portato fuori</w> la macchina dal garage per lavarla nel vialetto.",
                                 "cs": "Otec <w>vyvezl</w> auto z garáže, aby ho umyl na příjezdové cestě.",
-                                "tr": "Babam arabayı yıkamak için garajdan <w>çıkardı</w> ve girişte yıkadı.",
+                                "tr": "Babam arabayı garaj yolunda yıkamak için garajdan <w>çıkardı</w>.",
                                 "es": "Mi padre <w>sacó</w> el coche del garaje para lavarlo en la entrada.",
                                 "zh": "我父亲把车从车库<w>开出</w>来，在车道上洗车。"
                             }
@@ -421,29 +425,29 @@
                         "en": [
                             {
                                 "target_lang_word": "take out",
-                                "target_lang_sense_clarification": "carrying something outside"
+                                "target_lang_sense_clarification": "moving something outside"
                             },
                             {
                                 "target_lang_word": "put out",
                                 "target_lang_sense_clarification": "placing rubbish outside for collection"
                             },
                             {
-                                "target_lang_word": "wheel out",
-                                "target_lang_sense_clarification": "moving a vehicle or object outside"
+                                "target_lang_word": "get out",
+                                "target_lang_sense_clarification": "removing something from where it is kept"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "вынести",
-                                "target_lang_sense_clarification": "вынести вещи или мусор наружу"
+                                "target_lang_sense_clarification": "вещи или мусор наружу"
                             },
                             {
-                                "target_lang_word": "вывезти",
-                                "target_lang_sense_clarification": "вывезти машину или груз"
+                                "target_lang_word": "выгнать",
+                                "target_lang_sense_clarification": "машину из гаража"
                             },
                             {
                                 "target_lang_word": "вытащить",
-                                "target_lang_sense_clarification": "вытащить из ящика или укрытия"
+                                "target_lang_sense_clarification": "из ящика или укрытия"
                             }
                         ],
                         "nl": [
@@ -508,12 +512,12 @@
                                 "target_lang_sense_clarification": "nést něco ven z místnosti"
                             },
                             {
-                                "target_lang_word": "vyvézt",
-                                "target_lang_sense_clarification": "odvézt vozidlem ven z garáže"
+                                "target_lang_word": "vytáhnout",
+                                "target_lang_sense_clarification": "ven, např. popelnice před dům"
                             },
                             {
-                                "target_lang_word": "vystavit",
-                                "target_lang_sense_clarification": "popelnici před dům k odvozu"
+                                "target_lang_word": "vyvézt",
+                                "target_lang_sense_clarification": "vozidlem ven z garáže"
                             }
                         ],
                         "tr": [
@@ -569,7 +573,7 @@
                             "target_lang_translations": {
                                 "en": "My older brother has been <w>going out with</w> this young woman for almost three years.",
                                 "ru": "Мой старший брат <w>встречается</w> с этой девушкой почти три года.",
-                                "nl": "Mijn oudere broer <w>gaat al bijna drie jaar met deze jonge vrouw uit</w>.",
+                                "nl": "Mijn oudere broer <w>gaat</w> al bijna drie jaar met deze jonge vrouw <w>uit</w>.",
                                 "de": "Mein älterer Bruder ist seit fast drei Jahren mit dieser jungen Frau <w>zusammen</w>.",
                                 "pl": "Mój starszy brat <w>chodzi</w> z tą młodą kobietą od prawie trzech lat.",
                                 "it": "Mio fratello maggiore <w>esce con</w> questa giovane donna da quasi tre anni.",
@@ -584,10 +588,10 @@
                             "target_lang_translations": {
                                 "en": "They decided to start <w>dating</w> after meeting at university.",
                                 "ru": "Они решили начать <w>встречаться</w> после знакомства в университете.",
-                                "nl": "Ze besloten <w>met elkaar uit te gaan</w> nadat ze elkaar op de universiteit hadden ontmoet.",
-                                "de": "Sie beschlossen, <w>miteinander auszugehen</w>, nachdem sie sich an der Universität kennengelernt hatten.",
-                                "pl": "Po poznaniu się na studiach postanowili zacząć się <w>spotykać</w>.",
-                                "it": "Hanno deciso di <w>uscire insieme</w> dopo essersi conosciuti all'università.",
+                                "nl": "Ze besloten met elkaar <w>uit te gaan</w> nadat ze elkaar op de universiteit hadden ontmoet.",
+                                "de": "Sie beschlossen, miteinander <w>auszugehen</w>, nachdem sie sich an der Universität kennengelernt hatten.",
+                                "pl": "Po poznaniu się na studiach postanowili zacząć <w>się spotykać</w>.",
+                                "it": "Hanno deciso di <w>uscire</w> insieme dopo essersi conosciuti all'università.",
                                 "cs": "Po seznámení na vysoké škole se rozhodli začít spolu <w>chodit</w>.",
                                 "tr": "Üniversitede tanıştıktan sonra <w>sevgili olmaya</w> karar verdiler.",
                                 "es": "Decidieron <w>ser novios</w> después de conocerse en la universidad.",
@@ -658,11 +662,11 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "chodzić z kimś",
+                                "target_lang_word": "chodzić z",
                                 "target_lang_sense_clarification": "potocznie: być w związku"
                             },
                             {
-                                "target_lang_word": "spotykać się z kimś",
+                                "target_lang_word": "spotykać się z",
                                 "target_lang_sense_clarification": "romantyczna relacja z drugą osobą"
                             },
                             {
@@ -682,12 +686,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "chodit s někým",
-                                "target_lang_sense_clarification": "pravidelný partner, romantický vztah"
+                                "target_lang_word": "chodit s",
+                                "target_lang_sense_clarification": "mít s někým vztah"
                             },
                             {
-                                "target_lang_word": "randit se",
-                                "target_lang_sense_clarification": "hovorově, schůzky s partnerem"
+                                "target_lang_word": "randit",
+                                "target_lang_sense_clarification": "hovorově, scházet se s někým"
                             }
                         ],
                         "tr": [
@@ -848,7 +852,7 @@
                                 "target_lang_sense_clarification": "wprowadzanie nowości do sprzedaży"
                             },
                             {
-                                "target_lang_word": "wejść na ekrany",
+                                "target_lang_word": "wejść do kin",
                                 "target_lang_sense_clarification": "premiera filmu w kinach"
                             }
                         ],
@@ -937,7 +941,7 @@
                             "target_lang_translations": {
                                 "en": "Despite numerous financial difficulties, the company managed to <w>get through</w> them successfully.",
                                 "ru": "Несмотря на многочисленные финансовые трудности, компания сумела успешно <w>справиться</w> с ними.",
-                                "nl": "Ondanks de vele financiële problemen wist het bedrijf er met succes <w>doorheen te komen</w>.",
+                                "nl": "Ondanks de vele financiële problemen wist het bedrijf <w>er</w> met succes <w>doorheen te komen</w>.",
                                 "de": "Trotz zahlreicher finanzieller Schwierigkeiten <w>meisterte</w> das Unternehmen sie erfolgreich.",
                                 "pl": "Mimo licznych kłopotów finansowych firma zdołała skutecznie <w>sobie poradzić</w> z nimi.",
                                 "it": "Nonostante le numerose difficoltà finanziarie, l'azienda è riuscita a <w>uscirne</w> con successo.",
@@ -951,9 +955,9 @@
                             "text": "Le conducteur a eu beaucoup de chance et s'en est <w>sorti</w> indemne.",
                             "target_lang_translations": {
                                 "en": "The driver was very lucky and <w>came through</w> unharmed.",
-                                "ru": "Водителю очень повезло, и он <w>выпутался</w> без единой царапины.",
-                                "nl": "De bestuurder had veel geluk en <w>kwam er ongedeerd uit</w>.",
-                                "de": "Der Fahrer hatte großes Glück und <w>überstand</w> die Lage unversehrt.",
+                                "ru": "Водителю очень повезло: он <w>выбрался</w> из аварии целым и невредимым.",
+                                "nl": "De bestuurder had veel geluk en <w>kwam er</w> ongedeerd <w>vanaf</w>.",
+                                "de": "Der Fahrer hatte großes Glück und <w>kam</w> unverletzt <w>davon</w>.",
                                 "pl": "Kierowca miał dużo szczęścia i <w>wyszedł z tego</w> bez szwanku.",
                                 "it": "Il conducente ha avuto molta fortuna e se l'è <w>cavata</w> illeso.",
                                 "cs": "Řidič měl velké štěstí a <w>vyvázl</w> bez zranění.",
@@ -997,11 +1001,11 @@
                         "ru": [
                             {
                                 "target_lang_word": "справиться",
-                                "target_lang_sense_clarification": "справиться с трудностями"
+                                "target_lang_sense_clarification": "с трудностями"
                             },
                             {
-                                "target_lang_word": "выкарабкаться",
-                                "target_lang_sense_clarification": "выбраться из тяжёлого положения"
+                                "target_lang_word": "выбраться",
+                                "target_lang_sense_clarification": "из тяжёлого положения, из беды"
                             },
                             {
                                 "target_lang_word": "выпутаться",
@@ -1014,18 +1018,18 @@
                                 "target_lang_sense_clarification": "een moeilijke situatie aankunnen"
                             },
                             {
-                                "target_lang_word": "er bovenop komen",
-                                "target_lang_sense_clarification": "herstellen na tegenslag"
+                                "target_lang_word": "erdoorheen komen",
+                                "target_lang_sense_clarification": "een zware periode overleven"
                             },
                             {
-                                "target_lang_word": "doorkomen",
-                                "target_lang_sense_clarification": "een zware periode overleven"
+                                "target_lang_word": "ervan afkomen",
+                                "target_lang_sense_clarification": "een ongeluk of gevaar doorstaan"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "zurechtkommen",
-                                "target_lang_sense_clarification": "mit schwierigen Umständen fertig werden"
+                                "target_lang_word": "davonkommen",
+                                "target_lang_sense_clarification": "einer Gefahr unbeschadet entgehen"
                             },
                             {
                                 "target_lang_word": "meistern",
@@ -1135,7 +1139,7 @@
                             "target_lang_translations": {
                                 "en": "As soon as the first warm days arrive, small flowers start to <w>come up</w> through the soil.",
                                 "ru": "С первыми тёплыми днями маленькие цветы начинают <w>всходить</w> из земли.",
-                                "nl": "Zodra de eerste zonnige dagen aanbreken, beginnen de kleine bloemen <w>uit de grond op te komen</w>.",
+                                "nl": "Zodra de eerste zonnige dagen aanbreken, beginnen de kleine bloemen uit de grond <w>op te komen</w>.",
                                 "de": "Sobald die ersten warmen Tage da sind, <w>sprießen</w> die kleinen Blumen aus dem Boden.",
                                 "pl": "Gdy tylko nadejdą pierwsze ciepłe dni, z ziemi zaczynają <w>wschodzić</w> drobne kwiaty.",
                                 "it": "Non appena arrivano le prime belle giornate, i fiorellini cominciano a <w>spuntare</w> dal terreno.",
@@ -1151,7 +1155,7 @@
                                 "en": "After the autumn rain, many mushrooms began to <w>spring up</w> in the forest.",
                                 "ru": "После осеннего дождя в лесу начали <w>появляться</w> многочисленные грибы.",
                                 "nl": "Na de herfstregen zijn er in het bos veel paddenstoelen begonnen <w>op te duiken</w>.",
-                                "de": "Nach dem Herbstregen <w>schossen</w> im Wald zahlreiche Pilze aus dem Boden.",
+                                "de": "Nach dem Herbstregen <w>sprossen</w> im Wald zahlreiche Pilze aus dem Boden.",
                                 "pl": "Po jesiennym deszczu w lesie zaczęło <w>wyrastać</w> mnóstwo grzybów.",
                                 "it": "Dopo la pioggia d'autunno, nel bosco hanno cominciato a <w>spuntare</w> numerosi funghi.",
                                 "cs": "Po podzimním dešti v lese začaly <w>vyrůstat</w> četné houby.",
@@ -1215,8 +1219,8 @@
                                 "target_lang_sense_clarification": "uit zaad of knol groeien"
                             },
                             {
-                                "target_lang_word": "massaal opduiken",
-                                "target_lang_sense_clarification": "plotseling in grote aantallen verschijnen"
+                                "target_lang_word": "opduiken",
+                                "target_lang_sense_clarification": "plotseling tevoorschijn komen"
                             }
                         ],
                         "de": [
@@ -1336,10 +1340,10 @@
                                 "en": "She <w>came up with</w> another unbelievable excuse to explain her lateness this morning.",
                                 "ru": "Она опять <w>придумала</w> невероятное оправдание своему опозданию сегодня утром.",
                                 "nl": "Ze heeft vanmorgen weer een ongelooflijke smoes <w>verzonnen</w> om haar late komst te verklaren.",
-                                "de": "Heute Morgen hat sie sich schon wieder eine unglaubliche Ausrede <w>ausgedacht</w>, um ihre Verspätung zu erklären.",
-                                "pl": "Dziś rano znowu <w>wymyśliła</w> nieprawdopodobną wymówkę, żeby wytłumaczyć spóźnienie.",
+                                "de": "Heute Morgen hat sie schon wieder eine unglaubwürdige Ausrede <w>aufgetischt</w>, um ihre Verspätung zu erklären.",
+                                "pl": "Dziś rano znowu <w>wyskoczyła z</w> nieprawdopodobną wymówką, żeby wytłumaczyć spóźnienie.",
                                 "it": "Stamattina ha di nuovo <w>tirato fuori</w> una scusa incredibile per giustificare il ritardo.",
-                                "cs": "Dnes ráno zase <w>vymyslela</w> neuvěřitelnou výmluvu, aby vysvětlila své zpoždění.",
+                                "cs": "Dnes ráno <w>se</w> zase <w>vytasila</w> s neuvěřitelnou výmluvou, aby vysvětlila své zpoždění.",
                                 "tr": "Bu sabah geç kalmasını açıklamak için yine inanılmaz bir bahane <w>uydurdu</w>.",
                                 "es": "Esta mañana <w>salió con</w> otra excusa inverosímil para justificar su retraso.",
                                 "zh": "今天早上她又为迟到<w>编造</w>了一个令人难以置信的借口。"
@@ -1395,8 +1399,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "uitflappen",
-                                "target_lang_sense_clarification": "onbedachte opmerkingen maken"
+                                "target_lang_word": "uitkramen",
+                                "target_lang_sense_clarification": "onzin vertellen"
+                            },
+                            {
+                                "target_lang_word": "eruit flappen",
+                                "target_lang_sense_clarification": "onbedacht iets zeggen"
                             },
                             {
                                 "target_lang_word": "verzinnen",
@@ -1413,8 +1421,8 @@
                                 "target_lang_sense_clarification": "unbedacht etwas Peinliches sagen"
                             },
                             {
-                                "target_lang_word": "erfinden",
-                                "target_lang_sense_clarification": "eine Ausrede ausdenken"
+                                "target_lang_word": "auftischen",
+                                "target_lang_sense_clarification": "Ausreden oder Lügen vorbringen"
                             }
                         ],
                         "pl": [
@@ -1427,7 +1435,7 @@
                                 "target_lang_sense_clarification": "ciągłe mówienie głupot"
                             },
                             {
-                                "target_lang_word": "wyskoczyć z czymś",
+                                "target_lang_word": "wyskoczyć z",
                                 "target_lang_sense_clarification": "potocznie: nieoczekiwana uwaga"
                             }
                         ],
@@ -1451,8 +1459,8 @@
                                 "target_lang_sense_clarification": "hovorově, mluvit hlouposti"
                             },
                             {
-                                "target_lang_word": "vymyslet",
-                                "target_lang_sense_clarification": "výmluvu nebo lež"
+                                "target_lang_word": "vytasit se s",
+                                "target_lang_sense_clarification": "výmluvou nebo historkou"
                             },
                             {
                                 "target_lang_word": "vyhrknout",
@@ -1465,8 +1473,8 @@
                                 "target_lang_sense_clarification": "anlamsız şeyler konuşmak"
                             },
                             {
-                                "target_lang_word": "laf kaçırmak",
-                                "target_lang_sense_clarification": "istemeden yanlış söz söylemek"
+                                "target_lang_word": "yumurtlamak",
+                                "target_lang_sense_clarification": "argo: beklenmedik bir söz söylemek"
                             },
                             {
                                 "target_lang_word": "uydurmak",
@@ -1528,7 +1536,7 @@
                                 "en": "Over the weeks, the new pupil finally <w>came out of her shell</w>.",
                                 "ru": "Со временем новенькая наконец <w>оттаяла</w>.",
                                 "nl": "Na verloop van weken is de nieuwe leerling eindelijk <w>uit haar schulp gekropen</w>.",
-                                "de": "Mit der Zeit <w>überwand</w> die neue Schülerin ihre Schüchternheit.",
+                                "de": "Im Laufe der Wochen <w>taute</w> die neue Schülerin schließlich <w>auf</w>.",
                                 "pl": "Z biegiem tygodni nowa uczennica w końcu <w>wyszła ze skorupy</w>.",
                                 "it": "Col passare delle settimane, la nuova alunna è finalmente <w>uscita dal guscio</w>.",
                                 "cs": "Postupem týdnů nová žačka konečně <w>rozmrzla</w>.",
@@ -1666,7 +1674,7 @@
                                 "target_lang_sense_clarification": "perder la timidez"
                             },
                             {
-                                "target_lang_word": "salir de su concha",
+                                "target_lang_word": "salir de su caparazón",
                                 "target_lang_sense_clarification": "expresión coloquial sobre timidez"
                             }
                         ],
@@ -1703,14 +1711,14 @@
                             "text": "Au <w>sortir</w> de l'hiver, la nature reprend vie et se pare de couleurs éclatantes.",
                             "target_lang_translations": {
                                 "en": "At the <w>end</w> of winter, nature comes back to life and dresses itself in brilliant colours.",
-                                "ru": "<w>С окончанием</w> зимы природа оживает и наряжается в яркие краски.",
-                                "nl": "<w>Bij het einde van</w> de winter komt de natuur weer tot leven en tooit zich met felle kleuren.",
+                                "ru": "С <w>окончанием</w> зимы природа оживает и наряжается в яркие краски.",
+                                "nl": "Aan het <w>einde</w> van de winter komt de natuur weer tot leven en tooit zich met felle kleuren.",
                                 "de": "Am <w>Ende</w> des Winters erwacht die Natur wieder zum Leben und schmückt sich mit leuchtenden Farben.",
-                                "pl": "<w>U schyłku</w> zimy przyroda znów ożywa i ubiera się w jaskrawe barwy.",
+                                "pl": "Pod <w>koniec</w> zimy przyroda znów ożywa i ubiera się w jaskrawe barwy.",
                                 "it": "<w>Al termine</w> dell'inverno la natura torna a vivere e si veste di colori brillanti.",
-                                "cs": "<w>Na konci</w> zimy příroda znovu ožívá a odívá se do zářivých barev.",
+                                "cs": "Na <w>konci</w> zimy příroda znovu ožívá a odívá se do zářivých barev.",
                                 "tr": "Kışın <w>sonunda</w> doğa yeniden canlanır ve parlak renklere bürünür.",
-                                "es": "<w>Al final</w> del invierno, la naturaleza recobra la vida y se viste de colores brillantes.",
+                                "es": "Al <w>final</w> del invierno, la naturaleza recobra la vida y se viste de colores brillantes.",
                                 "zh": "到了冬季的<w>末尾</w>，大自然重新焕发生机，披上了色彩鲜艳的衣裳。"
                             }
                         },
@@ -1719,14 +1727,14 @@
                             "target_lang_translations": {
                                 "en": "Young graduates are actively looking for a job <w>on leaving</w> higher education.",
                                 "ru": "Молодые выпускники активно ищут работу <w>по окончании</w> вуза.",
-                                "nl": "Jonge afgestudeerden zoeken actief naar werk <w>na afloop van</w> hun hogere studie.",
-                                "de": "Junge Absolventen suchen aktiv eine Stelle <w>nach Studienabschluss</w>.",
-                                "pl": "Młodzi absolwenci aktywnie szukają pracy <w>po ukończeniu</w> studiów wyższych.",
+                                "nl": "Jonge afgestudeerden zoeken actief naar werk na <w>afloop</w> van hun hogere studie.",
+                                "de": "Junge Absolventen suchen nach <w>Abschluss</w> ihres Studiums aktiv eine Stelle.",
+                                "pl": "Młodzi absolwenci aktywnie szukają pracy po <w>ukończeniu</w> studiów wyższych.",
                                 "it": "I giovani laureati cercano attivamente lavoro <w>al termine</w> dei loro studi universitari.",
-                                "cs": "Mladí absolventi aktivně hledají práci <w>po skončení</w> vysokoškolského studia.",
+                                "cs": "Mladí absolventi aktivně hledají práci po <w>skončení</w> vysokoškolského studia.",
                                 "tr": "Genç mezunlar, yüksek öğrenimlerinin <w>bitiminde</w> aktif olarak iş arıyor.",
                                 "es": "Los jóvenes titulados buscan activamente trabajo <w>al terminar</w> sus estudios superiores.",
-                                "zh": "在高等教育的<w>结束</w>之际，许多年轻毕业生就开始积极找工作。"
+                                "zh": "高等教育<w>结束</w>之际，年轻毕业生们就开始积极找工作。"
                             }
                         }
                     ],
@@ -1782,16 +1790,16 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "vertrek",
-                                "target_lang_sense_clarification": "weggaan van een plek"
-                            },
-                            {
                                 "target_lang_word": "einde",
                                 "target_lang_sense_clarification": "afloop van een periode"
                             },
                             {
-                                "target_lang_word": "na afloop van",
-                                "target_lang_sense_clarification": "na studie of werk"
+                                "target_lang_word": "afloop",
+                                "target_lang_sense_clarification": "na afloop van studie of werk"
+                            },
+                            {
+                                "target_lang_word": "vertrek",
+                                "target_lang_sense_clarification": "weggaan van een plek"
                             }
                         ],
                         "de": [
@@ -1818,8 +1826,8 @@
                                 "target_lang_sense_clarification": "zakończenie określonego okresu"
                             },
                             {
-                                "target_lang_word": "schyłek",
-                                "target_lang_sense_clarification": "końcowa faza okresu"
+                                "target_lang_word": "ukończenie",
+                                "target_lang_sense_clarification": "studiów, szkoły"
                             }
                         ],
                         "it": [
@@ -1842,12 +1850,12 @@
                                 "target_lang_sense_clarification": "konec zimy nebo etapy"
                             },
                             {
-                                "target_lang_word": "po skončení",
-                                "target_lang_sense_clarification": "po ukončení studií nebo práce"
+                                "target_lang_word": "skončení",
+                                "target_lang_sense_clarification": "po skončení studií nebo práce"
                             },
                             {
-                                "target_lang_word": "při odchodu",
-                                "target_lang_sense_clarification": "při opouštění místa nebo školy"
+                                "target_lang_word": "odchod",
+                                "target_lang_sense_clarification": "při odchodu z místa"
                             }
                         ],
                         "tr": [

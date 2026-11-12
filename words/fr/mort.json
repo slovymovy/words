@@ -28,7 +28,7 @@
                                 "nl": "De <w>dood</w> van zijn grootvader stortte de hele familie in diep verdriet.",
                                 "de": "Der <w>Tod</w> seines Großvaters stürzte die ganze Familie in tiefe Trauer.",
                                 "pl": "<w>Śmierć</w> jego dziadka pogrążyła całą rodzinę w głębokim smutku.",
-                                "it": "La <w>morte</w> del nonno ha piombato tutta la famiglia in una profonda tristezza.",
+                                "it": "La <w>morte</w> del nonno ha gettato tutta la famiglia in una profonda tristezza.",
                                 "cs": "<w>Smrt</w> jeho dědečka uvrhla celou rodinu do hlubokého smutku.",
                                 "tr": "Büyükbabasının <w>ölümü</w> tüm aileyi derin bir üzüntüye boğdu.",
                                 "es": "La <w>muerte</w> de su abuelo sumió a toda la familia en una profunda tristeza.",
@@ -262,8 +262,12 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "покойник",
-                                "target_lang_sense_clarification": "обычное название умершего человека"
+                                "target_lang_word": "покойный",
+                                "target_lang_sense_clarification": "умерший человек, уважительно"
+                            },
+                            {
+                                "target_lang_word": "погибший",
+                                "target_lang_sense_clarification": "на войне, в катастрофе"
                             },
                             {
                                 "target_lang_word": "мертвец",
@@ -296,12 +300,12 @@
                                 "target_lang_sense_clarification": "neutralnie, też w liczbie mnogiej"
                             },
                             {
-                                "target_lang_word": "nieboszczyk",
-                                "target_lang_sense_clarification": "potocznie, czasem żartobliwie"
+                                "target_lang_word": "poległy",
+                                "target_lang_sense_clarification": "zabity na wojnie"
                             },
                             {
-                                "target_lang_word": "denat",
-                                "target_lang_sense_clarification": "urzędowo, język medyczny i policyjny"
+                                "target_lang_word": "nieboszczyk",
+                                "target_lang_sense_clarification": "potocznie, czasem żartobliwie"
                             }
                         ],
                         "it": [
@@ -311,7 +315,11 @@
                             },
                             {
                                 "target_lang_word": "defunto",
-                                "target_lang_sense_clarification": "formale, per una persona scomparsa"
+                                "target_lang_sense_clarification": "formale, persona scomparsa"
+                            },
+                            {
+                                "target_lang_word": "caduto",
+                                "target_lang_sense_clarification": "morto in guerra, es. monumento ai caduti"
                             }
                         ],
                         "cs": [
@@ -377,8 +385,8 @@
                             "target_lang_translations": {
                                 "en": "The accused was sentenced to <w>death</w> following a highly publicised historic trial.",
                                 "ru": "Обвиняемый был приговорён к <w>смертной казни</w> по итогам громкого исторического процесса.",
-                                "nl": "De verdachte werd na een historisch en veel besproken proces <w>ter dood</w> veroordeeld.",
-                                "de": "Der Angeklagte wurde nach einem aufsehenerregenden historischen Prozess <w>zum Tode verurteilt</w>.",
+                                "nl": "De verdachte werd na een historisch en veel besproken proces ter <w>dood</w> veroordeeld.",
+                                "de": "Der Angeklagte wurde nach einem aufsehenerregenden historischen Prozess zum <w>Tode</w> verurteilt.",
                                 "pl": "Oskarżony został skazany na <w>karę śmierci</w> po głośnym, historycznym procesie.",
                                 "it": "L'imputato è stato condannato a <w>morte</w> in seguito a un processo storico molto seguito dai media.",
                                 "cs": "Obžalovaný byl po velmi medializovaném historickém procesu odsouzen k <w>trestu smrti</w>.",
@@ -390,7 +398,7 @@
                         {
                             "text": "Plusieurs organisations internationales luttent activement contre la peine de <w>mort</w> dans le monde.",
                             "target_lang_translations": {
-                                "en": "Several international organisations actively campaign against the <w>death penalty</w> around the world.",
+                                "en": "Several international organisations actively campaign against the <w>death</w> penalty around the world.",
                                 "ru": "Несколько международных организаций активно выступают против <w>смертной казни</w> в мире.",
                                 "nl": "Verschillende internationale organisaties voeren actief campagne tegen de <w>doodstraf</w> in de wereld.",
                                 "de": "Mehrere internationale Organisationen setzen sich weltweit aktiv gegen die <w>Todesstrafe</w> ein.",
@@ -398,7 +406,7 @@
                                 "it": "Diverse organizzazioni internazionali si battono attivamente contro la pena di <w>morte</w> nel mondo.",
                                 "cs": "Několik mezinárodních organizací aktivně bojuje proti <w>trestu smrti</w> ve světě.",
                                 "tr": "Birçok uluslararası kuruluş dünyada <w>ölüm cezasına</w> karşı aktif olarak mücadele ediyor.",
-                                "es": "Varias organizaciones internacionales luchan activamente contra la <w>pena de muerte</w> en el mundo.",
+                                "es": "Varias organizaciones internacionales luchan activamente contra la pena de <w>muerte</w> en el mundo.",
                                 "zh": "多个国际组织在全球范围内积极反对<w>死刑</w>。"
                             }
                         }
@@ -422,6 +430,10 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "death",
+                                "target_lang_sense_clarification": "as a sentence: sentenced to death"
+                            },
+                            {
                                 "target_lang_word": "death penalty",
                                 "target_lang_sense_clarification": "judicial execution as punishment"
                             },
@@ -444,16 +456,24 @@
                             {
                                 "target_lang_word": "doodstraf",
                                 "target_lang_sense_clarification": "wettelijke straf voor zware misdrijven"
+                            },
+                            {
+                                "target_lang_word": "dood",
+                                "target_lang_sense_clarification": "in 'ter dood veroordelen'"
                             }
                         ],
                         "de": [
+                            {
+                                "target_lang_word": "Todesstrafe",
+                                "target_lang_sense_clarification": "gesetzliche Strafe, Hinrichtung als Sanktion"
+                            },
                             {
                                 "target_lang_word": "Todesurteil",
                                 "target_lang_sense_clarification": "richterliches Urteil auf Hinrichtung"
                             },
                             {
-                                "target_lang_word": "Todesstrafe",
-                                "target_lang_sense_clarification": "gesetzliche Strafe, Hinrichtung als Sanktion"
+                                "target_lang_word": "Tod",
+                                "target_lang_sense_clarification": "in: zum Tode verurteilen"
                             }
                         ],
                         "pl": [
@@ -468,16 +488,16 @@
                         ],
                         "it": [
                             {
+                                "target_lang_word": "morte",
+                                "target_lang_sense_clarification": "in «pena di morte», «condannare a morte»"
+                            },
+                            {
                                 "target_lang_word": "pena di morte",
                                 "target_lang_sense_clarification": "sanzione legale, uso comune"
                             },
                             {
                                 "target_lang_word": "pena capitale",
                                 "target_lang_sense_clarification": "linguaggio giuridico, formale"
-                            },
-                            {
-                                "target_lang_word": "condanna a morte",
-                                "target_lang_sense_clarification": "sentenza del tribunale"
                             }
                         ],
                         "cs": [
@@ -486,8 +506,8 @@
                                 "target_lang_sense_clarification": "nejběžnější právní označení"
                             },
                             {
-                                "target_lang_word": "smrtný trest",
-                                "target_lang_sense_clarification": "knižní nebo právní výraz"
+                                "target_lang_word": "hrdelní trest",
+                                "target_lang_sense_clarification": "historický právní výraz"
                             },
                             {
                                 "target_lang_word": "rozsudek smrti",
@@ -506,16 +526,16 @@
                         ],
                         "es": [
                             {
+                                "target_lang_word": "muerte",
+                                "target_lang_sense_clarification": "en «condenar a muerte», «pena de muerte»"
+                            },
+                            {
                                 "target_lang_word": "pena de muerte",
                                 "target_lang_sense_clarification": "castigo legal, uso común"
                             },
                             {
                                 "target_lang_word": "pena capital",
                                 "target_lang_sense_clarification": "lenguaje jurídico, formal"
-                            },
-                            {
-                                "target_lang_word": "condena a muerte",
-                                "target_lang_sense_clarification": "sentencia dictada por un tribunal"
                             }
                         ],
                         "zh": [
@@ -591,6 +611,10 @@
                     },
                     "translations": {
                         "en": [
+                            {
+                                "target_lang_word": "death",
+                                "target_lang_sense_clarification": "figurative: the end of something"
+                            },
                             {
                                 "target_lang_word": "demise",
                                 "target_lang_sense_clarification": "end of a business or institution"
@@ -682,8 +706,8 @@
                                 "target_lang_sense_clarification": "ekonomik veya kurumsal yıkılma"
                             },
                             {
-                                "target_lang_word": "yıkım",
-                                "target_lang_sense_clarification": "fiziksel tahribat, yok edilme"
+                                "target_lang_word": "yok oluş",
+                                "target_lang_sense_clarification": "tamamen ortadan kalkma"
                             }
                         ],
                         "es": [
@@ -750,7 +774,7 @@
                                 "pl": "Dziś rano znaleziono złotą rybkę <w>martwą</w> na dnie akwarium.",
                                 "it": "Stamattina abbiamo trovato il pesce rosso <w>morto</w> sul fondo dell'acquario.",
                                 "cs": "Dnes ráno našli zlatou rybku <w>mrtvou</w> na dně akvária.",
-                                "tr": "Bu sabah akvaryumun dibinde kırmızı balığı <w>ölü</w> halde bulduk.",
+                                "tr": "Bu sabah akvaryumun dibinde japon balığını <w>ölü</w> halde bulduk.",
                                 "es": "Esta mañana encontraron el pez de colores <w>muerto</w> en el fondo de la pecera.",
                                 "zh": "今天早上，人们在鱼缸底部发现了那条<w>死的</w>金鱼。"
                             }
@@ -918,8 +942,8 @@
                                 "nl": "Hij komt laat thuis van zijn werk en valt meteen in slaap, want hij is <w>doodmoe</w>.",
                                 "de": "Er kommt spät von der Arbeit nach Hause und schläft sofort ein, weil er <w>todmüde</w> ist.",
                                 "pl": "Wraca późno z pracy i zasypia od razu, bo jest <w>wykończony</w>.",
-                                "it": "Rientra tardi dal lavoro e si addormenta subito perché è <w>stanco morto</w>.",
-                                "cs": "Přijde pozdě z práce a hned usne, protože je <w>mrtvý únavou</w>.",
+                                "it": "Rientra tardi dal lavoro e si addormenta subito perché è stanco <w>morto</w>.",
+                                "cs": "Přijde pozdě z práce a hned usne, protože je <w>mrtvý</w> únavou.",
                                 "tr": "İşten geç dönüyor ve hemen uykuya dalıyor, çünkü çok <w>bitkin</w>.",
                                 "es": "Llega tarde del trabajo y se duerme enseguida porque está <w>muerto de cansancio</w>.",
                                 "zh": "他下班很晚才到家，人已经<w>筋疲力尽</w>，一躺下就睡着了。"
@@ -975,8 +999,8 @@
                                 "target_lang_sense_clarification": "о полном упадке сил"
                             },
                             {
-                                "target_lang_word": "без задних ног",
-                                "target_lang_sense_clarification": "очень разг., крайняя усталость"
+                                "target_lang_word": "валиться с ног",
+                                "target_lang_sense_clarification": "разг., от крайней усталости"
                             }
                         ],
                         "nl": [
@@ -1023,12 +1047,12 @@
                                 "target_lang_sense_clarification": "per stanchezza fisica o mentale"
                             },
                             {
-                                "target_lang_word": "esausto",
-                                "target_lang_sense_clarification": "completamente privo di forze"
+                                "target_lang_word": "morto",
+                                "target_lang_sense_clarification": "in «stanco morto», senza più forze"
                             },
                             {
-                                "target_lang_word": "stremato",
-                                "target_lang_sense_clarification": "per sforzo o fatica prolungati"
+                                "target_lang_word": "esausto",
+                                "target_lang_sense_clarification": "completamente privo di forze"
                             }
                         ],
                         "cs": [
@@ -1092,15 +1116,15 @@
                         {
                             "text": "Cette station balnéaire devient une ville <w>morte</w> dès que la saison d'été se termine.",
                             "target_lang_translations": {
-                                "en": "This seaside resort becomes a <w>ghost town</w> as soon as the summer season ends.",
-                                "ru": "Этот приморский курорт превращается в <w>город-призрак</w>, как только заканчивается летний сезон.",
+                                "en": "This seaside resort becomes a <w>dead</w> town as soon as the summer season ends.",
+                                "ru": "Этот приморский курорт превращается в <w>мёртвый</w> город, как только заканчивается летний сезон.",
                                 "nl": "Dit badplaatsje wordt een <w>uitgestorven</w> stad zodra het zomerseizoen voorbij is.",
                                 "de": "Sobald die Sommersaison endet, ist dieser Badeort wie <w>ausgestorben</w>.",
                                 "pl": "Ten nadmorski kurort zamienia się w <w>wymarłe</w> miasto, gdy tylko kończy się sezon letni.",
                                 "it": "Questa località balneare diventa una città <w>morta</w> non appena finisce la stagione estiva.",
                                 "cs": "Toto přímořské letovisko se po skončení letní sezóny promění v <w>mrtvé</w> město.",
                                 "tr": "Yaz sezonu bitince bu deniz kenarı beldesi <w>ıssız</w> bir kasabaya dönüşüyor.",
-                                "es": "Este balneario se convierte en un pueblo <w>desierto</w> en cuanto termina la temporada de verano.",
+                                "es": "Esta localidad costera se convierte en una ciudad <w>desierta</w> en cuanto termina la temporada de verano.",
                                 "zh": "夏季一结束，这个海滨度假小镇就变得<w>冷清</w>起来。"
                             }
                         },
@@ -1113,7 +1137,7 @@
                                 "de": "An diesem Sonntagnachmittag waren die Straßen im strömenden Regen völlig <w>menschenleer</w>.",
                                 "pl": "Tego niedzielnego popołudnia, w ulewnym deszczu, ulice były zupełnie <w>opustoszałe</w>.",
                                 "it": "Le strade erano completamente <w>deserte</w> quella domenica pomeriggio sotto una pioggia battente.",
-                                "cs": "Tu nedělní odpoledne byly ulice pod lijákem úplně <w>liduprázdné</w>.",
+                                "cs": "To nedělní odpoledne byly ulice pod lijákem úplně <w>liduprázdné</w>.",
                                 "tr": "Şiddetli yağmur altında o pazar öğleden sonrası sokaklar tamamen <w>ıssızdı</w>.",
                                 "es": "Las calles estaban completamente <w>desiertas</w> aquel domingo por la tarde, bajo una lluvia torrencial.",
                                 "zh": "这个周日下午大雨倾盆，街上一个人也没有，显得格外<w>冷清</w>。"
@@ -1287,7 +1311,7 @@
                             "text": "Mon téléphone ne s'allume plus du tout parce que la batterie est totalement <w>morte</w>.",
                             "target_lang_translations": {
                                 "en": "My phone won't turn on at all because the battery is completely <w>dead</w>.",
-                                "ru": "Мой телефон вообще не включается, потому что батарея полностью <w>села</w>.",
+                                "ru": "Мой телефон вообще не включается, потому что батарея полностью <w>разряжена</w>.",
                                 "nl": "Mijn telefoon gaat helemaal niet meer aan omdat de accu volledig <w>leeg</w> is.",
                                 "de": "Mein Handy lässt sich gar nicht mehr einschalten, weil der Akku völlig <w>leer</w> ist.",
                                 "pl": "Mój telefon w ogóle się nie włącza, bo bateria jest całkowicie <w>rozładowana</w>.",
@@ -1302,7 +1326,7 @@
                             "text": "Le moteur de cette vieille voiture est <w>mort</w> et les réparations coûteraient trop cher.",
                             "target_lang_translations": {
                                 "en": "The engine of this old car is <w>dead</w>, and the repairs would cost too much.",
-                                "ru": "Мотор этой старой машины <w>вышел из строя</w>, и ремонт обошёлся бы слишком дорого.",
+                                "ru": "Мотор этой старой машины окончательно <w>сломан</w>, а ремонт обошёлся бы слишком дорого.",
                                 "nl": "De motor van deze oude auto is <w>kapot</w> en de reparatie zou te veel kosten.",
                                 "de": "Der Motor dieses alten Autos ist <w>kaputt</w>, und die Reparatur würde zu viel kosten.",
                                 "pl": "Silnik tego starego samochodu jest <w>zepsuty</w>, a naprawa kosztowałaby zbyt dużo.",
@@ -1668,7 +1692,7 @@
                                 "pl": "Malarz przedstawił <w>Śmierć</w> w czarnej szacie, z lśniącą kosą.",
                                 "it": "Il pittore ha raffigurato la <w>Morte</w> avvolta in un manto nero, con una falce scintillante.",
                                 "cs": "Malíř zobrazil <w>Smrt</w> zahalenou do černého s třpytivou kosou.",
-                                "tr": "Ressam, siyaha bürünmüş ve parlayan bir orak tutan <w>Ölüm</w>'ü resmetti.",
+                                "tr": "Ressam, siyaha bürünmüş ve parlayan bir tırpan tutan <w>Ölüm'ü</w> resmetti.",
                                 "es": "El pintor representó a la <w>Muerte</w> envuelta en una capa negra, con una guadaña reluciente.",
                                 "zh": "画家画出了身披黑袍、手持闪亮镰刀的<w>死神</w>。"
                             }
@@ -1685,7 +1709,7 @@
                         "pl": "Uosobienie końca życia, przedstawiane jako szkielet z kosą.",
                         "it": "Personificazione allegorica della fine della vita, spesso raffigurata come uno scheletro con una falce.",
                         "cs": "Personifikace konce života, zobrazovaná jako kostlivec s kosou.",
-                        "tr": "Yaşamın sonunu kişileştiren alegorik figür; genellikle iskelet ve orakla gösterilir.",
+                        "tr": "Yaşamın sonunu kişileştiren alegorik figür; genellikle iskelet ve tırpanla gösterilir.",
                         "es": "Personificación alegórica del fin de la vida, representada a menudo como un esqueleto con guadaña.",
                         "zh": "拟人化的死亡形象，常画成手持镰刀的骷髅。"
                     },

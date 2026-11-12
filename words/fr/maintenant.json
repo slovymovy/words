@@ -24,7 +24,7 @@
                                 "de": "Ich muss <w>jetzt</w> gehen, damit ich meinen Zug nicht verpasse.",
                                 "pl": "Muszę <w>teraz</w> iść, żeby nie spóźnić się na pociąg.",
                                 "it": "Devo partire <w>adesso</w> per non perdere il treno.",
-                                "cs": "Musím teď odejít, abych nezmeškal vlak.",
+                                "cs": "Musím <w>teď</w> odejít, abych nezmeškal vlak.",
                                 "tr": "Trenimi kaçırmamak için <w>şimdi</w> gitmem gerekiyor.",
                                 "es": "Tengo que irme <w>ahora</w> para no perder el tren.",
                                 "zh": "我<w>现在</w>得走了，免得误了火车。"
@@ -33,15 +33,15 @@
                         {
                             "text": "Il faut agir dès <w>maintenant</w> pour régler cette situation.",
                             "target_lang_translations": {
-                                "en": "We need to act <w>right now</w> to resolve this situation.",
-                                "ru": "Нужно действовать <w>прямо сейчас</w>, чтобы урегулировать эту ситуацию.",
-                                "nl": "We moeten <w>nu al</w> handelen om deze situatie op te lossen.",
-                                "de": "Wir müssen <w>schon jetzt</w> handeln, um diese Situation in den Griff zu bekommen.",
-                                "pl": "Trzeba działać <w>już teraz</w>, żeby uporać się z tą sytuacją.",
-                                "it": "Bisogna agire <w>fin da adesso</w> per risolvere questa situazione.",
-                                "cs": "Je třeba jednat <w>už teď</w>, abychom tuto situaci vyřešili.",
+                                "en": "We need to act right <w>now</w> to resolve this situation.",
+                                "ru": "Нужно действовать уже <w>сейчас</w>, чтобы урегулировать эту ситуацию.",
+                                "nl": "We moeten <w>nu</w> al handelen om deze situatie op te lossen.",
+                                "de": "Wir müssen schon <w>jetzt</w> handeln, um diese Situation in den Griff zu bekommen.",
+                                "pl": "Trzeba działać już <w>teraz</w>, żeby uporać się z tą sytuacją.",
+                                "it": "Bisogna agire fin da <w>adesso</w> per risolvere questa situazione.",
+                                "cs": "Je třeba jednat už <w>teď</w>, abychom tuto situaci vyřešili.",
                                 "tr": "Bu durumu çözmek için <w>şimdiden</w> harekete geçmek gerekiyor.",
-                                "es": "Hay que actuar <w>desde ya</w> para resolver esta situación.",
+                                "es": "Hay que actuar desde <w>ahora</w> mismo para resolver esta situación.",
                                 "zh": "要解决这个问题，我们<w>现在</w>就得行动。"
                             }
                         }
@@ -221,7 +221,7 @@
                                 "cs": "Déšť přestal, takže můžeme <w>teď</w> pokračovat v procházce.",
                                 "tr": "Yağmur durdu, <w>artık</w> yürüyüşümüze devam edebiliriz.",
                                 "es": "Ha dejado de llover, así que <w>ahora</w> podemos reanudar nuestro paseo.",
-                                "zh": "雨停了，我们可以接着散步了。"
+                                "zh": "雨停了，我们<w>现在</w>可以继续往前走了。"
                             }
                         },
                         {
@@ -229,14 +229,14 @@
                             "target_lang_translations": {
                                 "en": "Everything has changed, and we <w>now</w> live in a different neighborhood.",
                                 "ru": "Всё изменилось, и мы <w>теперь</w> живём в другом районе.",
-                                "nl": "Alles is veranderd en we wonen <w>vanaf nu</w> in een andere wijk.",
+                                "nl": "Alles is veranderd en we wonen <w>nu</w> in een andere wijk.",
                                 "de": "Alles hat sich verändert, und wir wohnen <w>jetzt</w> in einem anderen Viertel.",
-                                "pl": "Wszystko się zmieniło i <w>od teraz</w> mieszkamy w innej dzielnicy.",
+                                "pl": "Wszystko się zmieniło i <w>teraz</w> mieszkamy w innej dzielnicy.",
                                 "it": "Tutto è cambiato e <w>ora</w> viviamo in un altro quartiere.",
                                 "cs": "Všechno se změnilo a <w>odteď</w> bydlíme v jiné čtvrti.",
                                 "tr": "Her şey değişti ve <w>artık</w> başka bir mahallede yaşıyoruz.",
                                 "es": "Todo ha cambiado y <w>ahora</w> vivimos en otro barrio.",
-                                "zh": "一切都变了，我们<w>从此</w>住在另一个街区。"
+                                "zh": "一切都变了，我们<w>现在</w>住在另一个街区。"
                             }
                         }
                     ],
@@ -258,6 +258,10 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "now",
+                                "target_lang_sense_clarification": "from this point on, things having changed"
+                            },
+                            {
                                 "target_lang_word": "from now on",
                                 "target_lang_sense_clarification": "starting from this moment"
                             },
@@ -268,43 +272,47 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "отныне",
-                                "target_lang_sense_clarification": "с этого момента"
+                                "target_lang_word": "теперь",
+                                "target_lang_sense_clarification": "с этого момента, в новых условиях"
                             },
                             {
-                                "target_lang_word": "впредь",
-                                "target_lang_sense_clarification": "на будущее, в дальнейшем"
+                                "target_lang_word": "отныне",
+                                "target_lang_sense_clarification": "книжн., с этого момента и впредь"
                             }
                         ],
                         "nl": [
+                            {
+                                "target_lang_word": "nu",
+                                "target_lang_sense_clarification": "nieuwe situatie die vanaf dit moment geldt"
+                            },
                             {
                                 "target_lang_word": "vanaf nu",
                                 "target_lang_sense_clarification": "begin van een nieuwe situatie"
                             },
                             {
-                                "target_lang_word": "van nu af aan",
-                                "target_lang_sense_clarification": "bij nieuwe afspraken of regels"
-                            },
-                            {
                                 "target_lang_word": "voortaan",
-                                "target_lang_sense_clarification": "formeel, voor toekomstige gewoonten"
+                                "target_lang_sense_clarification": "voor toekomstige gewoonten"
                             }
                         ],
                         "de": [
                             {
+                                "target_lang_word": "jetzt",
+                                "target_lang_sense_clarification": "von diesem Moment an, neue Lage"
+                            },
+                            {
+                                "target_lang_word": "nun",
+                                "target_lang_sense_clarification": "neue Lage nach einer Veränderung"
+                            },
+                            {
                                 "target_lang_word": "ab jetzt",
                                 "target_lang_sense_clarification": "Beginn einer neuen Situation"
-                            },
-                            {
-                                "target_lang_word": "fortan",
-                                "target_lang_sense_clarification": "formell, für künftige Zustände"
-                            },
-                            {
-                                "target_lang_word": "künftig",
-                                "target_lang_sense_clarification": "für zukünftige Gewohnheiten"
                             }
                         ],
                         "pl": [
+                            {
+                                "target_lang_word": "teraz",
+                                "target_lang_sense_clarification": "nowa sytuacja, od tej chwili"
+                            },
                             {
                                 "target_lang_word": "od teraz",
                                 "target_lang_sense_clarification": "początek nowej sytuacji"
@@ -316,15 +324,19 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "da ora in poi",
-                                "target_lang_sense_clarification": "a partire da questo momento"
+                                "target_lang_word": "ora",
+                                "target_lang_sense_clarification": "da questo momento, dopo un cambiamento"
                             },
                             {
-                                "target_lang_word": "d'ora in avanti",
-                                "target_lang_sense_clarification": "per il futuro, uso comune"
+                                "target_lang_word": "d'ora in poi",
+                                "target_lang_sense_clarification": "a partire da adesso, per il futuro"
                             }
                         ],
                         "cs": [
+                            {
+                                "target_lang_word": "teď",
+                                "target_lang_sense_clarification": "po změně situace"
+                            },
                             {
                                 "target_lang_word": "odteď",
                                 "target_lang_sense_clarification": "od tohoto okamžiku dál"
@@ -332,10 +344,6 @@
                             {
                                 "target_lang_word": "od nynějška",
                                 "target_lang_sense_clarification": "formální, do budoucna"
-                            },
-                            {
-                                "target_lang_word": "od této chvíle",
-                                "target_lang_sense_clarification": "začátek nové situace"
                             }
                         ],
                         "tr": [
@@ -354,30 +362,30 @@
                         ],
                         "es": [
                             {
+                                "target_lang_word": "ahora",
+                                "target_lang_sense_clarification": "situación nueva tras un cambio"
+                            },
+                            {
                                 "target_lang_word": "a partir de ahora",
                                 "target_lang_sense_clarification": "inicio de una nueva situación"
                             },
                             {
                                 "target_lang_word": "de ahora en adelante",
                                 "target_lang_sense_clarification": "para hechos o hábitos futuros"
-                            },
-                            {
-                                "target_lang_word": "en lo sucesivo",
-                                "target_lang_sense_clarification": "formal, desde este punto"
                             }
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "从今以后",
-                                "target_lang_sense_clarification": "从现在起的将来，口语常用"
+                                "target_lang_word": "现在",
+                                "target_lang_sense_clarification": "情况变化后，从这时起"
                             },
                             {
                                 "target_lang_word": "从此",
                                 "target_lang_sense_clarification": "自此开始的新情况"
                             },
                             {
-                                "target_lang_word": "此后",
-                                "target_lang_sense_clarification": "表示之后的时间，多用于叙述"
+                                "target_lang_word": "从今以后",
+                                "target_lang_sense_clarification": "从现在起的将来，口语常用"
                             }
                         ]
                     }
@@ -394,8 +402,8 @@
                             "text": "Il a promis de venir, <w>maintenant</w> rien ne prouve qu'il tiendra parole.",
                             "target_lang_translations": {
                                 "en": "He promised to come; <w>however</w>, nothing proves that he will keep his word.",
-                                "ru": "Он обещал прийти, но <w>однако</w> ничто не доказывает, что он сдержит слово.",
-                                "nl": "Hij heeft beloofd te komen; <w>echter</w> bewijst niets dat hij zijn woord zal houden.",
+                                "ru": "Он обещал прийти, <w>однако</w> ничто не доказывает, что он сдержит слово.",
+                                "nl": "Hij heeft beloofd te komen; niets bewijst <w>echter</w> dat hij zijn woord zal houden.",
                                 "de": "Er hat versprochen zu kommen. <w>Doch</w> nichts beweist, dass er sein Wort halten wird.",
                                 "pl": "Obiecał przyjść, <w>jednak</w> nic nie dowodzi, że dotrzyma słowa.",
                                 "it": "Ha promesso di venire; <w>tuttavia</w>, nulla dimostra che manterrà la parola.",
@@ -417,7 +425,7 @@
                                 "cs": "Je to dobrý kandidát; <w>nicméně</w> pochybuji, že tenhle plat přijme.",
                                 "tr": "İyi bir aday; <w>bununla birlikte</w>, bu maaşı kabul edeceğinden şüpheliyim.",
                                 "es": "Es un buen candidato; <w>ahora bien</w>, dudo que acepte este salario.",
-                                "zh": "他是个不错的候选人；<w>但是</w>，我怀疑他会接受这份薪水。"
+                                "zh": "他是个不错的候选人；<w>但是</w>，我怀疑他不会接受这份薪水。"
                             }
                         }
                     ],
@@ -628,9 +636,36 @@
                         "zh": "法语动词“maintenir”的现在分词，表示与主要动作同时进行，意为“保持”或“握住”。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "maintaining",
+                                "target_lang_sense_clarification": "present participle of 'maintenir'"
+                            },
+                            {
+                                "target_lang_word": "keeping",
+                                "target_lang_sense_clarification": "holding in the same position or state"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "держать",
+                                "target_lang_sense_clarification": "не отпускать, в одном положении"
+                            },
+                            {
+                                "target_lang_word": "сохранять",
+                                "target_lang_sense_clarification": "на прежнем уровне"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "houden",
+                                "target_lang_sense_clarification": "vorm van maintenir: in een positie houden"
+                            },
+                            {
+                                "target_lang_word": "behouden",
+                                "target_lang_sense_clarification": "vorm van maintenir: handhaven"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "haltend",

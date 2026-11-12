@@ -156,14 +156,14 @@
                         {
                             "text": "Le train partira à sept <w>heures</w> précises ce matin.",
                             "target_lang_translations": {
-                                "en": "The train will leave at <w>seven o'clock</w> sharp this morning.",
+                                "en": "The train will leave at seven <w>o'clock</w> sharp this morning.",
                                 "ru": "Сегодня утром поезд отправится ровно в семь <w>часов</w>.",
                                 "nl": "De trein vertrekt vanochtend om precies zeven <w>uur</w>.",
                                 "de": "Der Zug fährt heute Morgen um genau sieben <w>Uhr</w> ab.",
-                                "pl": "Pociąg odjedzie dziś rano punktualnie o <w>siódmej</w>.",
-                                "it": "Il treno partirà stamattina alle <w>sette</w> in punto.",
+                                "pl": "Pociąg odjedzie dziś rano punktualnie o <w>godzinie</w> siódmej.",
+                                "it": "Il treno partirà stamattina alle <w>ore</w> sette in punto.",
                                 "cs": "Vlak dnes ráno odjede přesně v sedm <w>hodin</w>.",
-                                "tr": "Tren bu sabah tam <w>saat yedide</w> kalkacak.",
+                                "tr": "Tren bu sabah tam <w>saat</w> yedide kalkacak.",
                                 "es": "El tren saldrá esta mañana a las siete <w>en punto</w>.",
                                 "zh": "火车今天早上七<w>点</w>整准时出发。"
                             }
@@ -231,10 +231,6 @@
                             {
                                 "target_lang_word": "godzina",
                                 "target_lang_sense_clarification": "np. która godzina"
-                            },
-                            {
-                                "target_lang_word": "pełna godzina",
-                                "target_lang_sense_clarification": "np. dokładnie siódma"
                             }
                         ],
                         "it": [
@@ -261,10 +257,6 @@
                             {
                                 "target_lang_word": "saat",
                                 "target_lang_sense_clarification": "saatin gösterdiği zaman, örn. saat kaç"
-                            },
-                            {
-                                "target_lang_word": "tam saat",
-                                "target_lang_sense_clarification": "saat başı, örn. yedi tam"
                             }
                         ],
                         "es": [
@@ -311,13 +303,13 @@
                         {
                             "text": "À l'<w>heure</w> du dîner, toute la famille se rassemble dans la cuisine.",
                             "target_lang_translations": {
-                                "en": "At <w>dinnertime</w>, the whole family gathers in the kitchen.",
+                                "en": "At dinner <w>time</w>, the whole family gathers in the kitchen.",
                                 "ru": "Во <w>время</w> ужина вся семья собирается на кухне.",
                                 "nl": "Op <w>etenstijd</w> verzamelt de hele familie zich in de keuken.",
                                 "de": "Zur <w>Essenszeit</w> versammelt sich die ganze Familie in der Küche.",
                                 "pl": "O <w>porze</w> kolacji cała rodzina zbiera się w kuchni.",
                                 "it": "All'<w>ora</w> di cena, tutta la famiglia si riunisce in cucina.",
-                                "cs": "V <w>čas</w> večeře se celá rodina schází v kuchyni.",
+                                "cs": "V <w>době</w> večeře se celá rodina schází v kuchyni.",
                                 "tr": "Yemek <w>vaktinde</w>, bütün aile mutfakta toplanır.",
                                 "es": "A la <w>hora</w> de la cena, toda la familia se reúne en la cocina.",
                                 "zh": "吃晚饭的<w>时候</w>，全家人都聚集在厨房里。"
@@ -403,8 +395,8 @@
                                 "target_lang_sense_clarification": "např. čas na spánek"
                             },
                             {
-                                "target_lang_word": "pora",
-                                "target_lang_sense_clarification": "např. pora spát"
+                                "target_lang_word": "doba",
+                                "target_lang_sense_clarification": "např. doba oběda"
                             }
                         ],
                         "tr": [
@@ -465,16 +457,16 @@
                         {
                             "text": "Elle s'efforce toujours d'arriver à l'<w>heure</w> à ses rendez-vous professionnels.",
                             "target_lang_translations": {
-                                "en": "She always makes an effort to arrive <w>on time</w> for her business appointments.",
+                                "en": "She always makes an effort to arrive on <w>time</w> for her business appointments.",
                                 "ru": "Она всегда старается приходить <w>вовремя</w> на деловые встречи.",
-                                "nl": "Ze doet altijd haar best om <w>op tijd</w> te komen bij haar zakelijke afspraken.",
+                                "nl": "Ze doet altijd haar best om op <w>tijd</w> te komen bij haar zakelijke afspraken.",
                                 "de": "Sie bemüht sich stets, zu ihren geschäftlichen Terminen <w>pünktlich</w> zu erscheinen.",
-                                "pl": "Zawsze stara się przychodzić <w>punktualnie</w> na swoje służbowe spotkania.",
-                                "it": "Si sforza sempre di arrivare <w>in orario</w> ai suoi appuntamenti di lavoro.",
+                                "pl": "Zawsze stara się przychodzić na służbowe spotkania na <w>czas</w>.",
+                                "it": "Si sforza sempre di arrivare in <w>orario</w> ai suoi appuntamenti di lavoro.",
                                 "cs": "Vždy se snaží na své služební schůzky přijít <w>včas</w>.",
                                 "tr": "Mesleki randevularına her zaman <w>zamanında</w> gelmeye özen gösterir.",
-                                "es": "Siempre se esfuerza por llegar <w>puntual</w> a sus citas profesionales.",
-                                "zh": "她总是努力准时赴她的商务<w>预约</w>。"
+                                "es": "Siempre se esfuerza por llegar a la <w>hora</w> a sus citas profesionales.",
+                                "zh": "她总是尽量<w>准时</w>赴工作上的约会。"
                             }
                         }
                     ],
@@ -517,21 +509,25 @@
                         "de": [
                             {
                                 "target_lang_word": "Termin",
-                                "target_lang_sense_clarification": "Besprechungs- oder Arzttermin"
+                                "target_lang_sense_clarification": "vereinbarter Zeitpunkt"
                             },
                             {
-                                "target_lang_word": "Verabredung",
-                                "target_lang_sense_clarification": "Treffen mit einer anderen Person"
+                                "target_lang_word": "pünktlich",
+                                "target_lang_sense_clarification": "für à l'heure"
                             }
                         ],
                         "pl": [
+                            {
+                                "target_lang_word": "godzina",
+                                "target_lang_sense_clarification": "umówiona, np. godzina spotkania"
+                            },
                             {
                                 "target_lang_word": "termin",
                                 "target_lang_sense_clarification": "np. termin wizyty"
                             },
                             {
-                                "target_lang_word": "umówiona godzina",
-                                "target_lang_sense_clarification": "np. ustalić godzinę spotkania"
+                                "target_lang_word": "czas",
+                                "target_lang_sense_clarification": "w zwrocie „na czas”"
                             }
                         ],
                         "it": [
@@ -540,8 +536,8 @@
                                 "target_lang_sense_clarification": "es. fissare l'ora"
                             },
                             {
-                                "target_lang_word": "appuntamento",
-                                "target_lang_sense_clarification": "es. prendere un appuntamento"
+                                "target_lang_word": "orario",
+                                "target_lang_sense_clarification": "in «arrivare in orario»"
                             }
                         ],
                         "cs": [
@@ -556,22 +552,18 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "randevu",
-                                "target_lang_sense_clarification": "doktor ya da toplantı için"
-                            },
-                            {
                                 "target_lang_word": "saat",
                                 "target_lang_sense_clarification": "buluşma için belirlenen saat"
+                            },
+                            {
+                                "target_lang_word": "zamanında",
+                                "target_lang_sense_clarification": "«à l'heure»: geç kalmadan"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "cita",
-                                "target_lang_sense_clarification": "encuentro acordado con alguien"
-                            },
-                            {
                                 "target_lang_word": "hora",
-                                "target_lang_sense_clarification": "al concertar una cita"
+                                "target_lang_sense_clarification": "momento acordado para una cita"
                             }
                         ],
                         "zh": [
@@ -580,8 +572,8 @@
                                 "target_lang_sense_clarification": "约定的会面时间"
                             },
                             {
-                                "target_lang_word": "预约",
-                                "target_lang_sense_clarification": "医生或会议的预约"
+                                "target_lang_word": "准时",
+                                "target_lang_sense_clarification": "按约定的时间到达或进行"
                             }
                         ]
                     }
@@ -598,14 +590,14 @@
                             "text": "Cet employé effectue souvent des <w>heures</w> supplémentaires en fin de mois.",
                             "target_lang_translations": {
                                 "en": "This employee often works extra <w>hours</w> at the end of the month.",
-                                "ru": "Этот сотрудник часто работает <w>сверхурочно</w> в конце месяца.",
+                                "ru": "Этот сотрудник часто отрабатывает сверхурочные <w>часы</w> в конце месяца.",
                                 "nl": "Deze medewerker maakt aan het eind van de maand vaak <w>overuren</w>.",
                                 "de": "Dieser Angestellte macht am Monatsende oft <w>Überstunden</w>.",
                                 "pl": "Ten pracownik pod koniec miesiąca często robi <w>nadgodziny</w>.",
-                                "it": "Questo dipendente fa spesso <w>ore di straordinario</w> a fine mese.",
+                                "it": "Questo dipendente fa spesso <w>ore</w> di straordinario a fine mese.",
                                 "cs": "Tento zaměstnanec koncem měsíce často dělá <w>přesčasy</w>.",
-                                "tr": "Bu çalışan ay sonunda sık sık <w>fazla mesai</w> yapıyor.",
-                                "es": "Este empleado hace a menudo <w>horas extra</w> a fin de mes.",
+                                "tr": "Bu çalışan ay sonunda sık sık fazla <w>mesai</w> yapıyor.",
+                                "es": "Este empleado hace a menudo <w>horas</w> extra a fin de mes.",
                                 "zh": "这名员工月底常常超出正常的<w>工作时间</w>。"
                             }
                         },
@@ -617,10 +609,10 @@
                                 "nl": "De winkel is open tijdens de gewone <w>kantooruren</w>.",
                                 "de": "Das Geschäft ist während der üblichen <w>Bürozeiten</w> geöffnet.",
                                 "pl": "Sklep jest czynny w zwykłych <w>godzinach pracy</w>.",
-                                "it": "Il negozio è aperto durante i normali <w>orari d'ufficio</w>.",
+                                "it": "Il negozio è aperto durante i normali <w>orari</w> d'ufficio.",
                                 "cs": "Obchod je otevřen během běžné <w>pracovní doby</w>.",
                                 "tr": "Dükkân normal <w>mesai saatleri</w> boyunca açık.",
-                                "es": "La tienda permanece abierta durante el <w>horario normal de oficina</w>.",
+                                "es": "La tienda permanece abierta durante el <w>horario</w> normal de oficina.",
                                 "zh": "商店在正常的<w>上班时间</w>内营业。"
                             }
                         }
@@ -645,6 +637,10 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "hour",
+                                "target_lang_sense_clarification": "period of work, e.g. extra hours"
+                            },
+                            {
                                 "target_lang_word": "working hours",
                                 "target_lang_sense_clarification": "time spent on the job"
                             }
@@ -661,12 +657,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "werkuren",
+                                "target_lang_word": "uur",
                                 "target_lang_sense_clarification": "gewerkte tijd, bijvoorbeeld overuren"
                             },
                             {
-                                "target_lang_word": "kantooruren",
-                                "target_lang_sense_clarification": "werktijd op kantoor"
+                                "target_lang_word": "werkuur",
+                                "target_lang_sense_clarification": "uur waarin gewerkt wordt"
                             }
                         ],
                         "de": [
@@ -691,12 +687,12 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "orario di lavoro",
-                                "target_lang_sense_clarification": "es. orario d'ufficio"
+                                "target_lang_word": "ora",
+                                "target_lang_sense_clarification": "tempo di lavoro, es. ore di straordinario"
                             },
                             {
-                                "target_lang_word": "ore di lavoro",
-                                "target_lang_sense_clarification": "es. ore di straordinario"
+                                "target_lang_word": "orario",
+                                "target_lang_sense_clarification": "es. orario d'ufficio"
                             }
                         ],
                         "cs": [
@@ -721,12 +717,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "horas de trabajo",
-                                "target_lang_sense_clarification": "tiempo dedicado al empleo"
+                                "target_lang_word": "hora",
+                                "target_lang_sense_clarification": "tiempo de trabajo: horas extra"
                             },
                             {
-                                "target_lang_word": "jornada",
-                                "target_lang_sense_clarification": "tiempo laboral de un día"
+                                "target_lang_word": "horario",
+                                "target_lang_sense_clarification": "horas de trabajo o de apertura"
                             }
                         ],
                         "zh": [
@@ -752,13 +748,13 @@
                         {
                             "text": "À l'<w>heure</w> actuelle, cette question préoccupe de nombreux citoyens.",
                             "target_lang_translations": {
-                                "en": "At <w>this time</w>, this issue worries many citizens.",
-                                "ru": "В <w>настоящее время</w> этот вопрос волнует многих граждан.",
-                                "nl": "<w>Op dit moment</w> houdt deze kwestie veel burgers bezig.",
+                                "en": "At the present <w>time</w>, this issue worries many citizens.",
+                                "ru": "В настоящее <w>время</w> этот вопрос волнует многих граждан.",
+                                "nl": "Op dit <w>moment</w> houdt deze kwestie veel burgers bezig.",
                                 "de": "<w>Derzeit</w> beschäftigt diese Frage viele Bürgerinnen und Bürger.",
                                 "pl": "W dzisiejszych <w>czasach</w> ta kwestia martwi wielu obywateli.",
-                                "it": "<w>Attualmente</w> questa questione preoccupa molti cittadini.",
-                                "cs": "V <w>dnešní době</w> tato otázka trápí mnoho občanů.",
+                                "it": "Di questi <w>tempi</w> questa questione preoccupa molti cittadini.",
+                                "cs": "V dnešní <w>době</w> tato otázka trápí mnoho občanů.",
                                 "tr": "<w>Günümüzde</w> bu soru birçok vatandaşı endişelendiriyor.",
                                 "es": "En la <w>actualidad</w>, esta cuestión preocupa a muchos ciudadanos.",
                                 "zh": "在<w>当下</w>，这个问题让很多市民都感到担忧。"
@@ -770,7 +766,7 @@
                                 "en": "In his address, the minister discussed the major challenges of our <w>times</w>.",
                                 "ru": "В своём выступлении министр затронул главные вызовы <w>современности</w>.",
                                 "nl": "In zijn toespraak sprak de minister over de grote uitdagingen van onze <w>tijd</w>.",
-                                "de": "In seiner Rede sprach der Minister über die großen Herausforderungen <w>unserer Zeit</w>.",
+                                "de": "In seiner Rede sprach der Minister über die großen Herausforderungen unserer <w>Zeit</w>.",
                                 "pl": "Minister w swoim przemówieniu poruszył najważniejsze wyzwania <w>współczesności</w>.",
                                 "it": "Durante il suo discorso, il ministro ha affrontato le grandi sfide del nostro <w>tempo</w>.",
                                 "cs": "Ministr ve svém projevu nastínil hlavní výzvy <w>současnosti</w>.",
@@ -815,11 +811,11 @@
                         "nl": [
                             {
                                 "target_lang_word": "tijd",
-                                "target_lang_sense_clarification": "bijvoorbeeld onze tijd"
+                                "target_lang_sense_clarification": "het heden, bijvoorbeeld onze tijd"
                             },
                             {
-                                "target_lang_word": "tijdperk",
-                                "target_lang_sense_clarification": "historische periode, bijvoorbeeld naoorlogs tijdperk"
+                                "target_lang_word": "moment",
+                                "target_lang_sense_clarification": "in 'op dit moment'"
                             }
                         ],
                         "de": [
@@ -912,7 +908,7 @@
                                 "pl": "Młody artysta cierpliwie czeka na swoją <w>chwilę</w>, mając nadzieję na przebicie się.",
                                 "it": "Il giovane artista attende pazientemente il suo <w>momento</w> nella speranza di affermarsi.",
                                 "cs": "Mladý umělec trpělivě čeká na svou <w>chvíli</w> a doufá, že se prosadí.",
-                                "tr": "Genç sanatçı, tutunma umuduyla sabırla kendi <w>fırsatını</w> bekliyor.",
+                                "tr": "Genç sanatçı, tutunma umuduyla sabırla <w>zamanının</w> gelmesini bekliyor.",
                                 "es": "El joven artista espera pacientemente su <w>momento</w> con la esperanza de triunfar.",
                                 "zh": "年轻的艺术家耐心地等待着自己的<w>时机</w>，希望能够崭露头角。"
                             }
@@ -1021,6 +1017,10 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "zaman",
+                                "target_lang_sense_clarification": "birinin başarı anı: «zamanı geldi»"
+                            },
+                            {
                                 "target_lang_word": "fırsat",
                                 "target_lang_sense_clarification": "elverişli an, örn. fırsatı yakalamak"
                             }
@@ -1060,13 +1060,13 @@
                             "target_lang_translations": {
                                 "en": "Sensing that his <w>final hour</w> was near, the old man had his children called.",
                                 "ru": "Почувствовав приближение смертного <w>часа</w>, старик велел позвать детей.",
-                                "nl": "Toen hij zijn <w>laatste uur</w> voelde naderen, liet de oude man zijn kinderen roepen.",
+                                "nl": "Toen hij zijn laatste <w>uur</w> voelde naderen, liet de oude man zijn kinderen roepen.",
                                 "de": "Als der alte Mann spürte, dass seine <w>Todesstunde</w> nahte, ließ er seine Kinder rufen.",
                                 "pl": "Czując, że nadchodzi jego <w>ostatnia godzina</w>, starzec kazał wezwać dzieci.",
-                                "it": "Sentendo avvicinarsi la sua <w>ultima ora</w>, il vecchio fece chiamare i figli.",
+                                "it": "Sentendo avvicinarsi la sua ultima <w>ora</w>, il vecchio fece chiamare i figli.",
                                 "cs": "Když starec ucítil, že se blíží jeho <w>poslední hodina</w>, nechal zavolat děti.",
                                 "tr": "<w>Ecelinin</w> yaklaştığını hisseden yaşlı adam çocuklarını çağırttı.",
-                                "es": "Sintiendo que se acercaba su <w>hora final</w>, el anciano mandó llamar a sus hijos.",
+                                "es": "Sintiendo que se acercaba su última <w>hora</w>, el anciano mandó llamar a sus hijos.",
                                 "zh": "感觉到<w>大限</w>将至，老人便让人把孩子们叫来。"
                             }
                         },
@@ -1124,18 +1124,22 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "laatste uur",
-                                "target_lang_sense_clarification": "literair, rond het levenseinde"
+                                "target_lang_word": "uur",
+                                "target_lang_sense_clarification": "moment van sterven, bijvoorbeeld zijn laatste uur"
+                            },
+                            {
+                                "target_lang_word": "stervensuur",
+                                "target_lang_sense_clarification": "plechtig, moment van overlijden"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Todesstunde",
-                                "target_lang_sense_clarification": "gehobene Ausdrucksweise"
+                                "target_lang_word": "Stunde",
+                                "target_lang_sense_clarification": "letzte Stunde, Augenblick des Todes"
                             },
                             {
-                                "target_lang_word": "Sterbestunde",
-                                "target_lang_sense_clarification": "poetisch, Lebensende"
+                                "target_lang_word": "Todesstunde",
+                                "target_lang_sense_clarification": "gehoben, Augenblick des Todes"
                             }
                         ],
                         "pl": [
@@ -1150,8 +1154,8 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "ultima ora",
-                                "target_lang_sense_clarification": "espressione letteraria, fine della vita"
+                                "target_lang_word": "ora",
+                                "target_lang_sense_clarification": "momento della morte, es. la sua ultima ora"
                             },
                             {
                                 "target_lang_word": "ora suprema",
@@ -1180,12 +1184,16 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "hora suprema",
-                                "target_lang_sense_clarification": "uso literario, al morir"
+                                "target_lang_word": "hora",
+                                "target_lang_sense_clarification": "momento de morir: le llegó su hora"
                             },
                             {
                                 "target_lang_word": "hora de la muerte",
                                 "target_lang_sense_clarification": "momento de fallecer"
+                            },
+                            {
+                                "target_lang_word": "hora suprema",
+                                "target_lang_sense_clarification": "uso literario, al morir"
                             }
                         ],
                         "zh": [
@@ -1211,14 +1219,14 @@
                         {
                             "text": "Le pilote signale un appareil suspect à deux <w>heures</w>.",
                             "target_lang_translations": {
-                                "en": "The pilot reports a suspicious aircraft at <w>two o'clock</w>.",
+                                "en": "The pilot reports a suspicious aircraft at two <w>o'clock</w>.",
                                 "ru": "Пилот сообщает о подозрительном самолёте на два <w>часа</w>.",
                                 "nl": "De piloot meldt een verdacht toestel op twee <w>uur</w>.",
                                 "de": "Der Pilot meldet ein verdächtiges Flugzeug auf zwei <w>Uhr</w>.",
-                                "pl": "Pilot zgłasza podejrzany samolot na <w>godzinie drugiej</w>.",
-                                "it": "Il pilota segnala un velivolo sospetto a <w>ore due</w>.",
+                                "pl": "Pilot zgłasza podejrzany samolot na <w>godzinie</w> drugiej.",
+                                "it": "Il pilota segnala un velivolo sospetto a <w>ore</w> due.",
                                 "cs": "Pilot hlásí podezřelý letoun na dvě <w>hodiny</w>.",
-                                "tr": "Pilot, <w>saat ikide</w> şüpheli bir uçak bildiriyor.",
+                                "tr": "Pilot, <w>saat</w> ikide şüpheli bir uçak bildiriyor.",
                                 "es": "El piloto informa de una aeronave sospechosa a las dos <w>horas</w>.",
                                 "zh": "飞行员报告，在两<w>点钟</w>方向有一架可疑飞机。"
                             }
@@ -1226,14 +1234,14 @@
                         {
                             "text": "Regarde droit devant toi, le danger se trouve à midi, pas à trois <w>heures</w>.",
                             "target_lang_translations": {
-                                "en": "Look straight ahead, the danger is at twelve o'clock, not at <w>three o'clock</w>.",
+                                "en": "Look straight ahead, the danger is at twelve o'clock, not at three <w>o'clock</w>.",
                                 "ru": "Смотри прямо перед собой: опасность на двенадцать часов, а не на три <w>часа</w>.",
                                 "nl": "Kijk recht voor je, het gevaar bevindt zich op twaalf uur, niet op drie <w>uur</w>.",
                                 "de": "Schau geradeaus, die Gefahr liegt auf zwölf Uhr, nicht auf drei <w>Uhr</w>.",
-                                "pl": "Patrz prosto przed siebie, niebezpieczeństwo jest na dwunastej, a nie na <w>godzinie trzeciej</w>.",
-                                "it": "Guarda dritto davanti a te: il pericolo è a ore dodici, non a <w>ore tre</w>.",
+                                "pl": "Patrz prosto przed siebie, niebezpieczeństwo jest na dwunastej, a nie na <w>godzinie</w> trzeciej.",
+                                "it": "Guarda dritto davanti a te: il pericolo è a ore dodici, non a <w>ore</w> tre.",
                                 "cs": "Dívej se rovně před sebe, nebezpečí je na dvanáct hodin, ne na tři <w>hodiny</w>.",
-                                "tr": "Tam önüne bak, tehlike saat on ikide, <w>saat üçte</w> değil.",
+                                "tr": "Tam önüne bak, tehlike saat on ikide, <w>saat</w> üçte değil.",
                                 "es": "Mira recto al frente: el peligro está a las doce, no a las tres <w>horas</w>.",
                                 "zh": "往前看，危险在正前方，而不是三<w>点钟</w>方向。"
                             }
@@ -1331,7 +1339,7 @@
                             "text": "Le village d'<w>Heure</w> fait partie intégrante de la commune namuroise de Somme-Leuze.",
                             "target_lang_translations": {
                                 "en": "The village of <w>Heure</w> forms an integral part of the Namur municipality of Somme-Leuze.",
-                                "ru": "Деревня <w>Ёр</w> является неотъемлемой частью намюрской коммуны Сомм-Лёз.",
+                                "ru": "Деревня <w>Эр</w> является неотъемлемой частью намюрской коммуны Сомм-Лёз.",
                                 "nl": "Het dorp <w>Heure</w> maakt een integraal deel uit van de gemeente Somme-Leuze in de provincie Namen.",
                                 "de": "Das Dorf <w>Heure</w> ist ein fester Bestandteil der Gemeinde Somme-Leuze in der Provinz Namur.",
                                 "pl": "Wieś <w>Heure</w> stanowi integralną część gminy Somme-Leuze w prowincji Namur.",
@@ -1346,7 +1354,7 @@
                             "text": "Ils ont passé leurs vacances d'été dans les environs paisibles d'<w>Heure</w>.",
                             "target_lang_translations": {
                                 "en": "They spent their summer holidays in the peaceful surroundings of <w>Heure</w>.",
-                                "ru": "Они провели летние каникулы в тихих окрестностях <w>Ёра</w>.",
+                                "ru": "Они провели летние каникулы в тихих окрестностях <w>Эра</w>.",
                                 "nl": "Ze brachten hun zomervakantie door in de rustige omgeving van <w>Heure</w>.",
                                 "de": "Sie haben ihre Sommerferien in der ruhigen Umgebung von <w>Heure</w> verbracht.",
                                 "pl": "Spędzili letnie wakacje w spokojnych okolicach <w>Heure</w>.",
@@ -1377,15 +1385,60 @@
                         "zh": "比利时索姆-勒兹市镇下属的一个村庄。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
+                        "en": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "village in Belgium"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Эр",
+                                "target_lang_sense_clarification": "деревня в Бельгии"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "dorp in de Belgische provincie Namen"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "Ortsteil von Somme-Leuze in Belgien"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "wieś w Belgii"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "località del Belgio"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "vesnice v Belgii"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "Belçika'da bir köy"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Heure",
+                                "target_lang_sense_clarification": "pueblo de Bélgica"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "厄尔",

@@ -38,15 +38,15 @@
                         {
                             "text": "Cette phrase se termine par un <w>point</w> d'interrogation.",
                             "target_lang_translations": {
-                                "en": "This sentence ends with a <w>question mark</w>.",
+                                "en": "This sentence ends with a question <w>mark</w>.",
                                 "ru": "Это предложение заканчивается вопросительным <w>знаком</w>.",
                                 "nl": "Deze zin eindigt met een <w>vraagteken</w>.",
                                 "de": "Dieser Satz endet mit einem <w>Fragezeichen</w>.",
-                                "pl": "To zdanie kończy się <w>znakiem zapytania</w>.",
+                                "pl": "To zdanie kończy się <w>znakiem</w> zapytania.",
                                 "it": "Questa frase termina con un <w>punto</w> interrogativo.",
                                 "cs": "Tato věta končí <w>otazníkem</w>.",
-                                "tr": "Bu cümle <w>soru işareti</w> ile bitiyor.",
-                                "es": "Esta oración termina con un <w>signo de interrogación</w>.",
+                                "tr": "Bu cümle soru <w>işareti</w> ile bitiyor.",
+                                "es": "Esta oración termina con un <w>signo</w> de interrogación.",
                                 "zh": "这句话以<w>问号</w>结尾。"
                             }
                         }
@@ -72,17 +72,25 @@
                         "en": [
                             {
                                 "target_lang_word": "full stop",
-                                "target_lang_sense_clarification": "British English punctuation mark"
+                                "target_lang_sense_clarification": "british English punctuation mark"
                             },
                             {
                                 "target_lang_word": "period",
-                                "target_lang_sense_clarification": "American English punctuation mark"
+                                "target_lang_sense_clarification": "american English punctuation mark"
+                            },
+                            {
+                                "target_lang_word": "mark",
+                                "target_lang_sense_clarification": "in names such as 'question mark'"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "точка",
                                 "target_lang_sense_clarification": "знак в конце предложения"
+                            },
+                            {
+                                "target_lang_word": "знак",
+                                "target_lang_sense_clarification": "в названиях: вопросительный знак"
                             }
                         ],
                         "nl": [
@@ -100,7 +108,11 @@
                         "pl": [
                             {
                                 "target_lang_word": "kropka",
-                                "target_lang_sense_clarification": "w zapisie zdań oznajmujących"
+                                "target_lang_sense_clarification": "na końcu zdania oznajmującego"
+                            },
+                            {
+                                "target_lang_word": "znak",
+                                "target_lang_sense_clarification": "w nazwach, np. znak zapytania"
                             }
                         ],
                         "it": [
@@ -123,6 +135,10 @@
                             {
                                 "target_lang_word": "nokta",
                                 "target_lang_sense_clarification": "cümle sonunda kullanılan işaret"
+                            },
+                            {
+                                "target_lang_word": "işaret",
+                                "target_lang_sense_clarification": "«soru işareti», «ünlem işareti»"
                             }
                         ],
                         "es": [
@@ -133,6 +149,10 @@
                             {
                                 "target_lang_word": "punto final",
                                 "target_lang_sense_clarification": "fin de oración o texto"
+                            },
+                            {
+                                "target_lang_word": "signo",
+                                "target_lang_sense_clarification": "en «signo de interrogación»"
                             }
                         ],
                         "zh": [
@@ -254,11 +274,7 @@
                         "cs": [
                             {
                                 "target_lang_word": "bod",
-                                "target_lang_sense_clarification": "počítaný ve hrách a sportu"
-                            },
-                            {
-                                "target_lang_word": "známka",
-                                "target_lang_sense_clarification": "hodnocení ve škole nebo zkoušce"
+                                "target_lang_sense_clarification": "počítaný ve hrách, sportu a při hodnocení"
                             }
                         ],
                         "tr": [
@@ -308,15 +324,15 @@
                         {
                             "text": "Nous avons fixé un <w>point</w> de rencontre devant la gare centrale.",
                             "target_lang_translations": {
-                                "en": "We agreed on a <w>meeting point</w> in front of the central station.",
+                                "en": "We agreed on a meeting <w>point</w> in front of the central station.",
                                 "ru": "Мы договорились о <w>месте</w> встречи перед центральным вокзалом.",
                                 "nl": "We hebben afgesproken elkaar op een <w>plek</w> voor het centraal station te ontmoeten.",
                                 "de": "Wir haben vor dem Hauptbahnhof einen <w>Treffpunkt</w> vereinbart.",
-                                "pl": "Ustaliliśmy <w>miejsce spotkania</w> przed dworcem głównym.",
+                                "pl": "Ustaliliśmy <w>miejsce</w> spotkania przed dworcem głównym.",
                                 "it": "Abbiamo fissato un <w>punto</w> d'incontro davanti alla stazione centrale.",
                                 "cs": "Domluvili jsme se na <w>místě</w> setkání před hlavním nádražím.",
-                                "tr": "Merkez istasyonun önünde bir <w>buluşma noktası</w> belirledik.",
-                                "es": "Quedamos en un <w>punto de encuentro</w> frente a la estación central.",
+                                "tr": "Merkez istasyonun önünde bir buluşma <w>noktası</w> belirledik.",
+                                "es": "Quedamos en un <w>punto</w> de encuentro frente a la estación central.",
                                 "zh": "我们在中央车站前定好了见面的<w>地点</w>。"
                             }
                         },
@@ -354,6 +370,10 @@
                     },
                     "translations": {
                         "en": [
+                            {
+                                "target_lang_word": "point",
+                                "target_lang_sense_clarification": "precise place, as in 'meeting point'"
+                            },
                             {
                                 "target_lang_word": "spot",
                                 "target_lang_sense_clarification": "specific place or position"
@@ -508,7 +528,7 @@
                                 "en": "From a distance, the plane looked like a tiny black <w>speck</w>.",
                                 "ru": "Издалека самолёт казался лишь маленьким тёмным <w>пятнышком</w>.",
                                 "nl": "Van veraf leek het vliegtuig slechts een klein donker <w>vlekje</w>.",
-                                "de": "Aus der Ferne wirkte das Flugzeug nur wie ein kleiner dunkler <w>Fleck</w>.",
+                                "de": "Aus der Ferne wirkte das Flugzeug nur wie ein kleiner schwarzer <w>Punkt</w>.",
                                 "pl": "Z daleka samolot wyglądał jedynie jak mała ciemna <w>plamka</w>.",
                                 "it": "Da lontano, l'aereo appariva solo come una piccola <w>macchiolina</w> nera.",
                                 "cs": "Z dálky letadlo vypadalo jen jako malá černá <w>tečka</w>.",
@@ -565,6 +585,10 @@
                             }
                         ],
                         "de": [
+                            {
+                                "target_lang_word": "Punkt",
+                                "target_lang_sense_clarification": "kleines rundes Zeichen auf einer Fläche"
+                            },
                             {
                                 "target_lang_word": "Tupfen",
                                 "target_lang_sense_clarification": "Muster auf Stoff"
@@ -858,13 +882,13 @@
                             "text": "Tu ne peux pas imaginer à quel <w>point</w> cette nouvelle m'a réjoui.",
                             "target_lang_translations": {
                                 "en": "You can't imagine <w>how much</w> this news delighted me.",
-                                "ru": "Ты не можешь себе представить, <w>насколько</w> меня обрадовала эта новость.",
+                                "ru": "Ты не можешь себе представить, до какой <w>степени</w> меня обрадовала эта новость.",
                                 "nl": "Je kunt je niet voorstellen in welke <w>mate</w> dit nieuws me verheugde.",
                                 "de": "Du kannst dir nicht vorstellen, <w>wie sehr</w> mich diese Nachricht gefreut hat.",
-                                "pl": "Nie wyobrażasz sobie, <w>jak bardzo</w> ta wiadomość mnie ucieszyła.",
-                                "it": "Non puoi immaginare <w>quanto</w> questa notizia mi abbia rallegrato.",
+                                "pl": "Nie wyobrażasz sobie, do jakiego <w>stopnia</w> ta wiadomość mnie ucieszyła.",
+                                "it": "Non puoi immaginare fino a che <w>punto</w> questa notizia mi abbia rallegrato.",
                                 "cs": "Nedovedeš si představit, do jaké <w>míry</w> mě ta zpráva potěšila.",
-                                "tr": "Bu haberin beni <w>ne kadar</w> sevindirdiğini tahmin edemezsin.",
+                                "tr": "Bu haberin beni ne <w>kadar</w> sevindirdiğini tahmin edemezsin.",
                                 "es": "No te imaginas hasta qué <w>punto</w> me alegró esta noticia.",
                                 "zh": "你无法想象这个消息让我高兴到了什么<w>程度</w>。"
                             }
@@ -872,15 +896,15 @@
                         {
                             "text": "Il était fatigué au <w>point</w> de s'endormir debout.",
                             "target_lang_translations": {
-                                "en": "He was <w>so tired</w> that he nearly fell asleep standing up.",
-                                "ru": "Он был <w>настолько</w> измотан, что едва не засыпал на ногах.",
-                                "nl": "Hij was <w>zo moe</w> dat hij bijna rechtop in slaap viel.",
+                                "en": "He was tired to the <w>point</w> of falling asleep on his feet.",
+                                "ru": "Он устал до такой <w>степени</w>, что едва не засыпал стоя.",
+                                "nl": "Hij was <w>dermate</w> moe dat hij bijna staand in slaap viel.",
                                 "de": "Er war <w>so</w> müde, dass er im Stehen beinahe eingeschlafen wäre.",
-                                "pl": "Był <w>tak</w> zmęczony, że prawie zasnął na stojąco.",
-                                "it": "Era stanco <w>al punto da</w> addormentarsi in piedi.",
+                                "pl": "Był zmęczony do tego <w>stopnia</w>, że prawie zasypiał na stojąco.",
+                                "it": "Era stanco al <w>punto</w> da addormentarsi in piedi.",
                                 "cs": "Byl <w>natolik</w> unavený, že málem usnul vestoje.",
                                 "tr": "Ayakta uyuyakalacak <w>kadar</w> yorgundu.",
-                                "es": "Estaba cansado <w>hasta el punto de</w> quedarse dormido de pie.",
+                                "es": "Estaba cansado hasta el <w>punto</w> de quedarse dormido de pie.",
                                 "zh": "他累到了站着都能睡着的<w>地步</w>。"
                             }
                         }
@@ -910,6 +934,10 @@
                             {
                                 "target_lang_word": "extent",
                                 "target_lang_sense_clarification": "how far something goes"
+                            },
+                            {
+                                "target_lang_word": "point",
+                                "target_lang_sense_clarification": "as in 'to the point of'"
                             }
                         ],
                         "ru": [
@@ -930,6 +958,10 @@
                             {
                                 "target_lang_word": "mate",
                                 "target_lang_sense_clarification": "in hoeverre iets geldt"
+                            },
+                            {
+                                "target_lang_word": "dermate",
+                                "target_lang_sense_clarification": "in die mate: 'au point de'"
                             }
                         ],
                         "de": [
@@ -992,6 +1024,10 @@
                             {
                                 "target_lang_word": "ölçü",
                                 "target_lang_sense_clarification": "hangi ölçüde biçiminde"
+                            },
+                            {
+                                "target_lang_word": "kadar",
+                                "target_lang_sense_clarification": "«ne kadar», «-ecek kadar» kalıplarında"
                             }
                         ],
                         "es": [
@@ -1046,16 +1082,16 @@
                         {
                             "text": "Elle apprend à broder au <w>point</w> de croix sur une nappe blanche.",
                             "target_lang_translations": {
-                                "en": "She is learning to embroider <w>cross stitch</w> on a white tablecloth.",
+                                "en": "She is learning to embroider in cross <w>stitch</w> on a white tablecloth.",
                                 "ru": "Она учится вышивать <w>крестиком</w> на белой скатерти.",
-                                "nl": "Ze leert op een witte tafelkleed de <w>kruissteek</w> borduren.",
+                                "nl": "Ze leert op een wit tafelkleed de <w>kruissteek</w> borduren.",
                                 "de": "Sie lernt, auf einer weißen Tischdecke im <w>Kreuzstich</w> zu sticken.",
-                                "pl": "Uczy się haftować <w>ściegiem krzyżykowym</w> na białym obrusie.",
-                                "it": "Sta imparando a ricamare a <w>punto croce</w> su una tovaglia bianca.",
-                                "cs": "Učí se vyšívat na bílém ubruse <w>křížkovým stehem</w>.",
-                                "tr": "Beyaz bir masa örtüsüne <w>çapraz dikişle</w> nakış işlemeyi öğreniyor.",
-                                "es": "Está aprendiendo a bordar en <w>punto de cruz</w> sobre un mantel blanco.",
-                                "zh": "她在白色桌布上练习用十字<w>针脚</w>刺绣。"
+                                "pl": "Uczy się haftować <w>ściegiem</w> krzyżykowym na białym obrusie.",
+                                "it": "Sta imparando a ricamare a <w>punto</w> croce su una tovaglia bianca.",
+                                "cs": "Učí se vyšívat na bílém ubruse křížkovým <w>stehem</w>.",
+                                "tr": "Beyaz bir masa örtüsüne çapraz <w>dikişle</w> nakış işlemeyi öğreniyor.",
+                                "es": "Está aprendiendo a bordar en <w>punto</w> de cruz sobre un mantel blanco.",
+                                "zh": "她正在学着用十字<w>针法</w>在白色桌布上刺绣。"
                             }
                         }
                     ],
@@ -1136,10 +1172,6 @@
                             {
                                 "target_lang_word": "steh",
                                 "target_lang_sense_clarification": "v šití, vyšívání i lékařství"
-                            },
-                            {
-                                "target_lang_word": "šev",
-                                "target_lang_sense_clarification": "zašití rány v lékařství"
                             }
                         ],
                         "tr": [
@@ -1174,6 +1206,10 @@
                             {
                                 "target_lang_word": "针",
                                 "target_lang_sense_clarification": "缝合伤口的一针"
+                            },
+                            {
+                                "target_lang_word": "针法",
+                                "target_lang_sense_clarification": "刺绣或缝纫的走针方式"
                             }
                         ]
                     }
@@ -1195,7 +1231,7 @@
                                 "de": "Weil er zu schnell gelaufen war, bekam der Läufer ein heftiges <w>Seitenstechen</w>.",
                                 "pl": "Po zbyt szybkim biegu biegacz poczuł ostrą <w>kolkę</w> w boku.",
                                 "it": "Dopo aver corso troppo in fretta, il corridore ha sentito una forte <w>fitta</w> al fianco.",
-                                "cs": "Po příliš rychlém běhu ucítil běžec ostré <w>píchání v boku</w>.",
+                                "cs": "Po příliš rychlém běhu ucítil běžec ostré <w>píchání</w> v boku.",
                                 "tr": "Çok hızlı koştuktan sonra koşucu yan tarafında keskin bir <w>yan ağrısı</w> hissetti.",
                                 "es": "Tras correr demasiado rápido, el corredor sintió un fuerte <w>flato</w> en el costado.",
                                 "zh": "跑得太快之后，这名跑步者感到腰侧一阵剧烈的<w>刺痛</w>。"
@@ -1383,7 +1419,7 @@
                                 "cs": "Nemám <w>vůbec</w> v úmyslu se vzdát svých osobních plánů.",
                                 "tr": "Kişisel planlarımdan vazgeçmek niyetinde <w>hiç</w> değilim.",
                                 "es": "<w>De ningún modo</w> tengo intención de renunciar a mis proyectos personales.",
-                                "zh": "我<w>毫不</w>打算放弃自己的个人计划。"
+                                "zh": "我<w>丝毫不</w>想放弃自己的个人计划。"
                             }
                         }
                     ],
@@ -1421,6 +1457,10 @@
                             {
                                 "target_lang_word": "by no means",
                                 "target_lang_sense_clarification": "emphatic formal negation"
+                            },
+                            {
+                                "target_lang_word": "no",
+                                "target_lang_sense_clarification": "before a noun: no intention"
                             }
                         ],
                         "ru": [
@@ -1539,7 +1579,7 @@
                         {
                             "text": "Le jour <w>point</w> lentement derrière les collines à l'horizon.",
                             "target_lang_translations": {
-                                "en": "Dawn <w>breaks</w> slowly behind the hills on the horizon.",
+                                "en": "Day <w>dawns</w> slowly behind the hills on the horizon.",
                                 "ru": "Рассвет медленно <w>брезжит</w> за холмами на горизонте.",
                                 "nl": "De dag <w>gloort</w> langzaam achter de heuvels aan de horizon.",
                                 "de": "Hinter den Hügeln am Horizont <w>dämmert</w> langsam der Tag.",
@@ -1555,9 +1595,9 @@
                             "text": "Une légère lueur d'espoir <w>point</w> enfin dans son regard fatigué.",
                             "target_lang_translations": {
                                 "en": "A faint glimmer of hope finally <w>appears</w> in his tired eyes.",
-                                "ru": "Слабый проблеск надежды наконец <w>появился</w> в его усталом взгляде.",
+                                "ru": "Слабый проблеск надежды наконец <w>брезжит</w> в его усталом взгляде.",
                                 "nl": "Een zwak sprankje hoop <w>gloort</w> eindelijk in zijn vermoeide blik.",
-                                "de": "In seinem müden Blick <w>zeigt sich</w> endlich ein schwacher Hoffnungsschimmer.",
+                                "de": "In seinem müden Blick <w>keimt</w> endlich ein schwacher Hoffnungsschimmer <w>auf</w>.",
                                 "pl": "W jego zmęczonym spojrzeniu wreszcie <w>pojawia się</w> słaba iskierka nadziei.",
                                 "it": "Nel suo sguardo stanco <w>spunta</w> finalmente un debole barlume di speranza.",
                                 "cs": "V jeho unaveném pohledu se konečně <w>objevil</w> slabý záblesk naděje.",
@@ -1571,13 +1611,13 @@
                         "en": "Third-person singular present indicative form of the verb poindre, meaning to dawn or appear.",
                         "ru": "Форма третьего лица единственного числа настоящего времени глагола, означающего появляться или брезжить.",
                         "nl": "Vervoegde vorm van het Franse werkwoord 'poindre' in de derde persoon enkelvoud, tegenwoordige tijd, met de betekenis 'aanbreken' of 'verschijnen'.",
-                        "de": "Beginnt sichtbar zu werden, etwa wenn der Tag oder ein schwaches Licht erscheint.",
+                        "de": "Dritte Person Singular Präsens Indikativ des französischen Verbs „poindre“: beginnt sichtbar zu werden, bricht an.",
                         "pl": "Zaczyna się pojawiać, zwłaszcza o świcie lub przy słabym świetle.",
                         "it": "Terza persona singolare del presente indicativo del verbo «poindre», che significa spuntare o albeggiare.",
                         "cs": "Začíná být vidět, zejména o úsvitu nebo při slabém světle.",
-                        "tr": "poindre fiilinin üçüncü tekil şahıs şimdiki zaman biçimi; gün ağarmak ya da ışık belirmek anlamında.",
+                        "tr": "Poindre fiilinin üçüncü tekil şahıs şimdiki zaman biçimi; gün ağarmak ya da ışık belirmek anlamında.",
                         "es": "Forma de tercera persona del singular del presente del verbo «poindre», que indica que algo empieza a aparecer, como la luz del día.",
-                        "zh": "开始显现，多指天色渐亮或微光初现。"
+                        "zh": "动词 poindre 的直陈式现在时第三人称单数形式，意为开始显现，多指天色渐亮或微光初现。"
                     },
                     "translations": {
                         "en": [
@@ -1709,7 +1749,7 @@
                                 "it": "Un'angoscia improvvisa lo aveva <w>assalito</w> nel mezzo della notte.",
                                 "cs": "Uprostřed noci ho náhle <w>zachvátila</w> úzkost.",
                                 "tr": "Gecenin ortasında ani bir kaygı onu <w>sarmıştı</w>.",
-                                "es": "Una angustia repentina lo <w>había invadido</w> en plena noche.",
+                                "es": "Una angustia repentina lo había <w>invadido</w> en plena noche.",
                                 "zh": "深夜里，一阵突如其来的焦虑<w>笼罩</w>了他。"
                             }
                         },
@@ -1724,7 +1764,7 @@
                                 "it": "Quella strana sensazione che lo aveva <w>colto</w> all'improvviso si è presto dissipata.",
                                 "cs": "Ten podivný pocit, který ho najednou <w>zachvátil</w>, se brzy rozplynul.",
                                 "tr": "Birden onu <w>saran</w> bu garip duygu çabuk dağıldı.",
-                                "es": "Aquella extraña sensación que lo <w>había sobrecogido</w> de repente se disipó enseguida.",
+                                "es": "Aquella extraña sensación que lo había <w>sobrecogido</w> de repente se disipó enseguida.",
                                 "zh": "那种奇怪的感觉突然<w>袭上心头</w>，很快就消散了。"
                             }
                         }
@@ -1733,13 +1773,13 @@
                         "en": "Masculine singular past participle of the verb poindre, meaning to pierce or seize.",
                         "ru": "Причастие прошедшего времени мужского рода единственного числа глагола, означающего пронзить или внезапно охватить.",
                         "nl": "Voltooid deelwoord, mannelijk enkelvoud, van het Franse werkwoord 'poindre' met de betekenis 'plotseling overvallen' of 'doorboren'.",
-                        "de": "Plötzlich von einem Gefühl oder Schmerz erfasst, etwa von Angst.",
+                        "de": "Partizip Perfekt Maskulinum Singular des französischen Verbs „poindre“, hier: von einem Gefühl oder Schmerz plötzlich erfasst.",
                         "pl": "Nagle opanował kogoś, zwłaszcza strach lub silne uczucie.",
                         "it": "Forma del participio passato maschile singolare del verbo «poindre», che significa assalire o colpire all'improvviso.",
                         "cs": "Náhle zachvátit někoho, zejména strach nebo silný pocit.",
-                        "tr": "poindre fiilinin geçmiş zaman ortacı; birdenbire bir duygunun insanı sarması anlamında.",
+                        "tr": "Poindre fiilinin geçmiş zaman ortacı; birdenbire bir duygunun insanı sarması anlamında.",
                         "es": "Forma del participio pasado masculino singular del verbo «poindre», que indica que un sentimiento repentino se apoderó de alguien.",
-                        "zh": "突然袭来并控制住某人的强烈情绪或感受。"
+                        "zh": "动词 poindre 的阳性单数过去分词，意为（强烈情绪）突然袭来、刺痛某人。"
                     },
                     "translations": {
                         "en": [

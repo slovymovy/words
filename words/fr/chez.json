@@ -17,7 +17,7 @@
                         {
                             "text": "Ce soir, nous dînons <w>chez</w> des amis dans le centre-ville.",
                             "target_lang_translations": {
-                                "en": "Tonight we're having dinner <w>at the home of</w> friends in the city centre.",
+                                "en": "Tonight we're having dinner <w>at</w> some friends' house in the city centre.",
                                 "ru": "Сегодня вечером мы ужинаем <w>у</w> друзей в центре города.",
                                 "nl": "Vanavond eten we <w>bij</w> vrienden in het stadscentrum.",
                                 "de": "Heute Abend essen wir <w>bei</w> Freunden in der Innenstadt.",
@@ -39,9 +39,9 @@
                                 "pl": "Jutro rano koniecznie muszę wpaść <w>do</w> lekarza.",
                                 "it": "Domani mattina devo assolutamente passare <w>dal</w> medico.",
                                 "cs": "Zítra ráno se určitě musím zastavit <w>u</w> lékaře.",
-                                "tr": "Yarın sabah mutlaka doktorun <w>muayenehanesine</w> uğramam gerekiyor.",
+                                "tr": "Yarın sabah mutlaka doktor<w>a</w> uğramam gerekiyor.",
                                 "es": "Mañana por la mañana tengo que pasar sin falta <w>por el consultorio del</w> médico.",
-                                "zh": "明天早上我一定要<w>在</w>医生<w>那儿</w>停一下。"
+                                "zh": "明天早上我一定要去医生<w>那儿</w>一趟。"
                             }
                         }
                     ],
@@ -65,22 +65,26 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "at the home of",
-                                "target_lang_sense_clarification": "visiting someone's house"
+                                "target_lang_word": "at",
+                                "target_lang_sense_clarification": "someone's home or workplace, as in 'at the doctor's'"
                             },
                             {
-                                "target_lang_word": "at the office of",
-                                "target_lang_sense_clarification": "a professional's workplace or practice"
+                                "target_lang_word": "at the home of",
+                                "target_lang_sense_clarification": "visiting someone's house"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "у",
-                                "target_lang_sense_clarification": "дом знакомых или родственников"
+                                "target_lang_sense_clarification": "дома или на работе у кого-либо"
+                            },
+                            {
+                                "target_lang_word": "к",
+                                "target_lang_sense_clarification": "направление: к врачу, к друзьям"
                             },
                             {
                                 "target_lang_word": "в гостях у",
-                                "target_lang_sense_clarification": "неформальный визит, приглашение"
+                                "target_lang_sense_clarification": "неформальный визит"
                             }
                         ],
                         "nl": [
@@ -106,11 +110,11 @@
                         "pl": [
                             {
                                 "target_lang_word": "u",
-                                "target_lang_sense_clarification": "w domu znajomych"
+                                "target_lang_sense_clarification": "w czyimś domu lub miejscu pracy"
                             },
                             {
-                                "target_lang_word": "w gabinecie",
-                                "target_lang_sense_clarification": "gabinet lekarski lub biuro"
+                                "target_lang_word": "do",
+                                "target_lang_sense_clarification": "z ruchem: do lekarza, do znajomych"
                             }
                         ],
                         "it": [
@@ -130,21 +134,21 @@
                         "cs": [
                             {
                                 "target_lang_word": "u",
-                                "target_lang_sense_clarification": "návštěva známých nebo příbuzných"
+                                "target_lang_sense_clarification": "doma nebo na pracovišti někoho"
                             },
                             {
-                                "target_lang_word": "v ordinaci",
-                                "target_lang_sense_clarification": "ordinace lékaře nebo advokáta"
+                                "target_lang_word": "k",
+                                "target_lang_sense_clarification": "směr: jít k někomu"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "evinde",
-                                "target_lang_sense_clarification": "ziyaret edilen kişinin evi"
+                                "target_lang_sense_clarification": "birinin evinde, yanında"
                             },
                             {
-                                "target_lang_word": "muayenehanesinde",
-                                "target_lang_sense_clarification": "doktor ya da avukatın iş yeri"
+                                "target_lang_word": "-e / -a",
+                                "target_lang_sense_clarification": "birine gitmek: doktora"
                             }
                         ],
                         "es": [
@@ -206,7 +210,7 @@
                                 "pl": "Takie ochronne zachowanie często obserwuje się <w>u</w> dzikich zwierząt.",
                                 "it": "Questo comportamento protettivo si osserva spesso <w>tra</w> gli animali selvatici.",
                                 "cs": "Takové ochranné chování se často pozoruje <w>u</w> volně žijících zvířat.",
-                                "tr": "Bu koruyucu davranış vahşi <w>hayvanlarda</w> sıkça gözlemlenir.",
+                                "tr": "Bu koruyucu davranış vahşi hayvanlar<w>da</w> sıkça gözlemlenir.",
                                 "es": "Este comportamiento protector se observa a menudo <w>en</w> los animales salvajes.",
                                 "zh": "人们经常在野生动物<w>之中</w>观察到这种保护性行为。"
                             }
@@ -309,8 +313,8 @@
                                 "target_lang_sense_clarification": "insan veya hayvan topluluğu içinde"
                             },
                             {
-                                "target_lang_word": "içinde",
-                                "target_lang_sense_clarification": "belirli bir tür veya kategoride"
+                                "target_lang_word": "-de / -da",
+                                "target_lang_sense_clarification": "bir canlı grubunda görülen"
                             }
                         ],
                         "es": [
@@ -353,7 +357,7 @@
                                 "pl": "Intelektualna ciekawość to godna uwagi cecha <w>u</w> tej nowej studentki.",
                                 "it": "La curiosità intellettuale è una qualità notevole <w>in</w> questa nuova studentessa.",
                                 "cs": "Intelektuální zvědavost je <w>u</w> této nové studentky pozoruhodnou vlastností.",
-                                "tr": "Entelektüel merak, bu yeni <w>öğrencide</w> dikkat çekici bir özelliktir.",
+                                "tr": "Entelektüel merak, bu yeni öğrenci<w>de</w> dikkat çekici bir özelliktir.",
                                 "es": "La curiosidad intelectual es una cualidad notable <w>en</w> esta nueva estudiante.",
                                 "zh": "求知欲是这位新来的女学生<w>身上</w>一项十分突出的品质。"
                             }
@@ -366,24 +370,24 @@
                                 "nl": "<w>Bij</w> hem is het een diepgewortelde gewoonte geworden om bij zonsopgang op te staan.",
                                 "de": "<w>Bei</w> ihm ist es zu einer tief verwurzelten Gewohnheit geworden, schon im Morgengrauen aufzustehen.",
                                 "pl": "<w>U</w> niego wstawanie o świcie stało się mocno zakorzenionym nawykiem.",
-                                "it": "Ormai si è radicata <w>in lui</w> l'abitudine di alzarsi all'alba.",
+                                "it": "Ormai si è radicata <w>in</w> lui l'abitudine di alzarsi all'alba.",
                                 "cs": "<w>U</w> něj se už dávno vžil zvyk vstávat za úsvitu.",
-                                "tr": "Şafakta kalkmak <w>onda</w> köklü bir alışkanlık hâline geldi.",
-                                "es": "Es ya una costumbre muy arraigada <w>en él</w> levantarse al alba.",
+                                "tr": "Şafakta kalkmak on<w>da</w> köklü bir alışkanlık hâline geldi.",
+                                "es": "Es ya una costumbre muy arraigada <w>en</w> él levantarse al alba.",
                                 "zh": "他<w>身上</w>早就养成了天不亮就起床的习惯。"
                             }
                         }
                     ],
                     "target_lang_definitions": {
                         "en": "Within a particular person's character, mind or behaviour.",
-                        "ru": "Особенность характера, ума или поведения конкретного человека.",
+                        "ru": "В характере, уме или поведении конкретного человека.",
                         "nl": "Kenmerkend voor het karakter, de geest of het gedrag van een bepaald persoon.",
-                        "de": "Eine typische Eigenschaft, Gewohnheit oder Denkweise einer bestimmten Person.",
+                        "de": "Im Charakter, im Denken oder im Verhalten einer bestimmten Person.",
                         "pl": "Cecha charakteru, sposób myślenia lub zachowania konkretnej osoby.",
                         "it": "Nel carattere, nel modo di pensare o nel comportamento tipico di un individuo.",
                         "cs": "Vlastnost, způsob myšlení nebo zvyk konkrétního člověka.",
                         "tr": "Bir kişinin karakterinde, düşünce tarzında veya davranışında görülen özellik.",
-                        "es": "Rasgo propio del carácter, la mente o la conducta de una persona concreta.",
+                        "es": "En el carácter, la mente o la conducta propios de una persona.",
                         "zh": "表示某种品质、习惯或思维方式属于某个人。"
                     },
                     "translations": {
@@ -451,20 +455,12 @@
                             {
                                 "target_lang_word": "u",
                                 "target_lang_sense_clarification": "vlastnost nebo zvyk člověka"
-                            },
-                            {
-                                "target_lang_word": "vlastní",
-                                "target_lang_sense_clarification": "charakteristické rysy osobnosti"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "onda",
-                                "target_lang_sense_clarification": "kişinin huyu veya özelliği"
-                            },
-                            {
-                                "target_lang_word": "özgü",
-                                "target_lang_sense_clarification": "kişiye ait karakteristik özellik"
+                                "target_lang_word": "-de / -da",
+                                "target_lang_sense_clarification": "bir kişide görülen huy, özellik"
                             }
                         ],
                         "es": [
@@ -511,12 +507,12 @@
                         {
                             "text": "Cette recette au fromage est une spécialité typique bien de <w>chez</w> nous.",
                             "target_lang_translations": {
-                                "en": "This cheese recipe is a classic speciality, truly <w>from our part of the country</w>.",
+                                "en": "This cheese recipe is a classic speciality from <w>back home</w>.",
                                 "ru": "Этот рецепт с сыром — традиционное блюдо <w>из наших мест</w>.",
                                 "nl": "Dit kaasrecept is een typische specialiteit die echt <w>uit onze streek</w> komt.",
-                                "de": "Dieses Käserezept ist eine typische Spezialität, wie sie <w>bei uns</w> üblich ist.",
+                                "de": "Dieses Käserezept ist eine typische Spezialität, wie sie <w>bei</w> uns üblich ist.",
                                 "pl": "Ten serowy przepis to typowa specjalność naprawdę <w>z naszych stron</w>.",
-                                "it": "Questa ricetta al formaggio è una specialità tipica davvero <w>di casa nostra</w>.",
+                                "it": "Questa ricetta al formaggio è una specialità tipica davvero di <w>casa</w> nostra.",
                                 "cs": "Tento sýrový recept je typická specialita, opravdu <w>z našich končin</w>.",
                                 "tr": "Bu peynirli tarif, gerçekten <w>yöremizden</w> tipik bir lezzet.",
                                 "es": "Esta receta de queso es una especialidad típica, realmente <w>de por aquí</w>.",
@@ -552,32 +548,44 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "на родине",
-                                "target_lang_sense_clarification": "страна, где человек вырос"
+                                "target_lang_word": "домой",
+                                "target_lang_sense_clarification": "о возвращении в родные края"
                             },
                             {
-                                "target_lang_word": "в родных краях",
-                                "target_lang_sense_clarification": "родной город или регион"
+                                "target_lang_word": "на родине",
+                                "target_lang_sense_clarification": "в своей стране"
+                            },
+                            {
+                                "target_lang_word": "из наших мест",
+                                "target_lang_sense_clarification": "о местном, родном"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "thuis",
-                                "target_lang_sense_clarification": "naar het geboorteland terugkeren"
+                                "target_lang_sense_clarification": "in eigen land of streek"
                             },
                             {
-                                "target_lang_word": "streekeigen",
-                                "target_lang_sense_clarification": "typisch voor de eigen regio"
+                                "target_lang_word": "naar huis",
+                                "target_lang_sense_clarification": "terug naar eigen land of streek"
+                            },
+                            {
+                                "target_lang_word": "bij ons",
+                                "target_lang_sense_clarification": "in onze streek of ons land"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Heimat",
-                                "target_lang_sense_clarification": "Herkunftsland oder Geburtsregion"
+                                "target_lang_word": "bei",
+                                "target_lang_sense_clarification": "in der Heimat von jemandem, z. B. bei uns"
                             },
                             {
-                                "target_lang_word": "Zuhause",
-                                "target_lang_sense_clarification": "gewohnter Wohnort"
+                                "target_lang_word": "zu Hause",
+                                "target_lang_sense_clarification": "am eigenen Wohnort, in der Heimat"
+                            },
+                            {
+                                "target_lang_word": "nach Hause",
+                                "target_lang_sense_clarification": "zurück an den Wohnort, in die Heimat"
                             }
                         ],
                         "pl": [
@@ -672,7 +680,7 @@
                         {
                             "text": "On retrouve cette utilisation audacieuse des couleurs vives <w>chez</w> plusieurs peintres impressionnistes.",
                             "target_lang_translations": {
-                                "en": "This bold use of vivid colours can be found <w>among</w> several Impressionist painters.",
+                                "en": "This bold use of vivid colours can be found <w>in the work of</w> several Impressionist painters.",
                                 "ru": "Такое смелое использование ярких красок встречается <w>у</w> нескольких художников-импрессионистов.",
                                 "nl": "Dit gedurfde gebruik van felle kleuren komt <w>bij</w> meerdere impressionistische schilders voor.",
                                 "de": "Diese gewagte Verwendung leuchtender Farben findet sich <w>bei</w> mehreren impressionistischen Malern.",
@@ -863,16 +871,66 @@
                         "zh": "意大利阿奥斯塔谷大区比奥纳兹市镇下的一个小村落。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
-                        "zh": []
+                        "en": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "hamlet in Bionaz, Aosta Valley, Italy"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Шез",
+                                "target_lang_sense_clarification": "деревня в Валле-д'Аосте, Италия"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "gehucht in Bionaz, Valle d'Aosta"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "Weiler in Bionaz im Aostatal"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "przysiółek w Dolinie Aosty"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "frazione di Bionaz, in Valle d'Aosta"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "osada v obci Bionaz v Itálii"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "Aosta Vadisi'nde bir köy"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Chez",
+                                "target_lang_sense_clarification": "aldea de Bionaz, en el Valle de Aosta"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "舍",
+                                "target_lang_sense_clarification": "意大利比奥纳兹的小村落"
+                            }
+                        ]
                     }
                 }
             ]

@@ -19,7 +19,7 @@
                             "text": "À <w>quelle</w> heure commence votre réunion ce matin ?",
                             "target_lang_translations": {
                                 "en": "At <w>what</w> time does your meeting start this morning?",
-                                "ru": "<w>Во сколько</w> начинается ваше совещание сегодня утром?",
+                                "ru": "В <w>котором</w> часу начинается ваше совещание сегодня утром?",
                                 "nl": "<w>Hoe laat</w> begint uw vergadering vanmorgen?",
                                 "de": "Um <w>welche</w> Uhrzeit beginnt Ihre Besprechung heute Morgen?",
                                 "pl": "O <w>której</w> godzinie zaczyna się Pana spotkanie dziś rano?",
@@ -27,7 +27,7 @@
                                 "cs": "V <w>kolik</w> hodin začíná vaše schůzka dnes ráno?",
                                 "tr": "Bu sabah toplantınız saat <w>kaçta</w> başlıyor?",
                                 "es": "¿A <w>qué</w> hora empieza su reunión esta mañana?",
-                                "zh": "您今天早上的会议要在<w>哪个</w>时间开始？"
+                                "zh": "您今天早上的会议<w>什么</w>时候开始？"
                             }
                         },
                         {
@@ -41,7 +41,7 @@
                                 "it": "<w>Quale</w> libro preferisci leggere durante le vacanze?",
                                 "cs": "<w>Kterou</w> knihu nejraději čteš o prázdninách?",
                                 "tr": "Tatilde <w>hangi</w> kitabı okumayı tercih edersin?",
-                                "es": "<w>Qué</w> libro prefieres leer durante las vacaciones?",
+                                "es": "¿<w>Qué</w> libro prefieres leer durante las vacaciones?",
                                 "zh": "假期里你最想读<w>哪一</w>本书？"
                             }
                         }
@@ -139,12 +139,16 @@
                             {
                                 "target_lang_word": "hangi",
                                 "target_lang_sense_clarification": "isimden önce, seçim sorusu"
+                            },
+                            {
+                                "target_lang_word": "kaç",
+                                "target_lang_sense_clarification": "saat ve sayı sorarken: saat kaçta"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "qué",
-                                "target_lang_sense_clarification": "antes de un sustantivo"
+                                "target_lang_sense_clarification": "pregunta, ante un sustantivo"
                             }
                         ],
                         "zh": [
@@ -155,6 +159,10 @@
                             {
                                 "target_lang_word": "哪一",
                                 "target_lang_sense_clarification": "后接量词，表示从中选择"
+                            },
+                            {
+                                "target_lang_word": "什么",
+                                "target_lang_sense_clarification": "询问时间、种类等"
                             }
                         ]
                     }
@@ -179,7 +187,7 @@
                                 "cs": "<w>Co za</w> překvapení potkat vás tady náhodou!",
                                 "tr": "Sizinle burada tesadüfen karşılaşmak <w>ne</w> büyük bir sürpriz!",
                                 "es": "¡<w>Qué</w> sorpresa verle aquí por casualidad!",
-                                "zh": "能在这里偶然遇见您，真是<w>多么</w>让人惊喜的事啊！"
+                                "zh": "能在这里偶然遇见您，<w>多么</w>让人惊喜啊！"
                             }
                         },
                         {
@@ -188,7 +196,7 @@
                                 "en": "<w>What</w> a magnificent sunset we have tonight!",
                                 "ru": "<w>Какой</w> великолепный закат у нас сегодня вечером!",
                                 "nl": "<w>Wat een</w> prachtige zonsondergang hebben we vanavond!",
-                                "de": "<w>Was für ein</w> prächtiger Sonnenuntergang haben wir heute Abend!",
+                                "de": "<w>Was für einen</w> prächtigen Sonnenuntergang wir heute Abend haben!",
                                 "pl": "<w>Jaki</w> wspaniały zachód słońca mamy dziś wieczorem!",
                                 "it": "<w>Che</w> magnifico tramonto abbiamo stasera!",
                                 "cs": "<w>Jaký</w> nádherný západ slunce máme dnes večer!",
@@ -337,13 +345,13 @@
                                 "en": "<w>What</w> is your phone number, please?",
                                 "ru": "<w>Какой</w> у вас номер телефона, пожалуйста?",
                                 "nl": "<w>Wat</w> is uw telefoonnummer, alstublieft?",
-                                "de": "<w>Was</w> ist Ihre Telefonnummer, bitte?",
+                                "de": "<w>Wie</w> lautet Ihre Telefonnummer, bitte?",
                                 "pl": "<w>Jaki</w> jest Pana numer telefonu, proszę?",
-                                "it": "<w>Qual è</w> il suo numero di telefono, per favore?",
+                                "it": "<w>Qual</w> è il suo numero di telefono, per favore?",
                                 "cs": "<w>Jaké</w> je vaše telefonní číslo, prosím?",
                                 "tr": "Telefon numaranız <w>nedir</w>, lütfen?",
-                                "es": "¿<w>Cuál es</w> su número de teléfono, por favor?",
-                                "zh": "请问您的电话号码是多少？"
+                                "es": "¿<w>Cuál</w> es su número de teléfono, por favor?",
+                                "zh": "请问您的电话号码是<w>多少</w>？"
                             }
                         },
                         {
@@ -354,10 +362,10 @@
                                 "nl": "<w>Wat</w> is de beste oplossing om dit probleem op te lossen?",
                                 "de": "<w>Was</w> ist die beste Lösung, um dieses Problem zu lösen?",
                                 "pl": "<w>Jakie</w> jest najlepsze rozwiązanie tego problemu?",
-                                "it": "<w>Qual è</w> la soluzione migliore per risolvere questo problema?",
+                                "it": "<w>Qual</w> è la soluzione migliore per risolvere questo problema?",
                                 "cs": "<w>Jaké</w> je nejlepší řešení tohoto problému?",
                                 "tr": "Bu sorunu çözmek için en iyi çözüm <w>nedir</w>?",
-                                "es": "¿<w>Cuál es</w> la mejor solución para resolver este problema?",
+                                "es": "¿<w>Cuál</w> es la mejor solución para resolver este problema?",
                                 "zh": "<w>什么</w>是解决这个问题的最佳方案？"
                             }
                         }
@@ -405,6 +413,10 @@
                             {
                                 "target_lang_word": "welcher",
                                 "target_lang_sense_clarification": "Auswahl unter mehreren Dingen"
+                            },
+                            {
+                                "target_lang_word": "wie",
+                                "target_lang_sense_clarification": "bei Name, Nummer, Adresse"
                             }
                         ],
                         "pl": [
@@ -461,6 +473,10 @@
                             {
                                 "target_lang_word": "哪个",
                                 "target_lang_sense_clarification": "从几项中选定一个"
+                            },
+                            {
+                                "target_lang_word": "多少",
+                                "target_lang_sense_clarification": "询问号码、数量或价格"
                             }
                         ]
                     }
@@ -522,14 +538,54 @@
                         "zh": "西班牙拉里奥哈省的一个小村庄。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
+                        "en": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "town in La Rioja, Spain"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Кель",
+                                "target_lang_sense_clarification": "муниципалитет в Ла-Риохе, Испания"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "Spaanse gemeente in La Rioja"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "Gemeinde in La Rioja, Spanien"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "miejscowość w Hiszpanii"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "comune spagnolo della Rioja"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "obec ve španělské La Rioji"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Quel",
+                                "target_lang_sense_clarification": "İspanya'da, La Rioja'da belediye"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "Quel",

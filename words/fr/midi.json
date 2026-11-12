@@ -33,15 +33,15 @@
                         {
                             "text": "Il est déjà <w>midi</w> et quart, il faut se dépêcher.",
                             "target_lang_translations": {
-                                "en": "It's already <w>quarter past twelve</w>, we have to hurry.",
+                                "en": "It's already quarter past <w>twelve</w>, we have to hurry.",
                                 "ru": "Уже <w>двенадцать пятнадцать</w>, надо поторопиться.",
-                                "nl": "Het is al <w>kwart over twaalf</w>, we moeten opschieten.",
-                                "de": "Es ist schon <w>Viertel nach zwölf</w>, wir müssen uns beeilen.",
-                                "pl": "Jest już <w>kwadrans po dwunastej</w>, trzeba się pośpieszyć.",
-                                "it": "Sono già le <w>dodici e un quarto</w>, dobbiamo sbrigarci.",
-                                "cs": "Je už <w>čtvrt po dvanácté</w>, musíme se pospíšit.",
-                                "tr": "Saat çoktan <w>on ikiyi çeyrek geçiyor</w>, acele etmeliyiz.",
-                                "es": "Ya son las <w>doce y cuarto</w>, tenemos que darnos prisa.",
+                                "nl": "Het is al kwart over <w>twaalf</w>, we moeten opschieten.",
+                                "de": "Es ist schon Viertel nach <w>zwölf</w>, wir müssen uns beeilen.",
+                                "pl": "Jest już kwadrans po <w>dwunastej</w>, trzeba się pośpieszyć.",
+                                "it": "È già <w>mezzogiorno</w> e un quarto, dobbiamo sbrigarci.",
+                                "cs": "Je už čtvrt po <w>dvanácté</w>, musíme si pospíšit.",
+                                "tr": "Saat çoktan <w>on ikiyi</w> çeyrek geçiyor, acele etmeliyiz.",
+                                "es": "Ya son las <w>doce</w> y cuarto, tenemos que darnos prisa.",
                                 "zh": "已经<w>中午</w>十二点一刻了，得快点儿。"
                             }
                         }
@@ -72,6 +72,10 @@
                             {
                                 "target_lang_word": "midday",
                                 "target_lang_sense_clarification": "as in 'at midday'"
+                            },
+                            {
+                                "target_lang_word": "twelve",
+                                "target_lang_sense_clarification": "in clock times, as in 'quarter past twelve'"
                             }
                         ],
                         "ru": [
@@ -141,11 +145,15 @@
                         "tr": [
                             {
                                 "target_lang_word": "öğle",
-                                "target_lang_sense_clarification": "saat on iki civarı"
+                                "target_lang_sense_clarification": "günün ortası"
                             },
                             {
                                 "target_lang_word": "öğle vakti",
                                 "target_lang_sense_clarification": "belirli saat, 'öğle vaktinde'"
+                            },
+                            {
+                                "target_lang_word": "saat on iki",
+                                "target_lang_sense_clarification": "saat söylerken, gündüz 12.00"
                             }
                         ],
                         "es": [
@@ -197,14 +205,14 @@
                             "text": "Les collègues se réunissent souvent pendant la pause de <w>midi</w>.",
                             "target_lang_translations": {
                                 "en": "Colleagues often meet during the <w>lunch</w> break.",
-                                "ru": "Коллеги часто встречаются во время <w>обеденного перерыва</w>.",
+                                "ru": "Коллеги часто встречаются во время <w>обеденного</w> перерыва.",
                                 "nl": "Collega's komen tijdens de <w>lunchpauze</w> vaak bij elkaar.",
                                 "de": "Kollegen treffen sich während der <w>Mittagspause</w> oft.",
-                                "pl": "Współpracownicy często spotykają się podczas <w>przerwy obiadowej</w>.",
-                                "it": "I colleghi si ritrovano spesso durante la <w>pausa pranzo</w>.",
+                                "pl": "Współpracownicy często spotykają się podczas przerwy <w>obiadowej</w>.",
+                                "it": "I colleghi si ritrovano spesso durante la pausa <w>pranzo</w>.",
                                 "cs": "Kolegové se během <w>polední</w> pauzy často scházejí.",
-                                "tr": "Meslektaşlar sık sık <w>öğle arasında</w> bir araya gelir.",
-                                "es": "Los compañeros de trabajo se reúnen a menudo durante la <w>pausa para comer</w>.",
+                                "tr": "Meslektaşlar sık sık <w>öğle</w> arasında bir araya gelir.",
+                                "es": "Los compañeros de trabajo se reúnen a menudo durante la pausa de la <w>comida</w>.",
                                 "zh": "同事们经常在<w>午饭</w>后的休息时间聚在一起。"
                             }
                         }
@@ -291,7 +299,11 @@
                         "tr": [
                             {
                                 "target_lang_word": "öğle yemeği",
-                                "target_lang_sense_clarification": "'öğle yemeğine çıkmak' gibi kullanım"
+                                "target_lang_sense_clarification": "gün ortasında yenen öğün"
+                            },
+                            {
+                                "target_lang_word": "öğle",
+                                "target_lang_sense_clarification": "'öğle arası' gibi kalıplarda"
                             }
                         ],
                         "es": [
@@ -470,7 +482,7 @@
                                 "pl": "To jasne mieszkanie ma pełną <w>ekspozycję południową</w>.",
                                 "it": "Questo luminoso appartamento è esposto interamente a <w>sud</w>.",
                                 "cs": "Tento světlý byt je celý orientovaný na <w>jih</w>.",
-                                "tr": "Bu aydınlık daire tamamen <w>güneye bakıyor</w>.",
+                                "tr": "Bu aydınlık daire tamamen <w>güneye</w> bakıyor.",
                                 "es": "Este piso luminoso tiene la fachada totalmente orientada al <w>sur</w>.",
                                 "zh": "这套明亮的公寓是<w>南向</w>户型，采光非常好。"
                             }
@@ -484,8 +496,8 @@
                                 "de": "Pflanzen gedeihen auf einer Terrasse mit <w>Südausrichtung</w> problemlos.",
                                 "pl": "Rośliny łatwo rozkwitają na tarasie o <w>południowej ekspozycji</w>.",
                                 "it": "Le piante crescono facilmente su una terrazza esposta a <w>sud</w>.",
-                                "cs": "Rostliny se na terase orientované na <w>jih</w> snadno daří.",
-                                "tr": "Bitkiler <w>güneye bakan</w> bir terasta kolayca gelişir.",
+                                "cs": "Rostlinám se na terase orientované na <w>jih</w> dobře daří.",
+                                "tr": "Bitkiler <w>güneye</w> bakan bir terasta kolayca gelişir.",
                                 "es": "Las plantas crecen con facilidad en una terraza orientada al <w>sur</w>.",
                                 "zh": "在<w>南向</w>的露台上，植物很容易生长。"
                             }
@@ -519,8 +531,8 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "южная экспозиция",
-                                "target_lang_sense_clarification": "о расположении окон в недвижимости"
+                                "target_lang_word": "юг",
+                                "target_lang_sense_clarification": "сторона, куда выходят окна"
                             },
                             {
                                 "target_lang_word": "солнечная сторона",
@@ -559,31 +571,39 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "esposizione a sud",
-                                "target_lang_sense_clarification": "edilizia, es. 'appartamento esposto a sud'"
+                                "target_lang_word": "sud",
+                                "target_lang_sense_clarification": "esposizione di casa o stanza, es. esposto a sud"
                             },
                             {
-                                "target_lang_word": "esposizione meridionale",
-                                "target_lang_sense_clarification": "linguaggio tecnico-immobiliare"
+                                "target_lang_word": "esposizione a sud",
+                                "target_lang_sense_clarification": "orientamento di un edificio"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "orientace na jih",
-                                "target_lang_sense_clarification": "nemovitosti, okna orientovaná na slunce"
+                                "target_lang_word": "jih",
+                                "target_lang_sense_clarification": "orientace místnosti nebo domu ke slunci"
                             },
                             {
-                                "target_lang_word": "slunná strana",
-                                "target_lang_sense_clarification": "o straně domu se sluncem"
+                                "target_lang_word": "jižní strana",
+                                "target_lang_sense_clarification": "strana domu obrácená ke slunci"
                             }
                         ],
                         "tr": [
+                            {
+                                "target_lang_word": "güney",
+                                "target_lang_sense_clarification": "binanın veya odanın baktığı yön"
+                            },
                             {
                                 "target_lang_word": "güney cephe",
                                 "target_lang_sense_clarification": "emlak, bina yönü"
                             }
                         ],
                         "es": [
+                            {
+                                "target_lang_word": "sur",
+                                "target_lang_sense_clarification": "orientación soleada de una vivienda"
+                            },
                             {
                                 "target_lang_word": "orientación al sur",
                                 "target_lang_sense_clarification": "viviendas y terrenos"
@@ -937,7 +957,7 @@
                                 "cs": "Klávesy připojil k počítači přes <w>MIDI</w> port.",
                                 "tr": "Klavyesini <w>MIDI</w> girişi üzerinden bilgisayara bağladı.",
                                 "es": "Conectó su teclado al ordenador mediante una entrada <w>MIDI</w>.",
-                                "zh": "他用一个<w>乐器数字接口</w>把电子琴连到了电脑上。"
+                                "zh": "他通过一个<w>MIDI</w>接口把电子琴连到了电脑上。"
                             }
                         },
                         {
@@ -952,7 +972,7 @@
                                 "cs": "Tento software umožňuje snadno nahrávat a upravovat <w>MIDI</w> stopy.",
                                 "tr": "Bu yazılım <w>MIDI</w> parçalarını kolayca kaydetmenize ve düzenlemenize olanak tanıyor.",
                                 "es": "Este programa permite grabar y editar pistas <w>MIDI</w> fácilmente.",
-                                "zh": "这款软件能轻松录制和编辑<w>乐器数字接口</w>格式的音轨。"
+                                "zh": "这款软件能轻松录制和编辑<w>MIDI</w>音轨。"
                             }
                         }
                     ],
@@ -1041,8 +1061,12 @@
                         ],
                         "zh": [
                             {
+                                "target_lang_word": "MIDI",
+                                "target_lang_sense_clarification": "音乐技术标准的通用叫法"
+                            },
+                            {
                                 "target_lang_word": "乐器数字接口",
-                                "target_lang_sense_clarification": "音乐技术专用名称"
+                                "target_lang_sense_clarification": "MIDI的中文全称"
                             }
                         ]
                     }

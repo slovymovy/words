@@ -199,14 +199,14 @@
                         {
                             "text": "La banque a accepté sa demande de <w>prêt</w> immobilier.",
                             "target_lang_translations": {
-                                "en": "The bank approved his application for a <w>mortgage</w>.",
-                                "ru": "Банк одобрил его заявку на <w>ипотеку</w>.",
-                                "nl": "De bank heeft zijn aanvraag voor een <w>hypotheek</w> goedgekeurd.",
+                                "en": "The bank approved his application for a home <w>loan</w>.",
+                                "ru": "Банк одобрил его заявку на ипотечный <w>кредит</w>.",
+                                "nl": "De bank heeft zijn aanvraag voor een hypothecaire <w>lening</w> goedgekeurd.",
                                 "de": "Die Bank hat seinen Antrag auf einen <w>Immobilienkredit</w> genehmigt.",
-                                "pl": "Bank zaakceptował jego wniosek o <w>kredyt hipoteczny</w>.",
+                                "pl": "Bank zaakceptował jego wniosek o <w>kredyt</w> hipoteczny.",
                                 "it": "La banca ha accettato la sua richiesta di <w>mutuo</w>.",
-                                "cs": "Banka schválila jeho žádost o <w>hypoteční úvěr</w>.",
-                                "tr": "Banka, onun <w>konut kredisi</w> başvurusunu kabul etti.",
+                                "cs": "Banka schválila jeho žádost o hypoteční <w>úvěr</w>.",
+                                "tr": "Banka, onun konut <w>kredisi</w> başvurusunu kabul etti.",
                                 "es": "El banco aceptó su solicitud de <w>préstamo</w> hipotecario.",
                                 "zh": "银行批准了他的购房<w>贷款</w>申请。"
                             }
@@ -223,7 +223,7 @@
                                 "cs": "Tahle kniha není dárek, je to jen dočasná <w>půjčka</w>.",
                                 "tr": "Bu kitap hediye değil, yalnızca geçici bir <w>ödünç</w>.",
                                 "es": "Este libro no es un regalo, es solo un <w>préstamo</w> temporal.",
-                                "zh": "这本书不是礼物，只是一次暂时的<w>借贷</w>。"
+                                "zh": "这本书不是礼物，只是暂时<w>出借</w>给你的。"
                             }
                         }
                     ],
@@ -259,12 +259,16 @@
                         ],
                         "ru": [
                             {
+                                "target_lang_word": "кредит",
+                                "target_lang_sense_clarification": "банковский: ипотечный кредит"
+                            },
+                            {
                                 "target_lang_word": "ссуда",
-                                "target_lang_sense_clarification": "финансовая операция"
+                                "target_lang_sense_clarification": "выдача денег или вещи на время"
                             },
                             {
                                 "target_lang_word": "заём",
-                                "target_lang_sense_clarification": "долговая операция"
+                                "target_lang_sense_clarification": "передача в долг"
                             }
                         ],
                         "nl": [
@@ -274,33 +278,41 @@
                             },
                             {
                                 "target_lang_word": "lening",
-                                "target_lang_sense_clarification": "bankzaken, financiële dienst"
+                                "target_lang_sense_clarification": "het uitlenen zelf, van geld of spullen"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Kreditvergabe",
-                                "target_lang_sense_clarification": "Bankwesen, Fachsprache"
+                                "target_lang_word": "Ausleihe",
+                                "target_lang_sense_clarification": "vorübergehendes Überlassen einer Sache"
                             },
                             {
-                                "target_lang_word": "Darlehensgewährung",
-                                "target_lang_sense_clarification": "formell, für Darlehensverträge"
+                                "target_lang_word": "Kreditvergabe",
+                                "target_lang_sense_clarification": "Bankwesen, Gewähren eines Kredits"
+                            },
+                            {
+                                "target_lang_word": "Verleih",
+                                "target_lang_sense_clarification": "das Verleihen von Sachen"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "pożyczka",
-                                "target_lang_sense_clarification": "bankowość, finanse"
+                                "target_lang_sense_clarification": "pożyczenie komuś pieniędzy lub rzeczy"
                             },
                             {
-                                "target_lang_word": "udzielanie pożyczek",
-                                "target_lang_sense_clarification": "czynność, nie sam przedmiot"
+                                "target_lang_word": "kredyt",
+                                "target_lang_sense_clarification": "bankowy, np. hipoteczny"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "prestito",
-                                "target_lang_sense_clarification": "operazione finanziaria"
+                                "target_lang_sense_clarification": "l'atto di prestare denaro o oggetti"
+                            },
+                            {
+                                "target_lang_word": "mutuo",
+                                "target_lang_sense_clarification": "prestito bancario per la casa"
                             },
                             {
                                 "target_lang_word": "finanziamento",
@@ -327,8 +339,12 @@
                                 "target_lang_sense_clarification": "eylem, para ve eşya için"
                             },
                             {
-                                "target_lang_word": "kredi verme",
-                                "target_lang_sense_clarification": "bankacılık, finansal işlem"
+                                "target_lang_word": "kredi",
+                                "target_lang_sense_clarification": "bankadan borç alma işlemi, ör. konut kredisi"
+                            },
+                            {
+                                "target_lang_word": "ödünç",
+                                "target_lang_sense_clarification": "geçici olarak verilen şey"
                             }
                         ],
                         "es": [
@@ -344,15 +360,15 @@
                         "zh": [
                             {
                                 "target_lang_word": "贷款",
-                                "target_lang_sense_clarification": "银行放贷业务"
+                                "target_lang_sense_clarification": "指银行放贷这一行为"
                             },
                             {
-                                "target_lang_word": "信贷",
-                                "target_lang_sense_clarification": "金融借贷业务"
+                                "target_lang_word": "出借",
+                                "target_lang_sense_clarification": "把钱物暂时借给别人"
                             },
                             {
                                 "target_lang_word": "借贷",
-                                "target_lang_sense_clarification": "借出钱物的行为"
+                                "target_lang_sense_clarification": "借出钱款的行为"
                             }
                         ]
                     }
@@ -434,7 +450,7 @@
                         "nl": [
                             {
                                 "target_lang_word": "lening",
-                                "target_lang_sense_clarification": "gangbaar, ook voor voorwerpen"
+                                "target_lang_sense_clarification": "het geleende bedrag of voorwerp"
                             },
                             {
                                 "target_lang_word": "geldlening",
@@ -512,7 +528,7 @@
                             },
                             {
                                 "target_lang_word": "贷款",
-                                "target_lang_sense_clarification": "银行发放的借款"
+                                "target_lang_sense_clarification": "指借到的那笔钱"
                             }
                         ]
                     }

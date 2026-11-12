@@ -20,13 +20,13 @@
                             "text": "Mon chat a des <w>poils</w> très doux et soyeux.",
                             "target_lang_translations": {
                                 "en": "My cat's <w>hair</w> is very soft and silky.",
-                                "ru": "У моей кошки очень мягкие и шелковистые <w>волоски</w>.",
+                                "ru": "У моей кошки очень мягкая и шелковистая <w>шерсть</w>.",
                                 "nl": "Mijn kat heeft heel zachte en zijdezachte <w>haren</w>.",
                                 "de": "Meine Katze hat sehr weiche und seidige <w>Haare</w>.",
                                 "pl": "Mój kot ma bardzo miękkie i jedwabiste <w>włosy</w>.",
                                 "it": "Il mio gatto ha il <w>pelo</w> molto morbido e setoso.",
                                 "cs": "Moje kočka má velmi měkké a hedvábné <w>chlupy</w>.",
-                                "tr": "Kedimin çok yumuşak ve ipeksi <w>kılları</w> var.",
+                                "tr": "Kedimin çok yumuşak ve ipeksi <w>tüyleri</w> var.",
                                 "es": "Mi gato tiene <w>pelos</w> muy suaves y sedosos.",
                                 "zh": "我家猫的<w>毛</w>又柔软又顺滑。"
                             }
@@ -35,7 +35,7 @@
                             "text": "Il faut retirer les <w>poils</w> du chien sur le canapé avant l'arrivée des invités.",
                             "target_lang_translations": {
                                 "en": "The dog's <w>hairs</w> on the sofa need to be removed before the guests arrive.",
-                                "ru": "Перед приходом гостей нужно убрать собачьи <w>волоски</w> с дивана.",
+                                "ru": "Перед приходом гостей нужно убрать с дивана собачью <w>шерсть</w>.",
                                 "nl": "Voordat de gasten komen, moeten de <w>hondenharen</w> van de bank worden verwijderd.",
                                 "de": "Bevor die Gäste kommen, müssen die <w>Haare</w> des Hundes vom Sofa entfernt werden.",
                                 "pl": "Przed przyjściem gości trzeba usunąć psie <w>włosy</w> z kanapy.",
@@ -70,6 +70,10 @@
                             }
                         ],
                         "ru": [
+                            {
+                                "target_lang_word": "шерсть",
+                                "target_lang_sense_clarification": "мн. ч. poils: волоски животного"
+                            },
                             {
                                 "target_lang_word": "волос",
                                 "target_lang_sense_clarification": "отдельный волос на теле"
@@ -112,11 +116,7 @@
                         "it": [
                             {
                                 "target_lang_word": "pelo",
-                                "target_lang_sense_clarification": "uso generale, anche nel corpo umano"
-                            },
-                            {
-                                "target_lang_word": "capello",
-                                "target_lang_sense_clarification": "pelo della testa umana"
+                                "target_lang_sense_clarification": "singolo filamento sulla pelle"
                             }
                         ],
                         "cs": [
@@ -125,8 +125,8 @@
                                 "target_lang_sense_clarification": "obecně u zvířat i lidí"
                             },
                             {
-                                "target_lang_word": "vlas",
-                                "target_lang_sense_clarification": "lidský vlas, zejména na hlavě"
+                                "target_lang_word": "chloupek",
+                                "target_lang_sense_clarification": "jemný chlup na těle"
                             }
                         ],
                         "tr": [
@@ -342,7 +342,7 @@
                             "target_lang_translations": {
                                 "en": "This toothbrush has soft <w>bristles</w> to protect the gums.",
                                 "ru": "Эта зубная щётка имеет мягкую <w>щетину</w>, чтобы беречь десны.",
-                                "nl": "Deze tandenborstel heeft zachte <w>borstels</w> om het tandvlees te beschermen.",
+                                "nl": "Deze tandenborstel heeft zachte <w>haren</w> om het tandvlees te beschermen.",
                                 "de": "Diese Zahnbürste hat weiche <w>Borsten</w>, die das Zahnfleisch schonen.",
                                 "pl": "Ta szczoteczka do zębów ma miękkie <w>szczecinki</w>, które chronią dziąsła.",
                                 "it": "Questo spazzolino da denti ha <w>setole</w> morbide per proteggere le gengive.",
@@ -491,9 +491,9 @@
                             "target_lang_translations": {
                                 "en": "It is advisable to brush this jacket in the direction of the <w>nap</w>.",
                                 "ru": "Эту куртку рекомендуется чистить по <w>ворсу</w>.",
-                                "nl": "Het is aan te raden deze jas in de <w>strijkrichting</w> te borstelen.",
+                                "nl": "Het is aan te raden deze jas met de <w>vleug</w> mee te borstelen.",
                                 "de": "Diese Jacke sollte man am besten in <w>Strichrichtung</w> bürsten.",
-                                "pl": "Tę kurtkę najlepiej szczotkować zgodnie z <w>kierunkiem runa</w>.",
+                                "pl": "Tę kurtkę najlepiej szczotkować zgodnie z kierunkiem <w>runa</w>.",
                                 "it": "Si consiglia di spazzolare questa giacca nel verso del <w>pelo</w>.",
                                 "cs": "Tuto bundu je vhodné kartáčovat ve směru <w>vlasu</w>.",
                                 "tr": "Bu ceketi <w>havının</w> yönünde fırçalamanız önerilir.",
@@ -543,6 +543,10 @@
                             {
                                 "target_lang_word": "pool",
                                 "target_lang_sense_clarification": "tapijt, vloerkleed"
+                            },
+                            {
+                                "target_lang_word": "vleug",
+                                "target_lang_sense_clarification": "richting van de haartjes op een stof"
                             }
                         ],
                         "de": [
@@ -615,7 +619,7 @@
                                 "pl": "Hodowca uważnie ogląda <w>maść</w> tego źrebięcia, żeby dokładnie ją ustalić.",
                                 "it": "L'allevatore esamina attentamente il <w>mantello</w> di questo puledro per determinarne il colore esatto.",
                                 "cs": "Chovatel pozorně zkoumá <w>zbarvení</w> tohoto hříběte, aby přesně určil jeho odstín.",
-                                "tr": "Yetiştirici, tam rengini belirlemek için bu tayın <w>rengini</w> dikkatle inceliyor.",
+                                "tr": "Yetiştirici, donunu tam olarak belirlemek için bu tayın <w>tüy rengini</w> dikkatle inceliyor.",
                                 "es": "El criador examina atentamente la <w>capa</w> de este potrillo para determinar su color exacto.",
                                 "zh": "饲养员仔细端详这匹小马驹的<w>毛色</w>，以确定它究竟是什么颜色。"
                             }
@@ -627,11 +631,11 @@
                                 "ru": "Этот великолепный жеребец имеет гнедую <w>масть</w>, особенно яркую на солнце.",
                                 "nl": "Deze prachtige hengst heeft een bruine <w>vacht</w> die in de zon bijzonder glanst.",
                                 "de": "Dieser prächtige Hengst hat eine besonders in der Sonne leuchtende braune <w>Fellfarbe</w>.",
-                                "pl": "Ten wspaniały ogier ma <w>gniadą maść</w>, szczególnie lśniącą w słońcu.",
+                                "pl": "Ten wspaniały ogier ma gniadą <w>maść</w>, szczególnie lśniącą w słońcu.",
                                 "it": "Questo splendido stallone ha un <w>mantello</w> baio particolarmente lucente al sole.",
-                                "cs": "Tento skvělý hřebec má <w>hnědé zbarvení</w>, které na slunci zvlášť zářivě vyniká.",
-                                "tr": "Bu muhteşem aygırın güneşte özellikle parlayan bir kula <w>rengi</w> var.",
-                                "es": "Este espléndido semental tiene una <w>capa</w> baya que brilla especialmente al sol.",
+                                "cs": "Tento skvělý hřebec má hnědé <w>zbarvení</w>, které na slunci zvlášť zářivě vyniká.",
+                                "tr": "Bu muhteşem aygırın güneşte özellikle parlayan doru bir <w>donu</w> var.",
+                                "es": "Este espléndido semental tiene una <w>capa</w> castaña que brilla especialmente al sol.",
                                 "zh": "这匹英俊的种马，<w>毛色</w>是枣红的，阳光下格外耀眼。"
                             }
                         }
@@ -712,12 +716,12 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "renk",
-                                "target_lang_sense_clarification": "atın kürk rengi, genel"
+                                "target_lang_word": "don",
+                                "target_lang_sense_clarification": "at için: tüy rengi, ör. doru don"
                             },
                             {
-                                "target_lang_word": "kürk rengi",
-                                "target_lang_sense_clarification": "hayvan kürkünün rengi"
+                                "target_lang_word": "tüy rengi",
+                                "target_lang_sense_clarification": "hayvanın tüyünün rengi"
                             }
                         ],
                         "es": [
@@ -792,14 +796,54 @@
                     },
                     "translations": {
                         "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "Пуаль",
+                                "target_lang_sense_clarification": "коммуна во Франции, департамент Ньевр"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "Franse gemeente in de Nièvre"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "Gemeinde im Département Nièvre"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "gmina we Francji (Nièvre)"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "comune francese nella Nièvre"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "obec v departementu Nièvre"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "Fransa'da Nièvre'de bir komün"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Poil",
+                                "target_lang_sense_clarification": "municipio francés de Nièvre"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "普瓦尔",

@@ -41,7 +41,7 @@
                                 "nl": "Deze kleine <w>veldweg</w> leidt rechtstreeks naar de boerderij van mijn grootouders.",
                                 "de": "Dieser kleine <w>Feldweg</w> führt direkt zum Hof meiner Großeltern.",
                                 "pl": "Ta mała <w>droga gruntowa</w> prowadzi prosto do gospodarstwa moich dziadków.",
-                                "it": "Questa piccola <w>strada sterrata</w> conduce direttamente alla fattoria dei miei nonni.",
+                                "it": "Questa piccola <w>strada</w> sterrata conduce direttamente alla fattoria dei miei nonni.",
                                 "cs": "Tato malá <w>polní cesta</w> vede přímo ke statku mých prarodičů.",
                                 "tr": "Bu küçük <w>toprak yol</w> doğrudan büyükanne ve büyükbabamın çiftliğine götürüyor.",
                                 "es": "Este pequeño <w>camino de tierra</w> lleva directamente a la granja de mis abuelos.",
@@ -89,15 +89,15 @@
                         ],
                         "ru": [
                             {
+                                "target_lang_word": "дорога",
+                                "target_lang_sense_clarification": "небольшая, обычно грунтовая"
+                            },
+                            {
                                 "target_lang_word": "тропинка",
                                 "target_lang_sense_clarification": "пешая тропа через лес"
                             },
                             {
-                                "target_lang_word": "грунтовая дорога",
-                                "target_lang_sense_clarification": "дорога без асфальтового покрытия"
-                            },
-                            {
-                                "target_lang_word": "проселочная дорога",
+                                "target_lang_word": "просёлочная дорога",
                                 "target_lang_sense_clarification": "узкая дорога в сельской местности"
                             }
                         ],
@@ -226,7 +226,7 @@
                         {
                             "text": "Le touriste s'est égaré et doit demander son <w>chemin</w> aux passants.",
                             "target_lang_translations": {
-                                "en": "The tourist has got lost and must ask passers-by for <w>directions</w>.",
+                                "en": "The tourist has got lost and must ask passers-by the <w>way</w>.",
                                 "ru": "Турист заблудился и вынужден спрашивать у прохожих <w>дорогу</w>.",
                                 "nl": "De toerist is verdwaald en moet aan voorbijgangers de <w>weg</w> vragen.",
                                 "de": "Der Tourist hat sich verirrt und muss Passanten nach dem <w>Weg</w> fragen.",
@@ -245,11 +245,11 @@
                                 "ru": "По <w>дороге</w> домой мы остановились у берега реки.",
                                 "nl": "Op de <w>terugweg</w> zijn we gestopt aan de rivieroever.",
                                 "de": "Auf dem <w>Rückweg</w> machten wir am Flussufer Halt.",
-                                "pl": "<w>W drodze powrotnej</w> zatrzymaliśmy się nad brzegiem rzeki.",
+                                "pl": "W <w>drodze</w> powrotnej zatrzymaliśmy się nad brzegiem rzeki.",
                                 "it": "Lungo la <w>strada</w> del ritorno ci siamo fermati sulla riva del fiume.",
                                 "cs": "Na zpáteční <w>cestě</w> jsme se zastavili na břehu řeky.",
-                                "tr": "<w>Dönüş yolunda</w>, nehir kıyısında mola verdik.",
-                                "es": "En el <w>camino de vuelta</w>, nos detuvimos a la orilla del río.",
+                                "tr": "Dönüş <w>yolunda</w>, nehir kıyısında mola verdik.",
+                                "es": "En el <w>camino</w> de vuelta, nos detuvimos a la orilla del río.",
                                 "zh": "在回家的<w>路</w>上，我们在河边停下来休息。"
                             }
                         }
@@ -622,7 +622,7 @@
                                 "pl": "Na świąteczny obiad położyła na stole elegancki <w>bieżnik</w>.",
                                 "it": "Per il pranzo di festa ha steso un elegante <w>runner</w> da tavola.",
                                 "cs": "Na slavnostní večeři položila elegantní <w>stolní běhoun</w>.",
-                                "tr": "Bayram yemeği için şık bir <w>masa koşusu</w> serdi.",
+                                "tr": "Bayram yemeği için şık bir <w>runner</w> serdi.",
                                 "es": "Para la comida de fiesta, puso un elegante <w>camino de mesa</w>.",
                                 "zh": "为了节日聚餐，她在餐桌上摆了一条精致的<w>桌旗</w>。"
                             }
@@ -736,11 +736,11 @@
                         "tr": [
                             {
                                 "target_lang_word": "yolluk",
-                                "target_lang_sense_clarification": "koridor için dar halı"
+                                "target_lang_sense_clarification": "koridor veya merdiven için dar halı"
                             },
                             {
-                                "target_lang_word": "masa koşusu",
-                                "target_lang_sense_clarification": "yemek masasına serilen kumaş şerit"
+                                "target_lang_word": "runner",
+                                "target_lang_sense_clarification": "masaya boydan boya serilen dar örtü"
                             }
                         ],
                         "es": [
@@ -1146,15 +1146,60 @@
                         "zh": "法国东部汝拉省的一个公社。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
+                        "en": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "commune in Jura, France"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Шмен",
+                                "target_lang_sense_clarification": "коммуна во Франции (Юра)"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "gemeente in de Jura"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "Gemeinde im Département Jura"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "gmina we Francji (Jura)"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "comune francese del Giura"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "obec ve Francii (Jura)"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "Jura'da bir Fransız beldesi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Chemin",
+                                "target_lang_sense_clarification": "municipio francés del Jura"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "舍曼",

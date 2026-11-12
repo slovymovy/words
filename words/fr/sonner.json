@@ -24,7 +24,7 @@
                             "target_lang_translations": {
                                 "en": "The alarm <w>goes off</w> every morning at seven o'clock sharp.",
                                 "ru": "Будильник <w>звонит</w> каждое утро ровно в семь часов.",
-                                "nl": "De wekker <w>gaat af</w> elke ochtend om zeven uur precies.",
+                                "nl": "De wekker <w>gaat</w> elke ochtend om precies zeven uur <w>af</w>.",
                                 "de": "Der Wecker <w>klingelt</w> jeden Morgen pünktlich um sieben Uhr.",
                                 "pl": "Budzik <w>dzwoni</w> każdego ranka punktualnie o siódmej.",
                                 "it": "La sveglia <w>suona</w> ogni mattina alle sette in punto.",
@@ -88,8 +88,12 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "afgaan",
+                                "target_lang_sense_clarification": "van wekker of alarm"
+                            },
+                            {
                                 "target_lang_word": "overgaan",
-                                "target_lang_sense_clarification": "van wekker of telefoon"
+                                "target_lang_sense_clarification": "van telefoon of bel"
                             },
                             {
                                 "target_lang_word": "klinken",
@@ -185,7 +189,7 @@
                             "target_lang_translations": {
                                 "en": "Don't forget to <w>ring</w> the doorbell before entering the building.",
                                 "ru": "Не забудь <w>позвонить</w> в дверь, прежде чем войти в дом.",
-                                "nl": "Vergeet niet <w>aan te bellen</w> voordat je het gebouw binnenkomt.",
+                                "nl": "Vergeet niet <w>aan</w> te <w>bellen</w> voordat je het gebouw binnenkomt.",
                                 "de": "Vergiss nicht, vor dem Betreten des Gebäudes an der Tür zu <w>klingeln</w>.",
                                 "pl": "Nie zapomnij <w>zadzwonić</w> do drzwi, zanim wejdziesz do budynku.",
                                 "it": "Non dimenticare di <w>suonare</w> il campanello prima di entrare nel palazzo.",
@@ -338,13 +342,13 @@
                             "target_lang_translations": {
                                 "en": "The church clock begins to <w>strike</w> noon in the summer sun.",
                                 "ru": "Церковные часы начинают <w>бить</w> полдень под летним солнцем.",
-                                "nl": "De klok van de kerk begint in de zomerzon twaalf uur <w>te slaan</w>.",
+                                "nl": "De klok van de kerk begint in de zomerzon twaalf uur te <w>slaan</w>.",
                                 "de": "Im Sommersonnenschein beginnt die Kirchturmuhr, zwölf Uhr zu <w>schlagen</w>.",
                                 "pl": "Zegar kościelny w letnim słońcu zaczyna <w>wybijać</w> dwunastą.",
                                 "it": "L'orologio della chiesa comincia a <w>battere</w> mezzogiorno sotto il sole d'estate.",
                                 "cs": "V letním slunci začínají kostelní hodiny <w>odbíjet</w> poledne.",
                                 "tr": "Yaz güneşinin altında kilise saati on ikiyi <w>vurmaya</w> başlıyor.",
-                                "es": "El reloj de la iglesia empieza a <w>dar las doce</w> bajo el sol de verano.",
+                                "es": "El reloj de la iglesia empieza a <w>dar</w> las doce bajo el sol de verano.",
                                 "zh": "夏日的阳光下，教堂的钟开始<w>敲</w>十二点。"
                             }
                         },
@@ -356,7 +360,7 @@
                                 "nl": "De klokken van de kathedraal <w>luidden</w> om het grote feest te vieren.",
                                 "de": "Die Glocken des Doms <w>läuteten</w>, um das große Fest zu feiern.",
                                 "pl": "Dzwony katedry <w>biły</w> na cześć wielkiego święta.",
-                                "it": "Le campane della cattedrale hanno <w>suonato a festa</w> per celebrare la grande ricorrenza.",
+                                "it": "Le campane della cattedrale hanno <w>suonato</w> a festa per celebrare la grande ricorrenza.",
                                 "cs": "Zvony katedrály na počest velkého svátku <w>zvonily</w>.",
                                 "tr": "Büyük bayramı kutlamak için katedralin çanları <w>çaldı</w>.",
                                 "es": "Las campanas de la catedral <w>repicaron</w> para celebrar la gran fiesta.",
@@ -441,6 +445,10 @@
                                 "target_lang_sense_clarification": "le ore di un orologio"
                             },
                             {
+                                "target_lang_word": "suonare",
+                                "target_lang_sense_clarification": "campane, per una festa o un annuncio"
+                            },
+                            {
                                 "target_lang_word": "rintoccare",
                                 "target_lang_sense_clarification": "campane, rintocchi lenti e solenni"
                             }
@@ -513,7 +521,7 @@
                                 "pl": "Jego przeprosiny wydawały się szczere, ale wyjaśnienia wciąż <w>brzmiały</w> fałszywie.",
                                 "it": "Le sue scuse sembravano sincere, ma le sue spiegazioni continuavano a <w>suonare</w> false.",
                                 "cs": "Jeho omluvy zněly upřímně, ale jeho vysvětlení dál <w>znělo</w> falešně.",
-                                "tr": "Özürleri samimi görünüyordu ama açıklamaları hâlâ yanlış <w>geliyordu</w>.",
+                                "tr": "Özürleri samimi görünüyordu ama açıklamaları kulağa hâlâ sahte <w>geliyordu</w>.",
                                 "es": "Sus disculpas parecían sinceras, pero sus explicaciones seguían <w>sonando</w> falsas.",
                                 "zh": "他的道歉看似真诚，可他的解释<w>听起来</w>始终很假。"
                             }
@@ -663,7 +671,7 @@
                             "target_lang_translations": {
                                 "en": "That heavy punch managed to <w>stun</w> the boxer in the first round.",
                                 "ru": "Этот сильный удар сумел <w>оглушить</w> боксёра уже в первом раунде.",
-                                "nl": "Die harde klap wist de bokser al in de eerste ronde <w>groggy te maken</w>.",
+                                "nl": "Die harde klap wist de bokser al in de eerste ronde <w>groggy</w> te <w>maken</w>.",
                                 "de": "Dieser heftige Treffer hat den Boxer schon in der ersten Runde <w>benommen gemacht</w>.",
                                 "pl": "Ten mocny cios <w>ogłuszył</w> boksera już w pierwszej rundzie.",
                                 "it": "Quel colpo violento è riuscito a <w>tramortire</w> il pugile già alla prima ripresa.",
@@ -679,13 +687,13 @@
                                 "en": "The hard fall left him completely <w>dazed</w> for several long seconds.",
                                 "ru": "Резкое падение полностью <w>оглушило</w> его на несколько долгих секунд.",
                                 "nl": "De harde val liet hem enkele lange seconden helemaal <w>versuft</w> achter.",
-                                "de": "Der harte Sturz machte ihn für mehrere lange Sekunden völlig <w>benommen</w>.",
+                                "de": "Der harte Sturz <w>machte</w> ihn für mehrere lange Sekunden völlig <w>benommen</w>.",
                                 "pl": "Gwałtowny upadek całkowicie go <w>oszołomił</w> na kilka długich sekund.",
                                 "it": "La caduta brutale lo ha completamente <w>stordito</w> per lunghi secondi.",
                                 "cs": "Prudký pád ho na několik dlouhých vteřin úplně <w>omráčil</w>.",
                                 "tr": "Sert düşüş onu birkaç uzun saniye boyunca tamamen <w>sersemletti</w>.",
                                 "es": "La caída brutal lo dejó completamente <w>aturdido</w> durante largos segundos.",
-                                "zh": "剧烈的摔倒让他好几秒钟都被<w>击晕</w>了。"
+                                "zh": "这重重的一跤把他彻底摔<w>晕</w>了，好几秒钟都没缓过神来。"
                             }
                         }
                     ],
@@ -831,7 +839,7 @@
                                 "de": "Mische dich nicht in dieses Gespräch ein, wenn dich niemand <w>gefragt</w> hat.",
                                 "pl": "Nie wtrącaj się do tej rozmowy, jeśli nikt cię nie <w>prosił</w>.",
                                 "it": "Non intrometterti in questa discussione se nessuno ti ha <w>chiesto</w> niente.",
-                                "cs": "Nevměšuj se do té debaty, když se tě nikdo <w>neptal</w>.",
+                                "cs": "Nevměšuj se do té debaty, když <w>se</w> tě nikdo <w>neptal</w>.",
                                 "tr": "Kimse sana bir şey <w>sormadıysa</w> bu tartışmaya karışma.",
                                 "es": "No te metas en esta discusión si nadie te ha <w>llamado</w>.",
                                 "zh": "要是没人<w>问</w>你，就别插手这场讨论。"
@@ -846,7 +854,7 @@
                                 "de": "Sie hat ihre Meinung zu meiner Hochzeit kundgetan, obwohl sie niemand <w>gefragt</w> hatte.",
                                 "pl": "Wypowiedziała się o moim ślubie, choć nikt jej o zdanie nie <w>pytał</w>.",
                                 "it": "Ha detto la sua sul mio matrimonio, anche se nessuno le aveva <w>chiesto</w> un parere.",
-                                "cs": "Vyjádřila se k mé svatbě, i když se jí nikdo <w>neptal</w>.",
+                                "cs": "Vyjádřila se k mé svatbě, i když <w>se</w> jí nikdo <w>neptal</w>.",
                                 "tr": "Düğünüm hakkında kimse ona <w>sormadığı</w> hâlde görüşünü bildirdi.",
                                 "es": "Ella dio su opinión sobre mi boda aunque nadie le había <w>preguntado</w>.",
                                 "zh": "明明没人<w>问</w>她，她却对我的婚礼发表了意见。"
@@ -986,7 +994,7 @@
                             "target_lang_translations": {
                                 "en": "In this careful pronunciation, the speaker chose to <w>sound</w> the final letter.",
                                 "ru": "В этом тщательном произношении оратор решил чётко <w>произносить</w> конечную букву.",
-                                "nl": "In deze verzorgde uitspraak koos de spreker ervoor de laatste letter duidelijk <w>uit te spreken</w>.",
+                                "nl": "In deze verzorgde uitspraak koos de spreker ervoor de laatste letter duidelijk <w>uit</w> te <w>spreken</w>.",
                                 "de": "Bei dieser sorgfältigen Aussprache entschied sich der Redner, den Schlussbuchstaben deutlich <w>auszusprechen</w>.",
                                 "pl": "W tej starannej wymowie mówca postanowił wyraźnie <w>wymówić</w> ostatnią literę.",
                                 "it": "In questa pronuncia curata, l'oratore ha scelto di <w>pronunciare</w> chiaramente la lettera finale.",

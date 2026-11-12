@@ -38,7 +38,7 @@
                             "target_lang_translations": {
                                 "en": "The director <w>himself</w> came to announce the good news to the staff.",
                                 "ru": "<w>Сам</w> директор пришёл сообщить сотрудникам радостную новость.",
-                                "nl": "De directeur kwam het goede nieuws aan de medewerkers <w>zelf</w> vertellen.",
+                                "nl": "De directeur <w>zelf</w> kwam het goede nieuws aan de medewerkers vertellen.",
                                 "de": "Der Direktor <w>selbst</w> kam, um den Angestellten die gute Nachricht zu überbringen.",
                                 "pl": "Dyrektor <w>osobiście</w> przyszedł ogłosić pracownikom dobrą wiadomość.",
                                 "it": "Il direttore è venuto ad annunciare la buona notizia ai dipendenti <w>in persona</w>.",
@@ -88,8 +88,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "hemzelf",
+                                "target_lang_word": "zelf",
                                 "target_lang_sense_clarification": "nadruk op de persoon zelf"
+                            },
+                            {
+                                "target_lang_word": "hijzelf",
+                                "target_lang_sense_clarification": "met nadruk, als onderwerp"
                             },
                             {
                                 "target_lang_word": "in eigen persoon",
@@ -206,11 +210,11 @@
                                 "en": "This athlete always seems very sure of <w>himself</w> before each competition.",
                                 "ru": "Перед каждым соревнованием этот спортсмен всегда кажется очень уверенным в <w>себе</w>.",
                                 "nl": "Deze atleet lijkt voor elke wedstrijd altijd heel zeker van <w>zichzelf</w>.",
-                                "de": "Dieser Athlet wirkt vor jedem Wettkampf immer sehr <w>von sich überzeugt</w>.",
+                                "de": "Dieser Athlet wirkt vor jedem Wettkampf immer sehr von <w>sich</w> überzeugt.",
                                 "pl": "Ten sportowiec przed każdymi zawodami zawsze wydaje się bardzo pewny <w>siebie</w>.",
                                 "it": "Questo atleta sembra sempre molto sicuro di <w>sé</w> prima di ogni gara.",
-                                "cs": "Tento sportovec se před každou soutěží vždy zdá velmi <w>sebejistý</w>.",
-                                "tr": "Bu sporcu her yarışmadan önce hep çok <w>kendinden emin</w> görünür.",
+                                "cs": "Tento sportovec si je před každou soutěží vždy velmi jistý sám <w>sebou</w>.",
+                                "tr": "Bu sporcu her yarışmadan önce hep çok <w>kendinden</w> emin görünür.",
                                 "es": "Este atleta siempre parece muy seguro de <w>sí mismo</w> antes de cada competición.",
                                 "zh": "这位运动员每次比赛前似乎总是对<w>自己</w>很有信心。"
                             }
@@ -218,15 +222,15 @@
                         {
                             "text": "Il a préféré garder cette triste nouvelle en <w>lui-même</w> sans rien dire.",
                             "target_lang_translations": {
-                                "en": "He preferred to keep this sad news <w>to himself</w> without saying anything.",
-                                "ru": "Он предпочёл ни слова не говоря держать эту печальную новость <w>при себе</w>.",
-                                "nl": "Hij hield dit droevige nieuws liever <w>voor zichzelf</w> zonder iets te zeggen.",
-                                "de": "Er zog es vor, diese traurige Nachricht <w>für sich</w> zu behalten, ohne etwas zu sagen.",
+                                "en": "He preferred to keep this sad news to <w>himself</w> without saying anything.",
+                                "ru": "Он предпочёл ни слова не говоря держать эту печальную новость при <w>себе</w>.",
+                                "nl": "Hij hield dit droevige nieuws liever voor <w>zichzelf</w> zonder iets te zeggen.",
+                                "de": "Er zog es vor, diese traurige Nachricht für <w>sich</w> zu behalten, ohne etwas zu sagen.",
                                 "pl": "Wolał zachować tę smutną wiadomość <w>dla siebie</w>, nic nie mówiąc.",
-                                "it": "Ha preferito tenere <w>per sé</w> questa triste notizia senza dire nulla.",
-                                "cs": "Raději si tu smutnou zprávu nechal <w>pro sebe</w> a nic neřekl.",
-                                "tr": "Bu üzücü haberi hiçbir şey söylemeden <w>kendi içinde</w> tutmayı tercih etti.",
-                                "es": "Prefirió guardarse <w>para sí</w> esta triste noticia sin decir nada.",
+                                "it": "Ha preferito tenere per <w>sé</w> questa triste notizia senza dire nulla.",
+                                "cs": "Raději si tu smutnou zprávu nechal pro <w>sebe</w> a nic neřekl.",
+                                "tr": "Bu üzücü haberi hiçbir şey söylemeden <w>kendi</w> içinde tutmayı tercih etti.",
+                                "es": "Prefirió guardarse para <w>sí</w> esta triste noticia sin decir nada.",
                                 "zh": "他宁愿把这个令人难过的消息藏在<w>自己</w>心里，什么也没说。"
                             }
                         }
@@ -300,15 +304,11 @@
                         "cs": [
                             {
                                 "target_lang_word": "sebe",
-                                "target_lang_sense_clarification": "zvratné, například „na sebe“"
+                                "target_lang_sense_clarification": "zvratné, po předložce: pro sebe, v sobě"
                             },
                             {
-                                "target_lang_word": "pro sebe",
-                                "target_lang_sense_clarification": "zachovat něco pro sebe"
-                            },
-                            {
-                                "target_lang_word": "v sobě",
-                                "target_lang_sense_clarification": "nosit něco v sobě"
+                                "target_lang_word": "sám sebe",
+                                "target_lang_sense_clarification": "se zdůrazněním"
                             }
                         ],
                         "tr": [
@@ -317,8 +317,8 @@
                                 "target_lang_sense_clarification": "edattan sonra, öznenin kendisi"
                             },
                             {
-                                "target_lang_word": "kendinden emin",
-                                "target_lang_sense_clarification": "kendinden emin olmak, özgüvenli"
+                                "target_lang_word": "kendi",
+                                "target_lang_sense_clarification": "hâl ekleriyle: kendinden, kendi içinde"
                             }
                         ],
                         "es": [

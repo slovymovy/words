@@ -185,7 +185,7 @@
                                 "ru": "Мне в глаз попала <w>соринка</w>, когда я шёл вдоль пляжа.",
                                 "nl": "Ik kreeg een <w>stofje</w> in mijn oog toen ik langs het strand liep.",
                                 "de": "Beim Spaziergang am Strand ist mir ein <w>Sandkorn</w> ins Auge geraten.",
-                                "pl": "Idąc brzegiem plaży, wpadła mi do oka <w>drobinka</w> piasku.",
+                                "pl": "Kiedy szedłem brzegiem plaży, wpadła mi do oka <w>drobinka</w> piasku.",
                                 "it": "Passeggiando lungo la spiaggia mi è finito un <w>granello</w> di sabbia nell'occhio.",
                                 "cs": "Při procházce podél pláže mi do oka vletělo <w>smítko</w> písku.",
                                 "tr": "Sahil boyunca yürürken gözüme bir kum <w>tanesi</w> kaçtı.",
@@ -196,7 +196,7 @@
                         {
                             "text": "Une infime <w>poussière</w> sur l'objectif a gâché la prise de vue.",
                             "target_lang_translations": {
-                                "en": "A tiny <w>speck of dust</w> on the lens ruined the shot.",
+                                "en": "A tiny <w>speck</w> of dust on the lens ruined the shot.",
                                 "ru": "Крошечная <w>пылинка</w> на объективе испортила кадр.",
                                 "nl": "Een minuscuul <w>stofje</w> op de lens verpestte de opname.",
                                 "de": "Ein winziges <w>Staubkorn</w> auf dem Objektiv hat die Aufnahme verdorben.",
@@ -365,10 +365,10 @@
                         {
                             "text": "Le billet de train m'a coûté cinquante euros et des <w>poussières</w>.",
                             "target_lang_translations": {
-                                "en": "The train ticket cost me fifty euros <w>and change</w>.",
+                                "en": "The train ticket cost me fifty euros <w>and a bit</w>.",
                                 "ru": "Билет на поезд стоил мне пятьдесят евро <w>с хвостиком</w>.",
                                 "nl": "Het treinkaartje kostte me vijftig euro <w>en nog wat</w>.",
-                                "de": "Das Zugticket hat mich fünfzig Euro <w>und ein paar Cent</w> gekostet.",
+                                "de": "Das Zugticket hat mich fünfzig Euro und ein paar <w>Zerquetschte</w> gekostet.",
                                 "pl": "Bilet na pociąg kosztował mnie pięćdziesiąt euro <w>z hakiem</w>.",
                                 "it": "Il biglietto del treno mi è costato cinquanta euro <w>e rotti</w>.",
                                 "cs": "Lístek na vlak mě stál padesát eur <w>a něco</w>.",
@@ -380,16 +380,16 @@
                         {
                             "text": "Le trajet dure trois heures et des <w>poussières</w> selon la circulation.",
                             "target_lang_translations": {
-                                "en": "The journey takes three hours <w>and change</w>, depending on traffic.",
+                                "en": "The journey takes three hours <w>and a bit</w>, depending on traffic.",
                                 "ru": "Поездка занимает три часа <w>с лишним</w>, в зависимости от пробок.",
                                 "nl": "De reis duurt drie uur <w>en nog wat</w>, afhankelijk van het verkeer.",
-                                "de": "Die Fahrt dauert drei Stunden <w>und ein paar Minuten</w>, je nach Verkehr.",
+                                "de": "Die Fahrt dauert je nach Verkehr drei Stunden und ein paar <w>Zerquetschte</w>.",
                                 "pl": "Podróż trwa trzy godziny <w>z okładem</w>, zależnie od ruchu.",
                                 "it": "Il viaggio dura tre ore <w>e passa</w>, a seconda del traffico.",
-                                "cs": "Cesta trvá tři hodiny <w>a kousek</w>, podle provozu.",
+                                "cs": "Cesta trvá tři hodiny <w>a něco</w>, podle provozu.",
                                 "tr": "Trafiğe göre yolculuk üç saat <w>küsur</w> sürüyor.",
                                 "es": "El viaje dura tres horas <w>y pico</w>, según el tráfico.",
-                                "zh": "根据路况，这段路程大约需要三个多小时。"
+                                "zh": "根据路况，这段路程需要三个<w>多</w>小时。"
                             }
                         }
                     ],
@@ -417,8 +417,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "and change",
+                                "target_lang_word": "and a bit",
                                 "target_lang_sense_clarification": "informal, after a round number"
+                            },
+                            {
+                                "target_lang_word": "odd",
+                                "target_lang_sense_clarification": "informal, after a round number, as in fifty-odd"
                             }
                         ],
                         "ru": [
@@ -443,8 +447,8 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "knapp darüber",
-                                "target_lang_sense_clarification": "bei Geldbeträgen und Zeitangaben"
+                                "target_lang_word": "Zerquetschte",
+                                "target_lang_sense_clarification": "umgangssprachlich: und ein paar Zerquetschte"
                             }
                         ],
                         "pl": [
@@ -481,7 +485,7 @@
                                 "target_lang_sense_clarification": "hovorově za kulatým číslem"
                             },
                             {
-                                "target_lang_word": "s hakem",
+                                "target_lang_word": "s hákem",
                                 "target_lang_sense_clarification": "hovorově, u peněz i času"
                             }
                         ],
@@ -511,8 +515,8 @@
                                 "target_lang_sense_clarification": "整数之外的零数"
                             },
                             {
-                                "target_lang_word": "多一点",
-                                "target_lang_sense_clarification": "略多于整数"
+                                "target_lang_word": "多",
+                                "target_lang_sense_clarification": "用在数量词后，表示略超出"
                             }
                         ]
                     }

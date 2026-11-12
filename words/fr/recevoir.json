@@ -166,10 +166,6 @@
                             {
                                 "target_lang_word": "recibir",
                                 "target_lang_sense_clarification": "cartas, regalos, paquetes"
-                            },
-                            {
-                                "target_lang_word": "recoger",
-                                "target_lang_sense_clarification": "paquete o encargo en correos"
                             }
                         ],
                         "zh": [
@@ -247,12 +243,12 @@
                                 "target_lang_sense_clarification": "guests at home"
                             },
                             {
-                                "target_lang_word": "host",
-                                "target_lang_sense_clarification": "a party or social event"
-                            },
-                            {
                                 "target_lang_word": "receive",
                                 "target_lang_sense_clarification": "formal visitors or callers"
+                            },
+                            {
+                                "target_lang_word": "see",
+                                "target_lang_sense_clarification": "a doctor or official admitting a visitor"
                             }
                         ],
                         "ru": [
@@ -261,8 +257,8 @@
                                 "target_lang_sense_clarification": "гостей, посетителей, клиентов"
                             },
                             {
-                                "target_lang_word": "развлекать",
-                                "target_lang_sense_clarification": "гостей у себя дома"
+                                "target_lang_word": "принять",
+                                "target_lang_sense_clarification": "разовый приём: врач вас примет"
                             }
                         ],
                         "nl": [
@@ -565,7 +561,7 @@
                                 "de": "Dieser Mitarbeiter hat von seinen Vorgesetzten eine offizielle Abmahnung <w>bekommen</w>.",
                                 "pl": "Ten pracownik <w>otrzymał</w> formalne upomnienie od przełożonych.",
                                 "it": "Questo dipendente ha <w>ricevuto</w> un richiamo ufficiale dai suoi superiori.",
-                                "cs": "Tento zaměstnanec od svých nadřízených <w>obdržel</w> oficiální napomenutí.",
+                                "cs": "Tento zaměstnanec od svých nadřízených <w>dostal</w> oficiální napomenutí.",
                                 "tr": "Bu çalışan amirlerinden resmi bir uyarı <w>aldı</w>.",
                                 "es": "Este empleado <w>recibió</w> una amonestación formal de sus superiores.",
                                 "zh": "这名员工<w>受到</w>了上级的正式警告。"
@@ -736,7 +732,7 @@
                             "text": "Après des mois de préparation intensive, elle a été <w>reçue</w> à son concours.",
                             "target_lang_translations": {
                                 "en": "After months of intensive preparation, she <w>passed</w> her competitive exam.",
-                                "ru": "После нескольких месяцев интенсивной подготовки она <w>сдала</w> конкурс.",
+                                "ru": "После нескольких месяцев интенсивной подготовки она <w>прошла</w> конкурс.",
                                 "nl": "Na maanden van intensieve voorbereiding is ze voor haar toelatingsexamen <w>geslaagd</w>.",
                                 "de": "Nach monatelanger intensiver Vorbereitung hat sie das Auswahlverfahren <w>bestanden</w>.",
                                 "pl": "Po wielu miesiącach intensywnych przygotowań <w>zdała</w> konkurs.",
@@ -750,15 +746,15 @@
                         {
                             "text": "Ce jeune juriste espère être <w>reçu</w> au barreau dès l'automne prochain.",
                             "target_lang_translations": {
-                                "en": "This young lawyer hopes to be <w>admitted</w> to the bar as early as next autumn.",
-                                "ru": "Этот молодой юрист надеется уже следующей осенью быть <w>принятым</w> в коллегию адвокатов.",
+                                "en": "This young lawyer hopes to <w>be admitted</w> to the bar as early as next autumn.",
+                                "ru": "Этот молодой юрист надеется уже следующей осенью <w>быть принятым</w> в коллегию адвокатов.",
                                 "nl": "Deze jonge jurist hoopt al volgende herfst te worden <w>toegelaten</w> tot de balie.",
                                 "de": "Dieser junge Jurist hofft, schon im kommenden Herbst als Anwalt <w>zugelassen zu werden</w>.",
                                 "pl": "Ten młody prawnik ma nadzieję <w>zostać przyjętym</w> do palestry już w przyszłą jesień.",
                                 "it": "Questo giovane avvocato spera di <w>essere ammesso</w> all'albo già il prossimo autunno.",
-                                "cs": "Tento mladý právník doufá, že už příští podzim <w>bude přijat do advokacie</w>.",
+                                "cs": "Tento mladý právník doufá, že už příští podzim <w>bude přijat</w> do advokacie.",
                                 "tr": "Bu genç hukukçu, gelecek sonbahardan itibaren baroya <w>kabul edilmeyi</w> umuyor.",
-                                "es": "Este joven jurista espera <w>colegiarse</w> el próximo otoño.",
+                                "es": "Este joven jurista espera <w>ingresar</w> en el colegio de abogados el próximo otoño.",
                                 "zh": "这位年轻律师希望最早在明年秋天就能<w>通过</w>律师资格考试。"
                             }
                         }
@@ -770,7 +766,7 @@
                     "target_lang_definitions": {
                         "en": "To be successfully admitted to an exam, competition or professional body.",
                         "ru": "Успешно сдать экзамен или конкурс либо быть принятым в профессиональное сообщество.",
-                        "nl": "Met succes worden toegelaten tot een examen, wedstrijd of beroepsgroep.",
+                        "nl": "Slagen voor een examen of vergelijkend examen, of worden toegelaten tot een beroepsgroep.",
                         "de": "Eine Prüfung oder ein Auswahlverfahren erfolgreich bestehen oder in eine Berufsvereinigung aufgenommen werden.",
                         "pl": "Pomyślnie zdać egzamin lub konkurs albo zostać przyjętym do korporacji zawodowej.",
                         "it": "Superare con successo un esame o un concorso, oppure essere ammessi in un'istituzione o in un albo professionale.",
@@ -787,17 +783,25 @@
                             },
                             {
                                 "target_lang_word": "get into",
-                                "target_lang_sense_clarification": "a school, course, or profession"
+                                "target_lang_sense_clarification": "a school or course"
+                            },
+                            {
+                                "target_lang_word": "be admitted",
+                                "target_lang_sense_clarification": "to the bar or a professional body"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "сдать",
-                                "target_lang_sense_clarification": "экзамен или конкурсный отбор"
+                                "target_lang_sense_clarification": "экзамен успешно"
                             },
                             {
-                                "target_lang_word": "поступить",
-                                "target_lang_sense_clarification": "в вуз или на курсы"
+                                "target_lang_word": "пройти",
+                                "target_lang_sense_clarification": "конкурс, отбор"
+                            },
+                            {
+                                "target_lang_word": "быть принятым",
+                                "target_lang_sense_clarification": "в коллегию, корпорацию"
                             }
                         ],
                         "nl": [
@@ -854,8 +858,8 @@
                                 "target_lang_sense_clarification": "u zkoušky nebo konkurzu"
                             },
                             {
-                                "target_lang_word": "dostat se",
-                                "target_lang_sense_clarification": "na vysokou školu, do oboru"
+                                "target_lang_word": "být přijat",
+                                "target_lang_sense_clarification": "na školu, do advokacie"
                             }
                         ],
                         "tr": [
@@ -1047,6 +1051,10 @@
                             {
                                 "target_lang_word": "biriktirmek",
                                 "target_lang_sense_clarification": "depo, havuz, göl"
+                            },
+                            {
+                                "target_lang_word": "almak",
+                                "target_lang_sense_clarification": "nehir, göl: kollarının suyunu"
                             }
                         ],
                         "es": [

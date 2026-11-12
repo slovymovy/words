@@ -40,10 +40,10 @@
                                 "ru": "Мой <w>врач-терапевт</w> посоветовал мне сдать анализ крови.",
                                 "nl": "Mijn <w>huisarts</w> raadde me aan om bloed te laten prikken.",
                                 "de": "Mein <w>Hausarzt</w> hat mir geraten, Blut abnehmen zu lassen.",
-                                "pl": "Mój <w>lekarz rodzinny</w> zalecił mi zrobienie badania krwi.",
+                                "pl": "Mój <w>lekarz</w> rodzinny zalecił mi zrobienie badania krwi.",
                                 "it": "Il mio <w>medico</w> di famiglia mi ha consigliato di fare un prelievo del sangue.",
                                 "cs": "Můj praktický <w>lékař</w> mi doporučil nechat si udělat odběr krve.",
-                                "tr": "<w>Aile hekimim</w> bana kan tahlili yaptırmayı önerdi.",
+                                "tr": "Aile <w>hekimim</w> bana kan tahlili yaptırmayı önerdi.",
                                 "es": "Mi <w>médico</w> de cabecera me aconsejó que me hiciera un análisis de sangre.",
                                 "zh": "我的全科<w>医生</w>建议我去抽血化验。"
                             }
@@ -367,15 +367,15 @@
                             "text": "Après son internat, le sous-lieutenant a été nommé au grade de <w>médecin</w>.",
                             "target_lang_translations": {
                                 "en": "After his residency, the second lieutenant was appointed to the rank of <w>medical officer</w>.",
-                                "ru": "После ординатуры лейтенант получил звание <w>военврача</w>.",
+                                "ru": "После ординатуры младший лейтенант получил звание <w>военврача</w>.",
                                 "nl": "Na zijn ziekenhuisopleiding werd de onderluitenant benoemd tot <w>officier-arts</w>.",
                                 "de": "Nach seiner Weiterbildung wurde der Leutnant zum <w>Militärarzt</w> ernannt.",
                                 "pl": "Po ukończeniu rezydentury podporucznik został mianowany na stopień <w>oficera medycznego</w>.",
                                 "it": "Dopo la specializzazione, il sottotenente è stato nominato al grado di <w>tenente medico</w>.",
                                 "cs": "Po ukončení rezidentury byl podporučík jmenován do hodnosti <w>vojenského lékaře</w>.",
-                                "tr": "Uzmanlık eğitimini bitirdikten sonra teğmen <w>sağlık subayı</w> rütbesine atandı.",
+                                "tr": "Uzmanlık eğitimini bitirdikten sonra asteğmen <w>sağlık subayı</w> rütbesine atandı.",
                                 "es": "Tras su residencia, el subteniente fue nombrado con el grado de <w>teniente médico</w>.",
-                                "zh": "这位少尉完成住院医师培训后，被授予军医军衔。"
+                                "zh": "这位少尉完成住院医师培训后，被授予<w>军医</w>军衔。"
                             }
                         },
                         {
@@ -390,7 +390,7 @@
                                 "cs": "Čerstvě povýšena do hodnosti <w>vojenské lékařky</w>, nastoupila do vojenské výukové nemocnice.",
                                 "tr": "Kısa süre önce <w>sağlık subayı</w> rütbesine terfi eden kadın, askerî eğitim hastanesinde göreve başladı.",
                                 "es": "Recién ascendida al grado de <w>teniente médico</w>, se incorporó a un hospital militar de formación.",
-                                "zh": "她刚被授予军医军衔，就到了一所军队教学医院工作。"
+                                "zh": "她刚被授予<w>军医</w>军衔，就到了一所军队教学医院工作。"
                             }
                         }
                     ],
@@ -425,23 +425,48 @@
                                 "target_lang_sense_clarification": "militaire rang na de ziekenhuisopleiding"
                             }
                         ],
-                        "de": [],
-                        "pl": [],
+                        "de": [
+                            {
+                                "target_lang_word": "Militärarzt",
+                                "target_lang_sense_clarification": "Dienstgrad im französischen Sanitätsdienst"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "oficer medyczny",
+                                "target_lang_sense_clarification": "stopień we francuskiej wojskowej służbie zdrowia"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "tenente medico",
                                 "target_lang_sense_clarification": "grado nel corpo sanitario militare"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "vojenský lékař",
+                                "target_lang_sense_clarification": "hodnost ve francouzské armádní zdravotní službě"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sağlık subayı",
+                                "target_lang_sense_clarification": "Fransız ordusunda sağlık sınıfı rütbesi"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "teniente médico",
                                 "target_lang_sense_clarification": "grado militar sanitario"
                             }
                         ],
-                        "zh": []
+                        "zh": [
+                            {
+                                "target_lang_word": "军医",
+                                "target_lang_sense_clarification": "法军卫生部门的初级军官衔"
+                            }
+                        ]
                     }
                 }
             ]
@@ -460,30 +485,30 @@
                         {
                             "text": "Selon une vieille croyance, l'anneau se portait au doigt <w>médecin</w>, relié directement au cœur.",
                             "target_lang_translations": {
-                                "en": "According to an old belief, the ring was worn on the <w>ring finger</w>, which was believed to connect directly to the heart.",
-                                "ru": "Согласно старинному поверью, кольцо носили на <w>безымянном пальце</w>, который якобы напрямую связан с сердцем.",
+                                "en": "According to an old belief, the ring was worn on the <w>ring</w> finger, which was believed to connect directly to the heart.",
+                                "ru": "Согласно старинному поверью, кольцо носили на <w>безымянном</w> пальце, который якобы напрямую связан с сердцем.",
                                 "nl": "Volgens een oud geloof droeg men de ring aan de <w>ringvinger</w>, die rechtstreeks met het hart verbonden zou zijn.",
                                 "de": "Einem alten Volksglauben nach trug man den Ring am <w>Ringfinger</w>, der angeblich direkt mit dem Herzen verbunden ist.",
                                 "pl": "Według dawnego wierzenia pierścionek nosiło się na <w>serdecznym</w> palcu, który podobno był bezpośrednio połączony z sercem.",
                                 "it": "Secondo un'antica credenza, l'anello si portava al dito <w>anulare</w>, che si credeva collegato direttamente al cuore.",
                                 "cs": "Podle staré pověry se prsten nosil na <w>prsteníku</w>, který byl údajně přímo spojen se srdcem.",
-                                "tr": "Eski bir inanışa göre alyans, doğrudan kalbe bağlı olduğuna inanılan <w>yüzük parmağına</w> takılırdı.",
-                                "es": "Según una vieja creencia, el anillo se llevaba en el dedo <w>anular</w>, que se creía conectado directamente con el corazón.",
+                                "tr": "Eski bir inanışa göre alyans, doğrudan kalbe bağlı olduğuna inanılan <w>yüzük</w> parmağına takılırdı.",
+                                "es": "Según una vieja creencia, el anillo se llevaba en el dedo <w>médico</w>, que se creía conectado directamente con el corazón.",
                                 "zh": "按照一种古老的信仰，戒指要戴在这根<w>医学的</w>手指上，据说这根手指直接与心脏相连。"
                             }
                         },
                         {
                             "text": "Il examinait attentivement la forme singulière de son doigt <w>médecin</w>.",
                             "target_lang_translations": {
-                                "en": "He examined closely the unusual shape of his <w>ring finger</w>.",
-                                "ru": "Он внимательно рассматривал необычную форму своего <w>безымянного пальца</w>.",
+                                "en": "He examined closely the unusual shape of his <w>ring</w> finger.",
+                                "ru": "Он внимательно рассматривал необычную форму своего <w>безымянного</w> пальца.",
                                 "nl": "Hij bekeek aandachtig de bijzondere vorm van zijn <w>ringvinger</w>.",
                                 "de": "Er betrachtete aufmerksam die eigenartige Form seines <w>Ringfingers</w>.",
                                 "pl": "Uważnie przyglądał się osobliwemu kształtowi swojego <w>serdecznego</w> palca.",
                                 "it": "Esaminava attentamente la forma particolare del suo dito <w>anulare</w>.",
                                 "cs": "Pozorně si prohlížel zvláštní tvar svého <w>prsteníku</w>.",
-                                "tr": "Onun <w>yüzük parmağının</w> alışılmadık şeklini dikkatle inceliyordu.",
-                                "es": "Examinaba con atención la forma peculiar de su dedo <w>anular</w>.",
+                                "tr": "Onun <w>yüzük</w> parmağının alışılmadık şeklini dikkatle inceliyordu.",
+                                "es": "Examinaba con atención la forma peculiar de su dedo <w>médico</w>.",
                                 "zh": "他仔细端详着自己无名指那奇特的形状。"
                             }
                         }
@@ -513,10 +538,18 @@
                         "en": [
                             {
                                 "target_lang_word": "medical",
-                                "target_lang_sense_clarification": "clinical care and treatment"
+                                "target_lang_sense_clarification": "relating to doctors or medicine"
+                            },
+                            {
+                                "target_lang_word": "ring",
+                                "target_lang_sense_clarification": "only in 'ring finger' (doigt médecin)"
                             }
                         ],
                         "ru": [
+                            {
+                                "target_lang_word": "безымянный",
+                                "target_lang_sense_clarification": "устар., только о пальце"
+                            },
                             {
                                 "target_lang_word": "медицинский",
                                 "target_lang_sense_clarification": "связанный с лечением и здравоохранением"
@@ -548,12 +581,16 @@
                         ],
                         "pl": [
                             {
+                                "target_lang_word": "lekarski",
+                                "target_lang_sense_clarification": "np. zawód lekarski"
+                            },
+                            {
                                 "target_lang_word": "medyczny",
                                 "target_lang_sense_clarification": "np. sprzęt medyczny"
                             },
                             {
-                                "target_lang_word": "lekarski",
-                                "target_lang_sense_clarification": "np. zawód lekarski"
+                                "target_lang_word": "serdeczny",
+                                "target_lang_sense_clarification": "tylko o palcu: palec serdeczny"
                             }
                         ],
                         "it": [
@@ -562,8 +599,8 @@
                                 "target_lang_sense_clarification": "come in certificato medico"
                             },
                             {
-                                "target_lang_word": "sanitario",
-                                "target_lang_sense_clarification": "relativo alla salute pubblica"
+                                "target_lang_word": "anulare",
+                                "target_lang_sense_clarification": "solo in «doigt médecin», antico nome del dito"
                             }
                         ],
                         "cs": [
@@ -579,7 +616,11 @@
                         "tr": [
                             {
                                 "target_lang_word": "tıbbi",
-                                "target_lang_sense_clarification": "tedavi ve sağlık hizmetleri için"
+                                "target_lang_sense_clarification": "hekimle veya tıpla ilgili"
+                            },
+                            {
+                                "target_lang_word": "yüzük",
+                                "target_lang_sense_clarification": "'doigt médecin': yüzük parmağı"
                             }
                         ],
                         "es": [

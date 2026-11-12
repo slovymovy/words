@@ -21,11 +21,11 @@
                                 "en": "The project <w>in which</w> we are taking part requires a great deal of work and attention.",
                                 "ru": "Проект, <w>в котором</w> мы участвуем, требует много работы и внимания.",
                                 "nl": "Het project <w>waaraan</w> we deelnemen, vergt veel werk en aandacht.",
-                                "de": "Das Projekt, <w>woran</w> wir teilnehmen, erfordert viel Arbeit und Aufmerksamkeit.",
+                                "de": "Das Projekt, <w>an dem</w> wir teilnehmen, erfordert viel Arbeit und Aufmerksamkeit.",
                                 "pl": "Projekt, <w>w którym</w> bierzemy udział, wymaga wiele pracy i uwagi.",
                                 "it": "Il progetto <w>a cui</w> partecipiamo richiede molto lavoro e attenzione.",
                                 "cs": "Projekt, <w>na kterém</w> se podílíme, vyžaduje hodně práce a pozornosti.",
-                                "tr": "<w>Katıldığımız</w> proje çok emek ve dikkat gerektiriyor.",
+                                "tr": "Katıl<w>dığımız</w> proje çok emek ve dikkat gerektiriyor.",
                                 "es": "El proyecto <w>en el que</w> participamos exige mucho trabajo y atención.",
                                 "zh": "我们参与的这个项目需要大量的工作和关注。"
                             }
@@ -36,13 +36,13 @@
                                 "en": "It is a complex problem <w>for which</w> we have not yet found a solution.",
                                 "ru": "Это сложная проблема, <w>для которой</w> мы пока не нашли решения.",
                                 "nl": "Het is een complex probleem <w>waarvoor</w> we nog geen oplossing hebben gevonden.",
-                                "de": "Es ist ein komplexes Problem, <w>wofür</w> wir noch keine Lösung gefunden haben.",
+                                "de": "Es ist ein komplexes Problem, <w>für das</w> wir noch keine Lösung gefunden haben.",
                                 "pl": "To złożony problem, <w>dla którego</w> nie znaleźliśmy jeszcze rozwiązania.",
                                 "it": "È un problema complesso <w>al quale</w> non abbiamo ancora trovato una soluzione.",
-                                "cs": "Je to složitý problém, <w>pro který</w> jsme zatím nenašli řešení.",
-                                "tr": "Bu, henüz <w>çözümünü bulamadığımız</w> karmaşık bir sorun.",
-                                "es": "Es un problema complejo <w>para el que</w> todavía no hemos encontrado solución.",
-                                "zh": "这是一个复杂的问题，我们<w>为之</w>苦恼已久，却仍未找到解决办法。"
+                                "cs": "Je to složitý problém, <w>ke kterému</w> jsme zatím nenašli řešení.",
+                                "tr": "Bu, henüz çözümünü bulama<w>dığımız</w> karmaşık bir sorun.",
+                                "es": "Es un problema complejo <w>al que</w> todavía no hemos encontrado solución.",
+                                "zh": "这是一个复杂的问题，我们至今尚未<w>为之</w>找到解决办法。"
                             }
                         }
                     ],
@@ -75,12 +75,16 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "к которому",
-                                "target_lang_sense_clarification": "для предметов и идей"
+                                "target_lang_word": "который",
+                                "target_lang_sense_clarification": "предлог и падеж зависят от русского глагола"
                             },
                             {
                                 "target_lang_word": "которому",
-                                "target_lang_sense_clarification": "для людей"
+                                "target_lang_sense_clarification": "при глаголах с дательным падежом"
+                            },
+                            {
+                                "target_lang_word": "к которому",
+                                "target_lang_sense_clarification": "при глаголах с предлогом «к»"
                             }
                         ],
                         "nl": [
@@ -95,16 +99,16 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "woran",
-                                "target_lang_sense_clarification": "Sachen, Verben mit »an«"
+                                "target_lang_word": "an dem",
+                                "target_lang_sense_clarification": "bei Verben mit an, z. B. teilnehmen an"
                             },
                             {
-                                "target_lang_word": "wozu",
-                                "target_lang_sense_clarification": "bei Zweck und Bestimmung"
+                                "target_lang_word": "zu dem",
+                                "target_lang_sense_clarification": "bei Verben mit zu, z. B. gehören zu"
                             },
                             {
-                                "target_lang_word": "bei dem",
-                                "target_lang_sense_clarification": "für Personen und Umstände"
+                                "target_lang_word": "für das",
+                                "target_lang_sense_clarification": "bei Verben mit für, neutrales Bezugswort"
                             }
                         ],
                         "pl": [
@@ -145,7 +149,12 @@
                                 "target_lang_sense_clarification": "formální, psaný jazyk"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "-dığı / -diği",
+                                "target_lang_sense_clarification": "ilgi cümlesi kuran ortaç eki"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "al que",
@@ -154,6 +163,10 @@
                             {
                                 "target_lang_word": "al cual",
                                 "target_lang_sense_clarification": "registro formal, sobre todo cosas"
+                            },
+                            {
+                                "target_lang_word": "en el que",
+                                "target_lang_sense_clarification": "si el verbo español rige «en»"
                             }
                         ],
                         "zh": [
@@ -197,7 +210,7 @@
                                 "en": "Of these recent models, <w>which one</w> do you prefer for your work?",
                                 "ru": "Из этих новых моделей <w>какую</w> ты предпочитаешь для работы?",
                                 "nl": "<w>Welk van</w> deze recente modellen geef jij de voorkeur voor je werk?",
-                                "de": "<w>Welche</w> dieser neuen Modelle bevorzugst du für deine Arbeit?",
+                                "de": "<w>Welchem</w> dieser neuen Modelle gibst du für deine Arbeit den Vorzug?",
                                 "pl": "Spośród tych nowych modeli, <w>któremu</w> dajesz pierwszeństwo do swojej pracy?",
                                 "it": "Tra questi modelli recenti, <w>a quale</w> dai la preferenza per il tuo lavoro?",
                                 "cs": "Mezi těmito novými modely, <w>kterému</w> dáváš přednost pro svou práci?",

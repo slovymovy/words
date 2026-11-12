@@ -24,7 +24,7 @@
                                 "en": "Tonight, I'm <w>making</w> a hot soup for the whole family.",
                                 "ru": "Сегодня вечером я <w>готовлю</w> горячий суп для всей семьи.",
                                 "nl": "Vanavond <w>bereid</w> ik een warme soep voor het hele gezin.",
-                                "de": "Heute Abend <w>koche</w> ich eine warme Suppe für die ganze Familie.",
+                                "de": "Heute Abend <w>bereite</w> ich eine warme Suppe für die ganze Familie <w>zu</w>.",
                                 "pl": "Dziś wieczorem <w>przygotowuję</w> gorącą zupę dla całej rodziny.",
                                 "it": "Stasera <w>preparo</w> una zuppa calda per tutta la famiglia.",
                                 "cs": "Dnes večer <w>vařím</w> horkou polévku pro celou rodinu.",
@@ -38,11 +38,11 @@
                             "target_lang_translations": {
                                 "en": "She started <w>packing</w> her suitcase several days before she left.",
                                 "ru": "Она начала <w>собирать</w> чемодан за несколько дней до отъезда.",
-                                "nl": "Ze begon al een paar dagen voor haar vertrek haar koffer <w>in te pakken</w>.",
-                                "de": "Sie hat schon einige Tage vor der Abreise angefangen, ihren Koffer <w>einzupacken</w>.",
+                                "nl": "Ze begon al een paar dagen voor haar vertrek haar koffer te <w>pakken</w>.",
+                                "de": "Sie hat schon einige Tage vor der Abreise angefangen, ihren Koffer zu <w>packen</w>.",
                                 "pl": "Zaczęła <w>szykować</w> walizkę już kilka dni przed wyjazdem.",
                                 "it": "Ha cominciato a <w>preparare</w> la valigia già diversi giorni prima della partenza.",
-                                "cs": "Začala si <w>balit</w> kufr už několik dní před odjezdem.",
+                                "cs": "Začala si <w>chystat</w> kufr už několik dní před odjezdem.",
                                 "tr": "Yola çıkmadan birkaç gün önce valizini <w>hazırlamaya</w> başladı.",
                                 "es": "Empezó a <w>preparar</w> la maleta varios días antes de la partida.",
                                 "zh": "她在动身前好几天就开始<w>准备</w>行李了。"
@@ -104,20 +104,24 @@
                             {
                                 "target_lang_word": "bereiden",
                                 "target_lang_sense_clarification": "maaltijden of dranken bereiden"
+                            },
+                            {
+                                "target_lang_word": "pakken",
+                                "target_lang_sense_clarification": "een koffer of tas pakken"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "zubereiten",
-                                "target_lang_sense_clarification": "Essen oder Getränke zubereiten"
-                            },
-                            {
-                                "target_lang_word": "herrichten",
-                                "target_lang_sense_clarification": "Sachen gebrauchsfertig herrichten"
+                                "target_lang_sense_clarification": "Essen oder Getränke"
                             },
                             {
                                 "target_lang_word": "vorbereiten",
                                 "target_lang_sense_clarification": "allgemein, für den Gebrauch fertig machen"
+                            },
+                            {
+                                "target_lang_word": "packen",
+                                "target_lang_sense_clarification": "Koffer oder Tasche"
                             }
                         ],
                         "pl": [
@@ -223,7 +227,7 @@
                                 "de": "Die Studierenden verbringen viel Zeit in der Bibliothek und <w>lernen</w> für ihre Prüfungen.",
                                 "pl": "Studenci spędzają dużo czasu w bibliotece, <w>ucząc się</w> do egzaminów.",
                                 "it": "Gli studenti passano molto tempo in biblioteca a <w>studiare</w> per gli esami.",
-                                "cs": "Studenti tráví v knihovně hodně času tím, že se <w>učí</w> na zkoušky.",
+                                "cs": "Studenti tráví v knihovně hodně času tím, že <w>se učí</w> na zkoušky.",
                                 "tr": "Öğrenciler kütüphanede sınavlarına <w>çalışarak</w> çok zaman geçiriyor.",
                                 "es": "Los estudiantes pasan mucho tiempo en la biblioteca <w>estudiando</w> para sus exámenes.",
                                 "zh": "学生们常常泡在图书馆里，花很多时间<w>备考</w>。"
@@ -237,10 +241,10 @@
                                 "nl": "Mijn broer <w>bereidt zich voor op</w> een zwaar toelatingsexamen om tot deze school te worden toegelaten.",
                                 "de": "Mein Bruder <w>lernt</w> für eine schwierige Aufnahmeprüfung, um an dieser Schule angenommen zu werden.",
                                 "pl": "Mój brat <w>przygotowuje się</w> do trudnego konkursu wstępnego, żeby dostać się do tej szkoły.",
-                                "it": "Mio fratello <w>si sta preparando</w> a un concorso difficile per entrare in questa scuola.",
-                                "cs": "Můj bratr se <w>připravuje</w> na těžké přijímací zkoušky, aby se dostal na tuto školu.",
+                                "it": "Mio fratello si sta <w>preparando</w> a un concorso difficile per entrare in questa scuola.",
+                                "cs": "Můj bratr <w>se připravuje</w> na těžké přijímací zkoušky, aby se dostal na tuto školu.",
                                 "tr": "Kardeşim bu okula girebilmek için zorlu bir giriş sınavına <w>hazırlanıyor</w>.",
-                                "es": "Mi hermano <w>se está preparando</w> para un examen de ingreso muy difícil, con el que quiere entrar en esta escuela.",
+                                "es": "Mi hermano <w>se prepara</w> para un difícil examen de ingreso en esta escuela.",
                                 "zh": "我哥哥正在为一场很难的入学考试<w>备考</w>，想考进这所学校。"
                             }
                         }
@@ -268,16 +272,16 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "prepare for",
+                                "target_lang_sense_clarification": "getting ready for an exam or contest"
+                            },
+                            {
                                 "target_lang_word": "study",
                                 "target_lang_sense_clarification": "studying for exams or tests"
                             },
                             {
                                 "target_lang_word": "revise",
                                 "target_lang_sense_clarification": "British: reviewing before exams"
-                            },
-                            {
-                                "target_lang_word": "train",
-                                "target_lang_sense_clarification": "physical or sporting preparation"
                             }
                         ],
                         "ru": [
@@ -422,7 +426,7 @@
                                 "en": "The director spent the evening <w>drafting</w> his official speech.",
                                 "ru": "Директор провёл вечер, <w>составляя</w> официальную речь.",
                                 "nl": "De directeur bracht de avond door met het <w>opstellen</w> van zijn officiële toespraak.",
-                                "de": "Der Direktor verbrachte den Abend damit, seine offizielle Rede <w>aufzusetzen</w>.",
+                                "de": "Der Direktor verbrachte den Abend damit, seine offizielle Rede <w>auszuarbeiten</w>.",
                                 "pl": "Dyrektor spędził wieczór, <w>układając</w> oficjalne przemówienie.",
                                 "it": "Il direttore ha passato la serata a <w>redigere</w> il suo discorso ufficiale.",
                                 "cs": "Ředitel strávil večer tím, že <w>připravoval</w> svůj oficiální projev.",
@@ -646,7 +650,7 @@
                                 "de": "Diese erste Verhandlung hat den Weg für eine dauerhafte Einigung <w>geebnet</w>.",
                                 "pl": "Te pierwsze negocjacje <w>przygotowały grunt</w> pod trwałe porozumienie.",
                                 "it": "Questa prima trattativa ha <w>preparato il terreno</w> per un accordo duraturo.",
-                                "cs": "Tato první jednání <w>připravila půdu</w> pro trvalou dohodu.",
+                                "cs": "Toto první jednání <w>připravilo</w> půdu pro trvalou dohodu.",
                                 "tr": "Bu ilk müzakere kalıcı bir anlaşmanın <w>zeminini hazırladı</w>.",
                                 "es": "Esta primera negociación <w>preparó el terreno</w> para un acuerdo duradero.",
                                 "zh": "这次首轮谈判为达成持久协议<w>铺平道路</w>。"
@@ -767,8 +771,8 @@
                                 "target_lang_sense_clarification": "organizace akce nebo schůzky"
                             },
                             {
-                                "target_lang_word": "připravit půdu",
-                                "target_lang_sense_clarification": "vytvoření podmínek pro další vývoj"
+                                "target_lang_word": "připravit",
+                                "target_lang_sense_clarification": "vytvořit podmínky, např. připravit půdu"
                             }
                         ],
                         "tr": [
@@ -828,14 +832,14 @@
                             "target_lang_translations": {
                                 "en": "The doctor searched for the right words to <w>prepare</w> the family for the diagnosis.",
                                 "ru": "Врач подбирал нужные слова, чтобы <w>подготовить</w> семью к диагнозу.",
-                                "nl": "De arts zocht naar de juiste woorden om het gezin <w>voor te bereiden</w> op de diagnose.",
+                                "nl": "De arts zocht naar de juiste woorden om het gezin <w>voor</w> te <w>bereiden</w> op de diagnose.",
                                 "de": "Der Arzt suchte nach den richtigen Worten, um die Familie auf die Diagnose <w>vorzubereiten</w>.",
                                 "pl": "Lekarz szukał właściwych słów, żeby delikatnie <w>przygotować</w> rodzinę na diagnozę.",
                                 "it": "Il medico ha cercato le parole giuste per <w>preparare</w> la famiglia alla diagnosi.",
                                 "cs": "Lékař hledal správná slova, aby <w>připravil</w> rodinu na diagnózu.",
                                 "tr": "Doktor, aileyi teşhise <w>hazırlamak</w> için doğru sözcükleri aradı.",
                                 "es": "El médico buscó las palabras adecuadas para <w>preparar</w> a la familia ante el diagnóstico.",
-                                "zh": "医生斟酌措辞，想把诊断结果<w>委婉告知</w>家人。"
+                                "zh": "医生斟酌措辞，想<w>让</w>家人对诊断结果<w>有心理准备</w>。"
                             }
                         },
                         {
@@ -971,8 +975,8 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "委婉告知",
-                                "target_lang_sense_clarification": "婉转地转达坏消息"
+                                "target_lang_word": "让…有心理准备",
+                                "target_lang_sense_clarification": "事先婉转透露，以免受惊"
                             },
                             {
                                 "target_lang_word": "铺垫",

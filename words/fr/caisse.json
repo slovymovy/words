@@ -82,10 +82,6 @@
                         "ru": [
                             {
                                 "target_lang_word": "касса",
-                                "target_lang_sense_clarification": "в магазинах и супермаркетах"
-                            },
-                            {
-                                "target_lang_word": "расчётный пункт",
                                 "target_lang_sense_clarification": "место оплаты в магазине"
                             }
                         ],
@@ -438,6 +434,10 @@
                         ],
                         "pl": [
                             {
+                                "target_lang_word": "kasa",
+                                "target_lang_sense_clarification": "urządzenie rejestrujące płatności"
+                            },
+                            {
                                 "target_lang_word": "kasa fiskalna",
                                 "target_lang_sense_clarification": "rejestruje sprzedaż i wydaje paragony"
                             },
@@ -689,15 +689,15 @@
                         {
                             "text": "À la fin de la journée, il vérifie l'argent présent dans la <w>caisse</w>.",
                             "target_lang_translations": {
-                                "en": "At the end of the day, he checks the <w>cash</w> in the till.",
-                                "ru": "В конце дня он пересчитывает <w>наличные</w> деньги в кассе.",
+                                "en": "At the end of the day, he checks the cash in the <w>till</w>.",
+                                "ru": "В конце дня он проверяет деньги в <w>кассе</w>.",
                                 "nl": "Aan het eind van de dag telt hij het geld in de <w>kas</w>.",
                                 "de": "Am Ende des Tages zählt er das Geld in der <w>Kasse</w> nach.",
-                                "pl": "Pod koniec dnia sprawdza, ile jest <w>gotówki</w> w kasie.",
+                                "pl": "Pod koniec dnia sprawdza, ile pieniędzy jest w <w>kasie</w>.",
                                 "it": "Alla fine della giornata controlla il denaro presente in <w>cassa</w>.",
                                 "cs": "Na konci dne kontroluje, kolik je v <w>pokladně</w> hotovosti.",
-                                "tr": "Gün sonunda kasadaki <w>nakdi</w> kontrol ediyor.",
-                                "es": "Al final del día, comprueba cuánto <w>efectivo</w> hay en la caja.",
+                                "tr": "Gün sonunda <w>kasadaki</w> parayı kontrol ediyor.",
+                                "es": "Al final del día, comprueba el dinero que hay en la <w>caja</w>.",
                                 "zh": "一天结束时，他清点收银台里的<w>现金</w>。"
                             }
                         },
@@ -736,11 +736,15 @@
                         "en": [
                             {
                                 "target_lang_word": "cash",
-                                "target_lang_sense_clarification": "business accounts, money in hand"
+                                "target_lang_sense_clarification": "money a business has in hand"
                             },
                             {
                                 "target_lang_word": "funds",
-                                "target_lang_sense_clarification": "organisation finances"
+                                "target_lang_sense_clarification": "an organisation's finances"
+                            },
+                            {
+                                "target_lang_word": "till",
+                                "target_lang_sense_clarification": "the cash a shop holds"
                             }
                         ],
                         "ru": [
@@ -795,8 +799,12 @@
                         ],
                         "cs": [
                             {
+                                "target_lang_word": "pokladna",
+                                "target_lang_sense_clarification": "hotovost firmy nebo spolku"
+                            },
+                            {
                                 "target_lang_word": "hotovost",
-                                "target_lang_sense_clarification": "peníze v podniku, v rukou"
+                                "target_lang_sense_clarification": "peníze, které má podnik k dispozici"
                             },
                             {
                                 "target_lang_word": "stav pokladny",
@@ -854,7 +862,7 @@
                                 "ru": "Эту медицинскую форму нужно отправить в ваш <w>фонд</w> медицинского страхования.",
                                 "nl": "U moet dit medische formulier naar uw <w>ziekenfonds</w> sturen.",
                                 "de": "Sie müssen dieses medizinische Formular an Ihre <w>Krankenkasse</w> schicken.",
-                                "pl": "Ten formularz medyczny należy wysłać do swojej <w>kasy chorych</w>.",
+                                "pl": "Ten formularz medyczny należy wysłać do swojej <w>kasy</w> chorych.",
                                 "it": "Deve inviare questo modulo medico alla sua <w>cassa mutua</w>.",
                                 "cs": "Tento lékařský formulář musíte poslat své <w>zdravotní pojišťovně</w>.",
                                 "tr": "Bu sağlık formunu <w>sağlık sigortası kurumunuza</w> göndermeniz gerekiyor.",
@@ -865,10 +873,10 @@
                         {
                             "text": "Il a déposé ses économies auprès d'une <w>caisse</w> de prévoyance locale.",
                             "target_lang_translations": {
-                                "en": "He deposited his savings with a local <w>fund</w>.",
+                                "en": "He deposited his savings with a local provident <w>fund</w>.",
                                 "ru": "Он положил свои сбережения в местный <w>сберегательный банк</w>.",
                                 "nl": "Hij heeft zijn spaargeld bij een plaatselijke <w>spaarbank</w> gestort.",
-                                "de": "Er hat seine Ersparnisse bei einer örtlichen <w>Sparkasse</w> eingezahlt.",
+                                "de": "Er hat seine Ersparnisse bei einer örtlichen <w>Vorsorgekasse</w> eingezahlt.",
                                 "pl": "Oszczędności złożył w lokalnej <w>kasie oszczędnościowej</w>.",
                                 "it": "Ha depositato i suoi risparmi presso una <w>cassa di risparmio</w> locale.",
                                 "cs": "Své úspory uložil v místní <w>spořitelně</w>.",
@@ -929,6 +937,10 @@
                             }
                         ],
                         "de": [
+                            {
+                                "target_lang_word": "Kasse",
+                                "target_lang_sense_clarification": "Einrichtung, die Gelder verwaltet"
+                            },
                             {
                                 "target_lang_word": "Krankenkasse",
                                 "target_lang_sense_clarification": "gesetzliche Krankenversicherung"
@@ -1234,11 +1246,7 @@
                         "ru": [
                             {
                                 "target_lang_word": "барабан",
-                                "target_lang_sense_clarification": "ударный инструмент в оркестре"
-                            },
-                            {
-                                "target_lang_word": "обечайка",
-                                "target_lang_sense_clarification": "техн., корпус барабана"
+                                "target_lang_sense_clarification": "ударный инструмент"
                             }
                         ],
                         "nl": [
@@ -1449,11 +1457,11 @@
                         "tr": [
                             {
                                 "target_lang_word": "osuruk",
-                                "target_lang_sense_clarification": "günlük, nötr ifade"
+                                "target_lang_sense_clarification": "kaba konuşma dili"
                             },
                             {
-                                "target_lang_word": "guz",
-                                "target_lang_sense_clarification": "kaba argo"
+                                "target_lang_word": "yellenme",
+                                "target_lang_sense_clarification": "kibar, örtmeceli söyleyiş"
                             }
                         ],
                         "es": [
@@ -1501,7 +1509,7 @@
                                 "pl": "Po tym dwudziestokilometrowym marszu w górach jesteśmy zupełnie <w>wykończeni</w>.",
                                 "it": "Dopo questa camminata di venti chilometri in montagna, siamo completamente <w>stanchi morti</w>.",
                                 "cs": "Po tom dvacetikilometrovém pochodu v horách jsme úplně <w>vyčerpaní</w>.",
-                                "tr": "Dağlarda yirmi kilometrelik bu yürüyüşten sonra tamamen <w>bitkinik</w>.",
+                                "tr": "Dağlarda yirmi kilometrelik bu yürüyüşten sonra tamamen <w>bitkiniz</w>.",
                                 "es": "Después de esa caminata de veinte kilómetros por la montaña, estamos completamente <w>agotados</w>.",
                                 "zh": "我们翻山走了二十公里，已经<w>精疲力竭</w>了。"
                             }
@@ -1691,7 +1699,7 @@
                                 "cs": "Večer toho moc vypil a domů se vrátil úplně <w>namol</w>.",
                                 "tr": "Akşam boyunca çok fazla içti ve eve tamamen <w>sarhoş</w> döndü.",
                                 "es": "Bebió demasiado durante la velada y volvió a casa completamente <w>borracho</w>.",
-                                "zh": "他晚上喝多了，回家时醉醺醺的。"
+                                "zh": "他晚上喝多了，回家时<w>醉醺醺</w>的。"
                             }
                         },
                         {
@@ -1791,8 +1799,8 @@
                                 "target_lang_sense_clarification": "potocznie, mocno pijany"
                             },
                             {
-                                "target_lang_word": "w sztok",
-                                "target_lang_sense_clarification": "potocznie, bardzo pijany"
+                                "target_lang_word": "naćpany",
+                                "target_lang_sense_clarification": "potocznie, po narkotykach"
                             }
                         ],
                         "it": [

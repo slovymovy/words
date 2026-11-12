@@ -17,16 +17,16 @@
                         {
                             "text": "La famille prend toujours son petit-déjeuner dans la <w>salle</w> à manger.",
                             "target_lang_translations": {
-                                "en": "The family always has breakfast in the <w>dining room</w>.",
+                                "en": "The family always has breakfast in the dining <w>room</w>.",
                                 "ru": "Семья всегда завтракает в <w>столовой</w>.",
                                 "nl": "Het gezin ontbijt altijd in de <w>eetkamer</w>.",
                                 "de": "Die Familie frühstückt immer im <w>Esszimmer</w>.",
                                 "pl": "Rodzina zawsze je śniadanie w <w>jadalni</w>.",
-                                "it": "La famiglia fa sempre colazione nella <w>sala da pranzo</w>.",
+                                "it": "La famiglia fa sempre colazione nella <w>sala</w> da pranzo.",
                                 "cs": "Rodina vždy snídá v <w>jídelně</w>.",
-                                "tr": "Aile kahvaltısını her zaman <w>yemek odasında</w> yapar.",
+                                "tr": "Aile kahvaltısını her zaman yemek <w>odasında</w> yapar.",
                                 "es": "La familia siempre desayuna en el <w>comedor</w>.",
-                                "zh": "一家人总是在<w>餐厅</w>吃早餐。"
+                                "zh": "一家人总是在餐<w>厅</w>吃早餐。"
                             }
                         },
                         {
@@ -40,8 +40,8 @@
                                 "it": "Mio fratello la mattina passa molto tempo in <w>bagno</w>.",
                                 "cs": "Můj bratr se ráno dlouho zdržuje v <w>koupelně</w>.",
                                 "tr": "Kardeşim sabahları uzun süre <w>banyoda</w> vakit geçirir.",
-                                "es": "Mi hermano pasa mucho tiempo en el <w>baño</w> por las mañanas.",
-                                "zh": "我哥哥早上总要在<w>浴室</w>里待很久。"
+                                "es": "Mi hermano pasa mucho tiempo en el <w>cuarto</w> de baño por las mañanas.",
+                                "zh": "我哥哥早上总要在浴<w>室</w>里待很久。"
                             }
                         }
                     ],
@@ -69,27 +69,31 @@
                         "en": [
                             {
                                 "target_lang_word": "room",
-                                "target_lang_sense_clarification": "Part of a home"
+                                "target_lang_sense_clarification": "part of a home"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "комната",
-                                "target_lang_sense_clarification": "Например, спальня или гостиная"
+                                "target_lang_sense_clarification": "помещение в доме, квартире"
                             },
                             {
                                 "target_lang_word": "столовая",
-                                "target_lang_sense_clarification": "Для приёма пищи"
+                                "target_lang_sense_clarification": "для приёма пищи"
+                            },
+                            {
+                                "target_lang_word": "ванная",
+                                "target_lang_sense_clarification": "для мытья, с ванной или душем"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "kamer",
-                                "target_lang_sense_clarification": "Algemeen deel van een woning"
+                                "target_lang_sense_clarification": "algemeen deel van een woning"
                             },
                             {
                                 "target_lang_word": "vertrek",
-                                "target_lang_sense_clarification": "Formeel woord voor woonruimte"
+                                "target_lang_sense_clarification": "formeel woord voor woonruimte"
                             }
                         ],
                         "de": [
@@ -105,55 +109,59 @@
                         "pl": [
                             {
                                 "target_lang_word": "pokój",
-                                "target_lang_sense_clarification": "Część mieszkania"
+                                "target_lang_sense_clarification": "część mieszkania"
                             },
                             {
                                 "target_lang_word": "pomieszczenie",
-                                "target_lang_sense_clarification": "Ogólne określenie wnętrza"
+                                "target_lang_sense_clarification": "ogólne określenie wnętrza"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "stanza",
-                                "target_lang_sense_clarification": "Ambiente generico della casa"
+                                "target_lang_sense_clarification": "ambiente generico della casa"
+                            },
+                            {
+                                "target_lang_word": "sala",
+                                "target_lang_sense_clarification": "in composti: sala da pranzo"
                             },
                             {
                                 "target_lang_word": "camera",
-                                "target_lang_sense_clarification": "Anche camera da letto"
+                                "target_lang_sense_clarification": "anche camera da letto"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "pokoj",
-                                "target_lang_sense_clarification": "Obytná místnost v bytě"
+                                "target_lang_sense_clarification": "obytná místnost v bytě"
                             },
                             {
                                 "target_lang_word": "místnost",
-                                "target_lang_sense_clarification": "Obecný název vnitřní místnosti"
+                                "target_lang_sense_clarification": "obecný název vnitřní místnosti"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "oda",
-                                "target_lang_sense_clarification": "Ev içindeki herhangi bir bölme"
+                                "target_lang_sense_clarification": "ev içindeki herhangi bir bölme"
                             },
                             {
                                 "target_lang_word": "salon",
-                                "target_lang_sense_clarification": "Oturma ve misafir odası"
+                                "target_lang_sense_clarification": "oturma ve misafir odası"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "habitación",
-                                "target_lang_sense_clarification": "Término general de vivienda"
+                                "target_lang_sense_clarification": "término general de vivienda"
                             },
                             {
                                 "target_lang_word": "cuarto",
-                                "target_lang_sense_clarification": "Coloquial, dormitorio o baño"
+                                "target_lang_sense_clarification": "coloquial, dormitorio o baño"
                             },
                             {
                                 "target_lang_word": "estancia",
-                                "target_lang_sense_clarification": "Formal, sala o salón"
+                                "target_lang_sense_clarification": "formal, sala o salón"
                             }
                         ],
                         "zh": [
@@ -162,12 +170,12 @@
                                 "target_lang_sense_clarification": "住宅中的普通房间"
                             },
                             {
-                                "target_lang_word": "餐厅",
-                                "target_lang_sense_clarification": "用来吃饭的房间"
+                                "target_lang_word": "厅",
+                                "target_lang_sense_clarification": "住宅中，如餐厅、客厅"
                             },
                             {
-                                "target_lang_word": "浴室",
-                                "target_lang_sense_clarification": "用来洗澡的房间"
+                                "target_lang_word": "室",
+                                "target_lang_sense_clarification": "住宅中，如浴室、卧室"
                             }
                         ]
                     }
@@ -192,7 +200,7 @@
                                 "cs": "Studenti čekají na profesora před <w>učebnou</w>.",
                                 "tr": "Öğrenciler hocalarını <w>sınıfın</w> önünde bekliyor.",
                                 "es": "Los estudiantes esperan a su profesor delante del <w>aula</w>.",
-                                "zh": "学生们在<w>教室</w>门口等老师。"
+                                "zh": "学生们在教<w>室</w>门口等老师。"
                             }
                         },
                         {
@@ -205,9 +213,9 @@
                                 "pl": "Organizujemy ważną konferencję w dużej <w>sali konferencyjnej</w>.",
                                 "it": "Organizziamo un importante convegno nella grande <w>sala riunioni</w>.",
                                 "cs": "Pořádáme důležitou konferenci ve velké <w>zasedací místnosti</w>.",
-                                "tr": "Büyük bir <w>toplantı odasında</w> önemli bir konferans düzenliyoruz.",
+                                "tr": "Büyük toplantı <w>salonunda</w> önemli bir konferans düzenliyoruz.",
                                 "es": "Organizamos una importante conferencia en la gran <w>sala de reuniones</w>.",
-                                "zh": "我们将在大<w>会议室</w>里举办一场重要的会议。"
+                                "zh": "我们将在大会议<w>室</w>里举办一场重要的会议。"
                             }
                         }
                     ],
@@ -232,43 +240,43 @@
                         "en": [
                             {
                                 "target_lang_word": "room",
-                                "target_lang_sense_clarification": "Used for meetings or classes"
+                                "target_lang_sense_clarification": "used for meetings or classes"
                             },
                             {
                                 "target_lang_word": "meeting room",
-                                "target_lang_sense_clarification": "For business meetings"
+                                "target_lang_sense_clarification": "for business meetings"
                             },
                             {
                                 "target_lang_word": "classroom",
-                                "target_lang_sense_clarification": "For school lessons"
+                                "target_lang_sense_clarification": "for school lessons"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "аудитория",
-                                "target_lang_sense_clarification": "Для лекций и занятий"
+                                "target_lang_sense_clarification": "для лекций и занятий"
                             },
                             {
-                                "target_lang_word": "переговорная",
-                                "target_lang_sense_clarification": "Для деловых встреч"
+                                "target_lang_word": "зал",
+                                "target_lang_sense_clarification": "для собраний, совещаний"
                             },
                             {
                                 "target_lang_word": "класс",
-                                "target_lang_sense_clarification": "Для уроков в школе"
+                                "target_lang_sense_clarification": "для уроков в школе"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "lokaal",
-                                "target_lang_sense_clarification": "Klas of ruimte op school"
+                                "target_lang_sense_clarification": "klas of ruimte op school"
                             },
                             {
                                 "target_lang_word": "vergaderzaal",
-                                "target_lang_sense_clarification": "Voor zakelijke bijeenkomsten"
+                                "target_lang_sense_clarification": "voor zakelijke bijeenkomsten"
                             },
                             {
                                 "target_lang_word": "zaal",
-                                "target_lang_sense_clarification": "Voor bijeenkomsten en evenementen"
+                                "target_lang_sense_clarification": "voor bijeenkomsten en evenementen"
                             }
                         ],
                         "de": [
@@ -288,53 +296,53 @@
                         "pl": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Ogólne określenie, także na zebrania"
+                                "target_lang_sense_clarification": "ogólne określenie, także na zebrania"
                             },
                             {
                                 "target_lang_word": "sala konferencyjna",
-                                "target_lang_sense_clarification": "Do spotkań biznesowych"
+                                "target_lang_sense_clarification": "do spotkań biznesowych"
                             },
                             {
                                 "target_lang_word": "sala lekcyjna",
-                                "target_lang_sense_clarification": "Do zajęć szkolnych"
+                                "target_lang_sense_clarification": "do zajęć szkolnych"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Termine generale per riunioni"
+                                "target_lang_sense_clarification": "termine generale per riunioni"
                             },
                             {
                                 "target_lang_word": "aula",
-                                "target_lang_sense_clarification": "Per lezioni e corsi"
+                                "target_lang_sense_clarification": "per lezioni e corsi"
                             },
                             {
                                 "target_lang_word": "sala riunioni",
-                                "target_lang_sense_clarification": "Per incontri di lavoro"
+                                "target_lang_sense_clarification": "per incontri di lavoro"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "učebna",
-                                "target_lang_sense_clarification": "Pro výuku ve škole"
+                                "target_lang_sense_clarification": "pro výuku ve škole"
                             },
                             {
                                 "target_lang_word": "zasedací místnost",
-                                "target_lang_sense_clarification": "Pro porady a obchodní jednání"
+                                "target_lang_sense_clarification": "pro porady a obchodní jednání"
                             },
                             {
                                 "target_lang_word": "sál",
-                                "target_lang_sense_clarification": "Pro konference a velké akce"
+                                "target_lang_sense_clarification": "pro konference a velké akce"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "sınıf",
-                                "target_lang_sense_clarification": "Okul dersleri için kullanılır"
+                                "target_lang_sense_clarification": "okul dersleri için kullanılır"
                             },
                             {
                                 "target_lang_word": "toplantı odası",
-                                "target_lang_sense_clarification": "İş görüşmeleri ve toplantılar için"
+                                "target_lang_sense_clarification": "i̇ş görüşmeleri ve toplantılar için"
                             },
                             {
                                 "target_lang_word": "salon",
@@ -344,25 +352,25 @@
                         "es": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Término general para reuniones"
+                                "target_lang_sense_clarification": "término general para reuniones"
                             },
                             {
                                 "target_lang_word": "aula",
-                                "target_lang_sense_clarification": "Para clases en centros educativos"
+                                "target_lang_sense_clarification": "para clases en centros educativos"
                             },
                             {
                                 "target_lang_word": "sala de reuniones",
-                                "target_lang_sense_clarification": "Para encuentros de trabajo"
+                                "target_lang_sense_clarification": "para encuentros de trabajo"
                             }
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "教室",
-                                "target_lang_sense_clarification": "学校上课的房间"
+                                "target_lang_word": "室",
+                                "target_lang_sense_clarification": "公共场所，如教室、会议室"
                             },
                             {
-                                "target_lang_word": "会议室",
-                                "target_lang_sense_clarification": "开会用的房间"
+                                "target_lang_word": "厅",
+                                "target_lang_sense_clarification": "公共场所，如会议厅、大厅"
                             }
                         ]
                     }
@@ -427,35 +435,35 @@
                         "en": [
                             {
                                 "target_lang_word": "gym",
-                                "target_lang_sense_clarification": "Informal, everyday term"
+                                "target_lang_sense_clarification": "informal, everyday term"
                             },
                             {
                                 "target_lang_word": "fitness centre",
-                                "target_lang_sense_clarification": "Commercial exercise facility"
+                                "target_lang_sense_clarification": "commercial exercise facility"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "спортзал",
-                                "target_lang_sense_clarification": "Обычное, разговорное название"
+                                "target_lang_sense_clarification": "обычное, разговорное название"
                             },
                             {
                                 "target_lang_word": "тренажёрный зал",
-                                "target_lang_sense_clarification": "С тренажёрами для силовых занятий"
+                                "target_lang_sense_clarification": "с тренажёрами для силовых занятий"
                             },
                             {
                                 "target_lang_word": "фитнес-клуб",
-                                "target_lang_sense_clarification": "Коммерческий центр с абонементом"
+                                "target_lang_sense_clarification": "коммерческий центр с абонементом"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "sportschool",
-                                "target_lang_sense_clarification": "Algemeen, dagelijks woord"
+                                "target_lang_sense_clarification": "algemeen, dagelijks woord"
                             },
                             {
                                 "target_lang_word": "fitnesscentrum",
-                                "target_lang_sense_clarification": "Commerciële sportfaciliteit"
+                                "target_lang_sense_clarification": "commerciële sportfaciliteit"
                             }
                         ],
                         "de": [
@@ -465,65 +473,65 @@
                             },
                             {
                                 "target_lang_word": "Fitnesscenter",
-                                "target_lang_sense_clarification": "Größeres kommerzielles Trainingszentrum"
+                                "target_lang_sense_clarification": "größeres kommerzielles Trainingszentrum"
                             },
                             {
                                 "target_lang_word": "Kraftraum",
-                                "target_lang_sense_clarification": "Mit Geräten für Krafttraining"
+                                "target_lang_sense_clarification": "mit Geräten für Krafttraining"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "siłownia",
-                                "target_lang_sense_clarification": "Najczęstsze określenie na co dzień"
+                                "target_lang_sense_clarification": "najczęstsze określenie na co dzień"
                             },
                             {
                                 "target_lang_word": "klub fitness",
-                                "target_lang_sense_clarification": "Komercyjne centrum z abonamentem"
+                                "target_lang_sense_clarification": "komercyjne centrum z abonamentem"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "palestra",
-                                "target_lang_sense_clarification": "Termine comune e quotidiano"
+                                "target_lang_sense_clarification": "termine comune e quotidiano"
                             },
                             {
                                 "target_lang_word": "centro fitness",
-                                "target_lang_sense_clarification": "Struttura commerciale con abbonamento"
+                                "target_lang_sense_clarification": "struttura commerciale con abbonamento"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "posilovna",
-                                "target_lang_sense_clarification": "Běžné, hovorové označení"
+                                "target_lang_sense_clarification": "běžné, hovorové označení"
                             },
                             {
                                 "target_lang_word": "fitness centrum",
-                                "target_lang_sense_clarification": "Komerční sportovní zařízení"
+                                "target_lang_sense_clarification": "komerční sportovní zařízení"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "spor salonu",
-                                "target_lang_sense_clarification": "Günlük, en yaygın kullanım"
+                                "target_lang_sense_clarification": "günlük, en yaygın kullanım"
                             },
                             {
                                 "target_lang_word": "fitness merkezi",
-                                "target_lang_sense_clarification": "Ücretli, ticari spor tesisi"
+                                "target_lang_sense_clarification": "ücretli, ticari spor tesisi"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "gimnasio",
-                                "target_lang_sense_clarification": "Término común y cotidiano"
+                                "target_lang_sense_clarification": "término común y cotidiano"
                             },
                             {
                                 "target_lang_word": "sala de musculación",
-                                "target_lang_sense_clarification": "Zona de pesas y máquinas"
+                                "target_lang_sense_clarification": "zona de pesas y máquinas"
                             },
                             {
                                 "target_lang_word": "centro de fitness",
-                                "target_lang_sense_clarification": "Instalación comercial con cuota"
+                                "target_lang_sense_clarification": "instalación comercial con cuota"
                             }
                         ],
                         "zh": [
@@ -598,7 +606,7 @@
                         "en": [
                             {
                                 "target_lang_word": "auditorium",
-                                "target_lang_sense_clarification": "Cinema or theatre term"
+                                "target_lang_sense_clarification": "cinema or theatre term"
                             },
                             {
                                 "target_lang_word": "screen",
@@ -608,21 +616,21 @@
                         "ru": [
                             {
                                 "target_lang_word": "зрительный зал",
-                                "target_lang_sense_clarification": "Термин для театра и кино"
+                                "target_lang_sense_clarification": "термин для театра и кино"
                             },
                             {
                                 "target_lang_word": "зал",
-                                "target_lang_sense_clarification": "Обычное название в кинотеатре"
+                                "target_lang_sense_clarification": "обычное название в кинотеатре"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zaal",
-                                "target_lang_sense_clarification": "Gewone naam in bioscoop of theater"
+                                "target_lang_sense_clarification": "ruimte waar het publiek zit"
                             },
                             {
                                 "target_lang_word": "auditorium",
-                                "target_lang_sense_clarification": "Term voor theater en bioscoop"
+                                "target_lang_sense_clarification": "term voor theater en bioscoop"
                             }
                         ],
                         "de": [
@@ -638,51 +646,51 @@
                         "pl": [
                             {
                                 "target_lang_word": "widownia",
-                                "target_lang_sense_clarification": "Teatr, koncerty, kabaret"
+                                "target_lang_sense_clarification": "teatr, koncerty, kabaret"
                             },
                             {
                                 "target_lang_word": "sala kinowa",
-                                "target_lang_sense_clarification": "Seanse filmowe"
+                                "target_lang_sense_clarification": "seanse filmowe"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Cinema o teatro, in generale"
+                                "target_lang_sense_clarification": "cinema o teatro, in generale"
                             },
                             {
                                 "target_lang_word": "platea",
-                                "target_lang_sense_clarification": "Piano inferiore del teatro"
+                                "target_lang_sense_clarification": "piano inferiore del teatro"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "sál",
-                                "target_lang_sense_clarification": "Prostor pro diváky v kině"
+                                "target_lang_sense_clarification": "prostor pro diváky v kině"
                             },
                             {
                                 "target_lang_word": "hlediště",
-                                "target_lang_sense_clarification": "Divadelní termín pro divácký prostor"
+                                "target_lang_sense_clarification": "divadelní termín pro divácký prostor"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "salon",
-                                "target_lang_sense_clarification": "Sinema ve tiyatro için genel"
+                                "target_lang_sense_clarification": "sinema ve tiyatro için genel"
                             },
                             {
                                 "target_lang_word": "seyirci salonu",
-                                "target_lang_sense_clarification": "Tiyatro ve konser mekânlarında"
+                                "target_lang_sense_clarification": "tiyatro ve konser mekânlarında"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Término general de cine y teatro"
+                                "target_lang_sense_clarification": "término general de cine y teatro"
                             },
                             {
                                 "target_lang_word": "patio de butacas",
-                                "target_lang_sense_clarification": "Zona de asientos en teatro"
+                                "target_lang_sense_clarification": "zona de asientos en teatro"
                             }
                         ],
                         "zh": [
@@ -712,7 +720,7 @@
                                 "ru": "После выступления комика весь <w>зал</w> горячо аплодировал.",
                                 "nl": "Het hele <w>publiek</w> applaudisseerde hartelijk na het optreden van de komiek.",
                                 "de": "Das ganze <w>Publikum</w> hat nach der Darbietung des Komikers herzlich applaudiert.",
-                                "pl": "Cała <w>publiczność</w> gorąco oklaskiwała komika po jego występie.",
+                                "pl": "Cała <w>publiczność</w> gorąco oklaskiwała aktora po jego występie.",
                                 "it": "Tutto il <w>pubblico</w> ha applaudito calorosamente dopo l'esibizione del comico.",
                                 "cs": "Celé <w>publikum</w> po komikově vystoupení vřele zatleskalo.",
                                 "tr": "Komedyenin gösterisinden sonra bütün <w>seyirci</w> içtenlikle alkışladı.",
@@ -762,35 +770,35 @@
                         "en": [
                             {
                                 "target_lang_word": "audience",
-                                "target_lang_sense_clarification": "Theatre or concert crowd"
+                                "target_lang_sense_clarification": "theatre or concert crowd"
                             },
                             {
                                 "target_lang_word": "house",
-                                "target_lang_sense_clarification": "Theatre slang"
+                                "target_lang_sense_clarification": "theatre slang"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "публика",
-                                "target_lang_sense_clarification": "Зрители на концерте или спектакле"
+                                "target_lang_sense_clarification": "зрители на концерте или спектакле"
                             },
                             {
                                 "target_lang_word": "зал",
-                                "target_lang_sense_clarification": "Публика в зрительном зале"
+                                "target_lang_sense_clarification": "публика в зрительном зале"
                             },
                             {
                                 "target_lang_word": "аудитория",
-                                "target_lang_sense_clarification": "Слушатели на лекции или выступлении"
+                                "target_lang_sense_clarification": "слушатели на лекции или выступлении"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "publiek",
-                                "target_lang_sense_clarification": "Toeschouwers bij optreden of voorstelling"
+                                "target_lang_sense_clarification": "toeschouwers bij optreden of voorstelling"
                             },
                             {
                                 "target_lang_word": "zaal",
-                                "target_lang_sense_clarification": "Informeel, theatertaal"
+                                "target_lang_sense_clarification": "het publiek zelf, theatertaal"
                             }
                         ],
                         "de": [
@@ -800,65 +808,73 @@
                             },
                             {
                                 "target_lang_word": "Zuhörerschaft",
-                                "target_lang_sense_clarification": "Bei Reden und Vorträgen"
+                                "target_lang_sense_clarification": "bei Reden und Vorträgen"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "publiczność",
-                                "target_lang_sense_clarification": "Widzowie koncertów i spektakli"
+                                "target_lang_sense_clarification": "widzowie koncertów i spektakli"
                             },
                             {
                                 "target_lang_word": "widownia",
-                                "target_lang_sense_clarification": "Określenie teatralne"
+                                "target_lang_sense_clarification": "określenie teatralne"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "pubblico",
-                                "target_lang_sense_clarification": "Spettatori di concerti o spettacoli"
+                                "target_lang_sense_clarification": "spettatori di concerti o spettacoli"
                             },
                             {
                                 "target_lang_word": "platea",
-                                "target_lang_sense_clarification": "Spettatori a teatro"
+                                "target_lang_sense_clarification": "spettatori a teatro"
                             },
                             {
                                 "target_lang_word": "uditorio",
-                                "target_lang_sense_clarification": "Chi ascolta un discorso"
+                                "target_lang_sense_clarification": "chi ascolta un discorso"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "publikum",
-                                "target_lang_sense_clarification": "Diváci koncertu nebo představení"
+                                "target_lang_sense_clarification": "diváci koncertu nebo představení"
                             },
                             {
                                 "target_lang_word": "obecenstvo",
-                                "target_lang_sense_clarification": "Diváci a posluchači dohromady"
+                                "target_lang_sense_clarification": "diváci a posluchači dohromady"
                             },
                             {
                                 "target_lang_word": "posluchači",
-                                "target_lang_sense_clarification": "Při přednášce nebo projevu"
+                                "target_lang_sense_clarification": "při přednášce nebo projevu"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "seyirci",
-                                "target_lang_sense_clarification": "Konser ya da oyun izleyicileri"
+                                "target_lang_sense_clarification": "konser ya da oyun izleyicileri"
                             },
                             {
                                 "target_lang_word": "dinleyici",
-                                "target_lang_sense_clarification": "Konuşma veya konferansta"
+                                "target_lang_sense_clarification": "konuşma veya konferansta"
+                            },
+                            {
+                                "target_lang_word": "salon",
+                                "target_lang_sense_clarification": "salondaki herkes, izleyiciler"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "público",
-                                "target_lang_sense_clarification": "Espectadores de concierto o espectáculo"
+                                "target_lang_sense_clarification": "espectadores de concierto o espectáculo"
                             },
                             {
                                 "target_lang_word": "auditorio",
-                                "target_lang_sense_clarification": "Oyentes de una charla o discurso"
+                                "target_lang_sense_clarification": "oyentes de una charla o discurso"
+                            },
+                            {
+                                "target_lang_word": "sala",
+                                "target_lang_sense_clarification": "los asistentes: toda la sala aplaude"
                             }
                         ],
                         "zh": [
@@ -889,10 +905,10 @@
                                 "nl": "De <w>zaalchef</w> ontvangt de gasten hartelijk zodra ze binnenkomen.",
                                 "de": "Der <w>Serviceleiter</w> begrüßt die Gäste herzlich, sobald sie ankommen.",
                                 "pl": "Kierownik <w>sali</w> serdecznie wita gości, gdy tylko przychodzą.",
-                                "it": "Il <w>capo sala</w> accoglie calorosamente i clienti non appena arrivano.",
+                                "it": "Il capo <w>sala</w> accoglie calorosamente i clienti non appena arrivano.",
                                 "cs": "<w>Vedoucí obsluhy</w> hosty vřele přivítá, jakmile přijdou.",
-                                "tr": "<w>Salon şefi</w> müşterileri geldikleri anda sıcak bir şekilde karşılar.",
-                                "es": "El <w>jefe de sala</w> recibe calurosamente a los clientes en cuanto llegan.",
+                                "tr": "<w>Salon</w> şefi müşterileri geldikleri anda sıcak bir şekilde karşılar.",
+                                "es": "El jefe de <w>sala</w> recibe calurosamente a los clientes en cuanto llegan.",
                                 "zh": "餐厅<w>外场</w>主管一见客人到来，就热情地招呼他们。"
                             }
                         },
@@ -932,31 +948,31 @@
                         "en": [
                             {
                                 "target_lang_word": "front of house",
-                                "target_lang_sense_clarification": "Hospitality industry term"
+                                "target_lang_sense_clarification": "hospitality industry term"
                             },
                             {
                                 "target_lang_word": "dining room",
-                                "target_lang_sense_clarification": "Guest seating area"
+                                "target_lang_sense_clarification": "guest seating area"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "зал",
-                                "target_lang_sense_clarification": "Ресторанная терминология"
+                                "target_lang_sense_clarification": "ресторанная терминология"
                             },
                             {
                                 "target_lang_word": "обеденный зал",
-                                "target_lang_sense_clarification": "Место для посетителей"
+                                "target_lang_sense_clarification": "место для посетителей"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "eetzaal",
-                                "target_lang_sense_clarification": "Plaats waar gasten eten"
+                                "target_lang_sense_clarification": "plaats waar gasten eten"
                             },
                             {
                                 "target_lang_word": "zaal",
-                                "target_lang_sense_clarification": "Horecaterm voor het gastendeel"
+                                "target_lang_sense_clarification": "horecaterm voor het gastendeel"
                             }
                         ],
                         "de": [
@@ -966,57 +982,57 @@
                             },
                             {
                                 "target_lang_word": "Speisesaal",
-                                "target_lang_sense_clarification": "Großer Raum zum Essen"
+                                "target_lang_sense_clarification": "großer Raum zum Essen"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Gastronomia, obsługa gości"
+                                "target_lang_sense_clarification": "gastronomia, obsługa gości"
                             },
                             {
                                 "target_lang_word": "sala restauracyjna",
-                                "target_lang_sense_clarification": "Termin branży gastronomicznej"
+                                "target_lang_sense_clarification": "termin branży gastronomicznej"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Zona clienti del ristorante"
+                                "target_lang_sense_clarification": "zona clienti del ristorante"
                             },
                             {
                                 "target_lang_word": "sala da pranzo",
-                                "target_lang_sense_clarification": "Nei ristoranti e negli alberghi"
+                                "target_lang_sense_clarification": "nei ristoranti e negli alberghi"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "sál",
-                                "target_lang_sense_clarification": "Hostinská část restaurace"
+                                "target_lang_sense_clarification": "hostinská část restaurace"
                             },
                             {
                                 "target_lang_word": "jídelní část",
-                                "target_lang_sense_clarification": "Místo pro hosty v restauraci"
+                                "target_lang_sense_clarification": "místo pro hosty v restauraci"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "salon",
-                                "target_lang_sense_clarification": "Restoranın müşteri bölümü"
+                                "target_lang_sense_clarification": "restoranın müşteri bölümü"
                             },
                             {
                                 "target_lang_word": "yemek salonu",
-                                "target_lang_sense_clarification": "Otel ve büfelerde yemek alanı"
+                                "target_lang_sense_clarification": "otel ve büfelerde yemek alanı"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "sala",
-                                "target_lang_sense_clarification": "Zona de clientes en restaurantes"
+                                "target_lang_sense_clarification": "zona de clientes en restaurantes"
                             },
                             {
                                 "target_lang_word": "comedor",
-                                "target_lang_sense_clarification": "Espacio donde se sirve la comida"
+                                "target_lang_sense_clarification": "espacio donde se sirve la comida"
                             }
                         ],
                         "zh": [
@@ -1045,13 +1061,13 @@
                                 "en": "Cavers have discovered a huge underground <w>chamber</w> decorated with stalactites.",
                                 "ru": "Спелеологи обнаружили огромный подземный <w>грот</w>, украшенный сталактитами.",
                                 "nl": "De speleologen hebben een enorme ondergrondse <w>grot</w> ontdekt, versierd met stalactieten.",
-                                "de": "Die Höhlenforscher haben eine riesige, unterirdische <w>Höhle</w> entdeckt, die mit Stalaktiten geschmückt ist.",
+                                "de": "Die Höhlenforscher haben eine riesige, unterirdische <w>Halle</w> entdeckt, die mit Stalaktiten geschmückt ist.",
                                 "pl": "Speleolodzy odkryli ogromną podziemną <w>komorę</w> ozdobioną stalaktytami.",
                                 "it": "Gli speleologi hanno scoperto un'immensa <w>grotta</w> sotterranea decorata con stalattiti.",
                                 "cs": "Jeskyňáři objevili obrovský <w>jeskynní sál</w> zdobený krápníky.",
-                                "tr": "Mağaracılar, dikitlerle süslenmiş devasa bir yeraltı <w>mağara odası</w> keşfetti.",
+                                "tr": "Mağaracılar, sarkıtlarla süslenmiş devasa bir yeraltı <w>salonu</w> keşfetti.",
                                 "es": "Los espeleólogos han descubierto una inmensa <w>cámara</w> subterránea adornada con estalactitas.",
-                                "zh": "洞穴探险者在地下发现了一个巨大的<w>洞穴</w>，里面装饰着钟乳石。"
+                                "zh": "洞穴探险者在地下发现了一个巨大的<w>洞厅</w>，里面挂满了钟乳石。"
                             }
                         },
                         {
@@ -1060,13 +1076,13 @@
                                 "en": "This large natural <w>cavern</w> houses remarkably well-preserved prehistoric paintings.",
                                 "ru": "В этом большом природном <w>гроте</w> находятся удивительно хорошо сохранившиеся доисторические росписи.",
                                 "nl": "In deze grote natuurlijke <w>grot</w> bevinden zich opmerkelijk goed bewaarde prehistorische schilderingen.",
-                                "de": "In dieser großen, natürlichen <w>Grotte</w> befinden sich bemerkenswert gut erhaltene prähistorische Malereien.",
+                                "de": "In dieser großen, natürlichen <w>Höhlenhalle</w> befinden sich bemerkenswert gut erhaltene prähistorische Malereien.",
                                 "pl": "W tej dużej, naturalnej <w>grocie</w> znajdują się niezwykle dobrze zachowane malowidła prehistoryczne.",
                                 "it": "Questa grande <w>caverna</w> naturale ospita pitture preistoriche straordinariamente conservate.",
                                 "cs": "Tato velká <w>jeskyně</w> ukrývá pozoruhodně zachovalé pravěké malby.",
-                                "tr": "Bu büyük doğal <w>mağarada</w> olağanüstü iyi korunmuş tarih öncesi duvar resimleri bulunuyor.",
+                                "tr": "Bu büyük doğal <w>salonda</w> olağanüstü iyi korunmuş tarih öncesi duvar resimleri bulunuyor.",
                                 "es": "Esta gran <w>caverna</w> natural alberga pinturas prehistóricas notablemente conservadas.",
-                                "zh": "这个巨大的天然<w>溶洞</w>里，至今保留着非常完好的史前壁画。"
+                                "zh": "这个巨大的天然<w>洞厅</w>里，至今保留着非常完好的史前壁画。"
                             }
                         }
                     ],
@@ -1077,7 +1093,7 @@
                         "en": "A large natural hollow beneath the ground, typically within a cave or pothole.",
                         "ru": "Большая естественная полость под землёй, обычно внутри пещеры или провала.",
                         "nl": "Een grote natuurlijke holte onder de grond, zoals in een grot.",
-                        "de": "Große natürliche Höhle unter der Erde, etwa in einer Grotte oder Tropfsteinhöhle.",
+                        "de": "Großer natürlicher Hohlraum unter der Erde, etwa in einer Höhle oder einem Schacht.",
                         "pl": "Duża naturalna pustka pod ziemią, zwykle w jaskini.",
                         "it": "Ampia cavità naturale sotterranea, spesso all'interno di una grotta.",
                         "cs": "Velká přírodní podzemní dutina, obvykle uvnitř jeskyně nebo propasti.",
@@ -1089,45 +1105,45 @@
                         "en": [
                             {
                                 "target_lang_word": "cavern",
-                                "target_lang_sense_clarification": "Caving and potholing context"
+                                "target_lang_sense_clarification": "caving and potholing context"
                             },
                             {
                                 "target_lang_word": "chamber",
-                                "target_lang_sense_clarification": "Geological or speleological term"
+                                "target_lang_sense_clarification": "geological or speleological term"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "пещерный зал",
-                                "target_lang_sense_clarification": "Термин спелеологии"
+                                "target_lang_sense_clarification": "термин спелеологии"
                             },
                             {
                                 "target_lang_word": "грот",
-                                "target_lang_sense_clarification": "Сводчатая пещерная полость"
+                                "target_lang_sense_clarification": "сводчатая пещерная полость"
                             },
                             {
                                 "target_lang_word": "полость",
-                                "target_lang_sense_clarification": "Геологический термин"
+                                "target_lang_sense_clarification": "геологический термин"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "grot",
-                                "target_lang_sense_clarification": "Natuurlijke ruimte in rotsgesteente"
+                                "target_lang_sense_clarification": "natuurlijke ruimte in rotsgesteente"
                             },
                             {
                                 "target_lang_word": "holte",
-                                "target_lang_sense_clarification": "Geologische term"
+                                "target_lang_sense_clarification": "geologische term"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Höhle",
-                                "target_lang_sense_clarification": "Allgemeiner Begriff für Hohlräume"
+                                "target_lang_word": "Halle",
+                                "target_lang_sense_clarification": "Höhlenkunde: großer Hohlraum einer Höhle"
                             },
                             {
-                                "target_lang_word": "Grotte",
-                                "target_lang_sense_clarification": "Natürlich, oft mit Tropfsteinen"
+                                "target_lang_word": "Höhlenhalle",
+                                "target_lang_sense_clarification": "verdeutlichend, große Höhlenkammer"
                             },
                             {
                                 "target_lang_word": "Höhlenkammer",
@@ -1137,35 +1153,35 @@
                         "pl": [
                             {
                                 "target_lang_word": "komora",
-                                "target_lang_sense_clarification": "Termin speleologiczny"
+                                "target_lang_sense_clarification": "termin speleologiczny"
                             },
                             {
                                 "target_lang_word": "grota",
-                                "target_lang_sense_clarification": "Naturalna przestrzeń w skale"
+                                "target_lang_sense_clarification": "naturalna przestrzeń w skale"
                             },
                             {
                                 "target_lang_word": "sala jaskiniowa",
-                                "target_lang_sense_clarification": "Język speleologów i geologów"
+                                "target_lang_sense_clarification": "język speleologów i geologów"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "grotta",
-                                "target_lang_sense_clarification": "Cavità naturale nella roccia"
+                                "target_lang_sense_clarification": "cavità naturale nella roccia"
                             },
                             {
                                 "target_lang_word": "caverna",
-                                "target_lang_sense_clarification": "Cavità grande e profonda"
+                                "target_lang_sense_clarification": "cavità grande e profonda"
                             },
                             {
                                 "target_lang_word": "camera",
-                                "target_lang_sense_clarification": "Termine di speleologia"
+                                "target_lang_sense_clarification": "termine di speleologia"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "jeskyně",
-                                "target_lang_sense_clarification": "Obecný název přírodní dutiny"
+                                "target_lang_sense_clarification": "obecný název přírodní dutiny"
                             },
                             {
                                 "target_lang_word": "jeskynní sál",
@@ -1174,36 +1190,36 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "mağara",
-                                "target_lang_sense_clarification": "Doğal kaya oluşumu, geniş boşluk"
+                                "target_lang_word": "salon",
+                                "target_lang_sense_clarification": "mağara içindeki geniş doğal boşluk"
                             },
                             {
                                 "target_lang_word": "mağara odası",
-                                "target_lang_sense_clarification": "Mağara içindeki büyük bölüm"
+                                "target_lang_sense_clarification": "mağara içindeki büyük bölüm"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "cueva",
-                                "target_lang_sense_clarification": "Término general, de uso cotidiano"
+                                "target_lang_sense_clarification": "término general, de uso cotidiano"
                             },
                             {
                                 "target_lang_word": "caverna",
-                                "target_lang_sense_clarification": "Cavidad grande y profunda"
+                                "target_lang_sense_clarification": "cavidad grande y profunda"
                             },
                             {
                                 "target_lang_word": "cámara",
-                                "target_lang_sense_clarification": "Término de espeleología"
+                                "target_lang_sense_clarification": "término de espeleología"
                             }
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "洞穴",
-                                "target_lang_sense_clarification": "泛指天然地下洞穴"
+                                "target_lang_word": "洞厅",
+                                "target_lang_sense_clarification": "洞穴内部宽敞的大空间"
                             },
                             {
-                                "target_lang_word": "溶洞",
-                                "target_lang_sense_clarification": "石灰岩地区的天然洞穴"
+                                "target_lang_word": "洞室",
+                                "target_lang_sense_clarification": "洞穴中的一个空腔"
                             }
                         ]
                     }
@@ -1265,15 +1281,60 @@
                         "zh": "意大利阿布鲁佐大区佩斯卡拉省的一个市镇。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
+                        "en": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "commune in Abruzzo, Italy"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "Салле",
+                                "target_lang_sense_clarification": "коммуна в Италии, Абруццо"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "Italiaanse gemeente in de Abruzzen"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "Gemeinde in den Abruzzen, Italien"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "gmina we Włoszech, prowincja Pescara"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "comune abruzzese in provincia di Pescara"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "italská obec v Abruzzu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "İtalya'da, Abruzzo'da bir köy"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "municipio italiano de Pescara"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "萨勒",
@@ -1315,7 +1376,7 @@
                                 "pl": "Ta mała parafia <w>Salle</w> przyciąga miłośników angielskiej architektury sakralnej.",
                                 "it": "Questa piccola parrocchia di <w>Salle</w> attira gli appassionati di architettura religiosa inglese.",
                                 "cs": "Tato malá farnost <w>Salle</w> přitahuje milovníky anglické sakrální architektury.",
-                                "tr": "Bu küçük <w>Salle</w> cemaati, İngiliz dinî mimarisinin tutkunlarını çeker.",
+                                "tr": "Bu küçük <w>Salle</w> bucağı, İngiliz dinî mimarisinin tutkunlarını çeker.",
                                 "es": "Esta pequeña parroquia de <w>Salle</w> atrae a los aficionados a la arquitectura religiosa inglesa.",
                                 "zh": "这个小小的<w>萨勒</w>教区吸引了不少热爱英国宗教建筑的人。"
                             }
@@ -1329,7 +1390,7 @@
                         "pl": "Cywilna parafia w dystrykcie Broadland w hrabstwie Norfolk w Anglii.",
                         "it": "Parrocchia civile inglese nel distretto di Broadland, nella contea del Norfolk.",
                         "cs": "Občanská farnost v okrese Broadland v hrabství Norfolk v Anglii.",
-                        "tr": "İngiltere'de Norfolk ilçesinin Broadland bölgesinde yer alan sivil bir cemaat.",
+                        "tr": "İngiltere'de Norfolk kontluğunun Broadland ilçesinde yer alan bir sivil bucak.",
                         "es": "Parroquia civil de Inglaterra en el distrito de Broadland, en el condado de Norfolk.",
                         "zh": "英格兰诺福克郡布罗德兰区的一个民政教区。"
                     },
@@ -1340,19 +1401,54 @@
                                 "target_lang_sense_clarification": "Norfolk village name"
                             }
                         ],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "Салл",
+                                "target_lang_sense_clarification": "приход в Англии, Норфолк"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "parochie in Norfolk, Engeland"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "Gemeinde in Norfolk, England"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "parafia cywilna w Anglii, hrabstwo Norfolk"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "parrocchia civile inglese nel Norfolk"
+                            }
+                        ],
                         "cs": [
                             {
                                 "target_lang_word": "Salle",
-                                "target_lang_sense_clarification": "Farnost v hrabství Norfolk"
+                                "target_lang_sense_clarification": "farnost v hrabství Norfolk"
                             }
                         ],
-                        "tr": [],
-                        "es": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "İngiltere'de, Norfolk'ta bir köy"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Salle",
+                                "target_lang_sense_clarification": "parroquia inglesa de Norfolk"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "萨勒",

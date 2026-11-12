@@ -34,12 +34,12 @@
                         {
                             "text": "En cas d'incendie, suivez le panneau vers la <w>sortie</w> de secours.",
                             "target_lang_translations": {
-                                "en": "In case of fire, follow the sign to the <w>emergency exit</w>.",
+                                "en": "In case of fire, follow the sign to the emergency <w>exit</w>.",
                                 "ru": "В случае пожара следуйте за указателем к аварийному <w>выходу</w>.",
                                 "nl": "Volg bij brand het bordje naar de <w>nooduitgang</w>.",
                                 "de": "Folgen Sie im Brandfall dem Schild zum <w>Notausgang</w>.",
                                 "pl": "W razie pożaru idźcie za znakiem do <w>wyjścia awaryjnego</w>.",
-                                "it": "In caso di incendio, seguite il cartello verso la <w>uscita di sicurezza</w>.",
+                                "it": "In caso di incendio, seguite il cartello verso l'<w>uscita di sicurezza</w>.",
                                 "cs": "V případě požáru jděte za značkou k <w>nouzovému východu</w>.",
                                 "tr": "Yangın durumunda <w>acil çıkış</w> işaretini takip edin.",
                                 "es": "En caso de incendio, siga las señales hacia la <w>salida de emergencia</w>.",
@@ -93,11 +93,7 @@
                         "nl": [
                             {
                                 "target_lang_word": "uitgang",
-                                "target_lang_sense_clarification": "algemeen woord voor gebouwen"
-                            },
-                            {
-                                "target_lang_word": "nooduitgang",
-                                "target_lang_sense_clarification": "uitgang bij brand of noodgevallen"
+                                "target_lang_sense_clarification": "deur of weg naar buiten"
                             }
                         ],
                         "de": [
@@ -187,16 +183,16 @@
                         {
                             "text": "Les parents attendent les enfants à la <w>sortie</w> des classes.",
                             "target_lang_translations": {
-                                "en": "Parents wait for the children at school <w>dismissal</w>.",
-                                "ru": "Родители ждут детей у школы после <w>окончания</w> уроков.",
-                                "nl": "Ouders wachten de kinderen op bij het <w>einde van de lessen</w>.",
+                                "en": "Parents wait for the children outside school at <w>home time</w>.",
+                                "ru": "Родители ждут детей на <w>выходе</w> из школы после уроков.",
+                                "nl": "Ouders wachten de kinderen op bij het <w>uitgaan</w> van de school.",
                                 "de": "Die Eltern warten am <w>Schulschluss</w> auf ihre Kinder.",
-                                "pl": "Rodzice czekają na dzieci po <w>zakończeniu lekcji</w>.",
+                                "pl": "Rodzice czekają na dzieci przy <w>wyjściu</w> ze szkoły.",
                                 "it": "I genitori aspettano i bambini all'<w>uscita</w> da scuola.",
-                                "cs": "Rodiče čekají na děti u školy po <w>skončení vyučování</w>.",
+                                "cs": "Rodiče čekají na děti při <w>odchodu</w> ze školy.",
                                 "tr": "Veliler çocukları okul <w>çıkışında</w> bekliyor.",
                                 "es": "Los padres esperan a los niños a la <w>salida</w> del colegio.",
-                                "zh": "家长们在校门口等候孩子们放学。"
+                                "zh": "家长们在校门口等孩子们<w>放学</w>。"
                             }
                         },
                         {
@@ -266,7 +262,11 @@
                         "nl": [
                             {
                                 "target_lang_word": "vertrek",
-                                "target_lang_sense_clarification": "vertrek uit een gebouw"
+                                "target_lang_sense_clarification": "het verlaten van een plek"
+                            },
+                            {
+                                "target_lang_word": "uitgaan",
+                                "target_lang_sense_clarification": "het uitgaan van school of kerk"
                             },
                             {
                                 "target_lang_word": "ontslag",
@@ -345,6 +345,10 @@
                             {
                                 "target_lang_word": "出院",
                                 "target_lang_sense_clarification": "病人离开医院"
+                            },
+                            {
+                                "target_lang_word": "放学",
+                                "target_lang_sense_clarification": "学生下课离校"
                             }
                         ]
                     }
@@ -375,15 +379,15 @@
                         {
                             "text": "Les élèves participent avec enthousiasme à cette <w>sortie</w> scolaire.",
                             "target_lang_translations": {
-                                "en": "The pupils are enthusiastically taking part in this <w>school trip</w>.",
+                                "en": "The pupils are enthusiastically taking part in this school <w>trip</w>.",
                                 "ru": "Ученики с энтузиазмом участвуют в этой школьной <w>экскурсии</w>.",
                                 "nl": "De leerlingen doen enthousiast mee aan dit <w>schoolreisje</w>.",
                                 "de": "Die Schüler nehmen begeistert an diesem <w>Schulausflug</w> teil.",
-                                "pl": "Uczniowie z zapałem biorą udział w tej <w>wycieczce szkolnej</w>.",
-                                "it": "Gli alunni partecipano con entusiasmo a questa <w>gita scolastica</w>.",
+                                "pl": "Uczniowie z zapałem biorą udział w tej <w>wycieczce</w> szkolnej.",
+                                "it": "Gli alunni partecipano con entusiasmo a questa <w>gita</w> scolastica.",
                                 "cs": "Žáci se s nadšením účastní této školní <w>exkurze</w>.",
                                 "tr": "Öğrenciler bu <w>okul gezisine</w> büyük bir hevesle katılıyor.",
-                                "es": "Los alumnos participan con entusiasmo en esta <w>excursión escolar</w>.",
+                                "es": "Los alumnos participan con entusiasmo en esta <w>excursión</w> escolar.",
                                 "zh": "学生们热情地参加了这次学校组织的<w>郊游</w>。"
                             }
                         }
@@ -415,8 +419,8 @@
                                 "target_lang_sense_clarification": "organised day trip"
                             },
                             {
-                                "target_lang_word": "field trip",
-                                "target_lang_sense_clarification": "educational visit for students"
+                                "target_lang_word": "trip",
+                                "target_lang_sense_clarification": "as in 'school trip'"
                             }
                         ],
                         "ru": [
@@ -567,14 +571,14 @@
                             "target_lang_translations": {
                                 "en": "The director is holding a press conference for the <w>release</w> of his film.",
                                 "ru": "Режиссёр проводит пресс-конференцию по случаю <w>выхода</w> своего фильма.",
-                                "nl": "De regisseur geeft een persconferentie ter gelegenheid van de <w>uitbrenging</w> van zijn film.",
+                                "nl": "De regisseur geeft een persconferentie ter gelegenheid van de <w>release</w> van zijn film.",
                                 "de": "Der Regisseur gibt eine Pressekonferenz zum <w>Kinostart</w> seines Films.",
                                 "pl": "Reżyser zwołał konferencję prasową z okazji <w>premiery</w> swojego filmu.",
                                 "it": "Il regista tiene una conferenza stampa per l'<w>uscita</w> del suo film.",
                                 "cs": "Režisér svolal tiskovou konferenci k <w>premiéře</w> svého filmu.",
-                                "tr": "Yönetmen, filminin <w>vizyona girişi</w> için bir basın toplantısı düzenliyor.",
+                                "tr": "Yönetmen, filminin <w>vizyona</w> girişi için bir basın toplantısı düzenliyor.",
                                 "es": "El director ofrece una rueda de prensa con motivo del <w>estreno</w> de su película.",
-                                "zh": "导演为自己电影的<w>首映</w>举行了新闻发布会。"
+                                "zh": "导演为自己电影的<w>上映</w>举行了新闻发布会。"
                             }
                         }
                     ],
@@ -624,16 +628,16 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "uitgave",
-                                "target_lang_sense_clarification": "publicatie van album of boek"
-                            },
-                            {
                                 "target_lang_word": "verschijning",
                                 "target_lang_sense_clarification": "bij boeken en tijdschriften"
                             },
                             {
-                                "target_lang_word": "uitbrenging",
-                                "target_lang_sense_clarification": "lancering van film of album"
+                                "target_lang_word": "release",
+                                "target_lang_sense_clarification": "van film, album of game"
+                            },
+                            {
+                                "target_lang_word": "uitgave",
+                                "target_lang_sense_clarification": "publicatie van album of boek"
                             }
                         ],
                         "de": [
@@ -726,8 +730,8 @@
                                 "target_lang_sense_clarification": "作品向公众发布、售卖"
                             },
                             {
-                                "target_lang_word": "首映",
-                                "target_lang_sense_clarification": "电影首次公开放映"
+                                "target_lang_word": "上映",
+                                "target_lang_sense_clarification": "电影开始公开放映"
                             }
                         ]
                     }
@@ -746,8 +750,8 @@
                                 "en": "Plug the cable into your computer's audio <w>output</w>.",
                                 "ru": "Подключите кабель к звуковому <w>выходу</w> вашего компьютера.",
                                 "nl": "Sluit de kabel aan op de <w>audio-uitgang</w> van uw computer.",
-                                "de": "Schließen Sie das Kabel an den Audio-<w>Ausgang</w> Ihres Computers an.",
-                                "pl": "Podłącz kabel do <w>wyjścia audio</w> komputera.",
+                                "de": "Schließen Sie das Kabel an den <w>Audio-Ausgang</w> Ihres Computers an.",
+                                "pl": "Podłącz kabel do <w>wyjścia</w> audio komputera.",
                                 "it": "Collegate il cavo all'<w>uscita</w> audio del vostro computer.",
                                 "cs": "Zapojte kabel do zvukového <w>výstupu</w> počítače.",
                                 "tr": "Kabloyu bilgisayarınızın ses <w>çıkışına</w> takın.",
@@ -761,8 +765,8 @@
                                 "en": "This screen has a video <w>output</w> for connecting a projector.",
                                 "ru": "У этого монитора есть <w>видеовыход</w> для подключения проектора.",
                                 "nl": "Dit scherm heeft een <w>video-uitgang</w> om een beamer aan te sluiten.",
-                                "de": "Dieser Bildschirm hat einen Video-<w>Ausgang</w>, um einen Beamer anzuschließen.",
-                                "pl": "Ten monitor ma <w>wyjście wideo</w> do podłączenia projektora.",
+                                "de": "Dieser Bildschirm hat einen <w>Video-Ausgang</w>, um einen Beamer anzuschließen.",
+                                "pl": "Ten monitor ma <w>wyjście</w> wideo do podłączenia projektora.",
                                 "it": "Questo schermo ha un'<w>uscita</w> video per collegare un proiettore.",
                                 "cs": "Tento monitor má video <w>výstup</w> pro připojení projektoru.",
                                 "tr": "Bu ekranda bir projektör bağlamak için video <w>çıkışı</w> bulunuyor.",
@@ -918,15 +922,15 @@
                         {
                             "text": "Cette nouvelle <w>sortie</w> médiatique du ministre a provoqué de vives réactions.",
                             "target_lang_translations": {
-                                "en": "The minister's latest media <w>gaffe</w> sparked strong reactions.",
-                                "ru": "Последний <w>ляпсус</w> министра в прессе вызвал бурные реакции.",
-                                "nl": "De nieuwste <w>flater</w> van de minister in de media heeft heftige reacties uitgelokt.",
+                                "en": "The minister's latest media <w>outburst</w> sparked strong reactions.",
+                                "ru": "Новый <w>выпад</w> министра в СМИ вызвал бурную реакцию.",
+                                "nl": "De nieuwste <w>uitlating</w> van de minister in de media heeft heftige reacties uitgelokt.",
                                 "de": "Diese neue <w>Entgleisung</w> des Ministers in den Medien hat heftige Reaktionen ausgelöst.",
-                                "pl": "Najnowsza medialna <w>gafa</w> ministra wywołała gwałtowne reakcje.",
-                                "it": "La nuova <w>gaffe</w> mediatica del ministro ha suscitato forti reazioni.",
-                                "cs": "Ministrova nová mediální <w>gafa</w> vyvolala silné reakce.",
-                                "tr": "Bakanın medyadaki bu yeni <w>gafı</w> sert tepkilere yol açtı.",
-                                "es": "La nueva <w>metedura de pata</w> mediática del ministro ha provocado fuertes reacciones.",
+                                "pl": "Ten nowy medialny <w>wyskok</w> ministra wywołał gwałtowne reakcje.",
+                                "it": "La nuova <w>uscita</w> mediatica del ministro ha suscitato forti reazioni.",
+                                "cs": "Ministrův nový mediální <w>výrok</w> vyvolal silné reakce.",
+                                "tr": "Bakanın medyadaki bu yeni <w>çıkışı</w> sert tepkilere yol açtı.",
+                                "es": "La nueva <w>salida de tono</w> mediática del ministro ha provocado fuertes reacciones.",
                                 "zh": "部长在媒体上的这次新<w>失言</w>引发了强烈反响。"
                             }
                         },
@@ -934,13 +938,13 @@
                             "text": "Il regrette sa <w>sortie</w> maladroite lors de la réunion de service.",
                             "target_lang_translations": {
                                 "en": "He regrets his clumsy <w>gaffe</w> made during the staff meeting.",
-                                "ru": "Он сожалеет о своём неловком <w>ляпсусе</w> на служебном совещании.",
-                                "nl": "Hij betreurt zijn onhandige <w>misstap</w> tijdens de dienstvergadering.",
+                                "ru": "Он сожалеет о своей неуместной <w>выходке</w> на служебном совещании.",
+                                "nl": "Hij betreurt zijn onhandige <w>uitlating</w> tijdens de dienstvergadering.",
                                 "de": "Er bedauert seinen ungeschickten <w>Fauxpas</w> bei der Dienstbesprechung.",
                                 "pl": "Żałuje niezręcznej <w>gafy</w> popełnionej podczas zebrania służbowego.",
-                                "it": "Si rammarica della sua <w>gaffe</w> maldestra durante la riunione di servizio.",
-                                "cs": "Lituje svého nešikovného <w>trapasu</w> na služební poradě.",
-                                "tr": "Hizmet toplantısındaki beceriksiz <w>gafından</w> dolayı üzülüyor.",
+                                "it": "Si rammarica della sua <w>uscita</w> maldestra durante la riunione di servizio.",
+                                "cs": "Lituje svého nešikovného <w>výroku</w> na poradě oddělení.",
+                                "tr": "Birim toplantısındaki yersiz <w>çıkışından</w> pişmanlık duyuyor.",
                                 "es": "Lamenta su torpe <w>metedura de pata</w> durante la reunión de trabajo.",
                                 "zh": "他很后悔自己在工作会议上笨拙的<w>失言</w>。"
                             }
@@ -964,26 +968,26 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "outburst",
+                                "target_lang_sense_clarification": "sudden provocative remark"
+                            },
+                            {
                                 "target_lang_word": "gaffe",
                                 "target_lang_sense_clarification": "embarrassing public remark"
                             },
                             {
                                 "target_lang_word": "faux pas",
                                 "target_lang_sense_clarification": "socially awkward remark"
-                            },
-                            {
-                                "target_lang_word": "slip of the tongue",
-                                "target_lang_sense_clarification": "unintended careless wording"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "ляпсус",
-                                "target_lang_sense_clarification": "грубая ошибка в речи"
+                                "target_lang_word": "выпад",
+                                "target_lang_sense_clarification": "резкое полемическое высказывание"
                             },
                             {
-                                "target_lang_word": "оговорка",
-                                "target_lang_sense_clarification": "непреднамеренно сказанное слово"
+                                "target_lang_word": "выходка",
+                                "target_lang_sense_clarification": "неожиданная резкая реплика"
                             },
                             {
                                 "target_lang_word": "бестактность",
@@ -992,12 +996,16 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "flater",
-                                "target_lang_sense_clarification": "onhandige uitspraak in het openbaar"
+                                "target_lang_word": "uitlating",
+                                "target_lang_sense_clarification": "omstreden of onverwachte uitspraak"
                             },
                             {
-                                "target_lang_word": "misstap",
-                                "target_lang_sense_clarification": "sociaal ongepaste opmerking"
+                                "target_lang_word": "uithaal",
+                                "target_lang_sense_clarification": "felle verbale aanval"
+                            },
+                            {
+                                "target_lang_word": "uitschuiver",
+                                "target_lang_sense_clarification": "onhandige, ongepaste opmerking"
                             }
                         ],
                         "de": [
@@ -1016,12 +1024,12 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "gafa",
-                                "target_lang_sense_clarification": "niezręczna wypowiedź publiczna"
+                                "target_lang_word": "wyskok",
+                                "target_lang_sense_clarification": "nieoczekiwana, ostra wypowiedź"
                             },
                             {
-                                "target_lang_word": "wpadka",
-                                "target_lang_sense_clarification": "kompromitujący błąd w wypowiedzi"
+                                "target_lang_word": "gafa",
+                                "target_lang_sense_clarification": "niezręczna wypowiedź publiczna"
                             },
                             {
                                 "target_lang_word": "nietakt",
@@ -1030,40 +1038,40 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "gaffe",
-                                "target_lang_sense_clarification": "frase imbarazzante detta in pubblico"
-                            },
-                            {
-                                "target_lang_word": "scivolone",
-                                "target_lang_sense_clarification": "errore di tono o parola"
+                                "target_lang_word": "uscita",
+                                "target_lang_sense_clarification": "dichiarazione polemica o inattesa"
                             },
                             {
                                 "target_lang_word": "uscita infelice",
                                 "target_lang_sense_clarification": "frase inopportuna o provocatoria"
+                            },
+                            {
+                                "target_lang_word": "scivolone",
+                                "target_lang_sense_clarification": "errore di tono o parola"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "gafa",
-                                "target_lang_sense_clarification": "nevhodná veřejná poznámka"
+                                "target_lang_word": "výrok",
+                                "target_lang_sense_clarification": "nečekané, kontroverzní prohlášení"
                             },
                             {
-                                "target_lang_word": "trapas",
-                                "target_lang_sense_clarification": "trapná chyba na veřejnosti"
+                                "target_lang_word": "výpad",
+                                "target_lang_sense_clarification": "ostrý slovní útok"
                             },
                             {
                                 "target_lang_word": "přešlap",
-                                "target_lang_sense_clarification": "chyba ve vyjadřování"
+                                "target_lang_sense_clarification": "nevhodná poznámka"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "gaf",
-                                "target_lang_sense_clarification": "ortamda yapılan utanç verici söz"
+                                "target_lang_word": "çıkış",
+                                "target_lang_sense_clarification": "sert ya da beklenmedik söz, polemik"
                             },
                             {
-                                "target_lang_word": "ağzından kaçan söz",
-                                "target_lang_sense_clarification": "istemeden söylenen yanlış söz"
+                                "target_lang_word": "gaf",
+                                "target_lang_sense_clarification": "yersiz, pot kıran söz"
                             }
                         ],
                         "es": [
@@ -1086,8 +1094,8 @@
                                 "target_lang_sense_clarification": "说出不当言论"
                             },
                             {
-                                "target_lang_word": "口误",
-                                "target_lang_sense_clarification": "无意中说错字词"
+                                "target_lang_word": "惊人言论",
+                                "target_lang_sense_clarification": "出人意料、引发争议的话"
                             }
                         ]
                     }
@@ -1265,7 +1273,7 @@
                                 "en": "She <w>went out</w> to do the shopping first thing in the morning.",
                                 "ru": "Она <w>вышла</w> за покупками с самого раннего утра.",
                                 "nl": "Ze is al vroeg in de ochtend <w>uitgegaan</w> om boodschappen te doen.",
-                                "de": "Sie <w>ist ausgegangen</w>, um schon in den frühen Morgenstunden einzukaufen.",
+                                "de": "Sie ist <w>ausgegangen</w>, um schon in den frühen Morgenstunden einzukaufen.",
                                 "pl": "Już we wczesnych godzinach rannych <w>wyszła</w> na zakupy.",
                                 "it": "È <w>uscita</w> a fare la spesa già nelle prime ore del mattino.",
                                 "cs": "Už v prvních ranních hodinách <w>vyšla</w> nakupovat.",

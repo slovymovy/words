@@ -23,7 +23,7 @@
                             "text": "Ce musée national présente une collection exceptionnelle consacrée à l'<w>art</w> contemporain.",
                             "target_lang_translations": {
                                 "en": "This national museum presents an exceptional collection devoted to contemporary <w>art</w>.",
-                                "ru": "Этот национальный музей представляет исключительную коллекцию, посвящённую <w>современному искусству</w>.",
+                                "ru": "Этот национальный музей представляет исключительную коллекцию, посвящённую современному <w>искусству</w>.",
                                 "nl": "Dit nationale museum toont een uitzonderlijke collectie gewijd aan de hedendaagse <w>kunst</w>.",
                                 "de": "Dieses Nationalmuseum zeigt eine außergewöhnliche Sammlung zur zeitgenössischen <w>Kunst</w>.",
                                 "pl": "To narodowe muzeum prezentuje wyjątkową kolekcję poświęconą <w>sztuce</w> współczesnej.",
@@ -214,13 +214,13 @@
                             "text": "Le charpentier a rénové cette toiture ancienne selon toutes les règles de l'<w>art</w>.",
                             "target_lang_translations": {
                                 "en": "The carpenter renovated this old roof according to all the rules of the <w>craft</w>.",
-                                "ru": "Плотник отремонтировал эту старую крышу <w>по всем правилам искусства</w>.",
+                                "ru": "Плотник отремонтировал эту старую крышу по всем правилам <w>искусства</w>.",
                                 "nl": "De timmerman heeft dit oude dak volgens alle regels van het <w>vak</w> gerenoveerd.",
                                 "de": "Der Zimmermann hat dieses alte Dach nach allen Regeln der <w>Kunst</w> saniert.",
                                 "pl": "Cieśla wyremontował ten stary dach zgodnie z wszystkimi regułami <w>sztuki</w>.",
                                 "it": "Il carpentiere ha ristrutturato questo vecchio tetto a regola d'<w>arte</w>.",
                                 "cs": "Tesař opravil tuto starou střechu podle všech pravidel <w>řemesla</w>.",
-                                "tr": "Marangoz bu eski çatıyı <w>sanat kurallarına uygun olarak</w> yenilemiş.",
+                                "tr": "Dülger, bu eski çatıyı <w>sanat</w> kurallarına uygun olarak yeniledi.",
                                 "es": "El carpintero renovó este viejo tejado según todas las reglas del <w>oficio</w>.",
                                 "zh": "木匠完全按照<w>技艺</w>的要求翻修了这座老屋顶。"
                             }
@@ -229,7 +229,7 @@
                             "text": "Ce chef réputé transmet à ses apprentis les secrets de l'<w>art</w> culinaire.",
                             "target_lang_translations": {
                                 "en": "This renowned chef passes on to his apprentices the secrets of the <w>art</w> of cooking.",
-                                "ru": "Этот известный шеф-повар передаёт своим ученикам секреты <w>кулинарного мастерства</w>.",
+                                "ru": "Этот известный шеф-повар передаёт своим ученикам секреты кулинарного <w>мастерства</w>.",
                                 "nl": "Deze bekende chef-kok geeft zijn leerlingen de geheimen van de <w>kookkunst</w> door.",
                                 "de": "Dieser renommierte Koch gibt seinen Lehrlingen die Geheimnisse der <w>Kochkunst</w> weiter.",
                                 "pl": "Ten renomowany szef kuchni przekazuje uczniom sekrety <w>sztuki</w> kulinarnej.",
@@ -267,16 +267,16 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "art",
+                                "target_lang_sense_clarification": "skill of a trade, as in the art of cooking"
+                            },
+                            {
                                 "target_lang_word": "craft",
                                 "target_lang_sense_clarification": "skilled practical trade"
                             },
                             {
                                 "target_lang_word": "technique",
                                 "target_lang_sense_clarification": "working method or procedure"
-                            },
-                            {
-                                "target_lang_word": "know-how",
-                                "target_lang_sense_clarification": "practical skill from experience"
                             }
                         ],
                         "ru": [
@@ -289,8 +289,8 @@
                                 "target_lang_sense_clarification": "умение, приобретённое практикой"
                             },
                             {
-                                "target_lang_word": "техника",
-                                "target_lang_sense_clarification": "способ выполнения работы"
+                                "target_lang_word": "искусство",
+                                "target_lang_sense_clarification": "правила и приёмы дела"
                             }
                         ],
                         "nl": [
@@ -299,8 +299,8 @@
                                 "target_lang_sense_clarification": "beroepskennis en routine"
                             },
                             {
-                                "target_lang_word": "techniek",
-                                "target_lang_sense_clarification": "toegepaste werkwijze in het vak"
+                                "target_lang_word": "vak",
+                                "target_lang_sense_clarification": "beroep met eigen regels en technieken"
                             },
                             {
                                 "target_lang_word": "ambacht",
@@ -309,19 +309,23 @@
                         ],
                         "de": [
                             {
+                                "target_lang_word": "Kunst",
+                                "target_lang_sense_clarification": "fachliches Können, z. B. Kochkunst"
+                            },
+                            {
                                 "target_lang_word": "Handwerk",
                                 "target_lang_sense_clarification": "fachgerechte Ausführung eines Berufs"
                             },
                             {
                                 "target_lang_word": "Technik",
                                 "target_lang_sense_clarification": "Verfahren oder Arbeitsweise"
-                            },
-                            {
-                                "target_lang_word": "Handwerkskunst",
-                                "target_lang_sense_clarification": "traditionelles Können im Handwerk"
                             }
                         ],
                         "pl": [
+                            {
+                                "target_lang_word": "sztuka",
+                                "target_lang_sense_clarification": "zasady zawodu, np. sztuka kulinarna"
+                            },
                             {
                                 "target_lang_word": "rzemiosło",
                                 "target_lang_sense_clarification": "zawodowa umiejętność praktyczna"
@@ -329,24 +333,20 @@
                             {
                                 "target_lang_word": "fach",
                                 "target_lang_sense_clarification": "wykonywanie wyuczonego zawodu"
-                            },
-                            {
-                                "target_lang_word": "technika",
-                                "target_lang_sense_clarification": "sposób wykonywania pracy"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "mestiere",
-                                "target_lang_sense_clarification": "competenza professionale pratica"
+                                "target_lang_word": "arte",
+                                "target_lang_sense_clarification": "regole e tecnica di un mestiere"
                             },
                             {
                                 "target_lang_word": "tecnica",
                                 "target_lang_sense_clarification": "metodo di esecuzione del lavoro"
                             },
                             {
-                                "target_lang_word": "perizia",
-                                "target_lang_sense_clarification": "competenza tecnica ed esperienza"
+                                "target_lang_word": "mestiere",
+                                "target_lang_sense_clarification": "competenza professionale pratica"
                             }
                         ],
                         "cs": [
@@ -387,8 +387,8 @@
                                 "target_lang_sense_clarification": "procedimiento de ejecución práctica"
                             },
                             {
-                                "target_lang_word": "saber hacer",
-                                "target_lang_sense_clarification": "conocimiento práctico adquirido"
+                                "target_lang_word": "arte",
+                                "target_lang_sense_clarification": "reglas de una actividad: arte culinario"
                             }
                         ],
                         "zh": [
@@ -419,7 +419,7 @@
                             "text": "Les étudiants analysent l'<w>art</w> médiéval pour mieux comprendre l'architecture des cathédrales.",
                             "target_lang_translations": {
                                 "en": "Students analyse medieval <w>art</w> to better understand the architecture of cathedrals.",
-                                "ru": "Студенты изучают <w>средневековое искусство</w>, чтобы лучше понимать архитектуру соборов.",
+                                "ru": "Студенты изучают средневековое <w>искусство</w>, чтобы лучше понимать архитектуру соборов.",
                                 "nl": "De studenten analyseren de middeleeuwse <w>kunst</w> om de architectuur van de kathedralen beter te begrijpen.",
                                 "de": "Die Studierenden analysieren die mittelalterliche <w>Kunst</w>, um die Architektur der Kathedralen besser zu verstehen.",
                                 "pl": "Studenci analizują <w>sztukę</w> średniowieczną, aby lepiej zrozumieć architekturę katedr.",
@@ -434,7 +434,7 @@
                             "text": "Cette galerie parisienne expose plusieurs tableaux remarquables représentatifs de l'<w>art</w> moderne.",
                             "target_lang_translations": {
                                 "en": "This Parisian gallery exhibits several remarkable paintings representative of modern <w>art</w>.",
-                                "ru": "Эта парижская галерея экспонирует несколько замечательных картин, характерных для <w>современного искусства</w>.",
+                                "ru": "Эта парижская галерея экспонирует несколько замечательных картин, характерных для современного <w>искусства</w>.",
                                 "nl": "Deze Parijse galerie toont verschillende opmerkelijke schilderijen die representatief zijn voor de moderne <w>kunst</w>.",
                                 "de": "Diese Pariser Galerie zeigt mehrere bemerkenswerte Gemälde, die für die moderne <w>Kunst</w> repräsentativ sind.",
                                 "pl": "Ta paryska galeria wystawia kilka znakomitych obrazów reprezentatywnych dla <w>sztuki</w> nowoczesnej.",
@@ -553,15 +553,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "sanat",
-                                "target_lang_sense_clarification": "bir dönemin eserleri"
-                            },
-                            {
-                                "target_lang_word": "üslup",
-                                "target_lang_sense_clarification": "dönemin ayırt edici özellikleri"
-                            },
-                            {
-                                "target_lang_word": "akım",
-                                "target_lang_sense_clarification": "belirli sanatsal yönelim"
+                                "target_lang_sense_clarification": "bir dönemin, yerin ya da akımın eserleri"
                             }
                         ],
                         "es": [
@@ -581,15 +573,7 @@
                         "zh": [
                             {
                                 "target_lang_word": "艺术",
-                                "target_lang_sense_clarification": "某一时期的艺术作品"
-                            },
-                            {
-                                "target_lang_word": "风格",
-                                "target_lang_sense_clarification": "某一时期的独特风格"
-                            },
-                            {
-                                "target_lang_word": "流派",
-                                "target_lang_sense_clarification": "某一艺术运动或学派"
+                                "target_lang_sense_clarification": "某一时代或流派的作品总体"
                             }
                         ]
                     }
@@ -607,11 +591,11 @@
                             "target_lang_translations": {
                                 "en": "This brilliant lawyer truly has the <w>knack</w> of convincing even the most hesitant jurors.",
                                 "ru": "Этот блестящий адвокат действительно владеет <w>искусством</w> убеждать даже самых нерешительных присяжных.",
-                                "nl": "Deze briljante advocaat heeft echt de <w>handigheid</w> om zelfs de meest aarzelende juryleden te overtuigen.",
+                                "nl": "Deze briljante advocaat verstaat echt de <w>kunst</w> om zelfs de meest aarzelende juryleden te overtuigen.",
                                 "de": "Dieser brillante Anwalt besitzt wirklich das <w>Geschick</w>, selbst die zögerlichsten Geschworenen zu überzeugen.",
                                 "pl": "Ten błyskotliwy adwokat naprawdę ma <w>sztukę</w> przekonywania nawet najbardziej wahających się przysięgłych.",
                                 "it": "Questo brillante avvocato ha davvero l'<w>arte</w> di convincere i giurati più esitanti.",
-                                "cs": "Tento brilantní advokát má opravdovou <w>zručnost</w> v přesvědčování i těch nejváhavějších porotců.",
+                                "cs": "Tento brilantní advokát opravdu ovládá <w>umění</w> přesvědčit i ty nejváhavější porotce.",
                                 "tr": "Bu parlak avukat, en tereddütlü jüri üyelerini bile ikna etme <w>ustalığına</w> gerçekten sahip.",
                                 "es": "Este brillante abogado tiene realmente el <w>don</w> de convencer a los jurados más indecisos.",
                                 "zh": "这位出色的律师确实很有<w>本领</w>，能说服最犹豫不决的陪审员。"
@@ -679,18 +663,18 @@
                                 "target_lang_sense_clarification": "высокое умение в деле"
                             },
                             {
-                                "target_lang_word": "умение",
-                                "target_lang_sense_clarification": "навык выполнения конкретной задачи"
+                                "target_lang_word": "искусство",
+                                "target_lang_sense_clarification": "талант делать что-либо"
                             },
                             {
-                                "target_lang_word": "сноровка",
-                                "target_lang_sense_clarification": "ловкость в конкретном деле"
+                                "target_lang_word": "умение",
+                                "target_lang_sense_clarification": "навык выполнения конкретной задачи"
                             }
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "handigheid",
-                                "target_lang_sense_clarification": "aangeboren vaardigheid in het handelen"
+                                "target_lang_word": "kunst",
+                                "target_lang_sense_clarification": "bijzondere vaardigheid: de kunst verstaan om"
                             },
                             {
                                 "target_lang_word": "talent",
@@ -727,8 +711,8 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "abilità",
-                                "target_lang_sense_clarification": "capacità acquisita nel fare"
+                                "target_lang_word": "arte",
+                                "target_lang_sense_clarification": "abilità nel fare qualcosa, «l'arte di»"
                             },
                             {
                                 "target_lang_word": "maestria",
@@ -741,8 +725,8 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "zručnost",
-                                "target_lang_sense_clarification": "obratnost při konkrétním úkolu"
+                                "target_lang_word": "umění",
+                                "target_lang_sense_clarification": "schopnost něco dobře dělat"
                             },
                             {
                                 "target_lang_word": "mistrovství",
@@ -1172,14 +1156,14 @@
                             "text": "Le poète latin a composé un célèbre <w>art</w> d'aimer qui a traversé les siècles.",
                             "target_lang_translations": {
                                 "en": "The Latin poet composed a famous <w>treatise</w> on love that has endured for centuries.",
-                                "ru": "Латинский поэт написал знаменитый <w>трактат</w> о любви, который пережил века.",
+                                "ru": "Латинский поэт написал знаменитое «<w>Искусство</w> любви», пережившее века.",
                                 "nl": "De Latijnse dichter schreef een beroemde <w>verhandeling</w> over de liefde die al eeuwenlang bekend is.",
                                 "de": "Der lateinische Dichter verfasste eine berühmte <w>Abhandlung</w> über die Liebe, die die Jahrhunderte überdauert hat.",
-                                "pl": "Łaciński poeta napisał słynny <w>traktat</w> o miłości, który przetrwał całe wieki.",
+                                "pl": "Łaciński poeta napisał słynną „<w>Sztukę</w> kochania”, która przetrwała całe wieki.",
                                 "it": "Il poeta latino compose un celebre <w>trattato</w> sull'amore che ha attraversato i secoli.",
-                                "cs": "Latinský básník napsal slavné <w>pojednání</w> o lásce, které přetrvalo staletí.",
+                                "cs": "Latinský básník napsal slavné <w>Umění</w> milovat, které přetrvalo staletí.",
                                 "tr": "Latin şair, yüzyıllardır okunan ünlü bir aşk <w>risalesi</w> kaleme almıştı.",
-                                "es": "El poeta latino compuso el célebre <w>Arte de amar</w>, que ha atravesado los siglos.",
+                                "es": "El poeta latino compuso el célebre <w>Arte</w> de amar, que ha atravesado los siglos.",
                                 "zh": "这位拉丁诗人写下了著名的<w>论著</w>《爱的艺术》，流传了数百年。"
                             }
                         },
@@ -1187,10 +1171,10 @@
                             "text": "Le professeur étudie attentivement cet ancien <w>art</w> poétique rédigé au dix-septième siècle.",
                             "target_lang_translations": {
                                 "en": "The professor carefully studies this old <w>treatise</w> on poetics written in the seventeenth century.",
-                                "ru": "Профессор внимательно изучает этот старинный <w>трактат</w> о поэтике, написанный в XVII веке.",
+                                "ru": "Профессор внимательно изучает это старинное «Поэтическое <w>искусство</w>», написанное в XVII веке.",
                                 "nl": "De docent bestudeert zorgvuldig deze oude <w>verhandeling</w> over de poëtica, geschreven in de zeventiende eeuw.",
                                 "de": "Der Professor untersucht sorgfältig diese alte <w>Abhandlung</w> über die Dichtkunst aus dem 17. Jahrhundert.",
-                                "pl": "Profesor uważnie bada ten dawny <w>traktat</w> o poetyce, napisany w XVII wieku.",
+                                "pl": "Profesor uważnie bada tę dawną <w>sztukę</w> poetycką, napisaną w XVII wieku.",
                                 "it": "Il professore studia attentamente questo antico <w>trattato</w> di poetica scritto nel Seicento.",
                                 "cs": "Profesor pozorně studuje tento starý <w>traktát</w> o poetice sepsaný v 17. století.",
                                 "tr": "Profesör, on yedinci yüzyılda yazılmış bu eski şiir <w>risalesini</w> dikkatle inceliyor.",
@@ -1227,12 +1211,12 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "трактат",
-                                "target_lang_sense_clarification": "научное сочинение по теме"
+                                "target_lang_word": "искусство",
+                                "target_lang_sense_clarification": "в названии трактата о правилах дела"
                             },
                             {
-                                "target_lang_word": "руководство",
-                                "target_lang_sense_clarification": "практическое пособие с правилами"
+                                "target_lang_word": "трактат",
+                                "target_lang_sense_clarification": "сочинение с правилами дисциплины"
                             }
                         ],
                         "nl": [
@@ -1257,12 +1241,12 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "traktat",
-                                "target_lang_sense_clarification": "obszerne dzieło naukowe"
+                                "target_lang_word": "sztuka",
+                                "target_lang_sense_clarification": "w tytułach dzieł, np. „Sztuka kochania”"
                             },
                             {
-                                "target_lang_word": "rozprawa",
-                                "target_lang_sense_clarification": "naukowe opracowanie tematu"
+                                "target_lang_word": "traktat",
+                                "target_lang_sense_clarification": "obszerne dzieło naukowe"
                             },
                             {
                                 "target_lang_word": "podręcznik",
@@ -1281,26 +1265,26 @@
                         ],
                         "cs": [
                             {
+                                "target_lang_word": "umění",
+                                "target_lang_sense_clarification": "v názvu spisu, např. Umění milovat"
+                            },
+                            {
                                 "target_lang_word": "pojednání",
                                 "target_lang_sense_clarification": "odborný spis k tématu"
                             },
                             {
                                 "target_lang_word": "traktát",
                                 "target_lang_sense_clarification": "obsáhlé učené dílo"
-                            },
-                            {
-                                "target_lang_word": "příručka",
-                                "target_lang_sense_clarification": "praktický přehled pravidel"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "risale",
-                                "target_lang_sense_clarification": "bilimsel konuda kapsamlı yazı"
+                                "target_lang_word": "sanat",
+                                "target_lang_sense_clarification": "eser adlarında: Aşk Sanatı, Şiir Sanatı"
                             },
                             {
-                                "target_lang_word": "inceleme",
-                                "target_lang_sense_clarification": "bir konunun ayrıntılı çalışması"
+                                "target_lang_word": "risale",
+                                "target_lang_sense_clarification": "bir konunun kurallarını anlatan eser"
                             },
                             {
                                 "target_lang_word": "el kitabı",
@@ -1351,7 +1335,7 @@
                                 "pl": "W średniowieczu ten znany student z wyróżnieniem uzyskał dyplom magistra <w>sztuk wyzwolonych</w>.",
                                 "it": "Nel Medioevo questo studente famoso ottenne brillantemente il titolo di maestro in <w>arti liberali</w>.",
                                 "cs": "Ve středověku tento proslulý student skvěle získal titul magistra <w>svobodných umění</w>.",
-                                "tr": "Orta Çağ'da bu ünlü öğrenci, <w>liberal sanatlar</w> alanında magistrlik diplomasını parlak biçimde almıştı.",
+                                "tr": "Orta Çağ'da bu ünlü öğrenci, <w>liberal sanatlar</w> alanında magister derecesini parlak bir başarıyla almıştı.",
                                 "es": "En la Edad Media, este estudiante renombrado obtuvo brillantemente su título de maestro en <w>artes liberales</w>.",
                                 "zh": "中世纪时，这位知名学生以优异成绩获得了<w>文科</w>硕士学位。"
                             }
@@ -1518,9 +1502,9 @@
                                 "de": "<w>Art</w> verabschiedete sich herzlich von allen Kollegen, bevor er heute Abend endgültig das Büro verließ.",
                                 "pl": "<w>Art</w> serdecznie pożegnał wszystkich kolegów, zanim dziś wieczorem na dobre opuścił biuro.",
                                 "it": "<w>Art</w> ha salutato calorosamente tutti i colleghi prima di lasciare definitivamente l'ufficio stasera.",
-                                "cs": "<w>Artur</w> se srdečně rozloučil se všemi kolegy, než dnes večer natrvalo opustil kancelář.",
-                                "tr": "<w>Artur</w>, bu akşam ofisten kesin olarak ayrılmadan önce tüm meslektaşlarıyla sıcak bir biçimde vedalaştı.",
-                                "es": "<w>Arturo</w> se despidió cordialmente de todos sus colegas antes de abandonar definitivamente la oficina esta noche.",
+                                "cs": "<w>Art</w> se srdečně rozloučil se všemi kolegy, než dnes večer natrvalo opustil kancelář.",
+                                "tr": "<w>Art</w>, bu akşam ofisten kesin olarak ayrılmadan önce tüm meslektaşlarıyla sıcak bir biçimde vedalaştı.",
+                                "es": "<w>Art</w> se despidió cordialmente de todos sus colegas antes de abandonar definitivamente la oficina esta noche.",
                                 "zh": "今晚，<w>阿特</w>热情地向所有同事道别，随后便永远离开了办公室。"
                             }
                         }
@@ -1592,20 +1576,20 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "Artur",
-                                "target_lang_sense_clarification": "česká podoba jména Arthur"
+                                "target_lang_word": "Art",
+                                "target_lang_sense_clarification": "mužské jméno, domácká podoba jména Arthur"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "Artur",
-                                "target_lang_sense_clarification": "Arthur adının Türkçe biçimi"
+                                "target_lang_word": "Art",
+                                "target_lang_sense_clarification": "erkek adı, Arthur'un kısaltması"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "Arturo",
-                                "target_lang_sense_clarification": "forma completa de Art"
+                                "target_lang_word": "Art",
+                                "target_lang_sense_clarification": "nombre de pila masculino inglés"
                             }
                         ],
                         "zh": [

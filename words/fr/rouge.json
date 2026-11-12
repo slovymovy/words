@@ -245,7 +245,7 @@
                                 "tr": "Herkesin önünde birinin adını karıştırdığı için utancından <w>kıpkırmızı</w> kesilmişti.",
                                 "es": "Estaba <w>colorada</w> de vergüenza después de confundir el nombre de alguien delante de todos.",
                                 "zh": "她当众叫错了别人的名字，羞得满脸<w>通红</w>。",
-                                "nl": "Ze was <w>rood</w> van schaamte nadat ze voor iedereen de voornaam van iemand had verkeerd."
+                                "nl": "Ze was <w>rood</w> van schaamte nadat ze zich waar iedereen bij was in een voornaam had vergist."
                             }
                         }
                     ],
@@ -256,7 +256,7 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Having a face strongly flushed from emotion, heat, or effort.",
-                        "ru": "Лицо сильно покраснело от волнения, жары или напряжения.",
+                        "ru": "С сильно покрасневшим лицом — от волнения, жары или напряжения.",
                         "de": "Mit stark gerötetem Gesicht, etwa vor Gefühlen, Hitze oder Anstrengung.",
                         "pl": "Określenie twarzy mocno zaczerwienionej z powodu emocji, gorąca lub wysiłku.",
                         "it": "Che ha il viso fortemente colorito per un'emozione, il caldo o uno sforzo.",
@@ -268,6 +268,10 @@
                     },
                     "translations": {
                         "en": [
+                            {
+                                "target_lang_word": "red",
+                                "target_lang_sense_clarification": "of the face, with shame, heat or effort"
+                            },
                             {
                                 "target_lang_word": "flushed",
                                 "target_lang_sense_clarification": "face or skin reddened"
@@ -293,16 +297,16 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "gerötet",
-                                "target_lang_sense_clarification": "neutral, Gesicht oder Haut"
+                                "target_lang_word": "rot",
+                                "target_lang_sense_clarification": "im Gesicht: vor Scham, Hitze, Anstrengung"
                             },
                             {
                                 "target_lang_word": "hochrot",
                                 "target_lang_sense_clarification": "stark gerötet, etwa vor Anstrengung"
                             },
                             {
-                                "target_lang_word": "puterrot",
-                                "target_lang_sense_clarification": "vor Wut oder Zorn, umgangssprachlich"
+                                "target_lang_word": "gerötet",
+                                "target_lang_sense_clarification": "neutral, Gesicht oder Haut"
                             }
                         ],
                         "pl": [
@@ -415,7 +419,7 @@
                                 "it": "Questo quartiere popolare è stato a lungo considerato una zona molto <w>di sinistra</w>.",
                                 "cs": "Tato dělnická čtvrť byla dlouho považována za velmi <w>levicovou</w> oblast.",
                                 "tr": "Bu işçi mahallesi uzun süre çok <w>solcu</w> bir bölge olarak görüldü.",
-                                "es": "Este barrio obrero fue considerado durante mucho tiempo una zona muy <w>de izquierda</w>.",
+                                "es": "Este barrio obrero fue considerado durante mucho tiempo una zona muy <w>roja</w>.",
                                 "zh": "这个工人区长期以来被视为政治立场非常<w>左倾</w>的地区。",
                                 "nl": "Deze volkswijk werd lange tijd gezien als een zeer <w>linkse</w> wijk."
                             }
@@ -459,7 +463,7 @@
                             },
                             {
                                 "target_lang_word": "communist",
-                                "target_lang_sense_clarification": "Marxist political ideology"
+                                "target_lang_sense_clarification": "marxist political ideology"
                             }
                         ],
                         "ru": [
@@ -539,17 +543,17 @@
                             },
                             {
                                 "target_lang_word": "komünist",
-                                "target_lang_sense_clarification": "Marksist ideoloji"
+                                "target_lang_sense_clarification": "marksist ideoloji"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "izquierdista",
-                                "target_lang_sense_clarification": "ideas de izquierda radical"
+                                "target_lang_word": "rojo",
+                                "target_lang_sense_clarification": "coloquial, comunista o de izquierda radical"
                             },
                             {
-                                "target_lang_word": "de izquierda",
-                                "target_lang_sense_clarification": "orientación política, uso general"
+                                "target_lang_word": "izquierdista",
+                                "target_lang_sense_clarification": "ideas de izquierda radical"
                             },
                             {
                                 "target_lang_word": "comunista",
@@ -740,8 +744,8 @@
                                 "ru": "Неосторожный водитель вместо того, чтобы притормозить, прибавил газу и проскочил на <w>красный</w>.",
                                 "de": "Der unvorsichtige Autofahrer gab statt zu bremsen Gas und fuhr bei <w>Rot</w> über die Ampel.",
                                 "pl": "Nieostrożny kierowca zamiast zwolnić przyspieszył i przejechał na <w>czerwonym</w> świetle.",
-                                "it": "L'automobilista imprudente ha accelerato invece di rallentare e ha passato con il <w>rosso</w>.",
-                                "cs": "Nepozorný řidič místo brzdění přidal plyn a přejel na <w>červenou</w>.",
+                                "it": "L'automobilista imprudente ha accelerato invece di rallentare e è passato con il <w>rosso</w>.",
+                                "cs": "Nepozorný řidič místo brzdění přidal plyn a projel na <w>červenou</w>.",
                                 "tr": "Dikkatsiz sürücü yavaşlamak yerine gaza basıp <w>kırmızı ışığı</w> geçti.",
                                 "es": "El conductor imprudente aceleró en lugar de frenar y se saltó la <w>luz roja</w>.",
                                 "zh": "这个鲁莽的司机不但没有减速，反而加油门闯了<w>红灯</w>。",
@@ -804,12 +808,16 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Rotlicht",
-                                "target_lang_sense_clarification": "Verkehrssignal, Standardbegriff"
+                                "target_lang_word": "Rot",
+                                "target_lang_sense_clarification": "Ampel: bei Rot fahren, auf Rot stehen"
                             },
                             {
                                 "target_lang_word": "rote Ampel",
                                 "target_lang_sense_clarification": "alltäglicher Ausdruck an Kreuzungen"
+                            },
+                            {
+                                "target_lang_word": "Rotlicht",
+                                "target_lang_sense_clarification": "Verkehrssignal, amtlich"
                             }
                         ],
                         "pl": [
@@ -874,8 +882,8 @@
                                 "target_lang_sense_clarification": "verkeerssignaal, standaardterm"
                             },
                             {
-                                "target_lang_word": "rode ampel",
-                                "target_lang_sense_clarification": "alledaags, bij kruispunten"
+                                "target_lang_word": "rood",
+                                "target_lang_sense_clarification": "in 'door rood rijden' en 'op rood staan'"
                             }
                         ]
                     }
@@ -915,7 +923,7 @@
                                 "tr": "Bu sade <w>allık</w> tonu, açık tenine mükemmel yakışıyor.",
                                 "es": "Este tono discreto de <w>colorete</w> le sienta a la perfección con su tez clara.",
                                 "zh": "这种淡雅色调的<w>腮红</w>与她白皙的肤色十分相配。",
-                                "nl": "Deze dezente tint <w>rouge</w> past perfect bij haar lichte teint."
+                                "nl": "Deze discrete tint <w>rouge</w> past perfect bij haar lichte teint."
                             }
                         }
                     ],
@@ -1219,14 +1227,14 @@
                         {
                             "text": "Après plusieurs dépenses imprévues ce mois-ci, notre compte bancaire est passé dans le <w>rouge</w>.",
                             "target_lang_translations": {
-                                "en": "After several unexpected expenses this month, our bank account has gone <w>into the red</w>.",
-                                "ru": "После нескольких непредвиденных трат в этом месяце наш счёт <w>ушёл в минус</w>.",
-                                "de": "Nach mehreren unerwarteten Ausgaben in diesem Monat ist unser Konto <w>ins Minus</w> gerutscht.",
+                                "en": "After several unexpected expenses this month, our bank account has gone into <w>the red</w>.",
+                                "ru": "После нескольких непредвиденных трат в этом месяце наш счёт ушёл в <w>минус</w>.",
+                                "de": "Nach mehreren unerwarteten Ausgaben in diesem Monat ist unser Konto ins <w>Minus</w> gerutscht.",
                                 "pl": "Po kilku nieprzewidzianych wydatkach w tym miesiącu nasze konto bankowe znalazło się <w>na minusie</w>.",
                                 "it": "Dopo diverse spese impreviste questo mese, il nostro conto in banca è finito in <w>rosso</w>.",
                                 "cs": "Po několika nečekaných výdajích tento měsíc se náš bankovní účet dostal <w>do mínusu</w>.",
-                                "tr": "Bu ay beklenmedik birkaç harcamadan sonra banka hesabımız <w>eksiye düştü</w>.",
-                                "es": "Tras varios gastos imprevistos este mes, nuestra cuenta bancaria se ha quedado <w>en descubierto</w>.",
+                                "tr": "Bu ay beklenmedik birkaç harcamadan sonra banka hesabımız <w>eksiye</w> düştü.",
+                                "es": "Tras varios gastos imprevistos este mes, nuestra cuenta bancaria se ha quedado en <w>descubierto</w>.",
                                 "zh": "这个月接连出现几笔意外开支后，我们的银行账户已经处于<w>赤字</w>状态。",
                                 "nl": "Na een aantal onverwachte uitgaven deze maand staat onze bankrekening nu <w>in de min</w>."
                             }
@@ -1234,10 +1242,10 @@
                         {
                             "text": "La direction cherche des solutions urgentes pour sortir les finances de l'entreprise du <w>rouge</w>.",
                             "target_lang_translations": {
-                                "en": "Management is looking for urgent solutions to pull the company's finances <w>out of the red</w>.",
-                                "ru": "Руководство ищет срочные решения, чтобы вывести финансы компании <w>из красных цифр</w>.",
-                                "de": "Die Geschäftsführung sucht dringend nach Lösungen, um die Finanzen des Unternehmens <w>aus den roten Zahlen</w> zu holen.",
-                                "pl": "Zarząd szuka pilnych rozwiązań, żeby wyciągnąć finanse firmy <w>z czerwonych liczb</w>.",
+                                "en": "Management is looking for urgent solutions to pull the company's finances out of <w>the red</w>.",
+                                "ru": "Руководство ищет срочные решения, чтобы вывести финансы компании из <w>минуса</w>.",
+                                "de": "Die Geschäftsführung sucht dringend nach Lösungen, um die Finanzen des Unternehmens aus den <w>roten Zahlen</w> zu holen.",
+                                "pl": "Zarząd szuka pilnych rozwiązań, żeby wyprowadzić finanse firmy <w>spod kreski</w>.",
                                 "it": "La direzione cerca soluzioni urgenti per far uscire i conti dell'azienda dal <w>rosso</w>.",
                                 "cs": "Vedení hledá naléhavá řešení, jak dostat finance firmy z <w>červených čísel</w>.",
                                 "tr": "Yönetim, şirketin mali durumunu <w>zarardan</w> çıkarmak için acil çözümler arıyor.",
@@ -1266,8 +1274,8 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "in the red",
-                                "target_lang_sense_clarification": "losing money, financial deficit"
+                                "target_lang_word": "the red",
+                                "target_lang_sense_clarification": "bank deficit, as in go into the red"
                             },
                             {
                                 "target_lang_word": "overdrawn",
@@ -1276,30 +1284,26 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "в минусе",
-                                "target_lang_sense_clarification": "о банковском счёте, разговорное"
+                                "target_lang_word": "минус",
+                                "target_lang_sense_clarification": "разговорное: счёт в минусе, уйти в минус"
                             },
                             {
-                                "target_lang_word": "в красных цифрах",
-                                "target_lang_sense_clarification": "о бизнесе, убытки"
+                                "target_lang_word": "убыток",
+                                "target_lang_sense_clarification": "о бизнесе: работать в убыток"
                             },
                             {
-                                "target_lang_word": "с отрицательным балансом",
+                                "target_lang_word": "отрицательный баланс",
                                 "target_lang_sense_clarification": "счёт ниже нуля"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "im Minus",
-                                "target_lang_sense_clarification": "Konto oder Finanzen negativ"
+                                "target_lang_word": "Minus",
+                                "target_lang_sense_clarification": "Konto: ins Minus rutschen, im Minus sein"
                             },
                             {
-                                "target_lang_word": "in den roten Zahlen",
+                                "target_lang_word": "rote Zahlen",
                                 "target_lang_sense_clarification": "Verluste, vor allem im Geschäft"
-                            },
-                            {
-                                "target_lang_word": "überzogen",
-                                "target_lang_sense_clarification": "Bankkonto mit negativem Stand"
                             }
                         ],
                         "pl": [
@@ -1308,14 +1312,14 @@
                                 "target_lang_sense_clarification": "konto bankowe poniżej zera"
                             },
                             {
-                                "target_lang_word": "w czerwonych liczbach",
-                                "target_lang_sense_clarification": "straty, głównie w biznesie"
+                                "target_lang_word": "pod kreską",
+                                "target_lang_sense_clarification": "straty, ujemny wynik firmy"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "in rosso",
-                                "target_lang_sense_clarification": "conto o bilancio in perdita"
+                                "target_lang_word": "rosso",
+                                "target_lang_sense_clarification": "saldo negativo: conto in rosso"
                             },
                             {
                                 "target_lang_word": "scoperto",
@@ -1342,6 +1346,10 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "eksi",
+                                "target_lang_sense_clarification": "hesabın borçlu durumu: eksiye düşmek"
+                            },
+                            {
                                 "target_lang_word": "eksi bakiye",
                                 "target_lang_sense_clarification": "banka hesabı, negatif bakiye"
                             },
@@ -1352,16 +1360,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "en números rojos",
-                                "target_lang_sense_clarification": "pérdidas, sobre todo empresariales"
+                                "target_lang_word": "números rojos",
+                                "target_lang_sense_clarification": "pérdidas o saldo negativo"
                             },
                             {
-                                "target_lang_word": "en descubierto",
+                                "target_lang_word": "descubierto",
                                 "target_lang_sense_clarification": "cuenta bancaria con saldo negativo"
-                            },
-                            {
-                                "target_lang_word": "en negativo",
-                                "target_lang_sense_clarification": "saldo bancario bajo cero"
                             }
                         ],
                         "zh": [

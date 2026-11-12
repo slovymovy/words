@@ -312,16 +312,16 @@
                         {
                             "text": "Le médecin a mesuré le <w>tour</w> de taille du patient lors de la visite.",
                             "target_lang_translations": {
-                                "en": "The doctor measured the patient's <w>waist</w> during the check-up.",
+                                "en": "The doctor measured the patient's waist <w>circumference</w> during the check-up.",
                                 "ru": "Врач измерил <w>обхват</w> талии пациента во время осмотра.",
                                 "nl": "De arts heeft tijdens het consult de <w>tailleomtrek</w> van de patiënt gemeten.",
                                 "de": "Der Arzt hat bei der Untersuchung den <w>Taillenumfang</w> des Patienten gemessen.",
-                                "pl": "Lekarz podczas wizyty zmierzył pacjentowi <w>obwód talii</w>.",
+                                "pl": "Lekarz podczas wizyty zmierzył pacjentowi <w>obwód</w> talii.",
                                 "it": "Durante la visita il medico ha misurato il <w>girovita</w> del paziente.",
-                                "cs": "Lékař při vyšetření pacientovi změřil <w>obvod pasu</w>.",
-                                "tr": "Doktor muayene sırasında hastanın <w>bel çevresini</w> ölçtü.",
-                                "es": "Durante la consulta, el médico midió el <w>contorno de cintura</w> del paciente.",
-                                "zh": "医生在检查时量了病人的<w>腰围</w>。"
+                                "cs": "Lékař při vyšetření pacientovi změřil <w>obvod</w> pasu.",
+                                "tr": "Doktor muayene sırasında hastanın bel <w>çevresini</w> ölçtü.",
+                                "es": "Durante la consulta, el médico midió el <w>contorno</w> de cintura del paciente.",
+                                "zh": "医生在检查时量了病人的腰<w>围</w>。"
                             }
                         },
                         {
@@ -334,9 +334,9 @@
                                 "pl": "Zrobiliśmy <w>rundę</w> dookoła jeziora w godzinę marszu.",
                                 "it": "Abbiamo fatto il <w>giro</w> del lago in un'ora di cammino.",
                                 "cs": "Za hodinu chůze jsme udělali <w>okruh</w> kolem jezera.",
-                                "tr": "Bir saatlik yürüyüşle gölün <w>etrafını dolaştık</w>.",
+                                "tr": "Bir saatlik yürüyüşle gölün <w>çevresini</w> dolaştık.",
                                 "es": "Dimos la <w>vuelta</w> al lago en una hora de caminata.",
-                                "zh": "我们步行一小时，走完了湖边的一条<w>环线</w>。"
+                                "zh": "我们步行一小时，绕湖走了<w>一圈</w>。"
                             }
                         }
                     ],
@@ -392,11 +392,11 @@
                         "nl": [
                             {
                                 "target_lang_word": "omtrek",
-                                "target_lang_sense_clarification": "geometrie, ronde voorwerpen"
+                                "target_lang_sense_clarification": "maat rondom iets, bv. taille"
                             },
                             {
-                                "target_lang_word": "rondgang",
-                                "target_lang_sense_clarification": "wandelroute rond een plek"
+                                "target_lang_word": "rondje",
+                                "target_lang_sense_clarification": "route rond iets heen"
                             },
                             {
                                 "target_lang_word": "tailleomtrek",
@@ -416,15 +416,15 @@
                         "pl": [
                             {
                                 "target_lang_word": "obwód",
-                                "target_lang_sense_clarification": "geometria, długość krawędzi"
-                            },
-                            {
-                                "target_lang_word": "obwód talii",
-                                "target_lang_sense_clarification": "pomiar ciała, medycyna"
+                                "target_lang_sense_clarification": "długość krawędzi, pomiar"
                             },
                             {
                                 "target_lang_word": "okrążenie",
                                 "target_lang_sense_clarification": "trasa wokół miejsca"
+                            },
+                            {
+                                "target_lang_word": "runda",
+                                "target_lang_sense_clarification": "przejście lub przejazd dookoła"
                             }
                         ],
                         "it": [
@@ -444,11 +444,7 @@
                         "cs": [
                             {
                                 "target_lang_word": "obvod",
-                                "target_lang_sense_clarification": "geometrie, kruhové tvary"
-                            },
-                            {
-                                "target_lang_word": "obvod pasu",
-                                "target_lang_sense_clarification": "měření těla, zdravotnictví"
+                                "target_lang_sense_clarification": "délka vnějšího okraje, např. obvod pasu"
                             },
                             {
                                 "target_lang_word": "okruh",
@@ -458,11 +454,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "çevre",
-                                "target_lang_sense_clarification": "geometri, yuvarlak nesneler"
-                            },
-                            {
-                                "target_lang_word": "bel çevresi",
-                                "target_lang_sense_clarification": "vücut ölçüsü, sağlık"
+                                "target_lang_sense_clarification": "bir şeyin dış kenarı ya da ölçüsü"
                             }
                         ],
                         "es": [
@@ -475,8 +467,8 @@
                                 "target_lang_sense_clarification": "geometría, borde de una figura"
                             },
                             {
-                                "target_lang_word": "circunferencia",
-                                "target_lang_sense_clarification": "geometría, objetos redondos"
+                                "target_lang_word": "vuelta",
+                                "target_lang_sense_clarification": "recorrido alrededor de algo"
                             }
                         ],
                         "zh": [
@@ -485,12 +477,12 @@
                                 "target_lang_sense_clarification": "几何图形外缘的长度"
                             },
                             {
-                                "target_lang_word": "腰围",
-                                "target_lang_sense_clarification": "身体测量，腰部周长"
+                                "target_lang_word": "围",
+                                "target_lang_sense_clarification": "身体部位的周长，如腰围"
                             },
                             {
-                                "target_lang_word": "环线",
-                                "target_lang_sense_clarification": "绕某地一周的路线"
+                                "target_lang_word": "一圈",
+                                "target_lang_sense_clarification": "沿外缘绕行一周"
                             }
                         ]
                     }
@@ -522,7 +514,7 @@
                             "text": "Je vais juste faire un <w>tour</w> en ville pour acheter du pain.",
                             "target_lang_translations": {
                                 "en": "I'm just going for a quick <w>walk</w> into town to buy some bread.",
-                                "ru": "Я просто выйду в город за хлебом, небольшая <w>прошвырка</w>.",
+                                "ru": "Я просто сделаю небольшую <w>вылазку</w> в город, чтобы купить хлеба.",
                                 "nl": "Ik ga even een <w>rondje</w> door de stad maken om brood te kopen.",
                                 "de": "Ich mache nur kurz einen <w>Bummel</w> durch die Stadt, um Brot zu kaufen.",
                                 "pl": "Wyskoczę tylko na szybki <w>spacerek</w> do miasta po chleb.",
@@ -530,7 +522,7 @@
                                 "cs": "Jdu jen na krátkou <w>vycházku</w> do města koupit chleba.",
                                 "tr": "Ekmek almak için şehre kısaca bir <w>tur</w> atacağım.",
                                 "es": "Solo voy a dar una <w>vuelta</w> por la ciudad para comprar pan.",
-                                "zh": "我去城里买点面包，就当是一次短途<w>散步</w>。"
+                                "zh": "我就去城里<w>溜达</w>一圈，买点面包。"
                             }
                         }
                     ],
@@ -572,10 +564,6 @@
                             {
                                 "target_lang_word": "прогулка",
                                 "target_lang_sense_clarification": "неспешная, для отдыха"
-                            },
-                            {
-                                "target_lang_word": "прошвырка",
-                                "target_lang_sense_clarification": "разговорное, пройтись по городу"
                             },
                             {
                                 "target_lang_word": "вылазка",
@@ -815,7 +803,7 @@
                                 "de": "Dieser Zauberer beeindruckt die Kinder mit einem neuen <w>Kartentrick</w>.",
                                 "pl": "Ten magik zachwyca dzieci nową <w>sztuczką</w> z kartami.",
                                 "it": "Questo mago stupisce i bambini con un nuovo <w>trucco</w> di carte.",
-                                "cs": "Kouzelník dětí ohromuje novým <w>trikem</w> s kartami.",
+                                "cs": "Tento kouzelník ohromuje děti novým <w>trikem</w> s kartami.",
                                 "tr": "Bu sihirbaz çocukları yeni bir iskambil <w>numarasıyla</w> hayran bırakıyor.",
                                 "es": "Este mago impresiona a los niños con un nuevo <w>truco</w> de cartas.",
                                 "zh": "这位魔术师用一个新的扑克牌<w>魔术</w>，让孩子们惊叹不已。"
@@ -1005,7 +993,7 @@
                                 "de": "Sein Cousin hat ihm einen üblen <w>Streich</w> gespielt, indem er seine Autoschlüssel versteckt hat.",
                                 "pl": "Kuzyn spłatał mu paskudnego <w>figla</w>, chowając kluczyki od samochodu.",
                                 "it": "Suo cugino gli ha fatto un brutto <w>scherzo</w> nascondendo le chiavi della sua auto.",
-                                "cs": "Bratranec mu zahrál nepěknou <w>lumpárnu</w>, když mu schoval klíče od auta.",
+                                "cs": "Bratranec mu provedl ošklivou <w>lumpárnu</w>, když mu schoval klíče od auta.",
                                 "tr": "Kuzeni araba anahtarlarını saklayarak ona kötü bir <w>şaka</w> yaptı.",
                                 "es": "Su primo le jugó una <w>mala pasada</w> escondiéndole las llaves del coche.",
                                 "zh": "他的表哥把他的车钥匙藏了起来，这个<w>恶作剧</w>实在太过分了。"
@@ -1021,7 +1009,7 @@
                                 "pl": "Uważaj na jego żarty, uwielbia płatać wszystkim <w>figle</w>.",
                                 "it": "Stai attento alle sue burle: gli piace fare <w>scherzi</w> a tutti.",
                                 "cs": "Měj se na pozoru před jeho žerty, rád dělá všem <w>lumpárny</w>.",
-                                "tr": "Şakalarına dikkat et, herkese <w>yaramazlık</w> yapmayı çok seviyor.",
+                                "tr": "Şakalarına dikkat et, herkese <w>oyun</w> oynamayı çok seviyor.",
                                 "es": "Cuidado con sus bromas, le encanta hacer <w>jugarretas</w> a todo el mundo.",
                                 "zh": "提防他，他最喜欢对每个人搞<w>恶作剧</w>。"
                             }
@@ -1145,8 +1133,8 @@
                                 "target_lang_sense_clarification": "arkadaşlar arasında, takılma"
                             },
                             {
-                                "target_lang_word": "yaramazlık",
-                                "target_lang_sense_clarification": "çocukça, huzursuz edici hareket"
+                                "target_lang_word": "oyun",
+                                "target_lang_sense_clarification": "birini kandırmak için: «oyun oynamak»"
                             },
                             {
                                 "target_lang_word": "kötü şaka",
@@ -1265,6 +1253,10 @@
                             {
                                 "target_lang_word": "omwenteling",
                                 "target_lang_sense_clarification": "techniek, astronomie"
+                            },
+                            {
+                                "target_lang_word": "toer",
+                                "target_lang_sense_clarification": "motor: toeren per minuut"
                             },
                             {
                                 "target_lang_word": "rotatie",
@@ -1463,11 +1455,11 @@
                             },
                             {
                                 "target_lang_word": "runda",
-                                "target_lang_sense_clarification": "turnieje, walki pucharowe"
+                                "target_lang_sense_clarification": "turnieje, rozgrywki"
                             },
                             {
-                                "target_lang_word": "etap",
-                                "target_lang_sense_clarification": "wyścigi wieloetapowe"
+                                "target_lang_word": "okrążenie",
+                                "target_lang_sense_clarification": "tor wyścigowy"
                             }
                         ],
                         "it": [
@@ -1731,7 +1723,7 @@
                                 "it": "L'artigiano modella con destrezza la ciotola di argilla sul suo <w>tornio da vasaio</w>.",
                                 "cs": "Řemeslník zručně tvaruje hliněnou misku na svém <w>hrnčířském kruhu</w>.",
                                 "tr": "Usta kil kaseyi <w>çömlekçi çarkında</w> ustalıkla şekillendiriyor.",
-                                "es": "El artesano modela con destreza el cuenco de arcilla en su <w>torno de alfarero</w>.",
+                                "es": "El artesano modela con destreza el cuenco de arcilla en su <w>torno</w> de alfarero.",
                                 "zh": "工匠在自己的<w>陶轮</w>上熟练地拉出一只陶碗。"
                             }
                         },
@@ -1791,6 +1783,10 @@
                             {
                                 "target_lang_word": "draaibank",
                                 "target_lang_sense_clarification": "metaal- en houtbewerking, werkplaats"
+                            },
+                            {
+                                "target_lang_word": "pottenbakkersschijf",
+                                "target_lang_sense_clarification": "draaischijf voor klei"
                             }
                         ],
                         "de": [
@@ -1801,6 +1797,10 @@
                             {
                                 "target_lang_word": "Drehmaschine",
                                 "target_lang_sense_clarification": "Industrie, Metallbearbeitung"
+                            },
+                            {
+                                "target_lang_word": "Töpferscheibe",
+                                "target_lang_sense_clarification": "Töpferei, Formen von Ton"
                             }
                         ],
                         "pl": [
@@ -1876,16 +1876,16 @@
                         {
                             "text": "Ses propos maladroits ont donné un mauvais <w>tour</w> à la discussion entre collègues.",
                             "target_lang_translations": {
-                                "en": "His clumsy remarks put a bad <w>spin</w> on the discussion between colleagues.",
+                                "en": "His clumsy remarks gave the discussion between colleagues a bad <w>turn</w>.",
                                 "ru": "Его неловкие слова придали разговору между коллегами дурной <w>оборот</w>.",
                                 "nl": "Zijn onhandige opmerkingen gaven het gesprek tussen collega's een slechte <w>wending</w>.",
                                 "de": "Seine ungeschickten Bemerkungen haben dem Gespräch unter Kollegen eine schlechte <w>Wendung</w> gegeben.",
                                 "pl": "Jego niezgrabne uwagi nadały rozmowie między kolegami przykry <w>wydźwięk</w>.",
                                 "it": "Le sue osservazioni maldestre hanno dato una brutta <w>piega</w> alla discussione tra colleghi.",
                                 "cs": "Jeho nešikovné poznámky dodaly rozhovoru mezi kolegy špatný <w>nádech</w>.",
-                                "tr": "Beceriksiz sözleri, meslektaşlar arasındaki konuşmaya kötü bir <w>hava</w> kattı.",
+                                "tr": "Beceriksiz sözleri, meslektaşlar arasındaki konuşmaya kötü bir <w>yön</w> verdi.",
                                 "es": "Sus torpes comentarios dieron un mal <w>giro</w> a la conversación entre colegas.",
-                                "zh": "他那笨拙的<w>措辞</w>，让同事之间的讨论变得不太愉快。"
+                                "zh": "他那些笨拙的话，让同事之间的讨论有了不好的<w>走向</w>。"
                             }
                         },
                         {
@@ -1898,7 +1898,7 @@
                                 "pl": "Pisarz używa bardzo eleganckiego <w>zwrotu</w>, aby wyrazić tę złożoną myśl.",
                                 "it": "Lo scrittore usa un <w>giro di frase</w> molto elegante per esprimere questa idea complessa.",
                                 "cs": "Spisovatel použije velmi elegantní <w>slovní obrat</w>, aby vyjádřil tuto složitou myšlenku.",
-                                "tr": "Yazar bu karmaşık fikri ifade etmek için çok zarif bir <w>anlatım</w> kullanıyor.",
+                                "tr": "Yazar bu karmaşık fikri ifade etmek için çok zarif bir <w>deyiş</w> kullanıyor.",
                                 "es": "El escritor emplea un <w>giro</w> muy elegante para expresar esta idea compleja.",
                                 "zh": "作家用了一个非常优雅的<w>说法</w>来表达这个复杂的想法。"
                             }
@@ -1931,8 +1931,8 @@
                                 "target_lang_sense_clarification": "choice of words"
                             },
                             {
-                                "target_lang_word": "spin",
-                                "target_lang_sense_clarification": "slant given to a message"
+                                "target_lang_word": "turn",
+                                "target_lang_sense_clarification": "direction a discussion or matter takes"
                             }
                         ],
                         "ru": [
@@ -2027,6 +2027,10 @@
                             {
                                 "target_lang_word": "deyiş",
                                 "target_lang_sense_clarification": "edebi, özgün söz kalıbı"
+                            },
+                            {
+                                "target_lang_word": "yön",
+                                "target_lang_sense_clarification": "konuşmanın, olayın aldığı gidiş"
                             }
                         ],
                         "es": [
@@ -2047,6 +2051,10 @@
                             {
                                 "target_lang_word": "说法",
                                 "target_lang_sense_clarification": "表达方式，口语常用"
+                            },
+                            {
+                                "target_lang_word": "走向",
+                                "target_lang_sense_clarification": "谈话或思路的发展方向"
                             }
                         ]
                     }
@@ -2123,7 +2131,7 @@
                         "nl": [
                             {
                                 "target_lang_word": "Eiffeltoren",
-                                "target_lang_sense_clarification": "Parijs, ijzeren gitterbouwwerk"
+                                "target_lang_sense_clarification": "ijzeren toren in Parijs"
                             }
                         ],
                         "de": [
@@ -2237,7 +2245,7 @@
                         "nl": [
                             {
                                 "target_lang_word": "Ronde van Frankrijk",
-                                "target_lang_sense_clarification": "Nederlandse naam, wielerwedstrijd"
+                                "target_lang_sense_clarification": "nederlandse naam, wielerwedstrijd"
                             },
                             {
                                 "target_lang_word": "Tour de France",

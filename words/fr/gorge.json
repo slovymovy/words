@@ -32,7 +32,7 @@
                                 "de": "Seit gestern Morgen habe ich sehr starke <w>Halsschmerzen</w>, und ich huste ständig.",
                                 "pl": "Od wczoraj rano bardzo boli mnie <w>gardło</w> i nieustannie kaszlę.",
                                 "it": "Da ieri mattina ho un gran mal di <w>gola</w> e tossisco di continuo.",
-                                "cs": "Od včerejšího rána mě moc bolí <w>hrdlo</w> a pořád neustále kašlu.",
+                                "cs": "Od včerejšího rána mě moc bolí v <w>krku</w> a neustále kašlu.",
                                 "tr": "Dün sabahtan beri <w>boğazım</w> çok ağrıyor ve durmadan öksürüyorum.",
                                 "es": "Desde ayer por la mañana me duele muchísimo la <w>garganta</w> y no paro de toser.",
                                 "zh": "从昨天早上开始，我<w>喉咙</w>疼得厉害，咳个不停。"
@@ -115,8 +115,12 @@
                         ],
                         "cs": [
                             {
+                                "target_lang_word": "krk",
+                                "target_lang_sense_clarification": "zevnitř: bolí mě v krku"
+                            },
+                            {
                                 "target_lang_word": "hrdlo",
-                                "target_lang_sense_clarification": "anatomie; např. bolí mě hrdlo"
+                                "target_lang_sense_clarification": "přední část krku, hltan"
                             }
                         ],
                         "tr": [
@@ -456,11 +460,11 @@
                         "it": [
                             {
                                 "target_lang_word": "seno",
-                                "target_lang_sense_clarification": "anatomia; uso letterario o formale"
+                                "target_lang_sense_clarification": "letterario, petto femminile"
                             },
                             {
-                                "target_lang_word": "mammella",
-                                "target_lang_sense_clarification": "anatomia; termine medico o formale"
+                                "target_lang_word": "petto",
+                                "target_lang_sense_clarification": "letterario, di una donna"
                             }
                         ],
                         "cs": [
@@ -486,11 +490,15 @@
                         "es": [
                             {
                                 "target_lang_word": "seno",
-                                "target_lang_sense_clarification": "anatomía; suele usarse en plural"
+                                "target_lang_sense_clarification": "suele usarse en plural"
+                            },
+                            {
+                                "target_lang_word": "pecho",
+                                "target_lang_sense_clarification": "de mujer, uso literario"
                             },
                             {
                                 "target_lang_word": "busto",
-                                "target_lang_sense_clarification": "anatomía femenina; registro formal"
+                                "target_lang_sense_clarification": "registro formal"
                             }
                         ],
                         "zh": [
@@ -525,10 +533,10 @@
                         {
                             "text": "Chaque été, je me <w>gorge</w> de fruits frais cueillis dans le jardin.",
                             "target_lang_translations": {
-                                "en": "Every summer, I <w>stuff myself</w> with fresh fruit picked from the garden.",
+                                "en": "Every summer, I <w>stuff</w> myself with fresh fruit picked from the garden.",
                                 "ru": "Каждое лето я <w>объедаюсь</w> свежими фруктами, сорванными в саду.",
-                                "nl": "Elke zomer <w>prop ik me vol</w> met verse vruchten uit de tuin.",
-                                "de": "Jeden Sommer esse ich so viel frisches Obst aus dem Garten, dass ich mich <w>vollstopfe</w>.",
+                                "nl": "Elke zomer <w>prop</w> ik me <w>vol</w> met verse vruchten uit de tuin.",
+                                "de": "Jeden Sommer <w>stopfe</w> ich mich mit frischem Obst aus dem Garten <w>voll</w>.",
                                 "pl": "Każdego lata <w>napycham się</w> świeżymi owocami zerwanymi w ogrodzie.",
                                 "it": "Ogni estate <w>mi rimpinzo</w> di frutta fresca colta in giardino.",
                                 "cs": "Každé léto <w>se cpu</w> čerstvým ovocem natrhaným na zahradě.",
@@ -583,7 +591,7 @@
                             },
                             {
                                 "target_lang_word": "saturate",
-                                "target_lang_sense_clarification": "fill with water; of soil"
+                                "target_lang_sense_clarification": "first person (I): soak soil with water"
                             }
                         ],
                         "ru": [
@@ -645,25 +653,25 @@
                         "it": [
                             {
                                 "target_lang_word": "rimpinzarsi",
-                                "target_lang_sense_clarification": "mangiare in modo eccessivo; riflessivo"
+                                "target_lang_sense_clarification": "mangiare in modo eccessivo, riflessivo"
                             },
                             {
-                                "target_lang_word": "ingozzarsi",
-                                "target_lang_sense_clarification": "mangiare con avidità; riflessivo"
+                                "target_lang_word": "inzuppare",
+                                "target_lang_sense_clarification": "impregnare d'acqua la terra"
                             },
                             {
                                 "target_lang_word": "riempire",
-                                "target_lang_sense_clarification": "riempire fino all'orlo; senso generico"
+                                "target_lang_sense_clarification": "riempire fino all'orlo, senso generico"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "cpát se",
-                                "target_lang_sense_clarification": "jíst nadměrně; hovorově"
+                                "target_lang_sense_clarification": "jíst nadměrně, hovorově"
                             },
                             {
-                                "target_lang_word": "nacpat",
-                                "target_lang_sense_clarification": "hovorově; plnit něčím"
+                                "target_lang_word": "nasytit",
+                                "target_lang_sense_clarification": "napustit něco vodou"
                             }
                         ],
                         "tr": [
@@ -723,12 +731,12 @@
                             "target_lang_translations": {
                                 "en": "After these heavy rains, the soil <w>soaks up</w> water and turns muddy.",
                                 "ru": "После сильных дождей земля <w>впитывает</w> воду и превращается в грязь.",
-                                "nl": "Na deze zware regenval <w>zuigt</w> de grond het water op en wordt modderig.",
-                                "de": "Nach diesen starken Regenfällen wird der Boden matschig, wenn er das Wasser <w>aufsaugt</w>.",
+                                "nl": "Na deze zware regenval <w>zuigt</w> de grond het water <w>op</w> en wordt modderig.",
+                                "de": "Nach diesen starken Regenfällen <w>saugt</w> sich der Boden mit Wasser <w>voll</w> und wird matschig.",
                                 "pl": "Po tych ulewnych deszczach ziemia <w>nasiąka</w> wodą i staje się błotnista.",
                                 "it": "Dopo queste forti piogge, il terreno <w>si impregna</w> d'acqua e diventa fangoso.",
                                 "cs": "Po těchto silných deštích země <w>nasákne</w> vodou a je celá rozbahněná.",
-                                "tr": "Bu şiddetli yağmurların ardından toprak <w>suyla doyar</w> ve çamura döner.",
+                                "tr": "Bu şiddetli yağmurların ardından toprak suyla <w>doyar</w> ve çamura döner.",
                                 "es": "Tras estas fuertes lluvias, la tierra <w>se empapa</w> de agua y se vuelve fangosa.",
                                 "zh": "这场大雨过后，土地<w>吸水</w>后变得泥泞不堪。"
                             }
@@ -738,8 +746,8 @@
                             "target_lang_translations": {
                                 "en": "The sponge <w>soaks up</w> liquid quickly as soon as it's dipped into the bucket.",
                                 "ru": "Губка быстро <w>впитывает</w> жидкость, как только её опускают в ведро.",
-                                "nl": "De spons <w>zuigt</w> snel vloeistof op zodra men hem in de emmer dompelt.",
-                                "de": "Sobald man den Schwamm in den Eimer taucht, wird er schnell nass, weil er die Flüssigkeit <w>aufsaugt</w>.",
+                                "nl": "De spons <w>zuigt</w> snel vloeistof <w>op</w> zodra men hem in de emmer dompelt.",
+                                "de": "Der Schwamm <w>saugt</w> sich schnell mit Flüssigkeit <w>voll</w>, sobald man ihn in den Eimer taucht.",
                                 "pl": "Gąbka szybko <w>nasiąka</w> płynem, gdy tylko zanurzy się ją w wiadrze.",
                                 "it": "La spugna <w>assorbe</w> rapidamente il liquido non appena la si immerge nel secchio.",
                                 "cs": "Houba rychle <w>nasákne</w> tekutinou, jakmile ji ponoříte do kbelíku.",
@@ -775,7 +783,7 @@
                             },
                             {
                                 "target_lang_word": "saturate",
-                                "target_lang_sense_clarification": "fully wet; formal or technical"
+                                "target_lang_sense_clarification": "he/she/it form: becomes soaked through"
                             },
                             {
                                 "target_lang_word": "soak",

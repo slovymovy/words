@@ -225,7 +225,7 @@
                                 "cs": "Musíme <w>pospíchat</w>, pokud chceme stihnout obchod před zavíračkou.",
                                 "tr": "Mağaza kapanmadan yetişmek istiyorsak <w>acele etmeliyiz</w>.",
                                 "es": "Tenemos que <w>darnos prisa</w> si queremos llegar a la tienda antes de que cierre.",
-                                "zh": "我们要是想赶在商店关门前到，就得<w>赶</w>快走。"
+                                "zh": "我们要是想赶在商店关门前到，就得<w>赶紧</w>走。"
                             }
                         }
                     ],
@@ -309,6 +309,10 @@
                         ],
                         "it": [
                             {
+                                "target_lang_word": "correre",
+                                "target_lang_sense_clarification": "andare di fretta in un posto"
+                            },
+                            {
                                 "target_lang_word": "affrettarsi",
                                 "target_lang_sense_clarification": "per non arrivare in ritardo"
                             },
@@ -376,8 +380,8 @@
                             "target_lang_translations": {
                                 "en": "By making this reckless decision, you <w>run</w> a great risk.",
                                 "ru": "Принимая это безрассудное решение, вы <w>рискуете</w> очень многим.",
-                                "nl": "Met deze onbezonnen beslissing <w>loopt u</w> een groot risico.",
-                                "de": "Mit dieser unbedachten Entscheidung <w>laufen Sie große Gefahr</w>.",
+                                "nl": "Met deze onbezonnen beslissing <w>loopt</w> u een groot risico.",
+                                "de": "Mit dieser unbedachten Entscheidung <w>gehen</w> Sie ein großes <w>Risiko</w> <w>ein</w>.",
                                 "pl": "Podejmując tę nieroztropną decyzję, <w>narażacie się</w> na duże ryzyko.",
                                 "it": "Prendendo questa decisione imprudente, <w>corre</w> un grande rischio.",
                                 "cs": "Tímto nerozvážným rozhodnutím <w>podstupujete</w> velké riziko.",
@@ -392,11 +396,11 @@
                                 "en": "Don't worry needlessly, the passengers <w>face</w> no danger at all.",
                                 "ru": "Не волнуйтесь понапрасну, пассажиры не <w>подвергаются</w> никакой опасности.",
                                 "nl": "Maak u er niet onnodig zorgen over, de passagiers <w>lopen</w> geen enkel gevaar.",
-                                "de": "Machen Sie sich nicht unnötig Sorgen, die Passagiere <w>sind keinerlei Gefahr ausgesetzt</w>.",
-                                "pl": "Nie ma powodu do niepotrzebnego niepokoju, pasażerom <w>nie grozi</w> żadne niebezpieczeństwo.",
+                                "de": "Machen Sie sich nicht unnötig Sorgen, die Passagiere <w>sind</w> keinerlei Gefahr <w>ausgesetzt</w>.",
+                                "pl": "Nie ma powodu do niepotrzebnego niepokoju, pasażerom nie <w>grozi</w> żadne niebezpieczeństwo.",
                                 "it": "Non si preoccupi inutilmente, i passeggeri non <w>corrono</w> alcun pericolo.",
                                 "cs": "Zbytečně se neznepokojujte, cestující <w>nejsou vystaveni</w> žádnému nebezpečí.",
-                                "tr": "Boşuna endişelenmeyin, yolcular hiçbir tehlike <w>altında değil</w>.",
+                                "tr": "Boşuna endişelenmeyin, yolcular hiçbir tehlike <w>altında</w> değil.",
                                 "es": "No se preocupe innecesariamente, los pasajeros no <w>corren</w> ningún peligro.",
                                 "zh": "不必无谓地担心，乘客们并没有<w>面临</w>任何危险。"
                             }
@@ -425,12 +429,16 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "risk",
-                                "target_lang_sense_clarification": "usually with danger or harm as object"
+                                "target_lang_word": "run",
+                                "target_lang_sense_clarification": "as in 'run a risk'"
                             },
                             {
-                                "target_lang_word": "run",
-                                "target_lang_sense_clarification": "as in 'run a risk' or 'run danger'"
+                                "target_lang_word": "face",
+                                "target_lang_sense_clarification": "a danger or threat"
+                            },
+                            {
+                                "target_lang_word": "risk",
+                                "target_lang_sense_clarification": "putting something in danger"
                             }
                         ],
                         "ru": [
@@ -445,8 +453,8 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "een risico lopen",
-                                "target_lang_sense_clarification": "vaak bij gevaar of schade"
+                                "target_lang_word": "lopen",
+                                "target_lang_sense_clarification": "een risico of gevaar lopen"
                             },
                             {
                                 "target_lang_word": "riskeren",
@@ -459,12 +467,12 @@
                                 "target_lang_sense_clarification": "meist mit zu und Infinitiv"
                             },
                             {
-                                "target_lang_word": "riskieren",
-                                "target_lang_sense_clarification": "Leben oder Gesundheit gefährden"
-                            },
-                            {
                                 "target_lang_word": "ein Risiko eingehen",
                                 "target_lang_sense_clarification": "bewusste Entscheidung mit möglichem Verlust"
+                            },
+                            {
+                                "target_lang_word": "ausgesetzt sein",
+                                "target_lang_sense_clarification": "einer Gefahr, einem Risiko"
                             }
                         ],
                         "pl": [
@@ -475,16 +483,20 @@
                             {
                                 "target_lang_word": "narażać się",
                                 "target_lang_sense_clarification": "na niebezpieczeństwo lub przykrości"
+                            },
+                            {
+                                "target_lang_word": "grozić",
+                                "target_lang_sense_clarification": "komuś grozi niebezpieczeństwo"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "rischiare",
-                                "target_lang_sense_clarification": "salute, vita o denaro"
+                                "target_lang_word": "correre",
+                                "target_lang_sense_clarification": "un rischio o un pericolo"
                             },
                             {
-                                "target_lang_word": "correre un rischio",
-                                "target_lang_sense_clarification": "espressione comune per situazioni pericolose"
+                                "target_lang_word": "rischiare",
+                                "target_lang_sense_clarification": "salute, vita o denaro"
                             }
                         ],
                         "cs": [
@@ -570,9 +582,9 @@
                                 "pl": "Jego ulubiony koń <w>wystartował</w> w kilku ważnych wyścigach w zeszłym roku.",
                                 "it": "Il suo cavallo preferito ha <w>corso</w> diverse gare importanti l'anno scorso.",
                                 "cs": "Jeho oblíbený kůň loni <w>závodil</w> v několika důležitých dostizích.",
-                                "tr": "Favori atı geçen yıl birkaç önemli yarışa <w>katıldı</w>.",
+                                "tr": "Favori atı geçen yıl birkaç önemli yarışta <w>koştu</w>.",
                                 "es": "Su caballo favorito <w>corrió</w> varias pruebas importantes el año pasado.",
-                                "zh": "他最喜欢的那匹马去年<w>参赛</w>了好几场重要的比赛。"
+                                "zh": "他最喜欢的那匹马去年<w>参加</w>了好几场重要的比赛。"
                             }
                         }
                     ],
@@ -685,10 +697,6 @@
                             {
                                 "target_lang_word": "yarışmak",
                                 "target_lang_sense_clarification": "rakiplere karşı yarışmak"
-                            },
-                            {
-                                "target_lang_word": "resmi bir müsabakaya girmek",
-                                "target_lang_sense_clarification": "yarışmacı olarak katılmak"
                             }
                         ],
                         "es": [
@@ -745,13 +753,13 @@
                             "target_lang_translations": {
                                 "en": "You should never <w>spread</w> stories without proof.",
                                 "ru": "Никогда не стоит <w>распространять</w> слухи без доказательств.",
-                                "nl": "Je moet nooit verhalen zonder bewijs <w>verspreiden</w>.",
+                                "nl": "Je moet nooit onbewezen verhalen laten <w>rondgaan</w>.",
                                 "de": "Man sollte niemals Geschichten ohne Beweise <w>verbreiten</w>.",
                                 "pl": "Nigdy nie należy <w>rozpuszczać</w> plotek bez dowodów.",
-                                "it": "Non bisogna mai <w>diffondere</w> storie senza prove.",
+                                "it": "Non bisogna mai far <w>circolare</w> storie senza prove.",
                                 "cs": "Nikdy bez důkazů <w>nešiřte</w> podobné historky.",
                                 "tr": "Kanıtı olmayan dedikoduları asla <w>yaymamak</w> gerekir.",
-                                "es": "Nunca hay que <w>difundir</w> historias sin pruebas.",
+                                "es": "Nunca hay que hacer <w>circular</w> historias sin pruebas.",
                                 "zh": "没有证据的事，千万不能随便<w>传播</w>。"
                             }
                         }
@@ -919,10 +927,10 @@
                                 "ru": "Она <w>обошла</w> все магазины города в поисках этой редкой книги.",
                                 "nl": "Ze heeft alle winkels in de stad <w>afgestruind</w> om dit zeldzame boek te vinden.",
                                 "de": "Sie hat alle Geschäfte in der Stadt <w>abgeklappert</w>, um dieses seltene Buch zu finden.",
-                                "pl": "Ona <w>przeszukała</w> wszystkie sklepy w mieście, żeby znaleźć tę rzadką książkę.",
+                                "pl": "<w>Obeszła</w> wszystkie sklepy w mieście, żeby znaleźć tę rzadką książkę.",
                                 "it": "Ha <w>battuto</w> tutti i negozi della città per trovare questo libro raro.",
                                 "cs": "<w>Obešla</w> všechny obchody ve městě, aby našla tu vzácnou knihu.",
-                                "tr": "Bu nadir kitabı bulmak için şehrin bütün dükkânlarını <w>didik didik etti</w>.",
+                                "tr": "Bu nadir kitabı bulmak için şehrin bütün dükkânlarını <w>dolaştı</w>.",
                                 "es": "<w>Recorrió</w> todas las tiendas de la ciudad para encontrar este libro raro.",
                                 "zh": "为了找这本稀有的书，她<w>跑遍</w>了城里所有的商店。"
                             }
@@ -932,14 +940,14 @@
                             "target_lang_translations": {
                                 "en": "At weekends he likes to <w>trawl</w> flea markets in search of old records.",
                                 "ru": "По выходным он любит <w>рыскать</w> по блошиным рынкам в поисках старых пластинок.",
-                                "nl": "In het weekend <w>struint</w> hij graag over de vlooienmarkten op zoek naar oude platen.",
+                                "nl": "In het weekend <w>struint</w> hij graag de vlooienmarkten <w>af</w>, op zoek naar oude platen.",
                                 "de": "Am Wochenende <w>durchstöbert</w> er gern die Flohmärkte auf der Suche nach alten Schallplatten.",
-                                "pl": "W weekendy lubi <w>przeszukiwać</w> pchle targi w poszukiwaniu starych płyt.",
-                                "it": "Nel weekend ama <w>rovistare</w> tra i mercatini delle pulci alla ricerca di vecchi dischi.",
+                                "pl": "W weekendy lubi <w>obchodzić</w> pchle targi w poszukiwaniu starych płyt.",
+                                "it": "Nel weekend ama <w>girare</w> per i mercatini delle pulci alla ricerca di vecchi dischi.",
                                 "cs": "Přes víkend rád <w>obchází</w> bleší trhy a shání staré desky.",
                                 "tr": "Hafta sonları eski plak bulmak umuduyla bit pazarlarını <w>dolaşıp aramayı</w> sever.",
                                 "es": "Los fines de semana le gusta <w>rebuscar</w> en los mercadillos de segunda mano en busca de discos antiguos.",
-                                "zh": "周末，他喜欢在跳蚤市场上<w>搜寻</w>旧唱片。"
+                                "zh": "周末，他喜欢<w>跑遍</w>各个跳蚤市场，淘旧唱片。"
                             }
                         }
                     ],
@@ -1036,16 +1044,16 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "setacciare",
-                                "target_lang_sense_clarification": "una zona o un luogo in profondità"
-                            },
-                            {
                                 "target_lang_word": "battere",
                                 "target_lang_sense_clarification": "negozi e mercatini, uno per uno"
                             },
                             {
-                                "target_lang_word": "rovistare",
-                                "target_lang_sense_clarification": "tra bancarelle e mercatini dell'usato"
+                                "target_lang_word": "girare",
+                                "target_lang_sense_clarification": "negozi o mercatini in cerca di qualcosa"
+                            },
+                            {
+                                "target_lang_word": "setacciare",
+                                "target_lang_sense_clarification": "una zona o un luogo in profondità"
                             }
                         ],
                         "cs": [
@@ -1064,16 +1072,16 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "karış karış aramak",
-                                "target_lang_sense_clarification": "her köşeyi tek tek"
+                                "target_lang_word": "dolaşmak",
+                                "target_lang_sense_clarification": "aradığını bulmak için yer yer gezmek"
                             },
                             {
                                 "target_lang_word": "dolaşıp aramak",
                                 "target_lang_sense_clarification": "dükkân dükkân gezerek"
                             },
                             {
-                                "target_lang_word": "didiklemek",
-                                "target_lang_sense_clarification": "eşyaları karıştırarak aramak"
+                                "target_lang_word": "karış karış aramak",
+                                "target_lang_sense_clarification": "her köşeyi tek tek"
                             }
                         ],
                         "es": [
@@ -1118,10 +1126,10 @@
                                 "nl": "<w>Tegenwoordig</w> is het moeilijk een betaalbare woning te vinden.",
                                 "de": "<w>Heutzutage</w> ist es schwierig, eine bezahlbare Wohnung zu finden.",
                                 "pl": "<w>W dzisiejszych czasach</w> znalezienie niedrogiego mieszkania jest trudne.",
-                                "it": "<w>Di questi tempi</w> trovare un alloggio a prezzi accessibili è difficile.",
+                                "it": "Con i tempi che <w>corrono</w>, trovare un alloggio a prezzi accessibili è difficile.",
                                 "cs": "<w>V dnešní době</w> je těžké najít cenově dostupné bydlení.",
                                 "tr": "<w>Günümüzde</w> uygun fiyatlı bir konut bulmak zor.",
-                                "es": "<w>Por los tiempos que corren</w>, encontrar una vivienda asequible es difícil.",
+                                "es": "En los tiempos que <w>corren</w>, encontrar una vivienda asequible es difícil.",
                                 "zh": "如今，找到价格合理的住房并不容易。"
                             }
                         },
@@ -1267,8 +1275,8 @@
                                 "target_lang_sense_clarification": "el tiempo sigue su curso"
                             },
                             {
-                                "target_lang_word": "transcurrir",
-                                "target_lang_sense_clarification": "días, semanas o años"
+                                "target_lang_word": "correr",
+                                "target_lang_sense_clarification": "en «los tiempos que corren»"
                             },
                             {
                                 "target_lang_word": "volar",
@@ -1305,7 +1313,7 @@
                                 "pl": "Termin na odstąpienie od umowy <w>biegnie</w> od chwili otrzymania zamówienia.",
                                 "it": "Il termine di recesso <w>decorre</w> dal ricevimento dell'ordine.",
                                 "cs": "Lhůta na odstoupení od smlouvy <w>běží</w> od přijetí objednávky.",
-                                "tr": "Cayma süresi, siparişin teslim alındığı günden itibaren <w>işlemeye başlar</w>.",
+                                "tr": "Cayma süresi, siparişin teslim alındığı günden itibaren <w>işlemeye</w> başlar.",
                                 "es": "El plazo de desistimiento <w>corre</w> desde la recepción del pedido.",
                                 "zh": "撤销期限从收到订单之日<w>起算</w>。"
                             }
@@ -1315,12 +1323,12 @@
                             "target_lang_translations": {
                                 "en": "Interest on the loan begins to <w>accrue</w> as soon as the agreement is signed.",
                                 "ru": "Проценты по кредиту начинают <w>начисляться</w> сразу после подписания соглашения.",
-                                "nl": "De rente op de lening <w>loopt op</w> zodra de overeenkomst is getekend.",
-                                "de": "Die Zinsen für den Kredit <w>beginnen aufzulaufen</w>, sobald der Vertrag unterschrieben ist.",
+                                "nl": "De rente op de lening begint te <w>lopen</w> zodra de overeenkomst is getekend.",
+                                "de": "Die Zinsen für den Kredit beginnen <w>aufzulaufen</w>, sobald der Vertrag unterschrieben ist.",
                                 "pl": "Odsetki od pożyczki zaczynają <w>narastać</w> już od podpisania umowy.",
                                 "it": "Gli interessi del prestito iniziano a <w>maturare</w> già dalla firma dell'accordo.",
                                 "cs": "Úroky z půjčky začnou <w>narůstat</w> hned po podpisu dohody.",
-                                "tr": "Kredinin faizi, sözleşme imzalanır imzalanmaz <w>tahakkuk etmeye başlar</w>.",
+                                "tr": "Kredinin faizi, sözleşme imzalanır imzalanmaz <w>tahakkuk etmeye</w> başlar.",
                                 "es": "Los intereses del préstamo empiezan a <w>devengarse</w> en cuanto se firma el acuerdo.",
                                 "zh": "协议一签字，贷款就开始<w>计息</w>。"
                             }
@@ -1396,12 +1404,12 @@
                                 "target_lang_sense_clarification": "bei Fristen, Verträgen, Terminen"
                             },
                             {
-                                "target_lang_word": "beginnen",
-                                "target_lang_sense_clarification": "neutral, betont den Startzeitpunkt"
-                            },
-                            {
                                 "target_lang_word": "auflaufen",
                                 "target_lang_sense_clarification": "bei Zinsen, Gebühren, Kosten"
+                            },
+                            {
+                                "target_lang_word": "anfallen",
+                                "target_lang_sense_clarification": "Zinsen ab einem Stichtag"
                             }
                         ],
                         "pl": [
@@ -1446,10 +1454,6 @@
                             {
                                 "target_lang_word": "işlemek",
                                 "target_lang_sense_clarification": "yasal süreler için"
-                            },
-                            {
-                                "target_lang_word": "başlamak",
-                                "target_lang_sense_clarification": "belirli bir tarihten itibaren"
                             },
                             {
                                 "target_lang_word": "tahakkuk etmek",

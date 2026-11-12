@@ -18,15 +18,15 @@
                         {
                             "text": "Mon bureau se trouve au <w>troisième</w> étage de ce grand bâtiment moderne.",
                             "target_lang_translations": {
-                                "en": "My office is on the <w>third floor</w> of this large modern building.",
+                                "en": "My office is on the <w>third</w> floor of this large modern building.",
                                 "ru": "Мой кабинет находится на <w>третьем</w> этаже этого большого современного здания.",
                                 "nl": "Mijn kantoor bevindt zich op de <w>derde</w> verdieping van dit grote moderne gebouw.",
                                 "de": "Mein Büro befindet sich im <w>dritten</w> Stock dieses großen, modernen Gebäudes.",
                                 "pl": "Mój gabinet znajduje się na <w>trzecim</w> piętrze tego dużego, nowoczesnego budynku.",
-                                "it": "Il mio ufficio si trova al <w>terzo piano</w> di questo grande edificio moderno.",
-                                "cs": "Moje kancelář je na <w>třetím</w> patře této velké moderní budovy.",
-                                "tr": "Ofisim bu büyük modern binanın <w>üçüncü katında</w> bulunuyor.",
-                                "es": "Mi oficina está en el <w>tercer piso</w> de este gran edificio moderno.",
+                                "it": "Il mio ufficio si trova al <w>terzo</w> piano di questo grande edificio moderno.",
+                                "cs": "Moje kancelář je ve <w>třetím</w> patře této velké moderní budovy.",
+                                "tr": "Ofisim bu büyük modern binanın <w>üçüncü</w> katında bulunuyor.",
+                                "es": "Mi oficina está en el <w>tercer</w> piso de este gran edificio moderno.",
                                 "zh": "我的办公室位于这栋大型现代化建筑的<w>第三</w>层。"
                             }
                         },
@@ -141,7 +141,7 @@
                                 "ru": "Он пришёл на совещание <w>третьим</w>, после двух своих коллег.",
                                 "nl": "Hij kwam als <w>derde</w> naar de vergadering, na zijn twee collega's.",
                                 "de": "Er kam <w>als Dritter</w> zur Besprechung, nach seinen beiden Kollegen.",
-                                "pl": "Na zebranie przyszedł jako <w>trzeci</w>, po dwóch swoich kolegach.",
+                                "pl": "Na zebranie przyszedł <w>jako trzeci</w>, po dwóch swoich kolegach.",
                                 "it": "Lui è arrivato <w>terzo</w> alla riunione, dopo i suoi due colleghi.",
                                 "cs": "Na poradu dorazil <w>jako třetí</w>, po svých dvou kolezích.",
                                 "tr": "Toplantıya iki meslektaşından sonra o <w>üçüncü olarak</w> geldi.",
@@ -156,7 +156,7 @@
                                 "ru": "Она пришла <w>третьей</w>, чтобы пополнить исследовательскую группу на месте.",
                                 "nl": "Zij kwam als <w>derde</w> om het onderzoeksteam ter plaatse compleet te maken.",
                                 "de": "Sie kam <w>als Dritte</w> hinzu, um das Forschungsteam vor Ort zu vervollständigen.",
-                                "pl": "Przyszła jako <w>trzecia</w>, żeby uzupełnić zespół badawczy na miejscu.",
+                                "pl": "Przyszła <w>jako trzecia</w>, żeby uzupełnić zespół badawczy na miejscu.",
                                 "it": "È arrivata come <w>terza</w> per completare il gruppo di ricerca sul posto.",
                                 "cs": "Přišla <w>jako třetí</w>, aby doplnila výzkumný tým na místě.",
                                 "tr": "Araştırma ekibini yerinde tamamlamak için o <w>üçüncü olarak</w> katıldı.",
@@ -184,9 +184,24 @@
                         "zh": "与另外两人一同，或排在另外两人之后。今已不常用。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "third",
+                                "target_lang_sense_clarification": "as one of three, after two others"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "третий",
+                                "target_lang_sense_clarification": "вместе с двумя другими или после них"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "derde",
+                                "target_lang_sense_clarification": "verouderd: samen met twee anderen"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "als Dritter",
@@ -209,12 +224,12 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "in tre",
-                                "target_lang_sense_clarification": "gruppo di tre persone"
+                                "target_lang_word": "terzo",
+                                "target_lang_sense_clarification": "arcaico: arrivato dopo altri due"
                             },
                             {
-                                "target_lang_word": "come terzo",
-                                "target_lang_sense_clarification": "ordine d'arrivo, uso arcaico"
+                                "target_lang_word": "in tre",
+                                "target_lang_sense_clarification": "arcaico: insieme ad altri due"
                             }
                         ],
                         "cs": [
@@ -239,12 +254,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "en tres",
-                                "target_lang_sense_clarification": "grupo de tres personas"
+                                "target_lang_word": "tercero",
+                                "target_lang_sense_clarification": "tras otras dos personas, uso antiguo"
                             },
                             {
-                                "target_lang_word": "el tercero en llegar",
-                                "target_lang_sense_clarification": "orden de llegada"
+                                "target_lang_word": "con otros dos",
+                                "target_lang_sense_clarification": "acompañado de dos personas"
                             }
                         ],
                         "zh": [
@@ -290,7 +305,7 @@
                                 "ru": "Бегун пересёк финишную черту, заняв <w>третье</w> место в гонке.",
                                 "nl": "De renner passeerde de finish en eindigde als <w>derde</w> in de wedstrijd.",
                                 "de": "Der Läufer überquerte die Ziellinie und wurde im Rennen <w>Dritter</w>.",
-                                "pl": "Biegacz przekroczył metę i ukończył bieg na <w>trzecim</w> miejscu.",
+                                "pl": "Biegacz przekroczył metę i ukończył bieg na <w>trzecim miejscu</w>.",
                                 "it": "Il corridore ha tagliato il traguardo e ha chiuso <w>terzo</w> nella gara.",
                                 "cs": "Běžec přeběhl cílovou čáru a v závodě skončil <w>třetí</w>.",
                                 "tr": "Koşucu bitiş çizgisini geçti ve yarışı <w>üçüncü</w> olarak bitirdi.",
@@ -354,11 +369,11 @@
                         "pl": [
                             {
                                 "target_lang_word": "trzeci",
-                                "target_lang_sense_clarification": "w wyścigu lub rankingu"
+                                "target_lang_sense_clarification": "w kolejności lub rankingu"
                             },
                             {
-                                "target_lang_word": "brązowy medalista",
-                                "target_lang_sense_clarification": "sport, na podium"
+                                "target_lang_word": "trzecie miejsce",
+                                "target_lang_sense_clarification": "w zawodach, na podium"
                             }
                         ],
                         "it": [
@@ -436,9 +451,9 @@
                                 "ru": "Мои бабушка с дедушкой живут на <w>третьем</w> этаже старого дома без лифта.",
                                 "nl": "Mijn grootouders wonen op de <w>derde verdieping</w> van een oud flatgebouw zonder lift.",
                                 "de": "Meine Großeltern wohnen im <w>dritten Stock</w> eines alten Hauses ohne Aufzug.",
-                                "pl": "Moi dziadkowie mieszkają na <w>trzecim</w> piętrze starej kamienicy bez windy.",
+                                "pl": "Moi dziadkowie mieszkają na <w>trzecim piętrze</w> starej kamienicy bez windy.",
                                 "it": "I miei nonni abitano al <w>terzo piano</w> di un vecchio palazzo senza ascensore.",
-                                "cs": "Moji prarodiče bydlí ve <w>třetím</w> patře starého domu bez výtahu.",
+                                "cs": "Moji prarodiče bydlí ve <w>třetím patře</w> starého domu bez výtahu.",
                                 "tr": "Büyükannem ve büyükbabam asansörsüz eski bir binanın <w>üçüncü katında</w> oturuyor.",
                                 "es": "Mis abuelos viven en el <w>tercer piso</w> de un edificio antiguo sin ascensor.",
                                 "zh": "我的祖父母住在一栋没有电梯的老楼的<w>三楼</w>。"
@@ -451,9 +466,9 @@
                                 "ru": "Медицинский кабинет находится, если подняться прямо на <w>третий</w> этаж.",
                                 "nl": "U vindt de medische praktijk door rechtstreeks naar de <w>derde verdieping</w> omhoog te gaan.",
                                 "de": "Die Arztpraxis finden Sie, wenn Sie direkt in den <w>dritten Stock</w> hinaufgehen.",
-                                "pl": "Gabinet lekarski znajdziecie, wchodząc prosto na <w>trzecie</w> piętro.",
+                                "pl": "Gabinet lekarski znajdziecie, wchodząc prosto na <w>trzecie piętro</w>.",
                                 "it": "Troverete lo studio medico salendo direttamente al <w>terzo piano</w>.",
-                                "cs": "Lékařskou ordinaci najdete, když půjdete rovnou nahoru do <w>třetího</w> patra.",
+                                "cs": "Lékařskou ordinaci najdete, když půjdete rovnou nahoru do <w>třetího patra</w>.",
                                 "tr": "Tıbbi muayenehaneyi doğrudan <w>üçüncü kata</w> çıkarak bulacaksınız.",
                                 "es": "Encontrarán el consultorio médico subiendo directamente al <w>tercer piso</w>.",
                                 "zh": "您直接上到<w>三楼</w>就能找到这家诊所。"
@@ -481,10 +496,6 @@
                             {
                                 "target_lang_word": "third floor",
                                 "target_lang_sense_clarification": "counted above the ground floor"
-                            },
-                            {
-                                "target_lang_word": "third story",
-                                "target_lang_sense_clarification": "common American term"
                             }
                         ],
                         "ru": [
@@ -578,7 +589,7 @@
                         {
                             "text": "Mon jeune frère entre en <w>troisième</w> et prépare assidûment son brevet.",
                             "target_lang_translations": {
-                                "en": "My younger brother is starting <w>ninth grade</w> and diligently preparing for his brevet.",
+                                "en": "My younger brother is starting <w>Year 10</w> and diligently preparing for his brevet.",
                                 "ru": "Мой младший брат идёт в <w>девятый</w> класс и старательно готовится к экзаменам.",
                                 "nl": "Mijn jongere broer gaat naar de <w>derde klas</w> en bereidt zich ijverig voor op zijn brevet.",
                                 "de": "Mein jüngerer Bruder kommt in die <w>neunte Klasse</w> und bereitet sich fleißig auf sein Brevet vor.",
@@ -593,7 +604,7 @@
                         {
                             "text": "Durant son année de <w>troisième</w>, elle effectue un court stage d'observation.",
                             "target_lang_translations": {
-                                "en": "During her <w>ninth grade</w> year, she completes a short observation placement.",
+                                "en": "During <w>Year 10</w>, she completes a short work-observation placement.",
                                 "ru": "В <w>девятом</w> классе она проходит короткую ознакомительную практику.",
                                 "nl": "Tijdens haar jaar in de <w>derde klas</w> loopt ze een korte oriënterende stage.",
                                 "de": "Während ihrer <w>neunten Klasse</w> absolviert sie ein kurzes Orientierungspraktikum.",
@@ -625,12 +636,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "ninth grade",
-                                "target_lang_sense_clarification": "US school year, ages 14-15"
+                                "target_lang_word": "Year 10",
+                                "target_lang_sense_clarification": "England and Wales, ages 14-15"
                             },
                             {
-                                "target_lang_word": "year 10",
-                                "target_lang_sense_clarification": "UK school year, ages 14-15"
+                                "target_lang_word": "ninth grade",
+                                "target_lang_sense_clarification": "US school year, ages 14-15"
                             }
                         ],
                         "ru": [
@@ -690,7 +701,7 @@
                             },
                             {
                                 "target_lang_word": "tercero de secundaria",
-                                "target_lang_sense_clarification": "México, 14–15 años"
+                                "target_lang_sense_clarification": "méxico, 14–15 años"
                             }
                         ],
                         "zh": [
@@ -716,7 +727,7 @@
                         {
                             "text": "N'hésite pas à passer la <w>troisième</w> lorsque tu roules en ville.",
                             "target_lang_translations": {
-                                "en": "Don't hesitate to shift into <w>third gear</w> when you drive in town.",
+                                "en": "Don't hesitate to change into <w>third gear</w> when you drive in town.",
                                 "ru": "Не стесняйся переключаться на <w>третью</w> передачу, когда едешь по городу.",
                                 "nl": "Aarzel niet om naar de <w>derde versnelling</w> te schakelen als je in de stad rijdt.",
                                 "de": "Zögere nicht, in den <w>dritten Gang</w> zu schalten, wenn du in der Stadt fährst.",
@@ -731,7 +742,7 @@
                         {
                             "text": "La voiture manquait de puissance dans la pente, j'ai donc rétrogradé en <w>troisième</w>.",
                             "target_lang_translations": {
-                                "en": "The car lacked power on the hill, so I downshifted into <w>third</w>.",
+                                "en": "The car lacked power on the hill, so I changed down into <w>third</w>.",
                                 "ru": "Машине не хватало тяги на подъёме, поэтому я переключился на <w>третью</w>.",
                                 "nl": "De auto had te weinig kracht op de helling, dus ik schakelde terug naar de <w>derde</w>.",
                                 "de": "Dem Auto fehlte an der Steigung die Kraft, also habe ich in den <w>dritten Gang</w> zurückgeschaltet.",
@@ -835,12 +846,16 @@
                         ],
                         "es": [
                             {
+                                "target_lang_word": "tercera",
+                                "target_lang_sense_clarification": "coloquial: meter la tercera"
+                            },
+                            {
                                 "target_lang_word": "tercera marcha",
                                 "target_lang_sense_clarification": "cambio del coche, al conducir"
                             },
                             {
                                 "target_lang_word": "tercera velocidad",
-                                "target_lang_sense_clarification": "Latinoamérica, cambio del coche"
+                                "target_lang_sense_clarification": "en Latinoamérica, cambio del coche"
                             }
                         ],
                         "zh": [
@@ -873,7 +888,7 @@
                                 "pl": "W poprzednim stuleciu wielu skromnych podróżnych jeździło pociągiem w <w>trzeciej klasie</w>.",
                                 "it": "Nel secolo scorso, molti viaggiatori modesti prendevano il treno in <w>terza classe</w>.",
                                 "cs": "V minulém století jezdilo vlakem ve <w>třetí třídě</w> mnoho skromných cestujících.",
-                                "tr": "Geçen yüzyılda birçok sade yolcu trene <w>üçüncü mevkide</w> binerdi.",
+                                "tr": "Geçen yüzyılda birçok dar gelirli yolcu trene <w>üçüncü mevkide</w> binerdi.",
                                 "es": "En el siglo pasado, muchos viajeros humildes viajaban en tren de <w>tercera clase</w>.",
                                 "zh": "上个世纪，许多普通旅客坐火车时乘坐的都是<w>三等车厢</w>。"
                             }
@@ -1001,7 +1016,7 @@
                                 "pl": "Zgodnie z umową właściciel ziemi domagał się <w>jednej trzeciej</w> rocznych plonów.",
                                 "it": "Come previsto, il proprietario pretendeva un <w>terzo</w> del raccolto annuale.",
                                 "cs": "Jak bylo domluveno, majitel pozemku požadoval <w>třetinu</w> roční sklizně.",
-                                "tr": "Anlaşıldığı gibi toprak sahibi yıllık hasadın <w>üçte birini</w> talep ediyordu.",
+                                "tr": "Kararlaştırıldığı gibi toprak sahibi yıllık hasadın <w>üçte birini</w> talep ediyordu.",
                                 "es": "Según lo acordado, el propietario reclamaba un <w>tercio</w> de la cosecha anual.",
                                 "zh": "按约定，业主要求拿走年收成的<w>三分之一</w>。"
                             }

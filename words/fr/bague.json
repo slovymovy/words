@@ -182,13 +182,13 @@
                             "target_lang_translations": {
                                 "en": "The dentist tightened the metal <w>braces</w> at the last appointment.",
                                 "ru": "На последнем приёме стоматолог подтянул металлические <w>брекеты</w>.",
-                                "nl": "De tandarts heeft tijdens de laatste afspraak de metalen <w>beugels</w> aangespannen.",
+                                "nl": "De tandarts heeft tijdens de laatste afspraak de metalen <w>slotjes</w> strakker gezet.",
                                 "de": "Beim letzten Termin hat der Zahnarzt die metallene <w>Zahnspange</w> nachgestellt.",
-                                "pl": "Podczas ostatniej wizyty dentysta dokręcił metalowe <w>aparaty</w>.",
-                                "it": "Il dentista ha stretto gli <w>apparecchi</w> metallici durante l'ultima visita.",
+                                "pl": "Podczas ostatniej wizyty dentysta wyregulował metalowy <w>aparat</w>.",
+                                "it": "Il dentista ha stretto gli <w>attacchi</w> metallici durante l'ultima visita.",
                                 "cs": "Zubní lékař při poslední návštěvě dotáhl kovová <w>rovnátka</w>.",
                                 "tr": "Diş hekimi son muayenede metal <w>diş tellerini</w> sıkılaştırdı.",
-                                "es": "En la última consulta, el dentista ajustó los <w>aparatos</w> metálicos.",
+                                "es": "En la última consulta, el dentista ajustó los <w>bráquets</w> metálicos.",
                                 "zh": "上次复诊时，牙医把金属<w>托槽</w>调紧了。"
                             }
                         }
@@ -211,8 +211,12 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "braces",
+                                "target_lang_sense_clarification": "orthodontic appliance on the teeth"
+                            },
+                            {
                                 "target_lang_word": "bracket",
-                                "target_lang_sense_clarification": "orthodontic braces component"
+                                "target_lang_sense_clarification": "single piece of a brace"
                             }
                         ],
                         "ru": [
@@ -223,8 +227,16 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "slotje",
+                                "target_lang_sense_clarification": "onderdeel van een vaste beugel"
+                            },
+                            {
+                                "target_lang_word": "beugel",
+                                "target_lang_sense_clarification": "meervoud 'bagues': vaste beugel"
+                            },
+                            {
                                 "target_lang_word": "bracket",
-                                "target_lang_sense_clarification": "onderdeel van een beugel"
+                                "target_lang_sense_clarification": "vakterm in de orthodontie"
                             }
                         ],
                         "de": [
@@ -249,11 +261,24 @@
                                 "target_lang_sense_clarification": "ortodonzia, applicato sul dente"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "rovnátka",
+                                "target_lang_sense_clarification": "fixní, obvykle v množném čísle"
+                            },
+                            {
+                                "target_lang_word": "ortodontický kroužek",
+                                "target_lang_sense_clarification": "jednotlivý díl na zubu"
+                            }
+                        ],
                         "tr": [
                             {
+                                "target_lang_word": "diş teli",
+                                "target_lang_sense_clarification": "ortodonti, günlük dil"
+                            },
+                            {
                                 "target_lang_word": "braket",
-                                "target_lang_sense_clarification": "ortodonti, dişe yapıştırılan parça"
+                                "target_lang_sense_clarification": "dişe yapıştırılan parça"
                             }
                         ],
                         "es": [
@@ -288,7 +313,7 @@
                                 "pl": "Mechanik wymienił <w>pierścień uszczelniający</w>, żeby zatrzymać wyciek oleju.",
                                 "it": "Il meccanico ha sostituito l'<w>anello</w> di tenuta per fermare la perdita d'olio.",
                                 "cs": "Mechanik vyměnil těsnicí <w>kroužek</w>, aby zastavil únik oleje.",
-                                "tr": "Tamirci yağ kaçağını durdurmak için sızdırmazlık <w>contayı</w> değiştirdi.",
+                                "tr": "Tamirci yağ kaçağını durdurmak için sızdırmazlık <w>contasını</w> değiştirdi.",
                                 "es": "El mecánico cambió la <w>junta</w> para detener la fuga de aceite.",
                                 "zh": "机修工更换了<w>密封圈</w>，以阻止漏油。"
                             }
@@ -327,12 +352,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "seal ring",
-                                "target_lang_sense_clarification": "engineering sealing component"
+                                "target_lang_word": "ring",
+                                "target_lang_sense_clarification": "circular mechanical part, e.g. sealing ring"
                             },
                             {
                                 "target_lang_word": "bushing",
-                                "target_lang_sense_clarification": "guide sleeve, machinery"
+                                "target_lang_sense_clarification": "guide sleeve in machinery"
                             }
                         ],
                         "ru": [
@@ -438,7 +463,7 @@
                         {
                             "text": "L'ornithologue a relevé le numéro inscrit sur la <w>bague</w> de la mouette.",
                             "target_lang_translations": {
-                                "en": "The ornithologist noted the number inscribed on the gull's <w>band</w>.",
+                                "en": "The ornithologist noted the number inscribed on the gull's <w>ring</w>.",
                                 "ru": "Орнитолог записал номер, выбитый на <w>кольце</w> чайки.",
                                 "nl": "De ornitholoog heeft het nummer op de <w>vogelring</w> van de meeuw genoteerd.",
                                 "de": "Der Ornithologe hat die Nummer abgelesen, die auf dem <w>Fußring</w> der Möwe eingeprägt ist.",
@@ -453,7 +478,7 @@
                         {
                             "text": "Ce faucon porte une petite <w>bague</w> en métal fixée à la patte droite.",
                             "target_lang_translations": {
-                                "en": "This falcon wears a small metal <w>band</w> on its right leg.",
+                                "en": "This falcon wears a small metal <w>ring</w> on its right leg.",
                                 "ru": "Этот сокол носит маленькое металлическое <w>кольцо</w>, прикреплённое к правой лапе.",
                                 "nl": "Deze valk draagt een kleine metalen <w>ring</w> aan de rechterpoot.",
                                 "de": "Dieser Falke trägt einen kleinen <w>Ring</w> aus Metall am rechten Bein.",
@@ -484,12 +509,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "bird band",
-                                "target_lang_sense_clarification": "ornithology, bird identification"
+                                "target_lang_word": "ring",
+                                "target_lang_sense_clarification": "numbered tag on a bird's leg"
                             },
                             {
-                                "target_lang_word": "leg band",
-                                "target_lang_sense_clarification": "ornithology, leg identification ring"
+                                "target_lang_word": "leg ring",
+                                "target_lang_sense_clarification": "identification ring for birds"
                             }
                         ],
                         "ru": [
@@ -667,7 +692,12 @@
                                 "target_lang_sense_clarification": "tabacco, striscia con marchio"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "pásek",
+                                "target_lang_sense_clarification": "papírový proužek na doutníku"
+                            }
+                        ],
                         "tr": [
                             {
                                 "target_lang_word": "puro bandı",
@@ -758,73 +788,73 @@
                         "en": [
                             {
                                 "target_lang_word": "ring",
-                                "target_lang_sense_clarification": "ornithology, bird identification"
+                                "target_lang_sense_clarification": "I ring (a bird), present tense"
                             },
                             {
                                 "target_lang_word": "band",
-                                "target_lang_sense_clarification": "ornithology, bird tagging"
+                                "target_lang_sense_clarification": "I band (a bird), present tense"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "кольцевать",
-                                "target_lang_sense_clarification": "орнитология, мечение птиц"
+                                "target_lang_sense_clarification": "1-е л. ед. ч.: я кольцую птиц"
                             },
                             {
                                 "target_lang_word": "окольцовывать",
-                                "target_lang_sense_clarification": "орнитология, метка на лапке"
+                                "target_lang_sense_clarification": "1-е л. ед. ч.: я окольцовываю птиц"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "ringen",
-                                "target_lang_sense_clarification": "ornithologie, vogels voorzien van ring"
+                                "target_lang_sense_clarification": "1e persoon enkelvoud: ik ring (vogels)"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "beringen",
-                                "target_lang_sense_clarification": "Ornithologie, Vogelforschung"
+                                "target_lang_sense_clarification": "1. Person Singular Präsens: Vögel kennzeichnen"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "obrączkować",
-                                "target_lang_sense_clarification": "ornitologia, znakowanie ptaków"
+                                "target_lang_sense_clarification": "1. os. lp., znakowanie ptaków"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "inanellare",
-                                "target_lang_sense_clarification": "ornitologia, marcatura degli uccelli"
+                                "target_lang_sense_clarification": "1ª pers. sing. indicativo: marcare un uccello"
                             },
                             {
                                 "target_lang_word": "anellare",
-                                "target_lang_sense_clarification": "ornitologia, applicare un anello"
+                                "target_lang_sense_clarification": "1ª pers. sing. indicativo: applicare un anello"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "kroužkovat",
-                                "target_lang_sense_clarification": "ornitologie, značení ptáků"
+                                "target_lang_sense_clarification": "1. os. j. č. přít. času, značení ptáků"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "halkalamak",
-                                "target_lang_sense_clarification": "kuş bilimi, kuşa halka takmak"
+                                "target_lang_sense_clarification": "kuşa halka takmak, 1. tekil şimdiki zaman"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "anillar",
-                                "target_lang_sense_clarification": "ornitología, marcar aves con anillas"
+                                "target_lang_sense_clarification": "1.ª persona del singular, presente de indicativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "环志",
-                                "target_lang_sense_clarification": "鸟类学，给鸟套标识环"
+                                "target_lang_sense_clarification": "第一人称单数现在时，给鸟套环"
                             }
                         ]
                     }
@@ -863,7 +893,7 @@
                                 "it": "Ogni primavera il guardaparco <w>inanella</w> i giovani rapaci nati nel parco.",
                                 "cs": "Každé jaro lesní strážce <w>kroužkuje</w> mladé dravce vylíhlé v parku.",
                                 "tr": "Her ilkbahar orman bekçisi, parkta doğan genç yırtıcı kuşları <w>halkalar</w>.",
-                                "es": "Cada primavera, el guardabosques <w>anilla</w> a los jóvenes rapaces nacidos en el parque.",
+                                "es": "Cada primavera, el guardabosques <w>anilla</w> a las jóvenes rapaces nacidas en el parque.",
                                 "zh": "每年春天，护林员都会对公园里出生的幼年猛禽进行<w>环志</w>。"
                             }
                         }
@@ -890,73 +920,73 @@
                         "en": [
                             {
                                 "target_lang_word": "ring",
-                                "target_lang_sense_clarification": "ornithology, bird identification"
+                                "target_lang_sense_clarification": "he or she rings (a bird), present tense"
                             },
                             {
                                 "target_lang_word": "band",
-                                "target_lang_sense_clarification": "ornithology, bird tagging"
+                                "target_lang_sense_clarification": "he or she bands (a bird), present tense"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "кольцевать",
-                                "target_lang_sense_clarification": "орнитология, мечение птиц"
+                                "target_lang_sense_clarification": "3-е л. ед. ч.: он кольцует птиц"
                             },
                             {
                                 "target_lang_word": "окольцовывать",
-                                "target_lang_sense_clarification": "орнитология, метка на лапке"
+                                "target_lang_sense_clarification": "3-е л. ед. ч.: он окольцовывает птиц"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "ringen",
-                                "target_lang_sense_clarification": "ornithologie, vogels voorzien van ring"
+                                "target_lang_sense_clarification": "3e persoon enkelvoud: hij ringt (vogels)"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "beringen",
-                                "target_lang_sense_clarification": "Ornithologie, Vogelforschung"
+                                "target_lang_sense_clarification": "3. Person Singular Präsens: Vögel kennzeichnen"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "obrączkować",
-                                "target_lang_sense_clarification": "ornitologia, znakowanie ptaków"
+                                "target_lang_sense_clarification": "3. os. lp., znakowanie ptaków"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "inanellare",
-                                "target_lang_sense_clarification": "ornitologia, marcatura degli uccelli"
+                                "target_lang_sense_clarification": "3ª pers. sing. indicativo: marcare un uccello"
                             },
                             {
                                 "target_lang_word": "anellare",
-                                "target_lang_sense_clarification": "ornitologia, applicare un anello"
+                                "target_lang_sense_clarification": "3ª pers. sing. indicativo: applicare un anello"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "kroužkovat",
-                                "target_lang_sense_clarification": "ornitologie, značení ptáků"
+                                "target_lang_sense_clarification": "3. os. j. č. přít. času, značení ptáků"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "halkalamak",
-                                "target_lang_sense_clarification": "kuş bilimi, kuşa halka takmak"
+                                "target_lang_sense_clarification": "kuşa halka takmak, 3. tekil şimdiki zaman"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "anillar",
-                                "target_lang_sense_clarification": "ornitología, marcar aves con anillas"
+                                "target_lang_sense_clarification": "3.ª persona del singular, presente de indicativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "环志",
-                                "target_lang_sense_clarification": "鸟类学，给鸟套标识环"
+                                "target_lang_sense_clarification": "第三人称单数现在时，给鸟套环"
                             }
                         ]
                     }

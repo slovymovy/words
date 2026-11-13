@@ -221,9 +221,9 @@
                                 "ru": "Эти приоритетные дела <w>срочны</w> и должны быть рассмотрены без промедления.",
                                 "nl": "Deze prioritaire dossiers zijn <w>dringend</w> en moeten zonder uitstel worden onderzocht.",
                                 "de": "Diese vorrangigen Akten sind <w>dringend</w> und müssen ohne Verzögerung geprüft werden.",
-                                "pl": "Te priorytetowe akta są <w>pilne</w> i muszą zostać rozpatrzone bez zwłoki.",
+                                "pl": "Te priorytetowe akta <w>są pilne</w> i muszą zostać rozpatrzone bez zwłoki.",
                                 "it": "Queste pratiche prioritarie <w>urgono</w> e devono essere esaminate senza indugio.",
-                                "cs": "Tyto prioritní spisy <w>naléhají</w> a musí být projednány bez odkladu.",
+                                "cs": "Tyto prioritní spisy <w>spěchají</w> a musí být projednány bez odkladu.",
                                 "tr": "Bu öncelikli dosyalar <w>acil</w> ve beklemeden incelenmeli.",
                                 "es": "Estos expedientes prioritarios <w>urgen</w> y deben examinarse sin demora.",
                                 "zh": "这些优先文件很<w>紧迫</w>，必须立即审阅。"
@@ -233,12 +233,12 @@
                             "text": "Les travaux sur cette route <w>urgent</w> depuis les dernières intempéries.",
                             "target_lang_translations": {
                                 "en": "Work on this road has been <w>urgent</w> since the latest bad weather.",
-                                "ru": "Работы на этой дороге <w>срочны</w> с тех пор, как начались последние непогоды.",
+                                "ru": "Со времени последней непогоды работы на этой дороге <w>срочны</w>.",
                                 "nl": "De werkzaamheden aan deze weg zijn sinds de laatste slechte weersomstandigheden <w>dringend</w>.",
                                 "de": "Die Arbeiten an dieser Straße sind seit den letzten Unwettern <w>dringend</w>.",
-                                "pl": "Prace na tej drodze są <w>pilne</w> od czasu ostatnich niepogód.",
+                                "pl": "Prace na tej drodze <w>są pilne</w> od czasu ostatnich niepogód.",
                                 "it": "I lavori su questa strada <w>urgono</w> dalle ultime intemperie.",
-                                "cs": "Práce na této silnici <w>naléhají</w> od posledního špatného počasí.",
+                                "cs": "Práce na této silnici <w>spěchají</w> od posledního špatného počasí.",
                                 "tr": "Son olumsuz hava koşullarından beri bu yoldaki çalışmalar <w>acil</w>.",
                                 "es": "Las obras en esta carretera <w>urgen</w> desde las últimas inclemencias del tiempo.",
                                 "zh": "自上次恶劣天气以来，这条道路上的施工就一直很<w>紧迫</w>。"
@@ -257,7 +257,7 @@
                     "target_lang_definitions": {
                         "en": "Third-person plural present indicative form of the verb urger, meaning to be urgent.",
                         "ru": "Форма третьего лица множественного числа настоящего времени изъявительного наклонения глагола urger.",
-                        "nl": "Derde persoon meervoud van de tegenwoordige tijd van de aanwijzende wijs van het Franse werkwoord urger, dat dringend zijn betekent.",
+                        "nl": "Derde persoon meervoud van de tegenwoordige tijd van de aantonende wijs van het Franse werkwoord urger, dat dringend zijn betekent.",
                         "de": "Dritte Person Plural im Präsens Indikativ des französischen Verbs urger.",
                         "pl": "Trzecia osoba liczby mnogiej czasu teraźniejszego trybu oznajmującego czasownika urger.",
                         "it": "Terza persona plurale del presente indicativo del verbo francese urger, che significa essere urgente.",
@@ -267,27 +267,60 @@
                         "zh": "法语动词urger的第三人称复数现在时陈述式形式，表示事情紧迫。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "be urgent",
+                                "target_lang_sense_clarification": "3rd person plural present of urger"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "быть срочным",
+                                "target_lang_sense_clarification": "3 л. мн. ч. наст., разг."
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "dringend zijn",
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 3e persoon meervoud: ze zijn dringend"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "eilen",
+                                "target_lang_sense_clarification": "3. Person Plural Indikativ Präsens"
+                            },
+                            {
+                                "target_lang_word": "drängen",
+                                "target_lang_sense_clarification": "3. Person Plural Indikativ Präsens"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "naglić",
+                                "target_lang_sense_clarification": "nie cierpieć zwłoki (3. os. lm cz. teraźn.)"
+                            },
+                            {
+                                "target_lang_word": "być pilnym",
+                                "target_lang_sense_clarification": "o sprawach (3. os. lm cz. teraźn.)"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "urgere",
-                                "target_lang_sense_clarification": "uso formale, cose che incalzano"
+                                "target_lang_sense_clarification": "3ª pers. plur., indicativo presente"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "naléhat",
-                                "target_lang_sense_clarification": "o věcech a termínech"
+                                "target_lang_word": "spěchat",
+                                "target_lang_sense_clarification": "3. os. mn. č.: o věcech a termínech"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "acil olmak",
-                                "target_lang_sense_clarification": "dosya ve işler hakkında"
+                                "target_lang_sense_clarification": "bildirme kipi, 3. çoğul kişi"
                             }
                         ],
                         "es": [
@@ -319,9 +352,9 @@
                                 "ru": "Не думаю, что эти формальности действительно <w>срочны</w>, они могут подождать до понедельника.",
                                 "nl": "Ik denk niet dat deze formaliteiten echt <w>dringend</w> zijn, ze kunnen tot maandag wachten.",
                                 "de": "Ich glaube nicht, dass diese Formalitäten wirklich <w>dringend</w> sind, sie können bis Montag warten.",
-                                "pl": "Nie sądzę, żeby te formalności były naprawdę <w>pilne</w>, mogą poczekać do poniedziałku.",
+                                "pl": "Nie sądzę, żeby te formalności <w>były</w> naprawdę <w>pilne</w>, mogą poczekać do poniedziałku.",
                                 "it": "Non penso che queste formalità <w>urgano</w> davvero, possono aspettare lunedì.",
-                                "cs": "Nemyslím, že tyto formality opravdu <w>naléhají</w>, mohou počkat až do pondělí.",
+                                "cs": "Nemyslím, že tyto formality opravdu <w>spěchají</w>, mohou počkat až do pondělí.",
                                 "tr": "Bu resmi işlemlerin gerçekten <w>acil</w> olduğunu düşünmüyorum, pazartesiye kadar bekleyebilirler.",
                                 "es": "No creo que estos trámites <w>urjan</w> de verdad, pueden esperar hasta el lunes.",
                                 "zh": "我不认为这些手续真的很<w>紧迫</w>，它们可以等到周一再办。"
@@ -334,9 +367,9 @@
                                 "ru": "Хотя эти ремонтные работы и <w>срочны</w>, у бригады не хватает средств, чтобы вмешаться.",
                                 "nl": "Hoewel deze reparaties <w>dringend</w> zijn, heeft het team niet genoeg middelen om in te grijpen.",
                                 "de": "Obwohl diese Reparaturen <w>dringend</w> sind, fehlen dem Team die Mittel, um einzugreifen.",
-                                "pl": "Choć te naprawy są <w>pilne</w>, zespołowi brakuje środków, żeby interweniować.",
+                                "pl": "Choć te naprawy <w>są pilne</w>, zespołowi brakuje środków, żeby interweniować.",
                                 "it": "Sebbene queste riparazioni <w>urgano</w>, la squadra non dispone dei mezzi necessari per intervenire.",
-                                "cs": "Ačkoli tyto opravy <w>naléhají</w>, týmu chybí prostředky k zásahu.",
+                                "cs": "Ačkoli tyto opravy <w>spěchají</w>, týmu chybí prostředky k zásahu.",
                                 "tr": "Bu onarımlar <w>acil</w> olmasına rağmen ekibin müdahale için gerekli kaynakları yok.",
                                 "es": "Aunque estas reparaciones <w>urgen</w>, al equipo le faltan medios para intervenir.",
                                 "zh": "尽管这些维修工作很<w>紧迫</w>，但团队缺乏介入所需的资源。"
@@ -362,27 +395,60 @@
                         "zh": "法语动词urger的第三人称复数现在时虚拟式形式，表示事情紧迫。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "be urgent",
+                                "target_lang_sense_clarification": "3rd person plural present subjunctive of urger"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "быть срочным",
+                                "target_lang_sense_clarification": "3 л. мн. ч. сослаг., разг."
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "dringend zijn",
+                                "target_lang_sense_clarification": "aanvoegende wijs, 3e persoon meervoud: dat ze dringend zijn"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "eilen",
+                                "target_lang_sense_clarification": "3. Person Plural Konjunktiv Präsens"
+                            },
+                            {
+                                "target_lang_word": "drängen",
+                                "target_lang_sense_clarification": "3. Person Plural Konjunktiv Präsens"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "naglić",
+                                "target_lang_sense_clarification": "nie cierpieć zwłoki (3. os. lm subjonctif)"
+                            },
+                            {
+                                "target_lang_word": "być pilnym",
+                                "target_lang_sense_clarification": "o sprawach (3. os. lm subjonctif)"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "urgere",
-                                "target_lang_sense_clarification": "uso formale, cose che incalzano"
+                                "target_lang_sense_clarification": "3ª pers. plur., congiuntivo presente"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "naléhat",
-                                "target_lang_sense_clarification": "po výrazech pochybnosti"
+                                "target_lang_word": "spěchat",
+                                "target_lang_sense_clarification": "3. os. mn. č., konjunktiv: o věcech"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "acil olmak",
-                                "target_lang_sense_clarification": "düşünme ve şüphe ifadelerinde"
+                                "target_lang_sense_clarification": "dilek kipi, 3. çoğul kişi"
                             }
                         ],
                         "es": [

@@ -354,13 +354,13 @@
                             "target_lang_translations": {
                                 "en": "Confident in his hand, the player decided to go <w>all-in</w> from the start.",
                                 "ru": "Уверенный в своих картах, игрок решил пойти <w>ва-банк</w> с самого начала.",
-                                "nl": "Zeker van zijn kaarten besloot de speler meteen alles <w>in</w> te <w>zetten</w>.",
-                                "de": "Von seinem Blatt überzeugt, beschloss der Spieler, gleich zu Beginn alles <w>einzusetzen</w>.",
+                                "nl": "Zeker van zijn kaarten besloot de speler meteen <w>all-in</w> te gaan.",
+                                "de": "Von seinem Blatt überzeugt, beschloss der Spieler, gleich zu Beginn <w>All-in</w> zu gehen.",
                                 "pl": "Pewny swoich kart gracz postanowił od początku <w>postawić wszystko</w>.",
                                 "it": "Sicuro del suo gioco, il giocatore ha deciso di <w>puntare tutto</w> fin dall'inizio.",
-                                "cs": "Sebejistý ve svých kartách se hráč hned na začátku rozhodl jít <w>va banque</w>.",
-                                "tr": "Elindeki kartlara güvenen oyuncu, en baştan her şeyini <w>ortaya koydu</w>.",
-                                "es": "Seguro de su mano, el jugador decidió <w>jugarse</w> todas sus fichas desde el principio.",
+                                "cs": "Hráč si byl svými kartami jistý, a tak se hned na začátku rozhodl jít <w>all-in</w>.",
+                                "tr": "Elindeki kartlara güvenen oyuncu, en baştan <w>rest</w> çekmeye karar verdi.",
+                                "es": "Seguro de su mano, el jugador decidió apostar el <w>resto</w> desde el principio.",
                                 "zh": "对自己手里的牌很有信心，这名玩家一开始就把全部<w>筹码</w>都押了上去。"
                             }
                         },
@@ -372,10 +372,10 @@
                                 "nl": "Hij controleerde het bedrag van zijn <w>stapel</w> voordat hij de inzet verhoogde.",
                                 "de": "Bevor er den Einsatz erhöhte, prüfte er die Höhe seines <w>Chipstapels</w>.",
                                 "pl": "Sprawdził wielkość swojego <w>stosu</w>, zanim podbił stawkę.",
-                                "it": "Ha controllato l'importo del suo <w>capitale</w> prima di rilanciare la puntata.",
+                                "it": "Ha controllato l'ammontare del suo <w>stack</w> prima di rilanciare la puntata.",
                                 "cs": "Než zvýšil sázku, zkontroloval, kolik má <w>žetonů</w>.",
                                 "tr": "Bahsi artırmadan önce <w>yığınındaki</w> çip miktarını kontrol etti.",
-                                "es": "Comprobó el importe de su <w>capital</w> antes de subir la apuesta.",
+                                "es": "Comprobó cuántas <w>fichas</w> le quedaban antes de subir la apuesta.",
                                 "zh": "他加注前先核对了一下自己的<w>筹码</w>数量。"
                             }
                         }
@@ -404,8 +404,12 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "запас фишек",
+                                "target_lang_word": "стек",
                                 "target_lang_sense_clarification": "покер, все фишки игрока"
+                            },
+                            {
+                                "target_lang_word": "запас фишек",
+                                "target_lang_sense_clarification": "описательно, все фишки игрока"
                             }
                         ],
                         "nl": [
@@ -432,15 +436,24 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "capitale",
-                                "target_lang_sense_clarification": "fiches a disposizione al tavolo"
+                                "target_lang_word": "stack",
+                                "target_lang_sense_clarification": "poker, fiches di un giocatore"
                             },
                             {
-                                "target_lang_word": "pila",
-                                "target_lang_sense_clarification": "fiches accumulate da un giocatore"
+                                "target_lang_word": "resti",
+                                "target_lang_sense_clarification": "poker, fiches rimaste al giocatore"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "all-in",
+                                "target_lang_sense_clarification": "poker: vsadit všechny žetony"
+                            },
+                            {
+                                "target_lang_word": "žetony",
+                                "target_lang_sense_clarification": "všechny žetony jednoho hráče"
+                            }
+                        ],
                         "tr": [
                             {
                                 "target_lang_word": "yığın",
@@ -449,8 +462,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "capital",
-                                "target_lang_sense_clarification": "fichas totales del jugador"
+                                "target_lang_word": "resto",
+                                "target_lang_sense_clarification": "póker: todas las fichas de un jugador"
+                            },
+                            {
+                                "target_lang_word": "fichas",
+                                "target_lang_sense_clarification": "póker: las que tiene un jugador"
                             }
                         ],
                         "zh": [
@@ -628,7 +645,7 @@
                                 "pl": "Dziś rano dyrektor znów poruszył tę finansową <w>kwestię</w>.",
                                 "it": "Stamattina il direttore ha rimesso sul <w>tappeto</w> questa questione finanziaria.",
                                 "cs": "Ředitel dnes ráno znovu <w>nastolil</w> tuto finanční otázku.",
-                                "tr": "Müdür bu mali konuyu bu sabah yeniden <w>gündeme getirdi</w>.",
+                                "tr": "Müdür bu mali konuyu bu sabah yeniden <w>gündeme</w> getirdi.",
                                 "es": "Esta mañana el director volvió a <w>sacar</w> a <w>colación</w> esta cuestión financiera.",
                                 "zh": "今天早上，经理又把这个财务问题作为<w>议题</w>提了出来。"
                             }
@@ -639,12 +656,12 @@
                                 "en": "This sensitive subject kept coming back on the <w>table</w> throughout the meeting.",
                                 "ru": "Эта деликатная тема на протяжении всего совещания снова и снова выносилась <w>на обсуждение</w>.",
                                 "nl": "Dit gevoelige onderwerp kwam tijdens de hele vergadering steeds weer <w>ter sprake</w>.",
-                                "de": "Dieses heikle <w>Thema</w> wurde während der ganzen Besprechung immer wieder angesprochen.",
+                                "de": "Dieses heikle Thema kam während der ganzen Besprechung immer wieder aufs <w>Tapet</w>.",
                                 "pl": "Ten drażliwy <w>temat</w> wracał przez całe spotkanie.",
                                 "it": "Questo argomento delicato è tornato sul <w>tappeto</w> durante tutta la riunione.",
                                 "cs": "Toto citlivé <w>téma</w> se v průběhu celé schůze stále vracelo.",
-                                "tr": "Bu hassas konu, toplantı boyunca defalarca <w>gündeme geldi</w>.",
-                                "es": "Este <w>tema</w> delicado ha salido a relucir una y otra vez a lo largo de toda la reunión.",
+                                "tr": "Bu hassas konu, toplantı boyunca defalarca <w>gündeme</w> geldi.",
+                                "es": "Este tema delicado volvió a ponerse sobre el <w>tapete</w> una y otra vez a lo largo de toda la reunión.",
                                 "zh": "这个敏感的<w>话题</w>在整个会议期间被反复提起。"
                             }
                         }
@@ -698,7 +715,11 @@
                         "de": [
                             {
                                 "target_lang_word": "Thema",
-                                "target_lang_sense_clarification": "zum Thema machen"
+                                "target_lang_sense_clarification": "Gegenstand eines Gesprächs"
+                            },
+                            {
+                                "target_lang_word": "Tapet",
+                                "target_lang_sense_clarification": "nur in „aufs Tapet bringen/kommen“"
                             },
                             {
                                 "target_lang_word": "Diskussionspunkt",
@@ -737,15 +758,19 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "konu",
-                                "target_lang_sense_clarification": "sohbet ve tartışmalarda"
+                                "target_lang_word": "gündem",
+                                "target_lang_sense_clarification": "tartışılan, ele alınan konular"
                             },
                             {
-                                "target_lang_word": "mesele",
-                                "target_lang_sense_clarification": "görüşülen, ele alınan husus"
+                                "target_lang_word": "konu",
+                                "target_lang_sense_clarification": "sohbet ve tartışmalarda"
                             }
                         ],
                         "es": [
+                            {
+                                "target_lang_word": "tapete",
+                                "target_lang_sense_clarification": "en «poner sobre el tapete»"
+                            },
                             {
                                 "target_lang_word": "tema",
                                 "target_lang_sense_clarification": "en conversaciones y debates"
@@ -799,7 +824,7 @@
                             "text": "Deux chasseurs se tenaient <w>tapis</w> derrière un rocher en attendant le gibier.",
                             "target_lang_translations": {
                                 "en": "Two hunters were <w>hidden</w> behind a rock, waiting for game to appear.",
-                                "ru": "<w>Два охотника притаились</w> за валуном в ожидании дичи.",
+                                "ru": "Два охотника <w>притаились</w> за валуном в ожидании дичи.",
                                 "nl": "Twee jagers hielden zich <w>verscholen</w> achter een rots in afwachting van wild.",
                                 "de": "Zwei Jäger <w>kauerten</w> hinter einem Felsen und warteten auf das Wild.",
                                 "pl": "Dwaj myśliwi <w>przyczajeni</w> czekali za skałą na zwierzynę.",
@@ -827,53 +852,53 @@
                         "en": [
                             {
                                 "target_lang_word": "crouch",
-                                "target_lang_sense_clarification": "crouching low to the ground"
+                                "target_lang_sense_clarification": "masculine plural past participle of tapir"
                             },
                             {
                                 "target_lang_word": "hide",
-                                "target_lang_sense_clarification": "hidden out of sight"
+                                "target_lang_sense_clarification": "masculine plural past participle of tapir"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "прятаться",
-                                "target_lang_sense_clarification": "скрываться от посторонних глаз"
+                                "target_lang_sense_clarification": "прич. прош., м. р. мн. ч.: скрываться от посторонних глаз"
                             },
                             {
                                 "target_lang_word": "притаиться",
-                                "target_lang_sense_clarification": "неподвижно, в укрытии"
+                                "target_lang_sense_clarification": "прич. прош., м. р. мн. ч.: неподвижно, в укрытии"
                             },
                             {
                                 "target_lang_word": "пригнуться",
-                                "target_lang_sense_clarification": "пригибаясь почти к земле"
+                                "target_lang_sense_clarification": "прич. прош., м. р. мн. ч.: пригибаясь почти к земле"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zich verstoppen",
-                                "target_lang_sense_clarification": "uit het zicht blijven"
+                                "target_lang_sense_clarification": "voltooid deelwoord, mannelijk meervoud: verstopt"
                             },
                             {
                                 "target_lang_word": "hurken",
-                                "target_lang_sense_clarification": "laag bij de grond"
+                                "target_lang_sense_clarification": "voltooid deelwoord, mannelijk meervoud: gehurkt"
                             },
                             {
                                 "target_lang_word": "zich verschuilen",
-                                "target_lang_sense_clarification": "in een schuilplaats, achter iets"
+                                "target_lang_sense_clarification": "voltooid deelwoord, mannelijk meervoud: verscholen"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "sich verstecken",
-                                "target_lang_sense_clarification": "außer Sicht, im Versteck"
+                                "target_lang_sense_clarification": "Partizip Perfekt, maskulin Plural"
                             },
                             {
                                 "target_lang_word": "sich ducken",
-                                "target_lang_sense_clarification": "tief gebückt, nah am Boden"
+                                "target_lang_sense_clarification": "Partizip Perfekt, maskulin Plural"
                             },
                             {
                                 "target_lang_word": "kauern",
-                                "target_lang_sense_clarification": "tief am Boden hockend"
+                                "target_lang_sense_clarification": "Partizip Perfekt, maskulin Plural"
                             }
                         ],
                         "pl": [
@@ -916,12 +941,16 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çömelmek",
-                                "target_lang_sense_clarification": "alçakta, yere yakın"
+                                "target_lang_word": "sinmek",
+                                "target_lang_sense_clarification": "büzülüp gizlenmek (geçmiş zaman ortacı, eril çoğul)"
                             },
                             {
                                 "target_lang_word": "gizlenmek",
-                                "target_lang_sense_clarification": "göz önünden uzakta"
+                                "target_lang_sense_clarification": "göz önünden uzakta (geçmiş zaman ortacı, eril çoğul)"
+                            },
+                            {
+                                "target_lang_word": "çömelmek",
+                                "target_lang_sense_clarification": "yere yakın (geçmiş zaman ortacı, eril çoğul)"
                             }
                         ],
                         "es": [
@@ -941,15 +970,15 @@
                         "zh": [
                             {
                                 "target_lang_word": "蹲伏",
-                                "target_lang_sense_clarification": "贴近地面蹲着"
+                                "target_lang_sense_clarification": "过去分词阳性复数，贴地蹲着"
                             },
                             {
                                 "target_lang_word": "埋伏",
-                                "target_lang_sense_clarification": "隐蔽，等待时机"
+                                "target_lang_sense_clarification": "过去分词阳性复数，隐蔽等待"
                             },
                             {
                                 "target_lang_word": "藏身",
-                                "target_lang_sense_clarification": "躲起来，不被看见"
+                                "target_lang_sense_clarification": "过去分词阳性复数，躲起来"
                             }
                         ]
                     }
@@ -969,11 +998,11 @@
                                 "ru": "Каждый раз, когда я слышу странный шум, я <w>прячусь</w> в темноте.",
                                 "nl": "Telkens als ik een vreemd geluid hoor, <w>verstop</w> ik me in het donker.",
                                 "de": "Jedes Mal, wenn ich ein seltsames Geräusch höre, <w>verstecke</w> ich <w>mich</w> im Dunkeln.",
-                                "pl": "Za każdym razem, gdy słyszę dziwny hałas, <w>chowam</w> <w>się</w> w ciemności.",
-                                "it": "Ogni volta che sento un rumore strano, <w>mi</w> <w>nascondo</w> nel buio.",
-                                "cs": "Pokaždé, když uslyším nějaký podivný zvuk, <w>schovávám</w> <w>se</w> do tmy.",
+                                "pl": "Za każdym razem, gdy słyszę dziwny hałas, <w>chowam się</w> w ciemności.",
+                                "it": "Ogni volta che sento un rumore strano, <w>mi nascondo</w> nel buio.",
+                                "cs": "Pokaždé, když uslyším nějaký podivný zvuk, <w>schovávám se</w> do tmy.",
                                 "tr": "Garip bir ses duyduğumda her seferinde karanlıkta <w>gizlenirim</w>.",
-                                "es": "Cada vez que oigo un ruido extraño, <w>me</w> <w>agazapo</w> en la oscuridad.",
+                                "es": "Cada vez que oigo un ruido extraño, <w>me agazapo</w> en la oscuridad.",
                                 "zh": "每次听到奇怪的声音，我都<w>藏身</w>在黑暗里。"
                             }
                         },
@@ -983,12 +1012,12 @@
                                 "en": "I <w>crouch</w> behind the door to surprise my friends.",
                                 "ru": "Я <w>притаюсь</w> за дверью, чтобы устроить друзьям сюрприз.",
                                 "nl": "Ik <w>verstop</w> me achter de deur om mijn vrienden te verrassen.",
-                                "de": "Ich <w>ducke</w> <w>mich</w> hinter der Tür, um meine Freunde zu überraschen.",
-                                "pl": "<w>Przyczajam</w> <w>się</w> za drzwiami, żeby zrobić niespodziankę moim przyjaciołom.",
-                                "it": "<w>Mi</w> <w>nascondo</w> dietro la porta per fare una sorpresa ai miei amici.",
-                                "cs": "<w>Přikrčuji</w> <w>se</w> za dveřmi, abych kamarády překvapil.",
-                                "tr": "Arkadaşlarımı sürpriz yapmak için kapının arkasına <w>çömelirim</w>.",
-                                "es": "<w>Me</w> <w>escondo</w> detrás de la puerta para dar una sorpresa a mis amigos.",
+                                "de": "Ich <w>ducke mich</w> hinter der Tür, um meine Freunde zu überraschen.",
+                                "pl": "<w>Przyczajam się</w> za drzwiami, żeby zrobić niespodziankę moim przyjaciołom.",
+                                "it": "<w>Mi nascondo</w> dietro la porta per fare una sorpresa ai miei amici.",
+                                "cs": "<w>Přikrčuji se</w> za dveřmi, abych kamarády překvapil.",
+                                "tr": "Arkadaşlarıma sürpriz yapmak için kapının arkasına <w>çömelirim</w>.",
+                                "es": "<w>Me escondo</w> detrás de la puerta para dar una sorpresa a mis amigos.",
                                 "zh": "我<w>蹲伏</w>在门后，想给朋友们一个惊喜。"
                             }
                         }
@@ -998,7 +1027,7 @@
                         "ru": "Первое лицо единственного числа настоящего времени глагола «притаиться»: я прячусь, затаиваюсь.",
                         "nl": "Eerste persoon enkelvoud van de tegenwoordige tijd van het Franse werkwoord tapir, dat zich verschuilen of hurken betekent.",
                         "de": "Erste Person Singular Präsens: ich ducke mich oder verstecke mich.",
-                        "pl": "Pierwsza osoba liczby pojedynczej, czas teraźniejszy czasownika „tapir”: przykucam się lub chowam się.",
+                        "pl": "Pierwsza osoba liczby pojedynczej, czas teraźniejszy czasownika „tapir”: przyczajam się lub chowam się.",
                         "it": "Prima persona singolare del presente indicativo del verbo francese «tapir», che significa rannicchiarsi o nascondersi.",
                         "cs": "První osoba jednotného čísla přítomného času slovesa tapir, značí přikrčit se nebo schovat se.",
                         "tr": "Fransızca tapir fiilinin birinci tekil şahıs şimdiki zamanı; ben çömelirim ya da gizlenirim.",
@@ -1009,129 +1038,133 @@
                         "en": [
                             {
                                 "target_lang_word": "crouch",
-                                "target_lang_sense_clarification": "crouching low to the ground"
+                                "target_lang_sense_clarification": "1st person singular present of tapir"
                             },
                             {
                                 "target_lang_word": "hide",
-                                "target_lang_sense_clarification": "hidden out of sight"
+                                "target_lang_sense_clarification": "1st person singular present of tapir"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "прятаться",
-                                "target_lang_sense_clarification": "скрываться от посторонних глаз"
+                                "target_lang_sense_clarification": "1 л. ед. ч. наст.: скрываться от посторонних глаз"
                             },
                             {
                                 "target_lang_word": "притаиться",
-                                "target_lang_sense_clarification": "неподвижно, в укрытии"
+                                "target_lang_sense_clarification": "1 л. ед. ч. наст.: неподвижно, в укрытии"
                             },
                             {
                                 "target_lang_word": "пригнуться",
-                                "target_lang_sense_clarification": "пригибаясь почти к земле"
+                                "target_lang_sense_clarification": "1 л. ед. ч. наст.: пригибаясь почти к земле"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zich verstoppen",
-                                "target_lang_sense_clarification": "uit het zicht blijven"
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 1e persoon: ik verstop me"
                             },
                             {
                                 "target_lang_word": "hurken",
-                                "target_lang_sense_clarification": "laag bij de grond"
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 1e persoon: ik hurk"
                             },
                             {
                                 "target_lang_word": "zich verschuilen",
-                                "target_lang_sense_clarification": "in een schuilplaats, achter iets"
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 1e persoon: ik verschuil me"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "sich verstecken",
-                                "target_lang_sense_clarification": "außer Sicht, im Versteck"
+                                "target_lang_sense_clarification": "1. Person Singular Indikativ Präsens"
                             },
                             {
                                 "target_lang_word": "sich ducken",
-                                "target_lang_sense_clarification": "tief gebückt, nah am Boden"
+                                "target_lang_sense_clarification": "1. Person Singular Indikativ Präsens"
                             },
                             {
                                 "target_lang_word": "kauern",
-                                "target_lang_sense_clarification": "tief am Boden hockend"
+                                "target_lang_sense_clarification": "1. Person Singular Indikativ Präsens"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "przyczaić się",
-                                "target_lang_sense_clarification": "nieruchomo, w ukryciu"
+                                "target_lang_sense_clarification": "nieruchomo, w ukryciu (1. os. lp. cz. teraźn.)"
                             },
                             {
                                 "target_lang_word": "schować się",
-                                "target_lang_sense_clarification": "poza zasięgiem wzroku"
+                                "target_lang_sense_clarification": "poza zasięgiem wzroku (1. os. lp. cz. teraźn.)"
                             },
                             {
                                 "target_lang_word": "przykucnąć",
-                                "target_lang_sense_clarification": "nisko, przy samej ziemi"
+                                "target_lang_sense_clarification": "nisko, przy samej ziemi (1. os. lp. cz. teraźn.)"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "acquattarsi",
-                                "target_lang_sense_clarification": "stare bassi, in agguato"
+                                "target_lang_sense_clarification": "1ª pers. sing., indicativo presente"
                             },
                             {
                                 "target_lang_word": "rannicchiarsi",
-                                "target_lang_sense_clarification": "piegarsi su se stessi"
+                                "target_lang_sense_clarification": "1ª pers. sing., indicativo presente"
                             },
                             {
                                 "target_lang_word": "nascondersi",
-                                "target_lang_sense_clarification": "sottrarsi alla vista"
+                                "target_lang_sense_clarification": "1ª pers. sing., indicativo presente"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "přikrčit se",
-                                "target_lang_sense_clarification": "nízko u země, v úkrytu"
+                                "target_lang_sense_clarification": "1. os. přít. času: nízko u země"
                             },
                             {
                                 "target_lang_word": "schovat se",
-                                "target_lang_sense_clarification": "mimo dohled, v úkrytu"
+                                "target_lang_sense_clarification": "1. os. přít. času: mimo dohled, v úkrytu"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çömelmek",
-                                "target_lang_sense_clarification": "alçakta, yere yakın"
+                                "target_lang_word": "sinmek",
+                                "target_lang_sense_clarification": "büzülüp gizlenmek (şimdiki zaman, 1. tekil kişi)"
                             },
                             {
                                 "target_lang_word": "gizlenmek",
-                                "target_lang_sense_clarification": "göz önünden uzakta"
+                                "target_lang_sense_clarification": "göz önünden uzakta (şimdiki zaman, 1. tekil kişi)"
+                            },
+                            {
+                                "target_lang_word": "çömelmek",
+                                "target_lang_sense_clarification": "yere yakın (şimdiki zaman, 1. tekil kişi)"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "agazaparse",
-                                "target_lang_sense_clarification": "acechando, agachado junto al suelo"
+                                "target_lang_sense_clarification": "1.ª pers. sing., presente de indicativo"
                             },
                             {
                                 "target_lang_word": "esconderse",
-                                "target_lang_sense_clarification": "fuera de la vista"
+                                "target_lang_sense_clarification": "1.ª pers. sing., presente de indicativo"
                             },
                             {
                                 "target_lang_word": "agacharse",
-                                "target_lang_sense_clarification": "bajar el cuerpo para esquivar"
+                                "target_lang_sense_clarification": "1.ª pers. sing., presente de indicativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "蹲伏",
-                                "target_lang_sense_clarification": "贴近地面蹲着"
+                                "target_lang_sense_clarification": "直陈式现在时第一人称单数，贴地蹲着"
                             },
                             {
                                 "target_lang_word": "埋伏",
-                                "target_lang_sense_clarification": "隐蔽，等待时机"
+                                "target_lang_sense_clarification": "直陈式现在时第一人称单数，隐蔽等待"
                             },
                             {
                                 "target_lang_word": "藏身",
-                                "target_lang_sense_clarification": "躲起来，不被看见"
+                                "target_lang_sense_clarification": "直陈式现在时第一人称单数，躲起来"
                             }
                         ]
                     }
@@ -1150,12 +1183,12 @@
                                 "en": "You <w>hide</w> in the shadows as soon as you see someone approaching.",
                                 "ru": "Ты <w>прячешься</w> в тени, как только замечаешь, что кто-то приближается.",
                                 "nl": "Je <w>verstopt</w> je in de schaduw zodra je iemand ziet naderen.",
-                                "de": "Du <w>versteckst</w> <w>dich</w> im Schatten, sobald du jemanden näher kommen siehst.",
-                                "pl": "<w>Chowasz</w> <w>się</w> w cieniu, jak tylko zobaczysz, że ktoś się zbliża.",
-                                "it": "<w>Ti</w> <w>nascondi</w> nell'ombra non appena vedi qualcuno avvicinarsi.",
-                                "cs": "Jakmile uvidíš někoho přicházet, <w>schováváš</w> <w>se</w> ve stínu.",
+                                "de": "Du <w>versteckst dich</w> im Schatten, sobald du jemanden näher kommen siehst.",
+                                "pl": "<w>Chowasz się</w> w cieniu, jak tylko zobaczysz, że ktoś się zbliża.",
+                                "it": "<w>Ti nascondi</w> nell'ombra non appena vedi qualcuno avvicinarsi.",
+                                "cs": "Jakmile uvidíš někoho přicházet, <w>schováváš se</w> ve stínu.",
                                 "tr": "Birinin yaklaştığını görür görmez gölgede <w>gizlenirsin</w>.",
-                                "es": "<w>Te</w> <w>escondes</w> en la sombra en cuanto ves a alguien acercarse.",
+                                "es": "<w>Te escondes</w> en la sombra en cuanto ves a alguien acercarse.",
                                 "zh": "一看到有人走近，你就<w>藏身</w>在阴影里。"
                             }
                         },
@@ -1166,11 +1199,11 @@
                                 "ru": "Почему ты так <w>прячешься</w> в глубине комнаты, не говоря ни слова?",
                                 "nl": "Waarom <w>verstop</w> je je zo achterin de kamer zonder iets te zeggen?",
                                 "de": "Warum <w>versteckst</w> du <w>dich</w> so am hinteren Ende des Zimmers, ohne ein Wort zu sagen?",
-                                "pl": "Dlaczego tak <w>chowasz</w> <w>się</w> w głębi pokoju i nic nie mówisz?",
-                                "it": "Perché <w>ti</w> <w>nascondi</w> così in fondo alla stanza senza dire nulla?",
+                                "pl": "Dlaczego tak <w>chowasz się</w> w głębi pokoju i nic nie mówisz?",
+                                "it": "Perché <w>ti nascondi</w> così in fondo alla stanza senza dire nulla?",
                                 "cs": "Proč <w>se</w> takhle <w>schováváš</w> vzadu v místnosti a nic neříkáš?",
                                 "tr": "Neden hiçbir şey söylemeden odanın en arkasında böyle <w>saklanıyorsun</w>?",
-                                "es": "¿Por qué <w>te</w> <w>agazapas</w> así al fondo de la habitación sin decir nada?",
+                                "es": "¿Por qué <w>te agazapas</w> así al fondo de la habitación sin decir nada?",
                                 "zh": "你为什么一句话也不说，就这样<w>藏身</w>在房间最里面？"
                             }
                         }
@@ -1180,7 +1213,7 @@
                         "ru": "Второе лицо единственного числа настоящего времени глагола «притаиться»: ты прячешься, затаиваешься.",
                         "nl": "Tweede persoon enkelvoud van de tegenwoordige tijd van het Franse werkwoord tapir, dat zich verschuilen of hurken betekent.",
                         "de": "Zweite Person Singular Präsens: du duckst dich oder versteckst dich.",
-                        "pl": "Druga osoba liczby pojedynczej, czas teraźniejszy czasownika „tapir”: przykucasz się lub chowasz się.",
+                        "pl": "Druga osoba liczby pojedynczej, czas teraźniejszy czasownika „tapir”: przyczajasz się lub chowasz się.",
                         "it": "Seconda persona singolare del presente indicativo del verbo francese «tapir», che significa rannicchiarsi o nascondersi.",
                         "cs": "Druhá osoba jednotného čísla přítomného času slovesa tapir, značí přikrčit se nebo schovat se.",
                         "tr": "Fransızca tapir fiilinin ikinci tekil şahıs şimdiki zamanı; sen çömelirsin ya da gizlenirsin.",
@@ -1191,129 +1224,133 @@
                         "en": [
                             {
                                 "target_lang_word": "crouch",
-                                "target_lang_sense_clarification": "crouching low to the ground"
+                                "target_lang_sense_clarification": "2nd person singular present of tapir"
                             },
                             {
                                 "target_lang_word": "hide",
-                                "target_lang_sense_clarification": "hidden out of sight"
+                                "target_lang_sense_clarification": "2nd person singular present of tapir"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "прятаться",
-                                "target_lang_sense_clarification": "скрываться от посторонних глаз"
+                                "target_lang_sense_clarification": "2 л. ед. ч. наст.: скрываться от посторонних глаз"
                             },
                             {
                                 "target_lang_word": "притаиться",
-                                "target_lang_sense_clarification": "неподвижно, в укрытии"
+                                "target_lang_sense_clarification": "2 л. ед. ч. наст.: неподвижно, в укрытии"
                             },
                             {
                                 "target_lang_word": "пригнуться",
-                                "target_lang_sense_clarification": "пригибаясь почти к земле"
+                                "target_lang_sense_clarification": "2 л. ед. ч. наст.: пригибаясь почти к земле"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zich verstoppen",
-                                "target_lang_sense_clarification": "uit het zicht blijven"
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 2e persoon: je verstopt je"
                             },
                             {
                                 "target_lang_word": "hurken",
-                                "target_lang_sense_clarification": "laag bij de grond"
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 2e persoon: je hurkt"
                             },
                             {
                                 "target_lang_word": "zich verschuilen",
-                                "target_lang_sense_clarification": "in een schuilplaats, achter iets"
+                                "target_lang_sense_clarification": "tegenwoordige tijd, 2e persoon: je verschuilt je"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "sich verstecken",
-                                "target_lang_sense_clarification": "außer Sicht, im Versteck"
+                                "target_lang_sense_clarification": "2. Person Singular Indikativ Präsens"
                             },
                             {
                                 "target_lang_word": "sich ducken",
-                                "target_lang_sense_clarification": "tief gebückt, nah am Boden"
+                                "target_lang_sense_clarification": "2. Person Singular Indikativ Präsens"
                             },
                             {
                                 "target_lang_word": "kauern",
-                                "target_lang_sense_clarification": "tief am Boden hockend"
+                                "target_lang_sense_clarification": "2. Person Singular Indikativ Präsens"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "przyczaić się",
-                                "target_lang_sense_clarification": "nieruchomo, w ukryciu"
+                                "target_lang_sense_clarification": "nieruchomo, w ukryciu (2. os. lp. cz. teraźn.)"
                             },
                             {
                                 "target_lang_word": "schować się",
-                                "target_lang_sense_clarification": "poza zasięgiem wzroku"
+                                "target_lang_sense_clarification": "poza zasięgiem wzroku (2. os. lp. cz. teraźn.)"
                             },
                             {
                                 "target_lang_word": "przykucnąć",
-                                "target_lang_sense_clarification": "nisko, przy samej ziemi"
+                                "target_lang_sense_clarification": "nisko, przy samej ziemi (2. os. lp. cz. teraźn.)"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "acquattarsi",
-                                "target_lang_sense_clarification": "stare bassi, in agguato"
+                                "target_lang_sense_clarification": "2ª pers. sing., indicativo presente"
                             },
                             {
                                 "target_lang_word": "rannicchiarsi",
-                                "target_lang_sense_clarification": "piegarsi su se stessi"
+                                "target_lang_sense_clarification": "2ª pers. sing., indicativo presente"
                             },
                             {
                                 "target_lang_word": "nascondersi",
-                                "target_lang_sense_clarification": "sottrarsi alla vista"
+                                "target_lang_sense_clarification": "2ª pers. sing., indicativo presente"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "přikrčit se",
-                                "target_lang_sense_clarification": "nízko u země, v úkrytu"
+                                "target_lang_sense_clarification": "2. os. přít. času: nízko u země"
                             },
                             {
                                 "target_lang_word": "schovat se",
-                                "target_lang_sense_clarification": "mimo dohled, v úkrytu"
+                                "target_lang_sense_clarification": "2. os. přít. času: mimo dohled, v úkrytu"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çömelmek",
-                                "target_lang_sense_clarification": "alçakta, yere yakın"
+                                "target_lang_word": "sinmek",
+                                "target_lang_sense_clarification": "büzülüp gizlenmek (şimdiki zaman, 2. tekil kişi)"
                             },
                             {
                                 "target_lang_word": "gizlenmek",
-                                "target_lang_sense_clarification": "göz önünden uzakta"
+                                "target_lang_sense_clarification": "göz önünden uzakta (şimdiki zaman, 2. tekil kişi)"
+                            },
+                            {
+                                "target_lang_word": "çömelmek",
+                                "target_lang_sense_clarification": "yere yakın (şimdiki zaman, 2. tekil kişi)"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "agazaparse",
-                                "target_lang_sense_clarification": "acechando, agachado junto al suelo"
+                                "target_lang_sense_clarification": "2.ª pers. sing., presente de indicativo"
                             },
                             {
                                 "target_lang_word": "esconderse",
-                                "target_lang_sense_clarification": "fuera de la vista"
+                                "target_lang_sense_clarification": "2.ª pers. sing., presente de indicativo"
                             },
                             {
                                 "target_lang_word": "agacharse",
-                                "target_lang_sense_clarification": "bajar el cuerpo para esquivar"
+                                "target_lang_sense_clarification": "2.ª pers. sing., presente de indicativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "蹲伏",
-                                "target_lang_sense_clarification": "贴近地面蹲着"
+                                "target_lang_sense_clarification": "直陈式现在时第二人称单数，贴地蹲着"
                             },
                             {
                                 "target_lang_word": "埋伏",
-                                "target_lang_sense_clarification": "隐蔽，等待时机"
+                                "target_lang_sense_clarification": "直陈式现在时第二人称单数，隐蔽等待"
                             },
                             {
                                 "target_lang_word": "藏身",
-                                "target_lang_sense_clarification": "躲起来，不被看见"
+                                "target_lang_sense_clarification": "直陈式现在时第二人称单数，躲起来"
                             }
                         ]
                     }
@@ -1332,10 +1369,10 @@
                                 "en": "Stay calm and quickly <w>crouch</w> under this table to hide yourself.",
                                 "ru": "Оставайся спокойным и быстро <w>притаись</w> под этим столом, чтобы спрятаться.",
                                 "nl": "Blijf kalm en <w>verstop</w> je snel onder deze tafel om niet gezien te worden.",
-                                "de": "Bleib ruhig und <w>verstecke</w> <w>dich</w> schnell unter diesem Tisch.",
-                                "pl": "Zachowaj spokój i szybko <w>przykucnij</w> <w>się</w> pod tym stołem, żeby się ukryć.",
+                                "de": "Bleib ruhig und <w>verstecke dich</w> schnell unter diesem Tisch.",
+                                "pl": "Zachowaj spokój i szybko <w>przyczaj się</w> pod tym stołem, żeby się ukryć.",
                                 "it": "Resta calmo e <w>nasconditi</w> in fretta sotto questo tavolo.",
-                                "cs": "Zůstaň klidný a rychle <w>se</w> <w>schovej</w> pod tímto stolem.",
+                                "cs": "Zůstaň klidný a rychle <w>se schovej</w> pod tímto stolem.",
                                 "tr": "Sakin kal ve saklanmak için hızla bu masanın altına <w>çömel</w>.",
                                 "es": "Quédate tranquilo y <w>agáchate</w> rápidamente bajo esta mesa para esconderte.",
                                 "zh": "保持镇定，快速<w>蹲伏</w>到这张桌子底下躲起来。"
@@ -1347,10 +1384,10 @@
                                 "en": "<w>Hide</w> in the bushes before they see you coming this way.",
                                 "ru": "<w>Притаись</w> в кустах, пока они не увидели, как ты идёшь сюда.",
                                 "nl": "<w>Verstop</w> je in de struiken voordat ze je hier zien aankomen.",
-                                "de": "<w>Verstecke</w> <w>dich</w> im Gebüsch, bevor sie dich hier herkommen sehen.",
-                                "pl": "<w>Schowaj</w> <w>się</w> w krzakach, zanim cię zobaczą, jak tu nadchodzisz.",
+                                "de": "<w>Verstecke dich</w> im Gebüsch, bevor sie dich hier herkommen sehen.",
+                                "pl": "<w>Schowaj się</w> w krzakach, zanim cię zobaczą, jak tu nadchodzisz.",
                                 "it": "<w>Nasconditi</w> tra i cespugli prima che ti vedano arrivare da questa parte.",
-                                "cs": "<w>Schovej</w> <w>se</w> v křoví, dřív než tě uvidí přicházet sem.",
+                                "cs": "<w>Schovej se</w> v křoví, dřív než tě uvidí přicházet sem.",
                                 "tr": "Seni buraya gelirken görmelerinden önce çalıların arasına <w>gizlen</w>.",
                                 "es": "<w>Escóndete</w> entre los matorrales antes de que te vean llegar por aquí.",
                                 "zh": "在他们看到你从这边过来之前，快去灌木丛里<w>藏身</w>。"
@@ -1362,7 +1399,7 @@
                         "ru": "Второе лицо единственного числа повелительного наклонения глагола «притаиться»: притаись, спрячься.",
                         "nl": "Tweede persoon enkelvoud van de gebiedende wijs van het Franse werkwoord tapir, dat zich verschuilen of hurken betekent.",
                         "de": "Zweite Person Singular Imperativ: duck dich oder verstecke dich.",
-                        "pl": "Druga osoba liczby pojedynczej trybu rozkazującego czasownika „tapir”: przykucnij się lub schowaj się.",
+                        "pl": "Druga osoba liczby pojedynczej trybu rozkazującego czasownika „tapir”: przyczaj się lub schowaj się.",
                         "it": "Seconda persona singolare dell'imperativo presente del verbo francese «tapir», che significa rannicchiarsi o nascondersi.",
                         "cs": "Druhá osoba jednotného čísla rozkazovacího způsobu slovesa tapir, značí přikrčit se nebo schovat se.",
                         "tr": "Fransızca tapir fiilinin ikinci tekil şahıs emir kipi; çömel ya da gizlen.",
@@ -1373,129 +1410,133 @@
                         "en": [
                             {
                                 "target_lang_word": "crouch",
-                                "target_lang_sense_clarification": "crouching low to the ground"
+                                "target_lang_sense_clarification": "2nd person singular imperative of tapir"
                             },
                             {
                                 "target_lang_word": "hide",
-                                "target_lang_sense_clarification": "hidden out of sight"
+                                "target_lang_sense_clarification": "2nd person singular imperative of tapir"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "прятаться",
-                                "target_lang_sense_clarification": "скрываться от посторонних глаз"
+                                "target_lang_sense_clarification": "2 л. ед. ч. повел.: скрываться от посторонних глаз"
                             },
                             {
                                 "target_lang_word": "притаиться",
-                                "target_lang_sense_clarification": "неподвижно, в укрытии"
+                                "target_lang_sense_clarification": "2 л. ед. ч. повел.: неподвижно, в укрытии"
                             },
                             {
                                 "target_lang_word": "пригнуться",
-                                "target_lang_sense_clarification": "пригибаясь почти к земле"
+                                "target_lang_sense_clarification": "2 л. ед. ч. повел.: пригибаясь почти к земле"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zich verstoppen",
-                                "target_lang_sense_clarification": "uit het zicht blijven"
+                                "target_lang_sense_clarification": "gebiedende wijs: verstop je!"
                             },
                             {
                                 "target_lang_word": "hurken",
-                                "target_lang_sense_clarification": "laag bij de grond"
+                                "target_lang_sense_clarification": "gebiedende wijs: hurk!"
                             },
                             {
                                 "target_lang_word": "zich verschuilen",
-                                "target_lang_sense_clarification": "in een schuilplaats, achter iets"
+                                "target_lang_sense_clarification": "gebiedende wijs: verschuil je!"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "sich verstecken",
-                                "target_lang_sense_clarification": "außer Sicht, im Versteck"
+                                "target_lang_sense_clarification": "2. Person Singular Imperativ"
                             },
                             {
                                 "target_lang_word": "sich ducken",
-                                "target_lang_sense_clarification": "tief gebückt, nah am Boden"
+                                "target_lang_sense_clarification": "2. Person Singular Imperativ"
                             },
                             {
                                 "target_lang_word": "kauern",
-                                "target_lang_sense_clarification": "tief am Boden hockend"
+                                "target_lang_sense_clarification": "2. Person Singular Imperativ"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "przyczaić się",
-                                "target_lang_sense_clarification": "nieruchomo, w ukryciu"
+                                "target_lang_sense_clarification": "nieruchomo, w ukryciu (2. os. lp. trybu rozk.)"
                             },
                             {
                                 "target_lang_word": "schować się",
-                                "target_lang_sense_clarification": "poza zasięgiem wzroku"
+                                "target_lang_sense_clarification": "poza zasięgiem wzroku (2. os. lp. trybu rozk.)"
                             },
                             {
                                 "target_lang_word": "przykucnąć",
-                                "target_lang_sense_clarification": "nisko, przy samej ziemi"
+                                "target_lang_sense_clarification": "nisko, przy samej ziemi (2. os. lp. trybu rozk.)"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "acquattarsi",
-                                "target_lang_sense_clarification": "stare bassi, in agguato"
+                                "target_lang_sense_clarification": "2ª pers. sing., imperativo"
                             },
                             {
                                 "target_lang_word": "rannicchiarsi",
-                                "target_lang_sense_clarification": "piegarsi su se stessi"
+                                "target_lang_sense_clarification": "2ª pers. sing., imperativo"
                             },
                             {
                                 "target_lang_word": "nascondersi",
-                                "target_lang_sense_clarification": "sottrarsi alla vista"
+                                "target_lang_sense_clarification": "2ª pers. sing., imperativo"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "přikrčit se",
-                                "target_lang_sense_clarification": "nízko u země, v úkrytu"
+                                "target_lang_sense_clarification": "rozkaz, tykání: nízko u země"
                             },
                             {
                                 "target_lang_word": "schovat se",
-                                "target_lang_sense_clarification": "mimo dohled, v úkrytu"
+                                "target_lang_sense_clarification": "rozkaz, tykání: mimo dohled, v úkrytu"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çömelmek",
-                                "target_lang_sense_clarification": "alçakta, yere yakın"
+                                "target_lang_word": "sinmek",
+                                "target_lang_sense_clarification": "büzülüp gizlenmek (emir kipi, 2. tekil kişi)"
                             },
                             {
                                 "target_lang_word": "gizlenmek",
-                                "target_lang_sense_clarification": "göz önünden uzakta"
+                                "target_lang_sense_clarification": "göz önünden uzakta (emir kipi, 2. tekil kişi)"
+                            },
+                            {
+                                "target_lang_word": "çömelmek",
+                                "target_lang_sense_clarification": "yere yakın (emir kipi, 2. tekil kişi)"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "agazaparse",
-                                "target_lang_sense_clarification": "acechando, agachado junto al suelo"
+                                "target_lang_sense_clarification": "2.ª pers. sing., imperativo"
                             },
                             {
                                 "target_lang_word": "esconderse",
-                                "target_lang_sense_clarification": "fuera de la vista"
+                                "target_lang_sense_clarification": "2.ª pers. sing., imperativo"
                             },
                             {
                                 "target_lang_word": "agacharse",
-                                "target_lang_sense_clarification": "bajar el cuerpo para esquivar"
+                                "target_lang_sense_clarification": "2.ª pers. sing., imperativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "蹲伏",
-                                "target_lang_sense_clarification": "贴近地面蹲着"
+                                "target_lang_sense_clarification": "命令式第二人称单数，贴地蹲着"
                             },
                             {
                                 "target_lang_word": "埋伏",
-                                "target_lang_sense_clarification": "隐蔽，等待时机"
+                                "target_lang_sense_clarification": "命令式第二人称单数，隐蔽等待"
                             },
                             {
                                 "target_lang_word": "藏身",
-                                "target_lang_sense_clarification": "躲起来，不被看见"
+                                "target_lang_sense_clarification": "命令式第二人称单数，躲起来"
                             }
                         ]
                     }
@@ -1515,11 +1556,11 @@
                                 "ru": "Как только я увидел, что охранник проходит мимо, я <w>пригнулся</w> у холодной стены.",
                                 "nl": "Zodra ik de bewaker zag passeren, <w>hurkte</w> ik tegen de koude muur.",
                                 "de": "Sobald ich den Wächter vorbeigehen sah, <w>duckte</w> ich <w>mich</w> gegen die kalte Mauer.",
-                                "pl": "Gdy tylko zobaczyłem strażnika przechodzącego obok, <w>przykucnąłem</w> <w>się</w> przy zimnym murze.",
-                                "it": "Non appena vidi la guardia passare, <w>mi</w> <w>rannicchiai</w> contro il muro freddo.",
+                                "pl": "Gdy tylko zobaczyłem strażnika przechodzącego obok, <w>przyczaiłem się</w> przy zimnym murze.",
+                                "it": "Non appena vidi la guardia passare, <w>mi rannicchiai</w> contro il muro freddo.",
                                 "cs": "Jakmile jsem uviděl strážného projít, <w>přikrčil</w> jsem <w>se</w> u studené zdi.",
                                 "tr": "Muhafızın geçtiğini görür görmez soğuk duvarın dibine <w>çömeldim</w>.",
-                                "es": "En cuanto vi pasar al guardia, <w>me</w> <w>agazapé</w> contra la pared fría.",
+                                "es": "En cuanto vi pasar al guardia, <w>me agazapé</w> contra la pared fría.",
                                 "zh": "我一看见卫兵走过，便<w>蹲伏</w>在冰冷的墙边。"
                             }
                         },
@@ -1529,12 +1570,12 @@
                                 "en": "I <w>hid</w> in the hollow of the tree to shelter from the violent storm.",
                                 "ru": "Я <w>притаился</w> в дупле дерева, чтобы укрыться от сильной грозы.",
                                 "nl": "Ik <w>verstopte</w> me in de holte van de boom om te schuilen voor het hevige onweer.",
-                                "de": "Ich <w>versteckte</w> <w>mich</w> in der Baumhöhle, um dem heftigen Gewitter zu entgehen.",
-                                "pl": "<w>Schowałem</w> <w>się</w> w dziupli drzewa, żeby uniknąć gwałtownej burzy.",
-                                "it": "<w>Mi</w> <w>nascosi</w> nell'incavo dell'albero per ripararmi dal violento temporale.",
+                                "de": "Ich <w>versteckte mich</w> in der Baumhöhle, um dem heftigen Gewitter zu entgehen.",
+                                "pl": "<w>Schowałem się</w> w dziupli drzewa, żeby uniknąć gwałtownej burzy.",
+                                "it": "<w>Mi nascosi</w> nell'incavo dell'albero per ripararmi dal violento temporale.",
                                 "cs": "<w>Schoval</w> jsem <w>se</w> do dutiny stromu, abych se uchránil před prudkou bouří.",
                                 "tr": "Şiddetli fırtınadan korunmak için ağacın kovuğuna <w>gizlendim</w>.",
-                                "es": "<w>Me</w> <w>escondí</w> en el hueco del árbol para evitar la fuerte tormenta.",
+                                "es": "<w>Me escondí</w> en el hueco del árbol para evitar la fuerte tormenta.",
                                 "zh": "为了躲避猛烈的暴风雨，我<w>藏身</w>在树洞里。"
                             }
                         }
@@ -1544,7 +1585,7 @@
                         "ru": "Первое лицо единственного числа прошедшего времени (книжная форма) глагола «притаиться»: я притаился.",
                         "nl": "Eerste persoon enkelvoud van de passé simple, de literaire verleden tijd, van het Franse werkwoord tapir, dat zich verschuilen of hurken betekent.",
                         "de": "Erste Person Singular Präteritum, literarisch: ich duckte mich oder versteckte mich.",
-                        "pl": "Pierwsza osoba liczby pojedynczej, czas przeszły literacki czasownika „tapir”: przykucnąłem się lub schowałem się.",
+                        "pl": "Pierwsza osoba liczby pojedynczej, czas przeszły literacki czasownika „tapir”: przyczaiłem się lub schowałem się.",
                         "it": "Prima persona singolare del passato remoto, forma letteraria, del verbo francese «tapir», che significa rannicchiarsi o nascondersi.",
                         "cs": "První osoba jednotného čísla knižního minulého času slovesa tapir, značí přikrčit se nebo schovat se.",
                         "tr": "Fransızca tapir fiilinin birinci tekil şahıs edebî geçmiş zamanı; ben çömeldim ya da gizlendim.",
@@ -1555,129 +1596,133 @@
                         "en": [
                             {
                                 "target_lang_word": "crouch",
-                                "target_lang_sense_clarification": "crouching low to the ground"
+                                "target_lang_sense_clarification": "1st person singular past historic of tapir"
                             },
                             {
                                 "target_lang_word": "hide",
-                                "target_lang_sense_clarification": "hidden out of sight"
+                                "target_lang_sense_clarification": "1st person singular past historic of tapir"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "прятаться",
-                                "target_lang_sense_clarification": "скрываться от посторонних глаз"
+                                "target_lang_sense_clarification": "1 л. ед. ч. прост. прош.: скрываться от посторонних глаз"
                             },
                             {
                                 "target_lang_word": "притаиться",
-                                "target_lang_sense_clarification": "неподвижно, в укрытии"
+                                "target_lang_sense_clarification": "1 л. ед. ч. прост. прош.: неподвижно, в укрытии"
                             },
                             {
                                 "target_lang_word": "пригнуться",
-                                "target_lang_sense_clarification": "пригибаясь почти к земле"
+                                "target_lang_sense_clarification": "1 л. ед. ч. прост. прош.: пригибаясь почти к земле"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zich verstoppen",
-                                "target_lang_sense_clarification": "uit het zicht blijven"
+                                "target_lang_sense_clarification": "passé simple, 1e persoon: ik verstopte me"
                             },
                             {
                                 "target_lang_word": "hurken",
-                                "target_lang_sense_clarification": "laag bij de grond"
+                                "target_lang_sense_clarification": "passé simple, 1e persoon: ik hurkte"
                             },
                             {
                                 "target_lang_word": "zich verschuilen",
-                                "target_lang_sense_clarification": "in een schuilplaats, achter iets"
+                                "target_lang_sense_clarification": "passé simple, 1e persoon: ik verschool me"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "sich verstecken",
-                                "target_lang_sense_clarification": "außer Sicht, im Versteck"
+                                "target_lang_sense_clarification": "1. Person Singular Passé simple"
                             },
                             {
                                 "target_lang_word": "sich ducken",
-                                "target_lang_sense_clarification": "tief gebückt, nah am Boden"
+                                "target_lang_sense_clarification": "1. Person Singular Passé simple"
                             },
                             {
                                 "target_lang_word": "kauern",
-                                "target_lang_sense_clarification": "tief am Boden hockend"
+                                "target_lang_sense_clarification": "1. Person Singular Passé simple"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "przyczaić się",
-                                "target_lang_sense_clarification": "nieruchomo, w ukryciu"
+                                "target_lang_sense_clarification": "nieruchomo, w ukryciu (1. os. lp. passé simple)"
                             },
                             {
                                 "target_lang_word": "schować się",
-                                "target_lang_sense_clarification": "poza zasięgiem wzroku"
+                                "target_lang_sense_clarification": "poza zasięgiem wzroku (1. os. lp. passé simple)"
                             },
                             {
                                 "target_lang_word": "przykucnąć",
-                                "target_lang_sense_clarification": "nisko, przy samej ziemi"
+                                "target_lang_sense_clarification": "nisko, przy samej ziemi (1. os. lp. passé simple)"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "acquattarsi",
-                                "target_lang_sense_clarification": "stare bassi, in agguato"
+                                "target_lang_sense_clarification": "1ª pers. sing., passato remoto"
                             },
                             {
                                 "target_lang_word": "rannicchiarsi",
-                                "target_lang_sense_clarification": "piegarsi su se stessi"
+                                "target_lang_sense_clarification": "1ª pers. sing., passato remoto"
                             },
                             {
                                 "target_lang_word": "nascondersi",
-                                "target_lang_sense_clarification": "sottrarsi alla vista"
+                                "target_lang_sense_clarification": "1ª pers. sing., passato remoto"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "přikrčit se",
-                                "target_lang_sense_clarification": "nízko u země, v úkrytu"
+                                "target_lang_sense_clarification": "1. os., passé simple: nízko u země"
                             },
                             {
                                 "target_lang_word": "schovat se",
-                                "target_lang_sense_clarification": "mimo dohled, v úkrytu"
+                                "target_lang_sense_clarification": "1. os., passé simple: mimo dohled, v úkrytu"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çömelmek",
-                                "target_lang_sense_clarification": "alçakta, yere yakın"
+                                "target_lang_word": "sinmek",
+                                "target_lang_sense_clarification": "büzülüp gizlenmek (edebî geçmiş zaman, 1. tekil kişi)"
                             },
                             {
                                 "target_lang_word": "gizlenmek",
-                                "target_lang_sense_clarification": "göz önünden uzakta"
+                                "target_lang_sense_clarification": "göz önünden uzakta (edebî geçmiş zaman, 1. tekil kişi)"
+                            },
+                            {
+                                "target_lang_word": "çömelmek",
+                                "target_lang_sense_clarification": "yere yakın (edebî geçmiş zaman, 1. tekil kişi)"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "agazaparse",
-                                "target_lang_sense_clarification": "acechando, agachado junto al suelo"
+                                "target_lang_sense_clarification": "1.ª pers. sing., pretérito indefinido"
                             },
                             {
                                 "target_lang_word": "esconderse",
-                                "target_lang_sense_clarification": "fuera de la vista"
+                                "target_lang_sense_clarification": "1.ª pers. sing., pretérito indefinido"
                             },
                             {
                                 "target_lang_word": "agacharse",
-                                "target_lang_sense_clarification": "bajar el cuerpo para esquivar"
+                                "target_lang_sense_clarification": "1.ª pers. sing., pretérito indefinido"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "蹲伏",
-                                "target_lang_sense_clarification": "贴近地面蹲着"
+                                "target_lang_sense_clarification": "简单过去时第一人称单数，贴地蹲着"
                             },
                             {
                                 "target_lang_word": "埋伏",
-                                "target_lang_sense_clarification": "隐蔽，等待时机"
+                                "target_lang_sense_clarification": "简单过去时第一人称单数，隐蔽等待"
                             },
                             {
                                 "target_lang_word": "藏身",
-                                "target_lang_sense_clarification": "躲起来，不被看见"
+                                "target_lang_sense_clarification": "简单过去时第一人称单数，躲起来"
                             }
                         ]
                     }
@@ -1696,12 +1741,12 @@
                                 "en": "As the patrol approached, you <w>hid</w> at the bottom of the dark ditch.",
                                 "ru": "Как только патруль приблизился, ты <w>притаился</w> на дне тёмной канавы.",
                                 "nl": "Zodra de patrouille naderde, <w>verstopte</w> je je onderaan de donkere greppel.",
-                                "de": "Als sich die Patrouille näherte, <w>duckte</w> du <w>dich</w> am Grund des dunklen Grabens.",
-                                "pl": "Gdy tylko patrol się zbliżył, <w>przyczaiłeś</w> <w>się</w> na dnie ciemnego rowu.",
-                                "it": "Non appena la pattuglia si avvicinò, <w>ti</w> <w>nascondesti</w> in fondo al fossato oscuro.",
+                                "de": "Als sich die Patrouille näherte, <w>ducktest</w> du <w>dich</w> am Grund des dunklen Grabens.",
+                                "pl": "Gdy tylko patrol się zbliżył, <w>przyczaiłeś się</w> na dnie ciemnego rowu.",
+                                "it": "Non appena la pattuglia si avvicinò, <w>ti nascondesti</w> in fondo al fossato oscuro.",
                                 "cs": "Jakmile se hlídka přiblížila, <w>přikrčil</w> jsi <w>se</w> na dně temného příkopu.",
                                 "tr": "Devriye yaklaşınca karanlık hendeğin dibine <w>çömeldin</w>.",
-                                "es": "Al acercarse la patrulla, <w>te</w> <w>agazapaste</w> al fondo de la zanja oscura.",
+                                "es": "Al acercarse la patrulla, <w>te agazapaste</w> al fondo de la zanja oscura.",
                                 "zh": "巡逻队一靠近，你便<w>蹲伏</w>在幽暗的沟底。"
                             }
                         },
@@ -1711,12 +1756,12 @@
                                 "en": "You <w>crouched</w> under the ferns as soon as the horsemen rode past you.",
                                 "ru": "Ты <w>пригнулся</w> под папоротниками, как только мимо тебя проехали всадники.",
                                 "nl": "Jij <w>hurkte</w> onder de varens zodra de ruiters langs je heen reden.",
-                                "de": "Sobald die Reiter an dir vorbeiritten, <w>duckte</w> du <w>dich</w> unter die Farne.",
-                                "pl": "<w>Schowałeś</w> <w>się</w> pod paprociami, gdy tylko jeźdźcy przejechali obok ciebie.",
-                                "it": "<w>Ti</w> <w>nascondesti</w> sotto le felci non appena i cavalieri ti passarono davanti.",
+                                "de": "Sobald die Reiter an dir vorbeiritten, <w>ducktest</w> du <w>dich</w> unter die Farne.",
+                                "pl": "<w>Schowałeś się</w> pod paprociami, gdy tylko jeźdźcy przejechali obok ciebie.",
+                                "it": "<w>Ti nascondesti</w> sotto le felci non appena i cavalieri ti passarono davanti.",
                                 "cs": "<w>Přikrčil</w> jsi <w>se</w> pod kapradí, jakmile kolem tebe projeli jezdci.",
                                 "tr": "Atlılar önünden geçince eğrelti otlarının altına <w>çömeldin</w>.",
-                                "es": "<w>Te</w> <w>agazapaste</w> bajo los helechos en cuanto los jinetes pasaron frente a ti.",
+                                "es": "<w>Te agazapaste</w> bajo los helechos en cuanto los jinetes pasaron frente a ti.",
                                 "zh": "骑兵刚从你面前经过，你便<w>蹲伏</w>到蕨丛底下。"
                             }
                         }
@@ -1725,8 +1770,8 @@
                         "en": "Second-person singular past historic of the verb tapir, meaning to crouch or hide.",
                         "ru": "Второе лицо единственного числа прошедшего времени (книжная форма) глагола «притаиться»: ты притаился.",
                         "nl": "Tweede persoon enkelvoud van de passé simple, de literaire verleden tijd, van het Franse werkwoord tapir, dat zich verschuilen of hurken betekent.",
-                        "de": "Zweite Person Singular Präteritum, literarisch: du duckte dich oder versteckte dich.",
-                        "pl": "Druga osoba liczby pojedynczej, czas przeszły literacki czasownika „tapir”: przykucnąłeś się lub schowałeś się.",
+                        "de": "Zweite Person Singular Präteritum, literarisch: du ducktest dich oder verstecktest dich.",
+                        "pl": "Druga osoba liczby pojedynczej, czas przeszły literacki czasownika „tapir”: przyczaiłeś się lub schowałeś się.",
                         "it": "Seconda persona singolare del passato remoto, forma letteraria, del verbo francese «tapir», che significa rannicchiarsi o nascondersi.",
                         "cs": "Druhá osoba jednotného čísla knižního minulého času slovesa tapir, značí přikrčit se nebo schovat se.",
                         "tr": "Fransızca tapir fiilinin ikinci tekil şahıs edebî geçmiş zamanı; sen çömeldin ya da gizlendin.",
@@ -1737,129 +1782,133 @@
                         "en": [
                             {
                                 "target_lang_word": "crouch",
-                                "target_lang_sense_clarification": "crouching low to the ground"
+                                "target_lang_sense_clarification": "2nd person singular past historic of tapir"
                             },
                             {
                                 "target_lang_word": "hide",
-                                "target_lang_sense_clarification": "hidden out of sight"
+                                "target_lang_sense_clarification": "2nd person singular past historic of tapir"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "прятаться",
-                                "target_lang_sense_clarification": "скрываться от посторонних глаз"
+                                "target_lang_sense_clarification": "2 л. ед. ч. прост. прош.: скрываться от посторонних глаз"
                             },
                             {
                                 "target_lang_word": "притаиться",
-                                "target_lang_sense_clarification": "неподвижно, в укрытии"
+                                "target_lang_sense_clarification": "2 л. ед. ч. прост. прош.: неподвижно, в укрытии"
                             },
                             {
                                 "target_lang_word": "пригнуться",
-                                "target_lang_sense_clarification": "пригибаясь почти к земле"
+                                "target_lang_sense_clarification": "2 л. ед. ч. прост. прош.: пригибаясь почти к земле"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "zich verstoppen",
-                                "target_lang_sense_clarification": "uit het zicht blijven"
+                                "target_lang_sense_clarification": "passé simple, 2e persoon: je verstopte je"
                             },
                             {
                                 "target_lang_word": "hurken",
-                                "target_lang_sense_clarification": "laag bij de grond"
+                                "target_lang_sense_clarification": "passé simple, 2e persoon: je hurkte"
                             },
                             {
                                 "target_lang_word": "zich verschuilen",
-                                "target_lang_sense_clarification": "in een schuilplaats, achter iets"
+                                "target_lang_sense_clarification": "passé simple, 2e persoon: je verschool je"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "sich verstecken",
-                                "target_lang_sense_clarification": "außer Sicht, im Versteck"
+                                "target_lang_sense_clarification": "2. Person Singular Passé simple"
                             },
                             {
                                 "target_lang_word": "sich ducken",
-                                "target_lang_sense_clarification": "tief gebückt, nah am Boden"
+                                "target_lang_sense_clarification": "2. Person Singular Passé simple"
                             },
                             {
                                 "target_lang_word": "kauern",
-                                "target_lang_sense_clarification": "tief am Boden hockend"
+                                "target_lang_sense_clarification": "2. Person Singular Passé simple"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "przyczaić się",
-                                "target_lang_sense_clarification": "nieruchomo, w ukryciu"
+                                "target_lang_sense_clarification": "nieruchomo, w ukryciu (2. os. lp. passé simple)"
                             },
                             {
                                 "target_lang_word": "schować się",
-                                "target_lang_sense_clarification": "poza zasięgiem wzroku"
+                                "target_lang_sense_clarification": "poza zasięgiem wzroku (2. os. lp. passé simple)"
                             },
                             {
                                 "target_lang_word": "przykucnąć",
-                                "target_lang_sense_clarification": "nisko, przy samej ziemi"
+                                "target_lang_sense_clarification": "nisko, przy samej ziemi (2. os. lp. passé simple)"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "acquattarsi",
-                                "target_lang_sense_clarification": "stare bassi, in agguato"
+                                "target_lang_sense_clarification": "2ª pers. sing., passato remoto"
                             },
                             {
                                 "target_lang_word": "rannicchiarsi",
-                                "target_lang_sense_clarification": "piegarsi su se stessi"
+                                "target_lang_sense_clarification": "2ª pers. sing., passato remoto"
                             },
                             {
                                 "target_lang_word": "nascondersi",
-                                "target_lang_sense_clarification": "sottrarsi alla vista"
+                                "target_lang_sense_clarification": "2ª pers. sing., passato remoto"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "přikrčit se",
-                                "target_lang_sense_clarification": "nízko u země, v úkrytu"
+                                "target_lang_sense_clarification": "2. os., passé simple: nízko u země"
                             },
                             {
                                 "target_lang_word": "schovat se",
-                                "target_lang_sense_clarification": "mimo dohled, v úkrytu"
+                                "target_lang_sense_clarification": "2. os., passé simple: mimo dohled, v úkrytu"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "çömelmek",
-                                "target_lang_sense_clarification": "alçakta, yere yakın"
+                                "target_lang_word": "sinmek",
+                                "target_lang_sense_clarification": "büzülüp gizlenmek (edebî geçmiş zaman, 2. tekil kişi)"
                             },
                             {
                                 "target_lang_word": "gizlenmek",
-                                "target_lang_sense_clarification": "göz önünden uzakta"
+                                "target_lang_sense_clarification": "göz önünden uzakta (edebî geçmiş zaman, 2. tekil kişi)"
+                            },
+                            {
+                                "target_lang_word": "çömelmek",
+                                "target_lang_sense_clarification": "yere yakın (edebî geçmiş zaman, 2. tekil kişi)"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "agazaparse",
-                                "target_lang_sense_clarification": "acechando, agachado junto al suelo"
+                                "target_lang_sense_clarification": "2.ª pers. sing., pretérito indefinido"
                             },
                             {
                                 "target_lang_word": "esconderse",
-                                "target_lang_sense_clarification": "fuera de la vista"
+                                "target_lang_sense_clarification": "2.ª pers. sing., pretérito indefinido"
                             },
                             {
                                 "target_lang_word": "agacharse",
-                                "target_lang_sense_clarification": "bajar el cuerpo para esquivar"
+                                "target_lang_sense_clarification": "2.ª pers. sing., pretérito indefinido"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "蹲伏",
-                                "target_lang_sense_clarification": "贴近地面蹲着"
+                                "target_lang_sense_clarification": "简单过去时第二人称单数，贴地蹲着"
                             },
                             {
                                 "target_lang_word": "埋伏",
-                                "target_lang_sense_clarification": "隐蔽，等待时机"
+                                "target_lang_sense_clarification": "简单过去时第二人称单数，隐蔽等待"
                             },
                             {
                                 "target_lang_word": "藏身",
-                                "target_lang_sense_clarification": "躲起来，不被看见"
+                                "target_lang_sense_clarification": "简单过去时第二人称单数，躲起来"
                             }
                         ]
                     }

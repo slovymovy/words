@@ -169,7 +169,7 @@
                                 "ru": "Эта квартира площадью шестьдесят <w>квадратных</w> метров стоит очень дорого прямо в центре города.",
                                 "nl": "Dit appartement van zestig <w>vierkante</w> meter is midden in het stadscentrum erg duur.",
                                 "de": "Diese Wohnung mit sechzig <w>Quadratmetern</w> ist mitten in der Innenstadt sehr teuer.",
-                                "pl": "To mieszkanie o powierzchni sześćdziesięciu metrów <w>kwadratowych</w> w samym centrum miasta kosztuje bardzo drogo.",
+                                "pl": "To mieszkanie o powierzchni sześćdziesięciu metrów <w>kwadratowych</w> w samym centrum miasta jest bardzo drogie.",
                                 "it": "Questo appartamento di sessanta metri <w>quadrati</w> costa moltissimo in pieno centro.",
                                 "cs": "Tento byt o rozloze šedesáti metrů <w>čtverečních</w> přímo v centru města stojí hodně peněz.",
                                 "tr": "Şehrin tam merkezinde bu altmış <w>metrekarelik</w> daire çok pahalı.",
@@ -208,6 +208,10 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "vierkant",
+                                "target_lang_sense_clarification": "in 'vierkante meter' en 'vierkantswortel'"
+                            },
+                            {
                                 "target_lang_word": "kwadratisch",
                                 "target_lang_sense_clarification": "wiskunde, tweede macht"
                             }
@@ -232,8 +236,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "kvadratický",
-                                "target_lang_sense_clarification": "matematika, druhá mocnina"
+                                "target_lang_word": "čtvereční",
+                                "target_lang_sense_clarification": "jednotky plochy, metr čtvereční"
+                            },
+                            {
+                                "target_lang_word": "druhý",
+                                "target_lang_sense_clarification": "druhá mocnina a odmocnina"
                             }
                         ],
                         "tr": [
@@ -286,7 +294,7 @@
                         {
                             "text": "C'est une personne <w>carrée</w> en affaires qui ne laisse rien au hasard.",
                             "target_lang_translations": {
-                                "en": "This is a <w>blunt</w> person in business who leaves nothing to chance.",
+                                "en": "This person is <w>straightforward</w> in business and leaves nothing to chance.",
                                 "ru": "Это человек, <w>прямолинейный</w> в делах, который ничего не оставляет на волю случая.",
                                 "nl": "Zakelijk gezien is dit een <w>vastberaden</w> persoon die niets aan het toeval overlaat.",
                                 "de": "Geschäftlich ist diese Person <w>geradlinig</w> und überlässt nichts dem Zufall.",
@@ -755,7 +763,7 @@
                         {
                             "text": "Il faut élever cette variable au <w>carré</w> pour obtenir la solution attendue.",
                             "target_lang_translations": {
-                                "en": "This variable must be raised to the <w>square</w> to get the expected solution.",
+                                "en": "This variable must be <w>squared</w> to get the expected solution.",
                                 "ru": "Чтобы получить ожидаемое решение, эту переменную нужно возвести в <w>квадрат</w>.",
                                 "nl": "Deze variabele moet je tot het <w>kwadraat</w> verheffen om de verwachte oplossing te vinden.",
                                 "de": "Man muss diese Variable zum <w>Quadrat</w> erheben, um die erwartete Lösung zu erhalten.",
@@ -970,8 +978,12 @@
                         ],
                         "cs": [
                             {
+                                "target_lang_word": "mikádo",
+                                "target_lang_sense_clarification": "rovně střižené vlasy po bradu či ramena"
+                            },
+                            {
                                 "target_lang_word": "bob",
-                                "target_lang_sense_clarification": "dámský krátký účes"
+                                "target_lang_sense_clarification": "krátký dámský účes"
                             }
                         ],
                         "tr": [
@@ -1015,7 +1027,7 @@
                                 "de": "Der Spieler hat die Partie dank eines großartigen <w>Vierlings</w> aus Assen gewonnen.",
                                 "pl": "Gracz wygrał partię, mając świetną <w>karetę</w> asów.",
                                 "it": "Il giocatore ha vinto la partita grazie a un fantastico <w>poker</w> di assi.",
-                                "cs": "Hráč vyhrál hru, protože měl skvělou <w>karetu</w> es.",
+                                "cs": "Hráč vyhrál hru díky skvělé <w>čtveřici</w> es.",
                                 "tr": "Oyuncu, harika bir <w>kare</w> as sayesinde oyunu kazandı.",
                                 "es": "El jugador ganó la partida gracias a un formidable <w>póquer</w> de ases.",
                                 "zh": "玩家凭借一手精彩的<w>四条</w>A，赢得了这一局。"
@@ -1030,7 +1042,7 @@
                                 "de": "Einen <w>Vierling</w> beim Poker zu bekommen kommt bei offiziellen Turnieren ziemlich selten vor.",
                                 "pl": "Zdobycie <w>karety</w> w pokerze zdarza się dość rzadko podczas oficjalnych turniejów.",
                                 "it": "Ottenere un <w>poker</w> giocando a poker capita piuttosto raramente nei tornei ufficiali.",
-                                "cs": "Získat <w>karetu</w> v pokeru se na oficiálních turnajích stává poměrně zřídka.",
+                                "cs": "Získat v pokeru <w>čtveřici</w> se na oficiálních turnajích stává poměrně zřídka.",
                                 "tr": "Resmi turnuvalarda pokerde bir <w>kare</w> elde etmek oldukça nadir görülür.",
                                 "es": "Conseguir un <w>póquer</w> en una partida es bastante raro en los torneos oficiales.",
                                 "zh": "在正式比赛中，打扑克时拿到<w>四条</w>的情况相当罕见。"
@@ -1095,8 +1107,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "kareta",
-                                "target_lang_sense_clarification": "pokerová kombinace, čtyři karty"
+                                "target_lang_word": "čtveřice",
+                                "target_lang_sense_clarification": "pokerová kombinace, čtyři stejné karty"
+                            },
+                            {
+                                "target_lang_word": "poker",
+                                "target_lang_sense_clarification": "hovorově, čtyři karty stejné hodnoty"
                             }
                         ],
                         "tr": [
@@ -1292,11 +1308,11 @@
                                 "nl": "De chef bereidt voor het diner een gebraden <w>carré</w> van lam met Provençaalse kruiden.",
                                 "de": "Der Koch bereitet zum Abendessen ein gebratenes <w>Karree</w> vom Lamm mit Kräutern der Provence zu.",
                                 "pl": "Szef kuchni przygotowuje na kolację pieczone <w>żeberka</w> jagnięce z prowansalskimi ziołami.",
-                                "it": "Lo chef prepara per cena una <w>costata</w> d'agnello arrosto alle erbe di Provenza.",
+                                "it": "Lo chef prepara per cena un <w>carré</w> d'agnello arrosto alle erbe di Provenza.",
                                 "cs": "Šéfkuchař připravuje na večeři pečené jehněčí <w>karé</w> s provensálskými bylinkami.",
                                 "tr": "Şef, akşam yemeği için Provence otlarıyla fırınlanmış bir kuzu <w>kaburgası</w> hazırlıyor.",
                                 "es": "El chef prepara para la cena un <w>costillar</w> de cordero asado con hierbas de Provenza.",
-                                "zh": "厨师准备晚餐，要做一份普罗旺斯香草烤<w>羊排</w>。"
+                                "zh": "厨师准备晚餐，要做一份普罗旺斯香草烤羊<w>肋排</w>。"
                             }
                         },
                         {
@@ -1307,7 +1323,7 @@
                                 "nl": "We hebben bij de buurtslager een heerlijk <w>carré</w> van kalf besteld.",
                                 "de": "Wir haben beim Metzger im Viertel ein köstliches <w>Karree</w> vom Kalb bestellt.",
                                 "pl": "U miejscowego rzeźnika zamówiliśmy smaczne <w>żeberka</w> cielęce.",
-                                "it": "Abbiamo ordinato una saporita <w>costata</w> di vitello dal macellaio del quartiere.",
+                                "it": "Abbiamo ordinato un saporito <w>carré</w> di vitello dal macellaio del quartiere.",
                                 "cs": "U místního řezníka jsme si objednali chutné telecí <w>karé</w>.",
                                 "tr": "Mahalledeki kasaptan lezzetli bir dana <w>kaburgası</w> sipariş ettik.",
                                 "es": "Pedimos un sabroso <w>costillar</w> de ternera en la carnicería del barrio.",
@@ -1360,11 +1376,16 @@
                                 "target_lang_sense_clarification": "Fleischerei, Lamm- und Schweinefleisch"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "comber",
+                                "target_lang_sense_clarification": "mięso z kilkoma żebrami, np. jagnięcy"
+                            }
+                        ],
                         "it": [
                             {
-                                "target_lang_word": "costata",
-                                "target_lang_sense_clarification": "taglio di carne, cucina"
+                                "target_lang_word": "carré",
+                                "target_lang_sense_clarification": "taglio di carne con più costole"
                             },
                             {
                                 "target_lang_word": "costolette",
@@ -1397,10 +1418,6 @@
                             {
                                 "target_lang_word": "肋排",
                                 "target_lang_sense_clarification": "带肋骨的整块肉"
-                            },
-                            {
-                                "target_lang_word": "羊排",
-                                "target_lang_sense_clarification": "羊肉的肋排部分"
                             }
                         ]
                     }
@@ -1425,7 +1442,7 @@
                                 "ru": "Он удобно <w>устроился</w> в кресле, чтобы спокойно почитать газету.",
                                 "nl": "Hij heeft <w>zich</w> comfortabel in zijn fauteuil <w>genesteld</w> om rustig zijn krant te lezen.",
                                 "de": "Er hat <w>sich</w> bequem in seinem Sessel <w>niedergelassen</w>, um in Ruhe seine Zeitung zu lesen.",
-                                "pl": "<w>Usadowił</w> <w>się</w> wygodnie w fotelu, by spokojnie poczytać gazetę.",
+                                "pl": "<w>Usadowił się</w> wygodnie w fotelu, by spokojnie poczytać gazetę.",
                                 "it": "<w>Si</w> è <w>accomodato</w> comodamente nella sua poltrona per leggere tranquillamente il giornale.",
                                 "cs": "Pohodlně <w>se usadil</w> ve svém křesle, aby v klidu přečetl své noviny.",
                                 "tr": "Gazetesini sakince okumak için koltuğuna rahatça <w>yerleşti</w>.",
@@ -1440,7 +1457,7 @@
                                 "ru": "Путешественник <w>устроился</w> на сиденье поезда, прежде чем уснуть.",
                                 "nl": "De reiziger had <w>zich</w> tegen de bank van de trein <w>genesteld</w> voordat hij in slaap viel.",
                                 "de": "Der Reisende hatte <w>sich</w> auf die Sitzbank im Zug <w>niedergelassen</w>, bevor er einschlief.",
-                                "pl": "Podróżny <w>usadowił</w> <w>się</w> na ławce w pociągu, zanim zasnął.",
+                                "pl": "Podróżny <w>usadowił się</w> na ławce w pociągu, zanim zasnął.",
                                 "it": "Il viaggiatore <w>si</w> era <w>accomodato</w> contro il sedile del treno prima di addormentarsi.",
                                 "cs": "Cestující <w>se</w> byl <w>usadil</w> na lavici ve vlaku, než usnul.",
                                 "tr": "Yolcu, uykuya dalmadan önce trendeki koltuğa <w>yerleşmişti</w>.",

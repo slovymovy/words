@@ -47,9 +47,9 @@
                                 "pl": "Zawsze stara się być <w>pomocny</w>, gdy razem przygotowujemy posiłek.",
                                 "it": "Cerca sempre di rendersi <w>utile</w> quando prepariamo insieme il pasto.",
                                 "cs": "Vždycky se snaží být <w>nápomocný</w>, když spolu připravujeme jídlo.",
-                                "tr": "Birlikte yemek hazırlarken o her zaman kendini <w>faydalı</w> göstermeye çalışır.",
+                                "tr": "Birlikte yemek hazırlarken o her zaman <w>faydalı</w> olmaya çalışır.",
                                 "es": "Siempre intenta ser <w>útil</w> cuando preparamos la comida juntos.",
-                                "zh": "我们一起准备饭菜时，他总想办法让自己<w>有用</w>。",
+                                "zh": "我们一起准备饭菜时，他总想办法<w>帮上忙</w>。",
                                 "ru": "Он всегда старается быть <w>полезным</w>, когда мы вместе готовим еду."
                             }
                         }
@@ -72,7 +72,7 @@
                         "de": "Was Nutzen oder Vorteil bringt oder jemandem praktisch weiterhilft.",
                         "pl": "Taki, który przynosi korzyść, jest praktyczny albo komuś pomaga.",
                         "it": "Che apporta vantaggi o che è di aiuto a qualcuno.",
-                        "cs": "Který je prospěšný, výhodný nebo komu pomáhá.",
+                        "cs": "Který je prospěšný, výhodný nebo dobře poslouží.",
                         "tr": "Birine fayda sağlayan, avantaj getiren ya da yardımcı olan.",
                         "es": "Que aporta provecho, ventaja o sirve de ayuda a alguien.",
                         "zh": "有好处、有益处，或能给人提供帮助的。",
@@ -378,7 +378,7 @@
                             "text": "Le créancier doit être inscrit en rang <w>utile</w> pour obtenir le paiement de sa créance.",
                             "target_lang_translations": {
                                 "en": "The creditor must be placed in an <w>effective</w> rank to obtain payment of his claim.",
-                                "nl": "De schuldeiser moet in een <w>daadwerkelijke</w> rang worden opgenomen om betaling van zijn vordering te krijgen.",
+                                "nl": "De schuldeiser moet <w>batig</w> gerangschikt zijn om betaling van zijn vordering te krijgen.",
                                 "de": "Der Gläubiger muss in einem <w>zum Zuge kommenden</w> Rang stehen, um die Zahlung seiner Forderung zu erhalten.",
                                 "pl": "Wierzyciel musi być ujęty w takiej kolejności, która <w>faktycznie</w> pozwala mu uzyskać zapłatę jego wierzytelności.",
                                 "it": "Il creditore deve essere collocato in posizione <w>utile</w> per ottenere il pagamento del suo credito.",
@@ -393,7 +393,7 @@
                             "text": "L'avocat a vérifié que son client figurait en ordre <w>utile</w> sur la liste définitive.",
                             "target_lang_translations": {
                                 "en": "The lawyer checked that his client was listed in an <w>effective</w> position on the final list.",
-                                "nl": "De advocaat controleerde of zijn cliënt op de definitieve lijst op een <w>daadwerkelijke</w> positie stond.",
+                                "nl": "De advocaat controleerde of zijn cliënt op de definitieve lijst <w>batig</w> gerangschikt was.",
                                 "de": "Der Anwalt überprüfte, ob sein Mandant auf der endgültigen Liste an einer <w>zum Zuge kommenden</w> Stelle stand.",
                                 "pl": "Adwokat sprawdził, czy jego klient figurował na ostatecznej liście w takiej kolejności, która <w>faktycznie</w> gwarantowała mu wypłatę.",
                                 "it": "L'avvocato ha verificato che il suo cliente figurava in posizione <w>utile</w> nell'elenco definitivo.",
@@ -422,16 +422,31 @@
                         "ru": "Очерёдность, в которой кредитор фактически имеет право получить платёж."
                     },
                     "translations": {
-                        "en": [],
-                        "nl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "effective",
+                                "target_lang_sense_clarification": "law, rank at which a creditor actually gets paid"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "batig",
+                                "target_lang_sense_clarification": "juridisch: rang die recht geeft op betaling"
+                            }
+                        ],
                         "de": [],
                         "pl": [],
-                        "it": [],
+                        "it": [
+                            {
+                                "target_lang_word": "utile",
+                                "target_lang_sense_clarification": "diritto, graduatoria dei creditori"
+                            }
+                        ],
                         "cs": [],
                         "tr": [
                             {
-                                "target_lang_word": "sıra",
-                                "target_lang_sense_clarification": "alacak ödeme sırası"
+                                "target_lang_word": "etkin",
+                                "target_lang_sense_clarification": "alacak sırası: ödeme hakkı veren"
                             }
                         ],
                         "es": [],
@@ -524,12 +539,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "nut",
-                                "target_lang_sense_clarification": "het nuttige met het aangename"
+                                "target_lang_word": "het nuttige",
+                                "target_lang_sense_clarification": "wat praktisch voordeel oplevert"
                             },
                             {
-                                "target_lang_word": "bruikbaarheid",
-                                "target_lang_sense_clarification": "functionele waarde van iets"
+                                "target_lang_word": "nut",
+                                "target_lang_sense_clarification": "praktisch voordeel van iets"
                             }
                         ],
                         "de": [
@@ -679,14 +694,54 @@
                         "ru": "Французская торговая марка супермаркетов и небольших продуктовых магазинов."
                     },
                     "translations": {
-                        "en": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
-                        "es": [],
+                        "en": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "French convenience-store chain"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "Franse keten van buurtsupermarkten"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "französische Supermarktkette"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "francuska sieć sklepów spożywczych"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "insegna francese di supermercati"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "francouzský řetězec prodejen"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "Fransız market zinciri"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Utile",
+                                "target_lang_sense_clarification": "cadena francesa de supermercados"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "Utile",

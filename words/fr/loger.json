@@ -25,7 +25,7 @@
                         {
                             "text": "Pendant leurs vacances à Rome, ils ont préféré <w>loger</w> à l'hôtel pour plus de confort.",
                             "target_lang_translations": {
-                                "en": "During their holiday in Rome, they preferred to <w>lodge</w> in a hotel for greater comfort.",
+                                "en": "During their holiday in Rome, they preferred to <w>stay</w> in a hotel for greater comfort.",
                                 "ru": "Во время отпуска в Риме они предпочли <w>остановиться</w> в гостинице ради большего комфорта.",
                                 "nl": "Tijdens hun vakantie in Rome <w>logeerden</w> ze liever in een hotel voor meer comfort.",
                                 "de": "Während ihres Urlaubs in Rom haben sie lieber im Hotel <w>gewohnt</w>, um mehr Komfort zu genießen.",
@@ -74,6 +74,10 @@
                             {
                                 "target_lang_word": "live",
                                 "target_lang_sense_clarification": "everyday or long-term residence"
+                            },
+                            {
+                                "target_lang_word": "stay",
+                                "target_lang_sense_clarification": "temporarily, in a hotel or with friends"
                             },
                             {
                                 "target_lang_word": "lodge",
@@ -554,7 +558,7 @@
                                 "de": "Mit einem kraftvollen Schuss <w>versenkte</w> der Stürmer den Ball unter der Latte.",
                                 "pl": "Mocnym uderzeniem napastnik <w>wbił</w> piłkę pod poprzeczkę.",
                                 "it": "Con un tiro potente, l'attaccante ha <w>insaccato</w> il pallone sotto la traversa.",
-                                "cs": "Silnou ranou <w>zasadil</w> útočník míč pod břevno.",
+                                "cs": "Silnou ranou <w>vpálil</w> útočník míč pod břevno.",
                                 "tr": "Güçlü bir şutla forvet, topu üst direğin altına fileye <w>sapladı</w>.",
                                 "es": "Con un potente disparo, el delantero <w>clavó</w> el balón bajo el larguero.",
                                 "zh": "这名前锋一脚有力的射门，将球<w>射入</w>横梁下方。"
@@ -599,15 +603,24 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "insteken",
-                                "target_lang_sense_clarification": "kogel of mes in lichaam"
+                                "target_lang_word": "schieten",
+                                "target_lang_sense_clarification": "kogel of bal ergens in doen belanden"
                             },
                             {
-                                "target_lang_word": "inslaan",
-                                "target_lang_sense_clarification": "spijker of pen in hout"
+                                "target_lang_word": "jagen",
+                                "target_lang_sense_clarification": "een kogel door of in iets jagen"
                             }
                         ],
-                        "de": [],
+                        "de": [
+                            {
+                                "target_lang_word": "jagen",
+                                "target_lang_sense_clarification": "eine Kugel ins Ziel schießen"
+                            },
+                            {
+                                "target_lang_word": "versenken",
+                                "target_lang_sense_clarification": "den Ball im Tor unterbringen"
+                            }
+                        ],
                         "pl": [
                             {
                                 "target_lang_word": "wbić",
@@ -630,12 +643,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "zarazit",
-                                "target_lang_sense_clarification": "hřebík nebo kolík do dřeva"
+                                "target_lang_word": "vpálit",
+                                "target_lang_sense_clarification": "kulku do terče, míč do branky"
                             },
                             {
-                                "target_lang_word": "zasadit",
-                                "target_lang_sense_clarification": "kulku nebo střelu do cíle"
+                                "target_lang_word": "umístit",
+                                "target_lang_sense_clarification": "střelu přesně do cíle"
                             }
                         ],
                         "tr": [
@@ -690,7 +703,7 @@
                                 "nl": "Na meerdere dagen schaduwen slaagden de politieagenten er eindelijk in de verdachte te <w>lokaliseren</w>.",
                                 "de": "Nach mehreren Tagen Observation gelang es der Polizei endlich, den Verdächtigen <w>aufzuspüren</w>.",
                                 "pl": "Po kilku dniach śledzenia policjanci w końcu zdołali <w>namierzyć</w> podejrzanego.",
-                                "it": "I poliziotti sono riusciti finalmente a <w>rintracciare</w> il sospettato.",
+                                "it": "Dopo diversi giorni di pedinamento, i poliziotti sono finalmente riusciti a <w>rintracciare</w> il sospettato.",
                                 "cs": "Po několika dnech sledování se policistům konečně podařilo <w>vypátrat</w> podezřelého.",
                                 "tr": "Birkaç gün süren takibin ardından polisler sonunda şüpheliyi <w>tespit etmeyi</w> başardı.",
                                 "es": "Tras varios días de seguimiento, los policías consiguieron por fin <w>localizar</w> al sospechoso.",
@@ -858,7 +871,7 @@
                             "target_lang_translations": {
                                 "en": "The winegrower prefers to <w>barrel</w> his harvest in traditional oak casks.",
                                 "ru": "Виноградарь предпочитает <w>наливать</w> свой урожай в традиционные дубовые бочки.",
-                                "nl": "De wijnboer <w>vult</w> zijn oogst liever in traditionele eikenhouten vaten.",
+                                "nl": "De wijnboer <w>doet</w> zijn oogst liever in traditionele eikenhouten vaten.",
                                 "de": "Der Winzer <w>füllt</w> seine Ernte lieber in traditionelle Eichenfässer.",
                                 "pl": "Winiarz woli <w>nalewać</w> swoje wino do tradycyjnych dębowych beczek.",
                                 "it": "Il viticoltore preferisce <w>imbottare</w> la sua vendemmia in tradizionali botti di rovere.",
@@ -878,7 +891,7 @@
                                 "pl": "Ta wyjątkowa partia wina będzie sprzedawana bezpośrednio w winnicy, po tym jak zostanie <w>rozlana</w> do butelek.",
                                 "it": "Questa cuvée speciale sarà venduta direttamente alla tenuta dopo essere stata <w>imbottigliata</w>.",
                                 "cs": "Tato speciální cuvée se bude prodávat přímo ve vinařství poté, co byla <w>stočena</w> do lahví.",
-                                "tr": "Bu özel cuvée, şişelere <w>doldurulduktan</w> sonra doğrudan şaraphanede satılacak.",
+                                "tr": "Bu özel şarap, şişelere <w>doldurulduktan</w> sonra doğrudan şaraphanede satılacak.",
                                 "es": "Esta partida especial se venderá directamente en la bodega tras haber sido <w>embotellada</w>.",
                                 "zh": "这款特别的珍藏酒在<w>灌装</w>后，将直接在酒庄出售。"
                             }

@@ -169,7 +169,7 @@
                         {
                             "text": "Vous devez cliquer sur le bouton pour ajouter cet article à votre <w>panier</w>.",
                             "target_lang_translations": {
-                                "en": "You need to click the button to add this item to your <w>shopping cart</w>.",
+                                "en": "You need to click the button to add this item to your <w>basket</w>.",
                                 "ru": "Нажмите кнопку, чтобы добавить этот товар в вашу <w>корзину</w>.",
                                 "nl": "U moet op de knop klikken om dit artikel aan uw <w>winkelmandje</w> toe te voegen.",
                                 "de": "Klicken Sie auf die Schaltfläche, um diesen Artikel in Ihren <w>Warenkorb</w> zu legen.",
@@ -184,7 +184,7 @@
                         {
                             "text": "Avant de payer sa commande sur le site, elle a vérifié le contenu de son <w>panier</w>.",
                             "target_lang_translations": {
-                                "en": "Before paying for her order on the site, she checked the contents of her <w>shopping cart</w>.",
+                                "en": "Before paying for her order on the site, she checked the contents of her <w>basket</w>.",
                                 "ru": "Перед тем как оплатить заказ на сайте, она проверила содержимое своей <w>корзины</w>.",
                                 "nl": "Voordat ze haar bestelling op de website betaalde, controleerde ze de inhoud van haar <w>winkelmandje</w>.",
                                 "de": "Bevor sie ihre Bestellung auf der Website bezahlte, prüfte sie den Inhalt ihres <w>Warenkorbs</w>.",
@@ -216,12 +216,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "shopping cart",
-                                "target_lang_sense_clarification": "online store item list"
-                            },
-                            {
                                 "target_lang_word": "basket",
                                 "target_lang_sense_clarification": "online shop, before checkout"
+                            },
+                            {
+                                "target_lang_word": "shopping basket",
+                                "target_lang_sense_clarification": "online shop, list of chosen items"
                             }
                         ],
                         "ru": [
@@ -369,12 +369,16 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "basket",
+                                "target_lang_sense_clarification": "basketbal: ring met net"
+                            },
+                            {
                                 "target_lang_word": "basketbalring",
                                 "target_lang_sense_clarification": "metalen ring met net"
                             },
                             {
                                 "target_lang_word": "korf",
-                                "target_lang_sense_clarification": "basketbal, ring met net"
+                                "target_lang_sense_clarification": "minder gebruikelijk dan basket"
                             }
                         ],
                         "de": [
@@ -449,8 +453,8 @@
                             "text": "Son tir magnifique a permis à son équipe de marquer un <w>panier</w> décisif.",
                             "target_lang_translations": {
                                 "en": "His magnificent shot allowed his team to score a decisive <w>basket</w>.",
-                                "ru": "Его великолепный бросок помог команде забросить решающую <w>корзину</w>.",
-                                "nl": "Met zijn prachtige worp kon zijn team een beslissende <w>korf</w> scoren.",
+                                "ru": "Его великолепный бросок помог команде забросить решающий <w>мяч</w>.",
+                                "nl": "Met zijn prachtige worp kon zijn team een beslissende <w>basket</w> scoren.",
                                 "de": "Mit seinem großartigen Wurf erzielte seine Mannschaft einen entscheidenden <w>Korb</w>.",
                                 "pl": "Jego znakomity rzut pozwolił drużynie zdobyć decydujący <w>kosz</w>.",
                                 "it": "Il suo tiro magnifico ha permesso alla squadra di segnare un <w>canestro</w> decisivo.",
@@ -464,13 +468,13 @@
                             "text": "Le champion a réussi un superbe <w>panier</w> à trois points juste avant la fin.",
                             "target_lang_translations": {
                                 "en": "The champion scored a superb three-point <w>basket</w> just before the final buzzer.",
-                                "ru": "Чемпион забросил великолепную трёхочковую <w>корзину</w> незадолго до конца игры.",
-                                "nl": "Vlak voor het einde scoorde de kampioen een prachtige <w>korf</w> van drie punten.",
+                                "ru": "Чемпион отметился великолепным трёхочковым <w>попаданием</w> незадолго до конца игры.",
+                                "nl": "Vlak voor het einde scoorde de kampioen een prachtige <w>basket</w> van drie punten.",
                                 "de": "Kurz vor dem Ende erzielte der Champion einen herrlichen <w>Dreipunktekorb</w>.",
                                 "pl": "Mistrz zdobył wspaniały trzypunktowy <w>kosz</w> tuż przed końcem.",
                                 "it": "Il campione ha realizzato un superbo <w>canestro</w> da tre punti poco prima della fine.",
                                 "cs": "Těsně před koncem zápasu zaznamenal šampion skvělý <w>koš</w> za tři body.",
-                                "tr": "Şampiyon, maç bitmeden hemen önce muhteşem bir <w>üçlük sayı</w> kaydetti.",
+                                "tr": "Şampiyon, maç bitmeden hemen önce muhteşem bir üç sayılık <w>basket</w> attı.",
                                 "es": "El campeón logró una magnífica <w>canasta</w> de tres puntos justo antes del final.",
                                 "zh": "冠军在终场哨响前投进了一记漂亮的三分<w>球</w>。"
                             }
@@ -505,18 +509,22 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "корзина",
-                                "target_lang_sense_clarification": "баскетбол, засчитанный бросок"
+                                "target_lang_word": "попадание",
+                                "target_lang_sense_clarification": "баскетбол: мяч, заброшенный в кольцо"
+                            },
+                            {
+                                "target_lang_word": "мяч",
+                                "target_lang_sense_clarification": "баскетбол: результативный бросок"
                             }
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "korf",
-                                "target_lang_sense_clarification": "gescoorde worp, scoren"
+                                "target_lang_word": "basket",
+                                "target_lang_sense_clarification": "basketbal: gescoorde worp"
                             },
                             {
-                                "target_lang_word": "basket",
-                                "target_lang_sense_clarification": "gescoorde worp, sportjargon"
+                                "target_lang_word": "score",
+                                "target_lang_sense_clarification": "geslaagde doelpoging"
                             }
                         ],
                         "de": [
@@ -545,8 +553,12 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "basket",
+                                "target_lang_sense_clarification": "basketbol, potaya giren atış"
+                            },
+                            {
                                 "target_lang_word": "sayı",
-                                "target_lang_sense_clarification": "basketbol, potaya giren top"
+                                "target_lang_sense_clarification": "basketbol, kazanılan puan"
                             }
                         ],
                         "es": [
@@ -561,12 +573,12 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "得分",
-                                "target_lang_sense_clarification": "篮球，所得分数"
+                                "target_lang_word": "进球",
+                                "target_lang_sense_clarification": "篮球，投篮命中"
                             },
                             {
-                                "target_lang_word": "球",
-                                "target_lang_sense_clarification": "投篮命中得分"
+                                "target_lang_word": "得分",
+                                "target_lang_sense_clarification": "篮球，投中所得分数"
                             }
                         ]
                     }
@@ -584,7 +596,7 @@
                             "target_lang_translations": {
                                 "en": "Rising prices pushed up the total cost of this <w>basket</w> of goods.",
                                 "ru": "Рост цен увеличил общую стоимость этой <w>корзины</w> товаров.",
-                                "nl": "De hogere prijzen hebben de totale kosten van deze <w>warenmand</w> doen stijgen.",
+                                "nl": "De hogere prijzen hebben de totale kosten van dit <w>mandje</w> goederen doen stijgen.",
                                 "de": "Die steigenden Preise ließen die Gesamtkosten dieses <w>Warenkorbs</w> in die Höhe schnellen.",
                                 "pl": "Wzrost cen podniósł łączny koszt tego <w>koszyka</w> towarów.",
                                 "it": "L'aumento dei prezzi ha fatto salire il costo totale di questo <w>paniere</w> di merci.",
@@ -644,8 +656,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "warenmand",
-                                "target_lang_sense_clarification": "economie, prijsindex van goederen"
+                                "target_lang_word": "mandje",
+                                "target_lang_sense_clarification": "economie: pakket goederen voor prijsindex"
+                            },
+                            {
+                                "target_lang_word": "winkelmandje",
+                                "target_lang_sense_clarification": "wat een klant per keer koopt"
                             }
                         ],
                         "de": [
@@ -715,7 +731,7 @@
                                 "ru": "На рассвете рыбак вытаскивает <w>верши</w>, полные ракообразных.",
                                 "nl": "De visser haalt in de vroege ochtend <w>fuiken</w> vol schaaldieren omhoog.",
                                 "de": "Der Fischer zieht am frühen Morgen mit Krebstieren gefüllte <w>Reusen</w> herauf.",
-                                "pl": "O świcie rybak wyciąga z wody <w>nasady</w> pełne skorupiaków.",
+                                "pl": "O świcie rybak wyciąga z wody <w>więcierze</w> pełne skorupiaków.",
                                 "it": "Al mattino presto il pescatore tira su delle <w>nasse</w> piene di crostacei.",
                                 "cs": "Rybář za časného rána vytahuje <w>vrše</w> plné korýšů.",
                                 "tr": "Balıkçı, sabahın köründe kabuklularla dolu <w>nasaları</w> çekiyor.",
@@ -730,7 +746,7 @@
                                 "ru": "Он опустил несколько <w>верш</w> на дно, чтобы ловить лангустов.",
                                 "nl": "Hij heeft meerdere <w>fuiken</w> op de zeebodem gezet om langoesten te vangen.",
                                 "de": "Er hat mehrere <w>Reusen</w> auf dem Meeresgrund ausgelegt, um Langusten zu fangen.",
-                                "pl": "Ustawił kilka <w>nasad</w> na dnie, żeby złapać langusty.",
+                                "pl": "Ustawił kilka <w>więcierzy</w> na dnie, żeby złapać langusty.",
                                 "it": "Ha calato diverse <w>nasse</w> sul fondale per catturare le aragoste.",
                                 "cs": "Na dno vody nastavil několik <w>vrší</w>, aby chytil langusty.",
                                 "tr": "Langust yakalamak için suyun dibine birkaç <w>nasa</w> yerleştirdi.",
@@ -800,8 +816,8 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "nasada",
-                                "target_lang_sense_clarification": "rybołówstwo, pułapka na skorupiaki"
+                                "target_lang_word": "więcierz",
+                                "target_lang_sense_clarification": "rybołówstwo, pułapka na ryby i skorupiaki"
                             }
                         ],
                         "it": [
@@ -861,13 +877,13 @@
                             "target_lang_translations": {
                                 "en": "In the eighteenth century, women wore a dress held out by a wide <w>hoop</w>.",
                                 "ru": "В XVIII веке женщины носили платья на широких <w>фижмах</w>.",
-                                "nl": "In de achttiende eeuw droegen vrouwen een jurk die door een brede <w>krinoline</w> werd opgehouden.",
+                                "nl": "In de achttiende eeuw droegen vrouwen een jurk die door een brede <w>hoepelrok</w> werd opgehouden.",
                                 "de": "Im 18. Jahrhundert trugen Frauen ein Kleid, das von einem breiten <w>Reifrock</w> ausgestellt wurde.",
-                                "pl": "W XVIII wieku kobiety nosiły suknię, którą podtrzymywała szeroka <w>krynolina</w>.",
+                                "pl": "W XVIII wieku kobiety nosiły suknię, którą podtrzymywała szeroka <w>rogówka</w>.",
                                 "it": "Nel Settecento le donne indossavano un abito sostenuto da un ampio <w>guardinfante</w>.",
                                 "cs": "V osmnáctém století nosily ženy šaty, které vyztužovala široká <w>krinolína</w>.",
                                 "tr": "On sekizinci yüzyılda kadınlar, geniş bir <w>krinolinle</w> desteklenen elbiseler giyerdi.",
-                                "es": "En el siglo XVIII, las mujeres llevaban un vestido sostenido por un amplio <w>guardainfante</w>.",
+                                "es": "En el siglo XVIII, las mujeres llevaban un vestido sostenido por un amplio <w>tontillo</w>.",
                                 "zh": "十八世纪，女性穿的长裙由一个宽大的<w>裙撑</w>撑起。"
                             }
                         },
@@ -876,9 +892,9 @@
                             "target_lang_translations": {
                                 "en": "This voluminous dress requires wearing <w>hoops</w> to keep its shape.",
                                 "ru": "Это пышное платье требует ношения <w>фижм</w>, чтобы сохранять форму.",
-                                "nl": "Deze volumineuze jurk vereist het dragen van <w>krinolines</w> om zijn vorm te behouden.",
+                                "nl": "Deze volumineuze jurk vereist het dragen van <w>hoepelrokken</w> om zijn vorm te behouden.",
                                 "de": "Dieses ausladende Kleid verlangt nach <w>Reifröcken</w>, damit es seine Form behält.",
-                                "pl": "Ta obszerna suknia wymaga noszenia <w>krynolin</w>, żeby zachować swój kształt.",
+                                "pl": "Ta obszerna suknia wymaga noszenia <w>rogówki</w>, żeby zachować swój kształt.",
                                 "it": "Questo abito voluminoso richiede di indossare dei <w>guardinfanti</w> per conservare la sua forma.",
                                 "cs": "Tyto objemné šaty vyžadují nošení <w>krinolín</w>, aby si zachovaly tvar.",
                                 "tr": "Bu hacimli elbise, formunu korumak için <w>krinolin</w> giyilmesini gerektirir.",
@@ -914,19 +930,15 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "hoop",
-                                "target_lang_sense_clarification": "18th-century skirt frame"
+                                "target_lang_word": "pannier",
+                                "target_lang_sense_clarification": "18th-century side hoops under a skirt"
                             },
                             {
-                                "target_lang_word": "crinoline",
-                                "target_lang_sense_clarification": "historical hooped petticoat frame"
+                                "target_lang_word": "hoop",
+                                "target_lang_sense_clarification": "18th-century skirt frame"
                             }
                         ],
                         "ru": [
-                            {
-                                "target_lang_word": "кринолин",
-                                "target_lang_sense_clarification": "каркас юбки, историческая мода"
-                            },
                             {
                                 "target_lang_word": "фижмы",
                                 "target_lang_sense_clarification": "каркас юбки, XVIII век"
@@ -934,8 +946,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "krinoline",
+                                "target_lang_word": "hoepelrok",
                                 "target_lang_sense_clarification": "stijve onderrok, historische mode"
+                            },
+                            {
+                                "target_lang_word": "panier",
+                                "target_lang_sense_clarification": "modegeschiedenis, achttiende eeuw"
                             }
                         ],
                         "de": [
@@ -950,8 +966,12 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "krynolina",
+                                "target_lang_word": "rogówka",
                                 "target_lang_sense_clarification": "historyczny stelaż spódnicy, XVIII wiek"
+                            },
+                            {
+                                "target_lang_word": "panier",
+                                "target_lang_sense_clarification": "termin historii mody, XVIII wiek"
                             }
                         ],
                         "it": [
@@ -978,8 +998,8 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "guardainfante",
-                                "target_lang_sense_clarification": "moda del siglo XVIII"
+                                "target_lang_word": "tontillo",
+                                "target_lang_sense_clarification": "armazón bajo la falda, siglo XVIII"
                             },
                             {
                                 "target_lang_word": "miriñaque",
@@ -1011,7 +1031,7 @@
                             "text": "Nous avons passé une merveilleuse après-midi à visiter les ruelles du <w>Panier</w>.",
                             "target_lang_translations": {
                                 "en": "We spent a wonderful afternoon exploring the narrow streets of <w>Le Panier</w>.",
-                                "ru": "Мы прекрасно провели вторую половину дня, гуляя по узким улочкам квартала <w>Le Panier</w>.",
+                                "ru": "Мы прекрасно провели вторую половину дня, гуляя по узким улочкам квартала <w>Панье</w>.",
                                 "nl": "We hebben een heerlijke middag doorgebracht met het verkennen van de nauwe steegjes van <w>Le Panier</w>.",
                                 "de": "Wir haben einen wunderschönen Nachmittag damit verbracht, die engen Gassen von <w>Le Panier</w> zu erkunden.",
                                 "pl": "Spędziliśmy wspaniałe popołudnie, zwiedzając wąskie uliczki dzielnicy <w>Le Panier</w>.",
@@ -1026,7 +1046,7 @@
                             "text": "Le quartier du <w>Panier</w> est l'un des plus anciens et emblématiques de Marseille.",
                             "target_lang_translations": {
                                 "en": "The neighbourhood of <w>Le Panier</w> is one of the oldest and most iconic in Marseille.",
-                                "ru": "Квартал <w>Le Panier</w> — один из самых древних и знаковых в Марселе.",
+                                "ru": "Квартал <w>Панье</w> — один из самых древних и знаковых в Марселе.",
                                 "nl": "De wijk <w>Le Panier</w> behoort tot de oudste en meest kenmerkende van Marseille.",
                                 "de": "Das Viertel <w>Le Panier</w> gehört zu den ältesten und bekanntesten Vierteln von Marseille.",
                                 "pl": "Dzielnica <w>Le Panier</w> jest jedną z najstarszych i najbardziej charakterystycznych dzielnic Marsylii.",
@@ -1062,7 +1082,7 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "Le Panier",
+                                "target_lang_word": "Панье",
                                 "target_lang_sense_clarification": "исторический квартал Марселя"
                             }
                         ],

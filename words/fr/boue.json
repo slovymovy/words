@@ -42,7 +42,7 @@
                                 "de": "Pass beim Gehen auf der Straße auf, damit du dich nicht mit <w>Schlamm</w> beschmutzt.",
                                 "pl": "Uważaj, idąc ulicą, żeby nie ubrudzić się <w>błotem</w>.",
                                 "it": "Fai attenzione camminando per la strada per non sporcarti di <w>fango</w>.",
-                                "cs": "Dávej pozor, když jdeš ulicí, abys se neušpinil <w>blátem</w>.",
+                                "cs": "Dávej pozor, když jdeš ulicí, aby ses neušpinil <w>blátem</w>.",
                                 "tr": "Sokakta yürürken dikkatli ol ki üstün başın <w>çamurla</w> kirlenmesin.",
                                 "es": "Ten cuidado al caminar por la calle para no mancharte de <w>barro</w>.",
                                 "zh": "走路时要注意，别让自己沾上<w>泥巴</w>。"
@@ -175,7 +175,7 @@
                                 "ru": "Журналисты пытались втоптать его репутацию в <w>грязь</w> этими разоблачениями.",
                                 "nl": "Met deze onthullingen probeerden de journalisten zijn reputatie door het <w>slijk</w> te halen.",
                                 "de": "Mit diesen Enthüllungen versuchten die Journalisten, seinen Ruf in den <w>Schmutz</w> zu ziehen.",
-                                "pl": "Dziennikarze próbowali tymi rewelacjami zrównać jego reputację z <w>błotem</w>.",
+                                "pl": "Dziennikarze próbowali tymi rewelacjami zszargać jego reputację i zmieszać go z <w>błotem</w>.",
                                 "it": "Con queste rivelazioni, i giornalisti hanno cercato di trascinare la sua reputazione nel <w>fango</w>.",
                                 "cs": "Těmito odhaleními se novináři snažili vláčet jeho pověst <w>blátem</w>.",
                                 "tr": "Gazeteciler bu ifşaatlarla onun itibarını <w>çamura</w> bulaştırmaya çalıştı.",
@@ -230,6 +230,10 @@
                         ],
                         "ru": [
                             {
+                                "target_lang_word": "грязь",
+                                "target_lang_sense_clarification": "перен.: позор, унижение"
+                            },
+                            {
                                 "target_lang_word": "позор",
                                 "target_lang_sense_clarification": "потеря репутации, уважения"
                             },
@@ -274,6 +278,10 @@
                         ],
                         "it": [
                             {
+                                "target_lang_word": "fango",
+                                "target_lang_sense_clarification": "figurato, disonore e infamia"
+                            },
+                            {
                                 "target_lang_word": "disonore",
                                 "target_lang_sense_clarification": "perdita della reputazione"
                             },
@@ -284,8 +292,12 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "ostuda",
-                                "target_lang_sense_clarification": "ztráta cti a dobrého jména"
+                                "target_lang_word": "bahno",
+                                "target_lang_sense_clarification": "přeneseně, mravní úpadek"
+                            },
+                            {
+                                "target_lang_word": "bláto",
+                                "target_lang_sense_clarification": "ve spojení vláčet někoho blátem"
                             },
                             {
                                 "target_lang_word": "hanba",
@@ -348,7 +360,7 @@
                                 "cs": "Lékař mu doporučil lázeňskou léčbu s aplikacemi teplého <w>bahna</w>.",
                                 "tr": "Doktor ona sıcak <w>çamur</w> uygulamalı bir kaplıca kürü önerdi.",
                                 "es": "El médico le recomendó una cura termal con aplicaciones de <w>fango</w> caliente.",
-                                "zh": "医生建议他进行温泉疗养，并配合热<w>泥浴</w>治疗。"
+                                "zh": "医生建议他进行温泉疗养，并配合热<w>矿泥</w>敷疗。"
                             }
                         },
                         {
@@ -363,7 +375,7 @@
                                 "cs": "Tyto lázně jsou proslulé léčivými účinky svého <w>bahna</w> proti bolestem.",
                                 "tr": "Bu kaplıca, ağrılara iyi gelen <w>çamurlarıyla</w> ünlüdür.",
                                 "es": "Este balneario es famoso por los beneficios de sus <w>fangos</w> contra los dolores.",
-                                "zh": "这家温泉疗养地因其<w>泥疗</w>对缓解疼痛的良好效果而享有盛誉。"
+                                "zh": "这家温泉疗养地因其<w>矿泥</w>缓解疼痛的良好功效而享有盛誉。"
                             }
                         }
                     ],
@@ -471,12 +483,8 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "泥浴",
-                                "target_lang_sense_clarification": "温泉疗养的泥敷治疗"
-                            },
-                            {
-                                "target_lang_word": "泥疗",
-                                "target_lang_sense_clarification": "矿物质泥的理疗方法"
+                                "target_lang_word": "矿泥",
+                                "target_lang_sense_clarification": "温泉疗养用的治疗泥"
                             }
                         ]
                     }
@@ -492,7 +500,7 @@
                         {
                             "text": "Les <w>boues</w> de la station d'épuration sont traitées avant d'être réutilisées comme engrais.",
                             "target_lang_translations": {
-                                "en": "The <w>sludge</w> from the sewage treatment plant is treated before being reused as fertilizer.",
+                                "en": "The <w>sludge</w> from the sewage treatment plant is treated before being reused as fertiliser.",
                                 "ru": "<w>Осадок</w> с очистных сооружений обрабатывают, прежде чем повторно использовать его как удобрение.",
                                 "nl": "Het <w>slib</w> uit de zuiveringsinstallatie wordt behandeld voordat het als meststof wordt hergebruikt.",
                                 "de": "Der <w>Klärschlamm</w> aus der Kläranlage wird behandelt, bevor er als Dünger wiederverwendet wird.",
@@ -507,7 +515,7 @@
                         {
                             "text": "L'analyse des <w>boues</w> marines permet aux scientifiques de reconstituer l'histoire du climat.",
                             "target_lang_translations": {
-                                "en": "Analysing <w>marine mud</w> allows scientists to reconstruct the history of the climate.",
+                                "en": "Analysing marine <w>mud</w> allows scientists to reconstruct the history of the climate.",
                                 "ru": "Анализ морских <w>осадков</w> позволяет учёным восстановить историю климата.",
                                 "nl": "Door <w>zeeslib</w> te analyseren kunnen wetenschappers de klimaatgeschiedenis reconstrueren.",
                                 "de": "Die Analyse von <w>Meeresschlamm</w> ermöglicht es Wissenschaftlern, die Geschichte des Klimas zu rekonstruieren.",

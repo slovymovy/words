@@ -34,12 +34,12 @@
                             "text": "Le chasseur a repéré un <w>lapin</w> de garenne près de son terrier.",
                             "target_lang_translations": {
                                 "en": "The hunter spotted a wild <w>rabbit</w> near his burrow.",
-                                "ru": "Охотник заметил дикого <w>кролика</w> возле своей норы.",
+                                "ru": "Охотник заметил дикого <w>кролика</w> возле его норы.",
                                 "nl": "De jager heeft een wild <w>konijn</w> gespot vlak bij zijn hol.",
                                 "de": "Der Jäger hat in der Nähe seines Baus ein <w>Wildkaninchen</w> entdeckt.",
-                                "pl": "Myśliwy dostrzegł dzikiego <w>królika</w> niedaleko swojej nory.",
+                                "pl": "Myśliwy dostrzegł dzikiego <w>królika</w> niedaleko jego nory.",
                                 "it": "Il cacciatore ha avvistato un <w>coniglio</w> selvatico vicino alla sua tana.",
-                                "cs": "Myslivec spatřil poblíž své nory divokého <w>králíka</w>.",
+                                "cs": "Myslivec spatřil divokého <w>králíka</w> poblíž jeho nory.",
                                 "tr": "Avcı, yuvasının yakınında bir yaban <w>tavşanı</w> fark etti.",
                                 "es": "El cazador ha avistado un <w>conejo</w> de monte cerca de su madriguera.",
                                 "zh": "猎人在洞穴附近发现了一只野生<w>兔子</w>。"
@@ -286,10 +286,10 @@
                                 "ru": "Я больше часа прождал в кафе, потому что она меня <w>продинамила</w>.",
                                 "nl": "Ik heb meer dan een uur in het café gewacht, omdat zij mij heeft <w>laten zitten</w>.",
                                 "de": "Ich habe über eine Stunde im Café gewartet, weil sie mich <w>versetzt</w> hat.",
-                                "pl": "Czekałem w kawiarni ponad godzinę, bo ona mnie <w>wystawiła</w> do wiatru.",
-                                "it": "Ho aspettato più di un'ora al bar, perché lei mi ha <w>dato</w> <w>buca</w>.",
-                                "cs": "Čekal jsem v kavárně víc než hodinu, protože mi <w>dala</w> <w>bačkoru</w>.",
-                                "tr": "Kafede bir saatten fazla bekledim, çünkü o beni <w>yüzüstü bıraktı</w>.",
+                                "pl": "Czekałem w kawiarni ponad godzinę, bo ona <w>wystawiła</w> mnie <w>do wiatru</w>.",
+                                "it": "Ho aspettato più di un'ora al bar, perché lei mi ha <w>dato buca</w>.",
+                                "cs": "Čekal jsem v kavárně víc než hodinu, protože <w>nepřišla na schůzku</w>.",
+                                "tr": "Kafede bir saatten fazla bekledim, çünkü o beni <w>ekti</w>.",
                                 "es": "Esperé más de una hora en la cafetería porque ella me dio <w>plantón</w>.",
                                 "zh": "她的<w>爽约</w>让我在咖啡馆里白白等了一个多小时。"
                             }
@@ -301,10 +301,10 @@
                                 "ru": "Очень невежливо <w>продинамить</w> друзей, не предупредив заранее.",
                                 "nl": "Het is erg onbeleefd om je vrienden zonder waarschuwing vooraf te <w>laten zitten</w>.",
                                 "de": "Es ist sehr unhöflich, Freunde zu <w>versetzen</w>, ohne ihnen vorher Bescheid zu geben.",
-                                "pl": "Bardzo nieuprzejmie jest <w>wystawiać</w> przyjaciół do wiatru, nie uprzedzając ich wcześniej.",
-                                "it": "È molto scortese <w>dare</w> <w>buca</w> agli amici senza avvisarli in anticipo.",
-                                "cs": "Je velmi nezdvořilé <w>dát</w> přátelům <w>bačkoru</w> bez předchozího upozornění.",
-                                "tr": "Arkadaşlarını önceden haber vermeden <w>yüzüstü bırakmak</w> çok kabalıktır.",
+                                "pl": "Bardzo nieuprzejmie jest <w>wystawiać</w> przyjaciół <w>do wiatru</w>, nie uprzedzając ich wcześniej.",
+                                "it": "È molto scortese <w>dare buca</w> agli amici senza avvisarli in anticipo.",
+                                "cs": "Je velmi nezdvořilé <w>nepřijít na schůzku</w> s přáteli bez předchozího upozornění.",
+                                "tr": "Arkadaşlarını önceden haber vermeden <w>ekmek</w> çok kabalıktır.",
                                 "es": "Es muy descortés dar <w>plantón</w> a los amigos sin avisarles con antelación.",
                                 "zh": "对朋友不事先打招呼就来一次<w>失约</w>，是很失礼的。"
                             }
@@ -360,7 +360,12 @@
                                 "target_lang_sense_clarification": "unentschuldigt verpasster Termin"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "wystawić do wiatru",
+                                "target_lang_sense_clarification": "nie przyjść na umówione spotkanie"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "dare buca",
@@ -369,8 +374,8 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "dát bačkoru",
-                                "target_lang_sense_clarification": "hovorově, nedorazit na domluvenou schůzku"
+                                "target_lang_word": "nepřijít na schůzku",
+                                "target_lang_sense_clarification": "nechat někoho marně čekat"
                             }
                         ],
                         "tr": [],
@@ -412,7 +417,7 @@
                                 "cs": "Rychle si obleč kabát, <w>zajíčku</w>, jinak přijdeme do školy pozdě.",
                                 "tr": "Hadi çabuk paltonu giy, <w>kuzum</w>, yoksa okula geç kalacağız.",
                                 "es": "Date prisa en ponerte el abrigo, <w>conejito</w>, que vamos a llegar tarde al colegio.",
-                                "zh": "快点穿上外套吧，<w>宝贝</w>，咱们要迟到上学了。"
+                                "zh": "快点穿上外套吧，<w>宝贝</w>，咱们上学要迟到了。"
                             }
                         },
                         {
@@ -507,7 +512,16 @@
                                 "target_lang_sense_clarification": "láskyplné oslovení dítěte nebo milého"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "kuzum",
+                                "target_lang_sense_clarification": "çocuğa sevgi sözü"
+                            },
+                            {
+                                "target_lang_word": "tavşanım",
+                                "target_lang_sense_clarification": "sevilen birine hitap"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "conejito",
@@ -543,9 +557,9 @@
                                 "de": "Dieser alte Mantelkragen aus <w>Kaninchenfell</w> hält im Winter besonders warm.",
                                 "pl": "Ten stary kołnierz płaszcza z <w>królika</w> szczególnie dobrze grzeje zimą.",
                                 "it": "Questo vecchio colletto del cappotto in pelliccia di <w>coniglio</w> tiene particolarmente caldo d'inverno.",
-                                "cs": "Tento starý kabátový límec z <w>králičí</w> kožešiny v zimě obzvlášť hřeje.",
+                                "cs": "Tento starý kabátový límec z <w>králičí kožešiny</w> v zimě obzvlášť hřeje.",
                                 "tr": "Bu eski <w>tavşan</w> kürkünden palto yakası kışın özellikle sıcak tutar.",
-                                "es": "Este viejo cuello de abrigo de <w>piel</w> de conejo abriga especialmente en invierno.",
+                                "es": "Este viejo cuello de abrigo de <w>piel de conejo</w> abriga especialmente en invierno.",
                                 "zh": "这件用<w>兔皮</w>做的旧大衣领子，冬天特别暖和。"
                             }
                         },
@@ -560,7 +574,7 @@
                                 "it": "Un tempo il venditore ambulante passava di villaggio in villaggio per comprare le pelli di <w>coniglio</w>.",
                                 "cs": "Dříve obcházel vesnice potulný obchodník, který skupoval <w>králičí</w> kůže.",
                                 "tr": "Eskiden gezgin bir tüccar, <w>tavşan</w> derisi satın almak için köyleri dolaşırdı.",
-                                "es": "Antiguamente, el vendedor ambulante recorría los pueblos para comprar <w>pieles</w> de conejo.",
+                                "es": "Antiguamente, el vendedor ambulante recorría los pueblos para comprar pieles de <w>conejo</w>.",
                                 "zh": "过去，流动的小贩常到村子里收购<w>兔皮</w>。"
                             }
                         }
@@ -647,8 +661,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "piel",
+                                "target_lang_word": "piel de conejo",
                                 "target_lang_sense_clarification": "pelaje curtido para prendas"
+                            },
+                            {
+                                "target_lang_word": "conejo",
+                                "target_lang_sense_clarification": "piel del animal, en prendas"
                             }
                         ],
                         "zh": [
@@ -674,7 +692,7 @@
                                 "ru": "Заводчик отделяет <w>производителя</w> от помёта, чтобы избежать драк.",
                                 "nl": "De fokker haalt de <w>rammelaar</w> bij het nest weg om gevechten te voorkomen.",
                                 "de": "Der Züchter trennt den <w>Rammler</w> für die Zucht vom Wurf, um Streit zu vermeiden.",
-                                "pl": "Hodowca oddziela od miotu <w>tryka</w> przeznaczonego do rozrodu, żeby uniknąć konfliktów.",
+                                "pl": "Hodowca oddziela od miotu <w>samca</w> przeznaczonego do rozrodu, żeby uniknąć konfliktów.",
                                 "it": "L'allevatore separa il <w>maschio</w> riproduttore dalla cucciolata per evitare litigi.",
                                 "cs": "Chovatel odděluje plemenného <w>samce</w> od vrhu, aby se předešlo konfliktům.",
                                 "tr": "Yetiştirici, kavgaları önlemek için üreme amaçlı <w>erkek tavşanı</w> yavru grubundan ayırır.",
@@ -749,12 +767,8 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "tryk",
-                                "target_lang_sense_clarification": "samiec królika w hodowli"
-                            },
-                            {
                                 "target_lang_word": "samiec",
-                                "target_lang_sense_clarification": "samiec królika, ogólnie"
+                                "target_lang_sense_clarification": "samiec królika"
                             }
                         ],
                         "it": [
@@ -777,12 +791,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "macho",
-                                "target_lang_sense_clarification": "término general masculino"
+                                "target_lang_word": "conejo",
+                                "target_lang_sense_clarification": "macho de la especie"
                             },
                             {
-                                "target_lang_word": "semental",
-                                "target_lang_sense_clarification": "macho usado para cría"
+                                "target_lang_word": "conejo macho",
+                                "target_lang_sense_clarification": "por oposición a la coneja"
                             }
                         ],
                         "zh": [
@@ -808,7 +822,7 @@
                         {
                             "text": "Tout le quartier savait que son voisin était un chaud <w>lapin</w> très séducteur.",
                             "target_lang_translations": {
-                                "en": "The whole neighbourhood knew that his neighbour was a real <w>horndog</w> and a big charmer.",
+                                "en": "The whole neighbourhood knew that his neighbour was a real <w>womaniser</w> and a great charmer.",
                                 "ru": "Весь квартал знал, что его сосед — настоящий <w>бабник</w> и большой сердцеед.",
                                 "nl": "De hele buurt wist dat zijn buurman een echte <w>rokkenjager</w> was en een grote charmeur.",
                                 "de": "Im ganzen Viertel wusste man, dass sein Nachbar ein echter <w>Schürzenjäger</w> und großer Charmeur war.",
@@ -823,7 +837,7 @@
                         {
                             "text": "Depuis sa jeunesse, ce chaud <w>lapin</w> multiplie les conquêtes sans jamais s'attacher.",
                             "target_lang_translations": {
-                                "en": "Ever since he was young, this <w>horndog</w> has been racking up conquests without ever settling down.",
+                                "en": "Ever since he was young, this <w>womaniser</w> has been racking up conquests without ever settling down.",
                                 "ru": "Со времён юности этот <w>ловелас</w> без конца заводит романы и ни к кому не привязывается.",
                                 "nl": "Sinds zijn jeugd stapelt deze <w>rokkenjager</w> de veroveringen op zonder zich ooit vast te leggen.",
                                 "de": "Seit seiner Jugend sammelt dieser <w>Frauenheld</w> eine Eroberung nach der anderen und bindet sich nie.",
@@ -860,12 +874,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "horndog",
-                                "target_lang_sense_clarification": "slang for lustful man"
+                                "target_lang_word": "womaniser",
+                                "target_lang_sense_clarification": "man with many affairs"
                             },
                             {
-                                "target_lang_word": "womanizer",
-                                "target_lang_sense_clarification": "man with many affairs"
+                                "target_lang_word": "stud",
+                                "target_lang_sense_clarification": "informal, sexually very active man"
                             }
                         ],
                         "ru": [
@@ -1093,12 +1107,12 @@
                             "text": "Avec leurs huit enfants à table, ces voisins passent pour de véritables <w>lapins</w>.",
                             "target_lang_translations": {
                                 "en": "With their eight children at the table, these neighbours come across as real <w>breeders</w>.",
-                                "ru": "С восемью детьми за столом эти соседи слывут настоящими <w>многодетными</w>.",
-                                "nl": "Met hun acht kinderen aan tafel lijken deze buren wel <w>kinderrijke ouders</w>.",
-                                "de": "Mit ihren acht Kindern am Esstisch gelten diese Nachbarn als wahre <w>Kinderreiche</w>.",
-                                "pl": "Z ośmiorgiem dzieci przy stole ci sąsiedzi uchodzą za prawdziwych <w>wielodzietnych</w>.",
+                                "ru": "С восемью детьми за столом эти соседи слывут настоящими <w>кроликами</w>.",
+                                "nl": "Met hun acht kinderen aan tafel gaan deze buren door voor echte <w>konijnen</w>.",
+                                "de": "Mit ihren acht Kindern am Esstisch gelten diese Nachbarn als wahre <w>Karnickel</w>.",
+                                "pl": "Z ośmiorgiem dzieci przy stole ci sąsiedzi uchodzą za prawdziwe <w>króliki</w>.",
                                 "it": "Con i loro otto figli a tavola, questi vicini passano per dei veri <w>conigli</w>.",
-                                "cs": "Se svými osmi dětmi u stolu tihle sousedé působí jako skuteční <w>mnohodětní</w> rodiče.",
+                                "cs": "Se svými osmi dětmi u stolu platí tihle sousedé za opravdové <w>králíky</w>.",
                                 "tr": "Sofrada sekiz çocuğuyla birlikte bu komşular gerçek bir <w>çocuk fabrikası</w> gibi görünüyor.",
                                 "es": "Con sus ocho hijos sentados a la mesa, estos vecinos pasan por auténticos <w>conejos</w>.",
                                 "zh": "这对邻居家八个孩子围坐在桌边，简直是名副其实的<w>生育能手</w>。"
@@ -1147,11 +1161,16 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "многодетный",
-                                "target_lang_sense_clarification": "разговорное, много детей"
+                                "target_lang_word": "кролик",
+                                "target_lang_sense_clarification": "шутл., о том, у кого очень много детей"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "konijn",
+                                "target_lang_sense_clarification": "schertsend: ouder van heel veel kinderen"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "Kinderreiche",
@@ -1160,19 +1179,29 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "wielodzietny",
-                                "target_lang_sense_clarification": "potocznie, rodzice z wieloma dziećmi"
+                                "target_lang_word": "królik",
+                                "target_lang_sense_clarification": "żartobliwie: ktoś z gromadą dzieci"
                             }
                         ],
-                        "it": [],
+                        "it": [
+                            {
+                                "target_lang_word": "coniglio",
+                                "target_lang_sense_clarification": "figurato: chi ha moltissimi figli"
+                            }
+                        ],
                         "cs": [
                             {
-                                "target_lang_word": "mnohodětný",
-                                "target_lang_sense_clarification": "hovorově o rodině s dětmi"
+                                "target_lang_word": "králík",
+                                "target_lang_sense_clarification": "žertem: člověk s mnoha dětmi"
                             }
                         ],
                         "tr": [],
-                        "es": [],
+                        "es": [
+                            {
+                                "target_lang_word": "conejo",
+                                "target_lang_sense_clarification": "figurado: persona con muchos hijos"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "生育能手",

@@ -178,7 +178,7 @@
                                 "it": "Il giovane avvocato era <w>assetato</w> di giustizia e difendeva ogni caso con passione.",
                                 "cs": "Mladý advokát byl <w>dychtivý</w> po spravedlnosti a s nasazením hájil každý případ.",
                                 "tr": "Genç avukat adalete <w>susamıştı</w> ve her davayı tutkuyla savunuyordu.",
-                                "es": "El joven abogado era <w>sediento</w> de justicia y defendía cada caso con pasión.",
+                                "es": "El joven abogado estaba <w>sediento</w> de justicia y defendía cada caso con pasión.",
                                 "zh": "这位年轻律师<w>热切</w>地追求正义，满怀热情地为每一个案件辩护。"
                             }
                         }
@@ -351,15 +351,15 @@
                         {
                             "text": "La chaleur intense de l'été a <w>assoiffé</w> les bêtes dans les champs.",
                             "target_lang_translations": {
-                                "en": "The intense summer heat <w>parched</w> the animals in the fields.",
+                                "en": "The intense summer heat left the animals in the fields <w>parched</w>.",
                                 "ru": "Сильная летняя жара <w>томила</w> животных в полях жаждой.",
                                 "nl": "De hevige zomerhitte deed de beesten in de velden <w>dorsten</w>.",
                                 "de": "Die sengende Sommerhitze hat die Tiere auf den Feldern <w>durstig gemacht</w>.",
                                 "pl": "Silny letni upał <w>wywołał pragnienie</w> u zwierząt na polach.",
                                 "it": "Il caldo intenso dell'estate ha <w>assetato</w> gli animali nei campi.",
-                                "cs": "Intenzivní letní horko na polích <w>žíznilo</w> zvířata.",
+                                "cs": "Intenzivní letní horko <w>mořilo</w> zvířata na polích <w>žízní</w>.",
                                 "tr": "Yazın kavurucu sıcağı tarlalardaki hayvanları <w>susattı</w>.",
-                                "es": "El intenso calor del verano ha dejado <w>sedientos</w> a los animales en los campos.",
+                                "es": "El intenso calor del verano ha <w>dejado</w> <w>sedientos</w> a los animales en los campos.",
                                 "zh": "盛夏的酷热<w>使</w>田野里的牲畜<w>口渴</w>。"
                             }
                         },
@@ -372,9 +372,9 @@
                                 "de": "Diese lange Durchquerung der Wüste hat die ganze Expedition furchtbar <w>durstig gemacht</w>.",
                                 "pl": "Ta długa przeprawa przez pustynię dotkliwie <w>wywołała pragnienie</w> u wszystkich uczestników wyprawy.",
                                 "it": "Questa lunga traversata del deserto ha <w>assetato</w> crudelmente l'intera spedizione.",
-                                "cs": "Tato dlouhá cesta pouští krutě <w>žíznila</w> celou výpravu.",
+                                "cs": "Tato dlouhá cesta pouští krutě <w>mořila</w> celou výpravu <w>žízní</w>.",
                                 "tr": "Çölü aşan bu uzun yolculuk tüm keşif ekibini acımasızca <w>susattı</w>.",
-                                "es": "Esta larga travesía del desierto ha dejado terriblemente <w>sedienta</w> a toda la expedición.",
+                                "es": "Esta larga travesía del desierto ha <w>dejado</w> terriblemente <w>sedienta</w> a toda la expedición.",
                                 "zh": "这次漫长的穿越沙漠之行<w>使</w>整支探险队<w>口渴</w>难耐。"
                             }
                         }
@@ -387,12 +387,12 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Masculine singular past participle of assoiffer, meaning to make thirsty.",
-                        "ru": "Мужской род, единственное число причастия прошедшего времени от глагола, означающего вызывать жажду.",
-                        "nl": "Mannelijke enkelvoudige voltooid deelwoord van het Franse werkwoord assoiffer, dat dorst veroorzaakt.",
+                        "ru": "Причастие прошедшего времени мужского рода единственного числа от глагола «assoiffer».",
+                        "nl": "Mannelijk enkelvoud van het voltooid deelwoord van «assoiffer».",
                         "de": "Maskuline Singularform des Partizips Perfekt von »assoiffer«, das Durst verursacht.",
                         "pl": "Forma męska liczby pojedynczej imiesłowu przeszłego czasownika „assoiffer”, znaczącego wywoływać pragnienie.",
                         "it": "Forma maschile singolare del participio passato di «assoiffer», che significa far venire sete.",
-                        "cs": "Mužský rod, jednotné číslo příčestí minulého slovesa znamenajícího způsobit žízeň.",
+                        "cs": "Příčestí minulé mužského rodu jednotného čísla slovesa «assoiffer».",
                         "tr": "Fransızca assoiffer fiilinin eril tekil geçmiş zaman ortacı; susatmak anlamına gelir.",
                         "es": "Forma masculina singular del participio pasado de «assoiffer», que significa causar sed.",
                         "zh": "法语动词 assoiffer（使口渴）的阳性单数过去分词。"
@@ -400,17 +400,30 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "make thirsty",
+                                "target_lang_sense_clarification": "past participle: cause thirst"
+                            },
+                            {
                                 "target_lang_word": "parch",
-                                "target_lang_sense_clarification": "dried out by heat"
+                                "target_lang_sense_clarification": "past participle: dry out with heat"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "томимый",
-                                "target_lang_sense_clarification": "мучимый жаждой, о людях и животных"
+                                "target_lang_word": "томить жаждой",
+                                "target_lang_sense_clarification": "вызывать сильную жажду"
+                            },
+                            {
+                                "target_lang_word": "мучить жаждой",
+                                "target_lang_sense_clarification": "изнурять жаждой"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "dorstig maken",
+                                "target_lang_sense_clarification": "dorst veroorzaken"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "durstig machen",
@@ -431,8 +444,8 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "žíznit",
-                                "target_lang_sense_clarification": "způsobit žízeň horkem, námahou"
+                                "target_lang_word": "mořit žízní",
+                                "target_lang_sense_clarification": "způsobovat žízeň"
                             }
                         ],
                         "tr": [
@@ -441,7 +454,16 @@
                                 "target_lang_sense_clarification": "sıcak havanın etkisiyle"
                             }
                         ],
-                        "es": [],
+                        "es": [
+                            {
+                                "target_lang_word": "dar sed",
+                                "target_lang_sense_clarification": "causar sed"
+                            },
+                            {
+                                "target_lang_word": "dejar sediento",
+                                "target_lang_sense_clarification": "por calor o esfuerzo"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "使口渴",

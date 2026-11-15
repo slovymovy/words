@@ -206,7 +206,7 @@
                         "de": "Ort mit Schranken oder Kabinen, an dem Autofahrer für die Durchfahrt bezahlen.",
                         "pl": "Miejsce z szlabanami lub budkami, gdzie kierowcy płacą za przejazd.",
                         "it": "Punto attrezzato con barriere o cabine dove si paga per passare.",
-                        "cs": "Místo s závorami nebo budkami, kde řidiči platí za průjezd.",
+                        "cs": "Místo se závorami nebo budkami, kde řidiči platí za průjezd.",
                         "tr": "Sürücülerin geçiş için ödeme yaptığı, bariyer ve kabinleri olan yer.",
                         "es": "Lugar con barreras o cabinas donde los conductores pagan para poder pasar.",
                         "zh": "设有栏杆或收费亭，驾车人在此缴费后方可通过的地点。"
@@ -318,12 +318,12 @@
                             "text": "Cet article de presse n'est accessible qu'aux abonnés en raison d'un <w>péage</w> numérique.",
                             "target_lang_translations": {
                                 "en": "This news article is only accessible to subscribers because of a digital <w>paywall</w>.",
-                                "ru": "Эта газетная статья доступна только подписчикам из-за цифровой <w>платной стены</w>.",
+                                "ru": "Эта газетная статья доступна только подписчикам из-за <w>пейвола</w>.",
                                 "nl": "Dit krantenartikel is alleen toegankelijk voor abonnees vanwege een digitale <w>betaalmuur</w>.",
                                 "de": "Dieser Zeitungsartikel ist wegen einer digitalen <w>Bezahlschranke</w> nur für Abonnenten zugänglich.",
                                 "pl": "Ten artykuł prasowy jest dostępny tylko dla prenumeratorów z powodu <w>płatnego dostępu</w> do treści w internecie.",
-                                "it": "Questo articolo di giornale è accessibile solo agli abbonati a causa di un <w>muro a pagamento</w> digitale.",
-                                "cs": "Tento novinový článek je kvůli digitální <w>placené zdi</w> přístupný pouze předplatitelům.",
+                                "it": "Questo articolo di giornale è accessibile solo agli abbonati a causa di un <w>paywall</w>.",
+                                "cs": "Tento novinový článek je kvůli <w>paywallu</w> přístupný pouze předplatitelům.",
                                 "tr": "Bu gazete makalesi, dijital bir <w>ödeme duvarı</w> nedeniyle yalnızca abonelere açık.",
                                 "es": "Este artículo periodístico solo es accesible para los suscriptores debido a un <w>muro de pago</w> digital.",
                                 "zh": "由于设置了数字<w>付费墙</w>，这篇新闻报道只对订阅用户开放。"
@@ -333,12 +333,12 @@
                             "text": "Le journal en ligne a instauré un <w>péage</w> pour financer ses enquêtes exclusives.",
                             "target_lang_translations": {
                                 "en": "The online newspaper has introduced a <w>paywall</w> to fund its exclusive investigations.",
-                                "ru": "Интернет-издание ввело <w>платную стену</w>, чтобы финансировать свои эксклюзивные расследования.",
+                                "ru": "Интернет-издание ввело <w>пейвол</w>, чтобы финансировать свои эксклюзивные расследования.",
                                 "nl": "De online krant heeft een <w>betaalmuur</w> ingevoerd om zijn exclusieve onderzoeken te financieren.",
                                 "de": "Die Online-Zeitung hat eine <w>Bezahlschranke</w> eingeführt, um ihre exklusiven Recherchen zu finanzieren.",
                                 "pl": "Internetowa gazeta wprowadziła <w>płatny dostęp</w>, aby finansować swoje wyłączne dziennikarskie śledztwa.",
-                                "it": "Il giornale online ha introdotto un <w>muro a pagamento</w> per finanziare le sue inchieste esclusive.",
-                                "cs": "Internetový deník zavedl <w>placenou zeď</w>, aby financoval svá exkluzivní šetření.",
+                                "it": "Il giornale online ha introdotto un <w>paywall</w> per finanziare le sue inchieste esclusive.",
+                                "cs": "Internetový deník zavedl <w>paywall</w>, aby financoval svá exkluzivní šetření.",
                                 "tr": "Çevrimiçi gazete, özel araştırmalarını finanse etmek için bir <w>ödeme duvarı</w> getirdi.",
                                 "es": "El periódico en línea ha implantado un <w>muro de pago</w> para financiar sus investigaciones exclusivas.",
                                 "zh": "这家网络报纸设置了<w>付费墙</w>，以资助其独家调查报道。"
@@ -366,8 +366,12 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "платная стена",
-                                "target_lang_sense_clarification": "онлайн-СМИ и подписка"
+                                "target_lang_word": "пейвол",
+                                "target_lang_sense_clarification": "платный доступ к статьям онлайн"
+                            },
+                            {
+                                "target_lang_word": "платный доступ",
+                                "target_lang_sense_clarification": "подписка в онлайн-СМИ"
                             }
                         ],
                         "nl": [
@@ -394,14 +398,18 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "muro a pagamento",
+                                "target_lang_word": "paywall",
                                 "target_lang_sense_clarification": "notizie online, abbonamenti"
+                            },
+                            {
+                                "target_lang_word": "muro a pagamento",
+                                "target_lang_sense_clarification": "accesso limitato ai contenuti online"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "placená zeď",
-                                "target_lang_sense_clarification": "internetové zpravodajství, předplatné"
+                                "target_lang_word": "paywall",
+                                "target_lang_sense_clarification": "placený přístup k článkům"
                             }
                         ],
                         "tr": [
@@ -442,7 +450,7 @@
                                 "pl": "W średniowieczu kupcy musieli płacić <w>myto</w>, aby przejechać przez umocniony most.",
                                 "it": "Nel Medioevo i mercanti dovevano pagare un <w>pedaggio</w> per attraversare il ponte fortificato.",
                                 "cs": "Ve středověku museli obchodníci zaplatit <w>mýto</w>, aby mohli přejít přes opevněný most.",
-                                "tr": "Orta Çağ'da tüccarlar, surlu köprüden geçmek için <w>geçit resmi</w> ödemek zorundaydılar.",
+                                "tr": "Orta Çağ'da tüccarlar, surlu köprüden geçmek için <w>geçiş vergisi</w> ödemek zorundaydılar.",
                                 "es": "En la Edad Media, los comerciantes debían pagar un <w>peaje</w> para cruzar el puente fortificado.",
                                 "zh": "中世纪时，商人要穿过这座设防的桥，就得缴纳<w>过路税</w>。"
                             }
@@ -457,7 +465,7 @@
                                 "pl": "Miejscowy pan feudalny nakładał wysokie <w>myto</w> na wszystkie towary przewożone rzeką.",
                                 "it": "Il signore locale imponeva un pesante <w>pedaggio</w> su tutte le merci trasportate per fiume.",
                                 "cs": "Místní pán uvaloval vysoké <w>mýto</w> na veškeré zboží, které se přepravovalo po řece.",
-                                "tr": "Yerel derebeyi, nehir yoluyla taşınan tüm mallara ağır bir <w>geçit resmi</w> uyguluyordu.",
+                                "tr": "Yerel derebeyi, nehir yoluyla taşınan tüm mallara ağır bir <w>geçiş vergisi</w> uyguluyordu.",
                                 "es": "El señor local imponía un gravoso <w>portazgo</w> sobre todas las mercancías transportadas por el río.",
                                 "zh": "当地领主对所有经河道运输的货物征收沉重的<w>过路税</w>。"
                             }
@@ -549,12 +557,12 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "geçit resmi",
-                                "target_lang_sense_clarification": "Osmanlı dönemi, yol ve köprü"
+                                "target_lang_word": "geçiş vergisi",
+                                "target_lang_sense_clarification": "feodal dönemde yol ve köprü vergisi"
                             },
                             {
                                 "target_lang_word": "bac",
-                                "target_lang_sense_clarification": "eski gümrük vergisi, mal geçişi"
+                                "target_lang_sense_clarification": "tarihî geçiş ve pazar vergisi"
                             }
                         ],
                         "es": [

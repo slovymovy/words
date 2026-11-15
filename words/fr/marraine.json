@@ -65,7 +65,7 @@
                         "en": [
                             {
                                 "target_lang_word": "godmother",
-                                "target_lang_sense_clarification": "Christening sponsor"
+                                "target_lang_sense_clarification": "christening sponsor"
                             }
                         ],
                         "ru": [
@@ -162,7 +162,7 @@
                                 "pl": "Słynna żeglarka zgodziła się zostać <w>matką chrzestną</w> nowego żaglowca.",
                                 "it": "La celebre navigatrice ha accettato di fare da <w>madrina</w> al nuovo veliero.",
                                 "cs": "Slavná mořeplavkyně souhlasila, že se stane <w>kmotrou</w> nové plachetnice.",
-                                "tr": "Ünlü kadın denizci yeni yelkenlinin <w>vaftiz annesi</w> olmayı kabul etti.",
+                                "tr": "Ünlü kadın denizci yeni yelkenlinin <w>gemi annesi</w> olmayı kabul etti.",
                                 "es": "La famosa navegante aceptó ser la <w>madrina</w> del nuevo velero.",
                                 "zh": "这位著名的女航海家同意担任这艘新帆船的<w>命名人</w>。"
                             }
@@ -272,12 +272,16 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "gemi annesi",
+                                "target_lang_sense_clarification": "gemiye adını veren kadın"
+                            },
+                            {
                                 "target_lang_word": "vaftiz annesi",
-                                "target_lang_sense_clarification": "gemi ve çan adlandırma"
+                                "target_lang_sense_clarification": "çan adlandırma töreni"
                             },
                             {
                                 "target_lang_word": "hami",
-                                "target_lang_sense_clarification": "sembolik himaye sağlama"
+                                "target_lang_sense_clarification": "sembolik himaye sağlayan"
                             }
                         ],
                         "es": [
@@ -313,8 +317,8 @@
                         {
                             "text": "Après la guerre, cette grande métropole est devenue la <w>marraine</w> d'un village dévasté.",
                             "target_lang_translations": {
-                                "en": "After the war, this major city became the <w>sister city</w> of a devastated village.",
-                                "ru": "После войны этот крупный город стал <w>городом-побратимом</w> разрушенной деревни.",
+                                "en": "After the war, this major city became the <w>adoptive town</w> of a devastated village.",
+                                "ru": "После войны этот крупный город взял <w>шефство</w> над разрушенной деревней.",
                                 "nl": "Na de oorlog is deze grote metropool de <w>zusterstad</w> van een verwoest dorp geworden.",
                                 "de": "Nach dem Krieg wurde diese Großstadt die <w>Patenstadt</w> eines verwüsteten Dorfes.",
                                 "pl": "Po wojnie ta duża metropolia objęła <w>patronatem</w> zniszczoną wieś.",
@@ -322,14 +326,14 @@
                                 "cs": "Po válce se tato velká metropole stala <w>patronkou</w> zpustošené vesnice.",
                                 "tr": "Savaştan sonra bu büyükşehir, yıkılmış bir köyün <w>kardeş şehri</w> oldu.",
                                 "es": "Después de la guerra, esta gran metrópoli se convirtió en <w>ciudad madrina</w> de un pueblo devastado.",
-                                "zh": "战后，这座大都市成为一个被毁村庄的<w>姊妹城市</w>。"
+                                "zh": "战后，这座大都市成为一个被毁村庄的<w>援助城市</w>。"
                             }
                         },
                         {
                             "text": "La ville <w>marraine</w> a financé la reconstruction de l'école et de l'hôpital local.",
                             "target_lang_translations": {
-                                "en": "The <w>sister city</w> financed the rebuilding of the local school and hospital.",
-                                "ru": "<w>Город-побратим</w> профинансировал восстановление местной школы и больницы.",
+                                "en": "The <w>sponsor city</w> financed the rebuilding of the local school and hospital.",
+                                "ru": "<w>Город-шеф</w> профинансировал восстановление местной школы и больницы.",
                                 "nl": "De <w>zusterstad</w> heeft de wederopbouw van de plaatselijke school en het ziekenhuis gefinancierd.",
                                 "de": "Die <w>Patenstadt</w> hat den Wiederaufbau der Schule und des örtlichen Krankenhauses finanziert.",
                                 "pl": "<w>Miasto patronujące</w> sfinansowało odbudowę miejscowej szkoły i szpitala.",
@@ -337,7 +341,7 @@
                                 "cs": "Město, které se stalo <w>patronkou</w>, financovalo obnovu místní školy a nemocnice.",
                                 "tr": "<w>Kardeş şehir</w> yerel okulun ve hastanenin yeniden inşasını finanse etti.",
                                 "es": "La <w>ciudad madrina</w> financió la reconstrucción de la escuela y del hospital local.",
-                                "zh": "这座<w>姊妹城市</w>出资重建了当地的学校和医院。"
+                                "zh": "这座<w>援助城市</w>出资重建了当地的学校和医院。"
                             }
                         }
                     ],
@@ -359,14 +363,18 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "sister city",
-                                "target_lang_sense_clarification": "post-war reconstruction partner"
+                                "target_lang_word": "adoptive town",
+                                "target_lang_sense_clarification": "sponsors a war-ravaged town"
+                            },
+                            {
+                                "target_lang_word": "sponsor city",
+                                "target_lang_sense_clarification": "funds a war-ravaged town's rebuilding"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "город-побратим",
-                                "target_lang_sense_clarification": "восстановление после войны"
+                                "target_lang_word": "город-шеф",
+                                "target_lang_sense_clarification": "шефство над пострадавшим городом"
                             }
                         ],
                         "nl": [
@@ -388,7 +396,12 @@
                                 "target_lang_sense_clarification": "ricostruzione dopo la guerra"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "patronka",
+                                "target_lang_sense_clarification": "město podporující zničenou obec"
+                            }
+                        ],
                         "tr": [
                             {
                                 "target_lang_word": "kardeş şehir",
@@ -403,8 +416,8 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "姊妹城市",
-                                "target_lang_sense_clarification": "战后重建结对"
+                                "target_lang_word": "援助城市",
+                                "target_lang_sense_clarification": "战后对口援助受灾地"
                             }
                         ]
                     }
@@ -423,13 +436,13 @@
                                 "en": "At the christening meal, the old <w>mother</w> of the godfather sat beside her son, the godfather.",
                                 "ru": "На крестинах старая <w>мать</w> крёстного сидела рядом со своим сыном, крёстным отцом.",
                                 "nl": "Tijdens het doopfeest zat de oude <w>moeder</w> van de peter naast haar zoon, de peter.",
-                                "de": "Beim Taufessen saß die alte <w>Mutter</w> des Paten neben ihrem Sohn, dem Paten.",
-                                "pl": "Podczas uczty chrzcielnej stara <w>matka</w> chrzestnego siedziała obok swojego syna, ojca chrzestnego.",
-                                "it": "Al pranzo del battesimo, la vecchia <w>madre</w> del padrino era seduta accanto al figlio, il padrino.",
+                                "de": "Beim Taufessen saß die alte <w>Mutter des Paten</w> neben ihrem Sohn, dem Paten.",
+                                "pl": "Podczas uczty chrzcielnej stara <w>matka chrzestnego</w> siedziała obok swojego syna, ojca chrzestnego.",
+                                "it": "Al pranzo del battesimo, la vecchia <w>madre del padrino</w> era seduta accanto al figlio, il padrino.",
                                 "cs": "Na hostině po křtu seděla stará <w>kmotrova matka</w> vedle svého syna, kmotra dítěte.",
                                 "tr": "Vaftiz yemeğinde yaşlı <w>vaftiz babasının annesi</w>, oğlu olan vaftiz babasının yanında oturuyordu.",
                                 "es": "En la comida del bautizo, la anciana <w>madre</w> del padrino estaba sentada junto a su hijo, el padrino.",
-                                "zh": "在洗礼宴上，年迈的教父的<w>母亲</w>坐在她儿子身边，而她儿子正是教父。"
+                                "zh": "在洗礼宴上，年迈的<w>教父之母</w>坐在她儿子——孩子的教父身边。"
                             }
                         },
                         {
@@ -438,13 +451,13 @@
                                 "en": "She was respected as the godfather's <w>mother</w>, thanks to her family ties with the child's godfather.",
                                 "ru": "Её уважали как <w>мать</w> крёстного отца благодаря семейным узам с ним.",
                                 "nl": "Zij werd gerespecteerd als <w>moeder</w> van de peter, vanwege haar familieband met de peter van het kind.",
-                                "de": "Sie wurde als <w>Mutter</w> des Taufpaten geachtet, dank ihrer familiären Verbindung zu diesem.",
-                                "pl": "Szanowano ją jako <w>matkę</w> chrzestnego ze względu na więzy rodzinne z ojcem chrzestnym dziecka.",
-                                "it": "Era rispettata come <w>madre</w> del padrino, grazie al suo legame di parentela con il padrino del bambino.",
+                                "de": "Sie wurde als <w>Mutter des Taufpaten</w> geachtet, dank ihrer familiären Verbindung zu diesem.",
+                                "pl": "Szanowano ją jako <w>matkę chrzestnego</w> ze względu na więzy rodzinne z ojcem chrzestnym dziecka.",
+                                "it": "Era rispettata come <w>madre del padrino</w>, grazie al suo legame di parentela con il padrino del bambino.",
                                 "cs": "Byla ctěna jako <w>kmotrova matka</w> díky příbuzenskému vztahu ke kmotrovi dítěte.",
                                 "tr": "Çocuğun vaftiz babasıyla olan akrabalık bağı sayesinde, <w>vaftiz babasının annesi</w> olarak saygı görüyordu.",
                                 "es": "Era respetada como <w>madre</w> del padrino gracias a su vínculo familiar con el padrino del niño.",
-                                "zh": "她因与孩子的教父有亲缘关系而受人尊敬，人们视她为教父的<w>母亲</w>。"
+                                "zh": "她因与孩子的教父有亲缘关系而受人尊敬，人们视她为<w>教父之母</w>。"
                             }
                         }
                     ],
@@ -470,13 +483,38 @@
                         "en": [],
                         "ru": [],
                         "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
+                        "de": [
+                            {
+                                "target_lang_word": "Mutter des Paten",
+                                "target_lang_sense_clarification": "regionaler Taufbrauch"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "matka chrzestnego",
+                                "target_lang_sense_clarification": "matka ojca chrzestnego"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "madre del padrino",
+                                "target_lang_sense_clarification": "usanza tradizionale"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "kmotrova matka",
+                                "target_lang_sense_clarification": "matka kmotra, lidový zvyk"
+                            }
+                        ],
                         "tr": [],
                         "es": [],
-                        "zh": []
+                        "zh": [
+                            {
+                                "target_lang_word": "教父之母",
+                                "target_lang_sense_clarification": "传统习俗中的称谓"
+                            }
+                        ]
                     }
                 }
             ]

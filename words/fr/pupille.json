@@ -166,12 +166,12 @@
                             "target_lang_translations": {
                                 "en": "The guardian watches over the property and education of her young <w>ward</w> until she comes of age.",
                                 "ru": "Опекун заботится об имуществе и воспитании своей юной <w>подопечной</w> до её совершеннолетия.",
-                                "nl": "De voogd waakt over de goederen en de opvoeding van haar jonge <w>pupil</w> tot ze meerderjarig is.",
+                                "nl": "De voogd waakt over de goederen en de opvoeding van zijn jonge <w>pupil</w> tot zij meerderjarig is.",
                                 "de": "Der Vormund wacht über das Vermögen und die Erziehung seines jungen <w>Mündels</w> bis zur Volljährigkeit.",
                                 "pl": "Opiekun prawny czuwa nad majątkiem i wychowaniem swojej młodej <w>podopiecznej</w> aż do pełnoletności.",
                                 "it": "Il tutore veglia sul patrimonio e sull'educazione della sua giovane <w>pupilla</w> fino alla maggiore età.",
                                 "cs": "Poručník dohlíží na majetek a výchovu své mladé <w>svěřenkyně</w> až do plnoletosti.",
-                                "tr": "Vasi, reşit oluncaya kadar genç <w>vesayet altındaki çocuğunun</w> malvarlığına ve eğitimine özen gösterir.",
+                                "tr": "Vasi, <w>vesayeti altındaki</w> genç kızın reşit oluncaya kadar malvarlığına ve eğitimine özen gösterir.",
                                 "es": "El tutor vela por los bienes y la educación de su joven <w>pupila</w> hasta que alcance la mayoría de edad.",
                                 "zh": "监护人负责照管这位年幼的<w>被监护人</w>的财产与教育，直到她成年。"
                             }
@@ -285,8 +285,8 @@
                                 "en": "My cousin trains on Wednesdays with the <w>under-12s</w> team of his football club.",
                                 "ru": "Мой двоюродный брат по средам тренируется с командой <w>юных спортсменов до 12 лет</w> своего футбольного клуба.",
                                 "nl": "Mijn neef traint op woensdag met de <w>pupillen</w> van zijn voetbalclub.",
-                                "de": "Mein Cousin trainiert mittwochs mit der Mannschaft der <w>Pupillen</w> seines Fußballvereins.",
-                                "pl": "Mój kuzyn trenuje w środy z drużyną <w>pupilów</w> swojego klubu piłkarskiego.",
+                                "de": "Mein Cousin trainiert mittwochs mit der <w>D-Jugend</w> seines Fußballvereins.",
+                                "pl": "Mój kuzyn trenuje w środy z drużyną <w>młodzików</w> swojego klubu piłkarskiego.",
                                 "it": "Mio cugino si allena il mercoledì con la squadra degli <w>esordienti</w> del suo club di calcio.",
                                 "cs": "Můj bratranec trénuje ve středu s družstvem <w>žáků</w> svého fotbalového klubu.",
                                 "tr": "Kuzenim çarşamba günleri futbol kulübünün <w>12 yaş altı</w> takımıyla antrenman yapar.",
@@ -300,8 +300,8 @@
                                 "en": "This competition brings together the region's best young <w>under-12s</w> for a grand final.",
                                 "ru": "Этот турнир собирает лучших <w>юных спортсменов до 12 лет</w> из региона в большом финале.",
                                 "nl": "Deze competitie brengt de beste jonge <w>pupillen</w> van de regio samen voor een grote finale.",
-                                "de": "Dieser Wettbewerb bringt die besten jungen <w>Pupillen</w> der Region für ein großes Finale zusammen.",
-                                "pl": "Te zawody zbierają najlepszych młodych <w>pupilów</w> z regionu na wielkim finale.",
+                                "de": "Dieser Wettbewerb bringt die besten <w>D-Jugendspieler</w> der Region für ein großes Finale zusammen.",
+                                "pl": "Te zawody zbierają najlepszych <w>młodzików</w> z regionu na wielkim finale.",
                                 "it": "Questa competizione riunisce i migliori giovani <w>esordienti</w> della regione per una grande finale.",
                                 "cs": "Tato soutěž shromažďuje nejlepší mladé <w>žáky</w> z regionu na velkém finále.",
                                 "tr": "Bu yarışma, bölgenin en iyi genç <w>12 yaş altı</w> sporcularını büyük bir finalde bir araya getiriyor.",
@@ -326,7 +326,12 @@
                         "zh": "处于童年末期年龄组、通常约十一至十二岁的青少年运动员。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "under-12",
+                                "target_lang_sense_clarification": "youth sports age category"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "юный спортсмен до 12 лет",
@@ -341,14 +346,18 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Pupille",
-                                "target_lang_sense_clarification": "Jugendsport, Altersklasse"
+                                "target_lang_word": "D-Jugendspieler",
+                                "target_lang_sense_clarification": "Fußball, Altersklasse etwa 11-12 Jahre"
+                            },
+                            {
+                                "target_lang_word": "D-Jugend",
+                                "target_lang_sense_clarification": "Jugendsport, Altersklasse U12/U13"
                             }
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "pupil",
-                                "target_lang_sense_clarification": "kategoria wiekowa w sporcie"
+                                "target_lang_word": "młodzik",
+                                "target_lang_sense_clarification": "sport, kategoria wiekowa ok. 11–12 lat"
                             }
                         ],
                         "it": [
@@ -363,7 +372,12 @@
                                 "target_lang_sense_clarification": "mladší kategorie ve sportu"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "12 yaş altı",
+                                "target_lang_sense_clarification": "spor, 11-12 yaş kategorisi"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "alevín",

@@ -159,7 +159,7 @@
                             "text": "Après avoir perdu son emploi, il touche le <w>chômage</w> en attendant de retrouver un poste.",
                             "target_lang_translations": {
                                 "en": "After losing his job, he is receiving <w>unemployment benefit</w> while waiting to find another position.",
-                                "ru": "После потери работы он получает <w>пособие</w> по <w>безработице</w>, пока ищет новое место.",
+                                "ru": "После потери работы он получает <w>пособие по безработице</w>, пока ищет новое место.",
                                 "nl": "Nadat hij zijn baan kwijt is, ontvangt hij een <w>werkloosheidsuitkering</w> totdat hij weer werk vindt.",
                                 "de": "Nachdem er seine Stelle verloren hat, bezieht er <w>Arbeitslosengeld</w>, während er auf eine neue Stelle wartet.",
                                 "pl": "Po utracie pracy pobiera <w>zasiłek dla bezrobotnych</w>, dopóki nie znajdzie nowego zatrudnienia.",
@@ -174,7 +174,7 @@
                             "text": "Elle doit renouveler son inscription pour conserver son droit au <w>chômage</w> ce mois-ci.",
                             "target_lang_translations": {
                                 "en": "She has to renew her registration to keep her entitlement to <w>unemployment benefit</w> this month.",
-                                "ru": "Ей нужно продлить регистрацию, чтобы сохранить право на <w>пособие</w> по <w>безработице</w> в этом месяце.",
+                                "ru": "Ей нужно продлить регистрацию, чтобы сохранить право на <w>пособие по безработице</w> в этом месяце.",
                                 "nl": "Zij moet deze maand haar inschrijving vernieuwen om haar recht op een <w>werkloosheidsuitkering</w> te behouden.",
                                 "de": "Sie muss in diesem Monat ihre Meldung bei der Arbeitsagentur erneuern, um ihren Anspruch auf <w>Arbeitslosengeld</w> zu behalten.",
                                 "pl": "Musi odnowić rejestrację w tym miesiącu, aby zachować prawo do <w>zasiłku dla bezrobotnych</w>.",
@@ -307,15 +307,15 @@
                         {
                             "text": "Le <w>chômage</w> dominical permet aux employés de se reposer et de passer du temps en famille.",
                             "target_lang_translations": {
-                                "en": "The Sunday <w>break</w> allows employees to rest and spend time with their families.",
+                                "en": "<w>Sunday rest</w> allows employees to rest and spend time with their families.",
                                 "ru": "Воскресный <w>перерыв</w> в работе позволяет сотрудникам отдыхать и проводить время с семьёй.",
                                 "nl": "Dankzij de zondagse <w>werkonderbreking</w> kunnen werknemers rusten en tijd met hun gezin doorbrengen.",
                                 "de": "Die <w>Arbeitsruhe</w> am Sonntag ermöglicht den Angestellten, sich zu erholen und Zeit mit ihrer Familie zu verbringen.",
                                 "pl": "Niedzielna <w>przerwa w pracy</w> pozwala pracownikom odpocząć i spędzić czas z rodziną.",
-                                "it": "Il <w>riposo domenicale</w> permette ai dipendenti di riposarsi e passare del tempo in famiglia.",
+                                "it": "Il <w>riposo</w> domenicale permette ai dipendenti di riposarsi e passare del tempo in famiglia.",
                                 "cs": "<w>Nedělní klid</w> umožňuje zaměstnancům odpočinout si a trávit čas s rodinou.",
                                 "tr": "<w>Pazar tatili</w> çalışanların dinlenmesine ve ailesiyle vakit geçirmesine olanak tanır.",
-                                "es": "El <w>descanso dominical</w> permite a los empleados descansar y pasar tiempo en familia.",
+                                "es": "El <w>descanso</w> dominical permite a los empleados descansar y pasar tiempo en familia.",
                                 "zh": "周日的<w>停工</w>让员工能够休息，并与家人共度时光。"
                             }
                         },
@@ -327,8 +327,8 @@
                                 "nl": "De wet schrijft een verplichte <w>werkonderbreking</w> voor op bepaalde religieuze en nationale feestdagen.",
                                 "de": "Das Gesetz schreibt an bestimmten religiösen und nationalen Feiertagen eine verpflichtende <w>Arbeitsruhe</w> vor.",
                                 "pl": "Ustawa przewiduje obowiązkową <w>przerwę w pracy</w> w czasie niektórych świąt religijnych i państwowych.",
-                                "it": "La legge prevede la <w>sospensione obbligatoria del lavoro</w> in alcune festività religiose o nazionali.",
-                                "cs": "Zákon stanoví <w>povinný klid</w> v době některých náboženských a státních svátků.",
+                                "it": "La legge prevede la <w>sospensione del lavoro</w> obbligatoria in alcune festività religiose o nazionali.",
+                                "cs": "Zákon stanoví povinný <w>klid</w> v době některých náboženských a státních svátků.",
                                 "tr": "Kanun, bazı dini ve ulusal bayramlarda işin zorunlu olarak <w>durdurulmasını</w> öngörür.",
                                 "es": "La ley prevé el <w>descanso</w> obligatorio en ciertas fiestas religiosas o nacionales.",
                                 "zh": "法律规定，某些宗教或国家节日实行强制<w>停工</w>。"
@@ -351,8 +351,26 @@
                         "zh": "在法定节假日或休息日依法或依约停止工作。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "day off",
+                                "target_lang_sense_clarification": "work suspended on a holiday"
+                            },
+                            {
+                                "target_lang_word": "rest day",
+                                "target_lang_sense_clarification": "legal rest, e.g. Sunday"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "перерыв в работе",
+                                "target_lang_sense_clarification": "в праздник или выходной"
+                            },
+                            {
+                                "target_lang_word": "нерабочий день",
+                                "target_lang_sense_clarification": "по закону или соглашению"
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "werkonderbreking",
@@ -365,7 +383,16 @@
                                 "target_lang_sense_clarification": "gesetzliche Ruhe an Sonn- und Feiertagen"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "dzień wolny od pracy",
+                                "target_lang_sense_clarification": "ustawowy, w święto"
+                            },
+                            {
+                                "target_lang_word": "przerwa w pracy",
+                                "target_lang_sense_clarification": "w niedziele i święta"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "sospensione del lavoro",
@@ -384,14 +411,18 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "tatil",
+                                "target_lang_sense_clarification": "resmî tatilde işe ara verme"
+                            },
+                            {
                                 "target_lang_word": "hafta tatili",
                                 "target_lang_sense_clarification": "pazar dinlenmesi, iş hukuku"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "descanso dominical",
-                                "target_lang_sense_clarification": "domingos, normativa laboral"
+                                "target_lang_word": "descanso",
+                                "target_lang_sense_clarification": "día festivo sin trabajo"
                             }
                         ],
                         "zh": [
@@ -419,8 +450,8 @@
                                 "de": "Die jährliche <w>Schifffahrtssperre</w> des Kanals ermöglicht notwendige Reparaturen an den Schleusen.",
                                 "pl": "Coroczna <w>przerwa w żegludze</w> kanału pozwala przeprowadzić niezbędne naprawy śluz.",
                                 "it": "La <w>chiusura</w> annuale del canale consente di effettuare riparazioni indispensabili sulle chiuse.",
-                                "cs": "<w>Každoroční odstávka</w> kanálu umožňuje provést nezbytné opravy na plavebních komorách.",
-                                "tr": "Kanalın yıllık <w>kapatması</w>, kilitlerde zorunlu onarımların yapılmasına olanak tanır.",
+                                "cs": "Každoroční <w>odstávka</w> kanálu umožňuje provést nezbytné opravy na plavebních komorách.",
+                                "tr": "Kanalın yıllık <w>kapatılması</w>, kilitlerde zorunlu onarımların yapılmasına olanak tanır.",
                                 "es": "El <w>cierre</w> anual del canal permite realizar reparaciones indispensables en las esclusas.",
                                 "zh": "运河每年一次的<w>停航</w>，使船闸得以进行必要的维修。"
                             }
@@ -434,8 +465,8 @@
                                 "de": "Alle Binnenschiffe liegen während der geplanten <w>Sperrung</w> der Wasserstraße still.",
                                 "pl": "Wszystkie barki stoją bezczynnie podczas zaplanowanej <w>przerwy w żegludze</w> na szlaku wodnym.",
                                 "it": "Tutte le chiatte sono ferme durante la <w>chiusura</w> programmata della via navigabile.",
-                                "cs": "Všechny čluny stojí během <w>plánované odstávky</w> vodní cesty.",
-                                "tr": "Su yolunun planlı <w>kapatması</w> sırasında tüm mavnalar hareketsiz duruyor.",
+                                "cs": "Všechny čluny stojí během plánované <w>odstávky</w> vodní cesty.",
+                                "tr": "Su yolunun planlı <w>kapatılması</w> sırasında tüm mavnalar hareketsiz duruyor.",
                                 "es": "Todas las gabarras están paradas durante el <w>cierre</w> programado de la vía navegable.",
                                 "zh": "在航道计划<w>封航</w>期间，所有驳船都停靠不动。"
                             }

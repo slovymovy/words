@@ -176,14 +176,14 @@
                         {
                             "text": "Pour quitter le service public, ce jeune ingénieur a dû rembourser la <w>pantoufle</w> avec l'aide de son nouvel employeur.",
                             "target_lang_translations": {
-                                "en": "To leave the public service, this young engineer had to repay the <w>pantoufle</w> with help from his new employer.",
-                                "ru": "Чтобы уйти с государственной службы, этот молодой инженер вынужден был возместить <w>pantoufle</w> с помощью своего нового работодателя.",
-                                "nl": "Om de overheidsdienst te verlaten, moest deze jonge ingenieur de <w>pantoufle</w> terugbetalen met hulp van zijn nieuwe werkgever.",
-                                "de": "Um den öffentlichen Dienst zu verlassen, musste dieser junge Ingenieur die <w>Pantoufle</w> mit Hilfe seines neuen Arbeitgebers zurückzahlen.",
-                                "pl": "Aby odejść z służby publicznej, ten młody inżynier musiał spłacić „<w>pantoufle</w>” z pomocą nowego pracodawcy.",
+                                "en": "To leave the public service, this young engineer had to repay his <w>training bond</w> with help from his new employer.",
+                                "ru": "Чтобы уйти с государственной службы, этот молодой инженер вынужден был возместить государству <w>стоимость обучения</w> с помощью своего нового работодателя.",
+                                "nl": "Om de overheidsdienst te verlaten, moest deze jonge ingenieur de <w>afkoopsom</w> terugbetalen met hulp van zijn nieuwe werkgever.",
+                                "de": "Um den öffentlichen Dienst zu verlassen, musste dieser junge Ingenieur seine <w>Ausbildungskosten</w> mit Hilfe seines neuen Arbeitgebers zurückzahlen.",
+                                "pl": "Aby odejść ze służby publicznej, ten młody inżynier musiał spłacić „<w>pantoufle</w>” z pomocą nowego pracodawcy.",
                                 "it": "Per lasciare il servizio pubblico, questo giovane ingegnere ha dovuto rimborsare la somma dovuta allo Stato con l'aiuto del suo nuovo datore di lavoro.",
-                                "cs": "Aby mohl odejít ze státní služby, musel tento mladý inženýr s pomocí nového zaměstnavatele splatit „<w>pantoufle</w>“.",
-                                "tr": "Kamu hizmetinden ayrılmak için bu genç mühendis, yeni işvereninin yardımıyla „<w>pantoufle</w>“ tutarını geri ödemek zorunda kaldı.",
+                                "cs": "Aby mohl odejít ze státní služby, musel tento mladý inženýr s pomocí nového zaměstnavatele splatit státu náklady na svá studia.",
+                                "tr": "Kamu hizmetinden ayrılmak için bu genç mühendis, yeni işvereninin yardımıyla <w>mecburi hizmet tazminatını</w> ödemek zorunda kaldı.",
                                 "es": "Para dejar el servicio público, este joven ingeniero tuvo que devolver la «<w>pantoufle</w>» con ayuda de su nuevo empleador.",
                                 "zh": "为了离开公共部门，这位年轻工程师不得不在新雇主的帮助下偿还这笔<w>赔偿金</w>。"
                             }
@@ -191,14 +191,14 @@
                         {
                             "text": "L'entreprise privée a finalement accepté de prendre en charge le paiement intégral de sa <w>pantoufle</w>.",
                             "target_lang_translations": {
-                                "en": "The private company finally agreed to cover the full payment of his <w>pantoufle</w>.",
-                                "ru": "Частная компания в итоге согласилась взять на себя полную оплату его <w>pantoufle</w>.",
-                                "nl": "Het particuliere bedrijf heeft uiteindelijk ingestemd met de volledige betaling van zijn <w>pantoufle</w>.",
-                                "de": "Das Privatunternehmen hat sich schließlich bereit erklärt, die vollständige Zahlung seiner <w>Pantoufle</w> zu übernehmen.",
+                                "en": "The private company finally agreed to cover the full payment of his <w>training bond</w>.",
+                                "ru": "Частная компания в итоге согласилась полностью оплатить за него <w>стоимость обучения</w>.",
+                                "nl": "Het particuliere bedrijf heeft uiteindelijk ingestemd met de volledige betaling van zijn <w>afkoopsom</w>.",
+                                "de": "Das Privatunternehmen hat sich schließlich bereit erklärt, die vollständige Rückzahlung seiner <w>Ausbildungskosten</w> zu übernehmen.",
                                 "pl": "Prywatna firma w końcu zgodziła się pokryć pełną kwotę jego „<w>pantoufle</w>”.",
                                 "it": "L'azienda privata ha infine accettato di farsi carico dell'intero pagamento del suo debito verso lo Stato.",
-                                "cs": "Soukromá firma nakonec souhlasila, že uhradí celou částku jeho „<w>pantoufle</w>“.",
-                                "tr": "Özel şirket sonunda onun „<w>pantoufle</w>“ tutarının tamamını karşılamayı kabul etti.",
+                                "cs": "Soukromá firma nakonec souhlasila, že za něj státu uhradí celé náklady na studium.",
+                                "tr": "Özel şirket sonunda onun <w>mecburi hizmet tazminatının</w> tamamını karşılamayı kabul etti.",
                                 "es": "La empresa privada aceptó finalmente hacerse cargo del pago íntegro de su «<w>pantoufle</w>».",
                                 "zh": "私营企业最终同意全额承担他的<w>赔偿金</w>。"
                             }
@@ -227,14 +227,39 @@
                         "zh": "曾在国家大型公立精英院校接受培训的公务员，提前离开公职转入私营部门时，需要向国家偿还的款项。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
+                        "en": [
+                            {
+                                "target_lang_word": "training bond",
+                                "target_lang_sense_clarification": "repayment of state-funded training"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "стоимость обучения",
+                                "target_lang_sense_clarification": "возмещается государству при уходе"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "afkoopsom",
+                                "target_lang_sense_clarification": "terugbetaling van opleidingskosten"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Ausbildungskosten",
+                                "target_lang_sense_clarification": "Rückzahlung an den Staat, Frankreich"
+                            }
+                        ],
                         "pl": [],
                         "it": [],
                         "cs": [],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "mecburi hizmet tazminatı",
+                                "target_lang_sense_clarification": "devlete ödenen eğitim bedeli"
+                            }
+                        ],
                         "es": [],
                         "zh": [
                             {
@@ -431,14 +456,14 @@
                         {
                             "text": "Le maréchal-ferrant a posé une <w>pantoufle</w> pour soulager la boiterie persistante de la jument.",
                             "target_lang_translations": {
-                                "en": "The farrier fitted a <w>pantoufle</w> to relieve the mare's persistent lameness.",
-                                "ru": "Кузнец поставил <w>pantoufle</w>, чтобы облегчить упорную хромоту кобылы.",
-                                "nl": "De hoefsmid heeft een <w>pantoufle</w> aangebracht om de hardnekkige kreupelheid van de merrie te verlichten.",
-                                "de": "Der Hufschmied hat eine <w>Pantoufle</w> angebracht, um die anhaltende Lahmheit der Stute zu lindern.",
+                                "en": "The farrier fitted a <w>wedge shoe</w> to relieve the mare's persistent lameness.",
+                                "ru": "Кузнец поставил <w>утолщённую подкову</w>, чтобы облегчить упорную хромоту кобылы.",
+                                "nl": "De hoefsmid heeft een <w>pantoffelijzer</w> aangebracht om de hardnekkige kreupelheid van de merrie te verlichten.",
+                                "de": "Der Hufschmied hat ein <w>Pantoffeleisen</w> angebracht, um die anhaltende Lahmheit der Stute zu lindern.",
                                 "pl": "Kowal założył „<w>pantoufle</w>”, żeby złagodzić uporczywą kulawiznę klaczy.",
-                                "it": "Il maniscalco ha applicato un ferro speciale per alleviare la zoppia persistente della cavalla.",
-                                "cs": "Podkovář nasadil „<w>pantoufle</w>“, aby zmírnil přetrvávající kulhání klisny.",
-                                "tr": "Nalbant, kısrağın süregelen topallığını hafifletmek için „<w>pantoufle</w>“ nal takmış.",
+                                "it": "Il maniscalco ha applicato un <w>ferro a pantofola</w> per alleviare la zoppia persistente della cavalla.",
+                                "cs": "Podkovář nasadil <w>zesílenou podkovu</w>, aby zmírnil přetrvávající kulhání klisny.",
+                                "tr": "Nalbant, kısrağın süregelen topallığını hafifletmek için <w>kalın uçlu nal</w> takmış.",
                                 "es": "El herrador colocó una «<w>pantoufle</w>» para aliviar la cojera persistente de la yegua.",
                                 "zh": "为了缓解母马持续的跛行，钉蹄匠给它钉上了一副<w>矫形蹄铁</w>。"
                             }
@@ -446,14 +471,14 @@
                         {
                             "text": "L'utilisation d'une <w>pantoufle</w> permet d'ajuster l'appui sur un sabot fragilisé.",
                             "target_lang_translations": {
-                                "en": "Using a <w>pantoufle</w> allows the support on a weakened hoof to be adjusted.",
-                                "ru": "Использование <w>pantoufle</w> позволяет регулировать опору на ослабленное копыто.",
-                                "nl": "Het gebruik van een <w>pantoufle</w> maakt het mogelijk de steun op een verzwakte hoef bij te stellen.",
-                                "de": "Der Einsatz einer <w>Pantoufle</w> erlaubt es, die Stütze auf einem geschwächten Huf anzupassen.",
+                                "en": "Using a <w>wedge shoe</w> allows the support on a weakened hoof to be adjusted.",
+                                "ru": "Использование <w>утолщённой подковы</w> позволяет регулировать опору на ослабленное копыто.",
+                                "nl": "Het gebruik van een <w>pantoffelijzer</w> maakt het mogelijk de steun op een verzwakte hoef bij te stellen.",
+                                "de": "Der Einsatz eines <w>Pantoffeleisens</w> erlaubt es, die Stütze auf einem geschwächten Huf anzupassen.",
                                 "pl": "Zastosowanie „<w>pantoufle</w>” pozwala dostosować podparcie osłabionego kopyta.",
-                                "it": "L'uso di un ferro speciale permette di regolare l'appoggio su uno zoccolo indebolito.",
-                                "cs": "Použití „<w>pantoufle</w>“ umožňuje upravit oporu na oslabeném kopytu.",
-                                "tr": "Bir „<w>pantoufle</w>“ kullanmak, zayıflamış bir toynağın üzerindeki desteği ayarlamaya olanak verir.",
+                                "it": "L'uso di un <w>ferro a pantofola</w> permette di regolare l'appoggio su uno zoccolo indebolito.",
+                                "cs": "Použití <w>zesílené podkovy</w> umožňuje upravit oporu na oslabeném kopytu.",
+                                "tr": "<w>Kalın uçlu nal</w> kullanmak, zayıflamış bir toynağın üzerindeki desteği ayarlamaya olanak verir.",
                                 "es": "El uso de una «<w>pantoufle</w>» permite ajustar el apoyo sobre un casco debilitado.",
                                 "zh": "使用<w>矫形蹄铁</w>，可以调整虚弱蹄子所承受的支撑力。"
                             }
@@ -472,23 +497,54 @@
                         "zh": "一种马蹄铁，其厚度从中部向两端逐渐增加。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
+                        "en": [
+                            {
+                                "target_lang_word": "wedge shoe",
+                                "target_lang_sense_clarification": "horseshoe thickening towards the heels"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "утолщённая подкова",
+                                "target_lang_sense_clarification": "толще к концам ветвей"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "pantoffelijzer",
+                                "target_lang_sense_clarification": "hoefijzer met verdikte takken"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Pantoffeleisen",
+                                "target_lang_sense_clarification": "Hufbeschlag, orthopädisches Eisen"
+                            }
+                        ],
                         "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
+                        "it": [
+                            {
+                                "target_lang_word": "ferro a pantofola",
+                                "target_lang_sense_clarification": "ferro più spesso alle estremità"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "zesílená podkova",
+                                "target_lang_sense_clarification": "tloušťka roste ke koncům ramen"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kalın uçlu nal",
+                                "target_lang_sense_clarification": "uçlara doğru kalınlaşan at nalı"
+                            }
+                        ],
                         "es": [],
                         "zh": [
                             {
-                                "target_lang_word": "马蹄铁",
-                                "target_lang_sense_clarification": "钉在马蹄底部的铁片"
-                            },
-                            {
                                 "target_lang_word": "矫形蹄铁",
-                                "target_lang_sense_clarification": "用于缓解跛行"
+                                "target_lang_sense_clarification": "两端加厚，缓解跛行"
                             }
                         ]
                     }
@@ -509,7 +565,7 @@
                         {
                             "text": "Cet ancien haut fonctionnaire <w>pantoufle</w> désormais à la direction d'un grand groupe financier.",
                             "target_lang_translations": {
-                                "en": "This former senior civil servant now <w>joins</w> the management of a major financial group.",
+                                "en": "This former senior civil servant has now <w>moved to the private sector</w>, joining the management of a major financial group.",
                                 "ru": "Этот бывший высокопоставленный чиновник теперь <w>переходит</w> в руководство крупной финансовой группы.",
                                 "nl": "Deze voormalige hoge ambtenaar <w>stapt</w> nu <w>over</w> naar de directie van een groot financieel concern.",
                                 "de": "Dieser ehemalige hohe Beamte <w>wechselt</w> nun in die Leitung eines großen Finanzkonzerns <w>über</w>.",
@@ -556,90 +612,108 @@
                         "zh": "法语动词 pantoufler 的第三人称单数现在时。该动词意为离开公职进入私营部门，或在家中闲待。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "lounge around",
+                                "target_lang_sense_clarification": "he/she, present: idle at home"
+                            },
+                            {
+                                "target_lang_word": "move to the private sector",
+                                "target_lang_sense_clarification": "he/she, present: leave civil service"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переходить в частный сектор",
+                                "target_lang_sense_clarification": "с госслужбы, 3-е л. ед. ч."
+                            },
+                            {
+                                "target_lang_word": "валяться дома",
+                                "target_lang_sense_clarification": "бездельничать, 3-е л. ед. ч."
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "luieren",
-                                "target_lang_sense_clarification": "thuis, in pantoffels"
+                                "target_lang_sense_clarification": "hij/zij luiert, thuis in pantoffels"
                             },
                             {
                                 "target_lang_word": "overstappen",
-                                "target_lang_sense_clarification": "naar het bedrijfsleven"
+                                "target_lang_sense_clarification": "hij/zij stapt over naar bedrijfsleven"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "faulenzen",
-                                "target_lang_sense_clarification": "untätig zu Hause"
+                                "target_lang_sense_clarification": "3. Person Sg. Indikativ: er faulenzt"
                             },
                             {
                                 "target_lang_word": "überwechseln",
-                                "target_lang_sense_clarification": "in die Privatwirtschaft"
+                                "target_lang_sense_clarification": "3. Person Sg. Indikativ: er wechselt über"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "leniuchować",
-                                "target_lang_sense_clarification": "w domu, bez zajęcia"
+                                "target_lang_sense_clarification": "3. os. lp: leniuchuje"
                             },
                             {
                                 "target_lang_word": "przechodzić",
-                                "target_lang_sense_clarification": "do sektora prywatnego"
+                                "target_lang_sense_clarification": "3. os. lp: przechodzi do sektora prywatnego"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "oziare",
-                                "target_lang_sense_clarification": "in casa, senza far nulla"
+                                "target_lang_sense_clarification": "(lui) ozia, indicativo presente"
                             },
                             {
                                 "target_lang_word": "poltrire",
-                                "target_lang_sense_clarification": "sul divano o a letto"
+                                "target_lang_sense_clarification": "(lui) poltrisce, indicativo presente"
                             },
                             {
                                 "target_lang_word": "passare al privato",
-                                "target_lang_sense_clarification": "dal settore pubblico al privato"
+                                "target_lang_sense_clarification": "(lui) passa al privato, indicativo presente"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "flákat se",
-                                "target_lang_sense_clarification": "doma, nic nedělat"
+                                "target_lang_sense_clarification": "doma nic nedělat, 3. os. j. č. oznam."
                             },
                             {
                                 "target_lang_word": "přecházet",
-                                "target_lang_sense_clarification": "do soukromého sektoru"
+                                "target_lang_sense_clarification": "do soukromého sektoru, 3. os. j. č. oznam."
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "geçmek",
-                                "target_lang_sense_clarification": "kamudan özel sektöre"
+                                "target_lang_sense_clarification": "3. tekil şimdiki zaman, kamudan özel sektöre"
                             },
                             {
                                 "target_lang_word": "keyif yapmak",
-                                "target_lang_sense_clarification": "evde rahat vakit geçirme"
+                                "target_lang_sense_clarification": "3. tekil şimdiki zaman, evde rahat etmek"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "holgazanear",
-                                "target_lang_sense_clarification": "pasar el día en casa"
+                                "target_lang_sense_clarification": "3.ª persona, presente de indicativo"
                             },
                             {
                                 "target_lang_word": "gandulear",
-                                "target_lang_sense_clarification": "coloquial, sin hacer nada"
+                                "target_lang_sense_clarification": "3.ª persona, presente de indicativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "下海",
-                                "target_lang_sense_clarification": "离开公职，进入私企"
+                                "target_lang_sense_clarification": "直陈式第三人称，弃官从商"
                             },
                             {
                                 "target_lang_word": "闲待",
-                                "target_lang_sense_clarification": "在家无所事事"
+                                "target_lang_sense_clarification": "直陈式第三人称，在家闲着"
                             }
                         ]
                     }
@@ -702,90 +776,108 @@
                         "zh": "法语动词 pantoufler 的第一人称单数现在时。该动词意为离开公职进入私营部门，或在家中闲待。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "lounge around",
+                                "target_lang_sense_clarification": "I, present: idle at home"
+                            },
+                            {
+                                "target_lang_word": "move to the private sector",
+                                "target_lang_sense_clarification": "I, present: leave civil service"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переходить в частный сектор",
+                                "target_lang_sense_clarification": "с госслужбы, 1-е л. ед. ч."
+                            },
+                            {
+                                "target_lang_word": "валяться дома",
+                                "target_lang_sense_clarification": "бездельничать, 1-е л. ед. ч."
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "luieren",
-                                "target_lang_sense_clarification": "thuis, in pantoffels"
+                                "target_lang_sense_clarification": "ik luier, thuis in pantoffels"
                             },
                             {
                                 "target_lang_word": "overstappen",
-                                "target_lang_sense_clarification": "naar het bedrijfsleven"
+                                "target_lang_sense_clarification": "ik stap over naar bedrijfsleven"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "faulenzen",
-                                "target_lang_sense_clarification": "untätig zu Hause"
+                                "target_lang_sense_clarification": "1. Person Sg. Indikativ: ich faulenze"
                             },
                             {
                                 "target_lang_word": "überwechseln",
-                                "target_lang_sense_clarification": "in die Privatwirtschaft"
+                                "target_lang_sense_clarification": "1. Person Sg. Indikativ: ich wechsle über"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "leniuchować",
-                                "target_lang_sense_clarification": "w domu, bez zajęcia"
+                                "target_lang_sense_clarification": "1. os. lp: leniuchuję"
                             },
                             {
                                 "target_lang_word": "przechodzić",
-                                "target_lang_sense_clarification": "do sektora prywatnego"
+                                "target_lang_sense_clarification": "1. os. lp: przechodzę do sektora prywatnego"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "oziare",
-                                "target_lang_sense_clarification": "in casa, senza far nulla"
+                                "target_lang_sense_clarification": "(io) ozio, indicativo presente"
                             },
                             {
                                 "target_lang_word": "poltrire",
-                                "target_lang_sense_clarification": "sul divano o a letto"
+                                "target_lang_sense_clarification": "(io) poltrisco, indicativo presente"
                             },
                             {
                                 "target_lang_word": "passare al privato",
-                                "target_lang_sense_clarification": "dal settore pubblico al privato"
+                                "target_lang_sense_clarification": "(io) passo al privato, indicativo presente"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "flákat se",
-                                "target_lang_sense_clarification": "doma, nic nedělat"
+                                "target_lang_sense_clarification": "doma nic nedělat, 1. os. j. č. oznam."
                             },
                             {
                                 "target_lang_word": "přecházet",
-                                "target_lang_sense_clarification": "do soukromého sektoru"
+                                "target_lang_sense_clarification": "do soukromého sektoru, 1. os. j. č. oznam."
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "geçmek",
-                                "target_lang_sense_clarification": "kamudan özel sektöre"
+                                "target_lang_sense_clarification": "1. tekil şimdiki zaman, kamudan özel sektöre"
                             },
                             {
                                 "target_lang_word": "keyif yapmak",
-                                "target_lang_sense_clarification": "evde rahat vakit geçirme"
+                                "target_lang_sense_clarification": "1. tekil şimdiki zaman, evde rahat etmek"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "holgazanear",
-                                "target_lang_sense_clarification": "pasar el día en casa"
+                                "target_lang_sense_clarification": "1.ª persona, presente de indicativo"
                             },
                             {
                                 "target_lang_word": "gandulear",
-                                "target_lang_sense_clarification": "coloquial, sin hacer nada"
+                                "target_lang_sense_clarification": "1.ª persona, presente de indicativo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "下海",
-                                "target_lang_sense_clarification": "离开公职，进入私企"
+                                "target_lang_sense_clarification": "直陈式第一人称，弃官从商"
                             },
                             {
                                 "target_lang_word": "闲待",
-                                "target_lang_sense_clarification": "在家无所事事"
+                                "target_lang_sense_clarification": "直陈式第一人称，在家闲着"
                             }
                         ]
                     }
@@ -848,90 +940,108 @@
                         "zh": "法语动词 pantoufler 的第三人称单数现在虚拟式。该动词意为离开公职进入私营部门，或在家中闲待。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "lounge around",
+                                "target_lang_sense_clarification": "that he/she, subjunctive: idle at home"
+                            },
+                            {
+                                "target_lang_word": "move to the private sector",
+                                "target_lang_sense_clarification": "that he/she, subjunctive: leave civil service"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переходить в частный сектор",
+                                "target_lang_sense_clarification": "с госслужбы, 3-е л. ед. ч., сослагат."
+                            },
+                            {
+                                "target_lang_word": "валяться дома",
+                                "target_lang_sense_clarification": "бездельничать, 3-е л. ед. ч., сослагат."
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "luieren",
-                                "target_lang_sense_clarification": "thuis, in pantoffels"
+                                "target_lang_sense_clarification": "dat hij/zij luiert (aanvoegende wijs)"
                             },
                             {
                                 "target_lang_word": "overstappen",
-                                "target_lang_sense_clarification": "naar het bedrijfsleven"
+                                "target_lang_sense_clarification": "dat hij/zij overstapt (aanvoegende wijs)"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "faulenzen",
-                                "target_lang_sense_clarification": "untätig zu Hause"
+                                "target_lang_sense_clarification": "3. Person Sg. Konjunktiv: dass er faulenze"
                             },
                             {
                                 "target_lang_word": "überwechseln",
-                                "target_lang_sense_clarification": "in die Privatwirtschaft"
+                                "target_lang_sense_clarification": "3. Person Sg. Konjunktiv: dass er überwechsle"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "leniuchować",
-                                "target_lang_sense_clarification": "w domu, bez zajęcia"
+                                "target_lang_sense_clarification": "3. os. lp, łączący: żeby leniuchował"
                             },
                             {
                                 "target_lang_word": "przechodzić",
-                                "target_lang_sense_clarification": "do sektora prywatnego"
+                                "target_lang_sense_clarification": "3. os. lp, łączący: żeby przeszedł do prywatnego"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "oziare",
-                                "target_lang_sense_clarification": "in casa, senza far nulla"
+                                "target_lang_sense_clarification": "(che lui) ozi, congiuntivo presente"
                             },
                             {
                                 "target_lang_word": "poltrire",
-                                "target_lang_sense_clarification": "sul divano o a letto"
+                                "target_lang_sense_clarification": "(che lui) poltrisca, congiuntivo presente"
                             },
                             {
                                 "target_lang_word": "passare al privato",
-                                "target_lang_sense_clarification": "dal settore pubblico al privato"
+                                "target_lang_sense_clarification": "(che lui) passi al privato, congiuntivo"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "flákat se",
-                                "target_lang_sense_clarification": "doma, nic nedělat"
+                                "target_lang_sense_clarification": "doma nic nedělat, 3. os. j. č. konjunktivu"
                             },
                             {
                                 "target_lang_word": "přecházet",
-                                "target_lang_sense_clarification": "do soukromého sektoru"
+                                "target_lang_sense_clarification": "do soukromého sektoru, 3. os. j. č. konjunktivu"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "geçmek",
-                                "target_lang_sense_clarification": "kamudan özel sektöre"
+                                "target_lang_sense_clarification": "3. tekil dilek kipi, kamudan özel sektöre"
                             },
                             {
                                 "target_lang_word": "keyif yapmak",
-                                "target_lang_sense_clarification": "evde rahat vakit geçirme"
+                                "target_lang_sense_clarification": "3. tekil dilek kipi, evde rahat etmek"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "holgazanear",
-                                "target_lang_sense_clarification": "pasar el día en casa"
+                                "target_lang_sense_clarification": "3.ª persona, presente de subjuntivo"
                             },
                             {
                                 "target_lang_word": "gandulear",
-                                "target_lang_sense_clarification": "coloquial, sin hacer nada"
+                                "target_lang_sense_clarification": "3.ª persona, presente de subjuntivo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "下海",
-                                "target_lang_sense_clarification": "离开公职，进入私企"
+                                "target_lang_sense_clarification": "虚拟式第三人称，弃官从商"
                             },
                             {
                                 "target_lang_word": "闲待",
-                                "target_lang_sense_clarification": "在家无所事事"
+                                "target_lang_sense_clarification": "虚拟式第三人称，在家闲着"
                             }
                         ]
                     }
@@ -968,7 +1078,7 @@
                                 "de": "Es ist unwahrscheinlich, dass ich das ganze Wochenende <w>faulenze</w>, wo es draußen so schön ist.",
                                 "pl": "Jest mało prawdopodobne, że cały weekend będę <w>leniuchować</w>, skoro na dworze jest tak pięknie.",
                                 "it": "È poco probabile che <w>poltrisca</w> tutto il fine settimana, mentre fuori fa così bel tempo.",
-                                "cs": "Je nepravděpodobné, že celý víkend <w>se flákám</w>, když venku je tak krásně.",
+                                "cs": "Je nepravděpodobné, že <w>se</w> budu celý víkend <w>flákat</w>, když je venku tak krásně.",
                                 "tr": "Hava dışarıda bu kadar güzelken hafta sonunun tamamını <w>keyif yaparak</w> geçireceğimi sanmıyorum.",
                                 "es": "Es poco probable que <w>holgazanee</w> todo el fin de semana cuando hace tan buen tiempo fuera.",
                                 "zh": "外面天气这么好，我不太可能整个周末都<w>闲待</w>在家里。"
@@ -994,90 +1104,108 @@
                         "zh": "法语动词 pantoufler 的第一人称单数现在虚拟式。该动词意为离开公职进入私营部门，或在家中闲待。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "lounge around",
+                                "target_lang_sense_clarification": "that I, subjunctive: idle at home"
+                            },
+                            {
+                                "target_lang_word": "move to the private sector",
+                                "target_lang_sense_clarification": "that I, subjunctive: leave civil service"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переходить в частный сектор",
+                                "target_lang_sense_clarification": "с госслужбы, 1-е л. ед. ч., сослагат."
+                            },
+                            {
+                                "target_lang_word": "валяться дома",
+                                "target_lang_sense_clarification": "бездельничать, 1-е л. ед. ч., сослагат."
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "luieren",
-                                "target_lang_sense_clarification": "thuis, in pantoffels"
+                                "target_lang_sense_clarification": "dat ik luier (aanvoegende wijs)"
                             },
                             {
                                 "target_lang_word": "overstappen",
-                                "target_lang_sense_clarification": "naar het bedrijfsleven"
+                                "target_lang_sense_clarification": "dat ik overstap (aanvoegende wijs)"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "faulenzen",
-                                "target_lang_sense_clarification": "untätig zu Hause"
+                                "target_lang_sense_clarification": "1. Person Sg. Konjunktiv: dass ich faulenze"
                             },
                             {
                                 "target_lang_word": "überwechseln",
-                                "target_lang_sense_clarification": "in die Privatwirtschaft"
+                                "target_lang_sense_clarification": "1. Person Sg. Konjunktiv: dass ich überwechsle"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "leniuchować",
-                                "target_lang_sense_clarification": "w domu, bez zajęcia"
+                                "target_lang_sense_clarification": "1. os. lp, łączący: żebym leniuchował"
                             },
                             {
                                 "target_lang_word": "przechodzić",
-                                "target_lang_sense_clarification": "do sektora prywatnego"
+                                "target_lang_sense_clarification": "1. os. lp, łączący: żebym przeszedł do prywatnego"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "oziare",
-                                "target_lang_sense_clarification": "in casa, senza far nulla"
+                                "target_lang_sense_clarification": "(che io) ozi, congiuntivo presente"
                             },
                             {
                                 "target_lang_word": "poltrire",
-                                "target_lang_sense_clarification": "sul divano o a letto"
+                                "target_lang_sense_clarification": "(che io) poltrisca, congiuntivo presente"
                             },
                             {
                                 "target_lang_word": "passare al privato",
-                                "target_lang_sense_clarification": "dal settore pubblico al privato"
+                                "target_lang_sense_clarification": "(che io) passi al privato, congiuntivo"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "flákat se",
-                                "target_lang_sense_clarification": "doma, nic nedělat"
+                                "target_lang_sense_clarification": "doma nic nedělat, 1. os. j. č. konjunktivu"
                             },
                             {
                                 "target_lang_word": "přecházet",
-                                "target_lang_sense_clarification": "do soukromého sektoru"
+                                "target_lang_sense_clarification": "do soukromého sektoru, 1. os. j. č. konjunktivu"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "geçmek",
-                                "target_lang_sense_clarification": "kamudan özel sektöre"
+                                "target_lang_sense_clarification": "1. tekil dilek kipi, kamudan özel sektöre"
                             },
                             {
                                 "target_lang_word": "keyif yapmak",
-                                "target_lang_sense_clarification": "evde rahat vakit geçirme"
+                                "target_lang_sense_clarification": "1. tekil dilek kipi, evde rahat etmek"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "holgazanear",
-                                "target_lang_sense_clarification": "pasar el día en casa"
+                                "target_lang_sense_clarification": "1.ª persona, presente de subjuntivo"
                             },
                             {
                                 "target_lang_word": "gandulear",
-                                "target_lang_sense_clarification": "coloquial, sin hacer nada"
+                                "target_lang_sense_clarification": "1.ª persona, presente de subjuntivo"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "下海",
-                                "target_lang_sense_clarification": "离开公职，进入私企"
+                                "target_lang_sense_clarification": "虚拟式第一人称，弃官从商"
                             },
                             {
                                 "target_lang_word": "闲待",
-                                "target_lang_sense_clarification": "在家无所事事"
+                                "target_lang_sense_clarification": "虚拟式第一人称，在家闲着"
                             }
                         ]
                     }
@@ -1140,90 +1268,108 @@
                         "zh": "法语动词 pantoufler 的第二人称单数现在时命令式。该动词意为离开公职进入私营部门，或在家中闲待。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "lounge around",
+                                "target_lang_sense_clarification": "imperative, to one person: idle at home"
+                            },
+                            {
+                                "target_lang_word": "move to the private sector",
+                                "target_lang_sense_clarification": "imperative, to one person: leave civil service"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "переходить в частный сектор",
+                                "target_lang_sense_clarification": "с госслужбы, 2-е л. ед. ч., повелит."
+                            },
+                            {
+                                "target_lang_word": "валяться дома",
+                                "target_lang_sense_clarification": "бездельничать, 2-е л. ед. ч., повелит."
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "luieren",
-                                "target_lang_sense_clarification": "thuis, in pantoffels"
+                                "target_lang_sense_clarification": "gebiedende wijs: luier!"
                             },
                             {
                                 "target_lang_word": "overstappen",
-                                "target_lang_sense_clarification": "naar het bedrijfsleven"
+                                "target_lang_sense_clarification": "gebiedende wijs: stap over!"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "faulenzen",
-                                "target_lang_sense_clarification": "untätig zu Hause"
+                                "target_lang_sense_clarification": "Imperativ, du-Form: faulenz!"
                             },
                             {
                                 "target_lang_word": "überwechseln",
-                                "target_lang_sense_clarification": "in die Privatwirtschaft"
+                                "target_lang_sense_clarification": "Imperativ, du-Form: wechsle über!"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "leniuchować",
-                                "target_lang_sense_clarification": "w domu, bez zajęcia"
+                                "target_lang_sense_clarification": "rozkazujący: leniuchuj"
                             },
                             {
                                 "target_lang_word": "przechodzić",
-                                "target_lang_sense_clarification": "do sektora prywatnego"
+                                "target_lang_sense_clarification": "rozkazujący: przejdź do sektora prywatnego"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "oziare",
-                                "target_lang_sense_clarification": "in casa, senza far nulla"
+                                "target_lang_sense_clarification": "ozia!, imperativo (tu)"
                             },
                             {
                                 "target_lang_word": "poltrire",
-                                "target_lang_sense_clarification": "sul divano o a letto"
+                                "target_lang_sense_clarification": "poltrisci!, imperativo (tu)"
                             },
                             {
                                 "target_lang_word": "passare al privato",
-                                "target_lang_sense_clarification": "dal settore pubblico al privato"
+                                "target_lang_sense_clarification": "passa al privato!, imperativo (tu)"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "flákat se",
-                                "target_lang_sense_clarification": "doma, nic nedělat"
+                                "target_lang_sense_clarification": "doma nic nedělat, 2. os. j. č. rozkazovací"
                             },
                             {
                                 "target_lang_word": "přecházet",
-                                "target_lang_sense_clarification": "do soukromého sektoru"
+                                "target_lang_sense_clarification": "do soukromého sektoru, 2. os. j. č. rozkazovací"
                             }
                         ],
                         "tr": [
                             {
                                 "target_lang_word": "geçmek",
-                                "target_lang_sense_clarification": "kamudan özel sektöre"
+                                "target_lang_sense_clarification": "2. tekil emir kipi, kamudan özel sektöre"
                             },
                             {
                                 "target_lang_word": "keyif yapmak",
-                                "target_lang_sense_clarification": "evde rahat vakit geçirme"
+                                "target_lang_sense_clarification": "2. tekil emir kipi, evde rahat etmek"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "holgazanear",
-                                "target_lang_sense_clarification": "pasar el día en casa"
+                                "target_lang_sense_clarification": "imperativo, tú"
                             },
                             {
                                 "target_lang_word": "gandulear",
-                                "target_lang_sense_clarification": "coloquial, sin hacer nada"
+                                "target_lang_sense_clarification": "imperativo, tú"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "下海",
-                                "target_lang_sense_clarification": "离开公职，进入私企"
+                                "target_lang_sense_clarification": "命令式第二人称，弃官从商"
                             },
                             {
                                 "target_lang_word": "闲待",
-                                "target_lang_sense_clarification": "在家无所事事"
+                                "target_lang_sense_clarification": "命令式第二人称，在家闲着"
                             }
                         ]
                     }

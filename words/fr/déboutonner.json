@@ -42,7 +42,7 @@
                                 "de": "Mit den dicken Handschuhen fällt es ihr schwer, ihren Mantel <w>aufzuknöpfen</w>.",
                                 "pl": "Trudno jej <w>rozpiąć</w> płaszcz w grubych rękawiczkach.",
                                 "it": "Con i guanti spessi fatica a <w>sbottonare</w> il cappotto.",
-                                "cs": "Ve silných rukavicích jí je těžké <w>rozepnout</w> svůj kabát.",
+                                "cs": "V silných rukavicích si jen těžko dokáže <w>rozepnout</w> kabát.",
                                 "tr": "Kalın eldivenleriyle mantosunu <w>açmakta</w> zorlanıyor.",
                                 "es": "Le cuesta trabajo <w>desabotonar</w> su abrigo con sus guantes gruesos puestos.",
                                 "zh": "她戴着厚厚的手套，很难<w>解开</w>大衣的扣子。"
@@ -183,7 +183,7 @@
                             "target_lang_translations": {
                                 "en": "He never <w>opens up</w> in front of strangers, always preferring to keep his secrets to himself.",
                                 "ru": "Он никогда не <w>открывается</w> перед незнакомцами, предпочитая всегда хранить свои секреты при себе.",
-                                "nl": "<w>Hij stelt zich</w> nooit <w>open</w> voor vreemden; hij houdt zijn geheimen liever altijd voor zichzelf.",
+                                "nl": "Hij <w>stelt</w> <w>zich</w> nooit <w>open</w> voor vreemden; hij houdt zijn geheimen liever altijd voor zichzelf.",
                                 "de": "Vor Fremden <w>öffnet</w> er <w>sich</w> nie und behält seine Geheimnisse lieber immer für sich.",
                                 "pl": "Nigdy nie <w>otwiera</w> <w>się</w> przed obcymi, woląc zawsze zachowywać swoje sekrety dla siebie.",
                                 "it": "Non si <w>sbottona</w> mai davanti agli sconosciuti, preferendo sempre tenere i suoi segreti per sé.",
@@ -327,7 +327,7 @@
                                 "nl": "De schermmeester heeft uitdrukkelijk verboden om tijdens de training de knop van het floret te <w>verwijderen</w>.",
                                 "de": "Der Fechtmeister hat während des Trainings ausdrücklich verboten, den Knopf vom Florett <w>abzunehmen</w>.",
                                 "pl": "Trener szermierki formalnie zabronił <w>zdjąć</w> guzik z floretu podczas treningu.",
-                                "it": "Il maestro d'armi ha vietato formalmente di <w>togliere</w> il bottone al fioretto durante l'allenamento.",
+                                "it": "Il maestro d'armi ha vietato formalmente di <w>togliere il bottone</w> al fioretto durante l'allenamento.",
                                 "cs": "Trenér šermu přísně zakázal během tréninku <w>sundávat</w> ochranný knoflík z floretu.",
                                 "tr": "Eskrim hocası antrenman sırasında floretin düğmesini <w>çıkarmayı</w> kesinlikle yasakladı.",
                                 "es": "El maestro de armas ha prohibido formalmente <w>quitar el botón</w> al florete durante el entrenamiento.",
@@ -363,10 +363,25 @@
                         "zh": "取下花剑剑尖上起保护作用的护钮。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "unbutton",
+                                "target_lang_sense_clarification": "fencing: remove a foil's button"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "снимать пуговку",
+                                "target_lang_sense_clarification": "с рапиры, фехтование"
+                            }
+                        ],
                         "nl": [],
-                        "de": [],
+                        "de": [
+                            {
+                                "target_lang_word": "den Knopf abnehmen",
+                                "target_lang_sense_clarification": "Fechten, Florettspitze"
+                            }
+                        ],
                         "pl": [
                             {
                                 "target_lang_word": "zdjąć",
@@ -379,7 +394,12 @@
                                 "target_lang_sense_clarification": "scherma, punta del fioretto"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "sundat knoflík",
+                                "target_lang_sense_clarification": "šerm, chránítko z hrotu floretu"
+                            }
+                        ],
                         "tr": [
                             {
                                 "target_lang_word": "çıkarmak",

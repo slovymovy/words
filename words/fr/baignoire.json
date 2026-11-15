@@ -286,7 +286,7 @@
                             "target_lang_translations": {
                                 "en": "The officer on watch scanned the horizon from the <w>conning tower</w> of the submarine despite the waves.",
                                 "nl": "De officier van de wacht tuurde ondanks de golven naar de horizon vanaf de <w>commandotoren</w> van de onderzeeboot.",
-                                "de": "Der Wachoffizier suchte trotz der Wellen vom <w>Kommandoturm</w> des U-Boots aus den Horizont ab.",
+                                "de": "Der Wachoffizier suchte trotz der Wellen von der <w>Turmbrücke</w> des U-Boots aus den Horizont ab.",
                                 "pl": "Oficer wachtowy mimo fal wypatrywał horyzontu z <w>kiosku</w> okrętu podwodnego.",
                                 "it": "L'ufficiale di guardia scrutava l'orizzonte dalla <w>torretta</w> del sommergibile nonostante le onde.",
                                 "cs": "Hlídkující důstojník navzdory vlnám pečlivě pozoroval obzor z <w>kiosku</w> ponorky.",
@@ -301,7 +301,7 @@
                             "target_lang_translations": {
                                 "en": "As soon as the submarine dives underwater, the <w>conning tower</w> is completely flooded.",
                                 "nl": "Zodra de onderzeeboot onder water duikt, loopt de <w>commandotoren</w> volledig vol.",
-                                "de": "Sobald das U-Boot untertaucht, ist der <w>Kommandoturm</w> vollständig überflutet.",
+                                "de": "Sobald das U-Boot untertaucht, ist die <w>Turmbrücke</w> vollständig überflutet.",
                                 "pl": "Gdy tylko okręt podwodny zanurza się pod wodę, <w>kiosk</w> zostaje całkowicie zalany.",
                                 "it": "Appena il sommergibile s'immerge, la <w>torretta</w> si allaga completamente.",
                                 "cs": "Jakmile se ponorka ponoří pod vodu, <w>kiosk</w> je zcela zaplavený.",
@@ -330,6 +330,10 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "bridge",
+                                "target_lang_sense_clarification": "open lookout atop a submarine sail"
+                            },
+                            {
                                 "target_lang_word": "conning tower",
                                 "target_lang_sense_clarification": "submarine lookout structure"
                             }
@@ -342,8 +346,8 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Kommandoturm",
-                                "target_lang_sense_clarification": "U-Boot, Aufbau für die Ausschau"
+                                "target_lang_word": "Turmbrücke",
+                                "target_lang_sense_clarification": "U-Boot, offener Ausguck oben am Turm"
                             }
                         ],
                         "pl": [
@@ -358,8 +362,8 @@
                                 "target_lang_sense_clarification": "sommergibile, struttura di osservazione"
                             },
                             {
-                                "target_lang_word": "kiosco",
-                                "target_lang_sense_clarification": "sommergibile, struttura sopra lo scafo"
+                                "target_lang_word": "falsa torre",
+                                "target_lang_sense_clarification": "sommergibile, termine della marina"
                             }
                         ],
                         "cs": [
@@ -523,9 +527,9 @@
                         {
                             "text": "Les prisonniers de guerre ont été soumis au supplice de la <w>baignoire</w> lors des interrogatoires.",
                             "target_lang_translations": {
-                                "en": "Prisoners of war were subjected to <w>waterboarding</w> during interrogations.",
+                                "en": "Prisoners of war were subjected to <w>water torture</w> during interrogations.",
                                 "nl": "Krijgsgevangenen werden tijdens de verhoren onderworpen aan <w>waterboarding</w>.",
-                                "de": "Kriegsgefangene wurden während der Verhöre einem <w>Waterboarding</w> unterzogen.",
+                                "de": "Kriegsgefangene wurden während der Verhöre der <w>Wasserfolter</w> unterzogen.",
                                 "pl": "Jeńcy wojenni byli podczas przesłuchań poddawani <w>waterboardingowi</w>.",
                                 "it": "I prigionieri di guerra sono stati sottoposti al supplizio dell'<w>annegamento simulato</w> durante gli interrogatori.",
                                 "cs": "Váleční zajatci byli při výsleších vystaveni <w>simulovanému utopení</w>.",
@@ -538,9 +542,9 @@
                         {
                             "text": "Le rapport dénonce la pratique clandestine de la <w>baignoire</w> dans ce centre de détention.",
                             "target_lang_translations": {
-                                "en": "The report denounces the covert practice of <w>waterboarding</w> at this detention centre.",
+                                "en": "The report denounces the covert practice of <w>water torture</w> at this detention centre.",
                                 "nl": "Het rapport veroordeelt de heimelijke toepassing van <w>waterboarding</w> in dit detentiecentrum.",
-                                "de": "Der Bericht prangert die heimliche Praxis des <w>Waterboardings</w> in diesem Haftzentrum an.",
+                                "de": "Der Bericht prangert die heimliche Praxis der <w>Wasserfolter</w> in diesem Haftzentrum an.",
                                 "pl": "Raport potępia tajną praktykę <w>waterboardingu</w> w tym ośrodku detencyjnym.",
                                 "it": "Il rapporto denuncia la pratica clandestina dell'<w>annegamento simulato</w> in questo centro di detenzione.",
                                 "cs": "Zpráva odsuzuje tajné používání <w>simulovaného utopení</w> v tomto zadržovacím středisku.",
@@ -569,8 +573,8 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "waterboarding",
-                                "target_lang_sense_clarification": "torture by simulated drowning"
+                                "target_lang_word": "water torture",
+                                "target_lang_sense_clarification": "head held under water until choking"
                             }
                         ],
                         "nl": [
@@ -581,14 +585,18 @@
                         ],
                         "de": [
                             {
-                                "target_lang_word": "Waterboarding",
-                                "target_lang_sense_clarification": "Foltermethode durch simuliertes Ertrinken"
+                                "target_lang_word": "Wasserfolter",
+                                "target_lang_sense_clarification": "Kopf wird unter Wasser gedrückt"
                             }
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "waterboarding",
+                                "target_lang_word": "podtapianie",
                                 "target_lang_sense_clarification": "tortury przez symulowane utopienie"
+                            },
+                            {
+                                "target_lang_word": "waterboarding",
+                                "target_lang_sense_clarification": "anglicyzm, to samo co podtapianie"
                             }
                         ],
                         "it": [

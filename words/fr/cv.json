@@ -339,9 +339,9 @@
                                 "ru": "Стоимость свидетельства о регистрации зависит, в частности, от количества <w>налоговых лошадиных сил</w> автомобиля.",
                                 "nl": "De prijs van het kentekenbewijs hangt onder meer af van het aantal <w>fiscale pk</w> van het voertuig.",
                                 "de": "Der Preis der Zulassungsbescheinigung hängt unter anderem von der Zahl der <w>Steuer-PS</w> des Fahrzeugs ab.",
-                                "pl": "Cena dowodu rejestracyjnego zależy m.in. od tego, jaką ma moc podatkową pojazd.",
+                                "pl": "Cena dowodu rejestracyjnego zależy m.in. od liczby <w>koni podatkowych</w> pojazdu.",
                                 "it": "Il prezzo della carta di circolazione dipende, tra l'altro, dal numero di <w>cavalli fiscali</w> del veicolo.",
-                                "cs": "Cena technického průkazu závisí mimo jiné na tom, do jaké daňové kategorie vozidlo spadá podle svého výkonu.",
+                                "cs": "Cena technického průkazu závisí mimo jiné na počtu <w>fiskálních koňských sil</w> vozidla.",
                                 "tr": "Araç ruhsatının ücreti, özellikle aracın Fransız vergi sisteminde belirlenen beygir sayısına bağlıdır.",
                                 "es": "El precio del permiso de circulación depende, entre otros factores, del número de <w>caballos fiscales</w> del vehículo.",
                                 "zh": "车辆登记证的价格尤其取决于车辆的<w>税马力</w>数。"
@@ -354,9 +354,9 @@
                                 "ru": "Эта маленькая городская машина в своём свидетельстве о регистрации указывает всего четыре <w>налоговые лошадиные силы</w>.",
                                 "nl": "Deze kleine stadsauto heeft op zijn kentekenbewijs slechts vier <w>fiscale pk</w>.",
                                 "de": "Dieser kleine Stadtwagen weist auf seiner Zulassungsbescheinigung nur vier <w>Steuer-PS</w> aus.",
-                                "pl": "Ten mały miejski samochód ma w dowodzie rejestracyjnym wpisaną moc podatkową wynoszącą zaledwie cztery.",
+                                "pl": "Ten mały miejski samochód ma w dowodzie rejestracyjnym wpisane zaledwie cztery <w>konie podatkowe</w>.",
                                 "it": "Questa piccola utilitaria indica sulla sua carta di circolazione solo quattro <w>cavalli fiscali</w>.",
-                                "cs": "Tento malý městský vůz má v technickém průkazu uvedeno jen čtyři koně daňového výkonu.",
+                                "cs": "Tento malý městský vůz má v technickém průkazu uvedeny jen čtyři <w>fiskální koňské síly</w>.",
                                 "tr": "Bu küçük şehir arabasının tescil belgesinde, Fransız vergi sistemine göre belirlenen yalnızca dört beygir gücü değeri görünüyor.",
                                 "es": "Este pequeño coche urbano solo indica cuatro <w>caballos fiscales</w> en su permiso de circulación.",
                                 "zh": "这辆小型城市轿车的登记证上只标明四<w>税马力</w>。"
@@ -389,7 +389,12 @@
                                 "target_lang_sense_clarification": "French registration and tax term"
                             }
                         ],
-                        "ru": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "налоговая лошадиная сила",
+                                "target_lang_sense_clarification": "франц. единица для налога на авто"
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "fiscale pk",
@@ -402,7 +407,12 @@
                                 "target_lang_sense_clarification": "Kfz-Steuer, Bemessungsgrundlage"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "koń podatkowy",
+                                "target_lang_sense_clarification": "francuska jednostka mocy fiskalnej"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "cavallo fiscale",
@@ -413,16 +423,17 @@
                                 "target_lang_sense_clarification": "calcolo del bollo auto"
                             }
                         ],
-                        "cs": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "fiskální koňská síla",
+                                "target_lang_sense_clarification": "francouzská daňová jednotka vozidla"
+                            }
+                        ],
                         "tr": [],
                         "es": [
                             {
                                 "target_lang_word": "caballo fiscal",
-                                "target_lang_sense_clarification": "impuesto de circulación, España"
-                            },
-                            {
-                                "target_lang_word": "potencia fiscal",
-                                "target_lang_sense_clarification": "cálculo del impuesto de vehículos"
+                                "target_lang_sense_clarification": "unidad de potencia fiscal"
                             }
                         ],
                         "zh": [
@@ -445,7 +456,7 @@
                             "text": "Le pharmacien m'a demandé ma <w>CV</w> avant de délivrer les médicaments prescrits.",
                             "target_lang_translations": {
                                 "en": "The pharmacist asked me for my <w>health insurance card</w> before dispensing the prescribed medicines.",
-                                "ru": "Фармацевт попросил у меня <w>полис ОМС</w> перед тем, как выдать назначенные лекарства.",
+                                "ru": "Фармацевт попросил у меня <w>карту медицинского страхования</w> перед тем, как выдать назначенные лекарства.",
                                 "nl": "De apotheker vroeg me om mijn <w>zorgpas</w> voordat hij de voorgeschreven medicijnen afleverde.",
                                 "de": "Der Apotheker hat mich nach meiner <w>Gesundheitskarte</w> gefragt, bevor er die verschriebenen Medikamente aushändigte.",
                                 "pl": "Farmaceuta poprosił mnie o <w>kartę ubezpieczenia zdrowotnego</w> przed wydaniem przepisanych leków.",
@@ -460,7 +471,7 @@
                             "text": "Pensez à mettre à jour votre <w>CV</w> dans une borne dédiée une fois par an.",
                             "target_lang_translations": {
                                 "en": "Remember to update your <w>health card</w> at a dedicated kiosk once a year.",
-                                "ru": "Не забывайте раз в год обновлять свой <w>полис ОМС</w> в специальном терминале.",
+                                "ru": "Не забывайте раз в год обновлять свою <w>карту медицинского страхования</w> в специальном терминале.",
                                 "nl": "Denk eraan om uw <w>zorgpas</w> één keer per jaar bij te werken in een daarvoor bestemde automaat.",
                                 "de": "Denken Sie daran, Ihre <w>Gesundheitskarte</w> einmal im Jahr an einem dafür vorgesehenen Terminal zu aktualisieren.",
                                 "pl": "Proszę pamiętać, by raz w roku zaktualizować swoją <w>kartę ubezpieczenia zdrowotnego</w> w specjalnym automacie.",
@@ -506,8 +517,8 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "полис ОМС",
-                                "target_lang_sense_clarification": "обязательное медицинское страхование"
+                                "target_lang_word": "карта медицинского страхования",
+                                "target_lang_sense_clarification": "французская карта «Виталь»"
                             }
                         ],
                         "nl": [
@@ -552,7 +563,12 @@
                                 "target_lang_sense_clarification": "formální název, zdravotní pojištění"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "sağlık kartı",
+                                "target_lang_sense_clarification": "Fransız sağlık sigortası kartı"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "tarjeta sanitaria",

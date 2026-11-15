@@ -183,11 +183,11 @@
                                 "ru": "Эта шотландская нить славится отличной <w>цветоустойчивостью</w>.",
                                 "nl": "Dit Schotse garen staat bekend om zijn zeer goede <w>kleurechtheid</w>.",
                                 "de": "Dieses schottische Garn ist für seine sehr gute <w>Farbechtheit</w> bekannt.",
-                                "pl": "Ta szkocka nić słynie z bardzo dobrej <w>stałości barwy</w>.",
+                                "pl": "Ta szkocka nić słynie z bardzo dobrej stałości <w>barwy</w>.",
                                 "it": "Questo filo scozzese è noto per l'ottima <w>solidità del colore</w>.",
                                 "cs": "Tato skotská příze je známá svou velmi dobrou <w>stálostí barvy</w>.",
                                 "tr": "Bu İskoç ipliği çok iyi bir <w>renk haslığına</w> sahip olmasıyla ünlüdür.",
-                                "es": "Este hilo escocés es famoso por su excelente <w>solidez</w> del color.",
+                                "es": "Este hilo escocés es famoso por tener un <w>tinte</w> muy sólido.",
                                 "zh": "这种苏格兰线以<w>色牢度</w>极佳而著称。"
                             }
                         },
@@ -228,6 +228,10 @@
                     },
                     "translations": {
                         "en": [
+                            {
+                                "target_lang_word": "colour",
+                                "target_lang_sense_clarification": "colour obtained by dyeing"
+                            },
                             {
                                 "target_lang_word": "colourfastness",
                                 "target_lang_sense_clarification": "resistance to fading or running"
@@ -289,18 +293,18 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "stálost barvy",
-                                "target_lang_sense_clarification": "textilie, odolnost vůči praní"
+                                "target_lang_word": "barva",
+                                "target_lang_sense_clarification": "textilie, odstín po barvení"
                             },
                             {
-                                "target_lang_word": "barevná stálost",
-                                "target_lang_sense_clarification": "textilie, odolnost proti vyblednutí"
+                                "target_lang_word": "stálost barvy",
+                                "target_lang_sense_clarification": "textilie, odolnost vůči praní"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "boyama",
-                                "target_lang_sense_clarification": "kumaşa uygulanan boyama işlemi"
+                                "target_lang_word": "renk",
+                                "target_lang_sense_clarification": "boyayla elde edilen kumaş rengi"
                             },
                             {
                                 "target_lang_word": "renk haslığı",
@@ -309,12 +313,12 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "tintura",
-                                "target_lang_sense_clarification": "proceso de teñir telas"
+                                "target_lang_word": "tinte",
+                                "target_lang_sense_clarification": "color dado a una tela"
                             },
                             {
                                 "target_lang_word": "teñido",
-                                "target_lang_sense_clarification": "color obtenido en tejidos"
+                                "target_lang_sense_clarification": "proceso de teñir telas"
                             }
                         ],
                         "zh": [
@@ -368,7 +372,7 @@
                                 "it": "Questo mobile antico è stato realizzato con legno <w>mordenzato</w> per imitare l'ebano.",
                                 "cs": "Tento starožitný nábytek byl vyroben z <w>moreného</w> dřeva, aby napodoboval eben.",
                                 "tr": "Bu antika mobilya, abanozu taklit etmek için <w>boyalı</w> ahşaptan yapılmıştır.",
-                                "es": "Este mueble antiguo se fabricó con madera <w>mordentada</w> para imitar el ébano.",
+                                "es": "Este mueble antiguo se fabricó con madera <w>teñida</w> para imitar el ébano.",
                                 "zh": "这件古董家具用<w>着色的</w>木材制成，以模仿乌木。"
                             }
                         }
@@ -473,11 +477,7 @@
                         "es": [
                             {
                                 "target_lang_word": "teñido",
-                                "target_lang_sense_clarification": "cabello, tejidos, prendas"
-                            },
-                            {
-                                "target_lang_word": "mordentado",
-                                "target_lang_sense_clarification": "madera y muebles"
+                                "target_lang_sense_clarification": "cabello, tejidos, madera"
                             }
                         ],
                         "zh": [
@@ -720,7 +720,7 @@
                         "en": [
                             {
                                 "target_lang_word": "dye",
-                                "target_lang_sense_clarification": "colour fabric or hair"
+                                "target_lang_sense_clarification": "3rd sg present: colour fabric or hair"
                             }
                         ],
                         "ru": [
@@ -736,23 +736,23 @@
                         "nl": [
                             {
                                 "target_lang_word": "verven",
-                                "target_lang_sense_clarification": "stof, haar of kleding"
+                                "target_lang_sense_clarification": "hij/zij verft, tegenwoordige tijd"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "färben",
-                                "target_lang_sense_clarification": "Haare, Kleidung"
+                                "target_lang_sense_clarification": "er/sie-Form Präsens, z. B. Haare"
                             },
                             {
                                 "target_lang_word": "einfärben",
-                                "target_lang_sense_clarification": "Stoffe, Textilien"
+                                "target_lang_sense_clarification": "er/sie-Form Präsens, Stoffe"
                             }
                         ],
                         "pl": [
                             {
                                 "target_lang_word": "farbować",
-                                "target_lang_sense_clarification": "tkaniny, włosy, ubrania"
+                                "target_lang_sense_clarification": "3. os. lp. czasu teraźniejszego"
                             },
                             {
                                 "target_lang_word": "barwić",
@@ -762,11 +762,11 @@
                         "it": [
                             {
                                 "target_lang_word": "tingere",
-                                "target_lang_sense_clarification": "tessuti, capelli"
+                                "target_lang_sense_clarification": "3ª pers. ind. presente: tinge"
                             },
                             {
                                 "target_lang_word": "colorare",
-                                "target_lang_sense_clarification": "stoffe, filati"
+                                "target_lang_sense_clarification": "3ª pers. ind. presente: colora"
                             }
                         ],
                         "cs": [
@@ -778,13 +778,13 @@
                         "tr": [
                             {
                                 "target_lang_word": "boyamak",
-                                "target_lang_sense_clarification": "kumaş, saç, giysi"
+                                "target_lang_sense_clarification": "3. tekil kişi, şimdiki zaman"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "teñir",
-                                "target_lang_sense_clarification": "cabello, prendas, tejidos"
+                                "target_lang_sense_clarification": "él/ella tiñe (presente)"
                             },
                             {
                                 "target_lang_word": "tintar",
@@ -794,11 +794,11 @@
                         "zh": [
                             {
                                 "target_lang_word": "染色",
-                                "target_lang_sense_clarification": "织物、头发"
+                                "target_lang_sense_clarification": "织物、头发，直陈式现在时他/她"
                             },
                             {
                                 "target_lang_word": "染",
-                                "target_lang_sense_clarification": "衣物、布料"
+                                "target_lang_sense_clarification": "给东西上色，直陈式现在时他/她"
                             }
                         ]
                     }
@@ -816,7 +816,7 @@
                             "target_lang_translations": {
                                 "en": "He has <w>dyed</w> all his white curtains a warmer shade.",
                                 "ru": "Он <w>покрасил</w> все свои белые шторы в более тёплый оттенок.",
-                                "nl": "Hij heeft al zijn witte gordijnen geverfd in een warmere tint.",
+                                "nl": "Hij heeft al zijn witte gordijnen <w>geverfd</w> in een warmere tint.",
                                 "de": "Er hat alle seine weißen Vorhänge in einem wärmeren Farbton <w>gefärbt</w>.",
                                 "pl": "<w>Ufarbował</w> wszystkie swoje białe zasłony w cieplejszym odcieniu.",
                                 "it": "Ha <w>tinto</w> tutte le sue tende bianche di una tonalità più calda.",
@@ -864,7 +864,7 @@
                         "en": [
                             {
                                 "target_lang_word": "dye",
-                                "target_lang_sense_clarification": "colour fabric or hair"
+                                "target_lang_sense_clarification": "past participle: colour fabric or hair"
                             }
                         ],
                         "ru": [
@@ -880,17 +880,17 @@
                         "nl": [
                             {
                                 "target_lang_word": "verven",
-                                "target_lang_sense_clarification": "gordijnen, wol of garen"
+                                "target_lang_sense_clarification": "geverfd, voltooid deelwoord"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "färben",
-                                "target_lang_sense_clarification": "Wolle, Garn"
+                                "target_lang_sense_clarification": "Partizip Perfekt, z. B. Wolle"
                             },
                             {
                                 "target_lang_word": "einfärben",
-                                "target_lang_sense_clarification": "Vorhänge, Textilien"
+                                "target_lang_sense_clarification": "Partizip Perfekt, Textilien"
                             }
                         ],
                         "pl": [
@@ -900,17 +900,17 @@
                             },
                             {
                                 "target_lang_word": "farbować",
-                                "target_lang_sense_clarification": "wełna, przędza"
+                                "target_lang_sense_clarification": "imiesłów bierny: ufarbowany"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "tingere",
-                                "target_lang_sense_clarification": "tessuti, tende, lana"
+                                "target_lang_sense_clarification": "participio passato: tinto"
                             },
                             {
                                 "target_lang_word": "colorare",
-                                "target_lang_sense_clarification": "stoffe, filati"
+                                "target_lang_sense_clarification": "participio passato: colorato"
                             }
                         ],
                         "cs": [
@@ -922,23 +922,23 @@
                         "tr": [
                             {
                                 "target_lang_word": "boyamak",
-                                "target_lang_sense_clarification": "yün, perde, kumaş"
+                                "target_lang_sense_clarification": "geçmiş zaman ortacı (boyamış)"
                             }
                         ],
                         "es": [
                             {
                                 "target_lang_word": "teñir",
-                                "target_lang_sense_clarification": "tejidos, lana, cortinas"
+                                "target_lang_sense_clarification": "participio: teñido"
                             }
                         ],
                         "zh": [
                             {
                                 "target_lang_word": "染",
-                                "target_lang_sense_clarification": "窗帘、羊毛"
+                                "target_lang_sense_clarification": "给东西上色，过去分词"
                             },
                             {
                                 "target_lang_word": "染色",
-                                "target_lang_sense_clarification": "完成的染色动作"
+                                "target_lang_sense_clarification": "织物、头发，过去分词"
                             }
                         ]
                     }

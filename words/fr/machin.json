@@ -206,7 +206,7 @@
                                 "it": "Non vorrai davvero indossare questo <w>coso</w> per andare al lavoro?",
                                 "cs": "Ty snad nechceš tenhle <w>krám</w> nosit do práce?",
                                 "tr": "Bu <w>şeyi</w> işe giderken giymeyi gerçekten düşünmüyorsun, değil mi?",
-                                "es": "¿De verdad no vas a ponerte ese <w>trasto</w> para ir al trabajo?",
+                                "es": "No irás a ponerte ese <w>adefesio</w> para ir al trabajo, ¿no?",
                                 "zh": "你该不会真要穿这个<w>玩意儿</w>去上班吧？"
                             }
                         },
@@ -523,11 +523,11 @@
                         {
                             "text": "J'ai croisé <w>Machin</w> hier au marché, mais impossible de me rappeler son prénom.",
                             "target_lang_translations": {
-                                "en": "I ran into <w>so-and-so</w> at the market yesterday, but I couldn't remember his first name.",
-                                "ru": "Вчера на рынке я встретил <w>такого-то</w>, но никак не могу вспомнить его имя.",
+                                "en": "I ran into <w>what's-his-name</w> at the market yesterday, but I couldn't remember his first name.",
+                                "ru": "Вчера на рынке я встретил <w>этого, как его там</w>, но никак не могу вспомнить его имя.",
                                 "nl": "Gisteren kwam ik op de markt <w>die-en-die</w> tegen, maar zijn voornaam kon ik me niet herinneren.",
                                 "de": "Gestern auf dem Markt habe ich Herrn <w>Soundso</w> getroffen, aber an seinen Vornamen konnte ich mich nicht erinnern.",
-                                "pl": "Wczoraj na targu spotkałem pana <w>Kowalskiego</w>, ale nie mogłem sobie przypomnieć jego imienia.",
+                                "pl": "Wczoraj na targu spotkałem tego, <w>jak mu tam</w>, ale nie mogłem sobie przypomnieć jego imienia.",
                                 "it": "Ieri al mercato ho incontrato <w>Tizio</w>, ma non riuscivo proprio a ricordarmi il suo nome di battesimo.",
                                 "cs": "Včera jsem na trhu potkal <w>toho a toho</w>, ale jeho křestní jméno mi vypadlo z hlavy.",
                                 "tr": "Dün pazarda <w>Filan</w> Bey'le karşılaştım, ama adını bir türlü hatırlayamadım.",
@@ -539,10 +539,10 @@
                             "text": "Tu devrais demander conseil à <w>Machin</w>, car il s'y connaît très bien.",
                             "target_lang_translations": {
                                 "en": "You should ask <w>so-and-so</w> for advice, since he really knows his stuff.",
-                                "ru": "Тебе стоит спросить совета у <w>такого-то</w>, он в этом очень хорошо разбирается.",
+                                "ru": "Тебе стоит спросить совета у <w>этого, как его там</w>: он в этом очень хорошо разбирается.",
                                 "nl": "Je zou bij <w>die-en-die</w> om advies moeten vragen, want hij weet er heel goed van.",
                                 "de": "Du solltest Herrn <w>Soundso</w> um Rat fragen, denn er kennt sich damit sehr gut aus.",
-                                "pl": "Powinieneś zapytać pana <w>Kowalskiego</w> o radę, bo naprawdę się na tym zna.",
+                                "pl": "Powinieneś zapytać o radę tego, <w>jak mu tam</w>, bo naprawdę się na tym zna.",
                                 "it": "Dovresti chiedere consiglio a <w>Tizio</w>, perché se ne intende davvero.",
                                 "cs": "Měl bys <w>toho a toho</w> požádat o radu, protože se v tom opravdu vyzná.",
                                 "tr": "<w>Filan</w> Bey'e danışmalısın, çünkü o bu konuda gerçekten işinin ehlidir.",
@@ -575,8 +575,12 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "what's-his-name",
+                                "target_lang_sense_clarification": "person whose name escapes you"
+                            },
+                            {
                                 "target_lang_word": "thingy",
-                                "target_lang_sense_clarification": "informal; person whose name escapes"
+                                "target_lang_sense_clarification": "informal, person whose name escapes"
                             },
                             {
                                 "target_lang_word": "so-and-so",
@@ -585,12 +589,12 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "имярек",
-                                "target_lang_sense_clarification": "официально; неизвестное лицо"
+                                "target_lang_word": "как его там",
+                                "target_lang_sense_clarification": "разговорное: забыл имя"
                             },
                             {
                                 "target_lang_word": "такой-то",
-                                "target_lang_sense_clarification": "разговорное; забытое имя"
+                                "target_lang_sense_clarification": "подставное имя"
                             }
                         ],
                         "nl": [
@@ -617,7 +621,12 @@
                                 "target_lang_sense_clarification": "Platzhalter; meist mit Herr"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "jak mu tam",
+                                "target_lang_sense_clarification": "o osobie, której imienia się nie pamięta"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "tizio",

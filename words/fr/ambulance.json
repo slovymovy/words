@@ -187,7 +187,7 @@
                         {
                             "text": "Cette <w>ambulance</w> militaire se déplaçait avec la division pour soigner les soldats.",
                             "target_lang_translations": {
-                                "en": "This <w>military field hospital</w> moved with the division to treat the soldiers.",
+                                "en": "This military <w>field hospital</w> moved with the division to treat the soldiers.",
                                 "ru": "Этот военный <w>полевой госпиталь</w> следовал вместе с дивизией, чтобы лечить солдат.",
                                 "nl": "Dit militaire <w>veldhospitaal</w> verplaatste zich met de divisie om de soldaten te verzorgen.",
                                 "de": "Dieses militärische <w>Feldlazarett</w> folgte der Division, um die Soldaten zu versorgen.",
@@ -332,7 +332,7 @@
                             "text": "Pendant le siège de Paris, plusieurs théâtres furent transformés en <w>ambulances</w>.",
                             "target_lang_translations": {
                                 "en": "During the siege of Paris, several theatres were converted into <w>makeshift hospitals</w>.",
-                                "ru": "Во время осады Парижа несколько театров были переоборудованы в <w>временные госпитали</w>.",
+                                "ru": "Во время осады Парижа несколько театров были переоборудованы во <w>временные госпитали</w>.",
                                 "nl": "Tijdens het beleg van Parijs werden meerdere theaters omgebouwd tot <w>noodhospitalen</w>.",
                                 "de": "Während der Belagerung von Paris wurden mehrere Theater zu <w>Notlazaretten</w> umgebaut.",
                                 "pl": "Podczas oblężenia Paryża kilka teatrów przerobiono na <w>szpitale tymczasowe</w>.",
@@ -346,13 +346,13 @@
                         {
                             "text": "Face à l'épidémie soudaine, plusieurs médecins ont ouvert une <w>ambulance</w> provisoire au centre du village.",
                             "target_lang_translations": {
-                                "en": "Faced with the sudden epidemic, several doctors set up a <w>temporary first-aid post</w> in the centre of the village.",
+                                "en": "Faced with the sudden epidemic, several doctors set up a temporary <w>first-aid post</w> in the centre of the village.",
                                 "ru": "Столкнувшись с внезапной эпидемией, несколько врачей открыли временный <w>медпункт</w> в центре деревни.",
                                 "nl": "Toen de plotselinge epidemie uitbrak, openden meerdere artsen een tijdelijke <w>EHBO-post</w> in het centrum van het dorp.",
                                 "de": "Angesichts der plötzlich auftretenden Epidemie richteten mehrere Ärzte im Ortszentrum eine provisorische <w>Sanitätsstation</w> ein.",
                                 "pl": "Wobec nagłej epidemii kilku lekarzy otworzyło w centrum wsi tymczasowy <w>punkt opatrunkowy</w>.",
                                 "it": "Di fronte all'improvvisa epidemia, diversi medici hanno aperto un <w>posto di soccorso</w> provvisorio nel centro del villaggio.",
-                                "cs": "Vzhledem k náhlé epidemii zřídilo několik lékařů v centru vesnice <w>provizorní ošetřovnu</w>.",
+                                "cs": "Vzhledem k náhlé epidemii zřídilo několik lékařů v centru vesnice provizorní <w>ošetřovnu</w>.",
                                 "tr": "Ani salgın karşısında birkaç doktor köyün merkezinde geçici bir <w>ilk yardım noktası</w> açtı.",
                                 "es": "Ante la repentina epidemia, varios médicos abrieron un <w>puesto de socorro</w> provisional en el centro del pueblo.",
                                 "zh": "面对突如其来的疫情，几位医生在村子中心设立了一个临时<w>救护站</w>。"
@@ -498,7 +498,7 @@
                                 "pl": "Ten młody urzędnik otrzymał na początku kariery <w>stanowisko terenowe</w> w administracji skarbowej.",
                                 "it": "Questo giovane impiegato ha ottenuto un <w>posto itinerante</w> nell'amministrazione fiscale all'inizio della carriera.",
                                 "cs": "Tento mladý úředník získal na začátku kariéry ve finanční správě <w>pochůzkovou funkci</w>.",
-                                "tr": "Bu genç memur, kariyerinin başında vergi idaresinde gezici bir görev elde etti.",
+                                "tr": "Bu genç memur, kariyerinin başında vergi idaresinde bir <w>gezici görev</w> elde etti.",
                                 "es": "Este joven auxiliar administrativo consiguió al inicio de su carrera un <w>cargo itinerante</w> en la administración tributaria.",
                                 "zh": "这位年轻的办事员在职业生涯之初，就在税务部门谋得一个<w>外勤</w>职位。"
                             }
@@ -513,7 +513,7 @@
                                 "pl": "Jego <w>stanowisko terenowe</w> wymagało częstych podróży po całym departamencie.",
                                 "it": "Il suo <w>lavoro itinerante</w> gli imponeva frequenti spostamenti in tutto il dipartimento.",
                                 "cs": "Jeho <w>pochůzková funkce</w> ho nutila k častým cestám po celém departementu.",
-                                "tr": "Gezici görevi, bütün il boyunca sık sık seyahat etmesini gerektiriyordu.",
+                                "tr": "<w>Gezici görevi</w>, bütün il boyunca sık sık seyahat etmesini gerektiriyordu.",
                                 "es": "Su <w>cargo itinerante</w> le obligaba a realizar frecuentes desplazamientos por todo el departamento.",
                                 "zh": "他的<w>外勤</w>工作迫使他经常奔波于全省各地。"
                             }
@@ -538,14 +538,24 @@
                         "zh": "需要在多个地点之间往返办公的公务员职位或岗位。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "roving post",
+                                "target_lang_sense_clarification": "itinerant civil-service job"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "разъездная должность",
                                 "target_lang_sense_clarification": "чиновник, частые командировки"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "ambulante functie",
+                                "target_lang_sense_clarification": "ambtenaar zonder vaste standplaats"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "Außendienst",
@@ -558,9 +568,19 @@
                                 "target_lang_sense_clarification": "urzędnik, częste wyjazdy służbowe"
                             }
                         ],
-                        "it": [],
+                        "it": [
+                            {
+                                "target_lang_word": "incarico itinerante",
+                                "target_lang_sense_clarification": "impiego pubblico con spostamenti"
+                            }
+                        ],
                         "cs": [],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "gezici görev",
+                                "target_lang_sense_clarification": "memurun dolaşarak yaptığı iş"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "cargo itinerante",

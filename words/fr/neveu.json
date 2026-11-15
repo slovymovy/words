@@ -97,7 +97,7 @@
                         "it": [
                             {
                                 "target_lang_word": "nipote",
-                                "target_lang_sense_clarification": "parentela di sangue, maschile"
+                                "target_lang_sense_clarification": "figlio del fratello o della sorella"
                             }
                         ],
                         "cs": [
@@ -109,7 +109,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "yeğen",
-                                "target_lang_sense_clarification": "aile ilişkisi, erkek"
+                                "target_lang_sense_clarification": "kardeşin oğlu"
                             }
                         ],
                         "es": [
@@ -157,7 +157,7 @@
                             "text": "Il considère le fils de sa belle-sœur comme son propre <w>neveu</w>.",
                             "target_lang_translations": {
                                 "en": "He regards his sister-in-law's son as his own <w>nephew</w>.",
-                                "ru": "Он считает сына своей золовки своим собственным <w>племянником</w>.",
+                                "ru": "Он считает сына своей свояченицы своим собственным <w>племянником</w>.",
                                 "nl": "Hij beschouwt de zoon van zijn schoonzus als zijn eigen <w>neef</w>.",
                                 "de": "Er betrachtet den Sohn seiner Schwägerin als seinen eigenen <w>Neffen</w>.",
                                 "pl": "Uważa syna swojej szwagierki za własnego <w>bratanka</w>.",
@@ -165,7 +165,7 @@
                                 "cs": "Syna své švagrové považuje za vlastního <w>synovce</w>.",
                                 "tr": "Yengesinin oğlunu kendi <w>yeğeni</w> gibi görür.",
                                 "es": "Considera al hijo de su cuñada como su propio <w>sobrino</w>.",
-                                "zh": "他把嫂子的儿子看作自己的<w>侄子</w>。"
+                                "zh": "他把妻子姐妹的儿子看作自己的亲<w>外甥</w>。"
                             }
                         }
                     ],
@@ -220,8 +220,18 @@
                                 "target_lang_sense_clarification": "parentela per affinità, da matrimonio"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "synovec",
+                                "target_lang_sense_clarification": "manžel neteře, syn švagra či švagrové"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yeğen",
+                                "target_lang_sense_clarification": "evlilik yoluyla yeğen"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "sobrino político",
@@ -231,15 +241,15 @@
                         "zh": [
                             {
                                 "target_lang_word": "侄女婿",
-                                "target_lang_sense_clarification": "侄女的丈夫，姻亲关系"
+                                "target_lang_sense_clarification": "侄女的丈夫"
                             },
                             {
                                 "target_lang_word": "外甥女婿",
-                                "target_lang_sense_clarification": "外甥女的丈夫，姻亲关系"
+                                "target_lang_sense_clarification": "外甥女的丈夫"
                             },
                             {
-                                "target_lang_word": "侄子",
-                                "target_lang_sense_clarification": "嫂子或弟媳之子"
+                                "target_lang_word": "内侄",
+                                "target_lang_sense_clarification": "妻子兄弟的儿子"
                             }
                         ]
                     }
@@ -270,15 +280,15 @@
                         {
                             "text": "Toute la famille élargie était réunie, y compris mon <w>neveu</w> issu de germains.",
                             "target_lang_translations": {
-                                "en": "The entire extended family was gathered there, including my <w>nephew</w>, the son of a second cousin.",
-                                "ru": "Вся большая семья собралась вместе, в том числе мой <w>троюродный племянник</w>, сын троюродного брата.",
+                                "en": "The entire extended family was gathered there, including my <w>nephew</w>, the son of a first cousin.",
+                                "ru": "Вся большая семья собралась вместе, в том числе мой <w>двоюродный племянник</w>.",
                                 "nl": "De hele uitgebreide familie was daar samengekomen, inclusief mijn <w>neef</w>, de zoon van een volle neef.",
                                 "de": "Die ganze Großfamilie war versammelt, darunter auch mein <w>Neffe</w> zweiten Grades.",
-                                "pl": "Cała rozległa rodzina była zebrana, w tym mój <w>syn kuzyna pierwszego stopnia</w>.",
+                                "pl": "Cała dalsza rodzina była w komplecie, w tym <w>syn</w> mojego <w>kuzyna</w>.",
                                 "it": "Tutta la famiglia allargata era riunita, compreso mio <w>nipote</w>, figlio di un cugino primo.",
                                 "cs": "Celá široká rodina se sešla, včetně mého <w>synovce</w>, syna vzdáleného bratrance.",
                                 "tr": "Bütün geniş aile toplanmıştı; bunların arasında birinci derece kuzenimin oğlu olan <w>yeğenim</w> de vardı.",
-                                "es": "Toda la familia extensa estaba reunida, incluido mi <w>sobrino</w>, hijo de un primo segundo.",
+                                "es": "Toda la familia extensa estaba reunida, incluido mi <w>sobrino segundo</w>.",
                                 "zh": "整个大家族都到齐了，其中就有我的<w>表侄</w>。"
                             }
                         }
@@ -311,7 +321,12 @@
                                 "target_lang_sense_clarification": "региональное употребление, родня"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "achterneef",
+                                "target_lang_sense_clarification": "zoon van een neef of nicht"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "Neffe",
@@ -324,9 +339,24 @@
                                 "target_lang_sense_clarification": "opisowo, regionalnie"
                             }
                         ],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
+                        "it": [
+                            {
+                                "target_lang_word": "nipote",
+                                "target_lang_sense_clarification": "figlio di un cugino o di una cugina"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "synovec",
+                                "target_lang_sense_clarification": "syn bratrance nebo sestřenice, regionálně"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "yeğen",
+                                "target_lang_sense_clarification": "kuzenin oğlu"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "sobrino segundo",
@@ -715,7 +745,7 @@
                                 "nl": "De oude koning vermaakte zijn land aan zijn <w>kleinzoon</w>, die in feite zijn directe kleinzoon was.",
                                 "de": "Der alte König vermachte seinem <w>Enkel</w> sein Land, der in Wahrheit sein direkter Enkel war.",
                                 "pl": "Stary król przekazał w testamencie swoją ziemię swojemu <w>wnukowi</w>, który w rzeczywistości był jego bezpośrednim wnukiem.",
-                                "it": "Il vecchio re lasciò in eredità la sua terra al <w>nipote</w>, che era in realtà suo diretto nipote.",
+                                "it": "Il vecchio re lasciò in eredità la sua terra al <w>nipote</w>, che era in realtà figlio di suo figlio.",
                                 "cs": "Starý král odkázal svou zemi svému <w>vnukovi</w>, který byl ve skutečnosti jeho přímým vnukem.",
                                 "tr": "Yaşlı kral toprağını, aslında doğrudan torunu olan <w>torununa</w> vasiyet etti.",
                                 "es": "El viejo rey legó su tierra a su <w>nieto</w>, que en realidad era su nieto directo.",
@@ -789,7 +819,7 @@
                         "it": [
                             {
                                 "target_lang_word": "nipote",
-                                "target_lang_sense_clarification": "parentela diretta, uso comune"
+                                "target_lang_sense_clarification": "figlio del figlio o della figlia"
                             },
                             {
                                 "target_lang_word": "nipotino",

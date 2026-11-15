@@ -803,7 +803,7 @@
                                 "de": "Das Museum zeigt mehrere Stoffe, die aus <w>unbearbeitetem</w> Hanf gewebt sind.",
                                 "pl": "Muzeum prezentuje kilka tkanin utkanych z <w>surowych</w> konopi.",
                                 "it": "Il museo espone diversi tessuti ricavati da canapa <w>grezza</w>.",
-                                "cs": "Muzeum vystavuje několik látek utkaných ze <w>nezpracovaného</w> konopí.",
+                                "cs": "Muzeum vystavuje několik látek utkaných z <w>nezpracovaného</w> konopí.",
                                 "tr": "Müze, <w>işlenmemiş</w> kenevirden dokunmuş birkaç kumaşı sergiliyor.",
                                 "es": "El museo expone varias telas tejidas a partir de cáñamo <w>crudo</w>.",
                                 "zh": "博物馆展出了几件用<w>未加工</w>的大麻纤维织成的布料。"
@@ -1101,9 +1101,9 @@
                         {
                             "text": "Nous avons ouvert une bouteille d'un excellent <w>cru</w> pour célébrer son départ.",
                             "target_lang_translations": {
-                                "en": "We opened a bottle of an excellent <w>growth</w> to celebrate his departure.",
+                                "en": "We opened a bottle of excellent <w>wine</w> to celebrate his departure.",
                                 "ru": "Мы открыли бутылку превосходного <w>крю</w>, чтобы отпраздновать его отъезд.",
-                                "nl": "We hebben een fles <w>grand cru</w> van uitstekende kwaliteit opengemaakt om zijn vertrek te vieren.",
+                                "nl": "We hebben een fles van een uitstekende <w>cru</w> opengemaakt om zijn vertrek te vieren.",
                                 "de": "Wir haben eine Flasche eines ausgezeichneten <w>Gewächses</w> geöffnet, um seinen Abschied zu feiern.",
                                 "pl": "Otworzyliśmy butelkę znakomitego <w>wina z renomowanej winnicy</w>, by uczcić jego wyjazd.",
                                 "it": "Abbiamo stappato una bottiglia di un ottimo <w>cru</w> per festeggiare la sua partenza.",
@@ -1116,9 +1116,9 @@
                         {
                             "text": "Ce restaurateur passionné propose les meilleurs <w>crus</w> de la région dans sa cave.",
                             "target_lang_translations": {
-                                "en": "This passionate restaurateur stocks the finest <w>growths</w> from the region in his cellar.",
+                                "en": "This passionate restaurateur stocks the region's finest <w>wines</w> in his cellar.",
                                 "ru": "Этот увлечённый ресторатор предлагает в своём погребе лучшие <w>крю</w> региона.",
-                                "nl": "Deze gepassioneerde restaurateur biedt in zijn kelder de beste <w>grands crus</w> uit de streek aan.",
+                                "nl": "Deze gepassioneerde restaurateur biedt in zijn kelder de beste <w>crus</w> uit de streek aan.",
                                 "de": "Dieser leidenschaftliche Gastronom bietet in seinem Keller die besten <w>Gewächse</w> der Region an.",
                                 "pl": "Ten zapalony restaurator oferuje w swojej piwnicy najlepsze <w>wina z renomowanych winnic</w> regionu.",
                                 "it": "Questo ristoratore appassionato propone nella sua cantina i migliori <w>cru</w> della regione.",
@@ -1148,8 +1148,16 @@
                     "translations": {
                         "en": [
                             {
+                                "target_lang_word": "wine",
+                                "target_lang_sense_clarification": "fine wine from a named vineyard"
+                            },
+                            {
+                                "target_lang_word": "cru",
+                                "target_lang_sense_clarification": "classified vineyard wine"
+                            },
+                            {
                                 "target_lang_word": "growth",
-                                "target_lang_sense_clarification": "classified wine from a vineyard"
+                                "target_lang_sense_clarification": "classified wine, as in 'first growth'"
                             }
                         ],
                         "ru": [
@@ -1160,8 +1168,8 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "grand cru",
-                                "target_lang_sense_clarification": "Franse wijn met klassering"
+                                "target_lang_word": "cru",
+                                "target_lang_sense_clarification": "wijn uit een afgebakend wijngebied"
                             }
                         ],
                         "de": [
@@ -1195,7 +1203,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "tek bağ şarabı",
-                                "target_lang_sense_clarification": "Bordo, Burgonya şarapları"
+                                "target_lang_sense_clarification": "bordo, Burgonya şarapları"
                             }
                         ],
                         "es": [
@@ -1244,7 +1252,7 @@
                                 "de": "Diese originelle Soße ist meine <w>Eigenkreation</w>, ich hoffe, sie schmeckt Ihnen.",
                                 "pl": "Ten oryginalny sos jest <w>mojej roboty</w>, mam nadzieję, że państwu posmakuje.",
                                 "it": "Questa salsa originale è una mia <w>creazione</w>, spero che vi piaccia.",
-                                "cs": "Tato originální omáčka je z mého <w>výtvoru</w>, doufám, že vám bude chutnat.",
+                                "cs": "Tato originální omáčka je můj vlastní <w>výtvor</w>, doufám, že vám bude chutnat.",
                                 "tr": "Bu özgün sos tamamen benim <w>icadım</w>, umarım beğenirsiniz.",
                                 "es": "Esta salsa original es de mi <w>creación</w>, espero que les guste.",
                                 "zh": "这款独特的酱汁是我自己的<w>作品</w>，希望你们会喜欢。"
@@ -1568,10 +1576,10 @@
                                 "ru": "Все кандидаты <w>выпуска</w> 2024 года получили отличные результаты на экзаменах.",
                                 "nl": "De kandidaten van de <w>lichting</w> 2024 hebben allemaal uitstekende examenresultaten behaald.",
                                 "de": "Die Prüflinge des <w>Jahrgangs</w> 2024 haben alle hervorragende Prüfungsergebnisse erzielt.",
-                                "pl": "Wszyscy kandydaci z <w>promocji</w> 2024 uzyskali znakomite wyniki na egzaminach.",
-                                "it": "I candidati della <w>promozione</w> 2024 hanno tutti ottenuto ottimi risultati agli esami.",
+                                "pl": "Wszyscy kandydaci z <w>rocznika</w> 2024 uzyskali znakomite wyniki na egzaminach.",
+                                "it": "I candidati dell'<w>annata</w> 2024 hanno tutti ottenuto ottimi risultati agli esami.",
                                 "cs": "Všichni uchazeči <w>ročníku</w> 2024 dosáhli výborných výsledků u zkoušek.",
-                                "tr": "<w>2024 kuşağından</w> olan adayların hepsi sınavlarda mükemmel sonuçlar aldı.",
+                                "tr": "2024 <w>kuşağından</w> olan adayların hepsi sınavlarda mükemmel sonuçlar aldı.",
                                 "es": "Los candidatos de la <w>promoción</w> 2024 obtuvieron todos excelentes resultados en los exámenes.",
                                 "zh": "2024<w>届</w>的考生都在考试中取得了优异的成绩。"
                             }
@@ -1647,18 +1655,14 @@
                                 "target_lang_sense_clarification": "zbiór, produkcja roczna"
                             },
                             {
-                                "target_lang_word": "promocja",
-                                "target_lang_sense_clarification": "absolwenci danego roku"
+                                "target_lang_word": "edycja",
+                                "target_lang_sense_clarification": "festiwalu lub konkursu danego roku"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "annata",
-                                "target_lang_sense_clarification": "produzione di un anno"
-                            },
-                            {
-                                "target_lang_word": "promozione",
-                                "target_lang_sense_clarification": "studenti diplomati nello stesso anno"
+                                "target_lang_sense_clarification": "produzione o risultati di un anno"
                             }
                         ],
                         "cs": [

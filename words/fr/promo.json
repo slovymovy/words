@@ -19,10 +19,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "J'ai acheté ce manteau d'hiver parce qu'il était en <w>promo</w>."
+                            "text": "J'ai acheté ce manteau d'hiver parce qu'il était en <w>promo</w>.",
+                            "target_lang_translations": {
+                                "en": "I bought this winter coat because it was on <w>sale</w>.",
+                                "ru": "Я купил это зимнее пальто, потому что оно было <w>по акции</w>.",
+                                "nl": "Ik heb deze winterjas gekocht omdat hij in de <w>aanbieding</w> was.",
+                                "de": "Ich habe diesen Wintermantel gekauft, weil er im <w>Sonderangebot</w> war.",
+                                "pl": "Kupiłem ten zimowy płaszcz, bo był w <w>promocji</w>.",
+                                "it": "Ho comprato questo cappotto invernale perché era in <w>offerta</w>.",
+                                "cs": "Koupil jsem tento zimní kabát, protože byl v <w>akci</w>.",
+                                "tr": "Bu kışlık montu <w>indirimde</w> olduğu için aldım.",
+                                "es": "Compré este abrigo de invierno porque estaba de <w>oferta</w>.",
+                                "zh": "我买了这件冬季大衣，因为它是<w>特价</w>商品。"
+                            }
                         },
                         {
-                            "text": "Ce supermarché propose une belle <w>promo</w> sur les produits laitiers cette semaine."
+                            "text": "Ce supermarché propose une belle <w>promo</w> sur les produits laitiers cette semaine.",
+                            "target_lang_translations": {
+                                "en": "This supermarket has a great <w>special offer</w> on dairy products this week.",
+                                "ru": "На этой неделе в этом супермаркете отличная <w>акция</w> на молочные продукты.",
+                                "nl": "Deze supermarkt biedt deze week een mooie <w>aanbieding</w> op zuivelproducten.",
+                                "de": "Dieser Supermarkt bietet diese Woche ein tolles <w>Sonderangebot</w> auf Milchprodukte an.",
+                                "pl": "Ten supermarket w tym tygodniu ma świetną <w>promocję</w> na produkty mleczne.",
+                                "it": "Questa settimana questo supermercato propone una bella <w>offerta</w> sui latticini.",
+                                "cs": "Tento týden nabízí tento supermarket skvělou <w>akci</w> na mléčné výrobky.",
+                                "tr": "Bu süpermarket bu hafta süt ürünlerinde güzel bir <w>indirim</w> yapıyor.",
+                                "es": "Este supermercado ofrece una buena <w>oferta</w> en productos lácteos esta semana.",
+                                "zh": "这家超市本周在乳制品上推出了不错的<w>折扣</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -41,7 +65,145 @@
                             "trait_type": "colloquial",
                             "comment": "registre familier"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A temporary commercial offer giving a reduced price on a product or service.",
+                        "ru": "Временное коммерческое предложение со сниженной ценой на товар или услугу.",
+                        "nl": "Tijdelijke commerciële aanbieding met een lagere prijs voor een product of dienst.",
+                        "de": "Zeitlich begrenztes Angebot mit reduziertem Preis für ein Produkt oder eine Dienstleistung.",
+                        "pl": "Tymczasowa oferta handlowa z obniżoną ceną produktu lub usługi.",
+                        "it": "Offerta commerciale temporanea con prezzo ridotto su un prodotto o un servizio.",
+                        "cs": "Dočasná obchodní nabídka se sníženou cenou výrobku nebo služby.",
+                        "tr": "Belirli bir süre için ürün veya hizmetin satış fiyatında uygulanan indirimli teklif. Konuşma dilinde kullanılır.",
+                        "es": "Oferta comercial temporal con rebaja en el precio de venta de un producto o servicio. Es un término coloquial.",
+                        "zh": "临时性的商业优惠，以较低价格出售商品或服务。口语中常用。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "discount",
+                                "target_lang_sense_clarification": "temporary reduced price"
+                            },
+                            {
+                                "target_lang_word": "special offer",
+                                "target_lang_sense_clarification": "limited-time retail deal"
+                            },
+                            {
+                                "target_lang_word": "promotion",
+                                "target_lang_sense_clarification": "temporary retail price cut"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "акция",
+                                "target_lang_sense_clarification": "акционная цена в магазине"
+                            },
+                            {
+                                "target_lang_word": "скидка",
+                                "target_lang_sense_clarification": "снижение цены при покупке"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "aanbieding",
+                                "target_lang_sense_clarification": "tijdelijke lagere prijs in winkel"
+                            },
+                            {
+                                "target_lang_word": "actie",
+                                "target_lang_sense_clarification": "tijdelijke verkoopactie van winkel"
+                            },
+                            {
+                                "target_lang_word": "korting",
+                                "target_lang_sense_clarification": "prijsverlaging bij aankoop"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Sonderangebot",
+                                "target_lang_sense_clarification": "zeitlich begrenzter Preisvorteil im Handel"
+                            },
+                            {
+                                "target_lang_word": "Aktion",
+                                "target_lang_sense_clarification": "Preisaktion im Einzelhandel"
+                            },
+                            {
+                                "target_lang_word": "Rabatt",
+                                "target_lang_sense_clarification": "Preisnachlass beim Einkauf"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "promocja",
+                                "target_lang_sense_clarification": "czasowa obniżka cen w sklepie"
+                            },
+                            {
+                                "target_lang_word": "przecena",
+                                "target_lang_sense_clarification": "obniżona cena towaru w sklepie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "offerta",
+                                "target_lang_sense_clarification": "prezzo ribassato in negozio"
+                            },
+                            {
+                                "target_lang_word": "promozione",
+                                "target_lang_sense_clarification": "sconto temporaneo nei negozi"
+                            },
+                            {
+                                "target_lang_word": "sconto",
+                                "target_lang_sense_clarification": "riduzione di prezzo al cliente"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "akce",
+                                "target_lang_sense_clarification": "zlevněné zboží v obchodě"
+                            },
+                            {
+                                "target_lang_word": "sleva",
+                                "target_lang_sense_clarification": "snížení ceny při nákupu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "indirim",
+                                "target_lang_sense_clarification": "market ve mağaza indirimi"
+                            },
+                            {
+                                "target_lang_word": "kampanya",
+                                "target_lang_sense_clarification": "perakende satış kampanyası"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "oferta",
+                                "target_lang_sense_clarification": "precio rebajado en tienda"
+                            },
+                            {
+                                "target_lang_word": "rebaja",
+                                "target_lang_sense_clarification": "reducción temporal del precio"
+                            },
+                            {
+                                "target_lang_word": "promoción",
+                                "target_lang_sense_clarification": "campaña de precios reducidos"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "特价",
+                                "target_lang_sense_clarification": "限时的低价商品"
+                            },
+                            {
+                                "target_lang_word": "折扣",
+                                "target_lang_sense_clarification": "按比例减去的价格"
+                            },
+                            {
+                                "target_lang_word": "优惠",
+                                "target_lang_sense_clarification": "让利给顾客的价格"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "c51b2e04-92ba-36dd-9ac1-2cad7318c3e9",
@@ -52,10 +214,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "L'acteur participe à cette émission pour assurer la <w>promo</w> de son nouveau film."
+                            "text": "L'acteur participe à cette émission pour assurer la <w>promo</w> de son nouveau film.",
+                            "target_lang_translations": {
+                                "en": "The actor is appearing on this show to handle the <w>publicity</w> for his new film.",
+                                "ru": "Актёр участвует в этой передаче, чтобы заниматься <w>раскруткой</w> своего нового фильма.",
+                                "nl": "De acteur doet mee aan dit programma om de <w>publiciteit</w> voor zijn nieuwe film te verzorgen.",
+                                "de": "Der Schauspieler nimmt an dieser Sendung teil, um für seinen neuen Film die <w>Werbung</w> zu machen.",
+                                "pl": "Aktor występuje w tym programie, żeby zadbać o <w>promocję</w> swojego nowego filmu.",
+                                "it": "L'attore partecipa a questa trasmissione per curare la <w>promozione</w> del suo nuovo film.",
+                                "cs": "Herec vystupuje v této relaci, aby zajistil <w>propagaci</w> svého nového filmu.",
+                                "tr": "Oyuncu, yeni filminin <w>tanıtımını</w> yapmak için bu programa katılıyor.",
+                                "es": "El actor participa en este programa para encargarse de la <w>promoción</w> de su nueva película.",
+                                "zh": "这位演员参加这档节目，是为了给他的新电影做<w>宣传</w>。"
+                            }
                         },
                         {
-                            "text": "Le groupe de musique commence une intense campagne de <w>promo</w> avant sa tournée."
+                            "text": "Le groupe de musique commence une intense campagne de <w>promo</w> avant sa tournée.",
+                            "target_lang_translations": {
+                                "en": "The band is starting an intense <w>publicity</w> campaign before its tour.",
+                                "ru": "Музыкальная группа начинает интенсивную кампанию <w>раскрутки</w> перед гастролями.",
+                                "nl": "De muziekgroep begint voor hun tournee met een intensieve <w>publiciteitscampagne</w>.",
+                                "de": "Die Band startet vor ihrer Tournee eine intensive <w>Werbekampagne</w>.",
+                                "pl": "Zespół muzyczny rozpoczyna intensywną kampanię <w>promocyjną</w> przed trasą koncertową.",
+                                "it": "Il gruppo musicale inizia un'intensa campagna di <w>promozione</w> prima della tournée.",
+                                "cs": "Hudební skupina před turné zahajuje intenzivní <w>propagační kampaň</w>.",
+                                "tr": "Müzik grubu, turnesinden önce yoğun bir <w>tanıtım</w> kampanyası başlatıyor.",
+                                "es": "El grupo musical comienza una intensa campaña de <w>promoción</w> antes de su gira.",
+                                "zh": "这支乐队在巡演前开始了一轮密集的<w>宣传</w>活动。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -71,7 +257,141 @@
                             "trait_type": "colloquial",
                             "comment": "registre familier"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A publicity campaign or media effort to promote an artist, work or project.",
+                        "ru": "Рекламная кампания или медийные усилия, направленные на известность артиста, произведения или проекта.",
+                        "nl": "Reclame- of mediacampagne om een artiest, werk of project bekendheid te geven.",
+                        "de": "Werbe- oder Medienkampagne, mit der ein Künstler, ein Werk oder ein Projekt bekannt gemacht wird.",
+                        "pl": "Kampania reklamowa lub medialna, która ma wypromować artystę, dzieło lub projekt.",
+                        "it": "Campagna pubblicitaria o mediatica per far conoscere un artista, un'opera o un progetto.",
+                        "cs": "Reklamní nebo mediální kampaň, která má zviditelnit umělce, dílo nebo projekt.",
+                        "tr": "Bir sanatçıyı, eserini ya da projeyi bilinir kılmak için yapılan reklam veya medya çalışması. Konuşma dilinde kullanılır.",
+                        "es": "Campaña publicitaria o mediática para dar a conocer y poner en valor a un artista, una obra o un proyecto. Es un término coloquial.",
+                        "zh": "为推广艺人、作品或项目而开展的宣传或媒体活动。口语中常用。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "publicity",
+                                "target_lang_sense_clarification": "media attention for a release"
+                            },
+                            {
+                                "target_lang_word": "promotion",
+                                "target_lang_sense_clarification": "marketing campaign for an artist"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "реклама",
+                                "target_lang_sense_clarification": "реклама фильма или альбома"
+                            },
+                            {
+                                "target_lang_word": "раскрутка",
+                                "target_lang_sense_clarification": "раскрутка молодого исполнителя"
+                            },
+                            {
+                                "target_lang_word": "продвижение",
+                                "target_lang_sense_clarification": "маркетинг нового альбома"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "promotie",
+                                "target_lang_sense_clarification": "marketing voor artiest of film"
+                            },
+                            {
+                                "target_lang_word": "publiciteit",
+                                "target_lang_sense_clarification": "media-aandacht voor nieuw album"
+                            },
+                            {
+                                "target_lang_word": "reclame",
+                                "target_lang_sense_clarification": "reclamecampagne voor album of film"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Werbung",
+                                "target_lang_sense_clarification": "Werbung für Film oder Album"
+                            },
+                            {
+                                "target_lang_word": "Promotion",
+                                "target_lang_sense_clarification": "Marketing für Künstler oder Projekt"
+                            },
+                            {
+                                "target_lang_word": "Werbekampagne",
+                                "target_lang_sense_clarification": "Kampagne für Album oder Film"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "promocja",
+                                "target_lang_sense_clarification": "promowanie płyty lub filmu"
+                            },
+                            {
+                                "target_lang_word": "reklama",
+                                "target_lang_sense_clarification": "medialna kampania artysty"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "promozione",
+                                "target_lang_sense_clarification": "lancio mediatico di un disco o film"
+                            },
+                            {
+                                "target_lang_word": "pubblicità",
+                                "target_lang_sense_clarification": "campagna pubblicitaria per un film"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "propagace",
+                                "target_lang_sense_clarification": "marketing umělce nebo filmu"
+                            },
+                            {
+                                "target_lang_word": "reklama",
+                                "target_lang_sense_clarification": "reklama na film nebo album"
+                            },
+                            {
+                                "target_lang_word": "publicita",
+                                "target_lang_sense_clarification": "mediální pozornost k novince"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "tanıtım",
+                                "target_lang_sense_clarification": "sanatçı veya film tanıtımı"
+                            },
+                            {
+                                "target_lang_word": "reklam",
+                                "target_lang_sense_clarification": "film ve albüm reklamı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "promoción",
+                                "target_lang_sense_clarification": "lanzamiento de disco o película"
+                            },
+                            {
+                                "target_lang_word": "publicidad",
+                                "target_lang_sense_clarification": "anuncios para un estreno"
+                            },
+                            {
+                                "target_lang_word": "bombo",
+                                "target_lang_sense_clarification": "expectación mediática antes del estreno"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "宣传",
+                                "target_lang_sense_clarification": "为作品或艺人造势"
+                            },
+                            {
+                                "target_lang_word": "广告",
+                                "target_lang_sense_clarification": "影视唱片的宣传广告"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "040c48c2-fd5c-33c9-b454-227449bc96fc",
@@ -82,10 +402,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Nous organisons une grande fête pour réunir tous les étudiants de notre <w>promo</w>."
+                            "text": "Nous organisons une grande fête pour réunir tous les étudiants de notre <w>promo</w>.",
+                            "target_lang_translations": {
+                                "en": "We are organizing a big party to bring together all the students in our <w>year</w>.",
+                                "ru": "Мы устраиваем большой праздник, чтобы собрать всех студентов нашего <w>курса</w>.",
+                                "nl": "We organiseren een groot feest om alle studenten van onze <w>lichting</w> bijeen te brengen.",
+                                "de": "Wir organisieren ein großes Fest, um alle Studierenden unseres <w>Jahrgangs</w> zusammenzubringen.",
+                                "pl": "Organizujemy wielką imprezę, żeby zebrać wszystkich studentów z naszego <w>rocznika</w>.",
+                                "it": "Organizziamo una grande festa per riunire tutti gli studenti del nostro <w>corso</w>.",
+                                "cs": "Pořádáme velkou oslavu, abychom shromáždili všechny studenty z našeho <w>ročníku</w>.",
+                                "tr": "<w>Dönemimizin</w> tüm öğrencilerini bir araya getirmek için büyük bir parti düzenliyoruz.",
+                                "es": "Organizamos una gran fiesta para reunir a todos los estudiantes de nuestra <w>promoción</w>.",
+                                "zh": "我们正在筹办一场大型聚会，把我们<w>年级</w>的所有学生都聚到一起。"
+                            }
                         },
                         {
-                            "text": "Les diplômés de cette <w>promo</w> travaillent aujourd'hui dans de prestigieuses entreprises."
+                            "text": "Les diplômés de cette <w>promo</w> travaillent aujourd'hui dans de prestigieuses entreprises.",
+                            "target_lang_translations": {
+                                "en": "The graduates of this <w>class</w> now work at prestigious companies.",
+                                "ru": "Выпускники этого <w>выпуска</w> сегодня работают в престижных компаниях.",
+                                "nl": "De afgestudeerden van deze <w>lichting</w> werken tegenwoordig bij prestigieuze bedrijven.",
+                                "de": "Die Absolventen dieses <w>Jahrgangs</w> arbeiten heute bei renommierten Unternehmen.",
+                                "pl": "Absolwenci tego <w>rocznika</w> pracują dziś w prestiżowych firmach.",
+                                "it": "I laureati di questa <w>classe</w> lavorano oggi in prestigiose aziende.",
+                                "cs": "Absolventi tohoto <w>ročníku</w> dnes pracují v prestižních firmách.",
+                                "tr": "Bu <w>dönemin</w> mezunları bugün prestijli şirketlerde çalışıyorlar.",
+                                "es": "Los graduados de esta <w>promoción</w> trabajan hoy en prestigiosas empresas.",
+                                "zh": "这一<w>届</w>的毕业生如今都在知名企业工作。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -101,7 +445,129 @@
                             "trait_type": "colloquial",
                             "comment": "registre familier"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "All the students who belong to the same year of study or who graduate in the same year.",
+                        "ru": "Все студенты, которые учатся на одном курсе или получают диплом в один и тот же год.",
+                        "nl": "Alle studenten of leerlingen die in hetzelfde studiejaar zitten of in hetzelfde jaar afstuderen.",
+                        "de": "Gesamtheit der Studierenden, die im selben Studienjahr sind oder im selben Jahr abschließen.",
+                        "pl": "Grupa studentów z tego samego roku studiów lub kończących studia w tym samym roku.",
+                        "it": "Insieme degli studenti che frequentano lo stesso anno di corso o che conseguono il titolo nello stesso anno.",
+                        "cs": "Skupina studentů, kteří patří do stejného ročníku nebo absolvují ve stejném roce.",
+                        "tr": "Aynı eğitim yılını okuyan ya da aynı yıl mezun olan öğrencilerin tamamı. Konuşma dilinde kullanılır.",
+                        "es": "Conjunto de estudiantes que cursan el mismo año de estudios o que se gradúan el mismo año. Es un término coloquial.",
+                        "zh": "同一学年或同年毕业的全体学生。口语中常用。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "class",
+                                "target_lang_sense_clarification": "students graduating together"
+                            },
+                            {
+                                "target_lang_word": "year",
+                                "target_lang_sense_clarification": "students in the same year"
+                            },
+                            {
+                                "target_lang_word": "cohort",
+                                "target_lang_sense_clarification": "students starting together"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "курс",
+                                "target_lang_sense_clarification": "однокурсники в университете"
+                            },
+                            {
+                                "target_lang_word": "выпуск",
+                                "target_lang_sense_clarification": "выпуск вуза или школы"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "lichting",
+                                "target_lang_sense_clarification": "groep die samen afstudeert"
+                            },
+                            {
+                                "target_lang_word": "jaargroep",
+                                "target_lang_sense_clarification": "studenten van hetzelfde studiejaar"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Jahrgang",
+                                "target_lang_sense_clarification": "Studierende desselben Studienjahres"
+                            },
+                            {
+                                "target_lang_word": "Kohorte",
+                                "target_lang_sense_clarification": "Gruppe mit gleichem Studienbeginn"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "rocznik",
+                                "target_lang_sense_clarification": "studenci tego samego roku"
+                            },
+                            {
+                                "target_lang_word": "promocja",
+                                "target_lang_sense_clarification": "absolwenci z jednego roku"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "corso",
+                                "target_lang_sense_clarification": "compagni dello stesso anno accademico"
+                            },
+                            {
+                                "target_lang_word": "classe",
+                                "target_lang_sense_clarification": "compagni che si diplomano insieme"
+                            },
+                            {
+                                "target_lang_word": "promozione",
+                                "target_lang_sense_clarification": "diplomati dello stesso anno"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "ročník",
+                                "target_lang_sense_clarification": "absolventi stejného roku"
+                            },
+                            {
+                                "target_lang_word": "kohorta",
+                                "target_lang_sense_clarification": "studenti se stejným začátkem"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "sınıf",
+                                "target_lang_sense_clarification": "aynı yıl okuyan öğrenciler"
+                            },
+                            {
+                                "target_lang_word": "dönem",
+                                "target_lang_sense_clarification": "aynı yıl mezun olanlar"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "promoción",
+                                "target_lang_sense_clarification": "alumnos que se gradúan juntos"
+                            },
+                            {
+                                "target_lang_word": "curso",
+                                "target_lang_sense_clarification": "alumnos del mismo año académico"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "年级",
+                                "target_lang_sense_clarification": "同一学年的全体学生"
+                            },
+                            {
+                                "target_lang_word": "届",
+                                "target_lang_sense_clarification": "同年毕业的学生"
+                            }
+                        ]
+                    }
                 }
             ]
         }

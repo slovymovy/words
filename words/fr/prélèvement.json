@@ -16,10 +16,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Le loyer est directement payé chaque mois par un <w>prélèvement</w> automatique sur mon compte bancaire."
+                            "text": "Le loyer est directement payé chaque mois par un <w>prélèvement</w> automatique sur mon compte bancaire.",
+                            "target_lang_translations": {
+                                "en": "The rent is paid directly each month by automatic <w>direct debit</w> from my bank account.",
+                                "ru": "Арендная плата ежемесячно оплачивается напрямую через автоматическое <w>списание</w> с моего банковского счёта.",
+                                "nl": "De huur wordt elke maand rechtstreeks betaald via een automatische <w>afschrijving</w> van mijn bankrekening.",
+                                "de": "Die Miete wird jeden Monat direkt per automatischer <w>Lastschrift</w> von meinem Bankkonto bezahlt.",
+                                "pl": "Czynsz jest co miesiąc opłacany bezpośrednio poprzez automatyczne <w>obciążenie</w> mojego konta bankowego.",
+                                "it": "L'affitto viene pagato direttamente ogni mese tramite un <w>addebito</w> automatico sul mio conto bancario.",
+                                "cs": "Nájemné se každý měsíc hradí přímo automatickým <w>inkasem</w> z mého bankovního účtu.",
+                                "tr": "Kira her ay banka hesabımdan yapılan <w>otomatik ödeme</w> ile doğrudan ödeniyor.",
+                                "es": "El alquiler se paga directamente cada mes mediante una <w>domiciliación</w> automática en mi cuenta bancaria.",
+                                "zh": "我的房租每个月都通过银行账户的<w>扣款</w>直接支付。"
+                            }
                         },
                         {
-                            "text": "Le montant de l'impôt fait l'objet d'un <w>prélèvement</w> mensuel régulier sur son salaire net."
+                            "text": "Le montant de l'impôt fait l'objet d'un <w>prélèvement</w> mensuel régulier sur son salaire net.",
+                            "target_lang_translations": {
+                                "en": "The tax amount is subject to a regular monthly <w>deduction</w> from his net salary.",
+                                "ru": "Сумма налога подлежит ежемесячному регулярному <w>удержанию</w> из его чистой зарплаты.",
+                                "nl": "Van het belastingbedrag vindt maandelijks een regelmatige <w>inhouding</w> plaats op zijn nettoloon.",
+                                "de": "Der Steuerbetrag unterliegt einem regelmäßigen monatlichen <w>Abzug</w> von seinem Nettogehalt.",
+                                "pl": "Kwota podatku podlega co miesiąc regularnemu <w>potrąceniu</w> z jego wynagrodzenia netto.",
+                                "it": "L'importo dell'imposta è soggetto a una <w>trattenuta</w> mensile regolare sul suo stipendio netto.",
+                                "cs": "Částka daně podléhá pravidelné měsíční <w>srážce</w> z jeho čistého platu.",
+                                "tr": "Verginin tutarı, net maaşından her ay düzenli bir <w>kesintiye</w> tabi tutuluyor.",
+                                "es": "El importe del impuesto está sujeto a una <w>retención</w> mensual regular de su salario neto.",
+                                "zh": "他的税款每月都要从税后工资中定期进行一次<w>扣款</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +58,133 @@
                         "prélèvement automatique",
                         "prélèvement bancaire",
                         "prélèvement à la source"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The act of withholding or deducting a sum of money, notably from a bank account or income.",
+                        "ru": "Действие по удержанию или списанию определённой суммы денег, в частности с банковского счёта или дохода.",
+                        "nl": "Het inhouden of afschrijven van een bedrag, vooral van een bankrekening of van inkomen.",
+                        "de": "Vorgang, bei dem ein Geldbetrag von einem Bankkonto oder vom Einkommen abgebucht oder einbehalten wird.",
+                        "pl": "Czynność potrącenia lub pobrania określonej kwoty pieniędzy, zwłaszcza z konta bankowego lub dochodu.",
+                        "it": "Azione di trattenere o detrarre una somma di denaro, in particolare da un conto bancario o da un reddito.",
+                        "cs": "Odepsání nebo strhnutí určité částky peněz, zejména z bankovního účtu nebo z příjmu.",
+                        "tr": "Bir kişinin banka hesabından veya gelirinden belirli bir tutarın otomatik olarak düşülmesi ya da kesilmesi işlemi.",
+                        "es": "Acción de retener o deducir una cantidad de dinero, especialmente de una cuenta bancaria o de unos ingresos.",
+                        "zh": "指从银行账户或收入中扣除一笔款项的行为。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "deduction",
+                                "target_lang_sense_clarification": "from wages or bank account"
+                            },
+                            {
+                                "target_lang_word": "withholding",
+                                "target_lang_sense_clarification": "tax withheld from wages"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "удержание",
+                                "target_lang_sense_clarification": "из зарплаты или дохода"
+                            },
+                            {
+                                "target_lang_word": "списание",
+                                "target_lang_sense_clarification": "со счёта в банке"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "afschrijving",
+                                "target_lang_sense_clarification": "van een bankrekening"
+                            },
+                            {
+                                "target_lang_word": "inhouding",
+                                "target_lang_sense_clarification": "van loon of inkomen"
+                            },
+                            {
+                                "target_lang_word": "incasso",
+                                "target_lang_sense_clarification": "automatische betaling van een rekening"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Lastschrift",
+                                "target_lang_sense_clarification": "automatische Kontobelastung"
+                            },
+                            {
+                                "target_lang_word": "Abbuchung",
+                                "target_lang_sense_clarification": "vom Bankkonto"
+                            },
+                            {
+                                "target_lang_word": "Abzug",
+                                "target_lang_sense_clarification": "vom Lohn oder Gehalt"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "potrącenie",
+                                "target_lang_sense_clarification": "z wynagrodzenia lub dochodu"
+                            },
+                            {
+                                "target_lang_word": "obciążenie",
+                                "target_lang_sense_clarification": "z rachunku bankowego"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "addebito",
+                                "target_lang_sense_clarification": "sul conto corrente bancario"
+                            },
+                            {
+                                "target_lang_word": "trattenuta",
+                                "target_lang_sense_clarification": "dal salario o dal reddito"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "inkaso",
+                                "target_lang_sense_clarification": "z bankovního účtu"
+                            },
+                            {
+                                "target_lang_word": "srážka",
+                                "target_lang_sense_clarification": "ze mzdy nebo příjmu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kesinti",
+                                "target_lang_sense_clarification": "maaş veya gelirden düşülen"
+                            },
+                            {
+                                "target_lang_word": "otomatik ödeme",
+                                "target_lang_sense_clarification": "banka hesabından otomatik tahsilat"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "domiciliación",
+                                "target_lang_sense_clarification": "cargo automático en cuenta bancaria"
+                            },
+                            {
+                                "target_lang_word": "retención",
+                                "target_lang_sense_clarification": "descuento de salario o impuestos"
+                            },
+                            {
+                                "target_lang_word": "deducción",
+                                "target_lang_sense_clarification": "descuento de una cantidad"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "扣款",
+                                "target_lang_sense_clarification": "银行账户或工资中扣除"
+                            },
+                            {
+                                "target_lang_word": "扣缴",
+                                "target_lang_sense_clarification": "税款代扣代缴"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "116aaa51-9f9d-3231-a5b8-0ee36463c7a6",
@@ -45,16 +195,150 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "L'infirmière effectue un <w>prélèvement</w> de sang pour vérifier mon taux de fer."
+                            "text": "L'infirmière effectue un <w>prélèvement</w> de sang pour vérifier mon taux de fer.",
+                            "target_lang_translations": {
+                                "en": "The nurse is taking a blood <w>sample</w> to check my iron level.",
+                                "ru": "Медсестра делает <w>забор</w> крови, чтобы проверить мой уровень железа.",
+                                "nl": "De verpleegkundige doet een <w>bloedafname</w> om mijn ijzergehalte te controleren.",
+                                "de": "Die Krankenschwester führt eine <w>Entnahme</w> von Blut durch, um meinen Eisenwert zu überprüfen.",
+                                "pl": "Pielęgniarka wykonuje <w>pobranie</w> krwi, aby sprawdzić mój poziom żelaza.",
+                                "it": "L'infermiera effettua un <w>prelievo</w> di sangue per verificare il mio livello di ferro.",
+                                "cs": "Sestra provádí <w>odběr</w> krve, aby mi ověřila hladinu železa.",
+                                "tr": "Hemşire, demir seviyemi kontrol etmek için kandan <w>numune alıyor</w>.",
+                                "es": "La enfermera realiza una <w>extracción</w> de sangre para comprobar mi nivel de hierro.",
+                                "zh": "护士为我进行了一次血液<w>采样</w>，以检查我的铁含量。"
+                            }
                         },
                         {
-                            "text": "Le médecin a prescrit un <w>prélèvement</w> pour identifier l'origine exacte de cette infection."
+                            "text": "Le médecin a prescrit un <w>prélèvement</w> pour identifier l'origine exacte de cette infection.",
+                            "target_lang_translations": {
+                                "en": "The doctor ordered a <w>sample</w> to be taken to identify the exact origin of this infection.",
+                                "ru": "Врач назначил <w>забор</w> образца, чтобы установить точный источник этой инфекции.",
+                                "nl": "De arts heeft een <w>monstername</w> voorgeschreven om de exacte oorsprong van deze infectie te achterhalen.",
+                                "de": "Der Arzt hat eine <w>Probenentnahme</w> angeordnet, um den genauen Ursprung dieser Infektion zu ermitteln.",
+                                "pl": "Lekarz zlecił <w>pobranie</w> próbki, aby ustalić dokładne źródło tej infekcji.",
+                                "it": "Il medico ha prescritto un <w>prelievo</w> per identificare l'origine esatta di questa infezione.",
+                                "cs": "Lékař nařídil <w>odběr</w> k určení přesného původu této infekce.",
+                                "tr": "Doktor, bu enfeksiyonun tam kaynağını belirlemek için <w>numune alınmasını</w> istedi.",
+                                "es": "El médico ha prescrito una <w>toma</w> de muestras para identificar el origen exacto de esta infección.",
+                                "zh": "医生下令进行一次<w>取样</w>，以查明这种感染的确切来源。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "prélèvement sanguin",
                         "zone de prélèvement"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The act of collecting a small amount of biological material from a living being for medical analysis.",
+                        "ru": "Действие по взятию небольшого количества биологического материала у живого организма для медицинского анализа.",
+                        "nl": "Het afnemen van een kleine hoeveelheid lichaamsmateriaal van een levend wezen voor medisch onderzoek.",
+                        "de": "Entnahme einer kleinen Menge Körpermaterial von einem Lebewesen zur medizinischen Untersuchung.",
+                        "pl": "Czynność pobrania niewielkiej ilości materiału biologicznego od żywego organizmu do badania lekarskiego.",
+                        "it": "Azione di prelevare una piccola quantità di materiale biologico da un essere vivente per analisi mediche.",
+                        "cs": "Odebrání malého množství biologického materiálu od živého organismu k lékařskému vyšetření.",
+                        "tr": "Tıbbi analiz için canlıdan az miktarda biyolojik materyal alma işlemi.",
+                        "es": "Acción de tomar una pequeña cantidad de material biológico de un ser vivo para analizarlo en medicina.",
+                        "zh": "从活体上采集少量生物材料以供医学检查的行为。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sample",
+                                "target_lang_sense_clarification": "tissue or fluid for testing"
+                            },
+                            {
+                                "target_lang_word": "specimen",
+                                "target_lang_sense_clarification": "medical laboratory testing material"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "забор",
+                                "target_lang_sense_clarification": "биоматериала для анализа"
+                            },
+                            {
+                                "target_lang_word": "проба",
+                                "target_lang_sense_clarification": "ткани или жидкости для анализа"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "afname",
+                                "target_lang_sense_clarification": "bloed of weefsel voor onderzoek"
+                            },
+                            {
+                                "target_lang_word": "monstername",
+                                "target_lang_sense_clarification": "lichaamsmateriaal voor medisch onderzoek"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Entnahme",
+                                "target_lang_sense_clarification": "Körpermaterial für Labor"
+                            },
+                            {
+                                "target_lang_word": "Probenentnahme",
+                                "target_lang_sense_clarification": "Gewebe oder Blut für Diagnostik"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "pobranie",
+                                "target_lang_sense_clarification": "krwi lub tkanek do badań"
+                            },
+                            {
+                                "target_lang_word": "pobór",
+                                "target_lang_sense_clarification": "krwi do analiz laboratoryjnych"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "prelievo",
+                                "target_lang_sense_clarification": "di sangue o tessuti"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odběr",
+                                "target_lang_sense_clarification": "krve nebo tkání k vyšetření"
+                            },
+                            {
+                                "target_lang_word": "vzorek",
+                                "target_lang_sense_clarification": "tkáně nebo tekutiny pro laboratoř"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "numune alma",
+                                "target_lang_sense_clarification": "tahlil için kan veya doku"
+                            },
+                            {
+                                "target_lang_word": "örnek alma",
+                                "target_lang_sense_clarification": "laboratuvar incelemesi için"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "extracción",
+                                "target_lang_sense_clarification": "de sangre para análisis clínico"
+                            },
+                            {
+                                "target_lang_word": "toma",
+                                "target_lang_sense_clarification": "de muestra para diagnóstico"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "采样",
+                                "target_lang_sense_clarification": "从人体采集样本"
+                            },
+                            {
+                                "target_lang_word": "取样",
+                                "target_lang_sense_clarification": "采集少量组织或体液"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "b6ff0f7b-2711-3fa4-a27a-c1fbaf24a818",
@@ -65,10 +349,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Les chercheurs ont effectué un <w>prélèvement</w> d'eau dans la rivière pour mesurer la pollution."
+                            "text": "Les chercheurs ont effectué un <w>prélèvement</w> d'eau dans la rivière pour mesurer la pollution.",
+                            "target_lang_translations": {
+                                "en": "The researchers carried out water <w>sampling</w> in the river to measure pollution.",
+                                "ru": "Исследователи провели <w>отбор</w> проб воды в реке, чтобы измерить уровень загрязнения.",
+                                "nl": "De onderzoekers hebben een <w>monsterneming</w> van het water in de rivier uitgevoerd om de vervuiling te meten.",
+                                "de": "Die Forscher haben im Fluss eine <w>Probenahme</w> von Wasser durchgeführt, um die Verschmutzung zu messen.",
+                                "pl": "Naukowcy przeprowadzili <w>próbkowanie</w> wody w rzece, aby zmierzyć zanieczyszczenie.",
+                                "it": "I ricercatori hanno effettuato un <w>campionamento</w> dell'acqua nel fiume per misurare l'inquinamento.",
+                                "cs": "Vědci provedli <w>odběr</w> vody v řece, aby změřili znečištění.",
+                                "tr": "Araştırmacılar, kirliliği ölçmek için nehirde su <w>örneklemesi</w> yaptı.",
+                                "es": "Los investigadores realizaron un <w>muestreo</w> de agua en el río para medir la contaminación.",
+                                "zh": "研究人员在河中进行了一次水质<w>采样</w>，以测定污染程度。"
+                            }
                         },
                         {
-                            "text": "Ce nouveau protocole scientifique nécessite plusieurs <w>prélèvements</w> dans différentes couches du sol."
+                            "text": "Ce nouveau protocole scientifique nécessite plusieurs <w>prélèvements</w> dans différentes couches du sol.",
+                            "target_lang_translations": {
+                                "en": "This new scientific protocol requires several <w>samples</w> taken from different layers of soil.",
+                                "ru": "Этот новый научный протокол требует нескольких <w>образцов</w>, взятых из разных слоёв почвы.",
+                                "nl": "Dit nieuwe wetenschappelijke protocol vereist meerdere <w>monsternames</w> uit verschillende bodemlagen.",
+                                "de": "Dieses neue wissenschaftliche Protokoll erfordert mehrere <w>Probenahmen</w> aus verschiedenen Bodenschichten.",
+                                "pl": "Ten nowy protokół naukowy wymaga kilku <w>pobrań</w> próbek z różnych warstw gleby.",
+                                "it": "Questo nuovo protocollo scientifico richiede diversi <w>prelievi</w> da strati diversi del suolo.",
+                                "cs": "Tento nový vědecký protokol vyžaduje několik <w>odběrů</w> z různých vrstev půdy.",
+                                "tr": "Bu yeni bilimsel protokol, toprağın farklı katmanlarından birkaç kez <w>numune alınmasını</w> gerektiriyor.",
+                                "es": "Este nuevo protocolo científico requiere varios <w>muestreos</w> en distintas capas del suelo.",
+                                "zh": "这项新的科学方案需要在土壤的不同层次进行几次<w>抽样</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -76,7 +384,117 @@
                     ],
                     "common_phrases": [
                         "prélèvement d'échantillons"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The act of taking a portion of a substance or environment to serve as a sample for study.",
+                        "ru": "Действие по взятию части вещества или среды для использования в качестве образца при исследовании.",
+                        "nl": "Het nemen van een deel van een stof of omgeving als monster voor wetenschappelijk onderzoek.",
+                        "de": "Entnahme einer Probe aus einem Stoff oder einer Umgebung für wissenschaftliche Untersuchungen.",
+                        "pl": "Czynność pobrania części substancji lub środowiska w celu badania naukowego.",
+                        "it": "Azione di prelevare una parte di una sostanza o di un ambiente da usare come campione per uno studio.",
+                        "cs": "Odebrání části látky nebo prostředí jako vzorku pro vědecké zkoumání.",
+                        "tr": "Bilimsel inceleme için bir madde veya ortamdan parça alma işlemi.",
+                        "es": "Acción de tomar una porción de una sustancia o de un medio para usarla como muestra en un estudio.",
+                        "zh": "为科学研究从物质或环境中取出一部分作为样本的行为。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sampling",
+                                "target_lang_sense_clarification": "scientific or environmental study"
+                            },
+                            {
+                                "target_lang_word": "sample",
+                                "target_lang_sense_clarification": "portion taken for analysis"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "отбор",
+                                "target_lang_sense_clarification": "проб для научных исследований"
+                            },
+                            {
+                                "target_lang_word": "образец",
+                                "target_lang_sense_clarification": "для лабораторного исследования"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "monstername",
+                                "target_lang_sense_clarification": "water, bodem of lucht voor onderzoek"
+                            },
+                            {
+                                "target_lang_word": "bemonstering",
+                                "target_lang_sense_clarification": "wetenschappelijk of milieuonderzoek"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Probenahme",
+                                "target_lang_sense_clarification": "Wasser, Boden oder Luft"
+                            },
+                            {
+                                "target_lang_word": "Beprobung",
+                                "target_lang_sense_clarification": "Umwelt- und Materialuntersuchung"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "próbkowanie",
+                                "target_lang_sense_clarification": "badania środowiska i gleby"
+                            },
+                            {
+                                "target_lang_word": "pobranie",
+                                "target_lang_sense_clarification": "próbek wody, gleby lub powietrza"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "campionamento",
+                                "target_lang_sense_clarification": "di acqua, suolo o aria"
+                            },
+                            {
+                                "target_lang_word": "prelievo",
+                                "target_lang_sense_clarification": "per analisi ambientali"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "vzorkování",
+                                "target_lang_sense_clarification": "vody, půdy nebo vzduchu"
+                            },
+                            {
+                                "target_lang_word": "odběr",
+                                "target_lang_sense_clarification": "vzorků pro environmentální výzkum"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "örnekleme",
+                                "target_lang_sense_clarification": "su, toprak veya hava için"
+                            },
+                            {
+                                "target_lang_word": "numune alma",
+                                "target_lang_sense_clarification": "çevre analizi için"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "muestreo",
+                                "target_lang_sense_clarification": "de agua, suelo o aire"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "采样",
+                                "target_lang_sense_clarification": "水、土壤或空气的科学采集"
+                            },
+                            {
+                                "target_lang_word": "抽样",
+                                "target_lang_sense_clarification": "为研究按比例抽取样本"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "5650a216-53c5-39aa-a76f-5cee2599d762",
@@ -87,15 +505,141 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Le plan de gestion fixe le nombre maximal de <w>prélèvements</w> autorisés pour la saison de chasse."
+                            "text": "Le plan de gestion fixe le nombre maximal de <w>prélèvements</w> autorisés pour la saison de chasse.",
+                            "target_lang_translations": {
+                                "en": "The management plan sets the maximum number of <w>culls</w> permitted for the hunting season.",
+                                "ru": "План управления устанавливает максимальное число разрешённых <w>отстрелов</w> на охотничий сезон.",
+                                "nl": "Het beheersplan bepaalt het maximale aantal toegestane <w>afschotten</w> voor het jachtseizoen.",
+                                "de": "Der Bewirtschaftungsplan legt die höchstzulässige Zahl an <w>Abschüssen</w> für die Jagdsaison fest.",
+                                "pl": "Plan zarządzania określa maksymalną liczbę dozwolonych <w>odstrzałów</w> na sezon łowiecki.",
+                                "it": "Il piano di gestione fissa il numero massimo di <w>abbattimenti</w> consentiti per la stagione di caccia.",
+                                "cs": "Plán hospodaření stanovuje maximální počet povolených <w>odstřelů</w> pro lovecké období.",
+                                "tr": "Yönetim planı, av sezonu için izin verilen en yüksek <w>av kotasını</w> belirliyor.",
+                                "es": "El plan de gestión fija el número máximo de <w>descastes</w> permitidos para la temporada de caza.",
+                                "zh": "管理计划规定了本狩猎季允许的最高<w>猎获量</w>。"
+                            }
                         },
                         {
-                            "text": "Un excès de <w>prélèvement</w> pourrait menacer la survie de cette espèce fragile dans la région."
+                            "text": "Un excès de <w>prélèvement</w> pourrait menacer la survie de cette espèce fragile dans la région.",
+                            "target_lang_translations": {
+                                "en": "An excessive <w>harvest</w> could threaten the survival of this fragile species in the region.",
+                                "ru": "Чрезмерная <w>добыча</w> может угрожать выживанию этого уязвимого вида в регионе.",
+                                "nl": "Te veel <w>afschot</w> zou het voortbestaan van deze kwetsbare soort in de regio kunnen bedreigen.",
+                                "de": "Ein übermäßiger <w>Abschuss</w> könnte das Überleben dieser gefährdeten Art in der Region bedrohen.",
+                                "pl": "Nadmierne <w>pozyskanie</w> zwierzyny mogłoby zagrozić przetrwaniu tego wrażliwego gatunku w regionie.",
+                                "it": "Un eccesso di <w>prelievo</w> potrebbe minacciare la sopravvivenza di questa specie fragile nella regione.",
+                                "cs": "Přílišný <w>odstřel</w> by mohl ohrozit přežití tohoto zranitelného druhu v regionu.",
+                                "tr": "Aşırı <w>avlanma</w> bölgedeki bu hassas türün hayatta kalmasını tehdit edebilir.",
+                                "es": "Un exceso de <w>descaste</w> podría poner en peligro la supervivencia de esta especie frágil en la región.",
+                                "zh": "过高的<w>捕杀量</w>可能会威胁该地区这一脆弱物种的生存。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "niveau de prélèvement"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The number or quantity of animals hunted or removed from a wild population under set quotas.",
+                        "ru": "Количество или число животных, отстрелянных или изъятых из дикой популяции по установленным квотам.",
+                        "nl": "Het aantal dieren dat volgens vastgestelde quota uit een wilde populatie wordt gejaagd of verwijderd.",
+                        "de": "Anzahl der Tiere, die im Rahmen festgelegter Quoten aus einer Wildpopulation erlegt oder entnommen werden.",
+                        "pl": "Liczba lub ilość zwierząt upolowanych albo usuniętych z dzikiej populacji według ustalonych limitów.",
+                        "it": "Numero o quantità di animali cacciati o rimossi da una popolazione selvatica secondo quote stabilite.",
+                        "cs": "Počet nebo množství zvířat ulovených či odstraněných z volné populace podle stanovených kvót.",
+                        "tr": "Belirlenen kotalar kapsamında doğadan avlanan veya çıkarılan hayvanların sayısı ya da miktarı.",
+                        "es": "Número o cantidad de animales cazados o retirados de una población silvestre según cupos establecidos.",
+                        "zh": "按照既定配额从野生动物种群中猎杀或移除的动物数量。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "cull",
+                                "target_lang_sense_clarification": "controlled killing of wildlife"
+                            },
+                            {
+                                "target_lang_word": "harvest",
+                                "target_lang_sense_clarification": "hunting quotas, wildlife management"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "отстрел",
+                                "target_lang_sense_clarification": "регулируемое изъятие животных"
+                            },
+                            {
+                                "target_lang_word": "добыча",
+                                "target_lang_sense_clarification": "квотированная охота, управление популяцией"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "afschot",
+                                "target_lang_sense_clarification": "gereguleerd doden van wild"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Abschuss",
+                                "target_lang_sense_clarification": "erlegte Tiere im Abschussplan"
+                            },
+                            {
+                                "target_lang_word": "Entnahme",
+                                "target_lang_sense_clarification": "Wildbestand, Jagdquoten"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "odstrzał",
+                                "target_lang_sense_clarification": "regulowane zabijanie zwierzyny"
+                            },
+                            {
+                                "target_lang_word": "pozyskanie",
+                                "target_lang_sense_clarification": "zwierzyny łownej w łowiectwie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "abbattimento",
+                                "target_lang_sense_clarification": "di fauna selvatica secondo quote"
+                            },
+                            {
+                                "target_lang_word": "prelievo",
+                                "target_lang_sense_clarification": "quote venatorie sulla fauna"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odstřel",
+                                "target_lang_sense_clarification": "regulovaný odstřel zvěře"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "kontrollü avlanma",
+                                "target_lang_sense_clarification": "kota dahilinde hayvan avı"
+                            },
+                            {
+                                "target_lang_word": "av kotası",
+                                "target_lang_sense_clarification": "izin verilen avlanma miktarı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "descaste",
+                                "target_lang_sense_clarification": "control de fauna silvestre"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "捕杀量",
+                                "target_lang_sense_clarification": "限额内野生动物的捕杀数量"
+                            },
+                            {
+                                "target_lang_word": "猎获量",
+                                "target_lang_sense_clarification": "狩猎配额内的捕获数量"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "d9c5b1b9-4bb1-3915-9897-a59904d7d0a5",
@@ -106,10 +650,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Le forestier calcule soigneusement le <w>prélèvement</w> pour préserver le renouvellement naturel du massif boisé."
+                            "text": "Le forestier calcule soigneusement le <w>prélèvement</w> pour préserver le renouvellement naturel du massif boisé.",
+                            "target_lang_translations": {
+                                "en": "The forester carefully calculates the <w>harvest</w> to preserve the natural regeneration of the forest stand.",
+                                "ru": "Лесничий тщательно рассчитывает объём <w>заготовки</w>, чтобы сохранить естественное возобновление лесного массива.",
+                                "nl": "De houtvester berekent zorgvuldig de <w>houtkap</w> om de natuurlijke verjonging van het bosperceel te behouden.",
+                                "de": "Der Förster berechnet sorgfältig den <w>Holzeinschlag</w>, um die natürliche Verjüngung des Waldbestands zu erhalten.",
+                                "pl": "Leśnik starannie oblicza wielkość <w>wyrębu</w>, aby zachować naturalne odnowienie drzewostanu.",
+                                "it": "Il forestale calcola attentamente la <w>ripresa</w> per preservare la rinnovazione naturale del bosco.",
+                                "cs": "Lesník pečlivě vypočítává objem <w>těžby</w>, aby zachoval přirozenou obnovu lesního porostu.",
+                                "tr": "Orman mühendisi, ormanın doğal yenilenmesini korumak için <w>etatı</w> dikkatle hesaplıyor.",
+                                "es": "El silvicultor calcula con cuidado la <w>corta</w> para preservar la regeneración natural del bosque.",
+                                "zh": "林务员仔细测算<w>采伐量</w>，以保障林分的自然更新。"
+                            }
                         },
                         {
-                            "text": "Les <w>prélèvements</w> de chênes centenaires sont strictement encadrés par la charte du parc."
+                            "text": "Les <w>prélèvements</w> de chênes centenaires sont strictement encadrés par la charte du parc.",
+                            "target_lang_translations": {
+                                "en": "The <w>harvests</w> of centuries-old oaks are strictly regulated by the park charter.",
+                                "ru": "<w>Заготовки</w> столетних дубов строго регламентируются хартией парка.",
+                                "nl": "De <w>houtkappen</w> van eeuwenoude eiken worden strikt gereguleerd door het charter van het park.",
+                                "de": "Die <w>Holzeinschläge</w> von jahrhundertealten Eichen sind durch die Charta des Parks streng geregelt.",
+                                "pl": "<w>Wyręby</w> stuletnich dębów są ściśle regulowane przez statut parku.",
+                                "it": "I <w>tagli</w> di querce secolari sono strettamente regolati dalla carta del parco.",
+                                "cs": "<w>Těžba</w> stoletých dubů je přísně regulována chartou parku.",
+                                "tr": "Yüzyıllık meşelerin <w>kesimleri</w> park tüzüğüyle sıkı biçimde düzenleniyor.",
+                                "es": "Las <w>cortas</w> de robles centenarios están estrictamente reguladas por la normativa del parque.",
+                                "zh": "百年橡树的<w>砍伐量</w>受到公园章程的严格限定。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -118,7 +686,121 @@
                     ],
                     "common_phrases": [
                         "taux de prélèvement"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The quantity or volume of trees felled and removed from a forest during forestry work.",
+                        "ru": "Количество или объём деревьев, срубленных и вывезенных из леса в ходе лесохозяйственных работ.",
+                        "nl": "Het aantal of volume van bomen die tijdens bosbouwwerkzaamheden worden geveld en uit het bos worden verwijderd.",
+                        "de": "Menge gefällter Bäume, die bei forstwirtschaftlichen Arbeiten aus dem Wald abtransportiert werden.",
+                        "pl": "Liczba lub objętość drzew ściętych i wywiezionych z lasu podczas prac leśnych.",
+                        "it": "Quantità o volume di alberi abbattuti e rimossi da un bosco durante un intervento forestale.",
+                        "cs": "Množství nebo objem stromů pokácených a vyvezených z lesa při lesnických pracích.",
+                        "tr": "Orman işletmeciliği çalışmalarında kesilip ormandan çıkarılan ağaçların miktarı ya da hacmi.",
+                        "es": "Cantidad o volumen de árboles talados y sacados de un bosque durante trabajos forestales.",
+                        "zh": "在林业作业中从森林砍伐并运出的树木数量或体积。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "harvest",
+                                "target_lang_sense_clarification": "timber volume in forestry"
+                            },
+                            {
+                                "target_lang_word": "cut",
+                                "target_lang_sense_clarification": "volume of trees felled"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "заготовка",
+                                "target_lang_sense_clarification": "древесины при лесохозяйственных работах"
+                            },
+                            {
+                                "target_lang_word": "рубка",
+                                "target_lang_sense_clarification": "объём срубленных деревьев"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "houtkap",
+                                "target_lang_sense_clarification": "gekapt hout in de bosbouw"
+                            },
+                            {
+                                "target_lang_word": "houtoogst",
+                                "target_lang_sense_clarification": "bosbouw, volume geveld hout"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Holzeinschlag",
+                                "target_lang_sense_clarification": "gefällte Holzmenge im Wald"
+                            },
+                            {
+                                "target_lang_word": "Einschlag",
+                                "target_lang_sense_clarification": "Forstwirtschaft, jährliche Holzmenge"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "wyrąb",
+                                "target_lang_sense_clarification": "ściętych drzew w gospodarce leśnej"
+                            },
+                            {
+                                "target_lang_word": "użytkowanie",
+                                "target_lang_sense_clarification": "rębne, gospodarka leśna"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "taglio",
+                                "target_lang_sense_clarification": "operazione di gestione forestale"
+                            },
+                            {
+                                "target_lang_word": "ripresa",
+                                "target_lang_sense_clarification": "legname tagliato ogni anno"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "těžba",
+                                "target_lang_sense_clarification": "objem vytěženého dřeva"
+                            },
+                            {
+                                "target_lang_word": "etát",
+                                "target_lang_sense_clarification": "plánované roční množství dřeva"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "etat",
+                                "target_lang_sense_clarification": "yıllık planlı kesim miktarı"
+                            },
+                            {
+                                "target_lang_word": "kesim",
+                                "target_lang_sense_clarification": "ormancılıkta kesilen hacim"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "corta",
+                                "target_lang_sense_clarification": "tala de árboles del monte"
+                            },
+                            {
+                                "target_lang_word": "saca",
+                                "target_lang_sense_clarification": "madera extraída del bosque"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "采伐量",
+                                "target_lang_sense_clarification": "森林年度允许砍伐的木材量"
+                            },
+                            {
+                                "target_lang_word": "砍伐量",
+                                "target_lang_sense_clarification": "被砍伐树木的总量"
+                            }
+                        ]
+                    }
                 }
             ]
         }

@@ -15,10 +15,34 @@
                     "name_type": "title_or_honorific_name",
                     "examples": [
                         {
-                            "text": "Bonjour <w>monsieur</w>, comment puis-je vous aider aujourd'hui ?"
+                            "text": "Bonjour <w>monsieur</w>, comment puis-je vous aider aujourd'hui ?",
+                            "target_lang_translations": {
+                                "en": "Hello, <w>sir</w>, how can I help you today?",
+                                "ru": "Здравствуйте, <w>господин</w>, чем я могу вам помочь сегодня?",
+                                "nl": "Goedendag, <w>meneer</w>, hoe kan ik u vandaag helpen?",
+                                "de": "Guten Tag, mein <w>Herr</w>, wie kann ich Ihnen heute helfen?",
+                                "pl": "Dzień dobry, <w>panie</w>, w czym mogę panu dzisiaj pomóc?",
+                                "it": "Buongiorno, <w>signore</w>, come posso aiutarla oggi?",
+                                "cs": "Dobrý den, <w>pane</w>, jak vám mohu dnes pomoci?",
+                                "tr": "İyi günler, <w>beyefendi</w>, bugün size nasıl yardımcı olabilirim?",
+                                "es": "Buenos días, <w>señor</w>, ¿en qué puedo ayudarle hoy?",
+                                "zh": "您好，<w>先生</w>，今天有什么可以帮您的吗？"
+                            }
                         },
                         {
-                            "text": "Je vous présente <w>monsieur</w> Martin, notre nouveau professeur de français."
+                            "text": "Je vous présente <w>monsieur</w> Martin, notre nouveau professeur de français.",
+                            "target_lang_translations": {
+                                "en": "I'd like to introduce <w>Mr</w> Martin, our new French teacher.",
+                                "ru": "Позвольте представить вам <w>господина</w> Мартина, нашего нового преподавателя французского языка.",
+                                "nl": "Ik stel u <w>meneer</w> Martin voor, onze nieuwe docent Frans.",
+                                "de": "Ich möchte Ihnen <w>Herrn</w> Martin vorstellen, unseren neuen Französischlehrer.",
+                                "pl": "Przedstawiam <w>pana</w> Martina, naszego nowego nauczyciela języka francuskiego.",
+                                "it": "Le presento il <w>signor</w> Martin, il nostro nuovo insegnante di francese.",
+                                "cs": "Představuji vám <w>pana</w> Martina, našeho nového učitele francouzštiny.",
+                                "tr": "Size yeni Fransızca öğretmenimiz <w>Bay</w> Martin'i takdim ediyorum.",
+                                "es": "Le presento al <w>señor</w> Martin, nuestro nuevo profesor de francés.",
+                                "zh": "我想向您介绍一下马丁<w>先生</w>，他是我们新来的法语老师。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +56,97 @@
                         "bonjour monsieur",
                         "monsieur le directeur",
                         "monsieur le président"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A polite title used to address or refer to a man.",
+                        "ru": "Титул вежливости, используемый при обращении к мужчине или упоминании его.",
+                        "nl": "Beleefde titel waarmee men een man aanspreekt of aanduidt.",
+                        "de": "Höfliche Anrede für einen Mann oder Bezeichnung für ihn.",
+                        "pl": "Tytuł grzecznościowy używany, by zwrócić się do mężczyzny lub o nim mówić.",
+                        "it": "Titolo di cortesia usato per rivolgersi a un uomo o per indicarlo.",
+                        "cs": "Zdvořilé oslovení nebo označení dospělého muže, používané také před jménem nebo titulem.",
+                        "tr": "Erkeklere kibarca hitap etmek veya onlardan söz ederken kullanılan unvan.",
+                        "es": "Tratamiento de cortesía que se usa para dirigirse a un hombre o referirse a él.",
+                        "zh": "对男子的礼貌称呼，也用于指称男子，可置于姓氏之前。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "sir",
+                                "target_lang_sense_clarification": "polite form of address"
+                            },
+                            {
+                                "target_lang_word": "mister",
+                                "target_lang_sense_clarification": "title before a surname"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "господин",
+                                "target_lang_sense_clarification": "вежливое обращение к мужчине"
+                            },
+                            {
+                                "target_lang_word": "сударь",
+                                "target_lang_sense_clarification": "устаревшее вежливое обращение"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "meneer",
+                                "target_lang_sense_clarification": "gangbare, algemene aanspreekvorm"
+                            },
+                            {
+                                "target_lang_word": "mijnheer",
+                                "target_lang_sense_clarification": "ouderwetse of plechtige variant"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Herr",
+                                "target_lang_sense_clarification": "förmliche Anrede, vor Nachnamen"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "pan",
+                                "target_lang_sense_clarification": "forma grzecznościowa, przed nazwiskiem"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "signore",
+                                "target_lang_sense_clarification": "cortesia, anche prima del cognome"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "pan",
+                                "target_lang_sense_clarification": "zdvořilá forma, např. pan Novák"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "bey",
+                                "target_lang_sense_clarification": "ad veya soyadla kullanılır"
+                            },
+                            {
+                                "target_lang_word": "beyefendi",
+                                "target_lang_sense_clarification": "resmi, saygılı hitap"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "señor",
+                                "target_lang_sense_clarification": "tratamiento formal antes del apellido"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "先生",
+                                "target_lang_sense_clarification": "男子的礼貌称呼"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "b026417a-9cdb-3e0f-aef6-baaef930dc66",
@@ -43,10 +157,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Il y a un <w>monsieur</w> à l'accueil qui demande à vous parler."
+                            "text": "Il y a un <w>monsieur</w> à l'accueil qui demande à vous parler.",
+                            "target_lang_translations": {
+                                "en": "There's a <w>man</w> at the front desk asking to speak to you.",
+                                "ru": "У стойки администратора ждёт какой-то <w>мужчина</w>, который просит поговорить с вами.",
+                                "nl": "Er is een <w>meneer</w> bij de receptie die u wil spreken.",
+                                "de": "Da ist ein <w>Herr</w> am Empfang, der Sie sprechen möchte.",
+                                "pl": "Na recepcji jest jakiś <w>pan</w>, który prosi o rozmowę z panią.",
+                                "it": "C'è un <w>signore</w> alla reception che chiede di parlarle.",
+                                "cs": "U recepce je nějaký <w>muž</w>, který chce s vámi mluvit.",
+                                "tr": "Resepsiyonda sizinle konuşmak isteyen bir <w>bey</w> var.",
+                                "es": "Hay un <w>señor</w> en recepción que pide hablar con usted.",
+                                "zh": "前台有一位<w>男士</w>想要跟您谈谈。"
+                            }
                         },
                         {
-                            "text": "Ce <w>monsieur</w> a laissé son parapluie noir sur la table du restaurant."
+                            "text": "Ce <w>monsieur</w> a laissé son parapluie noir sur la table du restaurant.",
+                            "target_lang_translations": {
+                                "en": "That <w>man</w> left his black umbrella on the table in the restaurant.",
+                                "ru": "Этот <w>мужчина</w> оставил свой чёрный зонт на столике в ресторане.",
+                                "nl": "Deze <w>meneer</w> heeft zijn zwarte paraplu op de tafel in het restaurant laten liggen.",
+                                "de": "Dieser <w>Herr</w> hat seinen schwarzen Regenschirm auf dem Tisch im Restaurant liegen lassen.",
+                                "pl": "Ten <w>pan</w> zostawił swój czarny parasol na stoliku w restauracji.",
+                                "it": "Quel <w>signore</w> ha lasciato il suo ombrello nero sul tavolo del ristorante.",
+                                "cs": "Ten <w>pán</w> nechal svůj černý deštník na stole v restauraci.",
+                                "tr": "Bu <w>adam</w> siyah şemsiyesini restoranın masasında bıraktı.",
+                                "es": "Ese <w>hombre</w> dejó su paraguas negro sobre la mesa del restaurante.",
+                                "zh": "这位<w>男士</w>把他的黑色雨伞落在了餐厅的桌子上。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -54,7 +192,121 @@
                     ],
                     "common_phrases": [
                         "monsieur Tout-le-Monde"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "An adult man whose name is generally unknown.",
+                        "ru": "Взрослый мужчина, чьё имя обычно неизвестно.",
+                        "nl": "Volwassen man van wie de naam meestal niet bekend is.",
+                        "de": "Erwachsener Mann, dessen Name meist nicht bekannt ist.",
+                        "pl": "Dorosły mężczyzna, którego zwykle nie znamy z nazwiska.",
+                        "it": "Uomo adulto di cui generalmente non si conosce il nome.",
+                        "cs": "Dospělý muž, jehož jméno obvykle neznáme.",
+                        "tr": "Adını bilmediğimiz yetişkin bir erkek.",
+                        "es": "Hombre adulto cuyo nombre generalmente se desconoce.",
+                        "zh": "一般不知道姓名的成年男子。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "man",
+                                "target_lang_sense_clarification": "unnamed adult male"
+                            },
+                            {
+                                "target_lang_word": "gentleman",
+                                "target_lang_sense_clarification": "polite term for unknown man"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "мужчина",
+                                "target_lang_sense_clarification": "безымянный взрослый мужчина"
+                            },
+                            {
+                                "target_lang_word": "господин",
+                                "target_lang_sense_clarification": "незнакомый мужчина, вежливо"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "man",
+                                "target_lang_sense_clarification": "neutrale aanduiding voor mannen"
+                            },
+                            {
+                                "target_lang_word": "meneer",
+                                "target_lang_sense_clarification": "beleefd voor onbekende man"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Mann",
+                                "target_lang_sense_clarification": "neutral, ohne bekannten Namen"
+                            },
+                            {
+                                "target_lang_word": "Herr",
+                                "target_lang_sense_clarification": "höflich gegenüber Unbekannten"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "mężczyzna",
+                                "target_lang_sense_clarification": "neutralne, bez nazwiska"
+                            },
+                            {
+                                "target_lang_word": "pan",
+                                "target_lang_sense_clarification": "nieznajomy mężczyzna, uprzejmie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "uomo",
+                                "target_lang_sense_clarification": "uso generico e neutro"
+                            },
+                            {
+                                "target_lang_word": "signore",
+                                "target_lang_sense_clarification": "persona sconosciuta, tono cortese"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "muž",
+                                "target_lang_sense_clarification": "běžné, neutrální označení"
+                            },
+                            {
+                                "target_lang_word": "pán",
+                                "target_lang_sense_clarification": "zdvořilé oslovení neznámého muže"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "adam",
+                                "target_lang_sense_clarification": "genel, nötr kullanım"
+                            },
+                            {
+                                "target_lang_word": "bey",
+                                "target_lang_sense_clarification": "tanınmayan erkek için nazik"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "hombre",
+                                "target_lang_sense_clarification": "uso neutro, sin nombre conocido"
+                            },
+                            {
+                                "target_lang_word": "señor",
+                                "target_lang_sense_clarification": "trato cortés a un desconocido"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "男士",
+                                "target_lang_sense_clarification": "对陌生男子的礼貌称呼"
+                            },
+                            {
+                                "target_lang_word": "男人",
+                                "target_lang_sense_clarification": "普通的成年男性"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "6236435c-a9d3-33e5-b5d1-c4f6c69d5569",
@@ -65,15 +317,145 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ce vieux professeur dévoué est un grand <w>monsieur</w> respecté par tous les habitants."
+                            "text": "Ce vieux professeur dévoué est un grand <w>monsieur</w> respecté par tous les habitants.",
+                            "target_lang_translations": {
+                                "en": "This devoted old teacher is a fine <w>gentleman</w>, respected by all the residents.",
+                                "ru": "Этот старый преданный учитель — настоящий <w>джентльмен</w>, которого уважают все жители.",
+                                "nl": "Deze oude, toegewijde leraar is een echte <w>heer</w> die door alle inwoners wordt gerespecteerd.",
+                                "de": "Dieser alte, engagierte Lehrer ist ein wahrer <w>Ehrenmann</w>, den alle Einwohner achten.",
+                                "pl": "Ten stary, oddany nauczyciel jest prawdziwym <w>dżentelmenem</w>, szanowanym przez wszystkich mieszkańców.",
+                                "it": "Questo vecchio insegnante devoto è un vero <w>gentiluomo</w>, rispettato da tutti gli abitanti.",
+                                "cs": "Tento starý oddaný učitel je opravdový <w>pán</w>, kterého váží všichni obyvatelé.",
+                                "tr": "Bu yaşlı ve özverili öğretmen, tüm sakinlerin saygı duyduğu gerçek bir <w>centilmen</w>.",
+                                "es": "Este viejo profesor entregado es todo un <w>caballero</w>, respetado por todos los habitantes.",
+                                "zh": "这位年迈敬业的老教师德高望重，是一位受全体居民敬重的<w>君子</w>。"
+                            }
                         },
                         {
-                            "text": "Par son courage et son intégrité, il a prouvé qu'il était un vrai <w>monsieur</w>."
+                            "text": "Par son courage et son intégrité, il a prouvé qu'il était un vrai <w>monsieur</w>.",
+                            "target_lang_translations": {
+                                "en": "With his courage and integrity, he proved he was a true <w>gentleman</w>.",
+                                "ru": "Своим мужеством и честностью он доказал, что он настоящий <w>джентльмен</w>.",
+                                "nl": "Met zijn moed en integriteit bewees hij dat hij een echte <w>heer</w> was.",
+                                "de": "Mit seinem Mut und seiner Integrität hat er bewiesen, dass er ein echter <w>Ehrenmann</w> war.",
+                                "pl": "Swoją odwagą i uczciwością udowodnił, że był prawdziwym <w>dżentelmenem</w>.",
+                                "it": "Con il suo coraggio e la sua integrità ha dimostrato di essere un vero <w>galantuomo</w>.",
+                                "cs": "Svou odvahou a bezúhonností dokázal, že byl opravdový <w>pán</w>.",
+                                "tr": "Cesareti ve dürüstlüğüyle gerçek bir <w>centilmen</w> olduğunu kanıtladı.",
+                                "es": "Con su coraje e integridad, demostró que era un verdadero <w>caballero</w>.",
+                                "zh": "凭借他的勇气和正直，他证明了自己是一位真正的<w>君子</w>。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "un grand monsieur"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A man distinguished by his rank, authority or moral worth.",
+                        "ru": "Мужчина, выделяющийся положением, авторитетом или нравственными качествами.",
+                        "nl": "Man die door zijn rang, gezag of morele waarde opvalt.",
+                        "de": "Mann, der durch Rang, Autorität oder moralische Größe hervorragt.",
+                        "pl": "Mężczyzna wyróżniający się rangą, autorytetem lub wartościami moralnymi.",
+                        "it": "Uomo che si distingue per rango, autorità o valore morale.",
+                        "cs": "Muž, který vyniká postavením, autoritou nebo mravní hodnotou.",
+                        "tr": "Mevkisi, otoritesi ya da ahlaki değeriyle öne çıkan erkek.",
+                        "es": "Hombre destacado por su rango, su autoridad o su valor moral.",
+                        "zh": "因地位、权威或道德品格而出众、受人敬重的男子。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "gentleman",
+                                "target_lang_sense_clarification": "man of honourable character"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "джентльмен",
+                                "target_lang_sense_clarification": "человек безупречной чести"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "heer",
+                                "target_lang_sense_clarification": "deftig, man van aanzien"
+                            },
+                            {
+                                "target_lang_word": "edelman",
+                                "target_lang_sense_clarification": "man van nobele inborst"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Ehrenmann",
+                                "target_lang_sense_clarification": "untadelige Gesinnung, Charakter"
+                            },
+                            {
+                                "target_lang_word": "Edelmann",
+                                "target_lang_sense_clarification": "vornehme, edle Haltung"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "dżentelmen",
+                                "target_lang_sense_clarification": "człowiek o nienagannym honorze"
+                            },
+                            {
+                                "target_lang_word": "dostojnik",
+                                "target_lang_sense_clarification": "osoba wysokiej rangi"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "gentiluomo",
+                                "target_lang_sense_clarification": "uomo di nobili maniere"
+                            },
+                            {
+                                "target_lang_word": "galantuomo",
+                                "target_lang_sense_clarification": "uomo di specchiata onestà"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "džentlmen",
+                                "target_lang_sense_clarification": "vytříbené, slušné chování"
+                            },
+                            {
+                                "target_lang_word": "pán",
+                                "target_lang_sense_clarification": "ve spojení „je to pán“"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "centilmen",
+                                "target_lang_sense_clarification": "nezaket ve onur sahibi"
+                            },
+                            {
+                                "target_lang_word": "efendi",
+                                "target_lang_sense_clarification": "edebî, ağırbaşlı kullanım"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "caballero",
+                                "target_lang_sense_clarification": "hombre de modales distinguidos"
+                            },
+                            {
+                                "target_lang_word": "hombre de bien",
+                                "target_lang_sense_clarification": "de honradez reconocida"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "君子",
+                                "target_lang_sense_clarification": "品德高尚的男子"
+                            },
+                            {
+                                "target_lang_word": "绅士",
+                                "target_lang_sense_clarification": "举止文雅有教养的男子"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "a1ace9d8-6586-3c62-880f-a559722ff75d",
@@ -84,15 +466,157 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Après vingt ans de carrière, il reste le <w>monsieur</w> météo le plus populaire de la chaîne."
+                            "text": "Après vingt ans de carrière, il reste le <w>monsieur</w> météo le plus populaire de la chaîne.",
+                            "target_lang_translations": {
+                                "en": "After twenty years in the job, he remains the channel's most popular weather <w>man</w>.",
+                                "ru": "Проработав двадцать лет, он остаётся самым популярным <w>синоптиком</w> канала.",
+                                "nl": "Na twintig jaar in het vak blijft hij de populairste <w>weerman</w> van de zender.",
+                                "de": "Nach zwanzig Berufsjahren bleibt er der beliebteste <w>Wetterfrosch</w> des Senders.",
+                                "pl": "Po dwudziestu latach w zawodzie nadal jest najpopularniejszym <w>prezenterem</w> pogody w tej stacji.",
+                                "it": "Dopo vent'anni di carriera, resta il <w>meteorologo</w> più popolare della rete.",
+                                "cs": "Po dvaceti letech v oboru zůstává nejoblíbenějším <w>meteorologem</w> televizní stanice.",
+                                "tr": "Yirmi yıllık kariyerinin ardından hâlâ kanalın en popüler hava durumu <w>sunucusu</w>.",
+                                "es": "Tras veinte años de carrera, sigue siendo el <w>meteorólogo</w> más popular del canal.",
+                                "zh": "从业二十年，他仍是电视台最受欢迎的天气<w>专家</w>。"
+                            }
                         },
                         {
-                            "text": "Le ministre a désigné un <w>monsieur</w> sécurité pour coordonner les services de secours."
+                            "text": "Le ministre a désigné un <w>monsieur</w> sécurité pour coordonner les services de secours.",
+                            "target_lang_translations": {
+                                "en": "The minister appointed a security <w>officer</w> to coordinate the emergency services.",
+                                "ru": "Министр назначил <w>сотрудника</w> по безопасности, чтобы координировать работу спасательных служб.",
+                                "nl": "De minister heeft een <w>veiligheidsfunctionaris</w> aangesteld om de hulpdiensten te coördineren.",
+                                "de": "Der Minister hat einen <w>Sicherheitsbeauftragten</w> ernannt, um die Rettungsdienste zu koordinieren.",
+                                "pl": "Minister wyznaczył <w>specjalistę</w> ds. bezpieczeństwa do koordynowania działań służb ratunkowych.",
+                                "it": "Il ministro ha nominato un <w>responsabile</w> della sicurezza per coordinare i servizi di soccorso.",
+                                "cs": "Ministr jmenoval bezpečnostního <w>specialistu</w>, aby koordinoval záchranné služby.",
+                                "tr": "Bakan, kurtarma hizmetlerini koordine etmek için bir güvenlik <w>görevlisi</w> atadı.",
+                                "es": "El ministro ha designado a un <w>responsable</w> de seguridad para coordinar los servicios de emergencia.",
+                                "zh": "部长指派了一位安全<w>专家</w>来协调各救援部门的工作。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "monsieur météo"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A person recognised as a specialist or emblematic figure in a particular field.",
+                        "ru": "Признанный специалист или символическая фигура в определённой сфере.",
+                        "nl": "Persoon die als specialist of als vertegenwoordiger van een bepaald vakgebied bekendstaat.",
+                        "de": "Person, die als Fachmann oder typischer Vertreter eines Bereichs gilt.",
+                        "pl": "Osoba uznawana za specjalistę lub symbol danej dziedziny.",
+                        "it": "Persona riconosciuta come specialista o come figura emblematica di un settore preciso.",
+                        "cs": "Uznávaný odborník nebo symbolická osobnost určitého oboru.",
+                        "tr": "Belirli bir alanın tanınmış temsilcisi ya da yetkin kişisi.",
+                        "es": "Persona reconocida como especialista o como figura representativa de un ámbito concreto.",
+                        "zh": "在某一特定领域中被公认为专家或具有代表性的人物。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "expert",
+                                "target_lang_sense_clarification": "recognised specialist in a field"
+                            },
+                            {
+                                "target_lang_word": "master",
+                                "target_lang_sense_clarification": "acknowledged expert in a field"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "специалист",
+                                "target_lang_sense_clarification": "признанный знаток области"
+                            },
+                            {
+                                "target_lang_word": "эксперт",
+                                "target_lang_sense_clarification": "авторитет в узкой области"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "expert",
+                                "target_lang_sense_clarification": "erkend vakdeskundige"
+                            },
+                            {
+                                "target_lang_word": "specialist",
+                                "target_lang_sense_clarification": "gespecialiseerd in een vakgebied"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Fachmann",
+                                "target_lang_sense_clarification": "Kenner eines bestimmten Gebiets"
+                            },
+                            {
+                                "target_lang_word": "Experte",
+                                "target_lang_sense_clarification": "anerkannter Spezialist"
+                            },
+                            {
+                                "target_lang_word": "Koryphäe",
+                                "target_lang_sense_clarification": "herausragende Persönlichkeit eines Fachs"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "specjalista",
+                                "target_lang_sense_clarification": "uznany fachowiec w dziedzinie"
+                            },
+                            {
+                                "target_lang_word": "ekspert",
+                                "target_lang_sense_clarification": "znawca określonej dziedziny"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "esperto",
+                                "target_lang_sense_clarification": "competenza riconosciuta in un campo"
+                            },
+                            {
+                                "target_lang_word": "specialista",
+                                "target_lang_sense_clarification": "professionista di un settore preciso"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "odborník",
+                                "target_lang_sense_clarification": "uznávaný znalec, obecné označení"
+                            },
+                            {
+                                "target_lang_word": "specialista",
+                                "target_lang_sense_clarification": "úzké zaměření, profesionál"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "uzman",
+                                "target_lang_sense_clarification": "teknik ve bilimsel konular"
+                            },
+                            {
+                                "target_lang_word": "usta",
+                                "target_lang_sense_clarification": "bir sanatta ustalaşmış kişi"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "experto",
+                                "target_lang_sense_clarification": "reconocido conocedor de un ámbito"
+                            },
+                            {
+                                "target_lang_word": "especialista",
+                                "target_lang_sense_clarification": "dedicado a un campo concreto"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "专家",
+                                "target_lang_sense_clarification": "某一领域的专业人士"
+                            },
+                            {
+                                "target_lang_word": "权威",
+                                "target_lang_sense_clarification": "在某领域公认的权威人物"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "fede2990-0244-3072-a2d3-8393fa4f33cd",
@@ -103,10 +627,34 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Le valet annonça aux invités que <w>monsieur</w> descendrait au salon dans quelques minutes."
+                            "text": "Le valet annonça aux invités que <w>monsieur</w> descendrait au salon dans quelques minutes.",
+                            "target_lang_translations": {
+                                "en": "The valet told the guests that the <w>master</w> would come down to the drawing room in a few minutes.",
+                                "ru": "Лакей сообщил гостям, что <w>хозяин</w> спустится в гостиную через несколько минут.",
+                                "nl": "De lakei kondigde de gasten aan dat de <w>heer</w> over enkele minuten naar de salon zou komen.",
+                                "de": "Der Diener kündigte den Gästen an, dass der <w>Hausherr</w> in wenigen Minuten in den Salon hinunterkommen werde.",
+                                "pl": "Lokaj poinformował gości, że <w>pan</w> zejdzie do salonu za kilka minut.",
+                                "it": "Il domestico annunciò agli ospiti che il <w>padrone</w> sarebbe sceso in salotto tra pochi minuti.",
+                                "cs": "Lokaj oznámil hostům, že <w>pán</w> sestoupí do salonu za několik minut.",
+                                "tr": "Uşak, misafirlere <w>efendinin</w> birkaç dakika içinde salona ineceğini bildirdi.",
+                                "es": "El criado anunció a los invitados que el <w>señor</w> bajaría al salón en unos minutos.",
+                                "zh": "仆人通知客人们，<w>老爷</w>几分钟后就会下楼来到客厅。"
+                            }
                         },
                         {
-                            "text": "Dans cette grande demeure bourgeoise, <w>monsieur</w> prenait toujours son déjeuner à midi pile."
+                            "text": "Dans cette grande demeure bourgeoise, <w>monsieur</w> prenait toujours son déjeuner à midi pile.",
+                            "target_lang_translations": {
+                                "en": "In this large middle-class house, the <w>master</w> always took his lunch at twelve on the dot.",
+                                "ru": "В этом большом буржуазном особняке <w>хозяин</w> всегда обедал ровно в полдень.",
+                                "nl": "In dit grote burgerhuis nam de <w>heer</w> altijd precies om twaalf uur zijn middagmaal.",
+                                "de": "In diesem großen bürgerlichen Haus aß der <w>Hausherr</w> immer punkt zwölf Uhr zu Mittag.",
+                                "pl": "W tym wielkim mieszczańskim domu <w>pan</w> zawsze jadał obiad punktualnie w samo południe.",
+                                "it": "In quella grande casa borghese, il <w>padrone</w> pranzava sempre a mezzogiorno in punto.",
+                                "cs": "V tomto velkém měšťanském domě <w>pán</w> vždy obědval přesně v poledne.",
+                                "tr": "Bu büyük burjuva konağında <w>efendi</w> öğle yemeğini her zaman tam on ikide yerdi.",
+                                "es": "En esta gran casa burguesa, el <w>señor</w> almorzaba siempre a las doce en punto.",
+                                "zh": "在这座中产阶级的大宅里，<w>男主人</w>总是正午十二点整用午餐。"
+                            }
                         }
                     ],
                     "antonyms": [
@@ -117,7 +665,113 @@
                             "trait_type": "dated",
                             "comment": "langage domestique traditionnel"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The master of the house, in the speech of domestic staff.",
+                        "ru": "Хозяин дома, так его называет домашняя прислуга.",
+                        "nl": "Het hoofd van het huishouden, zoals het huispersoneel hem noemde.",
+                        "de": "Hausherr, wie ihn das Dienstpersonal nennt.",
+                        "pl": "Gospodarz domu, tak nazywany w mowie służby domowej.",
+                        "it": "Capo della casa, così chiamato dalla servitù.",
+                        "cs": "Hlava domácnosti, tak ho oslovuje domácí služebnictvo.",
+                        "tr": "Hizmetkârların dilinde evin başı olan erkek.",
+                        "es": "Dueño de la casa, tal como lo llama el personal doméstico.",
+                        "zh": "仆人对一家之主的称呼，指家庭的男主人。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "master",
+                                "target_lang_sense_clarification": "household head, servants' usage"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "хозяин",
+                                "target_lang_sense_clarification": "глава дома, речь прислуги"
+                            },
+                            {
+                                "target_lang_word": "барин",
+                                "target_lang_sense_clarification": "устар., о владельце дома"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "heer",
+                                "target_lang_sense_clarification": "heer des huizes, dienstbodentaal"
+                            },
+                            {
+                                "target_lang_word": "meester",
+                                "target_lang_sense_clarification": "werkgever, ouderwets dienstbodengebruik"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Hausherr",
+                                "target_lang_sense_clarification": "Oberhaupt des Haushalts"
+                            },
+                            {
+                                "target_lang_word": "Herr",
+                                "target_lang_sense_clarification": "Anrede durch das Dienstpersonal"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "gospodarz",
+                                "target_lang_sense_clarification": "głowa domu, mowa służby"
+                            },
+                            {
+                                "target_lang_word": "pan",
+                                "target_lang_sense_clarification": "zwrot służby do pracodawcy"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "padrone",
+                                "target_lang_sense_clarification": "linguaggio della servitù"
+                            },
+                            {
+                                "target_lang_word": "signore",
+                                "target_lang_sense_clarification": "appellativo usato dalla servitù"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "pán",
+                                "target_lang_sense_clarification": "oslovení služebnictvem, zastaralé"
+                            },
+                            {
+                                "target_lang_word": "hospodář",
+                                "target_lang_sense_clarification": "hlava domácnosti, zastaralé"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "efendi",
+                                "target_lang_sense_clarification": "eski, hizmetkârların hitabı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "amo",
+                                "target_lang_sense_clarification": "dueño de la casa, habla del servicio"
+                            },
+                            {
+                                "target_lang_word": "señor",
+                                "target_lang_sense_clarification": "así lo llama la servidumbre"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "老爷",
+                                "target_lang_sense_clarification": "旧时仆人对主人的称呼"
+                            },
+                            {
+                                "target_lang_word": "男主人",
+                                "target_lang_sense_clarification": "家庭的男主人"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "08a6fd7d-ae76-38d2-89d5-41db4ae4d664",
@@ -128,10 +782,34 @@
                     "name_type": "title_or_honorific_name",
                     "examples": [
                         {
-                            "text": "À la cour de Versailles, les courtisans se pressaient chaque matin chez <w>Monsieur</w>."
+                            "text": "À la cour de Versailles, les courtisans se pressaient chaque matin chez <w>Monsieur</w>.",
+                            "target_lang_translations": {
+                                "en": "At the court of Versailles, the courtiers crowded every morning into the apartments of <w>Monsieur</w>.",
+                                "ru": "При версальском дворе придворные каждое утро толпились в покоях <w>Месье</w>.",
+                                "nl": "Aan het hof van Versailles verdrongen de hovelingen zich elke ochtend in de vertrekken van <w>Monsieur</w>.",
+                                "de": "Am Hof von Versailles drängten sich die Höflinge jeden Morgen in den Gemächern von <w>Monsieur</w>.",
+                                "pl": "Na dworze w Wersalu dworzanie każdego ranka tłoczyli się u <w>Monsieur</w>.",
+                                "it": "Alla corte di Versailles, i cortigiani si affollavano ogni mattina presso <w>Monsieur</w>.",
+                                "cs": "Na versailleském dvoře se dvořané každé ráno tlačili u <w>Monsieura</w>.",
+                                "tr": "Versailles sarayında saray mensupları her sabah <w>Monsieur'ün</w> dairelerine üşüşürdü.",
+                                "es": "En la corte de Versalles, los cortesanos se apiñaban cada mañana en los aposentos de <w>Monsieur</w>.",
+                                "zh": "在凡尔赛宫，朝臣们每天清晨都挤到<w>王弟</w>的寓所里。"
+                            }
                         },
                         {
-                            "text": "Cette somptueuse résidence appartenait autrefois à <w>Monsieur</w>, frère puîné du souverain."
+                            "text": "Cette somptueuse résidence appartenait autrefois à <w>Monsieur</w>, frère puîné du souverain.",
+                            "target_lang_translations": {
+                                "en": "This sumptuous residence once belonged to <w>Monsieur</w>, the younger brother of the sovereign.",
+                                "ru": "Эта роскошная резиденция когда-то принадлежала <w>Месье</w>, младшему брату монарха.",
+                                "nl": "Deze weelderige residentie behoorde vroeger toe aan <w>Monsieur</w>, de jongere broer van de vorst.",
+                                "de": "Diese prachtvolle Residenz gehörte einst <w>Monsieur</w>, dem jüngeren Bruder des Herrschers.",
+                                "pl": "Ta wspaniała rezydencja niegdyś należała do <w>Monsieur</w>, młodszego brata władcy.",
+                                "it": "Questa sontuosa residenza apparteneva un tempo a <w>Monsieur</w>, fratello minore del sovrano.",
+                                "cs": "Tato okázalá rezidence kdysi patřila <w>Monsieurovi</w>, mladšímu bratrovi panovníka.",
+                                "tr": "Bu muhteşem konut bir zamanlar hükümdarın küçük kardeşi <w>Monsieur'e</w> aitti.",
+                                "es": "Esta suntuosa residencia pertenecía antaño a <w>Monsieur</w>, hermano menor del soberano.",
+                                "zh": "这座华丽的府邸曾属于<w>王弟</w>，即国王的幼弟。"
+                            }
                         }
                     ],
                     "traits": [
@@ -139,7 +817,71 @@
                             "trait_type": "archaic",
                             "comment": "sous l'Ancien Régime"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A title given to the younger brother of the king under the Ancien Régime in France.",
+                        "ru": "Титул младшего брата короля во Франции при Старом порядке.",
+                        "nl": "Titel van de jongere broer van de koning in Frankrijk voor de Revolutie.",
+                        "de": "Titel des jüngeren Bruders des Königs im Frankreich des Ancien Régime.",
+                        "pl": "Tytuł młodszego brata króla we Francji przed rewolucją.",
+                        "it": "Titolo attribuito al fratello minore del re nella Francia dell'Antico Regime.",
+                        "cs": "Titul mladšího bratra francouzského krále před Velkou francouzskou revolucí.",
+                        "tr": "Eski Fransa'da kralın küçük kardeşine verilen unvan.",
+                        "es": "Título del hermano menor del rey en la Francia del Antiguo Régimen.",
+                        "zh": "法国旧制度时期授予国王幼弟的称号。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "royal title, Ancien Régime France"
+                            }
+                        ],
+                        "ru": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "koninklijke titel, Frankrijk voor 1789"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "Titel am französischen Königshof"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "tytuł brata króla, Francja"
+                            }
+                        ],
+                        "it": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "královský titul, předrevoluční Francie"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "Fransız kraliyet unvanı"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "título real del Antiguo Régimen"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "王弟",
+                                "target_lang_sense_clarification": "旧制度时期国王的幼弟"
+                            }
+                        ]
+                    }
                 }
             ]
         }

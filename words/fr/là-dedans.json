@@ -23,8 +23,8 @@
                             "text": "Ne touche pas à ce vieux carton, il y a des verres fragiles <w>là-dedans</w>.",
                             "target_lang_translations": {
                                 "en": "Don't touch that old box, there are fragile glasses <w>in there</w>.",
-                                "ru": "Не трогай эту старую коробку, там внутри хрупкие стаканы.",
-                                "nl": "Raak die oude kartonnen doos niet aan, er liggen breekbare glazen <w>erin</w>.",
+                                "ru": "Не трогай эту старую коробку, <w>там внутри</w> хрупкие стаканы.",
+                                "nl": "Raak die oude kartonnen doos niet aan, <w>daarin</w> zitten breekbare glazen.",
                                 "de": "Fass diesen alten Karton nicht an, <w>darin</w> liegen zerbrechliche Gläser.",
                                 "pl": "Nie dotykaj tego starego kartonu, <w>w środku</w> są kruche szklanki.",
                                 "it": "Non toccare quel vecchio scatolone, ci sono dei bicchieri fragili <w>lì dentro</w>.",
@@ -173,13 +173,13 @@
                             "text": "Je ne comprends rien à ce conflit et je n'ai absolument rien à voir <w>là-dedans</w>.",
                             "target_lang_translations": {
                                 "en": "I don't understand anything about this conflict, and I have absolutely nothing to do with <w>it</w>.",
-                                "ru": "Я ничего не понимаю в этом конфликте и совершенно не <w>замешан</w> в нём.",
-                                "nl": "Ik begrijp niets van dit conflict en ik heb absoluut niets <w>ermee</w> te maken.",
+                                "ru": "Я ничего не понимаю в этом конфликте и <w>тут</w> совершенно ни при чём.",
+                                "nl": "Ik begrijp niets van dit conflict en ik heb <w>er</w> absoluut niets <w>mee</w> te maken.",
                                 "de": "Ich verstehe nichts von diesem Konflikt, und ich habe absolut nichts <w>damit</w> zu tun.",
-                                "pl": "Nie rozumiem nic z tego konfliktu i absolutnie nie jestem w to <w>zamieszany</w>.",
+                                "pl": "Nie rozumiem nic z tego konfliktu i absolutnie nie mam <w>z tym</w> nic wspólnego.",
                                 "it": "Non capisco nulla di questo conflitto e non <w>c'entro</w> assolutamente niente.",
-                                "cs": "Tomu konfliktu nerozumím ani trochu a vůbec v něm nejsem <w>zapletený</w>.",
-                                "tr": "Bu çatışmadan hiçbir şey anlamıyorum ve bu işe hiç <w>karışmış</w> değilim.",
+                                "cs": "Tomu konfliktu nerozumím ani trochu a vůbec <w>v tom</w> nejsem zapletený.",
+                                "tr": "Bu çatışmadan hiçbir şey anlamıyorum ve <w>bu işle</w> hiçbir ilgim yok.",
                                 "es": "No entiendo nada de este conflicto y no tengo absolutamente nada que ver con <w>eso</w>.",
                                 "zh": "我完全不懂这场冲突，我根本没有<w>牵扯</w>进去。"
                             }
@@ -190,11 +190,11 @@
                                 "en": "Why do you keep trying to drag me into <w>it</w> without any proof?",
                                 "ru": "Почему ты постоянно пытаешься втянуть меня <w>в это</w> без всяких доказательств?",
                                 "nl": "Waarom probeer je me steeds zonder enig bewijs <w>erbij</w> te betrekken?",
-                                "de": "Warum versuchst du ständig, mich ohne jeden Beweis <w>da reinzuziehen</w>?",
-                                "pl": "Dlaczego ciągle próbujesz mnie w to <w>zamieszać</w> bez żadnych dowodów?",
+                                "de": "Warum versuchst du ständig, mich ohne jeden Beweis <w>da</w> reinzuziehen?",
+                                "pl": "Dlaczego ciągle próbujesz mnie <w>w to</w> wplątać bez żadnych dowodów?",
                                 "it": "Perché cerchi continuamente di tirarmi <w>dentro</w> senza alcuna prova?",
-                                "cs": "Proč mě pořád snažíš do toho <w>zaplést</w> bez jakéhokoli důkazu?",
-                                "tr": "Neden hiçbir kanıt olmadan sürekli beni bu işe <w>bulaştırmaya</w> çalışıyorsun?",
+                                "cs": "Proč se mě pořád snažíš <w>do toho</w> zaplést bez jakéhokoli důkazu?",
+                                "tr": "Neden hiçbir kanıt olmadan sürekli beni <w>bu işe</w> bulaştırmaya çalışıyorsun?",
                                 "es": "¿Por qué intentas meterme constantemente en <w>eso</w> sin ninguna prueba?",
                                 "zh": "你为什么总是在没有任何证据的情况下，想把我<w>牵扯</w>进这件事里？"
                             }
@@ -205,12 +205,12 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Involved in this matter, story or situation.",
-                        "ru": "Причастный к этому делу, истории или ситуации.",
+                        "ru": "В этом деле, истории или ситуации.",
                         "nl": "Betrokken bij deze zaak, dit verhaal of deze situatie.",
                         "de": "An dieser Angelegenheit, Geschichte oder Situation beteiligt.",
-                        "pl": "Zamieszany w tę sprawę, historię lub sytuację.",
+                        "pl": "W tej sprawie, historii lub sytuacji.",
                         "it": "Coinvolto in questa faccenda, storia o situazione.",
-                        "cs": "Být účastníkem dané záležitosti, příběhu nebo situace.",
+                        "cs": "V této záležitosti, příběhu nebo situaci.",
                         "tr": "Bu iş, olay veya durumda yer alan.",
                         "es": "En este asunto, historia o situación.",
                         "zh": "与这件事、这个故事或这种情况有牵连的。"
@@ -224,64 +224,72 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "замешанный",
-                                "target_lang_sense_clarification": "в конфликте, скандале"
+                                "target_lang_word": "в этом",
+                                "target_lang_sense_clarification": "в этом деле, в этой истории"
+                            },
+                            {
+                                "target_lang_word": "тут",
+                                "target_lang_sense_clarification": "«я тут ни при чём»"
                             }
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "betrokken",
-                                "target_lang_sense_clarification": "bij conflict of zaak"
+                                "target_lang_word": "daarin",
+                                "target_lang_sense_clarification": "in die zaak of situatie"
+                            },
+                            {
+                                "target_lang_word": "ermee",
+                                "target_lang_sense_clarification": "in: er niets mee te maken hebben"
                             }
                         ],
                         "de": [
                             {
-                                "target_lang_word": "beteiligt",
-                                "target_lang_sense_clarification": "an Konflikt oder Angelegenheit"
+                                "target_lang_word": "damit",
+                                "target_lang_sense_clarification": "in „nichts damit zu tun haben“"
                             },
                             {
-                                "target_lang_word": "verwickelt",
-                                "target_lang_sense_clarification": "in Streit oder Skandal"
+                                "target_lang_word": "da",
+                                "target_lang_sense_clarification": "umgangssprachlich, da rein"
                             }
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "zamieszany",
-                                "target_lang_sense_clarification": "w konflikt lub skandal"
+                                "target_lang_word": "w to",
+                                "target_lang_sense_clarification": "w tę sprawę, np. mieszać w to"
                             },
                             {
-                                "target_lang_word": "wplątany",
-                                "target_lang_sense_clarification": "w sprawę lub kłopoty"
+                                "target_lang_word": "z tym",
+                                "target_lang_sense_clarification": "w zwrocie: nie mieć z tym nic wspólnego"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "coinvolto",
-                                "target_lang_sense_clarification": "in conflitto o vicenda"
+                                "target_lang_word": "dentro",
+                                "target_lang_sense_clarification": "in questa faccenda"
                             },
                             {
-                                "target_lang_word": "implicato",
-                                "target_lang_sense_clarification": "in reato o scandalo"
+                                "target_lang_word": "in mezzo",
+                                "target_lang_sense_clarification": "tirare in mezzo qualcuno"
                             }
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "zapletený",
-                                "target_lang_sense_clarification": "do sporu nebo skandálu"
+                                "target_lang_word": "v tom",
+                                "target_lang_sense_clarification": "v té záležitosti"
                             },
                             {
-                                "target_lang_word": "zapojený",
-                                "target_lang_sense_clarification": "do věci nebo projektu"
+                                "target_lang_word": "do toho",
+                                "target_lang_sense_clarification": "zaplést se do věci"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "dahil",
-                                "target_lang_sense_clarification": "bir işe veya olaya"
+                                "target_lang_word": "bu işte",
+                                "target_lang_sense_clarification": "bu olay veya meselede"
                             },
                             {
-                                "target_lang_word": "karışmış",
-                                "target_lang_sense_clarification": "suç veya tartışmada"
+                                "target_lang_word": "bu işe",
+                                "target_lang_sense_clarification": "karışmak, bulaştırmak ile"
                             }
                         ],
                         "es": [
@@ -319,7 +327,7 @@
                                 "de": "Dieser Student lernt alles sehr schnell, er hat wirklich viel <w>Grips</w>.",
                                 "pl": "Ten student wszystko bardzo szybko przyswaja, naprawdę ma dużo oleju w <w>głowie</w>.",
                                 "it": "Questo studente capisce tutto molto in fretta, ha davvero un gran <w>cervello</w>.",
-                                "cs": "Tenhle student všechno chápe velmi rychle, má opravdu bystré <w>mozky</w>.",
+                                "cs": "Tenhle student všechno chápe velmi rychle, opravdu má něco <w>v makovici</w>.",
                                 "tr": "Bu öğrenci her şeyi çok çabuk kavrıyor, gerçekten <w>kafası</w> çok iyi çalışıyor.",
                                 "es": "Este estudiante asimila todo muy rápido, de verdad tiene mucho <w>cacúmen</w>.",
                                 "zh": "这个学生学什么都很快，他确实很有<w>脑子</w>。"
@@ -417,7 +425,7 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "mozky",
+                                "target_lang_word": "v makovici",
                                 "target_lang_sense_clarification": "hovorově, o inteligenci"
                             },
                             {

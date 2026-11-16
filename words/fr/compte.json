@@ -44,7 +44,7 @@
                                 "ru": "Перевод будет напрямую списан с моего банковского <w>счёта</w>.",
                                 "nl": "De overschrijving wordt rechtstreeks van mijn <w>bankrekening</w> afgeschreven.",
                                 "de": "Die Überweisung wird direkt von meinem <w>Bankkonto</w> abgebucht.",
-                                "pl": "Przelew zostanie bezpośrednio obciążony z mojego <w>rachunku</w> bankowego.",
+                                "pl": "Kwota przelewu zostanie pobrana bezpośrednio z mojego <w>rachunku</w> bankowego.",
                                 "it": "Il bonifico sarà addebitato direttamente sul mio <w>conto</w> bancario.",
                                 "cs": "Převod bude přímo odepsán z mého bankovního <w>účtu</w>.",
                                 "es": "La transferencia se cargará directamente en mi <w>cuenta</w> bancaria.",
@@ -169,7 +169,7 @@
                                 "nl": "U moet een <w>account</w> aanmaken om toegang te krijgen tot deze online dienst.",
                                 "de": "Sie müssen ein <w>Konto</w> anlegen, um diesen Online-Dienst nutzen zu können.",
                                 "pl": "Aby uzyskać dostęp do tej usługi online, trzeba założyć <w>konto</w>.",
-                                "it": "Per accedere a questo servizio online deve creare un <w>conto</w>.",
+                                "it": "Per accedere a questo servizio online deve creare un <w>account</w>.",
                                 "cs": "Pro přístup k této online službě si musíte vytvořit <w>účet</w>.",
                                 "es": "Debe crear una <w>cuenta</w> para acceder a este servicio en línea.",
                                 "zh": "您需要先注册一个<w>账号</w>，才能使用这项网络服务。",
@@ -184,8 +184,8 @@
                                 "nl": "Hij heeft het wachtwoord van zijn persoonlijke <w>account</w> vergeten.",
                                 "de": "Er hat das Passwort zu seinem persönlichen <w>Konto</w> vergessen.",
                                 "pl": "Zapomniał hasła do swojego osobistego <w>konta</w>.",
-                                "it": "Ha dimenticato la password associata al suo <w>conto</w> personale.",
-                                "cs": "Zapomněl heslo k svému osobnímu <w>účtu</w>.",
+                                "it": "Ha dimenticato la password associata al suo <w>account</w> personale.",
+                                "cs": "Zapomněl heslo ke svému osobnímu <w>účtu</w>.",
                                 "es": "Ha olvidado la contraseña asociada a su <w>cuenta</w> personal.",
                                 "zh": "他忘了自己个人<w>账号</w>的密码。",
                                 "tr": "Kişisel <w>hesabının</w> şifresini unuttu."
@@ -257,8 +257,12 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "conto",
+                                "target_lang_word": "account",
                                 "target_lang_sense_clarification": "servizi online e siti web"
+                            },
+                            {
+                                "target_lang_word": "profilo",
+                                "target_lang_sense_clarification": "spazio personale su una piattaforma"
                             }
                         ],
                         "cs": [
@@ -327,7 +331,7 @@
                                 "de": "Ich habe den <w>Überblick</w> über die Tage verloren, die ich weit weg von zu Hause verbracht habe.",
                                 "pl": "Straciłem <w>rachubę</w> dni, które spędziłem daleko od domu.",
                                 "it": "Ho perso il <w>conto</w> dei giorni trascorsi lontano da casa.",
-                                "cs": "Ztratil jsem <w>počet</w> dní, které jsem strávil daleko od domova.",
+                                "cs": "Ztratil jsem <w>přehled</w> o tom, kolik dní jsem strávil daleko od domova.",
                                 "es": "He perdido la <w>cuenta</w> de los días que pasé lejos de mi casa.",
                                 "zh": "我已经数不清在外离家的日子了。",
                                 "tr": "Evimden uzakta geçirdiğim günlerin <w>sayısını</w> şaşırdım."
@@ -531,11 +535,7 @@
                         "ru": [
                             {
                                 "target_lang_word": "отчёт",
-                                "target_lang_sense_clarification": "отчёт о расходах и управлении"
-                            },
-                            {
-                                "target_lang_word": "подотчётность",
-                                "target_lang_sense_clarification": "ответственность перед акционерами или властями"
+                                "target_lang_sense_clarification": "о своих действиях и расходах"
                             }
                         ],
                         "nl": [
@@ -570,6 +570,10 @@
                         ],
                         "it": [
                             {
+                                "target_lang_word": "conto",
+                                "target_lang_sense_clarification": "in «rendere conto»"
+                            },
+                            {
                                 "target_lang_word": "rendiconto",
                                 "target_lang_sense_clarification": "di spese e gestione"
                             },
@@ -579,6 +583,10 @@
                             }
                         ],
                         "cs": [
+                            {
+                                "target_lang_word": "účty",
+                                "target_lang_sense_clarification": "skládat někomu účty"
+                            },
                             {
                                 "target_lang_word": "vyúčtování",
                                 "target_lang_sense_clarification": "výdajů a hospodaření"
@@ -761,8 +769,8 @@
                                 "target_lang_sense_clarification": "企业或家庭的收支记录"
                             },
                             {
-                                "target_lang_word": "会计",
-                                "target_lang_sense_clarification": "记账与财务核算工作"
+                                "target_lang_word": "账",
+                                "target_lang_sense_clarification": "口语，如查账、记账"
                             }
                         ],
                         "tr": [
@@ -795,7 +803,7 @@
                             "target_lang_translations": {
                                 "en": "I <w>plan</w> to leave on holiday from the start of next week.",
                                 "ru": "Я <w>собираюсь</w> уехать в отпуск с начала следующей недели.",
-                                "nl": "Ik <w>plan</w> om vanaf het begin van volgende week op vakantie te gaan.",
+                                "nl": "Ik <w>ben van plan</w> om vanaf het begin van volgende week op vakantie te gaan.",
                                 "de": "Ich <w>plane</w>, schon zu Beginn der nächsten Woche in den Urlaub zu fahren.",
                                 "pl": "<w>Zamierzam</w> wyjechać na urlop już od początku przyszłego tygodnia.",
                                 "it": "<w>Intendo</w> partire per le vacanze fin dall'inizio della settimana prossima.",
@@ -828,7 +836,7 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "en": "First-person singular present indicative form of the verb count.",
+                        "en": "First-person singular present indicative of the French verb «compter».",
                         "ru": "Первое лицо единственного числа настоящего времени изъявительного наклонения глагола «compter».",
                         "nl": "Eerste persoon enkelvoud van de tegenwoordige tijd van het Franse werkwoord compter.",
                         "de": "Erste Person Singular im Präsens Indikativ des französischen Verbs compter, etwa für zählen oder planen.",
@@ -843,25 +851,25 @@
                         "en": [
                             {
                                 "target_lang_word": "count",
-                                "target_lang_sense_clarification": "tally numbers or items"
+                                "target_lang_sense_clarification": "I count, present tense"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "считать",
-                                "target_lang_sense_clarification": "подсчитывать числа или предметы"
+                                "target_lang_sense_clarification": "1-е л. ед. ч. изъяв., подсчитывать"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "tellen",
-                                "target_lang_sense_clarification": "getallen of voorwerpen tellen"
+                                "target_lang_sense_clarification": "ik tel: 1e persoon enkelvoud"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "zählen",
-                                "target_lang_sense_clarification": "Dinge oder Zahlen durchzählen"
+                                "target_lang_sense_clarification": "1. Person Präsens: ich zähle"
                             },
                             {
                                 "target_lang_word": "planen",
@@ -871,7 +879,7 @@
                         "pl": [
                             {
                                 "target_lang_word": "liczyć",
-                                "target_lang_sense_clarification": "liczby lub przedmioty"
+                                "target_lang_sense_clarification": "1. os. lp. tr. oznajm., liczby lub przedmioty"
                             },
                             {
                                 "target_lang_word": "zamierzać",
@@ -881,7 +889,7 @@
                         "it": [
                             {
                                 "target_lang_word": "contare",
-                                "target_lang_sense_clarification": "numeri o oggetti"
+                                "target_lang_sense_clarification": "1ª pers. pres. ind., numeri o oggetti"
                             },
                             {
                                 "target_lang_word": "intendere",
@@ -891,7 +899,7 @@
                         "cs": [
                             {
                                 "target_lang_word": "počítat",
-                                "target_lang_sense_clarification": "čísla nebo předměty"
+                                "target_lang_sense_clarification": "1. os. j. č. přít. času, počítat"
                             },
                             {
                                 "target_lang_word": "plánovat",
@@ -901,7 +909,7 @@
                         "es": [
                             {
                                 "target_lang_word": "contar",
-                                "target_lang_sense_clarification": "números o cosas"
+                                "target_lang_sense_clarification": "yo, presente: números o cosas"
                             },
                             {
                                 "target_lang_word": "pensar",
@@ -911,7 +919,7 @@
                         "zh": [
                             {
                                 "target_lang_word": "数",
-                                "target_lang_sense_clarification": "数数字或物品"
+                                "target_lang_sense_clarification": "第一人称单数，我数"
                             },
                             {
                                 "target_lang_word": "打算",
@@ -921,7 +929,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "saymak",
-                                "target_lang_sense_clarification": "sayılar veya nesneler"
+                                "target_lang_sense_clarification": "1. tekil şahıs, şimdiki zaman: sayıyorum"
                             },
                             {
                                 "target_lang_word": "planlamak",
@@ -976,7 +984,7 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "en": "Third-person singular present indicative form of the verb count.",
+                        "en": "Third-person singular present indicative of the French verb «compter».",
                         "ru": "Третье лицо единственного числа настоящего времени изъявительного наклонения глагола «compter».",
                         "nl": "Derde persoon enkelvoud van de tegenwoordige tijd van het Franse werkwoord compter.",
                         "de": "Dritte Person Singular im Präsens Indikativ des französischen Verbs compter, etwa für zählen oder verzeichnen.",
@@ -991,25 +999,25 @@
                         "en": [
                             {
                                 "target_lang_word": "count",
-                                "target_lang_sense_clarification": "tally numbers or items"
+                                "target_lang_sense_clarification": "he or she counts, present tense"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "считать",
-                                "target_lang_sense_clarification": "подсчитывать числа или предметы"
+                                "target_lang_sense_clarification": "3-е л. ед. ч. изъяв., подсчитывать"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "tellen",
-                                "target_lang_sense_clarification": "aantal inwoners of bezoekers"
+                                "target_lang_sense_clarification": "hij/zij telt: 3e persoon enkelvoud"
                             }
                         ],
                         "de": [
                             {
                                 "target_lang_word": "zählen",
-                                "target_lang_sense_clarification": "Anzahl von Besuchern oder Dingen"
+                                "target_lang_sense_clarification": "3. Person Präsens: er zählt"
                             },
                             {
                                 "target_lang_word": "verzeichnen",
@@ -1019,13 +1027,13 @@
                         "pl": [
                             {
                                 "target_lang_word": "liczyć",
-                                "target_lang_sense_clarification": "liczba odwiedzających lub gości"
+                                "target_lang_sense_clarification": "3. os. lp. tr. oznajm., liczba odwiedzających"
                             }
                         ],
                         "it": [
                             {
                                 "target_lang_word": "contare",
-                                "target_lang_sense_clarification": "numero di visitatori o oggetti"
+                                "target_lang_sense_clarification": "3ª pers. pres. ind., visitatori o oggetti"
                             },
                             {
                                 "target_lang_word": "registrare",
@@ -1035,7 +1043,7 @@
                         "cs": [
                             {
                                 "target_lang_word": "počítat",
-                                "target_lang_sense_clarification": "počet návštěvníků nebo členů"
+                                "target_lang_sense_clarification": "3. os. j. č. přít. času, počítat"
                             },
                             {
                                 "target_lang_word": "evidovat",
@@ -1045,7 +1053,7 @@
                         "es": [
                             {
                                 "target_lang_word": "contar",
-                                "target_lang_sense_clarification": "número de visitantes o cosas"
+                                "target_lang_sense_clarification": "él/ella, presente: cosas o visitantes"
                             },
                             {
                                 "target_lang_word": "registrar",
@@ -1055,7 +1063,7 @@
                         "zh": [
                             {
                                 "target_lang_word": "数",
-                                "target_lang_sense_clarification": "数人数或物品"
+                                "target_lang_sense_clarification": "第三人称单数，他数"
                             },
                             {
                                 "target_lang_word": "计有",
@@ -1065,7 +1073,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "saymak",
-                                "target_lang_sense_clarification": "kişi veya nesne sayısı"
+                                "target_lang_sense_clarification": "3. tekil şahıs, şimdiki zaman: sayıyor"
                             },
                             {
                                 "target_lang_word": "kaydetmek",
@@ -1106,7 +1114,7 @@
                                 "de": "<w>Rechne</w> mit mir, wenn du morgen Hilfe beim Umziehen brauchst.",
                                 "pl": "<w>Licz</w> na mnie, jeśli jutro będziesz potrzebować pomocy przy przeprowadzce.",
                                 "it": "<w>Conta</w> su di me se domani hai bisogno di aiuto per il trasloco.",
-                                "cs": "<w>Spolehni se</w> na mně, když zítra budeš potřebovat pomoc se stěhováním.",
+                                "cs": "<w>Spolehni se</w> na mě, když zítra budeš potřebovat pomoc se stěhováním.",
                                 "es": "<w>Cuenta</w> conmigo si necesitas ayuda para mudarte mañana.",
                                 "zh": "明天搬家如果需要帮忙，就<w>指望</w>我吧。",
                                 "tr": "Yarın taşınmak için yardıma ihtiyacın olursa bana <w>güven</w>."
@@ -1120,7 +1128,7 @@
                         }
                     ],
                     "target_lang_definitions": {
-                        "en": "Second-person singular imperative form of the verb count.",
+                        "en": "Second-person singular imperative of the French verb «compter».",
                         "ru": "Второе лицо единственного числа повелительного наклонения глагола «compter».",
                         "nl": "Tweede persoon enkelvoud van de gebiedende wijs van het Franse werkwoord compter.",
                         "de": "Zweite Person Singular im Imperativ des französischen Verbs compter, etwa für zählen oder rechnen.",
@@ -1135,19 +1143,19 @@
                         "en": [
                             {
                                 "target_lang_word": "count",
-                                "target_lang_sense_clarification": "tally numbers or items"
+                                "target_lang_sense_clarification": "count!, imperative"
                             }
                         ],
                         "ru": [
                             {
                                 "target_lang_word": "считать",
-                                "target_lang_sense_clarification": "подсчитывать числа или предметы"
+                                "target_lang_sense_clarification": "повелит. накл., 2-е л., подсчитывать"
                             }
                         ],
                         "nl": [
                             {
                                 "target_lang_word": "tellen",
-                                "target_lang_sense_clarification": "getallen opzeggen in volgorde"
+                                "target_lang_sense_clarification": "tel!: gebiedende wijs"
                             },
                             {
                                 "target_lang_word": "rekenen",
@@ -1157,7 +1165,7 @@
                         "de": [
                             {
                                 "target_lang_word": "zählen",
-                                "target_lang_sense_clarification": "Zahlen in der Reihenfolge aufsagen"
+                                "target_lang_sense_clarification": "Imperativ: zähl!"
                             },
                             {
                                 "target_lang_word": "rechnen",
@@ -1167,7 +1175,7 @@
                         "pl": [
                             {
                                 "target_lang_word": "liczyć",
-                                "target_lang_sense_clarification": "wymieniać liczby po kolei"
+                                "target_lang_sense_clarification": "2. os. lp. tr. rozk., wymieniać liczby po kolei"
                             },
                             {
                                 "target_lang_word": "polegać",
@@ -1177,13 +1185,13 @@
                         "it": [
                             {
                                 "target_lang_word": "contare",
-                                "target_lang_sense_clarification": "numeri in sequenza"
+                                "target_lang_sense_clarification": "2ª pers. imperativo, numeri in sequenza"
                             }
                         ],
                         "cs": [
                             {
                                 "target_lang_word": "počítat",
-                                "target_lang_sense_clarification": "čísla v řadě po sobě"
+                                "target_lang_sense_clarification": "2. os. j. č. rozkazovacího způsobu, počítat"
                             },
                             {
                                 "target_lang_word": "spoléhat se",
@@ -1193,7 +1201,7 @@
                         "es": [
                             {
                                 "target_lang_word": "contar",
-                                "target_lang_sense_clarification": "números en orden"
+                                "target_lang_sense_clarification": "tú, imperativo: números en orden"
                             },
                             {
                                 "target_lang_word": "confiar",
@@ -1203,7 +1211,7 @@
                         "zh": [
                             {
                                 "target_lang_word": "数",
-                                "target_lang_sense_clarification": "按顺序报出数字"
+                                "target_lang_sense_clarification": "命令式，你数"
                             },
                             {
                                 "target_lang_word": "指望",
@@ -1213,7 +1221,7 @@
                         "tr": [
                             {
                                 "target_lang_word": "saymak",
-                                "target_lang_sense_clarification": "sıra ile sayıları söylemek"
+                                "target_lang_sense_clarification": "2. tekil şahıs, emir kipi: say"
                             },
                             {
                                 "target_lang_word": "güvenmek",

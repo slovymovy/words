@@ -23,7 +23,7 @@
                                 "it": "<w>Pronto</w>, buongiorno, Thomas è disponibile a parlare con me?",
                                 "cs": "<w>Haló</w>, dobrý den, je Thomas k dispozici, abych s ním mohl mluvit?",
                                 "tr": "<w>Alo</w>, merhaba, Thomas müsait mi, benimle konuşabilir mi?",
-                                "es": "<w>Aló</w>, buenos días, ¿está Thomas disponible para hablar conmigo?",
+                                "es": "<w>Hola</w>, buenos días, ¿está Thomas disponible para hablar conmigo?",
                                 "zh": "<w>喂</w>，您好，请问托马斯有空跟我说话吗？"
                             }
                         },
@@ -38,7 +38,7 @@
                                 "it": "Quando il telefono ha squillato, ha risposto <w>pronto</w> con voce assonnata.",
                                 "cs": "Když telefon zazvonil, ospalým hlasem se ozvala: <w>haló</w>.",
                                 "tr": "Telefon çalınca uykulu bir sesle <w>alo</w> diye cevap verdi.",
-                                "es": "Cuando sonó el teléfono, contestó con voz adormilada: <w>aló</w>.",
+                                "es": "Cuando sonó el teléfono, contestó con voz adormilada: «¿<w>Diga</w>?».",
                                 "zh": "电话响起时，她睡眼惺忪地接起来，含糊地说了一声<w>喂</w>。"
                             }
                         }
@@ -113,12 +113,16 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "aló",
-                                "target_lang_sense_clarification": "al contestar el teléfono, América"
-                            },
-                            {
                                 "target_lang_word": "diga",
                                 "target_lang_sense_clarification": "al contestar el teléfono, España"
+                            },
+                            {
+                                "target_lang_word": "hola",
+                                "target_lang_sense_clarification": "al iniciar quien llama"
+                            },
+                            {
+                                "target_lang_word": "aló",
+                                "target_lang_sense_clarification": "al contestar, en América"
                             }
                         ],
                         "zh": [
@@ -334,7 +338,7 @@
                                 "it": "La linea era disturbata e continuava a ripetere <w>pronto</w> per capire se ero ancora lì.",
                                 "cs": "Spojení bylo špatné a on pořád opakoval <w>haló</w>, aby zjistil, jestli jsem ještě tam.",
                                 "tr": "Bağlantı kötüydü; hâlâ orada olup olmadığımı anlamak için durmadan <w>alo</w> diyordu.",
-                                "es": "La conexión era mala y no dejaba de repetir <w>aló</w> para saber si yo seguía ahí.",
+                                "es": "La conexión era mala y no dejaba de repetir «¿<w>oiga</w>?» para saber si yo seguía ahí.",
                                 "zh": "信号很差，他不停地说“<w>喂</w>”，想确认我是否还在听。"
                             }
                         }
@@ -444,8 +448,8 @@
                                 "target_lang_sense_clarification": "llamar la atención, tuteo"
                             },
                             {
-                                "target_lang_word": "aló",
-                                "target_lang_sense_clarification": "comprobar si el otro escucha"
+                                "target_lang_word": "oiga",
+                                "target_lang_sense_clarification": "al teléfono, si no se oye bien"
                             }
                         ],
                         "zh": [
@@ -479,7 +483,7 @@
                                 "it": "<w>Ma dai</w>, non vorrete mica partire per un'escursione senza scarpe adatte!",
                                 "cs": "<w>No ale</w>, vy přece nepůjdete na túru bez vhodné obuvi!",
                                 "tr": "<w>Yahu</w>, uygun ayakkabı olmadan yürüyüşe gitmeyeceksiniz herhalde!",
-                                "es": "<w>Venga ya</w>, ¿en serio no va a ir de excursión sin calzado adecuado?",
+                                "es": "<w>Venga ya</w>, ¡no pensará ir de excursión sin calzado adecuado!",
                                 "zh": "<w>拜托</w>，您总不会连合适的鞋都不穿就去远足吧！"
                             }
                         },
@@ -551,8 +555,22 @@
                                 "target_lang_sense_clarification": "ironiczny wyrzut, potocznie"
                             }
                         ],
-                        "it": [],
-                        "cs": [],
+                        "it": [
+                            {
+                                "target_lang_word": "ma dai",
+                                "target_lang_sense_clarification": "rimprovero per una cosa ovvia"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "no tak",
+                                "target_lang_sense_clarification": "ironická výčitka"
+                            },
+                            {
+                                "target_lang_word": "haló",
+                                "target_lang_sense_clarification": "hovorově, upozornění na samozřejmost"
+                            }
+                        ],
                         "tr": [
                             {
                                 "target_lang_word": "yahu",

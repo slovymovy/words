@@ -178,15 +178,15 @@
                         {
                             "text": "Active le <w>minuteur</w> de l'appareil photo afin de pouvoir te joindre au groupe.",
                             "target_lang_translations": {
-                                "en": "Turn on the camera's <w>timer</w> so I can join you in the group.",
+                                "en": "Turn on the camera's <w>timer</w> so you can join the group.",
                                 "ru": "Включи <w>таймер</w> камеры, чтобы я смог присоединиться к группе.",
-                                "nl": "Zet de <w>zelfontspanner</w> van de camera aan, zodat ik je in de groep kan vervoegen.",
-                                "de": "Aktiviere den <w>Selbstauslöser</w> der Kamera, damit ich mich dir in der Gruppe anschließen kann.",
-                                "pl": "Włącz <w>samowyzwalacz</w> aparatu, żebym mógł dołączyć do grupy.",
-                                "it": "Attiva l'<w>autoscatto</w> della fotocamera, così posso unirmi al gruppo con te.",
-                                "cs": "Zapni <w>samospoušť</w> na fotoaparátu, abych se mohl připojit ke skupině s tebou.",
-                                "tr": "Fotoğraf makinesinin <w>zamanlayıcısını</w> aç ki seninle gruba katılabileyim.",
-                                "es": "Activa el <w>autodisparador</w> de la cámara para poder unirme contigo al grupo.",
+                                "nl": "Zet de <w>zelfontspanner</w> van de camera aan, zodat je zelf ook bij de groep kunt gaan staan.",
+                                "de": "Aktiviere den <w>Selbstauslöser</w> der Kamera, damit du mit aufs Gruppenfoto kannst.",
+                                "pl": "Włącz <w>samowyzwalacz</w> aparatu, żebyś mógł dołączyć do grupy.",
+                                "it": "Attiva l'<w>autoscatto</w> della fotocamera, così puoi unirti al gruppo.",
+                                "cs": "Zapni <w>samospoušť</w> na fotoaparátu, aby ses mohl přidat ke skupině.",
+                                "tr": "Gruba katılabilmek için fotoğraf makinesinin <w>zamanlayıcısını</w> aç.",
+                                "es": "Activa el <w>autodisparador</w> de la cámara para poder unirte al grupo.",
                                 "zh": "打开相机的<w>定时器</w>，这样我也能和你们一起合影了。"
                             }
                         }
@@ -221,8 +221,12 @@
                         ],
                         "nl": [
                             {
+                                "target_lang_word": "timer",
+                                "target_lang_sense_clarification": "aftelfunctie op apparaten"
+                            },
+                            {
                                 "target_lang_word": "aftelklok",
-                                "target_lang_sense_clarification": "digitale aftelfunctie op apparaten"
+                                "target_lang_sense_clarification": "digitale aftelklok, bijv. bij wedstrijden"
                             }
                         ],
                         "de": [
@@ -296,7 +300,7 @@
                         {
                             "text": "Le <w>minuteur</w> copiait soigneusement les actes pontificaux avant leur enregistrement officiel.",
                             "target_lang_translations": {
-                                "en": "The <w>minuteur</w> carefully copied the papal acts before they were officially registered.",
+                                "en": "The <w>minutante</w> carefully copied the papal acts before they were officially registered.",
                                 "ru": "<w>Писарь</w> тщательно переписывал папские акты перед их официальной регистрацией.",
                                 "nl": "De <w>minutant</w> kopieerde zorgvuldig de pauselijke akten voordat ze officieel werden geregistreerd.",
                                 "de": "Der <w>Kanzlist</w> kopierte sorgfältig die päpstlichen Akten, bevor sie offiziell registriert wurden.",
@@ -311,7 +315,7 @@
                         {
                             "text": "Cet ancien texte mentionne le rôle du <w>minuteur</w> dans l'administration apostolique.",
                             "target_lang_translations": {
-                                "en": "This ancient text mentions the role of the <w>minuteur</w> in apostolic administration.",
+                                "en": "This ancient text mentions the role of the <w>minutante</w> in apostolic administration.",
                                 "ru": "В этом древнем тексте упоминается роль <w>писаря</w> в апостольской администрации.",
                                 "nl": "Deze oude tekst vermeldt de rol van de <w>minutant</w> in de pauselijke administratie.",
                                 "de": "Dieser alte Text erwähnt die Rolle des <w>Kanzlisten</w> in der apostolischen Verwaltung.",
@@ -343,8 +347,18 @@
                         "zh": "在教廷文书机构中负责起草文件草稿的官员。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
+                        "en": [
+                            {
+                                "target_lang_word": "minutante",
+                                "target_lang_sense_clarification": "drafting official of the papal chancery"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "писарь",
+                                "target_lang_sense_clarification": "составитель черновиков в курии"
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "minutant",
@@ -358,6 +372,10 @@
                             }
                         ],
                         "pl": [
+                            {
+                                "target_lang_word": "minutant",
+                                "target_lang_sense_clarification": "urzędnik kancelarii papieskiej"
+                            },
                             {
                                 "target_lang_word": "pisarz",
                                 "target_lang_sense_clarification": "kancelaria papieska, historycznie"

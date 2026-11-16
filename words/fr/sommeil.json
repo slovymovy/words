@@ -173,7 +173,7 @@
                                 "pl": "Małe dziecko ledwo trzyma oczy otwarte ze <w>senności</w> po tym długim spacerze w parku.",
                                 "it": "Il bambino piccolo cade dal <w>sonno</w> dopo questa lunga passeggiata al parco.",
                                 "cs": "Malé dítě po té dlouhé procházce v parku sotva drží oči otevřené z <w>ospalosti</w>.",
-                                "tr": "Küçük çocuk parktaki bu uzun yürüyüşün ardından <w>uykudan</w> bayılacak hale geliyor.",
+                                "tr": "Küçük çocuk parktaki bu uzun yürüyüşün ardından <w>uykudan</w> ayakta duramıyor.",
                                 "es": "El niño pequeño se cae de <w>sueño</w> tras este largo paseo por el parque.",
                                 "zh": "在公园里走了这么久，小孩子已经满脸都是<w>困意</w>，快撑不住了。"
                             }
@@ -269,8 +269,12 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "uyku",
+                                "target_lang_sense_clarification": "uykum var, uykum geldi kalıbında"
+                            },
+                            {
                                 "target_lang_word": "uykululuk",
-                                "target_lang_sense_clarification": "yorgunlukla gelen uyku hissi"
+                                "target_lang_sense_clarification": "uyku basması hali"
                             }
                         ],
                         "es": [
@@ -325,7 +329,7 @@
                                 "ru": "Под этим зимним снегом деревня, кажется, погрузилась в мирное <w>затишье</w>.",
                                 "nl": "Onder deze winterse sneeuw lijkt het platteland in een vredige <w>sluimering</w> gedompeld.",
                                 "de": "Unter dieser winterlichen Schneedecke scheint die Landschaft in einem friedlichen <w>Dornröschenschlaf</w> zu liegen.",
-                                "pl": "Pod tą zimową pokrywą śniegu okolica zdaje się pogrążona w spokojnym <w>zastoju</w>.",
+                                "pl": "Pod tą zimową pokrywą śniegu okolica zdaje się pogrążona w spokojnym <w>uśpieniu</w>.",
                                 "it": "Sotto questa neve invernale, la campagna sembra immersa in un pacifico <w>torpore</w>.",
                                 "cs": "Pod touto zimní sněhovou peřinou se zdá, že venkov je ponořen do klidné <w>nečinnosti</w>.",
                                 "tr": "Bu kış karının altında kırsal bölge, sakin bir <w>durgunluğa</w> gömülmüş gibi görünüyor.",
@@ -360,8 +364,8 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "abeyance",
-                                "target_lang_sense_clarification": "projects or rights temporarily suspended"
+                                "target_lang_word": "slumber",
+                                "target_lang_sense_clarification": "figurative: long inactivity"
                             },
                             {
                                 "target_lang_word": "dormancy",
@@ -408,8 +412,8 @@
                                 "target_lang_sense_clarification": "gospodarka, projekty, instytucje"
                             },
                             {
-                                "target_lang_word": "zawieszenie",
-                                "target_lang_sense_clarification": "sprawy wstrzymane na czas"
+                                "target_lang_word": "uśpienie",
+                                "target_lang_sense_clarification": "bezruch, np. przyrody zimą"
                             }
                         ],
                         "it": [
@@ -432,8 +436,8 @@
                                 "target_lang_sense_clarification": "pokles činnosti, ekonomika, projekty"
                             },
                             {
-                                "target_lang_word": "zastoj",
-                                "target_lang_sense_clarification": "stagnace v rozvoji, instituce"
+                                "target_lang_word": "stagnace",
+                                "target_lang_sense_clarification": "zastavení rozvoje, instituce"
                             },
                             {
                                 "target_lang_word": "nečinnost",
@@ -657,15 +661,15 @@
                             "text": "Le vieux poète repose désormais dans son dernier <w>sommeil</w> au cimetière marin.",
                             "target_lang_translations": {
                                 "en": "The old poet now lies in his final <w>sleep</w> at the Cimetière marin.",
-                                "ru": "Старый поэт теперь покоится в своём последнем <w>сне</w> на кладбище Cimetière marin.",
+                                "ru": "Старый поэт теперь спит последним <w>сном</w> на морском кладбище.",
                                 "nl": "De oude dichter rust nu in zijn laatste <w>slaap</w> op het Cimetière marin.",
-                                "de": "Der alte Dichter ruht nun in seinem letzten <w>Schlaf</w> auf dem Cimetière marin.",
+                                "de": "Der alte Dichter ruht nun in seinem letzten <w>Schlaf</w> auf dem Friedhof am Meer.",
                                 "pl": "Stary poeta spoczywa teraz w swoim ostatnim <w>śnie</w> na cmentarzu Cimetière marin.",
-                                "it": "Il vecchio poeta riposa ormai nel suo ultimo <w>sonno</w> al Cimetière marin.",
-                                "cs": "Starý básník nyní spočívá ve svém posledním <w>spánku</w> na hřbitově Cimetière marin.",
-                                "tr": "Yaşlı şair artık Cimetière marin'de ebedi <w>uykusunda</w> yatıyor.",
+                                "it": "Il vecchio poeta riposa ormai nel suo ultimo <w>sonno</w> nel cimitero marino.",
+                                "cs": "Starý básník nyní spočívá ve svém posledním <w>spánku</w> na hřbitově u moře.",
+                                "tr": "Yaşlı şair artık Deniz Mezarlığı'nda ebedi <w>uykusunda</w> yatıyor.",
                                 "es": "El viejo poeta reposa ahora en su último <w>sueño</w> en el cementerio marino.",
-                                "zh": "这位老诗人如今已进入最后的<w>长眠</w>，安葬在Cimetière marin。"
+                                "zh": "这位老诗人如今已<w>长眠</w>于海滨墓园。"
                             }
                         },
                         {
@@ -701,11 +705,40 @@
                         "zh": "把死亡看作无尽的休息。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "sleep",
+                                "target_lang_sense_clarification": "death, as in eternal sleep"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "сон",
+                                "target_lang_sense_clarification": "вечный, последний сон (о смерти)"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "slaap",
+                                "target_lang_sense_clarification": "de dood, in 'eeuwige slaap'"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Schlaf",
+                                "target_lang_sense_clarification": "dichterisch für den Tod"
+                            },
+                            {
+                                "target_lang_word": "ewiger Schlaf",
+                                "target_lang_sense_clarification": "gehoben, der Tod"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "sen",
+                                "target_lang_sense_clarification": "ostatni lub wieczny, o śmierci"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "sonno",

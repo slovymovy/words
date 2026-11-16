@@ -500,7 +500,7 @@
                                 "de": "Dieses Auto fährt zu schnell und <w>klebt</w> gefährlich dicht am vorausfahrenden Fahrzeug.",
                                 "pl": "Ten samochód pędzi zbyt szybko i niebezpiecznie <w>jedzie na zderzaku</w> jadącego przed nim pojazdu.",
                                 "it": "Quest'auto va troppo veloce e <w>tallona</w> pericolosamente il veicolo che la precede.",
-                                "cs": "Toto auto jede příliš rychle a nebezpečně <w>lpí</w> na vozidle před ním.",
+                                "cs": "Toto auto jede příliš rychle a nebezpečně <w>se</w> <w>lepí</w> na vozidlo před ním.",
                                 "tr": "Bu araba çok hızlı gidiyor ve tehlikeli bir şekilde önündeki araca <w>yapışıyor</w>.",
                                 "es": "Este coche circula demasiado rápido y <w>se pega</w> peligrosamente al vehículo que lo precede.",
                                 "zh": "这辆车开得太快，危险地<w>紧跟</w>在前面的车后。"
@@ -584,12 +584,16 @@
                         ],
                         "pl": [
                             {
+                                "target_lang_word": "kleić się",
+                                "target_lang_sense_clarification": "trzymać się tuż przy kimś, natrętnie"
+                            },
+                            {
                                 "target_lang_word": "jechać na zderzaku",
-                                "target_lang_sense_clarification": "samochód jadący tuż za innym"
+                                "target_lang_sense_clarification": "o samochodzie tuż za innym"
                             },
                             {
                                 "target_lang_word": "przytulać się",
-                                "target_lang_sense_clarification": "do rodziców, bliski kontakt"
+                                "target_lang_sense_clarification": "o dziecku przy rodzicach"
                             }
                         ],
                         "it": [
@@ -604,12 +608,16 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "lpět",
-                                "target_lang_sense_clarification": "vozidla i osoby, nepříjemná blízkost"
+                                "target_lang_word": "lepit se",
+                                "target_lang_sense_clarification": "těsně za někým, hovorově"
+                            },
+                            {
+                                "target_lang_word": "tulit se",
+                                "target_lang_sense_clarification": "k rodičům, tělesná blízkost"
                             },
                             {
                                 "target_lang_word": "přilnout",
-                                "target_lang_sense_clarification": "k rodičům, tělesná blízkost"
+                                "target_lang_sense_clarification": "k někomu, tělesně"
                             }
                         ],
                         "tr": [
@@ -661,8 +669,8 @@
                                 "de": "Der Lehrer beschloss, ihn wegen seiner wiederholten Verspätung zwei Stunden <w>nachsitzen</w> zu lassen.",
                                 "pl": "Nauczyciel postanowił <w>zostawić</w> go po lekcjach na dwie godziny za jego ciągłe spóźnienia.",
                                 "it": "Il professore ha deciso di <w>trattenerlo</w> due ore dopo le lezioni per i suoi continui ritardi.",
-                                "cs": "Učitel se rozhodl <w>zadržet</w> ho po vyučování na dvě hodiny kvůli jeho opakovaným pozdním příchodům.",
-                                "tr": "Öğretmen, sürekli geç kalması yüzünden onun iki saat okulda kalmasına karar verdi.",
+                                "cs": "Učitel se rozhodl, že ho kvůli opakovaným pozdním příchodům <w>nechá</w> dvě hodiny <w>po škole</w>.",
+                                "tr": "Öğretmen, sürekli geç kalması yüzünden onu iki saat <w>cezaya bırakmaya</w> karar verdi.",
                                 "es": "El profesor decidió <w>retenerlo</w> dos horas después de clase por sus constantes retrasos.",
                                 "zh": "老师因为他屡次迟到，决定罚他<w>留堂</w>两个小时。"
                             }
@@ -672,12 +680,12 @@
                             "target_lang_translations": {
                                 "en": "If you keep chatting in class, you'll get <w>kept in</w> on Saturday morning.",
                                 "ru": "Если будешь болтать на уроках, в субботу утром тебя <w>оставят</w> в школе.",
-                                "nl": "Als je in de klas blijft kletsen, word je zaterdagochtend <w>laten nablijven</w>.",
+                                "nl": "Als je in de klas blijft kletsen, moet je zaterdagochtend <w>nablijven</w>.",
                                 "de": "Wenn du im Unterricht weiter quatschst, musst du am Samstagmorgen <w>nachsitzen</w>.",
                                 "pl": "Jeśli dalej będziesz gadać na lekcji, w sobotę rano <w>zostaniesz</w> po lekcjach.",
                                 "it": "Se continui a chiacchierare in classe, sabato mattina ti <w>tratterranno</w> a scuola.",
-                                "cs": "Jestli budeš ve třídě dál klábosit, v sobotu ráno tě <w>zadrží</w> ve škole.",
-                                "tr": "Sınıfta konuşmaya devam edersen cumartesi sabahı okulda kalmak zorunda kalacaksın.",
+                                "cs": "Jestli budeš ve třídě dál klábosit, <w>nechají</w> tě v sobotu ráno <w>po škole</w>.",
+                                "tr": "Sınıfta konuşmaya devam edersen cumartesi sabahı <w>cezaya kalacaksın</w>.",
                                 "es": "Si sigues charlando en clase, el sábado por la mañana te <w>retendrán</w> en el colegio.",
                                 "zh": "你要是在课堂上继续说话，星期六早上就得被<w>留堂</w>。"
                             }
@@ -756,15 +764,24 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "zadržet",
-                                "target_lang_sense_clarification": "žáci, trest po vyučování"
+                                "target_lang_word": "nechat po škole",
+                                "target_lang_sense_clarification": "trest po vyučování"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "cezaya bırakmak",
+                                "target_lang_sense_clarification": "ders sonrası okulda tutmak"
+                            }
+                        ],
                         "es": [
                             {
+                                "target_lang_word": "castigar",
+                                "target_lang_sense_clarification": "dejar al alumno sin salir del colegio"
+                            },
+                            {
                                 "target_lang_word": "retener",
-                                "target_lang_sense_clarification": "alumnos, castigo después de clase"
+                                "target_lang_sense_clarification": "en el colegio como castigo"
                             }
                         ],
                         "zh": [
@@ -796,7 +813,7 @@
                                 "de": "Schließlich hat er alle seine alten Kartons ganz hinten auf dem Dachboden <w>hingeworfen</w>.",
                                 "pl": "W końcu <w>wsadził</w> wszystkie swoje stare kartony w głąb strychu.",
                                 "it": "Alla fine ha <w>buttato</w> tutti i suoi vecchi scatoloni in fondo alla soffitta.",
-                                "cs": "Nakonec <w>hodil</w> všechny své staré krabice úplně vzadu na půdě.",
+                                "cs": "Nakonec <w>hodil</w> všechny své staré krabice úplně dozadu na půdu.",
                                 "tr": "Sonunda eski kolilerinin hepsini tavan arasının en dibine <w>attı</w>.",
                                 "es": "Al final <w>metió</w> todas sus cajas viejas al fondo del desván.",
                                 "zh": "他最后把那些旧纸箱全都<w>搁</w>到了阁楼最里面。"
@@ -957,7 +974,7 @@
                             "target_lang_translations": {
                                 "en": "This maths question is likely to <w>stump</w> the whole class today.",
                                 "ru": "Этот вопрос по математике сегодня может <w>озадачить</w> весь класс.",
-                                "nl": "Deze wiskundevraag zal vandaag de hele klas <w>verbijsteren</w>.",
+                                "nl": "Deze wiskundevraag zal vandaag de hele klas <w>in verlegenheid brengen</w>.",
                                 "de": "Diese Mathefrage könnte heute die ganze Klasse <w>ratlos machen</w>.",
                                 "pl": "To pytanie z matematyki dziś może <w>zakłopotać</w> całą klasę.",
                                 "it": "Questa domanda di matematica rischia di <w>spiazzare</w> tutta la classe oggi.",
@@ -977,7 +994,7 @@
                                 "pl": "Tu mnie <w>zbijasz</w> z tropu: nie mam pojęcia, jaka jest odpowiedź na twoje pytanie.",
                                 "it": "Lì mi <w>spiazzi</w>: non ho la minima idea della risposta alla tua domanda.",
                                 "cs": "Tady mě <w>zarazíš</w>: nemám ponětí, jaká je odpověď na tvou otázku.",
-                                "tr": "Orada beni <w>afalladın</w>: sorunun cevabı hakkında hiçbir fikrim yok.",
+                                "tr": "Bu sefer beni <w>afallattın</w>: sorunun cevabı hakkında hiçbir fikrim yok.",
                                 "es": "Ahí me <w>descolocas</w>: no tengo ni idea de la respuesta a tu pregunta.",
                                 "zh": "你这一问可把我<w>问倒</w>了：你这个问题的答案我一点头绪也没有。"
                             }
@@ -1028,12 +1045,12 @@
                         ],
                         "nl": [
                             {
-                                "target_lang_word": "verbijsteren",
-                                "target_lang_sense_clarification": "lastige vragen, raadsels"
+                                "target_lang_word": "in verlegenheid brengen",
+                                "target_lang_sense_clarification": "met een vraag zonder antwoord"
                             },
                             {
-                                "target_lang_word": "in verlegenheid brengen",
-                                "target_lang_sense_clarification": "onverwachte vraag, geen antwoord"
+                                "target_lang_word": "klemzetten",
+                                "target_lang_sense_clarification": "informeel, met een lastige vraag"
                             }
                         ],
                         "de": [
@@ -1048,12 +1065,16 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "zakłopotać",
-                                "target_lang_sense_clarification": "trudne pytanie, zaskoczenie"
+                                "target_lang_word": "zagiąć",
+                                "target_lang_sense_clarification": "trudnym pytaniem, potocznie"
                             },
                             {
                                 "target_lang_word": "zbić z tropu",
-                                "target_lang_sense_clarification": "pytanie, zagadka, potocznie"
+                                "target_lang_sense_clarification": "pytanie, zagadka"
+                            },
+                            {
+                                "target_lang_word": "zakłopotać",
+                                "target_lang_sense_clarification": "wprawić w zakłopotanie"
                             }
                         ],
                         "it": [

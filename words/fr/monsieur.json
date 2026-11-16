@@ -21,7 +21,7 @@
                                 "ru": "Здравствуйте, <w>господин</w>, чем я могу вам помочь сегодня?",
                                 "nl": "Goedendag, <w>meneer</w>, hoe kan ik u vandaag helpen?",
                                 "de": "Guten Tag, mein <w>Herr</w>, wie kann ich Ihnen heute helfen?",
-                                "pl": "Dzień dobry, <w>panie</w>, w czym mogę panu dzisiaj pomóc?",
+                                "pl": "Dzień dobry <w>panu</w>, w czym mogę dzisiaj pomóc?",
                                 "it": "Buongiorno, <w>signore</w>, come posso aiutarla oggi?",
                                 "cs": "Dobrý den, <w>pane</w>, jak vám mohu dnes pomoci?",
                                 "tr": "İyi günler, <w>beyefendi</w>, bugün size nasıl yardımcı olabilirim?",
@@ -126,8 +126,12 @@
                         ],
                         "tr": [
                             {
+                                "target_lang_word": "bay",
+                                "target_lang_sense_clarification": "soyadından önce, ör. Bay Martin"
+                            },
+                            {
                                 "target_lang_word": "bey",
-                                "target_lang_sense_clarification": "ad veya soyadla kullanılır"
+                                "target_lang_sense_clarification": "addan sonra, ör. Ahmet Bey"
                             },
                             {
                                 "target_lang_word": "beyefendi",
@@ -490,7 +494,7 @@
                                 "pl": "Minister wyznaczył <w>specjalistę</w> ds. bezpieczeństwa do koordynowania działań służb ratunkowych.",
                                 "it": "Il ministro ha nominato un <w>responsabile</w> della sicurezza per coordinare i servizi di soccorso.",
                                 "cs": "Ministr jmenoval bezpečnostního <w>specialistu</w>, aby koordinoval záchranné služby.",
-                                "tr": "Bakan, kurtarma hizmetlerini koordine etmek için bir güvenlik <w>görevlisi</w> atadı.",
+                                "tr": "Bakan, kurtarma hizmetlerini koordine etmek için bir güvenlik <w>sorumlusu</w> atadı.",
                                 "es": "El ministro ha designado a un <w>responsable</w> de seguridad para coordinar los servicios de emergencia.",
                                 "zh": "部长指派了一位安全<w>专家</w>来协调各救援部门的工作。"
                             }
@@ -631,7 +635,7 @@
                             "target_lang_translations": {
                                 "en": "The valet told the guests that the <w>master</w> would come down to the drawing room in a few minutes.",
                                 "ru": "Лакей сообщил гостям, что <w>хозяин</w> спустится в гостиную через несколько минут.",
-                                "nl": "De lakei kondigde de gasten aan dat de <w>heer</w> over enkele minuten naar de salon zou komen.",
+                                "nl": "De lakei deelde de gasten mee dat de <w>heer</w> des huizes over enkele minuten naar de salon zou komen.",
                                 "de": "Der Diener kündigte den Gästen an, dass der <w>Hausherr</w> in wenigen Minuten in den Salon hinunterkommen werde.",
                                 "pl": "Lokaj poinformował gości, że <w>pan</w> zejdzie do salonu za kilka minut.",
                                 "it": "Il domestico annunciò agli ospiti che il <w>padrone</w> sarebbe sceso in salotto tra pochi minuti.",
@@ -837,7 +841,12 @@
                                 "target_lang_sense_clarification": "royal title, Ancien Régime France"
                             }
                         ],
-                        "ru": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "Месье",
+                                "target_lang_sense_clarification": "титул брата короля"
+                            }
+                        ],
                         "nl": [
                             {
                                 "target_lang_word": "Monsieur",
@@ -856,7 +865,12 @@
                                 "target_lang_sense_clarification": "tytuł brata króla, Francja"
                             }
                         ],
-                        "it": [],
+                        "it": [
+                            {
+                                "target_lang_word": "Monsieur",
+                                "target_lang_sense_clarification": "fratello minore del re di Francia"
+                            }
+                        ],
                         "cs": [
                             {
                                 "target_lang_word": "Monsieur",

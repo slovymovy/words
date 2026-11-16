@@ -39,7 +39,7 @@
                                 "cs": "<w>Dobrý den</w> všem, doufám, že jste měli pěkný víkend.",
                                 "tr": "<w>Merhaba</w> herkese, umarım güzel bir hafta sonu geçirdiniz.",
                                 "es": "<w>Buenos días</w> a todos, espero que hayan tenido un buen fin de semana.",
-                                "zh": "<w>大家好</w>，希望你们周末过得愉快。"
+                                "zh": "大家<w>好</w>，希望你们周末过得愉快。"
                             }
                         }
                     ],
@@ -60,7 +60,7 @@
                         "nl": "Groet die overdag wordt gebruikt wanneer men iemand benadert of ontmoet.",
                         "de": "Formel zur Begrüßung, die tagsüber verwendet wird, wenn man jemanden anspricht oder trifft.",
                         "pl": "Formuła powitania używana w ciągu dnia, gdy zwracamy się do kogoś lub go spotykamy.",
-                        "it": "Formula di saluto usata durante la giornata quando si incontra o si si rivolge a qualcuno.",
+                        "it": "Formula di saluto usata durante la giornata quando si incontra qualcuno o ci si rivolge a qualcuno.",
                         "cs": "Pozdrav používaný během dne, když někoho oslovujeme nebo potkáváme.",
                         "tr": "Gün boyunca birine yaklaşırken veya onunla karşılaşırken kullanılan selamlama sözü.",
                         "es": "Fórmula de saludo que se usa durante el día al encontrar o dirigirse a alguien.",
@@ -188,30 +188,30 @@
                         {
                             "text": "S'il commence à pleuvoir sur cette route glissante, alors <w>bonjour</w> les dégâts !",
                             "target_lang_translations": {
-                                "en": "If it starts to rain on this slippery road, then <w>hello</w> to the damage!",
+                                "en": "If it starts to rain on this slippery road, then <w>here comes</w> the damage!",
                                 "ru": "Если на этой скользкой дороге пойдёт дождь, то <w>здравствуйте</w>, повреждения!",
-                                "nl": "Als het op deze gladde weg gaat regenen, dan <w>welkom</w> de schade!",
-                                "de": "Wenn es auf dieser glatten Straße zu regnen beginnt, dann <w>Prost Mahlzeit</w> mit den Schäden!",
-                                "pl": "Jeśli na tej śliskiej drodze zacznie padać, to <w>no proszę</w>, będą szkody!",
-                                "it": "Se comincia a piovere su questa strada scivolosa, e <w>buongiorno</w> ai danni!",
+                                "nl": "Als het op deze gladde weg gaat regenen, dan <w>veel plezier</w> met de schade!",
+                                "de": "Wenn es auf dieser glatten Straße zu regnen beginnt, dann <w>Prost Mahlzeit</w>!",
+                                "pl": "Jeśli na tej śliskiej drodze zacznie padać – <w>no to pięknie</w>, będą szkody!",
+                                "it": "Se comincia a piovere su questa strada scivolosa, <w>figuriamoci</w> i danni!",
                                 "cs": "Když na této kluzké silnici začne pršet, tak <w>výborně</w>, to budou škody!",
                                 "tr": "Bu kaygan yolda yağmur yağmaya başlarsa, <w>harika</w>, hasar da cabası!",
-                                "es": "Si empieza a llover en esta carretera resbaladiza, ¡<w>qué bien</w>, ya tenemos los daños!",
+                                "es": "Si empieza a llover en esta carretera resbaladiza, ¡<w>menudos</w> destrozos!",
                                 "zh": "如果这条湿滑的路上开始下雨，那可真是<w>好极了</w>，损失又要来了！"
                             }
                         },
                         {
                             "text": "Elle a oublié ses clés au bureau, alors <w>bonjour</w> la galère pour rentrer.",
                             "target_lang_translations": {
-                                "en": "She forgot her keys at the office, so <w>hello</w> to the hassle of getting home!",
+                                "en": "She forgot her keys at the office, so <w>here comes</w> the hassle of getting home!",
                                 "ru": "Она забыла ключи в офисе, и <w>здравствуйте</w>, морока с возвращением домой!",
-                                "nl": "Ze heeft haar sleutels op kantoor laten liggen, dus <w>welkom</w> het gedoe om thuis te komen!",
-                                "de": "Sie hat ihre Schlüssel im Büro liegen lassen, dann <w>Prost Mahlzeit</w> für den Heimweg!",
-                                "pl": "Zostawiła klucze w biurze, więc <w>no proszę</w>, kłopot z powrotem do domu!",
-                                "it": "Ha dimenticato le chiavi in ufficio, e <w>buongiorno</w> alla seccatura per tornare a casa!",
+                                "nl": "Ze heeft haar sleutels op kantoor laten liggen, dus <w>veel plezier</w> met het thuiskomen!",
+                                "de": "Sie hat ihre Schlüssel im Büro liegen lassen – <w>Prost Mahlzeit</w>, das wird ein mühsamer Heimweg!",
+                                "pl": "Zostawiła klucze w biurze – <w>no to pięknie</w>, będzie kłopot z powrotem do domu!",
+                                "it": "Ha dimenticato le chiavi in ufficio: <w>figuriamoci</w> la fatica per tornare a casa!",
                                 "cs": "Zapomněla klíče v kanceláři, takže <w>výborně</w> – a teď má problém, jak se dostat domů.",
                                 "tr": "Anahtarlarını ofiste unuttu, işte <w>harika</w>; eve dönmek de ayrı bir dert.",
-                                "es": "Se dejó las llaves en la oficina, así que ¡<w>qué bien</w>, vaya lío para volver a casa!",
+                                "es": "Se dejó las llaves en la oficina, así que ¡<w>menudo</w> lío para volver a casa!",
                                 "zh": "她把钥匙落在办公室了，这下可<w>好极了</w>，回家又得费一番周折。"
                             }
                         }
@@ -240,8 +240,12 @@
                     "translations": {
                         "en": [
                             {
-                                "target_lang_word": "hello",
-                                "target_lang_sense_clarification": "ironic, announcing a setback"
+                                "target_lang_word": "here comes",
+                                "target_lang_sense_clarification": "ironic, announcing trouble"
+                            },
+                            {
+                                "target_lang_word": "so much for",
+                                "target_lang_sense_clarification": "ironic, a plan ruined"
                             }
                         ],
                         "ru": [
@@ -250,7 +254,12 @@
                                 "target_lang_sense_clarification": "ирония, о неприятной ситуации"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "veel plezier",
+                                "target_lang_sense_clarification": "ironisch, er komt ellende aan"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "Na, guten Morgen",
@@ -263,14 +272,18 @@
                         ],
                         "pl": [
                             {
-                                "target_lang_word": "no proszę",
+                                "target_lang_word": "no to pięknie",
                                 "target_lang_sense_clarification": "ironicznie, przy kłopotach"
                             }
                         ],
                         "it": [
                             {
-                                "target_lang_word": "buongiorno",
-                                "target_lang_sense_clarification": "ironico, davanti a un guaio"
+                                "target_lang_word": "figuriamoci",
+                                "target_lang_sense_clarification": "ironico, guaio in vista"
+                            },
+                            {
+                                "target_lang_word": "buonanotte",
+                                "target_lang_sense_clarification": "ironico, situazione compromessa"
                             }
                         ],
                         "cs": [
@@ -289,7 +302,16 @@
                                 "target_lang_sense_clarification": "ironik, olumsuz durumlarda"
                             }
                         ],
-                        "es": [],
+                        "es": [
+                            {
+                                "target_lang_word": "menudo",
+                                "target_lang_sense_clarification": "ironía ante un desastre, «¡menudo lío!»"
+                            },
+                            {
+                                "target_lang_word": "vaya",
+                                "target_lang_sense_clarification": "ironía, «¡vaya lío!»"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "好极了",
@@ -313,7 +335,7 @@
                         {
                             "text": "Bien le <w>bonjour</w> chez vous, et portez-vous bien jusqu'à notre prochaine rencontre.",
                             "target_lang_translations": {
-                                "en": "Give my <w>good day</w> to everyone at home, and take care until our next meeting.",
+                                "en": "My <w>regards</w> to everyone at home, and take care until our next meeting.",
                                 "ru": "Передайте <w>привет</w> всем у вас дома, и берегите себя до нашей следующей встречи.",
                                 "nl": "Doe de <w>groeten</w> thuis, en pas goed op uzelf tot onze volgende ontmoeting.",
                                 "de": "Richten Sie allen bei Ihnen zu Hause herzliche <w>Grüße</w> aus, und bleiben Sie gesund bis zu unserem nächsten Treffen.",
@@ -332,7 +354,7 @@
                                 "ru": "Он вежливым жестом поприветствовал собравшихся и крикнул на прощание: «<w>Всего доброго</w>, господа!» — и ушёл.",
                                 "nl": "Hij groette de aanwezigen met een beleefd gebaar en riep: « <w>Goedendag</w>, heren! » voordat hij vertrok.",
                                 "de": "Er grüßte die Anwesenden mit einer höflichen Geste und rief beim Hinausgehen: „<w>Grüß Gott</w>, meine Herren!“",
-                                "pl": "Uprzejmym gestem przywitał zebranych i zawołał: „<w>Do widzenia</w>, panowie!” zanim wyszedł.",
+                                "pl": "Uprzejmym gestem pożegnał zebranych i zawołał: „<w>Do widzenia</w>, panowie!”, zanim wyszedł.",
                                 "it": "Salutò i presenti con un gesto cortese e, prima di andarsene, esclamò: «<w>Buongiorno</w>, signori!»",
                                 "cs": "Zdvořilým gestem pozdravil přítomné a na odchodu zvolal: „<w>Na shledanou</w>, pánové!“",
                                 "tr": "Oradakileri kibar bir jestle selamladı ve ayrılmadan önce seslendi: « <w>İyi günler</w>, beyler! »",

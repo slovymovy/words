@@ -38,7 +38,7 @@
                             "target_lang_translations": {
                                 "en": "Don't forget to take your <w>sunglasses</w> before you go outside.",
                                 "ru": "Не забудь взять солнцезащитные <w>очки</w>, прежде чем выйти на улицу.",
-                                "nl": "Vergeet niet je zonnebril mee te nemen voordat je naar buiten gaat.",
+                                "nl": "Vergeet niet je <w>zonnebril</w> mee te nemen voordat je naar buiten gaat.",
                                 "de": "Vergiss nicht, deine <w>Sonnenbrille</w> mitzunehmen, bevor du nach draußen gehst.",
                                 "pl": "Nie zapomnij zabrać <w>okularów</w> przeciwsłonecznych, zanim wyjdziesz na dwór.",
                                 "it": "Non dimenticare di prendere gli <w>occhiali</w> da sole prima di uscire.",
@@ -286,6 +286,10 @@
                             {
                                 "target_lang_word": "teleskop",
                                 "target_lang_sense_clarification": "astronomi, yıldız gözlemi"
+                            },
+                            {
+                                "target_lang_word": "dürbün",
+                                "target_lang_sense_clarification": "denizcinin tek gözlü dürbünü"
                             }
                         ],
                         "zh": [
@@ -330,7 +334,7 @@
                                 "cs": "Nezapomeň po použití vždy sklopit <w>prkénko</w> na záchodě.",
                                 "tr": "Tuvaleti kullandıktan sonra her zaman klozet <w>kapağını</w> indirmeyi unutma.",
                                 "zh": "用完厕所后，记得随手把<w>马桶圈</w>放下来。",
-                                "es": "Acuérdate de bajar siempre la <w>tapa</w> del inodoro después de usarlo."
+                                "es": "Acuérdate de bajar siempre el <w>asiento</w> del inodoro después de usarlo."
                             }
                         },
                         {
@@ -345,7 +349,7 @@
                                 "cs": "Vydezinfikoval <w>prkénko</w> záchodu čisticím ubrouskem.",
                                 "tr": "<w>Klozet kapağını</w> temizlik mendiliyle dezenfekte etti.",
                                 "zh": "他用清洁湿巾把<w>马桶圈</w>消了毒。",
-                                "es": "Él desinfectó la <w>tapa</w> del inodoro con una toallita limpiadora."
+                                "es": "Él desinfectó el <w>asiento</w> del inodoro con una toallita limpiadora."
                             }
                         }
                     ],
@@ -451,11 +455,7 @@
                         "es": [
                             {
                                 "target_lang_word": "asiento del inodoro",
-                                "target_lang_sense_clarification": "baño, sanitarios"
-                            },
-                            {
-                                "target_lang_word": "tapa del inodoro",
-                                "target_lang_sense_clarification": "baño, uso cotidiano"
+                                "target_lang_sense_clarification": "aro sobre la taza del váter"
                             }
                         ]
                     }
@@ -818,7 +818,16 @@
                                 "target_lang_sense_clarification": "часы, корпус"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "ring",
+                                "target_lang_sense_clarification": "draaibare ring rond de wijzerplaat"
+                            },
+                            {
+                                "target_lang_word": "bezel",
+                                "target_lang_sense_clarification": "horlogevakterm"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "Lünette",
@@ -887,12 +896,12 @@
                             "text": "Le bourreau a refermé la <w>lunette</w> en bois sur le cou du criminel.",
                             "target_lang_translations": {
                                 "en": "The executioner clamped the wooden <w>collar</w> shut around the criminal's neck.",
-                                "ru": "Палач сомкнул деревянный <w>воротник</w> на шее преступника.",
+                                "ru": "Палач сомкнул деревянную <w>колодку</w> на шее преступника.",
                                 "nl": "De beul klapte het houten <w>halsstuk</w> dicht om de nek van de crimineel.",
-                                "de": "Der Henker schloss das hölzerne Joch um den Hals des Verbrechers.",
+                                "de": "Der Henker schloss das hölzerne <w>Halsbrett</w> um den Hals des Verbrechers.",
                                 "pl": "Kat ponownie zamknął drewniany <w>kołnierz</w> na szyi przestępcy.",
-                                "it": "Il boia ha richiuso il collare di legno sul collo del criminale.",
-                                "cs": "Kat zavřel dřevěný <w>límec</w> na krku zločince.",
+                                "it": "Il boia ha richiuso il <w>collare</w> di legno sul collo del criminale.",
+                                "cs": "Kat zaklapl dřevěnou <w>lunetu</w> na krku zločince.",
                                 "tr": "Cellat, tahtadan yapılmış <w>boyunluğu</w> suçlunun boynuna yeniden kapattı.",
                                 "zh": "刽子手把木制<w>颈枷</w>重新合上，扣在罪犯的脖子上。",
                                 "es": "El verdugo volvió a cerrar el <w>cepo</w> de madera sobre el cuello del criminal."
@@ -902,12 +911,12 @@
                             "text": "La tête du condamné reposait sous la <w>lunette</w> avant la chute du couperet.",
                             "target_lang_translations": {
                                 "en": "The condemned man's head rested under the <w>collar</w> before the blade dropped.",
-                                "ru": "Голова осуждённого лежала под <w>воротником</w> перед падением лезвия.",
+                                "ru": "Голова осуждённого лежала под <w>колодкой</w> перед падением лезвия.",
                                 "nl": "Het hoofd van de veroordeelde rustte onder het <w>halsstuk</w> voordat het mes naar beneden viel.",
-                                "de": "Der Kopf des Verurteilten lag unter dem Joch, bevor das Fallbeil niederfiel.",
+                                "de": "Der Kopf des Verurteilten lag unter dem <w>Halsbrett</w>, bevor das Fallbeil niederfiel.",
                                 "pl": "Głowa skazańca spoczywała pod <w>kołnierzem</w> przed opadnięciem ostrza.",
-                                "it": "La testa del condannato poggiava sotto il collare prima che cadesse la lama.",
-                                "cs": "Hlava odsouzence spočívala pod <w>límcem</w>, než spadl nůž.",
+                                "it": "La testa del condannato poggiava sotto il <w>collare</w> prima che cadesse la lama.",
+                                "cs": "Hlava odsouzence spočívala pod <w>lunetou</w>, než spadl nůž.",
                                 "tr": "Mahkûmun başı, bıçak düşmeden önce <w>boyunluğun</w> altında duruyordu.",
                                 "zh": "在刀落下之前，死刑犯的头搁在<w>颈枷</w>下面。",
                                 "es": "La cabeza del condenado reposaba bajo el <w>cepo</w> antes de que cayera la cuchilla."
@@ -933,14 +942,62 @@
                         "es": "Pieza de madera partida que sujetaba el cuello del condenado en la guillotina. Término histórico."
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "nl": [],
-                        "de": [],
-                        "pl": [],
-                        "it": [],
-                        "cs": [],
-                        "tr": [],
+                        "en": [
+                            {
+                                "target_lang_word": "lunette",
+                                "target_lang_sense_clarification": "guillotine neck clamp"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "колодка",
+                                "target_lang_sense_clarification": "деталь гильотины, держащая шею"
+                            }
+                        ],
+                        "nl": [
+                            {
+                                "target_lang_word": "halsstuk",
+                                "target_lang_sense_clarification": "guillotine, klemt de nek vast"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Halsbrett",
+                                "target_lang_sense_clarification": "hält den Hals in der Guillotine"
+                            },
+                            {
+                                "target_lang_word": "Lünette",
+                                "target_lang_sense_clarification": "Fachwort, Guillotine"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "kołnierz",
+                                "target_lang_sense_clarification": "drewniana obejma szyi na gilotynie"
+                            }
+                        ],
+                        "it": [
+                            {
+                                "target_lang_word": "collare",
+                                "target_lang_sense_clarification": "blocca il collo sulla ghigliottina"
+                            },
+                            {
+                                "target_lang_word": "lunetta",
+                                "target_lang_sense_clarification": "termine tecnico della ghigliottina"
+                            }
+                        ],
+                        "cs": [
+                            {
+                                "target_lang_word": "luneta",
+                                "target_lang_sense_clarification": "otvor pro krk na gilotině"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "boyunluk",
+                                "target_lang_sense_clarification": "giyotinde boynu tutan tahta"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "颈枷",

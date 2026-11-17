@@ -474,7 +474,7 @@
                                 "de": "Jeden Abend nach den Gebeten verschloss der <w>Pförtner</w> das große Tor der Klausur.",
                                 "pl": "Każdego wieczoru po modlitwach <w>furtian</w> zamykał na klucz wielkie drzwi klauzury.",
                                 "it": "Ogni sera, dopo le preghiere, il <w>portinaio</w> chiudeva a chiave il grande portone della clausura.",
-                                "cs": "Každý večer po modlitbách <w>furtián</w> zamykal velkou bránu klauzury.",
+                                "cs": "Každý večer po modlitbách <w>fortnýř</w> zamykal velkou bránu klauzury.",
                                 "tr": "Her akşam dualardan sonra <w>kapıcı</w> manastırın kapalı bölümünün büyük kapısını kilitlerdi.",
                                 "es": "Cada noche, después de los rezos, el <w>portero</w> cerraba con llave la gran puerta de la clausura.",
                                 "zh": "每晚祈祷结束后，<w>门房</w>都会锁上修道院内院的大门。"
@@ -551,11 +551,16 @@
                                 "target_lang_sense_clarification": "klášter, řeholní dům"
                             },
                             {
-                                "target_lang_word": "furtián",
+                                "target_lang_word": "fortnýř",
                                 "target_lang_sense_clarification": "klášter, historický výraz"
                             }
                         ],
-                        "tr": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "kapıcı",
+                                "target_lang_sense_clarification": "manastır kapısını bekleyen keşiş"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "portero",
@@ -591,7 +596,7 @@
                                 "de": "Der <w>Gatekeeper</w> prüft die Berechtigungen jedes Benutzers, bevor er die Verbindung aufbaut.",
                                 "pl": "<w>Kontroler dostępu</w> sprawdza uprawnienia każdego użytkownika przed nawiązaniem połączenia.",
                                 "it": "Il <w>controllore di accesso</w> verifica le autorizzazioni di ogni utente prima di stabilire la connessione.",
-                                "cs": "Tento prvek před navázáním spojení ověřuje oprávnění každého uživatele.",
+                                "cs": "<w>Gatekeeper</w> před navázáním spojení ověřuje oprávnění každého uživatele.",
                                 "tr": "<w>Denetleyici</w>, bağlantı kurulmadan önce her kullanıcının yetkilerini kontrol eder.",
                                 "es": "El <w>controlador de acceso</w> verifica los permisos de cada usuario antes de establecer la comunicación.",
                                 "zh": "<w>网守</w>在建立连接之前会检查每个用户的权限。"
@@ -606,7 +611,7 @@
                                 "de": "Diese Netzwerkarchitektur enthält einen <w>Gatekeeper</w>, um eingehende Verbindungen zu filtern.",
                                 "pl": "Ta architektura sieciowa obejmuje <w>kontroler dostępu</w>, który filtruje przychodzące połączenia.",
                                 "it": "Questa architettura di rete include un <w>controllore di accesso</w> che filtra le connessioni in entrata.",
-                                "cs": "Tato síťová architektura zahrnuje prvek pro filtrování příchozích spojení.",
+                                "cs": "Tato síťová architektura zahrnuje <w>gatekeeper</w> pro filtrování příchozích spojení.",
                                 "tr": "Bu ağ mimarisi, gelen bağlantıları filtrelemek için bir <w>denetleyici</w> içerir.",
                                 "es": "Esta arquitectura de red incluye un <w>controlador de acceso</w> para filtrar las conexiones entrantes.",
                                 "zh": "这种网络架构包含一个<w>接入控制器</w>，用于过滤呼入连接。"
@@ -641,22 +646,46 @@
                                 "target_lang_sense_clarification": "сеть связи, телефония"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "gatekeeper",
+                                "target_lang_sense_clarification": "telecom, regelt toegang en adressen"
+                            },
+                            {
+                                "target_lang_word": "poortwachter",
+                                "target_lang_sense_clarification": "netwerk, beheert toegang"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "Gatekeeper",
                                 "target_lang_sense_clarification": "Telefonie, IP-Netzwerke"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "kontroler dostępu",
+                                "target_lang_sense_clarification": "element sieci telekomunikacyjnej"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "controllore di accesso",
                                 "target_lang_sense_clarification": "reti di telecomunicazione"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "gatekeeper",
+                                "target_lang_sense_clarification": "řídicí prvek sítě H.323"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "denetleyici",
+                                "target_lang_sense_clarification": "ağda bağlantı kabulünü yöneten"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "controlador de acceso",
@@ -695,7 +724,7 @@
                                 "cs": "Ve školním žargonu získal tento student tradiční titul „<w>portier</w>“.",
                                 "tr": "Okulun argosunda bu öğrenci geleneksel olarak “<w>portier</w>” unvanını kazandı.",
                                 "es": "En la jerga de la escuela, este alumno obtuvo el título tradicional de <w>portier</w>.",
-                                "zh": "按照学校的俚语，这名学生获得了传统的“<w>portier</w>”称号。"
+                                "zh": "按照学校的俚语，这名学生获得了传统的“<w>看门人</w>”称号。"
                             }
                         },
                         {
@@ -710,7 +739,7 @@
                                 "cs": "Ročník na slavnostním banketu oslavil nového nositele titulu „<w>portier</w>“.",
                                 "tr": "Mezuniyet sınıfı yeni <w>portier</w>'i şenlikli bir ziyafette kutladı.",
                                 "es": "La promoción celebró al nuevo <w>portier</w> en un banquete festivo.",
-                                "zh": "全班在一场欢庆宴会上为新的“<w>portier</w>”举杯庆贺。"
+                                "zh": "全班在一场欢庆宴会上为新的“<w>看门人</w>”举杯庆贺。"
                             }
                         }
                     ],
@@ -734,15 +763,30 @@
                     },
                     "translations": {
                         "en": [],
-                        "ru": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "привратник",
+                                "target_lang_sense_clarification": "шутливое звание в Политехнической школе"
+                            }
+                        ],
                         "nl": [],
                         "de": [],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "portier",
+                                "target_lang_sense_clarification": "żargon École polytechnique"
+                            }
+                        ],
                         "it": [],
                         "cs": [],
                         "tr": [],
                         "es": [],
-                        "zh": []
+                        "zh": [
+                            {
+                                "target_lang_word": "看门人",
+                                "target_lang_sense_clarification": "综合理工学院俚语，倒数第50名"
+                            }
+                        ]
                     }
                 }
             ]

@@ -760,7 +760,7 @@
                             "target_lang_translations": {
                                 "en": "The roll doesn't count because the die is <w>cocked</w> against the edge of the board.",
                                 "ru": "Бросок не засчитывается, потому что кубик <w>упирается</w> в край доски.",
-                                "nl": "De worp telt niet, want de dobbelsteen ligt tegen de rand van het speelbord.",
+                                "nl": "De worp telt niet, want de dobbelsteen ligt <w>scheef</w> tegen de rand van het speelbord.",
                                 "de": "Der Wurf gilt nicht, weil der Würfel am Brettrand <w>verkantet</w> ist.",
                                 "pl": "Rzut się nie liczy, bo kostka jest <w>oparta</w> o brzeg planszy.",
                                 "it": "Il lancio non vale perché il dado è <w>appoggiato</w> contro il bordo del tabellone.",
@@ -775,12 +775,12 @@
                             "target_lang_translations": {
                                 "en": "If your die is <w>cocked</w> against a piece, the rule requires you to roll again immediately.",
                                 "ru": "Если твой кубик <w>упирается</w> в фишку, правило обязывает тебя сразу бросить снова.",
-                                "nl": "Als je dobbelsteen tegen een pion ligt, moet je volgens de regel meteen opnieuw gooien.",
+                                "nl": "Als je dobbelsteen <w>scheef</w> tegen een pion ligt, moet je volgens de regel meteen opnieuw gooien.",
                                 "de": "Wenn dein Würfel an einer Spielfigur <w>verkantet</w> ist, verpflichtet dich die Regel, sofort erneut zu würfeln.",
                                 "pl": "Jeśli twoja kostka jest <w>oparta</w> o pionek, zasada nakazuje natychmiast rzucić jeszcze raz.",
                                 "it": "Se il tuo dado è <w>appoggiato</w> su una pedina, la regola ti obbliga a rilanciare subito.",
                                 "cs": "Pokud je tvoje kostka <w>opřená</w> o figurku, pravidlo tě nutí okamžitě hodit znovu.",
-                                "tr": "Zarın bir piyona karşı <w>eğik</w> duruyorsa, kural seni hemen tekrar atmaya zorunlu kılar.",
+                                "tr": "Zarın bir piyona dayanıp <w>eğik</w> duruyorsa, kural seni hemen yeniden atmaya zorlar.",
                                 "es": "Si tu dado está <w>apoyado</w> sobre una ficha, la regla te obliga a volver a tirar inmediatamente.",
                                 "zh": "如果你的骰子是<w>倾斜的</w>，并且靠在一枚棋子上，规则要求你立即重掷。"
                             }
@@ -809,7 +809,12 @@
                             }
                         ],
                         "ru": [],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "scheef",
+                                "target_lang_sense_clarification": "dobbelsteen niet plat gevallen"
+                            }
+                        ],
                         "de": [
                             {
                                 "target_lang_word": "verkantet",
@@ -820,7 +825,12 @@
                                 "target_lang_sense_clarification": "allgemein, geneigt liegend"
                             }
                         ],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "oparty",
+                                "target_lang_sense_clarification": "o kostce do gry, nie leży płasko"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "appoggiato",
@@ -891,7 +901,7 @@
                                 "de": "Gestern Morgen hat er versehentlich die Lieblingstasse seiner Schwester <w>zerbrochen</w>.",
                                 "pl": "Wczoraj rano przypadkiem <w>rozbił</w> ulubioną filiżankę siostry.",
                                 "it": "Ieri mattina ha accidentalmente <w>rotto</w> la tazza preferita di sua sorella.",
-                                "cs": "Včera ráno omylem <w>rozbil</w> oblíbený šálek jeho sestry.",
+                                "cs": "Včera ráno omylem <w>rozbil</w> oblíbený šálek své sestry.",
                                 "tr": "Dün sabah kız kardeşinin en sevdiği fincanı yanlışlıkla <w>kırdı</w>.",
                                 "es": "Ayer por la mañana, sin querer, <w>rompió</w> la taza favorita de su hermana.",
                                 "zh": "昨天早上，他不小心<w>打破</w>了他姐妹最喜欢的杯子。"
@@ -1058,16 +1068,16 @@
                         {
                             "text": "Les randonneurs ont admiré la vue spectaculaire depuis le bord du grand <w>cassé</w>.",
                             "target_lang_translations": {
-                                "en": "The hikers admired the spectacular view from the edge of the Grand <w>Cassé</w>.",
-                                "ru": "Туристы любовались захватывающим видом с края <w>Гран-Кассе</w>.",
-                                "nl": "De wandelaars bewonderden het spectaculaire uitzicht vanaf de rand van de Grand <w>Cassé</w>.",
-                                "de": "Die Wanderer bewunderten die spektakuläre Aussicht vom Rand des Grand <w>Cassé</w>.",
-                                "pl": "Wędrowcy podziwiali spektakularny widok z krawędzi Grand <w>Cassé</w>.",
-                                "it": "Gli escursionisti hanno ammirato la vista spettacolare dal bordo del Grand <w>Cassé</w>.",
-                                "cs": "Turisté obdivovali úchvatný výhled z okraje Grand <w>Cassé</w>.",
-                                "tr": "Yürüyüşçüler, Grand <w>Cassé</w>'nin kenarından görülen muhteşem manzaraya hayran kaldılar.",
-                                "es": "Los excursionistas admiraron la espectacular vista desde el borde del Grand <w>Cassé</w>.",
-                                "zh": "徒步者在<w>格朗卡塞</w>的边缘欣赏到了壮观的景色。"
+                                "en": "The hikers admired the spectacular view from the edge of the great <w>cliff</w>.",
+                                "ru": "Туристы любовались захватывающим видом с края огромного <w>обрыва</w>.",
+                                "nl": "De wandelaars bewonderden het spectaculaire uitzicht vanaf de rand van de grote <w>afgrond</w>.",
+                                "de": "Die Wanderer bewunderten die spektakuläre Aussicht vom Rand der großen <w>Steilwand</w>.",
+                                "pl": "Wędrowcy podziwiali spektakularny widok z krawędzi wielkiego <w>urwiska</w>.",
+                                "it": "Gli escursionisti hanno ammirato la vista spettacolare dal bordo del grande <w>strapiombo</w>.",
+                                "cs": "Turisté obdivovali úchvatný výhled z okraje velkého <w>srázu</w>.",
+                                "tr": "Yürüyüşçüler, büyük <w>uçurumun</w> kenarından görülen muhteşem manzaraya hayran kaldılar.",
+                                "es": "Los excursionistas admiraron la espectacular vista desde el borde del gran <w>precipicio</w>.",
+                                "zh": "徒步者在大<w>悬崖</w>的边缘欣赏到了壮观的景色。"
                             }
                         },
                         {
@@ -1240,14 +1250,14 @@
                             "target_lang_translations": {
                                 "en": "The confectioner must monitor the temperature precisely to reach the <w>hard crack</w> stage.",
                                 "ru": "Кондитер должен точно следить за температурой, чтобы достичь стадии <w>твёрдой карамели</w>.",
-                                "nl": "De confiseur moet de temperatuur nauwkeurig in de gaten houden om het grand cassé te bereiken.",
-                                "de": "Der Konditor muss die Temperatur genau überwachen, um die Stufe des <w>Hartkaramells</w> zu erreichen.",
+                                "nl": "De confiseur moet de temperatuur nauwkeurig in de gaten houden om het stadium van de harde <w>breuk</w> te bereiken.",
+                                "de": "Der Konditor muss die Temperatur genau überwachen, um den großen <w>Bruch</w> zu erreichen.",
                                 "pl": "Cukiernik musi dokładnie kontrolować temperaturę, aby osiągnąć etap <w>twardego karmelu</w>.",
                                 "it": "Il pasticciere deve controllare con precisione la temperatura per raggiungere lo stadio del <w>caramello duro</w>.",
                                 "cs": "Cukrář musí pečlivě sledovat teplotu, aby dosáhl stupně <w>tvrdého karamelu</w>.",
                                 "tr": "Şekerci, <w>sert karamel</w> aşamasına ulaşmak için sıcaklığı hassas biçimde izlemek zorundadır.",
                                 "es": "El confitero debe vigilar la temperatura con precisión para alcanzar el <w>punto de caramelo duro</w>.",
-                                "zh": "糖果师傅必须精确地监控温度，才能达到<w>硬焦糖</w>阶段。"
+                                "zh": "糖果师傅必须精确地监控温度，才能达到<w>硬脆阶段</w>。"
                             }
                         },
                         {
@@ -1255,14 +1265,14 @@
                             "target_lang_translations": {
                                 "en": "When the syrup reaches the <w>hard crack</w> stage, you must immediately take the pan off the heat.",
                                 "ru": "Как только сироп доходит до <w>твёрдой карамели</w>, нужно сразу снять кастрюлю с огня.",
-                                "nl": "Zodra de siroop het cassé bereikt, moet je meteen de pan van het vuur halen.",
-                                "de": "Sobald der Sirup das Stadium des <w>Hartkaramells</w> erreicht, muss man den Topf sofort vom Herd nehmen.",
+                                "nl": "Zodra de siroop het stadium van de <w>breuk</w> bereikt, moet je meteen de pan van het vuur halen.",
+                                "de": "Sobald der Sirup den <w>Bruch</w> erreicht, muss man den Topf sofort vom Herd nehmen.",
                                 "pl": "Gdy syrop dojdzie do etapu <w>twardego karmelu</w>, trzeba natychmiast zdjąć rondel z ognia.",
                                 "it": "Quando lo sciroppo arriva al <w>caramello duro</w>, bisogna togliere subito la casseruola dal fuoco.",
                                 "cs": "Jakmile sirup dosáhne <w>tvrdého karamelu</w>, kastrol se musí okamžitě sundat z ohně.",
                                 "tr": "Şurup <w>sert karamel</w> aşamasına geldiğinde tencereyi hemen ocaktan almak gerekir.",
                                 "es": "Cuando el almíbar llega al <w>punto de caramelo duro</w>, hay que retirar de inmediato la cazuela del fuego.",
-                                "zh": "糖浆一旦熬到<w>硬焦糖</w>阶段，就要立即把锅从火上拿下来。"
+                                "zh": "糖浆一旦熬到<w>硬脆阶段</w>，就要立即把锅从火上拿下来。"
                             }
                         }
                     ],
@@ -1295,11 +1305,16 @@
                                 "target_lang_sense_clarification": "кондитерия, стадия варки сиропа"
                             }
                         ],
-                        "nl": [],
+                        "nl": [
+                            {
+                                "target_lang_word": "breuk",
+                                "target_lang_sense_clarification": "suikerstadium, hard en bros"
+                            }
+                        ],
                         "de": [
                             {
-                                "target_lang_word": "Hartkaramell",
-                                "target_lang_sense_clarification": "Zuckerkochen, Temperaturstufe"
+                                "target_lang_word": "Bruch",
+                                "target_lang_sense_clarification": "Zuckerkochstufe, hart und spröde"
                             }
                         ],
                         "pl": [
@@ -1334,8 +1349,8 @@
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "硬焦糖",
-                                "target_lang_sense_clarification": "熬糖温度阶段"
+                                "target_lang_word": "硬脆阶段",
+                                "target_lang_sense_clarification": "熬糖阶段，滴入冷水即脆"
                             }
                         ]
                     }

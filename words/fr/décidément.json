@@ -23,15 +23,15 @@
                             "text": "Après plusieurs tentatives infructueuses, il n'y a <w>décidément</w> rien d'autre à faire pour régler ce problème.",
                             "target_lang_translations": {
                                 "en": "After several fruitless attempts, there is <w>really</w> nothing else to do to solve this problem.",
-                                "ru": "После нескольких безуспешных попыток больше ничего не остаётся сделать, чтобы решить эту проблему, — <w>действительно</w>.",
+                                "ru": "После нескольких безуспешных попыток больше <w>действительно</w> ничего не остаётся сделать, чтобы решить эту проблему.",
                                 "nl": "Na verschillende mislukte pogingen is er <w>toch</w> niets anders meer te doen om dit probleem op te lossen.",
                                 "de": "Nach mehreren erfolglosen Versuchen gibt es <w>letztlich</w> nichts anderes zu tun, um dieses Problem zu lösen.",
                                 "pl": "Po kilku bezowocnych próbach <w>ostatecznie</w> nie ma nic innego do zrobienia, aby rozwiązać ten problem.",
                                 "it": "Dopo vari tentativi infruttuosi, <w>insomma</w>, non c'è nient'altro da fare per risolvere questo problema.",
-                                "cs": "Po několika neúspěšných pokusech <w>koneckonců</w> nezbývá nic jiného, jak ten problém vyřešit.",
-                                "tr": "Birkaç sonuçsuz denemenin ardından bu sorunu çözmek için <w>nihayetinde</w> yapacak başka bir şey yok.",
+                                "cs": "Po několika neúspěšných pokusech <w>zkrátka</w> nezbývá nic jiného, čím by se ten problém dal vyřešit.",
+                                "tr": "Birkaç sonuçsuz denemenin ardından, <w>anlaşılan</w> bu sorunu çözmek için yapacak başka bir şey yok.",
                                 "es": "Tras varios intentos infructuosos, <w>en definitiva</w> no hay nada más que hacer para resolver este problema.",
-                                "zh": "经过好几次徒劳的尝试，<w>毕竟</w>已经没有别的办法可以解决这个问题了。"
+                                "zh": "经过好几次徒劳的尝试，<w>看来</w>确实已经没有别的办法可以解决这个问题了。"
                             }
                         },
                         {
@@ -43,10 +43,10 @@
                                 "de": "<w>Tatsächlich</w>, diese kleine Stadt hält für durchreisende Besucher sehr schöne Überraschungen bereit.",
                                 "pl": "<w>Rzeczywiście</w>, to małe miasteczko szykuje dla przejeżdżających gości bardzo piękne niespodzianki.",
                                 "it": "<w>Davvero</w>, questa piccola città riserva bellissime sorprese ai visitatori di passaggio.",
-                                "cs": "<w>Koneckonců</w> toto malé město připravuje velmi pěkná překvapení pro návštěvníky, kteří tu jen projíždějí.",
-                                "tr": "<w>Sonuçta</w> bu küçük kasaba, uğrayan ziyaretçilere çok güzel sürprizler sunuyor.",
-                                "es": "<w>Después de todo</w>, esta pequeña ciudad reserva unas sorpresas muy bonitas a los visitantes de paso.",
-                                "zh": "<w>到底</w>，这座小城为路过的游客准备了许多精彩的惊喜。"
+                                "cs": "Toto malé město <w>opravdu</w> připravuje velmi pěkná překvapení pro návštěvníky, kteří tu jen projíždějí.",
+                                "tr": "<w>Gerçekten de</w> bu küçük kasaba, uğrayan ziyaretçilere çok güzel sürprizler sunuyor.",
+                                "es": "<w>Desde luego</w>, esta pequeña ciudad reserva unas sorpresas muy bonitas a los visitantes de paso.",
+                                "zh": "这座小城<w>真是</w>给路过的游客准备了许多精彩的惊喜。"
                             }
                         }
                     ],
@@ -128,42 +128,50 @@
                         ],
                         "cs": [
                             {
-                                "target_lang_word": "koneckonců",
-                                "target_lang_sense_clarification": "shrnutí úvahy"
+                                "target_lang_word": "opravdu",
+                                "target_lang_sense_clarification": "potvrzení opakovaného dojmu"
                             },
                             {
-                                "target_lang_word": "nakonec",
+                                "target_lang_word": "zkrátka",
                                 "target_lang_sense_clarification": "závěr po zvážení"
                             }
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "nihayetinde",
-                                "target_lang_sense_clarification": "bir düşünceyi sonuçlandırırken"
+                                "target_lang_word": "gerçekten de",
+                                "target_lang_sense_clarification": "bir izlenimi doğrularken"
                             },
                             {
-                                "target_lang_word": "sonuçta",
-                                "target_lang_sense_clarification": "değerlendirmenin sonunda"
+                                "target_lang_word": "anlaşılan",
+                                "target_lang_sense_clarification": "tekrarlanan durumu saptarken"
                             }
                         ],
                         "es": [
                             {
-                                "target_lang_word": "después de todo",
-                                "target_lang_sense_clarification": "conclusión tras reflexionar"
+                                "target_lang_word": "desde luego",
+                                "target_lang_sense_clarification": "confirma una impresión"
                             },
                             {
                                 "target_lang_word": "en definitiva",
                                 "target_lang_sense_clarification": "cierre de una valoración"
+                            },
+                            {
+                                "target_lang_word": "está visto",
+                                "target_lang_sense_clarification": "constatación tras varios casos"
                             }
                         ],
                         "zh": [
                             {
-                                "target_lang_word": "毕竟",
-                                "target_lang_sense_clarification": "综合考虑后的结论"
+                                "target_lang_word": "果然",
+                                "target_lang_sense_clarification": "证实先前的印象"
                             },
                             {
-                                "target_lang_word": "到底",
-                                "target_lang_sense_clarification": "总结或确认看法时"
+                                "target_lang_word": "看来",
+                                "target_lang_sense_clarification": "综合情况后下结论"
+                            },
+                            {
+                                "target_lang_word": "真是",
+                                "target_lang_sense_clarification": "感叹，确认看法"
                             }
                         ]
                     }
@@ -526,7 +534,7 @@
                             "text": "Mais <w>décidément</w>, rien ne se passe jamais comme prévu dans cette organisation compliquée !",
                             "target_lang_translations": {
                                 "en": "But <w>really</w>, nothing ever goes as planned in this complicated organisation!",
-                                "ru": "Но <w>вот же</w>, в этой запутанной организации ничего никогда не идёт по плану!",
+                                "ru": "<w>Ну что ты будешь делать</w>: в этой запутанной организации ничего никогда не идёт по плану!",
                                 "nl": "Maar <w>tja</w>, er verloopt nooit iets zoals gepland in deze ingewikkelde organisatie!",
                                 "de": "Aber <w>tja</w>, in dieser komplizierten Organisation läuft nie etwas wie geplant!",
                                 "pl": "Ale <w>no tak</w>, w tej skomplikowanej organizacji nic nigdy nie idzie zgodnie z planem!",
@@ -567,8 +575,8 @@
                                 "target_lang_sense_clarification": "удивление и досада"
                             },
                             {
-                                "target_lang_word": "вот же",
-                                "target_lang_sense_clarification": "разговорная досада"
+                                "target_lang_word": "ну что ты будешь делать",
+                                "target_lang_sense_clarification": "досада, смирение"
                             }
                         ],
                         "nl": [

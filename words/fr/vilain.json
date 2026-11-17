@@ -180,7 +180,7 @@
                             "text": "Ce garçon a été très <w>vilain</w> avec sa petite sœur ce matin.",
                             "target_lang_translations": {
                                 "en": "That boy was very <w>nasty</w> to his little sister this morning.",
-                                "ru": "Этот мальчик сегодня утром был очень <w>гадок</w> со своей маленькой сестрёнкой.",
+                                "ru": "Этот мальчик сегодня утром очень <w>гадко</w> вёл себя со своей маленькой сестрёнкой.",
                                 "de": "Dieser Junge war heute Morgen sehr <w>gemein</w> zu seiner kleinen Schwester.",
                                 "pl": "Ten chłopiec był dziś rano bardzo <w>złośliwy</w> wobec swojej małej siostry.",
                                 "it": "Stamattina quel ragazzo è stato molto <w>cattivo</w> con la sua sorellina.",
@@ -849,9 +849,9 @@
                             "text": "Cette terre dépendait d'un statut <w>vilain</w> et devait payer des redevances.",
                             "target_lang_translations": {
                                 "en": "This land was held under <w>villein</w> status and had to pay dues.",
-                                "ru": "Эта земля находилась в статусе <w>виллана</w>, и за неё нужно было платить оброки.",
+                                "ru": "Эта земля имела статус <w>вилланского</w> держания, и за неё нужно было платить оброки.",
                                 "de": "Dieses Land unterstand einem <w>bäuerlichen</w> Rechtsstatus und musste Abgaben leisten.",
-                                "pl": "Ta ziemia podlegała statusowi <w>wolnego chłopa</w> i musiała płacić daniny.",
+                                "pl": "Ta ziemia miała status ziemi <w>chłopskiej</w> i musiała płacić daniny.",
                                 "it": "Questa terra era soggetta a una condizione <w>villana</w> e doveva versare dei canoni.",
                                 "cs": "Tato půda podléhala statusu <w>svobodného sedláka</w> a musela platit poplatky.",
                                 "tr": "Bu toprak bir <w>köylü</w> statüsüne bağlıydı ve belirli ödemeler yapmak zorundaydı.",
@@ -864,7 +864,7 @@
                             "text": "Les coutumes féodales distinguaient nettement les tenures nobles des tenures <w>vilaines</w>.",
                             "target_lang_translations": {
                                 "en": "Feudal customs clearly distinguished noble tenures from <w>villein</w> tenures.",
-                                "ru": "Феодальные обычаи чётко отличали дворянские держания от держаний <w>вилланов</w>.",
+                                "ru": "Феодальные обычаи чётко отличали дворянские держания от <w>вилланских</w>.",
                                 "de": "Die feudalen Rechtsgewohnheiten unterschieden deutlich zwischen adligen und <w>bäuerlichen</w> Besitzungen.",
                                 "pl": "Zwyczaje feudalne wyraźnie odróżniały posiadłości szlacheckie od <w>chłopskich</w>.",
                                 "it": "Le consuetudini feudali distinguevano nettamente i possedimenti nobili da quelli <w>villani</w>.",
@@ -903,20 +903,44 @@
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "виллан",
-                                "target_lang_sense_clarification": "средневековое держание земли"
+                                "target_lang_word": "вилланский",
+                                "target_lang_sense_clarification": "о средневековом держании"
                             }
                         ],
-                        "de": [],
-                        "pl": [],
+                        "de": [
+                            {
+                                "target_lang_word": "bäuerlich",
+                                "target_lang_sense_clarification": "mittelalterlich, nicht adlig"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "chłopski",
+                                "target_lang_sense_clarification": "o średniowiecznym wolnym chłopie"
+                            },
+                            {
+                                "target_lang_word": "włościański",
+                                "target_lang_sense_clarification": "dawne, o ziemi chłopskiej"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "villano",
                                 "target_lang_sense_clarification": "contadino libero nel Medioevo"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "selský",
+                                "target_lang_sense_clarification": "středověký nešlechtický stav"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "köylü",
+                                "target_lang_sense_clarification": "ortaçağda soylu olmayan özgür köylüye ait"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "villano",
@@ -944,7 +968,7 @@
                             "text": "Le patrimoine <w>vilain</w> de Ville-sur-Illon attire chaque été quelques curieux passionnés d'histoire locale.",
                             "target_lang_translations": {
                                 "en": "The <w>Ville-sur-Illon</w> heritage attracts a few curious enthusiasts of local history every summer.",
-                                "ru": "Наследие Ville-sur-Illon привлекает каждое лето нескольких любознательных людей, увлечённых местной историей.",
+                                "ru": "Наследие Виль-сюр-Илона привлекает каждое лето нескольких любознательных людей, увлечённых местной историей.",
                                 "de": "Das Kulturerbe von <w>Ville-sur-Illon</w> zieht jeden Sommer einige Interessierte an, die sich für Ortsgeschichte begeistern.",
                                 "pl": "Dziedzictwo kulturowe <w>Ville-sur-Illon</w> przyciąga każdego lata kilku miłośników lokalnej historii.",
                                 "it": "Il patrimonio di <w>Ville-sur-Illon</w> attira ogni estate qualche curioso appassionato di storia locale.",
@@ -959,11 +983,11 @@
                             "text": "La municipalité <w>vilaine</w> a voté la rénovation de l'ancienne école de Ville-sur-Illon.",
                             "target_lang_translations": {
                                 "en": "The <w>Ville-sur-Illon</w> council voted to renovate the old school in Ville-sur-Illon.",
-                                "ru": "Муниципалитет Ville-sur-Illon проголосовал за ремонт здания старой школы в этой коммуне.",
+                                "ru": "Муниципалитет Виль-сюр-Илона проголосовал за ремонт здания старой школы в этой коммуне.",
                                 "de": "Der Gemeinderat von <w>Ville-sur-Illon</w> hat die Renovierung der alten Schule im Ort beschlossen.",
                                 "pl": "Rada gminy <w>Ville-sur-Illon</w> zagłosowała za remontem dawnej szkoły w tej miejscowości.",
                                 "it": "Il comune di <w>Ville-sur-Illon</w> ha votato per la ristrutturazione dell'antica scuola di Ville-sur-Illon.",
-                                "cs": "Zastupitelstvo obce <w>Ville-sur-Illon</w> schválilo rekonstrukci staré školy v Ville-sur-Illon.",
+                                "cs": "Zastupitelstvo obce <w>Ville-sur-Illon</w> schválilo rekonstrukci staré školy ve Ville-sur-Illon.",
                                 "tr": "<w>Ville-sur-Illon</w> belediyesi, Ville-sur-Illon'daki eski okulun yenilenmesine oy verdi.",
                                 "es": "El municipio de <w>Ville-sur-Illon</w> votó a favor de la renovación de la antigua escuela de Ville-sur-Illon.",
                                 "zh": "<w>维勒-絮尔-伊隆</w>镇议会投票决定翻修该镇的旧学校。",
@@ -979,7 +1003,7 @@
                     ],
                     "target_lang_definitions": {
                         "en": "Relating to the French commune of Ville-sur-Illon in the Vosges.",
-                        "ru": "Относящийся к французской коммуне Ville-sur-Illon в Вогезах.",
+                        "ru": "Относящийся к французской коммуне Виль-сюр-Илон в Вогезах.",
                         "de": "Zur französischen Gemeinde Ville-sur-Illon in den Vogesen gehörend.",
                         "pl": "Odnoszący się do francuskiej gminy Ville-sur-Illon w Wogezach.",
                         "it": "Relativo al comune francese di Ville-sur-Illon, nei Vosgi.",
@@ -990,14 +1014,34 @@
                         "nl": "Betrekking hebbend op de Franse gemeente Ville-sur-Illon in de Vogezen."
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "of Ville-sur-Illon",
+                                "target_lang_sense_clarification": "relating to the Vosges village"
+                            }
+                        ],
                         "ru": [],
                         "de": [],
-                        "pl": [],
+                        "pl": [
+                            {
+                                "target_lang_word": "Ville-sur-Illon",
+                                "target_lang_sense_clarification": "o gminie w Wogezach"
+                            }
+                        ],
                         "it": [],
                         "cs": [],
-                        "tr": [],
-                        "es": [],
+                        "tr": [
+                            {
+                                "target_lang_word": "Ville-sur-Illon",
+                                "target_lang_sense_clarification": "Vosges'taki kasabaya ait"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "de Ville-sur-Illon",
+                                "target_lang_sense_clarification": "relativo a esta comuna de los Vosgos"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "维勒-絮尔-伊隆",
@@ -1543,7 +1587,7 @@
                                 "tr": "Eşyalarımızı toplayıp hemen gidelim, daha <w>sorun</w> çıkmadan.",
                                 "es": "Recojamos nuestras cosas y salgamos rápido antes de que se arme un <w>lío</w>.",
                                 "zh": "收拾好东西赶紧走吧，免得惹出<w>麻烦</w>来。",
-                                "nl": "Laten we onze spullen inpakken en snel vertrekken voordat er <w>rel</w> ontstaat."
+                                "nl": "Laten we onze spullen inpakken en snel vertrekken voordat er een <w>rel</w> ontstaat."
                             }
                         }
                     ],
@@ -1692,7 +1736,7 @@
                             "text": "Ce monsieur est un <w>Vilain</w> fier de faire découvrir Ville-sur-Illon, son village natal.",
                             "target_lang_translations": {
                                 "en": "This gentleman is a <w>native</w> of Ville-sur-Illon, proud to show off his home village.",
-                                "ru": "Этот господин — <w>уроженец</w> Ville-sur-Illon и с гордостью показывает гостям свою родную деревню.",
+                                "ru": "Этот господин — <w>уроженец</w> Виль-сюр-Илона и с гордостью показывает гостям свою родную деревню.",
                                 "de": "Dieser Herr ist ein <w>Einwohner</w> von Ville-sur-Illon, seinem Geburtsort, und zeigt ihn stolz gern Besuchern.",
                                 "pl": "Ten pan jest <w>mieszkańcem</w> Ville-sur-Illon i z dumą oprowadza gości po swojej rodzinnej wiosce.",
                                 "it": "Questo signore è un <w>abitante</w> di Ville-sur-Illon, dove è nato, e va fiero di farlo scoprire ai visitatori.",
@@ -1707,7 +1751,7 @@
                             "text": "Les <w>Vilains</w> se sont rassemblés sur la place de Ville-sur-Illon pour la fête patronale.",
                             "target_lang_translations": {
                                 "en": "The <w>natives</w> of Ville-sur-Illon gathered in the town square for the patron saint's festival.",
-                                "ru": "<w>Жители</w> Ville-sur-Illon собрались на главной площади на престольный праздник.",
+                                "ru": "<w>Жители</w> Виль-сюр-Илона собрались на главной площади на престольный праздник.",
                                 "de": "Die <w>Einwohner</w> von Ville-sur-Illon versammelten sich zum Patronatsfest auf dem Platz.",
                                 "pl": "<w>Mieszkańcy</w> Ville-sur-Illon zebrali się na placu z okazji odpustu parafialnego.",
                                 "it": "Gli <w>abitanti</w> di Ville-sur-Illon si sono radunati sulla piazza per la festa patronale.",
@@ -1727,7 +1771,7 @@
                     ],
                     "target_lang_definitions": {
                         "en": "A person from Ville-sur-Illon in the Vosges.",
-                        "ru": "Житель или уроженец Ville-sur-Illon в Вогезах.",
+                        "ru": "Житель или уроженец Виль-сюр-Илона в Вогезах.",
                         "de": "Person, die aus Ville-sur-Illon in den Vogesen stammt oder dort lebt.",
                         "pl": "Osoba pochodząca z Ville-sur-Illon w Wogezach lub tam mieszkająca.",
                         "it": "Persona originaria di Ville-sur-Illon nei Vosgi o che vi abita.",
@@ -1738,7 +1782,12 @@
                         "nl": "Persoon die in Ville-sur-Illon in de Vogezen woont of er vandaan komt."
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "native of Ville-sur-Illon",
+                                "target_lang_sense_clarification": "person from the Vosges village"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "житель",
@@ -1763,12 +1812,12 @@
                         ],
                         "it": [
                             {
-                                "target_lang_word": "abitante",
-                                "target_lang_sense_clarification": "chi vive nel luogo"
+                                "target_lang_word": "abitante di Ville-sur-Illon",
+                                "target_lang_sense_clarification": "chi vive a Ville-sur-Illon"
                             },
                             {
-                                "target_lang_word": "originario",
-                                "target_lang_sense_clarification": "nato in quel luogo"
+                                "target_lang_word": "originario di Ville-sur-Illon",
+                                "target_lang_sense_clarification": "chi vi è nato"
                             }
                         ],
                         "cs": [
@@ -1783,12 +1832,12 @@
                         ],
                         "tr": [
                             {
-                                "target_lang_word": "sakin",
-                                "target_lang_sense_clarification": "kasabada oturan kişi"
+                                "target_lang_word": "Ville-sur-Illonlu",
+                                "target_lang_sense_clarification": "Ville-sur-Illon'da yaşayan veya oralı"
                             },
                             {
-                                "target_lang_word": "yerli",
-                                "target_lang_sense_clarification": "doğup büyüdüğü yöreden olan"
+                                "target_lang_word": "sakin",
+                                "target_lang_sense_clarification": "kasabada oturan kişi"
                             }
                         ],
                         "es": [

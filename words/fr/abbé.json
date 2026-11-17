@@ -44,7 +44,7 @@
                                 "tr": "Cemaat üyeleri sayın <w>papazın</w> şefkatli öğütlerini dikkatle dinlerler.",
                                 "es": "Los feligreses escuchan con atención los consejos bondadosos del <w>padre</w>.",
                                 "zh": "教友们专心聆听<w>神父</w>和蔼的劝导。",
-                                "nl": "De parochianen luisteren aandachtig naar de welwillende adviezen van meneer de <w>priester</w>."
+                                "nl": "De parochianen luisteren aandachtig naar de welwillende adviezen van meneer <w>pastoor</w>."
                             }
                         }
                     ],
@@ -59,7 +59,7 @@
                         "en": "A common title or form of address for a secular priest in the Catholic Church.",
                         "ru": "Титул и обычное обращение к светскому священнику в католической церкви.",
                         "de": "Anrede und Titel für einen Weltgeistlichen in der katholischen Kirche.",
-                        "pl": "Tytuł i forma grzecznościowa, używana wobec świeckiego duchownego w Kościele katolickim.",
+                        "pl": "Tytuł i forma grzecznościowa używana wobec księdza diecezjalnego w Kościele katolickim.",
                         "it": "Appellativo comune rivolto a un sacerdote secolare della Chiesa cattolica.",
                         "cs": "Označení nebo oslovení světského kněze v katolické církvi.",
                         "tr": "Katolik Kilisesi'nde dünyevi rahiplere verilen yaygın bir ünvan ve hitap biçimi.",
@@ -161,7 +161,11 @@
                         "nl": [
                             {
                                 "target_lang_word": "priester",
-                                "target_lang_sense_clarification": "katholieke geestelijke, algemeen gebruikt"
+                                "target_lang_sense_clarification": "katholieke geestelijke, algemeen"
+                            },
+                            {
+                                "target_lang_word": "pastoor",
+                                "target_lang_sense_clarification": "ook als aanspreektitel"
                             },
                             {
                                 "target_lang_word": "abbé",
@@ -187,7 +191,7 @@
                                 "pl": "Nowy przełożony został przez wszystkich mnichów wybrany ojcem <w>opatem</w>.",
                                 "it": "Il nuovo superiore è stato eletto padre <w>abate</w> da tutti i monaci.",
                                 "cs": "Nový představený byl celým sborem mnichů zvolen otcem <w>opatem</w>.",
-                                "tr": "Yeni üst, tüm keşişlerce Peder <w>Başrahip</w> olarak seçildi.",
+                                "tr": "Yeni amir, tüm keşişler tarafından <w>başrahip</w> seçildi.",
                                 "es": "El nuevo superior fue elegido padre <w>abad</w> por todos los monjes.",
                                 "zh": "全体修士选出了新的<w>修道院院长</w>。",
                                 "nl": "De nieuwe overste werd door alle monniken tot pater <w>abt</w> gekozen."
@@ -322,7 +326,7 @@
                                 "pl": "Ten <w>duchowny dworski</w> regularnie bywał w salonach literackich stolicy.",
                                 "it": "Questo <w>abate</w> di corte frequentava regolarmente i salotti letterari della capitale.",
                                 "cs": "Tento dvorní <w>duchovní</w> pravidelně navštěvoval literární salony hlavního města.",
-                                "tr": "Bu <w>saray din adamı</w> başkentin edebi salonlarına sık sık uğrardı.",
+                                "tr": "Bu saray <w>din adamı</w> başkentin edebi salonlarına sık sık uğrardı.",
                                 "es": "Este <w>abate</w> de corte frecuentaba con regularidad los salones literarios de la capital.",
                                 "zh": "这位宫廷<w>教士</w>经常出入首都的文学沙龙。",
                                 "nl": "Deze <w>abbé</w> aan het hof bezocht regelmatig de literaire salons van de hoofdstad."
@@ -400,8 +404,22 @@
                                 "target_lang_sense_clarification": "di corte, senza incarichi pastorali"
                             }
                         ],
-                        "cs": [],
-                        "tr": [],
+                        "cs": [
+                            {
+                                "target_lang_word": "abbé",
+                                "target_lang_sense_clarification": "francouzský duchovní za starého režimu"
+                            },
+                            {
+                                "target_lang_word": "duchovní",
+                                "target_lang_sense_clarification": "muž v duchovním oděvu"
+                            }
+                        ],
+                        "tr": [
+                            {
+                                "target_lang_word": "din adamı",
+                                "target_lang_sense_clarification": "Eski Rejim'de görevsiz din adamı"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "abate",
@@ -436,7 +454,7 @@
                                 "en": "The <w>abbé</w> of the brotherhood solemnly opened the great wine-growers' festival.",
                                 "ru": "<w>Аббат</w> братства торжественно открыл большой праздник виноградарей.",
                                 "de": "Der <w>Abbé</w> der Bruderschaft eröffnete feierlich das große Winzerfest.",
-                                "pl": "<w>Abbé</w> bractwa uroczyście otworzył wielkie święto winiarzy.",
+                                "pl": "<w>Przewodniczący</w> bractwa uroczyście otworzył wielkie święto winiarzy.",
                                 "it": "Il <w>priore</w> della confraternita ha aperto solennemente la grande festa dei vignaioli.",
                                 "cs": "<w>Předseda</w> bratrstva slavnostně zahájil velkou slavnost vinařů.",
                                 "tr": "Kardeşliğin <w>başkanı</w> büyük bağcılar şenliğini törenle açtı.",
@@ -451,7 +469,7 @@
                                 "en": "The council chose a new <w>abbé</w> to preside over the annual ceremony.",
                                 "ru": "Совет выбрал нового <w>аббата</w>, чтобы председательствовать на ежегодной церемонии.",
                                 "de": "Der Rat hat einen neuen <w>Abbé</w> gewählt, der den Vorsitz bei der jährlichen Zeremonie führen soll.",
-                                "pl": "Rada wybrała nowego <w>abbé</w>, który ma przewodniczyć corocznej ceremonii.",
+                                "pl": "Rada wybrała nowego <w>przewodniczącego</w>, który ma poprowadzić coroczną ceremonię.",
                                 "it": "Il consiglio ha scelto un nuovo <w>priore</w> per presiedere la cerimonia annuale.",
                                 "cs": "Rada zvolila nového <w>předsedu</w>, který bude předsedat každoročnímu obřadu.",
                                 "tr": "Kurul, yıllık töreni yönetmek üzere yeni bir <w>başkan</w> seçti.",
@@ -480,10 +498,30 @@
                         "nl": "Ambtsdrager of voorzitter van een traditionele broederschap, vooral van landbouwers of wijnbouwers, met name in Zwitserland."
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "de": [],
-                        "pl": [],
+                        "en": [
+                            {
+                                "target_lang_word": "abbé",
+                                "target_lang_sense_clarification": "head of a Swiss wine-growers' brotherhood"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "аббат",
+                                "target_lang_sense_clarification": "глава винодельческого братства"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Abbé",
+                                "target_lang_sense_clarification": "Vorsteher einer Winzerbruderschaft"
+                            }
+                        ],
+                        "pl": [
+                            {
+                                "target_lang_word": "przewodniczący",
+                                "target_lang_sense_clarification": "szef tradycyjnego bractwa winiarzy"
+                            }
+                        ],
                         "it": [
                             {
                                 "target_lang_word": "priore",
@@ -522,7 +560,12 @@
                                 "target_lang_sense_clarification": "兄弟会或协会的首领"
                             }
                         ],
-                        "nl": []
+                        "nl": [
+                            {
+                                "target_lang_word": "voorzitter",
+                                "target_lang_sense_clarification": "van een traditionele broederschap"
+                            }
+                        ]
                     }
                 }
             ]

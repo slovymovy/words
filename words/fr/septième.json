@@ -94,8 +94,8 @@
                         {
                             "text": "Le général partit en mission secrète, lui <w>septième</w>, à travers les lignes ennemies.",
                             "target_lang_translations": {
-                                "en": "The general set out on a secret mission, he the <w>seventh</w> of their band, through the enemy lines.",
-                                "ru": "Генерал отправился на тайное задание, сам <w>седьмым</w>, через линии противника.",
+                                "en": "The general set out on a secret mission through the enemy lines, one of a party of <w>seven</w>.",
+                                "ru": "Генерал отправился на тайное задание через линии противника сам <w>седьмой</w>.",
                                 "de": "Der General brach zu einer geheimen Mission durch die feindlichen Linien auf, er selbst als <w>Siebter</w>.",
                                 "es": "El general partió en una misión secreta, siendo él el <w>séptimo</w> del grupo, a través de las líneas enemigas.",
                                 "zh": "将军与另外六人一起穿越敌军防线执行秘密任务，他是队中的<w>第七</w>人。"
@@ -104,8 +104,8 @@
                         {
                             "text": "Elle s'échappa de la forteresse assiégée, elle <w>septième</w>, au milieu de la nuit.",
                             "target_lang_translations": {
-                                "en": "She slipped out of the besieged fortress, she the <w>seventh</w> of the group, in the middle of the night.",
-                                "ru": "Она, <w>седьмая</w>, ускользнула из осаждённой крепости посреди ночи.",
+                                "en": "She slipped out of the besieged fortress in the middle of the night, one of a group of <w>seven</w>.",
+                                "ru": "Посреди ночи она сама <w>седьмая</w> ускользнула из осаждённой крепости.",
                                 "de": "Sie, als <w>Siebte</w>, entkam mitten in der Nacht aus der belagerten Festung.",
                                 "es": "Ella, la <w>séptima</w>, escapó de la fortaleza sitiada en mitad de la noche.",
                                 "zh": "深夜里，她和另外六人一起从被围困的要塞中脱身，她是其中的<w>第七</w>人。"
@@ -140,8 +140,12 @@
                         ],
                         "de": [
                             {
+                                "target_lang_word": "selbsiebt",
+                                "target_lang_sense_clarification": "veraltet, mit sechs anderen"
+                            },
+                            {
                                 "target_lang_word": "siebte",
-                                "target_lang_sense_clarification": "gehobene Sprache, Gruppenmitglied"
+                                "target_lang_sense_clarification": "als Siebter einer Gruppe"
                             }
                         ],
                         "es": [
@@ -385,10 +389,6 @@
                             {
                                 "target_lang_word": "séptima",
                                 "target_lang_sense_clarification": "intervalo musical"
-                            },
-                            {
-                                "target_lang_word": "séptima",
-                                "target_lang_sense_clarification": "acorde de cuatro notas"
                             }
                         ],
                         "zh": [
@@ -414,9 +414,9 @@
                         {
                             "text": "Mon grand-père se souvenait avec émotion de son instituteur de <w>septième</w> au lycée.",
                             "target_lang_translations": {
-                                "en": "My grandfather fondly remembered his <w>seventh</w>-form teacher at the lycée.",
+                                "en": "My grandfather fondly remembered his <w>Year 6</w> teacher at the lycée.",
                                 "ru": "Мой дедушка с волнением вспоминал своего учителя <w>седьмого</w> класса в лицее.",
-                                "de": "Mein Großvater erinnerte sich voller Rührung an seinen Lehrer aus der <w>siebten</w> Klasse am Lycée.",
+                                "de": "Mein Großvater erinnerte sich voller Rührung an seinen Lehrer aus der <w>fünften</w> Klasse am Lycée.",
                                 "es": "Mi abuelo recordaba con emoción a su maestro de <w>séptimo</w> en el instituto.",
                                 "zh": "我祖父满怀感情地回忆起他读<w>五年级</w>时的老师。"
                             }
@@ -424,9 +424,9 @@
                         {
                             "text": "À cette époque lointaine, l'élève venait d'entrer en <w>septième</w> dans un collège réputé.",
                             "target_lang_translations": {
-                                "en": "In those distant days, the pupil had just started in the <w>seventh</w> form at a well-regarded collège.",
+                                "en": "In those distant days, the pupil had just started <w>Year 6</w> at a well-regarded collège.",
                                 "ru": "В те далёкие времена ученик только что поступил в <w>седьмой</w> класс известной школы.",
-                                "de": "In jener fernen Zeit war der Schüler gerade in die <w>siebte</w> Klasse eines angesehenen Collège eingetreten.",
+                                "de": "In jener fernen Zeit war der Schüler gerade in die <w>fünfte</w> Klasse eines angesehenen Collège eingetreten.",
                                 "es": "En aquella época lejana, el alumno acababa de entrar en <w>séptimo</w> en un colegio de renombre.",
                                 "zh": "在那个遥远的年代，这名学生刚进入一所颇有名气的学校读<w>五年级</w>。"
                             }
@@ -450,9 +450,24 @@
                         "zh": "法国旧学制中的一个年级，相当于小学五年级。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "de": [],
+                        "en": [
+                            {
+                                "target_lang_word": "Year 6",
+                                "target_lang_sense_clarification": "former French class, pupils aged 10–11"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "седьмой класс",
+                                "target_lang_sense_clarification": "старая фр. система, возраст 10 лет"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "fünfte Klasse",
+                                "target_lang_sense_clarification": "alte frz. Stufe, heute CM2"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "séptimo",
@@ -479,7 +494,7 @@
                             "text": "Le joueur surprit son adversaire en étalant sur la table une <w>septième</w> majeure à cœur.",
                             "target_lang_translations": {
                                 "en": "The player surprised his opponent by laying a <w>seventh</w> in hearts on the table.",
-                                "ru": "Игрок удивил соперника, выложив на стол семь карт червовой масти подряд.",
+                                "ru": "Игрок удивил соперника, выложив на стол старшую червовую <w>септиму</w>.",
                                 "de": "Der Spieler überraschte seinen Gegner, indem er eine <w>Sequenz</w> von sieben Herzkarten auf den Tisch legte.",
                                 "es": "El jugador sorprendió a su rival al poner sobre la mesa una <w>séptima</w> mayor de corazones.",
                                 "zh": "这名玩家在桌上摆出一个红心<w>同花顺</w>，让对手大吃一惊。"
@@ -489,7 +504,7 @@
                             "text": "Une telle <w>septième</w> rapporte de nombreux points supplémentaires lors de la partie de piquet.",
                             "target_lang_translations": {
                                 "en": "Such a <w>seventh</w> scores many extra points during a game of piquet.",
-                                "ru": "Такая серия из семи карт приносит много дополнительных очков во время партии в пикет.",
+                                "ru": "Такая <w>септима</w> приносит много дополнительных очков во время партии в пикет.",
                                 "de": "Eine solche <w>Sequenz</w> bringt bei einer Partie Piquet viele zusätzliche Punkte ein.",
                                 "es": "Una <w>séptima</w> así suma muchos puntos adicionales durante la partida de piquet.",
                                 "zh": "这样的<w>同花顺</w>在皮克牌局中能带来许多额外分数。"
@@ -516,9 +531,28 @@
                                 "target_lang_sense_clarification": "piquet card sequence"
                             }
                         ],
-                        "ru": [],
-                        "de": [],
-                        "es": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "септима",
+                                "target_lang_sense_clarification": "пикет, семь карт одной масти подряд"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Septime",
+                                "target_lang_sense_clarification": "Piquet, sieben Karten einer Farbe"
+                            },
+                            {
+                                "target_lang_word": "Sequenz",
+                                "target_lang_sense_clarification": "Kartenfolge gleicher Farbe"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "séptima",
+                                "target_lang_sense_clarification": "siete cartas seguidas del mismo palo"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "同花顺",

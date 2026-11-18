@@ -115,8 +115,8 @@
                         {
                             "text": "L'entraîneur a désigné le meilleur <w>tireur</w> de penalty pour cette finale importante.",
                             "target_lang_translations": {
-                                "en": "The coach picked the best <w>shooter</w> for the penalties in this important final.",
-                                "ru": "Тренер назначил лучшего <w>нападающего</w>, который будет бить пенальти в этом важном финале.",
+                                "en": "The coach picked the best penalty <w>taker</w> for this important final.",
+                                "ru": "Тренер назначил лучшего <w>исполнителя</w> пенальти на этот важный финал.",
                                 "de": "Der Trainer hat für dieses wichtige Finale den besten <w>Elfmeterschützen</w> bestimmt.",
                                 "es": "El entrenador designó al mejor <w>lanzador</w> de penaltis para esta importante final.",
                                 "zh": "教练为这场重要的决赛挑选了最擅长点球的<w>射手</w>。"
@@ -125,7 +125,7 @@
                         {
                             "text": "Le jeune attaquant est devenu le <w>tireur</w> officiel des coups francs de son club.",
                             "target_lang_translations": {
-                                "en": "The young striker has become the club's official <w>shooter</w> on free kicks.",
+                                "en": "The young striker has become the club's designated free-kick <w>taker</w>.",
                                 "ru": "Молодой нападающий стал официальным <w>исполнителем</w> штрафных ударов своего клуба.",
                                 "de": "Der junge Angreifer ist zum offiziellen <w>Freistoßschützen</w> seines Vereins geworden.",
                                 "es": "El joven delantero se ha convertido en el <w>lanzador</w> oficial de tiros libres de su club.",
@@ -151,14 +151,14 @@
                                 "target_lang_sense_clarification": "team sports, shots at goal"
                             },
                             {
-                                "target_lang_word": "striker",
-                                "target_lang_sense_clarification": "football, attacking role"
+                                "target_lang_word": "taker",
+                                "target_lang_sense_clarification": "football, penalties or free kicks"
                             }
                         ],
                         "ru": [
                             {
-                                "target_lang_word": "нападающий",
-                                "target_lang_sense_clarification": "футбол, удары по воротам"
+                                "target_lang_word": "исполнитель",
+                                "target_lang_sense_clarification": "кто бьёт пенальти, штрафные"
                             }
                         ],
                         "de": [
@@ -169,12 +169,16 @@
                         ],
                         "es": [
                             {
-                                "target_lang_word": "delantero",
-                                "target_lang_sense_clarification": "fútbol, posición de ataque"
+                                "target_lang_word": "lanzador",
+                                "target_lang_sense_clarification": "penaltis y faltas"
                             },
                             {
                                 "target_lang_word": "rematador",
-                                "target_lang_sense_clarification": "fútbol, jugadas de remate"
+                                "target_lang_sense_clarification": "remata a puerta"
+                            },
+                            {
+                                "target_lang_word": "tirador",
+                                "target_lang_sense_clarification": "jugador que chuta a puerta"
                             }
                         ],
                         "zh": [
@@ -362,7 +366,7 @@
                             "text": "Notre équipe recherche un bon <w>tireur</w> pour disputer le prochain tournoi.",
                             "target_lang_translations": {
                                 "en": "Our team is looking for a good <w>shooter</w> to compete in the next tournament.",
-                                "ru": "Наша команда ищет хорошего <w>игрока</w>, чтобы выступить в следующем турнире.",
+                                "ru": "Наша команда ищет хорошего <w>стрелка</w>, чтобы выступить в следующем турнире.",
                                 "de": "Unser Team sucht einen guten <w>Schützen</w> für das nächste Turnier.",
                                 "es": "Nuestro equipo busca un buen <w>tirador</w> para disputar el próximo torneo.",
                                 "zh": "我们球队正在物色一名出色的<w>射手</w>，以参加下一场比赛。"
@@ -372,10 +376,10 @@
                             "text": "Le <w>tireur</w> a réalisé un carreau spectaculaire sous les acclamations des spectateurs.",
                             "target_lang_translations": {
                                 "en": "Under the cheers of the spectators, the <w>shooter</w> pulled off a spectacular carreau.",
-                                "ru": "Под аплодисменты зрителей <w>игрок</w> выполнил эффектный бросок.",
+                                "ru": "Под аплодисменты зрителей <w>стрелок</w> выполнил эффектный карро.",
                                 "de": "Unter dem Jubel der Zuschauer hat der <w>Schütze</w> einen spektakulären Carreau geschossen.",
                                 "es": "Bajo los aplausos del público, el <w>tirador</w> logró un espectacular carreau.",
-                                "zh": "在观众的喝彩声中，<w>射手</w>打出了一记精彩的carreau。"
+                                "zh": "在观众的喝彩声中，<w>射手</w>打出了一记精彩的“原位击球”。"
                             }
                         }
                     ],
@@ -396,8 +400,22 @@
                                 "target_lang_sense_clarification": "pétanque, boules game"
                             }
                         ],
-                        "ru": [],
-                        "de": [],
+                        "ru": [
+                            {
+                                "target_lang_word": "стрелок",
+                                "target_lang_sense_clarification": "петанк: выбивает шары соперника"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Schießer",
+                                "target_lang_sense_clarification": "Boule: schießt gegnerische Kugeln weg"
+                            },
+                            {
+                                "target_lang_word": "Schütze",
+                                "target_lang_sense_clarification": "Boule, allgemein"
+                            }
+                        ],
                         "es": [
                             {
                                 "target_lang_word": "tirador",

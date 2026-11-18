@@ -23,7 +23,7 @@
                                 "ru": "Правительство обеспокоено недавним ростом <w>уровня</w> безработицы в стране.",
                                 "de": "Die Regierung macht sich Sorgen über den jüngsten Anstieg der <w>Arbeitslosenquote</w> im Land.",
                                 "es": "El Gobierno está preocupado por el reciente aumento de la <w>tasa</w> de desempleo en el país.",
-                                "zh": "政府担心，该国失业人口的<w>比例</w>近来有所上升。"
+                                "zh": "政府担心该国的失业<w>率</w>近来有所上升。"
                             }
                         },
                         {
@@ -33,7 +33,7 @@
                                 "ru": "<w>Уровень</w> рождаемости в нескольких европейских странах в прошлом году немного снизился.",
                                 "de": "Die <w>Geburtenrate</w> ist im vergangenen Jahr in mehreren europäischen Ländern leicht gesunken.",
                                 "es": "La <w>tasa</w> de natalidad ha disminuido ligeramente en varios países europeos el año pasado.",
-                                "zh": "去年，欧洲多个国家的人口出生<w>比率</w>略有下降。"
+                                "zh": "去年，欧洲多个国家的出生<w>率</w>略有下降。"
                             }
                         }
                     ],
@@ -64,6 +64,10 @@
                             }
                         ],
                         "ru": [
+                            {
+                                "target_lang_word": "уровень",
+                                "target_lang_sense_clarification": "уровень безработицы, рождаемости"
+                            },
                             {
                                 "target_lang_word": "коэффициент",
                                 "target_lang_sense_clarification": "математическое отношение двух величин"
@@ -98,6 +102,10 @@
                             }
                         ],
                         "zh": [
+                            {
+                                "target_lang_word": "率",
+                                "target_lang_sense_clarification": "构词，如失业率、出生率"
+                            },
                             {
                                 "target_lang_word": "比率",
                                 "target_lang_sense_clarification": "数学或统计中的比值"
@@ -467,7 +475,7 @@
                             "text": "Le petit hameau de <w>Taux</w> faisait autrefois partie d'une paroisse indépendante.",
                             "target_lang_translations": {
                                 "en": "The small hamlet of <w>Taux</w> was once part of an independent parish.",
-                                "ru": "Небольшой хутор <w>Taux</w> когда-то входил в состав самостоятельного прихода.",
+                                "ru": "Небольшой хутор <w>То</w> когда-то входил в состав самостоятельного прихода.",
                                 "de": "Der kleine Weiler <w>Taux</w> gehörte früher zu einer eigenständigen Pfarrei.",
                                 "es": "El pequeño caserío de <w>Taux</w> antes formaba parte de una parroquia independiente.",
                                 "zh": "小村落<w>托</w>过去曾隶属于一个独立的教区。"
@@ -477,7 +485,7 @@
                             "text": "Cette route de campagne traverse les terres historiques de <w>Taux</w> et de ses environs.",
                             "target_lang_translations": {
                                 "en": "This country road runs through the historic lands of <w>Taux</w> and its surroundings.",
-                                "ru": "Эта сельская дорога проходит через исторические земли <w>Taux</w> и его окрестности.",
+                                "ru": "Эта сельская дорога проходит через исторические земли <w>То</w> и его окрестности.",
                                 "de": "Diese Landstraße führt durch das historische Gebiet von <w>Taux</w> und seine Umgebung.",
                                 "es": "Esta carretera rural atraviesa las tierras históricas de <w>Taux</w> y sus alrededores.",
                                 "zh": "这条乡间公路穿过<w>托</w>及其周边的历史土地。"
@@ -492,17 +500,42 @@
                     ],
                     "target_lang_definitions": {
                         "en": "A former commune in the Aisne department of France, now merged into Hartennes-et-Taux.",
-                        "ru": "Бывшая французская коммуна в департаменте Эна, ныне входящая в состав коммуны Hartennes-et-Taux.",
+                        "ru": "Бывшая французская коммуна в департаменте Эна, ныне входящая в состав коммуны Артенн-э-То.",
                         "de": "Ehemalige französische Gemeinde im Département Aisne, heute Teil von Hartennes-et-Taux.",
                         "es": "Antiguo municipio francés del departamento de Aisne, hoy integrado en Hartennes-et-Taux.",
-                        "zh": "法国埃纳省的一个旧市镇，现已并入Hartennes-et-Taux。"
+                        "zh": "法国埃纳省的一个旧市镇，现已并入阿尔泰讷-埃-托。"
                     },
                     "translations": {
-                        "en": [],
-                        "ru": [],
-                        "de": [],
-                        "es": [],
-                        "zh": []
+                        "en": [
+                            {
+                                "target_lang_word": "Taux",
+                                "target_lang_sense_clarification": "former commune in the Aisne, France"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "То",
+                                "target_lang_sense_clarification": "бывшая коммуна в департаменте Эна"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Taux",
+                                "target_lang_sense_clarification": "ehemalige Gemeinde im Département Aisne"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "Taux",
+                                "target_lang_sense_clarification": "antiguo municipio del Aisne"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "托",
+                                "target_lang_sense_clarification": "法国埃纳省旧市镇"
+                            }
+                        ]
                     }
                 }
             ]

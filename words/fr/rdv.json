@@ -13,10 +13,24 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "J'ai un <w>rdv</w> chez le médecin demain matin à dix heures."
+                            "text": "J'ai un <w>rdv</w> chez le médecin demain matin à dix heures.",
+                            "target_lang_translations": {
+                                "en": "I have an <w>appointment</w> with the doctor tomorrow morning at ten.",
+                                "ru": "У меня завтра утром в десять часов <w>приём</w> у врача.",
+                                "de": "Ich habe morgen früh um zehn Uhr einen <w>Termin</w> beim Arzt.",
+                                "es": "Tengo <w>cita</w> con el médico mañana por la mañana a las diez.",
+                                "zh": "我明天早上十点有一个去看医生的<w>预约</w>。"
+                            }
                         },
                         {
-                            "text": "N'oublie pas de fixer un <w>rdv</w> avec notre client cette semaine."
+                            "text": "N'oublie pas de fixer un <w>rdv</w> avec notre client cette semaine.",
+                            "target_lang_translations": {
+                                "en": "Don't forget to arrange a <w>meeting</w> with our client this week.",
+                                "ru": "Не забудь назначить <w>встречу</w> с нашим клиентом на этой неделе.",
+                                "de": "Vergiss nicht, diese Woche einen <w>Termin</w> mit unserem Kunden zu vereinbaren.",
+                                "es": "No olvides concertar una <w>reunión</w> con nuestro cliente esta semana.",
+                                "zh": "别忘了这周和我们的客户安排一次<w>会面</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -32,7 +46,74 @@
                             "trait_type": "colloquial",
                             "comment": "Principalement utilisé à l'écrit, dans les messages ou courriels informels"
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Informal abbreviation of 'rendez-vous', mainly used in writing.",
+                        "ru": "Разговорное сокращение от французского слова «rendez-vous» (назначенная встреча или приём), употребляется в основном в письменной речи.",
+                        "de": "Umgangssprachliche Abkürzung für „Rendezvous“, vor allem in schriftlicher Sprache.",
+                        "es": "Abreviatura coloquial de «rendez-vous» (cita previamente acordada), usada sobre todo por escrito.",
+                        "zh": "rendez-vous的口语缩写，多用于书面语，指事先约定好的见面或就诊时间。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "appointment",
+                                "target_lang_sense_clarification": "arranged meeting with a professional"
+                            },
+                            {
+                                "target_lang_word": "meeting",
+                                "target_lang_sense_clarification": "arranged business or social meeting"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "встреча",
+                                "target_lang_sense_clarification": "деловая или личная встреча"
+                            },
+                            {
+                                "target_lang_word": "приём",
+                                "target_lang_sense_clarification": "визит к врачу, специалисту"
+                            },
+                            {
+                                "target_lang_word": "запись",
+                                "target_lang_sense_clarification": "предварительная запись на приём"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Termin",
+                                "target_lang_sense_clarification": "Arzt- oder Behördentermin"
+                            },
+                            {
+                                "target_lang_word": "Besprechung",
+                                "target_lang_sense_clarification": "geschäftliches Treffen"
+                            },
+                            {
+                                "target_lang_word": "Verabredung",
+                                "target_lang_sense_clarification": "privates Treffen"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "cita",
+                                "target_lang_sense_clarification": "encuentro acordado con un profesional"
+                            },
+                            {
+                                "target_lang_word": "reunión",
+                                "target_lang_sense_clarification": "encuentro de trabajo o negocios"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "预约",
+                                "target_lang_sense_clarification": "看病或办事的预先约定"
+                            },
+                            {
+                                "target_lang_word": "会面",
+                                "target_lang_sense_clarification": "事先约定的见面"
+                            }
+                        ]
+                    }
                 }
             ]
         }

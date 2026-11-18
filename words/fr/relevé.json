@@ -18,10 +18,24 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "J'ai reçu mon dernier <w>relevé</w> bancaire par courrier ce matin."
+                            "text": "J'ai reçu mon dernier <w>relevé</w> bancaire par courrier ce matin.",
+                            "target_lang_translations": {
+                                "en": "I received my latest bank <w>statement</w> by post this morning.",
+                                "ru": "Сегодня утром я получил по почте свою последнюю банковскую <w>выписку</w>.",
+                                "de": "Ich habe heute Morgen meinen letzten <w>Kontoauszug</w> per Post erhalten.",
+                                "es": "Esta mañana he recibido por correo mi último <w>extracto</w> bancario.",
+                                "zh": "今天早上，我收到了邮寄来的最新银行<w>对账单</w>。"
+                            }
                         },
                         {
-                            "text": "L'étudiant doit fournir un <w>relevé</w> de notes pour valider son inscription."
+                            "text": "L'étudiant doit fournir un <w>relevé</w> de notes pour valider son inscription.",
+                            "target_lang_translations": {
+                                "en": "The student must provide a <w>transcript</w> of grades to confirm his enrolment.",
+                                "ru": "Студент должен предоставить <w>ведомость</w> оценок, чтобы подтвердить своё зачисление.",
+                                "de": "Der Student muss einen <w>Notenauszug</w> vorlegen, um seine Einschreibung zu bestätigen.",
+                                "es": "El estudiante debe presentar un <w>certificado de notas</w> para formalizar su matrícula.",
+                                "zh": "学生必须提交一份<w>成绩单</w>才能确认注册。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -34,7 +48,70 @@
                         "relevé de compte",
                         "relevé de notes",
                         "relevé d'identité bancaire"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "A summary or detailed record of financial transactions, results or data.",
+                        "ru": "Документ, в котором подробно перечислены финансовые операции, результаты или данные.",
+                        "de": "Zusammenfassung oder genaue Aufzeichnung von Finanzgeschäften, Ergebnissen oder Daten.",
+                        "es": "Documento que resume con detalle operaciones financieras, resultados o datos.",
+                        "zh": "记录财务交易、经营结果或其他数据的汇总或详细文件。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "statement",
+                                "target_lang_sense_clarification": "bank or account summary"
+                            },
+                            {
+                                "target_lang_word": "transcript",
+                                "target_lang_sense_clarification": "academic grades record"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "выписка",
+                                "target_lang_sense_clarification": "выписка по банковскому счёту"
+                            },
+                            {
+                                "target_lang_word": "ведомость",
+                                "target_lang_sense_clarification": "академические оценки студента"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Kontoauszug",
+                                "target_lang_sense_clarification": "Bankkonto, Umsätze"
+                            },
+                            {
+                                "target_lang_word": "Notenauszug",
+                                "target_lang_sense_clarification": "Studium, Prüfungsergebnisse"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "extracto",
+                                "target_lang_sense_clarification": "resumen de cuenta bancaria"
+                            },
+                            {
+                                "target_lang_word": "estado de cuenta",
+                                "target_lang_sense_clarification": "movimientos de una cuenta"
+                            },
+                            {
+                                "target_lang_word": "certificado de notas",
+                                "target_lang_sense_clarification": "calificaciones académicas de un estudiante"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "对账单",
+                                "target_lang_sense_clarification": "银行账户收支明细"
+                            },
+                            {
+                                "target_lang_word": "成绩单",
+                                "target_lang_sense_clarification": "学生学业成绩记录"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "1ae80056-afb4-36c5-9ceb-bc0daff500bb",
@@ -45,17 +122,98 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "L'architecte effectue un <w>relevé</w> précis des dimensions du bâtiment ancien."
+                            "text": "L'architecte effectue un <w>relevé</w> précis des dimensions du bâtiment ancien.",
+                            "target_lang_translations": {
+                                "en": "The architect carries out an accurate <w>survey</w> of the old building's dimensions.",
+                                "ru": "Архитектор проводит точный <w>обмер</w> размеров старого здания.",
+                                "de": "Der Architekt fertigt ein genaues <w>Aufmaß</w> der Abmessungen des alten Gebäudes an.",
+                                "es": "El arquitecto realiza un <w>levantamiento</w> preciso de las dimensiones del edificio antiguo.",
+                                "zh": "建筑师对这座老建筑的尺寸进行了精确的<w>测量</w>。"
+                            }
                         },
                         {
-                            "text": "Les techniciens ont terminé le <w>relevé</w> topographique de la nouvelle route."
+                            "text": "Les techniciens ont terminé le <w>relevé</w> topographique de la nouvelle route.",
+                            "target_lang_translations": {
+                                "en": "The technicians have finished the topographic <w>survey</w> of the new road.",
+                                "ru": "Техники завершили топографическую <w>съёмку</w> новой дороги.",
+                                "de": "Die Techniker haben die topografische <w>Vermessung</w> der neuen Straße abgeschlossen.",
+                                "es": "Los técnicos han terminado el <w>levantamiento</w> topográfico de la nueva carretera.",
+                                "zh": "技术人员已经完成了新公路的地形<w>勘测</w>。"
+                            }
                         }
                     ],
                     "common_phrases": [
                         "faire un relevé",
                         "relevé topographique",
                         "relevé de compteur"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "The action of measuring, noting or recording technical data on site, or the document resulting from it.",
+                        "ru": "Измерение и запись технических данных на месте или документ, в котором они зафиксированы.",
+                        "de": "Das Messen, Erfassen oder Aufnehmen technischer Daten vor Ort oder das Dokument, in dem sie festgehalten werden.",
+                        "es": "Acción de medir, anotar o registrar datos técnicos en el lugar, o el documento que los recoge.",
+                        "zh": "在现场对技术数据进行测量、记录，或指记录这些数据的文件。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "survey",
+                                "target_lang_sense_clarification": "site measurement or land survey"
+                            },
+                            {
+                                "target_lang_word": "reading",
+                                "target_lang_sense_clarification": "meter or gauge value"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "съёмка",
+                                "target_lang_sense_clarification": "топографическая или геодезическая съёмка"
+                            },
+                            {
+                                "target_lang_word": "обмер",
+                                "target_lang_sense_clarification": "замеры размеров здания"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "Aufmaß",
+                                "target_lang_sense_clarification": "Bauwesen, Maße eines Gebäudes"
+                            },
+                            {
+                                "target_lang_word": "Vermessung",
+                                "target_lang_sense_clarification": "Geländeaufnahme, Landvermessung"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "levantamiento",
+                                "target_lang_sense_clarification": "topografía y planos de terreno"
+                            },
+                            {
+                                "target_lang_word": "medición",
+                                "target_lang_sense_clarification": "dimensiones de un edificio"
+                            },
+                            {
+                                "target_lang_word": "lectura",
+                                "target_lang_sense_clarification": "valor de un contador"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "测量",
+                                "target_lang_sense_clarification": "现场尺寸测量"
+                            },
+                            {
+                                "target_lang_word": "勘测",
+                                "target_lang_sense_clarification": "地形与土地勘测"
+                            },
+                            {
+                                "target_lang_word": "读数",
+                                "target_lang_sense_clarification": "仪表或计量器示数"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -71,10 +229,24 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Ce curry traditionnel est particulièrement <w>relevé</w> pour nos habitudes."
+                            "text": "Ce curry traditionnel est particulièrement <w>relevé</w> pour nos habitudes.",
+                            "target_lang_translations": {
+                                "en": "This traditional curry is particularly <w>spicy</w> for our tastes.",
+                                "ru": "Это традиционное блюдо карри для наших вкусов особенно <w>острое</w>.",
+                                "de": "Dieses traditionelle Curry ist für unsere Gewohnheiten besonders <w>scharf</w>.",
+                                "es": "Este curry tradicional resulta especialmente <w>picante</w> para nuestros gustos.",
+                                "zh": "对我们的口味来说，这种传统咖喱特别<w>辣</w>。"
+                            }
                         },
                         {
-                            "text": "Le cuisinier prépare une sauce moins <w>relevée</w> pour les jeunes enfants."
+                            "text": "Le cuisinier prépare une sauce moins <w>relevée</w> pour les jeunes enfants.",
+                            "target_lang_translations": {
+                                "en": "The cook prepares a less <w>spicy</w> sauce for young children.",
+                                "ru": "Повар готовит менее <w>острый</w> соус для маленьких детей.",
+                                "de": "Der Koch bereitet für die kleinen Kinder eine weniger <w>scharfe</w> Soße zu.",
+                                "es": "El cocinero prepara una salsa menos <w>picante</w> para los niños pequeños.",
+                                "zh": "厨师为年幼的孩子准备了一种不那么<w>辛辣</w>的酱汁。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -89,7 +261,66 @@
                         "sauce relevée",
                         "plat relevé",
                         "goût relevé"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Having a sharp, lively and pronounced taste from spices or aromatic herbs.",
+                        "ru": "Имеющий острый, яркий вкус благодаря специям или приправам.",
+                        "de": "Mit kräftiger, deutlich spürbarer Schärfe durch Gewürze oder Kräuter.",
+                        "es": "Que tiene un sabor vivo y fuerte gracias a especias o hierbas aromáticas.",
+                        "zh": "加了香料或辛辣调料，味道鲜明浓烈的。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "spicy",
+                                "target_lang_sense_clarification": "strongly seasoned food"
+                            },
+                            {
+                                "target_lang_word": "piquant",
+                                "target_lang_sense_clarification": "sharp, pungent flavour"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "острый",
+                                "target_lang_sense_clarification": "сильно приправленная еда"
+                            },
+                            {
+                                "target_lang_word": "пряный",
+                                "target_lang_sense_clarification": "с ароматными специями"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "scharf",
+                                "target_lang_sense_clarification": "stark gewürzte Speisen"
+                            },
+                            {
+                                "target_lang_word": "pikant",
+                                "target_lang_sense_clarification": "herzhaft gewürzt, würzig"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "picante",
+                                "target_lang_sense_clarification": "comida muy condimentada"
+                            },
+                            {
+                                "target_lang_word": "especiado",
+                                "target_lang_sense_clarification": "condimentado con especias"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "辣",
+                                "target_lang_sense_clarification": "香料或辣椒调味"
+                            },
+                            {
+                                "target_lang_word": "辛辣",
+                                "target_lang_sense_clarification": "香料调味浓烈"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "b2425395-a91d-3029-a3f3-dc40926a10d9",
@@ -100,10 +331,24 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Il marchait dans le vent froid avec le col de son pardessus bien <w>relevé</w>."
+                            "text": "Il marchait dans le vent froid avec le col de son pardessus bien <w>relevé</w>.",
+                            "target_lang_translations": {
+                                "en": "He walked in the cold wind with his overcoat collar <w>turned up</w> snugly.",
+                                "ru": "Он шёл на холодном ветру с плотно <w>поднятым</w> воротником пальто.",
+                                "de": "Er ging im kalten Wind mit fest <w>hochgeschlagenem</w> Mantelkragen.",
+                                "es": "Caminaba en medio del viento frío con el cuello del abrigo bien <w>levantado</w>.",
+                                "zh": "他顶着寒风走着，大衣那<w>竖起</w>的领子裹得紧紧的。"
+                            }
                         },
                         {
-                            "text": "Elle est apparue avec les cheveux <w>relevés</w> en un élégant chignon."
+                            "text": "Elle est apparue avec les cheveux <w>relevés</w> en un élégant chignon.",
+                            "target_lang_translations": {
+                                "en": "She appeared with her hair <w>swept up</w> in an elegant bun.",
+                                "ru": "Она появилась с волосами, <w>подобранными</w> в элегантный пучок.",
+                                "de": "Sie erschien mit <w>hochgesteckten</w> Haaren in einem eleganten Dutt.",
+                                "es": "Apareció con el pelo <w>recogido</w> en un elegante moño.",
+                                "zh": "她出现时，<w>盘起</w>的头发在脑后挽成了优雅的发髻。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -116,7 +361,70 @@
                     "common_phrases": [
                         "col relevé",
                         "cheveux relevés"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Raised upward or turned up.",
+                        "ru": "Направленный вверх или загнутый кверху.",
+                        "de": "Nach oben gerichtet oder hochgeschlagen.",
+                        "es": "Que está dirigido hacia arriba o doblado hacia arriba.",
+                        "zh": "向上翘起或向上卷起的。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "upturned",
+                                "target_lang_sense_clarification": "collars and brims"
+                            },
+                            {
+                                "target_lang_word": "upswept",
+                                "target_lang_sense_clarification": "hair pinned upward"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "поднятый",
+                                "target_lang_sense_clarification": "воротник, поля шляпы"
+                            },
+                            {
+                                "target_lang_word": "подобранный",
+                                "target_lang_sense_clarification": "волосы, собранные вверх"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "hochgeschlagen",
+                                "target_lang_sense_clarification": "Kragen, Mantelkragen"
+                            },
+                            {
+                                "target_lang_word": "hochgesteckt",
+                                "target_lang_sense_clarification": "Haare, Frisur"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "levantado",
+                                "target_lang_sense_clarification": "cuello o solapas de prendas"
+                            },
+                            {
+                                "target_lang_word": "recogido",
+                                "target_lang_sense_clarification": "cabello sujeto en lo alto"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "竖起",
+                                "target_lang_sense_clarification": "衣领向上竖立"
+                            },
+                            {
+                                "target_lang_word": "上翘",
+                                "target_lang_sense_clarification": "帽檐、嘴角向上翘"
+                            },
+                            {
+                                "target_lang_word": "盘起",
+                                "target_lang_sense_clarification": "头发向上盘成发髻"
+                            }
+                        ]
+                    }
                 },
                 {
                     "sense_id": "aa2e20b0-f5ea-383f-846e-975ced244d88",
@@ -127,10 +435,24 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "L'orateur s'est exprimé dans un style très <w>relevé</w> qui a impressionné le public."
+                            "text": "L'orateur s'est exprimé dans un style très <w>relevé</w> qui a impressionné le public.",
+                            "target_lang_translations": {
+                                "en": "The speaker expressed himself in a very <w>elevated</w> style that impressed the audience.",
+                                "ru": "Оратор выразился в очень <w>возвышенном</w> стиле, который произвёл впечатление на публику.",
+                                "de": "Der Redner drückte sich in einem sehr <w>gehobenen</w> Stil aus, der das Publikum beeindruckte.",
+                                "es": "El orador se expresó con un estilo muy <w>elevado</w> que impresionó al público.",
+                                "zh": "演讲者以极为<w>高雅</w>的风格发表讲话，给听众留下了深刻印象。"
+                            }
                         },
                         {
-                            "text": "Le niveau des discussions scientifiques est resté exceptionnellement <w>relevé</w> tout au long du congrès."
+                            "text": "Le niveau des discussions scientifiques est resté exceptionnellement <w>relevé</w> tout au long du congrès.",
+                            "target_lang_translations": {
+                                "en": "The level of scientific discussion remained exceptionally <w>high</w> throughout the conference.",
+                                "ru": "Уровень научных дискуссий на протяжении всего конгресса оставался исключительно <w>высоким</w>.",
+                                "de": "Das Niveau der wissenschaftlichen Diskussionen blieb während des gesamten Kongresses außergewöhnlich <w>hoch</w>.",
+                                "es": "El nivel de los debates científicos se mantuvo excepcionalmente <w>alto</w> durante todo el congreso.",
+                                "zh": "在整个大会期间，科学讨论始终保持着极其<w>高深</w>的水准。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -144,7 +466,70 @@
                     ],
                     "common_phrases": [
                         "style relevé"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Showing elevation of mind, nobility or high intellectual quality.",
+                        "ru": "Выражающий возвышенность мысли, благородство или высокое интеллектуальное качество.",
+                        "de": "Von geistiger Erhabenheit, Vornehmheit oder hoher intellektueller Qualität zeugend.",
+                        "es": "Que muestra elevación de espíritu, nobleza o alta calidad intelectual.",
+                        "zh": "体现出思想境界高尚、风格雅致或学识水平很高的。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "elevated",
+                                "target_lang_sense_clarification": "lofty style or discourse"
+                            },
+                            {
+                                "target_lang_word": "lofty",
+                                "target_lang_sense_clarification": "noble, high-minded ideas"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "возвышенный",
+                                "target_lang_sense_clarification": "высокий стиль речи"
+                            },
+                            {
+                                "target_lang_word": "высокий",
+                                "target_lang_sense_clarification": "высокий интеллектуальный уровень"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "gehoben",
+                                "target_lang_sense_clarification": "Stil, Ausdrucksweise"
+                            },
+                            {
+                                "target_lang_word": "anspruchsvoll",
+                                "target_lang_sense_clarification": "hohes geistiges Niveau"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "elevado",
+                                "target_lang_sense_clarification": "estilo o lenguaje solemne"
+                            },
+                            {
+                                "target_lang_word": "distinguido",
+                                "target_lang_sense_clarification": "trato y lenguaje refinados"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "高雅",
+                                "target_lang_sense_clarification": "言谈文风雅致"
+                            },
+                            {
+                                "target_lang_word": "崇高",
+                                "target_lang_sense_clarification": "思想境界高尚"
+                            },
+                            {
+                                "target_lang_word": "高深",
+                                "target_lang_sense_clarification": "学问或水平深厚"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -160,12 +545,89 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "Le témoin a <w>relevé</w> le numéro d'immatriculation de la voiture suspecte."
+                            "text": "Le témoin a <w>relevé</w> le numéro d'immatriculation de la voiture suspecte.",
+                            "target_lang_translations": {
+                                "en": "The witness has <w>noted down</w> the registration number of the suspicious car.",
+                                "ru": "Свидетель <w>записал</w> регистрационный номер подозрительной машины.",
+                                "de": "Der Zeuge hat das Kennzeichen des verdächtigen Autos <w>notiert</w>.",
+                                "es": "El testigo ha <w>anotado</w> el número de matrícula del coche sospechoso.",
+                                "zh": "目击者已经<w>记下</w>了那辆可疑汽车的车牌号码。"
+                            }
                         },
                         {
-                            "text": "L'infirmier a <w>relevé</w> le patient tombé par terre avec prudence."
+                            "text": "L'infirmier a <w>relevé</w> le patient tombé par terre avec prudence.",
+                            "target_lang_translations": {
+                                "en": "The nurse has <w>lifted</w> the patient, who had fallen to the ground, with great care.",
+                                "ru": "Медбрат осторожно <w>поднял</w> пациента, упавшего на землю.",
+                                "de": "Der Krankenpfleger hat den zu Boden gestürzten Patienten vorsichtig <w>aufgehoben</w>.",
+                                "es": "El enfermero ha <w>levantado</w> con cuidado al paciente que había caído al suelo.",
+                                "zh": "护士已经小心地把摔倒在地上的病人<w>扶起</w>来了。"
+                            }
                         }
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "en": "Masculine singular past participle of the French verb relever, meaning to lift or to note down.",
+                        "ru": "Причастие прошедшего времени мужского рода единственного числа от французского глагола relever, означающего «поднять» или «записать».",
+                        "de": "Partizip Perfekt im Maskulinum Singular des französischen Verbs „relever“, das „aufheben“ oder „notieren“ bedeutet.",
+                        "es": "Participio pasado masculino singular del verbo francés «relever», que significa «levantar» o «anotar».",
+                        "zh": "法语动词relever的阳性单数过去分词，意为抬起、扶起或记录。"
+                    },
+                    "translations": {
+                        "en": [
+                            {
+                                "target_lang_word": "raise",
+                                "target_lang_sense_clarification": "lift or pick up"
+                            },
+                            {
+                                "target_lang_word": "note",
+                                "target_lang_sense_clarification": "write down, record"
+                            }
+                        ],
+                        "ru": [
+                            {
+                                "target_lang_word": "поднять",
+                                "target_lang_sense_clarification": "поднять с земли"
+                            },
+                            {
+                                "target_lang_word": "записать",
+                                "target_lang_sense_clarification": "записать номер, данные"
+                            }
+                        ],
+                        "de": [
+                            {
+                                "target_lang_word": "aufheben",
+                                "target_lang_sense_clarification": "vom Boden aufheben"
+                            },
+                            {
+                                "target_lang_word": "notieren",
+                                "target_lang_sense_clarification": "Nummern, Daten aufschreiben"
+                            }
+                        ],
+                        "es": [
+                            {
+                                "target_lang_word": "levantar",
+                                "target_lang_sense_clarification": "alzar algo caído del suelo"
+                            },
+                            {
+                                "target_lang_word": "anotar",
+                                "target_lang_sense_clarification": "apuntar un número o dato"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "扶起",
+                                "target_lang_sense_clarification": "扶人或物起身"
+                            },
+                            {
+                                "target_lang_word": "记下",
+                                "target_lang_sense_clarification": "记录号码、数据"
+                            },
+                            {
+                                "target_lang_word": "拾起",
+                                "target_lang_sense_clarification": "从地上捡起"
+                            }
+                        ]
+                    }
                 }
             ]
         }

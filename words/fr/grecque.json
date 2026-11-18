@@ -347,20 +347,20 @@
                         {
                             "text": "Les agents techniques ont vérifié la <w>grecque</w> installée entre les deux rails.",
                             "target_lang_translations": {
-                                "en": "The technicians checked the <w>speed-control device</w> installed between the two rails.",
+                                "en": "The technicians checked the <w>overspeed sensor</w> installed between the two rails.",
                                 "ru": "Техники проверили <w>устройство контроля скорости</w>, установленное между двумя рельсами.",
                                 "de": "Die Techniker haben die zwischen den beiden Schienen eingebaute <w>Geschwindigkeitsüberwachung</w> überprüft.",
-                                "es": "Los técnicos comprobaron el <w>dispositivo de control de velocidad</w> instalado entre los dos raíles.",
+                                "es": "Los técnicos comprobaron la <w>baliza de control de velocidad</w> instalada entre los dos raíles.",
                                 "zh": "技术人员检查了安装在两根钢轨之间的<w>超速防护装置</w>。"
                             }
                         },
                         {
                             "text": "En cas d'excès de vitesse, la <w>grecque</w> déclenche le freinage d'urgence de la rame.",
                             "target_lang_translations": {
-                                "en": "In case of overspeeding, the <w>speed-control device</w> triggers emergency braking of the train.",
+                                "en": "In case of overspeeding, the <w>overspeed sensor</w> triggers emergency braking of the train.",
                                 "ru": "При превышении скорости <w>устройство контроля скорости</w> включает экстренное торможение поезда.",
                                 "de": "Bei Geschwindigkeitsüberschreitung löst die <w>Geschwindigkeitsüberwachung</w> eine Notbremsung des Zuges aus.",
-                                "es": "En caso de exceso de velocidad, el <w>dispositivo de control de velocidad</w> activa el frenado de emergencia del tren.",
+                                "es": "En caso de exceso de velocidad, la <w>baliza de control de velocidad</w> activa el frenado de emergencia del tren.",
                                 "zh": "若发生超速，<w>超速防护装置</w>会启动列车的紧急制动。"
                             }
                         }
@@ -373,7 +373,12 @@
                         "zh": "用于自动控制列车速度的机电装置。"
                     },
                     "translations": {
-                        "en": [],
+                        "en": [
+                            {
+                                "target_lang_word": "overspeed sensor",
+                                "target_lang_sense_clarification": "trackside train speed control"
+                            }
+                        ],
                         "ru": [
                             {
                                 "target_lang_word": "устройство контроля скорости",
@@ -386,7 +391,12 @@
                                 "target_lang_sense_clarification": "Zugsicherung an der Strecke"
                             }
                         ],
-                        "es": [],
+                        "es": [
+                            {
+                                "target_lang_word": "baliza de control de velocidad",
+                                "target_lang_sense_clarification": "dispositivo ferroviario"
+                            }
+                        ],
                         "zh": [
                             {
                                 "target_lang_word": "超速防护装置",

@@ -15,10 +15,18 @@
                     "name_type": "no",
                     "examples": [
                         {
-                            "text": "The patient experienced frequent <w>regurgitation</w> of stomach acid after eating heavy meals."
+                            "text": "The patient experienced frequent <w>regurgitation</w> of stomach acid after eating heavy meals.",
+                            "target_lang_translations": {
+                                "fr": "Le patient souffrait de <w>régurgitations</w> fréquentes d'acide gastrique après des repas copieux.",
+                                "zh": "病人在饱餐后频繁出现胃酸<w>反流</w>。"
+                            }
                         },
                         {
-                            "text": "The doctor diagnosed the murmur as mitral valve <w>regurgitation</w> caused by abnormal blood flow."
+                            "text": "The doctor diagnosed the murmur as mitral valve <w>regurgitation</w> caused by abnormal blood flow.",
+                            "target_lang_translations": {
+                                "fr": "Le médecin a diagnostiqué le souffle au cœur comme une <w>régurgitation</w> mitrale causée par un flux sanguin anormal.",
+                                "zh": "医生诊断该杂音是由血液异常流动引起的二尖瓣<w>反流</w>。"
+                            }
                         }
                     ],
                     "synonyms": [
@@ -28,7 +36,37 @@
                         "acid regurgitation",
                         "valvular regurgitation",
                         "mitral regurgitation"
-                    ]
+                    ],
+                    "target_lang_definitions": {
+                        "fr": "Le fait de faire remonter des aliments ou des liquides avalés dans la bouche, ou le reflux anormal de sang ou d'autres fluides corporels.",
+                        "zh": "吞下的食物或液体倒流回口腔的行为；亦指体内血液或其他体液的逆流、反流。"
+                    },
+                    "translations": {
+                        "fr": [
+                            {
+                                "target_lang_word": "régurgitation",
+                                "target_lang_sense_clarification": "aliments, liquides ou reflux valvulaire"
+                            },
+                            {
+                                "target_lang_word": "reflux",
+                                "target_lang_sense_clarification": "remontée gastrique ou écoulement rétrograde"
+                            }
+                        ],
+                        "zh": [
+                            {
+                                "target_lang_word": "反流",
+                                "target_lang_sense_clarification": "指体液（如胃酸、血液）逆向流动"
+                            },
+                            {
+                                "target_lang_word": "反刍",
+                                "target_lang_sense_clarification": "指动物将胃中食物逆流回口腔咀嚼"
+                            },
+                            {
+                                "target_lang_word": "倒流",
+                                "target_lang_sense_clarification": "指液体逆向流动"
+                            }
+                        ]
+                    }
                 }
             ]
         }
